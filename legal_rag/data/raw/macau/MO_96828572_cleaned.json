@@ -1,0 +1,4868 @@
+[
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "1",
+    "article_number_normalized": "1",
+    "article_title": "標的",
+    "chunk_index": 0,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "本法律訂定保護消費者權益的制度，以保障消費者獲提供具安全及品質的商品或服務、維護經營者與消費者之間所建立的法律關係的公正及平等、提高營商行為的透明度、保障消費者的合法利益及打擊不正當營商行為。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 91,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 3,
+        "matched_keywords": [
+          "消費",
+          "消費者",
+          "營商"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_002",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "2",
+    "article_number_normalized": "2",
+    "article_title": "適用範圍",
+    "chunk_index": 1,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、本法律適用於在澳門特別行政區內經營者與消費者之間因提供商品或服務而建立的法律關係。\n二、為適用上款的規定，透過遠程通訊技術建立的法律關係亦視為在澳門特別行政區內建立的法律關係，但以經營者在澳門特別行政區從事業務，且在澳門特別行政區交付或寄送商品或提供服務為限。\n三、本法律所規定的制度，並不影響其他關於經營者與消費者之間因提供商品或服務而建立的法律關係的法規及其他關於保護消費者權益的法規的適用。\n四、本法律不適用於經營者與消費者之間因涉及下列合同而建立的法律關係：\n（一）幸運博彩、互動博彩、互相博彩或向公眾提供的博彩活動；\n（二）醫療服務；\n（三）教育服務；\n（四）法律服務；\n（五）會計或審計服務；\n（六）涉及有價證券的金融服務或因應金融市場波動而訂定價格的商品及服務的金融服務。\n五、為適用上款（二）項至（四）項的規定，下列用語的含義為：\n（一）“醫療服務”：是指由 第5/2016號法律 《醫療事故法律制度》所指的醫療服務提供者在醫療領域內從事預防、診斷、治療或康復的活動；\n（二）“教育服務”：是指在高等教育及非高等教育的正規教育範圍內的教育活動；\n（三）“法律服務”：是指律師或實習律師在其律師業務及公證員在其公證業務的範圍內從事的活動。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 446,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "financial_regulation",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "financial_regulation",
+        "label_zh": "金融监管",
+        "score": 1,
+        "matched_keywords": [
+          "金融市場"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_003",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "3",
+    "article_number_normalized": "3",
+    "article_title": "消費者",
+    "chunk_index": 2,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "為適用本法律的規定，“消費者”是指獲經營者提供商品或服務以供非業務上使用的自然人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 37,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_004",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "4",
+    "article_number_normalized": "4",
+    "article_title": "經營者",
+    "chunk_index": 3,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "為適用本法律的規定，“經營者＂是指以營利為目的且具有業務性質而從事向消費者提供商品或服務的經濟活動的自然人或法人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_005",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "5",
+    "article_number_normalized": "5",
+    "article_title": "商業場所",
+    "chunk_index": 4,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "為適用本法律的規定，“商業場所”是指經營者以持續或慣常方式在該場所經營其業務的固定或流動的設施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 44,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_006",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "6",
+    "article_number_normalized": "6",
+    "article_title": "保護和教育政策",
+    "chunk_index": 5,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "澳門特別行政區政府負責：\n（一）訂定和執行保護消費者權益的政策，尤其可透過向公眾公佈消費資訊、維護消費交易秩序，以及提供便捷解決消費爭議的方法為之；\n（二）持續推動保護消費者權益的教育政策，並透過以不同推廣方式向學校及團體進行相關教育活動為之；\n（三）向法律專業人員及公共行政工作人員推動關於消費者事宜的教育政策及培訓。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 143,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_007",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "7",
+    "article_number_normalized": "7",
+    "article_title": "消費者委員會",
+    "chunk_index": 6,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、消費者委員會（下稱“消委會”）負責：\n（一）協助澳門特別行政區政府制定、推廣和推行關於保護消費者權益的政策及措施，並就執行該等政策及措施的事宜給予意見、提交報告、進行研究和提出建議；\n（二）接收和處理消費者提出的投訴，並轉介和跟進屬行政當局的其他部門的職責範圍的投訴，以及透過機構調解及仲裁，協助當事人解決消費爭議；\n（三）監察本法律的遵守情況，尤其是有關提供資訊、不正當營商行為及展銷或展覽的銷售活動，以及就行政違法行為提起程序並科處行政處罰。\n二、消委會須履行法律賦予的其他職責。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 213,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 3,
+        "matched_keywords": [
+          "消費",
+          "消費者",
+          "營商"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_008",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "8",
+    "article_number_normalized": "8",
+    "article_title": "合作義務",
+    "chunk_index": 7,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、消委會為執行本法律而提出要求時，任何公共及私人實體均有義務提供合作。\n二、如消費者向消委會提出的事項屬其他部門的職責範圍，則應將有關事項轉介予行政當局相關主管部門；該等主管部門應於三十日內將已採取的措施通知消委會，以便消委會將有關事項的跟進情況告知消費者。\n第二章\n消費者權利",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 129,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_009",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "9",
+    "article_number_normalized": "9",
+    "article_title": "消費者權利",
+    "chunk_index": 8,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "消費者享有下列權利：\n（一）獲得指導及取得資訊；\n（二）健康及安全受保障；\n（三）獲得具品質的商品及服務；\n（四）經濟利益受保障；\n（五）獲得損害賠償；\n（六）參與在法律上有關自身權益的訂定；\n（七）獲得法律保護及便利訴諸司法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 85,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_010",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "10",
+    "article_number_normalized": "10",
+    "article_title": "獲得指導權利",
+    "chunk_index": 9,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "消費者有權透過澳門特別行政區政府持續推動的教育活動或推廣與消費相關的訊息，獲得有關消費和消費者權益方面的指導。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_011",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "11",
+    "article_number_normalized": "11",
+    "article_title": "取得資訊權利",
+    "chunk_index": 10,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "一、在協商或訂立合同階段，消費者均有權取得對了解商品或服務屬必要的資訊。\n二、經營者須適時以清楚、準確及易明的方式向消費者提供下列資訊：\n（一）經營者的認別資料，尤其是經營者的名稱或商業名稱；\n（二）經營者的聯繫方法，尤其是電話號碼、圖文傳真號碼或電郵地址；\n（三）商品或服務的價格及計量單位；\n（四）價金的支付方式；\n（五）交付商品或提供服務的方式；\n（六）商品或服務的特徵，尤其是商品的成分、規格及型號，但涉及生產秘密除外；\n（七）經營者處理消費者投訴的方法；\n（八）消委會的聯絡資料。\n三、除了上款所指的資訊外，經營者亦須適時以清楚、準確及易明的方式向消費者提供下列倘有的資訊：\n（一）商業場所名稱及地址；\n（二）優惠或折扣及其持續時間，以及最低消費；\n（三）費用及任何其他負擔，尤其是商品的運輸附加費、郵費或交付費；\n（四）約定的履行模式，以及交付商品或提供服務的限期；\n（五）使用特定商品或提供特定服務時須特別注意的事項及副作用；\n（六）正常使用有危險性的商品或服務時可能出現的、危及消費者健康及安全的風險；\n（七）商品的安裝及使用方法；\n（八）商品或服務的保證條件；\n（九）售後服務範圍，包括倘有的供應商品的零部件及配件；\n（十）合同的生效期；\n（十一）如屬期限不確定或自動續期的合同，其單方終止或不續期的條件，以及相關的後果；\n（十二）如屬設有最短合同期限的合同，其提前終止的條件。\n四、以上數款的規定亦適用於與主商品或服務一併提供或附帶提供予消費者的商品或服務。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 529,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_012",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "12",
+    "article_number_normalized": "12",
+    "article_title": "提供資訊義務",
+    "chunk_index": 11,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "一、生產商、製造商、進口商、經銷商及商品或服務的其他提供者亦有義務提供上條所指資訊，以便生產或經營商品或服務的每一環節參與者，均具備條件履行向下一環節參與者提供資訊的義務，直至將資訊提供予作為資訊最終對象的消費者為止。\n二、如上條第二款（六）項規定的資訊涉及生產秘密，則免除提供有關資訊。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 130,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 3,
+        "matched_keywords": [
+          "消費",
+          "消費者",
+          "營商"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_013",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "13",
+    "article_number_normalized": "13",
+    "article_title": "特別資訊",
+    "chunk_index": 12,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "一、如商品在使用、接觸或耗用上須特別小心或有特別提示，又或須遵循特定程序或特殊的使用、接觸或耗用的方式，則須附有以中文及葡文書寫，或以中文及英文書寫的使用說明書或使用手冊，方可進入市場。\n二、如上款所指商品為進口商品，進口商須提供附有以中文及葡文書寫，或以中文及英文書寫的相應使用說明書或使用手冊，且內容不得較原產地使用說明書或使用手冊為簡。\n三、第一款所指商品類別以公佈於《澳門特別行政區公報》的經濟財政司司長批示訂定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 192,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_014",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "14",
+    "article_number_normalized": "14",
+    "article_title": "價格標示方式",
+    "chunk_index": 13,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "一、經營者須以可見、清楚易讀及毫無疑問的方式標示商品或服務的價格及計量單位，供消費者預先查閱。\n二、商品或服務的價格須以澳門特別行政區的法定流通貨幣標示。\n三、商品價格須在商品本身或其包裝上標示，如因商品體積細小、散裝出售或其他性質特殊的原因，不可能或不適宜在商品本身或其包裝上標示，則須以其他足以引起消費者注意的方式標示。\n四、服務價格和倘有的時間單位須在商業場所張貼或以價目表的方式提供。\n五、如消費者繳費時被要求支付的價格與商品或服務所標示的價格不相符，消費者有權要求按所標示的價格支付價金，但其要求按一般規定構成權利濫用者除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 246,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_015",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "15",
+    "article_number_normalized": "15",
+    "article_title": "資訊監控和公佈",
+    "chunk_index": 14,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "為確保第十一條至第十四條及第三十條所規定的提供資訊義務得以嚴格遵守，以及可向公眾公佈關乎消費者利益的零售層面資訊，消委會可要求經營者自接獲通知之日或自推定接獲通知之日起七日內提供上述資訊。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 91,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "surveillance_and_interception",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "通讯截取",
+          "监听",
+          "监控"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_016",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "16",
+    "article_number_normalized": "16",
+    "article_title": "健康及安全保障",
+    "chunk_index": 15,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "一、經營者不得提供危害消費者健康及安全的商品或服務，尤其是在正常使用或可合理預見使用的情況下，會導致按照保護消費者的健康及安全的標準屬於不可接受的危險的商品或服務。\n二、澳門特別行政區政府負責採取必要措施，以防止向消費者提供對其健康或安全構成危險的商品或服務。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 122,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_017",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "17",
+    "article_number_normalized": "17",
+    "article_title": "商品及服務的品質保障",
+    "chunk_index": 16,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "供消費的商品及服務應按照法律規定符合指定用途和產生應有作用，如未有相關法律規定，則應符合消費者的正當期望。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 50,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_018",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "18",
+    "article_number_normalized": "18",
+    "article_title": "經濟利益保障",
+    "chunk_index": 17,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "一、於合同的準備、形成及生效期間，在經營者與消費者之間所建立的法律關係中均須體現各參與者的平等、誠實及善意。\n二、為防止因採用預先設定的合同而引致的濫用情況，經營者：\n（一）須以清楚及準確的方式訂定合同的一般條款，包括載於個別化合同內的條款；\n（二）不得在個別化合同內加入造成消費者損失的嚴重失衡條款。\n三、取得商品的消費者有權獲提供相應售後服務，包括在所供應商品的一般平均使用期內獲提供零部件及配件。\n四、禁止經營者限定消費者必須購買特定商品或服務方向其提供所欲購買的商品或服務。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 216,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_019",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "19",
+    "article_number_normalized": "19",
+    "article_title": "未曾明示訂購或要求的商品或服務",
+    "chunk_index": 18,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "一、對未曾明示訂購或要求的商品或服務，或不構成為履行有效合同而提供的商品或服務，消費者無需支付費用，亦無需承擔退還商品或作出補償的負擔，以及商品腐壞或毀損的風險責任。\n二、為適用上款的規定，在獲提供未曾訂購或要求的商品或服務後，消費者不作出回應，並不等同接受有關法律行為的意思表示。\n三、如消費者選擇退還商品或經營者要求消費者退還商品，則消費者有權自該商品被經營者接收之日起三十日內獲償還由此引致的開支。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 186,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_020",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "20",
+    "article_number_normalized": "20",
+    "article_title": "收集商品及服務的資訊",
+    "chunk_index": 19,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "一、為保障消費者經濟利益，如向消費者提供的商品或服務的價格強烈波動或不合理高企，為調查和研究相關價格的形成，消委會得收集所需的最新、客觀及完整的資訊。\n二、經營者、生產商、製造商、進口商、經銷商及其他參與生產或經營商品或服務環節的商品或服務提供者均有義務提供上款所指資訊。\n三、上款所指義務，不得以商業秘密為由而拒絕履行。\n四、收集第一款所指資訊前，消委會應聽取保護消費者權益的公共諮詢組織的意見。\n五、收集第一款所指資訊，應按消委會預先制定並獲其監督實體核准的計劃，遵循善意及適度原則而為之。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 221,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 3,
+        "matched_keywords": [
+          "消費",
+          "消費者",
+          "營商"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_021",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "21",
+    "article_number_normalized": "21",
+    "article_title": "收據",
+    "chunk_index": 20,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "一、消費者提出要求時，經營者須發出已支付商品或服務價金的收據。\n二、上款所指收據，須載有經營者的認別資料、聯絡方法、交易日期、所提供的每一商品或服務的名稱、價格及總額，但法律另有規定者除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_022",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "22",
+    "article_number_normalized": "22",
+    "article_title": "損害賠償",
+    "chunk_index": 21,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "消費者有權因獲提供與合同規定不相符的商品或服務、支援不足或違反合同而引致的損害依法獲得賠償。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 44,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_023",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "23",
+    "article_number_normalized": "23",
+    "article_title": "參與權",
+    "chunk_index": 22,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "一、在對影響消費者依法獲保護的權益的立法程序中，消費者有權表達意見及被諮詢意見。\n二、上款所指被諮詢意見的權利是透過消費者的代表實體行使，並須在進行有關的立法程序時聽取該等實體的意見，或在欠缺有關的代表實體時，透過公開諮詢為之。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 105,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_024",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "24",
+    "article_number_normalized": "24",
+    "article_title": "消費者權利的強制性",
+    "chunk_index": 23,
+    "chapter": "第二章 消費者權利",
+    "chapter_title": "",
+    "text_zh": "一、本法律所規定的消費者權利，不得因當事人的意思而被排除或限制。\n二、任何排除或限制本法律賦予消費者權利的合同條款，均屬無效。\n三、合同條款的無效，並不導致整份合同非有效，且僅可由消費者提出合同條款的無效，並可選擇維持合同其餘有效部分。\n第三章\n對消費者實施的不正當營商行為\n第一節\n一般規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 129,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 3,
+        "matched_keywords": [
+          "消費",
+          "消費者",
+          "營商"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_025",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "25",
+    "article_number_normalized": "25",
+    "article_title": "不正當營商行為",
+    "chunk_index": 24,
+    "chapter": "第一節 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、為適用本法律的規定，“不正當營商行為”是指不按職業操守而作出扭曲或可實質扭曲消費者交易決定的行為，或作出基於某類商品或服務而令消費者的交易決定受影響的行為。\n二、有關營商行為屬正當或不正當是參考一般消費者的標準來評定，或如對象為某一特定消費者群體，則參考該群體內一般成員的標準來評定。\n三、誤導性營商行為及威嚇性營商行為均構成對消費者實施不正當營商行為。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 165,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 3,
+        "matched_keywords": [
+          "消費",
+          "消費者",
+          "營商"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_026",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "26",
+    "article_number_normalized": "26",
+    "article_title": "禁止實施不正當營商行為及合同的非有效",
+    "chunk_index": 25,
+    "chapter": "第一節 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、禁止經營者向消費者實施不正當營商行為。\n二、應消費者的請求，對於受本章所規定的任一行為影響而訂立的合同，可根據《民法典》第二百八十條的規定予以撤銷。\n三、消費者亦可遵循衡平原則申請變更合同，而非將之撤銷。\n四、如非有效僅涉及合同的某一或某部分條款，消費者可選擇維持合同其餘有效部分。\n第二節\n誤導性及威嚇性營商行為",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 140,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 3,
+        "matched_keywords": [
+          "消費",
+          "消費者",
+          "營商"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_027",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "27",
+    "article_number_normalized": "27",
+    "article_title": "誤導性營商行為",
+    "chunk_index": 26,
+    "chapter": "第二節 誤導性及威嚇性營商行為",
+    "chapter_title": "",
+    "text_zh": "經營者作出以下營商行為視為誤導性營商行為：\n（一）向消費者宣稱正以特價或減價提供某商品或服務，但經與經營者對相同商品或服務在過去三十日所作的最低原價對照後，發現所宣稱的特價或減價後的價格等於或高於最低原價；\n（二）傳遞有關商品的買賣或服務的提供屬合法或令消費者產生該印象的失實訊息；\n（三）聲稱其已獲得由保護消費者實體、食品安全實體或能賦予消費者信心及安全的其他性質的實體所發出的認證，或在其商業場所或在經營其業務的地方內以任何方式展示上述認證，但有關資訊與事實不符；\n（四）在推廣某商品或服務時，聲稱某名人或公眾人物曾經取得或經常取得該商品或服務，但有關資訊與事實不符；\n（五）將某些權利表現得由其特有及提供，但事實上該等權利已由法律規定屬消費者所有；\n（六）推銷某一類似由特定生產商、製造商或服務提供者生產或提供的商品或服務，令消費者以為該商品或服務是出自該特定生產商、製造商或服務提供者；\n（七）誇大地聲稱商品或服務能治療疾病、功能障礙或畸形；\n（八）為使消費者即時作出決定，失實地聲稱商品或服務僅可於極短限定時間內提供，又或僅可在特別條件下於極短限定時間內提供；\n（九）在消費者或其家人的人身安全或其財產風險的性質及範圍方面作出誇大或失實的陳述，表示如消費者不購買有關商品或不同意有關服務的提供，將出現該等風險；\n（十）有意引導消費者以較一般市場條件不利的條件購買商品或訂立提供服務合同，而傳播關於市場狀況或關於取得商品或服務的可能性的失實資訊；\n（十一）在培訓或教育活動上推廣銷售商品或服務，但之前並沒有通知消費者在活動進行期間或活動前後有銷售商品或服務的推廣時間；\n（十二）有意圖推銷另一不同商品或服務而向消費者建議以某價格購買某一商品或服務，但隨後拒絕向消費者提供所建議的商品或服務，又或拒絕於合理限期內訂購、交付或提供該所建議的商品或服務；\n（十三）向消費者提交商品或服務的報價單或預算，其中有些項目描述得含糊不清、不確定或沒有明確標示價格，又或註明相關價格在履行合同時方可訂定；\n（十四）表示商品或服務為“免費”、“不收費”、“不另收費”或同類情況，但事實上要求消費者支付商品或服務的費用或額外費用以取得該商品或服務；\n（十五）於宣傳商品或服務時表示贈送額外商品或服務，但事實上要求消費者支付相關費用或額外費用以取得所贈送的商品或服務。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 882,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection",
+      "legal_basis_and_consent"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 3,
+        "matched_keywords": [
+          "消費",
+          "消費者",
+          "營商"
+        ]
+      },
+      {
+        "id": "legal_basis_and_consent",
+        "label_zh": "法律依据与同意",
+        "score": 1,
+        "matched_keywords": [
+          "同意"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_028",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "28",
+    "article_number_normalized": "28",
+    "article_title": "威嚇性營商行為",
+    "chunk_index": 27,
+    "chapter": "第二節 誤導性及威嚇性營商行為",
+    "chapter_title": "",
+    "text_zh": "經營者作出以下營商行為視為威嚇性營商行為：\n（一）令消費者產生如不購買商品或服務或不購買其不欲購買或未要求購買的額外商品或服務則無法離開商業場所或經營其業務的地方的印象；\n（二）以電話、圖文傳真、電子郵件或其他遠程通訊方式，向消費者持續作出其並未要求作出的消費請求，但以履行合同義務為理由者除外；\n（三）到訪消費者住所與消費者接觸，且不理會消費者要求其離開或不要重返的請求，但以履行合同義務為理由者除外；\n（四）要求擬行使權利的消費者遞交某些文件、作出某些行為或履行某些手續，但這些文件、行為或手續屬不必要、不合理、不適當或不公平，尤其是要求消費者在不適當的時間前往商業場所或其他地方、要求其前往澳門特別行政區以外的地點，或要求其填寫一些過於冗贅或複雜的表格，以勸阻消費者行使其合同權利；\n（五）要求擬根據保險單的規定請求賠償的消費者提供文件，但按照合理標準，該等文件對有關請求的審批並不重要，又或多次就相關請求不作出回應，以勸阻消費者行使其合同權利；\n（六）令消費者產生已贏取、將贏取或藉作出特定行為能贏取獎品或其他利益的虛假印象，但實際上並不存在任何獎品或利益，又或消費者為領取獎品或獲得利益而作出的行為將令其支付或承擔費用。\n第四章\n展銷或展覽的銷售活動",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 481,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 3,
+        "matched_keywords": [
+          "消費",
+          "消費者",
+          "營商"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_029",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "29",
+    "article_number_normalized": "29",
+    "article_title": "定義",
+    "chunk_index": 28,
+    "chapter": "第四章 展銷或展覽的銷售活動",
+    "chapter_title": "",
+    "text_zh": "為適用本法律的規定，“展銷或展覽的銷售活動”是指由主辦實體舉辦，以便由多個經營者於一定期限內進行銷售商品或提供服務的活動。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 56,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_030",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "30",
+    "article_number_normalized": "30",
+    "article_title": "提供資訊",
+    "chunk_index": 29,
+    "chapter": "第四章 展銷或展覽的銷售活動",
+    "chapter_title": "",
+    "text_zh": "一、在不影響第十一條至第十四條規定適用的情況下，參與展銷或展覽的銷售活動的經營者須向該等活動的主辦實體提供其認別資料、地址及聯絡方法。\n二、主辦實體須於展銷或展覽的銷售活動開始之日前至少兩個工作日，向消委會提供該等活動的舉行地點、開始和結束日期，以及上款所指的資料。\n三、主辦展銷或展覽的銷售活動的公共部門或公共實體，排除適用上款的規定。\n第五章\n供應消費品合同及向消費者提供服務的合同\n第一節\n供應消費品合同",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 187,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_031",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "31",
+    "article_number_normalized": "31",
+    "article_title": "範圍",
+    "chunk_index": 30,
+    "chapter": "第一節 供應消費品合同",
+    "chapter_title": "",
+    "text_zh": "本節適用於消費品買賣合同及以供應消費品為標的之其他合同，尤其是承攬合同及租賃合同。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 1,
+        "matched_keywords": [
+          "消費"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_032",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "32",
+    "article_number_normalized": "32",
+    "article_title": "消費品",
+    "chunk_index": 31,
+    "chapter": "第一節 供應消費品合同",
+    "chapter_title": "",
+    "text_zh": "為適用本法律的規定，“消費品＂是指由經營者向消費者提供以供作非業務上使用的有形動產。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 38,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_033",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "33",
+    "article_number_normalized": "33",
+    "article_title": "與合同規定相符的消費品",
+    "chunk_index": 32,
+    "chapter": "第一節 供應消費品合同",
+    "chapter_title": "",
+    "text_zh": "一、經營者有義務向消費者交付與合同規定相符的消費品。\n二、在評估消費品是否與合同規定相符時，尤其應考慮消費品是否存在以下情況：\n（一）與合同所載的數量、品質及種類相符；\n（二）按合同所載方法放置或包裝；\n（三）與配件、安裝指引或合同所訂定的其他指引一併提供；\n（四）符合消費者所要求的特別用途，而該要求已於訂立合同時由消費者告知，且已為經營者所接受。\n三、如訂立合同前消費者已獲經營者告知並說明有關消費品與合同規定不相符，則該消費品視為與合同規定相符。\n四、如消費品由經營者安裝或在其負責下安裝而安裝不正確，又或消費品由消費者安裝但因安裝指引有誤而導致安裝不正確，則不正確安裝的消費品視為與合同規定不相符。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 268,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_034",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "34",
+    "article_number_normalized": "34",
+    "article_title": "與合同規定相符的推定",
+    "chunk_index": 33,
+    "chapter": "第一節 供應消費品合同",
+    "chapter_title": "",
+    "text_zh": "如合同未有明確約定，則推定屬下列情況的消費品與合同規定相符：\n（一）符合同類消費品的一般用途；\n（二）具備經營者所展示的消費品的樣本或模型的品質及性能；\n（三）具備同類消費品的慣常品質、性能及其他特徵，尤其是在耐用性及相容性方面，而該等慣常品質、性能及特徵因消費品的性質，以及倘有由經營者、生產商、製造商、進口商或經銷商所作的關於消費品具體特徵的公開聲明，尤其是在廣告或標籤上所作的公開聲明，而使消費者可合理期待；\n（四）有關消費品在正常使用或可合理預見的使用情況下，具備同類消費品對人的健康及身體完整性的一般安全性。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 230,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_035",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "35",
+    "article_number_normalized": "35",
+    "article_title": "消費品與合同規定相符的評估時刻",
+    "chunk_index": 34,
+    "chapter": "第一節 供應消費品合同",
+    "chapter_title": "",
+    "text_zh": "消費品是否與合同規定相符，應以消費品交付予消費者時的狀況評估，而不考慮訂立合同時該消費品的狀況。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 45,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_036",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "36",
+    "article_number_normalized": "36",
+    "article_title": "消費品交付後與合同規定不相符",
+    "chunk_index": 35,
+    "chapter": "第一節 供應消費品合同",
+    "chapter_title": "",
+    "text_zh": "一、經營者須就消費品交付予消費者之日起一年內顯現的任何與合同規定不相符承擔責任，但不影響第三十八條第三款規定的適用。\n二、如消費品於交付之日起六個月內顯現與合同規定不相符，則推定該不相符於交付之時已存在。\n三、如屬易腐壞的消費品或根據所顯現的不相符的特徵，該不相符不可能於交付消費品之時已存在，又或經營者證明不相符是在消費品交付後方出現，則排除上款所指推定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 166,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_037",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "37",
+    "article_number_normalized": "37",
+    "article_title": "消費品與合同規定不相符的後果",
+    "chunk_index": 36,
+    "chapter": "第一節 供應消費品合同",
+    "chapter_title": "",
+    "text_zh": "一、獲提供與合同規定不相符的消費品的消費者，可在無須承擔費用的情況下，要求經營者對該消費品進行維修、予以更換、減價或解除合同。\n二、為適用上款的規定，消費者無須證明經營者的過錯，但仍須證明經營者須負上相關責任所取決的其他前提條件。\n三、消費者可行使第一款所指任一權利，但該權利的具體行使屬不可能、對經營者的要求不符合比例或按一般規定構成權利濫用者除外。\n四、經考慮以下因素，在比較其他解決方法後，如消費者具體行使第一款所指任一權利時，會對經營者造成不合理的經營成本，則推定該權利的具體行使對經營者的要求不符合比例：\n（一）當沒有出現與合同規定不相符的情況時，消費品本身應有的價值；\n（二）與合同規定不相符的重要性；\n（三）其他解決方法不會對消費者造成嚴重不便。\n五、維修或更換消費品，須自經營者獲退還消費品之日起三十日內完成，但基於經適當證明的可考量原因而無法於該期間內完成者除外。\n六、如經營者未能遵守上款所指期間，消費者可選擇行使第一款所指的任一其他權利。\n七、本條賦予消費者的權利轉移至以無償或有償方式取得該消費品而用於非業務用途的自然人。\n八、為行使根據上款轉移的權利，取得消費品而用於非業務用途的自然人，須向經營者提交經營者與消費者訂立合同的證明文件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 478,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_038",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "38",
+    "article_number_normalized": "38",
+    "article_title": "行使權利的期間",
+    "chunk_index": 37,
+    "chapter": "第一節 供應消費品合同",
+    "chapter_title": "",
+    "text_zh": "一、如消費品自交付予消費者之日起一年內顯現與合同規定不相符，消費者可行使上條第一款所規定的權利。\n二、為行使上條第一款所規定的權利，消費者須於上款所指期間內，且自知悉與合同規定不相符之日起三十日內，將消費品與合同規定不相符告知經營者。\n三、第一款所規定的期間自消費者作出告知之日起，在因對消費品進行檢查、維修或更換而無法使用有關消費品的期間內中止計算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 162,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_039",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "39",
+    "article_number_normalized": "39",
+    "article_title": "失效",
+    "chunk_index": 38,
+    "chapter": "第一節 供應消費品合同",
+    "chapter_title": "",
+    "text_zh": "一、如消費者未就消費品與合同規定不相符作出告知，則第三十七條第一款所賦予消費者的權利，於告知期間屆滿後失效。\n二、如消費者作出告知，第三十七條第一款所賦予消費者的權利及為行使該等權利的司法或仲裁的訴權，自作出告知之日起六個月後失效。\n三、上款所規定的期間自消費者作出告知之日起，在因對消費品進行檢查、維修或更換而無法使用有關消費品的期間內中止計算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 160,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_040",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "40",
+    "article_number_normalized": "40",
+    "article_title": "求償權",
+    "chunk_index": 39,
+    "chapter": "第一節 供應消費品合同",
+    "chapter_title": "",
+    "text_zh": "負有第三十七條所規定責任的經營者，對於向其提供與合同規定不相符的消費品的生產商、製造商、進口商、經銷商及其他供應商或以分包合同向其提供服務的人，享有請求償還其所承受的一切損失的權利，但被請求人能證明交付商品予經營者時該不相符並不存在者除外。\n第二節\n向消費者提供服務的合同",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 127,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_041",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "41",
+    "article_number_normalized": "41",
+    "article_title": "範圍",
+    "chunk_index": 40,
+    "chapter": "第二節 向消費者提供服務的合同",
+    "chapter_title": "",
+    "text_zh": "一、本節適用於經營者有義務向消費者提供服務的合同，但承攬合同除外。\n二、本節不適用於經二月二十五日 第2/78/M號法律 《職業稅》核准的職業稅章程的自由及專門職業表中所載的自由職業者所提供的服務，但僅指已有專有法規規定其責任制度的自由職業者。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 105,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_042",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "42",
+    "article_number_normalized": "42",
+    "article_title": "與合同規定相符的服務",
+    "chunk_index": 41,
+    "chapter": "第二節 向消費者提供服務的合同",
+    "chapter_title": "",
+    "text_zh": "一、經營者有義務向消費者提供與合同規定相符的服務。\n二、在評估服務是否與合同規定相符時，尤其應考慮服務是否存在以下情況：\n（一）與合同所載的數量及質素相符；\n（二）與消費者所提出的具體要求或指示相符；\n（三）符合消費者所要求的目的，而該要求已於訂立合同時由消費者告知，且已為經營者所接受。\n三、如提供服務時或提供服務後存在或將可能存在另一更完善的服務，所提供的服務不因此被視為與合同規定不相符的服務。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 176,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_043",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "43",
+    "article_number_normalized": "43",
+    "article_title": "與合同規定相符的推定",
+    "chunk_index": 42,
+    "chapter": "第二節 向消費者提供服務的合同",
+    "chapter_title": "",
+    "text_zh": "如合同未有明確約定，則推定屬下列情況的服務與合同規定相符：\n（一）符合同類服務的一般目的；\n（二）具備同類服務的質素，而該等質素使消費者可合理期待；\n（三）與適用於經營者所屬行業的倘有職業守則所規範的標準相符；\n（四）具備同類服務對人的健康及身體完整性的一般安全性。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 114,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_044",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "44",
+    "article_number_normalized": "44",
+    "article_title": "服務與合同規定不相符的後果",
+    "chunk_index": 43,
+    "chapter": "第二節 向消費者提供服務的合同",
+    "chapter_title": "",
+    "text_zh": "一、獲提供與合同規定不相符的服務的消費者可在無須承擔費用下，要求經營者再次提供服務、減價或解除合同。\n二、為適用上款的規定，經營者被推定為有過錯，但消費者仍須證明經營者須負上相關責任所取決的其他前提條件。\n三、消費者可行使第一款所指任一權利，但該權利的具體行使屬不可能、根據經適當配合的第三十七條第四款的規定對經營者的要求不符合比例或按一般規定構成權利濫用者除外。\n四、再次提供的服務，須自告知經營者有關與合同規定不相符之日起三十日內完成，但基於經適當證明的可考量原因而無法於該期間內完成者除外。\n五、如經營者未能遵守上款所指期間，消費者可選擇行使第一款所指的任一其他權利。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 264,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_045",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "45",
+    "article_number_normalized": "45",
+    "article_title": "行使權利的期間",
+    "chunk_index": 44,
+    "chapter": "第二節 向消費者提供服務的合同",
+    "chapter_title": "",
+    "text_zh": "一、如服務自交付予消費者之日起三十日內顯現與合同規定不相符，消費者可行使上條第一款所規定的權利。\n二、為行使上條第一款所規定的權利，消費者須於上款所指期間內，且自知悉與合同規定不相符之日起七日內，將服務與合同規定不相符告知經營者。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 106,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_046",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "46",
+    "article_number_normalized": "46",
+    "article_title": "失效",
+    "chunk_index": 45,
+    "chapter": "第二節 向消費者提供服務的合同",
+    "chapter_title": "",
+    "text_zh": "一、如消費者未就服務與合同規定不相符作出告知，則第四十四條第一款所賦予消費者的權利，於告知期間屆滿後失效。\n二、如消費者作出告知，第四十四條第一款所賦予消費者的權利及為行使該等權利的司法或仲裁的訴權，自作出告知之日起六個月後失效。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 106,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_047",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "47",
+    "article_number_normalized": "47",
+    "article_title": "求償權",
+    "chunk_index": 46,
+    "chapter": "第二節 向消費者提供服務的合同",
+    "chapter_title": "",
+    "text_zh": "負有第四十四條所規定責任的經營者，對於以分包合同向其提供服務的人，又或對於向其提供瑕疵商品而引致其所提供的服務與合同規定不相符的人，享有請求償還其所承受的一切損失的權利，但被請求人能證明該不相符的服務並非由其所引致，又或在交付商品予經營者時該瑕疵並不存在者除外。\n第六章\n遠程訂立的合同、商業場所以外訂立的合同及預繳式合同\n第一節\n一般規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 159,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_048",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "48",
+    "article_number_normalized": "48",
+    "article_title": "適用制度",
+    "chunk_index": 47,
+    "chapter": "第一節 一般規定",
+    "chapter_title": "",
+    "text_zh": "本章所規定的合同，視乎具體情況亦適用上一章的規定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 23,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_049",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "49",
+    "article_number_normalized": "49",
+    "article_title": "排除",
+    "chunk_index": 48,
+    "chapter": "第一節 一般規定",
+    "chapter_title": "",
+    "text_zh": "本章關於遠程訂立的合同、商業場所以外訂立的合同及預繳式合同的規定不適用於下列情況：\n（一）銀行、保險及其他金融服務的合同；\n（二）與不動產的建造、買賣或其他權利有關的合同，包括租賃；\n（三）經營者經常、定期且親身到消費者住所或工作地點交付食品、飲品或其他家庭日用消費品的供應合同；\n（四）由消費者主動透過電話、音頻信息、視像會議、聊天室或其他類似的通訊方式，聯絡經營者而訂立的偶然供應食品或飲品的合同；\n（五）客運服務合同；\n（六）於展銷或展覽的銷售活動訂立的合同。\n第二節\n遠程訂立的合同和商業場所以外訂立的合同",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 220,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_050",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "50",
+    "article_number_normalized": "50",
+    "article_title": "定義",
+    "chunk_index": 49,
+    "chapter": "第二節 遠程訂立的合同和商業場所以外訂立的合同",
+    "chapter_title": "",
+    "text_zh": "為適用本法律的規定，下列用語的含義為：\n（一）“遠程訂立的合同＂：是指在經營者為提供商品或服務而準備的遠程模式內，由協商至訂立合同僅利用遠程通訊技術，且在消費者與經營者未有同時親身出席的情況下訂立的合同；\n（二）“遠程通訊技術＂：是指經營者與消費者在未有同時親身出席的情況下，為訂立合同而可使用的通訊方式，尤其是紙張、電話、電視及互聯網；\n（三）“商業場所以外訂立的合同＂：是指消費者與經營者在非屬經營者的商業場所的地方同時親身出席而在下列任一情況下訂立的合同：\n（1）應經營者，又或代經營者行事或以其名義行事的人的請求，在消費者住所訂立的合同；\n（2）應經營者，又或代經營者行事或以其名義行事的人的請求，在消費者工作地點訂立的合同；\n（3）應經營者，又或代經營者行事或以其名義行事的人的請求，透過在某人或某組人的其中一人的住所示範以推銷商品或服務並在該情況中訂立的合同；\n（4）經營者，又或代經營者行事或以其名義行事的人在公共地方或向公眾開放的地方接觸消費者本人後隨即在任何該等地方訂立的合同。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 392,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_051",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "51",
+    "article_number_normalized": "51",
+    "article_title": "訂立合同前提供資訊",
+    "chunk_index": 50,
+    "chapter": "第二節 遠程訂立的合同和商業場所以外訂立的合同",
+    "chapter_title": "",
+    "text_zh": "一、訂立遠程或商業場所以外的合同前，經營者須適時以清楚、準確及易明的方式向消費者提供下列資訊：\n（一）經營者的認別資料，尤其是經營者的名稱或商業名稱，又或倘有的代經營者行事或以其名義行事的人的認別資料；\n（二）經營者的納稅人編號；\n（三）經營者的聯繫方法，尤其電話號碼、圖文傳真號碼或電郵地址，又或倘有的代經營者行事或以其名義行事的人的聯繫方法；\n（四）商品或服務的價格及計量單位；\n（五）價金的支付及交付商品或提供服務的方式；\n（六）商品或服務的特徵，尤其是商品的成分、規格及型號，但涉及生產秘密除外；\n（七）經營者處理消費者投訴的方法；\n（八）享有的自由解除合同的權利，以及有關期間及行使權利的方式；\n（九）如不具有上項所指自由解除合同的權利，須說明消費者不享有該權利，又或如屬喪失自由解除合同的權利的情況，則須說明導致消費者喪失該權利的情況；\n（十）向消費者說明行使自由解除合同的權利時可能須承擔因退還商品或退回付款而引致的費用。\n二、除了上款所指的資訊外，經營者亦須適時以清楚、準確及易明的方式向消費者提供下列倘有的資訊：\n（一）商業場所名稱及地址；\n（二）優惠或折扣及其持續時間；\n（三）費用及任何其他負擔，尤其是商品的運輸附加費、郵費、交付費；\n（四）約定的履行模式，以及交付商品或提供服務的限期；\n（五）使用特定商品或提供特定服務時須特別注意的事項及副作用；\n（六）正常使用有危險性的商品或服務時可能出現的、危及消費者健康及安全的風險；\n（七）商品的安裝及使用方法；\n（八）商品或服務的保證條件；\n（九）售後服務範圍，包括倘有的供應商品的零部件及配件；\n（十）合同的生效期；\n（十一）如屬期限不確定或自動續期的合同，其單方終止或不續期的條件，以及相關的後果；\n（十二）如屬設有最短合同期限的合同，其提前終止的條件。\n三、以上兩款所指資訊須載於遠程或商業場所以外訂立的合同內，且有關內容不得修改。\n四、本條所規定的提供資訊義務的履行，由經營者負責證明。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 706,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_052",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "52",
+    "article_number_normalized": "52",
+    "article_title": "形式要件",
+    "chunk_index": 51,
+    "chapter": "第二節 遠程訂立的合同和商業場所以外訂立的合同",
+    "chapter_title": "",
+    "text_zh": "一、如屬遠程訂立的合同，上條第一款及第二款所指資訊，須透過與所使用的遠程通訊技術匹配的途徑，以清楚、準確及易明方式提供，並須遵守商業交易的善意及誠實原則。\n二、透過互聯網訂立的遠程訂立的合同中，如規定消費者訂購後即負有支付義務，則經營者須確保消費者於完成訂購前已明確且有意識地確認該義務。\n三、如透過口頭要約方式，以電話、音頻信息、視像會議、聊天室或其他類似的通訊方式訂立遠程合同，消費者須以書面方式表示接受有關要約，但如首次聯絡是由消費者本人透過上述通訊方式主動作出者除外。\n四、商業場所以外訂立的合同須以書面訂立，並須以清楚、準確及易明的方式載明上條第一款及第二款所指的資訊。\n五、違反以上數款的規定而訂立的合同視為無效，但屬經營者不履行根據上條第一款（八）項及（十）項規定而負有的訂立合同前提供資訊義務的情況除外。\n六、上款規定的無效僅可由消費者提出。\n第三節\n預繳式合同",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 350,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_053",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "53",
+    "article_number_normalized": "53",
+    "article_title": "定義",
+    "chunk_index": 52,
+    "chapter": "第三節 預繳式合同",
+    "chapter_title": "",
+    "text_zh": "為適用本法律的規定，“預繳式合同＂是指消費者預先向經營者支付一筆非定金性質的應繳款項，以便分期或分次取得所交付的商品或所提供的服務的合同。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 64,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_054",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "54",
+    "article_number_normalized": "54",
+    "article_title": "訂立合同前提供資訊",
+    "chunk_index": 53,
+    "chapter": "第三節 預繳式合同",
+    "chapter_title": "",
+    "text_zh": "一、訂立預繳式合同前，經營者須適時以清楚、準確及易明的方式向消費者提供下列資訊：\n（一）經營者的認別資料，尤其是經營者的名稱或商業名稱，又或倘有的代經營者行事或以其名義行事的人的認別資料；\n（二）經營者的納稅人編號；\n（三）經營者的聯繫方法，尤其電話號碼、圖文傳真號碼或電郵地址，又或倘有的代經營者行事或以其名義行事的人的聯繫方法；\n（四）商品或服務的價格及計量單位；\n（五）消費者預繳總額；\n（六）價金的支付及交付商品或提供服務的方式，以及合同履行計劃；\n（七）消費者取得第五十六條所規定的履行預繳式合同的憑證的權利；\n（八）商品或服務的特徵，尤其是商品的成分、規格及型號，但涉及生產秘密除外；\n（九）經營者處理消費者投訴的方法；\n（十）享有的自由解除合同的權利，以及有關期間及行使權利的方式；\n（十一）如不具有上項所指自由解除合同的權利，須說明消費者不享有該權利，又或如屬喪失自由解除合同的權利的情況，則須說明導致消費者喪失該權利的情況；\n（十二）向消費者說明行使自由解除合同的權利時可能須承擔因退還商品或退回付款而引致的費用；\n（十三）合同的生效期；\n（十四）如屬期限不確定或自動續期的合同，其單方終止或不續期的條件，以及相關的後果；\n（十五）如屬設有最短合同期限的合同，其提前終止的條件。\n二、除了上款所指的資訊外，經營者亦須適時以清楚、準確及易明的方式向消費者提供下列倘有的資訊：\n（一）商業場所名稱及地址；\n（二）向預繳的消費者提供的優惠或折扣及其持續時間；\n（三）費用或任何其他負擔，尤其是商品的運輸附加費、郵費、交付費；\n（四）交付商品或提供服務的限期；\n（五）使用特定商品或提供特定服務時須特別注意的事項及副作用；\n（六）正常使用有危險性的商品或服務時可能出現的、危及消費者健康及安全的風險；\n（七）商品的安裝及使用方法；\n（八）商品或服務的保證條件；\n（九）售後服務範圍，包括倘有的供應商品的零部件及配件。\n三、以上兩款所指資訊須載於預繳式合同內，且有關內容不得修改。\n四、本條所規定的提供資訊義務的履行，由經營者負責證明。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 738,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_055",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "55",
+    "article_number_normalized": "55",
+    "article_title": "形式要件",
+    "chunk_index": 54,
+    "chapter": "第三節 預繳式合同",
+    "chapter_title": "",
+    "text_zh": "一、預繳式合同須以書面訂立，並須以清楚、準確及易明方式載明上條所指的資訊。\n二、違反上款所規定的形式要件而訂立的合同視為無效，但屬經營者不履行根據上條第一款（十）項及（十二）項規定而負有的訂立合同前提供資訊義務的情況除外。\n三、上款規定的無效僅可由消費者提出。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 115,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_056",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "56",
+    "article_number_normalized": "56",
+    "article_title": "履行預繳式合同的憑證",
+    "chunk_index": 55,
+    "chapter": "第三節 預繳式合同",
+    "chapter_title": "",
+    "text_zh": "訂立合同時，經營者須發出履行預繳式合同的憑證，以便消費者日後分期或分次請求交付或提供合同所定商品或服務。\n第四節\n共同規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 56,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_057",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "57",
+    "article_number_normalized": "57",
+    "article_title": "自由解除合同的權利",
+    "chunk_index": 56,
+    "chapter": "第四節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、對於本章所規定的合同，消費者於七日內享有自由解除合同的權利，無須說明解除理由。\n二、如經營者不履行根據第五十一條第一款（八）項及第五十四條第一款（十）項的規定而負有的訂立合同前提供資訊的義務，自由解除合同的權利的行使期間，自第一款所規定的期間屆滿時起增加三十日。\n三、如合同條款規定行使自由解除合同的權利將導致向消費者強加懲罰，又或設定放棄該權利，該等合同條款視為無效。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 169,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_058",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "58",
+    "article_number_normalized": "58",
+    "article_title": "期間的計算",
+    "chunk_index": 57,
+    "chapter": "第四節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、自由解除合同的權利的行使期間，自訂立合同日起計算；如屬買賣合同，則自消費者或由其指定的第三人對商品取得實質佔有之日起計算；如買賣合同屬交付多項商品的情況，則自對最後一件商品取得實質佔有之日起計算。\n二、對於預繳式合同，自由解除合同的權利的行使期間自訂立合同日起計算，如當日並未向消費者交付履行預繳式合同的憑證，則自交付憑證之日起計算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 156,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_059",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "59",
+    "article_number_normalized": "59",
+    "article_title": "行使方式",
+    "chunk_index": 58,
+    "chapter": "第四節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、自由解除合同的權利由消費者行使，而消費者為此須以函件、退還商品或按一般規定以其他可行的證明方法向經營者作出明確聲明。\n二、如上款所指聲明於第五十七條所指期間屆滿前作出，即視為於期間內行使自由解除合同的權利。\n三、對於已行使自由解除合同的權利，由消費者負責證明。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 120,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_060",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "60",
+    "article_number_normalized": "60",
+    "article_title": "自由解除合同的後果",
+    "chunk_index": 59,
+    "chapter": "第四節 共同規定",
+    "chapter_title": "",
+    "text_zh": "消費者行使自由解除合同的權利，導致履行合同的義務隨即終止。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 27,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_061",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "61",
+    "article_number_normalized": "61",
+    "article_title": "經營者因自由解除合同而衍生的義務",
+    "chunk_index": 60,
+    "chapter": "第四節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、消費者行使自由解除合同的權利，則經營者須視乎情況，自知悉解除合同的決定之日或接收退還商品之日起七日內，須向消費者退回已收款項並通知其退款的日期、地點及方式。\n二、在上款所指期間內，經營者尚須退回因退還商品而引致的費用，以及承擔因退回付款而引致的費用，但以經營者同意承擔該等費用或消費者事前未獲經營者通知其有義務承擔該等費用為限。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 154,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection",
+      "legal_basis_and_consent"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      },
+      {
+        "id": "legal_basis_and_consent",
+        "label_zh": "法律依据与同意",
+        "score": 1,
+        "matched_keywords": [
+          "同意"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_062",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "62",
+    "article_number_normalized": "62",
+    "article_title": "消費者因自由解除合同而衍生的義務",
+    "chunk_index": 61,
+    "chapter": "第四節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、自行使自由解除合同的權利之日起七日內，消費者須向經營者或為此獲許可的人退還商品，但經營者提出自行收回商品者除外。\n二、如屬預繳式合同，消費者須在收回其支付的款項後，立即將履行預繳式合同的憑證交回經營者或為此獲許可的人。\n三、因退還商品及退回付款而引致的費用由消費者承擔，但經營者同意承擔該費用或消費者事前未獲經營者通知其有義務承擔該費用者除外。\n四、消費者須確保商品、其包裝物、包裝襯墊及倘有的使用說明書狀況保持良好，以便在第一款所規定的期間內可退還保持適當使用狀況的商品、包裝物、包裝襯墊及使用說明書。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 233,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection",
+      "legal_basis_and_consent"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      },
+      {
+        "id": "legal_basis_and_consent",
+        "label_zh": "法律依据与同意",
+        "score": 1,
+        "matched_keywords": [
+          "同意"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_063",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "63",
+    "article_number_normalized": "63",
+    "article_title": "檢查、操作和保存商品",
+    "chunk_index": 62,
+    "chapter": "第四節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、行使自由解除合同的權利，不影響消費者具謹慎檢查商品的性質、特徵及運作的權利。\n二、如消費者檢查商品的性質、特徵及運作時的操作方法超出商業場所慣常允許的方法，又或因未遵照特定要求以保持商品保存狀況良好，則須就所引致的商品價值貶損負責。\n三、在任何情況下，如經營者不通知消費者享有自由解除合同的權利，則消費者無須對所引致的商品價值貶損負責。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 155,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_064",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "64",
+    "article_number_normalized": "64",
+    "article_title": "於自由解除合同的期間提供服務",
+    "chunk_index": 63,
+    "chapter": "第四節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、如消費者要求於第五十七條第一款所規定的期間內開始提供服務，經營者須要求其提交書面申請。\n二、如消費者於提交上款所規定的申請後行使自由解除合同的權利，須就通知解除合同時經營者實際已提供的服務，按比例支付費用；該費用以合同總額為基礎計算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 110,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_065",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "65",
+    "article_number_normalized": "65",
+    "article_title": "自由解除合同的權利的例外情況",
+    "chunk_index": 64,
+    "chapter": "第四節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、除當事人另有協議外，消費者不得自由解除涉及下列情況的合同：\n（一）服務已完整提供，而消費者提出上條第一款所指預先申請且接受自由解除合同的權利於合同完整履行後立即喪失的情況；\n（二）按消費者所定規格或個人要求而製造的商品；\n（三）基於商品的性質，不能再次寄送、容易毀損、須特定條件方可保持保存狀況良好或有效期短暫的商品；\n（四）基於保障健康或衛生理由而密封，且交付後一經開啟即不能退還的商品；\n（五）基於商品的性質，交付後不能與其他物品分離的商品；\n（六）密封的影音錄製品或電腦軟件，僅適用於商品交付後消費者曾開啟保護封條的情況；\n（七）報章、期刊或雜誌，但已簽訂寄送有關出版物的訂閱合同除外；\n（八）以公開拍賣方式取得的商品；\n（九）酒店場所住宿服務、商品運送、車輛租賃服務、餐飲，又或其他旅遊服務，只要合同內訂明特定履行日期或期間；\n（十）表演、電影、戲劇及其他公開演出的門票；\n（十一）非以實物存放的數位內容，僅適用於經消費者預先明示同意方開始履行合同且消費者接受自由解除合同的權利於同意後立即喪失的情況；\n（十二）按消費者要求在其住所內執行維修或保養的服務。\n二、在上款（十二）項所規定的情況下，如所提供的服務超過消費者的特定要求，或所供應的商品異於進行保養或維修所必須的替代元件，則適用自由解除合同的權利。\n第七章\n監察",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 488,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice",
+      "consumer_protection",
+      "legal_basis_and_consent"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "電腦"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      },
+      {
+        "id": "legal_basis_and_consent",
+        "label_zh": "法律依据与同意",
+        "score": 1,
+        "matched_keywords": [
+          "同意"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_066",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "66",
+    "article_number_normalized": "66",
+    "article_title": "合作的特別義務",
+    "chunk_index": 65,
+    "chapter": "第七章 監察",
+    "chapter_title": "",
+    "text_zh": "一、消委會工作人員為執行其監察職務而適當表明身份時，經營者、其代表及其所有僱員，包括行政管理機關成員、董事、經理或輔助人員，均有提交監察工作所需文件及資料的義務。\n二、如消委會工作人員執行其監察職務時遇到反對或抗拒的情況，可依法要求警察當局提供所需協助。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 115,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_067",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "67",
+    "article_number_normalized": "67",
+    "article_title": "保密義務",
+    "chunk_index": 66,
+    "chapter": "第七章 監察",
+    "chapter_title": "",
+    "text_zh": "一、適用本法律時所涉及的資料，如其性質屬職業或商業保密範疇，即視為機密資料；因執行本法律而知悉該等資料者，均負有保密義務，即使職務終止後亦然。\n二、為保障人身健康及安全而必須公開的關於商品或服務特徵的資料，不受上款的規定約束。\n第八章\n處罰制度",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_068",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "68",
+    "article_number_normalized": "68",
+    "article_title": "行政違法行為",
+    "chunk_index": 67,
+    "chapter": "第八章 處罰制度",
+    "chapter_title": "",
+    "text_zh": "一、違反本法律的規定，構成行政違法行為，並科下列罰款：\n（一）違反第十一條第二款至第四款、第十二條、第十三條第一款及第二款、第十四條第一款至第四款、第十五條、第十八條第四款、第二十一條、第三十條第二款及第五十六條的規定，科澳門元二千元至一萬元罰款；\n（二）違反第五十一條第一款至第三款、第五十二條第一款、第二款及第四款、第五十四條第一款至第三款、第五十五條第一款及第六十一條的規定，科澳門元五千元至二萬元罰款；\n（三）違反第二十條第二款、第二十六條第一款、第二十七條及第二十八條，以及第六十六條第一款的規定，科澳門元二萬元至六萬元罰款。\n二、確定罰款時，尤其須考慮違法行為的嚴重性、行為人的過錯程度及經濟狀況，以及行為人藉實施違法行為所獲得的經濟利益。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 287,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_069",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "69",
+    "article_number_normalized": "69",
+    "article_title": "違法行為的競合",
+    "chunk_index": 68,
+    "chapter": "第八章 處罰制度",
+    "chapter_title": "",
+    "text_zh": "一、如一事實同時構成犯罪及行政違法行為，僅以犯罪處罰之，但不影響對行政違法行為所規定的附加處罰的適用。\n二、如一事實同時構成本法律及其他法規所規定的行政違法行為，僅以處罰較重的行政違法行為處罰之，但不影響下款規定的適用。\n三、經營者與消費者之間的商品交易或服務提供如涉及發出收據或履行預繳式合同的憑證，則上款的規定不適用於七月十五日 第6/96/M號法律 《妨害公共衛生及經濟之違法行為之法律制度》第二十九條所規定的違法行為，該違法行為須根據上條第一款（一）項的規定予以處罰。\n四、如屬行政違法行為競合的情況，則由具職權作出處罰較重的行政違法行為的行政當局負責處理該行政違法行為，但上款規定負責處理有關行政違法行為的主管當局為消委會的情況除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 291,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "犯罪"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_070",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "70",
+    "article_number_normalized": "70",
+    "article_title": "累犯",
+    "chunk_index": 69,
+    "chapter": "第八章 處罰制度",
+    "chapter_title": "",
+    "text_zh": "一、為適用本法律的規定，自針對實施第六十八條規定的行政違法行為所作出的行政處罰決定轉為不可申訴之日起一年內，且距該行政違法行為實施日不足五年，再次實施同一行政違法行為者，視為累犯。\n二、如屬累犯的情況，罰款的最低限額提高四分之一，最高限額則維持不變。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 114,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_071",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "71",
+    "article_number_normalized": "71",
+    "article_title": "附加處罰",
+    "chunk_index": 70,
+    "chapter": "第八章 處罰制度",
+    "chapter_title": "",
+    "text_zh": "一、對於第六十八條第一款（三）項所規定的違反第二十七條及第二十八條規定的違法行為，除科罰款外，尚可按行政違法行為的嚴重程度及違法者的過錯程度，單獨或一併科處下列附加處罰，期間為自處罰決定轉為不可申訴之日起最長一年：\n（一）封閉商業場所；\n（二）禁止從事相關業務。\n二、消委會應將所科處的附加處罰通知其他負責監察有關業務或商業場所的主管實體。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 151,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_072",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "72",
+    "article_number_normalized": "72",
+    "article_title": "程序",
+    "chunk_index": 71,
+    "chapter": "第八章 處罰制度",
+    "chapter_title": "",
+    "text_zh": "一、如獲悉實施行政違法行為的消息，消委會須提起程序；如提出控訴，須將控訴通知涉嫌違法者。\n二、在控訴的決定內須訂定十五日的期間，以便涉嫌違法者提出辯護。\n三、科處罰款屬消委會執行委員會主席的職權。\n四、罰款須自作出處罰決定通知之日起三十日內繳付。\n五、如未於上款所定期間自願繳付罰款，則主管實體須按稅務執行程序的規定，以處罰決定的證明作為執行名義進行強制徵收。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 160,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_073",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "73",
+    "article_number_normalized": "73",
+    "article_title": "勸誡",
+    "chunk_index": 72,
+    "chapter": "第八章 處罰制度",
+    "chapter_title": "",
+    "text_zh": "一、在開展程序並發現存在違反第十一條第二款至第四款、第十二條、第十三條第一款及第二款、第十四條第一款至第四款、第二十一條、第五十一條第一款至第三款、第五十四條第一款至第三款、第五十六條及第六十一條的規定的充分跡象後，如出現下列情況，消委會執行委員會主席可在作出控訴前向涉嫌違法者作出勸誡，並指定一期間以便補正不合規範的情況：\n（一）相關不合規範行為可予補正；\n（二）對消費者利益不構成嚴重損害；\n（三）涉嫌違法者之前未曾實施本法律規定的行政違法行為，或雖曾實施本法律規定的行政違法行為，但上一次因作出勸誡而將程序歸檔已超過一年或處罰轉為不可申訴之日已超過一年。\n二、如涉嫌違法者在指定期間內對不符合規範的情況作出補正，則消委會執行委員會主席作出程序歸檔的決定。\n三、如涉嫌違法者不在指定期間內對不符合規範的情況作出補正，則提出控訴並繼續進行有關程序。\n四、處罰程序的時效於作出第一款所指勸誡時中斷。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 362,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_074",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "74",
+    "article_number_normalized": "74",
+    "article_title": "通知",
+    "chunk_index": 73,
+    "chapter": "第八章 處罰制度",
+    "chapter_title": "",
+    "text_zh": "一、所有通知均按 《行政程序法典》 的規定作出，但須遵守以下各款的特別規定。\n二、凡按下列地址作出的通知均以單掛號信作出，並推定應被通知人在信件掛號日後的第三日接獲通知；如第三日並非工作日，則推定在緊接該日的首個工作日接獲通知：\n（一）應被通知人，又或代應被通知人行事或以其名義行事的人所指定的通訊地址或住址；\n（二）載於合同內的通訊地址；\n（三）如應被通知人為法人且其住所或常設代表處位於澳門特別行政區，按身份證明局或商業及動產登記局的檔案所載的最後住所；\n（四）如應被通知人為澳門特別行政區居民，按身份證明局的檔案所載的最後住所；\n（五）如應被通知人持有治安警察局發出的身份證明文件，按該局的檔案所載的最後地址。\n三、如上款所指的應被通知人的地址位於澳門特別行政區以外的地方，則上款所指期間僅在 《行政程序法典》 所規定的延期期間屆滿後方開始計算。\n四、僅因證實可歸咎於郵政服務的事由而令應被通知人在推定接獲通知的日期後接獲通知的情況下，方可由應被通知人推翻第二款所規定的推定。\n五、為適用本條的規定，身份證明局、商業及動產登記局及治安警察局應在消委會要求時向其提供第二款所指的資料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 440,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_075",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "75",
+    "article_number_normalized": "75",
+    "article_title": "履行尚未履行的義務",
+    "chunk_index": 74,
+    "chapter": "第八章 處罰制度",
+    "chapter_title": "",
+    "text_zh": "如因不履行義務而構成行政違法行為，而該等義務尚可履行，則科處處罰和繳付罰款並不免除違法者履行該等義務。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 48,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_076",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "76",
+    "article_number_normalized": "76",
+    "article_title": "法人的責任",
+    "chunk_index": 75,
+    "chapter": "第八章 處罰制度",
+    "chapter_title": "",
+    "text_zh": "一、法人，即使屬不合規範設立者，以及無法律人格的社團，均須對其機關或代表以其名義且為其集體利益而作出本法律所規定的行政違法行為承擔責任。\n二、如行為人違抗有權者的明示命令或指示而作出行為，則排除上款所指責任。\n三、第一款所指實體的責任，不排除有關行為人的個人責任。\n四、行政管理機關成員或以其他方式代表該法人的人，如被判定須對違法行為負責，則須就繳付罰款與法人負連帶責任。\n五、如對無法律人格的社團科罰款，罰款以該社團的共同財產繳付，如無共同財產或共同財產不足，則以各社員或成員的財產以連帶責任方式繳付。\n第九章\n消費爭議的解決\n第一節\n消費爭議的調解及仲裁",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 251,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 1,
+        "matched_keywords": [
+          "消費"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_077",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "77",
+    "article_number_normalized": "77",
+    "article_title": "消費爭議",
+    "chunk_index": 76,
+    "chapter": "第一節 消費爭議的調解及仲裁",
+    "chapter_title": "",
+    "text_zh": "為適用本法律的規定，“消費爭議”是指消費者與經營者因提供商品或服務而產生的民事或商事性質的爭議。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 44,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_078",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "78",
+    "article_number_normalized": "78",
+    "article_title": "調解或仲裁",
+    "chunk_index": 77,
+    "chapter": "第一節 消費爭議的調解及仲裁",
+    "chapter_title": "",
+    "text_zh": "消費者與經營者之間的消費爭議，可透過調解或仲裁解決，尤其透過消委會所提供的機構調解及仲裁服務為之。\n第二節\n對經營者的必要仲裁",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 58,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_079",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "79",
+    "article_number_normalized": "79",
+    "article_title": "必要仲裁",
+    "chunk_index": 78,
+    "chapter": "第二節 對經營者的必要仲裁",
+    "chapter_title": "",
+    "text_zh": "一、如消費者明確選擇將涉及基本公共事業服務的消費爭議送交澳門消費爭議調解及仲裁中心的仲裁庭進行審理，則經營者必須透過仲裁解決有關消費爭議。\n二、為適用上款的規定，基本公共事業服務是指：\n（一）供水服務；\n（二）供電服務；\n（三）管路天然氣及管路液化石油氣的供氣服務；\n（四）電訊服務；\n（五）陸上及海上集體運輸服務。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 131,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "電訊"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_080",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "80",
+    "article_number_normalized": "80",
+    "article_title": "司法援助",
+    "chunk_index": 79,
+    "chapter": "第二節 對經營者的必要仲裁",
+    "chapter_title": "",
+    "text_zh": "如屬經濟能力不足，消費者可申請司法援助，並適用經作出適當配合後的 第13/2012號法律 《司法援助的一般制度》。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 43,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_081",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "81",
+    "article_number_normalized": "81",
+    "article_title": "對仲裁裁決的上訴",
+    "chunk_index": 80,
+    "chapter": "第二節 對經營者的必要仲裁",
+    "chapter_title": "",
+    "text_zh": "一、經營者可對仲裁裁決向中級法院提起上訴，並適用《民事訴訟法典》中關於對引致訴訟程序終結的裁判提起上訴的規定。\n二、如屬經營者對仲裁裁決提起上訴的情況，且如消費者或經營者同時提出撤銷有關裁決時，則應在上訴的範圍內就裁決的可撤銷性作出審查。\n第三節\n共同規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 116,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_082",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "82",
+    "article_number_normalized": "82",
+    "article_title": "無償性",
+    "chunk_index": 81,
+    "chapter": "第三節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、由澳門消費爭議調解及仲裁中心管理的調解及仲裁程序，如所涉金額不超過第一審法院法定上訴利益值，則屬無償向當事人提供，但不影響下款規定的適用。\n二、由當事人自行提出要求而產生的費用，尤其是要求委託律師或進行專家鑑定的措施而產生的費用，須由當事人負責。\n第十章\n最後規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 122,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 1,
+        "matched_keywords": [
+          "消費"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_083",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "83",
+    "article_number_normalized": "83",
+    "article_title": "個人資料的處理",
+    "chunk_index": 82,
+    "chapter": "第十章 最後規定",
+    "chapter_title": "",
+    "text_zh": "一、根據本法律的規定收集、保存、處理和轉移個人資料時，應遵守 第8/2005號法律 《個人資料保護法》的規定。\n二、為執行收集商品或服務的資訊及監察職務，消委會可要求任何公共部門或機構提供其認為對收集資訊或監察屬必要的文件或資料，並根據 第8/2005號法律 的規定，可採用包括資料互聯在內的任何方式，核實有關文件或個人資料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 133,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "privacy_and_data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "privacy_and_data_protection",
+        "label_zh": "隐私与个人资料保护",
+        "score": 1,
+        "matched_keywords": [
+          "資料保護"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_084",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "84",
+    "article_number_normalized": "84",
+    "article_title": "補充法律",
+    "chunk_index": 83,
+    "chapter": "第十章 最後規定",
+    "chapter_title": "",
+    "text_zh": "本法律未特別規定的事宜，補充適用《民法典》、《民事訴訟法典》、《商法典》、 《行政程序法典》 、十月四日 第52/99/M號法令 《行政上之違法行為之一般制度及程序》及 第19/2019號法律 《仲裁法》的規定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_085",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "85",
+    "article_number_normalized": "85",
+    "article_title": "廢止",
+    "chunk_index": 84,
+    "chapter": "第十章 最後規定",
+    "chapter_title": "",
+    "text_zh": "一、廢止：\n（一）六月十三日 第12/88/M號法律 《消費者的保護》；\n（二）六月十二日 第4/95/M號法律 《重組消費者委員會》。\n二、上款（一）項的規定不影響根據六月十三日 第12/88/M號法律 而訂定的法例繼續生效。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 69,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "score": 2,
+        "matched_keywords": [
+          "消費",
+          "消費者"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_9_2021_ART_086",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_9_2021",
+    "law_name": "消費者權益保護法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "86",
+    "article_number_normalized": "86",
+    "article_title": "生效及產生效力",
+    "chunk_index": 85,
+    "chapter": "第十章 最後規定",
+    "chapter_title": "",
+    "text_zh": "一、本法律自二零二二年一月一日起生效。\n二、上條第一款（二）項的規定於消委會新組織法規生效後方產生效力。\n二零二一年六月二十四日通過。\n立法會主席 高開賢\n二零二一年七月二日簽署。\n命令公佈。\n行政長官 賀一誠",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 88,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2021-06-24",
+    "effective_date": "2022-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_96828572.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

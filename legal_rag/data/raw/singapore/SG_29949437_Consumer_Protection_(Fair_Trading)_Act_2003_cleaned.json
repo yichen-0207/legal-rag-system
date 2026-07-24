@@ -1,0 +1,168 @@
+[
+  {
+    "doc_id": "SG_ACT_27_2003_ART_002",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_27_2003",
+    "law_name": "Consumer Protection (Fair Trading) Act 2003",
+    "law_name_original": "Consumer Protection (Fair Trading) Act 2003",
+    "law_type": "法律",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Interpretation",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 2 UNFAIR PRACTICES",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 2 UNFAIR PRACTICES"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": [],
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_27_2003",
+    "source_type": "gov_gazette",
+    "source_file": "SG_29949437_Consumer_Protection_(Fair_Trading)_Act_2003.txt",
+    "source_start": 286,
+    "source_end": 302,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:10Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_27_2003_ART_012",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_27_2003",
+    "law_name": "Consumer Protection (Fair Trading) Act 2003",
+    "law_name_original": "Consumer Protection (Fair Trading) Act 2003",
+    "law_type": "法律",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "Limitation period",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 3 ADDITIONAL CONSUMER RIGHTS IN RESPECT OF NON-CONFORMING GOODS",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 3 ADDITIONAL CONSUMER RIGHTS IN RESPECT OF NON-CONFORMING GOODS"
+      }
+    ],
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 4.5,
+        "matched_keywords": [
+          "consumer rights"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_27_2003",
+    "source_type": "gov_gazette",
+    "source_file": "SG_29949437_Consumer_Protection_(Fair_Trading)_Act_2003.txt",
+    "source_start": 753,
+    "source_end": 773,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:10Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_27_2003_ART_018",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_27_2003",
+    "law_name": "Consumer Protection (Fair Trading) Act 2003",
+    "law_name_original": "Consumer Protection (Fair Trading) Act 2003",
+    "law_type": "法律",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "Powers of court",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 3A INVESTIGATION POWERS",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 3A INVESTIGATION POWERS"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_27_2003",
+    "source_type": "gov_gazette",
+    "source_file": "SG_29949437_Consumer_Protection_(Fair_Trading)_Act_2003.txt",
+    "source_start": 1032,
+    "source_end": 1050,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:10Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

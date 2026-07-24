@@ -1,0 +1,66 @@
+[
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_006_ART_001",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_006",
+    "law_name": "Enforcement Order of the Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Enforcement Order of the Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The means specified by Cabinet Order as referred to in Article 2, paragraph (1), item (ii) of the for Shopping is to be either of the means set forth in the following items:\n\ni\n\n(i)auctions;\n\nii\n\n(ii)means in which a seller or equivalent person sets a price to sell a specific product or specified right or to provide services in a place provided by the digital platform, induces consumers to make an offer to become the counterparty of a contract for the sale of the product or specified right or provision of the services, which is conditional on the price terms (hereinafter referred to as \"offer\"), and selects the first consumer who makes an offer meeting the terms as the counterparty, regardless of the subsequent offers made by other consumers.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The means specified by Cabinet Order as referred to in Article 2, paragraph (1), item (ii) of the for Shopping is to be either of the means set forth in the following items:\n\ni\n\n(i)auctions;\n\nii\n\n(ii)means in which a seller or equivalent person sets a price to sell a specific product or specified right or to provide services in a place provided by the digital platform, induces consumers to make an offer to become the counterparty of a contract for the sale of the product or specified right or provision of the services, which is conditional on the price terms (hereinafter referred to as \"offer\"), and selects the first consumer who makes an offer meeting the terms as the counterparty, regardless of the subsequent offers made by other consumers."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 7.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-02-24",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4311",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_006.json",
+    "source_start": 0,
+    "source_end": 752,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "doc_id": "SG_ACT_11_1966_ART_034",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_11_1966",
+    "law_name": "Air Navigation Act 1966",
+    "law_name_original": "Air Navigation Act 1966",
+    "law_type": "法律",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "Absolute prohibition of carriage of dangerous materials on unmanned aircraft",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "If — a person operates an unmanned aircraft to fly indoors or at any height over any area in Singapore;...\nAir Navigation Act 1966 - Part 2A AIR TRANSPORT UNDERTAKINGS\nAIR TRANSPORT UNDERTAKINGS Act 36 of 2018 wef 01/01/2024",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "If — a person operates an unmanned aircraft to fly indoors or at any height over any area in Singapore;...\nAir Navigation Act 1966 - Part 2A AIR TRANSPORT UNDERTAKINGS\nAIR TRANSPORT UNDERTAKINGS Act 36 of 2018 wef 01/01/2024"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2025-07-01",
+    "last_amended_date": "2024-01-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_11_1966",
+    "source_type": "gov_gazette",
+    "source_file": "SG_98198236_Air_Navigation_Act_1966.txt",
+    "source_start": 0,
+    "source_end": 79,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:17Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

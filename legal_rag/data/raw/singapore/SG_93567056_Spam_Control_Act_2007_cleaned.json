@@ -1,0 +1,503 @@
+[
+  {
+    "doc_id": "SG_ACT_This_Act_is_the_Spam_2007_ART_001",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_This_Act_is_the_Spam_2007",
+    "law_name": "Spam Control Act 2007",
+    "law_name_original": "Spam Control Act 2007",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "1",
+    "article_title": "Short title",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1. This Act is the Spam Control Act 2007.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "spam_control"
+    ],
+    "topics_details": [
+      {
+        "id": "spam_control",
+        "label_zh": "垃圾信息控制",
+        "score": 3,
+        "matched_keywords": [
+          "spam"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2007-04-12",
+    "effective_date": "2007-06-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-18",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SG_93567056_Spam_Control_Act_2007.html",
+    "source_start": 31,
+    "source_end": 72,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-18T03:27:44Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "doc_id": "SG_ACT_This_Act_is_the_Spam_2007_ART_002",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_This_Act_is_the_Spam_2007",
+    "law_name": "Spam Control Act 2007",
+    "law_name_original": "Spam Control Act 2007",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "2",
+    "article_title": "General interpretation",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "2. In this Act, unless the context otherwise requires — “address‑harvesting software” means software that is specifically designed or marketed for use for — ( a ) searching the Internet for electronic addresses; and ( b ) collecting, compiling, capturing or otherwise harvesting those electronic addresses; “Authority” means the Info‑communications Media Development Authority established by section 3 of the Info‑communications Media Development Authority Act 2016; “business day” means any day other than a Saturday, Sunday or public holiday; “dictionary attack” means the method by which the electronic address of a recipient is obtained using an automated means that generates possible electronic addresses by combining names, letters, numbers, punctuation marks or symbols into numerous permutations; “electronic address” means an email address, an instant messaging account or a mobile telephone number to which an electronic message can be sent; “instant messaging account” means an account of a user of an instant messaging service; “instant messaging service” means a messaging service that allows a user to exchange messages with other users who are using the service concurrently; “Internet access service provider” means a person who provides a service to give the public access to the Internet; “recipient”, in relation to an electronic message, means an authorised user of the electronic address to whom the message is sent, and where a recipient of an electronic message has one or more electronic addresses in addition to the address to which the message was sent, the recipient is treated as a separate recipient with respect to each such address; “sender”, in relation to an electronic message, means a person who sends the message, causes the message to be sent, or authorises the sending of the message; “unsubscribe request” means a request by a recipient of an electronic message, requesting the sender to stop sending any further electronic messages to the recipient’s electronic address. [22/2016; 40/2020]\n“address‑harvesting software” means software that is specifically designed or marketed for use for — ( a ) searching the Internet for electronic addresses; and ( b ) collecting, compiling, capturing or otherwise harvesting those electronic addresses;\n“Authority” means the Info‑communications Media Development Authority established by section 3 of the Info‑communications Media Development Authority Act 2016;\n“business day” means any day other than a Saturday, Sunday or public holiday;\n“dictionary attack” means the method by which the electronic address of a recipient is obtained using an automated means that generates possible electronic addresses by combining names, letters, numbers, punctuation marks or symbols into numerous permutations;\n“electronic address” means an email address, an instant messaging account or a mobile telephone number to which an electronic message can be sent;\n“instant messaging account” means an account of a user of an instant messaging service;\n“instant messaging service” means a messaging service that allows a user to exchange messages with other users who are using the service concurrently;\n“Internet access service provider” means a person who provides a service to give the public access to the Internet;\n“recipient”, in relation to an electronic message, means an authorised user of the electronic address to whom the message is sent, and where a recipient of an electronic message has one or more electronic addresses in addition to the address to which the message was sent, the recipient is treated as a separate recipient with respect to each such address;\n“sender”, in relation to an electronic message, means a person who sends the message, causes the message to be sent, or authorises the sending of the message;\n“unsubscribe request” means a request by a recipient of an electronic message, requesting the sender to stop sending any further electronic messages to the recipient’s electronic address. [22/2016; 40/2020]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "intellectual_property",
+      "artificial_intelligence"
+    ],
+    "topics_details": [
+      {
+        "id": "intellectual_property",
+        "label_zh": "知识产权",
+        "score": 3,
+        "matched_keywords": [
+          "design"
+        ]
+      },
+      {
+        "id": "artificial_intelligence",
+        "label_zh": "人工智能",
+        "score": 3,
+        "matched_keywords": [
+          "AI"
+        ]
+      }
+    ],
+    "definitions": [
+      {
+        "term": "address‑harvesting software",
+        "definition": "means software that is specifically designed or marketed for use for — ( a ) searching the Internet for electronic addresses; and ( b ) collecting, compiling, capturing or otherwise harvesting those electronic addresses"
+      },
+      {
+        "term": "Authority",
+        "definition": "means the Info‑communications Media Development Authority established by section 3 of the Info‑communications Media Development Authority Act 2016"
+      },
+      {
+        "term": "business day",
+        "definition": "means any day other than a Saturday, Sunday or public holiday"
+      },
+      {
+        "term": "dictionary attack",
+        "definition": "means the method by which the electronic address of a recipient is obtained using an automated means that generates possible electronic addresses by combining names, letters, numbers, punctuation marks or symbols into numerous permutations"
+      },
+      {
+        "term": "electronic address",
+        "definition": "means an email address, an instant messaging account or a mobile telephone number to which an electronic message can be sent"
+      },
+      {
+        "term": "instant messaging account",
+        "definition": "means an account of a user of an instant messaging service"
+      },
+      {
+        "term": "instant messaging service",
+        "definition": "means a messaging service that allows a user to exchange messages with other users who are using the service concurrently"
+      },
+      {
+        "term": "Internet access service provider",
+        "definition": "means a person who provides a service to give the public access to the Internet"
+      },
+      {
+        "term": "unsubscribe request",
+        "definition": "means a request by a recipient of an electronic message, requesting the sender to stop sending any further electronic messages to the recipient’s electronic address. [22/2016; 40/2020]\n“address‑harvesting software” means software that is specifically designed or marketed for use for — ( a ) searching the Internet for electronic addresses; and ( b ) collecting, compiling, capturing or otherwise harvesting those electronic addresses"
+      },
+      {
+        "term": "Authority",
+        "definition": "means the Info‑communications Media Development Authority established by section 3 of the Info‑communications Media Development Authority Act 2016"
+      },
+      {
+        "term": "business day",
+        "definition": "means any day other than a Saturday, Sunday or public holiday"
+      },
+      {
+        "term": "dictionary attack",
+        "definition": "means the method by which the electronic address of a recipient is obtained using an automated means that generates possible electronic addresses by combining names, letters, numbers, punctuation marks or symbols into numerous permutations"
+      },
+      {
+        "term": "electronic address",
+        "definition": "means an email address, an instant messaging account or a mobile telephone number to which an electronic message can be sent"
+      },
+      {
+        "term": "instant messaging account",
+        "definition": "means an account of a user of an instant messaging service"
+      },
+      {
+        "term": "instant messaging service",
+        "definition": "means a messaging service that allows a user to exchange messages with other users who are using the service concurrently"
+      },
+      {
+        "term": "Internet access service provider",
+        "definition": "means a person who provides a service to give the public access to the Internet"
+      }
+    ],
+    "passing_date": "2007-04-12",
+    "effective_date": "2007-06-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-18",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SG_93567056_Spam_Control_Act_2007.html",
+    "source_start": 98,
+    "source_end": 4103,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-18T03:27:44Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "doc_id": "SG_ACT_This_Act_is_the_Spam_2007_ART_003",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_This_Act_is_the_Spam_2007",
+    "law_name": "Spam Control Act 2007",
+    "law_name_original": "Spam Control Act 2007",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "3",
+    "article_title": "Meaning of “commercial electronic message”",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "3. —(1)  In this Act, a commercial electronic message is an electronic message, where, having regard to — ( a ) the content of the message; ( b ) the way in which the message is presented; and ( c ) the content that can be located using the links, telephone numbers or contact information (if any) set out in the message, it is concluded that the primary purpose of the message is — ( d ) to offer to supply goods or services; ( e ) to advertise or promote goods or services; ( f ) to advertise or promote a supplier, or a prospective supplier, of goods or services; ( g ) to offer to supply land or an interest in land; ( h ) to advertise or promote land or an interest in land; ( i ) to advertise or promote a supplier, or a prospective supplier, of land or an interest in land; ( j ) to offer to provide a business opportunity or an investment opportunity; ( k ) to advertise or promote a business opportunity or an investment opportunity; ( l ) to advertise or promote a provider, or a prospective provider, of a business opportunity or an investment opportunity; ( m ) to assist or enable a person, by deception, to dishonestly obtain property belonging to another person; ( n ) to assist or enable a person, by deception, to dishonestly obtain a financial advantage from another person; or ( o ) to assist or enable a person to dishonestly obtain a gain from another person. (2)  For the purposes of paragraphs ( d ) to ( l ) of subsection (1), it does not matter — ( a ) whether the goods, services, land, interest or opportunity exists; or ( b ) whether it is lawful to acquire the goods, services, land or interest, or take up the opportunity. (3)  Any of the following persons may be the individual who, or entity which, is the sender of the message: ( a ) the supplier or prospective supplier mentioned in paragraph ( f ) or ( i ) of subsection (1); ( b ) the provider or prospective provider mentioned in paragraph ( l ) of subsection (1); ( c ) the firstmentioned person in paragraph ( m ), ( n ) or ( o ) of subsection (1). (4)  Subject to subsection (5), a person who knowingly allows the person’s product or service to be advertised or promoted by a sender is deemed to have authorised the sending by the sender of any electronic message that advertises or promotes that person’s product or service. (5)  For the purposes of subsection (4), a person who takes reasonable steps to stop the sending of any electronic message that advertises or promotes that person’s product or service is deemed not to have authorised the sending of the message.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "spam_control",
+      "artificial_intelligence"
+    ],
+    "topics_details": [
+      {
+        "id": "spam_control",
+        "label_zh": "垃圾信息控制",
+        "score": 3,
+        "matched_keywords": [
+          "commercial electronic message"
+        ]
+      },
+      {
+        "id": "artificial_intelligence",
+        "label_zh": "人工智能",
+        "score": 3,
+        "matched_keywords": [
+          "AI"
+        ]
+      }
+    ],
+    "definitions": [],
+    "passing_date": "2007-04-12",
+    "effective_date": "2007-06-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-18",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SG_93567056_Spam_Control_Act_2007.html",
+    "source_start": 4148,
+    "source_end": 6708,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-18T03:27:44Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "doc_id": "SG_ACT_This_Act_is_the_Spam_2007_ART_004",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_This_Act_is_the_Spam_2007",
+    "law_name": "Spam Control Act 2007",
+    "law_name_original": "Spam Control Act 2007",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "4",
+    "article_title": "Meaning of “electronic message”",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "4. —(1)  In this Act, subject to subsection (3), an electronic message is a message sent to an electronic address. (2)  For the purposes of subsection (1), it does not matter — ( a ) whether the electronic address exists; or ( b ) whether the message reaches its intended destination. (3)  For the purposes of this Act, a message is not an electronic message if it is sent by way of a voice call made using a telephone service.\n\nElectronic messages sent to instant messaging accounts",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": [],
+    "passing_date": "2007-04-12",
+    "effective_date": "2007-06-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-18",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SG_93567056_Spam_Control_Act_2007.html",
+    "source_start": 6742,
+    "source_end": 7225,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-18T03:27:44Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "doc_id": "SG_ACT_This_Act_is_the_Spam_2007_ART_004A",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_This_Act_is_the_Spam_2007",
+    "law_name": "Spam Control Act 2007",
+    "law_name_original": "Spam Control Act 2007",
+    "law_type": "Act",
+    "article_number": "4A",
+    "article_number_normalized": "4A",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "4A. For the purposes of this Act — ( a ) where an electronic message is sent to an instant messaging account; and ( b ) the name used to identify, or which is associated with, that instant messaging account is an email address or a mobile telephone number, the electronic message is not a message sent to the email address or mobile telephone number (as the case may be) mentioned in paragraph ( b ). [40/2020]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "artificial_intelligence"
+    ],
+    "topics_details": [
+      {
+        "id": "artificial_intelligence",
+        "label_zh": "人工智能",
+        "score": 3,
+        "matched_keywords": [
+          "AI"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2007-04-12",
+    "effective_date": "2007-06-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-18",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SG_93567056_Spam_Control_Act_2007.html",
+    "source_start": 7227,
+    "source_end": 7637,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-18T03:27:44Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "doc_id": "SG_ACT_This_Act_is_the_Spam_2007_ART_005",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_This_Act_is_the_Spam_2007",
+    "law_name": "Spam Control Act 2007",
+    "law_name_original": "Spam Control Act 2007",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "5",
+    "article_title": "Meaning of “unsolicited”",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "5. —(1)  In this Act, an electronic message is unsolicited if the recipient did not — ( a ) request to receive the message; or ( b ) consent to the receipt of the message. (2)  For the purposes of subsection (1), a recipient is not to be treated as having requested to receive the message or consented to the receipt of the message merely because the electronic address of the recipient was given or published by or on behalf of the recipient. (3)  For the purposes of subsection (1), where a recipient of an electronic message, other than an unsolicited electronic message, submits an unsubscribe request, the recipient is not to be treated as having requested to receive or consented to the receipt of any message sent after the expiry of 10 business days after the day on which the unsubscribe request is submitted.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "spam_control"
+    ],
+    "topics_details": [
+      {
+        "id": "spam_control",
+        "label_zh": "垃圾信息控制",
+        "score": 3,
+        "matched_keywords": [
+          "unsolicited"
+        ]
+      }
+    ],
+    "definitions": [],
+    "passing_date": "2007-04-12",
+    "effective_date": "2007-06-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-18",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SG_93567056_Spam_Control_Act_2007.html",
+    "source_start": 7664,
+    "source_end": 8482,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-18T03:27:44Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "doc_id": "SG_ACT_This_Act_is_the_Spam_2007_ART_006",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_This_Act_is_the_Spam_2007",
+    "law_name": "Spam Control Act 2007",
+    "law_name_original": "Spam Control Act 2007",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "6",
+    "article_title": "Meaning of “sending in bulk”",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "6. —(1)  For the purposes of this Act, electronic messages are deemed to be sent in bulk if a person sends, causes to be sent or authorises the sending of — ( a ) more than 100 electronic messages containing the same or similar subject matter during a 24‑hour period; ( b ) more than 1,000 electronic messages containing the same or similar subject matter during a 30‑day period; or ( c ) more than 10,000 electronic messages containing the same or similar subject matter during a one‑year period. (2)  The Minister may, by order in the Gazette , vary the number of electronic messages specified in subsection (1)( a ), ( b ) or ( c ).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "artificial_intelligence"
+    ],
+    "topics_details": [
+      {
+        "id": "artificial_intelligence",
+        "label_zh": "人工智能",
+        "score": 3,
+        "matched_keywords": [
+          "AI"
+        ]
+      }
+    ],
+    "definitions": [],
+    "passing_date": "2007-04-12",
+    "effective_date": "2007-06-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-18",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SG_93567056_Spam_Control_Act_2007.html",
+    "source_start": 8513,
+    "source_end": 9148,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-18T03:27:44Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null,
+    "taxonomy_version": "1.0"
+  },
+  {
+    "doc_id": "SG_ACT_This_Act_is_the_Spam_2007_ART_007",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_This_Act_is_the_Spam_2007",
+    "law_name": "Spam Control Act 2007",
+    "law_name_original": "Spam Control Act 2007",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "7",
+    "article_title": "Application of Act",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "7. —(1)  This Act does not apply unless an electronic message has a Singapore link. (2)  For the purposes of subsection (1), an electronic message has a Singapore link in the following circumstances: ( a ) the message originates in Singapore; ( b ) the sender of the message is — (i) an individual who is physically present in Singapore when the message is sent; or (ii) an entity — (A) which is formed or recognised under the law of Singapore; or (B) which has an office or a place of business in Singapore; ( c ) the computer, mobile telephone, server or device that is used to access the message is located in Singapore; ( d ) the recipient of the message is — (i) an individual who is physically present in Singapore when the message is accessed; or (ii) an entity that carries on business or activities in Singapore when the message is accessed; or ( e ) if the message cannot be delivered because the relevant electronic address no longer exists (assuming that the electronic address existed), it is reasonably likely that the message would have been accessed using a computer, mobile telephone, server or device located in Singapore. [40/2020] (3)  Despite subsection (1), this Act does not apply to any electronic message specified in the First Schedule to such extent as may be specified therein.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2007-04-12",
+    "effective_date": "2007-06-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-18",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SG_93567056_Spam_Control_Act_2007.html",
+    "source_start": 9169,
+    "source_end": 10474,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-18T03:27:44Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null,
+    "taxonomy_version": "1.0"
+  }
+]

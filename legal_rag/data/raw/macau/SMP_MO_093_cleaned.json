@@ -1,0 +1,136 @@
+[
+  {
+    "doc_id": "MAC_REG_13_2025_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_13_2025",
+    "law_name": "一款（十三）項及第三款，以及第二十三條第一款至第三款的",
+    "law_name_original": null,
+    "law_type": "行政法規",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "授予博彩監察協調局局長吳惠嫻一切所需權力，以便以立\n約人身份，代表澳門特別行政區與澳門彩票有限公司簽署修訂\n即發彩票經營批給合同的公證合同。\nLimitada.",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh-pt",
+    "word_count_zh": 65,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-05-19",
+    "publication_date": "2026-05-18",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_MO_093.txt",
+    "source_start": 631,
+    "source_end": 793,
+    "language_original": [
+      "zh",
+      "pt"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T14:53:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_13_2025_ART_002",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_13_2025",
+    "law_name": "一款（十三）項及第三款，以及第二十三條第一款至第三款的",
+    "law_name_original": null,
+    "law_type": "行政法規",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "本行政命令自公佈翌日起生效。\n二零二六年五月十一日\n命令公佈。\nPublique-se.\n行政長官　岑浩輝\n第 89/2026 號⾏政⾧官批⽰\n行政長官行使《澳門特別行政區基本法》第五十條賦予的\n職權，並根據第13/2023號法律《金融體系法律制度》第三條第\n一款（十三）項及第三款，以及第二十三條第一款至第三款的\n規定，作出本批",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh-pt",
+    "word_count_zh": 113,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 9.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": [],
+    "passing_date": null,
+    "effective_date": "2026-05-19",
+    "publication_date": "2026-05-18",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_MO_093.txt",
+    "source_start": 645,
+    "source_end": 793,
+    "language_original": [
+      "zh",
+      "pt"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T14:53:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

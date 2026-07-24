@@ -1,0 +1,843 @@
+[
+  {
+    "doc_id": "TH_ACT_1960_ART_001",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "asfollows:",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 1.\nThis Act is called the \"Export Promotion Act, B.E. 2503\".",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 1.\nThis Act is called the \"Export Promotion Act, B.E. 2503\"."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 713,
+    "source_end": 781,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_002",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 2.\nThis Act shall come into force as from the day\nfollowing the date of its publication in the Government Gazette.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 2.\nThis Act shall come into force as from the day\nfollowing the date of its publication in the Government Gazette."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 782,
+    "source_end": 904,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_003",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 3.\nIn this Act,\"Board\" means the Board of Export Promotion;\n\"Chairman\" means the Chairman of the Board of Export\nPromotion;\"member\" means a member of the Board of Export Promotion\nand includes the Chairman of the Board of Export Promotion;",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 3.\nIn this Act,\"Board\" means the Board of Export Promotion;\n\"Chairman\" means the Chairman of the Board of Export\nPromotion;\"member\" means a member of the Board of Export Promotion\nand includes the Chairman of the Board of Export Promotion;"
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 7.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 905,
+    "source_end": 1152,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_004",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "\"Office\" means the Office of Export Promotion",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 4.\nThree shall be a Board of Export Promotion, called\nin brief \"BEP\", consisting of the Chairman of the Board and not more than nine\nother members appointed by the Prime Minister, and the Secretary-General of\nthe Office as member and secretary.\nThe Director-General of the Customs Department, DirectorGeneral of the Department of Economics, Director-General of the Department\nof Agriculture, Director-General of the Rice Department, Director-General of\nthe Department of Livestock Development, Director-General\nof the RoyalForestry Department, Director-General of the Department of Mineral\nResources, Director-General of the Department\nof Foreign Trade, DirectorGeneral of the Department of Internal Trade, Director-General of the\nDepartment of Industrial Promotion\nand not more than seven other persons\nappointed by the Prime Minister shall be advisers of the Board.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 4.\nThree shall be a Board of Export Promotion, called\nin brief \"BEP\", consisting of the Chairman of the Board and not more than nine\nother members appointed by the Prime Minister, and the Secretary-General of\nthe Office as member and secretary.\nThe Director-General of the Customs Department, DirectorGeneral of the Department of Economics, Director-General of the Department\nof Agriculture, Director-General of the Rice Department, Director-General of\nthe Department of Livestock Development, Director-General\nof the RoyalForestry Department, Director-General of the Department of Mineral\nResources, Director-General of the Department\nof Foreign Trade, DirectorGeneral of the Department of Internal Trade, Director-General of the\nDepartment of Industrial Promotion\nand not more than seven other persons\nappointed by the Prime Minister shall be advisers of the Board."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 5,
+        "matched_keywords": [
+          "means (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 1200,
+    "source_end": 2075,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_005",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 5.\nThe Board shall have the following duties:\nto proceed with activities concerning export promotion;\nto examine and control the export of goods;\nto advise on the use of any measures affecting export",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 5.\nThe Board shall have the following duties:\nto proceed with activities concerning export promotion;\nto examine and control the export of goods;\nto advise on the use of any measures affecting export"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 2076,
+    "source_end": 2283,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_006",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "promotion or concerning goods standards",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 6.\nIn performing duties under section 5, the Board\nshall have the following powers:\nto request Ministries, Sub-Ministries, Departments or State\nenterprises to submit statistics and other particulars necessary\nfor exportpromotion or concerning the compliance with the law on exported goods\nstandard;to issue a written summons to any person to give statements or\nto submit accounts, documents or materials for supplementing\nconsideration.\nThe Chairman shall have the power to entrust an official of the\nOffice to execute the powers prescribed in this section in whole\nor in part byissuing an instrument of authorization to such official.\nThe official authorized to perform the duties under the foregoing\nparagraph shall produce the instrument upon being requested by\nthe personconcerned.\nSection 6 bis.\nThe service of summons under section 6 (2)\nshall be made by registered post or by an official of the Office at the domicile\noroffice of the person to whom the summons is directed in the day time\nbetween sunrise and sunset.\nIf the person to whom the summons is directed refuses to accept\nthe service without lawful cause, the official of the Office shall\nbe entitled torequest any competent administrative or police official to accompany him as a\nwitness and shall, if such person\nstill refuses to accept the summons, leave the\nsummons on the spot.\nIf the official of the Office fails to meet the person to whom the\nsummons is directed at his domicile or office, such service\nmay be made on anyperson over twenty years of age who is living or working at the dwelling place\nor office known to be that\nof the person to whom the summons is directed.\nIf the official fails to meet any person or meets a person but he\nrefuses to accepts the summons and there is a reason to believe\nthat the personto whom the summons is directed is present there and intends to avoid the\nservice, the summons shall be posted\non a conspicuous place at his domicile\nor office.\nWhen the official of the Office has followed the procedure\nmentioned in paragraph two, paragraph three or paragraph four, it shall\nbedeemed that the person to whom the summons is directed has",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 6.\nIn performing duties under section 5, the Board\nshall have the following powers:\nto request Ministries, Sub-Ministries, Departments or State\nenterprises to submit statistics and other particulars necessary\nfor exportpromotion or concerning the compliance with the law on exported goods\nstandard;to issue a written summons to any person to give statements or\nto submit accounts, documents or materials for supplementing\nconsideration.\nThe Chairman shall have the power to entrust an official of the\nOffice to execute the powers prescribed in this section in whole\nor in part byissuing an instrument of authorization to such official.\nThe official authorized to perform the duties under the foregoing\nparagraph shall produce the instrument upon being requested by\nthe personconcerned.\nSection 6 bis.\nThe service of summons under section 6 (2)\nshall be made by registered post or by an official of the Office at the domicile\noroffice of the person to whom the summons is directed in the day time\nbetween sunrise and sunset.\nIf the person to whom the summons is directed refuses to accept\nthe service without lawful cause, the official of the Office shall\nbe entitled torequest any competent administrative or police official to accompany him as a\nwitness and shall, if such person\nstill refuses to accept the summons, leave the\nsummons on the spot.\nIf the official of the Office fails to meet the person to whom the\nsummons is directed at his domicile or office, such service\nmay be made on anyperson over twenty years of age who is living or working at the dwelling place\nor office known to be that\nof the person to whom the summons is directed.\nIf the official fails to meet any person or meets a person but he\nrefuses to accepts the summons and there is a reason to believe\nthat the personto whom the summons is directed is present there and intends to avoid the\nservice, the summons shall be posted\non a conspicuous place at his domicile\nor office.\nWhen the official of the Office has followed the procedure\nmentioned in paragraph two, paragraph three or paragraph four, it shall\nbedeemed that the person to whom the summons is directed has"
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this section"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 2325,
+    "source_end": 4477,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_007",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "received it",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 7.\nA member or an adviser appointed by the Prime\nMinister holds office for a term of two years. A member or an adviser who",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 7.\nA member or an adviser appointed by the Prime\nMinister holds office for a term of two years. A member or an adviser who"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 4491,
+    "source_end": 4621,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_008",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "vacatesoffice may be re-appointed",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 8.\nIn addition to vacating office at the end of the term\nunder section 7, a member or an adviser vacates office upon:\ndeath;resignation;\nbeing a bankrupt;being an incompetent or quasi-incompetent person;\nbeing imprisoned by a final judgment of imprisonment except\nfor a petty offence or an offence committed through negligence.\nWhen a member or an adviser vacates office before the end of the\nterm, the Prime Minister may appoint another person to replace\nhim.\nA member or an adviser appointed under the foregoing paragraph\nholds office for the remaining term of the member or adviser replaced",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 8.\nIn addition to vacating office at the end of the term\nunder section 7, a member or an adviser vacates office upon:\ndeath;resignation;\nbeing a bankrupt;being an incompetent or quasi-incompetent person;\nbeing imprisoned by a final judgment of imprisonment except\nfor a petty offence or an offence committed through negligence.\nWhen a member or an adviser vacates office before the end of the\nterm, the Prime Minister may appoint another person to replace\nhim.\nA member or an adviser appointed under the foregoing paragraph\nholds office for the remaining term of the member or adviser replaced"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 4657,
+    "source_end": 5258,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_009",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "by him",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 9.\nAt a meeting of the Board, if the Chairman is\nunable to attend or is absent from the meeting, the members shall elect one",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 9.\nAt a meeting of the Board, if the Chairman is\nunable to attend or is absent from the meeting, the members shall elect one"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 5267,
+    "source_end": 5399,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_010",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "amongthemselves to preside over the meeting",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 10.\nAt a meeting, the presence of not less than one-half\nof the total number of members is required to constitute a quorum.\nA decision of the meeting shall be by a majority of votes.\nIn casting votes, each member shall have one vote; in case of an\nequality of votes, the person who presides over the meeting shall",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 10.\nAt a meeting, the presence of not less than one-half\nof the total number of members is required to constitute a quorum.\nA decision of the meeting shall be by a majority of votes.\nIn casting votes, each member shall have one vote; in case of an\nequality of votes, the person who presides over the meeting shall"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 5445,
+    "source_end": 5766,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_011",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "have anadditional vote as the casting vote",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 11.\nThe Board may appoint a sub-committee to\nconsider or carry out any matter as entrusted by the Board.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 11.\nThe Board may appoint a sub-committee to\nconsider or carry out any matter as entrusted by the Board."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 5811,
+    "source_end": 5923,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_012",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 12.\nThere shall be the Office of the Export Promotion\nestablished under the law on the organization of the Office of the Prime\nMinister,having the duty to carry out activities in compliance with the\nresolutions of the Board and to do any other administration works.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 12.\nThere shall be the Office of the Export Promotion\nestablished under the law on the organization of the Office of the Prime\nMinister,having the duty to carry out activities in compliance with the\nresolutions of the Board and to do any other administration works."
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 5924,
+    "source_end": 6197,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_013",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 13.\nWhoever fails to appear to give statements or\nsubmit accounts, documents or any materials as required under section 6 (2)\nshallbe liable to imprisonment for a term not exceeding one month or to a fine",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 13.\nWhoever fails to appear to give statements or\nsubmit accounts, documents or any materials as required under section 6 (2)\nshallbe liable to imprisonment for a term not exceeding one month or to a fine"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 6198,
+    "source_end": 6410,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_014",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "not exceeding two thousand Baht, or to both",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 14.\nThe members or officials authorized by the\nChairman under section 6 shall not disclose any statement, number or statistics\nreceivedin the performance of their duties in a manner which is likely to cause\ndamage to any person except where the disclosure is made\nin the course of their\nofficial duties or for the benefit of any inquiry or trial.\nWhoever violates the foregoing paragraph shall be liable to\nimprisonment for a term not exceeding six months or to a fine not exceeding",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 14.\nThe members or officials authorized by the\nChairman under section 6 shall not disclose any statement, number or statistics\nreceivedin the performance of their duties in a manner which is likely to cause\ndamage to any person except where the disclosure is made\nin the course of their\nofficial duties or for the benefit of any inquiry or trial.\nWhoever violates the foregoing paragraph shall be liable to\nimprisonment for a term not exceeding six months or to a fine not exceeding"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 6456,
+    "source_end": 6946,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "TH_ACT_1960_ART_015",
+    "jurisdiction": "泰国",
+    "law_id": "TH_ACT_1960",
+    "law_name": "Export Promotion Act, 1960",
+    "law_name_original": "Export Promotion Act, 1960",
+    "law_type": "ACT",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "five hundred Baht, or to both",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Section 15.\nThe Prime Minister shall have charge and control of\nthe execution of this Act.\nCountersigned by:General T. Kittikachorn\nDeputy Prime Minister\nCertified correct translation\n(Taksapol Chiemwichitra)\nOffice of the Council of State\nAs last amended by the Export Promotion Act (No.2), B.E. 2509 (1966)\nPublished in the Government Gazette Vol. 77, Part 31, Special Issue, dated 13th April B.E. 2503 (1960)\nAs amended by section 3 of the Export Promotion Act (No. 2), B.E. 2509 (1966)\nAdded by section 4 of the Export Promotion Act (No. 2), B.E. 2509\nAsianLII:Copyright Policy\n|\nDisclaimers\n|\nPrivacy Policy\n|\nFeedbackURL:\nhttp://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Section 15.\nThe Prime Minister shall have charge and control of\nthe execution of this Act.\nCountersigned by:General T. Kittikachorn\nDeputy Prime Minister\nCertified correct translation\n(Taksapol Chiemwichitra)\nOffice of the Council of State\nAs last amended by the Export Promotion Act (No.2), B.E. 2509 (1966)\nPublished in the Government Gazette Vol. 77, Part 31, Special Issue, dated 13th April B.E. 2503 (1960)\nAs amended by section 3 of the Export Promotion Act (No. 2), B.E. 2509 (1966)\nAdded by section 4 of the Export Promotion Act (No. 2), B.E. 2509\nAsianLII:Copyright Policy\n|\nDisclaimers\n|\nPrivacy Policy\n|\nFeedbackURL:\nhttp://www.asianlii.org/th/legis/consol_act/epa1960239"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "intellectual_property"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "intellectual_property",
+        "label_zh": "知识产权",
+        "label_en": "Intellectual Property",
+        "label_pt": "Propriedade Intelectual",
+        "score": 4.5,
+        "matched_keywords": [
+          "copyright"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1960-04-12",
+    "effective_date": "1960-04-14",
+    "publication_date": "1960-04-13",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "http://www.asianlii.org/th/legis/consol_act/epa1960239",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_TH_004.txt",
+    "source_start": 6978,
+    "source_end": 7660,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:42:52Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

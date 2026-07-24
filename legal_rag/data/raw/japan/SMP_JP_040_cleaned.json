@@ -1,0 +1,269 @@
+[
+  {
+    "doc_id": "JP_Act_2001_SMP_JP_040_ART_001",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2001_SMP_JP_040",
+    "law_name": "Act on Special Measures of the Civil Code Concerning Electronic Consumer Contracts and Electronic Acceptance Notice",
+    "law_name_original": "Act on Special Measures of the Civil Code Concerning Electronic Consumer Contracts and Electronic Acceptance Notice",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": ". (Purpose)",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act is to provide special provisions to the (Act No. 89 of 1896) in cases where there is a certain mistake in the elements comprising an electronic consumer contract executed by a consumer and an electronic acceptance notice is dispatched by a consumer with respect to a contract made between parties at a distance.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act is to provide special provisions to the (Act No. 89 of 1896) in cases where there is a certain mistake in the elements comprising an electronic consumer contract executed by a consumer and an electronic acceptance notice is dispatched by a consumer with respect to a contract made between parties at a distance."
+      }
+    ],
+    "topics": [
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 6.75,
+        "matched_keywords": [
+          "consumer contract"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-06-29",
+    "effective_date": null,
+    "publication_date": "2001-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3820",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_040.json",
+    "source_start": 22,
+    "source_end": 342,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:55Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2001_SMP_JP_040_ART_002",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2001_SMP_JP_040",
+    "law_name": "Act on Special Measures of the Civil Code Concerning Electronic Consumer Contracts and Electronic Acceptance Notice",
+    "law_name_original": "Act on Special Measures of the Civil Code Concerning Electronic Consumer Contracts and Electronic Acceptance Notice",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": ". (Definitions)",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The term \"electronic consumer contract\" as used in this Act means a contract that is made between a consumer and a business entity by electromagnetic method through a visual browser of a computer in cases where the consumer manifests their intention to make an offer or to accept the offer by transmitting their intention through their computer in accordance with the procedures prepared on this visual browser by the business entity or its designee.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The term \"electronic consumer contract\" as used in this Act means a contract that is made between a consumer and a business entity by electromagnetic method through a visual browser of a computer in cases where the consumer manifests their intention to make an offer or to accept the offer by transmitting their intention through their computer in accordance with the procedures prepared on this visual browser by the business entity or its designee."
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "term (weak)"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 4.5,
+        "matched_keywords": [
+          "consumer contract"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-06-29",
+    "effective_date": null,
+    "publication_date": "2001-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3820",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_040.json",
+    "source_start": 369,
+    "source_end": 819,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:55Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2001_SMP_JP_040_ART_003",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2001_SMP_JP_040",
+    "law_name": "Act on Special Measures of the Civil Code Concerning Electronic Consumer Contracts and Electronic Acceptance Notice",
+    "law_name_original": "Act on Special Measures of the Civil Code Concerning Electronic Consumer Contracts and Electronic Acceptance Notice",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 3. (Special Provisions to theCivil CodeConcerning Electronic Consumer Contracts)\n\nThe proviso to Article 95 of the does not apply to the cases where there is a mistake regarding any element in an electronic consumer contract in the course of making an offer or accepting the offer for an electronic consumer contract by a consumer, and when that mistake falls under any of the following items; provided, however, that this does not apply to the cases where the business entity that is the counterparty to the relevant electronic consumer contract (including the person entrusted by the business entity, the same applies hereinafter) has taken measures to confirm the consumer's intention to make an offer or to accept the offer by electromagnetic means on the visual browser, or where the consumer manifests expressly their intention to the business entity that there is no need for the relevant confirmation measures.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 3. (Special Provisions to theCivil CodeConcerning Electronic Consumer Contracts)\n\nThe proviso to Article 95 of the does not apply to the cases where there is a mistake regarding any element in an electronic consumer contract in the course of making an offer or accepting the offer for an electronic consumer contract by a consumer, and when that mistake falls under any of the following items; provided, however, that this does not apply to the cases where the business entity that is the counterparty to the relevant electronic consumer contract (including the person entrusted by the business entity, the same applies hereinafter) has taken measures to confirm the consumer's intention to make an offer or to accept the offer by electromagnetic means on the visual browser, or where the consumer manifests expressly their intention to the business entity that there is no need for the relevant confirmation measures."
+      }
+    ],
+    "topics": [
+      "consumer_protection",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 9.0,
+        "matched_keywords": [
+          "consumer contract"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-06-29",
+    "effective_date": null,
+    "publication_date": "2001-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3820",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_040.json",
+    "source_start": 1895,
+    "source_end": 2821,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:55Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2001_SMP_JP_040_ART_004",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2001_SMP_JP_040",
+    "law_name": "Act on Special Measures of the Civil Code Concerning Electronic Consumer Contracts and Electronic Acceptance Notice",
+    "law_name_original": "Act on Special Measures of the Civil Code Concerning Electronic Consumer Contracts and Electronic Acceptance Notice",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 4. (Special Provision to theCivil CodeConcerning Electronic Acceptance Notice)\n\nThe provisions of Article 526, Paragraph 1 and Article 527 of the do not apply to the cases where an electronic acceptance notice is dispatched for a contract made between parties at a distance.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 4. (Special Provision to theCivil CodeConcerning Electronic Acceptance Notice)\n\nThe provisions of Article 526, Paragraph 1 and Article 527 of the do not apply to the cases where an electronic acceptance notice is dispatched for a contract made between parties at a distance."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-06-29",
+    "effective_date": null,
+    "publication_date": "2001-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3820",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_040.json",
+    "source_start": 3554,
+    "source_end": 3836,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:55Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

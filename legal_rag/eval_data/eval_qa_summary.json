@@ -1,0 +1,18 @@
+{
+  "total_queries": 80,
+  "has_ans_accuracy": 0.775,
+  "has_ans_count": 62,
+  "avg_faithfulness": 3.8,
+  "avg_relevance": 4.3,
+  "faithfulness_distribution": {
+    "1-2分": 8,
+    "3分": 32,
+    "4-5分": 40
+  },
+  "relevance_distribution": {
+    "1-2分": 0,
+    "3分": 22,
+    "4-5分": 58
+  },
+  "error_count": 0
+}

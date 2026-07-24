@@ -1,0 +1,2108 @@
+[
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_001",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.1",
+    "article_number_normalized": "007_001",
+    "article_title": "Purpose.",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The purpose of this part is to ensure that information within the Department of Homeland Security (DHS) relating to the national security is classified, safeguarded, and declassified pursuant to the provisions of\nExecutive Order 13526\n, and implementing directives from the Information Security Oversight Office (ISOO) of the National Archives and Records Administration (NARA).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "cybersecurity",
+      "public_governance",
+      "regulatory_scope",
+      "records_management"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 25.5,
+        "matched_keywords": [
+          "executive order 13526",
+          "national security",
+          "executive order",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.75,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.75,
+        "matched_keywords": [
+          "administration"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 6.75,
+        "matched_keywords": [
+          "pursuant to"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 4.5,
+        "matched_keywords": [
+          "archives (weak)",
+          "records (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 9,
+    "source_end": 21,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_002",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.2",
+    "article_number_normalized": "007_002",
+    "article_title": "Scope.",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This part applies to all employees, detailees, and non-contractor personnel inside and outside the Executive Branch who are granted access to classified information by the DHS, in accordance with the standards in\nExecutive Order 13526\n, and its implementing directives, and\nExecutive Order 13549\n, “Classified National Security Information Program for State, Local, Tribal, and Private Sector Entities,” and its implementing directives.\nThis part does not apply to contractors, grantees and other categories of personnel falling under the purview of\nExecutive Order 12829\n, National Industrial Security Program, as amended, and its implementing directives.\nThis part is independent of and does not affect any classification procedures or requirements of the Atomic Energy Act of 1954, as amended (\n42 U.S.C. 2011\net seq.\n).\nThis part does not, and is not intended to, create any right to judicial review, or any other right or benefit or trust responsibility, substantive or procedural, enforceable by a party against the United States, its agencies or instrumentalities, its officers or employees, or any other person. This part creates limited rights to administrative review of decisions. This part does not, and is not intended to, create any right to judicial review of administrative action.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "government_contracting",
+      "regulatory_scope",
+      "government_procurement",
+      "litigation_procedure",
+      "intellectual_property_licensing",
+      "quality_management"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 43.5,
+        "matched_keywords": [
+          "classified national security information",
+          "executive order 13526",
+          "national security",
+          "classified information",
+          "executive order",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 15.75,
+        "matched_keywords": [
+          "contractor",
+          "responsibility"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 15.75,
+        "matched_keywords": [
+          "applies to",
+          "in accordance with",
+          "applies (weak)"
+        ]
+      },
+      {
+        "id": "government_procurement",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 9.0,
+        "matched_keywords": [
+          "contractor"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 9.0,
+        "matched_keywords": [
+          "judicial review"
+        ]
+      },
+      {
+        "id": "intellectual_property_licensing",
+        "label_zh": "知识产权与许可",
+        "label_en": "IP Licensing",
+        "label_pt": "Licença de Propriedade Intelectual",
+        "score": 6.75,
+        "matched_keywords": [
+          "limited rights"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 4.5,
+        "matched_keywords": [
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 403,
+    "source_end": 413,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_003",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.3",
+    "article_number_normalized": "007_003",
+    "article_title": "Definitions.",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The terms defined or used in\nExecutive Order 13526\n, and the implementing directives in\n32 CFR part 2001\nand\n2004\nare applicable to this part.\nSubpart A—Administration",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "legal_definitions",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 9.0,
+        "matched_keywords": [
+          "executive order 13526",
+          "executive order"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "defined (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 1714,
+    "source_end": 1730,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_010",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.10",
+    "article_number_normalized": "007_010",
+    "article_title": "Authority of the DHS Chief Security Officer.",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The DHS Chief Security Officer (hereafter “Chief Security Officer”) is designated as the Senior Agency Official as required by\nsection 5.4(d)\nof Executive Order 13526, and, except as specifically provided elsewhere in this part, is authorized to administer the DHS Classified National Security Information program pursuant to Executive Order 13526.\nTo the extent that\n32 CFR part 2001\nrefers to the agency head or “designee,” the Chief Security Officer is such designee unless determined otherwise by the Secretary. The Chief Security Officer may further delegate the associated authorities.\nThe Chief Security Officer shall, among other actions:\nOversee and administer the DHS's program established under Executive Order 13526;\nPromulgate implementing regulations;\nEstablish and maintain DHS-wide security education and training programs, to include implementation and management of mandatory training for DHS officials who have been delegated original classification authority and those who perform derivative classification actions and suspension of such authority for failure to attend such training;\nEstablish and maintain an ongoing self-inspection program that shall include regularly reviewing representative samples of DHS's original and derivative classification actions, correcting instances of misclassification, and reporting annually to the Director of ISOO on the DHS self-inspection program;\nEstablish procedures to prevent unnecessary access to classified information, including procedures that:\nRequire that a need for access to classified information is established before initiating administrative procedures to grant access; and\nii\nEnsure that the number of persons granted access to classified information is limited to the minimum necessary for operational and security requirements and needs;\nDevelop special contingency plans for the safeguarding of classified information used in or near hostile or potentially hostile areas;\nCoordinate with the DHS Chief Human Capital Officer, as appropriate, to ensure that the performance contract or other system used to rate personnel performance includes the management of classified information as a critical element or item to be evaluated in the rating of:\nOriginal classification authorities;\nii\nSecurity managers or security specialists; and\niii\nAll other personnel whose duties significantly involve the creation or handling of classified information, including persons who apply derivative classification markings;\nAccount for the costs associated with implementing this part and report the cost to the Director of ISOO;\n personnel to respond to any request, appeal, challenge, complaint, or suggestion concerning Executive Order 13526, that pertains to classified information that originated in a DHS component that no longer exists and for which there is no clear successor in function;\n10\nEstablish a secure capability to receive information, allegations, or complaints regarding over-classification or incorrect classification and to provide a ready source for guidance on proper classification;\n11\nReport violations, take corrective measures and assess appropriate sanctions as warranted, in accordance with Executive Order 13526;\n12\nOversee DHS creation and participation in special access programs authorized under Executive Order 13526;\n13\nDirect and administer DHS's personnel security program in accordance with Executive Order 12968 and other applicable law;\n14\nDirect and administer DHS implementation and compliance with the National Industrial Security Program in accordance with Executive Order 12829 and other applicable guidance; and\n15\nPerform any other duties as the Secretary may designate.\nThe Chief Security Officer shall maintain a current list of all officials authorized pursuant to this part to originally classify or declassify documents.\nThe Chief Security Officer shall establish and maintain a means for appointing, tracking, and training DHS officials who do or will perform original and derivative classification actions.\nThe Chief Security Officer shall administer a program for the implementation, management, and oversight of access to and safeguarding of classified information provided to state, local, tribal, and private sector personnel pursuant to Executive Order 13549, “Classified National Security Information Program for State, Local, Tribal, and Private Sector Entities,” and its implementing directives.\nNothing in this part will be interpreted to abrogate or affect the responsibilities of the Director of National Intelligence under the National Security Act of 1947, Public Law 235 (1947), as amended, and E.O. 12333, United States Intelligence Activities (1981), as amended, or any responsibilities of the Under Secretary for Intelligence and Analysis conferred by presidential or intelligence community directive implicating those authorities, insofar as those authorities concern classified sources, methods, and activities, classified national intelligence, or sensitive compartmented information and are executed consistent with delegations or designations of authority issued pursuant to the statutory authority of the Secretary.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "public_administration",
+      "information_classification",
+      "regulatory_scope",
+      "legal_definitions",
+      "government_contracting",
+      "federalism_legal",
+      "quality_management"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 80.0,
+        "matched_keywords": [
+          "classified national security information",
+          "executive order 13526",
+          "original classification authority",
+          "declassify",
+          "national security",
+          "classified information",
+          "executive order",
+          "sensitive compartmented information",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 27.5,
+        "matched_keywords": [
+          "agency head",
+          "senior agency official",
+          "self-inspection",
+          "agency official",
+          "agency (weak)",
+          "official (weak)",
+          "oversight (weak)",
+          "compliance (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 22.5,
+        "matched_keywords": [
+          "derivative classification",
+          "classification markings",
+          "markings (weak)",
+          "declassify (weak)",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 19.5,
+        "matched_keywords": [
+          "pursuant to",
+          "in accordance with",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 15.0,
+        "matched_keywords": [
+          "means",
+          "refers to",
+          "in this part"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "suspension",
+          "contract (weak)"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "to the extent"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 3.5,
+        "matched_keywords": [
+          "performance (weak)",
+          "requirements (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 1901,
+    "source_end": 1950,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_011",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.11",
+    "article_number_normalized": "007_011",
+    "article_title": "Components' responsibilities.",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Each DHS component shall appoint a security officer or security liaison to implement this part. The security officer/security liaison shall:\nImplement, observe, and enforce security regulations or procedures within their component with respect to the classification, declassification, safeguarding, handling, and storage of classified national security information;\nReport violations of the provisions of this part to the Chief Security Officer committed by employees of their component, as required by implementing directives;\nEnsure that employees of their component attend mandatory security education and training, as required by the DHS classified information security procedures, to include those component officials delegated the authority to classify information originally and those who perform derivative classification actions;\nContinuously review the requirements for personnel access to classified information as a part of the continuous need-to-know evaluation, and initiate action to administratively withdraw or reduce the level of access authorized, as appropriate; and\nCooperate fully with any request from the Chief Security Officer for assistance in the implementation of this part.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "information_classification",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 19.0,
+        "matched_keywords": [
+          "classified national security information",
+          "national security",
+          "classified information",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 7.0,
+        "matched_keywords": [
+          "derivative classification",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 7112,
+    "source_end": 7146,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_012",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.12",
+    "article_number_normalized": "007_012",
+    "article_title": "Violations of classified information requirements.",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Any person who suspects or has knowledge of a violation of this part, including the known or suspected loss or compromise of classified information, shall promptly report such violations or possible violations, pursuant to requirements set forth in DHS directives.\nDHS employees and detailees may be reprimanded, suspended without pay, terminated from classification authority, suspended from or denied access to classified information, or subject to other sanctions in accordance with applicable law and DHS regulations or directives if they:\nKnowingly, willfully, or negligently disclose to unauthorized persons information properly classified under Executive Order 13526, or its predecessor orders;\nKnowingly, willfully, or negligently classify or continue the classification of information in violation of Executive Order 13526, or its implementing directives; or\nKnowingly, willfully, or negligently create or continue a special access program contrary to the requirements of Executive Order 13526; or,\nKnowingly, willfully, or negligently violate any other provision of Executive Order 13526, or DHS implementing directives, or;\nKnowingly, willfully, or negligently grant eligibility for, or allow access to, classified information in violation of Executive Order 13526, or its implementing directives, this part, or DHS implementing directives promulgated by the Chief Security Officer.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "regulatory_scope",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 41.0,
+        "matched_keywords": [
+          "classified information (title, +5)",
+          "executive order 13526",
+          "classified information",
+          "executive order",
+          "special access program",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 10.5,
+        "matched_keywords": [
+          "pursuant to",
+          "in accordance with",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 6.0,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 8352,
+    "source_end": 8407,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_013",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.13",
+    "article_number_normalized": "007_013",
+    "article_title": "Judicial proceedings.",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Any DHS official or organization, except for the Office of Inspector General in matters involving the Office of Inspector General only, receiving an order or subpoena from a federal or state court, or an administrative subpoena from a federal agency, to produce classified information (see\n6 CFR 5.41\nthrough\n5.49\n), required to submit classified information for official DHS litigation purposes, or receiving classified information from another organization for production of such in litigation, shall notify the Office of the General Counsel, unless the demand for production is made by the Office of the General Counsel, and immediately determine from the agency originating the classified information whether the information can be declassified. If declassification is not possible, DHS representatives will take appropriate action to protect such information, pursuant to the provisions of this section.\nIf a determination is made under\nparagraph (a)\nof this section to produce classified information in a judicial proceeding in any manner, the DHS General Counsel attorney, or the Office of Inspector General attorney, if the matter involves the Office of Inspector General only, in conjunction with the Department of Justice, shall take appropriate steps to protect classified information in judicial proceedings and retrieve the information when the information is no longer required in such judicial proceedings, in accordance with the Department of Justice procedures, and in Federal criminal cases, pursuant to the requirements of Classified Information Procedures Act (CIPA), Public Law 96-456, 94 Stat. 2025, (18 U.S.C. App.), and the “Security Procedures Established Pursuant to Public Law 96-456, 94 Stat. 2025, by the Chief Justice of the United States for the Protection of Classified Information,” and other applicable authorities.\nSubpart B—Classified Information",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "regulatory_scope",
+      "litigation_procedure",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 22.5,
+        "matched_keywords": [
+          "classified information",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 12.0,
+        "matched_keywords": [
+          "pursuant to",
+          "in accordance with"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 7.5,
+        "matched_keywords": [
+          "litigation",
+          "court (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.0,
+        "matched_keywords": [
+          "agency (weak)",
+          "official (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 9804,
+    "source_end": 9830,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_020",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.20",
+    "article_number_normalized": "007_020",
+    "article_title": "Classification and declassification authority.",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Top Secret original classification authority may only be exercised by the Secretary and by officials with a demonstrable and continuing need to exercise such authority and to whom such authority is delegated in writing by the Secretary. The Chief Security Officer, as the Senior Agency Official, is delegated authority to originally classify information up to and including Top Secret. No official who is delegated Top Secret original classification authority by the Secretary may further delegate such authority.\nThe Chief Security Officer may delegate Secret and Confidential original classification authority to other officials with a demonstrable and continuing need to exercise such authority. No official who is delegated original classification authority by the Secretary or the Chief Security Officer may further delegate such authority.\nPersons who are delegated original classification authority shall attend mandatory classification training within 60 days of the delegation, and annually thereafter. Persons who fail to attend mandatory training shall have such authority suspended until such time as the training occurs.\nExcept for suspensions of the Inspector General's classification authority, the Chief Security Officer may waive a suspension of authority for no longer than 60 days following the due date of the training when unavoidable circumstances exist that prevent the person from attending the training.\nFor cases involving suspension of the Inspector General's classification authority under\nparagraph (c)\nof this section, only the Secretary or Deputy Secretary may waive such a suspension.\nOfficials authorized to classify information at a specified level are also authorized to classify information at a lower level. In the absence of an official authorized to exercise classification authority, the person designated to act in lieu of such official may exercise the official's classification authority.\nDeclassification authority may be exercised by the official who authorized the original classification, if that official is still serving in the same position and has original classification authority; the originator's current successor in function, if that individual has original classification authority; a supervisory official of either the originator or his or her successor in function, if the supervisory official has original classification authority; or officials delegated declassification authority by the Secretary or the Chief Security Officer.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "public_administration",
+      "regulatory_scope",
+      "government_contracting",
+      "information_classification",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 30.5,
+        "matched_keywords": [
+          "original classification authority",
+          "top secret",
+          "secret (weak)",
+          "confidential (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 18.5,
+        "matched_keywords": [
+          "senior agency official",
+          "agency official",
+          "agency (weak)",
+          "official (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 12.0,
+        "matched_keywords": [
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 9.0,
+        "matched_keywords": [
+          "suspension"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 9.0,
+        "matched_keywords": [
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "senior agency official"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 11716,
+    "source_end": 11767,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_021",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.21",
+    "article_number_normalized": "007_021",
+    "article_title": "Classification of information, limitations.",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Information may be originally classified only if all of the following standards are met:\nAn original classification authority is classifying the information;\nThe information is owned by, produced by or for, or is under the control of the United States Government;\nThe information falls within one or more of the categories of information specified in\nsection 1.4\nof Executive Order 13526; and\nThe original classification authority determines that the unauthorized disclosure of the information reasonably could be expected to cause identifiable and describable damage to the national security.\nInformation shall be classified as Top Secret, Secret, or Confidential in accordance with and in compliance with the standards and criteria in Executive Order 13526. No other terms shall be used to identify United States classified information except as otherwise provided by statute.\nIf there is significant doubt about the need to classify information it shall not be classified. If classification is warranted but there is significant doubt about the appropriate level of classification it shall be classified at the lower level.\nOriginal classification decisions made by a DHS original classification authority shall be incorporated into a security classification guide in a timely manner but no later than one year from the date of the original decision. Such decisions shall be reported to the Office of the Chief Security Officer, Administrative Security Division, within thirty days following the original classification decision.\nAll DHS security classification guides shall be coordinated through and receive the concurrence of the Office of the Chief Security Officer, Administrative Security Division, prior to approval and publication by an original classification authority.\nInformation shall not be classified in order to:\nConceal inefficiency, violations of law, or administrative error;\nPrevent embarrassment to a person, organization, or agency;\nRestrain competition;\nPrevent or delay release of information that does not require protection in the interest of national security.\nInformation may not be reclassified after it has been declassified and released to the public under proper authority unless:\nThe reclassification is approved in writing by the Secretary based on a document-by-document determination that the reclassification of the information is required to prevent significant and demonstrable damage to the national security;\nThe reclassification of the information meets the standards and criteria for classification pursuant to Executive Order 13526;\nThe information may be reasonably recovered without bringing undue attention to the information; and\nThe reclassification action is reported promptly to the Assistant to the President for National Security Affairs (National Security Advisor) and the Director of ISOO.\nFor documents in the physical and legal custody of the National Archives and Records Administration that have previously been made available for public use and determined to warrant reclassification per\nparagraphs (g)(1)\nthrough\n(4)\nof this section, the Secretary shall notify the Archivist of the United States, who shall suspend public access pending approval by the Director of ISOO. Any such decision made by the Director of ISOO may be appealed by the Secretary to the President through the National Security Advisor.\nInformation that has not previously been disclosed to the public under proper authority may be classified or reclassified after DHS has received a request for it under the Freedom of Information Act (\n5 U.S.C. 552\n), the Presidential Records Act,\n44 U.S.C. 2204(c)(1)\n, the Privacy Act of 1974 (\n5 U.S.C. 552a\n), or the mandatory review provisions of Executive Order 13526,\nsection 3.5\n. When it is necessary to classify or reclassify such information, it shall be done so on a document-by-document basis with the personal participation of and under the direction of the Secretary or Deputy Secretary.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "information_classification",
+      "regulatory_scope",
+      "data_protection",
+      "public_governance",
+      "records_management",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 74.5,
+        "matched_keywords": [
+          "executive order 13526",
+          "original classification authority",
+          "top secret",
+          "national security",
+          "classified information",
+          "executive order",
+          "unauthorized disclosure",
+          "damage to the national security",
+          "national security (weak)",
+          "classified (weak)",
+          "secret (weak)",
+          "confidential (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 15.0,
+        "matched_keywords": [
+          "classification guide",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 13.0,
+        "matched_keywords": [
+          "pursuant to",
+          "in accordance with",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 3.5,
+        "matched_keywords": [
+          "archives (weak)",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 3.0,
+        "matched_keywords": [
+          "agency (weak)",
+          "compliance (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 14260,
+    "source_end": 14308,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_022",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.22",
+    "article_number_normalized": "007_022",
+    "article_title": "Classification pending review.",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Whenever persons who do not have original classification authority originate or develop information that they believe requires immediate classification and safeguarding, and no authorized original classifier is available, that person shall:\nSafeguard the information in a manner appropriate for the classification level they believe it to be;\nApply the appropriate overall classification markings; and\nWithin five working days, securely transmit the information to the organization that has appropriate subject matter interest and original classification authority.\nWhen it is not clear which component would be the appropriate original classifier, the information shall be sent to the Office of the Chief Security Officer, Administrative Security Division, to determine the appropriate organization.\nThe applicable original classification authority shall decide within 30 days of receipt whether the information warrants classification pursuant to Executive Order 13526 and shall render such decision in writing.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "information_classification",
+      "national_security",
+      "regulatory_scope"
+    ],
+    "topics_details": [
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 21.0,
+        "matched_keywords": [
+          "original classifier",
+          "classification markings",
+          "classification level",
+          "markings (weak)",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 16.5,
+        "matched_keywords": [
+          "executive order 13526",
+          "original classification authority",
+          "executive order"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 7.0,
+        "matched_keywords": [
+          "pursuant to",
+          "authority (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 18284,
+    "source_end": 18319,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_023",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.23",
+    "article_number_normalized": "007_023",
+    "article_title": "Emergency release of classified information.",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The DHS Undersecretary for Management has delegated to certain DHS employees the authority to disclose classified information to an individual or individuals not otherwise eligible for access in emergency situations when there is an imminent threat to life or in defense of the homeland.\nIn exercising this authority, the delegees shall adhere to the following conditions:\nLimit the amount of classified information disclosed to a minimum to achieve the intended purpose;\nLimit the number of individuals who receive it to only those persons with a specific need-to-know;\nTransmit the classified information through approved communication channels by the most secure and expeditious method possible, or by other means deemed necessary in exigent circumstances;\nProvide instructions about what specific information is classified and how it should be safeguarded. Physical custody of classified information must remain with an authorized Federal Government entity, in all but the most extraordinary circumstances as determined by the delegated official;\nProvide appropriate briefings to the recipients on their responsibilities not to disclose the information and obtain from the recipients a signed DHS Emergency Release of Classified Information Non-disclosure Form. In emergency situations requiring immediate verbal release of information, the signed nondisclosure agreement memorializing the briefing may be received after the emergency abates;\nWithin 72 hours of the disclosure of classified information, or the earliest opportunity that the emergency permits, but no later than 7 days after the release, the disclosing authority must notify the DHS Office of the Chief Security Officer, Administrative Security Division, and the originating agency of the information disclosed. A copy of the signed nondisclosure agreements should be forwarded with the notification, or as soon thereafter as practical.\nRelease of information pursuant to this authority does not constitute declassification of the information.\nAuthority to disclose classified information under the above conditions may not be further delegated.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "regulatory_scope",
+      "legal_definitions",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 23.5,
+        "matched_keywords": [
+          "classified information (title, +5)",
+          "classified information",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 8.0,
+        "matched_keywords": [
+          "pursuant to",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 3.0,
+        "matched_keywords": [
+          "agency (weak)",
+          "official (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 19336,
+    "source_end": 19385,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_024",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.24",
+    "article_number_normalized": "007_024",
+    "article_title": "Duration of classification.",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "At the time of original classification, original classification authorities shall apply a date or event in which the information will be automatically declassified.\nThe original classification authority shall attempt to establish a specific date or event that is not more than 10 years from the date of origination in which the information will be automatically declassified. If the original classification authority cannot determine an earlier specific date or event it shall be marked for automatic declassification 10 years from the date of origination.\nIf the original classification authority determines that the sensitivity of the information requires classification beyond 10 years, it may be marked for automatic declassification for up to 25 years from the date of the original classification decision.\nOriginal classification authorities do not have the authority to classify or retain the classification of information beyond 25 years from the date of origination. The only exceptions to this rule are information that would clearly and demonstrably be expected to reveal the identity of a confidential human source or human intelligence source, or, key design concepts of weapons of mass destruction. In these instances, the information shall be marked for declassification based on implementing directives issued pursuant to Executive Order 13526. In all other instances, classification beyond 25 years shall only be authorized in accordance with",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "information_classification",
+      "regulatory_scope"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 18.0,
+        "matched_keywords": [
+          "executive order 13526",
+          "original classification authority",
+          "executive order",
+          "confidential (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 12.0,
+        "matched_keywords": [
+          "confidential human source",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 12.0,
+        "matched_keywords": [
+          "pursuant to",
+          "in accordance with",
+          "authority (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 21504,
+    "source_end": 21536,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_026",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.26",
+    "article_number_normalized": "007_026",
+    "article_title": "Derivative classification.",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Derivative classification is defined as the incorporating, paraphrasing, restating, or generating in a new form information that is already classified, and marking the newly developed material consistent with the classification markings that apply to the source information. Information is also derivatively classified when classification is based on instructions provided in a security classification guide.\nPersons need not possess original classification authority to derivatively classify information based on source documents or classification guides.\nPersons who perform derivative classification actions shall be designated as authorized derivative classifiers as specified in directives published by the Office of the Chief Security Officer.\nPersons who are designated as authorized derivative classifiers shall attend mandatory classification training before performing derivative classification actions, and once every two years thereafter. Persons who fail to attend mandatory training shall have such authority suspended until such time as the training occurs.\nExcept for suspensions of the Office of Inspector General's classification authority, the Chief Security Officer may waive the suspension of authority for no longer than 60 days following the due date of the training when unavoidable circumstances exist that prevent the person from attending the training.\nFor cases involving suspension of the Office of Inspector General's classification authority under\nparagraph (d)\nof this section, only the Secretary or Deputy Secretary may waive such a suspension.\nPersons who apply derivative classification markings shall observe original classification decisions and carry forward to any newly created documents the pertinent classification markings.\nInformation classified derivatively from other classified information shall be classified and marked in accordance with the standards set forth in sections 2.1 and 2.2 of Executive Order 13526,\n32 CFR part 2001\n, and internal DHS guidance provided by the Office of the Chief Security Officer.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "information_classification",
+      "national_security",
+      "government_contracting",
+      "regulatory_scope"
+    ],
+    "topics_details": [
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 38.0,
+        "matched_keywords": [
+          "derivative classification (title, +5)",
+          "derivative classification",
+          "classification guide",
+          "classification markings",
+          "markings (weak)",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 21.5,
+        "matched_keywords": [
+          "executive order 13526",
+          "original classification authority",
+          "classified information",
+          "executive order",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 9.0,
+        "matched_keywords": [
+          "suspension"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 8.0,
+        "matched_keywords": [
+          "in accordance with",
+          "authority (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 23835,
+    "source_end": 23866,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_027",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.27",
+    "article_number_normalized": "007_027",
+    "article_title": "Declassification and downgrading.",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Classified information shall be declassified as soon as it no longer meets the standards for classification. Declassification and downgrading is governed by part 3 of Executive Order 13526, implementing ISOO directives at\n32 CFR part 2001, subpart C\n, and applicable internal DHS direction provided by the Office of the Chief Security Officer.\nInformation shall be declassified or downgraded by the official who authorized the original classification if that official is still serving in the same position and has original classification authority, the originator's successor if that position has original classification authority, or a supervisory official of either if that position has original classification authority, or, by officials delegated such authority in writing by the Secretary or the Chief Security Officer, or, pursuant to\nsection 3.1\n.(e) of Executive Order 13526, the Director of the Information Security Oversight Office.\nIt is presumed that information that continues to meet the classification requirements under Executive Order 13526 requires continued protection. In some exceptional cases during declassification reviews, the need to protect classified information may be outweighed by the public interest in disclosure of the information, and in these cases the information should be declassified. If it appears that the public interest in disclosure of the information may outweigh the need to protect the information, the declassification reviewing official shall refer the information with a recommendation for decision to the Chief Security Officer. The Chief Security Officer shall review the information and after consulting with the applicable original classification authority and other components and agencies with equities, make a recommendation to the Secretary on whether the public interest in disclosure outweighs the damage to national security that might reasonably be expected from disclosure. The Secretary shall decide whether to declassify the information. The decision of the Secretary shall be final. This provision does not amplify or modify the substantive criteria or procedures for classification or create any substantive or procedural rights subject to judicial review.\nEach component shall develop schedules for declassification of records in the National Archives.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "regulatory_scope",
+      "information_classification",
+      "public_administration",
+      "cybersecurity",
+      "litigation_procedure",
+      "records_management",
+      "quality_management"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 44.0,
+        "matched_keywords": [
+          "executive order 13526",
+          "original classification authority",
+          "declassify",
+          "national security",
+          "classified information",
+          "executive order",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 12.5,
+        "matched_keywords": [
+          "authority in",
+          "pursuant to",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 8.5,
+        "matched_keywords": [
+          "declassify (weak)",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 5.0,
+        "matched_keywords": [
+          "official (weak)",
+          "oversight (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "judicial review"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 3.0,
+        "matched_keywords": [
+          "archives (weak)",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 3.0,
+        "matched_keywords": [
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 25929,
+    "source_end": 25967,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_028",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.28",
+    "article_number_normalized": "007_028",
+    "article_title": "Automatic declassification.",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Subject to\nparagraph (b)\nof this section and paragraphs 3.3(b)-(d) and (g)-(j) of Executive Order 13526, all classified information contained in records that are more than 25 years old that have been determined to have permanent historical value shall be declassified automatically on December 31st of the year that is 25 years from the date of origin.\nAt least one year before information is declassified automatically under this section, the Chief Security Officer shall notify the ISOO of any specific information that DHS proposes to exempt from automatic declassification. The notification shall include:\nA description of the information;\nAn explanation of why the information is exempt from automatic declassification and must remain classified for a longer period of time; and\nA specific date or event for declassification of the information whenever the information exempted does not identify a confidential human source or human intelligence source, or, key design concepts of weapons of mass destruction.\nProposed exemptions under this section shall be forwarded to the Chief Security Officer. When the Chief Security Officer determines the exemption request is consistent with this section, he or she will submit the exemption request to the Executive Secretary of the Interagency Security Classification Appeals Panel (ISCAP) for approval.\nDeclassification guides that narrowly and precisely define exempted information may be used to exempt information from automatic declassification. Declassification guides must include the exemption notification information detailed in\nparagraph (b)\nof this section, and be approved pursuant to\nparagraph (c)\nof this section. The creation of declassification guides to cite proposed or ISCAP-approved DHS exemptions shall be coordinated through and processed by the Office of the Chief Security Officer, Administrative Security Division.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "information_classification",
+      "administrative_procedures",
+      "public_governance",
+      "government_contracting",
+      "litigation_procedure",
+      "public_administration",
+      "regulatory_scope",
+      "contract_design"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 18.0,
+        "matched_keywords": [
+          "executive order 13526",
+          "classified information",
+          "executive order",
+          "classified (weak)",
+          "confidential (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 9.5,
+        "matched_keywords": [
+          "confidential human source",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 6.0,
+        "matched_keywords": [
+          "executive secretary",
+          "panel (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "interagency"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "appeals"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "appeals"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "interagency"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 4.5,
+        "matched_keywords": [
+          "pursuant to"
+        ]
+      },
+      {
+        "id": "contract_design",
+        "label_zh": "合同与设计",
+        "label_en": "Contract & Design",
+        "label_pt": "Contrato e Design",
+        "score": 3.0,
+        "matched_keywords": [
+          "design (weak)",
+          "approval (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 28292,
+    "source_end": 28324,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_029",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.29",
+    "article_number_normalized": "007_029",
+    "article_title": "National Declassification Center.",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Chief Security Officer and applicable components will support the NARA, National Declassification Center (NDC), which was established to streamline declassification processes, facilitate quality-assurance measures, and implement standardized training regarding the declassification of records determined to have permanent historical value. The Chief Security Officer will assign DHS personnel on an as-needed basis to address declassification matters and priorities containing DHS equities.\nThe Office of the Chief Security Officer shall provide the NDC with all DHS classification and declassification guides that include ISCAP-approved exemptions from automatic declassification.\nThe Chief Security Officer, or his designee, shall oversee DHS-wide support to the NDC, including representing DHS in consultations with the NDC Director.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "information_classification",
+      "quality_management"
+    ],
+    "topics_details": [
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 4.5,
+        "matched_keywords": [
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 3.0,
+        "matched_keywords": [
+          "quality (weak)",
+          "assurance (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 30216,
+    "source_end": 30254,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_030",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.30",
+    "article_number_normalized": "007_030",
+    "article_title": "Documents of permanent historical value.",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The original classification authority, to the greatest extent possible, shall declassify classified information contained in records determined to have permanent historical value under\n44 U.S.C. 2107\nbefore they are accessioned into the National Archives.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "records_management",
+      "information_classification"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 15.0,
+        "matched_keywords": [
+          "original classification authority",
+          "declassify",
+          "classified information",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 3.0,
+        "matched_keywords": [
+          "archives (weak)",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 3.0,
+        "matched_keywords": [
+          "declassify (weak)",
+          "classification (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 31098,
+    "source_end": 31143,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_031",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.31",
+    "article_number_normalized": "007_031",
+    "article_title": "Classification challenges.",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Authorized holders of information classified by DHS or any other agency who, in good faith, believe that specific information is improperly or unnecessarily classified are encouraged and expected to challenge the classification status of that information pursuant to\nsection 1.8\nof Executive Order 13526. Authorized holders may submit classification challenges in writing to the original classification authority with jurisdiction over the information in question. If an original classification authority cannot be determined, the challenge shall be submitted to the Office of the Chief Security Officer, Administrative Security Division. The challenge need not be more specific than a question as to why the information is or is not classified, or is classified at a certain level.\nIf anonymity of the challenger is requested, the challenger may submit the challenge to the Office of the Chief Security Officer, Administrative Security Division. The Administrative Security Division will act as an agent for the challenger and the identity of the challenger will be redacted.\nThe original classification authority shall no later than 60 days from receipt of the challenge, provide a written response to the submitter. The original classification authority may classify or declassify the information subject to the challenge and, if applicable, state specific reasons why the original classification determination was proper. If the original classification authority is not able to respond within 60 days, he or she shall inform the individual who filed the challenge in writing of that fact, and the anticipated determination date.\nThe individual challenging the classification will be notified of the determination made by the original classification authority and that the individual may appeal this determination to the Chief Security Officer, or in cases involving appeals by Office of Inspector General employees, the Secretary or Deputy Secretary. Upon receipt of such appeals, the Chief Security Officer, or in cases involving appeals by Office of Inspector General employees, the Secretary or Deputy Secretary, shall convene a DHS Classification Appeals Panel (DHS/CAP). The DHS/CAP shall, at a minimum, consist of representatives from the Office of the Chief Security Officer, the Office of General Counsel, and a representative from the component having jurisdiction over the information. Additional members may be added as determined by the Chief Security Officer. The DHS/CAP shall be chaired by the Chief Security Officer.\nIf the requester files an appeal through the DHS/CAP, and the appeal is denied, the requester shall be notified of the right to appeal the denial to the Interagency Security Classification Appeals Panel (ISCAP) pursuant to\nsection 5.3\nof Executive Order 13526, and the rules issued by the ISCAP pursuant to\nsection 5.3\nof Executive Order 13526.\nAny individual who challenges a classification and believes that any action has been taken against him or her in retaliation or retribution because of that challenge may report the facts to the Office of Inspector General via its Hotline or Web site, or other appropriate office.\nNothing in this section shall prohibit a person from informally challenging the classified status of information directly to the original classification authority.\nClassification challenge provisions are not applicable to documents required to be submitted for prepublication review or other administrative process pursuant to an approved non-disclosure agreement.\nRequests for review of classified material for declassification by persons other than authorized holders are governed by\n§ 7.32",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "litigation_procedure",
+      "regulatory_scope",
+      "government_contracting",
+      "information_classification",
+      "public_administration",
+      "public_governance",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 37.0,
+        "matched_keywords": [
+          "executive order 13526",
+          "original classification authority",
+          "declassify",
+          "executive order",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 16.0,
+        "matched_keywords": [
+          "appeals",
+          "appeal (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 13.5,
+        "matched_keywords": [
+          "pursuant to",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 10.5,
+        "matched_keywords": [
+          "appeals"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 10.5,
+        "matched_keywords": [
+          "declassify (weak)",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 6.5,
+        "matched_keywords": [
+          "interagency",
+          "agency (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "interagency"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this section"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 31402,
+    "source_end": 31433,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T6_P7_2014_ART_007_032",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T6_P7_2014",
+    "law_name": "Classified National Security Information",
+    "law_name_original": "Classified National Security Information",
+    "law_type": "CFR",
+    "article_number": "7.32",
+    "article_number_normalized": "007_032",
+    "article_title": "Mandatory declassification review.",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Any individual, as “individual” is defined by\n5 U.S.C. 552a(a)(2)\n(with the exception of a foreign government entity or any representative thereof), may request that classified information be reviewed for declassification pursuant to the mandatory declassification review provisions of\nsection 3.5\nof Executive Order 13526. Such requests must be sent to the Departmental Disclosure Officer, Privacy Office, 245 Murray Lane SW., Building 410, Washington, DC 20528.\nThe request must describe the document or material with enough specificity to allow it to be located by the component with a reasonable amount of effort. Components will generally consider deficient any requests for declassification review of, for instance, broad categories of information, entire file series of records, or similar non-specific requests.\nWhen the description of the information in the request is deficient, the component shall solicit as much additional identifying information as possible from the requester.\nIf the information or material requested cannot be obtained with a reasonable amount of effort, the component shall provide the requester, through the DHS Disclosure Officer, with written notification of the reasons why no action will be taken and of the requester's right to appeal.\nRequests for review of information that has been subjected to a declassification review request within the preceding two years shall not be processed. The DHS Disclosure Officer will notify the requester of such denial.\nMandatory Declassification Review provisions are not applicable to documents required to be submitted for prepublication review or other administrative process pursuant to an approved non-disclosure agreement.\nRequests for information exempted from search or review under sections 701, 702, or 703 of the National Security Act of 1947, as added and amended (\n50 U.S.C. 431-433\n), or other provisions of law, shall not be processed. The DHS Disclosure Officer will notify the requester of such denial.\nIf documents or material being reviewed for declassification under this section contain information that has been originally classified by another government agency, the reviewing authority shall notify the DHS Disclosure Officer. Unless the association of that organization with the requested information is itself classified, the DHS Disclosure Officer will then notify the requester of the referral.\nA DHS component may refuse to confirm or deny the existence, or non-existence, of requested information when its existence or non-existence, is properly classified.\nDHS components shall make a final determination on the request as soon as practicable but within one year from receipt. When information cannot be declassified in its entirety, components shall make reasonable efforts to redact those portions that still meet the standards for classification and release those declassified portions of the requested information that constitute a coherent segment.\nDHS components shall notify the DHS Disclosure Officer of the determination made in the processing of a mandatory review request. Such notification shall include the number of pages declassified in full; the number of pages declassified in part; and the number of pages where declassification was denied.\nThe DHS Disclosure Officer shall maintain a record of all mandatory review actions for reporting in accordance with applicable Federal requirements.\nThe mandatory declassification review system shall provide for administrative appeal in cases where the review results in the information remaining classified. The requester shall be notified of the results of the review and of the right to appeal the denial of declassification. To address such appeals, the DHS Disclosure Office shall convene a DHS Classification Appeals Panel (DHS/CAP). The DHS/CAP shall, at a minimum, consist of representatives from the Disclosure Office, the Office of the Chief Security Officer, the Office of General Counsel, and a representative from the component having jurisdiction over the information. Additional members may be added as determined by the DHS Disclosure Officer. The DHS/CAP shall be chaired by the DHS Disclosure Officer.\nIf the requester files an appeal through the DHS/CAP, and the appeal is denied, the requester shall be notified of the right to appeal the denial to the ISCAP pursuant to\nsection 5.3\nof Executive Order 13526, and the rules issued by the ISCAP pursuant to\nsection 5.3\nof Executive Order 13526.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "regulatory_scope",
+      "litigation_procedure",
+      "information_classification",
+      "government_contracting",
+      "data_protection",
+      "public_governance",
+      "quality_management"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 31.0,
+        "matched_keywords": [
+          "executive order 13526",
+          "national security",
+          "classified information",
+          "executive order",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 19.5,
+        "matched_keywords": [
+          "pursuant to",
+          "in accordance with",
+          "provisions of law",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 15.5,
+        "matched_keywords": [
+          "appeals",
+          "administrative appeal",
+          "appeal (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 6.5,
+        "matched_keywords": [
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "appeals"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administrative appeal"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 3.0,
+        "matched_keywords": [
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2014-07-30",
+    "effective_date": "2026-02-09",
+    "publication_date": "2014-07-30",
+    "last_amended_date": "2026-02-09",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-6/part-7",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T6_P7_6_CFR_Part_7_--_Classified_National_Security_Information.txt",
+    "source_start": 35091,
+    "source_end": 35130,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:50Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

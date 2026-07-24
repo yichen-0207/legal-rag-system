@@ -1,0 +1,233 @@
+[
+  {
+    "doc_id": "SG_ACT_16_1996_ART_002",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_16_1996",
+    "law_name": "Advance Medical Directive Act 1996",
+    "law_name_original": "Advance Medical Directive Act 1996",
+    "law_type": "法律",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Interpretation",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In this Act, unless the context otherwise requires — directive means an advance medical directive made under section 3; Deleted by Act 11 of 2023 wef 01/05/2023 Dire...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "In this Act, unless the context otherwise requires — directive means an advance medical directive made under section 3; Deleted by Act 11 of 2023 wef 01/05/2023 Dire..."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.0,
+        "matched_keywords": [
+          "means",
+          "unless the context"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": [],
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2023-05-01",
+    "last_amended_date": "2023-05-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_16_1996",
+    "source_type": "gov_gazette",
+    "source_file": "SG_70760218_Advance_Medical_Directive_Act_1996.txt",
+    "source_start": 0,
+    "source_end": 16,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_16_1996_ART_006",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_16_1996",
+    "law_name": "Advance Medical Directive Act 1996",
+    "law_name_original": "Advance Medical Directive Act 1996",
+    "law_type": "法律",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "Registry of directives and objections",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Director‑General must cause a register of advance medical directives to be established and maintained for the purposes of this Act and whi...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Director‑General must cause a register of advance medical directives to be established and maintained for the purposes of this Act and whi..."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2023-05-01",
+    "last_amended_date": "2023-05-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_16_1996",
+    "source_type": "gov_gazette",
+    "source_file": "SG_70760218_Advance_Medical_Directive_Act_1996.txt",
+    "source_start": 201,
+    "source_end": 240,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_16_1996_ART_009",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_16_1996",
+    "law_name": "Advance Medical Directive Act 1996",
+    "law_name_original": "Advance Medical Directive Act 1996",
+    "law_type": "法律",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "Certification of terminal illness",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Where a medical practitioner, who is responsible for the treatment of any person, has reason to believe that the person — is suffering from a term...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Where a medical practitioner, who is responsible for the treatment of any person, has reason to believe that the person — is suffering from a term..."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2023-05-01",
+    "last_amended_date": "2023-05-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_16_1996",
+    "source_type": "gov_gazette",
+    "source_file": "SG_70760218_Advance_Medical_Directive_Act_1996.txt",
+    "source_start": 425,
+    "source_end": 460,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_16_1996_ART_021",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_16_1996",
+    "law_name": "Advance Medical Directive Act 1996",
+    "law_name_original": "Advance Medical Directive Act 1996",
+    "law_type": "法律",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "Composition of offences",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Director‑General or any person authorised by him or her may compound any offence under this Act or any regulations made under this Act which is prescrib...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Director‑General or any person authorised by him or her may compound any offence under this Act or any regulations made under this Act which is prescrib..."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2023-05-01",
+    "last_amended_date": "2023-05-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_16_1996",
+    "source_type": "gov_gazette",
+    "source_file": "SG_70760218_Advance_Medical_Directive_Act_1996.txt",
+    "source_start": 645,
+    "source_end": 671,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

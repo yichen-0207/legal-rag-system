@@ -1,0 +1,90 @@
+[
+  {
+    "doc_id": "MAC_REG_28_2009_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_28_2009",
+    "law_name": "《公共財政管理制度》第二十條的規定，作出本批示。",
+    "law_name_original": null,
+    "law_type": "行政法規",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "權，並根據經第28/2009號行政法規修改的第6/2006號行政法規\n《公共財政管理制度》第二十條的規定，作出本批示。\n一、許可與博維資訊系統有限公司訂立提供「網絡安全設\n備——防火牆（門幣伍拾壹萬玖仟陸佰肆拾陸元整），並分段支付如下：\n2016年 ................................................................ $ 425,446.00\n2017年 ...................................................................$ 11,775.00\n2018年 ...................................................................$ 47,100.00\n2019年 .................................................................. $ 35,325.00\n二、二零一六年的負擔由登錄於本年度澳門特別行政區財政\n預算第二十四章「新聞局」內經濟分類「07.10.00.00.09資訊設\n備」帳目的撥款支付。\n三、二零一七年至二零一九年的負擔將由登錄於該等年度澳\n門特別行政區財政預算的相應撥款支付。\n四、二零一六年至二零一八年財政年度在本批示第一款所訂\n金額下若計得結餘，可轉移至下一財政年度，但不得增加有關機\n關支付該項目的總撥款。\n二零一六年八月二十六日行政長官 崔世安\n第 305/2016 號行政長官批示鑑於判給\n《澳門》雜誌英文印刷版及電子版之採編、版面設計、印製、發\n行、推廣、管理及相關流動裝置應用程式之管理及維護服務」的\n執行期跨越一財政年度，因此必須保證其財政支付。",
+    "text_pt": "Regulamento Administrativo n.º 28/2009, o\nChefe do Executivo manda:\n1. É autorizada a celebração do contrato com a Boardware\nSistema de Informação Limitada, para a prestação dos serviços\nde «Equipamentos de Segurança da Rede — NGFW», pelo\nmontante de $ 519 646,00 (quinhentas e dezanove mil, seiscentas e quarenta e seis patacas), com o escalonamento que a\nseguir se indica:Ano 2016 .................................................................. $ 425 446,00\nAno 2017 .................................................................... $ 11 775,00\nAno 2018 .................................................................... $ 47 100,00\nAno 2019 .................................................................... $ 35 325,00\n2. O encargo referente a 2016 será suportado pela verba\ninscrita no capítulo 24.º «Gabinete de Comunicação Social»,\nrubrica «07.10.00.00.09 Equipamentos informáticos», do Or-\nçamento da Região Administrativa Especial de Macau para o\ncorrente ano.\n3. Os encargos referentes aos anos de 2017 a 2019 serão\nsuportados pelas verbas correspondentes, a inscrever no Or-\nçamento da Região Administrativa Especial de Macau desses\nanos.\n4. Os saldos que venham a apurar-se nos anos económicos de\n2016 a 2018, relativamente aos limites fixados no n.º 1 do presente despacho, podem transitar para os anos económicos seguintes, desde que a dotação global do organismo, que suporta\nos encargos da acção, não sofra qualquer acréscimo.\n26 de Agosto de 2016.\nO Chefe do Executivo, Chui Sai On.\nDespacho do Chefe do Executivo n.º 305/2016\nTendo sido adjudicada à Agência de Informação e Notícias\nMacaulink, Limitada a prestação dos serviços de «Produção\nRedactorial, Gráfica e Industrial, Distribuição, Promoção,\nGestão e Divulgação por Meios Electrónicos da Revista Macau\nem Língua Inglesa e a Gestão e Manutenção da Respectiva\nAplicação», cujo prazo de execução se prolonga por mais de\num ano económico, torna-se necessário garantir a sua cobertura\nfinanceira.",
+    "text_en": "",
+    "text_original_language": "zh-pt",
+    "word_count_zh": 346,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [],
+    "topics": [
+      "public_governance",
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 12.0,
+        "matched_keywords": [
+          "行政",
+          "公共 (weak)",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "支付",
+          "支付 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2016-09-05",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_MO_054.txt",
+    "source_start": 121,
+    "source_end": 2920,
+    "language_original": [
+      "zh",
+      "pt"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T14:53:14Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]
