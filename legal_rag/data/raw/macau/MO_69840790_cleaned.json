@@ -1,0 +1,2009 @@
+[
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "1",
+    "article_number_normalized": "1",
+    "article_title": "標的及範圍",
+    "chunk_index": 0,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、本法律訂定電子文件及電子簽名的法律制度。\n二、本法律的規定並不影響法律、規章或協定中關於強制使用紙張或以其他特別形式或方式提交、組成、傳輸或儲存文件的規定的適用，尤其當涉及下列者時：\n（一）公證及登記行為；\n（二）訴訟行為；\n（三）就人身法律關係作出憑證的行為；\n（四）有關開考及競投程序的行為；\n（五）要求簽署人親身到場或當場認定簽名的情況。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 145,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 2,
+        "matched_keywords": [
+          "電子簽名",
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_002",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "2",
+    "article_number_normalized": "2",
+    "article_title": "定義",
+    "chunk_index": 1,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "為適用本法律，下列用語的含義為：\n（一）“ 電子文件 ”，是指為再現或顯示人、物或事實而將相關的數據作電子處理的結果；\n（二）“ 電子簽名 ”，是指與一電子文件相結合或邏輯上與該文件相關聯，並可作為識別作成人身份的方法的一組電子數據；\n（三）“ 高級電子簽名 ”，是指一種電子簽名形式，該簽名與持有人間明顯存在關聯，可憑此辨識持有人的身份；該簽名是透過僅由持有人本人可控制的資料所產生並與所簽署的電子文件相結合，經簽署後，對該文件所作的任何隨後改動均可被察覺；\n（四）“ 合格電子簽名 ”，是指建立於合格證書的一種高級電子簽名形式，該簽名是透過用於產生簽名的安全設備產生，並可按照國際認可的標準有效防止簽名被冒用；\n（五）“ 持有人 ”，是指持有產生簽名所需數據，並以個人或以其所代表的自然人、法人或實體的名義，使用該等數據的自然人；\n（六）“ 產生簽名所需數據 ”，是指用以產生電子簽名的一組獨有數據，如密碼或密碼匙；\n（七）“ 核實簽名所需數據 ”，是指用以核實電子簽名的一組數據，如密碼或密碼匙；\n（八）“ 證書 ”，是指將某一特定電子簽名與其持有人聯繫，並訂明簽名的有效性條件的電子文件；\n（九）“ 認證實體 ”，是指發出電子簽名證書及提供其他相關服務的實體；\n（十）“ 生效時間記錄 ”，是指以電子形式表現的，電子文件與某一特定日期及時間之間的可靠關聯；\n（十一）“ 電子地址 ”，是指用於接收或儲存電子文件的資訊系統的認別資料。\n第二章\n電子文件及電子簽名\n第一節\n一般原則",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 522,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 2,
+        "matched_keywords": [
+          "電子簽名",
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_003",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "3",
+    "article_number_normalized": "3",
+    "article_title": "電子文件的法律效力",
+    "chunk_index": 2,
+    "chapter": "第一節 一般原則",
+    "chapter_title": "",
+    "text_zh": "一、對以電子載體提交的文件，不得因其形式而否認其法律效力。\n二、如電子文件的內容能如書面意思表示般顯示且可完整呈現，即符合對書面形式所要求的法定要件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_004",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "4",
+    "article_number_normalized": "4",
+    "article_title": "電子文件的證明力",
+    "chunk_index": 3,
+    "chapter": "第一節 一般原則",
+    "chapter_title": "",
+    "text_zh": "一、如電子文件能如書面意思表示般顯示，且已簽署合格電子簽名，則對其作成人所作的意思表示有完全證明力，但不影響就文書的虛假提出爭辯及作出證明。\n二、無法如書面意思表示般顯示但已簽署合格電子簽名的電子文件，具機械複製品的證明力。\n三、未簽署合格電子簽名的電子文件的證明力，按法律的一般規定審定，但有效協定另有規定者除外。\n四、對已簽署合格電子簽名的電子文件，如其證書已中止、廢止或失效，又或該簽名未按證書所載條件簽署，則適用上款的規定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 195,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 2,
+        "matched_keywords": [
+          "電子簽名",
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_005",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "5",
+    "article_number_normalized": "5",
+    "article_title": "合格電子簽名",
+    "chunk_index": 4,
+    "chapter": "第一節 一般原則",
+    "chapter_title": "",
+    "text_zh": "一、簽署合格電子簽名，等同於手寫簽署並推定如下事實：\n（一）簽署合格電子簽名者為持有人，並根據證書所載資格及權力行事；\n（二）為簽署電子文件而簽署合格電子簽名；\n（三）經簽署合格電子簽名的電子文件的內容未受察覺不到的改動。\n二、以合格電子簽名作出的簽署，可替代以持有人或其所代表的人的印章、圖章、標記或可資認別的其他符號所作簽署。\n第二節\n電子文件的傳輸",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 153,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 2,
+        "matched_keywords": [
+          "電子簽名",
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_006",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "6",
+    "article_number_normalized": "6",
+    "article_title": "發出及接收",
+    "chunk_index": 5,
+    "chapter": "第二節 電子文件的傳輸",
+    "chapter_title": "",
+    "text_zh": "一、以資訊媒體發送的電子文件，於收件人接收前，視為仍在發件人手中。\n二、以資訊媒體傳輸的電子文件，一旦進入由利害關係人協商確定或由收件人指定的電子地址，即視為收件人已接收文件，但不影響第八條第二款的適用。\n三、在無協商或收件人未指定電子地址的情況下，於收件人取閱文件之時，即視為已接收該文件。\n四、除另有規定或協定，又或證書另有指定外，以資訊媒體傳輸的電子文件推定為：\n（一）在發件人的住所發送；如發件人為企業主，則在其企 業的所在地點發送；\n（二）在收件人的住所接收；如收件人為企業主，則在其企 業的所在地點接收。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 224,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_007",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "7",
+    "article_number_normalized": "7",
+    "article_title": "掛號",
+    "chunk_index": 6,
+    "chapter": "第二節 電子文件的傳輸",
+    "chapter_title": "",
+    "text_zh": "一、以確保對方能有效接收文件的資訊系統傳輸經簽署合格電子簽名的電子文件，等同於以郵政掛號方式寄出。\n二、在上款所指情況下，如發件人收到由收件人發送的、附有合格電子簽名的確認接收文件，則視為文件以附收件回執的郵政掛號方式寄出。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 103,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 2,
+        "matched_keywords": [
+          "電子簽名",
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_008",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "8",
+    "article_number_normalized": "8",
+    "article_title": "接收確認",
+    "chunk_index": 7,
+    "chapter": "第二節 電子文件的傳輸",
+    "chapter_title": "",
+    "text_zh": "一、接收的確認可於電子文件發送前或發送時，由發件人向收件人要求或與之協商。\n二、接收的確認，按所要求或所協商的條款及條件為之，如無該等條款及條件，則由收件人以任何方式作出確認通知。\n三、如未按上款的規定就接收作出確認，文件視為未發送。\n第三章\n認證業務\n第一節\n證書",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 116,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_009",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "9",
+    "article_number_normalized": "9",
+    "article_title": "合格證書",
+    "chunk_index": 8,
+    "chapter": "第一節 證書",
+    "chapter_title": "",
+    "text_zh": "一、由獲認可的認證實體發出的、包含下列內容的證書，視為合格證書：\n（一）指明其為合格證書；\n（二）發出證書的認證實體的身份資料、高級電子簽名及該實體的住所；\n（三）證書持有人姓名及為明確識別其身份所需的其他資料；如持有人以代理人身份行事，則須包含被代理人的身份資料及賦予其代理資格的文件的提述；\n（四）核實簽名所需數據；\n（五）證書有效期的起止日；\n（六）證書識別碼；\n（七）關於證書使用限制的說明；如設有證書的有效交易限額，亦須載明；\n（八）根據第二十八條第三款的規定，認證實體的責任限制。\n二、應利害關係人的請求，尚可於合格證書或補充證書內加入關於代理權的資料，以及關於證書持有人的特定資格的資料，但該資格對於證書的指定用途須屬重要者。\n三、為適用 《刑法典》 第二百四十五條的規定，上款所指合格證書及補充證書，均視為具特別價值的文件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 313,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子簽名"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_010",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "10",
+    "article_number_normalized": "10",
+    "article_title": "合格證書的發出",
+    "chunk_index": 9,
+    "chapter": "第一節 證書",
+    "chapter_title": "",
+    "text_zh": "一、擬使用合格電子簽名者，應生成或取得產生簽名所需數據及核實簽名所需數據，以及取得由經適當認可的認證實體所發出的合格證書。\n二、發出合格證書時，認證實體應：\n（一）核實申請人的身份；如申請人以代理人身份行事，則尚須核實其代理權；\n（二）按證書的指定用途核實持有人的特定資格；\n（三）以書面完整及清晰地將認證程序、進入該程序所需的技術要件，以及使用簽名的條款及條件通知申請人；\n（四）向申請人提供正確及安全使用簽名所需的資料，尤其關於簽署、核實簽名程序及持有人與認證實體的義務等資料；\n（五）在由認證實體生成產生簽名所需數據的情況下，保證該等數據得以保密，且在任何情況下，均須拒絕獲悉該等數據的內容、同意將之儲存、保留、再現或提供任何關於該等數據的資料。\n三、獲被代理人明示許可後，方可發出認定持有人為代理人的合格證書。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 315,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子簽名"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_011",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "11",
+    "article_number_normalized": "11",
+    "article_title": "持有人的義務",
+    "chunk_index": 10,
+    "chapter": "第一節 證書",
+    "chapter_title": "",
+    "text_zh": "一、合格電子簽名持有人應採取適當措施對產生簽名所需數據予以保密，並避免損害第三人。\n二、如懷疑上款所指數據失密，持有人應請求中止證書的效力；如確認失密，應請求廢止之。\n三、如有其他合理原因須中止或廢止證書，持有人亦應按下條的規定請求之。\n四、本條所定義務，經作出必要配合後，適用於證書所載被代理人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 131,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子簽名"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_012",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "12",
+    "article_number_normalized": "12",
+    "article_title": "合格證書的中止及廢止",
+    "chunk_index": 11,
+    "chapter": "第一節 證書",
+    "chapter_title": "",
+    "text_zh": "一、在下列情況下，合格證書予以中止：\n（一）應證書持有人或證書所載被代理人的請求；\n（二）有充分理由相信產生簽名所需數據的保密無保證；\n（三）有充分理由相信發出證書所據資料虛假或不正確，又或證書所載資料已不符實。\n二、在上款（二）項所指情況下，僅於證實中止原因並不符實時，方可解除中止。\n三、在下列情況下，合格證書予以廢止：\n（一）應證書持有人或證書所載被代理人的請求；\n（二）確認產生簽名所需數據的保密無保證；\n（三）確認發出證書所據資料虛假或不正確，又或證書所載資料已不符實；\n（四）認證實體終止業務而未按第二十九條的規定將其文件移轉予其他認證實體；\n（五）認證實體知悉證書持有人或證書所載被代理人已死亡、處於禁治產、準禁治產情況或已消滅；\n（六）認可當局基於具法律依據的原因而發出命令。\n四、中止及廢止證書須說明理由並即時登錄於第二十二條所指資訊紀錄內，且須即時將中止及廢止的原因與登錄日期及時間通知證書持有人。\n五、證書的中止及廢止於紀錄內所登錄的日期及時間開始產生效力，且僅於公眾可知情時方可用以對抗第三人，但證明第三人早已知情者除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 410,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_013",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "13",
+    "article_number_normalized": "13",
+    "article_title": "外地所發證書",
+    "chunk_index": 12,
+    "chapter": "第一節 證書",
+    "chapter_title": "",
+    "text_zh": "一、住所設於外地的認證實體所發證書，如符合以下任一情況，等同設於澳門特別行政區的認證實體所發的合格證書：\n（一）證書符合第九條第一款所定要件，並由設於澳門特別行政區的獲認可的認證實體保證；\n（二）根據國際法文書或地區協議，證書或認證實體在澳門特別行政區獲確認。\n二、如屬上款（一）項所指情況，澳門特別行政區的認證實體須對外地所發證書負上如同本身發出合格證書的責任。\n三、認可當局應透過認為適當的公佈途徑，將所有的由外地認證實體發出而獲澳門特別行政區確認的證書的資料公開，並將之提供予利害關係人。\n第二節\n認可",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 227,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_014",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "14",
+    "article_number_normalized": "14",
+    "article_title": "認可的強制性",
+    "chunk_index": 13,
+    "chapter": "第二節 認可",
+    "chapter_title": "",
+    "text_zh": "為從事發出合格證書的業務，認證實體須預先取得認可當局的認可，但不影響第三十條的適用。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_015",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "15",
+    "article_number_normalized": "15",
+    "article_title": "認可的要件",
+    "chunk_index": 14,
+    "chapter": "第二節 認可",
+    "chapter_title": "",
+    "text_zh": "一、符合下列要件的認證實體，方可獲認可：\n（一）配備的技術及人力資源，符合經營認證業務所需的安全及效力標準；\n（二）具備經營認證業務所需的適當資格及誠信的保證；\n（三）於澳門特別行政區設置經營認證業務所需設備；\n（四）按照行政命令的規定訂立有效的保險合同，以承保由認證業務所生的民事責任。\n二、如為私人實體，尚須符合下列要件：\n（一）為在澳門特別行政區依法設立的公司，其所營事業須包括經營認證業務；\n（二）具備最少$5,000,000.00（澳門幣伍佰萬元）已繳的公司資本。\n三、為適用第一款（二）項的規定，如管理認證實體、進行認證行為或處理認證文件的人屬下列狀況，即顯示其缺乏經營認證業務所需的適當資格及誠信：\n（一）因盜竊、濫用信任、搶劫、詐騙、簽發空頭支票、勒索、背信、濫用擔保卡或信用卡、暴利、偽造、犯罪集團、賄賂、貪污、公務上的侵占或虛假聲明而被判罪者；\n（二）經宣告破產或無償還能力的人，又或被裁定為導致其所控制或其為行政管理機關的成員、領導人或經理的公司破產的責任人；\n（三）被宣告為嚴重或屢次違反規範經營認證業務的本法律的規定的責任人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 392,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_016",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "16",
+    "article_number_normalized": "16",
+    "article_title": "認可當局",
+    "chunk_index": 15,
+    "chapter": "第二節 認可",
+    "chapter_title": "",
+    "text_zh": "一、對認證實體進行認可及監察，屬認可當局的職權。\n二、認可當局在執行認可及監察工作時，可請求警察及司法當局，以及任何其他公共當局及部門提供必要合作或協助。\n三、認可當局由行政長官指定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 81,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_017",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "17",
+    "article_number_normalized": "17",
+    "article_title": "認可的申請",
+    "chunk_index": 16,
+    "chapter": "第二節 認可",
+    "chapter_title": "",
+    "text_zh": "一、認證實體有關認可的申請須向認可當局提出，並應附同下列資料：\n（一）能反映申請人的組織結構的文件，其中須載明主要負責人的身份資料及履歷；\n（二）擬提供服務的種類的詳細計劃，尤其須說明所配備的物力和技術資源，該等資源的特徵及所在地，以及相關的保安計劃；\n（三）申請人所採用的認證作業準則，其中須包括管理證書的一切重要事宜，尤其關於證書的發出、使用、中止、廢止及失效的條件、規則及程序等；\n（四）關於外部安全審計員的說明；\n（五）財經計劃，其中須載明所採用的收費表，以及首三年的業務說明；\n（六）承保由認證業務所生的民事責任的有效保險合同的證明文件；\n（七）申請人認為對審核其申請屬重要的其他資料。\n二、如為公司，申請尚應附同下列文件：\n（一）最新的商業登記證明；\n（二）公司的行政管理機關及監察機關成員名單；\n（三）公司資本已繳證明文件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 310,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_018",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "18",
+    "article_number_normalized": "18",
+    "article_title": "審核及決定",
+    "chunk_index": 17,
+    "chapter": "第二節 認可",
+    "chapter_title": "",
+    "text_zh": "一、為審核申請，認可當局如認為有需要可要求申請人提供補充資料及進行調查、詢問及檢查。\n二、就認可的申請所作決定，應自接受申請起一百二十日內作出。\n三、認可當局可於認可時附加所需條件，以確保適用於所申請認證業務經營方面的法律及規章的規定獲得遵守。\n四、有關認可須公佈於《澳門特別行政區公報》。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 128,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_019",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "19",
+    "article_number_normalized": "19",
+    "article_title": "拒絕認可",
+    "chunk_index": 18,
+    "chapter": "第二節 認可",
+    "chapter_title": "",
+    "text_zh": "一、在下列情況下，將拒絕認可：\n（一）申請卷宗內的資料不正確或虛假；\n（二）認可當局認為未符合法律規定的要件。\n二、如申請卷宗有缺陷，認可當局在拒絕認可前，須通知申請人在適當時間內予以彌補。\n三、對拒絕認可的決定，可向行政法院提出上訴。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 98,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_020",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "20",
+    "article_number_normalized": "20",
+    "article_title": "認可的失效及廢止",
+    "chunk_index": 19,
+    "chapter": "第二節 認可",
+    "chapter_title": "",
+    "text_zh": "一、如申請人自有關決定於《澳門特別行政區公報》公佈之日起六個月內未開始業務，又或認證實體消滅，則認可失效。\n二、如公共部門或實體獲賦予的認證職能以及用於認證業務的系統及設備轉移予另一公共部門或實體，則其消滅不導致認可失效。\n三、在下列情況下，認可將被廢止，且不妨礙法律規定的其他處罰及倘有的民事或刑事責任：\n（一）藉虛假聲明或其他不法途徑取得認可；\n（二）認證實體於經營認證業務或其他業務時，作出損害或危及公眾對認證的信心的不法行為；\n（三）認證實體在內部行政、組織或監察方面發生嚴重不當情事；\n（四）因任何原因不再符合關於認證實體行政或監察機關正常運作的法律要件及章程要件；\n（五）因任何原因不再符合認可的要件。\n四、非因認證實體的意願而終止認證業務者，認可亦被廢止。\n五、如屬第三款（四）及（五）項所指情況，廢止的決定作出前，應通知利害關係人於合理期限內使情況回復正常。\n六、認可當局應適當公佈廢止的決定，另須於《澳門特別行政區公報》公佈及於八日內通知利害關係人。\n七、如認證實體消滅或認可被廢止，認可當局應：\n（一）促使將認可失效或被廢止的實體的文件移轉到另一獲認可的認證實體；\n（二）促使將認可失效或被廢止的實體所發證書廢止；如該等證書的資料未能移轉，則於原應由該實體保存該等資料的期間內保存之。\n第三節\n經營業務",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 489,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_021",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "21",
+    "article_number_normalized": "21",
+    "article_title": "義務",
+    "chunk_index": 20,
+    "chapter": "第三節 經營業務",
+    "chapter_title": "",
+    "text_zh": "獲認可的認證實體在經營業務時，須切實履行本法律所定義務，尤其是：\n（一）使用能保證程序的技術安全的系統及產品；\n（二）採取適當措施遏止證書所載數據被偽造或更改；\n（三）遵守適用法例就處理個人資料所定的安全規則；\n（四）提供能保證及時並安全地廢止、中止合格證書或使之失效，且可隨時查詢下條第一款所指資訊紀錄的服務；\n（五）提供能保證證書的發出、中止及廢止的日期及時間可獲確定的服務。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 164,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_022",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "22",
+    "article_number_normalized": "22",
+    "article_title": "紀錄及保存",
+    "chunk_index": 21,
+    "chapter": "第三節 經營業務",
+    "chapter_title": "",
+    "text_zh": "一、獲認可的認證實體應為已發出、已中止、已廢止或已失效的合格證書組織及保持一資訊紀錄並不斷更新，該紀錄應可防止未經許可的更改，以及可供任何人尤其透過資訊媒體查詢。\n二、合格證書及其相關資料，應自證書失效或廢止起保存最少十五年。\n三、認證實體應採用可靠的系統保存證書，以便：\n（一）數據的輸入及修改僅可由獲許可的人進行；\n（二）公眾僅於獲證書持有人同意後，方可對證書進行查詢；\n（三）證書所載資料的真實性可予核實；\n（四）任何可影響系統安全要件的技術改動均可被即時察覺。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 203,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_023",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "23",
+    "article_number_normalized": "23",
+    "article_title": "生效時間記錄",
+    "chunk_index": 22,
+    "chapter": "第三節 經營業務",
+    "chapter_title": "",
+    "text_zh": "一、獲認可的認證實體應配備電子文件生效時間記錄系統；該系統可用於向公眾提供服務。\n二、生效時間記錄系統由認可當局核准，該當局尤應核實測定日期及時間的方法的安全性、可靠性及適當性。\n三、獲認可的實體所發出的生效時間記錄聲明中的日期及時間，當事人可用以互相對抗及可用以對抗第三人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 126,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_024",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "24",
+    "article_number_normalized": "24",
+    "article_title": "個人資料的保護",
+    "chunk_index": 23,
+    "chapter": "第三節 經營業務",
+    "chapter_title": "",
+    "text_zh": "一、獲認可的認證實體僅可要求及收集經營業務所需的個人資料，並直接從利害關係人或從經其許可的第三人取得。\n二、獲認可的認證實體所收集的個人資料，不得用於與認證無關的其他用途上，但法律或利害關係人明示同意可作他用者除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 100,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_025",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "25",
+    "article_number_normalized": "25",
+    "article_title": "認證作業準則",
+    "chunk_index": 24,
+    "chapter": "第三節 經營業務",
+    "chapter_title": "",
+    "text_zh": "一、獲認可的認證實體於確保適當公開其認證作業準則前，尤其透過資訊媒體將之適當公開前，不得開始發出合格證書業務。\n二、認證作業準則應符合國際認可的標準，亦須符合本法律的規定。\n三、認證作業準則及其修改，應提交認可當局核准。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 98,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_026",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "26",
+    "article_number_normalized": "26",
+    "article_title": "外部安全審計員",
+    "chunk_index": 25,
+    "chapter": "第三節 經營業務",
+    "chapter_title": "",
+    "text_zh": "一、獲認可的認證實體應配備一名被公認為卓越及合資格的外部安全審計員。\n二、審計員負責定期檢查和評估用於認證業務的設備及系統，以及發表意見、作出建議及提議，以確保該等設備及系統的效率、可靠性及安全性。\n三、審計員應最遲於每年三月三十一日向認可當局提交一份年度報告，其中須載明對監察用於認證業務的設備及系統的效率、可靠性及安全性屬重要的一切資料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 157,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_027",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "27",
+    "article_number_normalized": "27",
+    "article_title": "監察",
+    "chunk_index": 26,
+    "chapter": "第三節 經營業務",
+    "chapter_title": "",
+    "text_zh": "一、認可當局可檢查用作認證業務的場所，以及在該等場所檢查文件、物品、設備及操作程序。\n二、獲認可的認證實體應將第十七條所指資料的任何修改，以及任何導致或可能導致業務終止的情況，儘快通知認可當局。\n三、除遵守上款的規定外，獲認可的認證實體應向認可當局提供所要求的、與認證業務有關的一切資料。\n四、向獲認可的認證實體提供審計服務的人或實體，應將執行職務時所發現的違法行為，以及可影響用於認證業務的設備及系統的效率、可靠性及安全性的情況通知認可當局。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 201,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_028",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "28",
+    "article_number_normalized": "28",
+    "article_title": "民事責任",
+    "chunk_index": 27,
+    "chapter": "第三節 經營業務",
+    "chapter_title": "",
+    "text_zh": "一、獲認可的認證實體對於在經營認證業務時不履行其義務而引致的一切損害負民事責任，但證明非因故意行事或行事有過失而引致者除外。\n二、免除及限制上款所定責任的協議，均屬無效。\n三、對於因濫用簽名而引致的損害，獲認可的認證實體無須負責，但該實體須將簽名的使用限制載明於證書內，其應易於被第三人所閱讀。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 134,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_029",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "29",
+    "article_number_normalized": "29",
+    "article_title": "自願終止業務",
+    "chunk_index": 28,
+    "chapter": "第三節 經營業務",
+    "chapter_title": "",
+    "text_zh": "一、擬自願終止業務的獲認可的認證實體，應最少提前三個月，將終止業務的意圖通知認可當局並通知由該實體發給合格證書且有關證書仍有效的持有人。\n二、除上款所指通知外，尚應指定獲移轉合格證書及管理證書所需文件的獲認可的認證實體。\n三、如因任何理由不能移轉，終止業務的實體須廢止其所發合格證書，並將有關文件交由認可當局保管。\n四、自願終止認證業務導致認可終止，但不妨礙終止業務的實體對於因不遵守以上各款的規定而引致的損失所應負的民事責任。\n第四章\n最後及過渡規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 207,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_030",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "30",
+    "article_number_normalized": "30",
+    "article_title": "豁免認可",
+    "chunk_index": 29,
+    "chapter": "第四章 最後及過渡規定",
+    "chapter_title": "",
+    "text_zh": "一、公共部門或實體可藉提出具充分理由的申請而獲行政長官以批示豁免認可。\n二、擬獲豁免認可的公共部門或實體，在提出申請時應說明具備適合從事認證業務的條件。\n三、豁免認可的批示須公佈於《澳門特別行政區公報》。\n四、按第一款的規定獲豁免認可的公共部門及實體，等同於獲認可的認證實體，而本法律的有關規定經作出必要配合後，予以適用。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 144,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_031",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "31",
+    "article_number_normalized": "31",
+    "article_title": "已廢止 - 請查閱： 第2/2020號法律",
+    "chunk_index": 30,
+    "chapter": "第四章 最後及過渡規定",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "unknown",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_032",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "32",
+    "article_number_normalized": "32",
+    "article_title": "擔保",
+    "chunk_index": 31,
+    "chapter": "第四章 最後及過渡規定",
+    "chapter_title": "",
+    "text_zh": "一、如不具備適用第十五條第一款（四）項的條件，認證實體獲認可前，須向澳門特別行政區提供擔保。\n二、擔保可以現金寄存、銀行擔保或保證保險的方式提供，其金額不得低於$3,000,000.00（澳門幣 叁 佰萬元）。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 77,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_033",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "33",
+    "article_number_normalized": "33",
+    "article_title": "處罰制度",
+    "chunk_index": 32,
+    "chapter": "第四章 最後及過渡規定",
+    "chapter_title": "",
+    "text_zh": "一、違反或不遵守本法律關於認證業務的規定，構成行政違法行為，且不影響其他法定後果及倘有的民事或刑事責任。\n二、適用於因違反或不遵守本法律的規定而引致的在電子簽名認證業務範圍內的行政違法行為的處罰制度，由行政法規訂定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 100,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子簽名"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_034",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "34",
+    "article_number_normalized": "34",
+    "article_title": "廢止",
+    "chunk_index": 33,
+    "chapter": "第四章 最後及過渡規定",
+    "chapter_title": "",
+    "text_zh": "廢止十月二十五日 第64/99/M號法令 。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 12,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_5_2005_ART_035",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_5_2005",
+    "law_name": "電子文件及電子簽名",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "35",
+    "article_number_normalized": "35",
+    "article_title": "生效",
+    "chunk_index": 34,
+    "chapter": "第四章 最後及過渡規定",
+    "chapter_title": "",
+    "text_zh": "本法律自公佈後三十日起生效。\n二零零五年七月二十日通過。\n立法會主席 曹其真\n二零零五年七月二十七日簽署。\n命令公佈。\n行政長官 何厚鏵",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 57,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2005-07-20",
+    "effective_date": "2005-09-07",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69840790.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

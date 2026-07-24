@@ -1,0 +1,826 @@
+[
+  {
+    "doc_id": "US_CFR_T31_P1025_2010_ART_1025_100",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1025_2010",
+    "law_name": "Rules for Insurance Companies",
+    "law_name_original": "Rules for Insurance Companies",
+    "law_type": "CFR",
+    "article_number": "1025.100",
+    "article_number_normalized": "1025_100",
+    "article_title": "Definitions",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1025.100 Definitions.\nRefer to\n§ 1010.100 of this chapter\nfor general definitions not noted herein. To the extent there is a differing definition in\n§ 1010.100 of this chapter\n, the definition in this section is what applies to part 1025. Unless otherwise indicated, for purposes of this part:\n(\na\n)\nAnnuity contract\nmeans any agreement between the insurer and the contract owner whereby the insurer promises to pay out a fixed or variable income stream for a period of time.\n(\nb\n)\nCovered product\nmeans:\n(\n1\n)\nA permanent life insurance policy, other than a group life insurance policy;\n(\n2\n)\nAn annuity contract, other than a group annuity contract; or\n(\n3\n)\nAny other insurance product with features of cash value or investment.\n(\nc\n)\nGroup annuity contract\nmeans a master contract providing annuities to a group of persons under a single contract.\n(\nd\n)\nGroup life insurance policy\nmeans any life insurance policy under which a number of persons and their dependents, if appropriate, are insured under a single policy.\n(\ne\n)\nInsurance agent\nmeans a sales and/or service representative of an insurance company. The term “insurance agent” encompasses any person that sells, markets, distributes, or services an insurance company's covered products, including, but not limited to, a person who represents only one insurance company, a person who represents more than one insurance company, and a bank or broker-dealer in securities that sells any covered product of an insurance company.\n(\nf\n)\nInsurance broker\nmeans a person who, by acting as the customer's representative, arranges and/or services covered products on behalf of the customer.\n(\ng\n)\nInsurance company or insurer.\n(\n1\n)\nExcept as provided in\nparagraph (g)(2)\nof this section, the term “insurance company” or “insurer” means any person engaged within the United States as a business in the issuing or underwriting of any covered product.\n(\n2\n)\nThe term “insurance company” or “insurer” does not include an insurance agent or insurance broker.\n(\nh\n)\nPermanent life insurance policy\nmeans an agreement that contains a cash value or investment element and that obligates the insurer to indemnify or to confer a benefit upon the insured or beneficiary to the agreement contingent upon the death of the insured.\nB—Programs",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Refer to\n§ 1010.100 of this chapter\nfor general definitions not noted herein. To the extent there is a differing definition in\n§ 1010.100 of this chapter\n, the definition in this section is what applies to part 1025. Unless otherwise indicated, for purposes of this part:\n(\na\n)\nAnnuity contract\nmeans any agreement between the insurer and the contract owner whereby the insurer promises to pay out a fixed or variable income stream for a period of time.\n(\nb\n)\nCovered product\nmeans:\n(\n1\n)\nA permanent life insurance policy, other than a group life insurance policy;\n(\n2\n)\nAn annuity contract, other than a group annuity contract; or\n(\n3\n)\nAny other insurance product with features of cash value or investment.\n(\nc\n)\nGroup annuity contract\nmeans a master contract providing annuities to a group of persons under a single contract.\n(\nd\n)\nGroup life insurance policy\nmeans any life insurance policy under which a number of persons and their dependents, if appropriate, are insured under a single policy.\n(\ne\n)\nInsurance agent\nmeans a sales and/or service representative of an insurance company. The term “insurance agent” encompasses any person that sells, markets, distributes, or services an insurance company's covered products, including, but not limited to, a person who represents only one insurance company, a person who represents more than one insurance company, and a bank or broker-dealer in securities that sells any covered product of an insurance company.\n(\nf\n)\nInsurance broker\nmeans a person who, by acting as the customer's representative, arranges and/or services covered products on behalf of the customer.\n(\ng\n)\nInsurance company or insurer.\n(\n1\n)\nExcept as provided in\nparagraph (g)(2)\nof this section, the term “insurance company” or “insurer” means any person engaged within the United States as a business in the issuing or underwriting of any covered product.\n(\n2\n)\nThe term “insurance company” or “insurer” does not include an insurance agent or insurance broker.\n(\nh\n)\nPermanent life insurance policy\nmeans an agreement that contains a cash value or investment element and that obligates the insurer to indemnify or to confer a benefit upon the insured or beneficiary to the agreement contingent upon the death of the insured.\nB—Programs"
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "financial_services",
+      "corporate_governance",
+      "compensation_benefits",
+      "federalism_legal"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 44.0,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "definition",
+          "definitions",
+          "for purposes of",
+          "in this section",
+          "definition (weak)",
+          "term (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 36.0,
+        "matched_keywords": [
+          "insurance",
+          "securities"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "company"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "to the extent"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1025",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1025_Rules_for_Insurance_Companies.txt",
+    "source_start": 2881,
+    "source_end": 5150,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:30Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1025_2010_ART_1025_200",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1025_2010",
+    "law_name": "Rules for Insurance Companies",
+    "law_name_original": "Rules for Insurance Companies",
+    "law_type": "CFR",
+    "article_number": "1025.200",
+    "article_number_normalized": "1025_200",
+    "article_title": "General",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1025.200 General.\nInsurance companies are subject to the program requirements set forth and cross referenced in this . Insurance companies should also refer to\nB of part 1010 of this chapter\nfor program requirements contained in that which apply to insurance companies.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Insurance companies are subject to the program requirements set forth and cross referenced in this . Insurance companies should also refer to\nB of part 1010 of this chapter\nfor program requirements contained in that which apply to insurance companies."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1025",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1025_Rules_for_Insurance_Companies.txt",
+    "source_start": 5167,
+    "source_end": 5426,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:30Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1025_2010_ART_1025_210",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1025_2010",
+    "law_name": "Rules for Insurance Companies",
+    "law_name_original": "Rules for Insurance Companies",
+    "law_type": "CFR",
+    "article_number": "1025.210",
+    "article_number_normalized": "1025_210",
+    "article_title": "Anti-money laundering programs for insurance companies",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1025.210 Anti-money laundering programs for insurance companies.\n(\na\n)\nIn general.\nNot later than May 2, 2006, each insurance company shall develop and implement a written anti-money laundering program applicable to its covered products that is reasonably designed to prevent the insurance company from being used to facilitate money laundering or the financing of terrorist activities. The program must be approved by senior management. An insurance company shall make a copy of its anti-money laundering program available to the Department of the Treasury, the Financial Crimes Enforcement Network, or their designee upon request.\n(\nb\n)\nMinimum requirements.\nAt a minimum, the program required by\nparagraph (a)\nof this section shall:\n(\n1\n)\nIncorporate policies, procedures, and internal controls based upon the insurance company's assessment of the money laundering and terrorist financing risks associated with its covered products. Policies, procedures, and internal controls developed and implemented by an insurance company under this section shall include provisions for complying with the applicable requirements of\nsubchapter II of chapter 53 of title 31, United States Code\nand this chapter, integrating the company's insurance agents and insurance brokers into its anti-money laundering program, and obtaining all relevant customer-related information necessary for an effective anti-money laundering program.\n(\n2\n)\nDesignate a compliance officer who will be responsible for ensuring that:\n(\ni\n)\nThe anti-money laundering program is implemented effectively, including monitoring compliance by the company's insurance agents and insurance brokers with their obligations under the program;\n(\nii\n)\nThe anti-money laundering program is updated as necessary; and\n(\niii\n)\nAppropriate persons are educated and trained in accordance with\nparagraph (b)(3)\nof this section.\n(\n3\n)\nProvide for on-going training of appropriate persons concerning their responsibilities under the program. An insurance company may satisfy this requirement with respect to its employees, insurance agents, and insurance brokers by directly training such persons or verifying that persons have received training by another insurance company or by a competent third party with respect to the covered products offered by the insurance company.\n(\n4\n)\nProvide for independent testing to monitor and maintain an adequate program, including testing to determine compliance of the company's insurance agents and insurance brokers with their obligations under the program. The scope and frequency of the testing shall be commensurate with the risks posed by the insurance company's covered products. Such testing may be conducted by a third party or by any officer or employee of the insurance company, other than the person designated in\nparagraph (b)(2)\nof this section.\n(\nc\n)\nAnti-money laundering program requirements for insurance companies registered or required to register with the Securities and Exchange Commission as broker-dealers in securities.\nAn insurance company that is registered or required to register with the Securities and Exchange Commission as a broker-dealer in securities shall be deemed to have satisfied the requirements of this section for its broker-dealer activities to the extent that the company is required to establish and has established an anti-money laundering program pursuant to\n§ 1023.210 of this chapter\nand complies with such program.\n(\nd\n)\nCompliance.\nCompliance with this section shall be examined by the Department of the Treasury, through the Financial Crimes Enforcement Network or its delegees, under the terms of the Bank Secrecy Act. Failure to comply with the requirements of this section may constitute a violation of the Bank Secrecy Act and of this chapter.\nC—Reports Required To Be Made By Insurance Companies",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "(\na\n)\nIn general.\nNot later than May 2, 2006, each insurance company shall develop and implement a written anti-money laundering program applicable to its covered products that is reasonably designed to prevent the insurance company from being used to facilitate money laundering or the financing of terrorist activities. The program must be approved by senior management. An insurance company shall make a copy of its anti-money laundering program available to the Department of the Treasury, the Financial Crimes Enforcement Network, or their designee upon request.\n(\nb\n)\nMinimum requirements.\nAt a minimum, the program required by\nparagraph (a)\nof this section shall:\n(\n1\n)\nIncorporate policies, procedures, and internal controls based upon the insurance company's assessment of the money laundering and terrorist financing risks associated with its covered products. Policies, procedures, and internal controls developed and implemented by an insurance company under this section shall include provisions for complying with the applicable requirements of\nsubchapter II of chapter 53 of title 31, United States Code\nand this chapter, integrating the company's insurance agents and insurance brokers into its anti-money laundering program, and obtaining all relevant customer-related information necessary for an effective anti-money laundering program.\n(\n2\n)\nDesignate a compliance officer who will be responsible for ensuring that:\n(\ni\n)\nThe anti-money laundering program is implemented effectively, including monitoring compliance by the company's insurance agents and insurance brokers with their obligations under the program;\n(\nii\n)\nThe anti-money laundering program is updated as necessary; and\n(\niii\n)\nAppropriate persons are educated and trained in accordance with\nparagraph (b)(3)\nof this section.\n(\n3\n)\nProvide for on-going training of appropriate persons concerning their responsibilities under the program. An insurance company may satisfy this requirement with respect to its employees, insurance agents, and insurance brokers by directly training such persons or verifying that persons have received training by another insurance company or by a competent third party with respect to the covered products offered by the insurance company.\n(\n4\n)\nProvide for independent testing to monitor and maintain an adequate program, including testing to determine compliance of the company's insurance agents and insurance brokers with their obligations under the program. The scope and frequency of the testing shall be commensurate with the risks posed by the insurance company's covered products. Such testing may be conducted by a third party or by any officer or employee of the insurance company, other than the person designated in\nparagraph (b)(2)\nof this section.\n(\nc\n)\nAnti-money laundering program requirements for insurance companies registered or required to register with the Securities and Exchange Commission as broker-dealers in securities.\nAn insurance company that is registered or required to register with the Securities and Exchange Commission as a broker-dealer in securities shall be deemed to have satisfied the requirements of this section for its broker-dealer activities to the extent that the company is required to establish and has established an anti-money laundering program pursuant to\n§ 1023.210 of this chapter\nand complies with such program.\n(\nd\n)\nCompliance.\nCompliance with this section shall be examined by the Department of the Treasury, through the Financial Crimes Enforcement Network or its delegees, under the terms of the Bank Secrecy Act. Failure to comply with the requirements of this section may constitute a violation of the Bank Secrecy Act and of this chapter.\nC—Reports Required To Be Made By Insurance Companies"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "federalism_legal"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 71.5,
+        "matched_keywords": [
+          "insurance (title, +5)",
+          "anti-money laundering (title, +5)",
+          "insurance",
+          "securities",
+          "anti-money laundering"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 25.5,
+        "matched_keywords": [
+          "company"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "to the extent"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1025",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1025_Rules_for_Insurance_Companies.txt",
+    "source_start": 5439,
+    "source_end": 9219,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:30Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1025_2010_ART_1025_300",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1025_2010",
+    "law_name": "Rules for Insurance Companies",
+    "law_name_original": "Rules for Insurance Companies",
+    "law_type": "CFR",
+    "article_number": "1025.300",
+    "article_number_normalized": "1025_300",
+    "article_title": "General",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1025.300 General.\nInsurance companies are subject to the reporting requirements set forth and cross referenced in this . Insurance companies should also refer to\nC of part 1010 of this chapter\nfor reporting requirements contained in that which apply to insurance companies.\n§§ 1025.310-1025.315 [Reserved]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Insurance companies are subject to the reporting requirements set forth and cross referenced in this . Insurance companies should also refer to\nC of part 1010 of this chapter\nfor reporting requirements contained in that which apply to insurance companies.\n§§ 1025.310-1025.315 [Reserved]"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1025",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1025_Rules_for_Insurance_Companies.txt",
+    "source_start": 9279,
+    "source_end": 9574,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:30Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1025_2010_ART_1025_320",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1025_2010",
+    "law_name": "Rules for Insurance Companies",
+    "law_name_original": "Rules for Insurance Companies",
+    "law_type": "CFR",
+    "article_number": "1025.320",
+    "article_number_normalized": "1025_320",
+    "article_title": "Reports by insurance companies of suspicious transactions",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1025.320 Reports by insurance companies of suspicious transactions.\n(\na\n)\nGeneral.\n(\n1\n)\nEach insurance company shall file with the Financial Crimes Enforcement Network, to the extent and in the manner required by this section, a report of any suspicious transaction involving a covered product that is relevant to a possible violation of law or regulation. An insurance company may also file with the Financial Crimes Enforcement Network by using the form specified in\nparagraph (b)(1)\nof this section or otherwise, a report of any suspicious transaction that it believes is relevant to the possible violation of any law or regulation but the reporting of which is not required by this section.\n(\n2\n)\nA transaction requires reporting under this section if it is conducted or attempted by, at, or through an insurance company, and involves or aggregates at least $5,000 in funds or other assets, and the insurance company knows, suspects, or has reason to suspect that the transaction (or a pattern of transactions of which the transaction is a part):\n(\ni\n)\nInvolves funds derived from illegal activity or is intended or conducted in order to hide or disguise funds or assets derived from illegal activity (including, without limitation, the ownership, nature, source, location, or control of such funds or assets) as part of a plan to violate or evade any Federal law or regulation or to avoid any transaction reporting requirement under Federal law or regulation;\n(\nii\n)\nIs designed, whether through structuring or other means, to evade any requirements of this chapter or of any other regulations promulgated under the Bank Secrecy Act;\n(\niii\n)\nHas no business or apparent lawful purpose or is not the sort in which the particular customer would normally be expected to engage, and the insurance company knows of no reasonable explanation for the transaction after examining the available facts, including the background and possible purpose of the transaction; or\n(\niv\n)\nInvolves use of the insurance company to facilitate criminal activity.\n(\n3\n)\n(\ni\n)\nAn insurance company is responsible for reporting suspicious transactions conducted through its insurance agents and insurance brokers. Accordingly, an insurance company shall establish and implement policies and procedures reasonably designed to obtain customer-related information necessary to detect suspicious activity from all relevant sources, including from its insurance agents and insurance brokers, and shall report suspicious activity based on such information.\n(\nii\n)\nCertain insurance agents may have a separate obligation to report suspicious activity pursuant to other provisions of this chapter. In those instances, no more than one report is required to be filed by the financial institutions involved in the transaction, as long as the report filed contains all relevant facts, including the names of both institutions and the words “joint filing” in the narrative section, and both institutions maintain a copy of the report filed, along with any supporting documentation.\n(\niii\n)\nAn insurance company that issues variable insurance products funded by separate accounts that meet the definition of a mutual fund in\n§ 1024.320(a)(1) of this chapter\nshall file reports of suspicious transactions pursuant to\n§ 1024.320 of this chapter\n.\n(\nb\n)\nFiling procedures\n—\n(\n1\n)\nWhat to file.\nA suspicious transaction shall be reported by completing a Suspicious Activity Report (“SAR”), and collecting and maintaining supporting documentation as required by\nparagraph (d)\nof this section.\n(\n2\n)\nWhere to file.\nThe SAR shall be filed with the Financial Crimes Enforcement Network as indicated in the instructions to the SAR.\n(\n3\n)\nWhen to file.\nA SAR shall be filed no later than 30 calendar days after the date of the initial detection by the insurance company of facts that may constitute a basis for filing a SAR under this section. If no suspect is identified on the date of such initial detection, an insurance company may delay filing a SAR for an additional 30 calendar days to identify a suspect, but in no case shall reporting be delayed more than 60 calendar days after the date of such initial detection. In situations that require immediate attention, such as terrorist financing or ongoing money laundering schemes, the insurance company shall immediately notify by telephone an appropriate law enforcement authority in addition to filing timely a SAR. Insurance companies wishing voluntarily to report suspicious transactions that may relate to terrorist activity may call the Financial Crimes Enforcement Network's Financial Institutions Hotline at 1-866-556-3974 in addition to filing timely a SAR if required by this section.\n(\nc\n)\nException.\nAn insurance company is not required to file a SAR to report the submission to it of false or fraudulent information to obtain a policy or make a claim, unless the company has reason to believe that the false or fraudulent submission relates to money laundering or terrorist financing.\n(\nd\n)\nRetention of records.\nAn insurance company shall maintain a copy of any SAR filed and the original or business record equivalent of any supporting documentation for a period of five years from the date of filing the SAR. Supporting documentation shall be identified as such and maintained by the insurance company and shall be deemed to have been filed with the SAR. When an insurance company has filed or is identified as a filer in a joint Suspicious Activity Report, the insurance company shall maintain a copy of such joint report (together with copies of any supporting documentation) for a period of five years from the date of filing. An insurance company shall make all supporting documentation available to FinCEN or any Federal, State, or local law enforcement agency, or any Federal regulatory authority that examines the insurance company for compliance with the Bank Secrecy Act, or any State regulatory authority administering a State law that requires the insurance company to comply with the Bank Secrecy Act or otherwise authorizes the State authority to ensure that the institution complies with the Bank Secrecy Act, upon request.\n(\ne\n)\nConfidentiality of SARs.\nA SAR, and any information that would reveal the existence of a SAR, are confidential and shall not be disclosed except as authorized in this\nparagraph (e)\n. For purposes of this\nparagraph (e)\nonly, a SAR shall include any suspicious activity report filed with FinCEN pursuant to any regulation in this chapter.\n(\n1\n)\nProhibition on disclosures by insurance companies\n—\n(\ni\n)\nGeneral rule.\nNo insurance company, and no director, officer, employee, or agent of any insurance company, shall disclose a SAR or any information that would reveal the existence of a SAR. Any insurance company, and any director, officer, employee, or agent of any insurance company that is subpoenaed or otherwise requested to disclose a SAR or any information that would reveal the existence of a SAR, shall decline to produce the SAR or such information, citing this section and\n31 U.S.C. 5318(g)(2)(A)(i)\n, and shall notify FinCEN of any such request and the response thereto.\n(\nii\n)\nRules of Construction.\nProvided that no person involved in any reported suspicious transaction is notified that the transaction has been reported, this\nparagraph (e)(1)\nshall not be construed as prohibiting:\n(\nA\n)\nThe disclosure by an insurance company, or any director, officer, employee, or agent of an insurance company, of:\n(\n1\n)\nA SAR, or any information that would reveal the existence of a SAR, to FinCEN or any Federal, State, or local law enforcement agency, or any Federal regulatory authority that examines the insurance company for compliance with the Bank Secrecy Act, or any State regulatory authority administering a State law that requires the insurance company to comply with the Bank Secrecy Act or otherwise authorizes the State authority to ensure that the institution complies with the Bank Secrecy Act; or\n(\n2\n)\nThe underlying facts, transactions, and documents upon which a SAR is based, including but not limited to, disclosures to another financial institution, or any director, officer, employee, or agent of a financial institution, for the preparation of a joint SAR.\n(\nB\n)\nThe sharing by an insurance company, or any director, officer, employee, or agent of the insurance company, of a SAR, or any information that would reveal the existence of a SAR, within the insurance company's corporate organizational structure for purposes consistent with Title II of the Bank Secrecy Act as determined by regulation or in guidance.\n(\n2\n)\nProhibition on disclosures by government authorities.\nA Federal, State, local, territorial, or Tribal government authority, or any director, officer, employee, or agent of any of the foregoing, shall not disclose a SAR, or any information that would reveal the existence of a SAR, except as necessary to fulfill official duties consistent with Title II of the Bank Secrecy Act. For purposes of this section, “official duties” shall not include the disclosure of a SAR, or any information that would reveal the existence of a SAR, in response to a request for disclosure of non-public information or a request for use in a private legal proceeding, including a request pursuant to\n31 CFR 1.11\n.\n(\nf\n)\nLimitation on liability.\nAn insurance company, and any director, officer, employee, or agent of any insurance company, that makes a voluntary disclosure of any possible violation of law or regulation to a government agency or makes a disclosure pursuant to this section or any other authority, including a disclosure made jointly with another institution, shall be protected from liability to any person for any such disclosure, or for failure to provide notice of such disclosure to any person identified in the disclosure, or both, to the full extent provided by\n31 U.S.C. 5318(g)(3)\n.\n(\ng\n)\nCompliance.\nInsurance companies shall be examined by FinCEN or its delegatees for compliance with this section. Failure to satisfy the requirements of this section may be a violation of the Bank Secrecy Act and of this chapter.\n(\nh\n)\nSuspicious transaction reporting requirements for insurance companies registered or required to register with the Securities and Exchange Commission as broker-dealers in securities.\nAn insurance company that is registered or required to register with the Securities and Exchange Commission as a broker-dealer in securities shall be deemed to have satisfied the requirements of this section for its broker-dealer activities to the extent that the company complies with the reporting requirements applicable to such activities pursuant to\n§ 1023.320 of this chapter\n.\n(\ni\n)\nApplicability date.\nThis section applies to transactions occurring after May 2, 2006.\n[\n75 FR 65812\n, Oct. 26, 2010, as amended at\n75 FR 10520\n, Feb. 25, 2011;\n81 FR 76865\n, Nov. 4, 2016]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "(\na\n)\nGeneral.\n(\n1\n)\nEach insurance company shall file with the Financial Crimes Enforcement Network, to the extent and in the manner required by this section, a report of any suspicious transaction involving a covered product that is relevant to a possible violation of law or regulation. An insurance company may also file with the Financial Crimes Enforcement Network by using the form specified in\nparagraph (b)(1)\nof this section or otherwise, a report of any suspicious transaction that it believes is relevant to the possible violation of any law or regulation but the reporting of which is not required by this section.\n(\n2\n)\nA transaction requires reporting under this section if it is conducted or attempted by, at, or through an insurance company, and involves or aggregates at least $5,000 in funds or other assets, and the insurance company knows, suspects, or has reason to suspect that the transaction (or a pattern of transactions of which the transaction is a part):\n(\ni\n)\nInvolves funds derived from illegal activity or is intended or conducted in order to hide or disguise funds or assets derived from illegal activity (including, without limitation, the ownership, nature, source, location, or control of such funds or assets) as part of a plan to violate or evade any Federal law or regulation or to avoid any transaction reporting requirement under Federal law or regulation;\n(\nii\n)\nIs designed, whether through structuring or other means, to evade any requirements of this chapter or of any other regulations promulgated under the Bank Secrecy Act;\n(\niii\n)\nHas no business or apparent lawful purpose or is not the sort in which the particular customer would normally be expected to engage, and the insurance company knows of no reasonable explanation for the transaction after examining the available facts, including the background and possible purpose of the transaction; or\n(\niv\n)\nInvolves use of the insurance company to facilitate criminal activity.\n(\n3\n)\n(\ni\n)\nAn insurance company is responsible for reporting suspicious transactions conducted through its insurance agents and insurance brokers. Accordingly, an insurance company shall establish and implement policies and procedures reasonably designed to obtain customer-related information necessary to detect suspicious activity from all relevant sources, including from its insurance agents and insurance brokers, and shall report suspicious activity based on such information.\n(\nii\n)\nCertain insurance agents may have a separate obligation to report suspicious activity pursuant to other provisions of this chapter. In those instances, no more than one report is required to be filed by the financial institutions involved in the transaction, as long as the report filed contains all relevant facts, including the names of both institutions and the words “joint filing” in the narrative section, and both institutions maintain a copy of the report filed, along with any supporting documentation.\n(\niii\n)\nAn insurance company that issues variable insurance products funded by separate accounts that meet the definition of a mutual fund in\n§ 1024.320(a)(1) of this chapter\nshall file reports of suspicious transactions pursuant to\n§ 1024.320 of this chapter\n.\n(\nb\n)\nFiling procedures\n—\n(\n1\n)\nWhat to file.\nA suspicious transaction shall be reported by completing a Suspicious Activity Report (“SAR”), and collecting and maintaining supporting documentation as required by\nparagraph (d)\nof this section.\n(\n2\n)\nWhere to file.\nThe SAR shall be filed with the Financial Crimes Enforcement Network as indicated in the instructions to the SAR.\n(\n3\n)\nWhen to file.\nA SAR shall be filed no later than 30 calendar days after the date of the initial detection by the insurance company of facts that may constitute a basis for filing a SAR under this section. If no suspect is identified on the date of such initial detection, an insurance company may delay filing a SAR for an additional 30 calendar days to identify a suspect, but in no case shall reporting be delayed more than 60 calendar days after the date of such initial detection. In situations that require immediate attention, such as terrorist financing or ongoing money laundering schemes, the insurance company shall immediately notify by telephone an appropriate law enforcement authority in addition to filing timely a SAR. Insurance companies wishing voluntarily to report suspicious transactions that may relate to terrorist activity may call the Financial Crimes Enforcement Network's Financial Institutions Hotline at 1-866-556-3974 in addition to filing timely a SAR if required by this section.\n(\nc\n)\nException.\nAn insurance company is not required to file a SAR to report the submission to it of false or fraudulent information to obtain a policy or make a claim, unless the company has reason to believe that the false or fraudulent submission relates to money laundering or terrorist financing.\n(\nd\n)\nRetention of records.\nAn insurance company shall maintain a copy of any SAR filed and the original or business record equivalent of any supporting documentation for a period of five years from the date of filing the SAR. Supporting documentation shall be identified as such and maintained by the insurance company and shall be deemed to have been filed with the SAR. When an insurance company has filed or is identified as a filer in a joint Suspicious Activity Report, the insurance company shall maintain a copy of such joint report (together with copies of any supporting documentation) for a period of five years from the date of filing. An insurance company shall make all supporting documentation available to FinCEN or any Federal, State, or local law enforcement agency, or any Federal regulatory authority that examines the insurance company for compliance with the Bank Secrecy Act, or any State regulatory authority administering a State law that requires the insurance company to comply with the Bank Secrecy Act or otherwise authorizes the State authority to ensure that the institution complies with the Bank Secrecy Act, upon request.\n(\ne\n)\nConfidentiality of SARs.\nA SAR, and any information that would reveal the existence of a SAR, are confidential and shall not be disclosed except as authorized in this\nparagraph (e)\n. For purposes of this\nparagraph (e)\nonly, a SAR shall include any suspicious activity report filed with FinCEN pursuant to any regulation in this chapter.\n(\n1\n)\nProhibition on disclosures by insurance companies\n—\n(\ni\n)\nGeneral rule.\nNo insurance company, and no director, officer, employee, or agent of any insurance company, shall disclose a SAR or any information that would reveal the existence of a SAR. Any insurance company, and any director, officer, employee, or agent of any insurance company that is subpoenaed or otherwise requested to disclose a SAR or any information that would reveal the existence of a SAR, shall decline to produce the SAR or such information, citing this section and\n31 U.S.C. 5318(g)(2)(A)(i)\n, and shall notify FinCEN of any such request and the response thereto.\n(\nii\n)\nRules of Construction.\nProvided that no person involved in any reported suspicious transaction is notified that the transaction has been reported, this\nparagraph (e)(1)\nshall not be construed as prohibiting:\n(\nA\n)\nThe disclosure by an insurance company, or any director, officer, employee, or agent of an insurance company, of:\n(\n1\n)\nA SAR, or any information that would reveal the existence of a SAR, to FinCEN or any Federal, State, or local law enforcement agency, or any Federal regulatory authority that examines the insurance company for compliance with the Bank Secrecy Act, or any State regulatory authority administering a State law that requires the insurance company to comply with the Bank Secrecy Act or otherwise authorizes the State authority to ensure that the institution complies with the Bank Secrecy Act; or\n(\n2\n)\nThe underlying facts, transactions, and documents upon which a SAR is based, including but not limited to, disclosures to another financial institution, or any director, officer, employee, or agent of a financial institution, for the preparation of a joint SAR.\n(\nB\n)\nThe sharing by an insurance company, or any director, officer, employee, or agent of the insurance company, of a SAR, or any information that would reveal the existence of a SAR, within the insurance company's corporate organizational structure for purposes consistent with Title II of the Bank Secrecy Act as determined by regulation or in guidance.\n(\n2\n)\nProhibition on disclosures by government authorities.\nA Federal, State, local, territorial, or Tribal government authority, or any director, officer, employee, or agent of any of the foregoing, shall not disclose a SAR, or any information that would reveal the existence of a SAR, except as necessary to fulfill official duties consistent with Title II of the Bank Secrecy Act. For purposes of this section, “official duties” shall not include the disclosure of a SAR, or any information that would reveal the existence of a SAR, in response to a request for disclosure of non-public information or a request for use in a private legal proceeding, including a request pursuant to\n31 CFR 1.11\n.\n(\nf\n)\nLimitation on liability.\nAn insurance company, and any director, officer, employee, or agent of any insurance company, that makes a voluntary disclosure of any possible violation of law or regulation to a government agency or makes a disclosure pursuant to this section or any other authority, including a disclosure made jointly with another institution, shall be protected from liability to any person for any such disclosure, or for failure to provide notice of such disclosure to any person identified in the disclosure, or both, to the full extent provided by\n31 U.S.C. 5318(g)(3)\n.\n(\ng\n)\nCompliance.\nInsurance companies shall be examined by FinCEN or its delegatees for compliance with this section. Failure to satisfy the requirements of this section may be a violation of the Bank Secrecy Act and of this chapter.\n(\nh\n)\nSuspicious transaction reporting requirements for insurance companies registered or required to register with the Securities and Exchange Commission as broker-dealers in securities.\nAn insurance company that is registered or required to register with the Securities and Exchange Commission as a broker-dealer in securities shall be deemed to have satisfied the requirements of this section for its broker-dealer activities to the extent that the company complies with the reporting requirements applicable to such activities pursuant to\n§ 1023.320 of this chapter\n.\n(\ni\n)\nApplicability date.\nThis section applies to transactions occurring after May 2, 2006.\n[\n75 FR 65812\n, Oct. 26, 2010, as amended at\n75 FR 10520\n, Feb. 25, 2011;\n81 FR 76865\n, Nov. 4, 2016]"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "federalism_legal",
+      "legal_definitions",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 93.5,
+        "matched_keywords": [
+          "insurance (title, +5)",
+          "insurance",
+          "securities",
+          "financial institution"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 18.0,
+        "matched_keywords": [
+          "state law",
+          "local law",
+          "to the extent",
+          "state law (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 15.0,
+        "matched_keywords": [
+          "means",
+          "definition",
+          "for purposes of",
+          "definition (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "criminal"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1025",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1025_Rules_for_Insurance_Companies.txt",
+    "source_start": 9587,
+    "source_end": 20435,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:30Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1025_2010_ART_1025_330",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1025_2010",
+    "law_name": "Rules for Insurance Companies",
+    "law_name_original": "Rules for Insurance Companies",
+    "law_type": "CFR",
+    "article_number": "1025.330",
+    "article_number_normalized": "1025_330",
+    "article_title": "Reports relating to currency in excess of $10,000 received in a trade or business",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1025.330 Reports relating to currency in excess of $10,000 received in a trade or business.\nRefer to\n§ 1010.330 of this chapter\nfor rules regarding the filing of reports relating to currency in excess of $10,000 received by insurance companies.\nD—Records Required To Be Maintained By Insurance Companies",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Refer to\n§ 1010.330 of this chapter\nfor rules regarding the filing of reports relating to currency in excess of $10,000 received by insurance companies.\nD—Records Required To Be Maintained By Insurance Companies"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1025",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1025_Rules_for_Insurance_Companies.txt",
+    "source_start": 20498,
+    "source_end": 20717,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:30Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1025_2010_ART_1025_400",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1025_2010",
+    "law_name": "Rules for Insurance Companies",
+    "law_name_original": "Rules for Insurance Companies",
+    "law_type": "CFR",
+    "article_number": "1025.400",
+    "article_number_normalized": "1025_400",
+    "article_title": "General",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1025.400 General.\nInsurance companies are subject to the recordkeeping requirements set forth and cross referenced in this . Insurance companies should also refer to\nD of part 1010 of this chapter\nfor recordkeeping requirements contained in that which apply to insurance companies.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Insurance companies are subject to the recordkeeping requirements set forth and cross referenced in this . Insurance companies should also refer to\nD of part 1010 of this chapter\nfor recordkeeping requirements contained in that which apply to insurance companies."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1025",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1025_Rules_for_Insurance_Companies.txt",
+    "source_start": 20804,
+    "source_end": 21075,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:30Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1025_2010_ART_1025_410",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1025_2010",
+    "law_name": "Rules for Insurance Companies",
+    "law_name_original": "Rules for Insurance Companies",
+    "law_type": "CFR",
+    "article_number": "1025.410",
+    "article_number_normalized": "1025_410",
+    "article_title": "Recordkeeping",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1025.410 Recordkeeping.\nRefer to\n§ 1010.410\n.\nE—Special Information Sharing Procedures To Deter Money Laundering and Terrorist Activity",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Refer to\n§ 1010.410\n.\nE—Special Information Sharing Procedures To Deter Money Laundering and Terrorist Activity"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1025",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1025_Rules_for_Insurance_Companies.txt",
+    "source_start": 21088,
+    "source_end": 21207,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:30Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1025_2010_ART_1025_500",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1025_2010",
+    "law_name": "Rules for Insurance Companies",
+    "law_name_original": "Rules for Insurance Companies",
+    "law_type": "CFR",
+    "article_number": "1025.500",
+    "article_number_normalized": "1025_500",
+    "article_title": "General",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1025.500 General.\nInsurance companies are subject to the special information sharing procedures to deter money laundering and terrorist activity requirements set forth and cross referenced in this . Insurance companies should also refer to\nE of part 1010 of this chapter\nfor special information sharing procedures to deter money laundering and terrorist activity contained in that which apply to insurance companies.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Insurance companies are subject to the special information sharing procedures to deter money laundering and terrorist activity requirements set forth and cross referenced in this . Insurance companies should also refer to\nE of part 1010 of this chapter\nfor special information sharing procedures to deter money laundering and terrorist activity contained in that which apply to insurance companies."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1025",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1025_Rules_for_Insurance_Companies.txt",
+    "source_start": 21226,
+    "source_end": 21632,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:30Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1025_2010_ART_1025_520",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1025_2010",
+    "law_name": "Rules for Insurance Companies",
+    "law_name_original": "Rules for Insurance Companies",
+    "law_type": "CFR",
+    "article_number": "1025.520",
+    "article_number_normalized": "1025_520",
+    "article_title": "Special information sharing procedures to deter money laundering and terrorist activity for insurance companies",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1025.520 Special information sharing procedures to deter money laundering and terrorist activity for insurance companies.\n(\na\n)\nRefer to\n§ 1010.520 of this chapter\n.\n(\nb\n)\n[Reserved]\n§ 1025.530 [Reserved]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "(\na\n)\nRefer to\n§ 1010.520 of this chapter\n.\n(\nb\n)\n[Reserved]\n§ 1025.530 [Reserved]"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.5,
+        "matched_keywords": [
+          "insurance (title, +5)",
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1025",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1025_Rules_for_Insurance_Companies.txt",
+    "source_start": 21645,
+    "source_end": 21735,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:30Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1025_2010_ART_1025_540",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1025_2010",
+    "law_name": "Rules for Insurance Companies",
+    "law_name_original": "Rules for Insurance Companies",
+    "law_type": "CFR",
+    "article_number": "1025.540",
+    "article_number_normalized": "1025_540",
+    "article_title": "Voluntary information sharing among financial institutions",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1025.540 Voluntary information sharing among financial institutions.\n(\na\n)\nRefer to\n§ 1010.540 of this chapter\n.\n(\nb\n)\n[Reserved]\nF—Special Standards of Diligence; Prohibitions; and Special Measures for Insurance Companies\n§§ 1025.600-1025.670 [Reserved]\nContent\n\nSearch\nRecent Changes\n\nInformation\nAbout This Site\nLegal Status\nPrivacy\n\nMy\n\n/ Sign Up",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "(\na\n)\nRefer to\n§ 1010.540 of this chapter\n.\n(\nb\n)\n[Reserved]\nF—Special Standards of Diligence; Prohibitions; and Special Measures for Insurance Companies\n§§ 1025.600-1025.670 [Reserved]\nContent\n\nSearch\nRecent Changes\n\nInformation\nAbout This Site\nLegal Status\nPrivacy\n\nMy\n\n/ Sign Up"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1025",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1025_Rules_for_Insurance_Companies.txt",
+    "source_start": 21852,
+    "source_end": 22141,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:30Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

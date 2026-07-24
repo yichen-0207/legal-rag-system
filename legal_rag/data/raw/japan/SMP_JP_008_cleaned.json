@@ -1,0 +1,1122 @@
+[
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_001",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": ". (Purpose)",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The purpose of this Act is to comprehensively and effectively promote measures for the advancement of public and private sector data utilization by establishing basic principles and clarifying the responsibilities of the national government, local governments, and businesses with regard to the advancement of appropriate and effective utilization of public and private sector data (referred to below as \"public and private sector data utilization\"), formulating the Basic Plan for the Advancement of Public and Private Sector Data Utilization, and providing for other matters that serve as the basis for measures for the advancement of public and private sector data utilization, in light of the fact that it is important to further develop an environment that contributes to resolving the challenges faced by Japan, such as the response to the rapid progression of the declining birth rate and aging population, by appropriately and effectively utilizing the diverse and massive amount of information that circulates through the internet and other advanced information and telecommunications networks, thereby contributing to the realization of a society in which citizens can live safely and without anxiety and a comfortable living environment.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The purpose of this Act is to comprehensively and effectively promote measures for the advancement of public and private sector data utilization by establishing basic principles and clarifying the responsibilities of the national government, local governments, and businesses with regard to the advancement of appropriate and effective utilization of public and private sector data (referred to below as \"public and private sector data utilization\"), formulating the Basic Plan for the Advancement of Public and Private Sector Data Utilization, and providing for other matters that serve as the basis for measures for the advancement of public and private sector data utilization, in light of the fact that it is important to further develop an environment that contributes to resolving the challenges faced by Japan, such as the response to the rapid progression of the declining birth rate and aging population, by appropriately and effectively utilizing the diverse and massive amount of information that circulates through the internet and other advanced information and telecommunications networks, thereby contributing to the realization of a society in which citizens can live safely and without anxiety and a comfortable living environment."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.75,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 52,
+    "source_end": 1300,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_002",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": ". (Definitions)",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The term \"public and private sector data\" as used in this Act means data recorded in an electronic or magnetic record (meaning a record created in electronic form, magnetic form, or any other form that cannot be perceived by the human senses; the same applies in Article 13, paragraph (2)) (excluding those that are likely to damage national security, hinder the maintenance of public order, or hinder the protection of public safety), which is managed, used, or provided by the national government, local governments, incorporated administrative agencies (meaning the incorporated administrative agencies provided for in Article 2, paragraph (1) of the (Act No. 103 of 1999)), or other business operators in the course of performing their processes or services.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The term \"public and private sector data\" as used in this Act means data recorded in an electronic or magnetic record (meaning a record created in electronic form, magnetic form, or any other form that cannot be perceived by the human senses; the same applies in Article 13, paragraph (2)) (excluding those that are likely to damage national security, hinder the maintenance of public order, or hinder the protection of public safety), which is managed, used, or provided by the national government, local governments, incorporated administrative agencies (meaning the incorporated administrative agencies provided for in Article 2, paragraph (1) of the (Act No. 103 of 1999)), or other business operators in the course of performing their processes or services."
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "meaning (weak)",
+          "term (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "national security",
+          "national security (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 1327,
+    "source_end": 2089,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_003",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": ". (Basic Principles)",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The advancement of public and private sector data utilization must be carried out for the purpose of ensuring the smooth circulation of information while protecting the rights and interests of individuals and corporations, in combination with measures under the Basic Act on the Formation of a Digital Society (Act No. 35 of 2021) and the Basic Act on Cybersecurity (Act No. 104 of 2014), the (Act No. 57 of 2003), the Act on the Use of Numbers to Identify a Specific Person in Administrative Procedures (Act No. 27 of 2013), and other relevant laws.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The advancement of public and private sector data utilization must be carried out for the purpose of ensuring the smooth circulation of information while protecting the rights and interests of individuals and corporations, in combination with measures under the Basic Act on the Formation of a Digital Society (Act No. 35 of 2021) and the Basic Act on Cybersecurity (Act No. 104 of 2014), the (Act No. 57 of 2003), the Act on the Use of Numbers to Identify a Specific Person in Administrative Procedures (Act No. 27 of 2013), and other relevant laws."
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "cybersecurity"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 3365,
+    "source_end": 3915,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_004",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 4. (Responsibilities of the National Government)\n\nIn accordance with the basic principles referred to in the preceding Article (referred to below as the \"basic principles\"), the national government is responsible for comprehensively formulating and implementing measures for the advancement of public and private sector data utilization.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 4. (Responsibilities of the National Government)\n\nIn accordance with the basic principles referred to in the preceding Article (referred to below as the \"basic principles\"), the national government is responsible for comprehensively formulating and implementing measures for the advancement of public and private sector data utilization."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 6747,
+    "source_end": 7092,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_005",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 5. (Responsibilities of Local Governments)\n\nLocal governments are responsible for formulating and implementing measures according to the economic conditions, etc. in the area of each of the local governments, in accordance with the basic principles and on the basis of an appropriate division of roles with the national government for the advancement of public and private sector data utilization.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 5. (Responsibilities of Local Governments)\n\nLocal governments are responsible for formulating and implementing measures according to the economic conditions, etc. in the area of each of the local governments, in accordance with the basic principles and on the basis of an appropriate division of roles with the national government for the advancement of public and private sector data utilization."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 7094,
+    "source_end": 7499,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_006",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 6. (Responsibilities of Businesses)\n\nBusinesses are, in accordance with the basic principles, to voluntarily and actively endeavor to advance public and private sector data utilization in relation to their own business activities and cooperate for measures for the advancement of public and private sector data utilization implemented by the national government or local governments.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 6. (Responsibilities of Businesses)\n\nBusinesses are, in accordance with the basic principles, to voluntarily and actively endeavor to advance public and private sector data utilization in relation to their own business activities and cooperate for measures for the advancement of public and private sector data utilization implemented by the national government or local governments."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 7501,
+    "source_end": 7892,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_007",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": ". (Legislative Measures)",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The government must take legislative, financial, and other measures necessary to implement policies for the advancement of public and private sector data utilization.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The government must take legislative, financial, and other measures necessary to implement policies for the advancement of public and private sector data utilization."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 7929,
+    "source_end": 8095,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_008",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "Utilization",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 8. (Basic Plan for the Advancement of Public and Private Sector Data Utilization)\nThe government must establish a basic plan for the advancement of public and private sector data utilization (referred to below as the \"Basic Plan for the Advancement of Public and Private Sector Data Utilization\") to ensure the comprehensive and effective promotion of measures for the advancement of public and private sector data utilization.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 8. (Basic Plan for the Advancement of Public and Private Sector Data Utilization)\nThe government must establish a basic plan for the advancement of public and private sector data utilization (referred to below as the \"Basic Plan for the Advancement of Public and Private Sector Data Utilization\") to ensure the comprehensive and effective promotion of measures for the advancement of public and private sector data utilization."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 8186,
+    "source_end": 8621,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_009",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 9. (Prefectural Plan for the Advancement of Public and Private Sector Data Utilization)\nPrefectures must establish a basic plan for measures for the advancement of public and private sector data utilization in the area of each of the relevant prefectures (referred to below as a \"prefectural plan for the advancement of public and private sector data utilization\" in this Article) in accordance with the Basic Plan for the Advancement of Public and Private Sector Data Utilization.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 9. (Prefectural Plan for the Advancement of Public and Private Sector Data Utilization)\nPrefectures must establish a basic plan for measures for the advancement of public and private sector data utilization in the area of each of the relevant prefectures (referred to below as a \"prefectural plan for the advancement of public and private sector data utilization\" in this Article) in accordance with the Basic Plan for the Advancement of Public and Private Sector Data Utilization."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 12454,
+    "source_end": 12943,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_010",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "Chapter III Basic Measures",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 10. (Use of Information and Communications Technology in Procedures)\nThe national government is to take the necessary measures to ensure that applications, notifications, notices of dispositions, and other procedures related to administrative organs, etc. (meaning the administrative organs, etc. stated in Article 3, item (ii) of the Act on the Advancement of Government Administration Processes That Use Information and Communications Technology (Act No. 151 of 2002); the same applies below in this paragraph) are, in principle, carried out by means of electronic data processing systems (meaning the electronic data processing systems that connect a computer used by an administrative organ, etc. and a computer used by the other party to the procedure with the administrative organ, etc. via a telecommunications line) or other information and communications technology.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 10. (Use of Information and Communications Technology in Procedures)\nThe national government is to take the necessary measures to ensure that applications, notifications, notices of dispositions, and other procedures related to administrative organs, etc. (meaning the administrative organs, etc. stated in Article 3, item (ii) of the Act on the Advancement of Government Administration Processes That Use Information and Communications Technology (Act No. 151 of 2002); the same applies below in this paragraph) are, in principle, carried out by means of electronic data processing systems (meaning the electronic data processing systems that connect a computer used by an administrative organ, etc. and a computer used by the other party to the procedure with the administrative organ, etc. via a telecommunications line) or other information and communications technology."
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management",
+      "telecommunications",
+      "public_governance",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means",
+          "meaning (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 15088,
+    "source_end": 15971,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_011",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 11. (Easy Use of Public and Private Sector Data Held by the National Government and Local Governments)\nThe national government and local governments are to implement necessary measures in relation to the public and private sector data held by themselves, to enable citizens to easily use such data via the internet or any other advanced information and telecommunications network while ensuring that the rights and interests of individuals and corporations, national security, etc. are not harmed.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 11. (Easy Use of Public and Private Sector Data Held by the National Government and Local Governments)\nThe national government and local governments are to implement necessary measures in relation to the public and private sector data held by themselves, to enable citizens to easily use such data via the internet or any other advanced information and telecommunications network while ensuring that the rights and interests of individuals and corporations, national security, etc. are not harmed."
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "telecommunications",
+          "telecommunications network"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "national security",
+          "national security (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 17415,
+    "source_end": 17920,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_012",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 12. (Appropriate Utilization of Public and Private Sector Data by a Wide Variety of Actors with Participation of Individuals)\n\nFor the purpose of promoting the smooth circulation of public and private sector data concerning individuals, the national government is to develop the foundations for enabling a wide variety of actors to utilize in an appropriate manner public and private sector data concerning individuals, with the participation of the relevant individuals, and to implement other necessary measures while giving consideration to the protection of the competitive position and other legitimate interests of businesses.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 12. (Appropriate Utilization of Public and Private Sector Data by a Wide Variety of Actors with Participation of Individuals)\n\nFor the purpose of promoting the smooth circulation of public and private sector data concerning individuals, the national government is to develop the foundations for enabling a wide variety of actors to utilize in an appropriate manner public and private sector data concerning individuals, with the participation of the relevant individuals, and to implement other necessary measures while giving consideration to the protection of the competitive position and other legitimate interests of businesses."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 18924,
+    "source_end": 19564,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_013",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 13. (Formulation of a Plan for the Dissemination and Utilization of Individual Number Card)\nThe national government is to formulate a plan for the dissemination and utilization of Individual Number Card (meaning Individual Number Card provided for in Article 2, paragraph (7) of the ; the same applies below in this paragraph) and to implement other necessary measures to promote the dissemination and utilization of Individual Number Card.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 13. (Formulation of a Plan for the Dissemination and Utilization of Individual Number Card)\nThe national government is to formulate a plan for the dissemination and utilization of Individual Number Card (meaning Individual Number Card provided for in Article 2, paragraph (7) of the ; the same applies below in this paragraph) and to implement other necessary measures to promote the dissemination and utilization of Individual Number Card."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 19566,
+    "source_end": 20014,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_014",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 14. (Rectification of Disparity in Opportunities for Use)\n\nThe national government is to promote the development and provision of services and the development and dissemination of technology through public and private sector data utilization, and take other necessary measures, to rectify disparities in the opportunities to use information and communications technology and in the ability to utilize it, based on geographical constraints, age, mental and physical conditions such as the presence or absence of a disability, economic circumstances, and other factors.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 14. (Rectification of Disparity in Opportunities for Use)\n\nThe national government is to promote the development and provision of services and the development and dissemination of technology through public and private sector data utilization, and take other necessary measures, to rectify disparities in the opportunities to use information and communications technology and in the ability to utilize it, based on geographical constraints, age, mental and physical conditions such as the presence or absence of a disability, economic circumstances, and other factors."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 20929,
+    "source_end": 21504,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_015",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 15. (Development of Standards for Information Systems and Securing of Compatibility)\nThe national government and local governments are to, in coordination with each other, develop standards for their own information systems, to secure compatibility among those systems, to review their own business, and to implement other necessary measures to contribute to public and private sector data utilization.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 15. (Development of Standards for Information Systems and Securing of Compatibility)\nThe national government and local governments are to, in coordination with each other, develop standards for their own information systems, to secure compatibility among those systems, to review their own business, and to implement other necessary measures to contribute to public and private sector data utilization."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 21506,
+    "source_end": 21916,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_016",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 16. (Promotion of Research and Development)\n\nThe national government is to implement necessary measures to promote research and development as well as verification in relation to artificial intelligence-related technology, the technology related to utilizing the Internet of things, the technology related to cloud computing services, and any other advanced technology, and disseminate the outcomes of it in consideration of the importance of maintaining self-reliant technical capabilities for public and private sector data utilization in Japan.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 16. (Promotion of Research and Development)\n\nThe national government is to implement necessary measures to promote research and development as well as verification in relation to artificial intelligence-related technology, the technology related to utilizing the Internet of things, the technology related to cloud computing services, and any other advanced technology, and disseminate the outcomes of it in consideration of the importance of maintaining self-reliant technical capabilities for public and private sector data utilization in Japan."
+      }
+    ],
+    "topics": [
+      "artificial_intelligence"
+    ],
+    "topics_details": [
+      {
+        "id": "artificial_intelligence",
+        "label_zh": "人工智能",
+        "label_en": "Artificial Intelligence",
+        "label_pt": "Inteligência Artificial",
+        "score": 4.5,
+        "matched_keywords": [
+          "artificial intelligence"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 22384,
+    "source_end": 22939,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_017",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 17. (Development and Securing of Human Resources)\n\nThe national government is to implement necessary measures to develop and secure human resources who have advanced expertise or skills relating to public and private sector data utilization.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 17. (Development and Securing of Human Resources)\n\nThe national government is to implement necessary measures to develop and secure human resources who have advanced expertise or skills relating to public and private sector data utilization."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 22941,
+    "source_end": 23190,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_018",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 18. (Promotion of Education and Learning, Dissemination and Enlightenment)\n\nThe national government is to promote education and learning, disseminate public awareness and knowledge in relation to public and private sector data utilization and to implement other necessary measures to ensure that the citizens deepen their interest and understanding of public and private sector data utilization.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 18. (Promotion of Education and Learning, Dissemination and Enlightenment)\n\nThe national government is to promote education and learning, disseminate public awareness and knowledge in relation to public and private sector data utilization and to implement other necessary measures to ensure that the citizens deepen their interest and understanding of public and private sector data utilization."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 23192,
+    "source_end": 23595,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2016_SMP_JP_008_ART_019",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2016_SMP_JP_008",
+    "law_name": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_name_original": "Basic Act on the Advancement of Public and Private Sector Data Utilization",
+    "law_type": "Act",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 19. (Ensuring Consistency between the National Government`s Measures and Local Governments` Measures)\n\nTo ensure the coordination among a wide variety of actors who utilize public and private sector data, the national government is to ensure consistency between the national government and local governments` measures and to implement other necessary measures for the advancement of public and private sector data utilization.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 19. (Ensuring Consistency between the National Government`s Measures and Local Governments` Measures)\n\nTo ensure the coordination among a wide variety of actors who utilize public and private sector data, the national government is to ensure consistency between the national government and local governments` measures and to implement other necessary measures for the advancement of public and private sector data utilization."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2016-12-14",
+    "effective_date": null,
+    "publication_date": "2016-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/5068",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_008.json",
+    "source_start": 23597,
+    "source_end": 24031,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

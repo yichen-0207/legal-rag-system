@@ -1,0 +1,1135 @@
+[
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "1",
+    "article_number_normalized": "1",
+    "article_title": "標的及範圍",
+    "chunk_index": 0,
+    "chapter": "第一章 總則",
+    "chapter_title": "",
+    "text_zh": "一、本法律訂定澳門特別行政區的電信政策綱要與建設、管理及經營電信網絡和提供電信服務需要服從的總體框架。\n二、本法律不適用於地面或衛星廣播服務，尤其是電視廣播及電台廣播服務。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 79,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_002",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "2",
+    "article_number_normalized": "2",
+    "article_title": "目標",
+    "chunk_index": 1,
+    "chapter": "第一章 總則",
+    "chapter_title": "",
+    "text_zh": "電信政策的目標為：\n（一）逐步開放公共電信網絡的建設及公用電信服務的提供，使公眾更能受惠，並創造投資機會，從而提高競爭力及促進經濟與社會的持續發展；\n（二）保證全民及經濟與社會活動能以合理的收費及價格，不受歧視地獲得符合其需要的優質及有效率的電信服務；\n（三）確保電信普遍服務的存在及運作；\n（四）確保競爭條件的公平及透明化，並推動服務的多元化，以增加電信服務的供應及回應使用者對提高服務質量標準的要求；\n（五）確保各公共電信網絡之間的互通性及用戶號碼的可攜性；\n（六）推動公共部門、公共機構及其他公共實體使用電信網絡及服務，以提高其服務的質量及效率；\n（七）促進在電信領域的科技研究。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 256,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_003",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "3",
+    "article_number_normalized": "3",
+    "article_title": "定義",
+    "chunk_index": 2,
+    "chapter": "第一章 總則",
+    "chapter_title": "",
+    "text_zh": "為適用本法律的規定，下列用詞的定義為：\n（一）電信——通過有線、無線電、光學或其他電磁系統，傳輸、發射或接收符號、信號、文字、圖像、聲音或任何性質的信息；\n（二）廣播——同時向不同接收點進行的、無預先定址的單向電信傳輸；\n（三）電信服務——利用電信網絡進行信息導向或分配營運的方式；\n（四）電信網絡——用於支持電信服務的、稱為基礎設施的有線、無線電、光學或其他電磁媒介系統的組合；\n（五）互連——由相同或不同的營運商所使用的電信網絡間物理上及功能上之連結，期使所提供服務的不同使用者得以互相通訊；\n（六）電信普遍服務——旨在按照公平、持續化及方便獲得的原則，透過收取適當報酬，滿足市民及社會與經濟活動對通訊的需求而提供的公用電信服務所固有的特定義務；\n（七）固定電話服務——向大眾提供的、實時的、在固定地點進行的直接話音傳送服務，讓任何使用者能利用與網絡其中一終端點連接的設備同另一終端點進行通訊；\n（八）增值服務——以公用電信服務作為支持的服務，其無需具備本身的電信基礎設施且有別於作為其支持的電信服務。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 383,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "電信",
+          "通訊"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_004",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "4",
+    "article_number_normalized": "4",
+    "article_title": "分類",
+    "chunk_index": 3,
+    "chapter": "第一章 總則",
+    "chapter_title": "",
+    "text_zh": "一、電信可分類為：\n（一）公用電信——為大眾而設的電信；\n（二）專用電信——為個人或限定數目的使用者而設的電信。\n二、電信服務可分類為：\n（一）公用電信服務——供大眾使用的電信服務；\n（二）專用電信服務——供個人或限定數目的使用者使用的電信服務。\n三、電信網絡可分類為：\n（一）公共電信網絡——支持全部或部分公用電信服務的電信網絡；\n（二）專用電信網絡——專門用作支持專用電信服務的電信網絡。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 152,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_005",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "5",
+    "article_number_normalized": "5",
+    "article_title": "制度",
+    "chunk_index": 4,
+    "chapter": "第一章 總則",
+    "chapter_title": "",
+    "text_zh": "建設、管理及經營電信網絡以及提供電信服務，均屬公共利益，只可由公共實體從事，或由按照適用規章規定持有從事該等業務的足夠憑證的私人實體從事。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 64,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_006",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "6",
+    "article_number_normalized": "6",
+    "article_title": "政府的職權",
+    "chunk_index": 5,
+    "chapter": "第一章 總則",
+    "chapter_title": "",
+    "text_zh": "一、政府有權限監管並監察電信及電信業務經營者的活動；除法律賦予的其他職權外，政府尚有下列職權：\n（一）制定電信業的策略性方針、總體政策及整體規劃；\n（二）在電信領域的國際組織中代表澳門特別行政區；\n（三）遇有緊急事故、危機或戰爭時，統籌電信網絡及電信服務；\n（四）就電信網絡的建設及經營，以及電信服務的提供，作出特許及發出牌照；\n（五）按照適用的國際性法律文件規定，管理並監察無線電公產；\n（六）管理並分配無線電頻譜、衛星軌道位置及其他公共電信資源；\n（七）為電信器材及設備訂定標準，並核准及認可電信器材及設備；\n（八）訂定並管理編號方案；\n（九）以行政當局介入的方式排解電信業務經營者之間的利益衝突；\n（十）如法律或規章規定公用電信服務的價格及收費須經核准或訂定，則按照有關規定核准或訂定之；\n（十一）訂定電信業方面的行政上的違法行為及相應罰則；\n（十二）監察適用於電信業的法例及規章的遵守情況，並實施相應處罰；\n（十三）徵收源自電信業的公共收益。\n二、政府亦有權限制定適用於電信業的規章，尤其是關於下列事宜者：\n（一）從事公共電信網絡業務經營活動及提供公用電信服務的制度，以及相關的經營規章；\n（二）建設及使用專用電信網絡的制度；\n（三）電信普遍服務以及訂定其價格及融資條件的制度；\n（四）公共電信網絡互連的制度；\n（五）在建築物設置電信基礎設施及將之連接至公共電信網絡的制度。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 500,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "牌照",
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_007",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "7",
+    "article_number_normalized": "7",
+    "article_title": "使用者的權利",
+    "chunk_index": 6,
+    "chapter": "第一章 總則",
+    "chapter_title": "",
+    "text_zh": "確保電信服務使用者有權利：\n（一）依法獲確保其通訊不受侵犯及得到保密；\n（二）獲確保其隱私在收費文件上及在提供服務者使用其個人資料時得到尊重；\n（三）在整個澳門特別行政區的範圍內獲得並使用質量、方便程度及持續程度與服務本身的性質相符的公用電信服務；\n（四）自由選擇公用電信服務的提供者及獲確保其客戶號碼的可攜性；\n（五）在獲得及享用服務的條件方面不受歧視；\n（六）知悉關於提供服務的條件、服務收費及價格的資料；\n（七）獲確保公共電信服務不被中止，但因不履行合同條款或遇有不可抗力的情況除外；\n（八）預先知悉中止或取消服務的條件；\n（九）在合理時間內獲得服務提供者就其投訴作出的回覆。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 251,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "電信",
+          "通訊"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_008",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "8",
+    "article_number_normalized": "8",
+    "article_title": "競爭的保障",
+    "chunk_index": 7,
+    "chapter": "第一章 總則",
+    "chapter_title": "",
+    "text_zh": "一、公共電信服務經營者應保證所有電信業務經營者可在公平競爭的條件下使用其網絡，並容許與其他經營者所使用的電信網絡互連，以保證由不同經營者所提供服務的使用者均能進入網絡並互相通訊。\n二、禁止電信業務經營者作出有違公平競爭的行為或任何構成濫用主導地位的行為，尤其是：\n（一）在與其他電信業務經營者及與公眾之間的關係上作出的帶有歧視性的行為；\n（二）電信業務經營者或企業團體之間商定的、能對競爭造成破壞、限制或阻礙的協議或行為；\n（三）任何形式破壞競爭或阻礙使用者自由選擇的交叉補貼或其他行為，尤指以不正當手段吸引客戶的行為。\n三、佔有主導地位的電信業務經營者，是指單獨或透過與其他經營者商定的方法而不承受其餘經營者的明顯競爭的電信業務經營者。\n四、為衡量一電信業務經營者是否在某一市場中佔有主導地位，除其他因素外，尤應考慮下列因素：\n（一）在市場中佔有的份額；\n（二）影響市場狀況的能力，尤其是影響價格及其他經營者進入市場的能力；\n（三）對使用者獲得服務的媒介的控制程度；\n（四）財政資源及盈利能力；\n（五）產品及服務的多元化程度。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 411,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "電信",
+          "通訊"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_009",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "9",
+    "article_number_normalized": "9",
+    "article_title": "專用電信",
+    "chunk_index": 8,
+    "chapter": "第一章 總則",
+    "chapter_title": "",
+    "text_zh": "一、專用電信是指：\n（一）中央人民政府駐澳門機構、澳門特別行政區或其他公共實體，為進行通訊，或為輔助氣象工作、進行空中或海上航行的輔助及救援工作，或為進行類似的以公共利益為目的的活動而建立的電信；\n（二）中國人民解放軍駐澳門部隊為履行防務及相關職責而建立的電信；\n（三）保安部隊及部門為自用而建立的電信；\n（四）在民防工作上具權限的實體所建立的電信；\n（五）持有使用無線電通訊牌照的實體的專用無線電通訊；\n（六）經政府按國際性法律文件，又或特別規章的規定許可，僅供特定的公共或私人實體使用的其他電信。\n二、建設及使用專用電信網絡的條件，由特別規章訂立。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 239,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 3,
+        "matched_keywords": [
+          "牌照",
+          "電信",
+          "通訊"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_010",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "10",
+    "article_number_normalized": "10",
+    "article_title": "徵收及行政役權的設定",
+    "chunk_index": 9,
+    "chapter": "第一章 總則",
+    "chapter_title": "",
+    "text_zh": "為興建監察無線電頻譜的使用情況所需的設施並對該等設施進行無線電防護，以及為建設、保護及維修公共電信網絡基礎設施，可依法進行必要的徵收及設定行政役權。\n第二章\n電信服務",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 77,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_011",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "11",
+    "article_number_normalized": "11",
+    "article_title": "公共電信服務",
+    "chunk_index": 10,
+    "chapter": "第二章 電信服務",
+    "chapter_title": "",
+    "text_zh": "一、為回應經濟與社會持續發展的要求，須確保公共電信服務的存在及運作，而公共電信服務應能滿足市民及經濟與社會活動對通訊的需求，並能確保按公平及持續化的原則，透過收取適當報酬，提供國際電信聯繫服務。\n二、公共電信服務可由下列者經營：\n（一）由澳門特別行政區政府直接經營；\n（二）由公法人經營；\n（三）由獲特許經營的私法人經營。\n三、經營公共電信服務者須根據適用法例或特許合同所訂定的條件建設、管理及經營構成基礎電信網絡的基礎設施以及提供固定電話服務與其他被視為基本的服務。\n四、公共電信服務的收費及價格須經政府核准。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 227,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "電信",
+          "通訊"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_012",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "12",
+    "article_number_normalized": "12",
+    "article_title": "基礎電信網絡",
+    "chunk_index": 11,
+    "chapter": "第二章 電信服務",
+    "chapter_title": "",
+    "text_zh": "一、基礎電信網絡是由用戶接入固定系統、傳輸網絡及用於提供公共電信服務的集信器、交換機或處理器的網點所組成。\n二、為適用上款的規定，下列用詞的定義為：\n（一）用戶接入固定系統——處於一以有線方式連接用戶終端設備的固定點與另一以有線方式連接集信器、交換機或處理器的第一個網點的固定點之間的一組傳輸媒介；\n（二）傳輸網絡——用於建立集信器、交換機或處理器各網點之間賴以傳送信息的連繫的一組有線或無線電媒介；\n（三）集信器、交換機或處理器的網點——用於導引或處理用戶接入固定系統始發的或接收的信息的一切裝置或系統。\n三、基礎電信網絡的建設、管理及經營由上條第二款所指的實體負責；基礎電信網絡應以開放網絡的形式運作，使能支持一般服務的傳輸，並保證所有電信業務經營者可在公平競爭的條件下使用該網絡。\n四、組成基礎電信網絡的基礎設施屬澳門特別行政區的公產，並依法撥給經營基礎設施的公共電信服務經營者經營。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 355,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_013",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "13",
+    "article_number_normalized": "13",
+    "article_title": "公共電信網絡及公用電信服務的經營",
+    "chunk_index": 12,
+    "chapter": "第二章 電信服務",
+    "chapter_title": "",
+    "text_zh": "一、公共電信網絡及公用電信服務，可由持有從事相關服務牌照的電信企業根據政府核准的從事該等活動的規章經營，但不影響第十一條及第十二條規定的適用。\n二、許可從事上款所指活動的牌照上，須訂定獲許可從事活動的有關規定及條件，尤其是電信普遍服務義務，以及為經營及為連接基礎電信網絡而可以建設的專用基礎設施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 138,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "牌照",
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_014",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "14",
+    "article_number_normalized": "14",
+    "article_title": "電信普遍服務",
+    "chunk_index": 13,
+    "chapter": "第二章 電信服務",
+    "chapter_title": "",
+    "text_zh": "第三條（六）項所定義的電信普遍服務的總體義務範圍根據技術進步、市場發展及使用者需求的改變，並考慮經濟與社會的和諧及均衡發展的需要而以漸進的方式訂定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 69,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_015",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "15",
+    "article_number_normalized": "15",
+    "article_title": "增值服務",
+    "chunk_index": 14,
+    "chapter": "第二章 電信服務",
+    "chapter_title": "",
+    "text_zh": "增值服務，是由根據政府核准的從事該等活動的規章規定獲得相關許可或獲發相關牌照的任何法人提供。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 44,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "牌照"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_016",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "16",
+    "article_number_normalized": "16",
+    "article_title": "終端設備",
+    "chunk_index": 15,
+    "chapter": "第二章 電信服務",
+    "chapter_title": "",
+    "text_zh": "一、為保障公共電信網絡的完整性及適當的服務互通性，經適當批准的終端設備可根據規章所定的條件自由連接至公共電信網絡。\n二、不論終端設備是否屬使用者所有，公共電信服務經營者應保證有關終端設備可與其網絡連接。\n第三章\n最後及過渡規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 104,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_017",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "17",
+    "article_number_normalized": "17",
+    "article_title": "稅項豁免",
+    "chunk_index": 16,
+    "chapter": "第三章 最後及過渡規定",
+    "chapter_title": "",
+    "text_zh": "公共電信網絡經營者獲豁免進口其經營所需的所有物資的相關稅項。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 29,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_018",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "18",
+    "article_number_normalized": "18",
+    "article_title": "既得權利的保障",
+    "chunk_index": 17,
+    "chapter": "第三章 最後及過渡規定",
+    "chapter_title": "",
+    "text_zh": "在本法律生效日之前發出的提供公用電信服務臨時牌照維持有效，但不妨礙作出本法律及其施行細則所規定的更改。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 49,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "牌照",
+          "電信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_019",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "19",
+    "article_number_normalized": "19",
+    "article_title": "執行",
+    "chunk_index": 18,
+    "chapter": "第三章 最後及過渡規定",
+    "chapter_title": "",
+    "text_zh": "政府須採取必要措施，以充實、落實及執行本法律所載的綱要。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 25,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 3,
+        "matched_keywords": [
+          "电信",
+          "通讯",
+          "通信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_14_2001_ART_020",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2001",
+    "law_name": "電信綱要法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "20",
+    "article_number_normalized": "20",
+    "article_title": "生效",
+    "chunk_index": 19,
+    "chapter": "第三章 最後及過渡規定",
+    "chapter_title": "",
+    "text_zh": "本法律自公佈之翌日起生效。\n二零零一年八月九日通過。\n立法會主席 曹其真\n二零零一年八月十四日簽署。\n命令公佈。\n行政長官 何厚鏵",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 54,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 3,
+        "matched_keywords": [
+          "电信",
+          "通讯",
+          "通信"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2001-08-09",
+    "effective_date": "2001-08-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_69264812.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

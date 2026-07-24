@@ -1,0 +1,1547 @@
+[
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_001",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": ". (Purpose)",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Among other things, this Cabinet Order provides for the necessary particulars related to the management and coordination of the making or receiving of a payment, carrying out of capital transactions, and carrying out of other such transactions or actions provided for in Chapters I, III, and IV of the (Act No. 228 of 1949; hereinafter referred to as \"the Act\"), the reporting and related matters under Chapter VI-2 of the Act, and the Compliance Standards for Foreign Exchange Transactions Service Providers under Chapter 6-2-2 of the Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Among other things, this Cabinet Order provides for the necessary particulars related to the management and coordination of the making or receiving of a payment, carrying out of capital transactions, and carrying out of other such transactions or actions provided for in Chapters I, III, and IV of the (Act No. 228 of 1949; hereinafter referred to as \"the Act\"), the reporting and related matters under Chapter VI-2 of the Act, and the Compliance Standards for Foreign Exchange Transactions Service Providers under Chapter 6-2-2 of the Act."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.75,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 52,
+    "source_end": 592,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_002",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": ". (Definitions)",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The means of payment that Cabinet Order prescribes which are provided for in Article 6, paragraph (1), item (vii), (d) of the Act are:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The means of payment that Cabinet Order prescribes which are provided for in Article 6, paragraph (1), item (vii), (d) of the Act are:"
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 619,
+    "source_end": 753,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_003",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 3. (Suspension of Transactions in Case of Emergency)\nIn this Article, the meanings of the terms stated in the following items are as prescribed in those items:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 3. (Suspension of Transactions in Case of Emergency)\nIn this Article, the meanings of the terms stated in the following items are as prescribed in those items:"
+      }
+    ],
+    "topics": [
+      "government_contracting"
+    ],
+    "topics_details": [
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "suspension"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 3819,
+    "source_end": 3986,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_004",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "Chapter II Deleted",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 4.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 4."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 11837,
+    "source_end": 11847,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_005",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "Deleted",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 5.\n\nDeleted",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 5.\n\nDeleted"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 11858,
+    "source_end": 11877,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_006",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "Chapter III Making and Receiving Payments",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 6. (Permission to Make or Receive a Payment)\nBefore the Minister of Finance or the Minister of Economy, Trade and Industry makes it obligatory pursuant to Article 16, paragraphs (1) through (3) of the Act for a resident or non-resident to get permission to make a payment from Japan to a foreign country or for a resident to make a payment to or receive a payment from a non-resident, the Minister is to first make it clear which of these provisions the Minister is making it obligatory for the person in question to get the permission based on, and is to designate the payments that the person in question must get permission to make or receive, by issuing a public notice.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 6. (Permission to Make or Receive a Payment)\nBefore the Minister of Finance or the Minister of Economy, Trade and Industry makes it obligatory pursuant to Article 16, paragraphs (1) through (3) of the Act for a resident or non-resident to get permission to make a payment from Japan to a foreign country or for a resident to make a payment to or receive a payment from a non-resident, the Minister is to first make it clear which of these provisions the Minister is making it obligatory for the person in question to get the permission based on, and is to designate the payments that the person in question must get permission to make or receive, by issuing a public notice."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 11922,
+    "source_end": 12604,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_007",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "(i)the national government;",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "の三 (The National Government, Local Government, Association or Foundation Without Legal Personality, or Other Persons That Cabinet Order Prescribes)",
+    "text_en": "Article 7.",
+    "text_original_language": "pt-en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 7.の三 (The National Government, Local Government, Association or Foundation Without Legal Personality, or Other Persons That Cabinet Order Prescribes)"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 25349,
+    "source_end": 25506,
+    "language_original": [
+      "pt",
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_008",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 8. (Permission to Import or Export a Means of Payment, Prescribed Security, or Precious Metal)\nBefore the Minister of Finance makes it obligatory pursuant to Article 19, paragraph (1) or (2) of the Act for residents or non-residents to get permission to import or export a means of payment or securities as prescribed in paragraph (1) of that Article, or a precious metal (hereinafter referred to as a \"means of payment, prescribed security, or precious metal\")), the Minister is to designate the means of payment, prescribed security, or precious metal that the persons in question must get permission to import or export, by issuing a public notice.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 8. (Permission to Import or Export a Means of Payment, Prescribed Security, or Precious Metal)\nBefore the Minister of Finance makes it obligatory pursuant to Article 19, paragraph (1) or (2) of the Act for residents or non-residents to get permission to import or export a means of payment or securities as prescribed in paragraph (1) of that Article, or a precious metal (hereinafter referred to as a \"means of payment, prescribed security, or precious metal\")), the Minister is to designate the means of payment, prescribed security, or precious metal that the persons in question must get permission to import or export, by issuing a public notice."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "payment",
+          "securities"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.0,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 28728,
+    "source_end": 29387,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_009",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": ". (Current Expenditures)",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "A transfer of funds that Cabinet Order prescribes which is provided for in Article 20, item (xi) of the Act is:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "A transfer of funds that Cabinet Order prescribes which is provided for in Article 20, item (xi) of the Act is:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 33844,
+    "source_end": 33955,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_010",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 10. (Designation of Capital Transactions)\n\nThe transaction that Cabinet Order prescribes which is provided for in Article 20, item (xii) of the Act means a transaction that involves the accrual, alteration, or extinguishment of a claim based on a contract for the purchase and sale of gold bullion between a resident and a non-resident.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 10. (Designation of Capital Transactions)\n\nThe transaction that Cabinet Order prescribes which is provided for in Article 20, item (xii) of the Act means a transaction that involves the accrual, alteration, or extinguishment of a claim based on a contract for the purchase and sale of gold bullion between a resident and a non-resident."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 34743,
+    "source_end": 35087,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_011",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 11. (Capital Transactions That Require Permission from the Minister of Finance)\nBefore the Minister of Finance makes it obligatory pursuant to Article 21, paragraph (1) or (2) of the Act for residents or non-residents to get permission to conduct a capital transaction, the Minister is to designate the capital transactions that the persons in question must get permission to conduct, after having made it clear which of these provisions the Minister is making it obligatory for them to get the permission based on, by issuing a public notice; provided, however, that if the Minister of Finance finds that designating capital transactions by issuing a public notice would make it difficult to achieve the purpose of the Act in a case in which the Minister will make it obligatory based on the provisions of those paragraphs for residents or non-residents to get permission to conduct a capital transaction, the Minister is to be permitted to designate those capital transactions by making a posting at the Ministry of Finance and the Bank of Japan or by any other appropriate method prescribed by Ministry of Finance Order.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 11. (Capital Transactions That Require Permission from the Minister of Finance)\nBefore the Minister of Finance makes it obligatory pursuant to Article 21, paragraph (1) or (2) of the Act for residents or non-residents to get permission to conduct a capital transaction, the Minister is to designate the capital transactions that the persons in question must get permission to conduct, after having made it clear which of these provisions the Minister is making it obligatory for them to get the permission based on, by issuing a public notice; provided, however, that if the Minister of Finance finds that designating capital transactions by issuing a public notice would make it difficult to achieve the purpose of the Act in a case in which the Minister will make it obligatory based on the provisions of those paragraphs for residents or non-residents to get permission to conduct a capital transaction, the Minister is to be permitted to designate those capital transactions by making a posting at the Ministry of Finance and the Bank of Japan or by any other appropriate method prescribed by Ministry of Finance Order."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 35089,
+    "source_end": 36220,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_012",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "(ii)the content of the outward direct investment;",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 12. (Filing Notification of Outward Direct Investment)\n\n(iii)timing of making the outward direct investment;",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 12. (Filing Notification of Outward Direct Investment)\n\n(iii)timing of making the outward direct investment;"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 73596,
+    "source_end": 73712,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_013",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 13. (Service of a Recommendation or an Order)\nA recommendation or an order under Article 23, paragraph (4) or (9) of the Act is given by serving a document stating its content at the domicile, residence, or business office of the person that is to be served, through service by mail or by the correspondence delivery prescribed in Article 2, paragraph (2) of the Act on Correspondence Delivery by Private Business Operators (Act No. 99 of 2002) conducted by a general correspondence service operator prescribed in paragraph (6) of that Article or a specified correspondence service operator prescribed in paragraph (9) of that Article (hereinafter referred to as the \"correspondence delivery\" in this Article), or through personal service.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 13. (Service of a Recommendation or an Order)\nA recommendation or an order under Article 23, paragraph (4) or (9) of the Act is given by serving a document stating its content at the domicile, residence, or business office of the person that is to be served, through service by mail or by the correspondence delivery prescribed in Article 2, paragraph (2) of the Act on Correspondence Delivery by Private Business Operators (Act No. 99 of 2002) conducted by a general correspondence service operator prescribed in paragraph (6) of that Article or a specified correspondence service operator prescribed in paragraph (9) of that Article (hereinafter referred to as the \"correspondence delivery\" in this Article), or through personal service."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 75835,
+    "source_end": 76582,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_014",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 14. (Specified Capital Transactions That Require Permission from the Minister of Economy, Trade and Industry)\nSpecified capital transactions prescribed in Article 24, paragraph (1) of the Act (hereinafter referred to as the \"specified capital transactions\") are the transaction involving the accrual, alteration, or extinguishment of a claim based on any of the following contracts (excluding transactions for settlement of international commercial transactions for which the period from the occurrence of claims to their extinguishment is no longer than one year):",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 14. (Specified Capital Transactions That Require Permission from the Minister of Economy, Trade and Industry)\nSpecified capital transactions prescribed in Article 24, paragraph (1) of the Act (hereinafter referred to as the \"specified capital transactions\") are the transaction involving the accrual, alteration, or extinguishment of a claim based on any of the following contracts (excluding transactions for settlement of international commercial transactions for which the period from the occurrence of claims to their extinguishment is no longer than one year):"
+      }
+    ],
+    "topics": [
+      "government_contracting"
+    ],
+    "topics_details": [
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "claims"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 79276,
+    "source_end": 79849,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_015",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 15.\nBefore the Minister of Economy, Trade and Industry makes it obligatory pursuant to Article 24, paragraph (1) or (2) of the Act for residents to get permission to conduct a specified capital transaction, the Minister is to make it clear which of these provisions the Minister is making it obligatory for the person in question to get the permission based on, and is to designate the specified capital transactions that the persons in question must get permission to conduct, by issuing a public notice.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 15.\nBefore the Minister of Economy, Trade and Industry makes it obligatory pursuant to Article 24, paragraph (1) or (2) of the Act for residents to get permission to conduct a specified capital transaction, the Minister is to make it clear which of these provisions the Minister is making it obligatory for the person in question to get the permission based on, and is to designate the specified capital transactions that the persons in question must get permission to conduct, by issuing a public notice."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 84050,
+    "source_end": 84563,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_016",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 16. (Scope of Restrictions on Specified Capital Transactions)\nBefore the Minister of Economy, Trade and Industry, pursuant to Article 24-2 of the Act, fully or partially prohibits a person that, without getting the relevant permission, has conducted a specified capital transaction that it has been made obligatory to get permission for pursuant to the provisions of Article 24, paragraph (1) of the Act, from conducting specified capital transactions, the Minister is to specify the specified capital transactions that the Minister is prohibiting, by issuing a notice to that person; before the Minister, pursuant to Article 24-2 of the Act, makes it obligatory for such a person to get permission to conduct specified capital transactions, the Minister is to specify the specified capital transactions that the Minister is obliging the person to get permission for, by issuing a notice to that person.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 16. (Scope of Restrictions on Specified Capital Transactions)\nBefore the Minister of Economy, Trade and Industry, pursuant to Article 24-2 of the Act, fully or partially prohibits a person that, without getting the relevant permission, has conducted a specified capital transaction that it has been made obligatory to get permission for pursuant to the provisions of Article 24, paragraph (1) of the Act, from conducting specified capital transactions, the Minister is to specify the specified capital transactions that the Minister is prohibiting, by issuing a notice to that person; before the Minister, pursuant to Article 24-2 of the Act, makes it obligatory for such a person to get permission to conduct specified capital transactions, the Minister is to specify the specified capital transactions that the Minister is obliging the person to get permission for, by issuing a notice to that person."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 86079,
+    "source_end": 86990,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_017",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 17. (Permission for Service Transactions)\nA transaction that is meant to provide a technology for designing, manufacturing, or using a specified types of goods (hereinafter referred to as \"specified technology\" in this paragraph, the following paragraph, and Article 18-2, paragraph (1)) in a specified foreign country (hereinafter referred to as a \"specified country\" in this paragraph) and that is prescribed by Cabinet Order, as provided for by Article 25, paragraph (1) of the Act, refers to a transaction that is meant to provide a technology stated in the middle column of the Appended Table in the foreign country stated in the right-hand column of that table; a transaction that is meant to provide a specified technology to a non-resident affiliated with a specified country and that is prescribed by Cabinet Order, as provided for by Article 25, paragraph (1) of the Act, refers to a transaction that is meant to provide a technology stated in the middle column of that table to a non-resident affiliated with the foreign country stated in the right-column of that table.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 17. (Permission for Service Transactions)\nA transaction that is meant to provide a technology for designing, manufacturing, or using a specified types of goods (hereinafter referred to as \"specified technology\" in this paragraph, the following paragraph, and Article 18-2, paragraph (1)) in a specified foreign country (hereinafter referred to as a \"specified country\" in this paragraph) and that is prescribed by Cabinet Order, as provided for by Article 25, paragraph (1) of the Act, refers to a transaction that is meant to provide a technology stated in the middle column of the Appended Table in the foreign country stated in the right-hand column of that table; a transaction that is meant to provide a specified technology to a non-resident affiliated with a specified country and that is prescribed by Cabinet Order, as provided for by Article 25, paragraph (1) of the Act, refers to a transaction that is meant to provide a technology stated in the middle column of that table to a non-resident affiliated with the foreign country stated in the right-column of that table."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.0,
+        "matched_keywords": [
+          "refers to"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 89881,
+    "source_end": 90970,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_018",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "Chapter IV-2 Reporting",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 18.\nの四 (Reporting the Making and Receipt of Payments)\nThe case that Cabinet Order prescribes which is provided for in Article 55, paragraph (1) of the Act is one in which a resident or non-resident has made or received a payment that constitutes one of the following:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 18.の四 (Reporting the Making and Receipt of Payments)\nThe case that Cabinet Order prescribes which is provided for in Article 55, paragraph (1) of the Act is one in which a resident or non-resident has made or received a payment that constitutes one of the following:"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 102335,
+    "source_end": 102609,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_019",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "Chapter V Miscellaneous Provisions",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 19. (Classification of Matters under the Jurisdiction of the Minister of Finance and the Minister of Economy, Trade and Industry)\n\nClassification of matters under the jurisdiction of the Minister of Finance and the Minister of Economy, Trade and Industry in this Cabinet Order is according to what is specified by the Act and the Cabinet Order to Determine Competent Ministers in the (Cabinet Order No. 259 of 1980)",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 19. (Classification of Matters under the Jurisdiction of the Minister of Finance and the Minister of Economy, Trade and Industry)\n\nClassification of matters under the jurisdiction of the Minister of Finance and the Minister of Economy, Trade and Industry in this Cabinet Order is according to what is specified by the Act and the Cabinet Order to Determine Competent Ministers in the (Cabinet Order No. 259 of 1980)"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 118921,
+    "source_end": 119344,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_020",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 20.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 20."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 119346,
+    "source_end": 119357,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_021",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "Deleted",
+    "chunk_index": 20,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 21. (Currency Translation Method)\n\nCurrency translations between Japanese currency and a foreign currency or between one foreign currency and another foreign currency in a case to which the Act (limited to Chapter I, Chapter III, Chapter IV, and Chapter VI-2 (excluding Article 55-5 and Article 55-6); the same applies in the following Article), this Cabinet Order, and the provisions of an order based on these apply are to be done using the base exchange rate or the arbitrated exchange rate provided for in Article 7, paragraph (1) of the Act as on the day that the transaction, action, or making or receipt of payment whose amount is to be translated under those provisions is implemented, unless the currency translation is done by a method prescribed by Ministry of Finance Order or Order of the Ministry of Economy, Trade and Industry according to classification prescribed by Ministry of Finance Order or Order of the Ministry of Economy, Trade and Industry.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 21. (Currency Translation Method)\n\nCurrency translations between Japanese currency and a foreign currency or between one foreign currency and another foreign currency in a case to which the Act (limited to Chapter I, Chapter III, Chapter IV, and Chapter VI-2 (excluding Article 55-5 and Article 55-6); the same applies in the following Article), this Cabinet Order, and the provisions of an order based on these apply are to be done using the base exchange rate or the arbitrated exchange rate provided for in Article 7, paragraph (1) of the Act as on the day that the transaction, action, or making or receipt of payment whose amount is to be translated under those provisions is implemented, unless the currency translation is done by a method prescribed by Ministry of Finance Order or Order of the Ministry of Economy, Trade and Industry according to classification prescribed by Ministry of Finance Order or Order of the Ministry of Economy, Trade and Industry."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 119369,
+    "source_end": 120343,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_022",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 22. (Transactions by Governmental Organizations Which Are Not Governed by Laws and Regulations)\n\nThe provisions of the Act and this Cabinet Order which concern permissions, notifications, and reporting do not apply to transactions, actions, and the making and receipt of payments which are implemented by the Minister of Finance based on the provisions of Chapter II, Section 5 of the (Act No. 23 of 2007).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 22. (Transactions by Governmental Organizations Which Are Not Governed by Laws and Regulations)\n\nThe provisions of the Act and this Cabinet Order which concern permissions, notifications, and reporting do not apply to transactions, actions, and the making and receipt of payments which are implemented by the Minister of Finance based on the provisions of Chapter II, Section 5 of the (Act No. 23 of 2007)."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 120345,
+    "source_end": 120759,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_023",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 23. (Means of Giving Public Notice)\n\nPublic notice based on this Cabinet Order is given in the Official Gazette.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 23. (Means of Giving Public Notice)\n\nPublic notice based on this Cabinet Order is given in the Official Gazette."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 120761,
+    "source_end": 120881,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_024",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 24.\n\nDeleted.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 24.\n\nDeleted."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 120883,
+    "source_end": 120904,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_025",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": ". (Delegation of Authority)",
+    "chunk_index": 24,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The following parts of the authority of the Minister of Finance are delegated to the directors-general of custom-houses:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The following parts of the authority of the Minister of Finance are delegated to the directors-general of custom-houses:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 120944,
+    "source_end": 121064,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_026",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 26. (Delegation of Administrative Functions)\n\nAdministrative functions related to the enforcement of the Act which the Minister of Finance and the Minister of Economy, Trade and Industry have the Bank of Japan handle based on the provisions of Article 69, paragraph (1) of the Act (limited to Chapter I, Chapter III, Chapter IV, and Chapter VI-2 (excluding Article 55-2, Article 55-5, and Article 55-6); the same applies in item (x)) are those of the following administrative functions that are prescribed by Ministry of Finance Order or Order of the Ministry of Economy, Trade and Industry:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 26. (Delegation of Administrative Functions)\n\nAdministrative functions related to the enforcement of the Act which the Minister of Finance and the Minister of Economy, Trade and Industry have the Bank of Japan handle based on the provisions of Article 69, paragraph (1) of the Act (limited to Chapter I, Chapter III, Chapter IV, and Chapter VI-2 (excluding Article 55-2, Article 55-5, and Article 55-6); the same applies in item (x)) are those of the following administrative functions that are prescribed by Ministry of Finance Order or Order of the Ministry of Economy, Trade and Industry:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 125441,
+    "source_end": 126040,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_035_ART_027",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_035",
+    "law_name": "Foreign Exchange Order",
+    "law_name_original": "Foreign Exchange Order",
+    "law_type": "Act",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 27. (Technology That Is Especially Likely to Be Used to Develop, Manufacture, Use, or Store an NBC or Associated Device)\nThe rocket or unmanned aerial vehicle prescribed by Cabinet Order that is provided for in Article 69-6, paragraph (2), item (i) of the Act is a rocket or unmanned aerial vehicle that is capable of transporting a nuclear weapon, a military chemical warfare agent or military bacterial agent, or a device for spraying such an agent, which has a firing range or flight range of 300km or more.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 27. (Technology That Is Especially Likely to Be Used to Develop, Manufacture, Use, or Store an NBC or Associated Device)\nThe rocket or unmanned aerial vehicle prescribed by Cabinet Order that is provided for in Article 69-6, paragraph (2), item (i) of the Act is a rocket or unmanned aerial vehicle that is capable of transporting a nuclear weapon, a military chemical warfare agent or military bacterial agent, or a device for spraying such an agent, which has a firing range or flight range of 300km or more."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1980-10-11",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4858",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_035.json",
+    "source_start": 128519,
+    "source_end": 129037,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

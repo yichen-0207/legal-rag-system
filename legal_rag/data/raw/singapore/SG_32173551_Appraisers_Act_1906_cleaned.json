@@ -1,0 +1,566 @@
+[
+  {
+    "doc_id": "SG_32173551_ART_000",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_32173551",
+    "law_name": "Appraisers Act 1906",
+    "law_name_original": "Appraisers Act 1906",
+    "law_type": "法律",
+    "article_number": "0",
+    "article_number_normalized": "000",
+    "article_title": "Long Title",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "An Act to provide for the licensing of appraisers. 25/2010",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "An Act to provide for the licensing of appraisers. 25/2010"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2021-12-31",
+    "last_amended_date": "2021-03-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_32173551",
+    "source_type": "gov_gazette",
+    "source_file": "SG_32173551_Appraisers_Act_1906.txt",
+    "source_start": 11,
+    "source_end": 69,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:11Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_32173551_ART_001",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_32173551",
+    "law_name": "Appraisers Act 1906",
+    "law_name_original": "Appraisers Act 1906",
+    "law_type": "法律",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "Short title",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act is the Appraisers Act 1906 . 25/2010",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act is the Appraisers Act 1906 . 25/2010"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2021-12-31",
+    "last_amended_date": "2021-03-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_32173551",
+    "source_type": "gov_gazette",
+    "source_file": "SG_32173551_Appraisers_Act_1906.txt",
+    "source_start": 70,
+    "source_end": 83,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:11Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_32173551_ART_002",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_32173551",
+    "law_name": "Appraisers Act 1906",
+    "law_name_original": "Appraisers Act 1906",
+    "law_type": "法律",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Definition of appraiser",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Every person who values or appraises any estate or immovable property, lands, tenements or hereditaments, or any interest in possession or reversion, remai...\n3 (Repealed)Repealed by Act 25 of 2010",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Every person who values or appraises any estate or immovable property, lands, tenements or hereditaments, or any interest in possession or reversion, remai...\n3 (Repealed)Repealed by Act 25 of 2010"
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 5,
+        "matched_keywords": [
+          "definition (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": [],
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2021-12-31",
+    "last_amended_date": "2021-03-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_32173551",
+    "source_type": "gov_gazette",
+    "source_file": "SG_32173551_Appraisers_Act_1906.txt",
+    "source_start": 142,
+    "source_end": 167,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:11Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_32173551_ART_004",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_32173551",
+    "law_name": "Appraisers Act 1906",
+    "law_name_original": "Appraisers Act 1906",
+    "law_type": "法律",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "Appraisers to be licensed",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Every appraiser must take out a licence in Form A in the Schedule. 7/2005\n5 (Repealed)Repealed by Act 25 of 2010",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Every appraiser must take out a licence in Form A in the Schedule. 7/2005\n5 (Repealed)Repealed by Act 25 of 2010"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2021-12-31",
+    "last_amended_date": "2021-03-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_32173551",
+    "source_type": "gov_gazette",
+    "source_file": "SG_32173551_Appraisers_Act_1906.txt",
+    "source_start": 390,
+    "source_end": 417,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:11Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_32173551_ART_006",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_32173551",
+    "law_name": "Appraisers Act 1906",
+    "law_name_original": "Appraisers Act 1906",
+    "law_type": "法律",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "Power to grant licences",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Comptroller of Property Tax is empowered to grant licences under the provisions of this Act. Every licence granted under this Act must be granted under...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Comptroller of Property Tax is empowered to grant licences under the provisions of this Act. Every licence granted under this Act must be granted under..."
+      }
+    ],
+    "topics": [
+      "tax_law"
+    ],
+    "topics_details": [
+      {
+        "id": "tax_law",
+        "label_zh": "税法",
+        "label_en": "Tax Law",
+        "label_pt": "Direito Fiscal",
+        "score": 9.0,
+        "matched_keywords": [
+          "tax",
+          "property tax"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2021-12-31",
+    "last_amended_date": "2021-03-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_32173551",
+    "source_type": "gov_gazette",
+    "source_file": "SG_32173551_Appraisers_Act_1906.txt",
+    "source_start": 557,
+    "source_end": 582,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:11Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_32173551_ART_007",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_32173551",
+    "law_name": "Appraisers Act 1906",
+    "law_name_original": "Appraisers Act 1906",
+    "law_type": "法律",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "Licences",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Every licence to be taken out under the authority of this Act must state — the true name and place of abode of the person taking it out; the true date or time of granting...\n8 (Repealed)Repealed by Act 4 of 2021\n9 (Repealed)Repealed by Act 4 of 2021",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Every licence to be taken out under the authority of this Act must state — the true name and place of abode of the person taking it out; the true date or time of granting...\n8 (Repealed)Repealed by Act 4 of 2021\n9 (Repealed)Repealed by Act 4 of 2021"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2021-12-31",
+    "last_amended_date": "2021-03-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_32173551",
+    "source_type": "gov_gazette",
+    "source_file": "SG_32173551_Appraisers_Act_1906.txt",
+    "source_start": 766,
+    "source_end": 776,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:11Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_32173551_ART_010",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_32173551",
+    "law_name": "Appraisers Act 1906",
+    "law_name_original": "Appraisers Act 1906",
+    "law_type": "法律",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "Refusal and cancellation of licences",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Comptroller of Property Tax may refuse any application for a licence or to renew any licence, and may cancel the licence of any person who...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Comptroller of Property Tax may refuse any application for a licence or to renew any licence, and may cancel the licence of any person who..."
+      }
+    ],
+    "topics": [
+      "tax_law"
+    ],
+    "topics_details": [
+      {
+        "id": "tax_law",
+        "label_zh": "税法",
+        "label_en": "Tax Law",
+        "label_pt": "Direito Fiscal",
+        "score": 9.0,
+        "matched_keywords": [
+          "tax",
+          "property tax"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2021-12-31",
+    "last_amended_date": "2021-03-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_32173551",
+    "source_type": "gov_gazette",
+    "source_file": "SG_32173551_Appraisers_Act_1906.txt",
+    "source_start": 1036,
+    "source_end": 1075,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:11Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_32173551_ART_011",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_32173551",
+    "law_name": "Appraisers Act 1906",
+    "law_name_original": "Appraisers Act 1906",
+    "law_type": "法律",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "Evidence of misconduct",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The judgment of any court of competent jurisdiction whether civil or criminal, having the effect of finding that any licensed person — is liable or responsi...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The judgment of any court of competent jurisdiction whether civil or criminal, having the effect of finding that any licensed person — is liable or responsi..."
+      }
+    ],
+    "topics": [
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "criminal"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2021-12-31",
+    "last_amended_date": "2021-03-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_32173551",
+    "source_type": "gov_gazette",
+    "source_file": "SG_32173551_Appraisers_Act_1906.txt",
+    "source_start": 1259,
+    "source_end": 1284,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:11Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_32173551_ART_012",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_32173551",
+    "law_name": "Appraisers Act 1906",
+    "law_name_original": "Appraisers Act 1906",
+    "law_type": "法律",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "Offences triable by District Court",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Any offence punishable under this Act may be tried by a District Court.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Any offence punishable under this Act may be tried by a District Court."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2021-12-31",
+    "last_amended_date": "2021-03-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_32173551",
+    "source_type": "gov_gazette",
+    "source_file": "SG_32173551_Appraisers_Act_1906.txt",
+    "source_start": 1468,
+    "source_end": 1505,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:11Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_32173551_ART_013",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_32173551",
+    "law_name": "Appraisers Act 1906",
+    "law_name_original": "Appraisers Act 1906",
+    "law_type": "法律",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "Power to make regulations",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Minister may make regulations necessary for or convenient to carrying out the provisions of this Act. 25/2010\nAppraisers Act 1906 - Schedule\nSection 4 FORM A APPRAISERS ACT 1906 APPRAISER’S LICENCE    Subject to the provisions of the Appraisers Act 1906 and all regulations made under the Act, __________________________...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Minister may make regulations necessary for or convenient to carrying out the provisions of this Act. 25/2010\nAppraisers Act 1906 - Schedule\nSection 4 FORM A APPRAISERS ACT 1906 APPRAISER’S LICENCE    Subject to the provisions of the Appraisers Act 1906 and all regulations made under the Act, __________________________..."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2021-12-31",
+    "last_amended_date": "2021-03-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_32173551",
+    "source_type": "gov_gazette",
+    "source_file": "SG_32173551_Appraisers_Act_1906.txt",
+    "source_start": 1613,
+    "source_end": 1641,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:11Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

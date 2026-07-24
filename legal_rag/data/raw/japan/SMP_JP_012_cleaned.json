@@ -1,0 +1,952 @@
+[
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_001",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": ". (Purpose)",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Unless otherwise provided for in other Acts, orders based on Acts (including public notices; the same applies below), Prefectural or Municipal Ordinances, rules of local governments, and rules established by organs of local governments, procedures, etc. concerning laws and orders related to local governments (including public notices; the same applies below) under the jurisdiction of the Digital Agency are carried out by means of using an electronic data processing system, or other information and communications technology pursuant to the provisions of Articles 6 through 9 of the (Act No. 151 of 2002; referred to below as the \"Act\") as provided for by Order of the Digital Agency.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Unless otherwise provided for in other Acts, orders based on Acts (including public notices; the same applies below), Prefectural or Municipal Ordinances, rules of local governments, and rules established by organs of local governments, procedures, etc. concerning laws and orders related to local governments (including public notices; the same applies below) under the jurisdiction of the Digital Agency are carried out by means of using an electronic data processing system, or other information and communications technology pursuant to the provisions of Articles 6 through 9 of the (Act No. 151 of 2002; referred to below as the \"Act\") as provided for by Order of the Digital Agency."
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.75,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.75,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.75,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 21,
+    "source_end": 709,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_002",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": ". (Definitions)",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The terms used in this Agency Order have the same meaning as the terms used in the Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The terms used in this Agency Order have the same meaning as the terms used in the Act."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "meaning (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 1366,
+    "source_end": 1453,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_003",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 3. (Electronic Data Processing System for an Application)\n\nThe electronic data processing system specified by Order of the competent ministry as prescribed in Article 6, paragraph (1) of the Act is an electronic data processing system connecting through a telecommunications line, a computer used by the administrative organs, etc. where the application, etc. are made to a computer used by the person making the application, etc. and which conforms to the technical standards specified by the Prime Minister in a public notice.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 3. (Electronic Data Processing System for an Application)\n\nThe electronic data processing system specified by Order of the competent ministry as prescribed in Article 6, paragraph (1) of the Act is an electronic data processing system connecting through a telecommunications line, a computer used by the administrative organs, etc. where the application, etc. are made to a computer used by the person making the application, etc. and which conforms to the technical standards specified by the Prime Minister in a public notice."
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 1955,
+    "source_end": 2491,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_004",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 4. (An Application Using an Electronic Data Processing System)\nA person making an application, etc. by a method using an electronic data processing system pursuant to the provisions of Article 6, paragraph (1) of the Act must make the application, etc. by entering the matters stated in the following items from the computer used by the person making the application, etc. referred to in the preceding Article, as provided for by the Prime Minister in a public notice:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 4. (An Application Using an Electronic Data Processing System)\nA person making an application, etc. by a method using an electronic data processing system pursuant to the provisions of Article 6, paragraph (1) of the Act must make the application, etc. by entering the matters stated in the following items from the computer used by the person making the application, etc. referred to in the preceding Article, as provided for by the Prime Minister in a public notice:"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "data processing"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 2493,
+    "source_end": 2969,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_005",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": ". (Measures to Clarify Names)",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The measures specified by Order of the competent ministry as prescribed in Article 6, paragraph (4) of the Act mean attaching an electronic signature to the information recorded in an application, etc. by using an electronic data processing system and transmitting an electronic certificate related to the electronic signature which is stated in the items of paragraph (2) of the preceding Article along with the application, etc., or the measures prescribed in the proviso to that paragraph.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The measures specified by Order of the competent ministry as prescribed in Article 6, paragraph (4) of the Act mean attaching an electronic signature to the information recorded in an application, etc. by using an electronic data processing system and transmitting an electronic certificate related to the electronic signature which is stated in the items of paragraph (2) of the preceding Article along with the application, etc., or the measures prescribed in the proviso to that paragraph."
+      }
+    ],
+    "topics": [
+      "electronic_transactions",
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 6.0,
+        "matched_keywords": [
+          "electronic signature"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 6780,
+    "source_end": 7272,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_006",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 6. (Payment of Fees Through Information and Communications Technology)\n\nThe method specified by Order of the competent ministry as prescribed in Article 6, paragraph (5) of the Act is the method of making a payment based on the payment information obtained from an application, etc. processed pursuant to the provisions of Article 4, paragraph (1).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 6. (Payment of Fees Through Information and Communications Technology)\n\nThe method specified by Order of the competent ministry as prescribed in Article 6, paragraph (5) of the Act is the method of making a payment based on the payment information obtained from an application, etc. processed pursuant to the provisions of Article 4, paragraph (1)."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 7928,
+    "source_end": 8284,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_007",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 7. (If Any Part of the Application is Found to be Difficult or Extremely Inappropriate to be Processed by a Method Using an Electronic Data Processing System)\nThe cases specified by Order of the competent ministry as prescribed in Article 6, paragraph (6) of the Act are the following cases:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 7. (If Any Part of the Application is Found to be Difficult or Extremely Inappropriate to be Processed by a Method Using an Electronic Data Processing System)\nThe cases specified by Order of the competent ministry as prescribed in Article 6, paragraph (6) of the Act are the following cases:"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 8286,
+    "source_end": 8585,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_008",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 8. (Electronic Data Processing System Concerning Disposition Notice)\n\nThe electronic data processing system specified by Order of the competent ministry as prescribed in Article 7, paragraph (1) of the Act is an electronic data processing system that connects a computer used by the administrative organs, etc. through a telecommunications line to a computer used by a person receiving a disposition notice, etc., and which conforms to the technical standards specified by that administrative organs, etc.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 8. (Electronic Data Processing System Concerning Disposition Notice)\n\nThe electronic data processing system specified by Order of the competent ministry as prescribed in Article 7, paragraph (1) of the Act is an electronic data processing system that connects a computer used by the administrative organs, etc. through a telecommunications line to a computer used by a person receiving a disposition notice, etc., and which conforms to the technical standards specified by that administrative organs, etc."
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 9831,
+    "source_end": 10344,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_009",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 9. (A Disposition Notice Using an Electronic Data Processing System)\nWhen the administrative organs, etc. provides a disposition notice, etc. by a method using an electronic data processing system pursuant to the provisions of Article 7, paragraph (1) of the Act, the administrative organs, etc. are to provide that disposition notice, etc. by entering the matters to be stated in the document or other record from a computer used by the administrative organs, etc.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 9. (A Disposition Notice Using an Electronic Data Processing System)\nWhen the administrative organs, etc. provides a disposition notice, etc. by a method using an electronic data processing system pursuant to the provisions of Article 7, paragraph (1) of the Act, the administrative organs, etc. are to provide that disposition notice, etc. by entering the matters to be stated in the document or other record from a computer used by the administrative organs, etc."
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "data processing"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 10346,
+    "source_end": 10819,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_010",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 10. (Method of Indicating Receipt of a Disposition Notice)\n\nThe method specified by Order of the competent ministry as prescribed in the proviso to Article 7, paragraph (1) of the Act is any of the methods stated in the following items:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 10. (Method of Indicating Receipt of a Disposition Notice)\n\nThe method specified by Order of the competent ministry as prescribed in the proviso to Article 7, paragraph (1) of the Act is any of the methods stated in the following items:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 12674,
+    "source_end": 12918,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_011",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 11. (When a Disposition Notice Contains Any Part that is Found to Be Difficult or Extremely Inappropriate to Be Made by Means of Using an Electronic Data Processing System)\n\nThe cases specified by order of the competent ministry as prescribed in Article 7, paragraph (5) of the Act are the following cases:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 11. (When a Disposition Notice Contains Any Part that is Found to Be Difficult or Extremely Inappropriate to Be Made by Means of Using an Electronic Data Processing System)\n\nThe cases specified by order of the competent ministry as prescribed in Article 7, paragraph (5) of the Act are the following cases:"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 13548,
+    "source_end": 13862,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_012",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 12. (Public Inspections Through Electronic or Magnetic Records)\n\nPursuant to the provisions of Article 8, paragraph (1) of the Act, when the administrative organs, etc. have made the matters recorded by electronic or magnetic means or documents containing those matters available for public inspection, etc., the administrative organs, etc. are to make the matters subject to public inspection, etc. available for public inspection, etc. by a method of using the internet, a method of displaying the matters on a screen of a computer kept at the office of the administrative organs, etc., or a method of keeping documents containing those matters recorded in an electronic or magnetic record.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 12. (Public Inspections Through Electronic or Magnetic Records)\n\nPursuant to the provisions of Article 8, paragraph (1) of the Act, when the administrative organs, etc. have made the matters recorded by electronic or magnetic means or documents containing those matters available for public inspection, etc., the administrative organs, etc. are to make the matters subject to public inspection, etc. available for public inspection, etc. by a method of using the internet, a method of displaying the matters on a screen of a computer kept at the office of the administrative organs, etc., or a method of keeping documents containing those matters recorded in an electronic or magnetic record."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 14574,
+    "source_end": 15274,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_012_ART_013",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_012",
+    "law_name": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_name_original": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency",
+    "law_type": "Act",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 13. (Creation Using Electronic or Magnetic Records)\nIf administrative organs, etc. conduct creation, etc. by using an electronic or magnetic record, pursuant to the provisions of Article 9, paragraph (1) of the Act, it is to do so by recording matters concerning the creation, etc. in a file stored on the computer used by the administrative organs, etc., or by preparing those matters by using an electronic or magnetic recording medium; provided, however, that any creation, etc. is to be done using cloud computing service-related technology (meaning the cloud computing service-related technology prescribed in Article 2, paragraph (4) of the (Act No. 103 of 2016); the same applies in the following paragraph) or using any other appropriate method while taking into account the progress of information and communications technology.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 13. (Creation Using Electronic or Magnetic Records)\nIf administrative organs, etc. conduct creation, etc. by using an electronic or magnetic record, pursuant to the provisions of Article 9, paragraph (1) of the Act, it is to do so by recording matters concerning the creation, etc. in a file stored on the computer used by the administrative organs, etc., or by preparing those matters by using an electronic or magnetic recording medium; provided, however, that any creation, etc. is to be done using cloud computing service-related technology (meaning the cloud computing service-related technology prescribed in Article 2, paragraph (4) of the (Act No. 103 of 2016); the same applies in the following paragraph) or using any other appropriate method while taking into account the progress of information and communications technology."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-09-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4959",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_012.json",
+    "source_start": 15276,
+    "source_end": 16121,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

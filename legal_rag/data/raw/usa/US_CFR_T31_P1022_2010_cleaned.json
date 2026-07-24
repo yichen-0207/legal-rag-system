@@ -1,0 +1,1397 @@
+[
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_100",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.100",
+    "article_number_normalized": "1022_100",
+    "article_title": "Definitions",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.100 Definitions.\nRefer to\n§ 1010.100 of this chapter\nfor general definitions not noted herein.\nB—Programs",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Refer to\n§ 1010.100 of this chapter\nfor general definitions not noted herein.\nB—Programs"
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 11.0,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "definitions"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 3258,
+    "source_end": 3354,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_200",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.200",
+    "article_number_normalized": "1022_200",
+    "article_title": "General",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.200 General.\nMoney services businesses are subject to the program requirements set forth and cross referenced in this . Money services businesses should also refer to\nB of part 1010 of this chapter\nfor program requirements contained in that which apply to money services businesses.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Money services businesses are subject to the program requirements set forth and cross referenced in this . Money services businesses should also refer to\nB of part 1010 of this chapter\nfor program requirements contained in that which apply to money services businesses."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 3371,
+    "source_end": 3648,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_210",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.210",
+    "article_number_normalized": "1022_210",
+    "article_title": "Anti-money laundering programs for money services businesses",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.210 Anti-money laundering programs for money services businesses.\n(\na\n)\nEach money services business, as defined by\n§ 1010.100(ff) of this chapter\n, shall develop, implement, and maintain an effective anti-money laundering program. An effective anti-money laundering program is one that is reasonably designed to prevent the money services business from being used to facilitate money laundering and the financing of terrorist activities.\n(\nb\n)\nThe program shall be commensurate with the risks posed by the location and size of, and the nature and volume of the financial services provided by, the money services business.\n(\nc\n)\nThe program shall be in writing, and a money services business shall make copies of the anti-money laundering program available for inspection to the Department of the Treasury upon request.\n(\nd\n)\nAt a minimum, the program shall:\n(\n1\n)\nIncorporate policies, procedures, and internal controls reasonably designed to assure compliance with this chapter.\n(\ni\n)\nPolicies, procedures, and internal controls developed and implemented under this section shall include provisions for complying with the requirements of this chapter including, to the extent applicable to the money services business, requirements for:\n(\nA\n)\nVerifying customer identification, including as set forth in\nparagraph (d)(1)(iv)\nof this section;\n(\nB\n)\nFiling Reports;\n(\nC\n)\nCreating and retaining records;\n(\nD\n)\nResponding to law enforcement requests.\n(\nii\n)\nMoney services businesses that have automated data processing systems should integrate their compliance procedures with such systems.\n(\niii\n)\nA person that is a money services business solely because it is an agent for another money services business as set forth in\n§ 1022.380(a)(3)\n, and the money services business for which it serves as agent, may by agreement allocate between them responsibility for development of policies, procedures, and internal controls required by this\nparagraph (d)(1)\n. Each money services business shall remain solely responsible for implementation of the requirements set forth in this section, and nothing in this\nparagraph (d)(1)\nrelieves any money services business from its obligation to establish and maintain an effective anti-money laundering program.\n(\niv\n)\nA money services business that is a provider or seller of prepaid access must establish procedures to verify the identity of a person who obtains prepaid access under a prepaid program and obtain identifying information concerning such a person, including name, date of birth, address, and identification number. Sellers of prepaid access must also establish procedures to verify the identity of a person who obtains prepaid access to funds that exceed $10,000 during any one day and obtain identifying information concerning such a person, including name, date of birth, address, and identification number. Providers of prepaid access must retain access to such identifying information for five years after the last use of the prepaid access device or vehicle; such information obtained by sellers of prepaid access must be retained for five years from the date of the sale of the prepaid access device or vehicle.\n(\n2\n)\nDesignate a person to assure day to day compliance with the program and this chapter. The responsibilities of such person shall include assuring that:\n(\ni\n)\nThe money services business properly files reports, and creates and retains records, in accordance with applicable requirements of this chapter;\n(\nii\n)\nThe compliance program is updated as necessary to reflect current requirements of this chapter, and related guidance issued by the Department of the Treasury; and\n(\niii\n)\nThe money services business provides appropriate training and education in accordance with\nparagraph (d)(3)\nof this section.\n(\n3\n)\nProvide education and/or training of appropriate personnel concerning their responsibilities under the program, including training in the detection of suspicious transactions to the extent that the money services business is required to report such transactions under this chapter.\n(\n4\n)\nProvide for independent review to monitor and maintain an adequate program. The scope and frequency of the review shall be commensurate with the risk of the financial services provided by the money services business. Such review may be conducted by an officer or employee of the money services business so long as the reviewer is not the person designated in\nparagraph (d)(2)\nof this section.\n(\ne\n)\nCompliance date.\nA money services business must develop and implement an anti-money laundering program that complies with the requirements of this section on or before the later of July 24, 2002, and the end of the 90-day period beginning on the day following the date the business is established.\n[\n75 FR 65812\n, Oct. 26, 2010, as amended at\n76 FR 43597\n, July 21, 2011;\n76 FR 45419\n, July 29, 2011]\nC—Reports Required To Be Made By Money Services Businesses",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "(\na\n)\nEach money services business, as defined by\n§ 1010.100(ff) of this chapter\n, shall develop, implement, and maintain an effective anti-money laundering program. An effective anti-money laundering program is one that is reasonably designed to prevent the money services business from being used to facilitate money laundering and the financing of terrorist activities.\n(\nb\n)\nThe program shall be commensurate with the risks posed by the location and size of, and the nature and volume of the financial services provided by, the money services business.\n(\nc\n)\nThe program shall be in writing, and a money services business shall make copies of the anti-money laundering program available for inspection to the Department of the Treasury upon request.\n(\nd\n)\nAt a minimum, the program shall:\n(\n1\n)\nIncorporate policies, procedures, and internal controls reasonably designed to assure compliance with this chapter.\n(\ni\n)\nPolicies, procedures, and internal controls developed and implemented under this section shall include provisions for complying with the requirements of this chapter including, to the extent applicable to the money services business, requirements for:\n(\nA\n)\nVerifying customer identification, including as set forth in\nparagraph (d)(1)(iv)\nof this section;\n(\nB\n)\nFiling Reports;\n(\nC\n)\nCreating and retaining records;\n(\nD\n)\nResponding to law enforcement requests.\n(\nii\n)\nMoney services businesses that have automated data processing systems should integrate their compliance procedures with such systems.\n(\niii\n)\nA person that is a money services business solely because it is an agent for another money services business as set forth in\n§ 1022.380(a)(3)\n, and the money services business for which it serves as agent, may by agreement allocate between them responsibility for development of policies, procedures, and internal controls required by this\nparagraph (d)(1)\n. Each money services business shall remain solely responsible for implementation of the requirements set forth in this section, and nothing in this\nparagraph (d)(1)\nrelieves any money services business from its obligation to establish and maintain an effective anti-money laundering program.\n(\niv\n)\nA money services business that is a provider or seller of prepaid access must establish procedures to verify the identity of a person who obtains prepaid access under a prepaid program and obtain identifying information concerning such a person, including name, date of birth, address, and identification number. Sellers of prepaid access must also establish procedures to verify the identity of a person who obtains prepaid access to funds that exceed $10,000 during any one day and obtain identifying information concerning such a person, including name, date of birth, address, and identification number. Providers of prepaid access must retain access to such identifying information for five years after the last use of the prepaid access device or vehicle; such information obtained by sellers of prepaid access must be retained for five years from the date of the sale of the prepaid access device or vehicle.\n(\n2\n)\nDesignate a person to assure day to day compliance with the program and this chapter. The responsibilities of such person shall include assuring that:\n(\ni\n)\nThe money services business properly files reports, and creates and retains records, in accordance with applicable requirements of this chapter;\n(\nii\n)\nThe compliance program is updated as necessary to reflect current requirements of this chapter, and related guidance issued by the Department of the Treasury; and\n(\niii\n)\nThe money services business provides appropriate training and education in accordance with\nparagraph (d)(3)\nof this section.\n(\n3\n)\nProvide education and/or training of appropriate personnel concerning their responsibilities under the program, including training in the detection of suspicious transactions to the extent that the money services business is required to report such transactions under this chapter.\n(\n4\n)\nProvide for independent review to monitor and maintain an adequate program. The scope and frequency of the review shall be commensurate with the risk of the financial services provided by the money services business. Such review may be conducted by an officer or employee of the money services business so long as the reviewer is not the person designated in\nparagraph (d)(2)\nof this section.\n(\ne\n)\nCompliance date.\nA money services business must develop and implement an anti-money laundering program that complies with the requirements of this section on or before the later of July 24, 2002, and the end of the 90-day period beginning on the day following the date the business is established.\n[\n75 FR 65812\n, Oct. 26, 2010, as amended at\n76 FR 43597\n, July 21, 2011;\n76 FR 45419\n, July 29, 2011]\nC—Reports Required To Be Made By Money Services Businesses"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "federalism_legal",
+      "data_protection",
+      "data_management",
+      "government_contracting",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 61.0,
+        "matched_keywords": [
+          "money services (title, +5)",
+          "anti-money laundering (title, +5)",
+          "financial services",
+          "money services",
+          "anti-money laundering"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 6.0,
+        "matched_keywords": [
+          "to the extent"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "responsibility"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this section",
+          "defined (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 3661,
+    "source_end": 8538,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_300",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.300",
+    "article_number_normalized": "1022_300",
+    "article_title": "General",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.300 General.\nMoney services businesses are subject to the reporting requirements set forth and cross referenced in this . Money services businesses should also refer to\nC of part 1010 of this chapter\nfor reporting requirements contained in that which apply to money services businesses.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Money services businesses are subject to the reporting requirements set forth and cross referenced in this . Money services businesses should also refer to\nC of part 1010 of this chapter\nfor reporting requirements contained in that which apply to money services businesses."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 8604,
+    "source_end": 8885,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_310",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.310",
+    "article_number_normalized": "1022_310",
+    "article_title": "Reports of transactions in currency",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.310 Reports of transactions in currency.\nThe reports of transactions in currency requirements for money services businesses are located in\nC of part 1010 of this chapter\nand this .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The reports of transactions in currency requirements for money services businesses are located in\nC of part 1010 of this chapter\nand this ."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 8898,
+    "source_end": 9084,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_311",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.311",
+    "article_number_normalized": "1022_311",
+    "article_title": "Filing obligations",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.311 Filing obligations.\nRefer to\n§ 1010.311 of this chapter\nfor reports of transactions in currency filing obligations for money services businesses.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Refer to\n§ 1010.311 of this chapter\nfor reports of transactions in currency filing obligations for money services businesses."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 9086,
+    "source_end": 9241,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_312",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.312",
+    "article_number_normalized": "1022_312",
+    "article_title": "Identification required",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.312 Identification required.\nRefer to\n§ 1010.312 of this chapter\nfor identification requirements for reports of transactions in currency filed by money services businesses.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Refer to\n§ 1010.312 of this chapter\nfor identification requirements for reports of transactions in currency filed by money services businesses."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 9243,
+    "source_end": 9421,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_313",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.313",
+    "article_number_normalized": "1022_313",
+    "article_title": "Aggregation",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.313 Aggregation.\nRefer to\n§ 1010.313 of this chapter\nfor reports of transactions in currency aggregation requirements for money services businesses.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Refer to\n§ 1010.313 of this chapter\nfor reports of transactions in currency aggregation requirements for money services businesses."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 9423,
+    "source_end": 9577,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_314",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.314",
+    "article_number_normalized": "1022_314",
+    "article_title": "Structured transactions",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.314 Structured transactions.\nRefer to\n§ 1010.314 of this chapter\nfor rules regarding structured transactions for money services businesses.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Refer to\n§ 1010.314 of this chapter\nfor rules regarding structured transactions for money services businesses."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 9579,
+    "source_end": 9724,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_315",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.315",
+    "article_number_normalized": "1022_315",
+    "article_title": "Exemptions",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.315 Exemptions.\nRefer to\n§ 1010.315 of this chapter\nfor exemptions from the obligation to file reports of transactions in currency for money services businesses.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Refer to\n§ 1010.315 of this chapter\nfor exemptions from the obligation to file reports of transactions in currency for money services businesses."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 9726,
+    "source_end": 9879,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_320",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.320",
+    "article_number_normalized": "1022_320",
+    "article_title": "Reports by money services businesses of suspicious transactions",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.320 Reports by money services businesses of suspicious transactions.\n(\na\n)\nGeneral.\n(\n1\n)\nEvery money services business described in\n§ 1010.100(ff)(1)\n,\n(3)\n,\n(4)\n,\n(5)\n,\n(6)\n, and\n(7) of this chapter\n, shall file with the Treasury Department, to the extent and in the manner required by this section, a report of any suspicious transaction relevant to a possible violation of law or regulation. Any money services business may also file with the Treasury Department, by using the form specified in\nparagraph (b)(1)\nof this section, or otherwise, a report of any suspicious transaction that it believes is relevant to the possible violation of any law or regulation but whose reporting is not required by this section.\n(\n2\n)\nA transaction requires reporting under the terms of this section if it is conducted or attempted by, at, or through a money services business, involves or aggregates funds or other assets of at least $2,000 (except as provided in\nparagraph (a)(3)\nof this section), and the money services business knows, suspects, or has reason to suspect that the transaction (or a pattern of transactions of which the transaction is a part):\n(\ni\n)\nInvolves funds derived from illegal activity or is intended or conducted in order to hide or disguise funds or assets derived from illegal activity (including, without limitation, the ownership, nature, source, location, or control of such funds or assets) as part of a plan to violate or evade any Federal law or regulation or to avoid any transaction reporting requirement under Federal law or regulation;\n(\nii\n)\nIs designed, whether through structuring or other means, to evade any requirements of this chapter or of any other regulations promulgated under the Bank Secrecy Act; or\n(\niii\n)\nServes no business or apparent lawful purpose, and the reporting money services business knows of no reasonable explanation for the transaction after examining the available facts, including the background and possible purpose of the transaction.\n(\niv\n)\nInvolves use of the money services business to facilitate criminal activity.\n(\n3\n)\nTo the extent that the identification of transactions required to be reported is derived from a review of clearance records or other similar records of money orders or traveler's checks that have been sold or processed, an issuer of money orders or traveler's checks shall only be required to report a transaction or pattern of transactions that involves or aggregates funds or other assets of at least $5,000.\n(\n4\n)\nThe obligation to identify and properly and timely to report a suspicious transaction rests with each money services business involved in the transaction, provided that no more than one report is required to be filed by the money services businesses involved in a particular transaction (so long as the report filed contains all relevant facts). Whether, in addition to any liability on its own for failure to report, a money services business that issues the instrument or provides the funds transfer service involved in the transaction may be liable for the failure of another money services business involved in the transaction to report that transaction depends upon the nature of the contractual or other relationship between the businesses, and the legal effect of the facts and circumstances of the relationship and transaction involved, under general principles of the law of agency.\n(\nb\n)\nFiling procedures\n—\n(\n1\n)\nWhat to file.\nA suspicious transaction shall be reported by completing a Suspicious Activity Report(“SAR”), and collecting and maintaining supporting documentation as required by\nparagraph (c)\nof this section.\n(\n2\n)\nWhere to file.\nThe SAR shall be filed in a central location to be determined by FinCEN, as indicated in the instructions to the SAR.\n(\n3\n)\nWhen to file.\nA money services business subject to this section is required to file each SAR no later than 30 calendar days after the date of the initial detection by the money services business of facts that may constitute a basis for filing a SAR under this section. In situations involving violations that require immediate attention, such as ongoing money laundering schemes, the money services business shall immediately notify by telephone an appropriate law enforcement authority in addition to filing a SAR. Money services businesses wishing voluntarily to report suspicious transactions that may relate to terrorist activity may call FinCEN's Financial Institutions Hotline at 1-866-556-3974 in addition to filing timely a SAR if required by this section.\n(\nc\n)\nRetention of records.\nA money services business shall maintain a copy of any SAR filed and the original or business record equivalent of any supporting documentation for a period of five years from the date of filing the SAR. Supporting documentation shall be identified as such and maintained by the money services business, and shall be deemed to have been filed with the SAR. A money services business shall make all supporting documentation available to FinCEN or any Federal, State, or local law enforcement agency, or any Federal regulatory authority that examines the money services business for compliance with the Bank Secrecy Act, or any State regulatory authority administering a State law that requires the money services business to comply with the Bank Secrecy Act or otherwise authorizes the State authority to ensure that the money services business complies with the Bank Secrecy Act.\n(\nd\n)\nConfidentiality of SARs.\nA SAR, and any information that would reveal the existence of a SAR, are confidential and shall not be disclosed except as authorized in this\nparagraph (d)\n. For purposes of this\nparagraph (d)\nonly, a SAR shall include any suspicious activity report filed with FinCEN pursuant to any regulation in this chapter.\n(\n1\n)\nProhibition on disclosures by money services businesses\n—\n(\ni\n)\nGeneral rule.\nNo money services business, and no director, officer, employee, or agent of any money services business, shall disclose a SAR or any information that would reveal the existence of a SAR. Any money services business, and any director, officer, employee, or agent of any money services business that is subpoenaed or otherwise requested to disclose a SAR or any information that would reveal the existence of a SAR, shall decline to produce the SAR or such information, citing this section and\n31 U.S.C. 5318(g)(2)(A)(i)\n, and shall notify FinCEN of any such request and the response thereto.\n(\nii\n)\nRules of Construction.\nProvided that no person involved in any reported suspicious transaction is notified that the transaction has been reported, this\nparagraph (d)(1)\nshall not be construed as prohibiting:\n(\nA\n)\nThe disclosure by a money services business, or any director, officer, employee, or agent of a money services business, of:\n(\n1\n)\nA SAR, or any information that would reveal the existence of a SAR, to FinCEN or any Federal, State, or local law enforcement agency, or any Federal regulatory authority that examines the money services business for compliance with the Bank Secrecy Act, or any State regulatory authority administering a State law that requires the money services business to comply with the Bank Secrecy Act or otherwise authorizes the State authority to ensure that the money services business complies with the Bank Secrecy Act; or\n(\n2\n)\nThe underlying facts, transactions, and documents upon which a SAR is based, including but not limited to, disclosures to another financial institution, or any director, officer, employee, or agent of a financial institution, for the preparation of a joint SAR.\n(\nB\n)\nThe sharing by a money services business, or any director, officer, employee, or agent of the money services business, of a SAR, or any information that would reveal the existence of a SAR, within the money services business's corporate organizational structure for purposes consistent with Title II of the Bank Secrecy Act as determined by regulation or in guidance.\n(\n2\n)\nProhibition on disclosures by government authorities.\nA Federal, State, local, territorial, or Tribal government authority, or any director, officer, employee, or agent of any of the foregoing, shall not disclose a SAR, or any information that would reveal the existence of a SAR, except as necessary to fulfill official duties consistent with Title II of the Bank Secrecy Act. For purposes of this section, “official duties” shall not include the disclosure of a SAR, or any information that would reveal the existence of a SAR, in response to a request for disclosure of non-public information or a request for use in a private legal proceeding, including a request pursuant to\n31 CFR 1.11\n.\n(\ne\n)\nLimitation on liability.\nA money services business, and any director, officer, employee, or agent of any money services business, that makes a voluntary disclosure of any possible violation of law or regulation to a government agency or makes a disclosure pursuant to this section or any other authority, including a disclosure made jointly with another institution, shall be protected from liability to any person for any such disclosure, or for failure to provide notice of such disclosure to any person identified in the disclosure, or both, to the full extent provided by\n31 U.S.C. 5318(g)(3)\n.\n(\nf\n)\nCompliance.\nMoney services businesses shall be examined by FinCEN or its delegatees for compliance with this section. Failure to satisfy the requirements of this section may be a violation of the Bank Secrecy Act and of this chapter.\n(\ng\n)\nApplicability date.\nThis section applies to transactions occurring after December 31, 2001.\n[\n75 FR 65812\n, Oct. 26, 2010, as amended at\n75 FR 10518\n, Feb. 25, 2011;\n76 FR 45420\n, July 29, 2011;\n81 FR 76865\n, Nov. 4, 2016]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "3",
+        "content": ","
+      },
+      {
+        "marker": "4",
+        "content": ","
+      },
+      {
+        "marker": "5",
+        "content": ","
+      },
+      {
+        "marker": "6",
+        "content": ", and"
+      },
+      {
+        "marker": "7",
+        "content": "of this chapter\n, shall file with the Treasury Department, to the extent and in the manner required by this section, a report of any suspicious transaction relevant to a possible violation of law or regulation. Any money services business may also file with the Treasury Department, by using the form specified in\nparagraph (b)(1)\nof this section, or otherwise, a report of any suspicious transaction that it believes is relevant to the possible violation of any law or regulation but whose reporting is not required by this section.\n(\n2\n)\nA transaction requires reporting under the terms of this section if it is conducted or attempted by, at, or through a money services business, involves or aggregates funds or other assets of at least $2,000 (except as provided in\nparagraph (a)(3)\nof this section), and the money services business knows, suspects, or has reason to suspect that the transaction (or a pattern of transactions of which the transaction is a part):\n(\ni\n)\nInvolves funds derived from illegal activity or is intended or conducted in order to hide or disguise funds or assets derived from illegal activity (including, without limitation, the ownership, nature, source, location, or control of such funds or assets) as part of a plan to violate or evade any Federal law or regulation or to avoid any transaction reporting requirement under Federal law or regulation;\n(\nii\n)\nIs designed, whether through structuring or other means, to evade any requirements of this chapter or of any other regulations promulgated under the Bank Secrecy Act; or\n(\niii\n)\nServes no business or apparent lawful purpose, and the reporting money services business knows of no reasonable explanation for the transaction after examining the available facts, including the background and possible purpose of the transaction.\n(\niv\n)\nInvolves use of the money services business to facilitate criminal activity.\n(\n3\n)\nTo the extent that the identification of transactions required to be reported is derived from a review of clearance records or other similar records of money orders or traveler's checks that have been sold or processed, an issuer of money orders or traveler's checks shall only be required to report a transaction or pattern of transactions that involves or aggregates funds or other assets of at least $5,000.\n(\n4\n)\nThe obligation to identify and properly and timely to report a suspicious transaction rests with each money services business involved in the transaction, provided that no more than one report is required to be filed by the money services businesses involved in a particular transaction (so long as the report filed contains all relevant facts). Whether, in addition to any liability on its own for failure to report, a money services business that issues the instrument or provides the funds transfer service involved in the transaction may be liable for the failure of another money services business involved in the transaction to report that transaction depends upon the nature of the contractual or other relationship between the businesses, and the legal effect of the facts and circumstances of the relationship and transaction involved, under general principles of the law of agency.\n(\nb\n)\nFiling procedures\n—\n(\n1\n)\nWhat to file.\nA suspicious transaction shall be reported by completing a Suspicious Activity Report(“SAR”), and collecting and maintaining supporting documentation as required by\nparagraph (c)\nof this section.\n(\n2\n)\nWhere to file.\nThe SAR shall be filed in a central location to be determined by FinCEN, as indicated in the instructions to the SAR.\n(\n3\n)\nWhen to file.\nA money services business subject to this section is required to file each SAR no later than 30 calendar days after the date of the initial detection by the money services business of facts that may constitute a basis for filing a SAR under this section. In situations involving violations that require immediate attention, such as ongoing money laundering schemes, the money services business shall immediately notify by telephone an appropriate law enforcement authority in addition to filing a SAR. Money services businesses wishing voluntarily to report suspicious transactions that may relate to terrorist activity may call FinCEN's Financial Institutions Hotline at 1-866-556-3974 in addition to filing timely a SAR if required by this section.\n(\nc\n)\nRetention of records.\nA money services business shall maintain a copy of any SAR filed and the original or business record equivalent of any supporting documentation for a period of five years from the date of filing the SAR. Supporting documentation shall be identified as such and maintained by the money services business, and shall be deemed to have been filed with the SAR. A money services business shall make all supporting documentation available to FinCEN or any Federal, State, or local law enforcement agency, or any Federal regulatory authority that examines the money services business for compliance with the Bank Secrecy Act, or any State regulatory authority administering a State law that requires the money services business to comply with the Bank Secrecy Act or otherwise authorizes the State authority to ensure that the money services business complies with the Bank Secrecy Act.\n(\nd\n)\nConfidentiality of SARs.\nA SAR, and any information that would reveal the existence of a SAR, are confidential and shall not be disclosed except as authorized in this\nparagraph (d)\n. For purposes of this\nparagraph (d)\nonly, a SAR shall include any suspicious activity report filed with FinCEN pursuant to any regulation in this chapter.\n(\n1\n)\nProhibition on disclosures by money services businesses\n—\n(\ni\n)\nGeneral rule.\nNo money services business, and no director, officer, employee, or agent of any money services business, shall disclose a SAR or any information that would reveal the existence of a SAR. Any money services business, and any director, officer, employee, or agent of any money services business that is subpoenaed or otherwise requested to disclose a SAR or any information that would reveal the existence of a SAR, shall decline to produce the SAR or such information, citing this section and\n31 U.S.C. 5318(g)(2)(A)(i)\n, and shall notify FinCEN of any such request and the response thereto.\n(\nii\n)\nRules of Construction.\nProvided that no person involved in any reported suspicious transaction is notified that the transaction has been reported, this\nparagraph (d)(1)\nshall not be construed as prohibiting:\n(\nA\n)\nThe disclosure by a money services business, or any director, officer, employee, or agent of a money services business, of:\n(\n1\n)\nA SAR, or any information that would reveal the existence of a SAR, to FinCEN or any Federal, State, or local law enforcement agency, or any Federal regulatory authority that examines the money services business for compliance with the Bank Secrecy Act, or any State regulatory authority administering a State law that requires the money services business to comply with the Bank Secrecy Act or otherwise authorizes the State authority to ensure that the money services business complies with the Bank Secrecy Act; or\n(\n2\n)\nThe underlying facts, transactions, and documents upon which a SAR is based, including but not limited to, disclosures to another financial institution, or any director, officer, employee, or agent of a financial institution, for the preparation of a joint SAR.\n(\nB\n)\nThe sharing by a money services business, or any director, officer, employee, or agent of the money services business, of a SAR, or any information that would reveal the existence of a SAR, within the money services business's corporate organizational structure for purposes consistent with Title II of the Bank Secrecy Act as determined by regulation or in guidance.\n(\n2\n)\nProhibition on disclosures by government authorities.\nA Federal, State, local, territorial, or Tribal government authority, or any director, officer, employee, or agent of any of the foregoing, shall not disclose a SAR, or any information that would reveal the existence of a SAR, except as necessary to fulfill official duties consistent with Title II of the Bank Secrecy Act. For purposes of this section, “official duties” shall not include the disclosure of a SAR, or any information that would reveal the existence of a SAR, in response to a request for disclosure of non-public information or a request for use in a private legal proceeding, including a request pursuant to\n31 CFR 1.11\n.\n(\ne\n)\nLimitation on liability.\nA money services business, and any director, officer, employee, or agent of any money services business, that makes a voluntary disclosure of any possible violation of law or regulation to a government agency or makes a disclosure pursuant to this section or any other authority, including a disclosure made jointly with another institution, shall be protected from liability to any person for any such disclosure, or for failure to provide notice of such disclosure to any person identified in the disclosure, or both, to the full extent provided by\n31 U.S.C. 5318(g)(3)\n.\n(\nf\n)\nCompliance.\nMoney services businesses shall be examined by FinCEN or its delegatees for compliance with this section. Failure to satisfy the requirements of this section may be a violation of the Bank Secrecy Act and of this chapter.\n(\ng\n)\nApplicability date.\nThis section applies to transactions occurring after December 31, 2001.\n[\n75 FR 65812\n, Oct. 26, 2010, as amended at\n75 FR 10518\n, Feb. 25, 2011;\n76 FR 45420\n, July 29, 2011;\n81 FR 76865\n, Nov. 4, 2016]"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "federalism_legal",
+      "legal_definitions",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 71.0,
+        "matched_keywords": [
+          "money services (title, +5)",
+          "financial institution",
+          "money services"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 18.0,
+        "matched_keywords": [
+          "state law",
+          "local law",
+          "to the extent",
+          "state law (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 10.5,
+        "matched_keywords": [
+          "means",
+          "for purposes of"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "criminal"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 9895,
+    "source_end": 19593,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_380",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.380",
+    "article_number_normalized": "1022_380",
+    "article_title": "Registration of money services businesses",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.380 Registration of money services businesses.\n(\na\n)\nRegistration requirement\n—\n(\n1\n)\nIn general.\nExcept as provided in\nparagraph (a)(3)\nof this section, relating to agents, and except for sellers of prepaid access as defined in\n§ 1010.100(ff)(7) of this chapter\nto the extent that they are not already agents, each money services business (whether or not licensed as a money services business by any State) must register with FinCEN. Each provider of prepaid access must identify each prepaid program for which it is the provider of prepaid access. Each money services business must, as part of its registration, maintain a list of its agents as required by\n31 U.S.C. 5330\nand this section. This section does not apply to the United States Postal Service, to of the United States, of any State, or of any political subdivision of a State.\n(\n2\n)\nForeign-located money services business.\nEach foreign-located person doing business, whether or not on a regular basis or as an organized or licensed business concern, in the United States as a money services business shall designate the name and address of a person who resides in the United States and is authorized, and has agreed, to be an agent to accept service of legal process with respect to compliance with this chapter, and shall identify the address of the location within the United States for records pertaining to\nparagraph (b)(1)(iii)\nof this section.\n(\n3\n)\nAgents.\nA person that is a money services business solely because that person serves as an agent of another money services business, see\n§ 1010.100(ff) of this chapter\n, is not required to register under this section, but a money services business that engages in activities described in\n§ 1010.100(ff) of this chapter\nboth on its own behalf and as an agent for others must register under this section. For example, a supermarket corporation that acts as an agent for an issuer of money orders and performs no other services of a nature and value that would cause the corporation to be a money services business, is not required to register; the answer would be the same if the supermarket corporation served as an agent both of a money order issuer and of a money transmitter. However, registration would be required if the supermarket corporation, in addition to acting as an agent of an issuer of money orders, cashed checks or exchanged currencies (other than as an agent for another business) in an amount greater than $1,000 in currency or monetary or other instruments for any person on any day, in one or more transactions.\n(\n4\n)\nAgency status.\nThe determination whether a person is an agent depends on all the facts and circumstances.\n(\nb\n)\nRegistration procedures\n—\n(\n1\n)\nIn general.\n(\ni\n)\nA money services business must be registered by filing such form as FinCEN may specify with FinCEN (or such other location as the form may specify). The information required by\n31 U.S.C. 5330(b)\nand any other information required by the form must be reported in the manner and to the extent required by the form.\n(\nii\n)\nA branch office of a money services business is not required to file its own registration form. A money services business must, however, report information about its branch locations or offices as provided by the instructions to the registration form.\n(\niii\n)\nA money services business must retain a copy of any registration form filed under this section and any registration number that may be assigned to the business at a location in the United States and for the period specified in\n§ 1010.430(d) of this Chapter\n.\n(\n2\n)\nRegistration period.\nA money services business must be registered for the initial registration period and each renewal period. The initial registration period is the two-calendar-year period beginning with the calendar year in which the money services business is first required to be registered. However, the initial registration period for a money services business required to register by December 31, 2001 (see\nparagraph (b)(3)\nof this section) is the two-calendar year period beginning 2002. Each two-calendar-year period following the initial registration period is a renewal period.\n(\n3\n)\nDue date.\nThe registration form for the initial registration period must be filed on or before the end of the 180-day period beginning on the day following the date the business is established. The registration form for a renewal period must be filed on or before the last day of the calendar year preceding the renewal period.\n(\n4\n)\nEvents requiring re-registration.\nIf a money services business registered as such under the laws of any State experiences a change in ownership or control that requires the business to be re-registered under State law, the money services business must also be re-registered under this section. In addition, if there is a transfer of more than 10 percent of the voting power or equity interests of a money services business (other than a money services business that must report such transfer to the Securities and Exchange Commission), the money services business must be re-registered under this section. Finally, if a money services business experiences a more than 50-per cent increase in the number of its agents during any registration period, the money services business must be re-registered under this section. The registration form must be filed not later than 180 days after such change in ownership, transfer of voting power or equity interests, or increase in agents. The calendar year in which the change, transfer, or increase occurs is treated as the first year of a new two-year registration period.\n(\nc\n)\nPersons required to file the registration form.\nUnder\n31 U.S.C. 5330(a)\n, any person who owns or controls a money services business is responsible for registering the business; however, only one registration form is required to be filed for each registration period. A person is treated as owning or controlling a money services business for purposes of filing the registration form only to the extent provided by the form. If more than one person owns or controls a money services business, the owning or controlling persons may enter into an agreement designating one of them to register the business. The failure of the designated person to register the money services business does not, however, relieve any of the other persons who own or control the business of liability for the failure to register the business. See\nparagraph (e)\nof this section, relating to consequences of the failure to comply with\n31 U.S.C. 5330\nor this section.\n(\nd\n)\nList of agents\n—\n(\n1\n)\nIn general.\nA money services business must prepare and maintain a list of its agents. The initial list of agents must be prepared by January 1, 2002, and must be revised each January 1, for the immediately preceding 12 month period; for money services businesses established after December 31, 2001, the initial agent list must be prepared by the due date of the initial registration form and must be revised each January 1 for the immediately preceding 12-month period. The list is not filed with the registration form but must be maintained at the location in the United States reported on the registration form under\nparagraph (b)(1)\nof this section. Upon request, a money services business must make its list of agents available to FinCEN and any other appropriate law enforcement agency (including, without limitation, the examination function of the Internal Revenue Service in its capacity as delegee of Bank Secrecy Act examination authority). Requests for information made pursuant to the preceding sentence shall be coordinated through FinCEN in the manner and to the extent determined by FinCEN. The original list of agents and any revised list must be retained for the period specified in\n§ 1010.430(d) of this chapter\n.\n(\n2\n)\nInformation included on the list of agents\n—\n(\ni\n)\nIn general.\nExcept as provided in\nparagraph (d)(2)(ii)\nof this section, a money services business must include the following information with respect to each agent on the list (including any revised list) of its agents—\n(\nA\n)\nThe name of the agent, including any trade names or doing-business-as names;\n(\nB\n)\nThe address of the agent, including street address, city, state, and ZIP code;\n(\nC\n)\nThe telephone number of the agent;\n(\nD\n)\nThe type of service or services (money orders, traveler's checks, check sales, check cashing, currency exchange, and money transmitting) the agent provides;\n(\nE\n)\nA listing of the months in the 12 months immediately preceding the date of the most recent agent list in which the gross transaction amount of the agent with respect to financial products or services issued by the money services business maintaining the agent list exceeded $100,000. For this purpose, the money services gross transaction amount is the agent's gross amount (excluding fees and commissions) received from transactions of one or more businesses described in\n§ 1010.100(ff) of this chapter\n;\n(\nF\n)\nThe name and address of any depository institution at which the agent maintains a transaction account (as defined in\n12 U.S.C. 461(b)(1)(C)\n) for all or part of the funds received in or for the financial products or services issued by the money services business maintaining the list, whether in the agent's or the business principal's name;\n(\nG\n)\nThe year in which the agent first became an agent of the money services business; and\n(\nH\n)\nThe number of branches or subagents the agent has.\n(\nii\n)\nSpecial rules.\nInformation about agent volume must be current within 45 days of the due date of the agent list. The information described by\nparagraphs (d)(2)(i)(G)\nand\n(d)(2)(i)(H)\nof this section is not required to be included in an agent list with respect to any person that is an agent of the money services business maintaining the list before the first day of the month beginning after February 16, 2000 so long as the information described by\nparagraphs (d)(2)(i)(G)\nand\n(d)(2)(i)(H)\nof this section is made available upon the request of FinCEN and any other appropriate law enforcement agency (including, without limitation, the examination function of the Internal Revenue Service in its capacity as delegee of Bank Secrecy Act examination authority).\n(\ne\n)\nConsequences of failing to comply with\n31 U.S.C. 5330\nor the regulations thereunder.\nIt is unlawful to do business without complying with\n31 U.S.C. 5330\nand this section. A failure to comply with the requirements of\n31 U.S.C. 5330\nor this section includes the filing of false or materially incomplete information in connection with the registration of a money services business. Any person who fails to comply with any requirement of\n31 U.S.C. 5330\nor this section shall be liable for a civil penalty of $5,000 for each violation. Each day a violation of\n31 U.S.C. 5330\nor this section continues constitutes a separate violation. In addition, under\n31 U.S.C. 5320\n, the Secretary of the Treasury may bring a civil action to enjoin the violation. See\n18 U.S.C. 1960\nfor a criminal penalty for failure to comply with the registration requirements of\n31 U.S.C. 5330\nor this section.\n(\nf\n)\nApplicability date.\nThis section is applicable as of September 20, 1999. Registration of money services businesses under this section will not be required prior to December 31, 2001.\n[\n75 FR 65812\n, Oct. 26, 2010, as amended at\n76 FR 43597\n, July 21, 2011;\n76 FR 45420\n, July 29, 2011;\n81 FR 76865\n, Nov. 4, 2016]\nD—Records Required To Be Maintained By Money Services Businesses",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "(\na\n)\nRegistration requirement\n—\n(\n1\n)\nIn general.\nExcept as provided in\nparagraph (a)(3)\nof this section, relating to agents, and except for sellers of prepaid access as defined in\n§ 1010.100(ff)(7) of this chapter\nto the extent that they are not already agents, each money services business (whether or not licensed as a money services business by any State) must register with FinCEN. Each provider of prepaid access must identify each prepaid program for which it is the provider of prepaid access. Each money services business must, as part of its registration, maintain a list of its agents as required by\n31 U.S.C. 5330\nand this section. This section does not apply to the United States Postal Service, to of the United States, of any State, or of any political subdivision of a State.\n(\n2\n)\nForeign-located money services business.\nEach foreign-located person doing business, whether or not on a regular basis or as an organized or licensed business concern, in the United States as a money services business shall designate the name and address of a person who resides in the United States and is authorized, and has agreed, to be an agent to accept service of legal process with respect to compliance with this chapter, and shall identify the address of the location within the United States for records pertaining to\nparagraph (b)(1)(iii)\nof this section.\n(\n3\n)\nAgents.\nA person that is a money services business solely because that person serves as an agent of another money services business, see\n§ 1010.100(ff) of this chapter\n, is not required to register under this section, but a money services business that engages in activities described in\n§ 1010.100(ff) of this chapter\nboth on its own behalf and as an agent for others must register under this section. For example, a supermarket corporation that acts as an agent for an issuer of money orders and performs no other services of a nature and value that would cause the corporation to be a money services business, is not required to register; the answer would be the same if the supermarket corporation served as an agent both of a money order issuer and of a money transmitter. However, registration would be required if the supermarket corporation, in addition to acting as an agent of an issuer of money orders, cashed checks or exchanged currencies (other than as an agent for another business) in an amount greater than $1,000 in currency or monetary or other instruments for any person on any day, in one or more transactions.\n(\n4\n)\nAgency status.\nThe determination whether a person is an agent depends on all the facts and circumstances.\n(\nb\n)\nRegistration procedures\n—\n(\n1\n)\nIn general.\n(\ni\n)\nA money services business must be registered by filing such form as FinCEN may specify with FinCEN (or such other location as the form may specify). The information required by\n31 U.S.C. 5330(b)\nand any other information required by the form must be reported in the manner and to the extent required by the form.\n(\nii\n)\nA branch office of a money services business is not required to file its own registration form. A money services business must, however, report information about its branch locations or offices as provided by the instructions to the registration form.\n(\niii\n)\nA money services business must retain a copy of any registration form filed under this section and any registration number that may be assigned to the business at a location in the United States and for the period specified in\n§ 1010.430(d) of this Chapter\n.\n(\n2\n)\nRegistration period.\nA money services business must be registered for the initial registration period and each renewal period. The initial registration period is the two-calendar-year period beginning with the calendar year in which the money services business is first required to be registered. However, the initial registration period for a money services business required to register by December 31, 2001 (see\nparagraph (b)(3)\nof this section) is the two-calendar year period beginning 2002. Each two-calendar-year period following the initial registration period is a renewal period.\n(\n3\n)\nDue date.\nThe registration form for the initial registration period must be filed on or before the end of the 180-day period beginning on the day following the date the business is established. The registration form for a renewal period must be filed on or before the last day of the calendar year preceding the renewal period.\n(\n4\n)\nEvents requiring re-registration.\nIf a money services business registered as such under the laws of any State experiences a change in ownership or control that requires the business to be re-registered under State law, the money services business must also be re-registered under this section. In addition, if there is a transfer of more than 10 percent of the voting power or equity interests of a money services business (other than a money services business that must report such transfer to the Securities and Exchange Commission), the money services business must be re-registered under this section. Finally, if a money services business experiences a more than 50-per cent increase in the number of its agents during any registration period, the money services business must be re-registered under this section. The registration form must be filed not later than 180 days after such change in ownership, transfer of voting power or equity interests, or increase in agents. The calendar year in which the change, transfer, or increase occurs is treated as the first year of a new two-year registration period.\n(\nc\n)\nPersons required to file the registration form.\nUnder\n31 U.S.C. 5330(a)\n, any person who owns or controls a money services business is responsible for registering the business; however, only one registration form is required to be filed for each registration period. A person is treated as owning or controlling a money services business for purposes of filing the registration form only to the extent provided by the form. If more than one person owns or controls a money services business, the owning or controlling persons may enter into an agreement designating one of them to register the business. The failure of the designated person to register the money services business does not, however, relieve any of the other persons who own or control the business of liability for the failure to register the business. See\nparagraph (e)\nof this section, relating to consequences of the failure to comply with\n31 U.S.C. 5330\nor this section.\n(\nd\n)\nList of agents\n—\n(\n1\n)\nIn general.\nA money services business must prepare and maintain a list of its agents. The initial list of agents must be prepared by January 1, 2002, and must be revised each January 1, for the immediately preceding 12 month period; for money services businesses established after December 31, 2001, the initial agent list must be prepared by the due date of the initial registration form and must be revised each January 1 for the immediately preceding 12-month period. The list is not filed with the registration form but must be maintained at the location in the United States reported on the registration form under\nparagraph (b)(1)\nof this section. Upon request, a money services business must make its list of agents available to FinCEN and any other appropriate law enforcement agency (including, without limitation, the examination function of the Internal Revenue Service in its capacity as delegee of Bank Secrecy Act examination authority). Requests for information made pursuant to the preceding sentence shall be coordinated through FinCEN in the manner and to the extent determined by FinCEN. The original list of agents and any revised list must be retained for the period specified in\n§ 1010.430(d) of this chapter\n.\n(\n2\n)\nInformation included on the list of agents\n—\n(\ni\n)\nIn general.\nExcept as provided in\nparagraph (d)(2)(ii)\nof this section, a money services business must include the following information with respect to each agent on the list (including any revised list) of its agents—\n(\nA\n)\nThe name of the agent, including any trade names or doing-business-as names;\n(\nB\n)\nThe address of the agent, including street address, city, state, and ZIP code;\n(\nC\n)\nThe telephone number of the agent;\n(\nD\n)\nThe type of service or services (money orders, traveler's checks, check sales, check cashing, currency exchange, and money transmitting) the agent provides;\n(\nE\n)\nA listing of the months in the 12 months immediately preceding the date of the most recent agent list in which the gross transaction amount of the agent with respect to financial products or services issued by the money services business maintaining the agent list exceeded $100,000. For this purpose, the money services gross transaction amount is the agent's gross amount (excluding fees and commissions) received from transactions of one or more businesses described in\n§ 1010.100(ff) of this chapter\n;\n(\nF\n)\nThe name and address of any depository institution at which the agent maintains a transaction account (as defined in\n12 U.S.C. 461(b)(1)(C)\n) for all or part of the funds received in or for the financial products or services issued by the money services business maintaining the list, whether in the agent's or the business principal's name;\n(\nG\n)\nThe year in which the agent first became an agent of the money services business; and\n(\nH\n)\nThe number of branches or subagents the agent has.\n(\nii\n)\nSpecial rules.\nInformation about agent volume must be current within 45 days of the due date of the agent list. The information described by\nparagraphs (d)(2)(i)(G)\nand\n(d)(2)(i)(H)\nof this section is not required to be included in an agent list with respect to any person that is an agent of the money services business maintaining the list before the first day of the month beginning after February 16, 2000 so long as the information described by\nparagraphs (d)(2)(i)(G)\nand\n(d)(2)(i)(H)\nof this section is made available upon the request of FinCEN and any other appropriate law enforcement agency (including, without limitation, the examination function of the Internal Revenue Service in its capacity as delegee of Bank Secrecy Act examination authority).\n(\ne\n)\nConsequences of failing to comply with\n31 U.S.C. 5330\nor the regulations thereunder.\nIt is unlawful to do business without complying with\n31 U.S.C. 5330\nand this section. A failure to comply with the requirements of\n31 U.S.C. 5330\nor this section includes the filing of false or materially incomplete information in connection with the registration of a money services business. Any person who fails to comply with any requirement of\n31 U.S.C. 5330\nor this section shall be liable for a civil penalty of $5,000 for each violation. Each day a violation of\n31 U.S.C. 5330\nor this section continues constitutes a separate violation. In addition, under\n31 U.S.C. 5320\n, the Secretary of the Treasury may bring a civil action to enjoin the violation. See\n18 U.S.C. 1960\nfor a criminal penalty for failure to comply with the registration requirements of\n31 U.S.C. 5330\nor this section.\n(\nf\n)\nApplicability date.\nThis section is applicable as of September 20, 1999. Registration of money services businesses under this section will not be required prior to December 31, 2001.\n[\n75 FR 65812\n, Oct. 26, 2010, as amended at\n76 FR 43597\n, July 21, 2011;\n76 FR 45420\n, July 29, 2011;\n81 FR 76865\n, Nov. 4, 2016]\nD—Records Required To Be Maintained By Money Services Businesses"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "federalism_legal",
+      "criminal_law",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 72.5,
+        "matched_keywords": [
+          "money services (title, +5)",
+          "securities",
+          "money services"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 13.5,
+        "matched_keywords": [
+          "state law",
+          "to the extent",
+          "state law (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 10.5,
+        "matched_keywords": [
+          "criminal",
+          "penalty"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for purposes of",
+          "defined (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 19662,
+    "source_end": 31140,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_400",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.400",
+    "article_number_normalized": "1022_400",
+    "article_title": "General",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.400 General.\nMoney services businesses are subject to the recordkeeping requirements set forth and cross referenced in this . Money services businesses should also refer to\nD of Part 1010 of this chapter\nfor recordkeeping requirements contained in that which apply to money services businesses.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Money services businesses are subject to the recordkeeping requirements set forth and cross referenced in this . Money services businesses should also refer to\nD of Part 1010 of this chapter\nfor recordkeeping requirements contained in that which apply to money services businesses."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 31187,
+    "source_end": 31476,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_410",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.410",
+    "article_number_normalized": "1022_410",
+    "article_title": "Additional records to be made and retained by dealers in foreign exchange",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.410 Additional records to be made and retained by dealers in foreign exchange.\n(\na\n)\n(\n1\n)\nAfter July 7, 1987, each dealer in foreign exchange shall secure and maintain a record of the taxpayer identification number of each person for whom a transaction account is opened or a line of credit is extended within 30 days after such account is opened or credit line extended. Where a person is a non-resident alien, the dealer in foreign exchange shall also record the person's passport number or a description of some other government document used to verify his identity. Where the account or credit line is in the names of two or more persons, the dealer in foreign exchange shall secure the taxpayer identification number of a person having a financial interest in the account or credit line. In the event that a dealer in foreign exchange has been unable to secure the identification required within the 30-day period specified, it shall nevertheless not be deemed to be in violation of this section if:\n(\ni\n)\nIt has made a reasonable effort to secure such identification, and\n(\nii\n)\nIt maintains a list containing the names, addresses, and account or credit line numbers of those persons from whom it has been unable to secure such identification, and makes the names, addresses, and account or credit line numbers of those persons available to the Secretary as directed by him.\n(\n2\n)\nThe 30-day period provided for in\nparagraph (a)(1)\nof this section shall be extended where the person opening the account or credit line has applied for a taxpayer identification or social security number on Form SS-4 or SS-5, until such time as the person maintaining the account or credit line has had a reasonable opportunity to secure such number and furnish it to the dealer in foreign exchange.\n(\n3\n)\nA taxpayer identification number for an account or credit line required under\nparagraph (a)(1)\nof this section need not be secured in the following instances:\n(\ni\n)\nAccounts for public funds opened by and instrumentalities of Federal, state, local or foreign governments,\n(\nii\n)\nAccounts for aliens who are—\n(\nA\n)\nAmbassadors, ministers, career diplomatic or consular officers, or\n(\nB\n)\nNaval, military or other attaches of foreign embassies, and legations, and for members of their immediate families,\n(\niii\n)\nAccounts for aliens who are accredited representatives to international organizations which are entitled to enjoy privileges, exemptions, and immunities as an international organization under the International Organizations Immunities Act of December 29, 1945 (\n22 U.S.C. 288\n), and for the members of their immediate families,\n(\niv\n)\nAliens temporarily residing in the United States for a period not to exceed 180 days,\n(\nv\n)\nAliens not engaged in a trade or business in the United States who are attending a recognized college or any training program, supervised or conducted by any agency of the Federal Government, and\n(\nvi\n)\nUnincorporated subordinate units of a tax exempt central organization which are covered by a group exemption letter.\n(\nb\n)\nEach dealer in foreign exchange shall retain either the original or a microfilm or other copy or reproduction of each of the following:\n(\n1\n)\nStatements of accounts from banks, including paid checks, charges or other debit entry memoranda, deposit slips and other credit memoranda representing the entries reflected on such statements;\n(\n2\n)\nDaily work records, including purchase and sales slips or other memoranda needed to identify and reconstruct currency transactions with customers and foreign banks;\n(\n3\n)\nA record of each exchange of currency involving transactions in excess of $1000, including the name and address of the customer (and passport number or taxpayer identification number unless received by mail or common carrier) date and amount of the transaction and currency name, country, and total amount of each foreign currency;\n(\n4\n)\nSignature cards or other documents evidencing signature authority over each deposit or security account, containing the name of the depositor, street address, taxpayer identification number (TIN) or employer identification number (EIN) and the signature of the depositor or of a person authorized to sign on the account (if customer accounts are maintained in a code name, a record of the actual owner of the account);\n(\n5\n)\nEach item, including checks, drafts, or transfers of credit, of more than $10,000 remitted or transferred to a person, account or place outside the United States;\n(\n6\n)\nA record of each receipt of currency, other monetary instruments, investment securities and checks, and of each transfer of funds or credit, or more than $10,000 received on any one occasion directly and not through a domestic financial institution, from any person, account or place outside the United States;\n(\n7\n)\nRecords prepared or received by a dealer in the ordinary course of business, that would be needed to reconstruct an account and trace a check in excess of $100 deposited in such account through its internal recordkeeping system to its depository institution, or to supply a description of a deposited check in excess of $100;\n(\n8\n)\nA record maintaining the name, address and taxpayer identification number, if available, of any person presenting a certificate of deposit for payment, as well as a description of the instrument and date of transaction;\n(\n9\n)\nA system of books and records that will enable the dealer in foreign exchange to prepare an accurate balance sheet and income statement.\n(\nc\n)\nThis section does not apply to banks that offer services in dealing or changing currency to their customers as an adjunct to their regular service.\n[\n75 FR 65812\n, Oct. 26, 2010, as amended at\n76 FR 43597\n, July 21, 2011]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "(\na\n)\n(\n1\n)\nAfter July 7, 1987, each dealer in foreign exchange shall secure and maintain a record of the taxpayer identification number of each person for whom a transaction account is opened or a line of credit is extended within 30 days after such account is opened or credit line extended. Where a person is a non-resident alien, the dealer in foreign exchange shall also record the person's passport number or a description of some other government document used to verify his identity. Where the account or credit line is in the names of two or more persons, the dealer in foreign exchange shall secure the taxpayer identification number of a person having a financial interest in the account or credit line. In the event that a dealer in foreign exchange has been unable to secure the identification required within the 30-day period specified, it shall nevertheless not be deemed to be in violation of this section if:\n(\ni\n)\nIt has made a reasonable effort to secure such identification, and\n(\nii\n)\nIt maintains a list containing the names, addresses, and account or credit line numbers of those persons from whom it has been unable to secure such identification, and makes the names, addresses, and account or credit line numbers of those persons available to the Secretary as directed by him.\n(\n2\n)\nThe 30-day period provided for in\nparagraph (a)(1)\nof this section shall be extended where the person opening the account or credit line has applied for a taxpayer identification or social security number on Form SS-4 or SS-5, until such time as the person maintaining the account or credit line has had a reasonable opportunity to secure such number and furnish it to the dealer in foreign exchange.\n(\n3\n)\nA taxpayer identification number for an account or credit line required under\nparagraph (a)(1)\nof this section need not be secured in the following instances:\n(\ni\n)\nAccounts for public funds opened by and instrumentalities of Federal, state, local or foreign governments,\n(\nii\n)\nAccounts for aliens who are—\n(\nA\n)\nAmbassadors, ministers, career diplomatic or consular officers, or\n(\nB\n)\nNaval, military or other attaches of foreign embassies, and legations, and for members of their immediate families,\n(\niii\n)\nAccounts for aliens who are accredited representatives to international organizations which are entitled to enjoy privileges, exemptions, and immunities as an international organization under the International Organizations Immunities Act of December 29, 1945 (\n22 U.S.C. 288\n), and for the members of their immediate families,\n(\niv\n)\nAliens temporarily residing in the United States for a period not to exceed 180 days,\n(\nv\n)\nAliens not engaged in a trade or business in the United States who are attending a recognized college or any training program, supervised or conducted by any agency of the Federal Government, and\n(\nvi\n)\nUnincorporated subordinate units of a tax exempt central organization which are covered by a group exemption letter.\n(\nb\n)\nEach dealer in foreign exchange shall retain either the original or a microfilm or other copy or reproduction of each of the following:\n(\n1\n)\nStatements of accounts from banks, including paid checks, charges or other debit entry memoranda, deposit slips and other credit memoranda representing the entries reflected on such statements;\n(\n2\n)\nDaily work records, including purchase and sales slips or other memoranda needed to identify and reconstruct currency transactions with customers and foreign banks;\n(\n3\n)\nA record of each exchange of currency involving transactions in excess of $1000, including the name and address of the customer (and passport number or taxpayer identification number unless received by mail or common carrier) date and amount of the transaction and currency name, country, and total amount of each foreign currency;\n(\n4\n)\nSignature cards or other documents evidencing signature authority over each deposit or security account, containing the name of the depositor, street address, taxpayer identification number (TIN) or employer identification number (EIN) and the signature of the depositor or of a person authorized to sign on the account (if customer accounts are maintained in a code name, a record of the actual owner of the account);\n(\n5\n)\nEach item, including checks, drafts, or transfers of credit, of more than $10,000 remitted or transferred to a person, account or place outside the United States;\n(\n6\n)\nA record of each receipt of currency, other monetary instruments, investment securities and checks, and of each transfer of funds or credit, or more than $10,000 received on any one occasion directly and not through a domestic financial institution, from any person, account or place outside the United States;\n(\n7\n)\nRecords prepared or received by a dealer in the ordinary course of business, that would be needed to reconstruct an account and trace a check in excess of $100 deposited in such account through its internal recordkeeping system to its depository institution, or to supply a description of a deposited check in excess of $100;\n(\n8\n)\nA record maintaining the name, address and taxpayer identification number, if available, of any person presenting a certificate of deposit for payment, as well as a description of the instrument and date of transaction;\n(\n9\n)\nA system of books and records that will enable the dealer in foreign exchange to prepare an accurate balance sheet and income statement.\n(\nc\n)\nThis section does not apply to banks that offer services in dealing or changing currency to their customers as an adjunct to their regular service.\n[\n75 FR 65812\n, Oct. 26, 2010, as amended at\n76 FR 43597\n, July 21, 2011]"
+      }
+    ],
+    "topics": [
+      "tax_law",
+      "financial_services",
+      "records_management"
+    ],
+    "topics_details": [
+      {
+        "id": "tax_law",
+        "label_zh": "税法",
+        "label_en": "Tax Law",
+        "label_pt": "Direito Fiscal",
+        "score": 15.0,
+        "matched_keywords": [
+          "tax"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "payment",
+          "securities",
+          "financial institution"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 4.5,
+        "matched_keywords": [
+          "recordkeeping system",
+          "records (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 31489,
+    "source_end": 37161,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_420",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.420",
+    "article_number_normalized": "1022_420",
+    "article_title": "Additional records to be maintained by providers and sellers of prepaid access",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.420 Additional records to be maintained by providers and sellers of prepaid access.\nWith respect to transactions relating to providers and sellers of prepaid access described in\n§ 1010.100(ff)(4)\nand\n(7)\nthat are subject to the requirements of this chapter, each provider of prepaid access shall maintain access to transactional records for a period of five years. The provider of prepaid access, as defined in\n§ 1010.100(ff)(4)\n, shall maintain access to transactional records generated in the ordinary course of business that would be needed to reconstruct prepaid access activation, loads, reloads, purchases, withdrawals, transfers, or other prepaid-related transactions.\n[\n76 FR 45420\n, July 29, 2011]\nE—Special Information Sharing Procedures To Deter Money Laundering and Terrorist Activity",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "With respect to transactions relating to providers and sellers of prepaid access described in\n§ 1010.100(ff)(4)\nand\n(7)\nthat are subject to the requirements of this chapter, each provider of prepaid access shall maintain access to transactional records for a period of five years. The provider of prepaid access, as defined in\n§ 1010.100(ff)(4)\n, shall maintain access to transactional records generated in the ordinary course of business that would be needed to reconstruct prepaid access activation, loads, reloads, purchases, withdrawals, transfers, or other prepaid-related transactions.\n[\n76 FR 45420\n, July 29, 2011]\nE—Special Information Sharing Procedures To Deter Money Laundering and Terrorist Activity"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 37240,
+    "source_end": 37960,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_500",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.500",
+    "article_number_normalized": "1022_500",
+    "article_title": "General",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.500 General.\nMoney services businesses are subject to the special information sharing procedures to deter money laundering and terrorist activity requirements set forth and cross referenced in this . Money services businesses should also refer to\nE of part 1010 of this chapter\nfor special information sharing procedures to deter money laundering and terrorist activity contained in that which apply to money services businesses.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Money services businesses are subject to the special information sharing procedures to deter money laundering and terrorist activity requirements set forth and cross referenced in this . Money services businesses should also refer to\nE of part 1010 of this chapter\nfor special information sharing procedures to deter money laundering and terrorist activity contained in that which apply to money services businesses."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 38044,
+    "source_end": 38468,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_520",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.520",
+    "article_number_normalized": "1022_520",
+    "article_title": "Special information sharing procedures to deter money laundering and terrorist activity for money services businesses",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.520 Special information sharing procedures to deter money laundering and terrorist activity for money services businesses.\n(\na\n)\nRefer to\n§ 1010.520 of this chapter\n.\n(\nb\n)\n[Reserved]\n§ 1022.530 [Reserved]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "(\na\n)\nRefer to\n§ 1010.520 of this chapter\n.\n(\nb\n)\n[Reserved]\n§ 1022.530 [Reserved]"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.5,
+        "matched_keywords": [
+          "money services (title, +5)",
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 38481,
+    "source_end": 38571,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_540",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.540",
+    "article_number_normalized": "1022_540",
+    "article_title": "Voluntary information sharing among financial institutions",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.540 Voluntary information sharing among financial institutions.\n(\na\n)\nRefer to\n§ 1010.540 of this chapter\n.\n(\nb\n)\n[Reserved]\nF—Special Standards of Diligence; Prohibitions; and Special Measures for Money Services Businesses",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "(\na\n)\nRefer to\n§ 1010.540 of this chapter\n.\n(\nb\n)\n[Reserved]\nF—Special Standards of Diligence; Prohibitions; and Special Measures for Money Services Businesses"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 38694,
+    "source_end": 38861,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T31_P1022_2010_ART_1022_600",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T31_P1022_2010",
+    "law_name": "Rules for Money Services Businesses",
+    "law_name_original": "Rules for Money Services Businesses",
+    "law_type": "CFR",
+    "article_number": "1022.600",
+    "article_number_normalized": "1022_600",
+    "article_title": "General",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1022.600 General.\nMoney services businesses are subject to the special standards of diligence; prohibitions; and special measures requirements set forth and cross referenced in this . Money services businesses should also refer to\nF of part 1010 of this chapter\nfor special standards of diligence; prohibitions; and special measures contained in that which apply to money services businesses.\n§§ 1022.610-1022.670 [Reserved]\nContent\n\nSearch\nRecent Changes\n\nInformation\nAbout This Site\nLegal Status\nPrivacy\n\nMy\n\n/ Sign Up",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Money services businesses are subject to the special standards of diligence; prohibitions; and special measures requirements set forth and cross referenced in this . Money services businesses should also refer to\nF of part 1010 of this chapter\nfor special standards of diligence; prohibitions; and special measures contained in that which apply to money services businesses.\n§§ 1022.610-1022.670 [Reserved]\nContent\n\nSearch\nRecent Changes\n\nInformation\nAbout This Site\nLegal Status\nPrivacy\n\nMy\n\n/ Sign Up"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "money services"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "privacy"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-10-26",
+    "effective_date": "2010-10-26",
+    "publication_date": "2010-10-26",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-03",
+    "source_url": "https://www.ecfr.gov/current/title-31/part-1022",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T31_P1022_Rules_for_Money_Services_Businesses.txt",
+    "source_start": 38925,
+    "source_end": 39435,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-03T20:44:27Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

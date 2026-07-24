@@ -1,0 +1,62 @@
+[
+  {
+    "doc_id": "MAC_REG_15_2008_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_15_2008",
+    "law_name": null,
+    "law_name_original": null,
+    "law_type": "行政法規",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "權，並根據第15/2008號行政法規《傳染病強制申報機制》第六條\n第二款的規定，作出本批示。\n一、核准為本批示組成部分的附件所載的傳染病強制申報\n表格一及表格二的式樣。\n二、廢止第232/2008號行政長官批示。\n三、本批示自公佈翌日起生效。\n二零一三年六月十三日行政長官 崔世安",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 107,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2013-06-25",
+    "publication_date": "2013-06-24",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_MO_101.txt",
+    "source_start": 6,
+    "source_end": 29,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T14:53:28Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

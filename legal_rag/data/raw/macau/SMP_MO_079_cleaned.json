@@ -1,0 +1,62 @@
+[
+  {
+    "doc_id": "MAC_LEI_14_2022_ART_009",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_14_2022",
+    "law_name": "地球物理氣象局的組織及運作",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "生效",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "本行政法規自二零二四年四月一日起生效。\n二零二三年十月二十三日制定。\n命令公佈。\n行政長官 賀一誠澳  門  特  別  行  政  區\n第 40/2023 號行政法規地球物理氣象局的組織及運作\n行政長官根據《澳門特別行政區基本法》第五十條（五）項，\n經徵詢行政會的意見，制定本獨立行政法規。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 108,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 13.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2023-10-23",
+    "effective_date": "2024-04-01",
+    "publication_date": "2023-11-06",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_MO_079.txt",
+    "source_start": 174,
+    "source_end": 297,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T14:53:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

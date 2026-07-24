@@ -1,0 +1,978 @@
+[
+  {
+    "doc_id": "MAC_REG_35_2018_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "1",
+    "article_number_normalized": "1",
+    "article_title": "標的及範圍",
+    "chunk_index": 0,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、本行政法規訂定澳門特別行政區政府的公共部門和實體設立和提供電子服務的規定。\n二、廉政公署、審計署、立法會輔助部門、終審法院院長辦公室和檢察長辦公室可由其最高領導以批示方式決定，將本行政法規的規定在作出適當配合後適用於此等機構的電子服務，但以有關規定與此等機構的電子服務性質相容且不抵觸特別為該等機構訂定的電子服務制度為限。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 153,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子服務"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_002",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "2",
+    "article_number_normalized": "2",
+    "article_title": "定義",
+    "chunk_index": 1,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "為適用本行政法規的規定，下列用語的含義為：\n（一）“互操作”：是指公共部門和實體在執行相關職責時，透過整合程序或相關資訊系統間的通訊，進行互動以及分享資源、信息和知識的能力，並應用預設的共同技術規格，以取得預期成果；\n（二）“技術標準”：是指反覆或連續運用於信息及通訊科技領域的構思、發展、執行、運作，或材料、產品、程序、勞務、服務或系統的使用等一系列要件、技術規格、特徵和方法；\n（三）“數字化接待”：是指供利害關係人透過互聯網與公共部門和實體的資訊系統進行互動的一項電子政務，至少包括提供資料和表格、可以遞交申請書，以及上傳文件的服務；\n（四）“互聯網網站”：是指透過其首頁的網址\n（五）“門戶網站”：是指為統一和密集地匯聚和分發不同來源的內容而規劃和開發的互聯網網站；\n（六）“單一接入點”：是指為匯聚和分發各公共部門和實體與自然人生活和企業生命周期相關事件的全部內容而規劃和開發的互聯網門戶網站，旨在讓利害關係人無需多次接觸位於不同地點的公共部門和實體就可以找到和查閱信息，開展、跟進和完成與每一事件有關的全部程序；\n（七）“統一電子平台”：是指系統化的信息及通訊科技集，包括基礎設施、門戶網站以及其他設備和應用程式，供公共部門和實體在履行相關職責和行使本身職權時，尤其在涉及兩個或以上公共實體的活動、公共部門與其工作人員之間的程序、與企業互動，以及為利害關係人提供服務時，整合使用和分享使用。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 522,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子政務"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_003",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "3",
+    "article_number_normalized": "3",
+    "article_title": "互操作指引",
+    "chunk_index": 2,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、公共部門和實體須優先使用技術規格符合互操作指引的信息及通訊科技。\n二、互操作指引須列明尤其涉及以下事宜的程序和技術標準：\n（一）數據的格式，包括字元碼，聲音、影像和音像的格式，萬維網介面技術以及電子郵件協議；\n（二）關於使用者帳戶系統保障水平的技術規格；\n（三）功能分類編號和信息資源特徵的一般資料；\n（四）文件的數字化和文件轉換協議。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 145,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_004",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "4",
+    "article_number_normalized": "4",
+    "article_title": "公共部門和實體間的合作",
+    "chunk_index": 3,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、公共部門和實體須互相合作設立和提供電子服務，尤其：\n（一）在數字化接待的構思、落實和程序管理方面互相幫助；\n（二）推廣配合運作和整合相關後台資訊系統的經驗；\n（三）就所提供的服務編製使用指南或手冊，供協助接待和協助辦理各種程序步驟的工作人員使用。\n二、所有公共部門或實體均須以適當的方式發佈關於透過相關的資訊系統執行用以獲取、查閱、使用或傳輸信息的整合和自動化程序的技術信息，供其他公共部門和實體知悉。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 180,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子服務"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_005",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "5",
+    "article_number_normalized": "5",
+    "article_title": "電子文件的處理和管理",
+    "chunk_index": 4,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、尤其為達到以下目的，公共部門和實體須應用適合相關特定活動且符合互操作指引的方法處理和管理其電子文件：\n（一）確保文件準確性、完整性、保密性、可用性和可追蹤性的條件；\n（二）可以保護、修復文件，以及保存文件的實體性和邏輯性。\n二、上款規定的方法由行政長官根據相關公共部門或實體附有行政公職局意見的建議，以批示核准。\n三、公共部門和實體的最高領導須以內部批示指定負責執行第一款規定的人員。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 171,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_006",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "6",
+    "article_number_normalized": "6",
+    "article_title": "資訊設備、系統和應用程式的目錄",
+    "chunk_index": 5,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、公共部門和實體須定期查核其資訊設備、系統和應用程式容量的實際使用程度，以便規劃利用未使用的容量，尤其透過統一電子平台提供予其他公共部門和實體使用或用作提供信息及通訊科技服務。\n二、公共部門和實體須透過填寫為有關目的而製作的電子表格，將可供其他公共部門和實體使用的資訊設備、系統和應用程式的特徵通知行政公職局。\n三、行政公職局須組織、更新和發佈附有按照上款規定蒐集所得信息的目錄。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 177,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_007",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "7",
+    "article_number_normalized": "7",
+    "article_title": "分析和說明理由的義務",
+    "chunk_index": 6,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、公共部門和實體擬落實信息及通訊科技解決方案時，應分析上條第三款規定的目錄的信息，以便核實使用在統一電子平台上可用的資訊設備、系統和應用程式的可能性，並可為此目的請求行政公職局提供技術支援和意見。\n二、如目錄所列的財產可以用作擬落實的信息及通訊科技解決方案，但公共部門和實體選擇目錄不包括的其他資訊設備、系統和應用程式時，相關決定應加入技術、功能、操作和財務的理由，證明所選用的解決方案更適合於履行相關的職責。\n第二章\n互聯網網站",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 199,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_008",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "8",
+    "article_number_normalized": "8",
+    "article_title": "關於互聯網網站的應遵規則",
+    "chunk_index": 7,
+    "chapter": "第二章 互聯網網站",
+    "chapter_title": "",
+    "text_zh": "一、公共部門和實體應確保屬於政府的互聯網網站尤其符合以下的一般要件：\n（一）在所有階段，尤其構思、開發、更新和操作階段均符合互操作指引規定的技術規格；\n（二）指出負責互聯網網站的公共部門或實體；\n（三）逐步應用關於無障礙和易用性的最佳國際慣例和技術標準。\n二、公共部門和實體應逐步將其數字化接待功能整合和集中於統一電子平台的門戶網站或單一接入點。\n三、未完成上款所指整合前，設有具備數字化接待功能互聯網網站的公共部門和實體亦須遵守下條規定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 196,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_009",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "9",
+    "article_number_normalized": "9",
+    "article_title": "用作數字化接待的互聯網網站",
+    "chunk_index": 8,
+    "chapter": "第二章 互聯網網站",
+    "chapter_title": "",
+    "text_zh": "一、設有用作數字化接待的互聯網網站的公共部門或實體應確保該網站符合以下要件：\n（一）擁有互聯網網站認證證書；\n（二）提供協助搜尋和識別適用於處理對利害關係人屬重要事項的制度和程序的說明；\n（三）向任何利害關係人提供關於適用於請求的法律制度的清晰和易於取得的信息，包括接受請求須符合的法定條件、有最終決定權的主管機關、各項程序的要件、各項手續，以及組成卷宗所需資料的列表；\n（四）提供關於在該互聯網網站可使用的使用者帳戶系統的信息；\n（五）以電子方式，透過相關的使用者帳戶核實使用者的身份；\n（六）就利害關係人接入、使用和執行各項操作的技術要件，尤其就請求和用以組成卷宗的資料的電子式樣和格式，向任何利害關係人提供清晰和易於取得的信息；\n（七）提供協助利害關係人填寫電子表格的說明和按最適當次序辦理其他手續的說明；\n（八）在提供辦理需支付費用、手續費或其他負擔的行為時，可作相關支付；\n（九）可免除遞交文件而無礙程序的進行；\n（十）使用可以自動計算期限、驗證操作時間，以及在作出一項行為之後或作出行為的期限過後隨即轉入程序以下各階段的資訊解決方案；\n（十一）發出公共部門或實體作出行為的規定期限屆滿的通知，並送交利害關係人。\n二、如用作提供至少兩個公共部門或實體參與的數字化接待，上款所指的互聯網網站尚須符合以下要件：\n（一）利害關係人可以向所有參與有關程序的公共部門或實體作出各項行為和手續；\n（二）可以按照具體適用的制度，因應上項所指的行為和手續繳納和徵收應付的費用、手續費或其他負擔；\n（三）具備以電子方式將程序的文書和用以組成卷宗的資料分開，並按照為每個公共部門或實體設定的用戶角色轉介予應在相關程序發出報告書、意見書、建議書或作出決定的每個公共部門或實體的能力；\n（四）為利害關係人，以及參與有關程序或對程序的進展具有監察職責和職權的公共部門和實體指定的使用者提供跟進和查閱卷宗資料的途徑；\n（五）具備接收源於參與有關程序的公共部門和實體的報告書、意見書、建議書、決定或其他資料，並將之加入行政卷宗的能力；\n（六）每當卷宗添加新資料時，發出遞交證明並向參與有關程序的公共部門和實體發出通知；\n（七）每當卷宗添加參與有關程序的公共部門和實體的報告書、意見書、建議書或決定時，發出通知並將之送交利害關係人。\n三、第一款所指的公共部門或實體應確保數字化接待過程符合以下的行政簡化準則：\n（一）向利害關係人索取的文件和資料僅可為第一款（三）項規定的列表所載用以組成卷宗的文件和資料；\n（二）不可向利害關係人重複索取相同的用以組成卷宗的文件和資料；\n（三）為組成相關程序的卷宗，利害關係人可附入第一款（三）項規定的列表所載，用以組成卷宗的文件和資料的普通副本，但特別法規定要求出示正本或經認證文書的情況除外；\n（四）如有理由懷疑上項規定的普通副本的內容或真實性，行政卷宗的組成者須訂定不少於十日的期間供遞交和核對正本，但無礙程序的進行。\n四、尤其為更安全地以電子方式核實使用者身份和進行第二款（二）項規定的支付操作，可透過瀏覽多個互聯網網站完成數字化接待。\n第三章\n統一電子平台",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 1146,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_010",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "10",
+    "article_number_normalized": "10",
+    "article_title": "目的",
+    "chunk_index": 9,
+    "chapter": "第三章 統一電子平台",
+    "chapter_title": "",
+    "text_zh": "一、設立統一電子平台的目的如下：\n（一）開發匯集最新資訊的門戶網站，以協助利害關係人為向公共部門和實體提出的事項作準備，而無需當面接待；\n（二）使用各公共部門和實體共通的使用者帳戶系統，以便利害關係人可以使用同一個使用者帳戶，而無需在各個公共部門和實體作多個帳戶登記；\n（三）創設條件，使公共部門和實體可以開展以利害關係人需要為中心的橫向服務，並籌備以整合的方式提供相關的服務；\n（四）開發並提供單一接入點，使市民和企業主為所需的行為和手續可以透過數字化接待直接和即時完成；\n（五）便利新電子程序的開發和現有電子服務的操作；\n（六）提供支持各公共部門和實體活動，尤其人力資源管理方面的資訊應用程式。\n二、統一電子平台的開發和運作須符合互操作指引。\n三、統一電子平台的互聯網網站須按照第八條和第九條規定，在門戶網站和單一接入點內規劃和開發。\n四、第一款規定的目的以及上款規定的互聯網網站的功能將循序漸進落實。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 359,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子服務"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_011",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "11",
+    "article_number_normalized": "11",
+    "article_title": "責任實體",
+    "chunk_index": 10,
+    "chapter": "第三章 統一電子平台",
+    "chapter_title": "",
+    "text_zh": "行政公職局負責統一電子平台的組織和管理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 19,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_012",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "12",
+    "article_number_normalized": "12",
+    "article_title": "使用者、接入許可和特權的管理",
+    "chunk_index": 11,
+    "chapter": "第三章 統一電子平台",
+    "chapter_title": "",
+    "text_zh": "一、統一電子平台支持區分具不同許可或特權使用者類別的職能和工作，至少包括相關資訊系統操作所需的以下使用者類別：\n（一）安全管理員，負責制定和確保落實保安政策；\n（二）系統管理員，負責系統的安裝和配置，以及維持系統總體穩定；\n（三）系統操作員，負責系統每日的操作，獲進行安全備份和日常操作的許可；\n（四）系統審計員，負責監察系統活動檔案和供審計用的事件記錄。\n二、統一電子平台應具備核實使用者身份，將使用者與既定的相關職能和活動連繫的能力。\n三、統一電子平台應具備確保第一款（一）、（二）和（四）項所指職能並非由同一人擔任的能力。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 225,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_013",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "13",
+    "article_number_normalized": "13",
+    "article_title": "統一電子平台持續提供服務",
+    "chunk_index": 12,
+    "chapter": "第三章 統一電子平台",
+    "chapter_title": "",
+    "text_zh": "一、須持續提供統一電子平台服務予所有利害關係人，但因系統維護或損壞而限制接入的情況除外。\n二、如統一電子平台設備和應用程式的維護操作導致向利害關係人提供的服務受限制，則須以適當的方式提前五日向使用者發佈，但具適當理由的緊急維護情況除外。\n三、須向使用者說明獲取接入統一電子平台和與平台互動的應用程式和資訊程式的方式。\n四、統一電子平台其他功能、技術和安全的要件，由行政公職局在遵守互操作指引的情況下，按照最佳國際慣例和技術標準訂定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 199,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_014",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "14",
+    "article_number_normalized": "14",
+    "article_title": "使用者帳戶系統",
+    "chunk_index": 13,
+    "chapter": "第三章 統一電子平台",
+    "chapter_title": "",
+    "text_zh": "一、統一電子平台採用的使用者帳戶系統應可讓公共部門和實體核實每個使用者的身份，以及該使用者在數字化接待中執行特定操作的許可。\n二、在開設使用者帳戶時，須收集帳戶權利人的身份資料以及如適用，相關代表的身份資料，並須與行政公職局簽訂協議，其中帳戶權利人須聲明已知悉帳戶的作用和使用帳戶時須有的安全防範措施。\n第四章\n過渡及最後規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 151,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_015",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "15",
+    "article_number_normalized": "15",
+    "article_title": "使用者帳戶的整合",
+    "chunk_index": 14,
+    "chapter": "第四章 過渡及最後規定",
+    "chapter_title": "",
+    "text_zh": "一、各公共部門和實體尤應透過統一電子平台逐步整合其使用者帳戶系統。\n二、規劃和進行上款規定的整合時，各公共部門和實體須優先選用符合最佳國際慣例且可以在利害關係人同意下利用現有的使用者帳戶的解決方案。\n三、經利害關係人同意，統一電子平台可利用現有的使用者帳戶，並將之與上條規定的使用者帳戶系統整合，以便接入公共部門和實體資訊系統並與之互動。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 157,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_016",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "16",
+    "article_number_normalized": "16",
+    "article_title": "補充規定",
+    "chunk_index": 15,
+    "chapter": "第四章 過渡及最後規定",
+    "chapter_title": "",
+    "text_zh": "為執行本行政法規所需的補充規定，尤其互操作指引以及接入統一電子平台使用者帳戶系統的方式和條件，由公佈於《澳門特別行政區公報》的行政長官批示核准。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_REG_35_2018_ART_017",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_35_2018",
+    "law_name": "電子服務",
+    "law_name_original": null,
+    "law_type": "行政法规",
+    "article_number": "17",
+    "article_number_normalized": "17",
+    "article_title": "生效",
+    "chunk_index": 16,
+    "chapter": "第四章 過渡及最後規定",
+    "chapter_title": "",
+    "text_zh": "本行政法規自二零一九年一月一日起生效。\n二零一八年十一月二十七日制定。\n命令公佈。\n行政長官 崔世安",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 43,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2018-11-27",
+    "effective_date": "2019-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_43133073.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

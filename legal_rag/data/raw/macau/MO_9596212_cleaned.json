@@ -1,0 +1,2000 @@
+[
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "1",
+    "article_number_normalized": "1",
+    "article_title": "標的及範圍",
+    "chunk_index": 0,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、本法律訂定公共部門以電子方式作出的行為和手續的規定。\n二、為適用本法律的規定，公共部門是指公共行政當局的機關及部門，包括行政長官辦公室、主要官員的辦公室及行政輔助部門、公法人及公務法人。\n三、立法會輔助部門、終審法院院長辦公室和檢察長辦公室得以其最高領導的批示將本法律的規定適用於該等機構以電子方式作出的行為和手續，該批示自公佈於《澳門特別行政區公報》（下稱“《公報》”）第一組後產生效力。\n四、本法律的規定經作出必要配合後補充適用於以電子方式作出的登記及公證行為。\n五、終審法院院長及檢察長得以公佈於《公報》第一組的批示將本法律的規定，經作出必要配合後適用於司法機關與公共部門之間的收發公務通訊及文件的行為。\n六、本法律的規定經作出必要配合後，適用於公共資本全資企業或公共資本控股企業與公共部門之間的收發公務通訊及文件的行為。\n七、本法律的規定不適用於公共部門在行使犯罪預防及偵查職權、以刑事警察當局身份或協助司法當局時作出的行為，而作出該等行為時應繼續遵守適用的法律制度。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 400,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_002",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "2",
+    "article_number_normalized": "2",
+    "article_title": "定義",
+    "chunk_index": 1,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、為適用本法律，下列用語的含義為：\n（一）“電子證明”：是指於互聯網網站專用區域或透過電子數據通訊功能提供的，以適合內含文字內容的數碼化格式發出的證明；\n（二）“數碼證照＂：是指內含轉錄或顯示獲發證照的人或實體的法律狀況內容的一份或一套數碼格式化文件；\n（三）“數碼化接待”：是指供利害關係人透過互聯網與公共部門的資訊系統進行互動的一項電子政務，至少包括提供資料和表格、遞交申請書，以及上傳文件的服務；\n（四）“當面接待”：是指在公共部門指定的地點，由上級指定負責接待的公共部門工作人員進行的接待，或以公共部門的自助服務（自助服務機）形式進行的接待；\n（五）“自動化活動”：是指公共部門在無需工作人員在場的情況下以電子方式進行數碼化接待程序的所有工作；\n（六）“電子身份識別工具”：是指持有人以電子方式通訊時使用的包括登入密碼、一次性密碼、安全驗證碼、生物識別資料、電子證書、高級電子簽名或合格電子簽名等數據組合，以證明自己的身份或聲明其他數碼格式化數據的來源或作成人身份；\n（七）“電子身份識別工具持有人”：是指為生成與其身份識別數據有連繫的電子身份識別工具而在使用者帳戶系統中登記的人、部門或實體。\n二、為適用本法律的規定，“電子文件”的定義以 第5/2005號法律 《電子文件及電子簽名》的規定為準。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 471,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "電子簽名",
+          "電子文件",
+          "電子政務"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_003",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "3",
+    "article_number_normalized": "3",
+    "article_title": "電子服務的自願使用原則",
+    "chunk_index": 2,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、本法律規定的電子證明服務、發出數碼證照服務、數碼化接待及電子通知服務均供私人自願使用，但不影響以下兩款規定的適用。\n二、如電子服務已能用於某事宜的整個程序步驟以及編製相關的最終決定，公共部門可終止以紙本進行該事宜的程序步驟。\n三、如屬上款規定的終止以紙本進行的程序步驟的情況，公共部門在當面接待時，應向本身未能使用數碼化接待的私人提供協助。\n第二章\n公共部門的文件",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 168,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子服務"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_004",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "4",
+    "article_number_normalized": "4",
+    "article_title": "公共部門遵守法定形式的要求",
+    "chunk_index": 3,
+    "chapter": "第二章 公共部門的文件",
+    "chapter_title": "",
+    "text_zh": "一、公共部門的電子文件只要同時符合下列規定，即視為已遵守所有法定形式的要求：\n（一）採用適合內含文字內容的數碼化格式；\n（二）採用保障級別與所辦理的事項相應的電子身份識別工具證明文件的作成人或來源。\n二、下列者可為電子身份識別工具持有人：\n（一）機關據位人或公共部門的工作人員；\n（二）法院司法官、檢察院司法官或司法機關的工作人員；\n（三）公共資本全資企業或公共資本控股企業的機關據位人或工作人員；\n（四）具有公證職能的專職機關；\n（五）公共部門；\n（六）司法機關；\n（七）公共資本全資企業或公共資本控股企業。\n三、按適用的情況，第一款（二）項所指的保障級別應為以下其中一級別：\n（一）滿意級，表示電子身份識別工具可靠；\n（二）高級，表示電子身份識別工具可靠度高；\n（三）非常高級，表示電子身份識別工具的可靠度非常高。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 295,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_005",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "5",
+    "article_number_normalized": "5",
+    "article_title": "公務通訊及文件處理",
+    "chunk_index": 4,
+    "chapter": "第二章 公共部門的文件",
+    "chapter_title": "",
+    "text_zh": "一、公共部門可使用電子方式進行公務通訊及處理文件，尤其是下列活動：\n（一）收發公務通訊及文件，以代替紙本函件及傳真；\n（二）透過本法律規定的電子通知服務作出行政通知，以代替其他適用的通知方式；\n（三）記錄文件的收發及程序步驟，以代替紙本紀錄。\n二、在不影響有關電子政務的法律及規章規定的情況下，公共部門可相互或與私人訂立協議，以便協議各方訂定進行上款（一）項所規定活動的條件及技術要件。\n三、如在上款規定的協議所定的條件中包括訊息及通訊，則該協議可賦予發件地址所屬的一方具有該等訊息和通訊的作成人身份。\n第五-A條\n公示及張貼\n如公共部門將文件、通知及告示以電子方式公佈於相關部門的互聯網網站內，則視為已遵守法律所規定的公示及張貼於公共部門及常貼告示處的要求。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 293,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子政務"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_006",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "6",
+    "article_number_normalized": "6",
+    "article_title": "文件的數碼化",
+    "chunk_index": 5,
+    "chapter": "第二章 公共部門的文件",
+    "chapter_title": "",
+    "text_zh": "一、公共部門或具有公證職能的專職機關可將文件數碼化，以代替製作用於法律容許的任何用途的紙本複本。\n二、如數碼化的目的是以電子文件保存紙本文件的資料或組成卷宗，公共部門應遵守下列要件：\n（一）使用適當的數碼科技，使紙本文件的內容能準確、持久顯示；\n（二）在經數碼化而製成的電子文件或該電子文件所指的其他電子文件內加入證明電子文件內容與紙本文件一致的聲明，如有差異須說明。\n三、僅在上款（二）項所指的差異不會實質影響紙本文件與經數碼化而製成的文件的一致性時，方可進行數碼化。\n四、按第二款規定將存於公共部門的紙本文件數碼化而製成並保存於該等部門的文件，具有與紙本原件相同的法律效力。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 261,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_007",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "7",
+    "article_number_normalized": "7",
+    "article_title": "電子證明",
+    "chunk_index": 6,
+    "chapter": "第二章 公共部門的文件",
+    "chapter_title": "",
+    "text_zh": "一、公共部門及具有公證職能的專職機關可向利害關係人發出及提供電子證明，以代替發出及送交紙本證明。\n二、發出電子證明，須包括設定能連接該證明或相關資料的查閱密碼或同等的技術，並交予申請人，以便檢索、取得及查閱資料。\n三、電子證明具有對相同內容的紙本證明所規定的法律效力及證明力。\n四、在電子證明的有效期內，利害關係人只須提供第二款規定的查閱密碼或同等的技術，公共部門不得要求遞交或出示相關紙本證明。\n五、本條規定經作出必要配合後，適用於證明書及同類文件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 204,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_008",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "8",
+    "article_number_normalized": "8",
+    "article_title": "數碼證照",
+    "chunk_index": 7,
+    "chapter": "第二章 公共部門的文件",
+    "chapter_title": "",
+    "text_zh": "一、公共部門可向利害關係人發出及提供數碼證照，以代替發出及送交具相同內容的紙本文件。\n二、上款規定的數碼證照可具有下列任一目的：\n（一）顯示法律狀況，尤其是許可、准照、執照、豁免、預先通知、簡報、證書、行政合同；\n（二）證明法律狀況或作出某事實，尤其是履行提供資訊或聲明的法定義務；\n（三）轉錄以紙本文件顯示的法律狀況。\n三、在製作含有數碼證照的電子文件時，須使用保障級別與所辦理的事項相應的電子身份識別工具。\n四、發出數碼證照須包括設定能連接該數碼證照相關資料的查閱密碼或同等的技術，並交予獲發證照的人，以便檢索、取得及查閱資料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 229,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_009",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "9",
+    "article_number_normalized": "9",
+    "article_title": "數碼證照的法律效力",
+    "chunk_index": 8,
+    "chapter": "第二章 公共部門的文件",
+    "chapter_title": "",
+    "text_zh": "一、為一切法律效力，數碼證照用於向公共部門證明其持有人處於證照所顯示的法律狀況。\n二、數碼證照持有人擬顯示數碼證照所證明的法律狀況時，只須提供上條第四款規定的查閱密碼或同等的技術，公共部門不得要求提供附加證明。\n三、如數碼證照包含其持有人必須於公眾可見處公佈並張貼的資料或文件，只要持有人能確保落實下列任一選項，即視為已履行有關義務：\n（一）於公眾可見處安裝電子設備，以便持續提供電子證照的相關資料；\n（二）將相關資料或文件的紙本列印件張貼於公眾可見處。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 205,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_010",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "10",
+    "article_number_normalized": "10",
+    "article_title": "當面接待時使用電子工具",
+    "chunk_index": 9,
+    "chapter": "第二章 公共部門的文件",
+    "chapter_title": "",
+    "text_zh": "一、公共部門可在當面接待時使用電子工具以核實利害關係人的身份，並以電子載體收集利害關係人的親筆簽名。\n二、簽署私文書的一般制度適用於上款規定的利害關係人的親筆簽名。\n第三章\n數碼化接待的各項程序\n第一節\n共同規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 96,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_011",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "11",
+    "article_number_normalized": "11",
+    "article_title": "核實使用者的電子身份及遵守法定形式的要求",
+    "chunk_index": 10,
+    "chapter": "第一節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、數碼化接待應包括核實使用者的身份的程序，以確認登入者和在數碼化接待過程中尤其是在利害關係人擬遞交申請或其他電子文件時作出行為的作成人身份。\n二、核實使用者的身份是透過使用電子身份識別工具以電子方式進行；該電子身份識別工具的保障級別須合乎所辦理的事項。\n三、利害關係人在數碼化接待程序遞交聲明、申請或其他電子文件時，只要使用保障級別與所辦理事項相應的電子身份識別工具以證明文件的作成人，即視為已遵守須具簽名的書面文件，以及簽名須經對照認定的法定形式的要求。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 215,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_012",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "12",
+    "article_number_normalized": "12",
+    "article_title": "數碼格式化表格",
+    "chunk_index": 11,
+    "chapter": "第一節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、為行為、聲明、申請或其他手續須使用經核准的格式和印件的法定義務，如該等格式和印件以適合內含文字內容的數碼格式化的表格取代，亦視為已遵守有關義務。\n二、用於特定事宜的數碼格式化表格的結構和內容，由協調該事宜的數碼化接待的公共部門訂定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 108,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_013",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "13",
+    "article_number_normalized": "13",
+    "article_title": "文件的遞交",
+    "chunk_index": 12,
+    "chapter": "第一節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、利害關係人可透過電子方式遞交法定要求的文件。\n二、利害關係人向公共部門遞交由私人實體發出的電子文件時，須提供倘有的連接該電子文件的相關資料的查閱密碼或同等的技術，以便公共部門檢索、取得及查閱資料。\n三、如利害關係人向公共部門遞交經數碼化製成的電子文件，公共部門有權在行政程序完結前要求利害關係人提供或出示已遞交的電子文件的紙本原件。\n四、如上款所指的電子文件來自統一電子平台內的專設電子資料庫，可免除提供或出示相關電子文件的紙本原件，但不影響公共部門在有合理理由懷疑利害關係人所遞交文件的真確性時有權要求提供或出示紙本原件。\n五、在以上兩款所指情況下，如利害關係人未能提供或出示紙本原件，公共部門可拒絕接納相關的電子文件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 291,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_014",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "14",
+    "article_number_normalized": "14",
+    "article_title": "免除遞交文件",
+    "chunk_index": 13,
+    "chapter": "第一節 共同規定",
+    "chapter_title": "",
+    "text_zh": "一、在數碼化接待時利害關係人豁免遞交應由公共部門或具有公證職能的專職機關發出的文件，只要其：\n（一）同意讓公共部門取得文件；及\n（二）繳付發送文件應支付的費用、稅項、手續費或其他負擔。\n二、在遵守上款規定的前提下，在數碼化接待時利害關係人亦豁免遞交在本法律生效後已向公共部門或具有公證職能的專職機關遞交的文件，只要：\n（一）利害關係人指明有關卷宗，並指出其先前曾遞交文件的公共部門或具有公證職能的專職機關；及\n（二）文件仍然有效。\n三、以上兩款所指的文件或其資料，得以資料互聯等電子方式取得及提供。\n四、如公共部門與私人實體已就查閱聯網訂立協議，只要利害關係人同意公共部門透過與私人實體的聯網查閱並獲取所需文件或資料，則可豁免遞交文件。\n五、根據以上兩款規定獲取的文件或資料具有與利害關係人須出示或遞交的文件相同的法律效力。\n六、本條規定經作出必要配合後，適用於應由司法機關發出的文件。\n第二節\n程序一體化",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 358,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_015",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "15",
+    "article_number_normalized": "15",
+    "article_title": "以一體化方式或經自動化活動處理的步驟",
+    "chunk_index": 14,
+    "chapter": "第二節 程序一體化",
+    "chapter_title": "",
+    "text_zh": "一、公共部門可對不同程序的步驟進行一體化處理，尤其使利害關係人可在同一數碼化接待程序中，要求對適用的條件一併審查及由各主管機關作出決定。\n二、按上款規定實行程序一體化時可包括：\n（一）修訂以紙本載體組成卷宗所規定的行為和手續，簡化該等行為和手續並使之能配合數碼化接待的各項程序；\n（二）更改行為和手續的次序以及按階段或不同的申請類型進行劃分，以簡化數碼化接待的步驟及減少利害關係人的負擔。\n三、公共部門可指定一位或多位程序管理員進行第一款規定的一體化步驟。\n四、如規定數碼化接待的程序須透過自動化活動進行，應確保所使用的資訊應用程式和系統能控制各期限、有序連貫行為、公開程序，並在向利害關係人發出的文件中指明作出決定的機關，以便其聲明異議及提出上訴。\n五、如決定安裝以自動化活動處理數碼化接待的各項程序的資訊應用程式和系統，應指明負責有關規格、程式、維護工作、監管、質量控制的公共部門以及指明倘適用時負責執行對資訊系統及其原始碼進行審計的公共部門。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 388,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_016",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "16",
+    "article_number_normalized": "16",
+    "article_title": "徵收費用、稅項、手續費或其他負擔",
+    "chunk_index": 15,
+    "chapter": "第二節 程序一體化",
+    "chapter_title": "",
+    "text_zh": "一、在上條第一款規定的特定數碼化接待中包括的行為、手續或文件，按具體適用的法律制度應繳的費用、稅項、手續費或其他負擔，可由協調數碼化接待的公共部門進行結算及徵收，即使該法律制度規定由其他公共部門負責結算及徵收亦然。\n二、協調相關數碼化接待的公共部門根據上款的規定進行徵收後，須將所收款項轉移至按適用的制度應收取該等款項的公共部門。\n三、如進行第一款所指的結算及徵收，須在數碼化接待中事先將所有應繳的費用、稅項、手續費或其他負擔以及有關的行為、手續或文件通知利害關係人。\n四、如第十四條規定的任一行為按具體的適用法律制度涉及繳付費用、稅項、手續費或其他負擔，須按經作出必要配合後的本條規定進行相關徵收。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 275,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_017",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "17",
+    "article_number_normalized": "17",
+    "article_title": "個人資料的處理",
+    "chunk_index": 16,
+    "chapter": "第二節 程序一體化",
+    "chapter_title": "",
+    "text_zh": "一、公共部門執行個人資料的操作，包括比較和互聯，以便互相通告及分享與核實資訊系統使用者身份及進行數碼化接待的各項程序相關的文件和個人資料。\n二、上款規定的個人資料處理，須尊重自然人的權利或受法律保護的利益，並按 第8/2005號法律 《個人資料保護法》的規定進行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 113,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_018",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "18",
+    "article_number_normalized": "18",
+    "article_title": "作出授權行為的資格",
+    "chunk_index": 17,
+    "chapter": "第二節 程序一體化",
+    "chapter_title": "",
+    "text_zh": "一、通常具職權對某事宜作出決定的行政機關，具資格透過授權行為及在第十五條第一款規定的一體化步驟範圍內，容許其他機關或人員作出有關事宜的行政行為。\n二、通常具職權領導調查的行政機關，具資格透過授權行為及在第十五條第一款規定的一體化步驟範圍內，容許其他機關或人員作出涉及調查和程序步驟事宜的相關行為。\n三、以上兩款規定的授權行為可包括多個類別或類型的程序，亦可包括不同公共部門的行政機關及其人員。\n四、授權行為須詳細說明授予或轉授的權力，以及適用時轉授權力的許可。\n五、授權行為應可在提供相關數碼化接待的互聯網網站查閱，但不影響須在《公報》公佈。\n第三節\n向司法機關送交文件",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 260,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_019",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "19",
+    "article_number_normalized": "19",
+    "article_title": "送交電子文件及電子數據",
+    "chunk_index": 18,
+    "chapter": "第三節 向司法機關送交文件",
+    "chapter_title": "",
+    "text_zh": "一、在 第5/2022號法律 《以電子方式送交訴訟文書、支付訴訟費用及作出其他行為》規定以外的情況，公共部門向司法機關送交文件時，可透過電子文件，包括按第六條第二款規定經數碼化製成的電子文件，以及電子數據的方式送交。\n二、上款所指的電子文件無須列印為紙張文本；如有需要，得以電子方式查閱。\n三、〔廢止〕",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 125,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_020",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "20",
+    "article_number_normalized": "20",
+    "article_title": "合作的特別義務",
+    "chunk_index": 19,
+    "chapter": "第三節 向司法機關送交文件",
+    "chapter_title": "",
+    "text_zh": "公共部門應向司法機關提供適當的技術工具，以配合理解及審查上條所指電子文件及電子數據。\n第四章\n電子通知服務",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 49,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_021",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "21",
+    "article_number_normalized": "21",
+    "article_title": "加入電子通知服務",
+    "chunk_index": 20,
+    "chapter": "第四章 電子通知服務",
+    "chapter_title": "",
+    "text_zh": "一、利害關係人如欲以電子方式接收行政通知，應事先加入本法律規定的電子通知服務。\n二、利害關係人加入電子通知服務的文書尤其包含下列資料：\n（一）關於利害關係人就有關文書擬涵蓋的事宜、行政程序及公共部門所作的說明；\n（二）利害關係人或其代表就賦予其電子地址以住所的法律效力所作的聲明，該電子地址可以是公共部門提供的電郵地址、安裝在利害關係人所控制的電子設備中的公共部門指定的應用程式或同等技術。\n（三）〔廢止〕",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 181,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_022",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "22",
+    "article_number_normalized": "22",
+    "article_title": "支援電子通知服務的資訊系統",
+    "chunk_index": 21,
+    "chapter": "第四章 電子通知服務",
+    "chapter_title": "",
+    "text_zh": "一、提供電子通知服務的實體應確保資訊系統對以電子方式發送、提供、遞交或不遞交行政通知作相關事實的記錄，並對有關資料作出保護，免受遺失、盜竊、毀損或未經許可改動的風險。\n二、支援電子通知服務的資訊系統應具備能確保下列事宜的特性和功能：\n（一）對收發數據、遞交完整通知內容、開始、中止及終止提供該內容等操作進行控制及記錄，以及使用合格時間戳或同等方法記錄倘有的數據變更的日期和時間；\n（二）連接使用者帳戶系統，以便透過電子方式核實發件人身份和收件人身份；\n（三）將操作資訊系統引致行政通知內容的變更或增加即時通知發件人和收件人，尤其是在收發數據或提供及遞交完整通知內容時；\n（四）安全條件，資訊的完整性和機密性，尤其是透過應用加密技術；\n（五）讓通知的收件人可下載或列印完整的通知內容。\n三、支援電子通知服務的資訊系統應包括一個提供電子通知服務的加入及使用條件等資料的互聯網網站，以及需適時更新的使用該項服務的公共部門的名單。\n四、支援電子通知服務的資訊系統應不停運作，以確保電子通知服務持續供所有利害關係人使用，但系統因需維護或故障而限制進入的情況除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 428,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_023",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "23",
+    "article_number_normalized": "23",
+    "article_title": "電子方式行政通知",
+    "chunk_index": 22,
+    "chapter": "第四章 電子通知服務",
+    "chapter_title": "",
+    "text_zh": "一、發送予通知收件人的電子數據，包括完整通知內容或其他查閱完整通知內容的工具。\n二、以電子方式作出的通知，自收件人查閱其按第二十一條第二款（二）項規定指定的電子地址的特定郵件或通知時視作完成。\n三、如收件人未按上款規定查閱特定郵件或通知，除非能證明無法接收通知屬不可歸責於收件人的情況，否則推定通知在發送後第三日完成，如該日非為工作日，則推定在緊接該日的首個工作日完成，即使通知的收件人居於或身處澳門特別行政區以外。\n四、按本條規定作出的電子方式行政通知，等同於法律規定以公函等任何其他方式通知本人的行政通知。\n五、〔廢止〕",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 237,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_024",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "24",
+    "article_number_normalized": "24",
+    "article_title": "電子通知服務的強制性使用",
+    "chunk_index": 23,
+    "chapter": "第四章 電子通知服務",
+    "chapter_title": "",
+    "text_zh": "一、就某事宜作出行政通知之前，使用電子通知服務的公共部門須核實通知的收件人是否已加入該事宜的電子通知服務；如已加入，通知必須以電子通知服務作出，但第二款及第三款的規定除外。\n二、如支援電子通知服務的資訊系統因技術上的不足或欠缺而引致無法透過電子通知服務作出通知，則以適用於通知內容事宜的制度所規定的方式作出通知。\n三、如所通知的行為或措施具緊急性，公共部門可同時作出第一款規定的電子通知，以及以適用於通知內容事宜的制度所規定的方式向本人作出通知。\n四、如按上款規定以不同方式及在不同日期對利害關係人進行通知，則通知視為於其首次獲通知之日作出。\n第五章\n電子文件的法律推定及證明力",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 268,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_025",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "25",
+    "article_number_normalized": "25",
+    "article_title": "數碼化接待程序中的推定",
+    "chunk_index": 24,
+    "chapter": "第五章 電子文件的法律推定及證明力",
+    "chapter_title": "",
+    "text_zh": "一、如屬下列情況，推定內含文字內容的電子文件源自發出文件的公共部門：\n（一）已遵守第四條第一款的規定且所使用的電子身份識別工具的持有人為第四條第二款所指的人或公共部門；\n（二）電子文件屬經數碼化而製成者，但須已遵守第六條第二款及第三款的規定。\n二、如已使用第十一條規定的一種電子身份識別工具且該工具的持有人為利害關係人或其代表，則推定電子文件源自發出文件的利害關係人。\n三、各項行為和手續的關聯日期及時間，尤其是利害關係人或參與數碼化接待程序的公共部門附入文件的關聯日期及時間，只要是透過使用合格時間戳或同等方法產生，均推定為準確。\n四、如數碼化接待中包括第十一條規定的核實使用者身份的程序，則推定電子身份識別工具持有人是該數碼化接待過程中作出行為的行為人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 303,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_026",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "26",
+    "article_number_normalized": "26",
+    "article_title": "電子通知服務中的推定",
+    "chunk_index": 25,
+    "chapter": "第五章 電子文件的法律推定及證明力",
+    "chapter_title": "",
+    "text_zh": "如證實支援電子通知服務的資訊系統於進行電子方式行政通知的操作時符合第二十二條第二款的規定，則該通知被推定為：\n（一）來自已識別身份的發件人且由其發出；\n（二）第二十三條第一款所指的電子數據是透過已識別身份的收件人的電子地址接收；\n（三）通知內容完整，發送後無可被察覺的改動；\n（四）各項操作的關聯日期及時間是準確的，只要操作是按照第二十二條第二款（一）項的規定進行控制和記錄；\n（五）自進行提供通知內容相關操作的日期和時間開始，完整的通知內容已可交予已識別身份的收件人；\n（六）第二十三條第二款規定的特定郵件或通知已根據（四）項的規定於關聯日期和時間內被查閱；\n（七）查閱上項所指的特定郵件或通知的人，根據第二十一條第二款（二）項的規定為已識別身份的收件人和相關電子地址的持有人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 300,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_027",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "27",
+    "article_number_normalized": "27",
+    "article_title": "電子文件及其他電子數據的證明力",
+    "chunk_index": 26,
+    "chapter": "第五章 電子文件的法律推定及證明力",
+    "chapter_title": "",
+    "text_zh": "一、除法律另有規定外，自公共部門發出的內含文字內容的電子文件，如其作成人已確定，則適用經作出必要配合後的下列規定：\n（一）如屬按第六條第二款規定將存於公共部門的紙本文件數碼化而製成的文件，適用關於各種證明的證明力的規定；\n（二）如屬按第六條第二款規定將非存於公共部門的紙本文件數碼化而製成的文件，適用關於認證繕本的證明力的規定；\n（三）如屬以上兩項未包括的情況且屬由主管機關發出並已遵守第四條第一款和第二款規定的文件，適用關於公文書的證明力的規定。\n二、於數碼化接待程序中自私人發出的數碼格式化表格及內含文字內容的電子文件，如其作成人已確定，則適用經作出必要配合的關於私文書的證明力的規定。\n三、以上兩款未包括的電子文件及其他電子數據的證明力，由法院自由評價，但不影響關於法律上的推定及舉證責任的規定的適用。\n第六章\n最後規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 331,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_028",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "28",
+    "article_number_normalized": "28",
+    "article_title": "登記及公證的行為及程序",
+    "chunk_index": 27,
+    "chapter": "第六章 最後規定",
+    "chapter_title": "",
+    "text_zh": "一、在登記及公證機關進行的行為及程序，尤其是聲明及申請，均可由電子身份識別工具持有人在統一電子平台作出及處理，而其法律效力等同於在該等機關作出及處理相同內容的行為及程序的法律效力，不論法律所規定的形式要求為何，但不影響下款規定的適用。\n二、登記及公證的專有法規明確規定時，上款的規定方適用於以下情況：\n（一）要求簽名須經當場認定的情況；\n（二）有關行為及程序所應附同的文件要求為文件正本或其認證繕本，且其在數碼化接待程序內無法按第十三條第四款及第十四條的規定獲免除遞交的情況；\n（三）為使有關行為及程序有效，應事先當場聽取利害關係人陳述或向利害關係人宣讀或解釋。\n三、〔廢止〕",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 259,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_029",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "29",
+    "article_number_normalized": "29",
+    "article_title": "印花稅",
+    "chunk_index": 28,
+    "chapter": "第六章 最後規定",
+    "chapter_title": "",
+    "text_zh": "一、按本法律規定發出的電子文件，如其內容與附於由六月二十七日 第17/88/M號法律 核准的《印花稅規章》的《印花稅繳稅總表》所提及文件及行為的內容相同，則須按電子文件作出之日的有效稅率繳付印花稅，但不影響下款規定的適用。\n二、按本法律規定發出《印花稅繳稅總表》第十一條所提及的文件時，印花稅按每一份結算及徵收，金額為澳門元十五元。\n三、電子文件印花稅是以憑單印花或適用時的特別印花形式徵收。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 168,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_030",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "30",
+    "article_number_normalized": "30",
+    "article_title": "費用、手續費或其他負擔",
+    "chunk_index": 29,
+    "chapter": "第六章 最後規定",
+    "chapter_title": "",
+    "text_zh": "一、就發出本法律規定的電子文件，尤其是電子證明、組成數碼證照的文件以及就公共部門以電子方式作出的行為，須繳付分別適用於紙本文件及內容相同的行為的法律及規章的規定所規定的費用、手續費或其他負擔，但下款的規定除外。\n二、經行政長官批示，可決定豁免或減少上款規定的關於發出電子文件及公共部門以電子方式作出的行為所適用的費用、手續費或其他負擔。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 156,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子文件"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_031",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "31",
+    "article_number_normalized": "31",
+    "article_title": "電子簽名",
+    "chunk_index": 30,
+    "chapter": "第六章 最後規定",
+    "chapter_title": "",
+    "text_zh": "為適用本法律的規定， 第5/2005號法律 規定的高級電子簽名和合格電子簽名構成電子身份識別工具。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子簽名"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_032",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "32",
+    "article_number_normalized": "32",
+    "article_title": "適用的法律",
+    "chunk_index": 31,
+    "chapter": "第六章 最後規定",
+    "chapter_title": "",
+    "text_zh": "以電子方式處理的行為和手續，由本法律及有關電子政務的規章規定所規範，並補充適用經作出必要配合的 第5/2005號法律 及 《行政程序法典》 的規定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 59,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 1,
+        "matched_keywords": [
+          "電子政務"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_033",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "33",
+    "article_number_normalized": "33",
+    "article_title": "補充規範",
+    "chunk_index": 32,
+    "chapter": "第六章 最後規定",
+    "chapter_title": "",
+    "text_zh": "執行本法律所需的補充法規，由補充性行政法規及行政長官批示制定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 29,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_034",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "34",
+    "article_number_normalized": "34",
+    "article_title": "廢止",
+    "chunk_index": 33,
+    "chapter": "第六章 最後規定",
+    "chapter_title": "",
+    "text_zh": "一、廢止 第5/2005號法律 第三十一條。\n二、在本法律生效前根據 第5/2005號法律 第三十一條第三款核准的規章性規定繼續有效，直至被本法律的補充規範取代或廢止為止。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 64,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_2_2020_ART_035",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_2_2020",
+    "law_name": "電子政務",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "35",
+    "article_number_normalized": "35",
+    "article_title": "生效",
+    "chunk_index": 34,
+    "chapter": "第六章 最後規定",
+    "chapter_title": "",
+    "text_zh": "本法律自公佈後滿一百八十日起生效。\n二零二零年三月十六日通過。\n立法會主席 高開賢\n二零二零年三月十八日簽署。\n命令公佈。\n行政長官 賀一誠",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 59,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "electronic_transactions_and_e_government"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions_and_e_government",
+        "label_zh": "电子交易与电子政务",
+        "score": 3,
+        "matched_keywords": [
+          "电子签名",
+          "电子文件",
+          "电子政务"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2020-03-16",
+    "effective_date": "2020-09-12",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_9596212.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

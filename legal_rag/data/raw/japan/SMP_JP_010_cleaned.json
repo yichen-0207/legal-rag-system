@@ -1,0 +1,988 @@
+[
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_001",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": ". (Purpose)",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The purpose of this Act is to enable payments (including entrustment of payments; hereinafter the same applies in this Article) of national revenue, etc. (including cash for non-revenue and non-expenditure purposes, limited to those relating to the affairs of each ministry or agency; hereinafter referred to as \"revenue, etc.\") by the method using information and communications technology, irrespective of the provisions of other laws and regulations stipulating the methods of payments of national revenue, etc., by providing for the matters necessary for payments of national revenue, etc. by the method using information and communications technology, and thereby to enhance convenience for the persons concerned with making the relevant payments.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The purpose of this Act is to enable payments (including entrustment of payments; hereinafter the same applies in this Article) of national revenue, etc. (including cash for non-revenue and non-expenditure purposes, limited to those relating to the affairs of each ministry or agency; hereinafter referred to as \"revenue, etc.\") by the method using information and communications technology, irrespective of the provisions of other laws and regulations stipulating the methods of payments of national revenue, etc., by providing for the matters necessary for payments of national revenue, etc. by the method using information and communications technology, and thereby to enhance convenience for the persons concerned with making the relevant payments."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 52,
+    "source_end": 804,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_002",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": ". (Definitions)",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The term \"laws and regulations\" as used in this Act means laws, orders based on laws, and Rules of the Supreme Court.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The term \"laws and regulations\" as used in this Act means laws, orders based on laws, and Rules of the Supreme Court."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "term (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 831,
+    "source_end": 948,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_003",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Technology",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 3.\nWith regard to payments of revenue, etc. whose payment method using revenue stamps or other methods of payments are prescribed in the provisions of other laws and regulations concerning the payments of the relevant revenue, etc., as specified by order of the competent ministry (for revenue, etc. relating to the court administration, the Rules of the Supreme Court; hereinafter the same applies in this Chapter to Chapter IV), each ministry or agency may, notwithstanding the provisions of the relevant laws and regulations, have a person who intends to pay the relevant national revenue make payments by the method paying directly using an electronic data processing system or other information and communications technology specified by order of the competent ministry.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 3.\nWith regard to payments of revenue, etc. whose payment method using revenue stamps or other methods of payments are prescribed in the provisions of other laws and regulations concerning the payments of the relevant revenue, etc., as specified by order of the competent ministry (for revenue, etc. relating to the court administration, the Rules of the Supreme Court; hereinafter the same applies in this Chapter to Chapter IV), each ministry or agency may, notwithstanding the provisions of the relevant laws and regulations, have a person who intends to pay the relevant national revenue make payments by the method paying directly using an electronic data processing system or other information and communications technology specified by order of the competent ministry."
+      }
+    ],
+    "topics": [
+      "compensation_benefits",
+      "financial_services",
+      "data_protection",
+      "public_governance",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 13.5,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 1293,
+    "source_end": 2076,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_004",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "Technology",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 4. (Implementation of Payments by the Method Entrusting Payment to a Designated Payments Agent)\nWith regard to payments of revenue, etc., as specified by order of the competent ministry, each ministry or agency may have a designated payments agent (meaning a designated payments agent prescribed in Article 8, paragraph (1); hereinafter the same applies in this Chapter) make payments of the relevant revenue, etc. by the method entrusting payments of the relevant revenue, etc. to the designated payments agent, pursuant to the provisions of the following Article.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 4. (Implementation of Payments by the Method Entrusting Payment to a Designated Payments Agent)\nWith regard to payments of revenue, etc., as specified by order of the competent ministry, each ministry or agency may have a designated payments agent (meaning a designated payments agent prescribed in Article 8, paragraph (1); hereinafter the same applies in this Chapter) make payments of the relevant revenue, etc. by the method entrusting payments of the relevant revenue, etc. to the designated payments agent, pursuant to the provisions of the following Article."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 2358,
+    "source_end": 2931,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_005",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 5. (Entrustment of Payments to a Designated Payments Agent)\n\nIf each ministry or agency has people make payments of revenue, etc. by the method prescribed in the first sentence of the preceding Article, a person who intends to make payments of revenue, etc. by the relevant method must entrust payments of revenue, etc. to a designated payments agent by a method falling under any of the following items:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 5. (Entrustment of Payments to a Designated Payments Agent)\n\nIf each ministry or agency has people make payments of revenue, etc. by the method prescribed in the first sentence of the preceding Article, a person who intends to make payments of revenue, etc. by the relevant method must entrust payments of revenue, etc. to a designated payments agent by a method falling under any of the following items:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 3413,
+    "source_end": 3825,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_006",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 6. (Payments of Revenue by a Designated Payments Agent)\nIf a designated payments agent receives entrustment from a person who intends to make payments of revenue, etc. pursuant to the provisions of the preceding Article (hereinafter referred to as \"entrustment\" in this Article), the designated payments agent must notify the person who intends to make payments of the relevant revenue, etc. to that effect, as specified by order of the competent ministry.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 6. (Payments of Revenue by a Designated Payments Agent)\nIf a designated payments agent receives entrustment from a person who intends to make payments of revenue, etc. pursuant to the provisions of the preceding Article (hereinafter referred to as \"entrustment\" in this Article), the designated payments agent must notify the person who intends to make payments of the relevant revenue, etc. to that effect, as specified by order of the competent ministry."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 4606,
+    "source_end": 5070,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_007",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 7. (Collection of Revenue from a Designated Payments Agent)\nIf a designated payments agent fails to pay the revenue, etc. prescribed in paragraph (3) of the preceding Article by the date specified by order of the competent ministry referred to in the same paragraph, the head of each ministry or agency is to collect the revenue, etc. from the relevant designated payments agent pursuant to the rules on collection that are applicable to national tax guarantors.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 7. (Collection of Revenue from a Designated Payments Agent)\nIf a designated payments agent fails to pay the revenue, etc. prescribed in paragraph (3) of the preceding Article by the date specified by order of the competent ministry referred to in the same paragraph, the head of each ministry or agency is to collect the revenue, etc. from the relevant designated payments agent pursuant to the rules on collection that are applicable to national tax guarantors."
+      }
+    ],
+    "topics": [
+      "compensation_benefits",
+      "tax_law"
+    ],
+    "topics_details": [
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 9.0,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      },
+      {
+        "id": "tax_law",
+        "label_zh": "税法",
+        "label_en": "Tax Law",
+        "label_pt": "Direito Fiscal",
+        "score": 4.5,
+        "matched_keywords": [
+          "tax"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 7573,
+    "source_end": 8043,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_008",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "Chapter IV Designated Payments Agent",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 8. (Designation of a Designated Payments Agent)\nThe head of each ministry or agency may designate a person specified by Cabinet Order as the person who is capable of appropriately and efficiently implementing the service of paying the relevant revenue, etc. to the national government after receiving entrustment from a person who intends to pay revenue, etc. (referred to as \"payment administration services\" in paragraph (5), the following Article, and Article 11, paragraph (1), item (iii)), as a designated payments agent, upon their application, as specified by order of the competent ministry.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 8. (Designation of a Designated Payments Agent)\nThe head of each ministry or agency may designate a person specified by Cabinet Order as the person who is capable of appropriately and efficiently implementing the service of paying the relevant revenue, etc. to the national government after receiving entrustment from a person who intends to pay revenue, etc. (referred to as \"payment administration services\" in paragraph (5), the following Article, and Article 11, paragraph (1), item (iii)), as a designated payments agent, upon their application, as specified by order of the competent ministry."
+      }
+    ],
+    "topics": [
+      "compensation_benefits",
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 10.5,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 8782,
+    "source_end": 9389,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_009",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 9. (Obligation of a Designated Payments Agent to Preserve Books)\n\nA designated payments agent must, as specified by order of the competent ministry, keep books, enter particulars concerning payment administration services in them, and preserve them.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 9. (Obligation of a Designated Payments Agent to Preserve Books)\n\nA designated payments agent must, as specified by order of the competent ministry, keep books, enter particulars concerning payment administration services in them, and preserve them."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 10615,
+    "source_end": 10872,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_010",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": ". (Collection of Reports)",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "If the head of each ministry or agency finds it necessary for enforcing the provisions of Article 6 through the preceding Article, the head may, to the extent necessary, have a designated payments agent make a report, as specified by order of the competent ministry.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "If the head of each ministry or agency finds it necessary for enforcing the provisions of Article 6 through the preceding Article, the head may, to the extent necessary, have a designated payments agent make a report, as specified by order of the competent ministry."
+      }
+    ],
+    "topics": [
+      "federalism_legal"
+    ],
+    "topics_details": [
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "to the extent"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 10910,
+    "source_end": 11176,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_011",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 11. (Revocation of the Designation of a Designated Payments Agent)\nIf a designated payments agent falls under any of the following items, the head of each ministry or agency may revoke the designation under the provisions of Article 8, paragraph (1), as specified by order of the competent ministry:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 11. (Revocation of the Designation of a Designated Payments Agent)\nIf a designated payments agent falls under any of the following items, the head of each ministry or agency may revoke the designation under the provisions of Article 8, paragraph (1), as specified by order of the competent ministry:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 12339,
+    "source_end": 12646,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_012",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "Chapter V Miscellaneous Provisions",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 12. (Publication of Revenue Whose Payment May Be Made by the Method Using Information and Communications Technology)\n\nEach ministry or agency is to publicize the revenue, etc. for the administration of the relevant ministry or agency, by the method using the Internet or other methods, whose payments may be made by the method paying directly using information and communications technology prescribed in Article 3, paragraph (1) and by the method entrusting payment to a designated payments agent prescribed in the first sentence of Article 4.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 12. (Publication of Revenue Whose Payment May Be Made by the Method Using Information and Communications Technology)\n\nEach ministry or agency is to publicize the revenue, etc. for the administration of the relevant ministry or agency, by the method using the Internet or other methods, whose payments may be made by the method paying directly using information and communications technology prescribed in Article 3, paragraph (1) and by the method entrusting payment to a designated payments agent prescribed in the first sentence of Article 4."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "payment"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 14323,
+    "source_end": 14875,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_013",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 13. (Delegation of Authority or Administration)\n\nThe authority or administration of the head of each ministry or agency prescribed in the preceding two Chapters may be delegated to the organs of the relevant each ministry or agency as prescribed by Cabinet Order.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 13. (Delegation of Authority or Administration)\n\nThe authority or administration of the head of each ministry or agency prescribed in the preceding two Chapters may be delegated to the organs of the relevant each ministry or agency as prescribed by Cabinet Order."
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "administration"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 14877,
+    "source_end": 15148,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_014",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 14. (Orders of the Competent Ministry)\n\nOrders of the competent ministry in this Act are Cabinet Secretariat Orders, Cabinet Office Orders, Digital Agency Orders or Ministerial Orders of the Cabinet Secretariat, Cabinet Office, Digital Agency, or each ministry with jurisdiction over other laws and regulations concerning payments of revenue, etc. (excluding the Regulations of the Board of Audit, the Rules of the National Personnel Authority, the Rules of the Fair Trade Commission, the Rules of the National Public Safety Commission, the Rules of the Personal Information Protection Commission, the Rules of the Casino Regulatory Commission, the Rules of the Environmental Disputes Coordination Commission, the Rules of the Public Security Examination Commission, the Rules of the Central Labor Relations Commission, the Rules of the Japan Transport Safety Board, and the Rules of the Nuclear Regulation Authority); provided, however, that these are the Regulations of the Board of Audit, the Rules of the National Personnel Authority, the Rules of the Fair Trade Commission, the Rules of the National Public Safety Commission, the Rules of the Personal Information Protection Commission, the Rules of the Japan Casino Regulatory Commission, the Rules of the Environmental Disputes Coordination Commission, the Rules of the Public Security Examination Commission, the Rules of the Central Labor Relations Commission, the Rules of the Japan Transport Safety Board, and the Rules of the Nuclear Regulation Authority, respectively, for the revenue, etc. under the jurisdiction of the Board of Audit, the National Personnel Authority, the Fair Trade Commission, the National Public Safety Commission, the Personal Information Protection Commission, the Casino Regulatory Commission, the Environmental Disputes Coordination Commission, the Public Security Examination Commission, the Central Labor Relations Commission, the Japan Transport Safety Board, or the Nuclear Regulation Authority.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 14. (Orders of the Competent Ministry)\n\nOrders of the competent ministry in this Act are Cabinet Secretariat Orders, Cabinet Office Orders, Digital Agency Orders or Ministerial Orders of the Cabinet Secretariat, Cabinet Office, Digital Agency, or each ministry with jurisdiction over other laws and regulations concerning payments of revenue, etc. (excluding the Regulations of the Board of Audit, the Rules of the National Personnel Authority, the Rules of the Fair Trade Commission, the Rules of the National Public Safety Commission, the Rules of the Personal Information Protection Commission, the Rules of the Casino Regulatory Commission, the Rules of the Environmental Disputes Coordination Commission, the Rules of the Public Security Examination Commission, the Rules of the Central Labor Relations Commission, the Rules of the Japan Transport Safety Board, and the Rules of the Nuclear Regulation Authority); provided, however, that these are the Regulations of the Board of Audit, the Rules of the National Personnel Authority, the Rules of the Fair Trade Commission, the Rules of the National Public Safety Commission, the Rules of the Personal Information Protection Commission, the Rules of the Japan Casino Regulatory Commission, the Rules of the Environmental Disputes Coordination Commission, the Rules of the Public Security Examination Commission, the Rules of the Central Labor Relations Commission, the Rules of the Japan Transport Safety Board, and the Rules of the Nuclear Regulation Authority, respectively, for the revenue, etc. under the jurisdiction of the Board of Audit, the National Personnel Authority, the Fair Trade Commission, the National Public Safety Commission, the Personal Information Protection Commission, the Casino Regulatory Commission, the Environmental Disputes Coordination Commission, the Public Security Examination Commission, the Central Labor Relations Commission, the Japan Transport Safety Board, or the Nuclear Regulation Authority."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 15150,
+    "source_end": 17146,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2022_SMP_JP_010_ART_015",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2022_SMP_JP_010",
+    "law_name": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_name_original": "Act on Making Payments That Become Part of the National Revenue by the Method Using Information and Communications Technology",
+    "law_type": "Act",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 15. (Delegation to Cabinet Order)\n\nBeyond what is provided for in this Act, other necessary matters for the implementation of this Act are specified by Cabinet Order.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 15. (Delegation to Cabinet Order)\n\nBeyond what is provided for in this Act, other necessary matters for the implementation of this Act are specified by Cabinet Order."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-01",
+    "effective_date": null,
+    "publication_date": "2022-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4445",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_010.json",
+    "source_start": 17148,
+    "source_end": 17322,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:23Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

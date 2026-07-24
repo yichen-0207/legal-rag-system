@@ -1,0 +1,1652 @@
+[
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_002",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.2",
+    "article_number_normalized": "1236_002",
+    "article_title": "Definitions that apply to this part.",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "See\n§ 1220.18 of this subchapter\nfor definitions of terms used throughout Subchapter B, including part 1236.\nAs used in part 1236—\nAdministrative metadata\nare elements of information used to manage records and relate them to one another. Administrative metadata elements describe how a record was created, any access and use restrictions that apply to it, information about the record series to which it belongs, and the disposition schedule that identifies its retention period.\nChecksum\nis a value that is computed on data and is used to authenticate information by indicating when a file has been corrupted or modified. This value is also called a “hash value,” “hash code,” “digest,” or simply “hash.”\nDescriptive metadata\nare elements of information that describe the records or set of records itself. They apply to both the source records and any versions produced through digitization. Descriptive metadata for individual source records include such elements as the title of a record, a description of its contents, its creator, and the date it was created. These elements support searching for and discovering records.\nDigitizing\nis the process of converting paper or analog records into electronic records.\nElectronic information system\nmeans an information system that contains and provides access to computerized Federal records and other information.\nElectronic mail system\nmeans a computer application used to create, receive, and transmit messages and other documents. Excluded from this definition are file transfer utilities (software that transmits files between users but does not retain any transmission data), data systems used to collect and process data that have been organized into data files or data bases on either personal computers or mainframe computers, and word processing documents not transmitted on an e-mail system.\nEmbedded metadata\nare textual components that exist alongside the content (usually binary data) within the file. Embedded metadata may be used to make self-describing digital files that contain administrative rights, and technical metadata and can be appropriately managed outside of a recordkeeping system.\nIntellectual control\nis the information necessary to identify and understand the content and context of the records.\nMedia\nare the physical forms on which records are stored, such as paper, photographs, compact discs, DVDs, analog tapes, flash drives, local hard drives, or servers.\nMetadata\nconsists of preserved contextual information describing the history, tracking, and/or management of an electronic document.\nMixed-media files\nare records in different forms of media. A file, when used in the phrase “mixed-media file,” is a group of records—regardless of location and type of media—that belong together or relate to a topic. For example, a mixed-media case file could be a box with paper notes, audio recordings of interviews, and a CD of photographs, along with physical evidence stored separately in an evidence locker. Records in a file may be in more than one media type because of how agencies create, maintain, and use records, shifts in technology, and the topic or activity involved.\nPhysical characteristics\nof source records include the media, the method that information is recorded, the physical condition of the material, and the smallest level of detail present. The physical characteristics of records printed on paper include: the type of paper (office paper, Thermofax, photographic print); the type of printing (laser printed, fax printed, typewritten, half-toned, handwritten); appearance (color, inks, continuous tone or monochrome images); size, and other methods of conveying information (embossed seals, stamps). These traits determine the methods and equipment used to digitize records.\nPhysical control\nis having the information necessary to physically manage records. This includes knowing where the records are housed, whether any records are missing or stored separately, and the records' physical form (media types, the records' dimensions, and the physical characteristics).\nProject plan\nis a document that identifies the records that are to be digitized, an estimate of their volume and of the media types that are present, the image quality parameters selected to capture necessary information, the date range of the records, a copy of the applicable agency records schedule(s); any indexes used to maintain intellectual and physical control; and a quality management (QM) section that describes quality assurance (QA) objectives, quality control (QC) procedures to identify and correct errors during digitization, and the QC reports that will be used to identify and remediate errors when detected.\nQuality assurance (QA)\nrefers to proactive QM activities focused on preventing defects by ensuring that a particular product or service achieves certain requirements or specifications. A QA program is heavily dependent on QC data to search for patterns and trends. QA activities also include controlled experiments, design reviews of digitization workflows, and system tests. QA programs can improve quality by creating plans and policies or by creating and conducting training.\nQuality control (QC)\nrefers to QM activities that examine products through inspection or testing to determine if they meet predetermined specifications. The purpose is to detect defects (deviations from predetermined requirements) in products or processes.\nQuality management (QM)\nrefers to the overall management functions and underlying activities that determine quality policies, objectives, and responsibilities, and that implement them through planning, control, assurance, and improvement methods within the quality system.\nTechnical metadata\nare elements of information that describe the properties of computer files, the hardware used to create them, and the parameters used by systems to render them. Technical metadata may include elements such as a file's byte size, file format and version, color encoding, and the type of equipment used to make the file (for example, camera name or scanner manufacturer).\nUnstructured electronic records\nmeans records created using office automation applications such as electronic mail and other messaging applications, word processing, or presentation software.\nValidating\nis the process of ensuring that the records meet the requirements of this part.\n74 FR 51014\n, Oct. 2, 2009, as amended at\n84 FR 14266\n, Apr. 10, 2019;\n88 FR 28416\n, May 4, 2023]\n§ 1236.4 What standards are used as guidance for this part?\nThese regulations conform with ISO 15489-1:2001. Paragraph 9.6 (Storage and handling) is relevant to this part.\n§ 1236.6 What are agency responsibilities for electronic records management?\nAgencies must:\nIncorporate management of electronic records into the records management activities required by\nparts 1220-1235 of this subchapter\nIntegrate records management and preservation considerations into the design, development, enhancement, and implementation of electronic information systems in accordance with\nsubpart B of this part\n; and\nAppropriately manage electronic records in accordance with\nsubpart C of this part\nSubpart B—Records Management and Preservation Considerations for Designing and Implementing Electronic Information Systems\n§ 1236.10 What records management controls must agencies establish for records in electronic information systems?\nThe following types of records management controls are needed to ensure that Federal records in electronic information systems can provide adequate and proper documentation of agency business for as long as the information is needed. Agencies must incorporate controls into the electronic information system or integrate them into a recordkeeping system that is external to the information system itself (see\n§ 1236.20 of this part\n).\nReliability:\nControls to ensure a full and accurate representation of the transactions, activities or facts to which they attest and can be depended upon in the course of subsequent transactions or activities.\nAuthenticity:\nControls to protect against unauthorized addition, deletion, alteration, use, and concealment.\nIntegrity:\nControls, such as audit trails, to ensure records are complete and unaltered.\nUsability:\nMechanisms to ensure records can be located, retrieved, presented, and interpreted.\nContent:\nMechanisms to preserve the information contained within the record itself that was produced by the creator of the record;\nContext:\nMechanisms to implement cross-references to related records that show the organizational, functional, and operational circumstances about the record, which will vary depending upon the business, legal, and regulatory requirements of the business activity; and\nStructure: controls to ensure the maintenance of the physical and logical format of the records and the relationships between the data elements.\n§ 1236.12 What other records management and preservation considerations must be incorporated into the design, development, and implementation of electronic information systems?\nAs part of the capital planning and systems development life cycle processes, agencies must ensure:\nThat records management controls (see\n§ 1236.10\n) are planned and implemented in the system;\nThat all records in the system will be retrievable and usable for as long as needed to conduct agency business (i.e., for their NARA-approved retention period). Where the records will need to be retained beyond the planned life of the system, agencies must plan and budget for the migration of records and their associated metadata to new storage media or formats in order to avoid loss due to media decay or technology obsolescence. (See\n§ 1236.14\n.)\nThe transfer of permanent records to NARA in accordance with\npart 1235 of this subchapter\nProvision of a standard interchange format (e.g., ASCII or XML) when needed to permit the exchange of electronic documents between offices using different software or operating systems.\n§ 1236.14 What must agencies do to protect records against technological obsolescence?\nAgencies must design and implement migration strategies to counteract hardware and software dependencies of electronic records whenever the records must be maintained and used beyond the life of the information system in which the records are originally created or captured. To successfully protect records against technological obsolescence, agencies must:\nDetermine if the NARA-approved retention period for the records will be longer than the life of the system where they are currently stored. If so, plan for the migration of the records to a new system before the current system is retired.\nCarry out upgrades of hardware and software in such a way as to retain the functionality and integrity of the electronic records created in them. Retention of record functionality and integrity requires:\nRetaining the records in a usable format until their authorized disposition date. Where migration includes conversion of records, ensure that the authorized disposition of the records can be implemented after conversion;\nAny necessary conversion of storage media to provide compatibility with current hardware and software; and\nMaintaining a link between records and their metadata through conversion or migration, including capture of all relevant associated metadata at the point of migration (for both the records and the migration process).\nEnsure that migration strategies address non-active electronic records that are stored off-line.\nSubpart C—Additional Requirements for Electronic Records\n§ 1236.20 What are appropriate recordkeeping systems for electronic records?\nGeneral.\nAgencies must use electronic or paper recordkeeping systems or a combination of those systems, depending on their business needs, for managing their records. Transitory e-mail may be managed as specified in\n§ 1236.22(c)\nElectronic recordkeeping.\nRecordkeeping functionality may be built into the electronic information system or records can be transferred to an electronic recordkeeping repository, such as a DoD-5015.2 STD-certified product. The following functionalities are necessary for electronic recordkeeping:\nDeclare records.\nAssign unique identifiers to records.\nCapture records.\nImport records from other sources, manually enter records into the system, or link records to other systems.\nOrganize records.\nAssociate with an approved records schedule and disposition instruction.\nMaintain records security.\nPrevent the unauthorized access, modification, or deletion of declared records, and ensure that appropriate audit trails are in place to track use of the records.\nManage access and retrieval.\nEstablish the appropriate rights for users to access the records and facilitate the search and retrieval of records.\nPreserve records.\nEnsure that all records in the system are retrievable and usable for as long as needed to conduct agency business and to meet NARA-approved dispositions. Agencies must develop procedures to enable the migration of records and their associated metadata to new storage media or formats in order to avoid loss due to media decay or technology obsolescence.\nExecute disposition.\nIdentify and effect the transfer of permanent records to NARA based on approved records schedules. Identify and delete temporary records that are eligible for disposal. Apply records hold or freeze on disposition when required.\nBackup systems.\nSystem and file backup processes and media do not provide the appropriate recordkeeping functionalities and must not be used as the agency electronic recordkeeping system.\n§ 1236.22 What are the additional requirements for managing electronic mail records?\nAgencies must issue instructions to staff on the following retention and management requirements for electronic mail records:\nThe names of sender and all addressee(s) and date the message was sent must be preserved for each electronic mail record in order for the context of the message to be understood. The agency may determine that other metadata is needed to meet agency business needs, e.g., receipt information.\nAttachments to electronic mail messages that are an integral part of the record must be preserved as part of the electronic mail record or linked to the electronic mail record with other related records.\nIf the electronic mail system identifies users by codes or nicknames or identifies addressees only by the name of a distribution list, retain the intelligent or full names on directories or distributions lists to ensure identification of the sender and addressee(s) of messages that are records.\nSome e-mail systems provide calendars and task lists for users. These may meet the definition of Federal record. Calendars that meet the definition of Federal records are to be managed in accordance with the provisions of GRS 23, Item 5.\nDraft documents that are circulated on electronic mail systems may be records if they meet the criteria specified in\n36 CFR 1222.10(b)\nof this subchapter.\nAgencies that allow employees to send and receive official electronic mail messages using a system not operated by the agency must ensure that Federal records sent or received on such systems are preserved in the appropriate agency recordkeeping system.\nAgencies may elect to manage electronic mail records with very short-term NARA-approved retention periods (transitory records with a very short-term retention period of 180 days or less as provided by GRS 23, Item 7, or by a NARA-approved agency records schedule) on the electronic mail system itself, without the need to copy the record to a paper or electronic recordkeeping system, provided that:\nUsers do not delete the messages before the expiration of the NARA-approved retention period, and\nThe system's automatic deletion rules ensure preservation of the records until the expiration of the NARA-approved retention period.\nExcept for those electronic mail records within the scope of\nparagraph (c)\nof this section:\nAgencies must not use an electronic mail system to store the recordkeeping copy of electronic mail messages identified as Federal records unless that system has all of the features specified in\n§ 1236.20(b) of this part\nIf the electronic mail system is not designed to be a recordkeeping system, agencies must instruct staff on how to copy Federal records from the electronic mail system to a recordkeeping system.\nAgencies that retain permanent electronic mail records scheduled for transfer to the National Archives must either store them in a format and on a medium that conforms to the requirements concerning transfer at\n36 CFR part 1235\nor maintain the ability to convert the records to the required format and medium at the time transfer is scheduled.\nAgencies that maintain paper recordkeeping systems must print and file their electronic mail records with the related transmission and receipt data specified by the agency's electronic mail instructions.\n§ 1236.24 What are the additional requirements for managing unstructured electronic records?\nAgencies that manage unstructured electronic records electronically must ensure that the records are filed in a recordkeeping system that meets the requirements in\n§ 1236.10\n, except that transitory e-mail may be managed in accordance with\n§ 1236.22(c)\nAgencies that maintain paper files as their recordkeeping systems must establish policies and issue instructions to staff to ensure that unstructured records are printed out for filing in a way that captures any pertinent hidden text (such as comment fields) or structural relationships (e.g., among worksheets in spreadsheets or other complex documents) required to meet agency business needs.\n§ 1236.26 What actions must agencies take to maintain electronic information systems?\nAgencies must maintain inventories of electronic information systems and review the systems periodically for conformance to established agency procedures, standards, and policies as part of the periodic reviews required by\n44 U.S.C. 3506\n. The review should determine if the records have been properly identified and described, and if the schedule descriptions and retention periods reflect the current informational content and use. If not, agencies must submit an SF 115, Request for Records Disposition Authority, to NARA.\nAgencies must maintain up-to-date documentation about electronic information systems that is adequate to:\nSpecify all technical characteristics necessary for reading and processing the records contained in the system;\nIdentify all inputs and outputs;\nDefine the contents of the files and records;\nDetermine restrictions on access and use;\nUnderstand the purpose(s) and function(s) of the system;\nDescribe update cycles or conditions and rules for adding, changing, or deleting information in the system; and\nEnsure the timely, authorized disposition of the records.\n§ 1236.28 What additional requirements apply to the selection and maintenance of electronic records storage media for permanent records?\nAgencies must maintain the storage and test areas for electronic records storage media containing permanent and unscheduled records within the following temperature and relative humidity ranges:\nTemperature—62° to 68 °F.\nRelative humidity—35% to 45%.\nElectronic media storage libraries and test or evaluation areas that contain permanent or unscheduled records must be smoke-free.\nFor additional guidance on the maintenance and storage of CDs and DVDS, agencies may consult the National Institute of Standards and Technology (NIST) Special Publication 500-252, Care and Handling of CDs and DVDs at\nhttp://www.itl.nist.gov/iad/894.05/papers/CDandDVDCareandHandlingGuide.pdf\ncontact phone number (301) 975-6478.\nAgencies must test magnetic computer tape media no more than 6 months prior to using them to store electronic records that are unscheduled or scheduled for permanent retention. This test should verify that the magnetic computer tape media are free of permanent errors and in compliance with NIST or industry standards.\nAgencies must annually read a statistical sample of all magnetic computer tape media containing permanent and unscheduled records to identify any loss of data and to discover and correct the causes of data loss. In magnetic computer tape libraries with 1800 or fewer tape media, a 20% sample or a sample size of 50 media, whichever is larger, should be read. In magnetic computer tape libraries with more than 1800 media, a sample of 384 media should be read. Magnetic computer tape media with 10 or more errors should be replaced and, when possible, lost data must be restored. All other magnetic computer tape media which might have been affected by the same cause (i.e., poor quality tape, high usage, poor environment, improper handling) must be read and corrected as appropriate.\nBefore the media are 10 years old, agencies must copy permanent or unscheduled data on magnetic records storage media onto tested and verified new electronic media.\nSubpart D—Digitizing Temporary Federal Records\n, Apr. 10, 2019, unless otherwise noted.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "records_management",
+      "legal_definitions",
+      "quality_management",
+      "intellectual_property_licensing",
+      "data_management",
+      "regulatory_scope",
+      "public_administration",
+      "electronic_transactions",
+      "contract_design"
+    ],
+    "topics_details": [
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 120.0,
+        "matched_keywords": [
+          "electronic records management",
+          "recordkeeping system",
+          "disposition authority",
+          "records management",
+          "records disposition",
+          "preservation (weak)",
+          "storage media (weak)",
+          "archives (weak)",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 43.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "definition",
+          "definitions",
+          "refers to",
+          "definition (weak)",
+          "term (weak)"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 41.0,
+        "matched_keywords": [
+          "quality management",
+          "quality assurance",
+          "image quality",
+          "specifications",
+          "quality (weak)",
+          "assurance (weak)",
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      },
+      {
+        "id": "intellectual_property_licensing",
+        "label_zh": "知识产权与许可",
+        "label_en": "IP Licensing",
+        "label_pt": "Licença de Propriedade Intelectual",
+        "score": 15.5,
+        "matched_keywords": [
+          "data (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 15.0,
+        "matched_keywords": [
+          "records management"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 13.5,
+        "matched_keywords": [
+          "in accordance with",
+          "scope (weak)",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 11.0,
+        "matched_keywords": [
+          "agency (weak)",
+          "official (weak)",
+          "compliance (weak)"
+        ]
+      },
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 6.0,
+        "matched_keywords": [
+          "electronic document"
+        ]
+      },
+      {
+        "id": "contract_design",
+        "label_zh": "合同与设计",
+        "label_en": "Contract & Design",
+        "label_pt": "Contrato e Design",
+        "score": 4.0,
+        "matched_keywords": [
+          "design (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 12,
+    "source_end": 55,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_030",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.30",
+    "article_number_normalized": "1236_030",
+    "article_title": "Requirements for digitizing temporary records.",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "If an agency intends to digitally reproduce (digitize) temporary records in order to use the digitized records in place of the source records, the agency must:\nDigitize the record to the standards in\n§ 1236.32\nValidate the digitization according to\n§ 1236.34\n; and\nManage the digital records according to the requirements in\nsubparts A\n, and\nC of this part\nWhen an agency disposes of source records, the agency must follow the requirements in\n§ 1236.36\n89 FR 46804\n, May 30, 2024]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "records_management",
+      "quality_management",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 3.5,
+        "matched_keywords": [
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 3.5,
+        "matched_keywords": [
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 3.0,
+        "matched_keywords": [
+          "agency (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 21102,
+    "source_end": 21156,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_032",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.32",
+    "article_number_normalized": "1236_032",
+    "article_title": "Digitization standards.",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "When digitizing temporary records, agencies must meet the following standards:\nCapture all information contained in the source records;\nInclude all the pages or parts from the source records;\nEnsure the agency can use the digitized records for all the purposes the source records serve, including the ability to attest to transactions and activities;\nProtect against unauthorized deletions, additions, or alterations to the digitized versions; and\nEnsure the agency can locate, retrieve, access, and use the digitized versions for the records' entire retention period.\n84 FR 14266\n, Apr. 10, 2019, as amended at\n89 FR 46804\n, May 30, 2024]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "quality_management",
+      "records_management"
+    ],
+    "topics_details": [
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 6.0,
+        "matched_keywords": [
+          "must meet",
+          "standards (weak)"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 4.0,
+        "matched_keywords": [
+          "records (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 21640,
+    "source_end": 21671,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_034",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.34",
+    "article_number_normalized": "1236_034",
+    "article_title": "Validating digitization.",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Agencies must validate that the digitized records are of suitable quality to replace source records.\nAgencies may establish their own validation process or use third-party processes to validate that the digitized records comply with\n§ 1236.32\n. The process may be project-based or agency-wide policy.\nAgencies must document the validation process and retain that documentation for the life of the process or the life of any records digitized using that process, whichever is longer.\nNARA may review validation documentation as needed.\n84 FR 14266\n, Apr. 10, 2019, as amended at\n89 FR 46804\n, May 30, 2024]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "records_management"
+    ],
+    "topics_details": [
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 3.0,
+        "matched_keywords": [
+          "records (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 22314,
+    "source_end": 22346,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_036",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.36",
+    "article_number_normalized": "1236_036",
+    "article_title": "Disposing of source records.",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "When an agency disposes of source records, it must have an approved agency records schedule or identify an applicable General Records Schedule.\nWhen an agency has validated that the digitized versions meet the standards in\n§ 1236.32\n, the agency may destroy the source records according to General Records Schedule (GRS) 4.5 Digitizing Records.\nAgencies must consider any existing legal restrictions, such as a litigation hold, before destroying the source records.\nAgencies must manage the digitized records in the same way it would have managed the source records. Agencies must retain the digitized records for the remaining portion of any retention period established by the applicable records schedule.\nAgencies do not need NARA approval to destroy scheduled temporary source records they have digitized according to this part.\n89 FR 46804\n, May 30, 2024]\nSubpart E—Digitizing Permanent Federal Records\n, May 4, 2023, unless otherwise noted.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "records_management",
+      "litigation_procedure",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 7.5,
+        "matched_keywords": [
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "litigation"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 3.0,
+        "matched_keywords": [
+          "agency (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 22955,
+    "source_end": 22991,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_040",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.40",
+    "article_number_normalized": "1236_040",
+    "article_title": "Scope of this subpart.",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This subpart establishes processes and requirements to ensure that agencies:\nIdentify the records the agency will digitize in each project;\nAccount for all records covered by the project, regardless of media type;\nImplement quality management techniques to verify equipment performance and monitor processes to detect and correct errors;\nProduce complete and accurate digitized records that the agency can use for all the same purposes as the source records; and\nValidate that the resulting digitized records meet the standards in this subpart.\nThis subpart covers the standards and procedures agencies must apply when digitizing permanent paper records using reflective digitization techniques. Such records include most paper-based documents, regardless of size, such as modern textual documents, maps, posters, manuscripts, graphic arts prints (for example, lithographs or intaglio), drawings, bound volumes, and photographic prints. This subpart also covers any records that may be incorporated into mixed-media records.\nThis subpart does not cover standards and procedures agencies must apply when digitizing permanent records using transmissive digitization techniques. Such records include photographic negatives, transparencies, aerial film, roll film, and micrographic and radiographic materials. In addition, this subpart does not cover digitizing records on dynamic media. Such records include motion picture film, video, and audio tapes.\nFor guidance on digitizing out-of-scope media types or non-paper-based portions of mixed-media records, such as dynamic media, radiographic, negative or positive film, or other special media types, please contact the Records Management Policy and Standards Team by email at\nrmstandards@nara.gov\nor by phone at 301-837-1948.\nThis subpart does not require that optical character recognition (OCR) be performed during digitization. However, these regulations do not prevent agencies from performing OCR to meet their business needs.\nThis subpart does not address other applicable laws and regulations governing documents and digital files, including, but not limited to, proper handling of classified or controlled unclassified information (CUI) and compliance with\n36 CFR part 1194\n(section 508). Agencies should work with their legal counsel and other officials to ensure compliance with these and other applicable requirements.\nThis subpart also does not address other business needs or legal constraints that may make it necessary for an agency to retain source records for a period of time after digitizing. Agencies should work with their legal counsel and other officials to determine whether such retention might be necessary because it relates to rights and interests, appeal rights, benefits, national security, litigation holds, or other similar reasons.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "records_management",
+      "quality_management",
+      "national_security",
+      "regulatory_scope",
+      "litigation_procedure",
+      "compensation_benefits",
+      "data_management",
+      "public_administration",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 27.0,
+        "matched_keywords": [
+          "digitizing permanent records",
+          "records management",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 19.5,
+        "matched_keywords": [
+          "quality management",
+          "quality (weak)",
+          "performance (weak)",
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 12.0,
+        "matched_keywords": [
+          "national security",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 9.75,
+        "matched_keywords": [
+          "scope of this subpart (title, +5)",
+          "scope (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 9.0,
+        "matched_keywords": [
+          "litigation",
+          "appeal (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 9.0,
+        "matched_keywords": [
+          "benefits",
+          "benefits (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.75,
+        "matched_keywords": [
+          "records management"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 6.75,
+        "matched_keywords": [
+          "agency (weak)",
+          "compliance (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.75,
+        "matched_keywords": [
+          "in this subpart"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 23941,
+    "source_end": 23971,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_041",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.41",
+    "article_number_normalized": "1236_041",
+    "article_title": "Definitions for this subpart.",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In addition to the definitions contained in\n§ 1220.18 of this subchapter\nand\n§ 1236.2\n, the following definitions apply to this subpart:\nAccuracy\nis the degree to which the information correctly describes the object or process being measured. It can be thought of in terms of how close a reading or average of readings is to a true or target value. Accuracy is a different measure than precision.\nAdobe RGB\nis a red, green, blue color space developed to display on computer monitors most of the colors that CMYK color printers produce. The Adobe RGB color space is significantly larger than the sRGB color space, particularly in the cyan and green regions.\nAimpoint\nis a specific value assigned to a given metric to assess performance achievement.\nArtifact (defect)\nis a general term to describe a broad range of undesirable flaws or distortions in digital reproductions produced during image capture or data processing. Some common forms of image artifacts include noise, chromatic aberration, blooming, interpolation, and imperfections created by compression.\nBatch\nis a group of files that are created under the same conditions or are related intellectually or physically. During digitization, batches represent groups of records that are digitized and undergo QC inspection processes together.\nBit depth\nis the number of bits used to represent each pixel in an image. The term is sometimes used to represent bits per pixel and at other times, the total number of bits used multiplied by the number of total channels. For example, a typical color image using 8 bits per channel is often referred to as a 24-bit color image (8 bits x 3 channels). Color scanners and digital cameras typically produce 24-bit (8 bits x 3 channels) images or 36-bit (12 bits x 3 channels) capture, and high-end devices can produce 48-bit (16-bit x 3 channels) images. Bit depth is also referred to as “color depth.”\nClipping\nis the abrupt truncation of a signal when the signal exceeds a system's ability to differentiate signal values above or below a particular level. In the case of images, the result is that there is no differentiation of light tones when the clipping is at the high end of signal amplitude, and no differentiation of dark tones when clipping occurs at the low end of signal amplitude.\nCMYK\nis a subtractive color model used in printing that is based on cyan (C), magenta (M), yellow (Y), and black (K). These are typically referred to as “process colors.” Cyan absorbs the red component of white light, magenta absorbs green, and yellow absorbs blue. In theory, the mix of the three colors will produce black, but black ink is also used to increase the density of black in a print.\nColor accuracy\nis measured by computing the color difference (ΔE2000) between the digital imaging results of the standard target patches and their premeasured color values. By imaging an appropriate target and evaluating through the software, variances from known values can be determined, which is a good indicator of how accurately the system is recording color. Analytical software measures the average deviation of all color patches measured (the mean).\nColor channel misregistration\nis the measurement of color-to-color spatial dislocation of otherwise spatially coincident color features of a digitized object.\nColor management\nis using software, hardware, and procedures to measure and control color in an imaging system, including capture and display devices.\nColor space\nis a specific organization of colors that supports reproducible representations of color in combination with color profiling supported by various devices. A color space can be a helpful conceptual tool for describing or understanding the color capabilities of a particular device or digital file. Examples of color spaces include Adobe RGB 1998, sRGB, ECIRGB_v2, and ProPhoto RGB.\nCompression, lossless\nis a technique for data compression that will allow the decompressed data to be exactly the same as the original data before compression, bit-for-bit. The compression of data is achieved by coding redundant data in a more efficient manner than in the uncompressed format.\nCompression, visually lossless\nis a form or manner of lossy compression where the data that is lost after the file is compressed and decompressed is not detectable to the human eye; the compressed data appearing identical to the uncompressed data.\nDigital Image Conformance Evaluation (DICE)\nis the measurement and monitoring component of the Federal Agencies Digital Guidelines Initiative (FADGI) Conformance Program. The program consists of measuring ISO-compliant reference targets and using analysis software such as OpenDICE for testing and monitoring digitization programs to ensure they meet FADGI technical parameters. Agencies can access FADGI-compliant tools and resources online at\nhttp://www.digitizationguidelines.gov/guidelines/digitize-OpenDice.html\nDigitization project\nis any action an agency (including an agent acting on the agency's behalf, such as a contractor) takes to digitize permanent records. For example, a digitization project can range from a one-time digitization effort to a multiyear digitization process; can involve digitizing a single document into a digital records management system or digitizing boxes of records from storage facilities; or can include digitizing active records as part of an ongoing business process or digitizing inactive records for better access.\nDigitized record\nis a digital record created by converting paper or other media formats to a digital form that is of sufficient authenticity, reliability, usability, and integrity to serve in place of the source record.\nDynamic range\nis the ratio between the smallest and largest possible values of a changeable quantity, frequently encountered in imaging or recorded sound. Dynamic range is another way of stating the maximum signal-to-noise ratio.\nFederal Agencies Digital Guidelines Initiative (FADGI)\nis a collaborative effort by Federal agencies to articulate Technical Guidelines that form the basis for many of the technical parameters in this part, which equate to the FADGI three-star level. Agencies can access FADGI online at\nhttp://www.digitizationguidelines.gov/guidelines/digitize-technical.html\nGrayscale\nis an image type lacking any chromatic data, consisting of shades of gray ranging from white to black. Most commonly seen as having 8 bits per pixel, allowing for 256 shades or levels of intensity.\nImage quality\nis the degree of perceived or objective measurement of a digital image's overall accuracy in faithfully reproducing an original. A digital image created to a high degree of accuracy meets or exceeds objective performance attributes (such as level of detail, tonal and color fidelity, and correct exposure), and has minimal defects (such as noise, compression artifacts, or distortion).\nLightness uniformity\nmeasures how evenly a lens records the lighting of neutral reference targets from center to edge and between points within the image.\nModulation transfer function (MTF)/spatial frequency response (SFR)\nis the modulation ratio between the output image and the ideal image. SFR measures the imaging system's ability to maintain contrast between progressively smaller image details. Using these two functions, a system can make an accurate determination of resolution related to the sampling frequency.\nNewton's Rings\nare interference patterns that appear as a series of concentric, alternating light and dark rings of colored light (when imaged in a color mode). This type of interference is caused when smooth transparent surfaces come into contact with small gaps of air between the surfaces. The light waves reflect from the top and bottom surfaces of the air film formed between the surfaces, causing light rays to constructively or destructively interfere with each other. The areas where there is constructive interference will appear as light bands and the areas where there is destructive interference will appear as dark bands.\nNoise\nis one or more undesirable image artifact(s) in a digitized record that is not part of the source material.\nPixels per inch (ppi),\ndescribes the resolution capabilities of an imaging device, such as a scanner, or the resolution of a digital image. PPI is different from dots per inch (dpi).\nPosterization\nis an effect produced by reducing the number of tones (colors) in an image so that there is a noticeable distinction between one tone and another instead of a gradual shift between them.\nPrecision\nis the characteristic of measurement that relates to the consistency between multiple measurements, under uniform conditions, of the same item or process. As opposed to accuracy, precision does not indicate how close a measurement is to a true value.\nQuantization\nis a lossy compression technique that involves compressing a range of values to a single quantum value, usually to reduce file size. This may result in flaws in an image, such as posterization, caused by reducing the data available in an image file to represent aspects like colors.\nRaster image\nis a digitally encoded representation of a subject's tonal and brightness information into a bitmap. Data from digital cameras and scanning devices record light characteristics as numerical values into a grid, or raster, of picture elements (pixels).\nReference target\nis a chart of test patterns and patches with known standard values used to evaluate the performance of an imaging system.\nReflective digitization\nis a process in which an imaging system captures reflected light off of scanned objects such as bound volumes, loose pages, cartographic materials, illustrations, posters, photographic prints, or newsprint.\nReproduction scale accuracy\nmeasures the relationship between the physical size of the original object and the size in pixels per inch (PPI) of that object in the digital image.\nResolution\nis the level of spatial detail rendered by an imaging system as measured by MTF/SFR.\nSampling frequency\nmeasures the imaging spatial resolution and is computed as the physical pixel count or pixels per unit of measurement, such as pixels per inch (PPI). This parameter provides information about the size of the original and the data needed to determine the level of detail recorded in the file. (\nSee also\nmodulation transfer function (MTF)/spatial frequency response (SFR).)\nSharpening\nartificially enhances details to create the illusion of greater definition. Image quality testing using the SFR quantifies the level of sharpening introduced by imaging systems or applied by users in post-processing actions.\nSource record\nis the record from which a digitized version or digitized record is created. The source record should be the record copy that was used in the course of agency business.\nSpatial resolution\ndetermines the amount (for example, quantity, PPI, megapixels) of data in a raster image file in terms of the number of picture elements or pixels per unit of measurement, but it does not define or guarantee the quality of the information. Spatial resolution defines how finely or widely spaced the individual pixels are from each other. The actual rendition of fine detail is more dependent on the SFR of the scanner or digital camera.\nsRGB\nis a standard RGB color space created by HP and Microsoft for use on monitors, printers, and the internet. sRGB uses the ITU-R BT.709-5 primaries that are also used in studio monitors and HDTV, and a transfer function (gamma correction) typical of CRTs (cathode ray tube TVs and computer monitors), all of which permits sRGB to be directly displayed on typical monitors. The sRGB gamma is not represented by a single numerical value. The overall gamma is approximately 2.2, consisting of a linear (gamma 1.0) section near black, and a non-linear section elsewhere involving a 2.4 exponent and a gamma changing from 1.0 through about 2.3.\nTolerance\nis the allowable deviation from a specified value.\nTone response or optoelectronic conversion function (OECF)\nis a measure of how accurately the digital imaging system converts light levels into digital pixels.\nTransmissive digitization\nis a process in which the system transmits light through a photographic slide or negative.\nWhite balance error\nis a measurement of the digital file's color neutrality. The definition of “neutral” is not universal: RGB workflows that use digital count values encode neutral as defined by the International Color Consortium (ICC) color space chosen. L*a*b* workflows define neutral as 0 on the a* axis and b* axis, with the lightness recorded from 0-100 on the L* axis.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "legal_definitions",
+      "quality_management",
+      "data_management",
+      "records_management",
+      "intellectual_property_licensing",
+      "data_protection",
+      "government_procurement",
+      "government_contracting"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 34.0,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "definition",
+          "definitions",
+          "in this part",
+          "definition (weak)",
+          "defined (weak)",
+          "term (weak)"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 11.0,
+        "matched_keywords": [
+          "image quality",
+          "quality (weak)",
+          "performance (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "data processing",
+          "records management"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 9.0,
+        "matched_keywords": [
+          "records management",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "intellectual_property_licensing",
+        "label_zh": "知识产权与许可",
+        "label_en": "IP Licensing",
+        "label_pt": "Licença de Propriedade Intelectual",
+        "score": 8.0,
+        "matched_keywords": [
+          "data (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "data processing"
+        ]
+      },
+      {
+        "id": "government_procurement",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "contractor"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "contractor"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 26787,
+    "source_end": 26824,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_042",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.42",
+    "article_number_normalized": "1236_042",
+    "article_title": "Records management requirements.",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Before starting a digitization project, agencies must establish intellectual control of the records that will be digitized. Intellectual control means having the information necessary to identify and understand the content and context of the records. One traditional records management technique to establish intellectual control is the creation of an inventory. The inventory must identify whether the records are complete, if there are any gaps in coverage or missing records, the presence of any mixed-media records, the disposition schedule under which the records fall, the date range when the records were created, any access or use restrictions that apply to the records, and the records' storage location.\nAgencies must identify any relationships between the source records in order to retain these relationships between the digitized versions. For example, are there case files that are associated by case number? Does a folder contain multiple documents that are stapled together? Are there digital components of a mixed-media file stored on removable media (DVD or USB drives)? What is the relationship of the folder to other folders in a box? Any relationships must be captured as part of the digitization process:\nThrough metadata (See\n§ 1236.54\nfor metadata requirements);\nBy organizing the folder structure of a file system;\nBy using file formats that allow for multi-page files, such as PDF or TIFF; or\nThrough a combination of these approaches.\nIn addition, the inventory can be used to identify all the elements of physical control needed for the records to be digitized. Physical control includes understanding the physical characteristics of source records. Physical characteristics determine a project's scope, and the image capture techniques and equipment to be used. For example, the type of paper, the type of printing, or the size of the records can impact what methods and equipment are used to digitize records.\nThere are additional considerations for managing the source records during the digitization process:\nEnsure there are appropriate safeguards for the source records to prevent their loss or damage.\nRestrict access to source records while they are being digitized to minimize the risk of unauthorized additions, deletions, or alterations.\nEnsure there is a process to identify and document gaps in coverage or missing records.\nAgencies must ensure that records are free from unauthorized alteration, destruction, or deletion by complying with the mechanisms and controls specified in\n§§ 1236.10\nand\n1236.20\nThe agency may generate checksums using the SHA-256 hash algorithm and record them as technical metadata in a recordkeeping system for each image file when digitization is complete and the agency determines that the records are no longer in active use and the metadata are no longer subject to any changes that may result from ongoing business use. Use the checksums to monitor the digitized records for corruption or alteration and capture them as metadata as required in\n§ 1236.54\n; or\nThe agency may perform file integrity monitoring or file comparison audits.\nIf there are born-digital records that are part of the record series within the project, follow the instructions for managing mixed-media records in\n§ 1236.52",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "records_management",
+      "data_management",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 31.5,
+        "matched_keywords": [
+          "records management (title, +5)",
+          "recordkeeping system",
+          "metadata requirements",
+          "records management",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 9.5,
+        "matched_keywords": [
+          "records management (title, +5)",
+          "records management"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 39438,
+    "source_end": 39478,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_044",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.44",
+    "article_number_normalized": "1236_044",
+    "article_title": "Documenting digitization projects.",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Agencies must create digital documentation when digitizing permanent source records. The agency must retain this documentation alongside the digitized records until the digitized records have been transferred to NARA and NARA has notified the agency that the accessioning process is complete. The agency must dispose of the documentation in accordance with an appropriate General Records Schedule (GRS) or agency records schedule. The required documentation will help the agency populate the Transfer Request instrument (TR) in NARA's Electronic Records Archives (ERA). The following documents are required:\nA defined project plan that identifies:\nRecord series or file units to be digitized;\nMethod that will be used to name digitized records;\nEstimated date range of the source records;\nMissing pages;\nGaps or missing records in the series. Depending on the type of gap or missing records, indicate if there will be charge-out cards for skipped or missing records that will be inter-filed if they are transferred at a later date;\nEstimated volume, media types, dimensions, physical characteristics, and condition of the source records;\nEquipment and software used to digitize records;\nEstimated file storage requirements for the digitized records. The file storage needs may affect project decisions, such as compression and file format;\nAny access or use restrictions that apply to the records;\n10\nMethod used to capture the relationships that exist between source records once they are digitized; and\n11\nAny metadata element labels that differ from those specified in\n§ 1236.54\nAny information needed to associate the digitized records to the source records' agency records schedule(s) including the item numbers;\nAny related finding aids, indexes, inventories, logs, registers, or metadata schemas the agency uses to manage the records that can serve as sources for the metadata required in",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "records_management",
+      "public_administration",
+      "regulatory_scope"
+    ],
+    "topics_details": [
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 12.5,
+        "matched_keywords": [
+          "archives (weak)",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "agency (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 4.5,
+        "matched_keywords": [
+          "in accordance with"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 42749,
+    "source_end": 42791,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_046",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.46",
+    "article_number_normalized": "1236_046",
+    "article_title": "Quality management requirements.",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Quality assurance (QA) requirements.\nThe agency must meet the image quality performance parameters specified in\n§ 1236.50\nby verifying how well the equipment meets the aim points and tolerances of the parameters. The agency cannot rely solely on equipment specifications, such as scanner ppi settings or camera sensor megapixels, to ensure digital image quality.\nThe agency must use QA processes to:\nQuantify scanner or camera performance before selecting the equipment by scanning a reference target and measuring the results with analytical software to determine if the equipment meets the technical parameters.\nii\nEvaluate internal or external vendor imaging systems against image quality performance parameters;\niii\nMonitor equipment performance by quantifying scanner or camera performance during digitization; and\niv\nVerify that resulting digital files meet project specifications.\nQuality Control (QC) requirements.\nThe agency must implement QC inspection and monitoring processes to ensure that images meet the digitization image quality parameters in\n§ 1236.50\nThe Federal Agencies Digital Guidelines Initiative (FADGI) Digital Image Conformance Evaluation program (DICE) is a QC inspection and monitoring process that uses image targets and analysis software to verify compliance. Applied properly, this methodology will ensure agencies meet the requirements in\n§ 1236.50\nIf the agency does not adopt the FADGI Conformance Evaluation program, it must document both the procedures used and how it verified conformance to the quality parameters.\nQuality Control (QC) testing and analysis.\nDuring the digitization process, the agency must perform QC testing and analysis to identify malfunctioning or improperly configured digitization equipment, improper software application settings, incorrect metadata capture, or human error, and take corrective actions. It must:\nImplement an image quality analysis process and use reference targets to verify that digitization devices conform to imaging parameters in this subpart;\nReplace reference targets as they fade or accumulate dirt, scratches, and other surface marks that reduce their usability;\nRegularly test equipment to ensure scanners and digital cameras/copy systems are performing optimally. It must:\nScan a reference target containing a grayscale, color chart, and accurate dimensional scale at the beginning of each workday;\nii\nUse image quality analysis software to verify that the performance evaluation specifications are being met; and\niii\nPerform additional tests when problems are detected.\nTest equipment with the specific software/device driver combination(s), and re-test after any changes to the workflow; and\nEnsure that equipment operation, settings, and image processing actions are the same as those used to evaluate the test target. Turn off auto correction settings in the capture equipment such as “auto exposure” that may cause non-conformance of the target evaluation or the resulting image files.\nQuality control inspection.\nThe agency must perform QC inspections of the digital records for compliance with the technical parameters and criteria specified in this subpart. The inspection must ensure 100% of the image files:\nCan open and be displayed;\nii\nAre encoded with a compression type and in a format specified in\n§ 1236.48\n; and\niii\nHave the resolution, color mode, bit depth, and color profile specified in\n§ 1236.50\nThe agency must perform a visual inspection using a statistically valid technique:\nThe agency may visually inspect a random sample of a minimum of ten digital records or 10% of each batch of digital records, whichever is larger; or\nii\nThe agency may employ a statistically valid sampling plan to verify that the image quality, file quality, metadata quality, and completeness requirements have been met. Agencies that employ their own sampling technique must include documentation of the method used, as specified in\n§ 1236.44(d)(3)(i)\nVisual inspection must be conducted using a calibrated graphics workstation and using a monitor set to 100% magnification to check the following image quality characteristics:\nImage tone, brightness, contrast, and color accuracy match the specifications in\n§ 1236.50\nii\nImages are free from clipping (missing detail lost in highlights or shadows);\niii\nImages are free from color channel misregistration, or quantization errors;\niv\nImages are free of any image artifacts that compromise the informational content of the record, such as dust, Newton's rings, missing pixels, scan lines, drop-outs, flare, or over-sharpening; and\nImages are not improperly cropped, have the expected dimensions and orientation (landscape/horizontal or portrait/vertical), and images are not flipped, inverted, or skewed.\nCorrective measures.\nIf the inspection reveals errors, perform the following steps until there is a 100% success rate for the sample set:\nIf 1% or more of examined records fail to meet any of the criteria in\n§ 1236.50\n, determine the source and scope of any errors, correct or re-digitize affected records, and reinspect the images by following the requirements in\nparagraph (d)\nof this section;\nIf less than 1% of examined records fail to meet any of the criteria in\n§ 1236.50\n, determine the source and scope of any errors and correct or re-digitize the affected records.\nInspection for other quality aspects.\nThe agency must inspect the resulting files to verify that they meet the metadata and records completeness requirements:\nMetadata quality.\nThe agency must evaluate the accuracy of metadata. This may be done using automated techniques if appropriate. Otherwise, the QC inspections must be done manually. These inspections must ensure that:\nFiles are named according to project specifications; and\nii\nCorrect administrative, descriptive, and technical metadata are captured in a recordkeeping system and in image files.\nRecords completeness.\nThe agency must employ automated and visual inspection processes to verify the completeness and accuracy of digitization:\nVerify that all records have been accounted for by referring to box lists, folder title lists, or other inventories;\nii\nCompare source records with their digitized versions to verify that 100% of the informational content has been captured;\niii\nCompare source records with their digitized versions to verify the digitized records are in the same order;\niv\nExamine records for related envelopes, notes, or other forms of media to verify that all sources of record information have been digitized;\nVerify that any mixed-media records that cannot be digitized are associated with the digitized records using the “Relation” metadata elements in\n§ 1236.54(c)\n; and\nvi\nConfirm that missing pages or images have been noted in the project documentation.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "quality_management",
+      "records_management",
+      "public_administration",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 70.5,
+        "matched_keywords": [
+          "quality management (title, +5)",
+          "quality assurance",
+          "quality performance",
+          "performance parameters",
+          "image quality",
+          "must meet",
+          "specifications",
+          "quality (weak)",
+          "assurance (weak)",
+          "performance (weak)",
+          "requirements (weak)"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 13.5,
+        "matched_keywords": [
+          "recordkeeping system",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 9.5,
+        "matched_keywords": [
+          "agency (weak)",
+          "compliance (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.0,
+        "matched_keywords": [
+          "in this subpart"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 45679,
+    "source_end": 45719,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_048",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.48",
+    "article_number_normalized": "1236_048",
+    "article_title": "File format requirements.",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The agency must encode, retain, and transfer digitized records in one of the following file formats, either uncompressed or using one of the specified compression codecs in tables 1 and 2 to this section.\nAgencies that combine multiple uncompressed TIFF images into PDF/A files using JPEG2000 compression must perform the quality inspection step specified in 1236.46(d) against the resulting PDF/A files.\nWhen using JPEG 2000 visually lossless compression, agencies must determine the amount of compression to apply, not to exceed 20:1, by performing tests and visually evaluating for compression artifacts that obscure or alter the information content.\nThe agency must encode, retain, and transfer digitized permanent paper records in one of the following file formats, either uncompressed or with one of the compression codecs specified in table 1 to this\nparagraph (b)\nTable 1 to Paragraph (\n)—File Format Requirements for Digitized Permanent Paper Records Table\nFormat name and version\nAcceptable compression codecs\nTIFF 6.0\nUncompressed, Deflate (ZIP).\nJPEG2000 part 1 (ISO/IEC 15444-1:2019)\nJPEG 2000 part 1 core coding system lossless compression. Agencies may use up to 20:1 visually lossless compression.\nPortable network graphics 1.2 (PNG)\nDeflate (ZIP).\nPDF/A (Select any version of PDF/A that meets project requirements. However, do not use the attachments feature in PDF/A-3 or PDF/A-4\nDeflate (ZIP), JPEG 2000 part 1 core coding system lossless compression. Agencies may use up to 20:1 visually lossless compression.\nThe agency must encode, retain, and transfer digitized photographic print records in one of the following file formats, either uncompressed or with one of the compression codecs specified in the table 2 to this\nparagraph (c)\nFor a series of predominantly textual records with interspersed photographic prints, use the formats in table 1 to\nparagraph (b)\nof this section for paper records. All photographic prints must be digitized according to the standards in\n§ 1236.50\nFor a series of predominantly printed photographs, including those with paper records interspersed, use the file formats in table 2 to this\nparagraph (c)\nfor photographic print records.\nHowever, the agency must not transcode, or interpolate (upsample) files anywhere in the workflow.\nTable 2 to Paragraph (\n)—File Format Requirements for Digitized Permanent Photographic Print Records Table\nFormat name and version\nAcceptable compression codecs\nTIFF 6.0\nUncompressed, Deflate (ZIP).\nJPEG2000 part 1 (ISO/IEC 15444-1:2019)\nJPEG 2000 part 1 core coding system lossless compression. Agencies may use up to 20:1 visually lossless compression.\nPortable network graphics 1.2 (PNG)\nDeflate (ZIP).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "records_management",
+      "quality_management",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 5.5,
+        "matched_keywords": [
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 5.5,
+        "matched_keywords": [
+          "quality (weak)",
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 3.0,
+        "matched_keywords": [
+          "agency (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 52488,
+    "source_end": 52521,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_050",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.50",
+    "article_number_normalized": "1236_050",
+    "article_title": "Requirements for digitizing permanent paper and photographic print records.",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Overview.\nThis section describes the minimum requirements appropriate for digitizing paper records. Depending on the physical characteristics of the source records, the agency must select the applicable specifications described in either table 1 to\nparagraph (d)\nof this section for modern textual paper records or the table 2 to\nparagraph (e)\nof this section for photographic prints and paper records with fine details. Agencies must implement appropriate equipment, lighting, special handling, or imaging methods to ensure the capture of all information. Agencies may exceed these requirements, if necessary, to capture fine detail or to meet their own business needs.\nImage quality parameters.\nThe performance parameters are based on FADGI three-star aim points and tolerance ranges.\nEquipment requirements.\nThe equipment used to digitize Federal records must be appropriate for the media type, and capable of achieving documented project objectives without damaging the source records.\nRequirements for digitizing modern textual paper records.\nFor these records, produce image files at a minimum of 300 ppi sized to the source document.\nRecords suitable for the specifications in table 1 to this\nparagraph (d)\nfor modern textual paper records are modern textual documents with a well-defined printed type (such as typeset, typed, laser-printed), and with moderate to high contrast between the ink of the text and the paper background. Performance metric values in table 1 for modern textual paper records conform to the FADGI “Documents (Unbound): Modern Textual Records” category, and are appropriate when source records do not have visible content with L* values darker than 20. Neutral reference patches on the evaluation test target with L* less than 20 are not used for analysis.\nFor other paper records such as manuscripts, illustrations, graphics, and documents with poor legibility or diffuse characters (such as carbon copies or Thermofax) that have visible content with L* values darker than 20, agencies must evaluate neutral reference patches on the evaluation test target with L* greater than 20. (These values equate to FADGI three-star for “Documents (Unbound): General Collections”).\nThe agency must digitize in an acceptable RGB color mode if records contain color or other characteristics that are necessary to interpret the information of the source record, or that would be lost when digitizing using grayscale gamma 2.2.\nAt a minimum, the agency must digitize the paper records covered by this paragraph to the following parameters:\nTable 1 to Paragraph (\n)—Requirements for Digitizing Permanent, Modern Textual Paper Records Table\nDigital file specifications\nAttributes\nColor mode\ncolor or grayscale.\nBit depth\n8 or 16.\nColor space\ngray gamma 2.2, AdobeRGB1998, sRGB, ProPhoto RGB, ECIRGBv2.\nResolution (Sampling Frequency) (Units are Pixels Per Inch/ppi minus Reproduction Scale Accuracy)\n≥294 ppi (300 ppi—2%).\nMeasurement parameters\nPerformance metric values\nDifference from aim (applies to 20 ≤ L* ≤ 100).\nTone Response (OECF) L* (Units Colorimetric ΔL*) gray patches that meet the measurement parameters\n± 5.\nWhite Balance (Units Colorimetric ΔE(a*b*)) gray patches that meet the measurement parameters\n≤4%.\nLightness Uniformity (Units Colorimetric—Standard Deviation Divided by Mean L*)\n≤3%.\nAverage Color Accuracy (Units Colorimetric—Mean ΔE 2000—for patches meeting the measurement parameters)\n≤ 3.5.\nColor Accuracy 90th Percentile (Units Colorimetric—2.5 times average deviation for patches meeting the measurement parameters)\n≤ 8.75.\nColor Channel Misregistration (Units Pixels)\n0.5 pixel.\nSFR 10 (Sampling Efficiency) (Measurement is a Ratio %)\n>80%.\nMTF50 (50% SFR) (Percentage of Half Sampling Frequency) [Lower, Upper]\nPercentage of half sampling frequency: [>40%, <75%].\nReproduction Scale Accuracy (Units % Difference from Header PPI)\n<±2%.\nSharpening (Units Max Modulation)\n< 1.1.\nNoise (Upper Limit) (Units Std Dev of L*)\n2.\nNoise (Warning Limit) (Units Std Dev of L*)\n≥.25.\nRequirements for digitizing photographic prints and paper records that have fine details.\nRecords that have fine detail, require a high degree of color accuracy, or have other unique characteristics, must be captured using the specifications in table 2 to this\nparagraph (e)\nfor photographic prints and paper records with fine details. For these records, produce image files (as described table 2) at a minimum of 400 ppi sized to the source document (these performance values equate to FADGI three-star category “Prints and Photographs”). It may be necessary to apply a higher resolution than the minimum for some records that have fine detail.\nThese specifications apply to records such as photographic prints, graphic-arts prints (for example, lithographs or intaglio), drawings, embossed seals, and records that have information that cannot be captured by the parameters in table 1 to\nparagraph (d)\nof this section for modern textual paper records.\nFor records in which the smallest significant detail is 1.0 mm or smaller, such as aerial photographs and topographic maps (which require a high degree of enlargement and precision to ensure the dimensional accuracy of the scans), the agency must increase the resolution to capture all the information in the source record.\nii\nFor many imaging devices, increasing the ppi settings may not increase the actual resolution level or capture the desired detail. The equipment for digitizing records with fine detail must be capable of meeting the higher quality parameters. It may be necessary to exceed the parameters in table 2 to this\nparagraph (e)\nto capture all the information inherent in the records.\nThe agency must digitize photographic prints, including monochrome and black and white, using a color mode.\nThe agency must digitize in an acceptable color mode if records contain color or other characteristics that are necessary to interpret the information of the source record, or that would be lost when digitizing using grayscale gamma 2.2.\nAt a minimum, agencies must digitize all records covered by this paragraph to the following parameters:\nTable 2 to Paragraph (\n)—Requirements for Digitizing Permanent, Photographic Print Records and Paper Records That Have Fine Details\nDigital file specifications\nAttributes\nColor mode\ncolor or grayscale.\nBit depth\n8 or 16.\nColor space\nGray gamma 2.2, AdobeRGB1998, ProPhoto RGB, ECIRGBv2.\nResolution (Sampling Frequency) (Units are Pixels Per Inch/ppi minus Reproduction Scale Accuracy)\n≥392 ppi (400 ppi—2%).\nMeasurement parameters\nPerformance metric values\nTone Response (OECF) L* (Units Colorimetric ΔL2000*) for any given gray patch\n± 4.\nWhite Balance (Units Colorimetric ΔE(a*b*)) for any given gray patch\n≤4.\nLightness Uniformity (Units Colorimetric − Standard Deviation Divided by Mean)\n<3%.\nAverage Color Accuracy(Units Colorimetric—Mean ΔE 2000—average deviation of all patches)\n<3.5.\nColor Accuracy 90th Percentile (Units Colorimetric—2.5 times average deviation of all patches)\n<8.75.\nColor Channel Misregistration (Units Pixels)\n<0.5 pixel.\nSFR10 (Sampling Efficiency) (Measurement is a Ratio %)\n80%.\nSFR50 (50% SFR) (Units Percentage of Half Sampling Frequency) [Lower, Upper]\nPercentage of half sampling frequency: [>40%, <75%].\nReproduction Scale Accuracy (Units % Difference from Header PPI)\n<± 2%.\nSharpening (Units Max Modulation)\n<1.1.\nNoise (Upper Limit) (Units Std Dev of L*)\n<2.\nNoise (Lower Limit) (Units Std Dev of L*)—A warning should be raised if the image doesn't meet this criteria\n≥.25.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "quality_management",
+      "records_management",
+      "regulatory_scope",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 31.0,
+        "matched_keywords": [
+          "performance parameters",
+          "image quality",
+          "specifications",
+          "quality (weak)",
+          "performance (weak)",
+          "requirements (weak)"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 17.0,
+        "matched_keywords": [
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 6.0,
+        "matched_keywords": [
+          "applies to",
+          "applies (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.0,
+        "matched_keywords": [
+          "agency (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 55216,
+    "source_end": 55299,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_052",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.52",
+    "article_number_normalized": "1236_052",
+    "article_title": "Requirements for digitizing permanent mixed-media records.",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Mixed-media files are records that belong together or relate to a common topic and are stored on more than one media type. Mixed-media files result from the processes agencies use to create, maintain, and use records. For example, a case file may include paper records, online digital records, and digital records on storage media.\nFor any non-paper media, agencies must analyze the contents to determine whether any files are records.\nIf the media contains records that are temporary, manage them according to their appropriate GRS or agency-specific records authority.\nIf the media contains records that are permanent, but not part of the digitized record series, locate their disposition schedule and capture them in a digital information system that complies with the requirements in\n§ 1222.26 of this subchapter\nand\n§§ 1236.10\nthrough\n1236.14\nIf the media contains born-digital components of mixed-media files that are related to the digitized records series, capture the born-digital records in a recordkeeping system in accordance with\n§ 1222.26 of this subchapter\nand associate the born-digital records with any related records once they are digitized using the “Relation” metadata elements in\n§ 1236.54\nIf they are permanent records stored on a media type that is out of scope for this subpart, document this information according to the instructions in\n§ 1236.44\n. Agencies must maintain the association between records using the “Relation” metadata elements specified in\n§ 1236.54\nContact the Records Management Policy and Standards Team at\nrmstandards@nara.gov\nfor guidance on what to do with types of media in a mixed-media file that are outside the scope of this subpart, such as dynamic media, x-rays, negative or positive film, or other special media types.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "records_management",
+      "regulatory_scope",
+      "data_management",
+      "quality_management"
+    ],
+    "topics_details": [
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 19.5,
+        "matched_keywords": [
+          "recordkeeping system",
+          "records management",
+          "storage media (weak)",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 12.5,
+        "matched_keywords": [
+          "scope of this subpart",
+          "in accordance with",
+          "scope (weak)",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "records management"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 3.5,
+        "matched_keywords": [
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 62841,
+    "source_end": 62907,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_054",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.54",
+    "article_number_normalized": "1236_054",
+    "article_title": "Metadata requirements.",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "General.\nTo ensure that intellectual and physical control of the digital records can be maintained, this regulation specifies metadata elements that must be captured in a recordkeeping system, or embedded in each file, or both captured in a recordkeeping system and embedded in each file. Ensure that the metadata remains accurate and consistent regardless of where it is stored.\nIf using metadata to capture relationships between source records as required in\n§ 1236.42(b)\n, agencies must use the “Relation” metadata elements in table 1 to\nparagraph (c)(1)\nof this section for basic administrative metadata.\nIf using different metadata labels from the ones required in this section, agencies must document the labels that the agency uses and note this in the Details section of the ERA (Electronic Records Archive) Transfer Request (TR).\nDetermine the appropriate level to be used as the source of descriptive metadata. Depending on the agency's existing recordkeeping practices and level of intellectual control, use information from the project, record series, file unit, or item level as the source for administrative, technical, and descriptive metadata fields. If the components of a record have not been individually indexed with unique descriptions, apply the series or file unit-level descriptions to all of the image files within that grouping. If the components of the record do not have individual titles, the agency must apply the item Record IDs instead.\nInclude additional metadata if it is captured. If other metadata elements are provided in addition to the metadata requirements in this subpart, NARA will accept that metadata as part of the transfer process.\nMetadata capture requirements.\nAgencies must:\nCapture the metadata specified by\nparagraphs (c)\nthrough\n(e)\nof this section at the file or item level as part of the digitization project;\nCreate file names and record IDs that are unique to each image file;\nEmbed the metadata specified by\nparagraph (c)\nof this section in each image file, capture and maintain it in a recordkeeping system, associate it with the records it describes, and keep it consistent and accurate in both places;\nEnsure that scanning equipment embeds the system-generated technical metadata specified by table 4 to\nparagraph (e)(1)\nof this section for format technical metadata and table 5 to\nparagraph (e)(2)\nof this section for processing technical metadata in each image file, and ensure that image processing does not alter or delete it; and\nTransfer metadata to NARA in CSV format.\nAdministrative metadata.\nCapture in a recordkeeping system and embed in each image file the following administrative metadata:\nTable 1 to Paragraph (\n)(1)—Basic Administrative Metadata\nMetadata label\nDescription\nRequirement level\nIdentifier: File Name\nThe complete name of the computer file, including its extension\nMandatory (file names are an inherent attribute of each file so there is no need to embed them as an element of metadata).\nIdentifier: Record ID\nThe unique identifier assigned by an agency or a records management system.\n36 CFR 1236.20(b)(1)\nrequires that agencies assign unique identifiers to each record\nMandatory.\nIdentifier: Records Schedule Item #\nThe number assigned to the agency records schedule or GRS item to which the record belongs\nMandatory.\nRelation: Has Part\nA related record that is either physically or logically required in order to form a complete record. Mixed-media files that contain records on multiple media types must use this element to identify all components\nMandatory if a record includes multiple parts, such as the component parts of a case file or mixed-media file.\nRelation: Is Part Of\nA related record or file in which the described record is physically or logically included. Use this element to indicate that a record is a component of a mixed-media file\nMandatory if file is a component of a multi-part record.\nCapture in a recordkeeping system and embed in each file any of the following access and use restrictions the metadata inherited from the source records:\nTable 2 to Paragraph (\n)(2)—Access and Use Restrictions Administrative Metadata\nMetadata label\nRequired fields\nDescription\nRequirement level\nAccess Restrictions\nAccess Restriction Status\nIndicate whether or not there are access restrictions on the record\nMandatory.\nSpecific Access Restriction\nSpecific access restrictions on the record, based on national security considerations, donor restrictions, court orders, and other statutory or regulatory provisions, including Privacy Act and Freedom of Information Act (FOIA) exemptions\nMandatory if access restriction exists\nUse Restrictions\nUse Restriction Status\nIndicate whether or not there are use restrictions on the record\nMandatory.\nSpecific Use Restriction\nThe type of use restrictions on the record, based on copyright, trademark, service mark, donor, or statutory provisions\nMandatory if use restriction exists.\nRights: Rights Holder\nA person or organization owning or managing intellectual property rights relating to the record\nMandatory if there is a rights holder.\nDescriptive metadata.\nCapture the following descriptive metadata from source records at the lowest level needed to support access and preservation and to maintain contextual information. Depending on the agency's existing recordkeeping practices and level of intellectual control, it may use information from the project level, record series, file unit, or item, as the source for descriptive metadata. If the components of a record have not been individually indexed with unique descriptions, apply the series or file unit-level descriptions to all of the image files within that grouping. If source records share a common material type or dimensions, auto-populate the source type and source dimension metadata. If the components of the record do not have individual titles, the agency must apply the item Record IDs instead. Capture the metadata in a recordkeeping system for each image file:\nTable 3 to Paragraph (\n)—Descriptive Metadata Table\nMetadata label\nDescription\nRequirement level\nTitle\nA name given to the source record. If a name does not exist, the mandatory metadata element Identifier: Record ID serves as the title for the record\nMandatory.\nDescription\nA narrative description of the content of the record, including abstracts of documents\nMandatory.\nCreator\nThe agent (person, agency, other organization, etc.) primarily responsible for creating the source record\nMandatory.\nDate: Creation Date\nThe date or date range indicating when the source record met the definition of a Federal record\nMandatory.\nSource Type\nThe medium of the source record that was scanned to create a digital still image\nMandatory.\nSource Dimensions\nThe dimensions of the source record (including unit of measure)\nMandatory.\nTechnical metadata.\nEnsure that the following values are embedded in each image file and that image processing does not delete or alter them:\nTable 4 to Paragraph (\n)(1)—Technical Metadata—Image Table\nMetadata label\nDefinition\nRequirement level\nDate Time Created\nThe date or date-and-time the digital image was created\nMandatory.\nImage Width\nThe width of the digital image,\ni.e.,\nhorizontal or X dimension, in pixels\nMandatory.\nImage Height\nThe height of the digital image,\ni.e.,\nvertical or Y dimension, in pixels\nMandatory.\nColor Space\nThe name of the International Color Consortium (ICC) profile used\nMandatory.\nBits Per Sample\nNumber of bits per component\nMandatory.\nSamples Per Pixel\nThe number of components per pixel. Usually, 1 for grayscale images and 3 for RGB images\nMandatory.\nEnsure that the following process metadata elements are recorded for each image file:\nTable 5 to Paragraph (\n)(2)—Technical Metadata—Process Table\nMetadata label\nDefinition\nRequirement level\nScanner Make and Model\nThe manufacturer and model of the scanner used to create the image\nMandatory if using a scanner.\nDigital Camera Make and Model\nThe manufacturer and model of the digital camera used to create the image\nMandatory if using a digital camera.\nSoftware Name and Version\nThe name and version of the software used to capture the image\nMandatory if using scanning software.\nCapture the following technical metadata in a recordkeeping system for each image file, and use them to monitor digital records for corruption or alteration:\nTable 6 to Paragraph (\n)(3)—Technical Metadata—Checksum Table\nFixity metadata label\nDescription\nRequirement level\nMessage Digest Algorithm\nThe specific algorithm used to construct the message digest for the digital object or bitstream\nMandatory if using checksums as described in\n§ 1236.42(e)(1)\nMessage Digest (checksum)\nThe output of Message Digest Algorithm\nMandatory if using checksums as described in\n§ 1236.42(e)(1)",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "records_management",
+      "legal_definitions",
+      "intellectual_property",
+      "quality_management",
+      "national_security",
+      "public_administration",
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 36.0,
+        "matched_keywords": [
+          "metadata requirements (title, +5)",
+          "recordkeeping system",
+          "metadata requirements",
+          "records management",
+          "preservation (weak)",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 19.0,
+        "matched_keywords": [
+          "definition",
+          "in this subpart",
+          "in this section",
+          "definition (weak)"
+        ]
+      },
+      {
+        "id": "intellectual_property",
+        "label_zh": "知识产权",
+        "label_en": "Intellectual Property",
+        "label_pt": "Propriedade Intelectual",
+        "score": 13.5,
+        "matched_keywords": [
+          "intellectual property",
+          "copyright",
+          "trademark"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 6.5,
+        "matched_keywords": [
+          "capture requirements",
+          "requirements (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "national security",
+          "national security (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 5.0,
+        "matched_keywords": [
+          "agency (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "records management"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 64684,
+    "source_end": 64714,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_056",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.56",
+    "article_number_normalized": "1236_056",
+    "article_title": "Validating digitized records and disposition authorities.",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "When a digitization project is complete, the agency must validate that the digitized versions meet the standards in this subpart.\nSeparate staff must conduct the validation, independent from the staff that performed the digitization QC inspections described in\n§ 1236.46\nAgencies must verify that:\nAll records identified in the project's scope have either been digitized or have been identified in project documentation as missing or incomplete records (and the agency must note this information in the Details section of the ERA TR when transferring the records);\nAll required metadata are accurate, complete, and correctly labeled;\nAll image technical attributes specified in\n§ 1236.50\nhave been met;\nAll image files are legible and all physical characteristics necessary to understand and use the records have been captured;\nMixed-media files are digitized appropriately for the material type, or if mixed-media components are retained in their original format, they are associated with digitized components through metadata, per the requirements specified in\n§ 1236.54(c)\n; and\nProject documentation has been created according to",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "legal_definitions",
+      "records_management",
+      "quality_management"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this subpart"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 3.0,
+        "matched_keywords": [
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 3.0,
+        "matched_keywords": [
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 73463,
+    "source_end": 73528,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T36_P1236_2009_ART_1236_058",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T36_P1236_2009",
+    "law_name": "Electronic Records Management",
+    "law_name_original": "Electronic Records Management",
+    "law_type": "CFR",
+    "article_number": "1236.58",
+    "article_number_normalized": "1236_058",
+    "article_title": "Transfer metadata.",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "When agencies transfer permanent records to the National Archives' legal and physical custody, the agency must provide transfer metadata to NARA. The transfer metadata must be entered into the Electronic Records Archives (ERA) when the Transfer Request (TR) is created to begin transferring the records. Each transfer of digital records must include the following metadata that applies to the transfer as a whole:\nTable 1 to\n§ 1236.58\n—Transfer Metadata Table\nMetadata label\nRequired fields\nDescription\nRequirement level\nTransfer Request Number\nThe number automatically generated when a Transfer Request is created\nMandatory.\nTransfer Title\nThe name assigned to the collection, set or series of records the agency is transferring to NARA\nMandatory.\nDates\nInclusive Start Date\nThe beginning date on which the record group, collection, series, or set the agency is transferring to NARA was created, maintained, or accumulated by the creator\nMandatory.\nInclusive End Date\nThe last date on which the record group, collection, series, or set the agency is transferring to NARA was created, maintained, or accumulated by the creator\nMandatory.\nCreating Organization\nThe name of the organization responsible for creating, accumulating, or maintaining the collection, series, or set when in working (primary) use\nMandatory.\nRecord Group Number\nParent Record Group Number\nThe unique number assigned to a record group\nMandatory.\nGeneral Records Type\nThe general form of the records set, series, or collection the agency is transferring, including but not limited to: architectural and engineering drawings, artifacts, data files, maps and charts, moving images, photographs, and other graphic materials, sound recordings, textual records, or web pages\nMandatory.\nAccess Restrictions\nAccess Restriction Status\nIndicate whether or not there are access restrictions on the set, collection, or series of records the agency is transferring to NARA\nMandatory.\nSpecific Access Restriction\nSpecific access restrictions on the set, collection, or series of records, including but not limited to: restrictions based on national security considerations, donor restrictions, court orders, and other statutory or regulatory provisions, including Privacy Act and Freedom of Information Act (FOIA) exemptions\nMandatory if access restriction exists.\nUse Restrictions\nUse Restriction Status\nIndicate whether or not there are use restrictions on the set, collection, or series of records transferring to NARA\nMandatory.\nSpecific Use Restriction\nThe type of use restrictions on the set, collection, or series of records, including but not limited to restrictions based on: copyright, trademark, service mark, donor, or statutory provisions, including Privacy Act and Freedom of Information Act (FOIA) exemptions\nMandatory if use restriction exists.\nRecords Schedule Number\nThe number NARA assigned to the agency records schedule that applies to all the records in the collection, series, or set transferring\nMandatory.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "records_management",
+      "intellectual_property",
+      "regulatory_scope",
+      "data_protection",
+      "national_security",
+      "intellectual_property_licensing",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 10.5,
+        "matched_keywords": [
+          "archives (weak)",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "intellectual_property",
+        "label_zh": "知识产权",
+        "label_en": "Intellectual Property",
+        "label_pt": "Propriedade Intelectual",
+        "score": 9.0,
+        "matched_keywords": [
+          "copyright",
+          "trademark"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 8.0,
+        "matched_keywords": [
+          "applies to",
+          "applies (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "national security",
+          "national security (weak)"
+        ]
+      },
+      {
+        "id": "intellectual_property_licensing",
+        "label_zh": "知识产权与许可",
+        "label_en": "IP Licensing",
+        "label_pt": "Licença de Propriedade Intelectual",
+        "score": 5.5,
+        "matched_keywords": [
+          "data (weak)",
+          "copyright (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "agency (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2009-10-02",
+    "effective_date": "2026-06-05",
+    "publication_date": "2009-10-02",
+    "last_amended_date": "2026-06-05",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-36/part-1236",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T36_P1236_36_CFR_Part_1236_--_Electronic_Records_Management.txt",
+    "source_start": 76039,
+    "source_end": 76065,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:29Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

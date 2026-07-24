@@ -1,0 +1,414 @@
+[
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_019_ART_001",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_019",
+    "law_name": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_name_original": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": ". (Terms)",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The terms used in this Ministerial Order have the meanings set forth in the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information (hereinafter referred to as the \"Act\").",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The terms used in this Ministerial Order have the meanings set forth in the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information (hereinafter referred to as the \"Act\")."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "telecommunications",
+          "telecommunications service"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-27",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4444",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_019.json",
+    "source_start": 20,
+    "source_end": 304,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_019_ART_002",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_019",
+    "law_name": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_name_original": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 2. (Sender Identification Information)\n\nInformation that is conducive to the identification of the sender of the violating information specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 2, item (vi) of the Act is set forth as follows:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 2. (Sender Identification Information)\n\nInformation that is conducive to the identification of the sender of the violating information specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 2, item (vi) of the Act is set forth as follows:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-27",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4444",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_019.json",
+    "source_start": 306,
+    "source_end": 594,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_019_ART_003",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_019",
+    "law_name": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_name_original": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 3. (Specified Sender Identification Information)\n\nSender identification information specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 5, paragraph (1) of the Act (limited to the portions other than those listed in each item) is the information prescribed in items (ix) through (xiii) of the preceding Article.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 3. (Specified Sender Identification Information)\n\nSender identification information specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 5, paragraph (1) of the Act (limited to the portions other than those listed in each item) is the information prescribed in items (ix) through (xiii) of the preceding Article."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-27",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4444",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_019.json",
+    "source_start": 8490,
+    "source_end": 8854,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_019_ART_004",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_019",
+    "law_name": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_name_original": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 4. (Sender Identification Information Other than Specified Sender Identification Information Specified in Order of the Ministry of Internal Affairs and Communications Referred to in Article 5, paragraph (1), item (iii), (b) of the Act)\n\nSender identification information other than specified sender identification information specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 5, paragraph (1), item (iii), (b) of the Act is information prescribed in Article 2, item (i) where the specified telecommunications service provider does not have information prescribed in Article 2, item (ii); information prescribed in Article 2, item (ii) where the specified telecommunications service provider does not have information prescribed in Article 2, item (i); information prescribed in Article 2, item (iii); information prescribed in Article 2, item (iv); or information prescribed in Article 2, item (viii).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 4. (Sender Identification Information Other than Specified Sender Identification Information Specified in Order of the Ministry of Internal Affairs and Communications Referred to in Article 5, paragraph (1), item (iii), (b) of the Act)\n\nSender identification information other than specified sender identification information specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 5, paragraph (1), item (iii), (b) of the Act is information prescribed in Article 2, item (i) where the specified telecommunications service provider does not have information prescribed in Article 2, item (ii); information prescribed in Article 2, item (ii) where the specified telecommunications service provider does not have information prescribed in Article 2, item (i); information prescribed in Article 2, item (iii); information prescribed in Article 2, item (iv); or information prescribed in Article 2, item (viii)."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 12.0,
+        "matched_keywords": [
+          "telecommunications",
+          "telecommunications service"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-27",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4444",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_019.json",
+    "source_start": 8856,
+    "source_end": 9812,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_019_ART_005",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_019",
+    "law_name": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_name_original": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 5. (Violation-related telecommunications)\n\nTransmission of identification codes and other codes by telecommunications specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 5, paragraph (3) of the Act is the following transmission of the identification codes and other codes by telecommunications where that transmission is reasonably associated with the transmission of the violating information specified in the paragraph, respectively.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 5. (Violation-related telecommunications)\n\nTransmission of identification codes and other codes by telecommunications specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 5, paragraph (3) of the Act is the following transmission of the identification codes and other codes by telecommunications where that transmission is reasonably associated with the transmission of the violating information specified in the paragraph, respectively."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-27",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4444",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_019.json",
+    "source_start": 9814,
+    "source_end": 10302,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_019_ART_006",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_019",
+    "law_name": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_name_original": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": ". (Means of Provision)",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Electronic or magnetic means specified by Order of the Ministry of Internal Affairs and Communications referred to in Article 15, paragraph (1), item (i) of the Act is any of the following means:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Electronic or magnetic means specified by Order of the Ministry of Internal Affairs and Communications referred to in Article 15, paragraph (1), item (i) of the Act is any of the following means:"
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 11.0,
+        "matched_keywords": [
+          "means (title, +5)",
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-27",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4444",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_019.json",
+    "source_start": 13219,
+    "source_end": 13414,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_019_ART_007",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_019",
+    "law_name": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_name_original": "Regulation for Enforcement of the Act on the Limitation of Liability of Specified Telecommunications Service Providers for Damages and the Right to Demand Disclosure of Sender Identification Information",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 7. (Sender Identification Information Specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 15, paragraph (1), item (i), (b) of the Act)\n\nSender identification information specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 15, paragraph (1), item (i), (b) of the Act is the information specified respectively in the relevant item, depending on the categories set forth in the following items:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 7. (Sender Identification Information Specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 15, paragraph (1), item (i), (b) of the Act)\n\nSender identification information specified in Order of the Ministry of Internal Affairs and Communications referred to in Article 15, paragraph (1), item (i), (b) of the Act is the information specified respectively in the relevant item, depending on the categories set forth in the following items:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2022-05-27",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4444",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_019.json",
+    "source_start": 15155,
+    "source_end": 15644,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

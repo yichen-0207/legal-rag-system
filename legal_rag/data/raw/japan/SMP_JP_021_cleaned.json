@@ -1,0 +1,66 @@
+[
+  {
+    "doc_id": "JP_Act_1984_SMP_JP_021_ART_001",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_1984_SMP_JP_021",
+    "law_name": "Ministerial Order Specifying Identification Information of the Senders under Article 4, Paragraph (1), of the Act on the Limitation of Liability for Damages of Specified Telecommunications Service Providers and the Right to Demand Disclosure of Identification Information of the Sender",
+    "law_name_original": "Ministerial Order Specifying Identification Information of the Senders under Article 4, Paragraph (1), of the Act on the Limitation of Liability for Damages of Specified Telecommunications Service Providers and the Right to Demand Disclosure of Identification Information of the Sender",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Information that contributes to the identification of the sender of the violating information as prescribed in Article 4, paragraph (1), of the and specified in this Order of the Ministry of Internal Affairs and Communications is set forth as follows:\n\ni\n\n(i)name of the sender or any other person who is concerned with the transmission of the violating information;\n\nii\n\n(ii)address of the sender or any other person who is concerned with the transmission of the violating information;\n\niii\n\n(iii)electronic mail address of the sender (meaning characters, numbers, symbols, and other codes for identifying the user of that electronic mail);\n\niv\n\n(iv)IP address related to the violating information (meaning the IP address as prescribed in Article 164, paragraph (2), item (iii) of the (Act No. 86 of 1984)) and port number combined with the IP address (meaning the number assigned for the purpose of identifying the program used for communications by telecommunications facilities connected to the internet (meaning telecommunications facilities as prescribed in Article 2, item (ii) of that Act; the same applies hereinafter));\n\nv\n\n(v)internet connection service user identification code obtained from a mobile phone terminal or a PHS terminal related to the violating information (hereinafter referred to as the \"mobile phone terminal, etc.\") (meaning characters, numbers, symbols, and other codes assigned by a telecommunications carrier that provides internet connection services (meaning telecommunications carriers as prescribed in Article 2, item (v) of the ; the same applies hereinafter) for the purpose of identifying on the internet the user of the internet connection services from the mobile phone terminal, etc. (meaning transmission line facilities for terminals that have wireless connection for the end connected to user's telecommunications facilities (meaning terminal facilities as prescribed in Article 52, paragraph (1), of that Act) or customer-owned and maintained telecommunications facilities (meaning customer-owned and maintained telecommunications facilities as prescribed in Article 70, paragraph (1), of that Act), which is connected to the mobile phone terminal, etc. with a browser installed at one end, and of the telecommunications services (telecommunications services as prescribed in Article 2, item (iii) of that Act; the same applies hereinafter) that enables connection to the internet using the browser, transmitted by telecommunications (meaning telecommunications as prescribed in Article 2, item (i), of that Act; the same applies hereinafter));\n\nvi\n\n(vi)SIM card identification number related to the violating information that is transmitted by the internet connection services (meaning the number assigned in order to identify the electronic or magnetic storage medium on which information for identifying the person who has signed an agreement on the provision of the internet connection services with the telecommunications carrier that provides the services through the mobile phone terminal, etc. is recorded; the same applies hereinafter) (meaning a storage medium for electronic or magnetic records (meaning a record which is created in an electronic form, magnetic form, or any other form that cannot be perceived by human senses and which is used for information processing by computers) and limited to a storage medium that is used by attaching to the mobile phone terminal, etc.);\n\nvii\n\n(vii)date and time when the violating information was transmitted to the specified telecommunications facilities used by the provider of disclosure-related services from the mobile phone terminal, etc. pertaining to the telecommunications facilities to which the IP address under item (iv) is assigned, the mobile phone terminal, etc. pertaining to the internet connection service user identification code obtained from the mobile phone terminal, etc., under item (v), or the mobile phone terminal, etc., pertaining to the SIM card identification number under the preceding item (limited to the identification number transmitted by the internet connection services from the mobile phone terminal, etc.).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Information that contributes to the identification of the sender of the violating information as prescribed in Article 4, paragraph (1), of the and specified in this Order of the Ministry of Internal Affairs and Communications is set forth as follows:\n\ni\n\n(i)name of the sender or any other person who is concerned with the transmission of the violating information;\n\nii\n\n(ii)address of the sender or any other person who is concerned with the transmission of the violating information;\n\niii\n\n(iii)electronic mail address of the sender (meaning characters, numbers, symbols, and other codes for identifying the user of that electronic mail);\n\niv\n\n(iv)IP address related to the violating information (meaning the IP address as prescribed in Article 164, paragraph (2), item (iii) of the (Act No. 86 of 1984)) and port number combined with the IP address (meaning the number assigned for the purpose of identifying the program used for communications by telecommunications facilities connected to the internet (meaning telecommunications facilities as prescribed in Article 2, item (ii) of that Act; the same applies hereinafter));\n\nv\n\n(v)internet connection service user identification code obtained from a mobile phone terminal or a PHS terminal related to the violating information (hereinafter referred to as the \"mobile phone terminal, etc.\") (meaning characters, numbers, symbols, and other codes assigned by a telecommunications carrier that provides internet connection services (meaning telecommunications carriers as prescribed in Article 2, item (v) of the ; the same applies hereinafter) for the purpose of identifying on the internet the user of the internet connection services from the mobile phone terminal, etc. (meaning transmission line facilities for terminals that have wireless connection for the end connected to user's telecommunications facilities (meaning terminal facilities as prescribed in Article 52, paragraph (1), of that Act) or customer-owned and maintained telecommunications facilities (meaning customer-owned and maintained telecommunications facilities as prescribed in Article 70, paragraph (1), of that Act), which is connected to the mobile phone terminal, etc. with a browser installed at one end, and of the telecommunications services (telecommunications services as prescribed in Article 2, item (iii) of that Act; the same applies hereinafter) that enables connection to the internet using the browser, transmitted by telecommunications (meaning telecommunications as prescribed in Article 2, item (i), of that Act; the same applies hereinafter));\n\nvi\n\n(vi)SIM card identification number related to the violating information that is transmitted by the internet connection services (meaning the number assigned in order to identify the electronic or magnetic storage medium on which information for identifying the person who has signed an agreement on the provision of the internet connection services with the telecommunications carrier that provides the services through the mobile phone terminal, etc. is recorded; the same applies hereinafter) (meaning a storage medium for electronic or magnetic records (meaning a record which is created in an electronic form, magnetic form, or any other form that cannot be perceived by human senses and which is used for information processing by computers) and limited to a storage medium that is used by attaching to the mobile phone terminal, etc.);\n\nvii\n\n(vii)date and time when the violating information was transmitted to the specified telecommunications facilities used by the provider of disclosure-related services from the mobile phone terminal, etc. pertaining to the telecommunications facilities to which the IP address under item (iv) is assigned, the mobile phone terminal, etc. pertaining to the internet connection service user identification code obtained from the mobile phone terminal, etc., under item (v), or the mobile phone terminal, etc., pertaining to the SIM card identification number under the preceding item (limited to the identification number transmitted by the internet connection services from the mobile phone terminal, etc.)."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 24.0,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2002-05-22",
+    "effective_date": null,
+    "publication_date": "1984-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3611",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_021.json",
+    "source_start": 0,
+    "source_end": 4148,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

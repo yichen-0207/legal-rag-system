@@ -1,0 +1,456 @@
+[
+  {
+    "doc_id": "SG_ACT_9_2018_ART_003",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_9_2018",
+    "law_name": "Cybersecurity Act 2018",
+    "law_name_original": "Cybersecurity Act 2018",
+    "law_type": "法律",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Application of Act",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 2 ADMINISTRATION",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 2 ADMINISTRATION"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-31",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_9_2018",
+    "source_type": "gov_gazette",
+    "source_file": "SG_21512322_Cybersecurity_Act_2018.txt",
+    "source_start": 278,
+    "source_end": 298,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_9_2018_ART_006A",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_9_2018",
+    "law_name": "Cybersecurity Act 2018",
+    "law_name_original": "Cybersecurity Act 2018",
+    "law_type": "法律",
+    "article_number": "6A",
+    "article_number_normalized": "006A",
+    "article_title": "Cyber Security Agency of Singapore’s symbols, etc",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 3 PROVIDER-OWNED CRITICAL INFORMATION INFRASTRUCTURE",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 3 PROVIDER-OWNED CRITICAL INFORMATION INFRASTRUCTURE"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 9.5,
+        "matched_keywords": [
+          "cyber security (title, +5)",
+          "critical information infrastructure"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-31",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_9_2018",
+    "source_type": "gov_gazette",
+    "source_file": "SG_21512322_Cybersecurity_Act_2018.txt",
+    "source_start": 463,
+    "source_end": 515,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_9_2018_ART_010",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_9_2018",
+    "law_name": "Cybersecurity Act 2018",
+    "law_name_original": "Cybersecurity Act 2018",
+    "law_type": "法律",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "Furnishing of information relating to provider-owned critical information infrastructure",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "11 (Repealed)12 Power of Commissioner to issue written directions",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "11 (Repealed)12 Power of Commissioner to issue written directions"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 5,
+        "matched_keywords": [
+          "critical information infrastructure (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-31",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_9_2018",
+    "source_type": "gov_gazette",
+    "source_file": "SG_21512322_Cybersecurity_Act_2018.txt",
+    "source_start": 927,
+    "source_end": 1018,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_9_2018_ART_016",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_9_2018",
+    "law_name": "Cybersecurity Act 2018",
+    "law_name_original": "Cybersecurity Act 2018",
+    "law_type": "法律",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "Cybersecurity exercises",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 3A PROVIDERS OF ESSENTIAL SERVICE RESPONSIBLE FOR CYBERSECURITY OF THIRD‑PARTY‑OWNED CRITICAL INFORMATION INFRASTRUCTURE",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 3A PROVIDERS OF ESSENTIAL SERVICE RESPONSIBLE FOR CYBERSECURITY OF THIRD‑PARTY‑OWNED CRITICAL INFORMATION INFRASTRUCTURE"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 14.0,
+        "matched_keywords": [
+          "cybersecurity (title, +5)",
+          "cybersecurity",
+          "critical information infrastructure"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-31",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_9_2018",
+    "source_type": "gov_gazette",
+    "source_file": "SG_21512322_Cybersecurity_Act_2018.txt",
+    "source_start": 1373,
+    "source_end": 1399,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_9_2018_ART_016L",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_9_2018",
+    "law_name": "Cybersecurity Act 2018",
+    "law_name_original": "Cybersecurity Act 2018",
+    "law_type": "法律",
+    "article_number": "16L",
+    "article_number_normalized": "016L",
+    "article_title": "Cybersecurity exercises",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 3B SYSTEMS OF TEMPORARY CYBERSECURITY CONCERN",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 3B SYSTEMS OF TEMPORARY CYBERSECURITY CONCERN"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 9.5,
+        "matched_keywords": [
+          "cybersecurity (title, +5)",
+          "cybersecurity"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-31",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_9_2018",
+    "source_type": "gov_gazette",
+    "source_file": "SG_21512322_Cybersecurity_Act_2018.txt",
+    "source_start": 2712,
+    "source_end": 2739,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_9_2018_ART_017F",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_9_2018",
+    "law_name": "Cybersecurity Act 2018",
+    "law_name_original": "Cybersecurity Act 2018",
+    "law_type": "法律",
+    "article_number": "17F",
+    "article_number_normalized": "017F",
+    "article_title": "Duty to report cybersecurity incident in respect of system of temporary cybersecurity concern, etc",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "18 (Repealed)Part 4 RESPONSES TO CYBERSECURITY THREATS AND INCIDENTS",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "18 (Repealed)Part 4 RESPONSES TO CYBERSECURITY THREATS AND INCIDENTS"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 9.5,
+        "matched_keywords": [
+          "cybersecurity (title, +5)",
+          "cybersecurity"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-31",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_9_2018",
+    "source_type": "gov_gazette",
+    "source_file": "SG_21512322_Cybersecurity_Act_2018.txt",
+    "source_start": 3251,
+    "source_end": 3353,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_9_2018_ART_023",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_9_2018",
+    "law_name": "Cybersecurity Act 2018",
+    "law_name_original": "Cybersecurity Act 2018",
+    "law_type": "法律",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "Emergency cybersecurity measures and requirements",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 5 CYBERSECURITY SERVICE PROVIDERS",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 5 CYBERSECURITY SERVICE PROVIDERS"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 9.5,
+        "matched_keywords": [
+          "cybersecurity (title, +5)",
+          "cybersecurity"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-31",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_9_2018",
+    "source_type": "gov_gazette",
+    "source_file": "SG_21512322_Cybersecurity_Act_2018.txt",
+    "source_start": 3682,
+    "source_end": 3734,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

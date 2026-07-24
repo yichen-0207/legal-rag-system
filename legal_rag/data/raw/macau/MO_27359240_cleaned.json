@@ -1,0 +1,1922 @@
+[
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "1",
+    "article_number_normalized": "1",
+    "article_title": "標的",
+    "chunk_index": 0,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "一、本法律訂定澳門特別行政區刑事訴訟程序中以通訊截取方式獲得證據的法律制度。\n二、本法律亦規範以有權限當局調查犯罪為目的的通訊紀錄的保存及提供，以及通訊使用者資料的提供。\n三、通訊紀錄及通訊使用者資料不包括通訊內容。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 99,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_002",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "2",
+    "article_number_normalized": "2",
+    "article_title": "定義",
+    "chunk_index": 1,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "為適用本法律，下列用語的含義為：\n（一）“通訊”：是指以任何電信途徑發送、傳遞或接收符號、文字、影像、聲音、圖案或任何性質的信息的行為；\n（二）“通訊紀錄”：是指使用通訊服務後所產生的各參與方的紀錄，尤其是電信號碼或其他呼叫識別標誌、通訊日期及時間、使用長度、互聯網協議地址、服務類型、電子信箱或位置資訊，但不包括通訊內容；\n（三）“通訊使用者資料”：是指電信營運者及網絡通訊服務提供者因通訊服務合同或協議，或因提供服務而取得或產生的用戶識別資料，尤其是用戶的身份資料、通信地址或住址、電話號碼或其他聯絡資料、服務種類、繳費計劃及方式；\n（四）“電信營運者”：是指具資格於澳門特別行政區經營公共電信網絡、提供公用電信服務及提供互聯網接入服務的實體；\n（五）“網絡通訊服務提供者”：是指設於澳門特別行政區或外地，且通過電信網絡及相應的技術途徑，尤其以行動應用程式、互聯網站或電腦程式，向澳門特別行政區用戶提供任何形式的單獨或集體通訊服務的實體。\n第二章\n通訊截取",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 368,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice",
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 3,
+        "matched_keywords": [
+          "通信",
+          "電信",
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "電腦"
+        ]
+      },
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_003",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "3",
+    "article_number_normalized": "3",
+    "article_title": "容許進行通訊截取的情況",
+    "chunk_index": 2,
+    "chapter": "第二章 通訊截取",
+    "chapter_title": "",
+    "text_zh": "一、僅就下列任一犯罪，且有理由相信進行通訊截取對發現事實真相屬必須，又或不能或難以其他方法取得證據的情況下，方可由法官以批示命令或許可對通訊進行截取：\n（一）可處以最高限度超逾三年徒刑的犯罪；\n（二）關於恐怖主義的犯罪；\n（三）關於清洗黑錢的犯罪；\n（四）關於危害國家安全的犯罪；\n（五）關於有組織犯罪；\n（六）關於不法生產和販賣麻醉藥品及精神藥物的犯罪；\n（七）關於禁用武器、爆炸裝置或材料，又或類似裝置或材料的犯罪；\n（八）關於販賣人口的犯罪；\n（九）關於電腦犯罪；\n（十）關於對外貿易活動的犯罪；\n（十一）關於賄賂的犯罪；\n（十二）透過電信實施的侮辱罪、恐嚇罪、脅迫罪、侵犯住所罪或侵入私人生活罪。\n二、禁止對嫌犯與其辯護人之間的通訊進行截取；但法官基於有依據的理由相信該等通訊為犯罪對象或犯罪元素者，不在此限。\n三、進行通訊截取的期間最長為三個月；但如符合容許進行通訊截取的相關要件，則可續期，且每次續期均受上述最長期間限制。\n第三章\n電信營運者及網絡通訊服務提供者的義務",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 369,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice",
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "電信",
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 3,
+        "matched_keywords": [
+          "犯罪",
+          "電腦",
+          "電腦犯罪"
+        ]
+      },
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_004",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "4",
+    "article_number_normalized": "4",
+    "article_title": "通訊截取的方法",
+    "chunk_index": 3,
+    "chapter": "第二章 通訊截取",
+    "chapter_title": "",
+    "text_zh": "通訊截取以監聽、截收、錄音、錄影、複製或其他類似的必要及符合刑事偵查目的的方法進行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 37,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice",
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "刑事"
+        ]
+      },
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_005",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "5",
+    "article_number_normalized": "5",
+    "article_title": "截取行動的程序",
+    "chunk_index": 4,
+    "chapter": "第二章 通訊截取",
+    "chapter_title": "",
+    "text_zh": "一、進行通訊截取的刑事警察機關應就截取繕立筆錄及製作報告書，並應於命令或許可進行截取行動的法官訂定的期間內，將有關筆錄、報告書連同截取所得的資料傳達該法官，使其知悉有關內容。\n二、如有需要，有權限法官可隨時要求刑事警察機關提交上款所指的筆錄、報告書或資料。\n三、如法官認為所收集的資料或當中某些資料在證據方面屬重要，則命令將之附於卷宗；否則須命令將之銷毀，而所有曾參與行動的人就其所知悉的內容均負有保密義務。\n四、自偵查終結起，嫌犯、輔助人及通訊截取所針對的人，均可查閱有關筆錄，以便能完全了解筆錄與截取所得的資料是否相符，並可繳付費用，以獲取筆錄中有關資料的副本；而上述人士就其所知悉的內容負有保密義務，但屬用於作出辯護所需的行為除外。\n五、如屬在偵查或預審期間命令進行的行動，且命令該行動的法官有理由相信嫌犯、輔助人或通訊截取所針對的人一旦知悉筆錄或通訊截取的內容，可能使偵查或預審的目的受損害者，則不適用上款的規定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 376,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice",
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "刑事"
+        ]
+      },
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_006",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "6",
+    "article_number_normalized": "6",
+    "article_title": "無效",
+    "chunk_index": 5,
+    "chapter": "第二章 通訊截取",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "unknown",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_007",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "7",
+    "article_number_normalized": "7",
+    "article_title": "通知",
+    "chunk_index": 6,
+    "chapter": "第二章 通訊截取",
+    "chapter_title": "",
+    "text_zh": "一、通訊截取結束後，如法官認為通訊截取屬不正當，應通知因此受損害的人。\n二、如作出通知可能使偵查或預審的目的受損害，則不適用上款的規定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_008",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "8",
+    "article_number_normalized": "8",
+    "article_title": "延伸",
+    "chunk_index": 7,
+    "chapter": "第二章 通訊截取",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "unknown",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_009",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "9",
+    "article_number_normalized": "9",
+    "article_title": "保存通訊紀錄",
+    "chunk_index": 8,
+    "chapter": "第三章 電信營運者及網絡通訊服務提供者的義務",
+    "chapter_title": "",
+    "text_zh": "電信營運者及網絡通訊服務提供者，須將於澳門特別行政區提供的通訊服務所產生的通訊紀錄或在外地向澳門特別行政區用戶提供通訊服務所產生的通訊紀錄，自完成通訊之日起計在澳門特別行政區至少保存一年；在該期間內須確保該等資料安全、保密和完整。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 110,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "電信",
+          "通訊"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_010",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "10",
+    "article_number_normalized": "10",
+    "article_title": "提供通訊紀錄",
+    "chunk_index": 9,
+    "chapter": "第三章 電信營運者及網絡通訊服務提供者的義務",
+    "chapter_title": "",
+    "text_zh": "一、如有理由相信通訊紀錄有助於刑事調查工作，則有權限司法當局得以批示許可或命令電信營運者及網絡通訊服務提供者提供上條所指的通訊紀錄。\n二、如刑事警察機關基於有依據的理由相信通訊紀錄與犯罪有關而可作為證據，且如延遲採取措施可對具重大價值的法益構成嚴重危險，則即使未經有權限司法當局預先許可，亦可要求電信營運者及網絡通訊服務提供者提供上條所指的通訊紀錄。\n三、屬上款所指情況，刑事警察機關須立即將所實施的措施告知有權限司法當局，並由其最遲於七十二小時內宣告有效，否則該措施無效。\n四、如在七十二小時內，第二款及第三款所指措施的實施未經有權限司法當局的批示宣告為有效，則刑事警察機關應銷毀該等通訊紀錄。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 278,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "電信",
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 2,
+        "matched_keywords": [
+          "刑事",
+          "犯罪"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_011",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "11",
+    "article_number_normalized": "11",
+    "article_title": "提供通訊使用者資料",
+    "chunk_index": 10,
+    "chapter": "第三章 電信營運者及網絡通訊服務提供者的義務",
+    "chapter_title": "",
+    "text_zh": "一、刑事警察機關可透過包括資料互聯在內的任何合法方式查閱和取得電信營運者及網絡通訊服務提供者資料庫內的通訊使用者資料，且電信營運者及網絡通訊服務提供者不得拒絕或延遲提供，但屬具合理理由的情況除外。\n二、有權限當局可命令拒絕或延遲提供通訊使用者資料的電信營運者及網絡通訊服務提供者，在指定期間內提供通訊使用者資料，且電信營運者及網絡通訊服務提供者不得再無理拒絕或延遲提供。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 176,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "電信",
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "刑事"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_012",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "12",
+    "article_number_normalized": "12",
+    "article_title": "合作義務",
+    "chunk_index": 11,
+    "chapter": "第三章 電信營運者及網絡通訊服務提供者的義務",
+    "chapter_title": "",
+    "text_zh": "一、電信營運者及網絡通訊服務提供者，須向有權限當局提供執行本法律所需的必要的配合及技術支援，且不得拒絕或延遲履行依據本法律作出的命令，但屬具合理理由的情況除外。\n二、上款所指的命令包括在執行通訊截取、提供通訊紀錄和提供通訊使用者資料的範圍內發出的命令。\n第四章\n處罰制度\n第一節\n刑事責任",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 131,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice",
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "電信",
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "刑事"
+        ]
+      },
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_013",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "13",
+    "article_number_normalized": "13",
+    "article_title": "通訊的不法截取",
+    "chunk_index": 12,
+    "chapter": "第一節 刑事責任",
+    "chapter_title": "",
+    "text_zh": "一、刑事警察機關、電信營運者、網絡通訊服務提供者或其工作人員未經法官命令或許可而作出通訊截取的行為，如按其他法律的規定不科處更重刑罰，處最高三年徒刑或科罰金。\n二、犯罪未遂，處罰之。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 81,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice",
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 2,
+        "matched_keywords": [
+          "電信",
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 2,
+        "matched_keywords": [
+          "刑事",
+          "犯罪"
+        ]
+      },
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_014",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "14",
+    "article_number_normalized": "14",
+    "article_title": "違反保密義務",
+    "chunk_index": 13,
+    "chapter": "第一節 刑事責任",
+    "chapter_title": "",
+    "text_zh": "一、第五條第三款所指的負有保密義務的人，不正當披露、傳播或公開全部或部分所知悉的內容，如按其他法律的規定不科處更重刑罰，處最高三年徒刑或科罰金。\n二、第五條第四款所指的負有保密義務的嫌犯、輔助人或通訊截取所針對的人，不正當披露、傳播或公開全部或部分所知悉的內容，如按其他法律的規定不科處更重刑罰，處最高兩年徒刑或科罰金。\n三、犯罪未遂，處罰之。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 154,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice",
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "犯罪"
+        ]
+      },
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_015",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "15",
+    "article_number_normalized": "15",
+    "article_title": "不當使用資料",
+    "chunk_index": 14,
+    "chapter": "第一節 刑事責任",
+    "chapter_title": "",
+    "text_zh": "一、任何人將根據本法律規定在通訊截取或提供通訊紀錄方面所收集或取得的資料，又或所收集或取得的通訊使用者資料，用於有別於本法律容許進行收集、取得、處理和保存有關資料的目的，如按其他法律的規定不科處更重刑罰，處最高三年徒刑或科罰金。\n二、犯罪未遂，處罰之。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 114,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice",
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "犯罪"
+        ]
+      },
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_016",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "16",
+    "article_number_normalized": "16",
+    "article_title": "加重違令",
+    "chunk_index": 15,
+    "chapter": "第一節 刑事責任",
+    "chapter_title": "",
+    "text_zh": "違反第十二條規定的合作義務者，構成 《刑法典》 第三百一十二條第二款所指的加重違令罪。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 37,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_017",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "17",
+    "article_number_normalized": "17",
+    "article_title": "法人的刑事責任",
+    "chunk_index": 16,
+    "chapter": "第一節 刑事責任",
+    "chapter_title": "",
+    "text_zh": "一、法人，即使屬不合規範設立者，無法律人格的社團及特別委員會，須對下列者以有關實體的名義且為其集體利益而實施本法律所定的犯罪承擔責任：\n（一）有關實體的機關或代表人；\n（二）聽命於上項所指機關或代表人的人，但僅以該等機關或代表人故意違反本身所負的監管義務或控制義務而使犯罪得以實施為限。\n二、如行為人違抗有權者的明示命令或指示而作出有關行為，則排除上款所指的責任。\n三、第一款所指實體的責任並不排除有關行為人的個人責任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 189,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "犯罪"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_018",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "18",
+    "article_number_normalized": "18",
+    "article_title": "對法人適用的主刑",
+    "chunk_index": 17,
+    "chapter": "第一節 刑事責任",
+    "chapter_title": "",
+    "text_zh": "一、上條第一款所指的實體犯有本法律規定的罪行者，科罰金作為主刑。\n二、罰金以日數訂定，下限為一百日，上限為一千日。\n三、罰金的日額為澳門元五百元至二萬元。\n四、如對無法律人格的社團或特別委員會科罰金，則該罰金以該社團或委員會的共同財產繳付；如無共同財產或共同財產不足，則以各社員或委員會成員的財產按連帶責任方式繳付。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 141,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_019",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "19",
+    "article_number_normalized": "19",
+    "article_title": "對法人適用的附加刑",
+    "chunk_index": 18,
+    "chapter": "第一節 刑事責任",
+    "chapter_title": "",
+    "text_zh": "對作出本法律所指犯罪的第十七條第一款所指實體，可併科以下附加刑：\n（一）剝奪獲公共部門或實體給予的津貼或補貼的權利；\n（二）公開有罪判決，以刊登於澳門特別行政區的一份中文報章及一份葡文報章為之，以及在從事業務的地點或場所以公眾能清楚看到的方式，張貼以中葡文書寫的告示為之，張貼期至少十五日；上述一切費用由被判罪者負擔。\n第二節\n行政責任",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 151,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "犯罪"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_020",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "20",
+    "article_number_normalized": "20",
+    "article_title": "行政違法行為",
+    "chunk_index": 19,
+    "chapter": "第二節 行政責任",
+    "chapter_title": "",
+    "text_zh": "一、不遵守第九條所定的保存義務者及第十一條第一款所定的提供通訊使用者資料的義務者，構成行政違法行為；如違法者為自然人，科澳門元二萬元至二十萬元罰款；如違法者為法人，科澳門元十五萬元至五十萬元罰款，且不影響倘有的其他責任。\n二、酌科罰款時應考慮違法行為的嚴重程度及其所引致的損害，以及違法者的過錯程度和前科。\n三、如行為同時構成本條所定的行政違法行為及其他法例規定的行政違法行為，則根據罰款上限較高的法例對違法者作出處罰，但不影響對行政違法行為規定的附加處罰的適用。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 215,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_021",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "21",
+    "article_number_normalized": "21",
+    "article_title": "累犯",
+    "chunk_index": 20,
+    "chapter": "第二節 行政責任",
+    "chapter_title": "",
+    "text_zh": "一、為適用本法律的規定，自行政處罰決定轉為不可申訴之日起一年內作出上條規定的行政違法行為，且距作出上一次的行政違法行為實施日不足五年，再次實施相同的行政違法行為者，視為累犯。\n二、如屬累犯，罰款的下限提高四分之一，上限則維持不變。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 104,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_022",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "22",
+    "article_number_normalized": "22",
+    "article_title": "法人的責任",
+    "chunk_index": 21,
+    "chapter": "第二節 行政責任",
+    "chapter_title": "",
+    "text_zh": "一、法人，即使屬不合規範設立者，以及無法律人格的社團及特別委員會，均須對其機關或代表以其名義且為其集體利益而作出本法律所定的違法行為承擔責任。\n二、如行為人違抗有權者的明確命令或指示而作出行為，則排除上款所指責任。\n三、第一款所指實體的責任，不排除有關行為人的個人責任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 122,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_023",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "23",
+    "article_number_normalized": "23",
+    "article_title": "繳付罰款的責任",
+    "chunk_index": 22,
+    "chapter": "第二節 行政責任",
+    "chapter_title": "",
+    "text_zh": "一、繳付罰款屬違法者的責任，但不影響以下兩款規定的適用。\n二、違法者為法人時，其行政管理機關成員或以其他方式代表該法人的人，如被判定須對有關行政違法行為負責，須就罰款的繳付與該法人負連帶責任。\n三、如對無法律人格的社團或特別委員會科罰款，則該罰款以該社團或委員會的共同財產繳付；如無共同財產或共同財產不足，則以各社員或委員會成員的財產按連帶責任方式繳付。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 162,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_024",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "24",
+    "article_number_normalized": "24",
+    "article_title": "處罰職權",
+    "chunk_index": 23,
+    "chapter": "第二節 行政責任",
+    "chapter_title": "",
+    "text_zh": "司法警察局局長具職權就本法律規定的行政違法行為提起處罰程序、指定預審員及科處處罰。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_025",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "25",
+    "article_number_normalized": "25",
+    "article_title": "通知方式",
+    "chunk_index": 24,
+    "chapter": "第二節 行政責任",
+    "chapter_title": "",
+    "text_zh": "一、所有通知均按 《行政程序法典》 的規定作出，但不影響以下各款的特別規定的適用。\n二、凡按下列地址作出的通知均以單掛號信為之，並推定應被通知人在信件掛號日後的第三日接獲通知；如第三日非為工作日，則推定在緊接該日的首個工作日接獲通知：\n（一）應被通知人，又或代應被通知人行事或以其名義行事的人所指定的通訊地址或住址；\n（二）載於合同內的通訊地址；\n（三）如應被通知人為法人且其住所或常設代表處位於澳門特別行政區，按身份證明局或商業及動產登記局的檔案所載的最後住所；\n（四）如應被通知人為澳門特別行政區居民，按身份證明局的檔案所載的最後住所；\n（五）如應被通知人持有治安警察局發出的身份證明文件，按該局的檔案所載的最後地址。\n三、如上款所指的應被通知人的地址位於澳門特別行政區以外的地方，則上款所指期間僅在 《行政程序法典》 規定的延期期間屆滿後方開始計算。\n四、僅因證實可歸咎於郵政服務的事由而令應被通知人在推定接獲通知的日期後接獲通知的情況下，方可由應被通知人推翻第二款規定的推定。\n五、為適用本條的規定，身份證明局、商業及動產登記局及治安警察局應在司法警察局要求時向其提供第二款所指的資料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 443,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_026",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "26",
+    "article_number_normalized": "26",
+    "article_title": "繳付罰款及強制徵收",
+    "chunk_index": 25,
+    "chapter": "第二節 行政責任",
+    "chapter_title": "",
+    "text_zh": "一、罰款應自接獲處罰決定通知之日起三十日內繳付。\n二、如未在上款所定期間自願繳付罰款，由主管實體按稅務執行程序的規定，以處罰決定的證明作為執行名義進行強制徵收。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_027",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "27",
+    "article_number_normalized": "27",
+    "article_title": "履行尚未履行的義務",
+    "chunk_index": 26,
+    "chapter": "第二節 行政責任",
+    "chapter_title": "",
+    "text_zh": "如因不履行義務而構成行政違法行為，而該等義務尚可履行，則科處處罰和繳付罰款並不免除違法者履行該等義務。\n第五章\n過渡及最後規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 58,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_028",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "28",
+    "article_number_normalized": "28",
+    "article_title": "補充規定",
+    "chunk_index": 27,
+    "chapter": "第五章 過渡及最後規定",
+    "chapter_title": "",
+    "text_zh": "對本法律未特別規定的事宜，按有關事宜的性質補充適用 《刑法典》 、 《刑事訴訟法典》 、 《行政程序法典》 、 《行政訴訟法典》 、十月四日 第52/99/M號法令 《行政上之違法行為之一般制度及程序》及 第8/2005號法律 《個人資料保護法》。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 81,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "privacy_and_data_protection",
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "privacy_and_data_protection",
+        "label_zh": "隐私与个人资料保护",
+        "score": 1,
+        "matched_keywords": [
+          "資料保護"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "刑事"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_029",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "29",
+    "article_number_normalized": "29",
+    "article_title": "廢止",
+    "chunk_index": 28,
+    "chapter": "第五章 過渡及最後規定",
+    "chapter_title": "",
+    "text_zh": "廢止 《刑事訴訟法典》 第一百七十二條至第一百七十五條。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 23,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "刑事"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_030",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "30",
+    "article_number_normalized": "30",
+    "article_title": "對被廢止的規定的提述",
+    "chunk_index": 29,
+    "chapter": "第五章 過渡及最後規定",
+    "chapter_title": "",
+    "text_zh": "在現行法例中對 《刑事訴訟法典》 第一百七十二條至第一百七十五條規定或電話監聽的提述，經作出必要配合後，視為對本法律相應規定或通訊截取的提述。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 64,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice",
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "刑事"
+        ]
+      },
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_031",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "31",
+    "article_number_normalized": "31",
+    "article_title": "修改《刑事訴訟法典》",
+    "chunk_index": 30,
+    "chapter": "第五章 過渡及最後規定",
+    "chapter_title": "",
+    "text_zh": "經九月二日 第48/96/M號法令 核准，並經十月二十五日 第63/99/M號法令 、 第9/1999號法律 、 第3/2006號法律 、 第6/2008號法律 、 第2/2009號法律 、 第17/2009號法律 、 第9/2013號法律 及 第4/2019號法律 修改的 《刑事訴訟法典》 第二百五十一條修改如下：\n“第二百五十一條\n（由預審法官命令或許可的行為）\n一、在偵查期間，命令或許可下列行為屬預審法官的專屬權限：\n）〔……〕\n）〔……〕\n）依據 第10/2022號法律 《通訊截取及保障法律制度》的規定進行通訊截取；\n）〔……〕\n二、〔……〕”",
+    "text_pt": "a\nb\nc\nd",
+    "text_en": "",
+    "text_original_language": "zh-pt",
+    "word_count_zh": 144,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "telecommunications",
+      "cybercrime_and_criminal_justice",
+      "surveillance_and_interception"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信与通讯",
+        "score": 1,
+        "matched_keywords": [
+          "通訊"
+        ]
+      },
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "刑事"
+        ]
+      },
+      {
+        "id": "surveillance_and_interception",
+        "label_zh": "监控与通讯截取",
+        "score": 3,
+        "matched_keywords": [
+          "截取",
+          "截取",
+          "通訊截取"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh",
+      "pt"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_10_2022_ART_032",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_10_2022",
+    "law_name": "通訊截取及保障法律制度",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "32",
+    "article_number_normalized": "32",
+    "article_title": "生效及產生效力",
+    "chunk_index": 31,
+    "chapter": "第五章 過渡及最後規定",
+    "chapter_title": "",
+    "text_zh": "一、本法律自二零二二年八月一日起生效，但不影響下款規定的適用。\n二、第九條規定自二零二三年八月一日起產生效力。\n二零二二年七月二十二日通過。\n立法會主席 高開賢\n二零二二年七月二十三日簽署。\n命令公佈。\n行政長官 賀一誠",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 94,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [],
+    "topics_details": [],
+    "definitions": null,
+    "passing_date": "2022-07-22",
+    "effective_date": "2022-08-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_27359240.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

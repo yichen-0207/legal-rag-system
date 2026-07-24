@@ -1,0 +1,3975 @@
+[
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_100",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.100",
+    "article_number_normalized": "1203_100",
+    "article_title": "Legal basis.",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Executive Order 13526 (hereinafter referred to as “the Order”).\nThe responsibilities and authority of the Administrator of NASA with respect to the original classification of official information or material requiring protection against unauthorized disclosure in the interest of national defense or foreign relations of the United States (hereinafter collectively termed “national security”), and the standards for such classification, are established by the “the Order” and the Information Security Oversight Office Directive No. 1, as amended (\n32 CFR part 2001\n, “Classified National Security Information”);\nE.O. 10865.\nExecutive Order 10865 (\n24 FR 1583\n) requires the Administrator to prescribe by regulation such specific requirements, restrictions and other safeguards as the Administrator may consider necessary to protect:\nReleases of classified information to or within United States industry that relate to contracts with NASA; and\nOther releases of classified information to industry that NASA has responsibility for safeguarding.\nThe National Aeronautics and Space Act.\nThe National Aeronautics and Space Act (\n51 U.S.C. 20113\n) (Hereafter referred to as, “The Space Act”), states:\nThe Administrator shall establish such security requirements, restrictions, and safeguards as he deems necessary in the interest of the national security * * *\nSection 303 of the Space Act states:\nInformation obtained or developed by the Administrator in the performance of his functions under this Act shall be made available for public inspection, except (i) information authorized or required by Federal statute to be withheld, and (ii) information classified to protect the national security:\nProvided,\nThat nothing in this Act shall authorize the withholding of information by the Administrator from the duly authorized committees of the Congress.\n44 FR 34913\n, June 18, 1979, as amended at\n48 FR 5889\n, Feb. 9, 1983;\n64 FR 72535\n, Dec. 28, 1999;\n78 FR 5117\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "quality_management",
+      "government_contracting",
+      "administrative_procedures",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 40.5,
+        "matched_keywords": [
+          "classified national security information",
+          "executive order 13526",
+          "national security",
+          "classified information",
+          "executive order",
+          "unauthorized disclosure",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 5.0,
+        "matched_keywords": [
+          "performance (weak)",
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "responsibility"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "in the performance of"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 3.0,
+        "matched_keywords": [
+          "official (weak)",
+          "oversight (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 12,
+    "source_end": 33,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_101",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.101",
+    "article_number_normalized": "1203_101",
+    "article_title": "Other applicable NASA regulations.",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Subpart H of this part\n, “Delegation of Authority to Make Determinations in Original Security Classification Matters.”\nSubpart I of this part\n, “NASA Information Security Program Committee.”\nNASA Procedural Requirements (NPR) 1600.2, NASA Classified National Security Information (CNSI).\n44 FR 34913\n, June 18, 1979, as amended at\n78 FR 5117\n, Jan. 24, 2013]\nSubpart B—NASA Information Security Program",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 12.0,
+        "matched_keywords": [
+          "classified national security information",
+          "national security",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 2012,
+    "source_end": 2055,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_200",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.200",
+    "article_number_normalized": "1203_200",
+    "article_title": "Background and discussion.",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In establishing a civilian space program, the Congress required NASA to “provide for the widest practicable and appropriate dissemination of information concerning its activities and the results thereof,” and for the withholding from public inspection of that information that is classified to protect the national security.\nThe Order was promulgated in recognition of the essential requirement for an informed public concerning the activities of its Government, as well as the need to protect certain national security information from unauthorized disclosure. It delegates to NASA certain responsibility for matters pertaining to national security and confers on the Administrator of NASA, or such responsible officers or employees as the Administrator may designate, the authority for original classification of official information or material which requires protection in the interest of national security. It also provides for:\nBasic classification, downgrading and declassification guidelines;\nThe issuance of directives prescribing the procedures to be followed in safeguarding classified information or material;\nA monitoring system to ensure the effectiveness of the Order;\nAppropriate administrative sanctions against officers and employees of the United States Government who are found to be in violation of the Order or implementing directive; and\nClassification limitations and restrictions as discussed in\n§§ 1203.410\nand\n1203.411\nThe Order requires the timely identification and protection of that NASA information the disclosure of which would be contrary to the best interest of national security. Accordingly, the determination in each case must be based on a judgment as to whether disclosure of information could reasonably be expected to result in damage to the national security.\n44 FR 34913\n, June 18, 1979, as amended at\n48 FR 5889\n, Feb. 9, 1983;\n78 FR 5117\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "government_contracting",
+      "information_classification"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 31.5,
+        "matched_keywords": [
+          "national security",
+          "classified information",
+          "unauthorized disclosure",
+          "damage to the national security",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "responsibility"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 3.0,
+        "matched_keywords": [
+          "classification (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 2461,
+    "source_end": 2496,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_201",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.201",
+    "article_number_normalized": "1203_201",
+    "article_title": "Information security objectives.",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The objectives of the NASA Information Security Program are to:\nEnsure that information is classified only when a sound basis exists for such classification and only for such period as is necessary.\nPrevent both the unwarranted classification and the overclassification of NASA information.\nEnsure the greatest practicable uniformity within NASA in the classification of information.\nEnsure effective coordination and reasonable uniformity with other Government departments and agencies, particularly in areas where there is an exchange or sharing of information, techniques, hardware, software, or other technologies.\nProvide a timely and effective means for downgrading or declassifying information when the circumstances necessitating the original classification change or no longer exist.\n44 FR 34913\n, June 18, 1979, as amended at\n78 FR 5117\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybersecurity",
+      "legal_definitions",
+      "information_classification"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 14.25,
+        "matched_keywords": [
+          "information security (title, +5)",
+          "information security"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.75,
+        "matched_keywords": [
+          "means"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 5.25,
+        "matched_keywords": [
+          "classification (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 4400,
+    "source_end": 4441,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_202",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.202",
+    "article_number_normalized": "1203_202",
+    "article_title": "Responsibilities.",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Chairperson, NASA Information Security Program Committee (NISPC) (\nSubpart I of this part\n), who is the Assistant Administrator for Protective Services, or designee, is responsible for:\nDirecting the NASA Information Security Program (NISP) in accordance with NASA policies and objectives and applicable laws and regulations.\nEnsuring effective compliance with and implementation of “the Order” and the Information Security Oversight Office Directive No. 1 relating to security classification matters.\nReviewing, in consultation with the NASA Information Security Program Committee NISPC, questions, suggestions, appeals and compliance concerning the NISP and making determinations concerning them.\nCoordinating NASA security classification matters with NASA Centers and component facilities and other Government agencies.\nEnsuring Security Classification Guides for NASA are developed for NASA programs and projects.\nDeveloping, maintaining and recommending to the Administrator guidelines for the systematic review covering all classified information under NASA's jurisdiction.\nReviewing and coordinating with appropriate offices all appeals of denials of requests for records under sections 552 and 552a of Title 5, United States Code (Freedom of Information and Privacy Acts) when the denials are based on the records' continued classification.\nRecommending to the Administrator appropriate administrative action to correct abuse or violations of any provision of the NISP, including notifications by warning letter, formal reprimand and to the extent permitted by law, suspension without pay and removal.\nAll NASA employees are responsible for bringing to the attention of the Chairperson of the NISPC any information security problems in need of resolution, any areas of interest wherein information security guidance is lacking, and any other matters likely to impede achievement of the objectives prescribed in this section.\nEach NASA official to whom the authority for original classification is delegated shall be accountable for the propriety of each classification (see subpart H) and is responsible for:\nEnsuring that classification determinations are consistent with the policy and objectives prescribed above, and other applicable guidelines.\nBringing to the attention of the Chairperson, NISPC, for resolution, any disagreement with classification determinations made by other NASA officials.\nEnsuring that information and material which no longer requires its present level of protection is promptly downgraded or declassified in accordance with applicable guidelines within a reasonable period.\nOther supervisors of NASA offices are responsible for:\nEnsuring that classified information or material prepared within their respective offices is appropriately marked.\nEnsuring that material proposed for public release is reviewed to redact classified information contained therein.\nChiefs of Protective Services at NASA Centers are responsible for:\nDeveloping proposed Security Classification Guides and submitting the guide to the Office of Protective Services for review and approval.\nEnsuring that classified information or material prepared in their respective Center is appropriately marked.\nEnsuring that material proposed for public release is reviewed to redact classified information.\nCoordinating all security classification actions with the Center's Protective Services Office.\nThe Director of the Office of Protective Services, NASA Headquarters, who serves as a member and Executive Secretary of the NISPC, is responsible for the NASA-wide coordination of security classification matters.\nThe Information Security Program Manager, Office of Protective Services (OPS), is responsible for establishing procedures for the safeguarding of classified information or material (e.g., accountability, control, access, storage, transmission, and marking) and for ensuring that such procedures are systematically reviewed; and those which are duplicative or unnecessary are eliminated.\n44 FR 34913\n, June 18, 1979, as amended at\n45 FR 3888\n, Jan. 21, 1980;\n48 FR 5890\n, Feb. 9, 1983;\n53 FR 41318\n, Oct. 21, 1988;\n64 FR 72535\n, Dec. 28, 1999;\n78 FR 5117\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "administrative_procedures",
+      "cybersecurity",
+      "government_contracting",
+      "regulatory_scope",
+      "information_classification",
+      "litigation_procedure",
+      "compensation_benefits",
+      "public_administration",
+      "data_protection",
+      "legal_definitions",
+      "federalism_legal"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 28.5,
+        "matched_keywords": [
+          "classified information",
+          "protective services",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 16.5,
+        "matched_keywords": [
+          "chairperson",
+          "executive secretary",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 13.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 10.5,
+        "matched_keywords": [
+          "appeals",
+          "suspension"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 7.5,
+        "matched_keywords": [
+          "in accordance with",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 6.5,
+        "matched_keywords": [
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 6.0,
+        "matched_keywords": [
+          "appeals"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 6.0,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 5.5,
+        "matched_keywords": [
+          "official (weak)",
+          "oversight (weak)",
+          "compliance (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this section"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "to the extent"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 5308,
+    "source_end": 5334,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_203",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.203",
+    "article_number_normalized": "1203_203",
+    "article_title": "Degree of protection.",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "General.\nUpon determination that information or material must be classified, the degree of protection commensurate with the sensitivity of the information must be determined. If there is reasonable doubt about the need to classify information, it shall be safeguarded as if it were classified pending a determination by an original classification authority, who shall make this determination within 30 days. If there is reasonable doubt about the appropriate level of classification, it shall be safeguarded at the higher level of classification pending a determination by an original classification authority, who shall make this determination within 30 days.\nAuthorized categories of classification.\nThe three categories of classification, as authorized and defined in “the Order,” are set out below. No other restrictive markings are authorized to be placed on NASA classified documents or materials except as expressly provided by statute or by NASA Directives.\nTop Secret.\nTop Secret is the designation applied to information or material, the unauthorized disclosure of which could reasonably be expected to cause exceptionally grave damage to the national security.\nSecret.\nSecret is the designation applied to information or material, the unauthorized disclosure of which could reasonably be expected to cause serious damage to the national security.\nConfidential.\nConfidential is the designation applied to that information or material for which the unauthorized disclosure could reasonably be expected to cause damage to the national security.\n44 FR 34913\n, June 18, 1979, as amended at\n48 FR 5890\n, Feb. 9, 1983;\n78 FR 5117\n, Jan. 24, 2013]\nSubpart C—Classification Principles and Considerations",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "information_classification"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 44.5,
+        "matched_keywords": [
+          "original classification authority",
+          "top secret",
+          "national security",
+          "unauthorized disclosure",
+          "damage to the national security",
+          "national security (weak)",
+          "classified (weak)",
+          "secret (weak)",
+          "confidential (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 6.0,
+        "matched_keywords": [
+          "markings (weak)",
+          "classification (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 9530,
+    "source_end": 9560,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_300",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.300",
+    "article_number_normalized": "1203_300",
+    "article_title": "General.",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In general, the types of NASA-generated information and material requiring protection in the interest of national security lie in the areas of applied research, technology or operations.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "national security",
+          "national security (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 11269,
+    "source_end": 11286,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_301",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.301",
+    "article_number_normalized": "1203_301",
+    "article_title": "Identification of information requiring protection.",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Classifiers shall identify the level of classification of each classified portion of a document (including subject and titles), and those portions that are not classified.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 11.0,
+        "matched_keywords": [
+          "classifiers shall identify",
+          "classified portion",
+          "classified (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 11476,
+    "source_end": 11536,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_302",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.302",
+    "article_number_normalized": "1203_302",
+    "article_title": "Compilation.",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "A compilation of items that are individually unclassified may be classified if the compiled information reveals an additional association or relationship that meets the standards of classification under the Order; and is not otherwise revealed in the individual items of information. As used in the Order, compilations mean an aggregate of pre-existing unclassified items of information.\n78 FR 5118\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 20.5,
+        "matched_keywords": [
+          "compilation of items",
+          "individually unclassified",
+          "compiled information",
+          "additional association",
+          "classified (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 11711,
+    "source_end": 11732,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_303",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.303",
+    "article_number_normalized": "1203_303",
+    "article_title": "Distribution controls.",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "NASA shall establish controls over the distribution of classified information to ensure that it is dispersed only to organizations or individuals eligible for access to such information and with a need-to-know the information.\n78 FR 5118\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "classified information",
+          "classified (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 12151,
+    "source_end": 12182,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_304",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.304",
+    "article_number_normalized": "1203_304",
+    "article_title": "Internal effect.",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The effect of security protection on program progess and cost and on other functional activities of NASA should be considered. Impeditive effects and added costs inherent in a security classification must be assessed and weighed against the detrimental effects on the national security interests which would result from failure to classify.\n44 FR 34913\n, June 18, 1979, as amended at\n78 FR 5118\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "national security",
+          "national security (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 12440,
+    "source_end": 12465,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_305",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.305",
+    "article_number_normalized": "1203_305",
+    "article_title": "Restricted data.",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Restricted Data or Formerly Restricted Data is so classified when originated or by operation of the law, as required by the Atomic Energy Act of 1954, as amended. Specific guidance for the classification of Restricted Data and Formerly Restricted Data is provided in “Classification Guides” published by the Department of Energy and or Department of Defense.\n44 FR 34913\n, June 18, 1979, as amended at\n78 FR 5118\n, Jan. 24, 2013]\nSubpart D—Guides for Original Classification",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "intellectual_property_licensing",
+      "contract_design"
+    ],
+    "topics_details": [
+      {
+        "id": "intellectual_property_licensing",
+        "label_zh": "知识产权与许可",
+        "label_en": "IP Licensing",
+        "label_pt": "Licença de Propriedade Intelectual",
+        "score": 3.0,
+        "matched_keywords": [
+          "data (weak)"
+        ]
+      },
+      {
+        "id": "contract_design",
+        "label_zh": "合同与设计",
+        "label_en": "Contract & Design",
+        "label_pt": "Contrato e Design",
+        "score": 3.0,
+        "matched_keywords": [
+          "restricted (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 12880,
+    "source_end": 12905,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_400",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.400",
+    "article_number_normalized": "1203_400",
+    "article_title": "Specific classifying guidance.",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Technological and operational information and material, and in some exceptional cases scientific information falling within any one or more of the following categories, must be classified if its unauthorized disclosure could reasonably be expected to cause some degree of damage to the national security. In cases where it is believed that a contrary course of action would better serve the national interests, the matter should be referred to the Chairperson, NISPC, for a determination. It is not intended that this list be exclusive; original classifiers are responsible for initially classifying any other type of information which, in their judgment, requires protection under\n§ 1.4\nof “the Order.”\nMilitary plans, weapons systems, or operations;\nForeign government information;\nIntelligence activities (including covert activities), intelligence sources or methods, or cryptology;\nForeign relations or foreign activities of the United States, including confidential sources;\nScientific, technological, or economic matters relating to the national security;\nUnited States Government programs for safeguarding nuclear materials or facilities;\nVulnerabilities or capabilities of systems, installations, infrastructures, projects, plans, or protection services relating to the national security; or\nThe development, production, or plans relating to the use of weapons of mass destruction.\n78 FR 5118\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 23.5,
+        "matched_keywords": [
+          "national security",
+          "unauthorized disclosure",
+          "damage to the national security",
+          "national security (weak)",
+          "intelligence sources (weak)",
+          "classified (weak)",
+          "confidential (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 6.0,
+        "matched_keywords": [
+          "chairperson",
+          "chairperson (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 13383,
+    "source_end": 13422,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_401",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.401",
+    "article_number_normalized": "1203_401",
+    "article_title": "Effect of open publication.",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Public disclosure, regardless of source or form, of information currently classified or being considered for classification does not preclude initial or continued classification. However, such disclosure requires an immediate reevaluation to determine whether the information has been compromised to the extent that downgrading or declassification is indicated. Similar consideration must be given to related items of information in all programs, projects, or items incorporating or pertaining to the compromised items of information. In these cases, if a release were made or authorized by an official Government source, classification of clearly identified items may no longer be warranted. Questions as to the propriety of continued classification should be referred to the Chairperson, NASA Information Security Program Committee.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures",
+      "cybersecurity",
+      "federalism_legal",
+      "information_classification"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 7.5,
+        "matched_keywords": [
+          "chairperson",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "to the extent"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 3.5,
+        "matched_keywords": [
+          "classification (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 14844,
+    "source_end": 14880,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_402",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.402",
+    "article_number_normalized": "1203_402",
+    "article_title": "Classifying material other than documentation.",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Items of equipment or other physical objects may be classified only where classified information may be derived by visual observation of internal or external appearance, structure, operation, test, application or use. The overall classification assigned to equipment or objects shall be at least as high as the highest classification of any of the items of information which may be revealed by the equipment or objects, but may be higher if the classifying authority determines that the sum of classified or unclassified information warrants such higher classification. In every instance where classification of an item of equipment or object is determined to be warranted, such determination must be based on a finding that there is at least one aspect of the item or object which requires protection. If mere knowledge of the existence of the equipment or object would compromise or nullify the reason or justification for its classification, the fact of its existence should be classified.\n§ 1203.403 [Reserved]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "information_classification"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 9.5,
+        "matched_keywords": [
+          "classified information",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 3.5,
+        "matched_keywords": [
+          "classification (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 15718,
+    "source_end": 15773,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_404",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.404",
+    "article_number_normalized": "1203_404",
+    "article_title": "Handling of unprocessed data.",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "It is the usual practice to withhold the release of raw scientific data received from spacecraft until it can be calibrated, correlated and properly interpreted by the experimenter under the monitorship of the cognizant NASA office. During this process, the data are withheld through administrative measures, and it is not necessary to resort to security classification to prevent premature release. However, if at any time during the processing of raw data it becomes apparent that the results require protection under the criteria set forth in this subpart D, it is the responsibility of the cognizant NASA office to obtain the appropriate security classification.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "government_contracting",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "responsibility"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this subpart"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 16791,
+    "source_end": 16829,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_405",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.405",
+    "article_number_normalized": "1203_405",
+    "article_title": "Proprietary information.",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Proprietary information made available to NASA is subject to examination for classification purposes under the criteria set forth in this subpart D. Where the information is in the form of a proposal and accepted by NASA for support, it should be categorized in accordance with the criteria of\n§ 1203.400\n. If NASA does not support the proposal but believes that security classification would be appropriate under the criteria of\n§ 1203.400\nif it were under Government jurisdiction, the contractor should be advised of the reasons why safeguarding would be appropriate, unless security considerations preclude release of the explanation to the contractor. NASA should identify the Government department, agency or activity whose national security interests might be involved and the contractor should be instructed to protect the proposal as though classified pending further advisory classification opinion by the Government activity whose interests are involved. If such a Government activity cannot be identified, the contractor should be advised that the proposal is not under NASA jurisdiction for classification purposes, and that the information should be sent, under proper safeguards, to the Director, Information Security Oversight Office for a determination.\n44 FR 34913\n, June 18, 1979, as amended at\n78 FR 5118\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "government_procurement",
+      "government_contracting",
+      "national_security",
+      "cybersecurity",
+      "legal_definitions",
+      "regulatory_scope",
+      "information_classification",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "government_procurement",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 9.0,
+        "matched_keywords": [
+          "contractor"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 9.0,
+        "matched_keywords": [
+          "contractor"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 7.5,
+        "matched_keywords": [
+          "national security",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this subpart"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 4.5,
+        "matched_keywords": [
+          "in accordance with"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 3.0,
+        "matched_keywords": [
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 3.0,
+        "matched_keywords": [
+          "agency (weak)",
+          "oversight (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 17499,
+    "source_end": 17532,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_406",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.406",
+    "article_number_normalized": "1203_406",
+    "article_title": "Additional classification factors.",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In determining the appropriate classification category, the following additional factors should be considered:\nUniformity within government activities.\nThe effect classification will have on technological programs of other Government departments and agencies should be considered. Classification of official information must be reasonably uniform within the Government.\nApplicability of classification directives of other Government agencies.\nIt is necessary to determine whether authoritative classification guidance exists elsewhere for the information under consideration which would make it necessary to assign a higher classification than that indicated by the applicable NASA guidance. The Office of Protective Services will coordinate with the Information Security Oversight Office (ISOO) Committee and the National Declassification Center to determine what classification guides are current.\n44 FR 34913\n, June 18, 1979, as amended at\n78 FR 5118\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "information_classification",
+      "cybersecurity",
+      "national_security",
+      "regulatory_scope",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 9.5,
+        "matched_keywords": [
+          "classification category",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "protective services"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 4.5,
+        "matched_keywords": [
+          "applicability"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 3.0,
+        "matched_keywords": [
+          "official (weak)",
+          "oversight (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 18876,
+    "source_end": 18919,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_407",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.407",
+    "article_number_normalized": "1203_407",
+    "article_title": "Duration of classification.",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "At the time of original classification, the original classification authority shall establish a specific date or event for declassification based on the duration of the national security sensitivity of the information. Upon reaching the date or event, the information shall be automatically declassified. Except for information that should clearly and demonstrably be expected to reveal the identity of a confidential human source or a human intelligence source or key design concepts of weapons of mass destruction, the date or event shall not exceed the timeframe established in\nparagraph (b)\nof this section.\nIf the original classification authority cannot determine an earlier specific date or event for declassification, information shall be marked for declassification 10 years from the date of the original decision, unless the original classification authority otherwise determines that the sensitivity of the information requires that it be marked for declassification for up to 25 years from the date of the original decision.\nAn original classification authority may extend the duration of classification up to 25 years from the date of origin of the document, change the level of classification, or reclassify specific information only when the standards and procedures for classifying information under this Order are followed.\nNo information may remain classified indefinitely. Information that is marked for an indefinite duration of classification under predecessor orders, for example, information marked as “Originating Agency's Determination Required,” or classified information that contains either incomplete or no declassification instructions, shall have appropriate declassification information applied in accordance with part 3 of this order.\n78 FR 5118\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "information_classification",
+      "regulatory_scope"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 23.5,
+        "matched_keywords": [
+          "original classification authority",
+          "national security",
+          "classified information",
+          "national security (weak)",
+          "classified (weak)",
+          "confidential (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 12.5,
+        "matched_keywords": [
+          "confidential human source",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 7.5,
+        "matched_keywords": [
+          "in accordance with",
+          "authority (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 19893,
+    "source_end": 19929,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_408",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.408",
+    "article_number_normalized": "1203_408",
+    "article_title": "Assistance by Information Security Specialist in the Center Protective Services Office.",
+    "chunk_index": 19,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Center Security Classification Officers, as the Center point-of-contact, will assist Center personnel in:\nInterpreting security classification guides and classification assignments for the Center.\nAnswering questions and considering suggestions concerning security classification matters.\nEnsuring a continuing review of classified information for the purpose of declassifying or downgrading in accordance with\nsubpart E of this part\nReviewing and approving, as the representative of the contracting officer, the DD Form 254, Contract Security Classification Specification, issued to contractors by the Center.\nForwarding all security classification guides to the Office of Protective Services, NASA Headquarters, for final approval.\n44 FR 34913\n, June 18, 1979, as amended at\n78 FR 5118\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "government_contracting",
+      "cybersecurity",
+      "government_procurement",
+      "regulatory_scope",
+      "information_classification"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 15.5,
+        "matched_keywords": [
+          "protective services (title, +5)",
+          "classified information",
+          "protective services",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 11.5,
+        "matched_keywords": [
+          "contracting officer",
+          "contracting",
+          "contract (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 5,
+        "matched_keywords": [
+          "information security (title, +5)"
+        ]
+      },
+      {
+        "id": "government_procurement",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "contracting"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 4.5,
+        "matched_keywords": [
+          "in accordance with"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 4.0,
+        "matched_keywords": [
+          "classification (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 21728,
+    "source_end": 21824,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_409",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.409",
+    "article_number_normalized": "1203_409",
+    "article_title": "Exceptional cases.",
+    "chunk_index": 20,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In those cases where a person not authorized to classify information originates or develops information which is believed to require classification, that person must contact the Center's or installation's Information Security Officer in the Protective Services Office to arrange for proper review and safeguarding. Persons other than NASA employees should forward the information to the NASA Central Registry at 300 E Street SW., Washington, DC 20546, Attention: Office of Protective Services.\nInformation in which NASA does not have primary interest shall be returned promptly, under appropriate safeguards, to the sender in accordance with\n§ 1203.405\nMaterial received from another agency for a NASA security classification determination shall be processed within 90 days. If a classification cannot be determined during that period, the material shall be sent, under appropriate safeguards, to the Director, Information Security Oversight Office, for a determination.\n44 FR 34913\n, June 18, 1979, as amended at\n78 FR 5118\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybersecurity",
+      "national_security",
+      "regulatory_scope",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "protective services"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 4.5,
+        "matched_keywords": [
+          "in accordance with"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 3.0,
+        "matched_keywords": [
+          "agency (weak)",
+          "oversight (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 22632,
+    "source_end": 22659,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_410",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.410",
+    "article_number_normalized": "1203_410",
+    "article_title": "Limitations.",
+    "chunk_index": 21,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In no case shall information be classified, continue to be maintained as classified, or fail to be declassified in order to:\nConceal violations of law, inefficiency, or administrative error;\nPrevent embarrassment to a person, organization, or agency;\nRestrain competition; or\nPrevent or delay the release of information that does not require protection in the interest of the national security.\nBasic scientific research information not clearly related to the national security may not be classified.\nInformation may not be reclassified after declassification after being released to the public under proper authority unless: The reclassification is based on a document-by-document review by NASA and a determination that reclassification is required to prevent at least significant damage to the national security and personally approved in writing by the Administrator, the Deputy Administrator, or the Assistant Administrator for Protective Services. All reclassification actions will be coordinated with the Information Security Oversight Office before final approval; the information may be reasonably recovered without bringing undue public attention to the information; the reclassification action is reported promptly to the Assistant to the President for National Security Affairs (the National Security Advisor) and the Director of the Information Security Oversight Office; and for documents in the physical and legal custody of the National Archives and Records Administration (National Archives) that have been available for public use, the Administrator, the Deputy Administrator, or the Assistant Administrator for Protective Services, after making the determinations required by this paragraph, shall notify the Archivist of the United States (hereafter, Archivist), who shall suspend public access pending approval of the reclassification action by the Director of the Information Security Oversight Office. Any such decision by the Director may be appealed by the agency head to the President through the National Security Advisor. Public access shall remain suspended pending a prompt decision on the appeal.\nInformation that has not previously been disclosed to the public under proper authority may be classified or reclassified after an agency has received a request for it under the Freedom of Information Act (\n5 U.S.C. 552\n), the Presidential Records Act,\n44 U.S.C. 2204(c)(1)\n, the Privacy Act of 1974 (\n5 U.S.C. 552a\n), or the mandatory review provisions of\nsection 3.5\nof this Order only if such classification meets the requirements of this Order and is accomplished by document-by-document review with the personal participation or under the direction of the Administrator, the Deputy Administrator, or the Assistant Administrator for Protective Services. The requirements in this paragraph also apply to those situations in which information has been declassified in accordance with a specific date or event determined by an original classification authority in accordance with\nsection 1.5\nof this Order.\nCompilations of items of information that are individually unclassified may be classified if the compiled information reveals an additional association or relationship that:\nMeets the standards for classification under this Order; and\nIs not otherwise revealed in the individual items of information.\n44 FR 34913\n, June 18, 1979, as amended at\n48 FR 5890\n, Feb. 9, 1983;\n78 FR 5119\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "regulatory_scope",
+      "public_administration",
+      "public_governance",
+      "cybersecurity",
+      "information_classification",
+      "data_protection",
+      "records_management",
+      "quality_management"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 52.0,
+        "matched_keywords": [
+          "original classification authority",
+          "national security",
+          "damage to the national security",
+          "individually unclassified",
+          "compiled information",
+          "additional association",
+          "protective services",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 13.0,
+        "matched_keywords": [
+          "authority in",
+          "in accordance with",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 9.5,
+        "matched_keywords": [
+          "agency head",
+          "agency (weak)",
+          "oversight (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 9.0,
+        "matched_keywords": [
+          "administration",
+          "agency head"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 7.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 5.5,
+        "matched_keywords": [
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 4.0,
+        "matched_keywords": [
+          "archives (weak)",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 3.5,
+        "matched_keywords": [
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 23704,
+    "source_end": 23725,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_411",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.411",
+    "article_number_normalized": "1203_411",
+    "article_title": "Restrictions.",
+    "chunk_index": 22,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Except as provided by directives issued by the President through the National Security Council, classified information originating in one agency may not be disseminated outside any other agency to which it has been made available without the consent of the originating agency. For purposes of this section, the Department of Defense shall be considered one agency.\nClassified information shall not be disseminated outside the Executive Branch except under conditions that ensure the information will be given protection equivalent to that afforded within the Executive Branch.\n48 FR 5890\n, Feb. 9, 1983]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "data_protection",
+      "legal_definitions",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 14.0,
+        "matched_keywords": [
+          "national security",
+          "classified information",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "consent"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for purposes of"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 3.0,
+        "matched_keywords": [
+          "agency (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 27163,
+    "source_end": 27185,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_412",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.412",
+    "article_number_normalized": "1203_412",
+    "article_title": "Classification guides.",
+    "chunk_index": 23,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "General.\nA classification guide, based upon classification determinations made by appropriate program and classification authorities, shall be issued for each classified system, program or project. Classification guides shall:\nIdentify the information elements to be protected, using categorization and subcategorization to the extent necessary to ensure that the information involved can be readily and uniformly identified.\nState which of the classification designations (i.e., Top Secret, Secret or Confidential) apply to the identified information elements.\nState the duration of each specified classification in terms of a period of time or future event. If the original classification authority cannot determine an earlier specific date or event for declassification, information shall be marked for declassification 10 years from the date of the original decision, unless the original classification authority otherwise determines that the sensitivity of the information requires it be marked for declassification for up to 25 years from the date of the original decision.\nIndicate specifically that the designations, time limits, markings and other requirements of “the Order” are to be applied to information classified pursuant to the guide.\nAll security classification guides should be forwarded to the Office of Protective Services for review and final approval. The Office of Protective Services will maintain a list of all classification guides in current use.\nReview of classification guides.\nClassification guides shall be reviewed by the originator for currency and accuracy not less than once every five years. Changes shall be in strict conformance with the provisions of this part 1203 and shall be issued promptly. If no changes are made, the originator shall so annotate the record copy and show the date of the review.\n44 FR 34913\n, June 18, 1979, as amended at\n48 FR 5891\n, Feb. 9, 1983;\n78 FR 5119\n, Jan. 24, 2013]\nSubpart E—Derivative Classification",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "information_classification",
+      "national_security",
+      "regulatory_scope",
+      "federalism_legal"
+    ],
+    "topics_details": [
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 27.0,
+        "matched_keywords": [
+          "derivative classification",
+          "classification guide",
+          "markings (weak)",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 22.0,
+        "matched_keywords": [
+          "original classification authority",
+          "top secret",
+          "protective services",
+          "classified (weak)",
+          "secret (weak)",
+          "confidential (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 6.5,
+        "matched_keywords": [
+          "pursuant to",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "to the extent"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 27792,
+    "source_end": 27823,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_500",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.500",
+    "article_number_normalized": "1203_500",
+    "article_title": "Use of derivative classification.",
+    "chunk_index": 24,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Persons who reproduce, extract, or summarize classified information, or who apply classification markings derived from source material or as directed by a classification guide, need not possess original classification authority.\nPersons who apply derivative classification markings shall:\nBe identified by name and position or by personal identifier, in a manner that is immediately apparent for each derivative classification action;\nObserve and respect original classification decisions; and\nCarry forward to any newly created documents the pertinent classification markings. For information derivatively classified based on multiple sources, the derivative classifier shall carry forward:\nThe date or event for declassification that corresponds to the longest period of classification among the sources or the marking established pursuant to section 1.6(a)(4)(D) of the Order; and\nii\nA listing of the source materials.\nDerivative classifiers shall, whenever practicable, use a classified addendum when classified information constitutes a small portion of an otherwise unclassified document or prepare a product to allow for dissemination at the lowest level of classification possible or in unclassified form.\nPersons who apply derivative classification markings shall receive training in the proper application of the derivative classification principles of the Order, with an emphasis on avoiding over-classification, at least once every two years. Derivative classifiers who do not receive such training at least once every two years shall have their authority to apply derivative classification markings suspended until they have received such training. A waiver may be granted by the Administrator, the Deputy Administrator, or the Assistant Administrator for Protective Services if an individual is unable to receive such training due to unavoidable circumstances. Whenever a waiver is granted, the individual shall receive such training as soon as practicable.\n78 FR 5119\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "information_classification",
+      "national_security",
+      "regulatory_scope"
+    ],
+    "topics_details": [
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 42.0,
+        "matched_keywords": [
+          "derivative classification (title, +5)",
+          "derivative classification",
+          "classification guide",
+          "classification markings",
+          "markings (weak)",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 19.0,
+        "matched_keywords": [
+          "original classification authority",
+          "classified information",
+          "protective services",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 6.5,
+        "matched_keywords": [
+          "pursuant to",
+          "authority (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 29802,
+    "source_end": 29844,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_501",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.501",
+    "article_number_normalized": "1203_501",
+    "article_title": "Applying derivative classification markings.",
+    "chunk_index": 25,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Persons who apply derivative classification markings shall:\nObserve and respect original classification decisions:\nVerify the information's current level of classification so far as practicable before applying the markings; and\nCarry forward to newly created documents any assigned authorized markings. The declassification date or event that provides the longest period of classification shall be used for documents classified on the basis of multiple sources.\n44 FR 34913\n, June 18, 1979, as amended at\n48 FR 5891\n, Feb. 9, 1983]\nSubpart F—Declassification and Downgrading",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "information_classification"
+    ],
+    "topics_details": [
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 25.5,
+        "matched_keywords": [
+          "derivative classification (title, +5)",
+          "classification markings (title, +5)",
+          "derivative classification",
+          "classification markings",
+          "markings (weak)",
+          "classification (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 31847,
+    "source_end": 31900,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_600",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.600",
+    "article_number_normalized": "1203_600",
+    "article_title": "Policy.",
+    "chunk_index": 26,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Information shall be declassified or downgraded as soon as national security considerations permit. NASA reviews of classified information shall be coordinated with other agencies that have a direct interest in the subject matter. Information that continues to meet the classification requirements prescribed by\n§ 1203.400\ndespite the passage of time will continue to be protected in accordance with “the Order.”\n48 FR 5891\n, Feb. 9, 1983]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "regulatory_scope"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 12.5,
+        "matched_keywords": [
+          "national security",
+          "classified information",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 4.5,
+        "matched_keywords": [
+          "in accordance with"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 32478,
+    "source_end": 32494,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_601",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.601",
+    "article_number_normalized": "1203_601",
+    "article_title": "Responsibilities.",
+    "chunk_index": 27,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Authorized officials with Declassification Authority (DCA) may declassify or downgrade information that is subject to the final classification jurisdiction of NASA and shall take such action in accordance with the provisions of this subpart F.\n44 FR 34913\n, June 18, 1979, as amended at\n78 FR 5120\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "regulatory_scope",
+      "national_security",
+      "information_classification"
+    ],
+    "topics_details": [
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 6.0,
+        "matched_keywords": [
+          "in accordance with",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "declassify"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 3.5,
+        "matched_keywords": [
+          "declassify (weak)",
+          "classification (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 32937,
+    "source_end": 32963,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_602",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.602",
+    "article_number_normalized": "1203_602",
+    "article_title": "Authorization.",
+    "chunk_index": 28,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Information shall be declassified or downgraded by an authorized DCA official. If that official is still serving in the same position, the originator's successor, a supervisory official of either, or officials delegated such authority in writing by the Administrator or the Chairperson, NISPC, may also make a decision to declassify or downgrade information.\n78 FR 5120\n, Jan. 24, 2013]\n§ 1203.603 Systematic review for declassification:\nGeneral.\nNASA must establish and conduct a program for systematic declassification review of NASA-originated records of permanent historical value exempted from automatic declassification under\nsection 3.3\nof this Order. The NASA Office of Protective Services shall prioritize the review of such records in coordination with the Center Protective Service Offices.\nThe Archivist shall conduct a systematic declassification review program for classified records:\nAccessioned into the National Archives;\nii\nTransferred to the Archivist pursuant to\n44 U.S.C. 2203\n; and\niii\nFor which the National Archives serves as the custodian for an agency or organization that has gone out of existence.\nThe Chairperson, NISPC, shall designate experienced personnel to assist the Archivist in the systematic review of U.S. originated information and foreign information exempted from automated declassification. Such personnel shall:\nProvide guidance and assistance to the National Archives and Records Service in identifying and separating documents and specific categories of information within documents which are deemed to require continued classification; and\nii\nDevelop reports of information or document categories so separated, with recommendations concerning continued classification.\niii\nDevelop, in coordination with NASA organizational elements, guidelines for the systematic review for declassification of classified information under NASA's jurisdiction. The guidelines shall state specific limited categories of information which, because of their national security sensitivity, should not be declassified automatically, but should be reviewed to determine whether continued protection beyond 25 years is needed. These guidelines are authorized for use by the Archivist and the Director of the Information Security Oversight Office, with the approval of the Senior Agency Official, which is the Assistant Administrator, Office of Protective Services, for categories listed in section 3.3 of the Order. These guidelines shall be reviewed at least every five years and revised as necessary, unless an earlier review for revision is requested by the Archivist. Copies of the declassification guidelines promulgated by NASA will be provided to the Information Security Oversight Office, National Archives and Records Administration (NARA). All security classified records exempt from automatic declassification, whether held in storage areas under installation control or in Federal Records Centers, will be surveyed to identify those requiring scheduling for future disposition.\nClassified information or material over which NASA exercises exclusive or final original classification authority and which is to be declassified in accordance with the systematic review guidelines shall be so marked.\nClassified information or material over which NASA exercises exclusive or final original classification authority and which, in accordance with the systematic review guidelines is to be kept protected, shall be listed by category by the responsible custodian and referred to the Chairperson, NASA Information Security Program Committee. This listing shall:\nIdentify the information or material involved.\nRecommend classification beyond 25 years to a specific event scheduled to happen or a specific period of time in accordance with the Order.\nThe Administrator shall delegate to the Senior Agency Official the authority to determine which category shall be kept classified and the dates or event for declassification.\nDeclassification by the Director of the Information Security Oversight Office (DISOO). If the Director determines that NASA information is classified in violation of the Order, the Director may require the information to be declassified. Any such decision by the Director may be appealed through the NASA ISPC to the National Security Council. The information shall remain classified pending a prompt decision on the appeal.\n[Reserved]\n78 FR 5120\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "public_administration",
+      "regulatory_scope",
+      "administrative_procedures",
+      "public_governance",
+      "information_classification",
+      "cybersecurity",
+      "records_management"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 39.0,
+        "matched_keywords": [
+          "original classification authority",
+          "declassify",
+          "national security",
+          "classified information",
+          "protective services",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 21.0,
+        "matched_keywords": [
+          "senior agency official",
+          "agency official",
+          "agency (weak)",
+          "official (weak)",
+          "oversight (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 19.5,
+        "matched_keywords": [
+          "authority in",
+          "pursuant to",
+          "in accordance with",
+          "authority (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 11.5,
+        "matched_keywords": [
+          "chairperson",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 10.5,
+        "matched_keywords": [
+          "administration",
+          "senior agency official"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 10.0,
+        "matched_keywords": [
+          "declassify (weak)",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 9.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 7.5,
+        "matched_keywords": [
+          "archives (weak)",
+          "records (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 33281,
+    "source_end": 33304,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_604",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.604",
+    "article_number_normalized": "1203_604",
+    "article_title": "Mandatory review for declassification.",
+    "chunk_index": 29,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Information covered.\nExcept as provided in\nparagraph (b)\nof this section, all information classified under the Order or predecessor orders shall be subject to a review for declassification by the originating agency if:\nThe request for a review describes the document or material containing the information with sufficient specificity to enable the agency to locate it in a reasonably timely manner;\nThe document or material containing the information responsive to the request is not contained within an operational file exempted from search and review, publication, and disclosure under\n5 U.S.C. 552\nin accordance with law; and\nThe information is not the subject of pending litigation.\nPresidential papers.\nInformation originated by the President or Vice President; the President's White House Staff, or the Vice President's Staff; committees, commissions, or boards appointed by the President; or other entities within the Executive Office of the President that solely advise and assist the President are exempted from the provisions of\nparagraph (a)\nof this section. However, the Archivist shall have the authority to review, downgrade, and declassify papers or records of former Presidents and Vice Presidents under the control of the Archivist pursuant to\n44 U.S.C. 2107\n2111\n2111 note\n, or\n2203\n. Procedures developed by the Archivist shall provide for consultation with agencies having primary subject matter interest and shall be consistent with the provisions of applicable laws or lawful agreements that pertain to the respective Presidential papers or records. Agencies with primary subject matter interest shall be notified promptly of the Archivist's decision. Any final decision by the Archivist may be appealed by the requester or an agency to the Panel. The information shall remain classified pending a decision on the appeal.\nSubmission of requests for review.\nRequests for mandatory review of classified information shall be submitted in accordance with the following:\nRequests originating within NASA shall, in all cases, be submitted directly to the NASA Office of Protective Services.\nFor the most expeditious action, requests from other Governmental agencies or from members of the public should be submitted directly to the NASA Office of Protective Services only. The requestor may submit the request to: National Aeronautics and Space Administration (NASA), Central Registry, 300 E Street SW., Washington DC 20546, Attention: Office of Protective Services/Information Security Program Manager. The phrase, “Mandatory Declassification Review,” must be stated in the request.\nRequirement for processing.\nRequests which are submitted under the Freedom of Information Act cannot be processed under the MDR process.\nThe request describes the document or material containing the information with sufficient specificity, such as accession numbers, box titles or numbers, date and title of document, in any combination, to enable NASA to locate it with a reasonable amount of effort, not to exceed 30 days. If more time is required, NASA will notify the requester. After review, the information or any portion thereof that no longer requires protection shall be declassified and released unless withholding is otherwise warranted under applicable law.\nProcessing of requests.\nRequests that meet the requirements of\nparagraph (d)(2)\nof this section will be processed as follows:\nThe NASA Office of Protective Services review upon receiving the initial request shall be completed within 365 days.\nReceipt of the request shall be acknowledged promptly. The NASA Office of Protective Services shall determine whether, under the declassification provisions of this part 1203, the requested information may be declassified and, if so, shall make such information available to the requestor, unless withholding is otherwise warranted under applicable law. If the information may not be released in whole or in part, the requestor shall be given a brief statement of the reasons for denial, a notice of the right to appeal the determination to the Chairperson, NASA Information Security Program Committee, National Aeronautics and Space Administration, Washington, DC 20546, and a notice that such an appeal must be filed within 60 days in order to be considered.\nAll appeals of denials of requests for declassification shall be acted upon and determined finally within 120 working days after receipt, and the requester shall be advised that the appeal determination is final. If the requester is dissatisfied with NASA's appeal decision, the requester may initiate an appeal to the Interagency Security Classification Appeals Panel (ISCAP), within the Information Security Oversight Office. If continued classification is required under the provisions of this part 1203, the requester shall be notified of the reasons thereof.\nThe declassification and release of foreign government information that is subjected to mandatory review under this section shall be determined only in accordance with\n§ 1203.703\nWhen the NASA Office of Protective Services receives any request for declassification of information in documents in its custody that was classified by another Government agency, it shall refer copies of the request and the requested documents to the originating agency for processing and may, after consultation with the originating agency, inform the requester of the referral.\nNeutral response.\nIn response to a request for information under the Freedom of Information Act, the Privacy Act of 1974, or the mandatory review provisions of “the Order,” NASA shall refuse to confirm or deny the existence or non-existence of requested information whenever the fact of its existence or non-existence is itself classifiable under “the Order.”\nDeclassification of transferred documents or material\nMaterial officially transferred.\nIn the case of classified information or material transferred by or pursuant to statute or Executive Order to NASA in conjunction with a transfer of functions (not merely for storage purposes) for NASA's use and as part of its official files or property, as distinguished from transfers merely for purposes of storage, NASA shall be deemed to be the original classifying authority over such material for purposes of downgrading and declassification.\nMaterial not officially transferred.\nWhen NASA has in its possession classified information or material originated by an agency which has since ceased to exist and that information has not been officially transferred to another department or agency or when it is impossible for NASA to identify the originating agency and a review of the material indicates that it should be downgraded or declassified, NASA shall be deemed to be the originating agency for the purpose of declassifying or downgrading such material. NASA will consult with the Information Security Oversight Office to assist in final disposition of the information.\nTransfer for storage or retirement.\nInsofar as practicable, classified documents shall be reviewed to determine whether or not they can be downgraded or declassified prior to being forwarded to records centers or to the National Archives for storage. Any downgrading or declassification determination shall be indicated on each document by appropriate markings.\nii\nClassified information transferred to the General Services Administration for accession into the Archives of the United States shall be downgraded or declassified by the Archivist of the United States in accordance with “the Order,” the directives of the Information Security Oversight Office, GSA, and NASA guidelines.\nDowngrading and declassification actions\nNotification of changes in classification or declassification.\nWhen classified material has been marked with specific dates or events for downgrading or declassification, it is not necessary to issue notices of such actions to any holders. However, when such actions are taken earlier than originally scheduled, or the duration of classification is shortened, the authority making such changes shall, to the extent practicable, ensure prompt notification to all addressees to whom the information or material was originally transmitted. The notification shall specify the marking action to be taken, the authority therefor, and the effective date. Upon receipt of notification, recipients shall effect the proper changes and shall notify addressees to whom they have transmitted the classified information or material.\nPosted notice.\nIf prompt remarking of large quantities would be unduly burdensome, the custodian may attach declassification, downgrading, or upgrading notices to the storage unit in lieu of the remarking action otherwise required. Each notice shall indicate the change, the authority for the action, the date of the action, and the storage units to which it applies. Items withdrawn from such storage units shall be promptly remarked. However, when information subject to a posted downgrading or declassification notice is withdrawn from one storage unit solely for transfer to another, or a storage unit containing such information is transferred from one place to another, the transfer may be made without remarking if the notice is attached to or remains with each shipment.\nForeign Relations Series.\nIn order to permit the State Department editors of\nForeign Relations of the United States\nto meet their mandated goal of publishing 20 years after the event, NASA shall assist these editors by facilitating access to appropriate classified materials in its custody and by expediting declassification review of items from its files selected for publication.\nii\n[Reserved]\n44 FR 34913\n, June 18, 1979, as amended at\n45 FR 3888\n, Jan. 21, 1980;\n48 FR 5892\n, Feb. 9, 1983;\n53 FR 41318\n, Oct. 21, 1988;\n78 FR 5120\n, Jan. 24, 2013]\nSubpart G [Reserved]\nSubpart H—Delegation of Authority To Make Determinations in Original Classification Matters\n, Oct. 20, 1997, unless otherwise noted.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "public_administration",
+      "litigation_procedure",
+      "regulatory_scope",
+      "information_classification",
+      "public_governance",
+      "cybersecurity",
+      "administrative_procedures",
+      "government_contracting",
+      "legal_definitions",
+      "data_protection",
+      "records_management",
+      "federalism_legal"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 42.0,
+        "matched_keywords": [
+          "declassify",
+          "classified information",
+          "executive order",
+          "protective services",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 25.5,
+        "matched_keywords": [
+          "interagency",
+          "facilitating access",
+          "expediting declassification review",
+          "agency (weak)",
+          "official (weak)",
+          "oversight (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 20.5,
+        "matched_keywords": [
+          "appeals",
+          "final decision",
+          "litigation",
+          "appeal (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 20.5,
+        "matched_keywords": [
+          "pursuant to",
+          "in accordance with",
+          "authority (weak)",
+          "applies (weak)"
+        ]
+      },
+      {
+        "id": "information_classification",
+        "label_zh": "信息分级",
+        "label_en": "Information Classification",
+        "label_pt": "Classificação de Informação",
+        "score": 14.5,
+        "matched_keywords": [
+          "markings (weak)",
+          "declassify (weak)",
+          "classification (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 12.0,
+        "matched_keywords": [
+          "administration",
+          "interagency"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 10.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 10.0,
+        "matched_keywords": [
+          "chairperson",
+          "committee (weak)",
+          "chairperson (weak)",
+          "panel (weak)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "appeals"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.0,
+        "matched_keywords": [
+          "for purposes of"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 4.5,
+        "matched_keywords": [
+          "archives (weak)",
+          "records (weak)"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "to the extent"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 37721,
+    "source_end": 37768,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_800",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.800",
+    "article_number_normalized": "1203_800",
+    "article_title": "Establishment.",
+    "chunk_index": 30,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Pursuant to Executive Order 13526, “Classified National Security Information,” and The Space Act, in accordance with U.S.C. Title 51, National and Commercial Space Program Sections 20132 and 20133, there is established a NASA Information Security Program Committee (as part of the permanent administrative structure of NASA). The NASA Assistant Administrator for Protective Services, or designee, shall be the Chairperson of the Committee. The Information Security Program Manager, NASA Office of Protective Services, is designated to act as the Committee Executive Secretary.\n78 FR 5121\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "administrative_procedures",
+      "regulatory_scope",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 27.0,
+        "matched_keywords": [
+          "classified national security information",
+          "executive order 13526",
+          "national security",
+          "executive order",
+          "protective services",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 13.0,
+        "matched_keywords": [
+          "chairperson",
+          "executive secretary",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 9.0,
+        "matched_keywords": [
+          "pursuant to",
+          "in accordance with"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 47726,
+    "source_end": 47749,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_801",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.801",
+    "article_number_normalized": "1203_801",
+    "article_title": "Responsibilities.",
+    "chunk_index": 31,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Chairperson reports to the Administrator concerning the management and direction of the NASA Information Security Program as provided for in\nsubpart B of this part\n. In this connection, the Chairperson is supported and advised by the Committee.\nThe Committee shall act on all appeals from denials of declassification requests and on all suggestions and complaints with respect to administration of the NASA Information Security Program as provided for in\nsubpart B of this part\nThe Executive Secretary of the Committee shall maintain all records produced by the Committee, its subcommittees, and its ad hoc panels.\nThe Office of Protective Services will provide staff assistance and investigative and support services for the Committee.\n78 FR 5121\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures",
+      "cybersecurity",
+      "public_governance",
+      "national_security",
+      "government_contracting",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 30.0,
+        "matched_keywords": [
+          "ad hoc panels",
+          "subcommittees",
+          "chairperson",
+          "executive secretary",
+          "records produced by the committee",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "protective services"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "appeals"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "appeals"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 48357,
+    "source_end": 48383,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_802",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.802",
+    "article_number_normalized": "1203_802",
+    "article_title": "Membership.",
+    "chunk_index": 32,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Committee membership will consist of the Chairperson, the Executive Secretary, and one person nominated by each of the following NASA officials:\nThe Associate Administrators for:\nAeronautics.\nScience Missions Directorate.\nHuman Explorations and Operations.\nInternational and Interagency Relations.\nThe Associate Administrator.\nThe General Counsel.\nThe Chief Information Officer.\nOther members may be designated upon specific request of the Chairperson.\n78 FR 5121\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures",
+      "public_governance",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 29.5,
+        "matched_keywords": [
+          "membership (title, +5)",
+          "committee membership",
+          "chairperson",
+          "executive secretary",
+          "membership",
+          "committee (weak)",
+          "membership (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "interagency"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "interagency"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 49155,
+    "source_end": 49175,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_803",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.803",
+    "article_number_normalized": "1203_803",
+    "article_title": "Ad hoc committees.",
+    "chunk_index": 33,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Chairperson is authorized to establish such ad hoc panels or subcommittees as may be necessary in the conduct of the Committee's work.\n78 FR 5121\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 31.0,
+        "matched_keywords": [
+          "ad hoc committees (title, +5)",
+          "ad hoc panels",
+          "subcommittees",
+          "chairperson",
+          "as may be necessary",
+          "authorized to establish",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 49663,
+    "source_end": 49690,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_804",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.804",
+    "article_number_normalized": "1203_804",
+    "article_title": "Meetings.",
+    "chunk_index": 34,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Meetings will be held at the call of the Chairperson.\nRecords produced by the Committee and the minutes of each meeting will be maintained by the Executive Secretary.\n78 FR 5121\n, Jan. 24, 2013]\nSubpart I—NASA Information Security Program Committee\n, Feb. 15, 1989, unless otherwise noted.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 37.5,
+        "matched_keywords": [
+          "meetings (title, +5)",
+          "chairperson",
+          "executive secretary",
+          "meetings will be held",
+          "call of the chairperson",
+          "records produced by the committee",
+          "meetings",
+          "committee (weak)",
+          "meeting (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 49860,
+    "source_end": 49878,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_900",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.900",
+    "article_number_normalized": "1203_900",
+    "article_title": "Establishment.",
+    "chunk_index": 35,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Pursuant to Executive Order 13526, “Classified National Security Information,” and The Space Act, in accordance with U.S.C. Title 51, National and Commercial Space Program Sections 20132 and 20133, there is established a NASA Information Security Program Committee (as part of the permanent administrative structure of NASA. The NASA Assistant Administrator for Protective Services, or designee, shall be the Chairperson of the Committee. The Information Security Program Manager, NASA Office of Protective Services, is designated to act as the Committee Executive Secretary.\n78 FR 5122\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security",
+      "administrative_procedures",
+      "regulatory_scope",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 27.0,
+        "matched_keywords": [
+          "classified national security information",
+          "executive order 13526",
+          "national security",
+          "executive order",
+          "protective services",
+          "national security (weak)",
+          "classified (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 13.0,
+        "matched_keywords": [
+          "chairperson",
+          "executive secretary",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 9.0,
+        "matched_keywords": [
+          "pursuant to",
+          "in accordance with"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 50171,
+    "source_end": 50194,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_901",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.901",
+    "article_number_normalized": "1203_901",
+    "article_title": "Responsibilities.",
+    "chunk_index": 36,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Chairperson reports to the Administrator concerning the management and direction of the NASA Information Security Program as provided for in\nsubpart B of this part\n. In this connection, the Chairperson is supported and advised by the Committee.\nThe Committee shall act on all appeals from denials of declassification requests and on all suggestions and complaints with respect to administration of the NASA Information Security Program as provided for in\nsubpart B of this part\nThe Executive Secretary of the Committee shall maintain all records produced by the Committee, its subcommittees, and its ad hoc panels.\nThe Office of Protective Services, will provide staff assistance, and investigative and support services for the Committee.\n54 FR 6881\n, Feb. 15, 1989, as amended at\n78 FR 5122\n, Jan. 24, 2013]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures",
+      "cybersecurity",
+      "public_governance",
+      "national_security",
+      "government_contracting",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 30.0,
+        "matched_keywords": [
+          "ad hoc panels",
+          "subcommittees",
+          "chairperson",
+          "executive secretary",
+          "records produced by the committee",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "protective services"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "appeals"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "appeals"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 50801,
+    "source_end": 50827,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_902",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.902",
+    "article_number_normalized": "1203_902",
+    "article_title": "Membership.",
+    "chunk_index": 37,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Committee will consist of the Chairperson and Executive Secretary. In addition, each of the following NASA officials will nominate one person to Committee membership:\nAssociate Administrator for:\nAero-Space Technology.\nSpace Science.\nSpace Flight.\nExternal Relations.\nLife and Microgravity Sciences and Applications.\nAssociate Deputy Administrator.\nGeneral Counsel.\nOther members may be designated upon specific request of the Chairperson.\n54 FR 6881\n, Feb. 15, 1989, as amended at\n64 FR 72535\n, Dec. 28, 1999]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 34.5,
+        "matched_keywords": [
+          "membership (title, +5)",
+          "committee membership",
+          "chairperson",
+          "executive secretary",
+          "committee will consist",
+          "membership",
+          "committee (weak)",
+          "membership (weak)",
+          "chairperson (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 51643,
+    "source_end": 51663,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_903",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.903",
+    "article_number_normalized": "1203_903",
+    "article_title": "Ad hoc committees.",
+    "chunk_index": 38,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Chairperson is authorized to establish such ad hoc panels or subcommittees as may be necessary in the conduct of the Committee's work.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 31.0,
+        "matched_keywords": [
+          "ad hoc committees (title, +5)",
+          "ad hoc panels",
+          "subcommittees",
+          "chairperson",
+          "as may be necessary",
+          "authorized to establish",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 52181,
+    "source_end": 52208,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_904",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.904",
+    "article_number_normalized": "1203_904",
+    "article_title": "Meetings.",
+    "chunk_index": 39,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Meetings will be held at the call of the Chairperson.\nRecords produced by the Committee and the minutes of each meeting will be maintained by the Executive Secretary.\nSubpart J—Special Access Programs (SAP) and Sensitive Compartmented Information (SCI) Programs\n, Jan. 24, 2013, unless otherwise noted.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 37.0,
+        "matched_keywords": [
+          "meetings (title, +5)",
+          "chairperson",
+          "executive secretary",
+          "meetings will be held",
+          "call of the chairperson",
+          "records produced by the committee",
+          "meetings",
+          "committee (weak)",
+          "meeting (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "sensitive compartmented information"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 52350,
+    "source_end": 52368,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_1000",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.1000",
+    "article_number_normalized": "1203_1000",
+    "article_title": "General.",
+    "chunk_index": 40,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "A SAP or SCI program shall be created within NASA only upon specific written approval of the Administrator and must be coordinated with the Assistant Administrator for Protective Services, or designee, to ensure required security protocols are implemented and maintained.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 18.0,
+        "matched_keywords": [
+          "sap or sci program",
+          "written approval",
+          "protective services",
+          "security protocols"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 52674,
+    "source_end": 52692,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_1001",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.1001",
+    "article_number_normalized": "1203_1001",
+    "article_title": "Membership.",
+    "chunk_index": 41,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Committee membership will consist of the Chairperson, the Executive Secretary, and one person nominated by each of the following NASA officials:\nThe Associate Administrators for:\nAeronautics.\nScience Missions Directorate.\nHuman Explorations and Operations.\nInternational and Interagency Relations.\nThe Associate Administrator.\nThe General Counsel.\nThe Chief Information Officer.\nOther members may be designated upon specific request of the Chairperson.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures",
+      "public_governance",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 29.5,
+        "matched_keywords": [
+          "membership (title, +5)",
+          "committee membership",
+          "chairperson",
+          "executive secretary",
+          "membership",
+          "committee (weak)",
+          "membership (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "interagency"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "interagency"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 52967,
+    "source_end": 52988,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_1002",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.1002",
+    "article_number_normalized": "1203_1002",
+    "article_title": "Ad hoc committees.",
+    "chunk_index": 42,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Chairperson is authorized to establish such ad hoc panels or subcommittees as may be necessary in the conduct of the Committee's work.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 31.0,
+        "matched_keywords": [
+          "ad hoc committees (title, +5)",
+          "ad hoc panels",
+          "subcommittees",
+          "chairperson",
+          "as may be necessary",
+          "authorized to establish",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 53448,
+    "source_end": 53476,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T14_P1203_1979_ART_1203_1003",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T14_P1203_1979",
+    "law_name": "Information Security Program",
+    "law_name_original": "Information Security Program",
+    "law_type": "CFR",
+    "article_number": "1203.1003",
+    "article_number_normalized": "1203_1003",
+    "article_title": "Meetings.",
+    "chunk_index": 43,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Meetings will be held at the call of the Chairperson.\nRecords produced by the Committee and the minutes of each meeting will be maintained by the Executive Secretary.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 37.0,
+        "matched_keywords": [
+          "meetings (title, +5)",
+          "chairperson",
+          "executive secretary",
+          "meetings will be held",
+          "call of the chairperson",
+          "records produced by the committee",
+          "meetings",
+          "committee (weak)",
+          "meeting (weak)",
+          "chairperson (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "1979-06-18",
+    "effective_date": "2026-05-27",
+    "publication_date": "1979-06-18",
+    "last_amended_date": "2026-05-27",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-14/part-1203",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T14_P1203_14_CFR_Part_1203_--_Information_Security_Program.txt",
+    "source_start": 53618,
+    "source_end": 53637,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:18Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

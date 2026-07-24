@@ -1,0 +1,3096 @@
+[
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_001",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": ". (Purpose)",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The purpose of these Rules is to provide for matters necessary for enforcing the provisions of the (Act No. 131 of 1950) and matters based on the delegation of the , beyond what is provided for separately by order.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The purpose of these Rules is to provide for matters necessary for enforcing the provisions of the (Act No. 131 of 1950) and matters based on the delegation of the , beyond what is provided for separately by order."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 52,
+    "source_end": 266,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_002",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": ". (Definitions, etc.)",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The interpretation of the provisions of orders pursuant to the is to be in accordance with the following definitions, except as otherwise provided:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The interpretation of the provisions of orders pursuant to the is to be in accordance with the following definitions, except as otherwise provided:"
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "definitions"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 299,
+    "source_end": 446,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_003",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "(ii)deleted;",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 3. (Classification and Definition of Service)\n\n(iii)the term \"broadcasting services\" means radiocommunications services by means of radiotelephony, television, data transmission or facsimile for direct reception by the general public;",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 3. (Classification and Definition of Service)\n\n(iii)the term \"broadcasting services\" means radiocommunications services by means of radiotelephony, television, data transmission or facsimile for direct reception by the general public;"
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 10.5,
+        "matched_keywords": [
+          "means",
+          "definition",
+          "definition (weak)",
+          "term (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "broadcasting"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 33909,
+    "source_end": 34151,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_004",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": ".の三 (Indication of Frequency)",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The frequency of radio waves is indicated in kHz for those with a frequency of 3,000 kHz or less, in MHz for those with a frequency exceeding 3,000 kHz and 3,000 MHz or less, and in GHz for those with a frequency exceeding 3,000 MHz and 3,000 GHz or less; provided, however, that this indication method may not to be used if it is particularly necessary for the use of frequencies.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The frequency of radio waves is indicated in kHz for those with a frequency of 3,000 kHz or less, in MHz for those with a frequency exceeding 3,000 kHz and 3,000 MHz or less, and in GHz for those with a frequency exceeding 3,000 MHz and 3,000 GHz or less; provided, however, that this indication method may not to be used if it is particularly necessary for the use of frequencies."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 56238,
+    "source_end": 56619,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_005",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "Chapter II Radio Stations",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 5. (Limitations of Radio Stations)\n\nThose used only for receiving purpose referred to in the proviso to Article 2, item (v) of the Act does not include receiving equipment directly linked to its own transmitting equipment in terms of function, such as receiving equipment installed when communication is carried out by a method such as the centralized system or the duplex system.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 5. (Limitations of Radio Stations)\n\nThose used only for receiving purpose referred to in the proviso to Article 2, item (v) of the Act does not include receiving equipment directly linked to its own transmitting equipment in terms of function, such as receiving equipment installed when communication is carried out by a method such as the centralized system or the duplex system."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.5,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 62997,
+    "source_end": 63385,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_006",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": ".の二",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The functions specified by the Order of the Ministry of Internal Affairs and Communications referred to in Article 4, item (iii) of the Act are those set forth in the following items:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The functions specified by the Order of the Ministry of Internal Affairs and Communications referred to in Article 4, item (iii) of the Act are those set forth in the following items:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 72632,
+    "source_end": 72815,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_007",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": ".の二",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The validity period of the blanket license specified by Order of the Ministry of Internal Affairs and Communications referred to in Article 27-5, paragraph (3) of the Act is five years.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The validity period of the blanket license specified by Order of the Ministry of Internal Affairs and Communications referred to in Article 27-5, paragraph (3) of the Act is five years."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 96238,
+    "source_end": 96423,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_008",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "(iii)ship stations;",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 8.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 8."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 96616,
+    "source_end": 96626,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_009",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 9.\n\nIn the following cases, the Minister of Internal Affairs and Communications or the Director General of Regional Bureau of Telecommunications (including the Director-General of Okinawa Office of Telecommunications; the same applies hereinafter) may deem a period shorter than that prescribed in Article 7 through the preceding Article to be the valid period of a license, etc.:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 9.\n\nIn the following cases, the Minister of Internal Affairs and Communications or the Director General of Regional Bureau of Telecommunications (including the Director-General of Okinawa Office of Telecommunications; the same applies hereinafter) may deem a period shorter than that prescribed in Article 7 through the preceding Article to be the valid period of a license, etc.:"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 101442,
+    "source_end": 101830,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_010",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "(i)basic broadcasting station;",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 10.\nの二の二 (Radio Stations Not Requiring Notification of Commencement of Operation)\n(ii)a coastal station that handles telecommunications services, transmits maritime safety information, or uses radio waves of 2,187. 5 kHz, 4,207. 5 kHz, 6,312 kHz, 8,414.5 kHz, 12,577 kHz, 16,804.5 kHz, 27,524 kHz, 156.525 MHz, or 156.8 MHz for transmission;",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 10.の二の二 (Radio Stations Not Requiring Notification of Commencement of Operation)\n\n(ii)a coastal station that handles telecommunications services, transmits maritime safety information, or uses radio waves of 2,187. 5 kHz, 4,207. 5 kHz, 6,312 kHz, 8,414.5 kHz, 12,577 kHz, 16,804.5 kHz, 27,524 kHz, 156.525 MHz, or 156.8 MHz for transmission;"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 15.5,
+        "matched_keywords": [
+          "broadcasting (title, +5)",
+          "telecommunications",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 109295,
+    "source_end": 109644,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_011",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "(i)the number of the license, etc.;",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 11. (Matters to Be Stated in Certificate of Radio Station License)\n\n(ii)the name of the individual licensee, etc. (excluding any name used as part of the name of a corporation or organization) and the address of the licensee, etc.;",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 11. (Matters to Be Stated in Certificate of Radio Station License)\n\n(ii)the name of the individual licensee, etc. (excluding any name used as part of the name of a corporation or organization) and the address of the licensee, etc.;"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 112971,
+    "source_end": 113210,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_012",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": ". (Radio Waves to Be Equipped)",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "A ship station communicating by means of a digital selective-calling system must be capable of transmitting and receiving the radio waves listed in the following table according to the classification of the relevant ship station.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "A ship station communicating by means of a digital selective-calling system must be capable of transmitting and receiving the radio waves listed in the following table according to the classification of the relevant ship station."
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.5,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "radio"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 147225,
+    "source_end": 147454,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_013",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": ".の二",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The frequency bands in which amateur stations are permitted to operate are publicly notified separately.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The frequency bands in which amateur stations are permitted to operate are publicly notified separately."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 152559,
+    "source_end": 152663,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_014",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 14.\n\nThe usage, type of radio waves, frequencies, and antenna power of premises radio stations are to be publicly notified separately.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 14.\n\nThe usage, type of radio waves, frequencies, and antenna power of premises radio stations are to be publicly notified separately."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 153551,
+    "source_end": 153693,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_015",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "Type of radio waves H3E, J3E or R3E",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 15.\nの二 (Radio Stations Subject to Specified Radio Stations)\nThe radio stations specified by Order of the Ministry of Internal Affairs and Communications under Article 27-2 item (i) of the Act are as follows:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 15.の二 (Radio Stations Subject to Specified Radio Stations)\nThe radio stations specified by Order of the Ministry of Internal Affairs and Communications under Article 27-2 item (i) of the Act are as follows:"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 12.5,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 154163,
+    "source_end": 154377,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_016",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 16. (Radio Stations Subject to Registration)\n\nThe radio stations specified by Order of the Ministry of Internal Affairs and Communications under Article 27-21, paragraph (1) of the Act are listed in the following:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 16. (Radio Stations Subject to Registration)\n\nThe radio stations specified by Order of the Ministry of Internal Affairs and Communications under Article 27-21, paragraph (1) of the Act are listed in the following:"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 162331,
+    "source_end": 162552,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_017",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 17. (Standards for Radio Equipment at Registered Stations)\n\nThe standards for radio equipment specified by Order of the Ministry of Internal Affairs and Communications under Article 27-21, paragraph (1) of the Act are as set forth bellow:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 17. (Standards for Radio Equipment at Registered Stations)\n\nThe standards for radio equipment specified by Order of the Ministry of Internal Affairs and Communications under Article 27-21, paragraph (1) of the Act are as set forth bellow:"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 166080,
+    "source_end": 166326,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_018",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 18. (Established Area of Registered Station)\nThe areas specified by Order of the Ministry of Internal Affairs and Communications referred to in Article 27-21, paragraph (1) of the Act are as set forth below:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 18. (Established Area of Registered Station)\nThe areas specified by Order of the Ministry of Internal Affairs and Communications referred to in Article 27-21, paragraph (1) of the Act are as set forth below:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 169114,
+    "source_end": 169329,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_019",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": ". (Minor Matters)",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The minor matters specified by Order of the Ministry of Internal Affairs and Communications referred to in the proviso to Article 27-26, paragraph (1) of the Act are as set forth below:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The minor matters specified by Order of the Ministry of Internal Affairs and Communications referred to in the proviso to Article 27-26, paragraph (1) of the Act are as set forth below:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 170376,
+    "source_end": 170561,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_020",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "(i)telecommunications services;",
+    "chunk_index": 19,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 20.\nの二 (Services Pertaining to Radio Stations Subject to Mediation, etc.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 20.の二 (Services Pertaining to Radio Stations Subject to Mediation, etc.)"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.5,
+        "matched_keywords": [
+          "telecommunications (title, +5)",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 171985,
+    "source_end": 172065,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_021",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": ". (Place for Inspection)",
+    "chunk_index": 20,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The frequency assignment plan is made available for public inspection at the following places:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The frequency assignment plan is made available for public inspection at the following places:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 175106,
+    "source_end": 175200,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_022",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 22. (Safety Facilities against High-Voltage Electricity)\n\nMotor-driven generators, transformers, filters, rectifiers and other equipment using high-voltage electricity (meaning electricity with a high-frequency or AC voltage exceeding 300 V or a DC voltage exceeding 750 V; the same applies hereinafter) must be housed in an insulated shielding body or a grounded metal shielding body so that they cannot be easily touched from the outside; provided, however, that this does not apply when the equipment is installed in a place where it is made so that anyone other than the handler cannot enter or leave.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 22. (Safety Facilities against High-Voltage Electricity)\n\nMotor-driven generators, transformers, filters, rectifiers and other equipment using high-voltage electricity (meaning electricity with a high-frequency or AC voltage exceeding 300 V or a DC voltage exceeding 750 V; the same applies hereinafter) must be housed in an insulated shielding body or a grounded metal shielding body so that they cannot be easily touched from the outside; provided, however, that this does not apply when the equipment is installed in a place where it is made so that anyone other than the handler cannot enter or leave."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 186757,
+    "source_end": 187370,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_023",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 23.\n\nElectric wires that conduct high-voltage electricity and interconnect the respective unit devices of transmission equipment must be housed in line groove, strong insulators, or grounded metal shielding; provided, however, that this does not apply if they are installed in a place where it is made so that no person other than the handler can enter or leave.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 23.\n\nElectric wires that conduct high-voltage electricity and interconnect the respective unit devices of transmission equipment must be housed in line groove, strong insulators, or grounded metal shielding; provided, however, that this does not apply if they are installed in a place where it is made so that no person other than the handler can enter or leave."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 187372,
+    "source_end": 187742,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_024",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 24.\n\nWhen high-voltage electricity is conducted through electric wires exposed from the regulating panel or the outer box of the transmitting equipment, the electric wires must be protected in accordance with the provisions of the Ministerial Order for Establishing technical regulations for Electrical Equipment (Order of the Ministry of International Trade and Industry No. 61 of 1965) even if the electric wires are insulated.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 24.\n\nWhen high-voltage electricity is conducted through electric wires exposed from the regulating panel or the outer box of the transmitting equipment, the electric wires must be protected in accordance with the provisions of the Ministerial Order for Establishing technical regulations for Electrical Equipment (Order of the Ministry of International Trade and Industry No. 61 of 1965) even if the electric wires are insulated."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 187744,
+    "source_end": 188181,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_025",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 25.\n\nThe antenna, feeder or counterpoise of transmitting equipment through which high-voltage electricity is conducted must have a height of 2.5 meters or more from the level on which a person walks or lives; provided, however, that this does not apply in the following items:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 25.\n\nThe antenna, feeder or counterpoise of transmitting equipment through which high-voltage electricity is conducted must have a height of 2.5 meters or more from the level on which a person walks or lives; provided, however, that this does not apply in the following items:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 188183,
+    "source_end": 188467,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_026",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 26. (Safety Equipment for Antennas)\n\nA lightning arrester or a grounding device must be installed in the antenna system of radio equipment, and a grounding device must be installed in the counterpoise; provided, however, that this does not apply to the antenna of radio equipment in a radio station using a frequency exceeding 26.175 MHz or of radio equipment in a land mobile station or a portable station.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 26. (Safety Equipment for Antennas)\n\nA lightning arrester or a grounding device must be installed in the antenna system of radio equipment, and a grounding device must be installed in the counterpoise; provided, however, that this does not apply to the antenna of radio equipment in a radio station using a frequency exceeding 26.175 MHz or of radio equipment in a land mobile station or a portable station."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 188830,
+    "source_end": 189245,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_027",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 27. (Safety Facilities of Meteorological Radar for Aircraft)\n\nOn the aircraft meteorological radar, when there is a risk of causing physical injury or damage to objects accompanied to the operation of its equipment, the necessary facilities must be installed.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 27. (Safety Facilities of Meteorological Radar for Aircraft)\n\nOn the aircraft meteorological radar, when there is a risk of causing physical injury or damage to objects accompanied to the operation of its equipment, the necessary facilities must be installed."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 189247,
+    "source_end": 189514,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_028",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": ".の三",
+    "chunk_index": 27,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "A compulsory ship station, etc. must be equipped with a table on which matters related to distress traffic communication methods that are announced by the Minister of Internal Affairs and Communications in a public notice are entered, and must be posted at a place where those matters can be easily seen from the position where the radio equipment is operated.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "A compulsory ship station, etc. must be equipped with a table on which matters related to distress traffic communication methods that are announced by the Minister of Internal Affairs and Communications in a public notice are entered, and must be posted at a place where those matters can be easily seen from the position where the radio equipment is operated."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 199776,
+    "source_end": 200136,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_029",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 29.\n\nThe radio equipment specified by Order of the Ministry of Internal Affairs and Communications under the proviso to Article 35 of the Act is as follows:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 29.\n\nThe radio equipment specified by Order of the Ministry of Internal Affairs and Communications under the proviso to Article 35 of the Act is as follows:"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 203616,
+    "source_end": 203780,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_030",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": ". (Instruments)",
+    "chunk_index": 29,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The instruments that must be installed in the transmission equipment of a ship station pursuant to the provisions of Article 32 of the Act are as follows. In this case, the common use of instruments that are capable of switching between voltage and current measurements is not precluded:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The instruments that must be installed in the transmission equipment of a ship station pursuant to the provisions of Article 32 of the Act are as follows. In this case, the common use of instruments that are capable of switching between voltage and current measurements is not precluded:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 204189,
+    "source_end": 204476,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_031",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": ". (Spare Components)",
+    "chunk_index": 30,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Spare Components that must be installed in radio equipment on a ship station pursuant to the provisions of Article 32 of the Act are as follows for each device of the radio equipment (excluding radio equipment with antenna power of 10 W or less, radio equipment using radio waves of frequencies in excess of 26.175 MHz, and other radio equipment separately announced by the Minister of Internal Affairs and Communications); provided, however, that if spare components can be used in common for each devices, they are not required to be installed in each device:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Spare Components that must be installed in radio equipment on a ship station pursuant to the provisions of Article 32 of the Act are as follows for each device of the radio equipment (excluding radio equipment with antenna power of 10 W or less, radio equipment using radio waves of frequencies in excess of 26.175 MHz, and other radio equipment separately announced by the Minister of Internal Affairs and Communications); provided, however, that if spare components can be used in common for each devices, they are not required to be installed in each device:"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 12.0,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 205757,
+    "source_end": 206322,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_032",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": ".の七",
+    "chunk_index": 31,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Fixed stations, land stations and mobile stations using radio waves of a frequency exceeding 1,980 MHz and 2,010 MHz or less, exceeding 2,025 MHz and 2,110 MHz or less, exceeding 2,200 MHz and 2,290 MHz or less, exceeding 2,655 MHz and 2,690 MHz or less, exceeding 5.67 GHz and 5.725 GHz or less, exceeding 5.85 GHz and 7.075 GHz or less, exceeding 7.145 GHz and 7.235 GHz or less, or exceeding 7.9 GHz and 8.5 GHz or less must conform to the following conditions:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Fixed stations, land stations and mobile stations using radio waves of a frequency exceeding 1,980 MHz and 2,010 MHz or less, exceeding 2,025 MHz and 2,110 MHz or less, exceeding 2,200 MHz and 2,290 MHz or less, exceeding 2,655 MHz and 2,690 MHz or less, exceeding 5.67 GHz and 5.725 GHz or less, exceeding 5.85 GHz and 7.075 GHz or less, exceeding 7.145 GHz and 7.235 GHz or less, or exceeding 7.9 GHz and 8.5 GHz or less must conform to the following conditions:"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 219549,
+    "source_end": 220013,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_033",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": ". (Easy-to-Operate)",
+    "chunk_index": 32,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The easy-to-operate by Order of the Ministry of Internal Affairs and Communications in the main clause of Article 39, paragraph (1) of the Act is as follows; provided, however, that the operation of radio equipment set forth in the items of Article 34-2 is excluded:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The easy-to-operate by Order of the Ministry of Internal Affairs and Communications in the main clause of Article 39, paragraph (1) of the Act is as follows; provided, however, that the operation of radio equipment set forth in the items of Article 34-2 is excluded:"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 227275,
+    "source_end": 227541,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_034",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "(ii)simplified radio stations;",
+    "chunk_index": 33,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 34.\nの六 (Radio Stations Not Requiring Training for Radio Operators in Full charge)\n(iii)beyond what is set forth in the preceding two items, particulars that are publicly notified separately by the Minister for Internal Affairs and Communications.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 34.の六 (Radio Stations Not Requiring Training for Radio Operators in Full charge)\n\n(iii)beyond what is set forth in the preceding two items, particulars that are publicly notified separately by the Minister for Internal Affairs and Communications."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 11.0,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 239983,
+    "source_end": 240237,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_035",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "(ii)Maritime Second-Class Radio Operator;",
+    "chunk_index": 34,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 35.\nの二 (Requirements for Distress Traffic Operator in charge)",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 35.の二 (Requirements for Distress Traffic Operator in charge)"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 5,
+        "matched_keywords": [
+          "radio (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 246386,
+    "source_end": 246454,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_036",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": ".の二 (Distress Traffic, etc.)",
+    "chunk_index": 35,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The methods specified by Order of the Ministry of Internal Affairs and Communications referred to in Article 52, item (i) of the Act are the methods specified in the following items:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The methods specified by Order of the Ministry of Internal Affairs and Communications referred to in Article 52, item (i) of the Act are the methods specified in the following items:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 248528,
+    "source_end": 248710,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_037",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "Act",
+    "chunk_index": 36,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 37. (Communications Permitted Regardless of the Purpose, etc. of the Certificate for a Radio Station License)\n\n(xxvii)communications conducted pursuant to the provisions of Article 41 of the ;",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 37. (Communications Permitted Regardless of the Purpose, etc. of the Certificate for a Radio Station License)\n\n(xxvii)communications conducted pursuant to the provisions of Article 41 of the ;"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 251838,
+    "source_end": 252038,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_038",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "Notes",
+    "chunk_index": 37,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 38. (Service Documents Required to Be Kept)\n\n(i)the documents indicated with (1) are the documents certified by the Minister of Internal Affairs and Communications or the Director General of Regional Bureau of Telecommunications as the copies of the documents to be submitted pursuant to the provisions of Article 8, paragraph (2) of the Licensing Regulation (including as applied mutatis mutandis pursuant to Article 12, paragraph (4), Article 15-4, paragraph (2), Article 15-5, paragraph (2), Article 15-6, paragraph (2), and Article 19, paragraph (2) of the same Regulations) (including an electronic or magnetic record pertaining to the copies of the documents to be submitted which are deemed to have been returned to the applicant pursuant to the provisions of the proviso to Article 8, paragraph (2) of the same Regulation );",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 38. (Service Documents Required to Be Kept)\n\n(i)the documents indicated with (1) are the documents certified by the Minister of Internal Affairs and Communications or the Director General of Regional Bureau of Telecommunications as the copies of the documents to be submitted pursuant to the provisions of Article 8, paragraph (2) of the Licensing Regulation (including as applied mutatis mutandis pursuant to Article 12, paragraph (4), Article 15-4, paragraph (2), Article 15-5, paragraph (2), Article 15-6, paragraph (2), and Article 19, paragraph (2) of the same Regulations) (including an electronic or magnetic record pertaining to the copies of the documents to be submitted which are deemed to have been returned to the applicant pursuant to the provisions of the proviso to Article 8, paragraph (2) of the same Regulation );"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 265294,
+    "source_end": 266134,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_039",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 39. (Radio Station Inspection Results Notice)\nWhen the Minister of Internal Affairs and Communications or the Director General of Regional Bureau of Telecommunications has conducted an inspection pursuant to the provisions of Article 10, paragraph (1) of the Act, Article 18, paragraph (1) of the Act, or the main clause of Article 73, paragraph (1) of the Act, the proviso of the same paragraph, or paragraph (5) or (6) of the same Article, or has directed its employees to conduct the inspection (including cases where a part of the inspection has been omitted pursuant to the provisions of Article 10, paragraph (2) of the Act, Article 18, paragraph (2) of the Act, or Article 73, paragraph (4) of the Act), the Minister or the Director General is to notify the licensee, etc. or the person who has obtained a provisional license of the matters related to the results of the relevant inspection by a radio station inspection results notice with the form prescribed in Appended Table 4.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 39. (Radio Station Inspection Results Notice)\nWhen the Minister of Internal Affairs and Communications or the Director General of Regional Bureau of Telecommunications has conducted an inspection pursuant to the provisions of Article 10, paragraph (1) of the Act, Article 18, paragraph (1) of the Act, or the main clause of Article 73, paragraph (1) of the Act, the proviso of the same paragraph, or paragraph (5) or (6) of the same Article, or has directed its employees to conduct the inspection (including cases where a part of the inspection has been omitted pursuant to the provisions of Article 10, paragraph (2) of the Act, Article 18, paragraph (2) of the Act, or Article 73, paragraph (4) of the Act), the Minister or the Director General is to notify the licensee, etc. or the person who has obtained a provisional license of the matters related to the results of the relevant inspection by a radio station inspection results notice with the form prescribed in Appended Table 4."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 10.5,
+        "matched_keywords": [
+          "telecommunications",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 278097,
+    "source_end": 279093,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_040",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": ". (Radio Service Log)",
+    "chunk_index": 39,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The following particulars must be entered every day in the radio service log prescribed in Article 60 of the Act; provided, however, that if the Minister of Internal Affairs and Communications or the Director General of Regional Bureau of Telecommunications deems it unnecessary, part of the entry may be omitted:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The following particulars must be entered every day in the radio service log prescribed in Article 60 of the Act; provided, however, that if the Minister of Internal Affairs and Communications or the Director General of Regional Bureau of Telecommunications deems it unnecessary, part of the entry may be omitted:"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 14.0,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "telecommunications",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 279913,
+    "source_end": 280226,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_041",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "Deleted",
+    "chunk_index": 40,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 41.\nの二 (Explanation to Emergency Operators)\nThe licensee, etc. who has another person operate the radio station pursuant to the provisions of Article 70-7 paragraph (1) of the Act must explain to the emergency operator, in advance, the matters entered in the radio station license of the relevant radio station or the registration certificate under Article 27-25 paragraph (1) of the Act, the content of the contract with the licensee, etc. of another radio station on measures necessary to prevent interference and other obstruction (limited to cases where the relevant contract has been concluded), the method for proper operation of the relevant radio station, and the contents of laws, orders based on laws, and dispositions based on these laws with which the emergency operator must comply.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 41.の二 (Explanation to Emergency Operators)\n\nThe licensee, etc. who has another person operate the radio station pursuant to the provisions of Article 70-7 paragraph (1) of the Act must explain to the emergency operator, in advance, the matters entered in the radio station license of the relevant radio station or the registration certificate under Article 27-25 paragraph (1) of the Act, the content of the contract with the licensee, etc. of another radio station on measures necessary to prevent interference and other obstruction (limited to cases where the relevant contract has been concluded), the method for proper operation of the relevant radio station, and the contents of laws, orders based on laws, and dispositions based on these laws with which the emergency operator must comply."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 10.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 284751,
+    "source_end": 285554,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_042",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": ".の三",
+    "chunk_index": 41,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The cases specified by the Order of the Ministry of Internal Affairs and Communications referred to in Article 76-2-2 of the Act are the cases where it is found that an increase in the number of base stations and land mobile relay stations for a 5.2 GHz band high power data communication system is likely to affect the operation of satellite stations and the conditions separately announced by the Minister of Internal Affairs and Communications are met.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The cases specified by the Order of the Ministry of Internal Affairs and Communications referred to in Article 76-2-2 of the Act are the cases where it is found that an increase in the number of base stations and land mobile relay stations for a 5.2 GHz band high power data communication system is likely to affect the operation of satellite stations and the conditions separately announced by the Minister of Internal Affairs and Communications are met."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 298862,
+    "source_end": 299317,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_043",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "",
+    "chunk_index": 42,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 43. (Change of Matters to Be Stated)\nThe licensee of a ship station, aircraft station, ship earth station (except those whose purpose is to conduct telecommunications services), or aircraft earth station (except those whose purpose is to conduct telecommunications services) must, when there has been any change in the particulars prescribed in Article 6, paragraph (3), (4), (5), or (6) of the Act, promptly notify the Director General of Regional Bureau of Telecommunications to that effect in writing.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 43. (Change of Matters to Be Stated)\nThe licensee of a ship station, aircraft station, ship earth station (except those whose purpose is to conduct telecommunications services), or aircraft earth station (except those whose purpose is to conduct telecommunications services) must, when there has been any change in the particulars prescribed in Article 6, paragraph (3), (4), (5), or (6) of the Act, promptly notify the Director General of Regional Bureau of Telecommunications to that effect in writing."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 303937,
+    "source_end": 304449,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_044",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "44",
+    "article_number_normalized": "044",
+    "article_title": ". (Communication Equipment)",
+    "chunk_index": 43,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Communication equipment that do not require permission pursuant to the provisions of Article 100, paragraph (1), item (i) of the Act is those set forth below:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Communication equipment that do not require permission pursuant to the provisions of Article 100, paragraph (1), item (i) of the Act is those set forth below:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 320157,
+    "source_end": 320315,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_045",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "45",
+    "article_number_normalized": "045",
+    "article_title": "",
+    "chunk_index": 44,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 45. (Equipment Requiring Permission Other Than Communication Equipment)\n\nEquipment utilizing high frequency current that requires permission pursuant to the provisions of the Article 100, paragraph (1), item (ii) of the Act is prescribed as follows:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 45. (Equipment Requiring Permission Other Than Communication Equipment)\n\nEquipment utilizing high frequency current that requires permission pursuant to the provisions of the Article 100, paragraph (1), item (ii) of the Act is prescribed as follows:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 321930,
+    "source_end": 322187,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_046",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "46",
+    "article_number_normalized": "046",
+    "article_title": "(i)carrier type intercom;",
+    "chunk_index": 45,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 46. (Application for Designation)\n\n(ii)general carrier type digital transmission equipment:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 46. (Application for Designation)\n\n(ii)general carrier type digital transmission equipment:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 328832,
+    "source_end": 328931,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_047",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "47",
+    "article_number_normalized": "047",
+    "article_title": "",
+    "chunk_index": 46,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 47. (Safety Facilities of Communication Equipment)\n\nThe provisions of Chapter II, Section 3 (Safety Facilities) apply mutatis mutandis to a power line communication equipment and inductive radio communication equipment that require permission.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 47. (Safety Facilities of Communication Equipment)\n\nThe provisions of Chapter II, Section 3 (Safety Facilities) apply mutatis mutandis to a power line communication equipment and inductive radio communication equipment that require permission."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 347593,
+    "source_end": 347844,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_048",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "48",
+    "article_number_normalized": "048",
+    "article_title": "",
+    "chunk_index": 47,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 48. (Safety Facilities for Medical Equipment)\n\nMedical equipment must conform to the following conditions so as not cause physical injury or damage to objects in the operation of the equipment:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 48. (Safety Facilities for Medical Equipment)\n\nMedical equipment must conform to the following conditions so as not cause physical injury or damage to objects in the operation of the equipment:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 347846,
+    "source_end": 348047,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_049",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "49",
+    "article_number_normalized": "049",
+    "article_title": "",
+    "chunk_index": 48,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 49. (Safety Facilities of Industrial Heating Equipment)\n\nindustrial heating equipment must conform to the following conditions so as not to cause physical injury or damage to objects in the operation of the equipment:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 49. (Safety Facilities of Industrial Heating Equipment)\n\nindustrial heating equipment must conform to the following conditions so as not to cause physical injury or damage to objects in the operation of the equipment:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 348954,
+    "source_end": 349179,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_050",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "50",
+    "article_number_normalized": "050",
+    "article_title": "Chapter IV Miscellaneous Provisions",
+    "chunk_index": 49,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 50.\nの二 (Scope of Receiving Equipment Pertaining to Designation)\nThe receiving equipment pertaining to the designation prescribed in Article 56, paragraph (1) of the Act (hereinafter simply referred to as the \"designation\" in this Section) is to be those set forth in the following items (excluding those that move):",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 50.の二 (Scope of Receiving Equipment Pertaining to Designation)\n\nThe receiving equipment pertaining to the designation prescribed in Article 56, paragraph (1) of the Act (hereinafter simply referred to as the \"designation\" in this Section) is to be those set forth in the following items (excluding those that move):"
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this section"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 350071,
+    "source_end": 350394,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_051",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "51",
+    "article_number_normalized": "051",
+    "article_title": "(ii)radio stations used for broadcasting services;",
+    "chunk_index": 50,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 51.\nの二 (A Radio Station for Which It is Necessary to Ensure Proper Operation)\n(iii)radio stations used for the protection of human lives or property or for the maintenance of public order;",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 51.の二 (A Radio Station for Which It is Necessary to Ensure Proper Operation)\n\n(iii)radio stations used for the protection of human lives or property or for the maintenance of public order;"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 16.0,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "broadcasting (title, +5)",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 363576,
+    "source_end": 363772,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_023_ART_052",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_023",
+    "law_name": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_name_original": "Regulation for Enforcement of the Radio Act?(Tentative translation)",
+    "law_type": "Act",
+    "article_number": "52",
+    "article_number_normalized": "052",
+    "article_title": ". (Submission of Documents)",
+    "chunk_index": 51,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The documents to be submitted to the Minister of Internal Affairs and Communications pursuant to the provisions of the Act and orders pursuant to the provisions of the Act concerning those listed in the left-hand column of the following table are to be submitted to the Director General of Regional Bureau of Telecommunications who has jurisdiction over the places listed in the right-hand column of the same table, and other documents (see Note) are to be submitted to the competent Director General of Regional Bureau of Telecommunications. However, documents related to applications for designation of call signs or call names pursuant to the provisions of Article 4-3 of the Act and written objection pursuant to the provisions of Article 83, paragraph 1 of the Act are not precluded from being submitted directly to the Minister of Internal Affairs and Communications. Note: following documents are excluded from other document: those concerning the provision of information on radio stations pertaining to the termination promotion measures prescribed in Article 25, paragraph (2) of the Act; those concerning the proposal of the establishment guidelines prescribed in Article 27-13, paragraph (1) of the Act; those concerning the approval of the establishment plan of specified base stations prescribed in Article 27-14, paragraph (1) of the Act; those concerning the type examination of apparatus for radio equipment; those concerning the proposal of the formulation, etc. of technical regulations standards for radio equipment prescribed in Article 38-2, paragraph (1) of the Act (including cases where it is applied mutatis mutandis in Article 100, paragraph (5) under the Act; the same applies in paragraph (3)); those concerning the registered certification body prescribed in Article 38-5, paragraph (1) of the Act; those concerning the approved certification body prescribed in Article 38-31, paragraph (2) of the Act; those concerning the designated training agency prescribed in Article 39-2, paragraph (1) of the Act; those concerning the designated examination agency prescribed in Article 46, paragraph (1) of the Act; those concerning the designated frequency change support agency prescribed in Article 71-3, paragraph (1) of the Act; those concerning the registered frequency termination support agency prescribed in Article 71-3-2, paragraph (1) of the Act; those concerning the center prescribed in Article 102-17, paragraph (1) under the Act; and those concerning the designated calibration agency prescribed in Article 102-18, paragraph (1) under the Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The documents to be submitted to the Minister of Internal Affairs and Communications pursuant to the provisions of the Act and orders pursuant to the provisions of the Act concerning those listed in the left-hand column of the following table are to be submitted to the Director General of Regional Bureau of Telecommunications who has jurisdiction over the places listed in the right-hand column of the same table, and other documents (see Note) are to be submitted to the competent Director General of Regional Bureau of Telecommunications. However, documents related to applications for designation of call signs or call names pursuant to the provisions of Article 4-3 of the Act and written objection pursuant to the provisions of Article 83, paragraph 1 of the Act are not precluded from being submitted directly to the Minister of Internal Affairs and Communications. Note: following documents are excluded from other document: those concerning the provision of information on radio stations pertaining to the termination promotion measures prescribed in Article 25, paragraph (2) of the Act; those concerning the proposal of the establishment guidelines prescribed in Article 27-13, paragraph (1) of the Act; those concerning the approval of the establishment plan of specified base stations prescribed in Article 27-14, paragraph (1) of the Act; those concerning the type examination of apparatus for radio equipment; those concerning the proposal of the formulation, etc. of technical regulations standards for radio equipment prescribed in Article 38-2, paragraph (1) of the Act (including cases where it is applied mutatis mutandis in Article 100, paragraph (5) under the Act; the same applies in paragraph (3)); those concerning the registered certification body prescribed in Article 38-5, paragraph (1) of the Act; those concerning the approved certification body prescribed in Article 38-31, paragraph (2) of the Act; those concerning the designated training agency prescribed in Article 39-2, paragraph (1) of the Act; those concerning the designated examination agency prescribed in Article 46, paragraph (1) of the Act; those concerning the designated frequency change support agency prescribed in Article 71-3, paragraph (1) of the Act; those concerning the registered frequency termination support agency prescribed in Article 71-3-2, paragraph (1) of the Act; those concerning the center prescribed in Article 102-17, paragraph (1) under the Act; and those concerning the designated calibration agency prescribed in Article 102-18, paragraph (1) under the Act."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 13.5,
+        "matched_keywords": [
+          "telecommunications",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "1950-11-30",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4912",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_023.json",
+    "source_start": 445987,
+    "source_end": 448568,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:37Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -1,0 +1,2415 @@
+[
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_002",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": ". Subjects of application",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Law applies to organizations and individuals involved in the management and use of radio frequencies in Vietnam.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Law applies to organizations and individuals involved in the management and use of radio frequencies in Vietnam."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 936,
+    "source_end": 1053,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_003",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": ". Interpretation of terms",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In this Law. the following terms are construed as follows:\nRadio frequency means\na frequency of radio waves.\n\nRadio wavesmeans electromagnetic waves with a frequency below 3.000 gigahertz (GHz) which freely travel in space without artificial guide.\nRadio frequency spectrum means\nthe whole range of radio frequencies.\nRadio frequency band (below referred to as frequency band)\nmeans a range of radio frequencies limited by two given frequencies.\nRadio frequency channel (below referred to as frequency channel)\nmeans a range of radio frequencies identified by its bandwidth and central frequency or other particular parameters.\nRadiocommunicationmeans the transmission, emission or reception of signs, signals, data, writing, images, sounds or information in other forms by radio\nwaves.\nRadio communication service\nmeans the transmission, emission and)or reception of radio waves for a specific radio communication purpose, including fixed, mobile,\nbroadcasting, aeronautical or maritime navigation location satellite, standard broadcasting, amateur and other radio services. Radio\nservices are divided into primary services and secondary services.\n\nPrimary servicemeans a service prioritized for use under the national plan on radio frequency spectrum.\n\nSecondary servicemeans a service not prioritized for use under the national plan on radio frequency spectrum.\nRadio stationmeans a radio equipment or an assembly of radio equipment, including also the accessory equipment, for providing a radio communication\nservice. A radio station is classified by the service it operates permanently or temporarily.\nRadio radiationmeans energy generated from any source in the form of radio waves.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "In this Law. the following terms are construed as follows:\nRadio frequency means\na frequency of radio waves.\n\nRadio wavesmeans electromagnetic waves with a frequency below 3.000 gigahertz (GHz) which freely travel in space without artificial guide.\nRadio frequency spectrum means\nthe whole range of radio frequencies.\nRadio frequency band (below referred to as frequency band)\nmeans a range of radio frequencies limited by two given frequencies.\nRadio frequency channel (below referred to as frequency channel)\nmeans a range of radio frequencies identified by its bandwidth and central frequency or other particular parameters.\nRadiocommunicationmeans the transmission, emission or reception of signs, signals, data, writing, images, sounds or information in other forms by radio\nwaves.\nRadio communication service\nmeans the transmission, emission and)or reception of radio waves for a specific radio communication purpose, including fixed, mobile,\nbroadcasting, aeronautical or maritime navigation location satellite, standard broadcasting, amateur and other radio services. Radio\nservices are divided into primary services and secondary services.\n\nPrimary servicemeans a service prioritized for use under the national plan on radio frequency spectrum.\n\nSecondary servicemeans a service not prioritized for use under the national plan on radio frequency spectrum.\nRadio stationmeans a radio equipment or an assembly of radio equipment, including also the accessory equipment, for providing a radio communication\nservice. A radio station is classified by the service it operates permanently or temporarily.\nRadio radiationmeans energy generated from any source in the form of radio waves."
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "legal_definitions",
+      "environmental_law"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 54.0,
+        "matched_keywords": [
+          "radio",
+          "spectrum",
+          "broadcasting"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 19.5,
+        "matched_keywords": [
+          "means"
+        ]
+      },
+      {
+        "id": "environmental_law",
+        "label_zh": "环境法",
+        "label_en": "Environmental Law",
+        "label_pt": "Direito Ambiental",
+        "score": 6.0,
+        "matched_keywords": [
+          "emission"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 1091,
+    "source_end": 2779,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_011",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "in other forms by radio waves",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "11. Radio-wave appliance means an equipment other than radio equipment, which generates and uses radio wave energy in a given area\nto serve industrial, scientific, medical and domestic applications or for similar purposes.\nSatellite orbitmeans the path of movement of a satellite in space.\nHarmful interference means\nthe harmful effect of electromagnetic energy caused by radio emission, radiation or induction which harms or obstructs or interrupts\nthe lawful operation of radio equipment or equipment systems.\nElectromagnetic compatibility\nmeans the ability of radio electric or electronic equipment or an equipment system to normally operate in an electromagnetic environment\nwithout causing interference to other equipment or equipment systems.\nAllocation of a radio frequency\nmeans the designation of a given frequency band or channel for its use by one or more organizations and individuals under specified\nconditions for a radio communication service.\nAssignment of a radio frequency\nmeans the identification and licensing of an organization or individual to use a radio frequency or radio frequency channel under\nspecified conditions for a radio station.\nExamination of a radio frequency\nmeans the consideration of the actual use of a radio frequency, radio equipment, a radio frequency use license or radio operator\ncertificate; the measurement of technical parameters of a radio station: the identification of causes of harmful interference for\nassessment and appraisal of observance of the law on radio frequencies.\nControl of a radio frequency\nmeans the control and supervision by technical devices of the radio wave-transmitting activities.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "11. Radio-wave appliance means an equipment other than radio equipment, which generates and uses radio wave energy in a given area\nto serve industrial, scientific, medical and domestic applications or for similar purposes.\nSatellite orbitmeans the path of movement of a satellite in space.\nHarmful interference means\nthe harmful effect of electromagnetic energy caused by radio emission, radiation or induction which harms or obstructs or interrupts\nthe lawful operation of radio equipment or equipment systems.\nElectromagnetic compatibility\nmeans the ability of radio electric or electronic equipment or an equipment system to normally operate in an electromagnetic environment\nwithout causing interference to other equipment or equipment systems.\nAllocation of a radio frequency\nmeans the designation of a given frequency band or channel for its use by one or more organizations and individuals under specified\nconditions for a radio communication service.\nAssignment of a radio frequency\nmeans the identification and licensing of an organization or individual to use a radio frequency or radio frequency channel under\nspecified conditions for a radio station.\nExamination of a radio frequency\nmeans the consideration of the actual use of a radio frequency, radio equipment, a radio frequency use license or radio operator\ncertificate; the measurement of technical parameters of a radio station: the identification of causes of harmful interference for\nassessment and appraisal of observance of the law on radio frequencies.\nControl of a radio frequency\nmeans the control and supervision by technical devices of the radio wave-transmitting activities."
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 39.5,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "radio"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 15.0,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 3029,
+    "source_end": 4682,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_001",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "Article 4. State policies on radio frequencies",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1. To prioritize the development of human resources, physical and technical foundations to assure the effective management and use",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "1. To prioritize the development of human resources, physical and technical foundations to assure the effective management and use"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 5,
+        "matched_keywords": [
+          "radio (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 4732,
+    "source_end": 4862,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_005",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "spectrum",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "5. To encourage and support organizations to take part in registering satellite orbit locations.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "5. To encourage and support organizations to take part in registering satellite orbit locations."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 5,
+        "matched_keywords": [
+          "spectrum (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 5469,
+    "source_end": 5565,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_006",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "in their localities",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 6. The specialized management agency in charge of radio frequencies\n\nThe specialized management agency in charge of radio frequencies is an agency under the Ministry of Information and Communications\nand responsible for assisting the Minister of Information and Communications in performing a number of tasks of state management\nof radio frequencies assigned and decentralized by competent state agencies.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 6. The specialized management agency in charge of radio frequencies\n\nThe specialized management agency in charge of radio frequencies is an agency under the Ministry of Information and Communications\nand responsible for assisting the Minister of Information and Communications in performing a number of tasks of state management\nof radio frequencies assigned and decentralized by competent state agencies."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 7785,
+    "source_end": 8198,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_007",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 7. Specialized inspection of radio frequencies\n\nThe Ministry of Information and Communications shall perform specialized inspection of radio frequencies and organize the apparatus\nof the specialized inspectorate under the law on inspection.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 7. Specialized inspection of radio frequencies\n\nThe Ministry of Information and Communications shall perform specialized inspection of radio frequencies and organize the apparatus\nof the specialized inspectorate under the law on inspection."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 8200,
+    "source_end": 8448,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_008",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 8. International cooperation on radio frequencies",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 8. International cooperation on radio frequencies"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 8450,
+    "source_end": 8507,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_009",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": ". Prohibited acts",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": ""
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_004",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "frequencies and satellite orbits",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "4. Intentionally causing harmful interference to and unlawfully obstructing the operation of radio communication systems.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "4. Intentionally causing harmful interference to and unlawfully obstructing the operation of radio communication systems."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 10304,
+    "source_end": 10425,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_010",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "RADIO FREQUENCY PLANNING",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 10. Principles of elaboration and approval of radio frequency master plans",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 10. Principles of elaboration and approval of radio frequency master plans"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.5,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 10704,
+    "source_end": 10786,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_015",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 15. Management of electromagnetic compatibility",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 15. Management of electromagnetic compatibility"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 18092,
+    "source_end": 18147,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_019",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "for the right to use a radio frequency",
+    "chunk_index": 17,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 19. Grant of radio frequency and equipment use licenses",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 19. Grant of radio frequency and equipment use licenses"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.5,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 24479,
+    "source_end": 24542,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_021",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 21. Grant of frequency and satellite orbit use licenses",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 21. Grant of frequency and satellite orbit use licenses"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 26750,
+    "source_end": 26813,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_022",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 22. Extension, modification and supplementation of radio frequency use licenses",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 22. Extension, modification and supplementation of radio frequency use licenses"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 27383,
+    "source_end": 27470,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_023",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 23. Revocation of radio frequency use licenses",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 23. Revocation of radio frequency use licenses"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 28750,
+    "source_end": 28804,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_024",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "of a radio frequency use license",
+    "chunk_index": 22,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 24. Transfer of the right to use a radio frequency",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 24. Transfer of the right to use a radio frequency"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.5,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 30467,
+    "source_end": 30525,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_027",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 27. Exemption from radio frequency use licensing",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 27. Exemption from radio frequency use licensing"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 32923,
+    "source_end": 32979,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_028",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "equipment",
+    "chunk_index": 26,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 28. Rights and obligations of organizations and individuals licensed to use radio",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 28. Rights and obligations of organizations and individuals licensed to use radio"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 34115,
+    "source_end": 34204,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_029",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "Vietnam is a contracting party",
+    "chunk_index": 27,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 29. Rights and obligations of organizations licensed to use frequency bands",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 29. Rights and obligations of organizations licensed to use frequency bands"
+      }
+    ],
+    "topics": [
+      "government_procurement",
+      "government_contracting"
+    ],
+    "topics_details": [
+      {
+        "id": "government_procurement",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 5,
+        "matched_keywords": [
+          "contracting (title, +5)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 5,
+        "matched_keywords": [
+          "contracting (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 35275,
+    "source_end": 35358,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_012",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "of this Law",
+    "chunk_index": 28,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "12. To comply with agreements on the international coordination in radio frequencies and treaties to which the Socialist Republic",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "12. To comply with agreements on the international coordination in radio frequencies and treaties to which the Socialist Republic"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 36704,
+    "source_end": 36833,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_030",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "of Vietnam is a contracting party",
+    "chunk_index": 29,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 30. Rights and obligations of organizations licensed to use radio frequencies and satellite orbits",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 30. Rights and obligations of organizations licensed to use radio frequencies and satellite orbits"
+      }
+    ],
+    "topics": [
+      "government_procurement",
+      "government_contracting",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "government_procurement",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 5,
+        "matched_keywords": [
+          "contracting (title, +5)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 5,
+        "matched_keywords": [
+          "contracting (title, +5)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 36870,
+    "source_end": 36976,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_031",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 31. Charge for the use of a radio frequency and fee for the grant of a radio frequency use license",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 31. Charge for the use of a radio frequency and fee for the grant of a radio frequency use license"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 38072,
+    "source_end": 38178,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_033",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 33. Use of radio frequencies and equipment in a case of emergency",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 33. Use of radio frequencies and equipment in a case of emergency"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 40226,
+    "source_end": 40299,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_034",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 34. Entities subject to radio frequency examination and control",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 34. Entities subject to radio frequency examination and control"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 41189,
+    "source_end": 41260,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_035",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "agency",
+    "chunk_index": 34,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 35. Responsibilities for radio frequency examination and control",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 35. Responsibilities for radio frequency examination and control"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 41850,
+    "source_end": 41922,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_037",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "radio frequencies",
+    "chunk_index": 36,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 37. Measures to restrict harmful interference\n\nOrganizations and individuals licensed to use radio frequencies shall strictly comply with the provisions of their licenses and take\nthe following measures to restrict harmful interference:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 37. Measures to restrict harmful interference\n\nOrganizations and individuals licensed to use radio frequencies shall strictly comply with the provisions of their licenses and take\nthe following measures to restrict harmful interference:"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.5,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 43085,
+    "source_end": 43329,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_038",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 38. Principles on the handling of harmful interference",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 38. Principles on the handling of harmful interference"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 43806,
+    "source_end": 43868,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_039",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "under law",
+    "chunk_index": 38,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 39. Procedures for handling harmful interference",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 39. Procedures for handling harmful interference"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 45903,
+    "source_end": 45959,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_040",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 40. Technical safety corridors of radio stations",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 40. Technical safety corridors of radio stations"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 47697,
+    "source_end": 47753,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_041",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 41. Cases of international registration and coordination in radio frequencies and satellite orbits\n\nOrganizations that use radio frequencies shall participate in the international registration or coordination in radio frequencies",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 41. Cases of international registration and coordination in radio frequencies and satellite orbits\n\nOrganizations that use radio frequencies shall participate in the international registration or coordination in radio frequencies"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 48449,
+    "source_end": 48686,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_042",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "",
+    "chunk_index": 41,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 42. International registration and coordination in radio frequencies and satellite orbits for satellite systems",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 42. International registration and coordination in radio frequencies and satellite orbits for satellite systems"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 49380,
+    "source_end": 49499,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_043",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "Union",
+    "chunk_index": 42,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 43. International registration and coordination in radio frequencies and satellite orbits for terrestrial radiocommunication",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 43. International registration and coordination in radio frequencies and satellite orbits for terrestrial radiocommunication"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 51109,
+    "source_end": 51241,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_044",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "44",
+    "article_number_normalized": "044",
+    "article_title": "the International Telecommunications Union",
+    "chunk_index": 43,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 44. Direct coordination of radio frequencies and satellite orbits with organizations using foreign radio frequencies and satellite",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 44. Direct coordination of radio frequencies and satellite orbits with organizations using foreign radio frequencies and satellite"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 11.0,
+        "matched_keywords": [
+          "telecommunications (title, +5)",
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 52547,
+    "source_end": 52685,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_045",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "45",
+    "article_number_normalized": "045",
+    "article_title": "",
+    "chunk_index": 44,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 45. Allocation of radio frequencies for national defense and security purposes",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 45. Allocation of radio frequencies for national defense and security purposes"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 53443,
+    "source_end": 53529,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_046",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "46",
+    "article_number_normalized": "046",
+    "article_title": "",
+    "chunk_index": 45,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 46. Management and use of radio frequencies for national defense and security purposes",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 46. Management and use of radio frequencies for national defense and security purposes"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "radio"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 54515,
+    "source_end": 54609,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_047",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "47",
+    "article_number_normalized": "047",
+    "article_title": "",
+    "chunk_index": 46,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 47. Management and use of interference-causing devices",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 47. Management and use of interference-causing devices"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 56464,
+    "source_end": 56526,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_QH12SOCIALIST_42_2009_ART_049",
+    "jurisdiction": "越南",
+    "law_id": "VN_QH12SOCIALIST_42_2009",
+    "law_name": "Radio Frequencies",
+    "law_name_original": "Radio Frequencies",
+    "law_type": "QH12SOCIALIST",
+    "article_number": "49",
+    "article_number_normalized": "049",
+    "article_title": "the effective date of this Law",
+    "chunk_index": 48,
+    "chapter": "Chapter 111 MANAGEMENT OF RADIO EMISSION QUALITY. RADIO RADIATION SAFETY AND ELECTROMAGNETIC COMPATIBILITY",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 49. Implementation detailing and guidance\n\nThe Government and competent agencies shall detail and guide the implementation of articles and clauses assigned to them in this Law.\nand guide other necessary provisions of this Law to meet state management requirements.\n\nThis Law was passed on November 23, 2009. by the National Assembly of the Socialist Republic of Vietnam at its 6\nthsession.\n\nTHE NATIONAL ASSEMBLY\nCHAIRMAN(signed)\n\nNguyen Phu Trong",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 49. Implementation detailing and guidance\n\nThe Government and competent agencies shall detail and guide the implementation of articles and clauses assigned to them in this Law.\nand guide other necessary provisions of this Law to meet state management requirements.\n\nThis Law was passed on November 23, 2009. by the National Assembly of the Socialist Republic of Vietnam at its 6\nthsession.\n\nTHE NATIONAL ASSEMBLY\nCHAIRMAN(signed)\n\nNguyen Phu Trong"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2009-11-23",
+    "effective_date": "2010-07-01",
+    "publication_date": "2009-11-23",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_003.txt",
+    "source_start": 57556,
+    "source_end": 58011,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:05Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

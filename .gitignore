@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# 生成的缓存数据（可重新生成）
+legal_rag/data/kg_cache/
+
+# 生成的图表（可重新生成）
+legal_rag/eval_data/charts/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境
+.env
+*.env.local
+
+# 操作系统
+Thumbs.db
+.DS_Store

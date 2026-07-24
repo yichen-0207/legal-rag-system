@@ -1,0 +1,485 @@
+[
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_028_ART_001",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_028",
+    "law_name": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_name_original": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": ". (Definition)",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The terms \"issuer of prepaid payment instruments\", \"funds transfer services\", \"cryptoasset exchange services\", and \"certified association for payment service providers\" as used in this Cabinet Office Order mean issuer of prepaid payment instruments, funds transfer services, cryptoasset exchange services, and certified association for payment service providers as prescribed in Article 2 of the (hereinafter referred to as the \"Act\"), respectively.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The terms \"issuer of prepaid payment instruments\", \"funds transfer services\", \"cryptoasset exchange services\", and \"certified association for payment service providers\" as used in this Cabinet Office Order mean issuer of prepaid payment instruments, funds transfer services, cryptoasset exchange services, and certified association for payment service providers as prescribed in Article 2 of the (hereinafter referred to as the \"Act\"), respectively."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "payment"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 5,
+        "matched_keywords": [
+          "definition (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-03-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4475",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_028.json",
+    "source_start": 24,
+    "source_end": 473,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_028_ART_002",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_028",
+    "law_name": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_name_original": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 2. (Documents to be Attached to Written Application for Certification)\n\nDocuments specified by Cabinet Office Order as prescribed in Article 23, paragraph (2) of the (hereinafter referred to as \"Order\") are the following documents:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 2. (Documents to be Attached to Written Application for Certification)\n\nDocuments specified by Cabinet Office Order as prescribed in Article 23, paragraph (2) of the (hereinafter referred to as \"Order\") are the following documents:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-03-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4475",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_028.json",
+    "source_start": 664,
+    "source_end": 903,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_028_ART_003",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_028",
+    "law_name": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_name_original": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 3. (Public Inspection of Membership List)\n\nA certified association for payment service providers is to keep its membership list at its office and make it available for public inspection.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 3. (Public Inspection of Membership List)\n\nA certified association for payment service providers is to keep its membership list at its office and make it available for public inspection."
+      }
+    ],
+    "topics": [
+      "administrative_procedures",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 6.0,
+        "matched_keywords": [
+          "membership",
+          "membership (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-03-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4475",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_028.json",
+    "source_start": 2764,
+    "source_end": 2958,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_028_ART_004",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_028",
+    "law_name": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_name_original": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 4. (Making Information About Members Known to Users)\nParticulars specified by Cabinet Office Order as prescribed in Article 90, paragraph (1) of the Act are the particulars set forth in the items of Article 22, paragraph (2) of the (Cabinet Office Order No. 3 of 2010) and the items of Article 23-2, paragraph (1) of the Cabinet Office Order.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 4. (Making Information About Members Known to Users)\nParticulars specified by Cabinet Office Order as prescribed in Article 90, paragraph (1) of the Act are the particulars set forth in the items of Article 22, paragraph (2) of the (Cabinet Office Order No. 3 of 2010) and the items of Article 23-2, paragraph (1) of the Cabinet Office Order."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-03-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4475",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_028.json",
+    "source_start": 2960,
+    "source_end": 3310,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_028_ART_005",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_028",
+    "law_name": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_name_original": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 5. (Information Pertaining to Members That Is Necessary for the Protection of the Interests of Users)\n\nInformation specified by Cabinet Office Order as prescribed in Article 92, paragraph (1) of the Act is the following information:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 5. (Information Pertaining to Members That Is Necessary for the Protection of the Interests of Users)\n\nInformation specified by Cabinet Office Order as prescribed in Article 92, paragraph (1) of the Act is the following information:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-03-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4475",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_028.json",
+    "source_start": 5912,
+    "source_end": 6152,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_028_ART_006",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_028",
+    "law_name": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_name_original": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "(i)matters concerning the construction of the Act;",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 6. (Provision of Information to Certified Association for Payment Service Providers)\n\n(ii)matters concerning the results and contents of any written reports or materials requested, inquiries made, or on-site inspections conducted based on the Act;",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 6. (Provision of Information to Certified Association for Payment Service Providers)\n\n(ii)matters concerning the results and contents of any written reports or materials requested, inquiries made, or on-site inspections conducted based on the Act;"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-03-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4475",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_028.json",
+    "source_start": 10102,
+    "source_end": 10357,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_028_ART_007",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_028",
+    "law_name": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_name_original": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": ". (Method of Public Notice)",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The public notice prescribed in Article 98 of the Act is to be given in the official gazette.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The public notice prescribed in Article 98 of the Act is to be given in the official gazette."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-03-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4475",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_028.json",
+    "source_start": 11496,
+    "source_end": 11589,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_0000_SMP_JP_028_ART_008",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_0000_SMP_JP_028",
+    "law_name": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_name_original": "Cabinet Office Order on Certified Association for Payment Service Providers",
+    "law_type": "Act",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": ". (Standard Processing Period)",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Commissioner of the Financial Services Agency is to endeavor to process any application for certification made pursuant to the provisions of Article 87 of the Act within one month from the day on which the application has arrived at the office.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Commissioner of the Financial Services Agency is to endeavor to process any application for certification made pursuant to the provisions of Article 87 of the Act within one month from the day on which the application has arrived at the office."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "financial services"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2010-03-01",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4475",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_028.json",
+    "source_start": 11631,
+    "source_end": 11879,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "doc_id": "SG_ACT_19_2016_ART_003",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_19_2016",
+    "law_name": "Administration Of Justice (Protection) Act 2016",
+    "law_name_original": "Administration Of Justice (Protection) Act 2016",
+    "law_type": "法律",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Contempt by scandalising court, interfering with administration of justice, etc",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Any person who — scandalises the court by intentionally publishing any matter or doing any act tha...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Any person who — scandalises the court by intentionally publishing any matter or doing any act tha..."
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 5,
+        "matched_keywords": [
+          "administration (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2025-01-28",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_19_2016",
+    "source_type": "gov_gazette",
+    "source_file": "SG_70630257_Administration_Of_Justice_(Protection)_Act_2016.txt",
+    "source_start": 0,
+    "source_end": 81,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]
