@@ -85,19 +85,23 @@ async def deep_analysis(req: DeepAnalysisRequest):
 3条具体建议，针对跨法域运营主体。
 """
 
-        base_url = settings.llm_api_base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
+        base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
         api_key = settings.llm_api_key or ""
-        model = settings.llm_comparison_model or "qwen3.7-plus"
+        model = settings.llm_comparison_model or "deepseek-flash"
 
         client = OpenAI(api_key=api_key, base_url=base_url)
-        stream = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.3,
-            max_tokens=2500,
-            stream=True,
-            extra_body={"enable_thinking": settings.llm_enable_thinking}
-        )
+        create_kwargs = {
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.3,
+            # 用全局 max_tokens：原先硬编码 2500 会被思考 token 吃满，导致 content 为空（报告空白）
+            "max_tokens": settings.max_tokens,
+            "stream": True
+        }
+        extra_body = settings.llm_extra_body()
+        if extra_body:
+            create_kwargs["extra_body"] = extra_body
+        stream = client.chat.completions.create(**create_kwargs)
 
         def generate():
             for chunk in stream:

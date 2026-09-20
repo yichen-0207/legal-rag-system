@@ -1,0 +1,83 @@
+name: legal-rag-platform
+
+services:
+  elasticsearch:
+    image: elasticsearch:8.11.0
+    build:
+      context: .
+      dockerfile: Dockerfile.es
+    container_name: legal-es
+    restart: always
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
+      - cluster.routing.allocation.disk.threshold_enabled=false
+    ports:
+      - "9200:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9200"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+
+  backend:
+    image: legal-rag-backend:latest
+    build: .
+    container_name: legal-backend
+    mem_limit: 10g
+    mem_reservation: 3g
+    restart: always
+    ports:
+      - "8001:8001"
+    environment:
+      - LEGAL_ES_HOSTS=["http://elasticsearch:9200"]
+      - LEGAL_ES_USER=elastic
+      - LEGAL_ES_PASSWORD=${LEGAL_ES_PASSWORD}
+      - LEGAL_LLM_API_KEY=${LEGAL_LLM_API_KEY}
+      - LEGAL_LLM_API_BASE_URL=https://api.deepseek.com/v1
+      - LEGAL_LLM_MODEL=deepseek-flash
+      - LEGAL_LLM_DEEPSEEK_API_KEY=${LEGAL_DEEPSEEK_API_KEY}
+      - LEGAL_ADMIN_TOKEN=${LEGAL_ADMIN_TOKEN:-dev_admin_token_change_me}
+      - LEGAL_EMBEDDING_MODEL=/models/bge-m3
+      - LEGAL_RERANKER_MODEL=/models/bge-reranker-v2-m3
+      # CPU 推理性能参数（可按部署机器调整，无需改代码）
+      - LEGAL_TORCH_NUM_THREADS=${LEGAL_TORCH_NUM_THREADS:-8}
+      - LEGAL_RERANKER_BATCH_SIZE=${LEGAL_RERANKER_BATCH_SIZE:-8}
+      # 两阶段精排窗口（只对 RRF 前 N 条跑 cross-encoder，其余按 RRF 顺序拼接）
+      - LEGAL_RERANKER_WINDOW=${LEGAL_RERANKER_WINDOW:-20}
+      - TOKENIZERS_PARALLELISM=false
+    volumes:
+      # 挂载本地 ML 模型（避免在容器内下载）
+      # 模型目录由 .env 的 LEGAL_MODELS_DIR 指定，默认项目内 ./models
+      - ${LEGAL_MODELS_DIR:-./models}/bge-m3:/models/bge-m3:ro
+      - ${LEGAL_MODELS_DIR:-./models}/bge-reranker-v2-m3:/models/bge-reranker-v2-m3:ro
+      # 挂载后端源码：改代码后重启容器即可生效，无需重建镜像
+      - ./legal_rag:/app
+      # 挂载法规数据
+      # data/raw 必须可写：管理端新增/修改/删除法规会写入该目录（含新建法域子目录）
+      - ./legal_rag/data/raw:/app/data/raw:rw
+      - ./legal_rag/data/law_catalog.json:/app/data/law_catalog.json
+      - ./legal_rag/data/taxonomy_merged.json:/app/data/taxonomy_merged.json:ro
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+
+  frontend:
+    image: nginx:alpine
+    container_name: legal-frontend
+    ports:
+      - "3000:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+      - ./frontend/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - backend
+
+volumes:
+  es_data:
+    name: es_data
+    external: true

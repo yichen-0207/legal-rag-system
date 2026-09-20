@@ -421,6 +421,7 @@ def _fetch_radar_data(min_chunk_threshold: int = 3, max_dimensions: int = 10) ->
 
 # ==================== API 路由函数 ====================
 
+@router.get("", summary="获取统计数据总入口")
 @router.get("/", summary="获取统计数据总入口")
 async def get_stats():
     """

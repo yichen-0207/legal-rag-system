@@ -417,7 +417,87 @@ class QAService:
             deduped_contexts.append(ctx)
 
         deduped_contexts.sort(key=lambda x: x['similarity'], reverse=True)
-        return deduped_contexts[:top_k]
+        top_contexts = deduped_contexts[:top_k]
+
+        # 引用链单跳扩展（组件D）：在主结果之外补入它们在同法规内引用的条款。
+        # 扩展项追加在列表尾部，不挤占主结果的 similarity 排序，也不会被
+        # 下方的 sources 事件当成检索来源；prompt 中由 _build_prompt 单独成段引用。
+        if settings.reference_expand_enabled:
+            top_contexts = top_contexts + self._expand_contexts_by_references(top_contexts)
+
+        return top_contexts
+
+    def _expand_contexts_by_references(self, contexts: List[Dict]) -> List[Dict]:
+        """
+        引用链单跳扩展（组件D）：回取上下文条款在同法规内引用到的条款。
+
+        只解析同法规引用（见 repositories.elasticsearch.parse_intra_law_refs），
+        扩展失败返回空列表，静默降级为不使用引用链，不影响主检索链路。
+        """
+        seeds = []
+        for ctx in contexts[: settings.reference_expand_sources]:
+            meta = ctx.get('metadata') or {}
+            seeds.append((meta.get('law_id', ''), meta.get('article_number', ''), ctx.get('content', '')))
+
+        try:
+            docs = self.repo.get_referenced_articles(seeds, settings.reference_expand_max)
+        except Exception:
+            return []
+        if not docs:
+            return []
+
+        existing = {
+            ((c.get('metadata') or {}).get('law_id', ''), (c.get('metadata') or {}).get('article_number', ''))
+            for c in contexts
+        }
+        expanded = []
+        for doc in docs:
+            key = (doc.get('law_id', ''), doc.get('article_number', ''))
+            if key in existing:
+                continue
+            expanded.append({
+                'content': doc.get('content', ''),
+                'metadata': {
+                    'law_id': doc.get('law_id', ''),
+                    'article_number': doc.get('article_number', ''),
+                    'title': doc.get('title', ''),
+                    'jurisdiction': doc.get('jurisdiction', ''),
+                    'chunk_index': doc.get('chunk_index', 0),
+                    'topics': doc.get('topics', []),
+                    'topic_labels': doc.get('topic_labels', []),
+                },
+                'similarity': 0.0,
+                'retrieval_hop': 2,
+                'referenced_by': doc.get('referenced_by', ''),
+            })
+        return expanded
+
+    @staticmethod
+    def _format_hop_references(hop_contexts: List[Dict]) -> str:
+        """
+        渲染引用链扩展项（组件D），返回可直接拼到参考资料文本后的段落；无扩展项返回空串。
+
+        与【来源X】分开标注「由第 X 条引用」，让模型知道这些条款是交叉引用补入的、
+        不是直接检索命中，避免被当作独立命中来源引用。
+        """
+        if not hop_contexts:
+            return ""
+        limit = settings.reference_expand_max_chars
+        parts = []
+        for i, ctx in enumerate(hop_contexts, 1):
+            meta = ctx.get('metadata') or {}
+            content = ctx.get('content') or ''
+            if limit and len(content) > limit:
+                content = content[:limit] + "……（条款内容较长，此处仅保留前段）"
+            parts.append(
+                f"【引用条款{i}】{meta.get('jurisdiction', '')}《{meta.get('title', '')}》"
+                f"{meta.get('article_number', '')}（由第 {ctx.get('referenced_by', '')} 条引用）\n"
+                f"{content}"
+            )
+        return (
+            "\n\n【引用链补充】以下条款不是直接检索命中，而是上述来源条款正文中明确引用到的"
+            "同一法规条款，用于补全被引用规则的具体内容：\n" + "\n\n".join(parts)
+        )
 
     def _retrieve_contexts_with_fallback(
         self,
@@ -443,7 +523,9 @@ class QAService:
         return self._merge_deduplicate_contexts([contexts, fallback_contexts])
 
     def _build_prompt(self, question: str, contexts: List[Dict], history: Optional[List[Dict]] = None) -> str:
-        top_contexts = contexts[:5]
+        # 引用链扩展项（组件D）带 retrieval_hop=2，需与直接检索命中的来源分开呈现
+        hop_contexts = [c for c in contexts if c.get('retrieval_hop') == 2]
+        top_contexts = [c for c in contexts if c.get('retrieval_hop') != 2][:5]
         references = []
 
         for i, ctx in enumerate(top_contexts, 1):
@@ -458,6 +540,9 @@ class QAService:
                 f"【来源{i}】{jurisdiction}《{title}》{article_num}\n法ID: {law_id}\n相似度: {similarity:.4f}\n{content}")
 
         references_text = "\n\n".join(references)
+
+        # 引用链补充（组件D）：单独成段并标注引用来源，避免与直接命中的来源混淆
+        references_text += self._format_hop_references(hop_contexts)
 
         # 检测是否为多法域（用于决定是否生成跨法域对比）
         jurisdictions_in_contexts = set()
@@ -584,29 +669,29 @@ class QAService:
 
     def _call_llm(self, prompt: str) -> str:
         """调用远程API（使用智能问答模型）"""
-        return self._call_llm_with_model(prompt, model=settings.llm_qa_model, fallback_model=settings.llm_qa_fallback_model)
+        return self._call_llm_with_model(prompt, model=settings.llm_qa_model)
+
+    @staticmethod
+    def _apply_thinking_policy(kwargs: Dict) -> Dict:
+        """按配置注入 extra_body（默认关闭思考模式，见 Settings.llm_extra_body）。"""
+        extra_body = settings.llm_extra_body()
+        if extra_body:
+            kwargs["extra_body"] = extra_body
+        return kwargs
 
     def _call_llm_with_model(self, prompt: str, model: Optional[str] = None, 
-                           response_format: Optional[Dict] = None, 
-                           enable_thinking: Optional[bool] = None,
-                           fallback_model: Optional[str] = None) -> str:
-        """调用远程API（支持指定模型，带fallback降级机制）
+                           response_format: Optional[Dict] = None) -> str:
+        """调用远程API（支持指定模型）
         
         Args:
             prompt: 提示词
             model: 模型名称，不传则使用 settings.llm_model 默认值
             response_format: 响应格式配置，如 {'type': 'json_object'}，用于结构化输出
-            enable_thinking: 是否启用思考模式，None表示使用全局配置，False强制关闭
-            fallback_model: 备用模型名称，不传则使用 settings.llm_fallback_model
         
         Returns:
             LLM响应内容
-        
-        Fallback机制:
-            当主模型调用失败（token耗尽、限流等），自动使用 fallback 模型重试一次
         """
         import logging
-        from openai import RateLimitError, AuthenticationError, APIError
 
         logger = logging.getLogger(__name__)
 
@@ -614,183 +699,89 @@ class QAService:
             logger.error(f"[LLM] prompt 为空！调用栈已截断，请检查上游 prompt 构建")
             raise ValueError("prompt 不能为空")
 
-        base_url = settings.llm_api_base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
+        base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
         api_key = settings.llm_api_key or ""
-        target_model = model or settings.llm_model or "qwen-plus"
-        fallback_model = fallback_model or settings.llm_fallback_model or "qwen3.5-plus"
+        target_model = model or settings.llm_model or "deepseek-flash"
 
-        thinking_mode = enable_thinking if enable_thinking is not None else settings.llm_enable_thinking
+        logger.info(f"[LLM] 调用 LLM，模型={target_model}，prompt 长度={len(prompt)}，前100字: {prompt[:100]!r}")
+        client = OpenAI(api_key=api_key, base_url=base_url)
 
-        def _call_model(m: str):
-            logger.info(f"[LLM] 调用 LLM，模型={m}，prompt 长度={len(prompt)}，前100字: {prompt[:100]!r}")
-            client = OpenAI(api_key=api_key, base_url=base_url)
-            
-            kwargs = {
-                "model": m,
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": settings.temperature,
-                "max_tokens": settings.max_tokens,
-                "stream": False,
-                "extra_body": {"enable_thinking": thinking_mode}
-            }
-            
-            if response_format:
-                kwargs["response_format"] = response_format
-            
-            response = client.chat.completions.create(**kwargs)
-            return response.choices[0].message.content.strip()
+        kwargs = {
+            "model": target_model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": settings.temperature,
+            "max_tokens": settings.max_tokens,
+            "stream": False
+        }
 
-        try:
-            return _call_model(target_model)
-        except (RateLimitError, AuthenticationError) as e:
-            error_msg = str(e).lower()
-            if "quota" in error_msg or "token" in error_msg or "rate limit" in error_msg or "429" in error_msg or "402" in error_msg:
-                logger.warning(f"[LLM] 主模型 {target_model} 调用失败（token耗尽/限流），错误: {e}，尝试降级到 fallback 模型 {fallback_model}")
-                try:
-                    result = _call_model(fallback_model)
-                    logger.warning(f"[LLM] fallback 模型 {fallback_model} 调用成功")
-                    return result
-                except Exception as fallback_e:
-                    logger.error(f"[LLM] fallback 模型 {fallback_model} 调用也失败，错误: {fallback_e}")
-                    raise
-            raise
-        except APIError as e:
-            error_msg = str(e).lower()
-            if "quota" in error_msg or "token" in error_msg or "rate limit" in error_msg or "429" in error_msg or "402" in error_msg:
-                logger.warning(f"[LLM] 主模型 {target_model} API错误（token耗尽/限流），错误: {e}，尝试降级到 fallback 模型 {fallback_model}")
-                try:
-                    result = _call_model(fallback_model)
-                    logger.warning(f"[LLM] fallback 模型 {fallback_model} 调用成功")
-                    return result
-                except Exception as fallback_e:
-                    logger.error(f"[LLM] fallback 模型 {fallback_model} 调用也失败，错误: {fallback_e}")
-                    raise
-            raise
+        if response_format:
+            kwargs["response_format"] = response_format
 
-    def _call_llm_stream(self, prompt: str, model: Optional[str] = None, fallback_model: Optional[str] = None):
-        """流式调用远程API（支持指定模型，带fallback降级机制）
+        self._apply_thinking_policy(kwargs)
+        response = client.chat.completions.create(**kwargs)
+        return response.choices[0].message.content.strip()
+
+    def _call_llm_stream(self, prompt: str, model: Optional[str] = None):
+        """流式调用远程API（支持指定模型）
 
         Args:
             prompt: 提示词
             model: 模型名称，不传则使用 settings.llm_qa_model 默认值
-            fallback_model: 备用模型名称，不传则使用 settings.llm_fallback_model
         """
         import logging
-        from openai import RateLimitError, AuthenticationError, APIError
 
         logger = logging.getLogger(__name__)
 
-        base_url = settings.llm_api_base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
+        base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
         api_key = settings.llm_api_key or ""
         target_model = model or settings.llm_qa_model
-        fallback_model = fallback_model or settings.llm_fallback_model or "qwen3.5-plus"
-        logger.info(f"[LLM] _call_llm_stream: 传入 model={model!r}, qa_model={settings.llm_qa_model!r}, 解析结果 target={target_model!r}, fallback={fallback_model!r}")
+        logger.info(f"[LLM] _call_llm_stream: 传入 model={model!r}, 解析结果 target={target_model!r}")
 
-        def _stream_model(m: str):
-            logger.info(f"[LLM] 流式调用 LLM，模型={m}")
-            client = OpenAI(api_key=api_key, base_url=base_url)
-            response = client.chat.completions.create(
-                model=m,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=settings.temperature,
-                max_tokens=settings.max_tokens,
-                stream=True,
-                extra_body={"enable_thinking": settings.llm_enable_thinking}
-            )
+        client = OpenAI(api_key=api_key, base_url=base_url)
+        response = client.chat.completions.create(
+            **self._apply_thinking_policy({
+                "model": target_model,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": settings.temperature,
+                "max_tokens": settings.max_tokens,
+                "stream": True
+            })
+        )
 
-            for chunk in response:
-                if chunk.choices and chunk.choices[0].delta.content:
-                    yield chunk.choices[0].delta.content
+        for chunk in response:
+            if chunk.choices and chunk.choices[0].delta.content:
+                yield chunk.choices[0].delta.content
 
-        try:
-            yield from _stream_model(target_model)
-        except (RateLimitError, AuthenticationError) as e:
-            error_msg = str(e).lower()
-            if "quota" in error_msg or "token" in error_msg or "rate limit" in error_msg or "429" in error_msg or "402" in error_msg:
-                logger.warning(f"[LLM] 流式主模型 {target_model} 调用失败（token耗尽/限流），错误: {e}，尝试降级到 fallback 模型 {fallback_model}")
-                try:
-                    yield from _stream_model(fallback_model)
-                    logger.warning(f"[LLM] fallback 模型 {fallback_model} 流式调用成功")
-                    return
-                except Exception as fallback_e:
-                    logger.error(f"[LLM] fallback 模型 {fallback_model} 流式调用也失败，错误: {fallback_e}")
-                    raise
-            raise
-        except APIError as e:
-            error_msg = str(e).lower()
-            if "quota" in error_msg or "token" in error_msg or "rate limit" in error_msg or "429" in error_msg or "402" in error_msg:
-                logger.warning(f"[LLM] 流式主模型 {target_model} API错误（token耗尽/限流），错误: {e}，尝试降级到 fallback 模型 {fallback_model}")
-                try:
-                    yield from _stream_model(fallback_model)
-                    logger.warning(f"[LLM] fallback 模型 {fallback_model} 流式调用成功")
-                    return
-                except Exception as fallback_e:
-                    logger.error(f"[LLM] fallback 模型 {fallback_model} 流式调用也失败，错误: {fallback_e}")
-                    raise
-            raise
-
-    def _call_llm_stream_with_messages(self, messages: List[Dict], model: Optional[str] = None, 
-                                        fallback_model: Optional[str] = None):
-        """流式调用远程API（使用标准 messages 数组，带 fallback 降级机制）
+    def _call_llm_stream_with_messages(self, messages: List[Dict], model: Optional[str] = None):
+        """流式调用远程API（使用标准 messages 数组）
 
         Args:
             messages: 标准 OpenAI 格式的 messages 数组 [{"role": "system/user/assistant", "content": "..."}]
             model: 模型名称，不传则使用 settings.llm_qa_model 默认值
-            fallback_model: 备用模型名称，不传则使用 settings.llm_fallback_model
         """
         import logging
-        from openai import RateLimitError, AuthenticationError, APIError
 
         logger = logging.getLogger(__name__)
 
-        base_url = settings.llm_api_base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
+        base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
         api_key = settings.llm_api_key or ""
         target_model = model or settings.llm_qa_model
-        fallback_model = fallback_model or settings.llm_fallback_model or "qwen3.5-plus"
         logger.info(f"[LLM] _call_llm_stream_with_messages: 模型={target_model}, messages数量={len(messages)}")
 
-        def _stream_model(m: str, msgs: List[Dict]):
-            logger.info(f"[LLM] 流式调用 LLM，模型={m}")
-            client = OpenAI(api_key=api_key, base_url=base_url)
-            response = client.chat.completions.create(
-                model=m,
-                messages=msgs,
-                temperature=settings.temperature,
-                max_tokens=settings.max_tokens,
-                stream=True,
-                extra_body={"enable_thinking": settings.llm_enable_thinking}
-            )
+        client = OpenAI(api_key=api_key, base_url=base_url)
+        response = client.chat.completions.create(
+            **self._apply_thinking_policy({
+                "model": target_model,
+                "messages": messages,
+                "temperature": settings.temperature,
+                "max_tokens": settings.max_tokens,
+                "stream": True
+            })
+        )
 
-            for chunk in response:
-                if chunk.choices and chunk.choices[0].delta.content:
-                    yield chunk.choices[0].delta.content
-
-        try:
-            yield from _stream_model(target_model, messages)
-        except (RateLimitError, AuthenticationError) as e:
-            error_msg = str(e).lower()
-            if "quota" in error_msg or "token" in error_msg or "rate limit" in error_msg or "429" in error_msg or "402" in error_msg:
-                logger.warning(f"[LLM] 流式主模型 {target_model} 调用失败（token耗尽/限流），错误: {e}，尝试降级到 fallback 模型 {fallback_model}")
-                try:
-                    yield from _stream_model(fallback_model, messages)
-                    logger.warning(f"[LLM] fallback 模型 {fallback_model} 流式调用成功")
-                    return
-                except Exception as fallback_e:
-                    logger.error(f"[LLM] fallback 模型 {fallback_model} 流式调用也失败，错误: {fallback_e}")
-                    raise
-            raise
-        except APIError as e:
-            error_msg = str(e).lower()
-            if "quota" in error_msg or "token" in error_msg or "rate limit" in error_msg or "429" in error_msg or "402" in error_msg:
-                logger.warning(f"[LLM] 流式主模型 {target_model} API错误（token耗尽/限流），错误: {e}，尝试降级到 fallback 模型 {fallback_model}")
-                try:
-                    yield from _stream_model(fallback_model, messages)
-                    logger.warning(f"[LLM] fallback 模型 {fallback_model} 流式调用成功")
-                    return
-                except Exception as fallback_e:
-                    logger.error(f"[LLM] fallback 模型 {fallback_model} 流式调用也失败，错误: {fallback_e}")
-                    raise
-            raise
+        for chunk in response:
+            if chunk.choices and chunk.choices[0].delta.content:
+                yield chunk.choices[0].delta.content
 
     def _build_messages(self, question: str, contexts: List[Dict], history: Optional[List[Dict]] = None) -> List[Dict]:
         """构建标准 messages 数组（system + history + 当前用户消息）
@@ -803,7 +794,9 @@ class QAService:
         Returns:
             标准 OpenAI 格式的 messages 数组
         """
-        top_contexts = contexts[:5]
+        # 引用链扩展项（组件D）带 retrieval_hop=2，需与直接检索命中的来源分开呈现
+        hop_contexts = [c for c in contexts if c.get('retrieval_hop') == 2]
+        top_contexts = [c for c in contexts if c.get('retrieval_hop') != 2][:5]
         references = []
 
         for i, ctx in enumerate(top_contexts, 1):
@@ -818,6 +811,9 @@ class QAService:
                 f"【来源{i}】{jurisdiction}《{title}》{article_num}\n法ID: {law_id}\n相似度: {similarity:.4f}\n{content}")
 
         references_text = "\n\n".join(references)
+
+        # 引用链补充（组件D）：单独成段并标注引用来源，避免与直接命中的来源混淆
+        references_text += self._format_hop_references(hop_contexts)
 
         jurisdictions_in_contexts = set()
         for ctx in top_contexts:
@@ -988,7 +984,7 @@ class QAService:
             t4 = time.time()
             llm_start_time = t4
 
-            for chunk in self._call_llm_stream_with_messages(messages, fallback_model=settings.llm_qa_fallback_model):
+            for chunk in self._call_llm_stream_with_messages(messages):
                 yield {"type": "content", "data": chunk}
 
             t_llm = time.time() - t4
@@ -1011,7 +1007,7 @@ class QAService:
     def ask_stream_with_image(self, question: str, top_k: int = 5, jurisdictions: Optional[List[str]] = None,
                               history: Optional[List[Dict]] = None, images: Optional[List[Dict]] = None):
         """
-        支持图片的流式问答（使用Qwen3.6-Plus原生多模态）
+        支持图片的流式问答（使用智能问答模型原生多模态）
 
         Args:
             question: 用户问题
@@ -1058,7 +1054,8 @@ class QAService:
         # 3. 先返回sources
         sources = []
         source_jurisdictions = set()
-        for ctx in contexts[:5]:
+        # 引用链扩展项不作为检索来源展示（其 similarity 为占位 0，会误导前端）
+        for ctx in [c for c in contexts if c.get('retrieval_hop') != 2][:5]:
             jur = ctx['metadata'].get('jurisdiction', '')
             if jur:
                 source_jurisdictions.add(jur)
@@ -1075,10 +1072,10 @@ class QAService:
 
         yield {"type": "sources", "sources": sources, "retrieved_count": len(contexts), "jurisdictions": detected_jurisdictions}
 
-        # 4. 流式调用Qwen3.6-Plus
+        # 4. 流式调用智能问答模型
         try:
             t3 = time.time()
-            for chunk in self._call_qwen36_plus_stream(messages):
+            for chunk in self._call_multimodal_stream(messages):
                 yield {"type": "content", "data": chunk}
 
             t_llm = time.time() - t3
@@ -1101,7 +1098,7 @@ class QAService:
     def _build_multimodal_messages(self, question: str, contexts: List[Dict], history: Optional[List[Dict]] = None,
                                    images: Optional[List[Dict]] = None) -> List[Dict]:
         """
-        构建Qwen3.6-Plus多模态消息格式
+        构建多模态消息格式
 
         Args:
             question: 用户问题
@@ -1176,8 +1173,11 @@ class QAService:
 - 总字数：单法域问题 1200-1800 字，多法域对比问题 1500-2200 字。
 - 严禁编造资料中没有的信息；资料不足时明确说明。"""
 
-        # 构建参考资料文本
-        references_text = self._build_references_text_for_multimodal(contexts[:5])
+        # 构建参考资料文本（引用链扩展项单独成段，不占用 5 条主来源名额）
+        primary_contexts = [c for c in contexts if c.get('retrieval_hop') != 2][:5]
+        hop_contexts = [c for c in contexts if c.get('retrieval_hop') == 2]
+        references_text = self._build_references_text_for_multimodal(primary_contexts)
+        references_text += self._format_hop_references(hop_contexts)
 
         # 构建 messages 数组
         messages = [{"role": "system", "content": system_prompt}]
@@ -1261,9 +1261,9 @@ class QAService:
 
         return "\n\n".join(references)
 
-    def _call_qwen36_plus_stream(self, messages: List[Dict]):
+    def _call_multimodal_stream(self, messages: List[Dict]):
         """
-        调用多模态流式API（使用智能问答模型，带fallback降级机制）
+        调用多模态流式API（使用智能问答模型）
 
         Args:
             messages: 多模态消息列表
@@ -1272,54 +1272,25 @@ class QAService:
             流式文本片段
         """
         import logging
-        from openai import RateLimitError, AuthenticationError, APIError
 
         logger = logging.getLogger(__name__)
 
-        base_url = settings.llm_api_base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
+        base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
         api_key = settings.llm_api_key or ""
         target_model = settings.llm_qa_model
-        fallback_model = settings.llm_qa_fallback_model or settings.llm_fallback_model or "qwen3.5-plus"
 
-        def _stream_model(m: str, msgs: List[Dict]):
-            logger.info(f"[多模态LLM] 调用模型: {m}, 消息数量: {len(msgs)}")
-            client = OpenAI(api_key=api_key, base_url=base_url)
-            response = client.chat.completions.create(
-                model=m,
-                messages=msgs,
-                temperature=settings.temperature,
-                max_tokens=settings.max_tokens,
-                stream=True,
-                extra_body={"enable_thinking": settings.llm_enable_thinking}
-            )
+        logger.info(f"[多模态LLM] 调用模型: {target_model}, 消息数量: {len(messages)}")
+        client = OpenAI(api_key=api_key, base_url=base_url)
+        response = client.chat.completions.create(
+            **self._apply_thinking_policy({
+                "model": target_model,
+                "messages": messages,
+                "temperature": settings.temperature,
+                "max_tokens": settings.max_tokens,
+                "stream": True
+            })
+        )
 
-            for chunk in response:
-                if chunk.choices and chunk.choices[0].delta.content:
-                    yield chunk.choices[0].delta.content
-
-        try:
-            yield from _stream_model(target_model, messages)
-        except (RateLimitError, AuthenticationError) as e:
-            error_msg = str(e).lower()
-            if "quota" in error_msg or "token" in error_msg or "rate limit" in error_msg or "429" in error_msg or "402" in error_msg:
-                logger.warning(f"[多模态LLM] 主模型 {target_model} 调用失败（token耗尽/限流），错误: {e}，尝试降级到 fallback 模型 {fallback_model}")
-                try:
-                    yield from _stream_model(fallback_model, messages)
-                    logger.warning(f"[多模态LLM] fallback 模型 {fallback_model} 调用成功")
-                    return
-                except Exception as fallback_e:
-                    logger.error(f"[多模态LLM] fallback 模型 {fallback_model} 调用也失败，错误: {fallback_e}")
-                    raise
-            raise
-        except APIError as e:
-            error_msg = str(e).lower()
-            if "quota" in error_msg or "token" in error_msg or "rate limit" in error_msg or "429" in error_msg or "402" in error_msg:
-                logger.warning(f"[多模态LLM] 主模型 {target_model} API错误（token耗尽/限流），错误: {e}，尝试降级到 fallback 模型 {fallback_model}")
-                try:
-                    yield from _stream_model(fallback_model, messages)
-                    logger.warning(f"[多模态LLM] fallback 模型 {fallback_model} 调用成功")
-                    return
-                except Exception as fallback_e:
-                    logger.error(f"[多模态LLM] fallback 模型 {fallback_model} 调用也失败，错误: {fallback_e}")
-                    raise
-            raise
+        for chunk in response:
+            if chunk.choices and chunk.choices[0].delta.content:
+                yield chunk.choices[0].delta.content

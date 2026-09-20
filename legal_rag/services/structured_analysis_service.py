@@ -458,8 +458,8 @@ class StructuredAnalysisService:
         )
 
         try:
-            # 使用 qwen3.6-flash 进行摘要生成，追求速度
-            summary_model = settings.llm_dashboard_model or "qwen3.6-flash"
+            # 使用 deepseek-flash 进行摘要生成，追求速度
+            summary_model = settings.llm_dashboard_model or "deepseek-flash"
             return self.qa_service._call_llm_with_model(prompt, model=summary_model)
         except Exception:
             return ""
@@ -574,19 +574,18 @@ class StructuredAnalysisService:
         _extract_results = {}
         _parallel_results = {}
         # 流式提取使用配置的结构化提取模型
-        _stream_model = settings.llm_extraction_model or "qwen3.6-plus"
-        _stream_fallback = settings.llm_extraction_fallback_model or "qwen3.5-omni-plus"
+        _stream_model = settings.llm_extraction_model or "deepseek-flash"
 
         # ----- 流式提取：每个维度完成时立即 yield -----
         import queue as _queue
         import threading as _threading
 
-        def _stream_extract(prompt, jur, dims, q, model_name, fallback_name):
+        def _stream_extract(prompt, jur, dims, q, model_name):
             """在后台线程中流式调用 LLM，每检测到一个完整维度就放入队列"""
             raw = ""
             seen_keys = set()
             try:
-                for chunk in self.qa_service._call_llm_stream(prompt, model=model_name, fallback_model=fallback_name):
+                for chunk in self.qa_service._call_llm_stream(prompt, model=model_name):
                     raw += chunk
                     # 实时检测已完成的关键字段 "key": "value"
                     for dim in dims:
@@ -616,12 +615,13 @@ class StructuredAnalysisService:
         result_queue = _queue.Queue()
         extract_threads = []
         for _prompt, _jur in [(extraction_prompt_a, jurisdiction_a), (extraction_prompt_b, jurisdiction_b)]:
-            t = _threading.Thread(target=_stream_extract, args=(_prompt, _jur, topic["dimensions"], result_queue, _stream_model, _stream_fallback))
+            t = _threading.Thread(target=_stream_extract, args=(_prompt, _jur, topic["dimensions"], result_queue, _stream_model))
             t.daemon = True
             t.start()
             extract_threads.append(t)
 
         # 消费队列：每完成一个维度立即 yield，前端逐行渲染
+        summary_future = None
         dashboard_future = None
         done_count = 0
         while done_count < 2:
@@ -657,11 +657,26 @@ class StructuredAnalysisService:
                         }
                     }
 
+                    def _gen_summary(result):
+                        t_start = time.time()
+                        try:
+                            extraction = result["extraction"]
+                            text = self._generate_summary(
+                                result["topic"], jurisdiction_a, jurisdiction_b,
+                                extraction.get(jurisdiction_a, {}), extraction.get(jurisdiction_b, {})
+                            )
+                            timing["llm_summary"] = f"{time.time() - t_start:.2f}s"
+                            _parallel_results["summary"] = text
+                            return text
+                        except Exception as e:
+                            timing["llm_summary"] = f"{time.time() - t_start:.2f}s (失败)"
+                            logger.warning(f"[Parallel] summary 生成失败: {e}")
+                            return ""
+
                     def _gen_dashboard(result):
                         t_start = time.time()
                         try:
-                            summary_text, dashboard_data = self.generate_summary_and_dashboard(result)
-                            _parallel_results["summary"] = summary_text
+                            dashboard_data = self.generate_dashboard(result)
                             timing["llm_dashboard"] = f"{time.time() - t_start:.2f}s"
                             return dashboard_data
                         except Exception as e:
@@ -669,10 +684,12 @@ class StructuredAnalysisService:
                             logger.warning(f"[Parallel] dashboard 生成失败: {e}")
                             return None
 
-                    # 用独立线程池运行仪表盘（不阻塞当前生成器）
-                    _dash_executor = ThreadPoolExecutor(max_workers=1)
-                    dashboard_future = _dash_executor.submit(_gen_dashboard, intermediate_result)
-                    _dash_executor.shutdown(wait=False)
+                    # 总结与仪表盘互不依赖，用 2 个线程并行跑：
+                    # 原先合并成一次调用并串行等待，导致总结必须等仪表盘 JSON 一起产出才能下发
+                    _llm_executor = ThreadPoolExecutor(max_workers=2)
+                    summary_future = _llm_executor.submit(_gen_summary, intermediate_result)
+                    dashboard_future = _llm_executor.submit(_gen_dashboard, intermediate_result)
+                    _llm_executor.shutdown(wait=False)
 
         t_extract = time.time() - t2
         timing["llm_extraction"] = f"{t_extract:.2f}s"
@@ -690,23 +707,19 @@ class StructuredAnalysisService:
             }
         }
 
-        # ===== 步骤4：获取仪表盘结果（等待后台任务）=====
-        if dashboard_future:
-            dashboard_data = dashboard_future.result()
-        else:
-            dashboard_data = None
+        # ===== 步骤4：先给总结（不依赖仪表盘），再等仪表盘 =====
+        summary = summary_future.result() if summary_future else ""
+        if include_summary and summary:
+            chunk_size = 30
+            for i in range(0, len(summary), chunk_size):
+                yield {"type": "summary_chunk", "data": summary[i:i+chunk_size]}
+        yield {"type": "timing_update", "data": timing}
+
+        dashboard_data = dashboard_future.result() if dashboard_future else None
         _parallel_results["dashboard"] = dashboard_data
         if dashboard_data:
             yield {"type": "dashboard_done", "data": dashboard_data}
         yield {"type": "timing_update", "data": timing}
-
-        # 单独处理总结（如果需要流式输出）
-        summary = _parallel_results.get("summary", "")
-        if include_summary and summary:
-            # 流式输出总结片段
-            chunk_size = 30
-            for i in range(0, len(summary), chunk_size):
-                yield {"type": "summary_chunk", "data": summary[i:i+chunk_size]}
 
         # ===== 构建完整结果 =====
         result = {
@@ -757,136 +770,6 @@ class StructuredAnalysisService:
             logger.warning(f"[Cache] 写入缓存失败（不影响结果）: {e}")
 
         yield {"type": "done", "data": result}
-
-    def _build_summary_prompt(self, topic, jur_a, jur_b, data_a, data_b) -> str:
-        """构建差异总结 prompt（已废弃，由 generate_summary_and_dashboard 统一生成）"""
-        dim_lines = []
-        for dim in topic["dimensions"]:
-            if dim["key"] == "source_articles":
-                continue
-            key = dim["key"]
-            label = dim["label"]
-            val_a = data_a.get(key, "")
-            val_b = data_b.get(key, "")
-            dim_lines.append(f"- **{label}**: {jur_a}→{str(val_a)[:80]}; {jur_b}→{str(val_b)[:80]}")
-
-        comparison_data = "\n".join(dim_lines)
-
-        return (
-            "基于以下两个法域在「" + topic["name"] + "」专题上的结构化提取数据，写一段100-200字的客观差异总结。\n"
-            "\n只总结最关键的3-5个差异点，不要重复已有数据。语气专业、简洁。\n"
-            "\n## 提取数据对比\n\n" + comparison_data + "\n\n## 总结（100-200字）："
-        )
-
-    # ================================================================
-    #  升版能力：一次性生成 总结 + 仪表盘数据（1次LLM调用替代2次）
-    # ================================================================
-
-    def generate_summary_and_dashboard(self, analysis_result: Dict) -> tuple:
-        """
-        合并调用：基于已有的结构化分析结果，同时生成：
-        - 差异总结文字（100-200字）
-        - 仪表盘数据（评分/雷达图/差异点）
-
-        Returns: (summary_text, dashboard_dict)
-        比分别调用 _generate_summary + generate_dashboard 节省约 50% 时间。
-        """
-        topic = analysis_result.get("topic", {})
-        jurs = analysis_result.get("jurisdictions", ["", ""])
-        jur_a, jur_b = jurs[0], jurs[1]
-        extraction = analysis_result.get("extraction", {})
-        data_a = extraction.get(jur_a, {})
-        data_b = extraction.get(jur_b, {})
-        dimensions = [d for d in topic.get("dimensions", []) if d["key"] != "source_articles"]
-
-        # 构建精简的对比数据
-        comparison_lines = []
-        for dim in dimensions:
-            key = dim["key"]
-            label = dim["label"]
-            val_a = str(data_a.get(key, ""))[:150]
-            val_b = str(data_b.get(key, ""))[:150]
-            comparison_lines.append(f"【{label}】\n  {jur_a}: {val_a}\n  {jur_b}: {val_b}")
-        comparison_text = "\n".join(comparison_lines)
-        dim_list = "\n".join(f"  {i+1}. {d['label']}" for i, d in enumerate(dimensions))
-
-        combined_prompt = (
-            "你是法律合规评估专家。基于以下两个法域在「" + topic.get("name", "") + "」"
-            "专题上的法规条款对比信息，完成两项任务。\n\n"
-
-            "## 任务1：写一段100-200字的客观差异总结\n"
-            "只总结最关键的3-5个差异点，不要重复已有数据。语气专业、简洁。\n\n"
-
-            "## 任务2：输出仪表盘JSON数据\n"
-            "{\n"
-            '  "scores": {\n'
-            f'    "{jur_a}": <1-5数字>,\n'
-            f'    "{jur_b}": <1-5数字>\n'
-            '  },\n'
-            '  "score_reasons": {\n'
-            f'    "{jur_a}": "<一句话>",\n'
-            f'    "{jur_b}": "<一句话>"\n'
-            "  },\n"
-            '  "radar": {\n'
-            f'    "{jur_a}": [<按维度顺序的1-5分数组>],\n'
-            f'    "{jur_b}": [<同上>]\n'
-            "  },\n"
-            '  "key_differences": [\n'
-            '    {"dimension":"<维度名>","summary":"<一句话>","severity":"major|moderate|minor",'
-            f'"{jur_a}_detail":"<摘要>","{jur_b}_detail":"<摘要>"}}\n'
-            "  ]\n"
-            "}\n\n"
-
-            "**维度顺序**:\n" + dim_list +
-            "\n\n**对比数据**:\n\n" + comparison_text +
-            "\n\n请先输出总结文字（用 ===SUMMARY=== 标记结尾），然后紧接输出JSON（用 ===DASHBOARD=== 标记结尾）：\n\n"
-        )
-
-        # 使用 qwen3.6-flash 生成仪表盘数据，追求速度优先
-        dashboard_model = settings.llm_dashboard_model or "qwen3.6-flash"
-        raw = self.qa_service._call_llm_with_model(combined_prompt, model=dashboard_model)
-        return self._parse_combined_output(raw, dimensions, jur_a, jur_b)
-
-    def _parse_combined_output(self, raw: str, dimensions: list, jur_a: str, jur_b: str) -> tuple:
-        """解析合并输出的 总结+仪表盘 JSON"""
-        import re
-        summary = ""
-        dashboard_raw = ""
-
-        # 尝试按标记拆分
-        if "===SUMMARY===" in raw and "===DASHBOARD===" in raw:
-            parts = raw.split("===SUMMARY===")
-            summary_part = parts[1].split("===DASHBOARD===")[0] if len(parts) > 1 else ""
-            summary = summary_part.strip()
-            dashboard_raw = raw.split("===DASHBOARD===")[1] if "===DASHBOARD===" in raw else ""
-        elif "===DASHBOARD===" in raw:
-            # 只有仪表盘部分
-            summary = raw.split("===DASHBOARD===")[0].strip()
-            dashboard_raw = raw.split("===DASHBOARD===")[1]
-        else:
-            # 无标记，尝试智能拆分：找最后一个 {
-            last_brace = raw.rfind("{")
-            if last_brace > 100:
-                summary = raw[:last_brace].strip()
-                dashboard_raw = raw[last_brace:]
-            else:
-                summary = raw[:500]  # 取前500字作为总结
-                dashboard_raw = ""
-
-        # 解析仪表盘 JSON
-        parsed_dash = self._parse_dashboard_json(dashboard_raw, dimensions, jur_a, jur_b)
-
-        dashboard = {
-            "topic_name": "",
-            "jurisdictions": [jur_a, jur_b],
-            "scores": parsed_dash.get("scores", {}),
-            "score_reasons": parsed_dash.get("score_reasons", {}),
-            "radar": parsed_dash.get("radar", {}),
-            "radar_labels": [d["label"] for d in dimensions],
-            "key_differences": parsed_dash.get("key_differences", []),
-        }
-
-        return (summary or "（暂无总结）", dashboard)
 
     # ================================================================
     #  仪表盘数据（保留单独接口供前端按需调用）
@@ -945,8 +828,8 @@ class StructuredAnalysisService:
             + "\n\n直接输出 JSON:"
         )
 
-        # 使用 qwen3.6-flash 生成仪表盘数据，追求速度优先
-        dashboard_model = settings.llm_dashboard_model or "qwen3.6-flash"
+        # 使用 deepseek-flash 生成仪表盘数据，追求速度优先
+        dashboard_model = settings.llm_dashboard_model or "deepseek-flash"
         raw = self.qa_service._call_llm_with_model(dashboard_prompt, model=dashboard_model)
         parsed = self._parse_dashboard_json(raw, dimensions, jur_a, jur_b)
 
@@ -2263,8 +2146,8 @@ class StructuredAnalysisService:
         )
 
         try:
-            # 使用 qwen3.6-plus 进行知识图谱路径解读，保证推理和输出质量
-            extraction_model = settings.llm_extraction_model or "qwen3.6-plus"
+            # 使用 deepseek-flash 进行知识图谱路径解读，保证推理和输出质量
+            extraction_model = settings.llm_extraction_model or "deepseek-flash"
             interpretation = self.qa_service._call_llm_with_model(prompt, model=extraction_model)
             return interpretation or "AI解读生成失败，请稍后重试。"
         except Exception as e:

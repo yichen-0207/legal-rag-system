@@ -166,6 +166,8 @@ class CompareService:
             "title": "", "article_numbers": set(), "chunks": [],
             "passing_date": None, "all_content": ""
         })
+        # 同一法条可能命中多个 sub_chunk，按 (law_id, article_number) 去重，只保留相似度最高的一条
+        seen_articles: Dict[tuple, dict] = {}
 
         for r in results:
             lid = r.get("law_id", "")
@@ -183,7 +185,17 @@ class CompareService:
 
             content = r.get("content", "")
             similarity = float(r.get("similarity", 0))
-            entry["chunks"].append({
+
+            if art_num:
+                dup = seen_articles.get((lid, art_num))
+                if dup is not None:
+                    # 保留相似度更高的那条（用于排序与对照表展示）
+                    if similarity > dup["similarity"]:
+                        dup["similarity"] = similarity
+                        dup["_id"] = r.get("_id", "")
+                    continue
+
+            chunk = {
                 "content": content,
                 "similarity": similarity,
                 "article_number": art_num,
@@ -191,11 +203,26 @@ class CompareService:
                 "law_title": entry["title"],
                 "_id": r.get("_id", ""),
                 "chunk_index": len(entry["chunks"]),
-            })
+            }
+            if art_num:
+                seen_articles[(lid, art_num)] = chunk
+
+            entry["chunks"].append(chunk)
             entry["all_content"] += " " + content
             pd = meta.get("passing_date")
             if pd and not entry["passing_date"]:
                 entry["passing_date"] = pd
+
+        # 回取完整法条原文：向量检索命中的是 sub_chunk（常从词中间截断），
+        # 直接用片段会污染 LLM 上下文和前端条款对照表，这里按 law_id + article_number 聚合回完整条文
+        for lid, info in laws_map.items():
+            for chunk in info["chunks"]:
+                art_num = chunk.get("article_number")
+                if not art_num:
+                    continue
+                full_text = self.repo.get_article_full_text(lid, art_num)
+                if full_text:
+                    chunk["content"] = full_text
 
         aggregated = []
         for lid, info in laws_map.items():

@@ -23,12 +23,19 @@ app = FastAPI(
 @app.on_event("startup")
 async def warmup():
     import logging
+    from core.config import settings
     logger = logging.getLogger("legal_rag")
+    if not settings.reranker_enabled:
+        logger.info("Re-ranker 已禁用（LEGAL_RERANKER_ENABLED=false），跳过预加载")
+        return
     logger.info("预加载 Re-ranker 模型...")
     from services.reranker_service import ReRankerService
     svc = ReRankerService()
-    svc._lazy_load()
-    logger.info("Re-ranker 模型预加载完成")
+    # 加载失败不阻塞启动：服务继续提供检索/问答，仅降级为不做精排
+    if svc._lazy_load():
+        logger.info("Re-ranker 模型预加载完成")
+    else:
+        logger.warning("Re-ranker 模型预加载失败，已降级为不做精排，服务继续启动")
 
 # 跨域支持（前后端分离）
 app.add_middleware(

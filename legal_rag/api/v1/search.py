@@ -5,14 +5,17 @@ from services.retriever_service import RetrieverService
 from services.similar_law_service import SimilarLawService
 from services.summary_service import SummaryService
 from repositories.elasticsearch import ElasticsearchRepository
+from utils.law_catalog import LawCatalog
 
 router = APIRouter(prefix="/search", tags=["搜索"])
 retriever = RetrieverService()
 repo = ElasticsearchRepository()
 similar_service = SimilarLawService()
 summary_service = SummaryService()
+catalog = LawCatalog()
 
 
+@router.get("")
 @router.get("/")
 async def search(
     query: str = Query("", description="搜索关键词（为空时仅按筛选条件检索）"),
@@ -42,7 +45,9 @@ async def search(
                 topics=result.get('topics', []),
                 topic_labels=result.get('topic_labels', [])
             ),
-            similarity=result['score']
+            similarity=result['score'],
+            retrieval_hop=result.get('retrieval_hop'),
+            referenced_by=result.get('referenced_by'),
         ))
 
     return APIResponse(success=True, data=search_results)
@@ -53,9 +58,56 @@ async def get_laws(
     jurisdiction: str = Query(None, description="法域筛选"),
     topics: str = Query(None, description="主题筛选，逗号分隔")
 ):
-    """获取所有法规列表"""
-    laws = repo.get_all_laws(jurisdiction=jurisdiction, topics=topics)
-    return APIResponse(success=True, data=laws)
+    """获取所有法规列表
+
+    以 LawCatalog (data/law_catalog.json) 为权威数据源，保证返回所有已入库的法规元信息。
+    仅当 ES 中存在对应索引数据时，附加实时 chunk_count/article_count 统计。
+    """
+    # 1) 从 catalog 获取所有非删除状态的法规
+    cat_data = catalog.load()
+    all_laws = [l for l in cat_data.get("laws", []) if l.get("status") != "deleted"]
+
+    # 2) 法域筛选（catalog 中 jurisdiction 已为中文）
+    if jurisdiction:
+        all_laws = [l for l in all_laws if l.get("jurisdiction") == jurisdiction]
+
+    # 3) 主题筛选（多选 OR，支持中文标签）
+    topic_filter = None
+    if topics:
+        topic_filter = set(t.strip() for t in topics.split(",") if t.strip())
+        if topic_filter:
+            all_laws = [l for l in all_laws
+                        if any(t in (l.get("topics") or []) for t in topic_filter)]
+
+    # 4) 可选：从 ES 拉取实际索引统计（仅命中 ES 的法规补充 chunk_count）
+    es_stats: dict = {}
+    try:
+        es_laws = repo.get_all_laws()
+        es_stats = {law["law_id"]: law for law in es_laws if law.get("law_id")}
+    except Exception:
+        es_stats = {}
+
+    # 5) 转换为前端期望的响应字段名（保持向后兼容）
+    result = []
+    for law in all_laws:
+        law_id = law.get("law_id", "")
+        es_info = es_stats.get(law_id, {})
+        result.append({
+            "law_id": law_id,
+            "title": law.get("law_name_zh") or law.get("law_name_original") or "",
+            "jurisdiction": law.get("jurisdiction", ""),
+            "chunk_count": es_info.get("chunk_count") or law.get("total_chunks", 0),
+            "article_count": es_info.get("article_count") or law.get("total_articles", 0),
+            # 额外字段（前端可选使用）
+            "passing_date": law.get("passing_date", ""),
+            "effective_date": law.get("effective_date", ""),
+            "publication_date": law.get("publication_date", ""),
+            "topics": law.get("topics", []),
+            "status": law.get("status", "active"),
+            "indexed_in_es": bool(es_info),
+        })
+
+    return APIResponse(success=True, data=result)
 
 
 @router.get("/law/{law_id}")
