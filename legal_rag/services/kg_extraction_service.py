@@ -13,8 +13,10 @@ import json
 import logging
 import re
 from typing import List, Dict, Optional
-from openai import OpenAI, RateLimitError, AuthenticationError, APIError
+from openai import OpenAI
 from core.config import settings
+from repositories.elasticsearch import ElasticsearchRepository
+from services.entity_disambiguation_service import EntityDisambiguationService
 
 logger = logging.getLogger(__name__)
 
@@ -47,10 +49,10 @@ class KGExtractionService:
 
     def __init__(self):
         self.api_key = settings.llm_api_key or ""
-        self.base_url = settings.llm_api_base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
-        self.model = settings.llm_extraction_model or "qwen3.6-plus"
-        self.fallback_model = settings.llm_fallback_model or "qwen3.5-plus"
+        self.base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
+        self.model = settings.llm_extraction_model or "deepseek-flash"
         self.client = OpenAI(api_key=self.api_key, base_url=self.base_url)
+        self.repo = ElasticsearchRepository()
 
     def extract_from_articles(self, articles: List[Dict], batch_size: int = 5) -> List[Dict]:
         """
@@ -96,45 +98,21 @@ class KGExtractionService:
         return all_triples
 
     def _extract_batch(self, batch: List[Dict]) -> List[Dict]:
-        """调用 LLM 抽取单个批次的三元组（主模型失败时自动 fallback 到全局备用模型）"""
+        """调用 LLM 抽取单个批次的三元组"""
         prompt = self._build_prompt(batch)
 
-        def _call_model(m: str):
-            response = self.client.chat.completions.create(
-                model=m,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.1,
-                max_tokens=4096,
-                response_format={"type": "json_object"},
-            )
-            return response.choices[0].message.content
-
-        try:
-            text = _call_model(self.model)
-        except (RateLimitError, AuthenticationError) as e:
-            error_msg = str(e).lower()
-            if any(kw in error_msg for kw in ["quota", "token", "rate limit", "429", "402"]):
-                logger.warning(f"[KG] 主模型 {self.model} 调用失败（token耗尽/限流），尝试 fallback {self.fallback_model}: {e}")
-                try:
-                    text = _call_model(self.fallback_model)
-                    logger.warning(f"[KG] fallback 模型 {self.fallback_model} 调用成功")
-                except Exception as fb_e:
-                    logger.error(f"[KG] fallback 模型 {self.fallback_model} 调用也失败: {fb_e}")
-                    return []
-            else:
-                raise
-        except APIError as e:
-            error_msg = str(e).lower()
-            if any(kw in error_msg for kw in ["quota", "token", "rate limit", "429", "402"]):
-                logger.warning(f"[KG] 主模型 {self.model} API错误（token耗尽/限流），尝试 fallback {self.fallback_model}: {e}")
-                try:
-                    text = _call_model(self.fallback_model)
-                    logger.warning(f"[KG] fallback 模型 {self.fallback_model} 调用成功")
-                except Exception as fb_e:
-                    logger.error(f"[KG] fallback 模型 {self.fallback_model} 调用也失败: {fb_e}")
-                    return []
-            else:
-                raise
+        create_kwargs = {
+            "model": self.model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.1,
+            "max_tokens": 4096,
+            "response_format": {"type": "json_object"},
+        }
+        extra_body = settings.llm_extra_body()
+        if extra_body:
+            create_kwargs["extra_body"] = extra_body
+        response = self.client.chat.completions.create(**create_kwargs)
+        text = response.choices[0].message.content
 
         return self._parse_response(text, batch)
 
@@ -290,13 +268,105 @@ class KGExtractionService:
                 seen[key] = t
         return list(seen.values())
 
+    def get_triples_cached(
+        self,
+        law_id: str,
+        articles: List[Dict],
+        force_refresh: bool = False,
+    ) -> Dict:
+        """
+        获取某法规的三元组：优先读知识层缓存，未命中才调用 LLM 抽取。
+
+        命中条件为「缓存指纹 == 当前法规指纹」，因此：
+          - 新增法规：只对新 law_id 抽取，已有法规零 LLM 调用；
+          - 法规修订：只有该法规指纹变化并重抽，其余法规不受影响；
+          - 重复访问：直接读 ES，不再触发一次完整抽取。
+
+        说明：抽取结果为空时不写缓存元信息（无文档即无指纹），
+        下次请求会重抽。这一行为是有意为之 —— LLM 批次失败或响应异常
+        时同样返回空列表，重抽等价于自动重试。
+
+        Args:
+            law_id: 法规 ID
+            articles: 法条列表（仅在缓存未命中时使用）
+            force_refresh: 为 True 时忽略缓存，强制重新抽取（本体变更后使用）
+
+        Returns:
+            {"triples": List[Dict], "cache_hit": bool, "fingerprint": str}
+        """
+        repo = self.repo
+        fingerprint = repo.compute_law_fingerprint(law_id)
+
+        # 指纹为空说明法规不存在，无法判断失效，直接走实时抽取
+        if not force_refresh and fingerprint:
+            meta = repo.get_kg_cache_meta(law_id)
+            if meta and meta.get("fingerprint") == fingerprint and meta.get("triple_count"):
+                logger.info(
+                    f"[KGExtraction] 命中知识层缓存: law_id={law_id}, "
+                    f"复用 {meta['triple_count']} 条三元组，跳过 LLM 抽取"
+                )
+                return {
+                    "triples": repo.get_kg_triples(law_id),
+                    "cache_hit": True,
+                    "fingerprint": fingerprint,
+                }
+
+        triples = self.extract_from_articles(articles)
+
+        # 抽取结果为空时不能直接覆盖已有结果：LLM 输出存在抖动
+        # （实测同一段法条两次抽取分别返回 5 条与 0 条），
+        # 若此时清空，一次抖动就会把已建好的图谱整体抹掉。
+        # 因此：旧结果存在且指纹未变 -> 判定为抖动，保留旧结果；
+        #       指纹已变（法规被修订为无可提取关系）或旧结果不存在 -> 正常走落库（含清除）。
+        if not triples:
+            meta = repo.get_kg_cache_meta(law_id)
+            if meta and meta.get("triple_count") and meta.get("fingerprint") == fingerprint:
+                logger.warning(
+                    f"[KGExtraction] 本次抽取为空但缓存指纹未变，保留已有 "
+                    f"{meta['triple_count']} 条三元组: law_id={law_id}"
+                )
+                return {
+                    "triples": repo.get_kg_triples(law_id),
+                    "cache_hit": True,
+                    "fingerprint": fingerprint,
+                }
+
+        jurisdiction = articles[0].get("jurisdiction", "") if articles else ""
+
+        # 实体消歧（L1 规范化 + L2 别名表 + L4 类型约束）：
+        # 就地补写 head/tail 的 canonical_id，并把规范实体同步到实体词典。
+        # 消歧失败不阻断抽取结果落库 —— 此时 canonical_id 退化为原始 id，
+        # 检索与图谱展示仍可用，只是未做归并。
+        try:
+            disambiguator = EntityDisambiguationService(self.repo)
+            result = disambiguator.canonicalize_and_index(triples, law_id, jurisdiction)
+            logger.info(
+                f"[KGExtraction] 实体消歧完成: law_id={law_id}, "
+                f"{result['stats']['raw_entities']} -> {result['stats']['merged_entities']} 个实体"
+            )
+        except Exception as e:
+            logger.warning(f"[KGExtraction] 实体消歧失败，本次以原始实体落库: {e}")
+
+        saved = repo.save_kg_triples(
+            law_id,
+            triples,
+            jurisdiction=jurisdiction,
+            fingerprint=fingerprint,
+        )
+        if saved < 0:
+            logger.warning(f"[KGExtraction] 三元组落库失败，本次结果未缓存: law_id={law_id}")
+
+        return {"triples": triples, "cache_hit": False, "fingerprint": fingerprint}
+
     def extract_and_format_for_graph(self, articles: List[Dict]) -> Dict:
         """
         抽取实体关系并格式化为图谱数据结构
         兼容 get_network_graph() 的输出格式
         """
-        triples = self.extract_from_articles(articles)
+        return self.format_graph(self.extract_from_articles(articles))
 
+    def format_graph(self, triples: List[Dict]) -> Dict:
+        """将三元组列表格式化为前端图谱数据结构（无副作用，不发 LLM 请求）"""
         # 构建节点
         entity_map = {}
         for t in triples:

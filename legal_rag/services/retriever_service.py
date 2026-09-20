@@ -19,19 +19,88 @@ class RetrieverService:
             self._reranker = ReRankerService()
         return self._reranker
 
+    def _rerank_two_stage(self, query: str, candidates: List[Dict]) -> List[Dict]:
+        """
+        两阶段重排：只精排前 reranker_window 条，其余候选按 RRF 顺序拼在尾部。
+
+        与「全量精排后截断」的区别在于尾部候选不再被丢弃：窗口从 50 降到 20 后，
+        排在 20 名之后的 30 条仍以原始 RRF 次序参与最终排序，因此 top_k 较大时
+        （如问答取 50 条候选）不会因为不进精排窗口而整体消失。
+        收益是 reranker 对数减半，CPU 推理耗时同步下降（reranker 占检索延迟约 93%）。
+
+        精排模型不可用时原样返回 candidates（保持 RRF 顺序），不阻断检索。
+        """
+        reranker = self._get_reranker()
+        if not reranker or not candidates:
+            return candidates
+
+        window = min(len(candidates), settings.reranker_window)
+        if window <= 0:
+            return candidates
+
+        head = candidates[:window]
+        tail = candidates[window:]
+        # top_k 传窗口大小而非调用方的 top_k，确保窗口内 20 条全部拿到精排分数，
+        # 否则 rerank 内部按 top_k 截断会让尾部候选的排序基准与头部不一致。
+        reranked = reranker.rerank(query=query, candidates=head, top_k=window)
+
+        # rerank 会跳过 content 为空的候选（不产生 rerank_score），
+        # 这些条目按原 RRF 顺序归入尾部，避免被静默丢弃。
+        reranked_ids = {id(doc) for doc in reranked}
+        skipped = [doc for doc in head if id(doc) not in reranked_ids]
+        return reranked + skipped + tail
+
+    def _expand_by_references(self, results: List[Dict]) -> List[Dict]:
+        """
+        引用链单跳扩展（组件D）：把排名靠前的结果在同法规内引用到的条款补到候选尾部。
+
+        只在同法规内扩展 —— 条款编号是法规内局部的，正文里的「第X條」必然指向本法规的
+        条款，因此解析精确且不需要「法规名 -> law_id」映射；跨法规引用暂不参与
+        （详见 repositories.elasticsearch.parse_intra_law_refs）。
+
+        扩展项排在原有结果之后且 score 置 0，因此不挤占原有排序位置：调用方按 top_k
+        截断时主结果行为不变，多跳结果只在 top_k 有余量或被显式使用时生效。
+        扩展失败静默降级为不扩展，不影响主检索链路。
+        """
+        if not settings.reference_expand_enabled or not results:
+            return results
+
+        seeds = [
+            (r.get("law_id", ""), r.get("article_number", ""), r.get("content", ""))
+            for r in results[: settings.reference_expand_sources]
+        ]
+        try:
+            docs = self.repo.get_referenced_articles(seeds, settings.reference_expand_max)
+        except Exception:
+            return results
+        if not docs:
+            return results
+
+        existing = {(r.get("law_id", ""), r.get("article_number", "")) for r in results}
+        expanded = []
+        for doc in docs:
+            if (doc.get("law_id", ""), doc.get("article_number", "")) in existing:
+                continue
+            # 引用条款不是语义命中，给固定分 0；retrieval_hop/referenced_by 供前端标注来源
+            doc["score"] = 0.0
+            doc["match_type"] = "reference"
+            expanded.append(doc)
+
+        return results + expanded
+
     def _deduplicate_and_enrich_articles(self, raw_results: Dict, top_k: int) -> Dict:
         """
         对原始检索结果按 article 去重，保留每个 article 相似度最高的 sub_chunk，
         并回取完整 article 文本替换 sub_chunk 内容。
+
+        回取采用单次 msearch 批量完成；原实现为逐条 ES 查询（50 条候选约 3.5s 网络往返）。
         """
         if not raw_results.get('ids') or not raw_results['ids'][0]:
             return raw_results
 
+        # 阶段一：按 (law_id, article_number) 去重，收集待回取的条目
         seen = set()
-        new_ids, new_docs, new_metas, new_distances = [], [], [], []
-        hybrid_scores = raw_results.get('_scores')
-        new_scores = []
-
+        picked = []  # [(原始下标, law_id, article_number)]
         for i in range(len(raw_results['ids'][0])):
             metadata = raw_results['metadatas'][0][i]
             law_id = metadata.get('law_id', '')
@@ -40,18 +109,26 @@ class RetrieverService:
             if key in seen:
                 continue
             seen.add(key)
+            picked.append((i, law_id, article_number))
+            if len(picked) >= top_k:
+                break
 
-            # 回取完整 article 文本；失败则保留原始 sub_chunk
-            full_text = self.repo.get_article_full_text(law_id, article_number)
+        # 阶段二：一次性批量回取完整 article 文本
+        full_texts = self.repo.get_articles_full_text_batch(
+            [(law_id, article_number) for _, law_id, article_number in picked]
+        )
+
+        # 阶段三：按原顺序组装，回取失败则保留原始 sub_chunk
+        hybrid_scores = raw_results.get('_scores')
+        new_ids, new_docs, new_metas, new_distances, new_scores = [], [], [], [], []
+        for i, law_id, article_number in picked:
+            full_text = full_texts.get((law_id, article_number))
             new_docs.append(full_text if full_text else raw_results['documents'][0][i])
             new_ids.append(raw_results['ids'][0][i])
-            new_metas.append(metadata)
+            new_metas.append(raw_results['metadatas'][0][i])
             new_distances.append(raw_results['distances'][0][i])
             if hybrid_scores and hybrid_scores[0] and i < len(hybrid_scores[0]):
                 new_scores.append(hybrid_scores[0][i])
-
-            if len(new_ids) >= top_k:
-                break
 
         result = {
             'ids': [new_ids],
@@ -341,14 +418,8 @@ class RetrieverService:
         # RRF 合并
         merged = self._rrf_merge_results(all_per_jur_results, rrf_k=60)
 
-        # Re-ranker 精排（只排前 50，其余直接追加在尾部）
-        reranker = self._get_reranker()
-        if reranker:
-            rerank_window = min(len(merged), 50)
-            top_candidates = merged[:rerank_window]
-            rest = merged[rerank_window:]
-            top_candidates = reranker.rerank(query=query, candidates=top_candidates, top_k=top_k)
-            merged = top_candidates + rest
+        # 两阶段精排：前 reranker_window 条精排，其余按 RRF 顺序拼接
+        merged = self._rerank_two_stage(query=query, candidates=merged)
 
         return merged[:top_k]
 
@@ -442,18 +513,8 @@ class RetrieverService:
                     found["score"] = 1.0
                     target_doc = found
 
-        # Re-ranker 精排（配置启用时自动执行，至多排 50 条）
-        reranker = self._get_reranker()
-        if reranker:
-            rerank_window = min(max(top_k * 3, 50), 50)
-            top_candidates = formatted_results[:rerank_window]
-            rest = formatted_results[rerank_window:]
-            top_candidates = reranker.rerank(
-                query=query,
-                candidates=top_candidates,
-                top_k=top_k,
-            )
-            formatted_results = top_candidates + rest
+        # 两阶段精排：前 reranker_window 条精排，其余按 RRF 顺序拼接
+        formatted_results = self._rerank_two_stage(query=query, candidates=formatted_results)
 
         # 把目标条款插到最前面
         if target_doc:
@@ -599,22 +660,15 @@ class RetrieverService:
                     found["score"] = 1.0
                     target_doc = found
 
-        # Re-ranker 精排（配置启用时自动执行，至多排 50 条）
-        reranker = self._get_reranker()
-        if reranker:
-            rerank_window = min(max(top_k * 3, 50), 50)
-            top_candidates = formatted_results[:rerank_window]
-            rest = formatted_results[rerank_window:]
-            top_candidates = reranker.rerank(
-                query=search_query,
-                candidates=top_candidates,
-                top_k=top_k,
-            )
-            formatted_results = top_candidates + rest
+        # 两阶段精排：前 reranker_window 条精排，其余按 RRF 顺序拼接
+        formatted_results = self._rerank_two_stage(query=search_query, candidates=formatted_results)
 
         # 把目标条款插到最前面
         if target_doc:
             target_doc["score"] = 1.0  # 确保前端按 score 排序时排第一
             formatted_results.insert(0, target_doc)
+
+        # 引用链单跳扩展：补入被引用的同法规条款（组件D）
+        formatted_results = self._expand_by_references(formatted_results)
 
         return formatted_results

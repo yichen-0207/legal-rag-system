@@ -250,9 +250,9 @@ class SummaryService:
 
     def _call_llm(self, prompt: str) -> str:
         """调用远程 LLM API（带超时和重试）"""
-        base_url = settings.llm_api_base_url or "https://dashscope.aliyuncs.com/compatible-mode/v1"
+        base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
         api_key = settings.llm_api_key or ""
-        model = settings.llm_model or "qwen-plus"
+        model = settings.llm_model or "deepseek-flash"
 
         client = OpenAI(
             api_key=api_key,
@@ -261,14 +261,17 @@ class SummaryService:
             max_retries=2   # 自动重试2次
         )
 
-        response = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.3,
-            max_tokens=settings.max_tokens,
-            stream=False,
-            extra_body={"enable_thinking": settings.llm_enable_thinking}
-        )
+        create_kwargs = {
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.3,
+            "max_tokens": settings.max_tokens,
+            "stream": False
+        }
+        extra_body = settings.llm_extra_body()
+        if extra_body:
+            create_kwargs["extra_body"] = extra_body
+        response = client.chat.completions.create(**create_kwargs)
         return response.choices[0].message.content.strip()
 
     def _calculate_years_in_effect(self, passing_date: str) -> str:

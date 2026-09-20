@@ -10,3 +10,4 @@ plotly>=5.17.0
 tqdm>=4.66.0
 pydantic>=2.0.0
 python-multipart>=0.0.6
+accelerate>=0.20.0

@@ -2,12 +2,14 @@
  * 境外法规检索平台 - 共享工具函数
  */
 
-const API_BASE = 'http://127.0.0.1:8001/api/v1';
+// Docker 环境：使用相对路径，通过 Nginx 反向代理到后端
+// 本地开发调试时改为 'http://127.0.0.1:8001/api/v1'
+const API_BASE = '/api/v1';
 
 // ===== API 请求封装 =====
 const api = {
     async get(path, params = {}) {
-        const url = new URL(API_BASE + path);
+        const url = new URL(API_BASE + path, window.location.origin);
         Object.entries(params).forEach(([k, v]) => {
             if (v !== undefined && v !== null && v !== '') url.searchParams.set(k, v);
         });

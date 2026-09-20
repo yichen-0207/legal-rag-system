@@ -125,7 +125,7 @@ function runTopicAnalysis() {
         include_summary: includeSummary
     };
 
-    const url = new URL(API_BASE + '/structured-analysis/stream');
+    const url = new URL(API_BASE + '/structured-analysis/stream', window.location.origin);
     Object.entries(params).forEach(function(kv) { url.searchParams.set(kv[0], kv[1]); });
 
     const eventSource = new EventSource(url.toString());
@@ -152,6 +152,7 @@ function runTopicAnalysis() {
         const timingLabels = {
             search: '检索',
             llm_extraction: 'LLM提取',
+            llm_summary: '总结',
             llm_dashboard: '仪表盘',
             total: '总计'
         };
@@ -828,7 +829,7 @@ function requestAIInterpret(targetId, payload, jurA, jurB, topicName) {
     targetEl.style.display = 'block';
     targetEl.innerHTML = '<div class="loading" style="padding:1rem;"><div class="spinner"></div>AI 正在深度解读...</div>';
 
-    const url = new URL(API_BASE + '/structured-analysis/ai-interpret');
+    const url = new URL(API_BASE + '/structured-analysis/ai-interpret', window.location.origin);
     url.searchParams.set('dimension_label', payload.dimension_label || '');
     url.searchParams.set('detail_a', payload.detail_a || '');
     url.searchParams.set('detail_b', payload.detail_b || '');
@@ -860,7 +861,7 @@ function requestFollowUp(question, result, jurA, jurB, topicName) {
 
     const answerEl = qDiv.querySelector('.follow-up-answer');
 
-    const url = new URL(API_BASE + '/topic-analysis/follow-up');
+    const url = new URL(API_BASE + '/topic-analysis/follow-up', window.location.origin);
     url.searchParams.set('follow_up_question', question);
 
     fetch(url.toString(), {

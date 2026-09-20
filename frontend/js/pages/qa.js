@@ -405,7 +405,8 @@ function sendQAMessage() {
         if (selectedJurs.length > 0) params.set('jurisdictions', selectedJurs.join(','));
         if (payload.history) params.set('history', JSON.stringify(payload.history));
 
-        fetch('http://127.0.0.1:8001/api/v1/qa/stream?' + params.toString())
+        const streamUrl = new URL(API_BASE + '/qa/stream?' + params.toString(), window.location.origin);
+        fetch(streamUrl.toString())
             .then(function(resp) {
                 if (!resp.ok) throw new Error('API错误: ' + resp.status);
                 const reader = resp.body.getReader();

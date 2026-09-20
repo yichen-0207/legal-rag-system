@@ -17,7 +17,7 @@ class AbstractService:
     def __init__(self):
         self.client = self._init_es_client()
         self.llm_client = self._init_llm_client()
-        self.model = settings.llm_deepseek_model or "deepseek-v4-flash"
+        self.model = settings.llm_deepseek_model or "deepseek-flash"
 
     def _init_es_client(self):
         client_kwargs = {
@@ -117,13 +117,17 @@ class AbstractService:
 
         for attempt in range(max_retries):
             try:
-                response = self.llm_client.chat.completions.create(
-                    model=self.model,
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.3,
-                    max_tokens=2048,
-                    stream=False
-                )
+                create_kwargs = {
+                    "model": self.model,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "temperature": 0.3,
+                    "max_tokens": 2048,
+                    "stream": False
+                }
+                extra_body = settings.llm_extra_body()
+                if extra_body:
+                    create_kwargs["extra_body"] = extra_body
+                response = self.llm_client.chat.completions.create(**create_kwargs)
                 return (response.choices[0].message.content or "").strip()
             except Exception as e:
                 last_error = e

@@ -1,5 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends, Query, Header
 from typing import Dict, Optional, Any, List
+from core.config import settings
 from models.schemas import APIResponse
 from services.law_management_service import LawManagementService
 from repositories.elasticsearch import ElasticsearchRepository
@@ -11,8 +12,9 @@ law_service = LawManagementService()
 repo = ElasticsearchRepository()
 catalog = LawCatalog()
 
-# 简单的管理员Token验证（生产环境应使用更安全的认证方式）
-ADMIN_TOKEN = "admin_token_2024_secure"
+# 管理员Token，从环境变量 LEGAL_ADMIN_TOKEN 读取（见 core/config.py 的 admin_token）
+# 默认值仅供本地开发使用，生产环境务必在 .env 中覆盖
+ADMIN_TOKEN = settings.admin_token
 
 
 def verify_admin_token(authorization: Optional[str] = Header(None)) -> bool:

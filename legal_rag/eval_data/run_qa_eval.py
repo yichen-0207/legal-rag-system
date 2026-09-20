@@ -139,7 +139,6 @@ def run_qa_pipeline(query: str, jurisdiction: str, gold_articles: List[Dict],
         answer = qa_service._call_llm_with_model(
             prompt,
             model=settings.llm_qa_model,
-            fallback_model=settings.llm_qa_fallback_model,
         )
         result["generated_answer"] = answer
     except Exception as e:

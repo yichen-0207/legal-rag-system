@@ -20,11 +20,19 @@ class ModelLoader:
         if cls._model is None:
             import torch
             import os
-            os.environ.setdefault("OMP_NUM_THREADS", "2")
-            os.environ.setdefault("MKL_NUM_THREADS", "2")
-            # embedding 模型走 CPU，避免与 reranker 争 GPU 显存
-            torch.set_num_threads(2)
-            cls._model = SentenceTransformer(settings.embedding_model, device='cpu')
+            num_threads = str(settings.torch_num_threads)
+            os.environ.setdefault("OMP_NUM_THREADS", num_threads)
+            os.environ.setdefault("MKL_NUM_THREADS", num_threads)
+            # embedding 与 reranker 均走 CPU，共享同一线程预算
+            torch.set_num_threads(settings.torch_num_threads)
+            # low_cpu_mem_usage=True (需要 accelerate) 避免加载时的双倍内存分配
+            # bge-m3 FP32 ~2.4GB，普通加载峰值 ~4.8GB 超过 6g mem_limit (exit 137)
+            # low_cpu_mem_usage 直接加载到目标位置，峰值控制在 ~2.4GB
+            cls._model = SentenceTransformer(
+                settings.embedding_model,
+                device='cpu',
+                model_kwargs={"low_cpu_mem_usage": True},
+            )
         return cls._model
 
 

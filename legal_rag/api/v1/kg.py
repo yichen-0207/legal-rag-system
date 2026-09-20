@@ -3,10 +3,13 @@ from typing import Optional
 from models.schemas import APIResponse
 from repositories.elasticsearch import ElasticsearchRepository
 from services.structured_analysis_service import StructuredAnalysisService
+from services.kg_extraction_service import KGExtractionService
 
 router = APIRouter(prefix="/kg", tags=["知识图谱"])
 repo = ElasticsearchRepository()
 analysis_service = StructuredAnalysisService()
+# 抽取服务含 ES 客户端与 LLM 客户端，模块级单例复用，避免每请求重建连接
+extractor = KGExtractionService()
 
 
 def _law_to_chunks(law_data: dict) -> list:
@@ -70,16 +73,51 @@ async def search_entity(
     return APIResponse(success=True, data=graph)
 
 
+@router.get("/statistics")
+async def get_kg_statistics():
+    """知识层统计：已抽取法规数、三元组总数、实体总数"""
+    return APIResponse(success=True, data=repo.get_kg_statistics())
+
+
+@router.get("/entities")
+async def list_entities(
+    q: Optional[str] = Query(None, description="按规范名或别名模糊匹配"),
+    entity_type: Optional[str] = Query(None, description="实体类型过滤"),
+    page_size: int = Query(50, description="返回结果数", le=200),
+):
+    """列出实体词典条目（消歧后的规范实体，含别名与出现法域）"""
+    return APIResponse(
+        success=True,
+        data=repo.list_kg_entities(q=q, entity_type=entity_type, page_size=page_size),
+    )
+
+
+@router.get("/entities/aliases")
+async def get_alias_statistics():
+    """别名表覆盖范围统计（消歧规则的规模）"""
+    from services.entity_disambiguation_service import get_alias_statistics as _stats
+    return APIResponse(success=True, data=_stats())
+
+
 @router.get("/extraction/{law_id}")
-async def get_llm_extraction(law_id: str):
+async def get_llm_extraction(
+    law_id: str,
+    force_refresh: bool = Query(False, description="忽略缓存强制重新抽取（本体变更后使用）"),
+):
     """
     用 LLM 对该法规进行实体关系抽取（返回三元组格式的知识图谱）
+
+    抽取结果持久化在 legal_kg_triples 索引中：
+      - 命中缓存（法规指纹未变）时不调用 LLM，直接读 ES；
+      - 法规修订后指纹变化，仅该法规自动重抽，其余法规不受影响。
     """
     law_data = repo.get_law_by_id(law_id)
     if not law_data:
         return APIResponse(success=False, message="未找到该法规的数据")
 
-    from services.kg_extraction_service import KGExtractionService
-    extractor = KGExtractionService()
-    graph = extractor.extract_and_format_for_graph(_law_to_chunks(law_data))
+    result = extractor.get_triples_cached(
+        law_id, _law_to_chunks(law_data), force_refresh=force_refresh
+    )
+    graph = extractor.format_graph(result["triples"])
+    graph["cache_hit"] = result["cache_hit"]
     return APIResponse(success=True, data=graph)
