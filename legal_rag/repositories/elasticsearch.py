@@ -2409,6 +2409,39 @@ class ElasticsearchRepository:
 
         return [hit.get("_source", {}) for hit in resp.get("hits", {}).get("hits", [])]
 
+    def get_kg_entities_with_vectors(
+        self,
+        exclude_types: Optional[List[str]] = None,
+        size: int = 5000,
+    ) -> Optional[List[Dict]]:
+        """
+        读取实体词典（含 embedding），供 L3 向量对齐在内存中做同类型比对。
+
+        一次性取回而非逐条 KNN，原因：实体词典规模在数千以内，一次搜索即可覆盖，
+        后续同类型比较用矩阵运算完成，避免「每个待对齐实体一次 ES 往返」。
+        失败返回 None（调用方据此降级为不使用向量对齐，而非当成「词典为空」）。
+        """
+        query: Dict = {"match_all": {}}
+        if exclude_types:
+            query = {"bool": {"must_not": [{"terms": {"type": exclude_types}}]}}
+        try:
+            resp = self.client.search(
+                index=self.KG_ENTITY_INDEX,
+                body={
+                    "query": query,
+                    "size": size,
+                    "_source": ["entity_id", "name", "type", "aliases",
+                                "jurisdictions", "embedding"],
+                },
+            )
+        except NotFoundError:
+            return []
+        except Exception as e:
+            logger.warning(f"[KG] 读取实体向量失败: {type(e).__name__}: {e}")
+            return None
+
+        return [hit.get("_source", {}) for hit in resp.get("hits", {}).get("hits", [])]
+
     def delete_kg_entities(self) -> int:
         """清空实体词典（别名表或本体调整后重建用）"""
         try:

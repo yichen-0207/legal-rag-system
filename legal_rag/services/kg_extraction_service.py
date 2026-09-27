@@ -333,16 +333,19 @@ class KGExtractionService:
 
         jurisdiction = articles[0].get("jurisdiction", "") if articles else ""
 
-        # 实体消歧（L1 规范化 + L2 别名表 + L4 类型约束）：
+        # 实体消歧（L1 规范化 + L2 别名表 + L3 向量对齐 + L4 类型约束）：
         # 就地补写 head/tail 的 canonical_id，并把规范实体同步到实体词典。
         # 消歧失败不阻断抽取结果落库 —— 此时 canonical_id 退化为原始 id，
         # 检索与图谱展示仍可用，只是未做归并。
         try:
             disambiguator = EntityDisambiguationService(self.repo)
             result = disambiguator.canonicalize_and_index(triples, law_id, jurisdiction)
+            stats = result["stats"]
             logger.info(
                 f"[KGExtraction] 实体消歧完成: law_id={law_id}, "
-                f"{result['stats']['raw_entities']} -> {result['stats']['merged_entities']} 个实体"
+                f"{stats['raw_entities']} -> {stats['merged_entities']} 个实体"
+                f"（L3 向量归并 {stats.get('vector_aligned', 0)} 个，"
+                f"候选待人工确认 {stats.get('vector_candidates', 0)} 个）"
             )
         except Exception as e:
             logger.warning(f"[KGExtraction] 实体消歧失败，本次以原始实体落库: {e}")
