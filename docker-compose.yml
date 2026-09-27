@@ -49,6 +49,11 @@ services:
       - LEGAL_RERANKER_BATCH_SIZE=${LEGAL_RERANKER_BATCH_SIZE:-8}
       # 两阶段精排窗口（只对 RRF 前 N 条跑 cross-encoder，其余按 RRF 顺序拼接）
       - LEGAL_RERANKER_WINDOW=${LEGAL_RERANKER_WINDOW:-20}
+      # 实体消歧 L3 向量对齐（变体兜底，配合数字/编辑距离/长度三重守卫）
+      - LEGAL_ENTITY_ALIGN_ENABLED=${LEGAL_ENTITY_ALIGN_ENABLED:-true}
+      - LEGAL_ENTITY_ALIGN_THRESHOLD=${LEGAL_ENTITY_ALIGN_THRESHOLD:-0.95}
+      # 批次内部两两比对：根治「同一批次首次共同出现的變体」被写成两条文档
+      - LEGAL_ENTITY_ALIGN_INTRA_BATCH=${LEGAL_ENTITY_ALIGN_INTRA_BATCH:-true}
       - TOKENIZERS_PARALLELISM=false
     volumes:
       # 挂载本地 ML 模型（避免在容器内下载）
