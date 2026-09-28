@@ -47,6 +47,13 @@ services:
       # CPU 推理性能参数（可按部署机器调整，无需改代码）
       - LEGAL_TORCH_NUM_THREADS=${LEGAL_TORCH_NUM_THREADS:-8}
       - LEGAL_RERANKER_BATCH_SIZE=${LEGAL_RERANKER_BATCH_SIZE:-8}
+      # OpenMP 线程与自旋。这些变量由 OpenMP 运行时在「首次并行区」初始化时读取，
+      # 必须在进程启动前注入：代码里 import torch 之后再 os.environ.setdefault 已无效。
+      # PASSIVE + SPINCOUNT=0 让空闲线程睡眠而非空转，避免过度订阅时白烧 CPU。
+      - OMP_NUM_THREADS=${LEGAL_TORCH_NUM_THREADS:-8}
+      - MKL_NUM_THREADS=${LEGAL_TORCH_NUM_THREADS:-8}
+      - OMP_WAIT_POLICY=PASSIVE
+      - GOMP_SPINCOUNT=0
       # 两阶段精排窗口（只对 RRF 前 N 条跑 cross-encoder，其余按 RRF 顺序拼接）
       - LEGAL_RERANKER_WINDOW=${LEGAL_RERANKER_WINDOW:-20}
       # 实体消歧 L3 向量对齐（变体兜底，配合数字/编辑距离/长度三重守卫）

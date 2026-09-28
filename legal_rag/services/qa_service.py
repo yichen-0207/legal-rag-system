@@ -12,30 +12,60 @@ logger = logging.getLogger(__name__)
 
 
 class QAService:
+    """问答服务（单例）。
+
+    为什么必须是单例：法域语义向量是一次性重活，而 QAService 会被多处构造
+    （api/v1/qa.py、topic_analysis_service、structured_analysis_service）。
+    若每个实例各自持有一份缓存，并在构造时就启动预热线程，启动阶段会并发跑多份
+    完全相同的预计算——实测 2 个实例把 16 核占满约 90 秒，与用户请求争抢 CPU，
+    导致就绪后的前几个请求被拖慢到 20 秒以上。这里保证进程内只有一个实例、一份缓存。
+    """
+
+    _instance: Optional['QAService'] = None
+    _instance_lock = threading.Lock()
+
+    def __new__(cls, *args, **kwargs):
+        if cls._instance is None:
+            with cls._instance_lock:
+                if cls._instance is None:
+                    cls._instance = super().__new__(cls)
+        return cls._instance
+
     def __init__(self):
+        if getattr(self, "_initialized", False):
+            return  # 单例已初始化，跳过
+        self._initialized = True
         self.repo = ElasticsearchRepository()
         self.embedding_model = None
         self.jurisdiction_vectors = {}
-        # 启动后台线程预热法域向量，避免首次请求长时间等待
         self._jurisdiction_vectors_lock = threading.Lock()
         self._jurisdiction_vectors_loading = False
-        threading.Thread(target=self._warmup_jurisdiction_vectors, daemon=True).start()
+        # 供 /health/ready 读取：pending=尚未预热，ready=已跑完（含失败降级）
+        self.jurisdiction_warmup_state = "pending"
+        # 这里不再启动后台预热线程：改由 main.py 的统一预热流程串行调用
+        # warmup_jurisdiction_vectors()，使 /health/ready 能覆盖它。否则该线程会在
+        # 就绪之后继续占满 CPU，与用户请求抢核（即此前"多请求偏慢"的真正原因）。
 
-    def _warmup_jurisdiction_vectors(self):
-        """后台预热法域语义向量，不影响服务启动速度。"""
+    def warmup_jurisdiction_vectors(self) -> None:
+        """预计算法域语义向量（供启动预热流程调用；幂等，不抛异常）。
+
+        失败时降级为空缓存（关键词方案仍可用），并同样标记为 ready，避免就绪探针
+        永远 503 把前端一直挡在门外；失败原因已记入日志。
+        """
         try:
             with self._jurisdiction_vectors_lock:
                 if self._jurisdiction_vectors_loading or self.jurisdiction_vectors:
                     return
                 self._jurisdiction_vectors_loading = True
-            logger.info("[Warmup] 后台开始预热法域语义向量...")
+            logger.info("[Warmup] 开始预热法域语义向量...")
             self._ensure_jurisdiction_vectors()
-            logger.info("[Warmup] 法域语义向量后台预热完成")
+            logger.info(f"[Warmup] 法域语义向量预热完成，共 {len(self.jurisdiction_vectors)} 个法域")
         except Exception as e:
-            logger.warning(f"[Warmup] 法域语义向量后台预热失败: {e}")
+            logger.warning(f"[Warmup] 法域语义向量预热失败: {e}")
         finally:
             with self._jurisdiction_vectors_lock:
                 self._jurisdiction_vectors_loading = False
+            self.jurisdiction_warmup_state = "ready"
 
     def _get_embedding_model(self):
         """延迟加载共享的 embedding 模型。"""
