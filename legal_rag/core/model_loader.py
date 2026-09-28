@@ -55,13 +55,12 @@ class ModelLoader:
         由上层返回错误。失败后 _model 仍为 None，下次请求会重新尝试加载；
         失败原因记录到 _load_error，供 /health/ready 暴露未就绪状态。
         """
-        import os
         import torch
 
         try:
-            num_threads = str(settings.torch_num_threads)
-            os.environ.setdefault("OMP_NUM_THREADS", num_threads)
-            os.environ.setdefault("MKL_NUM_THREADS", num_threads)
+            # 这里只设 PyTorch intra-op 线程数。OMP/MKL 的线程数与自旋策略必须由进程启动前的
+            # 环境变量注入（compose 已注入）：OpenMP 运行时在首次并行区初始化时读取它们，
+            # 而本函数执行时 torch 早已导入，此时再 os.environ.setdefault 不会生效。
             # embedding 与 reranker 均走 CPU，共享同一线程预算
             torch.set_num_threads(settings.torch_num_threads)
             # low_cpu_mem_usage=True (需要 accelerate) 避免加载时的双倍内存分配

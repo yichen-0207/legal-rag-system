@@ -89,12 +89,10 @@ class ReRankerService:
             _log.info(f"开始加载 Re-ranker 模型: {model_name}, device={device}")
 
             if device == "cpu":
-                import os as _os
-                _num_threads = str(settings.torch_num_threads)
-                _os.environ.setdefault("OMP_NUM_THREADS", _num_threads)
-                _os.environ.setdefault("MKL_NUM_THREADS", _num_threads)
+                # 只设 PyTorch intra-op 线程数。OMP_NUM_THREADS / MKL_NUM_THREADS 在此处设置无效：
+                # 上面已 import torch，OpenMP 运行时早已初始化，须由 compose 在进程启动前注入。
                 torch.set_num_threads(settings.torch_num_threads)
-                _log.info(f"已设置 OMP/MKL_NUM_THREADS={_num_threads}, torch.set_num_threads({_num_threads})")
+                _log.info(f"torch.set_num_threads({settings.torch_num_threads})")
             else:
                 import os as _os
                 _os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
