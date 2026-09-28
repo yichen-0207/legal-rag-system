@@ -134,6 +134,7 @@ class RetrieverService:
 
         # 阶段三：按原顺序组装，回取失败则保留原始 sub_chunk
         hybrid_scores = raw_results.get('_scores')
+        has_scores = bool(hybrid_scores and hybrid_scores[0])
         new_ids, new_docs, new_metas, new_distances, new_scores = [], [], [], [], []
         for i, law_id, article_number in picked:
             full_text = full_texts.get((law_id, article_number))
@@ -141,8 +142,10 @@ class RetrieverService:
             new_ids.append(raw_results['ids'][0][i])
             new_metas.append(raw_results['metadatas'][0][i])
             new_distances.append(raw_results['distances'][0][i])
-            if hybrid_scores and hybrid_scores[0] and i < len(hybrid_scores[0]):
-                new_scores.append(hybrid_scores[0][i])
+            # 分数必须与文档一一对齐：越界时补 0 占位，而不是跳过追加。
+            # 原实现跳过会导致 _scores 比 documents 短，后续按下标取分数会错配到别的条款上。
+            if has_scores:
+                new_scores.append(hybrid_scores[0][i] if i < len(hybrid_scores[0]) else 0.0)
 
         result = {
             'ids': [new_ids],
@@ -150,7 +153,7 @@ class RetrieverService:
             'metadatas': [new_metas],
             'distances': [new_distances],
         }
-        if hybrid_scores:
+        if has_scores:
             result['_scores'] = [new_scores]
         return result
 
