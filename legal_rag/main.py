@@ -41,17 +41,25 @@ def _warm_reranker(svc) -> None:
     变 200 之后的前 4~5 个请求仍持续偏慢（46.9 → 23.6 → 25.2 → 14.1 → 7.8s），
     就是因为这些开销被推迟到了真实请求上。
 
-    预热规模对齐真实路径：候选数取 reranker_window，content 填满 500 字符
-    （rerank 内部按 content[:500] 截断），这样覆盖的是 shape 最大、代价最高的那批前向。
+    为什么只预热 1 个 batch：rerank 内部按 settings.reranker_batch_size 分批、并按
+    max_length=512 截断（见 ReRankerService._score_pairs），单次前向的主导形状就是
+    (batch_size, 512)。原先按 reranker_window(=20) 预热会跑 (8,512)+(8,512)+(4,512)
+    三批，其中第 2 批与第 1 批形状完全相同、纯属重复编译。实测预热耗时 19.7s → 10.5s，
+    并因此把与 bge-m3 加载的争抢窗口缩短，加载从 43.8s 回落到 40.2s。
+    只预热 1 个 batch 即可覆盖主导形状，把 oneDNN/MKL 编译与内存池扩张留在启动阶段。
+
+    预热规模对齐真实路径：候选数取 reranker_batch_size，content 填满 500 字符
+    （rerank 内部按 content[:500] 截断），覆盖的是 shape 最大、代价最高的那批前向。
     """
     from core.config import settings
 
     long_text = ("劳动争议与劳动关系的法律适用及当事人权利义务条款。" * 40)[:500]
+    batch = max(1, settings.reranker_batch_size)
     candidates = [
         {"content": long_text, "id": f"warmup-{i}"}
-        for i in range(max(1, settings.reranker_window))
+        for i in range(batch)
     ]
-    svc.rerank(query="warmup 劳动关系", candidates=candidates, top_k=settings.reranker_window)
+    svc.rerank(query="warmup 劳动关系", candidates=candidates, top_k=batch)
 
 
 def _warm_embedding(model) -> None:
@@ -141,8 +149,9 @@ def _warmup_models() -> None:
        （见 _warm_reranker / _warm_embedding）。
     4. Re-ranker 与 bge-m3 **并行**加载。二者互不依赖（前者 cross-encoder，后者 bi-encoder），
        原先串行要 1.6+18.4+34.0 ≈ 54s，纯属排队浪费；并行后只取较慢的一条链。
-       实测就绪时间 68.7s → 60.1s。注意收益低于理论值：Re-ranker 推理预热（8 线程满负荷）
-       与 bge-m3 加载争抢 CPU，把加载从 34.0s 抬到 43.8s，吃掉了约一半的理论收益。
+       实测就绪时间 68.7s → 60.1s。收益低于理论值的原因是 Re-ranker 推理预热（8 线程满负荷）
+       与 bge-m3 加载争抢 CPU，把加载从 34.0s 抬到 43.8s；缩短预热规模后（见 _warm_reranker）
+       争抢窗口收窄，加载回落到 40.2s，就绪进一步降到 57.6s。
        法域向量依赖 bge-m3，必须排在两条链汇合之后，不能一起丢进池子。
     5. 法域语义向量也纳入本流程串行执行（见下）。它原先在 QAService 构造时以独立线程
        启动、且每个实例各算一份，实测 2 份并发把 16 核占满约 90 秒，又不受就绪探针门控，
