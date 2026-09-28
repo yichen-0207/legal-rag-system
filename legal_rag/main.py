@@ -72,6 +72,63 @@ def _warm_embedding(model) -> None:
         )
 
 
+def _load_and_warm_reranker(_log) -> None:
+    """加载 Re-ranker 并做一次同构推理预热（供并行加载调用）。
+
+    本函数不抛异常：失败只降级并记日志，因此调用方用 future.result() 只是为了等待完成。
+    """
+    import time
+    from core.config import settings
+
+    if not settings.reranker_enabled:
+        _log("Re-ranker 已禁用（LEGAL_RERANKER_ENABLED=false），跳过预热")
+        return
+
+    t0 = time.time()
+    _log("开始加载 Re-ranker 模型...")
+    try:
+        from services.reranker_service import ReRankerService
+        svc = ReRankerService()
+        if not svc._lazy_load():
+            _log(f"Re-ranker 加载失败（耗时 {time.time() - t0:.1f}s），已降级为不做精排，服务继续提供检索")
+            return
+        _log(f"Re-ranker 加载完成，耗时 {time.time() - t0:.1f}s")
+
+        t0 = time.time()
+        _log("开始 Re-ranker 推理预热...")
+        try:
+            _warm_reranker(svc)
+            _log(f"Re-ranker 推理预热完成，耗时 {time.time() - t0:.1f}s")
+        except Exception as e:
+            # 推理预热失败不影响可用性（真实请求仍能跑），只损失提前量
+            _log(f"Re-ranker 推理预热失败（耗时 {time.time() - t0:.1f}s）：{type(e).__name__}: {e}")
+    except Exception as e:
+        _log(f"Re-ranker 加载异常（耗时 {time.time() - t0:.1f}s）：{type(e).__name__}: {e}")
+
+
+def _load_and_warm_embedding(_log) -> None:
+    """加载 bge-m3 并做一次真实编码预热（供并行加载调用）。
+
+    本函数不抛异常：失败只记日志。嵌入模型是检索链路的必需组件、无法降级，
+    失败状态由 /health/ready 读取 ModelLoader.load_state() 暴露。
+    """
+    import time
+
+    t0 = time.time()
+    _log("开始加载嵌入模型 (bge-m3)...")
+    try:
+        from core.model_loader import ModelLoader
+        model = ModelLoader.get_model()
+        _log(f"嵌入模型加载完成，耗时 {time.time() - t0:.1f}s")
+
+        t0 = time.time()
+        _log("开始嵌入模型推理预热...")
+        _warm_embedding(model)
+        _log(f"嵌入模型推理预热完成，耗时 {time.time() - t0:.1f}s")
+    except Exception as e:
+        _log(f"嵌入模型加载/预热失败（耗时 {time.time() - t0:.1f}s）：{type(e).__name__}: {e}")
+
+
 def _warmup_models() -> None:
     """后台预热模型与法域向量（在独立线程中执行）。
 
@@ -82,7 +139,12 @@ def _warmup_models() -> None:
        请求要自己扛下整个 bge-m3 加载（实测加载耗时 36.7s）。
     3. 加载完成后各跑一次真实推理，把首次前向的 oneDNN/MKL 初始化开销留在启动阶段
        （见 _warm_reranker / _warm_embedding）。
-    4. 法域语义向量也纳入本流程串行执行（见下）。它原先在 QAService 构造时以独立线程
+    4. Re-ranker 与 bge-m3 **并行**加载。二者互不依赖（前者 cross-encoder，后者 bi-encoder），
+       原先串行要 1.6+18.4+34.0 ≈ 54s，纯属排队浪费；并行后只取较慢的一条链。
+       实测就绪时间 68.7s → 60.1s。注意收益低于理论值：Re-ranker 推理预热（8 线程满负荷）
+       与 bge-m3 加载争抢 CPU，把加载从 34.0s 抬到 43.8s，吃掉了约一半的理论收益。
+       法域向量依赖 bge-m3，必须排在两条链汇合之后，不能一起丢进池子。
+    5. 法域语义向量也纳入本流程串行执行（见下）。它原先在 QAService 构造时以独立线程
        启动、且每个实例各算一份，实测 2 份并发把 16 核占满约 90 秒，又不受就绪探针门控，
        才是「就绪后前几个请求 20 秒以上」的真正原因——并非首次前向开销。
     沿用「加载失败不阻塞启动」的策略：reranker 失败降级为不精排；bge-m3 是必需组件无法降级，
@@ -90,7 +152,6 @@ def _warmup_models() -> None:
     """
     global _warmup_done
     import time
-    from core.config import settings
 
     # 用 print 而非 logger.info：本项目只在 __main__ 分支里调用了 logging.basicConfig，
     # 容器以 `uvicorn main:app` 启动时不会执行该分支，root logger 没有 handler，
@@ -100,46 +161,28 @@ def _warmup_models() -> None:
         print(f"[warmup] {msg}", flush=True)
 
     try:
-        # ---- Re-ranker（较小，先加载）----
-        if not settings.reranker_enabled:
-            _log("Re-ranker 已禁用（LEGAL_RERANKER_ENABLED=false），跳过预热")
-        else:
-            t0 = time.time()
-            _log("开始加载 Re-ranker 模型...")
-            from services.reranker_service import ReRankerService
-            svc = ReRankerService()
-            if svc._lazy_load():
-                _log(f"Re-ranker 加载完成，耗时 {time.time() - t0:.1f}s")
-                t0 = time.time()
-                _log("开始 Re-ranker 推理预热...")
-                try:
-                    _warm_reranker(svc)
-                    _log(f"Re-ranker 推理预热完成，耗时 {time.time() - t0:.1f}s")
-                except Exception as e:
-                    # 推理预热失败不影响可用性（真实请求仍能跑），只损失提前量
-                    _log(f"Re-ranker 推理预热失败（耗时 {time.time() - t0:.1f}s）：{type(e).__name__}: {e}")
-            else:
-                _log(f"Re-ranker 加载失败（耗时 {time.time() - t0:.1f}s），已降级为不做精排，服务继续提供检索")
+        # ---- 并行加载 Re-ranker 与 bge-m3 ----
+        from concurrent.futures import ThreadPoolExecutor
+        from core.config import settings
 
-        # ---- bge-m3 嵌入模型（较大，耗时主要在加载）----
-        t0 = time.time()
-        _log("开始加载嵌入模型 (bge-m3)...")
-        from core.model_loader import ModelLoader
-        try:
-            model = ModelLoader.get_model()
-            _log(f"嵌入模型加载完成，耗时 {time.time() - t0:.1f}s")
-            t0 = time.time()
-            _log("开始嵌入模型推理预热...")
-            _warm_embedding(model)
-            _log(f"嵌入模型推理预热完成，耗时 {time.time() - t0:.1f}s")
-        except Exception as e:
-            # 不抛出：抛出会中断预热线程。检索链路缺少嵌入模型必然报错，由 /health/ready 暴露
-            _log(f"嵌入模型加载/预热失败（耗时 {time.time() - t0:.1f}s）：{type(e).__name__}: {e}")
+        # 两个加载器内部都会调用 torch.set_num_threads（且取值相同）。这里提前设置一次，
+        # 避免其中一个线程在另一个线程的并行区执行期间重复配置全局线程数——PyTorch 不保证
+        # 这种并发重配置是安全的，而同值的重复设置本身没有任何意义。
+        torch.set_num_threads(settings.torch_num_threads)
+
+        t_all = time.time()
+        # 两个 worker 内部已吞掉异常，result() 仅用于等待完成
+        with ThreadPoolExecutor(max_workers=2, thread_name_prefix="warmup-model") as pool:
+            f_reranker = pool.submit(_load_and_warm_reranker, _log)
+            f_embedding = pool.submit(_load_and_warm_embedding, _log)
+            f_reranker.result()
+            f_embedding.result()
+        _log(f"模型加载与推理预热完成（并行），总耗时 {time.time() - t_all:.1f}s")
 
         # ---- 法域语义向量（问答用，依赖已加载的 bge-m3）----
-        # 必须串行放在统一预热流程里：它是一次性重活（实测占满多核数十秒）。若像原先
-        # 那样放在后台线程异步跑，会在 /health/ready 变绿之后继续与用户请求抢 CPU，
-        # 把就绪后的前几个请求拖慢到 20 秒以上。QAService 已改为单例，这里只算一份。
+        # 必须排在嵌入模型之后，且必须放在统一预热流程里：它是一次性重活（实测占满多核数
+        # 十秒）。若像原先那样放在后台线程异步跑，会在 /health/ready 变绿之后继续与用户请求
+        # 抢 CPU，把就绪后的前几个请求拖慢到 20 秒以上。QAService 已改为单例，这里只算一份。
         t0 = time.time()
         _log("开始预热法域语义向量...")
         try:
