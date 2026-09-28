@@ -67,6 +67,26 @@ services:
       - ./legal_rag/data/raw:/app/data/raw:rw
       - ./legal_rag/data/law_catalog.json:/app/data/law_catalog.json
       - ./legal_rag/data/taxonomy_merged.json:/app/data/taxonomy_merged.json:ro
+    # 就绪探针：打 /health/ready（模型加载完成后才 200，预热期间 503）。
+    # 不用 /health：那个只要进程活着就返回 200，无法反映"能不能高效服务"。
+    # 镜像基于 python:3.10-slim，没有 curl，故用 python 发起请求。
+    # start_period 给足模型预热时间（bge-m3 冷加载实测约 60s），期间的失败不计入 retries。
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - |
+          import sys, urllib.request
+          try:
+              code = urllib.request.urlopen("http://127.0.0.1:8001/health/ready", timeout=4).status
+          except Exception:
+              code = 0
+          sys.exit(0 if code == 200 else 1)
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 180s
     depends_on:
       elasticsearch:
         condition: service_healthy
@@ -79,8 +99,11 @@ services:
     volumes:
       - ./frontend:/usr/share/nginx/html:ro
       - ./frontend/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    # 等后端"就绪"而非"启动"：否则前端容器会在后端模型仍在预热时就绪，
+    # 用户此时打开页面发起的检索会排在模型加载后面长时间等待。
     depends_on:
-      - backend
+      backend:
+        condition: service_healthy
 
 volumes:
   es_data:
