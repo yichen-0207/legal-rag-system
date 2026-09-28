@@ -1,8 +1,22 @@
 import re
 from typing import List, Dict, Optional, Tuple
 from collections import defaultdict
-from repositories.elasticsearch import ElasticsearchRepository, _jurisdiction_to_zh
+from repositories.elasticsearch import ElasticsearchRepository, _jurisdiction_to_zh, zh_convert
 from core.config import settings
+
+
+def _title_matches_law_name(law_name: str, title: str) -> bool:
+    """判断条款标题与法规名是否指向同一部法规（双向包含）。
+
+    统一到简体再比较：语料里澳门/香港等法域的法规标题是繁体，而提问里的法规名常是简体，
+    直接字符串比较永远不相等，会让「第X条」的定向置顶对简体提问失效。
+    繁→简 基本一一对应、方向可靠，反向（简→繁）存在多候选，故只做这一侧归一。
+    """
+    if not law_name or not title:
+        return False
+    a = zh_convert(law_name, "t2s")
+    b = zh_convert(title, "t2s")
+    return a in b or b in a
 
 
 class RetrieverService:
@@ -497,8 +511,7 @@ class RetrieverService:
                 if doc.get("article_number", "").strip() != target:
                     continue
                 if query_law_name:
-                    title = doc.get("title", "")
-                    if query_law_name in title or title in query_law_name:
+                    if _title_matches_law_name(query_law_name, doc.get("title", "")):
                         best_idx = idx
                         break
                 else:
@@ -644,8 +657,7 @@ class RetrieverService:
                 if doc.get("article_number", "").strip() != target:
                     continue
                 if query_law_name:
-                    title = doc.get("title", "")
-                    if query_law_name in title or title in query_law_name:
+                    if _title_matches_law_name(query_law_name, doc.get("title", "")):
                         best_idx = idx
                         break
                 else:

@@ -78,6 +78,64 @@ def zh_s2t(text: str) -> str:
     return ''.join(s2t.get(ch, ch) for ch in text)
 
 
+# ================================================================
+#  完整繁简字符表（检索侧查询改写用）
+#  ----------------------------------------------------------------
+#  与上方 _ZH_T2S_MAP 的分工：
+#    - 轻量表（约 200 字）服务于「法规名/实体名」规范化，其口径已被实体消歧 L1~L3 与
+#      KG 抽取链路的实测调优所绑定，故保持原样不动；
+#    - 本表是 OpenCC TSCharacters/STCharacters 的完整字符集（繁 4148 / 简 4012），
+#      只用于检索侧的查询改写。
+#
+#  为什么检索侧必须改写：ES 的 IK 词典不含繁体字，繁体正文会被切成一字一 token
+#  （实测 analyze("勞動關係") -> 勞/動/關/係），而简体查询经 IK 得到的是词级 token
+#  （劳动/关系）。两者 token 空间不相交，导致「澳门/香港等繁体语料上，简体查询的
+#  BM25 召回恒为 0 条」（实测 BM25("劳动关系", 法域=澳门) = 0 条）。
+#  做法是把同一查询的繁、简两种写法一并送入 multi_match，任一写法命中即可。
+# ================================================================
+_ZH_CONVERT_CACHE: Optional[Dict[str, Dict[str, str]]] = None
+
+
+def _load_zh_convert() -> Dict[str, Dict[str, str]]:
+    """加载完整繁简字符表；失败时降级为空表（等于不改写，不阻断检索）"""
+    global _ZH_CONVERT_CACHE
+    if _ZH_CONVERT_CACHE is None:
+        path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                            os.pardir, "data", "zh_convert.json")
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            _ZH_CONVERT_CACHE = {"t2s": data.get("t2s", {}), "s2t": data.get("s2t", {})}
+        except Exception as e:
+            logger.warning(f"[繁简改写] 字表加载失败，本次不做改写: {e}")
+            _ZH_CONVERT_CACHE = {"t2s": {}, "s2t": {}}
+    return _ZH_CONVERT_CACHE
+
+
+def zh_convert(text: str, direction: str) -> str:
+    """按完整字表做繁简转换；direction 为 't2s'（繁→简）或 's2t'（简→繁）"""
+    if not text:
+        return text
+    table = _load_zh_convert().get(direction) or {}
+    return ''.join(table.get(ch, ch) for ch in text)
+
+
+def zh_query_variants(text: str) -> List[str]:
+    """返回查询的繁简写法列表（原样 / 繁转简 / 简转繁，去重、保持顺序）。
+
+    多对一的字符（如「系」在简→繁时既可能是「系」也可能是「係」）只取 OpenCC 的
+    首选候选；对 BM25 而言错误候选只是多出若干个不命中的 token，不会误伤召回。
+    """
+    if not text:
+        return []
+    variants = [text]
+    for direction in ("t2s", "s2t"):
+        converted = zh_convert(text, direction)
+        if converted and converted not in variants:
+            variants.append(converted)
+    return variants
+
+
 # 法域英文 -> 中文映射
 _JURISDICTION_ZH_MAP: Dict[str, str] = {
     "us": "美国",
@@ -265,6 +323,7 @@ class ElasticsearchRepository:
         self._init_client()
         self._model = None  # 懒加载，避免启动时加载大模型
         self._non_active_cache = None  # 失效法规 law_id 缓存：(mtime, ids)
+        self._law_title_index_cache = None  # 法规标题索引缓存：{简体归一标题: law_id}
         self._init_classifier()
         self._create_index_if_not_exists()
     
@@ -726,10 +785,17 @@ class ElasticsearchRepository:
 
     def _bm25_search(self, query_text: str, n_results: int,
                      where: Optional[Dict] = None) -> List[Dict]:
-        """BM25 全文搜索，返回原始 hits 列表。"""
+        """BM25 全文搜索，返回原始 hits 列表。
+
+        查询串会同时带上繁、简两种写法：语料里澳门/香港等法域正文是繁体，而 IK 词典
+        不含繁体字（繁体被切成一字一 token），若只按用户输入的写法检索，简体查询在
+        繁体语料上会一条都召不回。具体写法由 zh_query_variants 生成。
+        """
+        variants = zh_query_variants(query_text)
+        analysis_query = " ".join(variants) if len(variants) > 1 else query_text
         bm25_query = {
             "multi_match": {
-                "query": query_text,
+                "query": analysis_query,
                 "fields": ["content^3", "title^5", "article_number^2"],
                 "type": "best_fields",
                 "analyzer": "chinese_analyzer"
@@ -866,15 +932,63 @@ class ElasticsearchRepository:
         ids = self._non_active_law_ids()
         return {"terms": {"law_id": ids}} if ids else None
 
+    def _law_title_index(self) -> Dict[str, str]:
+        """{法规标题的简体归一形式: law_id}，进程内缓存（法规总数仅数百，聚合一次即可）。
+
+        归一方向固定为「繁→简」：繁体转简体基本一一对应，可靠；反向（简→繁）存在多候选
+        （如「系」可能是「系/係」），无法由简体标题反推出真实存储的繁体标题。
+        """
+        if self._law_title_index_cache is None:
+            index: Dict[str, str] = {}
+            try:
+                for law in self.get_all_laws():
+                    law_id = law.get("law_id")
+                    law_title = law.get("title") or ""
+                    if law_id and law_title:
+                        index.setdefault(zh_convert(law_title, "t2s"), law_id)
+            except Exception as e:
+                # 构建失败不写入缓存，避免一次偶发失败把该能力永久关掉
+                logger.warning(f"[法规名定位] 标题索引构建失败: {e}")
+                return index
+            self._law_title_index_cache = index
+        return self._law_title_index_cache
+
+    def _resolve_law_id(self, title: str) -> Optional[str]:
+        """把法规名解析为 law_id：先简体归一后精确匹配，再退化为双向包含（取最长者，保证确定性）"""
+        normalized = zh_convert(title, "t2s")
+        if not normalized:
+            return None
+        index = self._law_title_index()
+        if normalized in index:
+            return index[normalized]
+        candidates = [
+            (len(key), law_id) for key, law_id in index.items()
+            if key and (key in normalized or normalized in key)
+        ]
+        if not candidates:
+            return None
+        candidates.sort(key=lambda item: (-item[0], item[1]))
+        return candidates[0][1]
+
     def find_article(self, title: str, article_number: str) -> Optional[Dict]:
-        """通过标题（精确匹配+繁简兼容）和条款号精确查找一条法规条款。"""
+        """按「法规名 + 条款号」精确定位一条条款，繁简写法均可。
+
+        先把法规名经简体归一解析成 law_id，再按 (law_id, article_number) 精确查询。
+
+        此前是拿标题字符串本身（含各家写法）去查 title.keyword，失败后退化为 match title 兜底：
+        简→繁 为一对多（「关系」拼不出「關係」），拼出的变体无法命中真实标题，于是必然走兜底；
+        而 IK 分词下的 match title 是 OR 语义，近乎「匹配任意含『法』的文档」，返回结果随
+        set 迭代顺序漂移（实测同一简体查询时而命中「勞動關係法」，时而命中「經濟房屋法」）。
+        """
         try:
-            title_variants = list({title, zh_t2s(title), zh_s2t(title)})
+            law_id = self._resolve_law_id(title)
+            if not law_id:
+                return None
             query_body = {
                 "query": {
                     "bool": {
                         "must": [
-                            {"terms": {"title.keyword": title_variants}},
+                            {"term": {"law_id": law_id}},
                             {"term": {"article_number": article_number}}
                         ]
                     }
@@ -884,24 +998,6 @@ class ElasticsearchRepository:
             }
             response = self.client.search(index=settings.es_index_name, body=query_body)
             hits = response.get("hits", {}).get("hits", [])
-            if not hits:
-                for t in title_variants:
-                    query_body = {
-                        "query": {
-                            "bool": {
-                                "must": [
-                                    {"match": {"title": t}},
-                                    {"term": {"article_number": article_number}}
-                                ]
-                            }
-                        },
-                        "size": 1,
-                        "_source": True
-                    }
-                    response = self.client.search(index=settings.es_index_name, body=query_body)
-                    hits = response.get("hits", {}).get("hits", [])
-                    if hits:
-                        break
             if not hits:
                 return None
             hit = hits[0]
