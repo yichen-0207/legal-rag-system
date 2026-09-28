@@ -8,9 +8,11 @@ from collections import defaultdict
 from typing import List, Dict, Tuple
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# 注意：本脚本与数据集同处 eval_data/ 目录（脚本原先在 legal_rag/ 下，后移入此处）。
+# 因此这里不能再拼一层 "eval_data"，否则会解析成 eval_data/eval_data/... 而找不到文件。
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EVAL_DATASET_PATH = os.path.join(BASE_DIR, "eval_data", "eval_dataset_clause.json")
-OUTPUT_DIR = os.path.join(BASE_DIR, "eval_data")
+EVAL_DATASET_PATH = os.path.join(BASE_DIR, "eval_dataset_clause.json")
+OUTPUT_DIR = BASE_DIR
 TOP_K = 20
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
