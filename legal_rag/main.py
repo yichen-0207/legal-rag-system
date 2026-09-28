@@ -1,4 +1,7 @@
+import logging
 import os
+import sys
+
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 
 import threading
@@ -25,6 +28,35 @@ try:
     torch.set_num_interop_threads(1)
 except RuntimeError:
     pass
+
+
+def _configure_logging() -> None:
+    """把应用日志配置到 root，保证 `uvicorn main:app` 启动方式下 INFO 也可见。
+
+    背景：本文件的日志配置原先写在 `if __name__ == "__main__":` 分支里，而容器 CMD 是
+    `uvicorn main:app`，该分支从不执行 —— root logger 没有 handler，应用侧
+    `logging.getLogger(__name__).info(...)` 只落到 logging.lastResort（仅输出 WARNING 以上），
+    INFO 日志全部丢失。对照实验确认：root.handlers 为空，INFO 不打印、WARNING 正常。
+
+    为什么放在模块级能生效：uvicorn 在 Config.__init__ 中先完成自身 logger 配置，随后
+    Server.serve() 才 import 应用；其默认 LOGGING_CONFIG 满足 disable_existing_loggers=False
+    且不接管 root，因此这里的 handler 在 uvicorn 之后挂上，不会被清掉；也不会与 uvicorn 的
+    uvicorn/uvicorn.access（propagate=False、自带 handler）重复输出。
+
+    幂等：root 已有 handler 时直接返回，避免重复导入或 `python main.py` 路径重复配置导致日志翻倍。
+    """
+    root = logging.getLogger()
+    if root.handlers:
+        return
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+        handlers=[logging.StreamHandler(sys.stdout)],
+    )
+
+
+_configure_logging()
+
 
 app = FastAPI(
     title="Legal RAG API",
@@ -156,16 +188,19 @@ def _warmup_models() -> None:
     5. 法域语义向量也纳入本流程串行执行（见下）。它原先在 QAService 构造时以独立线程
        启动、且每个实例各算一份，实测 2 份并发把 16 核占满约 90 秒，又不受就绪探针门控，
        才是「就绪后前几个请求 20 秒以上」的真正原因——并非首次前向开销。
+    6. 冷启动优化已收口（判定不再投入）。剩余缺口为：① bge-m3 加载 40.2s（无并发争抢时
+       34.0s，现已无可与之争抢的并行伙伴）；② 进程与框架启动开销约 7.7s（容器启停 +
+       torch/fastapi import）。继续压缩需引入模型量化（int8）或把第二个模型改为延迟加载，
+       两者都会牺牲精度或首请求延迟，边际收益 < 2s 而风险明显上升，故判定收口。
     沿用「加载失败不阻塞启动」的策略：reranker 失败降级为不精排；bge-m3 是必需组件无法降级，
     失败时记录日志并由 /health/ready 报未就绪。
     """
     global _warmup_done
     import time
 
-    # 用 print 而非 logger.info：本项目只在 __main__ 分支里调用了 logging.basicConfig，
-    # 容器以 `uvicorn main:app` 启动时不会执行该分支，root logger 没有 handler，
-    # "legal_rag" 的 INFO 级别日志实际落不进 docker logs（实测确认）。
-    # print 直接写 stdout，在 docker logs 里稳定可见。
+    # 预热阶段仍用 print：应用日志现已由模块级 _configure_logging() 统一配置（uvicorn 启动
+    # 方式下 INFO 同样可见），但 print 对每行立即 flush，且在启动早期不依赖日志级别与格式，
+    # 排查模型加载问题时更可靠 —— 此处正是最需要即时可见性的阶段。
     def _log(msg: str) -> None:
         print(f"[warmup] {msg}", flush=True)
 
@@ -308,11 +343,7 @@ if __name__ == "__main__":
     import sys
     import signal
 
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-        handlers=[logging.StreamHandler(sys.stdout)]
-    )
+    # 日志配置已在模块级 _configure_logging() 完成（uvicorn 启动方式下同样生效），此处不再重复配置。
     logger = logging.getLogger("legal_rag")
 
     def _handle_signal(signum, frame):
