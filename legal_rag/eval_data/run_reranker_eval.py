@@ -8,8 +8,9 @@ from collections import defaultdict
 from typing import List
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# 本脚本与数据集同处 eval_data/ 目录，BASE_DIR 已是该目录，不能再拼一层 "eval_data"。
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EVAL_DATASET_PATH = os.path.join(BASE_DIR, "eval_data", "eval_dataset_clause.json")
+EVAL_DATASET_PATH = os.path.join(BASE_DIR, "eval_dataset_clause.json")
 TOP_K = 20
 
 
@@ -199,7 +200,7 @@ def main():
           f"{summary['Precision@5']:>8.4f} {summary['NDCG@10']:>10.4f}")
 
     # 追加到 viz JSON
-    viz_path = os.path.join(BASE_DIR, "eval_data", "eval_viz_data.json")
+    viz_path = os.path.join(BASE_DIR, "eval_viz_data.json")
     if os.path.exists(viz_path):
         viz_data = json.load(open(viz_path, encoding="utf-8"))
         viz_data["overall"]["hybrid+reranker"] = summary
@@ -207,7 +208,7 @@ def main():
         print(f"\n  已保存: {viz_path}")
 
     # 追加到 CSV
-    csv_path = os.path.join(BASE_DIR, "eval_data", "eval_per_query.csv")
+    csv_path = os.path.join(BASE_DIR, "eval_per_query.csv")
     if os.path.exists(csv_path):
         import csv
         with open(csv_path, "a", newline="", encoding="utf-8") as f:
