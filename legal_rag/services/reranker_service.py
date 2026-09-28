@@ -40,6 +40,20 @@ class ReRankerService:
         if hasattr(self, '_loaded'):
             return  # 单例已初始化，跳过
 
+    @property
+    def load_state(self) -> str:
+        """模型加载状态，供 /health/ready 判断就绪（只读，不触发加载）。
+
+        - loaded：加载完成，精排可用
+        - failed：加载失败且本进程内不再重试，服务已降级为不精排（仍算可用）
+        - pending：尚未开始加载或正在加载中
+        """
+        if self._loaded:
+            return "loaded"
+        if self._load_error is not None:
+            return "failed"
+        return "pending"
+
     def _lazy_load(self) -> bool:
         """延迟加载模型，仅在首次使用时加载。
 
