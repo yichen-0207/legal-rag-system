@@ -502,6 +502,17 @@ a:hover {
 .badge-info { background: var(--color-info-bg); color: var(--color-info); }
 .badge-muted { background: var(--color-bg); color: var(--color-text-muted); }
 
+/* 引用链扩展标记（组件D）：该条款由同法规内其他条款引用补入，非语义命中。
+   用描边弱化处理，与法域等实心 badge 区分开，避免抢占视觉重心。 */
+.badge-ref {
+    background: transparent;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    font-weight: 400;
+    margin-left: 0.25rem;
+    vertical-align: middle;
+}
+
 /* ===== 表格 ===== */
 .table-wrap {
     overflow-x: auto;
