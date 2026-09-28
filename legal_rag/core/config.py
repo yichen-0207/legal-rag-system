@@ -83,6 +83,13 @@ class Settings(BaseSettings):
     # reranker 是 CPU 推理且占检索总延迟约 93%，窗口从 50 降到 20 可把该阶段耗时压到约 40%；
     # 窗口外的候选不丢弃，按 RRF 顺序拼在精排结果之后（详见 RetrieverService._rerank_two_stage）。
     reranker_window: int = 20
+    # 精排并发上限（信号量）。
+    # 路由改由线程池执行后，多个检索请求会同时进入 cross-encoder 推理，必须限制路数：
+    #   CPU：单次推理已占用 torch_num_threads 个线程，并发数 × 8 超过 16 核会互相抢占；
+    #  内存：单次 batch=8×512 的中间激活是瞬时的，多路叠加会在 10g mem_limit 下逼近 OOM。
+    # 取 2（2×8=16 线程刚好吃满 16 核）：超出的请求在各自线程池线程内等待信号量，
+    # 事件循环与轻量接口不受影响。
+    reranker_max_concurrency: int = 2
 
     # 引用链多跳（组件D）：把已召回条款在同法规内引用到的条款一并补入候选/上下文。
     # 解析走正文正则（同法规内「第X條」的编号是局部的，无需解析法规名），
