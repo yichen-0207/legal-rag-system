@@ -18,7 +18,7 @@ class DeepAnalysisRequest(BaseModel):
 
 
 @router.get("")
-async def compare_laws(
+def compare_laws(
     jurisdiction_a: str = Query(..., description="法域A（如：澳门）"),
     jurisdiction_b: str = Query(..., description="法域B（如：新加坡）"),
     topic: str = Query(..., description="对比主题/关键词（如：数据保护）"),
@@ -43,7 +43,7 @@ async def compare_laws(
 
 
 @router.post("/deep-analysis")
-async def deep_analysis(req: DeepAnalysisRequest):
+def deep_analysis(req: DeepAnalysisRequest):
     """
     AI深度对比分析（调用LLM，流式输出）
 
@@ -134,7 +134,7 @@ class CacheAIRequest(BaseModel):
 
 
 @router.post("/cache-ai")
-async def cache_ai_analysis(req: CacheAIRequest):
+def cache_ai_analysis(req: CacheAIRequest):
     """
     将前端生成的 AI 深度分析报告回写到 ES 缓存中。
     前端在首次生成 AI 报告后异步调用此接口，后续缓存命中时直接返回。

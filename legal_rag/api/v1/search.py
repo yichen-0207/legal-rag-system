@@ -17,7 +17,7 @@ catalog = LawCatalog()
 
 @router.get("")
 @router.get("/")
-async def search(
+def search(
     query: str = Query("", description="搜索关键词（为空时仅按筛选条件检索）"),
     top_k: int = Query(50, description="返回结果数量"),
     jurisdiction: str = Query(None, description="法域筛选（澳门/新加坡等）"),
@@ -54,7 +54,7 @@ async def search(
 
 
 @router.get("/laws")
-async def get_laws(
+def get_laws(
     jurisdiction: str = Query(None, description="法域筛选"),
     topics: str = Query(None, description="主题筛选，逗号分隔")
 ):
@@ -111,7 +111,7 @@ async def get_laws(
 
 
 @router.get("/law/{law_id}")
-async def get_law(law_id: str):
+def get_law(law_id: str):
     """根据law_id获取法规详情"""
     law = repo.get_law_by_id(law_id)
     if law is None:
@@ -121,7 +121,7 @@ async def get_law(law_id: str):
 
 @router.get("/jurisdictions")
 @router.get("/jurisdictions/")
-async def get_jurisdictions():
+def get_jurisdictions():
     """获取所有法域列表"""
     jurisdictions = repo.get_all_jurisdictions()
     return APIResponse(success=True, data=jurisdictions)
@@ -129,7 +129,7 @@ async def get_jurisdictions():
 
 @router.get("/topics")
 @router.get("/topics/")
-async def get_topics():
+def get_topics():
     """获取所有主题列表（含统计信息，用于筛选下拉框）
 
     返回格式:
@@ -149,14 +149,14 @@ async def get_topics():
 
 @router.get("/topics/simple")
 @router.get("/topics/simple/")
-async def get_topics_simple():
+def get_topics_simple():
     """获取简单主题标签列表（仅名称，用于轻量级场景）"""
     topics = repo.get_topic_filter_values()
     return APIResponse(success=True, data=topics)
 
 
 @router.get("/law/{law_id}/similar")
-async def get_similar_laws(
+def get_similar_laws(
     law_id: str,
     top_k: int = Query(5, ge=1, le=20, description="推荐数量（1-20）"),
     jurisdiction: str = Query(None, description="法域过滤（如：澳门/新加坡），不填则跨法域推荐")
@@ -181,7 +181,7 @@ async def get_similar_laws(
 
 
 @router.get("/chunk/{chunk_id}/similar")
-async def get_similar_chunks(
+def get_similar_chunks(
     chunk_id: str,
     top_k: int = Query(10, ge=1, le=30, description="推荐条款数量（1-30）"),
     jurisdiction: str = Query(None, description="法域过滤")
@@ -201,7 +201,7 @@ async def get_similar_chunks(
 
 
 @router.get("/law/{law_id}/summary")
-async def get_law_summary(law_id: str):
+def get_law_summary(law_id: str):
     """
     法规摘要生成接口（带缓存）
     
@@ -244,7 +244,7 @@ async def get_law_summary(law_id: str):
 
 
 @router.get("/summary/cache/info")
-async def get_summary_cache_info():
+def get_summary_cache_info():
     """
     获取摘要缓存统计信息
     
@@ -256,7 +256,7 @@ async def get_summary_cache_info():
 
 
 @router.delete("/summary/cache/{law_id}")
-async def invalidate_summary_cache(law_id: str):
+def invalidate_summary_cache(law_id: str):
     """
     清除指定法规的摘要缓存
     
@@ -271,7 +271,7 @@ async def invalidate_summary_cache(law_id: str):
 
 
 @router.delete("/summary/cache")
-async def invalidate_all_summary_cache():
+def invalidate_all_summary_cache():
     """
     清除所有法规摘要缓存
     

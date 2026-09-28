@@ -8,7 +8,9 @@ Re-ranker Service
       比 Bi-encoder 的独立编码+余弦相似度精度更高。
 """
 
+import threading
 from typing import List, Dict, Optional
+
 from core.config import settings
 
 
@@ -25,6 +27,13 @@ class ReRankerService:
             cls._instance._device = None
             cls._instance._loaded = False
             cls._instance._load_error = None  # 加载失败原因；失败后不再重试，直接降级
+            # 加载锁：防止并发首次请求同时加载模型（各占 ~2.4GB，10g mem_limit 下会 OOM）
+            cls._instance._load_lock = threading.Lock()
+            # 精排并发信号量：限制同时进行的 cross-encoder 推理路数，
+            # 避免线程池放开后多路推理叠加导致 CPU 超订与内存峰值失控
+            cls._instance._rerank_semaphore = threading.BoundedSemaphore(
+                max(1, settings.reranker_max_concurrency)
+            )
         return cls._instance
 
     def __init__(self):
@@ -42,6 +51,18 @@ class ReRankerService:
         if self._load_error is not None:
             return False  # 已失败过，进程内不再重试，避免每次检索都卡在加载上
 
+        # 并发保护：路由改由线程池执行后，多个首次请求可能同时进入加载流程。
+        # 若不加锁会各自加载一份权重，在 10g mem_limit 下直接 OOM，故用锁串行化。
+        with self._load_lock:
+            # 双重检查：等锁期间可能已被其他线程加载完成（或加载失败）
+            if self._loaded:
+                return True
+            if self._load_error is not None:
+                return False
+            return self._load_locked()
+
+    def _load_locked(self) -> bool:
+        """真正执行模型加载（调用方必须持有 _load_lock）。"""
         import sys
         import logging
         _log = logging.getLogger(__name__)
@@ -130,8 +151,6 @@ class ReRankerService:
             # 模型不可用：保持原有（RRF 融合）顺序返回前 top_k，不阻塞检索
             return candidates[:top_k]
 
-        import torch
-
         # 构造 query-doc pairs（截断 content 到 500 字符，cross-encoder 评分只需摘要语义）
         pairs = []
         valid_candidates = []
@@ -145,10 +164,28 @@ class ReRankerService:
         if not pairs:
             return candidates[:top_k]
 
-        # batch 推理（CPU 下批量适中 + 序列截断，控制中间张量内存）
-        all_scores = []
-        batch_size = settings.reranker_batch_size
+        # 并发保护：路由改由线程池执行后，多个请求会同时进入推理。
+        # 单次推理已占用 torch_num_threads 个线程、且中间激活是瞬时的，
+        # 多路叠加会导致 CPU 超订与内存峰值失控，故用信号量限制并发路数。
+        with self._rerank_semaphore:
+            all_scores = self._score_pairs(pairs)
+
+        # 将分数附加到文档上
+        for doc, score in zip(valid_candidates, all_scores):
+            doc["rerank_score"] = round(score, 4)
+
+        # 按 rerank_score 降序排列
+        valid_candidates.sort(key=lambda x: x.get("rerank_score", 0), reverse=True)
+
+        return valid_candidates[:top_k]
+
+    def _score_pairs(self, pairs: List[List[str]]) -> List[float]:
+        """对 query-doc 对做批量打分。调用方负责并发控制（见 _rerank_semaphore）。"""
         import gc
+        import torch
+
+        all_scores: List[float] = []
+        batch_size = settings.reranker_batch_size
         for i in range(0, len(pairs), batch_size):
             batch_pairs = pairs[i : i + batch_size]
             inputs = self._tokenizer(
@@ -174,11 +211,4 @@ class ReRankerService:
             torch.cuda.empty_cache() if torch.cuda.is_available() else None
             gc.collect()
 
-        # 将分数附加到文档上
-        for doc, score in zip(valid_candidates, all_scores):
-            doc["rerank_score"] = round(score, 4)
-
-        # 按 rerank_score 降序排列
-        valid_candidates.sort(key=lambda x: x.get("rerank_score", 0), reverse=True)
-
-        return valid_candidates[:top_k]
+        return all_scores
