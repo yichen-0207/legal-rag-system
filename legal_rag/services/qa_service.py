@@ -79,9 +79,13 @@ class QAService:
 
         步骤：
           1. 从 ES 获取所有实际存在文档的法域列表
-          2. 对每个法域，采样代表性文档（取 title + content 前 200 字）
+          2. 对每个法域，采样代表性文档（取 title + content 前 100 字）
           3. 计算各文档的 embedding，平均后 L2 归一化
           4. 跳过文档数为 0 的法域（降级为名称向量）
+
+        规模取舍：法域向量只是一个「语义质心」，对单篇样本不敏感，采样量与截断长度取小值
+        即可。原先 30 篇 × 200 字、8 个法域共需编码约 240 段长文本，单份预热实测 52 秒，
+        且全部落在启动阶段（被 /health/ready 门控）；降到 10 篇 × 100 字后编码量约为原来 1/6。
 
         当 ES 中新入库法域数据后，重启服务或调用 _refresh_jurisdiction_vectors_if_needed() 自动生效。
         """
@@ -93,7 +97,7 @@ class QAService:
             for jur in jurisdictions:
                 docs = self.repo.sample_documents(
                     jurisdiction=jur,
-                    size=30,
+                    size=10,
                     fields=['title', 'content']
                 )
                 if not docs:
@@ -107,11 +111,11 @@ class QAService:
                     vectors[jur] = vec
                     continue
 
-                # 构造语料文本：标题 + 内容前 200 字
+                # 构造语料文本：标题 + 内容前 100 字
                 texts = []
                 for doc in docs:
                     title = doc.get('title', '')
-                    content = doc.get('content', '')[:200]
+                    content = doc.get('content', '')[:100]
                     texts.append(f"{title} {content}")
 
                 # 计算所有文档向量的平均向量
