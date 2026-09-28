@@ -420,8 +420,13 @@ function extractTargetLawName(query) {
 
 function renderSearchResults(container, results, query) {
     // 只渲染前 50 条避免 DOM 过大（后端 top_k=500 用于 RRF 融合质量）
-    var displayResults = results.slice(0, 50);
-    var remainingCount = results.length - 50;
+    // 引用链扩展项（retrieval_hop=2）被后端追加在列表最末——它不是语义命中、不参与排名，
+    // 若只取前 50 条会被永远截掉，「引用自第 X 条」的标注也就永远看不到。
+    // 其数量有上界（后端 reference_expand_max），故全部取回一并渲染。
+    var topResults = results.slice(0, 50);
+    var hopResults = results.filter(function(item) { return item.retrieval_hop === 2; });
+    var displayResults = topResults.concat(hopResults);
+    var remainingCount = results.length - topResults.length;
 
     // 从查询中提取目标法规名称（与后端 _extract_law_name 逻辑一致）
     var targetLawName = extractTargetLawName(query);
@@ -513,9 +518,22 @@ function renderSearchResults(container, results, query) {
 
             const existing = lawDict[lawId].clauses.find(function(c) { return c.article_number === article; });
             if (existing) {
-                if (score > existing.score) { existing.content = content; existing.score = score; }
+                // 同一条款可能既被语义命中、又被引用链补入（组件D）：保留得分高者，
+                // 标记跟随胜出项，避免直接命中的条款被误标成「引用补入」
+                if (score > existing.score) {
+                    existing.content = content;
+                    existing.score = score;
+                    existing.retrieval_hop = item.retrieval_hop;
+                    existing.referenced_by = item.referenced_by;
+                }
             } else {
-                lawDict[lawId].clauses.push({ article_number: article, content: content, score: score });
+                lawDict[lawId].clauses.push({
+                    article_number: article,
+                    content: content,
+                    score: score,
+                    retrieval_hop: item.retrieval_hop,
+                    referenced_by: item.referenced_by
+                });
             }
 
             if (score > lawDict[lawId].max_score) lawDict[lawId].max_score = score;
@@ -566,8 +584,14 @@ function renderLawCard(law) {
     law.clauses.sort(function(a, b) { return b.score - a.score; });
     law.clauses.forEach(function(clause) {
         const cPercent = Math.round(clause.score * 100);
-        html += '<div style="background:var(--color-bg);border-left:3px solid var(--color-primary);padding:0.5rem 0.75rem;margin-bottom:0.5rem;font-size:0.8125rem;">';
-        html += '<div style="font-weight:600;margin-bottom:0.25rem;">' + escapeHtml(clause.article_number) + ' <span style="color:var(--color-text-muted);font-weight:400;">(' + cPercent + '%)</span></div>';
+        // retrieval_hop=2 表示该条由同法规引用链补入（组件D），此时 similarity 无意义，
+        // 故不显示匹配度，改标注它的引用来源，避免用户误以为 0% 是低相关命中
+        const isRef = clause.retrieval_hop === 2 && clause.referenced_by;
+        const meta = isRef
+            ? '<span class="badge badge-ref">引用自第 ' + escapeHtml(clause.referenced_by) + ' 条</span>'
+            : '<span style="color:var(--color-text-muted);font-weight:400;">(' + cPercent + '%)</span>';
+        html += '<div style="background:var(--color-bg);border-left:3px solid ' + (isRef ? 'var(--color-text-muted)' : 'var(--color-primary)') + ';padding:0.5rem 0.75rem;margin-bottom:0.5rem;font-size:0.8125rem;">';
+        html += '<div style="font-weight:600;margin-bottom:0.25rem;">' + escapeHtml(clause.article_number) + ' ' + meta + '</div>';
         html += '<div style="color:var(--color-text-secondary);line-height:1.5;">' + escapeHtml(clause.content.substring(0, 200)) + (clause.content.length > 200 ? '...' : '') + '</div>';
         html += '</div>';
     });
@@ -582,17 +606,20 @@ function renderLawCard(law) {
 }
 
 // 在进入法规详情前保存搜索状态
+// 只保存「查询条件」，不保存结果 HTML：HTML 快照是保存那一刻的旧 DOM，
+// 前端代码更新后返回列表仍会回放旧画面（表现为「改了没效果」），且快照与
+// 后端数据也会脱节。存条件、返回时重新检索，才能始终按最新代码渲染。
 function saveSearchState() {
     var state = {
         query: document.getElementById('search-query').value,
         jurisdiction: document.getElementById('search-jurisdiction').value,
-        topics: Array.from(document.getElementById('search-topic').selectedOptions).map(function(o) { return o.value; }),
-        resultsHtml: document.getElementById('search-results').innerHTML
+        topics: Array.from(document.getElementById('search-topic').selectedOptions).map(function(o) { return o.value; })
     };
     try { sessionStorage.setItem('search_state', JSON.stringify(state)); } catch(e) {}
 }
 
-// 从法规详情返回时恢复搜索状态
+// 从法规详情返回时恢复搜索状态：先还原筛选控件，再按条件重新检索
+// 调用点在本页主题下拉项构建完成之后，故此处可以安全地回填主题选中态。
 function restoreSearchState() {
     var raw;
     try { raw = sessionStorage.getItem('search_state'); } catch(e) {}
@@ -600,23 +627,27 @@ function restoreSearchState() {
 
     var state;
     try { state = JSON.parse(raw); } catch(e) {}
+    // 无论解析成功与否都先清除：避免损坏的快照被反复读取、每次都白跑一次恢复
+    try { sessionStorage.removeItem('search_state'); } catch(e) {}
     if (!state) return;
 
-    // 清除已恢复的状态，避免重复恢复
-    try { sessionStorage.removeItem('search_state'); } catch(e) {}
+    var hasFilter = false;
 
     // 恢复查询词
     if (state.query) {
         document.getElementById('search-query').value = state.query;
+        hasFilter = true;
     }
 
     // 恢复法域
     if (state.jurisdiction) {
         document.getElementById('search-jurisdiction').value = state.jurisdiction;
+        hasFilter = true;
     }
 
     // 恢复主题选择
     if (state.topics && state.topics.length > 0) {
+        hasFilter = true;
         var topicSelect = document.getElementById('search-topic');
         var dropdownItems = document.querySelectorAll('.search-topic-item');
         Array.from(topicSelect.options).forEach(function(opt) {
@@ -635,11 +666,9 @@ function restoreSearchState() {
         }
     }
 
-    // 恢复搜索结果HTML（若无查询词则不触发重新搜索）
-    var resultsEl = document.getElementById('search-results');
-    if (state.resultsHtml) {
-        resultsEl.innerHTML = state.resultsHtml;
-    }
+    // 按恢复后的条件重新检索，等价于用户再点一次「检索」按钮。
+    // 无条件时不触发，避免每次进入本页都白跑一次全量法规列表请求。
+    if (hasFilter) doSearch();
 }
 
 function viewLawDetail(lawId) {
