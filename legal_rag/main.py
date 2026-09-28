@@ -15,6 +15,17 @@ from api.v1.structured_analysis import router as structured_analysis_router
 from api.v1.stats import router as stats_router
 from api.v1.kg import router as kg_router
 
+import torch
+
+# 限制 PyTorch inter-op 线程池为 1。该池默认大小等于 CPU 核数（本机 16），与 intra-op
+# 的 8 路叠加后在 16 核上过度订阅：实测冷启动后前几个请求会烧掉 ~300 CPU秒（占满
+# ~14/16 核），而同样的工作稳态只需 ~44.6 CPU秒。必须在任何并行工作开始前调用
+# （此处位于所有模型推理之前，安全）；重复调用会抛 RuntimeError，忽略即可。
+try:
+    torch.set_num_interop_threads(1)
+except RuntimeError:
+    pass
+
 app = FastAPI(
     title="Legal RAG API",
     version="1.0.0",
@@ -62,15 +73,18 @@ def _warm_embedding(model) -> None:
 
 
 def _warmup_models() -> None:
-    """后台预热两个模型（在独立线程中执行）。
+    """后台预热模型与法域向量（在独立线程中执行）。
 
-    三段关键点：
+    关键点：
     1. 必须放在独立线程里。模型加载与首次推理都是阻塞的 CPU/IO 重活，原先直接写在
        async startup handler 中会占住事件循环，uvicorn 在完成前无法处理任何请求。
     2. 不能只预热 reranker。嵌入模型原先走「首个请求触发的懒加载」，重启后第一个搜索
        请求要自己扛下整个 bge-m3 加载（实测加载耗时 36.7s）。
-    3. 不能只加载不推理。首次前向的 oneDNN/MKL 原语编译会让就绪后的前几个请求持续偏慢，
-       故加载完成后各跑一次真实推理（见 _warm_reranker / _warm_embedding）。
+    3. 加载完成后各跑一次真实推理，把首次前向的 oneDNN/MKL 初始化开销留在启动阶段
+       （见 _warm_reranker / _warm_embedding）。
+    4. 法域语义向量也纳入本流程串行执行（见下）。它原先在 QAService 构造时以独立线程
+       启动、且每个实例各算一份，实测 2 份并发把 16 核占满约 90 秒，又不受就绪探针门控，
+       才是「就绪后前几个请求 20 秒以上」的真正原因——并非首次前向开销。
     沿用「加载失败不阻塞启动」的策略：reranker 失败降级为不精排；bge-m3 是必需组件无法降级，
     失败时记录日志并由 /health/ready 报未就绪。
     """
@@ -121,6 +135,20 @@ def _warmup_models() -> None:
         except Exception as e:
             # 不抛出：抛出会中断预热线程。检索链路缺少嵌入模型必然报错，由 /health/ready 暴露
             _log(f"嵌入模型加载/预热失败（耗时 {time.time() - t0:.1f}s）：{type(e).__name__}: {e}")
+
+        # ---- 法域语义向量（问答用，依赖已加载的 bge-m3）----
+        # 必须串行放在统一预热流程里：它是一次性重活（实测占满多核数十秒）。若像原先
+        # 那样放在后台线程异步跑，会在 /health/ready 变绿之后继续与用户请求抢 CPU，
+        # 把就绪后的前几个请求拖慢到 20 秒以上。QAService 已改为单例，这里只算一份。
+        t0 = time.time()
+        _log("开始预热法域语义向量...")
+        try:
+            from services.qa_service import QAService
+            QAService().warmup_jurisdiction_vectors()
+            _log(f"法域语义向量预热完成，耗时 {time.time() - t0:.1f}s")
+        except Exception as e:
+            # 不抛出：问答会降级为纯关键词法域识别，标记为已完成避免就绪探针永远 503
+            _log(f"法域语义向量预热失败（耗时 {time.time() - t0:.1f}s）：{type(e).__name__}: {e}")
     finally:
         # 无论成败都置位：否则就绪探针永远 503，前端（depends_on: service_healthy）会一直被挡在门外。
         # 模型是否可用由 /health/ready 里的 load_state 判定，本标记只表示"预热流程已跑完"。
@@ -179,10 +207,12 @@ async def readiness_check(response: Response):
     推迟发送检索/问答这类重活请求——否则会排在模型加载后面长时间等待（与 /health 的区别
     就在于此：/health 是「进程活着」，本接口是「能高效服务」）。
 
-    就绪判定直接读取两个服务实例的真实加载状态，不另外维护一份状态，避免与实际不一致：
+    就绪判定直接读取各服务实例的真实加载状态，不另外维护一份状态，避免与实际不一致：
       - reranker：loaded=可用；failed=已降级为不精排（仍算就绪）；disabled=配置关闭（就绪）；
         pending=仍在加载（未就绪）
       - embedding：必须 loaded。它是检索链路的必需组件，失败无法降级（未就绪）
+      - jurisdiction_vectors：法域语义向量预热是否完成。它是启动阶段最重的一次性计算，
+        若不等它跑完就放行，用户请求会与它抢 CPU（实测被拖慢到 20 秒以上）
       - warmup_done：预热线程是否跑完（含推理预热）。模型"加载完成"不等于"首次推理已预热"，
         若不等这一步，请求会赶在推理预热之前到达，仍然要付首次前向的开销
     """
@@ -197,17 +227,25 @@ async def readiness_check(response: Response):
     from core.model_loader import ModelLoader
     embedding_state = ModelLoader.load_state()
 
+    from services.qa_service import QAService
+    jvector_state = QAService().jurisdiction_warmup_state
+
     ready = (
         _warmup_done
         and embedding_state == "loaded"
         and reranker_state in ("loaded", "failed", "disabled")
+        and jvector_state == "ready"
     )
     if not ready:
         response.status_code = 503
     return {
         "status": "ready" if ready else "warming_up",
         "service": "legal-rag",
-        "models": {"reranker": reranker_state, "embedding": embedding_state},
+        "models": {
+            "reranker": reranker_state,
+            "embedding": embedding_state,
+            "jurisdiction_vectors": jvector_state,
+        },
         "warmup": "done" if _warmup_done else "running",
     }
 
