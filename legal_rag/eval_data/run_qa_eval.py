@@ -19,11 +19,12 @@ import sys, os, json
 from typing import List, Dict, Optional
 from collections import defaultdict
 
+# 本脚本与数据集同处 eval_data/ 目录，BASE_DIR 已是该目录，不能再拼一层 "eval_data"。
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EVAL_QUERIES_PATH = os.path.join(BASE_DIR, "eval_data", "eval_queries.json")
-EVAL_CLAUSE_PATH = os.path.join(BASE_DIR, "eval_data", "eval_dataset_clause.json")
-OUTPUT_RESULTS = os.path.join(BASE_DIR, "eval_data", "eval_qa_results.json")
-OUTPUT_SUMMARY = os.path.join(BASE_DIR, "eval_data", "eval_qa_summary.json")
+EVAL_QUERIES_PATH = os.path.join(BASE_DIR, "eval_queries.json")
+EVAL_CLAUSE_PATH = os.path.join(BASE_DIR, "eval_dataset_clause.json")
+OUTPUT_RESULTS = os.path.join(BASE_DIR, "eval_qa_results.json")
+OUTPUT_SUMMARY = os.path.join(BASE_DIR, "eval_qa_summary.json")
 TOP_K = 5  # 问答场景取 Top-5
 
 # 只评估 NL 中文变体（80条），兼顾效率与代表性

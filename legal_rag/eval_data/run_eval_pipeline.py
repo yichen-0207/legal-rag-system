@@ -15,10 +15,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 # ============================================================
 # 配置
 # ============================================================
+# 本脚本与数据集同处 eval_data/ 目录，BASE_DIR 已是该目录，不能再拼一层 "eval_data"。
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EVAL_QUERIES_PATH = os.path.join(BASE_DIR, "eval_data", "eval_queries.json")
-XLSX_PATH = os.path.join(BASE_DIR, "eval_data", "eval_annotation_template.xlsx")
-EVAL_DATASET_PATH = os.path.join(BASE_DIR, "eval_data", "eval_dataset.json")
+EVAL_QUERIES_PATH = os.path.join(BASE_DIR, "eval_queries.json")
+XLSX_PATH = os.path.join(BASE_DIR, "eval_annotation_template.xlsx")
+EVAL_DATASET_PATH = os.path.join(BASE_DIR, "eval_dataset.json")
 TOP_K = 20
 
 

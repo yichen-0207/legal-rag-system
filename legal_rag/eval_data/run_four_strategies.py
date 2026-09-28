@@ -6,8 +6,9 @@ import sys, os, json, math, gc
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# 本脚本与数据集同处 eval_data/ 目录，BASE_DIR 已是该目录，不能再拼一层 "eval_data"。
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EVAL_DATASET_PATH = os.path.join(BASE_DIR, "eval_data", "eval_dataset_clause.json")
+EVAL_DATASET_PATH = os.path.join(BASE_DIR, "eval_dataset_clause.json")
 TOP_K = 20
 
 
@@ -173,7 +174,7 @@ def main():
     print(f"  {'混合检索+重排序':<28} vs {'仅向量检索':<12}: MRR={all_summaries['混合检索+重排序']['MRR']-all_summaries['仅向量检索']['MRR']:+.4f}")
 
     # 5. 保存
-    viz_path = os.path.join(BASE_DIR, "eval_data", "eval_viz_data.json")
+    viz_path = os.path.join(BASE_DIR, "eval_viz_data.json")
     if os.path.exists(viz_path):
         viz_data = json.load(open(viz_path, encoding="utf-8"))
         viz_data["overall_four"] = all_summaries
