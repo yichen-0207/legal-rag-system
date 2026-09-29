@@ -2,12 +2,15 @@ from fastapi import APIRouter, Query, Body
 from models.schemas import APIResponse, TopicAnalysisResponse
 from services.topic_analysis_service import TopicAnalysisService
 
+# 本文件的路由刻意声明为同步 def：处理器内部要跑完整分析流程（双法域向量检索 + LLM 对比
+# 报告），属阻塞调用。FastAPI 会把 def 路由放进线程池；若写成 async def，实测会导致事件
+# 循环被独占约 20 秒，期间连 31ms 的统计接口都要等到分析结束才能返回。参见 api/v1/search.py。
 router = APIRouter(prefix="/topic-analysis", tags=["跨法域专题分析"])
 analysis_service = TopicAnalysisService()
 
 
 @router.post("")
-async def run_topic_analysis(
+def run_topic_analysis(
     query: str = Query(..., description="分析主题（如：个人数据跨境转移的规定）"),
     jurisdiction_a: str = Query(..., description="法域A（如：澳门）"),
     jurisdiction_b: str = Query(..., description="法域B（如：新加坡）"),
@@ -36,7 +39,7 @@ async def run_topic_analysis(
 
 
 @router.post("/follow-up")
-async def follow_up(
+def follow_up(
     original_analysis: dict = Body(..., description="原始分析结果"),
     follow_up_question: str = Query(..., description="用户追问问题")
 ):

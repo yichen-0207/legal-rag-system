@@ -5,6 +5,9 @@ from repositories.elasticsearch import ElasticsearchRepository
 from services.structured_analysis_service import StructuredAnalysisService
 from services.kg_extraction_service import KGExtractionService
 
+# 以下路由刻意声明为同步 def：处理器内部是阻塞调用（ES 查询、向量检索、LLM 抽取校验），
+# FastAPI 会把 def 路由放进线程池；写成 async def 会让这些调用独占单进程的事件循环。
+# 参见 api/v1/search.py。
 router = APIRouter(prefix="/kg", tags=["知识图谱"])
 repo = ElasticsearchRepository()
 analysis_service = StructuredAnalysisService()
@@ -33,7 +36,7 @@ def _law_to_chunks(law_data: dict) -> list:
 
 
 @router.get("/law/{law_id}")
-async def get_law_graph(law_id: str):
+def get_law_graph(law_id: str):
     """
     获取指定法规内部条款的知识图谱（实体类型标注 + 同法规关联）
     """
@@ -47,7 +50,7 @@ async def get_law_graph(law_id: str):
 
 
 @router.get("/search-entity")
-async def search_entity(
+def search_entity(
     q: str = Query(..., description="实体搜索关键词"),
     page_size: int = Query(20, description="返回结果数"),
 ):
@@ -74,13 +77,13 @@ async def search_entity(
 
 
 @router.get("/statistics")
-async def get_kg_statistics():
+def get_kg_statistics():
     """知识层统计：已抽取法规数、三元组总数、实体总数"""
     return APIResponse(success=True, data=repo.get_kg_statistics())
 
 
 @router.get("/entities")
-async def list_entities(
+def list_entities(
     q: Optional[str] = Query(None, description="按规范名或别名模糊匹配"),
     entity_type: Optional[str] = Query(None, description="实体类型过滤"),
     page_size: int = Query(50, description="返回结果数", le=200),
@@ -93,14 +96,14 @@ async def list_entities(
 
 
 @router.get("/entities/aliases")
-async def get_alias_statistics():
+def get_alias_statistics():
     """别名表覆盖范围统计（消歧规则的规模）"""
     from services.entity_disambiguation_service import get_alias_statistics as _stats
     return APIResponse(success=True, data=_stats())
 
 
 @router.get("/extraction/{law_id}")
-async def get_llm_extraction(
+def get_llm_extraction(
     law_id: str,
     force_refresh: bool = Query(False, description="忽略缓存强制重新抽取（本体变更后使用）"),
 ):
