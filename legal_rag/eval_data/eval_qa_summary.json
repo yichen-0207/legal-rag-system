@@ -1,18 +1,18 @@
 {
   "total_queries": 80,
-  "has_ans_accuracy": 0.775,
-  "has_ans_count": 62,
-  "avg_faithfulness": 3.8,
-  "avg_relevance": 4.3,
+  "has_ans_accuracy": 0.7625,
+  "has_ans_count": 61,
+  "avg_faithfulness": 4.1,
+  "avg_relevance": 3.29,
   "faithfulness_distribution": {
-    "1-2分": 8,
-    "3分": 32,
-    "4-5分": 40
+    "1-2分": 1,
+    "3分": 21,
+    "4-5分": 58
   },
   "relevance_distribution": {
-    "1-2分": 0,
-    "3分": 22,
-    "4-5分": 58
+    "1-2分": 15,
+    "3分": 32,
+    "4-5分": 33
   },
   "error_count": 0
 }
