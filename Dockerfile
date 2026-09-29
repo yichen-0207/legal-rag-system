@@ -30,7 +30,8 @@ RUN pip install --no-cache-dir -i https://pypi.tuna.tsinghua.edu.cn/simple \
         sentence-transformers>=2.2.0 \
         transformers==4.36.2 \
         accelerate>=0.20.0 \
-        openai>=1.0.0
+        openai>=1.0.0 \
+        openpyxl>=3.1.0
 
 
 # ===== 运行阶段 =====
