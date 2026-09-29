@@ -4,12 +4,15 @@ from models.schemas import APIResponse
 from services.structured_analysis_service import StructuredAnalysisService
 import json, asyncio
 
+# /stream 之外的以下路由刻意声明为同步 def：处理器内部是阻塞调用（ES 检索、LLM 解读、
+# 图计算），FastAPI 会把 def 路由放进线程池；写成 async def 会独占单进程的事件循环。
+# /stream 是流式接口，其生成器已用 run_in_executor 显式卸载阻塞迭代，必须保持 async。
 router = APIRouter(prefix="/structured-analysis", tags=["结构化专题分析"])
 service = StructuredAnalysisService()
 
 
 @router.get("/topics")
-async def list_topics():
+def list_topics():
     """获取所有预设对比专题列表"""
     try:
         topics = service.list_topics()
@@ -65,7 +68,7 @@ async def run_analysis_stream(
 # ============================================================
 
 @router.post("/dashboard")
-async def get_dashboard(
+def get_dashboard(
     analysis_result: dict = Body(..., description="已有的结构化分析结果")
 ):
     """
@@ -82,7 +85,7 @@ async def get_dashboard(
 
 
 @router.post("/ai-interpret")
-async def ai_interpret(
+def ai_interpret(
     dimension_label: str = Query(..., description="差异维度名称"),
     detail_a: str = Query("", description="法域A的具体规定"),
     detail_b: str = Query("", description="法域B的具体规定"),
@@ -109,7 +112,7 @@ async def ai_interpret(
 
 
 @router.get("/network-graph")
-async def get_network_graph(
+def get_network_graph(
     topic_id: str = Query(..., description="专题ID"),
     jurisdiction_a: str = Query(..., description="法域A"),
     jurisdiction_b: str = Query(..., description="法域B"),
@@ -139,7 +142,7 @@ async def get_network_graph(
 
 
 @router.get("/cache-status")
-async def get_cache_status(
+def get_cache_status(
     cache_type: str = Query("analysis", description="缓存类型: analysis 或 compare"),
 ):
     """查询当前缓存索引中的所有记录（调试用）"""
@@ -170,7 +173,7 @@ async def get_cache_status(
 # ============================================================
 
 @router.post("/shortest-path")
-async def find_shortest_path(
+def find_shortest_path(
     request_data: dict = Body(..., description="最短路径查询参数"),
 ):
     """

@@ -2,12 +2,15 @@ from fastapi import APIRouter, Query
 from models.schemas import APIResponse
 from services.mapping_service import LawMappingService
 
+# 本文件的路由刻意声明为同步 def：处理器内部是阻塞式服务调用（向量 KNN 检索），
+# FastAPI 会把 def 路由放进线程池执行；若写成 async def，这些阻塞调用会独占单进程的
+# 事件循环，期间所有其他请求（含只读的统计接口）都要排队等待。参见 api/v1/search.py。
 router = APIRouter(prefix="/mapping", tags=["法规条款映射"])
 mapping_service = LawMappingService()
 
 
 @router.get("/laws")
-async def list_laws(
+def list_laws(
     jurisdiction: str = Query(..., description="法域名称（如：澳门、新加坡）")
 ):
     """获取指定法域下的所有法规列表（用于前端下拉选择源法律）"""
@@ -19,7 +22,7 @@ async def list_laws(
 
 
 @router.post("")
-async def map_laws(
+def map_laws(
     source_jurisdiction: str = Query(..., description="源法域"),
     source_law_id: str = Query(..., description="源法规ID"),
     target_jurisdiction: str = Query(..., description="目标法域"),
