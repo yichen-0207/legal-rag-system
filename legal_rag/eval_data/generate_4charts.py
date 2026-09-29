@@ -4,7 +4,7 @@
 检索评估: ①分组柱状图 ②Recall折线图
 问答评估: ③三指标概览 ④评分分布堆叠柱状图
 """
-import os, json
+import os, json, datetime
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -19,10 +19,32 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(BASE_DIR, "charts")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-with open(os.path.join(BASE_DIR, "eval_viz_data.json"), "r", encoding="utf-8") as f:
+VIZ_PATH = os.path.join(BASE_DIR, "eval_viz_data.json")
+QA_PATH = os.path.join(BASE_DIR, "eval_qa_summary.json")
+
+with open(VIZ_PATH, "r", encoding="utf-8") as f:
     viz_data = json.load(f)
-with open(os.path.join(BASE_DIR, "eval_qa_summary.json"), "r", encoding="utf-8") as f:
+with open(QA_PATH, "r", encoding="utf-8") as f:
     qa_summary = json.load(f)
+
+
+def report_vintage() -> None:
+    """打印两组输入数据的产出时点，相差超过 1 天时告警。
+
+    背景：图表①②取自 run_enhanced_eval.py 的检索结果，图表③④取自 run_qa_eval.py 的
+    问答结果，是两份各自独立产出的 JSON（内部没有时间戳字段，故以文件 mtime 为准）。
+    历史上出现过「检索基线已重跑、问答结果仍是旧批次」的情况：四张图看起来成套，
+    实则横跨两个时点，写进报告会自相矛盾。这里把它显式暴露出来。
+    """
+    def fmt(p: str) -> str:
+        return datetime.datetime.fromtimestamp(os.path.getmtime(p)).strftime("%Y-%m-%d %H:%M")
+
+    print(f"  数据时点: 检索基线 {fmt(VIZ_PATH)} | 问答结果 {fmt(QA_PATH)}")
+    gap_days = abs(os.path.getmtime(VIZ_PATH) - os.path.getmtime(QA_PATH)) / 86400
+    if gap_days > 1:
+        print(f"  [告警] 两组数据相差 {gap_days:.1f} 天，①② 与 ③④ 并非同一批次；")
+        print("         请先重跑 run_enhanced_eval.py 与 run_qa_eval.py，再引用这四张图。")
+
 
 STRATEGY_LABELS = ['仅BM25', '纯向量', '混合(RRF)', '混合+重排']
 STRATEGY_COLORS = ['#8ECFC9', '#FFBE7A', '#FA7F6F', '#82B0D2']
@@ -209,6 +231,8 @@ if __name__ == "__main__":
     print(f"\n  {'='*45}")
     print(f"  生成4张优化图表 -> {OUTPUT_DIR}")
     print(f"  {'='*45}\n")
+
+    report_vintage()
 
     print("  [检索评估]")
     chart1_grouped_bar()
