@@ -11,3 +11,4 @@ tqdm>=4.66.0
 pydantic>=2.0.0
 python-multipart>=0.0.6
 accelerate>=0.20.0
+openpyxl>=3.1.0
