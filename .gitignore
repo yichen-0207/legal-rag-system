@@ -33,3 +33,6 @@ docker.env
 # 操作系统
 Thumbs.db
 .DS_Store
+
+# Trae IDE
+.trae/

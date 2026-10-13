@@ -1,0 +1,53 @@
+[
+  {
+    "doc_id": "SG_99370406_ART_042",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_99370406",
+    "law_name": "Animals And Birds Act 1965",
+    "law_name_original": "Animals And Birds Act 1965",
+    "law_type": "法律",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "Cruelty to animals",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Any person who — cruelly beats, kicks, ill‑treats, over‑rides, over‑drives, over‑loads, tortures, infuriates or terrifies any animal; causes or procures or, bei...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Any person who — cruelly beats, kicks, ill‑treats, over‑rides, over‑drives, over‑loads, tortures, infuriates or terrifies any animal; causes or procures or, bei..."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2022-03-01",
+    "last_amended_date": "2002-09-15",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_99370406",
+    "source_type": "gov_gazette",
+    "source_file": "SG_99370406_Animals_And_Birds_Act_1965.txt",
+    "source_start": 0,
+    "source_end": 21,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:17Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -1,42 +1,121 @@
+import re
 from typing import List, Dict, Optional, Union
 from core.config import settings
 
 
+# 句子/段落边界字符：真滑窗切分时优先在这些字符之后落刀（找不到再硬切）
+_BOUNDARY_CHARS = "。！？；;.!?\n"
+# 条款内部结构行：长条款结构化切分时作为优先边界（(1)/(a)/1./1、/第X条 等）
+_STRUCT_LINE_RE = re.compile(
+    r"^\s*(?:[（(]\s*[0-9a-zA-Z]{1,4}\s*[)）]|[0-9]{1,3}\s*[\.、)]|"
+    r"第[〇零一二三四五六七八九十百千0-9]+[条節节款项])"
+)
+
+
+def _find_boundary_cut(text: str, start: int, hard_end: int) -> int:
+    """在窗口后半段自后向前找句读/换行作为切点（切点字符归属前一块）。"""
+    floor = start + (hard_end - start) // 2
+    for i in range(hard_end - 1, floor - 1, -1):
+        if text[i] in _BOUNDARY_CHARS:
+            return i + 1
+    return hard_end
+
+
 def chunk_text(text: str, chunk_size: int = None, chunk_overlap: int = None) -> List[str]:
-    """纯文本切片"""
+    """真滑动窗口切片。
+
+    旧实现把窗口尾部截掉 chunk_overlap 当"重叠"：相邻块实际零重叠（首块还被
+    缩短、只有最后一块保持完整尺寸）。现实现：窗口固定 chunk_size，步长 =
+    chunk_size - chunk_overlap，相邻窗口真实重叠 chunk_overlap 个字符；切点
+    优先落在句读/换行边界（窗口后半段内搜索），找不到才硬切。
+    """
     chunk_size = chunk_size or settings.chunk_size
     chunk_overlap = chunk_overlap or settings.chunk_overlap
+    if chunk_size <= 0:
+        return [text] if text else []
+    # 重叠不超过窗口一半，避免步长过小导致块数爆炸
+    chunk_overlap = max(0, min(chunk_overlap, chunk_size // 2))
 
-    chunks = []
-    start = 0
     text_length = len(text)
-
+    chunks: List[str] = []
+    start = 0
     while start < text_length:
-        end = start + chunk_size
-        chunk = text[start:end]
+        hard_end = min(start + chunk_size, text_length)
+        if hard_end >= text_length:
+            chunks.append(text[start:])
+            break
+        cut = _find_boundary_cut(text, start, hard_end)
+        if cut <= start + chunk_overlap:  # 保证每次必然前进
+            cut = hard_end
+        chunks.append(text[start:cut])
+        start = cut - chunk_overlap
+    return chunks
 
-        if end < text_length:
-            chunk = chunk[:-chunk_overlap]
 
-        chunks.append(chunk)
-        start = end - chunk_overlap
+def _split_into_blocks(text: str) -> List[str]:
+    """把长文本按「段落 + 编号行」切成结构化块。
 
+    编号行（(1)/(a)/1./第X条 等）是条款内部的天然语义单元；切分点优先落在这里，
+    避免把一条编号规定从中间劈开（旧实现纯按字符窗切，编号内容常被拦腰截断）。
+    """
+    blocks: List[str] = []
+    buf: List[str] = []
+
+    def flush():
+        if buf:
+            blocks.append("\n".join(buf))
+            buf.clear()
+
+    for line in text.split("\n"):
+        s = line.strip()
+        if not s:
+            flush()
+            continue
+        if _STRUCT_LINE_RE.match(s) and buf:
+            flush()
+        buf.append(line.rstrip())
+    flush()
+    return blocks
+
+
+def _pack_blocks(blocks: List[str], chunk_size: int, chunk_overlap: int) -> List[str]:
+    """把结构块贪心装包成不超过 chunk_size 的窗口；跨窗口时保留上块尾部做重叠。"""
+    chunks: List[str] = []
+    cur = ""
+    for blk in blocks:
+        if len(blk) > chunk_size:
+            # 单个结构块本身超窗（如整段无编号的长段落）：退回真滑窗切分
+            if cur:
+                chunks.append(cur)
+                cur = ""
+            chunks.extend(chunk_text(blk, chunk_size, chunk_overlap))
+            continue
+        candidate = blk if not cur else f"{cur}\n{blk}"
+        if len(candidate) <= chunk_size:
+            cur = candidate
+            continue
+        chunks.append(cur)
+        tail = cur[-chunk_overlap:] if (chunk_overlap > 0 and len(cur) > chunk_overlap) else ""
+        if tail and len(tail) + 1 + len(blk) <= chunk_size:
+            cur = f"{tail}\n{blk}"
+        else:
+            cur = blk
+    if cur:
+        chunks.append(cur)
     return chunks
 
 
 def _resplit_long_text(text: str, chunk_size: int = None, chunk_overlap: int = None,
                        min_chunk_size: int = 300) -> List[str]:
-    """
-    对超长文本进行二次切分，避免单条 embedding 序列过长。
-    文本长度未超过 chunk_size 时直接返回；切分后若末尾 chunk 过短则合并到前一段。
-    """
+    """超长条款二次切分：先做结构化切分，超窗段退回滑窗；末尾过短并入前块。"""
     chunk_size = chunk_size or settings.chunk_size
     chunk_overlap = chunk_overlap or settings.chunk_overlap
 
     if len(text) <= chunk_size:
         return [text]
 
-    raw_chunks = chunk_text(text, chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+    blocks = _split_into_blocks(text)
+    raw_chunks = _pack_blocks(blocks, chunk_size, chunk_overlap)
     if not raw_chunks:
         return [text]
 
@@ -47,6 +126,23 @@ def _resplit_long_text(text: str, chunk_size: int = None, chunk_overlap: int = N
         raw_chunks = raw_chunks[:-1]
 
     return raw_chunks
+
+
+def _build_embed_prefix(item: Dict) -> str:
+    """子块 embedding 标题前缀：【法规名 条款号 条款标题】。
+
+    仅用于 embedding 输入（不写入 content）：向量化时补回条款标题上下文，
+    正文展示、BM25 检索与引用扩展均不受影响。
+    """
+    parts = [
+        str(item.get("law_name") or "").strip(),
+        str(item.get("article_number") or "").strip(),
+        str(item.get("article_title") or "").strip(),
+    ]
+    parts = [p for p in parts if p]
+    if not parts:
+        return ""
+    return ("【" + " ".join(parts) + "】")[:100]
 
 
 def process_pre_chunked_data(data_list: List[Dict]) -> List[Dict]:
@@ -94,6 +190,9 @@ def process_pre_chunked_data(data_list: List[Dict]) -> List[Dict]:
         parent_doc_id = item.get('doc_id')
         sub_texts = _resplit_long_text(text)
 
+        # 子块 embedding 标题前缀（只进向量化输入，不进 content）
+        prefix = _build_embed_prefix(item)
+
         for sub_idx, sub_text in enumerate(sub_texts):
             # 每个 sub_chunk 使用独立 doc_id，确保 ES 文档唯一
             sub_doc_id = f"{parent_doc_id}_sub_{sub_idx}" if parent_doc_id else None
@@ -120,6 +219,8 @@ def process_pre_chunked_data(data_list: List[Dict]) -> List[Dict]:
                 'topics': topics,
                 'topic_labels': [t['label_zh'] for t in topics if t.get('label_zh')]
             }
+            if prefix:
+                chunk['embed_text'] = f"{prefix}\n{sub_text}"
 
             chunks.append(chunk)
 

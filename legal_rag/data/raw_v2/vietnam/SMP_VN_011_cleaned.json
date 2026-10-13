@@ -1,0 +1,280 @@
+[
+  {
+    "doc_id": "VN_Q_252_2003_ART_001",
+    "jurisdiction": "越南",
+    "law_id": "VN_Q_252_2003",
+    "law_name": "Guiding The Customs Procedures, The Regime Of Customs Inspection And Supervision And The Tax Policies For Goods Traded Across Borders With The Bordering Countries Under The Prime Minister'S Decision N",
+    "law_name_original": "Guiding The Customs Procedures, The Regime Of Customs Inspection And Supervision And The Tax Policies For Goods Traded Across Borders With The Bordering Countries Under The Prime Minister'S Decision N",
+    "law_type": "Q",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "I. GENERAL PROVISIONS",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "1. This Circular guides the customs procedures, the customs inspection and supervision regime and tax policies for the cross-border",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "1. This Circular guides the customs procedures, the customs inspection and supervision regime and tax policies for the cross-border"
+      }
+    ],
+    "topics": [
+      "tax_law"
+    ],
+    "topics_details": [
+      {
+        "id": "tax_law",
+        "label_zh": "税法",
+        "label_en": "Tax Law",
+        "label_pt": "Direito Fiscal",
+        "score": 4.5,
+        "matched_keywords": [
+          "tax"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2003-11-24",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_011.txt",
+    "source_start": 1560,
+    "source_end": 1691,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_Q_252_2003_ART_002",
+    "jurisdiction": "越南",
+    "law_id": "VN_Q_252_2003",
+    "law_name": "Guiding The Customs Procedures, The Regime Of Customs Inspection And Supervision And The Tax Policies For Goods Traded Across Borders With The Bordering Countries Under The Prime Minister'S Decision N",
+    "law_name_original": "Guiding The Customs Procedures, The Regime Of Customs Inspection And Supervision And The Tax Policies For Goods Traded Across Borders With The Bordering Countries Under The Prime Minister'S Decision N",
+    "law_type": "Q",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "trade of goods with the bordering countries",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "2. All goods, when going through border gates, must go through customs procedures, be subject to customs inspection and supervision\nand to payment of taxes and fees (if any) according to law provisions.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "2. All goods, when going through border gates, must go through customs procedures, be subject to customs inspection and supervision\nand to payment of taxes and fees (if any) according to law provisions."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2003-11-24",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_011.txt",
+    "source_start": 1738,
+    "source_end": 1940,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_Q_252_2003_ART_003",
+    "jurisdiction": "越南",
+    "law_id": "VN_Q_252_2003",
+    "law_name": "Guiding The Customs Procedures, The Regime Of Customs Inspection And Supervision And The Tax Policies For Goods Traded Across Borders With The Bordering Countries Under The Prime Minister'S Decision N",
+    "law_name_original": "Guiding The Customs Procedures, The Regime Of Customs Inspection And Supervision And The Tax Policies For Goods Traded Across Borders With The Bordering Countries Under The Prime Minister'S Decision N",
+    "law_type": "Q",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "3. Customs procedures for goods exported and imported across borders; goods traded or exchanged by border inhabitants; goods brought\ninto border markets, border-gate markets or markets in border-gate economic zones:\n\n3.1. Customs dossiers:\n\na/ For goods imported across borders; goods brought into border markets, border-gate markets or markets in border-gate economic zones:\n\n- Customs declaration form: To use the import declaration form (coded HQ/2002-NK, promulgated together with Decision No. 1257/2001/QD-TCHQ\nof December 4, 2001 of the General Director of Customs): 02 originals;\n\n- Other documents as required for customs dossiers, customs process and procedures for exports and imports under purchase and sale\ncontracts, promulgated together with the Finance Minister's Decision No. 56/2003/QD-BTC of April 16, 2003, excluding bills of lading.\n\nParticularly for business households in the border provinces and in the bordering countries, which do business in border markets,\nborder-gate markets or markets in border-gate economic zones, they shall not be required to have the above-said documents but must\nhave the following two documents:\n\n+ The goods quality inspection registration certificate or the notice on goods quality inspection exemption, granted by a State agency\nin charge of quality inspection (for goods subject to quality inspection);\n\n+ The quarantine registration certificate, granted by a quarantine agency (for imports subject to quarantine).\n\nb/ For goods exported across borders:\n\n- Customs declarations:\n\n+ For goods exported under purchase and sale contracts: To use the export declaration form (coded HQ/2002-XK, promulgated together\nwith Decision No. 1257/2001/QD-TCHQ of December 4, 2001 of the General Director of Customs): 02 originals;\n\n+ For goods exported without purchase and sale contracts: To use the border export declaration form (coded HQ/2002-XKBG, promulgated\ntogether with Decision No. 1473/2002/QD-TCHQ of May 24, 2002 of the General Director of Customs; Decision No. 24/2004/QD-BTC of March\n5, 2004 of the Finance Ministry): 02 originals;\n\n- Other documents as required for customs dossiers, customs process and procedures for exports and imports under purchase and sale\ncontracts, promulgated together with the Finance Minister's Decision No. 56/2003/QD-BTC of April 16, 2003, as appropriate.\n\nc/ For goods traded or exchanged among border inhabitants:\n\n- Goods traded or exchanged among inhabitants of the bordering countries shall not be required to be declared on customs declaration\nforms.\n\n- Goods owners shall be requested to produce their border identity cards or border laissez-passers, issued by competent agencies,\nin order to be eligible for the tax-exempt quota.\n\n- If the value of goods traded or exchanged among inhabitants of the bordering countries exceeds the prescribed quota, the customs\noffices shall calculate tax amounts right on the tax receipts.\n\nd/ Regarding certificates of goods origin (C/O):\n\n- For goods traded or exchanged among inhabitants of the bordering the countries, certificates of goods origin (C/O) must not be submitted.\nThe determination of the goods origins in this case shall be based on the actual inspection of the goods.\n\n- Goods exported or imported across borders shall enjoy export tax and import tax preferences under bilateral agreements between the\nVietnamese Government and the Governments of the bordering countries (for goods imported across borders, they must have certificates\nof goods origin (C/O) in order to enjoy import tax preferences).\n\n3.2. Regarding actual inspection of goods:\n\n- The measure to exempt goods from actual inspection shall not be applied to goods imported across borders and goods brought into\nborder markets, border-gate markets or markets in border-gate economic zones.\n\n- Goods exported across borders shall be subject to the application of inspection forms prescribed by the Customs Law.\n\n- For goods traded or exchanged among inhabitants of the bordering countries: Inspection shall be conducted only in the cases where\nit is found, through supervision, that the goods value may exceed the tax-exempt quota or there are smuggled goods' Regarding the\nsupervision of the number of exchanging or trading times a day, to detect the subjects that abuse the goods exchange or trade to\nearn illicit profits mainly through supervision without having to open monitoring books.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "3. Customs procedures for goods exported and imported across borders; goods traded or exchanged by border inhabitants; goods brought\ninto border markets, border-gate markets or markets in border-gate economic zones:\n\n3.1. Customs dossiers:\n\na/ For goods imported across borders; goods brought into border markets, border-gate markets or markets in border-gate economic zones:\n\n- Customs declaration form: To use the import declaration form (coded HQ/2002-NK, promulgated together with Decision No. 1257/2001/QD-TCHQ\nof December 4, 2001 of the General Director of Customs): 02 originals;\n\n- Other documents as required for customs dossiers, customs process and procedures for exports and imports under purchase and sale\ncontracts, promulgated together with the Finance Minister's Decision No. 56/2003/QD-BTC of April 16, 2003, excluding bills of lading.\n\nParticularly for business households in the border provinces and in the bordering countries, which do business in border markets,\nborder-gate markets or markets in border-gate economic zones, they shall not be required to have the above-said documents but must\nhave the following two documents:\n\n+ The goods quality inspection registration certificate or the notice on goods quality inspection exemption, granted by a State agency\nin charge of quality inspection (for goods subject to quality inspection);\n\n+ The quarantine registration certificate, granted by a quarantine agency (for imports subject to quarantine).\n\nb/ For goods exported across borders:\n\n- Customs declarations:\n\n+ For goods exported under purchase and sale contracts: To use the export declaration form (coded HQ/2002-XK, promulgated together\nwith Decision No. 1257/2001/QD-TCHQ of December 4, 2001 of the General Director of Customs): 02 originals;\n\n+ For goods exported without purchase and sale contracts: To use the border export declaration form (coded HQ/2002-XKBG, promulgated\ntogether with Decision No. 1473/2002/QD-TCHQ of May 24, 2002 of the General Director of Customs; Decision No. 24/2004/QD-BTC of March\n5, 2004 of the Finance Ministry): 02 originals;\n\n- Other documents as required for customs dossiers, customs process and procedures for exports and imports under purchase and sale\ncontracts, promulgated together with the Finance Minister's Decision No. 56/2003/QD-BTC of April 16, 2003, as appropriate.\n\nc/ For goods traded or exchanged among border inhabitants:\n\n- Goods traded or exchanged among inhabitants of the bordering countries shall not be required to be declared on customs declaration\nforms.\n\n- Goods owners shall be requested to produce their border identity cards or border laissez-passers, issued by competent agencies,\nin order to be eligible for the tax-exempt quota.\n\n- If the value of goods traded or exchanged among inhabitants of the bordering countries exceeds the prescribed quota, the customs\noffices shall calculate tax amounts right on the tax receipts.\n\nd/ Regarding certificates of goods origin (C/O):\n\n- For goods traded or exchanged among inhabitants of the bordering the countries, certificates of goods origin (C/O) must not be submitted.\nThe determination of the goods origins in this case shall be based on the actual inspection of the goods.\n\n- Goods exported or imported across borders shall enjoy export tax and import tax preferences under bilateral agreements between the\nVietnamese Government and the Governments of the bordering countries (for goods imported across borders, they must have certificates\nof goods origin (C/O) in order to enjoy import tax preferences).\n\n3.2. Regarding actual inspection of goods:\n\n- The measure to exempt goods from actual inspection shall not be applied to goods imported across borders and goods brought into\nborder markets, border-gate markets or markets in border-gate economic zones.\n\n- Goods exported across borders shall be subject to the application of inspection forms prescribed by the Customs Law.\n\n- For goods traded or exchanged among inhabitants of the bordering countries: Inspection shall be conducted only in the cases where\nit is found, through supervision, that the goods value may exceed the tax-exempt quota or there are smuggled goods' Regarding the\nsupervision of the number of exchanging or trading times a day, to detect the subjects that abuse the goods exchange or trade to\nearn illicit profits mainly through supervision without having to open monitoring books."
+      }
+    ],
+    "topics": [
+      "tax_law"
+    ],
+    "topics_details": [
+      {
+        "id": "tax_law",
+        "label_zh": "税法",
+        "label_en": "Tax Law",
+        "label_pt": "Direito Fiscal",
+        "score": 13.5,
+        "matched_keywords": [
+          "tax"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2003-11-24",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_011.txt",
+    "source_start": 3189,
+    "source_end": 7594,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "VN_Q_252_2003_ART_004",
+    "jurisdiction": "越南",
+    "law_id": "VN_Q_252_2003",
+    "law_name": "Guiding The Customs Procedures, The Regime Of Customs Inspection And Supervision And The Tax Policies For Goods Traded Across Borders With The Bordering Countries Under The Prime Minister'S Decision N",
+    "law_name_original": "Guiding The Customs Procedures, The Regime Of Customs Inspection And Supervision And The Tax Policies For Goods Traded Across Borders With The Bordering Countries Under The Prime Minister'S Decision N",
+    "law_type": "Q",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "4. Customs procedures for transport means on exit/entry through land border gates:\n\n4.1. At the checkpoints close to the borders:\n\na/ For vehicles on entry:\n\na1. Responsibilities of drivers:\n\n- To stop vehicles at the designated places at the border gates, produce papers and let the customs officers check their vehicles\nfor recording the results in the monitoring books.\n\n- To sign for certification in the customs' monitoring books.\n\na2. Responsibilities of customs offices:\n\n- To inspect vehicles and vehicle papers produced by drivers and record the results in the monitoring books.\n\n- To supervise vehicles on entry.\n\nb/ For vehicles on exit:\n\nb1. Responsibilities of drivers: To produce the declarations on the vehicles on exit and the export declarations (if the vehicles\ncarry export goods), if customs procedures have been carried out.\n\nb2. Responsibilities of customs offices:\n\n- To receive and check vehicles and papers produced by drivers and record the results in the monitoring books.\n\n- Through supervision, collection and receipt of other information related to the lots of export goods, if there are grounds to believe\nthat goods are smuggled or evade tax, to report such to the leaders of the customs sub-departments for directing the re-inspection\nin order to detect violations and handle them according to regulations.\n\n- To supervise vehicles and goods until they are actually exported across borders.\n\n4.2. At the offices for carrying out border-gate customs procedures:\n\nThe customs procedures for vehicles on exit, entry and in transit are as follows:\n\na/ Drivers shall have to declare and submit to the customs the following papers:\n\na1. For cars transporting goods on exit, entry or in transit:\n\n- The declaration on cars on exit/entry via land border gates (coded HQ/2002/01-PTVT, promulgated together with Decision No. 1473/2002/QD-TCHQ\nof May 24, 2002 of the General Director of Customs): 02 originals;\n\n- The declaration on the driver's exported or imported baggage (if the car runs outside the border-gate area): 01 original;\n\n- The list of passenger (if carrying passengers): 01 original;\n\n- To produce the permit (if any) as provided for by the land transport agreement between the Vietnamese Government and the Government\nof the bordering country.\n\na2. For foreign cars that enter into the Vietnamese border-gate area for delivery of import goods or receipt of export goods then\nreturn to their countries immediately on the same day and Vietnamese cars that go across the borders for delivery of export goods\nor receipt of import goods then return to Vietnam immediately on the same day, the above-said declaration and submission of papers\nshall not be required.\n\na3. For transport means temporarily imported for re-export or temporarily exported for re-import for a definite period prescribed\nin Article 52 of the Government's Decree No. 101/2001/ND-CP of December 31, 2001 and at Point 1, Part I of the Public Security Ministry's\nCircular No. 11/2003/TT-BCA (C11) of July 3, 2003, including tourist cars (small cars, passenger cars, passenger-cum-cargo cars),\nmotor vehicles, boats with or without motors, apart from submitting and producing the papers prescribed at Point a1 above, the drivers\nmust also submit to the customs one of the following papers:\n\n- The permit for temporary import for circulation, issued by the police agency: 01 original.\n\n- The permit issued by the provincial/municipal Customs Department (for vehicles temporarily exported for re-import not through the\nsame border gate): 01 original.\n\nb/ The customs shall have the following responsibilities:\n\n- To receive and check the customs dossiers submitted by drivers.\n\n- To compare the declarations with the actual vehicles and inspect the vehicles if having grounds to believe that the vehicles carry\nimport goods not declared to the customs.\n\n- Leaders of the border-gate Customs Sub-Departments shall inscribe their permission for vehicles to enter, exit or transit in the\ndeclarations on cars on exit/entry, coded HQ/2002/01-PTVT.\n\n- To return to drivers 01 original of the declaration on cars on exit/entry, coded HQ/2002/01-PTVT for use as proof when driving cars\nen route.\n\n- To record in the monitoring books and file in customs dossiers as prescribed.\n\nc/ The issuance of permits to Vietnamese vehicles temporarily exported for a definite period is effected as follows:\n\n- Where vehicles are temporarily exported and re-imported through the same border gate, the heads of the Customs Sub-Departments shall\ngive their permissions by inscribing directly on the drivers' entry/exit declarations.\n\n- Where vehicles are temporarily exported and re-imported not through the same border gate, the vehicle owners or drivers must make\nwritten requests (containing the name of the vehicle owner or driver, type, mark, serial numbers of the vehicle frame and engine,\nplate number, border gate of temporary export, border gate of re-import, time of temporary export, time of re-import) and send them\nto the directors of the Customs Departments of the provinces or cities where exist the border gates through which the vehicles are\ntemporarily exported for permission.\n\nA permit (coded GP/2002/02-PTVT, promulgated together with Decision No. 1473/2002/QD-TCHQ of May 24, 2002 of the General Director\nof Customs) shall be made in three copies, with 02 copies to be handed to the vehicle owner or driver for submission to the customs\nof the border gate of temporary export and the border gate of re-import, one each, and 01 copy to be filed at the permit-issuing\ncustoms. Such a permit shall be valid at the border gate of temporary export as well as the border gate of re-import\n\nIII. HANDLING OF VIOLATIONS AND ORGANIZATION OF IMPLEMENTATION",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "4. Customs procedures for transport means on exit/entry through land border gates:\n\n4.1. At the checkpoints close to the borders:\n\na/ For vehicles on entry:\n\na1. Responsibilities of drivers:\n\n- To stop vehicles at the designated places at the border gates, produce papers and let the customs officers check their vehicles\nfor recording the results in the monitoring books.\n\n- To sign for certification in the customs' monitoring books.\n\na2. Responsibilities of customs offices:\n\n- To inspect vehicles and vehicle papers produced by drivers and record the results in the monitoring books.\n\n- To supervise vehicles on entry.\n\nb/ For vehicles on exit:\n\nb1. Responsibilities of drivers: To produce the declarations on the vehicles on exit and the export declarations (if the vehicles\ncarry export goods), if customs procedures have been carried out.\n\nb2. Responsibilities of customs offices:\n\n- To receive and check vehicles and papers produced by drivers and record the results in the monitoring books.\n\n- Through supervision, collection and receipt of other information related to the lots of export goods, if there are grounds to believe\nthat goods are smuggled or evade tax, to report such to the leaders of the customs sub-departments for directing the re-inspection\nin order to detect violations and handle them according to regulations.\n\n- To supervise vehicles and goods until they are actually exported across borders.\n\n4.2. At the offices for carrying out border-gate customs procedures:\n\nThe customs procedures for vehicles on exit, entry and in transit are as follows:\n\na/ Drivers shall have to declare and submit to the customs the following papers:\n\na1. For cars transporting goods on exit, entry or in transit:\n\n- The declaration on cars on exit/entry via land border gates (coded HQ/2002/01-PTVT, promulgated together with Decision No. 1473/2002/QD-TCHQ\nof May 24, 2002 of the General Director of Customs): 02 originals;\n\n- The declaration on the driver's exported or imported baggage (if the car runs outside the border-gate area): 01 original;\n\n- The list of passenger (if carrying passengers): 01 original;\n\n- To produce the permit (if any) as provided for by the land transport agreement between the Vietnamese Government and the Government\nof the bordering country.\n\na2. For foreign cars that enter into the Vietnamese border-gate area for delivery of import goods or receipt of export goods then\nreturn to their countries immediately on the same day and Vietnamese cars that go across the borders for delivery of export goods\nor receipt of import goods then return to Vietnam immediately on the same day, the above-said declaration and submission of papers\nshall not be required.\n\na3. For transport means temporarily imported for re-export or temporarily exported for re-import for a definite period prescribed\nin Article 52 of the Government's Decree No. 101/2001/ND-CP of December 31, 2001 and at Point 1, Part I of the Public Security Ministry's\nCircular No. 11/2003/TT-BCA (C11) of July 3, 2003, including tourist cars (small cars, passenger cars, passenger-cum-cargo cars),\nmotor vehicles, boats with or without motors, apart from submitting and producing the papers prescribed at Point a1 above, the drivers\nmust also submit to the customs one of the following papers:\n\n- The permit for temporary import for circulation, issued by the police agency: 01 original.\n\n- The permit issued by the provincial/municipal Customs Department (for vehicles temporarily exported for re-import not through the\nsame border gate): 01 original.\n\nb/ The customs shall have the following responsibilities:\n\n- To receive and check the customs dossiers submitted by drivers.\n\n- To compare the declarations with the actual vehicles and inspect the vehicles if having grounds to believe that the vehicles carry\nimport goods not declared to the customs.\n\n- Leaders of the border-gate Customs Sub-Departments shall inscribe their permission for vehicles to enter, exit or transit in the\ndeclarations on cars on exit/entry, coded HQ/2002/01-PTVT.\n\n- To return to drivers 01 original of the declaration on cars on exit/entry, coded HQ/2002/01-PTVT for use as proof when driving cars\nen route.\n\n- To record in the monitoring books and file in customs dossiers as prescribed.\n\nc/ The issuance of permits to Vietnamese vehicles temporarily exported for a definite period is effected as follows:\n\n- Where vehicles are temporarily exported and re-imported through the same border gate, the heads of the Customs Sub-Departments shall\ngive their permissions by inscribing directly on the drivers' entry/exit declarations.\n\n- Where vehicles are temporarily exported and re-imported not through the same border gate, the vehicle owners or drivers must make\nwritten requests (containing the name of the vehicle owner or driver, type, mark, serial numbers of the vehicle frame and engine,\nplate number, border gate of temporary export, border gate of re-import, time of temporary export, time of re-import) and send them\nto the directors of the Customs Departments of the provinces or cities where exist the border gates through which the vehicles are\ntemporarily exported for permission.\n\nA permit (coded GP/2002/02-PTVT, promulgated together with Decision No. 1473/2002/QD-TCHQ of May 24, 2002 of the General Director\nof Customs) shall be made in three copies, with 02 copies to be handed to the vehicle owner or driver for submission to the customs\nof the border gate of temporary export and the border gate of re-import, one each, and 01 copy to be filed at the permit-issuing\ncustoms. Such a permit shall be valid at the border gate of temporary export as well as the border gate of re-import\n\nIII. HANDLING OF VIOLATIONS AND ORGANIZATION OF IMPLEMENTATION"
+      }
+    ],
+    "topics": [
+      "consumer_protection",
+      "legal_definitions",
+      "tax_law"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 7.5,
+        "matched_keywords": [
+          "return"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.0,
+        "matched_keywords": [
+          "means"
+        ]
+      },
+      {
+        "id": "tax_law",
+        "label_zh": "税法",
+        "label_en": "Tax Law",
+        "label_pt": "Direito Fiscal",
+        "score": 4.5,
+        "matched_keywords": [
+          "tax"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2003-11-24",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_VN_011.txt",
+    "source_start": 7596,
+    "source_end": 13343,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T19:43:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

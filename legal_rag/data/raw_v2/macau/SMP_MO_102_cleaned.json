@@ -1,0 +1,91 @@
+[
+  {
+    "doc_id": "MAC_REG_6_1999_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_REG_6_1999",
+    "law_name": null,
+    "law_name_original": null,
+    "law_type": "行政法規",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第 122/84/M 號法令第十五條的規定，作出本批示。\n一、許可與萬訊電腦科技有限公司訂立「電子政府基建整合\n方案（佰陸拾萬伍仟柒佰零貳元整），並分段支付如下：\n年 ...................................................................... $ 3,317,851.00\n年 ...................................................................... $ 3,317,851.00\n二、二零零三年之負擔由登錄於本年度澳門特別行政區財政\n預算第四十章「投資計劃」內經濟編號 07.12.00.00.02 、次項目 1.\n013.148.03 之撥款支付。\n三、二零零四年之負擔將由登錄於該年度澳門特別行政區財\n政預算之相關撥款支付。\n四、二零零三年財政年度在本批示第一款所訂金額下若計得\n結餘，可轉移至下一財政年度，但不得增加有關機關支付該項目\n的總撥款。\n二零零三年四月十五日行政長官\n何厚鏵運 輸 工 務 司 司 長 辦 公 室\n第 31/2003 號運輸工務司司長批示\n鑑於宇宙衛星通信服務有限公司申請中止附於五月三十一日\n第207/99/M號訓令關於《衛星管理的系統及服務》的第2/99 號准\n照；經聽取電信暨資訊科技發展辦公室的建議後；\n運輸工務司司長行使《澳門特別行政區基本法》第六十四條\n賦予的職權，並根據第6/1999 號行政法規第六條第一款（四）項",
+    "text_pt": "alínea 4) do n.º 1 do artigo 6.º do Regulamento Administrativo\ntiva n.º 30/2000, e da cláusula 10.2. da Licença n.º 2/99, anexa à\nPortaria n.º 207/99/M, de 31 de Maio, o Secretário para os Transportes e Obras Públicas manda:\n1. É suspensa, pelo prazo de um ano, a Licença n.º 2/99, para\nSistema e Serviços de Gestão de Satélite, anexa à Portaria",
+    "text_en": "",
+    "text_original_language": "zh-pt",
+    "word_count_zh": 351,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [],
+    "topics": [
+      "public_governance",
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 15.0,
+        "matched_keywords": [
+          "政府",
+          "行政",
+          "政府 (weak)",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "支付",
+          "支付 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2003-04-21",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_MO_102.txt",
+    "source_start": 17,
+    "source_end": 22,
+    "language_original": [
+      "zh",
+      "pt"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T14:53:28Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

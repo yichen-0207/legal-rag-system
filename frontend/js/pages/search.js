@@ -502,41 +502,56 @@ function renderSearchResults(container, results, query) {
             const lawId = metadata.law_id || item.law_id;
             if (!lawId) return;
 
+            // 展示分来自后端 match_score（真实向量余弦，0~1）。旧字段 similarity/score
+            // 是用 RRF 分反推的伪相似度（动态范围极小，几乎所有条款都是 0.50），
+            // 已不可用于展示；这里只认 match_score，缺失即 null（前端不显示百分比）。
+            const mscore = (item.match_score === undefined || item.match_score === null) ? null : item.match_score;
+
             if (!lawDict[lawId]) {
                 lawDict[lawId] = {
                     law_id: lawId,
                     title: metadata.title || item.title || '未知法规',
                     jurisdiction: metadata.jurisdiction || item.jurisdiction || '未知',
-                    max_score: item.similarity || item.score || 0,
+                    max_score: mscore,
                     clauses: []
                 };
             }
 
             const article = metadata.article_number || item.article_number || '条款';
             const content = item.content || '';
-            const score = item.similarity || item.score || 0;
 
             const existing = lawDict[lawId].clauses.find(function(c) { return c.article_number === article; });
             if (existing) {
                 // 同一条款可能既被语义命中、又被引用链补入（组件D）：保留得分高者，
                 // 标记跟随胜出项，避免直接命中的条款被误标成「引用补入」
-                if (score > existing.score) {
+                const exScore = (existing.match_score === null || existing.match_score === undefined) ? -1 : existing.match_score;
+                const newScore = (mscore === null) ? -1 : mscore;
+                if (newScore > exScore) {
                     existing.content = content;
-                    existing.score = score;
+                    existing.match_score = mscore;
                     existing.retrieval_hop = item.retrieval_hop;
                     existing.referenced_by = item.referenced_by;
+                    existing.cross_law = item.cross_law;
+                    existing.referenced_law_id = item.referenced_law_id;
+                    existing.referenced_law_name = item.referenced_law_name;
                 }
             } else {
                 lawDict[lawId].clauses.push({
                     article_number: article,
                     content: content,
-                    score: score,
+                    match_score: mscore,
                     retrieval_hop: item.retrieval_hop,
-                    referenced_by: item.referenced_by
+                    referenced_by: item.referenced_by,
+                    cross_law: item.cross_law,
+                    referenced_law_id: item.referenced_law_id,
+                    referenced_law_name: item.referenced_law_name
                 });
             }
 
-            if (score > lawDict[lawId].max_score) lawDict[lawId].max_score = score;
+            const curMax = lawDict[lawId].max_score;
+            if (mscore !== null && (curMax === null || curMax === undefined || mscore > curMax)) {
+                lawDict[lawId].max_score = mscore;
+            }
         });
         return Object.values(lawDict);
     }
@@ -568,28 +583,41 @@ function renderSearchResults(container, results, query) {
 
 function renderLawCard(law) {
     const lawId = law.law_id;
-    const maxScorePercent = Math.round(law.max_score * 100);
+    // 最高匹配度取该法规下条款 match_score 的最大值；全部缺失则不显示（旧实现用伪相似度，
+    // 恒为 50%，会产生「所有法规都是 50%」的误导）。
+    const hasMax = (law.max_score !== null && law.max_score !== undefined);
+    const maxScorePercent = hasMax ? Math.round(law.max_score * 100) : null;
     let scoreColor = '#d32f2f';
-    if (maxScorePercent >= 70) scoreColor = '#2e7d32';
-    else if (maxScorePercent >= 50) scoreColor = '#ed6c02';
+    if (hasMax) {
+        if (maxScorePercent >= 70) scoreColor = '#2e7d32';
+        else if (maxScorePercent >= 50) scoreColor = '#ed6c02';
+    }
 
     let html = '<div class="card">';
     html += '<h3 style="font-family:var(--font-serif);font-size:1.0625rem;font-weight:600;margin-bottom:0.5rem;">' + escapeHtml(law.title) + '</h3>';
     html += '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.75rem;">';
     html += '<span class="badge badge-info">' + escapeHtml(law.jurisdiction) + '</span>';
-    html += '<span style="font-size:0.75rem;color:' + scoreColor + ';font-weight:600;">最高匹配度 ' + maxScorePercent + '%</span>';
+    html += '<span style="font-size:0.75rem;color:' + scoreColor + ';font-weight:600;">' + (hasMax ? '最高匹配度 ' + maxScorePercent + '%' : '') + '</span>';
     html += '</div>';
 
-    // 条款列表
-    law.clauses.sort(function(a, b) { return b.score - a.score; });
+    // 条款列表：不再按前端分数重排 —— 后端返回顺序已是精排/融合后的最终顺序，
+    // 前端用无区分度的旧 score 重排反而会打乱它（tie 时依赖引擎稳定性，不可依赖）。
     law.clauses.forEach(function(clause) {
-        const cPercent = Math.round(clause.score * 100);
-        // retrieval_hop=2 表示该条由同法规引用链补入（组件D），此时 similarity 无意义，
+        const hasC = (clause.match_score !== null && clause.match_score !== undefined);
+        const cPercent = hasC ? Math.round(clause.match_score * 100) : null;
+        // retrieval_hop=2 表示该条由同法规引用链补入（组件D），此时无余弦分，
         // 故不显示匹配度，改标注它的引用来源，避免用户误以为 0% 是低相关命中
         const isRef = clause.retrieval_hop === 2 && clause.referenced_by;
+        // 跨法规引用（多跳 A）：来源条号属于另一部法规，必须带上法规名，
+        // 否则「引用自第 X 条」会被误读成本法规条号
+        let refLabel = '引用自第 ' + escapeHtml(clause.referenced_by) + ' 条';
+        if (clause.cross_law) {
+            const srcLaw = clause.referenced_law_name || clause.referenced_law_id || '其他法规';
+            refLabel = '引用自《' + escapeHtml(srcLaw) + '》第 ' + escapeHtml(clause.referenced_by) + ' 条';
+        }
         const meta = isRef
-            ? '<span class="badge badge-ref">引用自第 ' + escapeHtml(clause.referenced_by) + ' 条</span>'
-            : '<span style="color:var(--color-text-muted);font-weight:400;">(' + cPercent + '%)</span>';
+            ? '<span class="badge badge-ref">' + refLabel + '</span>'
+            : (hasC ? '<span style="color:var(--color-text-muted);font-weight:400;">(' + cPercent + '%)</span>' : '');
         html += '<div style="background:var(--color-bg);border-left:3px solid ' + (isRef ? 'var(--color-text-muted)' : 'var(--color-primary)') + ';padding:0.5rem 0.75rem;margin-bottom:0.5rem;font-size:0.8125rem;">';
         html += '<div style="font-weight:600;margin-bottom:0.25rem;">' + escapeHtml(clause.article_number) + ' ' + meta + '</div>';
         html += '<div style="color:var(--color-text-secondary);line-height:1.5;">' + escapeHtml(clause.content.substring(0, 200)) + (clause.content.length > 200 ? '...' : '') + '</div>';

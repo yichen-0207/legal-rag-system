@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-08-02T23:14:37",
-  "total_laws": 302,
+  "last_updated": "2026-10-13T04:24:02",
+  "total_laws": 305,
   "laws": [
     {
       "law_id": "HK_CAP_106",
@@ -13,18 +13,18 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 107,
-      "total_chunks": 151,
+      "total_chunks": 157,
       "topics": [
-        "电信",
         "金融服务",
-        "公共治理",
         "刑法",
-        "公司治理"
+        "公共治理",
+        "公司治理",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/hk/Cap 106_cleaned.json"
+      "source_file": "/app/data/raw_v2/hk/Cap 106_cleaned.json"
     },
     {
       "law_id": "HK_CAP_200",
@@ -36,21 +36,21 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 200,
-      "total_chunks": 229,
+      "total_chunks": 236,
       "topics": [
-        "金融服务",
-        "消费者保护",
-        "公共治理",
         "数据保护",
+        "金融服务",
         "刑法",
-        "知识产权",
+        "公共治理",
+        "消费者保护",
         "公司治理",
+        "知识产权",
         "电子交易"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/hk/Cap 200_cleaned.json"
+      "source_file": "/app/data/raw_v2/hk/Cap 200_cleaned.json"
     },
     {
       "law_id": "HK_CAP_362",
@@ -62,20 +62,20 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 70,
-      "total_chunks": 93,
+      "total_chunks": 96,
       "topics": [
-        "电信",
-        "金融服务",
-        "公共治理",
         "数据保护",
+        "金融服务",
         "刑法",
+        "公共治理",
         "公司治理",
-        "电子交易"
+        "电子交易",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/hk/Cap 362_cleaned.json"
+      "source_file": "/app/data/raw_v2/hk/Cap 362_cleaned.json"
     },
     {
       "law_id": "HK_CAP_486",
@@ -87,18 +87,18 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 125,
-      "total_chunks": 165,
+      "total_chunks": 171,
       "topics": [
-        "公共治理",
         "数据保护",
         "刑法",
+        "公共治理",
         "公司治理",
         "电子交易"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/hk/Cap 486_cleaned.json"
+      "source_file": "/app/data/raw_v2/hk/Cap 486_cleaned.json"
     },
     {
       "law_id": "HK_CAP_528",
@@ -110,22 +110,22 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 340,
-      "total_chunks": 465,
+      "total_chunks": 479,
       "topics": [
-        "电信",
-        "金融服务",
-        "消费者保护",
-        "公共治理",
         "数据保护",
+        "金融服务",
         "刑法",
-        "知识产权",
+        "公共治理",
+        "消费者保护",
         "公司治理",
-        "电子交易"
+        "知识产权",
+        "电子交易",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/hk/Cap 528_cleaned.json"
+      "source_file": "/app/data/raw_v2/hk/Cap 528_cleaned.json"
     },
     {
       "law_id": "HK_CAP_553",
@@ -137,19 +137,19 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 57,
-      "total_chunks": 79,
+      "total_chunks": 84,
       "topics": [
-        "金融服务",
-        "公共治理",
         "数据保护",
+        "金融服务",
         "刑法",
+        "公共治理",
         "公司治理",
         "电子交易"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/hk/Cap 553_cleaned.json"
+      "source_file": "/app/data/raw_v2/hk/Cap 553_cleaned.json"
     },
     {
       "law_id": "HK_CAP_584",
@@ -161,20 +161,20 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 119,
-      "total_chunks": 154,
+      "total_chunks": 160,
       "topics": [
-        "金融服务",
-        "公共治理",
         "数据保护",
+        "金融服务",
         "刑法",
-        "知识产权",
+        "公共治理",
         "公司治理",
+        "知识产权",
         "电子交易"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/hk/Cap 584_cleaned.json"
+      "source_file": "/app/data/raw_v2/hk/Cap 584_cleaned.json"
     },
     {
       "law_id": "HK_CAP_593",
@@ -186,16 +186,16 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 8,
-      "total_chunks": 54,
+      "total_chunks": 67,
       "topics": [
-        "垃圾信息控制",
         "公共治理",
-        "电信"
+        "电信",
+        "垃圾信息控制"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/hk/Cap 593_cleaned.json"
+      "source_file": "/app/data/raw_v2/hk/Cap 593_cleaned.json"
     },
     {
       "law_id": "JP_Constitution_1946_SMP_JP_001",
@@ -209,20 +209,20 @@
       "total_articles": 103,
       "total_chunks": 103,
       "topics": [
-        "金融服务",
-        "行政程序",
-        "公共治理",
-        "政府采购",
         "数据保护",
+        "金融服务",
+        "法律定义",
         "刑法",
+        "公共治理",
         "税法",
+        "政府采购",
         "联邦与州法律关系",
-        "法律定义"
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_001_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_001_cleaned.json"
     },
     {
       "law_id": "JP_Act_2003_SMP_JP_002",
@@ -234,21 +234,21 @@
       "effective_date": null,
       "publication_date": "2003-01-01",
       "total_articles": 184,
-      "total_chunks": 198,
+      "total_chunks": 206,
       "topics": [
+        "数据保护",
         "金融服务",
-        "行政程序",
+        "法律定义",
         "公共治理",
         "政府采购",
-        "数据保护",
         "薪酬福利",
         "联邦与州法律关系",
-        "法律定义"
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_002_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_002_cleaned.json"
     },
     {
       "law_id": "JP_Act_2009_SMP_JP_003",
@@ -262,14 +262,14 @@
       "total_articles": 57,
       "total_chunks": 61,
       "topics": [
-        "行政程序",
         "法律定义",
+        "行政程序",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_003_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_003_cleaned.json"
     },
     {
       "law_id": "JP_Act_2021_SMP_JP_004",
@@ -281,7 +281,7 @@
       "effective_date": null,
       "publication_date": "2021-01-01",
       "total_articles": 13,
-      "total_chunks": 14,
+      "total_chunks": 15,
       "topics": [
         "法律定义",
         "金融服务",
@@ -289,9 +289,9 @@
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_004_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_004_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_005",
@@ -308,9 +308,9 @@
         "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_005_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_005_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_006",
@@ -327,9 +327,9 @@
         "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_006_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_006_cleaned.json"
     },
     {
       "law_id": "JP_Act_2002_SMP_JP_007",
@@ -341,18 +341,18 @@
       "effective_date": null,
       "publication_date": "2002-01-01",
       "total_articles": 25,
-      "total_chunks": 34,
+      "total_chunks": 36,
       "topics": [
-        "电信",
-        "公共治理",
         "数据保护",
+        "法律定义",
+        "公共治理",
         "薪酬福利",
-        "法律定义"
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_007_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_007_cleaned.json"
     },
     {
       "law_id": "JP_Act_2016_SMP_JP_008",
@@ -366,16 +366,16 @@
       "total_articles": 19,
       "total_chunks": 20,
       "topics": [
-        "电信",
         "数据保护",
-        "网络安全",
         "人工智能",
-        "法律定义"
+        "法律定义",
+        "网络安全",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_008_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_008_cleaned.json"
     },
     {
       "law_id": "JP_Act_2021_SMP_JP_009",
@@ -392,9 +392,9 @@
         "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_009_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_009_cleaned.json"
     },
     {
       "law_id": "JP_Act_2022_SMP_JP_010",
@@ -406,18 +406,18 @@
       "effective_date": null,
       "publication_date": "2022-01-01",
       "total_articles": 15,
-      "total_chunks": 17,
+      "total_chunks": 18,
       "topics": [
         "金融服务",
+        "法律定义",
         "公共治理",
         "薪酬福利",
-        "联邦与州法律关系",
-        "法律定义"
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_010_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_010_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_011",
@@ -429,15 +429,15 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 5,
-      "total_chunks": 11,
+      "total_chunks": 12,
       "topics": [
         "刑法",
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_011_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_011_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_012",
@@ -449,17 +449,17 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 13,
-      "total_chunks": 13,
+      "total_chunks": 14,
       "topics": [
-        "电子交易",
-        "金融服务",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "电子交易",
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_012_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_012_cleaned.json"
     },
     {
       "law_id": "JP_Act_2021_SMP_JP_013",
@@ -471,21 +471,21 @@
       "effective_date": null,
       "publication_date": "2021-01-01",
       "total_articles": 40,
-      "total_chunks": 44,
+      "total_chunks": 51,
       "topics": [
-        "政府采购",
-        "网络安全",
-        "薪酬福利",
-        "知识产权",
-        "公司治理",
-        "国家安全",
         "法律定义",
+        "网络安全",
+        "国家安全",
+        "政府采购",
+        "薪酬福利",
+        "公司治理",
+        "知识产权",
         "电子交易"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_013_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_013_cleaned.json"
     },
     {
       "law_id": "JP_Act_1984_SMP_JP_014",
@@ -497,19 +497,19 @@
       "effective_date": null,
       "publication_date": "1984-01-01",
       "total_articles": 191,
-      "total_chunks": 214,
+      "total_chunks": 226,
       "topics": [
-        "电信",
+        "数据保护",
+        "法律定义",
         "公共治理",
         "政府采购",
-        "数据保护",
         "薪酬福利",
-        "法律定义"
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_014_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_014_cleaned.json"
     },
     {
       "law_id": "JP_Act_1950_SMP_JP_015",
@@ -521,23 +521,23 @@
       "effective_date": null,
       "publication_date": "1950-01-01",
       "total_articles": 193,
-      "total_chunks": 198,
+      "total_chunks": 200,
       "topics": [
-        "电信",
-        "金融服务",
-        "消费者保护",
-        "行政程序",
-        "公共治理",
-        "政府采购",
         "数据保护",
-        "薪酬福利",
+        "金融服务",
+        "法律定义",
+        "公共治理",
         "诉讼与争议",
-        "公司治理"
+        "政府采购",
+        "薪酬福利",
+        "消费者保护",
+        "公司治理",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_015_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_015_cleaned.json"
     },
     {
       "law_id": "JP_Act_2002_SMP_JP_016",
@@ -552,14 +552,14 @@
       "total_chunks": 35,
       "topics": [
         "数据保护",
-        "电信",
         "法律定义",
+        "电信",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_016_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_016_cleaned.json"
     },
     {
       "law_id": "JP_Act_2001_SMP_JP_017",
@@ -573,13 +573,13 @@
       "total_articles": 18,
       "total_chunks": 20,
       "topics": [
-        "电信",
-        "法律定义"
+        "法律定义",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_017_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_017_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_018",
@@ -593,14 +593,14 @@
       "total_articles": 13,
       "total_chunks": 14,
       "topics": [
-        "电信",
         "法律定义",
+        "电信",
         "薪酬福利"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_018_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_018_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_019",
@@ -614,13 +614,13 @@
       "total_articles": 7,
       "total_chunks": 8,
       "topics": [
-        "电信",
-        "法律定义"
+        "法律定义",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_019_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_019_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_020",
@@ -632,15 +632,15 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 15,
-      "total_chunks": 19,
+      "total_chunks": 20,
       "topics": [
         "薪酬福利",
         "网络安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_020_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_020_cleaned.json"
     },
     {
       "law_id": "JP_Act_1984_SMP_JP_021",
@@ -652,14 +652,14 @@
       "effective_date": null,
       "publication_date": "1984-01-01",
       "total_articles": 1,
-      "total_chunks": 6,
+      "total_chunks": 9,
       "topics": [
         "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_021_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_021_cleaned.json"
     },
     {
       "law_id": "JP_Act_2001_SMP_JP_022",
@@ -671,16 +671,16 @@
       "effective_date": null,
       "publication_date": "2001-01-01",
       "total_articles": 25,
-      "total_chunks": 27,
+      "total_chunks": 29,
       "topics": [
-        "诉讼与争议",
+        "法律定义",
         "薪酬福利",
-        "法律定义"
+        "诉讼与争议"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_022_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_022_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_023",
@@ -692,15 +692,15 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 52,
-      "total_chunks": 56,
+      "total_chunks": 59,
       "topics": [
-        "电信",
-        "法律定义"
+        "法律定义",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_023_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_023_cleaned.json"
     },
     {
       "law_id": "JP_Act_2005_SMP_JP_024",
@@ -712,17 +712,17 @@
       "effective_date": null,
       "publication_date": "2005-01-01",
       "total_articles": 26,
-      "total_chunks": 26,
+      "total_chunks": 27,
       "topics": [
-        "联邦与州法律关系",
-        "电信",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "电信",
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_024_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_024_cleaned.json"
     },
     {
       "law_id": "JP_Act_2015_SMP_JP_025",
@@ -734,20 +734,20 @@
       "effective_date": null,
       "publication_date": "2015-01-01",
       "total_articles": 44,
-      "total_chunks": 46,
+      "total_chunks": 47,
       "topics": [
-        "电信",
-        "行政程序",
-        "政府采购",
+        "法律定义",
         "刑法",
+        "政府采购",
         "薪酬福利",
         "公司治理",
-        "法律定义"
+        "电信",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_025_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_025_cleaned.json"
     },
     {
       "law_id": "JP_MinisterialOrdinance_0000_SMP_JP_026",
@@ -759,17 +759,17 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 43,
-      "total_chunks": 46,
+      "total_chunks": 50,
       "topics": [
         "法律定义",
+        "环境法",
         "电信",
-        "政府采购",
-        "环境法"
+        "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_026_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_026_cleaned.json"
     },
     {
       "law_id": "JP_Act_2009_SMP_JP_027",
@@ -781,23 +781,23 @@
       "effective_date": null,
       "publication_date": "2009-01-01",
       "total_articles": 118,
-      "total_chunks": 121,
+      "total_chunks": 125,
       "topics": [
-        "金融服务",
-        "消费者保护",
-        "行政程序",
-        "政府采购",
-        "网络安全",
         "数据保护",
+        "金融服务",
+        "法律定义",
         "诉讼与争议",
+        "网络安全",
+        "政府采购",
+        "消费者保护",
         "公司治理",
         "联邦与州法律关系",
-        "法律定义"
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_027_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_027_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_028",
@@ -811,13 +811,13 @@
       "total_articles": 8,
       "total_chunks": 8,
       "topics": [
-        "行政程序",
-        "金融服务"
+        "金融服务",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_028_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_028_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_029",
@@ -829,18 +829,18 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 88,
-      "total_chunks": 95,
+      "total_chunks": 102,
       "topics": [
-        "电信",
-        "金融服务",
         "数据保护",
+        "金融服务",
+        "法律定义",
         "公司治理",
-        "法律定义"
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_029_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_029_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_030",
@@ -854,14 +854,14 @@
       "total_articles": 15,
       "total_chunks": 16,
       "topics": [
+        "数据保护",
         "金融服务",
-        "政府采购",
-        "数据保护"
+        "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_030_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_030_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_031",
@@ -875,16 +875,16 @@
       "total_articles": 47,
       "total_chunks": 48,
       "topics": [
-        "金融服务",
-        "政府采购",
         "数据保护",
-        "公司治理",
-        "法律定义"
+        "金融服务",
+        "法律定义",
+        "政府采购",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_031_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_031_cleaned.json"
     },
     {
       "law_id": "JP_Act_2007_SMP_JP_032",
@@ -896,19 +896,19 @@
       "effective_date": null,
       "publication_date": "2007-01-01",
       "total_articles": 100,
-      "total_chunks": 102,
+      "total_chunks": 107,
       "topics": [
-        "金融服务",
-        "政府采购",
         "数据保护",
+        "金融服务",
+        "法律定义",
+        "政府采购",
         "公司治理",
-        "联邦与州法律关系",
-        "法律定义"
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_032_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_032_cleaned.json"
     },
     {
       "law_id": "JP_Act_1970_SMP_JP_033",
@@ -920,22 +920,22 @@
       "effective_date": null,
       "publication_date": "1970-01-01",
       "total_articles": 124,
-      "total_chunks": 137,
+      "total_chunks": 143,
       "topics": [
-        "电信",
-        "消费者保护",
-        "政府采购",
         "数据保护",
-        "薪酬福利",
+        "法律定义",
         "诉讼与争议",
-        "知识产权",
+        "政府采购",
+        "薪酬福利",
+        "消费者保护",
         "联邦与州法律关系",
-        "法律定义"
+        "知识产权",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_033_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_033_cleaned.json"
     },
     {
       "law_id": "JP_Act_1949_SMP_JP_034",
@@ -947,18 +947,18 @@
       "effective_date": null,
       "publication_date": "1949-01-01",
       "total_articles": 73,
-      "total_chunks": 81,
+      "total_chunks": 84,
       "topics": [
-        "电信",
         "金融服务",
-        "政府采购",
+        "法律定义",
         "刑法",
-        "法律定义"
+        "政府采购",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_034_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_034_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_035",
@@ -970,16 +970,16 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 27,
-      "total_chunks": 30,
+      "total_chunks": 31,
       "topics": [
         "法律定义",
         "金融服务",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_035_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_035_cleaned.json"
     },
     {
       "law_id": "JP_CabinetOrder_0000_SMP_JP_036",
@@ -996,9 +996,9 @@
         "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_036_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_036_cleaned.json"
     },
     {
       "law_id": "JP_Act_1950_SMP_JP_037",
@@ -1010,19 +1010,19 @@
       "effective_date": null,
       "publication_date": "1950-01-01",
       "total_articles": 82,
-      "total_chunks": 93,
+      "total_chunks": 97,
       "topics": [
         "金融服务",
+        "法律定义",
         "公共治理",
-        "政府采购",
         "税法",
-        "公司治理",
-        "法律定义"
+        "政府采购",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_037_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_037_cleaned.json"
     },
     {
       "law_id": "JP_Act_2000_SMP_JP_038",
@@ -1036,18 +1036,18 @@
       "total_articles": 47,
       "total_chunks": 48,
       "topics": [
-        "电信",
-        "政府采购",
         "数据保护",
+        "法律定义",
+        "政府采购",
         "薪酬福利",
         "联邦与州法律关系",
-        "法律定义",
-        "电子交易"
+        "电子交易",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_038_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_038_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_039",
@@ -1062,9 +1062,9 @@
       "total_chunks": 19,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_039_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_039_cleaned.json"
     },
     {
       "law_id": "JP_Act_2001_SMP_JP_040",
@@ -1076,15 +1076,15 @@
       "effective_date": null,
       "publication_date": "2001-01-01",
       "total_articles": 4,
-      "total_chunks": 4,
+      "total_chunks": 5,
       "topics": [
-        "消费者保护",
-        "法律定义"
+        "法律定义",
+        "消费者保护"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_040_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_040_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_041",
@@ -1099,9 +1099,9 @@
       "total_chunks": 6,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_041_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_041_cleaned.json"
     },
     {
       "law_id": "JP_Act_1952_SMP_JP_042",
@@ -1115,18 +1115,18 @@
       "total_articles": 41,
       "total_chunks": 44,
       "topics": [
-        "行政程序",
-        "公共治理",
         "数据保护",
+        "法律定义",
+        "公共治理",
         "刑法",
         "公司治理",
         "联邦与州法律关系",
-        "法律定义"
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_042_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_042_cleaned.json"
     },
     {
       "law_id": "JP_Act_0000_SMP_JP_043",
@@ -1141,9 +1141,9 @@
       "total_chunks": 5,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/japan/SMP_JP_043_cleaned.json"
+      "source_file": "/app/data/raw_v2/japan/SMP_JP_043_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_13_2019",
@@ -1161,9 +1161,9 @@
         "网络安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/MO_13196741_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/MO_13196741_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_10_2022",
@@ -1177,15 +1177,15 @@
       "total_articles": 30,
       "total_chunks": 30,
       "topics": [
-        "监控与通讯截取",
+        "电信与通讯",
         "电脑犯罪与刑事司法",
-        "隐私与个人资料保护",
-        "电信与通讯"
+        "监控与通讯截取",
+        "隐私与个人资料保护"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/MO_27359240_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/MO_27359240_cleaned.json"
     },
     {
       "law_id": "MAC_REG_35_2018",
@@ -1202,9 +1202,9 @@
         "电子交易与电子政务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/MO_43133073_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/MO_43133073_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_2_2006",
@@ -1223,9 +1223,9 @@
         "反洗钱与反恐融资"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/MO_52055967_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/MO_52055967_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_13_2023",
@@ -1243,9 +1243,9 @@
         "法律依据与同意"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/MO_67262985_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/MO_67262985_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_11_2009",
@@ -1262,9 +1262,9 @@
         "电脑犯罪与刑事司法"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/MO_67759175_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/MO_67759175_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_14_2001",
@@ -1281,9 +1281,9 @@
         "电信与通讯"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/MO_69264812_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/MO_69264812_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_5_2005",
@@ -1300,9 +1300,9 @@
         "电子交易与电子政务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/MO_69840790_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/MO_69840790_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_2_2020",
@@ -1319,9 +1319,9 @@
         "电子交易与电子政务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/MO_9596212_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/MO_9596212_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_9_2021",
@@ -1335,16 +1335,16 @@
       "total_articles": 86,
       "total_chunks": 87,
       "topics": [
-        "电信与通讯",
-        "隐私与个人资料保护",
-        "消费者保护",
+        "电脑犯罪与刑事司法",
         "监控与通讯截取",
-        "电脑犯罪与刑事司法"
+        "隐私与个人资料保护",
+        "电信与通讯",
+        "消费者保护"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/MO_96828572_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/MO_96828572_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_7_2003",
@@ -1363,9 +1363,9 @@
         "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_001_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_001_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_3_2010",
@@ -1379,15 +1379,15 @@
       "total_articles": 24,
       "total_chunks": 24,
       "topics": [
+        "数据保护",
         "刑法",
         "公共治理",
-        "国家安全",
-        "数据保护"
+        "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_002_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_002_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_6_2011",
@@ -1402,15 +1402,15 @@
       "total_chunks": 19,
       "topics": [
         "金融服务",
-        "公共治理",
         "刑法",
-        "公司治理",
-        "国家安全"
+        "公共治理",
+        "国家安全",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_003_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_003_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_9_2011",
@@ -1427,9 +1427,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_004_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_004_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_3_2001",
@@ -1443,17 +1443,17 @@
       "total_articles": 189,
       "total_chunks": 189,
       "topics": [
-        "电信",
-        "公共治理",
         "刑法",
+        "公共治理",
+        "国家安全",
         "薪酬福利",
         "公司治理",
-        "国家安全"
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_005_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_005_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_15_2017",
@@ -1467,14 +1467,14 @@
       "total_articles": 75,
       "total_chunks": 76,
       "topics": [
-        "消费者保护",
         "公共治理",
+        "消费者保护",
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_006_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_006_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_10_2012",
@@ -1488,13 +1488,13 @@
       "total_articles": 21,
       "total_chunks": 21,
       "topics": [
-        "公司治理",
-        "公共治理"
+        "公共治理",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_007_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_007_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_15_2019",
@@ -1508,16 +1508,16 @@
       "total_articles": 33,
       "total_chunks": 33,
       "topics": [
-        "金融服务",
-        "公共治理",
         "数据保护",
+        "金融服务",
         "刑法",
+        "公共治理",
         "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_008_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_008_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_20_2020",
@@ -1529,18 +1529,18 @@
       "effective_date": "2020-12-01",
       "publication_date": "2020-09-21",
       "total_articles": 109,
-      "total_chunks": 110,
+      "total_chunks": 111,
       "topics": [
-        "公共治理",
         "数据保护",
         "刑法",
-        "公司治理",
-        "国家安全"
+        "公共治理",
+        "国家安全",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_009_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_009_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_9_2002",
@@ -1555,13 +1555,13 @@
       "total_chunks": 23,
       "topics": [
         "刑法",
-        "公司治理",
-        "公共治理"
+        "公共治理",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_010_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_010_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_14_2009",
@@ -1575,16 +1575,16 @@
       "total_articles": 82,
       "total_chunks": 82,
       "topics": [
-        "电信",
         "金融服务",
         "公共治理",
         "薪酬福利",
-        "公司治理"
+        "公司治理",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_011_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_011_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_10_2011",
@@ -1596,16 +1596,16 @@
       "effective_date": "2011-10-01",
       "publication_date": "2011-08-29",
       "total_articles": 65,
-      "total_chunks": 65,
+      "total_chunks": 66,
       "topics": [
+        "数据保护",
         "公共治理",
-        "金融服务",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_012_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_012_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_5_2011",
@@ -1617,15 +1617,15 @@
       "effective_date": "2012-01-01",
       "publication_date": "2011-05-03",
       "total_articles": 40,
-      "total_chunks": 41,
+      "total_chunks": 43,
       "topics": [
-        "公司治理",
-        "公共治理"
+        "公共治理",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_013_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_013_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_3_2019",
@@ -1637,18 +1637,18 @@
       "effective_date": "2019-06-02",
       "publication_date": "2019-03-04",
       "total_articles": 43,
-      "total_chunks": 44,
+      "total_chunks": 45,
       "topics": [
-        "公共治理",
         "数据保护",
         "刑法",
-        "公司治理",
-        "国家安全"
+        "公共治理",
+        "国家安全",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_014_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_014_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_2_2009",
@@ -1666,9 +1666,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_015_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_015_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_9_2023",
@@ -1682,14 +1682,14 @@
       "total_articles": 23,
       "total_chunks": 23,
       "topics": [
-        "公司治理",
+        "数据保护",
         "公共治理",
-        "数据保护"
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_016_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_016_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_1_2001",
@@ -1708,9 +1708,9 @@
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_017_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_017_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_3_2004",
@@ -1724,16 +1724,16 @@
       "total_articles": 162,
       "total_chunks": 162,
       "topics": [
-        "公共治理",
         "刑法",
+        "公共治理",
+        "国家安全",
         "薪酬福利",
-        "公司治理",
-        "国家安全"
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_018_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_018_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_5_2022",
@@ -1752,9 +1752,9 @@
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_019_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_019_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_6_2021",
@@ -1768,15 +1768,15 @@
       "total_articles": 28,
       "total_chunks": 28,
       "topics": [
+        "数据保护",
         "刑法",
         "公共治理",
-        "金融服务",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_021_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_021_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_10_2000",
@@ -1790,16 +1790,16 @@
       "total_articles": 47,
       "total_chunks": 47,
       "topics": [
-        "公共治理",
         "刑法",
+        "公共治理",
+        "国家安全",
         "薪酬福利",
-        "公司治理",
-        "国家安全"
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_022_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_022_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_11_2020",
@@ -1813,16 +1813,16 @@
       "total_articles": 32,
       "total_chunks": 32,
       "topics": [
-        "公共治理",
-        "环境法",
         "数据保护",
         "刑法",
+        "公共治理",
+        "环境法",
         "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_023_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_023_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_2_2012",
@@ -1836,16 +1836,16 @@
       "total_articles": 30,
       "total_chunks": 30,
       "topics": [
-        "公共治理",
         "数据保护",
         "刑法",
+        "公共治理",
         "国家安全",
         "电子交易"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_024_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_024_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_9_2012",
@@ -1863,9 +1863,9 @@
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_025_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_025_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_7_2008",
@@ -1877,17 +1877,17 @@
       "effective_date": null,
       "publication_date": "2008-08-18",
       "total_articles": 96,
-      "total_chunks": 96,
+      "total_chunks": 97,
       "topics": [
-        "公司治理",
+        "数据保护",
         "公共治理",
         "金融服务",
-        "数据保护"
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_026_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_026_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_7_2017",
@@ -1901,16 +1901,16 @@
       "total_articles": 61,
       "total_chunks": 61,
       "topics": [
-        "金融服务",
-        "公共治理",
         "数据保护",
+        "金融服务",
         "刑法",
+        "公共治理",
         "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_027_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_027_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_4_2010",
@@ -1924,16 +1924,16 @@
       "total_articles": 81,
       "total_chunks": 81,
       "topics": [
-        "金融服务",
-        "公共治理",
         "数据保护",
+        "金融服务",
         "刑法",
+        "公共治理",
         "薪酬福利"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_028_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_028_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_12_2025",
@@ -1947,16 +1947,16 @@
       "total_articles": 73,
       "total_chunks": 80,
       "topics": [
+        "刑法",
         "公共治理",
         "环境法",
-        "刑法",
-        "知识产权",
-        "公司治理"
+        "公司治理",
+        "知识产权"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_029_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_029_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_5_2003",
@@ -1974,9 +1974,9 @@
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_033_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_033_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_11_2003",
@@ -1990,15 +1990,15 @@
       "total_articles": 36,
       "total_chunks": 36,
       "topics": [
+        "数据保护",
         "刑法",
         "公共治理",
-        "国家安全",
-        "数据保护"
+        "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_034_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_034_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_9_2004",
@@ -2010,16 +2010,16 @@
       "effective_date": "2004-08-17",
       "publication_date": "2004-08-16",
       "total_articles": 33,
-      "total_chunks": 33,
+      "total_chunks": 34,
       "topics": [
         "刑法",
         "公共治理",
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_035_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_035_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_7_2004",
@@ -2036,9 +2036,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_036_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_036_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_21_2009",
@@ -2057,9 +2057,9 @@
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_037_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_037_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_18_2024",
@@ -2071,18 +2071,18 @@
       "effective_date": "2024-12-01",
       "publication_date": "2024-10-28",
       "total_articles": 81,
-      "total_chunks": 99,
+      "total_chunks": 105,
       "topics": [
-        "公共治理",
         "数据保护",
         "刑法",
-        "公司治理",
-        "国家安全"
+        "公共治理",
+        "国家安全",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_043_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_043_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_5_2024",
@@ -2099,9 +2099,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_044_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_044_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_20_2023",
@@ -2118,9 +2118,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_045_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_045_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_23_2023",
@@ -2139,9 +2139,9 @@
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_046_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_046_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_13_2022",
@@ -2156,9 +2156,9 @@
       "total_chunks": 3,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_047_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_047_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_20_2021",
@@ -2173,9 +2173,9 @@
       "total_chunks": 2,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_049_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_049_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_14_2019",
@@ -2192,9 +2192,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_051_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_051_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_15_2018",
@@ -2211,9 +2211,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_052_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_052_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_18_2018",
@@ -2225,16 +2225,16 @@
       "effective_date": "2019-01-01",
       "publication_date": "2018-12-27",
       "total_articles": 44,
-      "total_chunks": 49,
+      "total_chunks": 51,
       "topics": [
         "刑法",
         "公共治理",
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_053_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_053_cleaned.json"
     },
     {
       "law_id": "MAC_REG_28_2009",
@@ -2251,9 +2251,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_054_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_054_cleaned.json"
     },
     {
       "law_id": "MAC_REG_35_2019",
@@ -2271,9 +2271,9 @@
         "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_055_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_055_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_16_2021",
@@ -2290,9 +2290,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_056_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_056_cleaned.json"
     },
     {
       "law_id": "MAC_REG_35_2020",
@@ -2312,9 +2312,9 @@
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_057_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_057_cleaned.json"
     },
     {
       "law_id": "MAC_REG_36_2020",
@@ -2333,9 +2333,9 @@
         "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_058_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_058_cleaned.json"
     },
     {
       "law_id": "MAC_REG_19_2021",
@@ -2349,15 +2349,15 @@
       "total_articles": 32,
       "total_chunks": 32,
       "topics": [
-        "公司治理",
+        "数据保护",
         "公共治理",
         "电信",
-        "数据保护"
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_059_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_059_cleaned.json"
     },
     {
       "law_id": "MAC_REG_47_2022",
@@ -2371,14 +2371,14 @@
       "total_articles": 18,
       "total_chunks": 18,
       "topics": [
+        "数据保护",
         "公共治理",
-        "国家安全",
-        "数据保护"
+        "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_060_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_060_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_17_2020",
@@ -2396,9 +2396,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_061_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_061_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_7_2023",
@@ -2410,15 +2410,15 @@
       "effective_date": "2025-12-02",
       "publication_date": "2025-12-01",
       "total_articles": 3,
-      "total_chunks": 24,
+      "total_chunks": 28,
       "topics": [
         "人工智能",
         "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_062_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_062_cleaned.json"
     },
     {
       "law_id": "MAC_REG_13_2024",
@@ -2432,14 +2432,14 @@
       "total_articles": 31,
       "total_chunks": 31,
       "topics": [
-        "公司治理",
+        "数据保护",
         "公共治理",
-        "数据保护"
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_064_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_064_cleaned.json"
     },
     {
       "law_id": "MAC_REG_13_2017",
@@ -2451,17 +2451,17 @@
       "effective_date": "2017-05-03",
       "publication_date": "2017-05-02",
       "total_articles": 13,
-      "total_chunks": 14,
+      "total_chunks": 15,
       "topics": [
-        "电信",
         "公共治理",
-        "薪酬福利",
-        "金融服务"
+        "金融服务",
+        "电信",
+        "薪酬福利"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_066_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_066_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_15_2021",
@@ -2475,13 +2475,13 @@
       "total_articles": 72,
       "total_chunks": 72,
       "topics": [
-        "公司治理",
-        "公共治理"
+        "公共治理",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_068_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_068_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_2_2023",
@@ -2493,17 +2493,17 @@
       "effective_date": "2023-11-01",
       "publication_date": "2023-03-13",
       "total_articles": 52,
-      "total_chunks": 54,
+      "total_chunks": 55,
       "topics": [
+        "数据保护",
         "刑法",
-        "公司治理",
         "公共治理",
-        "数据保护"
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_069_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_069_cleaned.json"
     },
     {
       "law_id": "MAC_REG_14_2017",
@@ -2520,9 +2520,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_070_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_070_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_8_2023",
@@ -2534,15 +2534,15 @@
       "effective_date": "2023-05-30",
       "publication_date": "2023-05-29",
       "total_articles": 16,
-      "total_chunks": 25,
+      "total_chunks": 26,
       "topics": [
         "刑法",
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_071_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_071_cleaned.json"
     },
     {
       "law_id": "MAC_REG_17_2008",
@@ -2560,9 +2560,9 @@
         "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_072_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_072_cleaned.json"
     },
     {
       "law_id": "MAC_REG_31_2021",
@@ -2580,9 +2580,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_073_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_073_cleaned.json"
     },
     {
       "law_id": "MAC_REG_38_2003",
@@ -2599,9 +2599,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_074_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_074_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_8_2005",
@@ -2615,16 +2615,16 @@
       "total_articles": 46,
       "total_chunks": 47,
       "topics": [
-        "金融服务",
-        "公共治理",
         "数据保护",
+        "金融服务",
         "刑法",
+        "公共治理",
         "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_075_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_075_cleaned.json"
     },
     {
       "law_id": "MAC_REG_39_2022",
@@ -2636,17 +2636,17 @@
       "effective_date": "2022-08-17",
       "publication_date": "2022-08-15",
       "total_articles": 378,
-      "total_chunks": 400,
+      "total_chunks": 408,
       "topics": [
-        "公司治理",
         "公共治理",
         "电信",
+        "公司治理",
         "环境法"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_076_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_076_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_2_2026",
@@ -2660,14 +2660,14 @@
       "total_articles": 20,
       "total_chunks": 20,
       "topics": [
+        "数据保护",
         "公共治理",
-        "国家安全",
-        "数据保护"
+        "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_078_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_078_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_14_2022",
@@ -2684,9 +2684,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_079_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_079_cleaned.json"
     },
     {
       "law_id": "MAC_REG_27_2015",
@@ -2704,9 +2704,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_080_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_080_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_15_2009",
@@ -2718,14 +2718,14 @@
       "effective_date": "2026-06-01",
       "publication_date": "2026-05-26",
       "total_articles": 30,
-      "total_chunks": 30,
+      "total_chunks": 31,
       "topics": [
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_082_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_082_cleaned.json"
     },
     {
       "law_id": "MAC_REG_7_2002",
@@ -2737,14 +2737,14 @@
       "effective_date": "2022-11-08",
       "publication_date": "2022-11-07",
       "total_articles": 1,
-      "total_chunks": 15,
+      "total_chunks": 18,
       "topics": [
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_083_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_083_cleaned.json"
     },
     {
       "law_id": "MAC_REG_26_2012",
@@ -2756,16 +2756,16 @@
       "effective_date": "2012-11-27",
       "publication_date": "2012-11-26",
       "total_articles": 48,
-      "total_chunks": 49,
+      "total_chunks": 50,
       "topics": [
-        "公司治理",
         "公共治理",
-        "金融服务"
+        "金融服务",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_084_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_084_cleaned.json"
     },
     {
       "law_id": "MAC_REG_41_2011",
@@ -2777,12 +2777,12 @@
       "effective_date": "2013-06-04",
       "publication_date": "2013-06-03",
       "total_articles": 1,
-      "total_chunks": 1,
+      "total_chunks": 2,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_085_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_085_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_13_2024",
@@ -2797,9 +2797,9 @@
       "total_chunks": 1,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_088_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_088_cleaned.json"
     },
     {
       "law_id": "MAC_REG_19_2022",
@@ -2813,14 +2813,14 @@
       "total_articles": 19,
       "total_chunks": 20,
       "topics": [
+        "数据保护",
         "公共治理",
-        "金融服务",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_090_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_090_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_5_2004",
@@ -2835,15 +2835,15 @@
       "total_chunks": 18,
       "topics": [
         "金融服务",
-        "公共治理",
         "刑法",
-        "公司治理",
-        "国家安全"
+        "公共治理",
+        "国家安全",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_091_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_091_cleaned.json"
     },
     {
       "law_id": "MAC_REG_24_2020",
@@ -2857,13 +2857,13 @@
       "total_articles": 25,
       "total_chunks": 25,
       "topics": [
-        "公共治理",
-        "数据保护"
+        "数据保护",
+        "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_092_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_092_cleaned.json"
     },
     {
       "law_id": "MAC_REG_13_2025",
@@ -2880,9 +2880,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_093_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_093_cleaned.json"
     },
     {
       "law_id": "MAC_REG_29_2016",
@@ -2894,18 +2894,18 @@
       "effective_date": "2017-01-01",
       "publication_date": "2016-12-19",
       "total_articles": 24,
-      "total_chunks": 29,
+      "total_chunks": 30,
       "topics": [
-        "电信",
         "金融服务",
         "公共治理",
         "公司治理",
-        "电子交易"
+        "电子交易",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_094_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_094_cleaned.json"
     },
     {
       "law_id": "MAC_REG_35_2003",
@@ -2923,9 +2923,9 @@
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_095_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_095_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_7_2024",
@@ -2939,17 +2939,17 @@
       "total_articles": 38,
       "total_chunks": 38,
       "topics": [
-        "金融服务",
-        "公共治理",
         "数据保护",
+        "金融服务",
         "刑法",
-        "公司治理",
-        "国家安全"
+        "公共治理",
+        "国家安全",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_097_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_097_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_2_1999",
@@ -2964,9 +2964,9 @@
       "total_chunks": 1,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_099_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_099_cleaned.json"
     },
     {
       "law_id": "MAC_REG_15_2008",
@@ -2983,9 +2983,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_101_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_101_cleaned.json"
     },
     {
       "law_id": "MAC_REG_6_1999",
@@ -3002,9 +3002,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_102_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_102_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_3_2016",
@@ -3016,15 +3016,15 @@
       "effective_date": "2021-01-01",
       "publication_date": "2020-12-23",
       "total_articles": 9,
-      "total_chunks": 40,
+      "total_chunks": 49,
       "topics": [
         "公共治理",
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_107_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_107_cleaned.json"
     },
     {
       "law_id": "MAC_REG_21_2001",
@@ -3043,9 +3043,9 @@
         "薪酬福利"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_108_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_108_cleaned.json"
     },
     {
       "law_id": "MAC_REG_45_2020",
@@ -3059,14 +3059,14 @@
       "total_articles": 32,
       "total_chunks": 32,
       "topics": [
+        "数据保护",
         "知识产权",
-        "公共治理",
-        "数据保护"
+        "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_109_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_109_cleaned.json"
     },
     {
       "law_id": "MAC_REG_25_2017",
@@ -3083,9 +3083,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_110_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_110_cleaned.json"
     },
     {
       "law_id": "MAC_REG_25_2008",
@@ -3104,9 +3104,9 @@
         "薪酬福利"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_111_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_111_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_11_2001",
@@ -3125,9 +3125,9 @@
         "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_112_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_112_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_9_2000",
@@ -3141,14 +3141,14 @@
       "total_articles": 11,
       "total_chunks": 11,
       "topics": [
-        "公司治理",
         "公共治理",
-        "薪酬福利"
+        "薪酬福利",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_113_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_113_cleaned.json"
     },
     {
       "law_id": "MAC_REG_15_2003",
@@ -3166,9 +3166,9 @@
         "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_114_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_114_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_11_2021",
@@ -3180,19 +3180,19 @@
       "effective_date": "2022-01-01",
       "publication_date": "2021-07-26",
       "total_articles": 71,
-      "total_chunks": 72,
+      "total_chunks": 73,
       "topics": [
         "金融服务",
+        "刑法",
         "公共治理",
         "环境法",
-        "刑法",
-        "知识产权",
-        "公司治理"
+        "公司治理",
+        "知识产权"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_119_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_119_cleaned.json"
     },
     {
       "law_id": "MAC_REG_19_2013",
@@ -3206,14 +3206,14 @@
       "total_articles": 14,
       "total_chunks": 14,
       "topics": [
-        "公司治理",
         "公共治理",
-        "金融服务"
+        "金融服务",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_122_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_122_cleaned.json"
     },
     {
       "law_id": "MAC_REG_3_2008",
@@ -3230,9 +3230,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_123_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_123_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_5_2002",
@@ -3246,13 +3246,13 @@
       "total_articles": 43,
       "total_chunks": 43,
       "topics": [
-        "公司治理",
-        "公共治理"
+        "公共治理",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_124_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_124_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_5_2012",
@@ -3264,19 +3264,19 @@
       "effective_date": "2012-06-01",
       "publication_date": "2012-04-10",
       "total_articles": 220,
-      "total_chunks": 228,
+      "total_chunks": 229,
       "topics": [
-        "电信",
         "金融服务",
-        "公共治理",
         "刑法",
+        "公共治理",
+        "公司治理",
         "知识产权",
-        "公司治理"
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_125_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_125_cleaned.json"
     },
     {
       "law_id": "MAC_REG_33_2001",
@@ -3290,13 +3290,13 @@
       "total_articles": 21,
       "total_chunks": 22,
       "topics": [
-        "公司治理",
-        "公共治理"
+        "公共治理",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_130_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_130_cleaned.json"
     },
     {
       "law_id": "MAC_REG_39_2003",
@@ -3315,9 +3315,9 @@
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_133_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_133_cleaned.json"
     },
     {
       "law_id": "MAC_REG_25_2005",
@@ -3331,13 +3331,13 @@
       "total_articles": 15,
       "total_chunks": 15,
       "topics": [
-        "公司治理",
-        "公共治理"
+        "公共治理",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_134_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_134_cleaned.json"
     },
     {
       "law_id": "MAC_REG_24_2002",
@@ -3351,16 +3351,16 @@
       "total_articles": 30,
       "total_chunks": 30,
       "topics": [
-        "电信",
+        "数据保护",
         "金融服务",
         "公共治理",
-        "数据保护",
-        "公司治理"
+        "公司治理",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_138_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_138_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_5_2017",
@@ -3374,16 +3374,16 @@
       "total_articles": 23,
       "total_chunks": 23,
       "topics": [
+        "数据保护",
         "金融服务",
         "公共治理",
-        "数据保护",
-        "公司治理",
-        "国家安全"
+        "国家安全",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_139_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_139_cleaned.json"
     },
     {
       "law_id": "MAC_REG_44_2022",
@@ -3397,14 +3397,14 @@
       "total_articles": 19,
       "total_chunks": 19,
       "topics": [
+        "数据保护",
         "公共治理",
-        "金融服务",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_140_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_140_cleaned.json"
     },
     {
       "law_id": "MAC_REG_2_2007",
@@ -3421,9 +3421,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_141_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_141_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_21_2019",
@@ -3435,15 +3435,15 @@
       "effective_date": "2020-01-25",
       "publication_date": "2019-12-26",
       "total_articles": 10,
-      "total_chunks": 14,
+      "total_chunks": 15,
       "topics": [
-        "公司治理",
-        "公共治理"
+        "公共治理",
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_142_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_142_cleaned.json"
     },
     {
       "law_id": "MAC_LEI_11_2025",
@@ -3455,17 +3455,17 @@
       "effective_date": "2026-01-01",
       "publication_date": "2025-07-28",
       "total_articles": 154,
-      "total_chunks": 159,
+      "total_chunks": 160,
       "topics": [
-        "公司治理",
         "公共治理",
-        "国家安全",
-        "金融服务"
+        "金融服务",
+        "公司治理",
+        "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_143_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_143_cleaned.json"
     },
     {
       "law_id": "MAC_REG_30_2015",
@@ -3479,14 +3479,14 @@
       "total_articles": 27,
       "total_chunks": 27,
       "topics": [
-        "公司治理",
+        "数据保护",
         "公共治理",
-        "数据保护"
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_146_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_146_cleaned.json"
     },
     {
       "law_id": "MAC_REG_19_2016",
@@ -3503,9 +3503,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_148_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_148_cleaned.json"
     },
     {
       "law_id": "MAC_REG_15_2006",
@@ -3519,15 +3519,15 @@
       "total_articles": 32,
       "total_chunks": 32,
       "topics": [
-        "公司治理",
         "公共治理",
+        "金融服务",
         "薪酬福利",
-        "金融服务"
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_149_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_149_cleaned.json"
     },
     {
       "law_id": "MAC_REG_14_2005",
@@ -3544,9 +3544,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_152_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_152_cleaned.json"
     },
     {
       "law_id": "MAC_REG_20_2016",
@@ -3563,9 +3563,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/macau/SMP_MO_153_cleaned.json"
+      "source_file": "/app/data/raw_v2/macau/SMP_MO_153_cleaned.json"
     },
     {
       "law_id": "MY_ACT_322_1985",
@@ -3577,17 +3577,17 @@
       "effective_date": "1987-01-01",
       "publication_date": "1985-09-12",
       "total_articles": 9,
-      "total_chunks": 21,
+      "total_chunks": 24,
       "topics": [
-        "公司治理",
         "电信",
-        "金融服务",
-        "薪酬福利"
+        "薪酬福利",
+        "公司治理",
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/malaysia/Act 322 - Telecommunication Services (Successor Company) Act_cleaned.json"
+      "source_file": "/app/data/raw_v2/malaysia/Act 322 - Telecommunication Services (Successor Company) Act_cleaned.json"
     },
     {
       "law_id": "MY_ACT_709_2010",
@@ -3599,19 +3599,19 @@
       "effective_date": "2013-11-15",
       "publication_date": "2010-06-10",
       "total_articles": 141,
-      "total_chunks": 224,
+      "total_chunks": 250,
       "topics": [
-        "金融服务",
-        "行政程序",
         "数据保护",
+        "金融服务",
         "刑法",
+        "法律定义",
         "薪酬福利",
-        "法律定义"
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/malaysia/Act 709 ori_cleaned.json"
+      "source_file": "/app/data/raw_v2/malaysia/Act 709 ori_cleaned.json"
     },
     {
       "law_id": "MY_ACT_854_2024",
@@ -3623,20 +3623,20 @@
       "effective_date": "2024-08-26",
       "publication_date": "2024-06-26",
       "total_articles": 63,
-      "total_chunks": 122,
+      "total_chunks": 132,
       "topics": [
-        "金融服务",
-        "行政程序",
-        "政府采购",
-        "网络安全",
-        "刑法",
         "数据保护",
-        "法律定义"
+        "金融服务",
+        "法律定义",
+        "刑法",
+        "网络安全",
+        "政府采购",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/malaysia/Act 854_cleaned.json"
+      "source_file": "/app/data/raw_v2/malaysia/Act 854_cleaned.json"
     },
     {
       "law_id": "SG_ACT_24_1990",
@@ -3650,15 +3650,15 @@
       "total_articles": 24,
       "total_chunks": 24,
       "topics": [
-        "电子交易",
-        "行政程序",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "电子交易",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_14965974_Agency_For_Science_Technology_And_Research_Act_1990_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_14965974_Agency_For_Science_Technology_And_Research_Act_1990_cleaned.json"
     },
     {
       "law_id": "SG_ACT_1_2021",
@@ -3669,15 +3669,15 @@
       "passing_date": "2021-12-31",
       "effective_date": "2021-12-31",
       "publication_date": null,
-      "total_articles": 2,
-      "total_chunks": 33,
+      "total_articles": 6,
+      "total_chunks": 108,
       "topics": [
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_17345705_Payment_Services_Act_2019_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_17345705_Payment_Services_Act_2019_cleaned.json"
     },
     {
       "law_id": "SG_ACT_18_2022",
@@ -3688,15 +3688,15 @@
       "passing_date": "2022-06-30",
       "effective_date": "2022-06-30",
       "publication_date": null,
-      "total_articles": 1,
-      "total_chunks": 8,
+      "total_articles": 3,
+      "total_chunks": 20,
       "topics": [
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_19582447_Financial_Services_And_Markets_Act_2022_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_19582447_Financial_Services_And_Markets_Act_2022_cleaned.json"
     },
     {
       "law_id": "SG_ACT_9_2018",
@@ -3714,9 +3714,9 @@
         "网络安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_21512322_Cybersecurity_Act_2018_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_21512322_Cybersecurity_Act_2018_cleaned.json"
     },
     {
       "law_id": "SG_ACT_37_2001",
@@ -3731,9 +3731,9 @@
       "total_chunks": 2,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_26490693_Arbitration_Act_2001_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_26490693_Arbitration_Act_2001_cleaned.json"
     },
     {
       "law_id": "SG_ACT_22_2021",
@@ -3747,16 +3747,16 @@
       "total_articles": 93,
       "total_chunks": 93,
       "topics": [
-        "电信",
         "金融服务",
         "公共治理",
         "知识产权",
-        "电子交易"
+        "电子交易",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_28464745_Copyright_Act_2021_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_28464745_Copyright_Act_2021_cleaned.json"
     },
     {
       "law_id": "SG_ACT_27_2003",
@@ -3773,9 +3773,9 @@
         "消费者保护"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_29949437_Consumer_Protection_(Fair_Trading)_Act_2003_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_29949437_Consumer_Protection_(Fair_Trading)_Act_2003_cleaned.json"
     },
     {
       "law_id": "SG_ACT_22_2016",
@@ -3783,18 +3783,19 @@
       "law_name_original": "",
       "jurisdiction": "新加坡",
       "law_type": "",
-      "passing_date": "2021-12-31",
-      "effective_date": "2021-12-31",
+      "passing_date": "2012-10-15",
+      "effective_date": "2013-01-02",
       "publication_date": null,
-      "total_articles": 1,
-      "total_chunks": 17,
+      "total_articles": 4,
+      "total_chunks": 36,
       "topics": [
-        "法律定义"
+        "数据保护",
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_30981088_Personal_Data_Protection_Act_2012_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_30981088_Personal_Data_Protection_Act_2012_cleaned.json"
     },
     {
       "law_id": "SG_32173551",
@@ -3808,34 +3809,14 @@
       "total_articles": 10,
       "total_chunks": 10,
       "topics": [
+        "法律定义",
         "刑法",
-        "税法",
-        "法律定义"
+        "税法"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_32173551_Appraisers_Act_1906_cleaned.json"
-    },
-    {
-      "law_id": "SG_ACT_This_Act_is_the_Pers_2012",
-      "law_name_zh": "Personal Data Protection Act 2012",
-      "law_name_original": "",
-      "jurisdiction": "新加坡",
-      "law_type": "",
-      "passing_date": "2012-10-15",
-      "effective_date": "2013-01-02",
-      "publication_date": null,
-      "total_articles": 4,
-      "total_chunks": 31,
-      "topics": [
-        "金融服务",
-        "数据保护"
-      ],
-      "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
-      "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_36164195_Personal_Data_Protection_Act_2012_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_32173551_Appraisers_Act_1906_cleaned.json"
     },
     {
       "law_id": "SG_ACT_4_2024",
@@ -3849,33 +3830,14 @@
       "total_articles": 8,
       "total_chunks": 8,
       "topics": [
-        "公共治理",
         "法律定义",
+        "公共治理",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_37727739_Administration_Of_Muslim_Law_Act_1966_cleaned.json"
-    },
-    {
-      "law_id": "SG_ACT_This_Act_is_the_Fina_2022",
-      "law_name_zh": "Financial Services and Markets Act 2022",
-      "law_name_original": "",
-      "jurisdiction": "新加坡",
-      "law_type": "",
-      "passing_date": "2022-04-05",
-      "effective_date": "2022-06-30",
-      "publication_date": null,
-      "total_articles": 2,
-      "total_chunks": 10,
-      "topics": [
-        "金融服务"
-      ],
-      "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
-      "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_38989252_Financial_Services_and_Markets_Act_2022_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_37727739_Administration_Of_Muslim_Law_Act_1966_cleaned.json"
     },
     {
       "law_id": "SG_ACT_19_1993",
@@ -3890,9 +3852,9 @@
       "total_chunks": 1,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_43332705_Computer_Misuse_Act_1993_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_43332705_Computer_Misuse_Act_1993_cleaned.json"
     },
     {
       "law_id": "SG_ACT_4_2004",
@@ -3906,15 +3868,15 @@
       "total_articles": 30,
       "total_chunks": 30,
       "topics": [
+        "法律定义",
         "行政程序",
         "公司治理",
-        "法律定义",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_45028209_Accountants_Act_2004_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_45028209_Accountants_Act_2004_cleaned.json"
     },
     {
       "law_id": "SG_46597933",
@@ -3931,9 +3893,9 @@
         "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_46597933_Apportionment_Of_Rents_Act_1909_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_46597933_Apportionment_Of_Rents_Act_1909_cleaned.json"
     },
     {
       "law_id": "SG_ACT_1_2011",
@@ -3950,9 +3912,9 @@
         "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_48219239_Allied_Health_Professions_Act_2011_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_48219239_Allied_Health_Professions_Act_2011_cleaned.json"
     },
     {
       "law_id": "SG_ACT_39_2007",
@@ -3966,13 +3928,13 @@
       "total_articles": 12,
       "total_chunks": 12,
       "topics": [
-        "行政程序",
-        "法律定义"
+        "法律定义",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_53639804_Accounting_Standards_Act_2007_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_53639804_Accounting_Standards_Act_2007_cleaned.json"
     },
     {
       "law_id": "SG_ACT_43_1999",
@@ -3991,9 +3953,9 @@
         "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_53980617_Telecommunications_Act_1999_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_53980617_Telecommunications_Act_1999_cleaned.json"
     },
     {
       "law_id": "SG_ACT_20_2022",
@@ -4007,16 +3969,16 @@
       "total_articles": 82,
       "total_chunks": 82,
       "topics": [
-        "金融服务",
         "数据保护",
+        "金融服务",
+        "法律定义",
         "刑法",
-        "薪酬福利",
-        "法律定义"
+        "薪酬福利"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_56204791_Adoption_Of_Children_Act_2022_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_56204791_Adoption_Of_Children_Act_2022_cleaned.json"
     },
     {
       "law_id": "SG_ACT_40_2020",
@@ -4027,15 +3989,18 @@
       "passing_date": "2021-12-31",
       "effective_date": "2021-12-31",
       "publication_date": null,
-      "total_articles": 1,
-      "total_chunks": 14,
+      "total_articles": 9,
+      "total_chunks": 35,
       "topics": [
-        "法律定义"
+        "法律定义",
+        "知识产权",
+        "人工智能",
+        "垃圾信息控制"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_57922111_Spam_Control_Act_2007_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_57922111_Spam_Control_Act_2007_cleaned.json"
     },
     {
       "law_id": "SG_60572625",
@@ -4053,9 +4018,9 @@
         "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_60572625_Apportionment_Act_1928_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_60572625_Apportionment_Act_1928_cleaned.json"
     },
     {
       "law_id": "SG_ACT_6_2011",
@@ -4070,9 +4035,9 @@
       "total_chunks": 2,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_64792220_Amusement_Rides_Safety_Act_2011_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_64792220_Amusement_Rides_Safety_Act_2011_cleaned.json"
     },
     {
       "law_id": "SG_ACT_18_1968",
@@ -4089,9 +4054,9 @@
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_67178978_Arbitration_(International_Investment_Disputes)_Act_1968_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_67178978_Arbitration_(International_Investment_Disputes)_Act_1968_cleaned.json"
     },
     {
       "law_id": "SG_ACT_19_2016",
@@ -4108,9 +4073,9 @@
         "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_70630257_Administration_Of_Justice_(Protection)_Act_2016_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_70630257_Administration_Of_Justice_(Protection)_Act_2016_cleaned.json"
     },
     {
       "law_id": "SG_ACT_16_1996",
@@ -4127,9 +4092,9 @@
         "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_70760218_Advance_Medical_Directive_Act_1996_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_70760218_Advance_Medical_Directive_Act_1996_cleaned.json"
     },
     {
       "law_id": "SG_ACT_3_2004",
@@ -4144,9 +4109,9 @@
       "total_chunks": 2,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_72176540_Accounting_And_Corporate_Regulatory_Authority_Act_2004_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_72176540_Accounting_And_Corporate_Regulatory_Authority_Act_2004_cleaned.json"
     },
     {
       "law_id": "SG_ACT_5_2025",
@@ -4158,14 +4123,14 @@
       "effective_date": "2021-12-31",
       "publication_date": null,
       "total_articles": 1,
-      "total_chunks": 32,
+      "total_chunks": 40,
       "topics": [
         "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_74936235_Interpretation_Act_1965_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_74936235_Interpretation_Act_1965_cleaned.json"
     },
     {
       "law_id": "SG_ACT_35_1993",
@@ -4180,9 +4145,9 @@
       "total_chunks": 7,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_79974406_Application_Of_English_Law_Act_1993_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_79974406_Application_Of_English_Law_Act_1993_cleaned.json"
     },
     {
       "law_id": "SG_ACT_16_2010",
@@ -4196,13 +4161,13 @@
       "total_articles": 11,
       "total_chunks": 11,
       "topics": [
-        "数据管理",
-        "数据保护"
+        "数据保护",
+        "数据管理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_84571303_Electronic_Transactions_Act_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_84571303_Electronic_Transactions_Act_2010_cleaned.json"
     },
     {
       "law_id": "SG_ACT_38_2020",
@@ -4219,9 +4184,9 @@
         "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_88662471_Apostille_Act_2020_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_88662471_Apostille_Act_2020_cleaned.json"
     },
     {
       "law_id": "SG_ACT_3_2017",
@@ -4238,30 +4203,9 @@
         "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_93084070_Active_Mobility_Act_2017_cleaned.json"
-    },
-    {
-      "law_id": "SG_ACT_This_Act_is_the_Spam_2007",
-      "law_name_zh": "Spam Control Act 2007",
-      "law_name_original": "",
-      "jurisdiction": "新加坡",
-      "law_type": "",
-      "passing_date": "2007-04-12",
-      "effective_date": "2007-06-15",
-      "publication_date": null,
-      "total_articles": 8,
-      "total_chunks": 17,
-      "topics": [
-        "知识产权",
-        "垃圾信息控制",
-        "人工智能"
-      ],
-      "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
-      "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_93567056_Spam_Control_Act_2007_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_93084070_Active_Mobility_Act_2017_cleaned.json"
     },
     {
       "law_id": "SG_ACT_11_1966",
@@ -4276,9 +4220,9 @@
       "total_chunks": 1,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_98198236_Air_Navigation_Act_1966_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_98198236_Air_Navigation_Act_1966_cleaned.json"
     },
     {
       "law_id": "SG_99370406",
@@ -4293,28 +4237,9 @@
       "total_chunks": 1,
       "topics": [],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_99370406_Animals_And_Birds_Act_1965_cleaned.json"
-    },
-    {
-      "law_id": "SG_ACT_This_Act_is_the_Paym_2019",
-      "law_name_zh": "Payment Services Act 2019",
-      "law_name_original": "",
-      "jurisdiction": "新加坡",
-      "law_type": "",
-      "passing_date": "2019-01-14",
-      "effective_date": "2020-01-28",
-      "publication_date": null,
-      "total_articles": 4,
-      "total_chunks": 57,
-      "topics": [
-        "金融服务"
-      ],
-      "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
-      "status": "active",
-      "source_file": "/app/data/raw/singapore/SG_9954904_Payment_Services_Act_2019_cleaned.json"
+      "source_file": "/app/data/raw_v2/singapore/SG_99370406_Animals_And_Birds_Act_1965_cleaned.json"
     },
     {
       "law_id": "TH_ACT_1976",
@@ -4328,20 +4253,20 @@
       "total_articles": 51,
       "total_chunks": 57,
       "topics": [
-        "电信",
+        "数据保护",
         "金融服务",
-        "行政程序",
+        "法律定义",
         "公共治理",
         "政府采购",
-        "数据保护",
         "薪酬福利",
         "公司治理",
-        "法律定义"
+        "电信",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_001_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_001_cleaned.json"
     },
     {
       "law_id": "TH_ACT_1979",
@@ -4353,21 +4278,21 @@
       "effective_date": "1979-05-01",
       "publication_date": "1979-04-30",
       "total_articles": 60,
-      "total_chunks": 83,
+      "total_chunks": 86,
       "topics": [
-        "金融服务",
-        "消费者保护",
-        "行政程序",
         "数据保护",
+        "金融服务",
+        "法律定义",
         "刑法",
-        "知识产权",
+        "消费者保护",
         "公司治理",
-        "法律定义"
+        "知识产权",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_002_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_002_cleaned.json"
     },
     {
       "law_id": "TH_ACT_1960",
@@ -4381,14 +4306,14 @@
       "total_articles": 15,
       "total_chunks": 17,
       "topics": [
-        "公共治理",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "公共治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_004_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_004_cleaned.json"
     },
     {
       "law_id": "TH_ACT_1999",
@@ -4400,19 +4325,19 @@
       "effective_date": "1999-08-19",
       "publication_date": "1999-04-21",
       "total_articles": 64,
-      "total_chunks": 85,
+      "total_chunks": 88,
       "topics": [
-        "金融服务",
-        "消费者保护",
-        "政府采购",
         "数据保护",
+        "金融服务",
         "刑法",
-        "薪酬福利"
+        "政府采购",
+        "薪酬福利",
+        "消费者保护"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_005_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_005_cleaned.json"
     },
     {
       "law_id": "TH_ACT_1997",
@@ -4424,18 +4349,18 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 43,
-      "total_chunks": 62,
+      "total_chunks": 63,
       "topics": [
-        "政府采购",
         "数据保护",
-        "国家安全",
         "法律定义",
+        "国家安全",
+        "政府采购",
         "电子交易"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_006_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_006_cleaned.json"
     },
     {
       "law_id": "TH_CONST_2007",
@@ -4447,23 +4372,23 @@
       "effective_date": "2007-08-24",
       "publication_date": "2007-08-24",
       "total_articles": 293,
-      "total_chunks": 476,
+      "total_chunks": 501,
       "topics": [
-        "公司治理",
-        "电信",
-        "金融服务",
-        "消费者保护",
-        "行政程序",
-        "公共治理",
-        "环境法",
-        "政府采购",
         "数据保护",
-        "刑法"
+        "金融服务",
+        "刑法",
+        "公共治理",
+        "法律定义",
+        "诉讼与争议",
+        "税法",
+        "国家安全",
+        "政府采购",
+        "环境法"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_007_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_007_cleaned.json"
     },
     {
       "law_id": "TH_ACT_1994",
@@ -4475,20 +4400,20 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 65,
-      "total_chunks": 101,
+      "total_chunks": 105,
       "topics": [
-        "电信",
-        "行政程序",
         "数据保护",
-        "刑法",
+        "法律定义",
         "诉讼与争议",
+        "刑法",
         "知识产权",
-        "法律定义"
+        "电信",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_009_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_009_cleaned.json"
     },
     {
       "law_id": "TH_ACT_1991",
@@ -4500,18 +4425,18 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 102,
-      "total_chunks": 160,
+      "total_chunks": 166,
       "topics": [
         "金融服务",
-        "政府采购",
         "刑法",
-        "知识产权",
-        "法律定义"
+        "法律定义",
+        "政府采购",
+        "知识产权"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_010_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_010_cleaned.json"
     },
     {
       "law_id": "TH_ACT_2002",
@@ -4523,22 +4448,22 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 36,
-      "total_chunks": 48,
+      "total_chunks": 50,
       "topics": [
-        "电信",
-        "行政程序",
         "数据保护",
+        "法律定义",
+        "诉讼与争议",
         "刑法",
         "薪酬福利",
-        "诉讼与争议",
-        "知识产权",
         "公司治理",
-        "法律定义"
+        "知识产权",
+        "电信",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_011_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_011_cleaned.json"
     },
     {
       "law_id": "TH_NOT_2022",
@@ -4550,14 +4475,14 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 1,
-      "total_chunks": 5,
+      "total_chunks": 6,
       "topics": [
         "知识产权"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_012_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_012_cleaned.json"
     },
     {
       "law_id": "TH_MIN_1999",
@@ -4569,15 +4494,15 @@
       "effective_date": null,
       "publication_date": "1999-09-24",
       "total_articles": 28,
-      "total_chunks": 40,
+      "total_chunks": 42,
       "topics": [
         "知识产权",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_013_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_013_cleaned.json"
     },
     {
       "law_id": "TH_MIN_1986",
@@ -4594,9 +4519,9 @@
         "知识产权"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_019_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_019_cleaned.json"
     },
     {
       "law_id": "TH_MIN_1997",
@@ -4608,14 +4533,14 @@
       "effective_date": null,
       "publication_date": "1997-02-14",
       "total_articles": 1,
-      "total_chunks": 6,
+      "total_chunks": 7,
       "topics": [
         "知识产权"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_021_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_021_cleaned.json"
     },
     {
       "law_id": "TH_ACT_1926",
@@ -4627,22 +4552,22 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 119,
-      "total_chunks": 193,
+      "total_chunks": 204,
       "topics": [
-        "金融服务",
-        "消费者保护",
-        "行政程序",
         "数据保护",
+        "金融服务",
+        "法律定义",
         "刑法",
-        "薪酬福利",
         "税法",
+        "消费者保护",
+        "薪酬福利",
         "联邦与州法律关系",
-        "法律定义"
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/thailand/SMP_TH_022_cleaned.json"
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_022_cleaned.json"
     },
     {
       "law_id": "US_CFR_T12_P1005_2011",
@@ -4654,18 +4579,18 @@
       "effective_date": "1981-03-30",
       "publication_date": "2011-12-27",
       "total_articles": 27,
-      "total_chunks": 414,
+      "total_chunks": 524,
       "topics": [
         "金融服务",
-        "消费者保护",
+        "法律定义",
         "薪酬福利",
-        "联邦与州法律关系",
-        "法律定义"
+        "消费者保护",
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T12_P1005_2011_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T12_P1005_2011_cleaned.json"
     },
     {
       "law_id": "US_CFR_T12_P1016_2011",
@@ -4677,16 +4602,16 @@
       "effective_date": "2011-12-21",
       "publication_date": "2011-12-21",
       "total_articles": 17,
-      "total_chunks": 181,
+      "total_chunks": 227,
       "topics": [
-        "金融服务",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T12_P1016_2011_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T12_P1016_2011_cleaned.json"
     },
     {
       "law_id": "US_CFR_T12_P1030_2011",
@@ -4698,18 +4623,18 @@
       "effective_date": "2011-12-21",
       "publication_date": "2011-12-21",
       "total_articles": 10,
-      "total_chunks": 53,
+      "total_chunks": 67,
       "topics": [
-        "金融服务",
         "数据保护",
+        "金融服务",
+        "法律定义",
         "薪酬福利",
-        "联邦与州法律关系",
-        "法律定义"
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T12_P1030_2011_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T12_P1030_2011_cleaned.json"
     },
     {
       "law_id": "US_CFR_T12_P1070_2013",
@@ -4721,23 +4646,23 @@
       "effective_date": "2013-02-15",
       "publication_date": "2013-02-15",
       "total_articles": 49,
-      "total_chunks": 197,
+      "total_chunks": 242,
       "topics": [
-        "金融服务",
-        "公共治理",
-        "政府采购",
         "数据保护",
+        "金融服务",
+        "法律定义",
         "刑法",
+        "公共治理",
         "诉讼与争议",
-        "薪酬福利",
-        "联邦与州法律关系",
         "国家安全",
-        "法律定义"
+        "政府采购",
+        "薪酬福利",
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T12_P1070_2013_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T12_P1070_2013_cleaned.json"
     },
     {
       "law_id": "US_CFR_T14_P1203_1979",
@@ -4749,20 +4674,20 @@
       "effective_date": "2026-05-27",
       "publication_date": "1979-06-18",
       "total_articles": 44,
-      "total_chunks": 90,
+      "total_chunks": 100,
       "topics": [
-        "行政程序",
-        "政府采购",
-        "网络安全",
         "信息分级",
         "知识产权与许可",
+        "网络安全",
         "国家安全",
-        "法规适用范围"
+        "政府采购",
+        "法规适用范围",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T14_P1203_1979_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T14_P1203_1979_cleaned.json"
     },
     {
       "law_id": "US_CFR_T15_P734_1996",
@@ -4774,18 +4699,18 @@
       "effective_date": "1996-03-25",
       "publication_date": "1996-03-25",
       "total_articles": 17,
-      "total_chunks": 176,
+      "total_chunks": 224,
       "topics": [
-        "政府采购",
-        "知识产权",
-        "联邦与州法律关系",
+        "法律定义",
         "国家安全",
-        "法律定义"
+        "政府采购",
+        "联邦与州法律关系",
+        "知识产权"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T15_P734_1996_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T15_P734_1996_cleaned.json"
     },
     {
       "law_id": "US_CFR_T16_P310_2010",
@@ -4797,20 +4722,20 @@
       "effective_date": "2010-08-10",
       "publication_date": "2010-08-10",
       "total_articles": 9,
-      "total_chunks": 105,
+      "total_chunks": 135,
       "topics": [
-        "金融服务",
-        "消费者保护",
-        "政府采购",
         "数据保护",
+        "金融服务",
+        "法律定义",
+        "政府采购",
         "薪酬福利",
-        "联邦与州法律关系",
-        "法律定义"
+        "消费者保护",
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T16_P310_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T16_P310_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T16_P312_2013",
@@ -4822,19 +4747,19 @@
       "effective_date": "2026-05-14",
       "publication_date": "2013-01-17",
       "total_articles": 12,
-      "total_chunks": 69,
+      "total_chunks": 82,
       "topics": [
-        "法规适用范围",
-        "网络安全",
         "数据保护",
         "联邦与州法律关系",
+        "法律定义",
         "数据管理",
-        "法律定义"
+        "网络安全",
+        "法规适用范围"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T16_P312_2013_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T16_P312_2013_cleaned.json"
     },
     {
       "law_id": "US_CFR_T16_P313_2000",
@@ -4846,16 +4771,16 @@
       "effective_date": "2000-05-24",
       "publication_date": "2000-05-24",
       "total_articles": 17,
-      "total_chunks": 131,
+      "total_chunks": 163,
       "topics": [
-        "金融服务",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T16_P313_2000_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T16_P313_2000_cleaned.json"
     },
     {
       "law_id": "US_CFR_T16_P314_2002",
@@ -4867,17 +4792,17 @@
       "effective_date": "2002-05-23",
       "publication_date": "2002-05-23",
       "total_articles": 6,
-      "total_chunks": 56,
+      "total_chunks": 69,
       "topics": [
-        "法律定义",
         "数据保护",
+        "法律定义",
         "金融服务",
         "网络安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T16_P314_2002_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T16_P314_2002_cleaned.json"
     },
     {
       "law_id": "US_CFR_T16_P315_2004",
@@ -4889,7 +4814,7 @@
       "effective_date": "2004-07-02",
       "publication_date": "2004-07-02",
       "total_articles": 11,
-      "total_chunks": 33,
+      "total_chunks": 39,
       "topics": [
         "金融服务",
         "法律定义",
@@ -4898,9 +4823,9 @@
         "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T16_P315_2004_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T16_P315_2004_cleaned.json"
     },
     {
       "law_id": "US_CFR_T16_P316_2008",
@@ -4912,18 +4837,18 @@
       "effective_date": "2026-05-14",
       "publication_date": "2008-05-21",
       "total_articles": 5,
-      "total_chunks": 13,
+      "total_chunks": 16,
       "topics": [
-        "垃圾信息控制",
-        "法规适用范围",
-        "薪酬福利",
         "联邦与州法律关系",
-        "法律定义"
+        "法律定义",
+        "薪酬福利",
+        "法规适用范围",
+        "垃圾信息控制"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T16_P316_2008_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T16_P316_2008_cleaned.json"
     },
     {
       "law_id": "US_CFR_T16_P317_2009",
@@ -4941,9 +4866,9 @@
         "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T16_P317_2009_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T16_P317_2009_cleaned.json"
     },
     {
       "law_id": "US_CFR_T16_P318_2009",
@@ -4955,16 +4880,16 @@
       "effective_date": "2009-08-25",
       "publication_date": "2009-08-25",
       "total_articles": 7,
-      "total_chunks": 28,
+      "total_chunks": 31,
       "topics": [
         "联邦与州法律关系",
         "法律定义",
         "数据保护"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T16_P318_2009_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T16_P318_2009_cleaned.json"
     },
     {
       "law_id": "US_CFR_T17_P140_1976",
@@ -4976,20 +4901,20 @@
       "effective_date": "1976-07-02",
       "publication_date": "1976-07-02",
       "total_articles": 36,
-      "total_chunks": 174,
+      "total_chunks": 215,
       "topics": [
-        "公共治理",
-        "政府采购",
         "数据保护",
+        "法律定义",
+        "公共治理",
         "刑法",
-        "薪酬福利",
         "国家安全",
-        "法律定义"
+        "政府采购",
+        "薪酬福利"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T17_P140_1976_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T17_P140_1976_cleaned.json"
     },
     {
       "law_id": "US_CFR_T17_P15",
@@ -5001,15 +4926,15 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 7,
-      "total_chunks": 48,
+      "total_chunks": 59,
       "topics": [
-        "法律定义",
-        "数据保护"
+        "数据保护",
+        "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T17_P15_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T17_P15_cleaned.json"
     },
     {
       "law_id": "US_CFR_T17_P1_1976",
@@ -5021,21 +4946,21 @@
       "effective_date": "1976-01-21",
       "publication_date": "1976-01-21",
       "total_articles": 63,
-      "total_chunks": 1177,
+      "total_chunks": 1510,
       "topics": [
-        "公司治理",
-        "金融服务",
-        "行政程序",
-        "政府采购",
         "数据保护",
-        "联邦与州法律关系",
+        "金融服务",
         "法律定义",
-        "电子交易"
+        "政府采购",
+        "公司治理",
+        "联邦与州法律关系",
+        "电子交易",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T17_P1_1976_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T17_P1_1976_cleaned.json"
     },
     {
       "law_id": "US_CFR_T17_P230_1992",
@@ -5047,22 +4972,22 @@
       "effective_date": "1992-08-13",
       "publication_date": "1992-08-13",
       "total_articles": 198,
-      "total_chunks": 1438,
+      "total_chunks": 1806,
       "topics": [
-        "电信",
+        "数据保护",
         "金融服务",
         "数字身份",
-        "行政程序",
+        "法律定义",
         "政府采购",
-        "数据保护",
         "公司治理",
         "联邦与州法律关系",
-        "法律定义"
+        "电信",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T17_P230_1992_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T17_P230_1992_cleaned.json"
     },
     {
       "law_id": "US_CFR_T17_P249_1999",
@@ -5074,17 +4999,17 @@
       "effective_date": "1999-11-10",
       "publication_date": "1999-11-10",
       "total_articles": 50,
-      "total_chunks": 100,
+      "total_chunks": 110,
       "topics": [
         "数据保护",
-        "公司治理",
         "金融服务",
+        "公司治理",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T17_P249_1999_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T17_P249_1999_cleaned.json"
     },
     {
       "law_id": "US_CFR_T17_P270",
@@ -5096,15 +5021,15 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 7,
-      "total_chunks": 121,
+      "total_chunks": 149,
       "topics": [
-        "金融服务",
-        "法律定义"
+        "法律定义",
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T17_P270_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T17_P270_cleaned.json"
     },
     {
       "law_id": "US_CFR_T17_P274_1968",
@@ -5116,16 +5041,16 @@
       "effective_date": "1968-12-20",
       "publication_date": "1968-12-20",
       "total_articles": 28,
-      "total_chunks": 36,
+      "total_chunks": 39,
       "topics": [
-        "公司治理",
+        "数据保护",
         "金融服务",
-        "数据保护"
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T17_P274_1968_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T17_P274_1968_cleaned.json"
     },
     {
       "law_id": "US_CFR_T17_P275",
@@ -5137,16 +5062,16 @@
       "effective_date": "2019-09-30",
       "publication_date": null,
       "total_articles": 18,
-      "total_chunks": 293,
+      "total_chunks": 370,
       "topics": [
-        "金融服务",
+        "法律定义",
         "薪酬福利",
-        "法律定义"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T17_P275_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T17_P275_cleaned.json"
     },
     {
       "law_id": "US_CFR_T17_P3_1980",
@@ -5158,20 +5083,20 @@
       "effective_date": "1980-12-05",
       "publication_date": "1980-12-05",
       "total_articles": 29,
-      "total_chunks": 333,
+      "total_chunks": 421,
       "topics": [
         "金融服务",
-        "消费者保护",
-        "政府采购",
+        "法律定义",
         "刑法",
-        "薪酬福利",
         "诉讼与争议",
-        "法律定义"
+        "政府采购",
+        "薪酬福利",
+        "消费者保护"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T17_P3_1980_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T17_P3_1980_cleaned.json"
     },
     {
       "law_id": "US_CFR_T17_P4_1981",
@@ -5183,19 +5108,19 @@
       "effective_date": "1981-05-08",
       "publication_date": "1981-05-08",
       "total_articles": 25,
-      "total_chunks": 392,
+      "total_chunks": 487,
       "topics": [
-        "电信",
         "金融服务",
-        "消费者保护",
+        "法律定义",
         "政府采购",
+        "消费者保护",
         "联邦与州法律关系",
-        "法律定义"
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T17_P4_1981_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T17_P4_1981_cleaned.json"
     },
     {
       "law_id": "US_CFR_T21_P50_1980",
@@ -5207,17 +5132,17 @@
       "effective_date": "1980-05-30",
       "publication_date": "1980-05-30",
       "total_articles": 15,
-      "total_chunks": 77,
+      "total_chunks": 100,
       "topics": [
-        "联邦与州法律关系",
-        "公共治理",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "公共治理",
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T21_P50_1980_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T21_P50_1980_cleaned.json"
     },
     {
       "law_id": "US_CFR_T21_P56_1981",
@@ -5229,18 +5154,18 @@
       "effective_date": "1981-01-27",
       "publication_date": "1981-01-27",
       "total_articles": 20,
-      "total_chunks": 61,
+      "total_chunks": 77,
       "topics": [
-        "行政程序",
+        "数据保护",
+        "法律定义",
         "公共治理",
         "政府采购",
-        "数据保护",
-        "法律定义"
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T21_P56_1981_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T21_P56_1981_cleaned.json"
     },
     {
       "law_id": "US_CFR_T22_P120_2022",
@@ -5252,22 +5177,22 @@
       "effective_date": "2022-03-23",
       "publication_date": "2022-03-23",
       "total_articles": 50,
-      "total_chunks": 132,
+      "total_chunks": 157,
       "topics": [
+        "数据保护",
         "金融服务",
         "质量管理",
+        "法律定义",
         "公共治理",
-        "政府采购",
-        "数据保护",
-        "知识产权",
-        "公司治理",
         "国家安全",
-        "法律定义"
+        "政府采购",
+        "公司治理",
+        "知识产权"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T22_P120_2022_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T22_P120_2022_cleaned.json"
     },
     {
       "law_id": "US_CFR_T28_P16_1977",
@@ -5279,23 +5204,23 @@
       "effective_date": "1977-03-16",
       "publication_date": "1977-03-16",
       "total_articles": 90,
-      "total_chunks": 912,
+      "total_chunks": 1172,
       "topics": [
-        "金融服务",
-        "行政程序",
-        "公共治理",
-        "政府采购",
         "数据保护",
+        "金融服务",
+        "诉讼与争议",
+        "法律定义",
+        "公共治理",
         "刑法",
         "数据管理",
-        "网络安全",
-        "诉讼与争议",
-        "薪酬福利"
+        "国家安全",
+        "政府采购",
+        "网络安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T28_P16_1977_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T28_P16_1977_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1010_2010",
@@ -5307,23 +5232,23 @@
       "effective_date": "2006-07-05",
       "publication_date": "2010-10-26",
       "total_articles": 76,
-      "total_chunks": 504,
+      "total_chunks": 626,
       "topics": [
-        "金融服务",
-        "消费者保护",
-        "行政程序",
-        "政府采购",
         "数据保护",
-        "刑法",
+        "金融服务",
+        "法律定义",
         "诉讼与争议",
+        "刑法",
         "税法",
         "国家安全",
-        "法律定义"
+        "政府采购",
+        "消费者保护",
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1010_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1010_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1020_2010",
@@ -5335,17 +5260,17 @@
       "effective_date": "2010-10-26",
       "publication_date": "2010-10-26",
       "total_articles": 22,
-      "total_chunks": 81,
+      "total_chunks": 96,
       "topics": [
-        "金融服务",
         "联邦与州法律关系",
         "法律定义",
+        "金融服务",
         "数据保护"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1020_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1020_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1021_2010",
@@ -5357,17 +5282,17 @@
       "effective_date": "2010-10-26",
       "publication_date": "2010-10-26",
       "total_articles": 21,
-      "total_chunks": 55,
+      "total_chunks": 64,
       "topics": [
-        "金融服务",
         "联邦与州法律关系",
         "法律定义",
+        "金融服务",
         "数据保护"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1021_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1021_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1022_2010",
@@ -5379,16 +5304,16 @@
       "effective_date": "2010-10-26",
       "publication_date": "2010-10-26",
       "total_articles": 19,
-      "total_chunks": 65,
+      "total_chunks": 82,
       "topics": [
+        "法律定义",
         "金融服务",
-        "税法",
-        "法律定义"
+        "税法"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1022_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1022_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1023_2010",
@@ -5400,16 +5325,16 @@
       "effective_date": "2010-10-25",
       "publication_date": "2010-10-25",
       "total_articles": 22,
-      "total_chunks": 66,
+      "total_chunks": 77,
       "topics": [
-        "金融服务",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1023_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1023_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1024_2010",
@@ -5421,16 +5346,16 @@
       "effective_date": "2002-07-24",
       "publication_date": "2010-10-26",
       "total_articles": 21,
-      "total_chunks": 56,
+      "total_chunks": 67,
       "topics": [
-        "金融服务",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1024_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1024_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1025_2010",
@@ -5442,16 +5367,16 @@
       "effective_date": "2010-10-26",
       "publication_date": "2010-10-26",
       "total_articles": 11,
-      "total_chunks": 35,
+      "total_chunks": 41,
       "topics": [
-        "金融服务",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1025_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1025_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1026_2010",
@@ -5463,16 +5388,16 @@
       "effective_date": "2010-10-26",
       "publication_date": "2010-10-26",
       "total_articles": 22,
-      "total_chunks": 66,
+      "total_chunks": 76,
       "topics": [
-        "金融服务",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1026_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1026_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1027_2010",
@@ -5484,16 +5409,16 @@
       "effective_date": "2010-10-26",
       "publication_date": "2010-10-26",
       "total_articles": 10,
-      "total_chunks": 22,
+      "total_chunks": 25,
       "topics": [
-        "金融服务",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1027_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1027_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1028_2010",
@@ -5505,16 +5430,16 @@
       "effective_date": "2002-07-24",
       "publication_date": "2010-10-26",
       "total_articles": 10,
-      "total_chunks": 19,
+      "total_chunks": 21,
       "topics": [
-        "金融服务",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1028_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1028_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1029_2012",
@@ -5526,16 +5451,16 @@
       "effective_date": "2012-02-14",
       "publication_date": "2012-02-14",
       "total_articles": 10,
-      "total_chunks": 28,
+      "total_chunks": 32,
       "topics": [
-        "金融服务",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1029_2012_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1029_2012_cleaned.json"
     },
     {
       "law_id": "US_CFR_T31_P1030_2014",
@@ -5547,16 +5472,16 @@
       "effective_date": "2014-02-25",
       "publication_date": "2014-02-25",
       "total_articles": 10,
-      "total_chunks": 28,
+      "total_chunks": 33,
       "topics": [
-        "金融服务",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "金融服务"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T31_P1030_2014_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T31_P1030_2014_cleaned.json"
     },
     {
       "law_id": "US_CFR_T32_P2001_2010",
@@ -5568,19 +5493,19 @@
       "effective_date": "2026-06-09",
       "publication_date": "2010-06-28",
       "total_articles": 46,
-      "total_chunks": 268,
+      "total_chunks": 303,
       "topics": [
-        "行政管理",
-        "法律定义",
         "信息分级",
         "诉讼与争议",
+        "法律定义",
         "国家安全",
-        "法规适用范围"
+        "法规适用范围",
+        "行政管理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T32_P2001_2010_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T32_P2001_2010_cleaned.json"
     },
     {
       "law_id": "US_CFR_T32_P269_1996",
@@ -5592,16 +5517,16 @@
       "effective_date": "1996-12-26",
       "publication_date": "1996-12-26",
       "total_articles": 5,
-      "total_chunks": 10,
+      "total_chunks": 11,
       "topics": [
-        "刑法",
+        "数据保护",
         "法律定义",
-        "数据保护"
+        "刑法"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T32_P269_1996_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T32_P269_1996_cleaned.json"
     },
     {
       "law_id": "US_CFR_T32_P286_2017",
@@ -5613,22 +5538,22 @@
       "effective_date": "2017-01-05",
       "publication_date": "2017-01-05",
       "total_articles": 13,
-      "total_chunks": 92,
+      "total_chunks": 120,
       "topics": [
-        "公共治理",
-        "政府采购",
         "数据保护",
-        "刑法",
+        "法律定义",
         "诉讼与争议",
-        "薪酬福利",
-        "联邦与州法律关系",
+        "公共治理",
+        "刑法",
         "国家安全",
-        "法律定义"
+        "政府采购",
+        "薪酬福利",
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T32_P286_2017_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T32_P286_2017_cleaned.json"
     },
     {
       "law_id": "US_CFR_T33_P101_2025",
@@ -5640,18 +5565,18 @@
       "effective_date": "2026-06-11",
       "publication_date": "2025-01-17",
       "total_articles": 15,
-      "total_chunks": 66,
+      "total_chunks": 76,
       "topics": [
-        "法规适用范围",
-        "海事安全",
-        "网络安全",
         "联邦与州法律关系",
-        "法律定义"
+        "法律定义",
+        "网络安全",
+        "海事安全",
+        "法规适用范围"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T33_P101_2025_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T33_P101_2025_cleaned.json"
     },
     {
       "law_id": "US_CFR_T33_P105",
@@ -5663,21 +5588,21 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 54,
-      "total_chunks": 167,
+      "total_chunks": 188,
       "topics": [
-        "海事安全",
-        "电信",
-        "消费者保护",
-        "公共治理",
-        "政府采购",
         "数据保护",
+        "法律定义",
+        "公共治理",
         "国家安全",
-        "法律定义"
+        "政府采购",
+        "消费者保护",
+        "海事安全",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T33_P105_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T33_P105_cleaned.json"
     },
     {
       "law_id": "US_CFR_T33_P106",
@@ -5689,19 +5614,19 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 36,
-      "total_chunks": 104,
+      "total_chunks": 122,
       "topics": [
-        "海事安全",
-        "电信",
-        "消费者保护",
+        "法律定义",
         "政府采购",
+        "消费者保护",
         "公司治理",
-        "法律定义"
+        "海事安全",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T33_P106_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T33_P106_cleaned.json"
     },
     {
       "law_id": "US_CFR_T36_P1236_2009",
@@ -5713,16 +5638,16 @@
       "effective_date": "2026-06-05",
       "publication_date": "2009-10-02",
       "total_articles": 16,
-      "total_chunks": 116,
+      "total_chunks": 130,
       "topics": [
-        "法律定义",
         "质量管理",
+        "法律定义",
         "档案与记录管理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T36_P1236_2009_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T36_P1236_2009_cleaned.json"
     },
     {
       "law_id": "US_CFR_T38_P1_1995",
@@ -5734,23 +5659,23 @@
       "effective_date": "1995-12-13",
       "publication_date": "1995-12-13",
       "total_articles": 206,
-      "total_chunks": 846,
+      "total_chunks": 1046,
       "topics": [
-        "金融服务",
-        "消费者保护",
-        "行政程序",
-        "公共治理",
-        "政府采购",
         "数据保护",
+        "金融服务",
+        "法律定义",
         "刑法",
+        "诉讼与争议",
+        "公共治理",
         "数据管理",
-        "薪酬福利",
-        "诉讼与争议"
+        "国家安全",
+        "政府采购",
+        "税法"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T38_P1_1995_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T38_P1_1995_cleaned.json"
     },
     {
       "law_id": "US_CFR_T42_P402_1998",
@@ -5762,22 +5687,22 @@
       "effective_date": "1998-12-14",
       "publication_date": "1998-12-14",
       "total_articles": 29,
-      "total_chunks": 135,
+      "total_chunks": 164,
       "topics": [
-        "金融服务",
-        "消费者保护",
-        "公共治理",
-        "政府采购",
         "数据保护",
+        "金融服务",
+        "法律定义",
+        "公共治理",
         "刑法",
         "诉讼与争议",
-        "联邦与州法律关系",
-        "法律定义"
+        "政府采购",
+        "消费者保护",
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T42_P402_1998_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T42_P402_1998_cleaned.json"
     },
     {
       "law_id": "US_CFR_T42_P403_1982",
@@ -5789,22 +5714,22 @@
       "effective_date": "2005-01-01",
       "publication_date": "1982-07-26",
       "total_articles": 86,
-      "total_chunks": 375,
+      "total_chunks": 454,
       "topics": [
+        "数据保护",
         "金融服务",
-        "消费者保护",
+        "法律定义",
+        "诉讼与争议",
         "公共治理",
         "政府采购",
-        "数据保护",
-        "诉讼与争议",
+        "消费者保护",
         "薪酬福利",
-        "联邦与州法律关系",
-        "法律定义"
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T42_P403_1982_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T42_P403_1982_cleaned.json"
     },
     {
       "law_id": "US_CFR_T45_P160_2000",
@@ -5816,23 +5741,23 @@
       "effective_date": "2000-12-28",
       "publication_date": "2000-12-28",
       "total_articles": 58,
-      "total_chunks": 161,
+      "total_chunks": 197,
       "topics": [
-        "质量管理",
-        "消费者保护",
-        "公共治理",
-        "政府采购",
         "数据保护",
+        "质量管理",
+        "法律定义",
         "刑法",
-        "薪酬福利",
+        "公共治理",
+        "数据管理",
         "诉讼与争议",
-        "联邦与州法律关系",
-        "数据管理"
+        "政府采购",
+        "消费者保护",
+        "薪酬福利"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T45_P160_2000_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T45_P160_2000_cleaned.json"
     },
     {
       "law_id": "US_CFR_T45_P162_2000",
@@ -5844,20 +5769,20 @@
       "effective_date": "2000-08-17",
       "publication_date": "2000-08-17",
       "total_articles": 44,
-      "total_chunks": 128,
+      "total_chunks": 151,
       "topics": [
         "金融服务",
         "质量管理",
+        "法律定义",
         "公共治理",
         "政府采购",
         "薪酬福利",
-        "公司治理",
-        "法律定义"
+        "公司治理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T45_P162_2000_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T45_P162_2000_cleaned.json"
     },
     {
       "law_id": "US_CFR_T45_P164_2000",
@@ -5869,21 +5794,21 @@
       "effective_date": "2000-12-28",
       "publication_date": "2000-12-28",
       "total_articles": 41,
-      "total_chunks": 396,
+      "total_chunks": 496,
       "topics": [
-        "数字身份",
-        "金融服务",
-        "质量管理",
-        "政府采购",
         "数据保护",
+        "金融服务",
+        "数字身份",
+        "质量管理",
+        "法律定义",
         "刑法",
-        "联邦与州法律关系",
-        "法律定义"
+        "政府采购",
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T45_P164_2000_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T45_P164_2000_cleaned.json"
     },
     {
       "law_id": "US_CFR_T45_P46_2001",
@@ -5895,19 +5820,19 @@
       "effective_date": "2001-11-13",
       "publication_date": "2001-11-13",
       "total_articles": 40,
-      "total_chunks": 159,
+      "total_chunks": 201,
       "topics": [
-        "行政程序",
+        "数据保护",
+        "法律定义",
         "公共治理",
         "政府采购",
-        "数据保护",
         "联邦与州法律关系",
-        "法律定义"
+        "行政程序"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T45_P46_2001_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T45_P46_2001_cleaned.json"
     },
     {
       "law_id": "US_CFR_T47_P1_1963",
@@ -5919,23 +5844,23 @@
       "effective_date": "2013-09-13",
       "publication_date": "1963-11-22",
       "total_articles": 546,
-      "total_chunks": 2814,
+      "total_chunks": 3463,
       "topics": [
-        "公司治理",
-        "电信",
+        "数据保护",
         "金融服务",
         "数字身份",
-        "消费者保护",
         "质量管理",
-        "行政程序",
+        "法律定义",
         "公共治理",
-        "环境法",
-        "政府采购"
+        "诉讼与争议",
+        "刑法",
+        "税法",
+        "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T47_P1_1963_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T47_P1_1963_cleaned.json"
     },
     {
       "law_id": "US_CFR_T47_P4_2004",
@@ -5947,15 +5872,15 @@
       "effective_date": "2004-12-03",
       "publication_date": "2004-12-03",
       "total_articles": 10,
-      "total_chunks": 77,
+      "total_chunks": 100,
       "topics": [
-        "法律定义",
-        "数据保护"
+        "数据保护",
+        "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T47_P4_2004_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T47_P4_2004_cleaned.json"
     },
     {
       "law_id": "US_CFR_T47_P54_1997",
@@ -5967,23 +5892,23 @@
       "effective_date": "1997-06-17",
       "publication_date": "1997-06-17",
       "total_articles": 248,
-      "total_chunks": 1644,
+      "total_chunks": 2074,
       "topics": [
-        "电信",
+        "数据保护",
         "金融服务",
         "档案与记录管理",
-        "消费者保护",
-        "行政程序",
+        "法律定义",
         "公共治理",
-        "政府采购",
+        "诉讼与争议",
         "网络安全",
-        "数据保护",
+        "国家安全",
+        "政府采购",
         "薪酬福利"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T47_P54_1997_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T47_P54_1997_cleaned.json"
     },
     {
       "law_id": "US_CFR_T47_P64_1963",
@@ -5995,23 +5920,23 @@
       "effective_date": "1993-07-26",
       "publication_date": "1963-12-05",
       "total_articles": 183,
-      "total_chunks": 1178,
+      "total_chunks": 1486,
       "topics": [
-        "垃圾信息控制",
-        "公司治理",
-        "电信",
+        "数据保护",
         "金融服务",
+        "知识产权与许可",
         "数字身份",
-        "消费者保护",
         "质量管理",
+        "法律定义",
         "公共治理",
-        "政府采购",
-        "数据保护"
+        "诉讼与争议",
+        "税法",
+        "刑法"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T47_P64_1963_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T47_P64_1963_cleaned.json"
     },
     {
       "law_id": "US_CFR_T48_P227_1991",
@@ -6023,17 +5948,17 @@
       "effective_date": "2026-05-07",
       "publication_date": "1991-07-31",
       "total_articles": 34,
-      "total_chunks": 240,
+      "total_chunks": 293,
       "topics": [
-        "合同与设计",
         "知识产权与许可",
+        "合同与设计",
         "国家安全",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T48_P227_1991_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T48_P227_1991_cleaned.json"
     },
     {
       "law_id": "US_CFR_T48_P239_1991",
@@ -6045,18 +5970,18 @@
       "effective_date": "1991-07-31",
       "publication_date": "1991-07-31",
       "total_articles": 33,
-      "total_chunks": 73,
+      "total_chunks": 83,
       "topics": [
-        "电信",
-        "政府采购",
         "数据保护",
+        "法律定义",
         "国家安全",
-        "法律定义"
+        "政府采购",
+        "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T48_P239_1991_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T48_P239_1991_cleaned.json"
     },
     {
       "law_id": "US_CFR_T48_P27_2007",
@@ -6068,19 +5993,19 @@
       "effective_date": "2026-05-07",
       "publication_date": "2007-11-07",
       "total_articles": 50,
-      "total_chunks": 248,
+      "total_chunks": 290,
       "topics": [
-        "法规适用范围",
-        "政府采购",
         "知识产权与许可",
+        "法律定义",
         "诉讼与争议",
-        "知识产权",
-        "法律定义"
+        "政府采购",
+        "法规适用范围",
+        "知识产权"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T48_P27_2007_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T48_P27_2007_cleaned.json"
     },
     {
       "law_id": "US_CFR_T48_P52_1983",
@@ -6092,23 +6017,23 @@
       "effective_date": "2024-01-01",
       "publication_date": null,
       "total_articles": 588,
-      "total_chunks": 3384,
+      "total_chunks": 4202,
       "topics": [
-        "电信",
-        "金融服务",
-        "质量管理",
-        "环境法",
-        "政府采购",
         "数据保护",
-        "刑法",
+        "金融服务",
         "知识产权与许可",
-        "薪酬福利",
-        "税法"
+        "质量管理",
+        "法律定义",
+        "刑法",
+        "税法",
+        "国家安全",
+        "政府采购",
+        "环境法"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T48_P52_1983_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T48_P52_1983_cleaned.json"
     },
     {
       "law_id": "US_CFR_T5_P1320_1995",
@@ -6120,21 +6045,21 @@
       "effective_date": "1995-08-29",
       "publication_date": "1995-08-29",
       "total_articles": 18,
-      "total_chunks": 134,
+      "total_chunks": 168,
       "topics": [
-        "行政管理",
-        "公共治理",
-        "政府采购",
+        "法律定义",
         "数据管理",
+        "公共治理",
         "税法",
-        "联邦与州法律关系",
         "国家安全",
-        "法律定义"
+        "政府采购",
+        "联邦与州法律关系",
+        "行政管理"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T5_P1320_1995_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T5_P1320_1995_cleaned.json"
     },
     {
       "law_id": "US_CFR_T6_P158_2021",
@@ -6146,23 +6071,23 @@
       "effective_date": "2026-02-09",
       "publication_date": "2021-08-26",
       "total_articles": 79,
-      "total_chunks": 151,
+      "total_chunks": 165,
       "topics": [
-        "法规适用范围",
-        "行政管理",
         "金融服务",
         "质量管理",
-        "政府采购",
-        "网络安全",
+        "法律定义",
         "刑法",
+        "网络安全",
+        "政府采购",
         "薪酬福利",
-        "知识产权",
-        "法律定义"
+        "法规适用范围",
+        "行政管理",
+        "知识产权"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T6_P158_2021_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T6_P158_2021_cleaned.json"
     },
     {
       "law_id": "US_CFR_T6_P27_2007",
@@ -6174,20 +6099,20 @@
       "effective_date": "2007-04-09",
       "publication_date": "2007-04-09",
       "total_articles": 32,
-      "total_chunks": 131,
+      "total_chunks": 170,
       "topics": [
-        "质量管理",
         "数据保护",
+        "质量管理",
+        "法律定义",
         "刑法",
         "诉讼与争议",
-        "联邦与州法律关系",
         "国家安全",
-        "法律定义"
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T6_P27_2007_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T6_P27_2007_cleaned.json"
     },
     {
       "law_id": "US_CFR_T6_P5_2003",
@@ -6199,23 +6124,23 @@
       "effective_date": "2003-01-27",
       "publication_date": "2003-01-27",
       "total_articles": 38,
-      "total_chunks": 988,
+      "total_chunks": 1229,
       "topics": [
-        "金融服务",
-        "公共治理",
-        "政府采购",
         "数据保护",
-        "刑法",
+        "金融服务",
         "诉讼与争议",
-        "薪酬福利",
-        "联邦与州法律关系",
+        "法律定义",
+        "公共治理",
+        "刑法",
         "国家安全",
-        "法律定义"
+        "政府采购",
+        "薪酬福利",
+        "联邦与州法律关系"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T6_P5_2003_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T6_P5_2003_cleaned.json"
     },
     {
       "law_id": "US_CFR_T6_P7_2014",
@@ -6227,15 +6152,15 @@
       "effective_date": "2026-02-09",
       "publication_date": "2014-07-30",
       "total_articles": 19,
-      "total_chunks": 61,
+      "total_chunks": 68,
       "topics": [
         "信息分级",
         "国家安全"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/usa/US_CFR_T6_P7_2014_cleaned.json"
+      "source_file": "/app/data/raw_v2/usa/US_CFR_T6_P7_2014_cleaned.json"
     },
     {
       "law_id": "VN_N_25_2011",
@@ -6250,14 +6175,14 @@
       "total_chunks": 37,
       "topics": [
         "质量管理",
-        "公司治理",
         "电信",
+        "公司治理",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_001_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_001_cleaned.json"
     },
     {
       "law_id": "VN_N_87_2010",
@@ -6269,16 +6194,16 @@
       "effective_date": "2010-10-01",
       "publication_date": "2010-08-13",
       "total_articles": 39,
-      "total_chunks": 54,
+      "total_chunks": 58,
       "topics": [
         "法律定义",
         "薪酬福利",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_002_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_002_cleaned.json"
     },
     {
       "law_id": "VN_QH12SOCIALIST_42_2009",
@@ -6290,15 +6215,15 @@
       "effective_date": "2010-07-01",
       "publication_date": "2009-11-23",
       "total_articles": 37,
-      "total_chunks": 41,
+      "total_chunks": 42,
       "topics": [
         "电信",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_003_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_003_cleaned.json"
     },
     {
       "law_id": "VN_QH12SOCIALIST_41_2009",
@@ -6310,16 +6235,16 @@
       "effective_date": "2010-07-01",
       "publication_date": "2009-11-23",
       "total_articles": 50,
-      "total_chunks": 58,
+      "total_chunks": 60,
       "topics": [
-        "消费者保护",
+        "法律定义",
         "电信",
-        "法律定义"
+        "消费者保护"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_004_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_004_cleaned.json"
     },
     {
       "law_id": "VN_TT_37_2009",
@@ -6333,13 +6258,13 @@
       "total_articles": 16,
       "total_chunks": 16,
       "topics": [
-        "薪酬福利",
-        "电子交易"
+        "电子交易",
+        "薪酬福利"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_005_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_005_cleaned.json"
     },
     {
       "law_id": "VN_N_27_2007",
@@ -6356,9 +6281,9 @@
         "法律定义"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_006_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_006_cleaned.json"
     },
     {
       "law_id": "VN_N_12_2006",
@@ -6375,9 +6300,9 @@
         "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_007_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_007_cleaned.json"
     },
     {
       "law_id": "VN_Q_12_2006",
@@ -6394,9 +6319,9 @@
         "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_008_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_008_cleaned.json"
     },
     {
       "law_id": "VN_QH11_67_2006",
@@ -6408,17 +6333,17 @@
       "effective_date": "2007-07-01",
       "publication_date": null,
       "total_articles": 52,
-      "total_chunks": 56,
+      "total_chunks": 57,
       "topics": [
+        "法律定义",
         "知识产权",
         "薪酬福利",
-        "法律定义",
         "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_009_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_009_cleaned.json"
     },
     {
       "law_id": "VN_Q_25_2006",
@@ -6432,14 +6357,14 @@
       "total_articles": 17,
       "total_chunks": 17,
       "topics": [
-        "政府采购",
         "法律定义",
-        "电子交易"
+        "电子交易",
+        "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_010_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_010_cleaned.json"
     },
     {
       "law_id": "VN_Q_252_2003",
@@ -6451,16 +6376,16 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 4,
-      "total_chunks": 18,
+      "total_chunks": 21,
       "topics": [
-        "消费者保护",
         "金融服务",
-        "税法"
+        "税法",
+        "消费者保护"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_011_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_011_cleaned.json"
     },
     {
       "law_id": "VN_CT_07_2004",
@@ -6472,14 +6397,14 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 1,
-      "total_chunks": 12,
+      "total_chunks": 13,
       "topics": [
         "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_012_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_012_cleaned.json"
     },
     {
       "law_id": "VN_N_75_2003",
@@ -6496,9 +6421,9 @@
         "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_013_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_013_cleaned.json"
     },
     {
       "law_id": "VN_Q_143_2001",
@@ -6513,13 +6438,13 @@
       "total_chunks": 29,
       "topics": [
         "电信",
-        "政府采购",
-        "薪酬福利"
+        "薪酬福利",
+        "政府采购"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_014_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_014_cleaned.json"
     },
     {
       "law_id": "VN_TT_06_2000",
@@ -6531,14 +6456,156 @@
       "effective_date": null,
       "publication_date": null,
       "total_articles": 1,
-      "total_chunks": 27,
+      "total_chunks": 34,
       "topics": [
         "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-10-12",
       "status": "active",
-      "source_file": "/app/data/raw/vietnam/SMP_VN_015_cleaned.json"
+      "source_file": "/app/data/raw_v2/vietnam/SMP_VN_015_cleaned.json"
+    },
+    {
+      "law_id": "TH_ACT_1979_EXIM",
+      "law_name_zh": "Export And Import Of Goods Act, 1979",
+      "law_name_original": "",
+      "jurisdiction": "泰国",
+      "law_type": "",
+      "passing_date": "1979-04-30",
+      "effective_date": "1979-05-01",
+      "publication_date": "1979-04-30",
+      "total_articles": 25,
+      "total_chunks": 29,
+      "topics": [
+        "数据保护",
+        "金融服务",
+        "法律定义",
+        "公共治理",
+        "刑法",
+        "国家安全",
+        "薪酬福利",
+        "消费者保护",
+        "联邦与州法律关系",
+        "行政程序"
+      ],
+      "ingest_date": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "status": "active",
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_003_cleaned.json"
+    },
+    {
+      "law_id": "TH_MIN_1999_022",
+      "law_name_zh": "Ministerial Regulations No. 22 (B.E. 2542)",
+      "law_name_original": "",
+      "jurisdiction": "泰国",
+      "law_type": "",
+      "passing_date": "1999-09-24",
+      "effective_date": null,
+      "publication_date": null,
+      "total_articles": 1,
+      "total_chunks": 22,
+      "topics": [
+        "知识产权"
+      ],
+      "ingest_date": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "status": "active",
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_014_cleaned.json"
+    },
+    {
+      "law_id": "TH_MIN_1999_024",
+      "law_name_zh": "Ministerial Regulations No. 24 (B.E. 2542)",
+      "law_name_original": "",
+      "jurisdiction": "泰国",
+      "law_type": "",
+      "passing_date": "1999-09-24",
+      "effective_date": null,
+      "publication_date": null,
+      "total_articles": 1,
+      "total_chunks": 9,
+      "topics": [
+        "知识产权"
+      ],
+      "ingest_date": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "status": "active",
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_015_cleaned.json"
+    },
+    {
+      "law_id": "TH_MIN_1999_025",
+      "law_name_zh": "Ministerial Regulations No. 25 (B.E. 2542)",
+      "law_name_original": "",
+      "jurisdiction": "泰国",
+      "law_type": "",
+      "passing_date": "1999-09-24",
+      "effective_date": null,
+      "publication_date": null,
+      "total_articles": 1,
+      "total_chunks": 21,
+      "topics": [
+        "知识产权"
+      ],
+      "ingest_date": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "status": "active",
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_016_cleaned.json"
+    },
+    {
+      "law_id": "TH_MIN_1999_026",
+      "law_name_zh": "Ministerial Regulations No. 26 (B.E. 2542)",
+      "law_name_original": "",
+      "jurisdiction": "泰国",
+      "law_type": "",
+      "passing_date": "1999-09-24",
+      "effective_date": null,
+      "publication_date": null,
+      "total_articles": 1,
+      "total_chunks": 24,
+      "topics": [
+        "知识产权"
+      ],
+      "ingest_date": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "status": "active",
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_017_cleaned.json"
+    },
+    {
+      "law_id": "TH_MIN_1999_027",
+      "law_name_zh": "Ministerial Regulations No. 27 (B.E. 2542)",
+      "law_name_original": "",
+      "jurisdiction": "泰国",
+      "law_type": "",
+      "passing_date": "1999-09-24",
+      "effective_date": null,
+      "publication_date": null,
+      "total_articles": 1,
+      "total_chunks": 8,
+      "topics": [
+        "知识产权"
+      ],
+      "ingest_date": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "status": "active",
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_018_cleaned.json"
+    },
+    {
+      "law_id": "TH_MIN_1999_023",
+      "law_name_zh": "Ministerial Regulations No. 23 (B.E. 2542)",
+      "law_name_original": "",
+      "jurisdiction": "泰国",
+      "law_type": "",
+      "passing_date": "1999-09-24",
+      "effective_date": null,
+      "publication_date": null,
+      "total_articles": 1,
+      "total_chunks": 6,
+      "topics": [
+        "知识产权"
+      ],
+      "ingest_date": "2026-10-12",
+      "last_updated": "2026-10-12",
+      "status": "active",
+      "source_file": "/app/data/raw_v2/thailand/SMP_TH_020_cleaned.json"
     }
   ]
 }

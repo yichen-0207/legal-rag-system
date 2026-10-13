@@ -1,0 +1,66 @@
+[
+  {
+    "doc_id": "SG_ACT_1_2011_ART_072",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_1_2011",
+    "law_name": "Allied Health Professions Act 2011",
+    "law_name_original": "Allied Health Professions Act 2011",
+    "law_type": "法律",
+    "article_number": "72",
+    "article_number_normalized": "072",
+    "article_title": "Service of documents",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "A document that is permitted or required by or under this Act to be served on a person may be served as described in this section. A document permitted or requ...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "A document that is permitted or required by or under this Act to be served on a person may be served as described in this section. A document permitted or requ..."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this section"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2025-12-05",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_1_2011",
+    "source_type": "gov_gazette",
+    "source_file": "SG_48219239_Allied_Health_Professions_Act_2011.txt",
+    "source_start": 0,
+    "source_end": 23,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:12Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

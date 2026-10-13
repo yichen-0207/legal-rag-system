@@ -29,10 +29,18 @@ class SearchResult(BaseModel):
     content: str
     metadata: DocumentMetadata
     similarity: float
-    # 引用链多跳扩展标记（组件D）：retrieval_hop=2 表示该条是同法规引用补入的，
+    # 引用链多跳扩展标记（组件D）：retrieval_hop=2 表示该条由引用链补入，
     # 不是语义命中，此时 similarity 无意义，前端应据此标注「由第 X 条引用」。
+    # 跨法规引用（多跳 A）额外携带 cross_law / referenced_law_id / referenced_law_name，
+    # 使前端能区分「同法规引用」与「引用自另一部法规」，避免把来源条号误读成本法规条号。
     retrieval_hop: Optional[int] = None
     referenced_by: Optional[str] = None
+    cross_law: Optional[bool] = None
+    referenced_law_id: Optional[str] = None
+    referenced_law_name: Optional[str] = None
+    # 展示用「匹配度」= 真实向量余弦相似度（0~1）。None 表示该条无余弦分
+    # （仅 BM25 命中或引用扩展补入），前端此时不显示百分比，避免误示 0%/50%。
+    match_score: Optional[float] = None
 
 
 class SearchRequest(BaseModel):

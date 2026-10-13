@@ -242,6 +242,19 @@ _OTHER_LAW_TAIL_RE = re.compile(
     r"號\s*(?:法律|法令|行政法規|行政命令|批示|訓令|決議|規章)[^。；;]{0,60}$"
 )
 
+# 跨法规引用（可从正文确定性推导目标 law_id）：
+#   澳门「第N/YYYY號法律」→ MAC_LEI_N_YYYY，「第N/YYYY號行政法規」→ MAC_REG_N_YYYY
+#   香港「第N章」→ HK_CAP_N
+# 这些引用正是被上面的 _OTHER_LAW_TAIL_RE 从「同法规内引用」中剔除的部分。剔除本身是
+# 正确的（它们不属于本法规），因此跨法规解析独立进行、不复用该守卫，以免相互影响。
+_MAC_CROSS_LAW_RE = re.compile(r"第\s*(\d{1,4})\s*/\s*(\d{4})\s*號\s*(法律|行政法規)")
+_HK_CAP_RE = re.compile(r"第\s*(\d{1,4})\s*章")
+_MAC_LAW_TYPE_CODE = {"法律": "LEI", "行政法規": "REG"}
+# 跨法规引用后紧随的条款号
+_ARTICLE_AFTER_RE = re.compile(
+    r"第\s*([0-9０-９]{1,4}|[零〇一二三四五六七八九十百千兩两]{1,8})\s*[條条]"
+)
+
 _FULLWIDTH_DIGITS = str.maketrans("０１２３４５６７８９", "0123456789")
 
 
@@ -318,6 +331,86 @@ def parse_intra_law_refs(content: str, article_number: str) -> List[str]:
     return refs
 
 
+def parse_cross_law_refs(content: str, article_number: str,
+                         law_id: str) -> List[Tuple[str, str]]:
+    """解析条款正文中指向【其他法规】的引用，返回 [(目标 law_id, 目标条款号), ...]。
+
+    只覆盖能从文本确定性推导 law_id 的模式：
+      - 澳门「第N/YYYY號法律/行政法規」→ MAC_{LEI|REG}_N_YYYY
+      - 香港「第N章」→ HK_CAP_N
+    并要求引用后紧随一个具体条款号（间隔超过 8 个字符即视为无关），
+    这样扩展出去的才是「另一部法规的具体条款」，而不是泛泛的法规名。
+
+    目标法规/条款是否真实存在不在解析阶段校验：交给回取阶段自然过滤，
+    因此不引入法规字典依赖，解析失败一律返回空、不阻断主链路。
+    """
+    if not content:
+        return []
+
+    self_law = law_id or ""
+    self_article = str(article_number or "")
+    out: List[Tuple[str, str]] = []
+    seen = set()
+
+    def _pick(target_law: str, after_pos: int) -> None:
+        if not target_law or target_law == self_law:
+            return  # 自引用无扩展价值
+        m = _ARTICLE_AFTER_RE.search(content, after_pos, after_pos + 8)
+        if not m:
+            return
+        # 法规名与条款号之间若出现句读分隔（逗号/顿号/分号/句号等），该条款号多半是
+        # 本条款自身的条号而非被引法规的条号（如「…第5/2009號行政法規，第7條…」），
+        # 直接跳过以降低误连边。合法的直引形式（「…行政法規第十七條」）间隔为空或「的」。
+        gap = content[after_pos:m.start()]
+        if any(ch in "，,、。；;：:！？!?…" for ch in gap):
+            return
+        number = _cn_numeral_to_int(m.group(1))
+        if not number or number <= 0 or str(number) == self_article:
+            return
+        key = (target_law, str(number))
+        if key in seen:
+            return
+        seen.add(key)
+        out.append(key)
+
+    for m in _MAC_CROSS_LAW_RE.finditer(content):
+        code = _MAC_LAW_TYPE_CODE.get(m.group(3))
+        if code:
+            _pick(f"MAC_{code}_{int(m.group(1))}_{m.group(2)}", m.end())
+    for m in _HK_CAP_RE.finditer(content):
+        _pick(f"HK_CAP_{int(m.group(1))}", m.end())
+
+    return out
+
+
+def _join_chunks_without_overlap(chunks: List[str]) -> str:
+    """按顺序拼接同一 article 的子块，并裁掉相邻子块之间的切分重叠。
+
+    v2 切分对相邻子块保留 chunk_overlap（默认 150）字符的尾部重叠，
+    直接 '\n\n'.join 会让完整条款正文在每个拼接点出现一段重复文字。
+    对每对相邻块做「上块尾部 == 下块头部」检测：扫描上限
+    min(chunk_overlap + 20, 两侧块长)、下限 30（低于 30 字符的重复多为
+    自然语料巧合，不裁），命中即裁掉下块头部；无重叠的旧数据输出与
+    直接拼接一致，保证向后兼容。
+    """
+    parts: List[str] = []
+    prev = ""
+    for raw in chunks:
+        if not raw:
+            continue
+        limit = min(settings.chunk_overlap + 20, len(prev), len(raw))
+        cut = 0
+        for k in range(limit, 29, -1):
+            if prev.endswith(raw[:k]):
+                cut = k
+                break
+        tail = raw[cut:] if cut else raw
+        if tail:
+            parts.append(tail)
+        prev = raw
+    return "\n\n".join(parts)
+
+
 class ElasticsearchRepository:
     def __init__(self):
         self._init_client()
@@ -386,6 +479,12 @@ class ElasticsearchRepository:
                                 "keyword": {"type": "keyword", "ignore_above": 256}
                             }
                         },
+                        # 简体改写字段：入库时对 content 做繁→简转换，BM25 检索时
+                        # 与 content 并行参与打分，改善简体查询在繁体语料上的召回
+                        "content_s": {
+                            "type": "text",
+                            "analyzer": "chinese_analyzer"
+                        },
                         "embedding": {
                             "type": "dense_vector",
                             "dims": 1024,
@@ -424,6 +523,43 @@ class ElasticsearchRepository:
                 }
             }
             self.client.indices.create(index=settings.es_index_name, body=index_settings)
+        else:
+            # 索引已存在：补挂后加的字段（如 content_s 简体字段），
+            # 已存在且定义一致时 ES 会幂等接受；失败仅告警，不影响主流程
+            try:
+                self.client.indices.put_mapping(
+                    index=settings.es_index_name,
+                    body={"properties": {
+                        "content_s": {"type": "text", "analyzer": "chinese_analyzer"}
+                    }}
+                )
+            except Exception as e:
+                logger.warning(f"[索引映射] content_s 补挂失败（不影响已有数据检索）: {e}")
+    
+    def prune_law_docs(self, law_id: str, keep_ids: List[str]) -> int:
+        """清理某法规下不在 keep_ids 中的陈旧文档（幂等重建的收尾步骤）。
+
+        入库使用显式 _id upsert，但法规条款减少/重排后，旧版本残留的
+        doc_id 会变成孤儿文档。此处按 law_id 范围删除 keep_ids 之外的文档，
+        保证"同一份数据反复入库"结果一致（幂等）。
+        """
+        if not law_id:
+            return 0
+        must_not = [{"ids": {"values": keep_ids}}] if keep_ids else []
+        try:
+            resp = self.client.delete_by_query(
+                index=settings.es_index_name,
+                body={"query": {"bool": {
+                    "filter": [{"term": {"law_id": law_id}}],
+                    "must_not": must_not
+                }}},
+                refresh=True,
+                conflicts="proceed"
+            )
+            return int(resp.get("deleted", 0))
+        except Exception as e:
+            logger.warning(f"[入库清理] law_id={law_id} 陈旧文档清理失败: {e}")
+            return 0
     
     def _embed_texts(self, texts: List[str]) -> List[List[float]]:
         import torch
@@ -502,8 +638,20 @@ class ElasticsearchRepository:
             "taxonomy_version": auto["taxonomy_version"],
         }
 
-    def add_documents(self, documents: List[str], metadatas: List[Dict], ids: List[str]):
-        embeddings = self._embed_texts(documents)
+    def add_documents(self, documents: List[str], metadatas: List[Dict], ids: List[str],
+                      embed_texts: Optional[List[str]] = None):
+        """批量写入文档（显式 _id，重复写入即 upsert）。
+
+        参数:
+            embed_texts: 与 documents 等长的 embedding 输入文本（子块标题前缀 +
+                正文）；为空或长度不符时回退为直接用 documents（content）向量化。
+                content 字段本身始终写入原文，不受前缀影响。
+        """
+        if embed_texts and len(embed_texts) == len(documents):
+            embed_inputs = [et if et else d for et, d in zip(embed_texts, documents)]
+        else:
+            embed_inputs = documents
+        embeddings = self._embed_texts(embed_inputs)
         operations = []
         failed_docs = []
 
@@ -512,6 +660,7 @@ class ElasticsearchRepository:
             operations.append({"index": {"_index": settings.es_index_name, "_id": doc_id}})
             doc = {
                 "content": content,
+                "content_s": zh_convert(content, "t2s"),
                 "embedding": embedding,
                 "metadata": topic_fields["metadata"],
                 "law_id": metadata.get("law_id", ""),
@@ -662,7 +811,8 @@ class ElasticsearchRepository:
             与 query() 相同格式的字典
         """
         if not query_text.strip():
-            return {"ids": [[]], "documents": [[]], "metadatas": [[]], "distances": [[]], "_scores": [[]]}
+            return {"ids": [[]], "documents": [[]], "metadatas": [[]], "distances": [[]],
+                    "_scores": [[]], "_similarities": [[]]}
 
         query_embedding = self._embed_texts([query_text])[0]
         return self._hybrid_search_with_vector(query_text, query_embedding, n_results, where, rrf_k)
@@ -702,9 +852,12 @@ class ElasticsearchRepository:
         说明：当前 ES 许可证可能不支持内置 RRF，因此分别执行 KNN 和 BM25 搜索，
         在应用层手动计算 RRF 分数后合并排序，避免依赖 ES 付费特性。
         """
-        # 分别执行 KNN 和 BM25 搜索，各取足够候选供 RRF 融合
-        knn_results = self._knn_search(query_embedding, n_results * 3, where)
-        bm25_results = self._bm25_search(query_text, n_results * 3, where)
+        # KNN 与 BM25 两次 ES 查询互不依赖，并行执行以只承担较大者而非两者之和
+        with ThreadPoolExecutor(max_workers=2) as executor:
+            knn_future = executor.submit(self._knn_search, query_embedding, n_results * 3, where)
+            bm25_future = executor.submit(self._bm25_search, query_text, n_results * 3, where)
+            knn_results = knn_future.result()
+            bm25_results = bm25_future.result()
 
         # 使用 RRF 公式合并两个结果列表
         merged = self._merge_rrf_results(knn_results, bm25_results, rrf_k=rrf_k)
@@ -713,6 +866,7 @@ class ElasticsearchRepository:
         merged = merged[:n_results]
 
         query_ids, query_docs, query_metas, query_distances, query_scores = [], [], [], [], []
+        query_similarities = []  # 真实余弦相似度（仅 KNN 命中；BM25-only 为 None），供展示用
         for item in merged:
             source = item["source"]
             query_ids.append(item["_id"])
@@ -731,7 +885,11 @@ class ElasticsearchRepository:
 
             rrf_score = item["rrf_score"]
             query_scores.append(rrf_score)
+            # distances 仅保留兼容性：RRF 分动态范围极小（~0.016~0.05），由它反推的
+            # 相似度没有区分度（旧实现因此让前端所有条款都显示 50%）。展示分改用
+            # 下面的 _similarities（真实余弦），不再依赖这里。
             query_distances.append(1.0 / (1.0 + abs(rrf_score)) if rrf_score != 0 else 1.0)
+            query_similarities.append(item.get("vector_similarity"))
 
         return {
             "ids": [query_ids],
@@ -739,6 +897,7 @@ class ElasticsearchRepository:
             "metadatas": [query_metas],
             "distances": [query_distances],
             "_scores": [query_scores],
+            "_similarities": [query_similarities],
         }
 
     def _knn_search(self, query_embedding: List[float], n_results: int,
@@ -770,15 +929,19 @@ class ElasticsearchRepository:
         if excluded:
             filter_clauses.append({"bool": {"must_not": [excluded]}})
 
+        # 必须显式设置顶层 size：ES 默认 size=10，仅设 knn.k 并不会让返回条数超过 10。
+        # 曾因此把向量召回硬截断在 10 条（k 请求 450 也只回 10 条），使 RRF 中向量通道
+        # 几乎失效、混合检索退化为 BM25 主导，且下游只有前 10 条能拿到余弦分。
         if filter_clauses:
             search_body = {
+                "size": n_results,
                 "knn": {
                     **knn_base,
                     "filter": [{"bool": {"filter": filter_clauses}}]
                 }
             }
         else:
-            search_body = {"knn": knn_base}
+            search_body = {"size": n_results, "knn": knn_base}
 
         response = self.client.search(index=settings.es_index_name, body=search_body)
         return response.get("hits", {}).get("hits", [])
@@ -796,7 +959,9 @@ class ElasticsearchRepository:
         bm25_query = {
             "multi_match": {
                 "query": analysis_query,
-                "fields": ["content^3", "title^5", "article_number^2"],
+                # content_s 为入库时繁→简改写字段：繁体语料在 IK 下按单字切分，
+                # 简体查询经繁简双写法仍可能丢词，简体重写字段提供第二条命中通道
+                "fields": ["content^3", "content_s^3", "title^5", "article_number^2"],
                 "type": "best_fields",
                 "analyzer": "chinese_analyzer"
             }
@@ -842,9 +1007,16 @@ class ElasticsearchRepository:
 
     def _merge_rrf_results(self, knn_hits: List[Dict], bm25_hits: List[Dict],
                            rrf_k: int = 60) -> List[Dict]:
-        """手动 RRF 融合：对 KNN 和 BM25 结果按 RRF 分数合并去重排序。"""
+        """手动 RRF 融合：对 KNN 和 BM25 结果按 RRF 分数合并去重排序。
+
+        除 RRF 分（仅用于排序）外，还附带每条命中来自 KNN 的**真实余弦相似度**：
+        ES dense_vector(cosine) 的 _score 实为 (1+cos)/2（正交=0.5），故还原为
+        cos = 2*_score - 1。该值供上层计算展示用「匹配度」，与排序无关。
+        仅被 BM25 召回、未进 KNN 的条款没有余弦分，记为 None。
+        """
         scores: Dict[str, float] = {}
         sources: Dict[str, Dict] = {}
+        cosines: Dict[str, float] = {}
 
         for rank, hit in enumerate(knn_hits, start=1):
             doc_id = hit.get("_id")
@@ -852,6 +1024,10 @@ class ElasticsearchRepository:
                 continue
             scores[doc_id] = scores.get(doc_id, 0.0) + 1.0 / (rrf_k + rank)
             sources.setdefault(doc_id, hit.get("_source", {}))
+            # KNN 已按相似度降序，首次出现即其最高分
+            es_score = hit.get("_score")
+            if es_score is not None:
+                cosines.setdefault(doc_id, 2.0 * float(es_score) - 1.0)
 
         for rank, hit in enumerate(bm25_hits, start=1):
             doc_id = hit.get("_id")
@@ -865,6 +1041,7 @@ class ElasticsearchRepository:
             merged.append({
                 "_id": doc_id,
                 "rrf_score": rrf_score,
+                "vector_similarity": cosines.get(doc_id),
                 "source": sources.get(doc_id, {})
             })
 
@@ -1059,7 +1236,7 @@ class ElasticsearchRepository:
                 return None
             chunks = [(hit["_source"].get("chunk_index", 0), hit["_source"].get("content", "")) for hit in hits]
             chunks.sort(key=lambda x: x[0])
-            return "\n\n".join(content for _, content in chunks if content)
+            return _join_chunks_without_overlap([content for _, content in chunks])
         except Exception:
             return None
 
@@ -1109,7 +1286,7 @@ class ElasticsearchRepository:
                 continue
             chunks = [(h["_source"].get("chunk_index", 0), h["_source"].get("content", "")) for h in hits]
             chunks.sort(key=lambda x: x[0])
-            text = "\n\n".join(content for _, content in chunks if content)
+            text = _join_chunks_without_overlap([content for _, content in chunks])
             if text:
                 result[key] = text
         return result
@@ -1158,7 +1335,7 @@ class ElasticsearchRepository:
             source = hits[0].get("_source", {})
             chunks = [(h["_source"].get("chunk_index", 0), h["_source"].get("content", "")) for h in hits]
             chunks.sort(key=lambda x: x[0])
-            content = "\n\n".join(text for _, text in chunks if text)
+            content = _join_chunks_without_overlap([text for _, text in chunks])
             if not content:
                 continue
             result[key] = {
@@ -1177,7 +1354,12 @@ class ElasticsearchRepository:
     def get_referenced_articles(self, seeds: List[Tuple[str, str, str]],
                                 max_refs: int = 5) -> List[Dict]:
         """
-        引用链单跳扩展（组件D）：回取种子条款在同法规内引用到的条款。
+        引用链单跳扩展（组件D）：回取种子条款引用到的其他条款。
+
+        引用来源有两种（同一批回取，不额外发起 LLM 调用）：
+          - 同法规内引用（parse_intra_law_refs，正文正则，精确且优先级更高）；
+          - 跨法规引用（parse_cross_law_refs，仅澳门 N/YYYY 号法律/行政法规与香港 N 章，
+            由 settings.reference_expand_cross_law_enabled 控制）。
 
         Args:
             seeds: [(law_id, article_number, content), ...]，通常是排名靠前的检索结果
@@ -1188,6 +1370,7 @@ class ElasticsearchRepository:
               - retrieval_hop: 固定为 2，表示这是引用链扩展来的候选
               - referenced_by: 引用方条款号
               - referenced_law_id: 引用方法规 ID
+              - cross_law: 仅跨法规引用项携带，值为 True
             已在 seeds 中出现过的条款不会重复返回；回取不到的目标（条款号不存在、
             或属于跨法规引用的误判）会被静默跳过。
         """
@@ -1195,22 +1378,30 @@ class ElasticsearchRepository:
             return []
 
         seed_keys = {(law_id, str(article_number)) for law_id, article_number, _ in seeds if law_id}
-        targets: List[Tuple[str, str]] = []
-        origin: Dict[Tuple[str, str], Tuple[str, str]] = {}
-        seen = set()
 
+        # 先按「同法规内引用 → 跨法规引用」的优先级收集候选（每个种子内部保持该顺序），
+        # 再统一去重、截断：这样开启跨法规扩展时，同法规引用的优先级不受影响。
+        candidates: List[Tuple[Tuple[str, str], Tuple[str, str], bool]] = []
         for law_id, article_number, content in seeds:
             if not law_id:
                 continue
             for ref in parse_intra_law_refs(content, article_number):
-                key = (law_id, ref)
-                if key in seed_keys or key in seen:
-                    continue
-                seen.add(key)
-                origin[key] = (law_id, str(article_number))
-                targets.append(key)
-                if len(targets) >= max_refs:
-                    break
+                candidates.append(((law_id, ref), (law_id, str(article_number)), False))
+            if settings.reference_expand_cross_law_enabled:
+                for target_law, target_art in parse_cross_law_refs(content, article_number, law_id):
+                    candidates.append(((target_law, target_art), (law_id, str(article_number)), True))
+
+        targets: List[Tuple[str, str]] = []
+        origin: Dict[Tuple[str, str], Tuple[str, str]] = {}
+        cross_flag: Dict[Tuple[str, str], bool] = {}
+        seen = set()
+        for key, src, is_cross in candidates:
+            if key in seed_keys or key in seen:
+                continue
+            seen.add(key)
+            targets.append(key)
+            origin[key] = src
+            cross_flag[key] = is_cross
             if len(targets) >= max_refs:
                 break
 
@@ -1224,6 +1415,8 @@ class ElasticsearchRepository:
             doc["retrieval_hop"] = 2
             doc["referenced_by"] = source_article
             doc["referenced_law_id"] = source_law_id
+            if cross_flag.get(key):
+                doc["cross_law"] = True
             results.append(doc)
         return results
 

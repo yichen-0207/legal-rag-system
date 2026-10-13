@@ -14,6 +14,12 @@ class LawManagementService:
     def __init__(self):
         self.repo = ElasticsearchRepository()
         self.data_dir = Path(settings.data_dir)
+        # 守护：管理端只允许写入原始语料目录（raw）。派生语料 raw_v2 由清洗脚本
+        # 生成、作为只读派生物存在，若被管理端写入会与清洗重建互相覆盖。
+        if self.data_dir.name == "raw_v2":
+            raise RuntimeError(
+                "LawManagementService 不允许指向派生语料目录 raw_v2（应使用 LEGAL_DATA_DIR=/app/data/raw）"
+            )
         self._dir_prefix_cache: Dict[str, str] = {}
         self._init_dir_prefix_cache()
     
@@ -23,7 +29,7 @@ class LawManagementService:
             return
         
         for item in self.data_dir.iterdir():
-            if item.is_dir() and item.name != "recycle_bin":
+            if item.is_dir() and item.name != "recycle_bin" and not item.name.startswith("."):
                 json_files = list(item.glob("*.json"))
                 if json_files:
                     for json_file in json_files:
@@ -99,7 +105,7 @@ class LawManagementService:
                     return self.data_dir / dir_name
         
         for item in self.data_dir.iterdir():
-            if item.is_dir() and item.name != "recycle_bin":
+            if item.is_dir() and item.name != "recycle_bin" and not item.name.startswith("."):
                 for json_file in item.glob("*.json"):
                     if json_file.stem == law_id or json_file.stem.startswith(f"{law_id}_"):
                         return item
@@ -138,6 +144,8 @@ class LawManagementService:
         documents = []
         metadatas = []
         ids = []
+        # embedding 输入（子块标题前缀+正文，仅向量化用）；无前缀时置 None，由 repo 回退 content
+        embed_texts = []
 
         if is_list_format:
             # 新格式：数组（cleaned文件）
@@ -168,6 +176,7 @@ class LawManagementService:
                 documents.append(chunk["text"])
                 metadatas.append(metadata)
                 ids.append(doc_id)
+                embed_texts.append(chunk.get("embed_text"))
 
         else:
             # 旧格式：字典
@@ -195,6 +204,7 @@ class LawManagementService:
                     documents.append(chunk["text"])
                     metadatas.append(metadata)
                     ids.append(doc_id)
+                    embed_texts.append(chunk.get("embed_text"))
             elif full_text:
                 for i, chunk in enumerate(chunk_text(full_text)):
                     doc_id = f"{law_id}_chunk_{i}"
@@ -211,9 +221,10 @@ class LawManagementService:
                     documents.append(chunk)
                     metadatas.append(metadata)
                     ids.append(doc_id)
+                    embed_texts.append(None)
 
         if documents:
-            self.repo.add_documents(documents, metadatas, ids)
+            self.repo.add_documents(documents, metadatas, ids, embed_texts=embed_texts)
 
         return len(documents)
     
@@ -410,7 +421,7 @@ class LawManagementService:
         file_law_ids = set()
         if self.data_dir.exists():
             for item in self.data_dir.iterdir():
-                if item.is_dir() and item.name != "recycle_bin":
+                if item.is_dir() and item.name != "recycle_bin" and not item.name.startswith("."):
                     for json_file in item.glob("*.json"):
                         file_law_ids.add(json_file.stem)
         

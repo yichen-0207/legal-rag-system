@@ -3,7 +3,7 @@ import sys
 import argparse
 import time
 from pathlib import Path
-from typing import Iterator, Tuple, List, Dict
+from typing import Iterator, Tuple, List, Dict, Optional
 
 from core.config import settings
 from utils.chunker import chunk_text, chunk_from_structure
@@ -13,12 +13,16 @@ from utils.topic_classifier import TopicClassifier
 from services.abstract_service import AbstractService
 
 
-def process_json_file(json_file: Path, repo, skip_existing: bool = True) -> Iterator[Tuple[str, Dict, str]]:
+def process_json_file(json_file: Path, repo, skip_existing: bool = True) -> Iterator[Tuple[str, Dict, str, Optional[str]]]:
     """
     处理单个JSON文件，支持新旧两种格式
 
     旧格式: 字典 {"law_id": ..., "structure": {...}, ...}
     新格式: 数组 [{"doc_id": ..., "text_zh": ...}, ...] (cleaned文件)
+
+    产出四元组 (content, metadata, doc_id, embed_text)：
+        embed_text 为带条款标题前缀的 embedding 输入（仅向量化用），
+        旧格式或无前缀时返回 None，由调用方回退为 content。
 
     参数:
         skip_existing: 如果为True，当数据库中已有相同law_id时跳过
@@ -116,7 +120,7 @@ def process_json_file(json_file: Path, repo, skip_existing: bool = True) -> Iter
                 "topics": topics,
                 "topic_labels": topic_labels
             }
-            yield chunk["text"], metadata, doc_id
+            yield chunk["text"], metadata, doc_id, chunk.get("embed_text")
 
     else:
         # 旧格式：字典
@@ -156,7 +160,7 @@ def process_json_file(json_file: Path, repo, skip_existing: bool = True) -> Iter
                     "article_number": article_num,
                     "part_title": chunk.get("part_title", "")
                 }
-                yield chunk["text"], metadata, doc_id
+                yield chunk["text"], metadata, doc_id, None
         elif full_text:
             for i, chunk in enumerate(chunk_text(full_text)):
                 doc_id = f"{law_id}_chunk_{i}"
@@ -172,17 +176,20 @@ def process_json_file(json_file: Path, repo, skip_existing: bool = True) -> Iter
                     "source_file": str(json_file),
                     "chunk_index": i
                 }
-                yield chunk, metadata, doc_id
+                yield chunk, metadata, doc_id, None
 
 
-def load_json_files(data_dir_str: str, repo, skip_existing: bool = True) -> Iterator[Tuple[str, Dict, str]]:
+def load_json_files(data_dir_str: str, repo, skip_existing: bool = True) -> Iterator[Tuple[str, Dict, str, Optional[str]]]:
     data_dir = Path(data_dir_str)
     json_files = []
 
     for jurisdiction_dir in data_dir.iterdir():
         if not jurisdiction_dir.is_dir():
             continue
-        if jurisdiction_dir.name in ["chroma_db", ".chroma", "__pycache__"]:
+        # 跳过非语料目录：历史向量库残留、回收站（管理端删除的法规）与隐藏目录（如 .uploads）
+        if jurisdiction_dir.name in ["chroma_db", ".chroma", "__pycache__", "recycle_bin"]:
+            continue
+        if jurisdiction_dir.name.startswith("."):
             continue
         for json_file in jurisdiction_dir.glob("*.json"):
             json_files.append(json_file)
@@ -195,7 +202,8 @@ def load_json_files(data_dir_str: str, repo, skip_existing: bool = True) -> Iter
         yield from process_json_file(json_file, repo, skip_existing)
 
 
-def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = False):
+def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = False,
+                skip_abstracts: bool = False):
     """
     入库数据到Elasticsearch
 
@@ -203,6 +211,8 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
         batch_size: 批量处理大小
         clear_index: 是否清空现有索引
         force: 是否强制覆盖已有数据（忽略去重检查）
+        skip_abstracts: 跳过 LLM 摘要重生成（全量重建场景：摘要由回填脚本
+            从旧索引复制，避免 300+ 部法规逐个调用大模型）
     """
     print("开始加载数据...")
 
@@ -240,8 +250,11 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
     documents_batch: List[str] = []
     metadatas_batch: List[Dict] = []
     ids_batch: List[str] = []
+    embed_texts_batch: List[Optional[str]] = []
+    # 记录每个法规本次入库的 doc_id 全集，批次写完后据此清理陈旧孤儿文档（幂等重建）
+    kept_ids_map: Dict[str, List[str]] = {}
 
-    for doc, meta, doc_id in load_json_files(settings.data_dir, repo, skip_existing=not force):
+    for doc, meta, doc_id, embed_text in load_json_files(settings.ingest_data_dir, repo, skip_existing=not force):
         # 跳过标记（由process_json_file内部处理）
         if doc is None and meta is None and doc_id is None:
             skipped_count += 1
@@ -250,11 +263,13 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
         documents_batch.append(doc)
         metadatas_batch.append(meta)
         ids_batch.append(doc_id)
+        embed_texts_batch.append(embed_text)
 
         # 记录已处理的law_id
         law_id = meta.get('law_id', '')
         if law_id:
             processed_laws.add(law_id)
+            kept_ids_map.setdefault(law_id, []).append(doc_id)
             
             # 收集 chunk 信息用于 catalog 更新
             if law_id not in law_chunks_map:
@@ -273,16 +288,25 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
 
         if len(documents_batch) >= batch_size:
             print(f"处理第 {total_chunks + 1} - {total_chunks + len(documents_batch)} 个文档块...")
-            repo.add_documents(documents_batch, metadatas_batch, ids_batch)
+            repo.add_documents(documents_batch, metadatas_batch, ids_batch, embed_texts=embed_texts_batch)
             total_chunks += len(documents_batch)
             documents_batch = []
             metadatas_batch = []
             ids_batch = []
+            embed_texts_batch = []
 
     if documents_batch:
         print(f"处理剩余 {total_chunks + 1} - {total_chunks + len(documents_batch)} 个文档块...")
-        repo.add_documents(documents_batch, metadatas_batch, ids_batch)
+        repo.add_documents(documents_batch, metadatas_batch, ids_batch, embed_texts=embed_texts_batch)
         total_chunks += len(documents_batch)
+
+    # 幂等收尾：清理各法规下本次未产出的陈旧文档（条款删减/重排后的孤儿块）
+    pruned_total = 0
+    for lid, keep_ids in kept_ids_map.items():
+        deleted = repo.prune_law_docs(lid, keep_ids)
+        if deleted:
+            pruned_total += deleted
+            print(f"🧹 清理 {lid} 陈旧文档块: {deleted} 条")
 
     # 更新 law_catalog.json
     print("\n📋 更新法律目录 (law_catalog.json)...")
@@ -330,34 +354,50 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
     print(f"📁 法律目录已保存至: {catalog.catalog_path}")
 
     # 为新增的法规批量生成摘要
-    if processed_laws:
+    if processed_laws and not skip_abstracts:
         print(f"\n📝 开始为 {len(processed_laws)} 个法规生成摘要...")
         abstract_service = AbstractService()
         abstract_service.generate_for_laws(list(processed_laws), delay=2.0)
+    elif processed_laws and skip_abstracts:
+        print(f"\n⏭️  已跳过 {len(processed_laws)} 个法规的摘要生成（--skip-abstracts）")
 
-    # 自动重新标注旧数据
-    print(f"\n🔄 开始重新标注所有数据...")
+    # 自动重新标注过时数据（默认增量：仅标注词表版本落后的文档）
+    print(f"\n🔄 开始重新标注（增量）...")
     reannotate_all_data(repo)
 
 
-def reannotate_all_data(repo: ElasticsearchRepository):
-    """重新标注所有数据"""
+def reannotate_all_data(repo: ElasticsearchRepository, full: bool = False):
+    """重新标注数据（默认增量）。
+
+    仅处理 taxonomy_version 落后于当前词表版本的文档——每次入库都对全量
+    万级语料重标注毫无收益；full=True 时强制全量（词表结构变更后重建用）。
+    """
     print("初始化主题分类器...")
     classifier = TopicClassifier()
-    print(f"加载词表版本: {classifier.taxonomy_version}, 主题数: {len(classifier.topics)}")
-    
-    total_docs = repo.count()
-    print(f"开始处理 {total_docs} 条数据...")
+    current_version = classifier.taxonomy_version
+    print(f"加载词表版本: {current_version}, 主题数: {len(classifier.topics)}")
+
+    if full:
+        query: Dict = {"match_all": {}}
+    else:
+        # 仅挑出词表版本落后的文档；无该字段的旧数据也会命中 must_not 而纳入
+        query = {"bool": {"must_not": [{"term": {"taxonomy_version": current_version}}]}}
+
+    total_docs = repo.client.count(index=settings.es_index_name, query=query).get("count", 0)
+    if total_docs == 0:
+        print(f"✅ 全部数据已是当前词表版本 ({current_version})，跳过重新标注")
+        return
+    print(f"开始处理 {total_docs} 条数据（词表版本落后）...")
     
     # 批量读取所有文档
     batch_size = 100
     processed = 0
     labeled = 0
     
-    # 使用 scroll 游标遍历全部文档, 避免 from+size 超过 10000 限制
+    # 使用 scroll 游标遍历待标注文档, 避免 from+size 超过 10000 限制
     results = repo.client.search(
         index=settings.es_index_name,
-        body={"query": {"match_all": {}}, "size": batch_size},
+        body={"query": query, "size": batch_size},
         scroll="2m"
     )
     scroll_id = results.get("_scroll_id")
@@ -434,6 +474,9 @@ if __name__ == "__main__":
     parser.add_argument("--clear", action="store_true", help="清空现有索引后重新入库")
     parser.add_argument("--force", action="store_true", help="强制覆盖已有数据（不跳过重复）")
     parser.add_argument("--batch-size", type=int, default=32, help="批量处理大小")
+    parser.add_argument("--skip-abstracts", action="store_true",
+                        help="跳过 LLM 摘要重生成（全量重建时配合摘要回填脚本使用）")
 
     args = parser.parse_args()
-    ingest_data(batch_size=args.batch_size, clear_index=args.clear, force=args.force)
+    ingest_data(batch_size=args.batch_size, clear_index=args.clear, force=args.force,
+                skip_abstracts=args.skip_abstracts)

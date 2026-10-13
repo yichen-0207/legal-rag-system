@@ -1,0 +1,643 @@
+{
+  "phase": 1,
+  "generated_at": "2026-10-12T05:40:17",
+  "source_dir": "/app/data/raw",
+  "output_dir": "/app/data/raw_v2",
+  "dry_run": false,
+  "transforms": {
+    "1a_law_id_split": {
+      "files": [
+        {
+          "file": "SMP_TH_003_cleaned.json",
+          "old_law_id": "TH_ACT_1979",
+          "new_law_id": "TH_ACT_1979_EXIM",
+          "articles": 25
+        },
+        {
+          "file": "SMP_TH_014_cleaned.json",
+          "old_law_id": "TH_MIN_1999",
+          "new_law_id": "TH_MIN_1999_022",
+          "articles": 1
+        },
+        {
+          "file": "SMP_TH_015_cleaned.json",
+          "old_law_id": "TH_MIN_1999",
+          "new_law_id": "TH_MIN_1999_024",
+          "articles": 1
+        },
+        {
+          "file": "SMP_TH_016_cleaned.json",
+          "old_law_id": "TH_MIN_1999",
+          "new_law_id": "TH_MIN_1999_025",
+          "articles": 1
+        },
+        {
+          "file": "SMP_TH_017_cleaned.json",
+          "old_law_id": "TH_MIN_1999",
+          "new_law_id": "TH_MIN_1999_026",
+          "articles": 1
+        },
+        {
+          "file": "SMP_TH_018_cleaned.json",
+          "old_law_id": "TH_MIN_1999",
+          "new_law_id": "TH_MIN_1999_027",
+          "articles": 1
+        },
+        {
+          "file": "SMP_TH_020_cleaned.json",
+          "old_law_id": "TH_MIN_1999",
+          "new_law_id": "TH_MIN_1999_023",
+          "articles": 1
+        }
+      ],
+      "articles": 31,
+      "note": "拆分后 law_id 全局唯一，doc_id 前缀同步改写"
+    },
+    "1b_empty_text_inventory": {
+      "total": 40,
+      "recoverable_from_sub_chunks": 15,
+      "note": "本机无原始语料（.txt/.pdf 源文件不在仓库内），sub_chunks 亦无内容，无法补洗；建议保留清单并在评测分母中对不可召回项显式剔除",
+      "items": [
+        {
+          "jurisdiction": "hk",
+          "file": "Cap 200_cleaned.json",
+          "doc_id": "HK_CAP_200_ART_118L",
+          "article_number": "118L",
+          "sub_chunks": 0,
+          "source_file": "Cap 200.pdf",
+          "source_url": "https://www.elegislation.gov.hk)"
+        },
+        {
+          "jurisdiction": "hk",
+          "file": "Cap 200_cleaned.json",
+          "doc_id": "HK_CAP_200_ART_119",
+          "article_number": "119",
+          "sub_chunks": 0,
+          "source_file": "Cap 200.pdf",
+          "source_url": "https://www.elegislation.gov.hk)"
+        },
+        {
+          "jurisdiction": "hk",
+          "file": "Cap 200_cleaned.json",
+          "doc_id": "HK_CAP_200_ART_147F",
+          "article_number": "147F",
+          "sub_chunks": 0,
+          "source_file": "Cap 200.pdf",
+          "source_url": "https://www.elegislation.gov.hk)"
+        },
+        {
+          "jurisdiction": "japan",
+          "file": "SMP_JP_014_cleaned.json",
+          "doc_id": "JP_Act_1984_SMP_JP_014_ART_178",
+          "article_number": "178",
+          "sub_chunks": 1,
+          "source_file": "SMP_JP_014.json",
+          "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4450"
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "MO_27359240_cleaned.json",
+          "doc_id": "MAC_LEI_10_2022_ART_006",
+          "article_number": "6",
+          "sub_chunks": 0,
+          "source_file": "MO_27359240.html",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "MO_27359240_cleaned.json",
+          "doc_id": "MAC_LEI_10_2022_ART_008",
+          "article_number": "8",
+          "sub_chunks": 0,
+          "source_file": "MO_27359240.html",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "MO_67262985_cleaned.json",
+          "doc_id": "MAC_LEI_13_2023_ART_144",
+          "article_number": "144",
+          "sub_chunks": 0,
+          "source_file": "MO_67262985.html",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "MO_67262985_cleaned.json",
+          "doc_id": "MAC_LEI_13_2023_ART_145",
+          "article_number": "145",
+          "sub_chunks": 0,
+          "source_file": "MO_67262985.html",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "MO_69840790_cleaned.json",
+          "doc_id": "MAC_LEI_5_2005_ART_031",
+          "article_number": "31",
+          "sub_chunks": 0,
+          "source_file": "MO_69840790.html",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_011_cleaned.json",
+          "doc_id": "MAC_LEI_14_2009_ART_SCH001",
+          "article_number": "Sch1",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_011.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_016_cleaned.json",
+          "doc_id": "MAC_LEI_9_2023_ART_022",
+          "article_number": "22",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_016.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_026_cleaned.json",
+          "doc_id": "MAC_LEI_7_2008_ART_087",
+          "article_number": "87",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_026.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_034_cleaned.json",
+          "doc_id": "MAC_LEI_11_2003_ART_SCH001",
+          "article_number": "Sch1",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_034.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_034_cleaned.json",
+          "doc_id": "MAC_LEI_11_2003_ART_SCHI",
+          "article_number": "SchI",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_034.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_043_cleaned.json",
+          "doc_id": "MAC_LEI_18_2024_ART_054",
+          "article_number": "54",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_043.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_043_cleaned.json",
+          "doc_id": "MAC_LEI_18_2024_ART_940",
+          "article_number": "940",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_043.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_057_cleaned.json",
+          "doc_id": "MAC_REG_35_2020_ART_SCH001",
+          "article_number": "Sch1",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_057.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_061_cleaned.json",
+          "doc_id": "MAC_LEI_17_2020_ART_SCH001",
+          "article_number": "Sch1",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_061.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_061_cleaned.json",
+          "doc_id": "MAC_LEI_17_2020_ART_SCH001",
+          "article_number": "Sch1",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_061.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_062_cleaned.json",
+          "doc_id": "MAC_LEI_7_2023_ART_SCH003",
+          "article_number": "Sch3",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_062.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_076_cleaned.json",
+          "doc_id": "MAC_REG_39_2022_ART_346",
+          "article_number": "346",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_076.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_078_cleaned.json",
+          "doc_id": "MAC_LEI_2_2026_ART_SCH001",
+          "article_number": "Sch1",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_078.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_082_cleaned.json",
+          "doc_id": "MAC_LEI_15_2009_ART_SCH001",
+          "article_number": "Sch1",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_082.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_084_cleaned.json",
+          "doc_id": "MAC_REG_26_2012_ART_SCH001",
+          "article_number": "Sch1",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_084.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_113_cleaned.json",
+          "doc_id": "MAC_LEI_9_2000_ART_071",
+          "article_number": "71",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_113.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "macau",
+          "file": "SMP_MO_143_cleaned.json",
+          "doc_id": "MAC_LEI_11_2025_ART_071",
+          "article_number": "71",
+          "sub_chunks": 0,
+          "source_file": "SMP_MO_143.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "malaysia",
+          "file": "Act 709 ori_cleaned.json",
+          "doc_id": "MY_ACT_709_2010_ART_013",
+          "article_number": "13",
+          "sub_chunks": 1,
+          "source_file": "Act 709 ori.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "malaysia",
+          "file": "Act 854_cleaned.json",
+          "doc_id": "MY_ACT_854_2024_ART_002",
+          "article_number": "2",
+          "sub_chunks": 1,
+          "source_file": "Act 854.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "thailand",
+          "file": "SMP_TH_007_cleaned.json",
+          "doc_id": "TH_CONST_2007_ART_274",
+          "article_number": "274",
+          "sub_chunks": 1,
+          "source_file": "SMP_TH_007.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "thailand",
+          "file": "SMP_TH_010_cleaned.json",
+          "doc_id": "TH_ACT_1991_ART_014",
+          "article_number": "14",
+          "sub_chunks": 1,
+          "source_file": "SMP_TH_010.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "thailand",
+          "file": "SMP_TH_022_cleaned.json",
+          "doc_id": "TH_ACT_1926_ART_034",
+          "article_number": "34",
+          "sub_chunks": 1,
+          "source_file": "SMP_TH_022.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "vietnam",
+          "file": "SMP_VN_001_cleaned.json",
+          "doc_id": "VN_N_25_2011_ART_001",
+          "article_number": "1",
+          "sub_chunks": 1,
+          "source_file": "SMP_VN_001.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "vietnam",
+          "file": "SMP_VN_002_cleaned.json",
+          "doc_id": "VN_N_87_2010_ART_006",
+          "article_number": "6",
+          "sub_chunks": 1,
+          "source_file": "SMP_VN_002.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "vietnam",
+          "file": "SMP_VN_003_cleaned.json",
+          "doc_id": "VN_QH12SOCIALIST_42_2009_ART_009",
+          "article_number": "9",
+          "sub_chunks": 1,
+          "source_file": "SMP_VN_003.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "vietnam",
+          "file": "SMP_VN_004_cleaned.json",
+          "doc_id": "VN_QH12SOCIALIST_41_2009_ART_004",
+          "article_number": "4",
+          "sub_chunks": 1,
+          "source_file": "SMP_VN_004.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "vietnam",
+          "file": "SMP_VN_005_cleaned.json",
+          "doc_id": "VN_TT_37_2009_ART_046",
+          "article_number": "46",
+          "sub_chunks": 1,
+          "source_file": "SMP_VN_005.txt",
+          "source_url": "http://www.rootca.gov.vn"
+        },
+        {
+          "jurisdiction": "vietnam",
+          "file": "SMP_VN_006_cleaned.json",
+          "doc_id": "VN_N_27_2007_ART_005",
+          "article_number": "5",
+          "sub_chunks": 1,
+          "source_file": "SMP_VN_006.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "vietnam",
+          "file": "SMP_VN_008_cleaned.json",
+          "doc_id": "VN_Q_12_2006_ART_005",
+          "article_number": "5",
+          "sub_chunks": 1,
+          "source_file": "SMP_VN_008.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "vietnam",
+          "file": "SMP_VN_009_cleaned.json",
+          "doc_id": "VN_QH11_67_2006_ART_003",
+          "article_number": "3",
+          "sub_chunks": 1,
+          "source_file": "SMP_VN_009.txt",
+          "source_url": null
+        },
+        {
+          "jurisdiction": "vietnam",
+          "file": "SMP_VN_013_cleaned.json",
+          "doc_id": "VN_N_75_2003_ART_002",
+          "article_number": "2",
+          "sub_chunks": 1,
+          "source_file": "SMP_VN_013.txt",
+          "source_url": null
+        }
+      ]
+    },
+    "1c_line_merge": {
+      "jurisdictions": [
+        "singapore",
+        "usa"
+      ],
+      "items_touched": {
+        "text_en_items": 2165
+      },
+      "chars_removed": {
+        "text_en_chars": 64086
+      }
+    },
+    "1d_date_backfill": {
+      "files_touched": 1,
+      "values_filled": 4,
+      "fields": [
+        "passing_date",
+        "effective_date",
+        "publication_date",
+        "last_amended_date"
+      ]
+    },
+    "1f_cleanup": {
+      "empty_text_removed": {
+        "total": 40,
+        "by_jurisdiction": {
+          "hk": 3,
+          "japan": 1,
+          "macau": 22,
+          "malaysia": 2,
+          "singapore": 0,
+          "thailand": 3,
+          "usa": 0,
+          "vietnam": 9
+        },
+        "note": "条目清单见 1b 的 items 字段（含来源文件、doc_id、是否可恢复）"
+      },
+      "dup_doc_id_removed": {
+        "total": 0,
+        "items": [],
+        "note": "澳门 SMP_MO_061 的重复 doc_id 两条均无正文，已被空文本剔除覆盖"
+      },
+      "sg_id_merge": {
+        "files_removed": 4,
+        "items_moved": 18,
+        "pairs": [
+          {
+            "target_file": "SG_17345705_Payment_Services_Act_2019_cleaned.json",
+            "old_law_id": "SG_ACT_This_Act_is_the_Paym_2019",
+            "new_law_id": "SG_ACT_1_2021",
+            "items_moved": 4
+          },
+          {
+            "target_file": "SG_19582447_Financial_Services_And_Markets_Act_2022_cleaned.json",
+            "old_law_id": "SG_ACT_This_Act_is_the_Fina_2022",
+            "new_law_id": "SG_ACT_18_2022",
+            "items_moved": 2
+          },
+          {
+            "target_file": "SG_30981088_Personal_Data_Protection_Act_2012_cleaned.json",
+            "old_law_id": "SG_ACT_This_Act_is_the_Pers_2012",
+            "new_law_id": "SG_ACT_22_2016",
+            "items_moved": 4
+          },
+          {
+            "target_file": "SG_57922111_Spam_Control_Act_2007_cleaned.json",
+            "old_law_id": "SG_ACT_This_Act_is_the_Spam_2007",
+            "new_law_id": "SG_ACT_40_2020",
+            "items_moved": 8
+          }
+        ],
+        "same_article_dedup": [
+          {
+            "law_id": "SG_ACT_22_2016",
+            "article_number": "2",
+            "kept_doc_id": "SG_ACT_22_2016_ART_002",
+            "kept_chars": 16737,
+            "dropped_doc_id": "SG_ACT_22_2016_ART_002",
+            "dropped_chars": 10914,
+            "file": "SG_30981088_Personal_Data_Protection_Act_2012_cleaned.json"
+          }
+        ],
+        "note": "片段 law_id 由正文首句截断生成（清洗缺陷产物），统一并入立法编号式规范 ID，doc_id 前缀同步改写；合并后同条款号重复保留正文更长者"
+      }
+    }
+  },
+  "inventory_pending_decision": [
+    {
+      "id": "P1-MACAU-NAME",
+      "desc": "澳门 29 个文件首条 law_name 为正文片段（如「制定本法律。」），另有 5 个为空；ES 的 title 直接取该字段，需决定回填来源（law_name_original / source_url / 正文首条）",
+      "severity": "中"
+    },
+    {
+      "id": "P1-SG-STUB",
+      "desc": "新加坡语料为摘录级（每法 1~8 条，共 584 块），非全文；无本地源文件可补，需决定是否重新抓取",
+      "severity": "高"
+    },
+    {
+      "id": "P1-SG-BLOCK",
+      "desc": "新加坡 4 部法合并后仍各有旧代块状条目（article_number 为解析异常值 2020/25/31，正文为逐条版本的部分覆盖，实测覆盖率 0.585/0.722/0.901/0.942）；本次仅做同条款号去重、未删除整条，是否剔除待决策",
+      "severity": "低",
+      "items": [
+        "SG_ACT_18_2022_ART_025",
+        "SG_ACT_1_2021_ART_2020",
+        "SG_ACT_1_2021_ART_031",
+        "SG_ACT_40_2020_ART_2020"
+      ]
+    },
+    {
+      "id": "P1-DATE-MISSING",
+      "desc": "40/309 个文件（占 13.9% 的块）全文件无 passing_date，且文件内取值一致、无部分缺失 → 属数据源缺失，回填无解；需决定是否从 law_id 派生粗粒度年份字段，或时间筛选功能声明受限",
+      "severity": "中"
+    }
+  ],
+  "verification": {
+    "distinct_law_id_raw": 302,
+    "distinct_law_id_v2": 305,
+    "per_jurisdiction": {
+      "hk": {
+        "files_raw": 8,
+        "files_v2": 8,
+        "articles_raw": 1029,
+        "articles_v2": 1026,
+        "articles_removed": 3,
+        "files_removed": 0,
+        "match": true,
+        "articles_on_disk": 1026,
+        "disk_readback_match": true
+      },
+      "japan": {
+        "files_raw": 43,
+        "files_v2": 43,
+        "articles_raw": 1983,
+        "articles_v2": 1982,
+        "articles_removed": 1,
+        "files_removed": 0,
+        "match": true,
+        "articles_on_disk": 1982,
+        "disk_readback_match": true
+      },
+      "macau": {
+        "files_raw": 117,
+        "files_v2": 117,
+        "articles_raw": 4323,
+        "articles_v2": 4301,
+        "articles_removed": 22,
+        "files_removed": 0,
+        "match": true,
+        "articles_on_disk": 4301,
+        "disk_readback_match": true
+      },
+      "malaysia": {
+        "files_raw": 3,
+        "files_v2": 3,
+        "articles_raw": 215,
+        "articles_v2": 213,
+        "articles_removed": 2,
+        "files_removed": 0,
+        "match": true,
+        "articles_on_disk": 213,
+        "disk_readback_match": true
+      },
+      "singapore": {
+        "files_raw": 35,
+        "files_v2": 31,
+        "articles_raw": 389,
+        "articles_v2": 388,
+        "articles_removed": 1,
+        "files_removed": 4,
+        "match": true,
+        "articles_on_disk": 388,
+        "disk_readback_match": true
+      },
+      "thailand": {
+        "files_raw": 21,
+        "files_v2": 21,
+        "articles_raw": 913,
+        "articles_v2": 910,
+        "articles_removed": 3,
+        "files_removed": 0,
+        "match": true,
+        "articles_on_disk": 910,
+        "disk_readback_match": true
+      },
+      "usa": {
+        "files_raw": 67,
+        "files_v2": 67,
+        "articles_raw": 3693,
+        "articles_v2": 3693,
+        "articles_removed": 0,
+        "files_removed": 0,
+        "match": true,
+        "articles_on_disk": 3693,
+        "disk_readback_match": true
+      },
+      "vietnam": {
+        "files_raw": 15,
+        "files_v2": 15,
+        "articles_raw": 323,
+        "articles_v2": 314,
+        "articles_removed": 9,
+        "files_removed": 0,
+        "match": true,
+        "articles_on_disk": 314,
+        "disk_readback_match": true
+      }
+    },
+    "article_count_match": true,
+    "disk_readback_match": true
+  },
+  "resolved_actions": [
+    {
+      "id": "P1-SG-DUP-ID",
+      "resolution": "1f-3：4 个片段 law_id 的 18 条并入规范 ID（doc_id 前缀同步改写），4 个片段文件不再单独落盘；同条款号重复保留正文更长者 1 条；评测集/评测脚本中的片段 ID 引用另行同步"
+    },
+    {
+      "id": "P1-MO-DUP-DOCID",
+      "resolution": "1f-1：重复的两条 MAC_LEI_17_2020_ART_SCH001 均无正文，随空文本剔除一并消除"
+    }
+  ]
+}

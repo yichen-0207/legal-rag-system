@@ -48,6 +48,10 @@ def search(
             similarity=result['score'],
             retrieval_hop=result.get('retrieval_hop'),
             referenced_by=result.get('referenced_by'),
+            cross_law=result.get('cross_law'),
+            referenced_law_id=result.get('referenced_law_id'),
+            referenced_law_name=result.get('referenced_law_name'),
+            match_score=result.get('match_score'),
         ))
 
     return APIResponse(success=True, data=search_results)

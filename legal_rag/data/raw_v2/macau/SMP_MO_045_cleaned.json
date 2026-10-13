@@ -1,0 +1,62 @@
+[
+  {
+    "doc_id": "MAC_LEI_20_2023_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_20_2023",
+    "law_name": "修改第 3/2004 號法律 《行政長官選舉法》",
+    "law_name_original": "Lei eleitoral para o Chefe do",
+    "law_type": "法律",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "標的",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "本法律訂定澳門特別行政區保守國家秘密法律制度。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 22,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2023-12-14",
+    "effective_date": "2024-01-01",
+    "publication_date": "2023-12-27",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "SMP_MO_045.txt",
+    "source_start": 16,
+    "source_end": 89,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T14:53:12Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -742,6 +742,25 @@ tr:hover td {
     margin-left: 0.125rem;
 }
 
+/* 检索/生成阶段的状态提示：检索含 CPU 精排，耗时较长，需即时反馈 */
+.qa-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+}
+
+.qa-status-spinner {
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--color-border);
+    border-top-color: var(--color-primary);
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+    flex-shrink: 0;
+}
+
 /* ===== 知识图谱网络图样式 ===== */
 .network-node-table {
     width: 100%;

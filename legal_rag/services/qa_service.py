@@ -967,6 +967,8 @@ class QAService:
     def ask_stream(self, question: str, top_k: int = 5, jurisdictions: Optional[List[str]] = None,
                     history: Optional[List[Dict]] = None):
         """流式问答"""
+        # 检索阶段（含 CPU 精排）是整条链路最慢的一段，若不先推送状态，前端会白屏十几秒。
+        yield {"type": "status", "stage": "retrieve", "data": "正在检索相关法规…"}
         total_start = time.time()
 
         try:
@@ -1013,6 +1015,7 @@ class QAService:
         t_prompt = time.time() - t3
 
         yield {"type": "sources", "sources": sources, "retrieved_count": len(contexts), "jurisdictions": detected_jurisdictions}
+        yield {"type": "status", "stage": "generate", "data": "正在生成回答…"}
 
         try:
             t4 = time.time()
@@ -1050,6 +1053,9 @@ class QAService:
             history: 对话历史
             images: 图片列表，每项包含 {data: base64字符串, mime_type: 图片类型}
         """
+        # 与 ask_stream 同理：先推送状态，避免检索期间前端长时间无反馈
+        yield {"type": "status", "stage": "retrieve", "data": "正在检索相关法规…"}
+
         import logging
         logger = logging.getLogger(__name__)
         total_start = time.time()
@@ -1105,6 +1111,7 @@ class QAService:
         detected_jurisdictions = list(source_jurisdictions) if not jurisdictions else detected_jurisdictions
 
         yield {"type": "sources", "sources": sources, "retrieved_count": len(contexts), "jurisdictions": detected_jurisdictions}
+        yield {"type": "status", "stage": "generate", "data": "正在生成回答…"}
 
         # 4. 流式调用智能问答模型
         try:

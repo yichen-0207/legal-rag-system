@@ -1,0 +1,1031 @@
+[
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_001",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "1",
+    "article_number_normalized": "1",
+    "article_title": "標的",
+    "chunk_index": 0,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "本法律旨在訂定電腦犯罪，以及設立在電子載體中搜集證據的制度。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 28,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 3,
+        "matched_keywords": [
+          "犯罪",
+          "電腦",
+          "電腦犯罪"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_002",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "2",
+    "article_number_normalized": "2",
+    "article_title": "定義",
+    "chunk_index": 1,
+    "chapter": "第一章 一般規定",
+    "chapter_title": "",
+    "text_zh": "為適用本法律的規定，下列詞語的定義為：\n（一）電腦系統：任何獨立的裝置或一組互相連接或相關的裝置，當中一個或以上的裝置按照程式執行自動處理電腦數據資料的工作；\n（二）電腦數據資料：是事實、資料或概念的任何展示，而該展示是以一種可於電腦系統內處理的形式為之，包括可使電腦系統具執行功能的程式；\n（三）電腦程式：指有效的指令，將該等指令加入電腦系統中可使用的載體時，就能令到電腦系統指出、執行或產生特定的功能、任務或結果；\n（四）互聯網服務的登記用戶的基本資料：指由互聯網服務提供者所持有的有關使用其服務的登記用戶的資料，該等資料以電腦數據資料或任何其他方式顯示，但非屬路由數據資料或關於通訊內容或訊息內容的電腦數據資料，且其內容為所訂服務合同或協議內的資料，包括：所使用的通訊服務的種類、因應不同的服務種類而使用的技術措施及服務期間、登記用戶的身份資料、通信地址或住址、電話號碼或任何其他聯絡號碼、有關賬單或繳費的資料，以及關於通訊設備所在地點的任何其他資料；\n（五）路由數據資料：與透過電腦系統所作通訊有關的所有電腦數據資料，而該電腦數據資料是由構成通訊鏈的要素的電腦系統所產生，並顯示出通訊的來源、目的地、路徑、時間、日期、大小、持續時間或基本服務的類型；\n（六）電磁發射：由攜有電子訊號的電子元件及線所發射的訊號或波。\n第二章\n刑法規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 509,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_003",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "3",
+    "article_number_normalized": "3",
+    "article_title": "補充法律",
+    "chunk_index": 2,
+    "chapter": "第二章 刑法規定",
+    "chapter_title": "",
+    "text_zh": "一、 《刑法典》 的規定，補充適用於本法律所規定的犯罪。\n二、如按其他法律的規定科處更重刑罰，則不適用本法律所定的刑罰。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 49,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "犯罪"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_004",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "4",
+    "article_number_normalized": "4",
+    "article_title": "不當進入電腦系統",
+    "chunk_index": 3,
+    "chapter": "第二章 刑法規定",
+    "chapter_title": "",
+    "text_zh": "一、存有任何不正當意圖，而未經許可進入整個或部分電腦系統者，處最高一年徒刑，或科最高一百二十日罰金。\n二、如藉違反保安措施而進入整個或部分電腦系統，行為人處最高二年徒刑，或科最高二百四十日罰金。\n三、〔廢止〕",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 90,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_005",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "5",
+    "article_number_normalized": "5",
+    "article_title": "不當獲取、使用或提供電腦數據資料",
+    "chunk_index": 4,
+    "chapter": "第二章 刑法規定",
+    "chapter_title": "",
+    "text_zh": "一、存有任何不正當意圖，而未經許可獲取、使用或向他人提供載於電腦系統內或電腦數據資料儲存載體內的電腦數據資料，即使是正當進入該電腦系統或電腦數據資料儲存載體，但並非該等電腦數據資料的接收者，處最高一年徒刑，或科最高一百二十日罰金。\n二、如上款所指的電腦數據資料涉及個人的私人生活，尤其是家庭生活或性生活的隱私，或與健康、種族或民族本源、政治信仰、宗教信仰或世界觀的信仰有關，又或與依法受保護的保密事實有關，則行為人處最高二年徒刑，或科最高二百四十日罰金。\n三、〔廢止〕",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 211,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 1,
+        "matched_keywords": [
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_006",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "6",
+    "article_number_normalized": "6",
+    "article_title": "不當截取電腦數據資料",
+    "chunk_index": 5,
+    "chapter": "第二章 刑法規定",
+    "chapter_title": "",
+    "text_zh": "一、未經許可而藉技術方法截取電腦系統內的非公開傳送的電腦數據資料、電腦系統所接收或發送的非公開傳送的電腦數據資料，包括由傳送該等電腦數據資料的電腦系統所發射的電磁，行為人處最高三年徒刑或科罰金。\n二、犯罪未遂，處罰之。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 100,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 2,
+        "matched_keywords": [
+          "犯罪",
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_007",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "7",
+    "article_number_normalized": "7",
+    "article_title": "損害電腦數據資料",
+    "chunk_index": 6,
+    "chapter": "第二章 刑法規定",
+    "chapter_title": "",
+    "text_zh": "一、未經許可損壞、破壞、更改、刪除、消除或增加電腦數據資料，又或以任何方式影響其效用者，處最高三年徒刑或科罰金。\n二、犯罪未遂，處罰之。\n三、如所造成的財產損失屬巨額，行為人處最高五年徒刑，或科最高六百日罰金。\n四、如屬下列任一情況，則刑罰為二年至十年徒刑：\n（一）所造成的財產損失屬相當巨額；\n（二）第一款所指的電腦數據資料具重要學術、藝術或歷史價值，又或對科技發展或經濟發展具有重大意義。\n五、〔廢止〕",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 168,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 2,
+        "matched_keywords": [
+          "犯罪",
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_008",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "8",
+    "article_number_normalized": "8",
+    "article_title": "干擾電腦系統",
+    "chunk_index": 7,
+    "chapter": "第二章 刑法規定",
+    "chapter_title": "",
+    "text_zh": "一、以任何方式嚴重干擾電腦系統的運作者，尤其是藉輸入、傳送、損壞、破壞、更改、刪除或消除電腦數據資料，處最高三年徒刑或科罰金。\n二、犯罪未遂，處罰之。\n三、如所造成的財產損失：\n（一）屬巨額，行為人處一年至五年徒刑；\n（二）屬相當巨額，行為人處二年至十年徒刑。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 104,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 2,
+        "matched_keywords": [
+          "犯罪",
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_009",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "9",
+    "article_number_normalized": "9",
+    "article_title": "用作實施犯罪的電腦裝置或電腦數據資料",
+    "chunk_index": 8,
+    "chapter": "第二章 刑法規定",
+    "chapter_title": "",
+    "text_zh": "一、製造、進口、出口、出售、分發或向他人提供以下任一裝置或資料者，處最高三年徒刑或科罰金：\n（一）主要為實施第四條至第八條所定犯罪而設計或改動的電腦裝置或電腦程式；\n（二）用作實施第四條至第八條所定犯罪的、能進入整個或部分電腦系統的密碼、密碼匙或類似密碼的電腦數據資料。\n二、如作出上款所指的行為旨在進行經許可的試驗、為保護電腦系統或為達到其他非屬不法的目的，則不適用該款規定。\n第九-A條\n使用電腦裝置以模擬流動電信服務站\n一、不符合法定條件或違反主管當局的規定，使用電腦程式和電腦裝置，與其他工具或器械組合，以模擬流動電信服務站者，處最高三年徒刑或科罰金。\n二、犯罪未遂，處罰之。\n三、屬下列任一情況，刑罰為一年至五年徒刑：\n（一）行為人意圖營利；\n（二）行為人的目的為預備、便利或實施另一犯罪；\n（三）有關行為包括傳輸任何受法律禁止的廣告，或散佈與色情、性交易或不法賭博有關的內容，又或以任何形式煽動他人作出或觀看涉及該等內容的行為。\n第九-B條\n不正當揭露電腦安全嚴重漏洞\n一、存有任何不正當意圖，向他人透露在執行職務時或基於職務原因而獲悉的電腦安全嚴重漏洞，即使屬暫時性的漏洞，而足以造成有實施本法律規定的犯罪的危險者，處最高三年徒刑或科罰金。\n二、為適用上款的規定，電腦安全嚴重漏洞是指用於支援資訊網絡和電腦系統運行的硬件或軟件，在設計、安裝或維護上的任何弱點、缺陷或不足，且當其被第三人利用時，可令該網絡和系統的使用者或所有人遭受相當巨額的損失。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 553,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 2,
+        "matched_keywords": [
+          "犯罪",
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_010",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "10",
+    "article_number_normalized": "10",
+    "article_title": "電腦偽造",
+    "chunk_index": 9,
+    "chapter": "第二章 刑法規定",
+    "chapter_title": "",
+    "text_zh": "一、意圖使人在法律關係中受欺騙而輸入、更改、刪除或消除可作為證據方法的電腦數據資料，又或以其他方式介入該等數據資料的電腦處理程序，使該等數據資料偽造成在視覺上與真實文件有相同的效果，又或將該等偽造的數據資料用於上述目的，行為人處最高三年徒刑或科罰金。\n二、意圖造成他人有所損失或為自己或第三人獲得不正當利益，而使用藉上款所指行為而獲取的電腦數據資料所製作的文件者，處相同刑罰。\n三、犯罪未遂，處罰之。\n四、如第一款及第二款所指的事實屬下列任一情況，行為人處一年至五年徒刑：\n（一）由公務員在執行其職務時實施；\n（二）涉及被法律定為具特別價值的文件；\n（三）涉及合格電子簽名或已簽署合格電子簽名的文件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 267,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 2,
+        "matched_keywords": [
+          "犯罪",
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_011",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "11",
+    "article_number_normalized": "11",
+    "article_title": "電腦詐騙",
+    "chunk_index": 10,
+    "chapter": "第二章 刑法規定",
+    "chapter_title": "",
+    "text_zh": "一、意圖為自己或第三人不正當得利，而作出下列任一行為，造成他人財產有所損失者，處最高三年徒刑或科罰金：\n（一）輸入、更改、刪除或消除電腦數據資料；\n（二）介入電腦數據資料處理的結果；\n（三）不正確設定電腦程式；\n（四）干預電腦系統的運作。\n二、犯罪未遂，處罰之。\n三、如所造成的財產損失：\n（一）屬巨額，行為人處一年至五年徒刑；\n（二）屬相當巨額，行為人處二年至十年徒刑。\n四、〔廢止〕",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 149,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 2,
+        "matched_keywords": [
+          "犯罪",
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_012",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "12",
+    "article_number_normalized": "12",
+    "article_title": "刑罰的加重",
+    "chunk_index": 11,
+    "chapter": "第二章 刑法規定",
+    "chapter_title": "",
+    "text_zh": "一、如本法律規定的犯罪的標的為下列實體或機構在其業務中所使用的電腦數據資料或電腦系統，則刑罰的最低限度及最高限度均加重三分之一：\n（一） 第13/2019號法律 《網絡安全法》所規定的關鍵基礎設施營運者；\n（二） 第22/2000號行政法規 《中央人民政府駐澳機構履行職責的保障及有關豁免》第一條所訂定的中央人民政府駐澳機構。\n二、 《刑法典》 第一百七十七條第二款及第一百九十二條\n第十二-A條\n告訴\n如屬第四條第一款、第五條、第七條第一款及第二款，以及第十一條第一款及第二款規定的犯罪，非經告訴不得進行刑事程序，但屬上條規定的加重刑罰，不在此限。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 224,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 3,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_013",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "13",
+    "article_number_normalized": "13",
+    "article_title": "法人的刑事責任",
+    "chunk_index": 12,
+    "chapter": "第二章 刑法規定",
+    "chapter_title": "",
+    "text_zh": "一、如出現下列任一情況，則法人，即使屬不合規範設立者，以及無法律人格的社團，須對本法律所定犯罪負責：\n（一）其機關或代表人以該等實體的名義及為其利益而實施本法律所定犯罪；\n（二）聽命於上項所指機關或代表人的人以該等實體的名義及為其利益而實施犯罪，且因該機關或代表人故意違反本身所負的監管或控制義務方使該犯罪有可能發生。\n二、上款所指實體的責任並不排除有關行為人的個人責任。\n三、就第一款所指的犯罪，對該款所指的實體科處以下主刑：\n（一）罰金；\n（二）法院命令的解散。\n四、罰金以日數訂定，最低限度為一百日，最高限度為一千日。\n五、罰金的日額為澳門幣一百元至澳門幣二萬元。\n六、如對一無法律人格的社團科處罰金，則該罰金以該社團的共同財產支付；如無共同財產或共同財產不足，則以各社員的財產按連帶責任方式支付。\n七、僅當第一款所指實體的創立人具單一或主要的意圖，利用該實體實施第一款所指的犯罪，或僅當該等犯罪的重複實施顯示其成員或負責行政管理工作的人單純或主要利用該實體實施該犯罪時，方科處法院命令的解散此刑罰。\n八、對第一款所指實體可科處以下附加刑：\n（一）禁止從事某些業務，為期一年至十年；\n（二）剝奪獲公共部門或實體給予津貼或補貼的權利；\n（三）受法院強制命令約束；\n（四）公開有罪裁判，其係透過在澳門特別行政區最多人閱讀的中文報章及葡文報章作出，以及在從事業務的地點以公眾能清楚看到的方式，張貼以中葡文書寫的告示作出，張貼期不少於十五日；上述一切費用由被判罪者負擔。\n九、附加刑可予併科。\n十、勞動關係如因有關實體被法院命令解散或被科第八款規定的任何附加刑而終止，則為一切效力，該終止視為屬僱主不以合理理由解除勞動合同。\n第三章\n刑事訴訟規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 637,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 2,
+        "matched_keywords": [
+          "刑事",
+          "犯罪"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_014",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "14",
+    "article_number_normalized": "14",
+    "article_title": "一般規定",
+    "chunk_index": 13,
+    "chapter": "第三章 刑事訴訟規定",
+    "chapter_title": "",
+    "text_zh": "在因本法律所定犯罪和透過電腦系統實施的犯罪所提起的訴訟程序中作出調查及訴訟行為，以及在電子載體中搜集有關實施任何犯罪的證據，均須遵守《刑事訴訟法典》與補足法例所載的規則和以下各條的特別規定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 90,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 3,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_015",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "15",
+    "article_number_normalized": "15",
+    "article_title": "扣押",
+    "chunk_index": 14,
+    "chapter": "第三章 刑事訴訟規定",
+    "chapter_title": "",
+    "text_zh": "一、可對電腦系統、電腦數據資料儲存載體及電腦數據資料進行扣押，或將電腦系統或電腦數據資料儲存載體內所載的可作為證據的電腦數據資料製作副本，並附於卷宗，而有關電腦系統或電腦數據資料儲存載體予以返還。\n二、須將上款所指的副本多複製一份，並將此份副本加上封印及保存，以保持已儲存的電腦數據資料的完整性。\n三、僅在有理由懷疑所製作的副本的真確性時，並經法官批示許可或命令，方可將封印解除。\n四、對封印的解除，適用《刑事訴訟法典》第一百六十九條的規定。\n五、《刑事訴訟法典》第一百六十四條及第二百三十五條的規定，經作出必要配合後，適用於扣押電子郵件或任何方式的私人電子通訊，且不論其接收者有否接收有關郵件或通訊。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 271,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 3,
+        "matched_keywords": [
+          "刑事",
+          "扣押",
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_016",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "16",
+    "article_number_normalized": "16",
+    "article_title": "特別措施",
+    "chunk_index": 15,
+    "chapter": "第三章 刑事訴訟規定",
+    "chapter_title": "",
+    "text_zh": "一、當有理由相信某電腦數據資料有助刑事調查工作，則有權限司法當局可透過批示許可或命令採取以下措施，並應儘可能由該司法當局主持：\n（一）命令採取迅速保存電腦數據資料的措施，而互聯網服務提供者應在最長九十日的必要期間內保持該等電腦數據資料的完整性，並提供足夠的路由數據資料，尤其是能識別在互聯網方面各服務供應者的身份資料，以及有關通訊所經過的路徑資料；\n（二）即時查閱及收集涉嫌人所使用的通訊或服務的路由數據資料，而該等通訊或服務是與透過澳門特別行政區內某電腦系統所傳送的特定通訊有關；\n（三）命令某人將其持有或由其控制的電腦數據資料交出，而該等數據資料是儲存在某電腦系統內或某電腦數據資料儲存載體內；\n（四）命令某互聯網服務提供者將其持有或由其控制的關於其互聯網服務的登記用戶的基本資料交出；\n（五）命令某互聯網服務提供者採取迅速移除或阻止他人查閱特定及不法的電腦數據資料的措施；\n（六）在有理由相信擬找尋的資料儲存在初步調查所針對的電腦系統的不同部分或其他電腦系統內，且透過初始系統查閱或獲取該等資料屬合法的情況下，迅速搜索或以類似搜索方式進入該等不同部分或其他電腦系統。\n二、當刑事警察機關基於有依據的理由相信某電腦數據資料與犯罪有關而可作為證據，且如不採取措施將有可能失去該電腦數據資料，或如延遲採取措施可對具重大價值的法益構成嚴重危險，則即使未經有權限司法當局預先許可，亦可採取上款所指的措施。\n三、如屬上款所指情況，須立即將所實施的措施告知有權限司法當局，並由其在最遲七十二小時內審查該措施，以便使之有效，否則該措施無效。\n四、就按第一款（五）項規定所發出的命令，任何具有個人直接及正當利益的人可於十日期限內向刑事起訴法官申訴。\n五、如有權限司法當局在法定期限內拒絕宣告或未宣告已實施的措施為有效，則須將按第一款規定所獲取或保存的電腦數據資料，按情況而定予以銷毀、返還予對之有權利之人或恢復採取措施前的法律狀況。\n六、如拒絕遵守第一款及第二款所定命令，構成 《刑法典》 第三百一十二條第二款所定的加重違令罪。\n第三-A章\n行政違法行為\n第十六-A條\n保存及提供網絡地址轉換紀錄\n一、互聯網服務提供者必須將私人網絡地址轉換成公共網絡地址的紀錄保存一年。\n二、不履行上款規定的義務構成行政違法行為，科澳門幣五萬元至十五萬元的罰款。\n三、具權限的司法當局在必要時可命令提供第一款所指的紀錄，為此須遵守第十五條第一款至第四款的規定。\n第十六-B條\n權限\n郵電局具權限就上條第二款所指的行政違法行為提起處罰程序、指定預審員及作出處罰。\n第四章\n最後規定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 977,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 3,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "電腦"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_017",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "17",
+    "article_number_normalized": "17",
+    "article_title": "廢止",
+    "chunk_index": 16,
+    "chapter": "第四章 最後規定",
+    "chapter_title": "",
+    "text_zh": "廢止 《刑法典》 第二百一十三條。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 12,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 3,
+        "matched_keywords": [
+          "电脑犯罪",
+          "计算机犯罪",
+          "黑客"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "MAC_LEI_11_2009_ART_018",
+    "jurisdiction": "澳门",
+    "law_id": "MAC_LEI_11_2009",
+    "law_name": "打擊電腦犯罪法",
+    "law_name_original": null,
+    "law_type": "法律",
+    "article_number": "18",
+    "article_number_normalized": "18",
+    "article_title": "生效",
+    "chunk_index": 17,
+    "chapter": "第四章 最後規定",
+    "chapter_title": "",
+    "text_zh": "本法律自公佈後滿三十日生效。\n二零零九年六月二十四日通過。\n立法會主席 曹其真\n二零零九年六月二十六日簽署。\n命令公佈。\n行政長官 何厚鏵",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 58,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybercrime_and_criminal_justice"
+    ],
+    "topics_details": [
+      {
+        "id": "cybercrime_and_criminal_justice",
+        "label_zh": "电脑犯罪与刑事司法",
+        "score": 3,
+        "matched_keywords": [
+          "电脑犯罪",
+          "计算机犯罪",
+          "黑客"
+        ]
+      }
+    ],
+    "definitions": null,
+    "passing_date": "2009-06-24",
+    "effective_date": "2009-07-24",
+    "publication_date": null,
+    "last_amended_date": null,
+    "ingest_date": "2026-06-17",
+    "source_url": null,
+    "source_type": "gov_gazette",
+    "source_file": "MO_67759175.html",
+    "source_start": null,
+    "source_end": null,
+    "language_original": [
+      "zh"
+    ],
+    "version": 2,
+    "cleaned_at": "2026-06-19T05:59:35Z",
+    "cleaned_by": "migration_to_singapore_standard",
+    "taxonomy_version": "2.0",
+    "annotated_at": "2026-06-19T05:59:35Z",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

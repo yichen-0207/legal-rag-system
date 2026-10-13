@@ -364,7 +364,7 @@ function sendQAMessage() {
     renderQAMessages();
 
     // 添加助手占位消息
-    const assistantMsg = { role: 'assistant', content: '', streaming: true };
+    const assistantMsg = { role: 'assistant', content: '', streaming: true, status: '正在检索相关法规…' };
     window.qaState.messages.push(assistantMsg);
     renderQAMessages();
 
@@ -448,6 +448,10 @@ function sendQAMessage() {
 function handleQAChunk(chunk, assistantMsg) {
     if (chunk.type === 'content') {
         assistantMsg.content += chunk.data || '';
+        assistantMsg.status = '';
+        renderQAMessages();
+    } else if (chunk.type === 'status') {
+        assistantMsg.status = chunk.data || '';
         renderQAMessages();
     } else if (chunk.type === 'sources') {
         assistantMsg.sources = chunk.sources || [];
@@ -499,7 +503,10 @@ function renderQAMessages() {
             html += '<div style="margin-bottom:1.5rem;display:flex;align-items:flex-start;gap:0.75rem;">';
             html += '<div style="width:32px;height:32px;border-radius:50%;background:var(--color-info);color:white;display:flex;align-items:center;justify-content:center;font-size:0.875rem;font-weight:600;flex-shrink:0;">AI</div>';
             html += '<div style="flex:1;min-width:0;background:var(--color-surface);border:1px solid var(--color-border);border-radius:8px 8px 8px 4px;padding:1rem;box-shadow:0 1px 2px rgba(0,0,0,0.03);">';
-            if (msg.streaming) {
+            if (msg.streaming && !msg.content && msg.status) {
+                // 检索/生成阶段尚无正文，先展示阶段提示，避免十几秒空窗
+                html += '<div class="qa-status"><span class="qa-status-spinner"></span>' + escapeHtml(msg.status) + '</div>';
+            } else if (msg.streaming) {
                 html += '<div class="markdown-body qa-answer-body">' + renderMarkdown(msg.content) + '<span class="qa-cursor">▌</span></div>';
             } else {
                 html += '<div class="markdown-body qa-answer-body">' + renderMarkdown(msg.content) + '</div>';

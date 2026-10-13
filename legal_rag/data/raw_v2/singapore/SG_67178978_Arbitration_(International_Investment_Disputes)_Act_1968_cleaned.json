@@ -1,0 +1,141 @@
+[
+  {
+    "doc_id": "SG_ACT_18_1968_ART_005",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_18_1968",
+    "law_name": "Arbitration (International Investment Disputes) Act 1968",
+    "law_name_original": "Arbitration (International Investment Disputes) Act 1968",
+    "law_type": "法律",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "Effect of registration",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Subject to the provisions of this Act, an award registered under section 4 shall, as respects the pecuniary obligations which it imposes, be of the same forc...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Subject to the provisions of this Act, an award registered under section 4 shall, as respects the pecuniary obligations which it imposes, be of the same forc..."
+      }
+    ],
+    "topics": [
+      "government_procurement"
+    ],
+    "topics_details": [
+      {
+        "id": "government_procurement",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "award"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2022-04-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_18_1968",
+    "source_type": "gov_gazette",
+    "source_file": "SG_67178978_Arbitration_(International_Investment_Disputes)_Act_1968.txt",
+    "source_start": 0,
+    "source_end": 24,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_18_1968_ART_006",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_18_1968",
+    "law_name": "Arbitration (International Investment Disputes) Act 1968",
+    "law_name_original": "Arbitration (International Investment Disputes) Act 1968",
+    "law_type": "法律",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "Power to make rules",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Supreme Court Judges, or any 3 of them, of whom the Chief Justice shall be one, may make rules — to prescribe the procedure for applying for registration of...\nSchedule Convention on the Settlement of Investment Disputes between States and Nationals of other States\nSections 2(1) and 10 Convention on the Settlement of Investment Disputes between States and Nationals of other States PREAMBLE The Contracting States Considering the need for inter...",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Supreme Court Judges, or any 3 of them, of whom the Chief Justice shall be one, may make rules — to prescribe the procedure for applying for registration of...\nSchedule Convention on the Settlement of Investment Disputes between States and Nationals of other States\nSections 2(1) and 10 Convention on the Settlement of Investment Disputes between States and Nationals of other States PREAMBLE The Contracting States Considering the need for inter..."
+      }
+    ],
+    "topics": [
+      "government_procurement",
+      "government_contracting"
+    ],
+    "topics_details": [
+      {
+        "id": "government_procurement",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "contracting"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "contracting"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2022-04-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_18_1968",
+    "source_type": "gov_gazette",
+    "source_file": "SG_67178978_Arbitration_(International_Investment_Disputes)_Act_1968.txt",
+    "source_start": 209,
+    "source_end": 230,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

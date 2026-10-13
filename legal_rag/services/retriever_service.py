@@ -1,8 +1,50 @@
+import logging
+import math
 import re
+from concurrent.futures import ThreadPoolExecutor
 from typing import List, Dict, Optional, Tuple
 from collections import defaultdict
 from repositories.elasticsearch import ElasticsearchRepository, _jurisdiction_to_zh, zh_convert
 from core.config import settings
+from services.query_decomposer import decompose_query
+from utils.search_cache import get_search_cache
+
+
+logger = logging.getLogger(__name__)
+
+
+def _normalize_query_for_cache(query: str) -> str:
+    """检索缓存的查询归一化：压缩空白 + 统一小写 + 繁→简。
+
+    繁→简保证「澳門 勞動關係法」与「澳门劳动关系法」落到同一个缓存键，
+    避免同一问题因输入法差异重复支付一次完整检索。
+    """
+    if not query:
+        return ""
+    collapsed = re.sub(r"\s+", " ", query).strip().lower()
+    return zh_convert(collapsed, "t2s")
+
+
+def _flatten_topic_filters(topics: Optional[List[str]], topic: Optional[str]) -> List[str]:
+    """把 topic / topics 归一为排序去重后的字符串列表，供缓存键使用。
+
+    调用方形态不一：单主题传字符串（topic）、多主题传列表（topics），
+    而 /search 接口还存在把主题列表按位置传入 topic 的写法，使 topic 本身是列表。
+    这里统一拉平，避免嵌套列表在 ','.join() 处抛 TypeError。
+    """
+    raw: List = []
+    if topics:
+        raw = list(topics) if isinstance(topics, (list, tuple, set)) else [topics]
+    elif topic:
+        raw = list(topic) if isinstance(topic, (list, tuple, set)) else [topic]
+
+    flat: List[str] = []
+    for item in raw:
+        if isinstance(item, (list, tuple, set)):
+            flat.extend(str(x) for x in item if x)
+        elif item:
+            flat.append(str(item))
+    return sorted(set(flat))
 
 
 def _title_matches_law_name(law_name: str, title: str) -> bool:
@@ -66,11 +108,14 @@ class RetrieverService:
 
     def _expand_by_references(self, results: List[Dict]) -> List[Dict]:
         """
-        引用链单跳扩展（组件D）：把排名靠前的结果在同法规内引用到的条款补到候选尾部。
+        引用链单跳扩展（组件D）：把排名靠前的结果引用到的条款补到候选尾部。
 
-        只在同法规内扩展 —— 条款编号是法规内局部的，正文里的「第X條」必然指向本法规的
-        条款，因此解析精确且不需要「法规名 -> law_id」映射；跨法规引用暂不参与
-        （详见 repositories.elasticsearch.parse_intra_law_refs）。
+        分两类引用（详见 repositories.elasticsearch）：
+          - 同法规内引用（parse_intra_law_refs）：条款编号是法规内局部的，正文里的
+            「第X條」必然指向本法规的条款，解析精确、无需法规名映射；
+          - 跨法规引用（parse_cross_law_refs，多跳 A）：仅覆盖能从正文确定性推导出
+            law_id 的形式（澳门「第N/YYYY號法律/行政法規」、香港「第N章」），
+            由 settings.reference_expand_cross_law_enabled 控制。
 
         扩展项排在原有结果之后且 score 置 0，因此不挤占原有排序位置：调用方按 top_k
         截断时主结果行为不变，多跳结果只在 top_k 有余量或被显式使用时生效。
@@ -90,6 +135,10 @@ class RetrieverService:
         if not docs:
             return results
 
+        # law_id -> 法规名：跨法规项的「来源条号」属于另一部法规，需一并给出法规名，
+        # 前端据此显示「引用自《来源法规》第 X 条」而非误标成本法规条号。
+        law_titles = {r.get("law_id"): r.get("title") for r in results if r.get("law_id")}
+
         existing = {(r.get("law_id", ""), r.get("article_number", "")) for r in results}
         expanded = []
         for doc in docs:
@@ -98,9 +147,33 @@ class RetrieverService:
             # 引用条款不是语义命中，给固定分 0；retrieval_hop/referenced_by 供前端标注来源
             doc["score"] = 0.0
             doc["match_type"] = "reference"
+            if doc.get("cross_law"):
+                doc["referenced_law_name"] = law_titles.get(doc.get("referenced_law_id"), "")
             expanded.append(doc)
 
         return results + expanded
+
+    @staticmethod
+    def _attach_match_scores(results: List[Dict]) -> List[Dict]:
+        """为每条结果计算展示用「匹配度」match_score ∈ [0,1]，缺失置 None。
+
+        取值优先级：
+          1. 真实向量余弦相似度（`_cosine`）：语义明确、有界、可跨查询比较；
+          2. 都没有 → None，前端不显示百分比。
+
+        说明：曾考虑用精排分 sigmoid 作为优先项，但实测 bge-reranker-v2-m3 的
+        logit 在本语料整体偏负（相关知识条款中位数 ≈ -4.5），sigmoid 后会得到
+        ~1% 的荒谬值，故不采用。精排分只用于排序，不参与展示。
+        另外，旧实现用 RRF 分反推相似度（1/(1+1/(1+rrf))），因 RRF 分动态范围极小，
+        导致所有条款都显示约 50%，这里一并修正。
+        """
+        for r in results:
+            cos = r.get("_cosine")
+            if cos is not None:
+                r["match_score"] = round(max(0.0, min(1.0, float(cos))), 4)
+            else:
+                r["match_score"] = None
+        return results
 
     def _deduplicate_and_enrich_articles(self, raw_results: Dict, top_k: int) -> Dict:
         """
@@ -135,7 +208,10 @@ class RetrieverService:
         # 阶段三：按原顺序组装，回取失败则保留原始 sub_chunk
         hybrid_scores = raw_results.get('_scores')
         has_scores = bool(hybrid_scores and hybrid_scores[0])
+        sims = raw_results.get('_similarities')
+        has_sims = bool(sims and sims[0])
         new_ids, new_docs, new_metas, new_distances, new_scores = [], [], [], [], []
+        new_sims = []
         for i, law_id, article_number in picked:
             full_text = full_texts.get((law_id, article_number))
             new_docs.append(full_text if full_text else raw_results['documents'][0][i])
@@ -146,6 +222,9 @@ class RetrieverService:
             # 原实现跳过会导致 _scores 比 documents 短，后续按下标取分数会错配到别的条款上。
             if has_scores:
                 new_scores.append(hybrid_scores[0][i] if i < len(hybrid_scores[0]) else 0.0)
+            # 余弦相似度同样按下标对齐；缺失记为 None（前端不显示百分比）
+            if has_sims:
+                new_sims.append(sims[0][i] if i < len(sims[0]) else None)
 
         result = {
             'ids': [new_ids],
@@ -155,6 +234,8 @@ class RetrieverService:
         }
         if has_scores:
             result['_scores'] = [new_scores]
+        if has_sims:
+            result['_similarities'] = [new_sims]
         return result
 
     def _detect_jurisdiction(self, query: str) -> Optional[str]:
@@ -415,17 +496,20 @@ class RetrieverService:
 
             # 格式化
             formatted = []
+            sims = raw.get('_similarities')
             if raw.get('ids') and raw['ids'][0]:
                 for i in range(len(raw['ids'][0])):
                     metadata = raw['metadatas'][0][i]
                     distance = raw['distances'][0][i]
                     similarity = 1 / (1 + distance)
+                    cosine = sims[0][i] if (sims and sims[0] and i < len(sims[0])) else None
                     formatted.append({
                         'content': raw['documents'][0][i],
                         'title': metadata.get('title', '') or '',
                         'article_number': metadata.get('article_number', '') or '',
                         'jurisdiction': _jurisdiction_to_zh(metadata.get('jurisdiction', '') or ''),
                         'score': similarity,
+                        '_cosine': cosine,
                         'law_id': metadata.get('law_id', '') or '',
                         'source_file': metadata.get('source_file', '') or '',
                         'chunk_index': metadata.get('chunk_index', 0) or 0,
@@ -438,7 +522,9 @@ class RetrieverService:
         # 两阶段精排：前 reranker_window 条精排，其余按 RRF 顺序拼接
         merged = self._rerank_two_stage(query=query, candidates=merged)
 
-        return merged[:top_k]
+        merged = merged[:top_k]
+        # 展示用匹配度（真实余弦）
+        return self._attach_match_scores(merged)
 
     def search(self, query: str, top_k: int = 5, jurisdiction: Optional[str] = None,
                topic: Optional[str] = None, topics: Optional[List[str]] = None) -> List[Dict]:
@@ -567,10 +653,78 @@ class RetrieverService:
             })
         return formatted_results
 
+    def _decompose_query(self, query: str) -> List[str]:
+        """多跳 B：把复合查询拆成子查询列表（含锚定的原查询）。无需分解返回 []。
+
+        锚定原查询是「不退化」的关键：分解只往候选池里加条目，原有召回的文档仍在
+        池中，最终排序由统一的精排决定，不会因为某条子查询拆得不好而丢失主召回。
+
+        让路跨法域路由：区域词（各国/东南亚/亚太/不同法域…）或比较词（比较/异同…）
+        会让 _route_to_jurisdictions 触发多法域扇出检索，这是比较类查询的主召回通道。
+        而分解会把锚点也以 _decompose=False 重跑，从而绕过该路由、丢掉扇出召回
+        （A/B 实测：6 条变差全部落在此类查询，其中 4 条 gold 直接归零），故直接跳过。
+        """
+        try:
+            routed = self._route_to_jurisdictions(query)
+        except Exception:
+            routed = None
+        if routed and len(routed) > 1:
+            return []
+
+        parts = decompose_query(query)
+        if len(parts) < 2:
+            return []
+        uniq: List[str] = []
+        for p in [query.strip()] + parts:
+            if p and p not in uniq:
+                uniq.append(p)
+        return uniq if len(uniq) > 1 else []
+
+    def _decomposed_search(self, sub_queries: List[str], top_k: int,
+                           jurisdiction: Optional[str], topic: Optional[str],
+                           topics: Optional[List[str]]) -> Optional[List[Dict]]:
+        """并行执行各子查询检索（跳过精排/引用扩展）→ RRF 合并 → 合并后精排一次。
+
+        子查询跳过精排是为了不把 cross-encoder 成本乘上子查询数：子查询只负责
+        「多召回」，排序质量交给合并后的这一次精排。任一步失败返回 None，调用方降级单跳。
+        """
+        lists: List[List[Dict]] = []
+        max_workers = max(1, min(len(sub_queries), settings.multihop_decompose_max_subqueries))
+        try:
+            with ThreadPoolExecutor(max_workers=max_workers) as ex:
+                futures = [
+                    ex.submit(self.hybrid_search, sq, top_k, jurisdiction, topic, topics,
+                              False, False)
+                    for sq in sub_queries
+                ]
+                for f in futures:
+                    try:
+                        res = f.result()
+                        if res:
+                            lists.append(res)
+                    except Exception as e:
+                        logger.warning("子查询检索失败，忽略该子查询: %s", e)
+        except Exception as e:
+            logger.warning("查询分解并行检索失败，降级单跳: %s", e)
+            return None
+
+        if not lists:
+            return None
+        merged = self._rrf_merge_results(lists, rrf_k=60)
+        # 统一用「原查询」做精排，保证与单跳路径同一打分基准（sub_queries[0] 即锚点）
+        merged = self._rerank_two_stage(query=sub_queries[0], candidates=merged)
+        # 子查询合并后条数是各子查询之和，同样要收敛回 top_k，再追加引用扩展
+        merged = merged[:top_k]
+        merged = self._expand_by_references(merged)
+        # 合并后统一补齐展示分：合并/扩展会引入无 _cosine 的条目，需保证 match_score 键齐全
+        return self._attach_match_scores(merged)
+
     def hybrid_search(self, query: str, top_k: int = 5,
                       jurisdiction: Optional[str] = None,
                       topic: Optional[str] = None,
-                      topics: Optional[List[str]] = None) -> List[Dict]:
+                      topics: Optional[List[str]] = None,
+                      _decompose: bool = True,
+                      _rerank: bool = True) -> List[Dict]:
         """
         混合检索（向量 + BM25 + RRF 融合），返回格式与 search() 完全一致。
 
@@ -580,20 +734,53 @@ class RetrieverService:
             jurisdiction: 法域筛选
             topic: 单个主题（向后兼容）
             topics: 多主题列表（优先使用）
+
+        _decompose / _rerank 为内部参数：子查询检索时置 False，用于关闭「再分解」
+        与「精排/引用扩展」，避免递归与成本放大；外部调用方无需传。
         """
+        # 子查询检索跳过缓存：其缓存键用的是全局精排开关，与子查询实际关闭精排的
+        # 口径不一致，读写都可能污染主查询结果，故直接绕过。
+        use_cache = settings.search_cache_enabled and _rerank
+        cache = get_search_cache() if use_cache else None
+        cache_key = None
+        if cache is not None:
+            cache_key, cached = self._cache_lookup(
+                query, top_k, jurisdiction, _flatten_topic_filters(topics, topic)
+            )
+            if cached is not None:
+                return cached
+
+        # 多跳 B：复合查询分解（仅顶层调用、且未关闭精排时触发；子查询不再分解）
+        if _decompose and _rerank and settings.multihop_decompose_enabled:
+            try:
+                sub_queries = self._decompose_query(query)
+            except Exception as e:
+                logger.warning("查询分解失败，降级单跳: %s", e)
+                sub_queries = []
+            if len(sub_queries) > 1:
+                merged = self._decomposed_search(sub_queries, top_k, jurisdiction, topic, topics)
+                if merged:
+                    if cache is not None and cache_key is not None:
+                        cache.set(cache_key, merged)
+                    return merged
+
         enhanced_query = self._enhance_query(query)
         search_query = enhanced_query or query
 
-        # 跨法域路由：仅当 jurisdiction 未显式指定时触发
-        if jurisdiction is None:
+        # 跨法域路由：仅顶层调用（_decompose=True）且未显式指定 jurisdiction 时触发。
+        # 子查询（_decompose=False）不参与路由，避免路由内部再次精排造成成本放大。
+        if _decompose and jurisdiction is None:
             jurisdiction = self._detect_jurisdiction(query)
             if jurisdiction is None:
                 # 尝试路由检测
                 routed_jurs = self._route_to_jurisdictions(query)
                 if routed_jurs and len(routed_jurs) > 1:
-                    return self._hybrid_search_routed(
+                    routed = self._hybrid_search_routed(
                         query=query, jurisdictions=routed_jurs, top_k=top_k,
                     )
+                    if cache is not None:
+                        cache.set(cache_key, routed)
+                    return routed
 
         where_filter = {}
         if jurisdiction:
@@ -615,22 +802,22 @@ class RetrieverService:
         else:
             results = self.repo.query_with_filters(n_results=max(top_k * 3, 20), where=where_filter)
 
-        # 候选窗口扩展：有 reranker 时保留更多候选供精排
-        reranker_available = settings.reranker_enabled
+        # 候选窗口扩展：有 reranker 时保留更多候选供精排（子查询关闭精排，收窄窗口）
+        reranker_available = settings.reranker_enabled and _rerank
         dedup_k = max(top_k * 3, 50) if reranker_available else top_k
         results = self._deduplicate_and_enrich_articles(results, dedup_k)
 
         formatted_results = []
         hybrid_scores = results.get("_scores", None)
+        sims = results.get("_similarities", None)
 
         if results.get('ids') and results['ids'][0]:
             for i in range(len(results['ids'][0])):
-                # 排序用 RRF 分数（保证混合检索最佳排序），显示用余弦相似度（有意义的百分比）
-                if hybrid_scores and hybrid_scores[0] and i < len(hybrid_scores[0]):
-                    # 内部排序用的 RRF 分数（不回传给前端）
-                    pass
+                # 排序用 RRF 分（保证混合检索最佳排序）；展示分另算（见 _attach_match_scores）。
+                # score 字段保留旧口径以维持前端既有排序稳定，不再作为展示百分比来源。
                 distance = results['distances'][0][i]
-                similarity = 1 / (1 + distance)  # 余弦相似度，0~1 有意义的百分比
+                similarity = 1 / (1 + distance)
+                cosine = sims[0][i] if (sims and sims[0] and i < len(sims[0])) else None
 
                 metadata = results['metadatas'][0][i]
                 result = {
@@ -639,6 +826,7 @@ class RetrieverService:
                     'article_number': metadata.get('article_number', '') or '',
                     'jurisdiction': _jurisdiction_to_zh(metadata.get('jurisdiction', '') or ''),
                     'score': similarity,
+                    '_cosine': cosine,
                     'law_id': metadata.get('law_id', '') or '',
                     'source_file': metadata.get('source_file', '') or '',
                     'chunk_index': metadata.get('chunk_index', 0) or 0,
@@ -673,17 +861,56 @@ class RetrieverService:
                 found = self.repo.find_article(query_law_name, target)
                 if found:
                     found["score"] = 1.0
+                    found["_cosine"] = 1.0  # 定向命中：展示为 100%
                     target_doc = found
 
-        # 两阶段精排：前 reranker_window 条精排，其余按 RRF 顺序拼接
-        formatted_results = self._rerank_two_stage(query=search_query, candidates=formatted_results)
+        # 两阶段精排：前 reranker_window 条精排，其余按 RRF 顺序拼接（子查询关闭时跳过）
+        if _rerank:
+            formatted_results = self._rerank_two_stage(query=search_query, candidates=formatted_results)
 
         # 把目标条款插到最前面
         if target_doc:
             target_doc["score"] = 1.0  # 确保前端按 score 排序时排第一
+            if target_doc.get("_cosine") is None:
+                target_doc["_cosine"] = 1.0
             formatted_results.insert(0, target_doc)
 
-        # 引用链单跳扩展：补入被引用的同法规条款（组件D）
-        formatted_results = self._expand_by_references(formatted_results)
+        # 主结果按 top_k 截断：上面的 dedup_k（= max(top_k*3, 50)）只是为精排保留的
+        # 候选余量，不应作为最终条数外泄（此前前端要 50 条却拿到 150+ 条）。
+        formatted_results = formatted_results[:top_k]
+
+        # 引用链扩展在其后追加：扩展项是「附加引用链接」而非排名结果，不计入 top_k 名额。
+        # 若先追加再截断，因主结果始终填满 top_k，扩展项会被永久截掉（多跳A 在检索页失效）。
+        if _rerank:
+            formatted_results = self._expand_by_references(formatted_results)
+
+        # 展示用匹配度（真实余弦）在这里统一计算：引用扩展补入的条款无余弦，置 None
+        formatted_results = self._attach_match_scores(formatted_results)
+
+        if cache is not None:
+            cache.set(cache_key, formatted_results)
 
         return formatted_results
+
+    def _cache_lookup(self, query: str, top_k: int, jurisdiction: Optional[str],
+                      topics: Optional[List[str]]):
+        """缓存查询，返回 (缓存键, 命中结果或 None)。
+
+        键由「筛选条件 + 结果相关开关 + 归一化查询」构成：只按查询串比对会让
+        「同一问题 + 不同法域筛选」错误复用结果；而评测脚本会在同一进程内切换
+        reranker_enabled，若不把开关计入键，先跑的「无精排」结果会被「有精排」
+        那轮直接命中，得到未精排的错误顺序。
+        """
+        if not query or not query.strip():
+            return None, None
+
+        filter_key = "|".join([
+            f"top_k={top_k}",
+            f"jur={jurisdiction or ''}",
+            f"topics={','.join(topics) if topics else ''}",
+            f"rerank={int(settings.reranker_enabled)}:{settings.reranker_window}",
+            f"refexp={int(settings.reference_expand_enabled)}:{int(settings.reference_expand_cross_law_enabled)}",
+            f"mhdec={int(settings.multihop_decompose_enabled)}",
+        ])
+        key = (filter_key, _normalize_query_for_cache(query))
+        return key, get_search_cache().get(key)

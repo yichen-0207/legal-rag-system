@@ -4,8 +4,13 @@ from typing import Dict, List, Optional
 
 
 class Settings(BaseSettings):
-    # 数据目录
+    # 管理端写入的权威语料目录（原始语料 data/raw；可用 LEGAL_DATA_DIR 覆盖）
     data_dir: str = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "raw")
+    # 入库扫描目录（阶段 1 清洗产物 raw_v2；可用 LEGAL_INGEST_DATA_DIR 覆盖）。
+    # 与 data_dir 分离：管理端只写 data/raw 原始语料，派生语料由
+    # data_tools/phase1_clean_data.py 全量重建；raw_v2 禁止被管理端写入
+    #（LawManagementService 有保护性校验），.uploads 等隐藏目录不入扫描。
+    ingest_data_dir: str = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "raw_v2")
     
     # Elasticsearch 配置
     es_hosts: List[str] = ["http://localhost:9200"]
@@ -103,6 +108,32 @@ class Settings(BaseSettings):
     # 定义类条款（如香港《私隐条例》第 2 条）正文可达上万字符，
     # 多条全量拼接会显著挤占上下文预算，故截断保留开头（规则主体部分）。
     reference_expand_max_chars: int = 1000
+
+    # 跨法规引用扩展（多跳 A）：把条款正文里指向【其他已入库法规】的引用也补入候选。
+    # 仅覆盖可从正文确定性推导 law_id 的模式（澳门「第N/YYYY號法律/行政法規」、
+    # 香港「第N章」），复用同一次的批量回取，不额外发起 LLM 调用。
+    # 实测（2000 条澳门语料抽样）：约 0.9% 的条款能解析出跨法规引用，其中约一半能
+    # 回取到已入库的目标条款；折算到查询级约 2.7%（top-3 种子命中概率）。
+    # 属补充能力而非主力召回通道。
+    reference_expand_cross_law_enabled: bool = True
+
+    # 多跳 B：查询分解。把「工伤赔偿和年假规定」这类复合查询拆成单一意图子查询，
+    # 各子查询并行检索（跳过精排）后 RRF 合并，再对合并结果精排一次。
+    # 规则前置（字面切分）→ LLM 兜底（明显复合但规则切不干净）→ 失败降级单跳。
+    multihop_decompose_enabled: bool = True
+    # 单次最多使用的子查询数（含锚定的原查询）。锚定原查询保证「只加候选、不丢召回」。
+    multihop_decompose_max_subqueries: int = 3
+    # LLM 兜底开关与超时（秒）。关闭后仅用规则，不产生任何额外延迟。
+    multihop_decompose_llm_enabled: bool = True
+    multihop_decompose_llm_timeout: float = 3.0
+
+    # 检索结果缓存：精排是单次检索的耗时主体（约 93%），而前端刷新页面/切换标签后会
+    # 按设计重新发起同一查询，缓存命中后整条链路（含精排）直接跳过。
+    # 失效以 law_catalog.json 的 mtime 作为数据版本，版本变化时整体清空。
+    # 只做精确命中（含繁简归一）：语义命中经实测不可行，依据见 utils/search_cache.py 模块注释。
+    search_cache_enabled: bool = True
+    # 条数上限。单条结果约 50 项、每项正文千字量级，500 条在百 MB 以内
+    search_cache_max_entries: int = 500
 
     # 实体消歧 L3（向量对齐）：兜住 L1 繁简字表未覆盖的异体与措辞差异。
     # 实测结论（378 个真实实体、17323 个同类型候选对）：

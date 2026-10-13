@@ -42,6 +42,9 @@ services:
       - LEGAL_LLM_MODEL=deepseek-flash
       - LEGAL_LLM_DEEPSEEK_API_KEY=${LEGAL_DEEPSEEK_API_KEY}
       - LEGAL_ADMIN_TOKEN=${LEGAL_ADMIN_TOKEN:-dev_admin_token_change_me}
+      # 数据目录：管理端写入 /app/data/raw（原始语料）；入库扫描 /app/data/raw_v2（阶段 1 清洗产物）
+      - LEGAL_DATA_DIR=/app/data/raw
+      - LEGAL_INGEST_DATA_DIR=/app/data/raw_v2
       - LEGAL_EMBEDDING_MODEL=/models/bge-m3
       - LEGAL_RERANKER_MODEL=/models/bge-reranker-v2-m3
       # CPU 推理性能参数（可按部署机器调整，无需改代码）

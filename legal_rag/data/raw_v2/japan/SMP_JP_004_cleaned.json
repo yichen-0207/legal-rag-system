@@ -1,0 +1,759 @@
+[
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_001",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": ". (Purpose)",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In view of the fact that digital platforms for shopping constitute an important piece of infrastructure in the lives of consumers as information and communications technology develops, the purpose of this Act is to ensure the cooperation of digital platform providers in optimizing transactions and promoting dispute resolution in relation to mail order sales (meaning mail order sales prescribed in Article 2, paragraph (2) of the (Act No. 57 of 1976); the same applies hereinafter) using digital platforms for shopping, and thereby to protect consumers who use digital platforms for shopping, by providing for measures to promote voluntary efforts by digital platform providers to protect consumers, requests for suspension of the use of digital platforms for shopping from the Prime Minister, requests for the disclosure of seller's or equivalent person's information from consumers, and the establishment of a public-private council.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "In view of the fact that digital platforms for shopping constitute an important piece of infrastructure in the lives of consumers as information and communications technology develops, the purpose of this Act is to ensure the cooperation of digital platform providers in optimizing transactions and promoting dispute resolution in relation to mail order sales (meaning mail order sales prescribed in Article 2, paragraph (2) of the (Act No. 57 of 1976); the same applies hereinafter) using digital platforms for shopping, and thereby to protect consumers who use digital platforms for shopping, by providing for measures to promote voluntary efforts by digital platform providers to protect consumers, requests for suspension of the use of digital platforms for shopping from the Prime Minister, requests for the disclosure of seller's or equivalent person's information from consumers, and the establishment of a public-private council."
+      }
+    ],
+    "topics": [
+      "government_contracting",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 6.75,
+        "matched_keywords": [
+          "suspension"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 6.75,
+        "matched_keywords": [
+          "dispute resolution",
+          "dispute (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 22,
+    "source_end": 959,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_002",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": ". (Definitions)",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The term \"digital platform for shopping\" as used in this Act means a digital platform prescribed in Article 2, paragraph (1) of the Act on Improving Transparency and Fairness of Specified Digital Platforms (Act No. 38 of 2020) which provides a place that has any of the functions described in the following items:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The term \"digital platform for shopping\" as used in this Act means a digital platform prescribed in Article 2, paragraph (1) of the Act on Improving Transparency and Fairness of Specified Digital Platforms (Act No. 38 of 2020) which provides a place that has any of the functions described in the following items:"
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "term (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 986,
+    "source_end": 1299,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_003",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 3. (Obligation of Digital Platform Providers to Make Efforts)\nDigital platform providers must endeavor to take the following measures to contribute to the optimization of transactions and the promotion of dispute resolution in relation to mail order sales using their digital platform for shopping:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 3. (Obligation of Digital Platform Providers to Make Efforts)\nDigital platform providers must endeavor to take the following measures to contribute to the optimization of transactions and the promotion of dispute resolution in relation to mail order sales using their digital platform for shopping:"
+      }
+    ],
+    "topics": [
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "dispute resolution",
+          "dispute (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 3129,
+    "source_end": 3435,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_004",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 4. (Requests for Suspension of Use of Digital Platforms for Shopping)\nIf the representation of the sales conditions for a product or specified right or conditions to provide services in a place provided by a digital platform for shopping meets both of the requirements set forth in the following items and the Prime Minister finds that the representation is likely to harm the interests of consumers who use that digital platform, the Prime Minister may request that the digital platform provider suspend the seller's or equivalent person's use of that digital platform for selling the product or specified right or providing the services, or otherwise take necessary measures.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 4. (Requests for Suspension of Use of Digital Platforms for Shopping)\nIf the representation of the sales conditions for a product or specified right or conditions to provide services in a place provided by a digital platform for shopping meets both of the requirements set forth in the following items and the Prime Minister finds that the representation is likely to harm the interests of consumers who use that digital platform, the Prime Minister may request that the digital platform provider suspend the seller's or equivalent person's use of that digital platform for selling the product or specified right or providing the services, or otherwise take necessary measures."
+      }
+    ],
+    "topics": [
+      "government_contracting"
+    ],
+    "topics_details": [
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "suspension"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 5411,
+    "source_end": 6096,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_005",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 5. (Request for Disclosure of Seller's or Equivalent Person's Information)\nOnly if a consumer who uses a digital platform for shopping needs to confirm information specified by Cabinet Office Order about a seller or equivalent person involved in a mail order sale using that digital platform, including their name and address (hereinafter referred to as \"seller's or equivalent person's information\" in this paragraph and the following paragraph) in order to exercise the consumer's own claim (limited to one for payment of money that exceeds the amount specified by Cabinet Office Order) relating to a sales contract or service contract with the seller or equivalent person, the consumer may make a request with the digital platform provider to disclose the seller's or equivalent person's information that the digital platform provider holds; provided, however, that this does not apply to the case in which the consumer makes the request for any wrongful purpose including the purpose of discrediting the seller or equivalent person by using their information.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 5. (Request for Disclosure of Seller's or Equivalent Person's Information)\nOnly if a consumer who uses a digital platform for shopping needs to confirm information specified by Cabinet Office Order about a seller or equivalent person involved in a mail order sale using that digital platform, including their name and address (hereinafter referred to as \"seller's or equivalent person's information\" in this paragraph and the following paragraph) in order to exercise the consumer's own claim (limited to one for payment of money that exceeds the amount specified by Cabinet Office Order) relating to a sales contract or service contract with the seller or equivalent person, the consumer may make a request with the digital platform provider to disclose the seller's or equivalent person's information that the digital platform provider holds; provided, however, that this does not apply to the case in which the consumer makes the request for any wrongful purpose including the purpose of discrediting the seller or equivalent person by using their information."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 7393,
+    "source_end": 8464,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_006",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": ". (Public-Private Council)",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Prime Minister is to organize a public-private council for digital platforms for shopping comprised of the Prime Minister, relevant national government agencies, groups consisting of digital platform providers, the National Consumer Affairs Center of Japan, local governments, and consumer groups (hereinafter referred to as \"public-private council\") to make effective and smooth efforts to protect consumers who use digital platforms for shopping.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Prime Minister is to organize a public-private council for digital platforms for shopping comprised of the Prime Minister, relevant national government agencies, groups consisting of digital platform providers, the National Consumer Affairs Center of Japan, local governments, and consumer groups (hereinafter referred to as \"public-private council\") to make effective and smooth efforts to protect consumers who use digital platforms for shopping."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 10175,
+    "source_end": 10627,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_007",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 7. (Affairs of the Public-Private Council)\nTo achieve the purpose referred to in paragraph (1) of the preceding Article, the public-private council is to exchange necessary information, deliberate on the efforts to protect consumers who use digital platforms for shopping, and state its opinion to the Prime Minister with respect to measures for the optimization of transactions and promotion of dispute resolution in relation to mail order sales using digital platforms for shopping.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 7. (Affairs of the Public-Private Council)\nTo achieve the purpose referred to in paragraph (1) of the preceding Article, the public-private council is to exchange necessary information, deliberate on the efforts to protect consumers who use digital platforms for shopping, and state its opinion to the Prime Minister with respect to measures for the optimization of transactions and promotion of dispute resolution in relation to mail order sales using digital platforms for shopping."
+      }
+    ],
+    "topics": [
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "dispute resolution",
+          "dispute (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 10850,
+    "source_end": 11342,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_008",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": ". (Duty of Confidentiality)",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "A person who engages or engaged in the affairs of the public-private council must not divulge any secrets that the member may have learned in the course of engaging in those affairs.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "A person who engages or engaged in the affairs of the public-private council must not divulge any secrets that the member may have learned in the course of engaging in those affairs."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 12571,
+    "source_end": 12753,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_009",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 9. (Particulars to be Prescribed by the Public-Private Council)\n\nBeyond what is provided for in the preceding three Articles, the public-private council determines any particulars necessary for the organization and operation of the council.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 9. (Particulars to be Prescribed by the Public-Private Council)\n\nBeyond what is provided for in the preceding three Articles, the public-private council determines any particulars necessary for the organization and operation of the council."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 12755,
+    "source_end": 13003,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_010",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 10. (Reporting to the Prime Minister)\nIf any person finds that the interests of consumers who use digital platforms for shopping are likely to be harmed, the person may report that to the Prime Minister and request that appropriate measures be taken.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 10. (Reporting to the Prime Minister)\nIf any person finds that the interests of consumers who use digital platforms for shopping are likely to be harmed, the person may report that to the Prime Minister and request that appropriate measures be taken."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 13005,
+    "source_end": 13263,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_011",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": ". (Delegation of Authority)",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Prime Minister delegates the authority under this Act (excluding the authority under Article 3, paragraphs (3) and (4); Article 6, paragraph (1); and Article 7, paragraph (1)) to the Commissioner of the Consumer Affairs Agency.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Prime Minister delegates the authority under this Act (excluding the authority under Article 3, paragraphs (3) and (4); Article 6, paragraph (1); and Article 7, paragraph (1)) to the Commissioner of the Consumer Affairs Agency."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 13592,
+    "source_end": 13823,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_012",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 12. (Delegation to Cabinet Office Order)\n\nBeyond what is provided for in this Act, the procedures necessary for the implementation of this Act and the particulars necessary for the enforcement of this Act are prescribed by Cabinet Office Order.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 12. (Delegation to Cabinet Office Order)\n\nBeyond what is provided for in this Act, the procedures necessary for the implementation of this Act and the particulars necessary for the enforcement of this Act are prescribed by Cabinet Office Order."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 13825,
+    "source_end": 14077,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "JP_Act_2021_SMP_JP_004_ART_013",
+    "jurisdiction": "日本",
+    "law_id": "JP_Act_2021_SMP_JP_004",
+    "law_name": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_name_original": "Act on the Protection of Consumers Who Use Digital Platforms for Shopping",
+    "law_type": "Act",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": ". (Penal Provisions)",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Any member that divulges a secret in violation of the provisions of Article 8 is subject to imprisonment of one year or less or a fine of five hundred thousand yen or less.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Any member that divulges a secret in violation of the provisions of Article 8 is subject to imprisonment of one year or less or a fine of five hundred thousand yen or less."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-05-10",
+    "effective_date": null,
+    "publication_date": "2021-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-07-06",
+    "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4310",
+    "source_type": "gov_gazette",
+    "source_file": "SMP_JP_004.json",
+    "source_start": 14111,
+    "source_end": 14283,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-06T17:15:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]
