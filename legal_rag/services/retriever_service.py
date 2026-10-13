@@ -636,11 +636,19 @@ class RetrieverService:
             where_filter["jurisdiction"] = jurisdiction
 
         enhanced_query = self._enhance_query(query)
-        bm25_results = self.repo._bm25_search(enhanced_query, top_k, where_filter)
+        # 条款级去重：新切分下一个条款可能命中多个子块，若直接返回会让重复子块
+        # 挤占 top-k 名额（BM25 结果已按 _score 降序，故每个条款保留首次即最高分子块）。
+        # 先多取候选再去重，保证去重后仍有 top_k 条；与 search/hybrid_search 口径一致。
+        bm25_results = self.repo._bm25_search(enhanced_query, max(top_k * 3, 20), where_filter)
 
         formatted_results = []
+        seen_keys = set()
         for hit in bm25_results:
             src = hit.get("_source", {})
+            key = (src.get('law_id', '') or '', src.get('article_number', '') or '')
+            if key in seen_keys:
+                continue
+            seen_keys.add(key)
             formatted_results.append({
                 'content': src.get('content', ''),
                 'title': src.get('title', '') or '',
@@ -651,6 +659,8 @@ class RetrieverService:
                 'source_file': src.get('source_file', '') or '',
                 'chunk_index': src.get('chunk_index', 0) or 0,
             })
+            if len(formatted_results) >= top_k:
+                break
         return formatted_results
 
     def _decompose_query(self, query: str) -> List[str]:
