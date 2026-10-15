@@ -16,24 +16,24 @@ function getJurColor(jurisdiction) {
     if (!jurisdiction) return '#6B7280';
     if (JUR_COLOR_CACHE[jurisdiction]) return JUR_COLOR_CACHE[jurisdiction];
 
-    // 预设高频法域固定颜色（保持品牌一致性）
+    // 预设高频法域固定颜色（统一为中等饱和度的柔和色，避免纯红纯蓝造成的视觉疲劳）
     var PREDEFINED = {
-        '澳门': '#2563EB', '中国澳门': '#2563EB', 'Macau': '#2563EB',
-        '香港': '#DC2626', '中国香港': '#DC2626', 'Hong Kong': '#DC2626',
-        '新加坡': '#D97706', 'Singapore': '#D97706',
-        '美国': '#7C3AED', 'USA': '#7C3AED', 'US': '#7C3AED',
-        '欧盟': '#0D9488', 'EU': '#0D9488',
-        '英国': '#E11D48', 'UK': '#E11D48', 'United Kingdom': '#E11D48',
-        '日本': '#BE123C', 'Japan': '#BE123C',
-        '韩国': '#1D4ED8', 'South Korea': '#1D4ED8', 'Korea': '#1D4ED8',
-        '德国': '#F59E0B', 'Germany': '#F59E0B',
-        '法国': '#6366F1', 'France': '#6366F1',
-        '印度': '#EA580C', 'India': '#EA580C',
-        '澳大利亚': '#0891B2', 'Australia': '#0891B2',
-        '加拿大': '#059669', 'Canada': '#059669',
-        '巴西': '#0E7490', 'Brazil': '#0E7490',
-        '俄罗斯': '#4F46E5', 'Russia': '#4F46E5',
-        '中国': '#8B2500', 'China': '#8B2500', '中国大陆': '#8B2500',
+        '澳门': '#4C7DF0', '中国澳门': '#4C7DF0', 'Macau': '#4C7DF0',
+        '香港': '#E0605E', '中国香港': '#E0605E', 'Hong Kong': '#E0605E',
+        '新加坡': '#E0A03A', 'Singapore': '#E0A03A',
+        '美国': '#8B7BE8', 'USA': '#8B7BE8', 'US': '#8B7BE8',
+        '欧盟': '#3EAF9E', 'EU': '#3EAF9E',
+        '英国': '#E2668A', 'UK': '#E2668A', 'United Kingdom': '#E2668A',
+        '日本': '#D46A85', 'Japan': '#D46A85',
+        '韩国': '#5B8DEF', 'South Korea': '#5B8DEF', 'Korea': '#5B8DEF',
+        '德国': '#E8B04B', 'Germany': '#E8B04B',
+        '法国': '#8E93E8', 'France': '#8E93E8',
+        '印度': '#E58A4A', 'India': '#E58A4A',
+        '澳大利亚': '#4AA8C4', 'Australia': '#4AA8C4',
+        '加拿大': '#48B584', 'Canada': '#48B584',
+        '巴西': '#3E9AB0', 'Brazil': '#3E9AB0',
+        '俄罗斯': '#7C83E0', 'Russia': '#7C83E0',
+        '中国': '#B5705A', 'China': '#B5705A', '中国大陆': '#B5705A',
     };
 
     // 先尝试精确匹配
@@ -60,28 +60,46 @@ function getJurColor(jurisdiction) {
     var GOLDEN_ANGLE = 137.508;
     // 用 hash 决定起始偏移，然后按黄金角步进
     var hue = ((Math.abs(hash) * GOLDEN_ANGLE) % 360 + 360) % 360;
-    // 饱和度 65-75%，明度 50-60%，颜色鲜艳又不刺眼
-    var sat = 55 + (Math.abs(hash) % 20);
-    var lig = 45 + (Math.abs(hash) % 15);
+    // 饱和度 45-58%、明度 56-66%：中等饱和、偏明亮，观感柔和且互相可区分
+    var sat = 45 + (Math.abs(hash) % 14);
+    var lig = 56 + (Math.abs(hash) % 11);
     var color = 'hsl(' + Math.round(hue) + ', ' + sat + '%, ' + lig + '%)';
 
     JUR_COLOR_CACHE[jurisdiction] = color;
     return color;
 }
 
-// 动态更新法域图例
-function updateKGLegend(nodes) {
-    var legend = document.getElementById('kg-legend');
-    if (!legend) return;
+// 动态更新图例（按当前着色依据：法域 / 社区）
+function updateKGLegend(nodes, communities, mode) {
+    var jurRow = document.getElementById('kg-legend-jur');
+    if (!jurRow) return;
 
-    // 收集当前图谱中的法域列表，去重并保留顺序
+    // ---- 按社区着色 ----
+    if (mode === 'community') {
+        var commMap = {};
+        nodes.forEach(function(n) {
+            var cid = (n.community_id === undefined || n.community_id === null) ? -1 : n.community_id;
+            if (cid < 0) return;
+            if (!commMap[cid]) commMap[cid] = 0;
+            commMap[cid]++;
+        });
+        var cids = Object.keys(commMap).map(Number).sort(function(a, b) { return commMap[b] - commMap[a]; });
+        if (cids.length === 0) return;
+        var commHtml = cids.slice(0, 12).map(function(cid) {
+            var color = getCommunityColor(cid);
+            return '<span><span class="kg-legend-icon" style="display:inline-block;width:8px;height:8px;background:' + color + ';border-radius:50%;"></span> ' + escapeHtml(getCommunityLabel(cid, communities)) + '</span>';
+        }).join('');
+        jurRow.innerHTML = '<span style="font-weight:600;min-width:3em;">社区：</span>' + commHtml;
+        return;
+    }
+
+    // ---- 默认：按法域着色 ----
     var jurMap = {};
     nodes.forEach(function(n) {
         var j = n.jurisdiction || '未知';
         if (!jurMap[j]) jurMap[j] = 0;
         jurMap[j]++;
     });
-
     var jurList = Object.keys(jurMap).sort(function(a, b) { return jurMap[b] - jurMap[a]; });
     if (jurList.length === 0) return;
 
@@ -89,14 +107,18 @@ function updateKGLegend(nodes) {
         var color = getJurColor(jur);
         return '<span><span class="kg-legend-icon" style="display:inline-block;width:8px;height:8px;background:' + color + ';border-radius:50%;"></span> ' + escapeHtml(jur) + '</span>';
     }).join('');
-
-    // 保留其他图例行（类型、连线、大小），只替换法域行
-    var children = legend.children;
-    if (children.length > 0) {
-        // 替换第一行（法域行）
-        children[0].innerHTML = '<span style="font-weight:600;min-width:3em;">法域：</span>' + jurHtml;
-    }
+    jurRow.innerHTML = '<span style="font-weight:600;min-width:3em;">法域：</span>' + jurHtml;
 }
+
+// 图例折叠/展开
+window.toggleKGLegend = function() {
+    var body = document.getElementById('kg-legend-body');
+    var toggle = document.getElementById('kg-legend-toggle');
+    if (!body) return;
+    var collapsed = body.style.display === 'none';
+    body.style.display = collapsed ? 'block' : 'none';
+    if (toggle) toggle.textContent = collapsed ? '▾' : '▸';
+};
 
 // 颜色提亮工具（同时支持 hex 和 hsl）
 function lightenColor(color, amount) {
@@ -121,6 +143,22 @@ function lightenColor(color, amount) {
     g = Math.min(255, g + amount);
     b = Math.min(255, b + amount);
     return '#' + [r,g,b].map(function(c) { return c.toString(16).padStart(2,'0'); }).join('');
+}
+
+// 社区配色：Louvain 簇按固定调色板循环取色，保证簇间差异明显且可复现
+var COMMUNITY_PALETTE = ['#2563EB', '#DC2626', '#D97706', '#059669', '#7C3AED',
+    '#0891B2', '#EA580C', '#BE123C', '#4F46E5', '#0D9488', '#65A30D', '#DB2777'];
+function getCommunityColor(cid) {
+    if (cid === undefined || cid === null || cid < 0) return '#9CA3AF';
+    return COMMUNITY_PALETTE[cid % COMMUNITY_PALETTE.length];
+}
+function getCommunityLabel(cid, communities) {
+    if (communities) {
+        for (var i = 0; i < communities.length; i++) {
+            if (communities[i].community_id === cid) return communities[i].label || ('簇 ' + cid);
+        }
+    }
+    return '簇 ' + cid;
 }
 
 registerPage('kg', function(container) {
@@ -153,6 +191,8 @@ registerPage('kg', function(container) {
                 <button class="kg-mode-btn active" data-mode="law" onclick="switchKGMode('law')">法规视图</button>
                 <button class="kg-mode-btn" data-mode="search" onclick="switchKGMode('search')">实体搜索</button>
                 <button class="kg-mode-btn" data-mode="cross" onclick="switchKGMode('cross')">跨法域对比</button>
+                <button class="kg-mode-btn" data-mode="concept" onclick="switchKGMode('concept')">概念对比</button>
+                <button class="kg-mode-btn" data-mode="reasoning" onclick="switchKGMode('reasoning')">图谱问答</button>
             </div>
         </div>
 
@@ -207,18 +247,76 @@ registerPage('kg', function(container) {
                         <label style="font-size:0.8125rem;font-weight:600;color:var(--color-text-secondary);display:block;margin-bottom:0.25rem;">对比专题</label>
                         <select id="kg-cross-topic" class="select"></select>
                     </div>
-                    <div style="display:flex;align-items:flex-end;">
+                    <div style="display:flex;align-items:flex-end;gap:0.75rem;">
+                        <div>
+                            <label style="font-size:0.8125rem;font-weight:600;color:var(--color-text-secondary);display:block;margin-bottom:0.25rem;">视图</label>
+                            <select id="kg-cross-view" class="select" style="width:auto;font-size:0.8125rem;">
+                                <option value="matrix" selected>对齐矩阵（法规级，推荐）</option>
+                                <option value="graph">关系图谱（条款级）</option>
+                            </select>
+                        </div>
                         <button class="btn btn-primary" onclick="loadCrossGraph()">开始对比</button>
                     </div>
                 </div>
+                <div style="font-size:0.75rem;color:var(--color-text-muted);margin-top:0.375rem;">对齐矩阵：行/列=两法域法规，格值=语义对口的条款对数量，点击格子查看具体条款对</div>
+            </div>
+            <!-- 法规级对齐矩阵 -->
+            <div class="card" id="kg-cross-matrix-card" style="margin-top:0.75rem;padding:0.5rem;">
+                <div id="kg-cross-matrix" style="width:100%;height:460px;"></div>
+                <div id="kg-cross-matrix-fallback"></div>
+            </div>
+            <div id="kg-cross-detail" style="margin-top:0.5rem;"></div>
+        </div>
+
+        <!-- 模式4：概念对比（跨法域概念对齐矩阵） -->
+        <div id="kg-concept-panel" class="kg-panel" style="display:none;">
+            <div class="card" style="padding:1rem;">
+                <div style="display:flex;gap:0.75rem;align-items:flex-end;flex-wrap:wrap;">
+                    <div>
+                        <label style="font-size:0.8125rem;font-weight:600;color:var(--color-text-secondary);display:block;margin-bottom:0.25rem;">最少法域数</label>
+                        <select id="kg-concept-minjur" class="select" style="width:auto;font-size:0.8125rem;">
+                            <option value="2">≥2 个法域</option>
+                            <option value="3">≥3 个法域</option>
+                            <option value="1">≥1 个法域</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label style="font-size:0.8125rem;font-weight:600;color:var(--color-text-secondary);display:block;margin-bottom:0.25rem;">概念数量</label>
+                        <select id="kg-concept-topn" class="select" style="width:auto;font-size:0.8125rem;">
+                            <option value="20">Top 20</option>
+                            <option value="30" selected>Top 30</option>
+                            <option value="50">Top 50</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary" onclick="loadConceptMatrix()">生成矩阵</button>
+                </div>
+                <div style="font-size:0.75rem;color:var(--color-text-muted);margin-top:0.375rem;">热力图：行=法律概念，列=法域，色深=相关条文数；点击任意概念查看各法域的法规与条款明细</div>
+            </div>
+            <div class="card" style="margin-top:0.75rem;padding:0.5rem;">
+                <div id="kg-concept-heatmap" style="width:100%;height:480px;"></div>
+                <div id="kg-concept-fallback"></div>
+            </div>
+            <div id="kg-concept-detail" style="margin-top:0.5rem;"></div>
+        </div>
+
+        <!-- 模式5：图谱问答（多跳推理 + 路径证据） -->
+        <div id="kg-reasoning-panel" class="kg-panel" style="display:none;">
+            <div class="card" style="padding:1rem;">
+                <label style="font-size:0.8125rem;font-weight:600;color:var(--color-text-secondary);display:block;margin-bottom:0.375rem;">图谱问答（基于实体关系多跳推理，答案附路径证据）</label>
+                <div style="display:flex;gap:0.5rem;">
+                    <input type="text" id="kg-reasoning-input" class="input" placeholder="例如：个人数据的跨境传输在各法域如何规定？" style="flex:1;" onkeydown="if(event.key==='Enter')runKGReasoning()">
+                    <button class="btn btn-primary" onclick="runKGReasoning()">提问</button>
+                </div>
+                <div style="font-size:0.75rem;color:var(--color-text-muted);margin-top:0.375rem;">仅对已完成知识层抽取的法规有效；无命中时会提示（可改用普通问答）。答案可溯源到关系路径。</div>
+                <div id="kg-reasoning-result" style="margin-top:0.75rem;"></div>
             </div>
         </div>
 
         <!-- 图谱容器 -->
-        <div class="card" style="margin-top:0.75rem;padding:0;">
+        <div class="card" id="kg-graph-card" style="margin-top:0.75rem;padding:0;">
             <div style="display:flex;justify-content:space-between;align-items:center;padding:0.625rem 1rem;border-bottom:1px solid var(--color-border);">
                 <div id="kg-graph-title" class="kg-graph-title" style="font-weight:600;font-size:0.8125rem;color:var(--color-text);"></div>
-                <div style="display:flex;gap:0.375rem;">
+                <div id="kg-view-controls" style="display:flex;gap:0.375rem;">
                     <button class="btn btn-sm" onclick="toggleKGLayout()" id="kg-layout-btn" style="font-size:0.75rem;">布局：力导向</button>
                     <button class="btn btn-sm" onclick="resetKGView()" style="font-size:0.75rem;">重置视图</button>
                     <button class="btn btn-sm" onclick="fitKGView()" style="font-size:0.75rem;">适应布局</button>
@@ -226,10 +324,15 @@ registerPage('kg', function(container) {
             </div>
             <div id="kg-canvas-container" style="position:relative;height:500px;background:var(--color-bg);overflow:hidden;cursor:grab;">
                 <canvas id="kg-canvas" style="width:100%;height:100%;"></canvas>
+                <div id="kg-echarts" style="width:100%;height:100%;display:none;"></div>
                 <div id="kg-tooltip" style="position:absolute;display:none;background:rgba(255,255,255,0.96);border:1px solid var(--color-border);border-radius:6px;padding:0.5rem 0.75rem;font-size:0.75rem;max-width:280px;box-shadow:0 4px 12px rgba(0,0,0,0.08);pointer-events:none;z-index:10;"></div>
-                <!-- 图例 -->
-                <div id="kg-legend" style="position:absolute;bottom:6px;left:6px;background:rgba(255,255,255,0.94);border:1px solid var(--color-border);border-radius:6px;padding:5px 9px;font-size:0.65rem;color:var(--color-text-secondary);z-index:5;line-height:1.7;pointer-events:none;">
-                    <div style="display:flex;flex-wrap:wrap;gap:0.2rem 0.6rem;">
+                <!-- 图例（右上角，可折叠，避免遮挡节点） -->
+                <div id="kg-legend" style="position:absolute;top:6px;right:6px;background:rgba(255,255,255,0.95);border:1px solid var(--color-border);border-radius:6px;font-size:0.65rem;color:var(--color-text-secondary);z-index:6;line-height:1.7;max-width:270px;max-height:calc(100% - 20px);overflow:auto;">
+                    <div id="kg-legend-header" onclick="toggleKGLegend()" style="display:flex;justify-content:space-between;align-items:center;gap:0.5rem;padding:4px 9px;cursor:pointer;border-bottom:1px solid var(--color-border);font-weight:600;user-select:none;">
+                        <span>图例</span><span id="kg-legend-toggle">▾</span>
+                    </div>
+                    <div id="kg-legend-body" style="padding:5px 9px;">
+                    <div id="kg-legend-jur" style="display:flex;flex-wrap:wrap;gap:0.2rem 0.6rem;">
                         <span style="font-weight:600;min-width:3em;">法域：</span>
                         <span><span class="kg-legend-icon" style="display:inline-block;width:8px;height:8px;background:#2563EB;border-radius:50%;"></span> 澳门</span>
                         <span><span class="kg-legend-icon" style="display:inline-block;width:8px;height:8px;background:#DC2626;border-radius:50%;"></span> 香港</span>
@@ -257,6 +360,7 @@ registerPage('kg', function(container) {
                         <span><span style="display:inline-block;width:9px;height:9px;background:#6B7280;border-radius:50%;vertical-align:middle;"></span> 中连接</span>
                         <span><span style="display:inline-block;width:6px;height:6px;background:#6B7280;border-radius:50%;vertical-align:middle;"></span> 低连接</span>
                     </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -274,6 +378,20 @@ registerPage('kg', function(container) {
                     跨域阈值
                     <input type="range" id="kg-edge-threshold" min="0" max="0.9" step="0.05" value="0.35" style="width:80px;">
                     <span id="kg-threshold-val" style="font-weight:600;min-width:2rem;">0.35</span>
+                </label>
+                <label style="display:flex;align-items:center;gap:0.25rem;color:var(--color-text-secondary);">
+                    引擎
+                    <select id="kg-render-engine" class="select" style="width:auto;font-size:0.75rem;">
+                        <option value="echarts" selected>ECharts</option>
+                        <option value="canvas">Canvas（自绘）</option>
+                    </select>
+                </label>
+                <label style="display:flex;align-items:center;gap:0.25rem;color:var(--color-text-secondary);">
+                    着色
+                    <select id="kg-color-mode" class="select" style="width:auto;font-size:0.75rem;">
+                        <option value="jur">按法域</option>
+                        <option value="community">按社区</option>
+                    </select>
                 </label>
                 <label style="display:flex;align-items:center;gap:0.25rem;color:var(--color-text-secondary);">
                     标签
@@ -353,6 +471,42 @@ registerPage('kg', function(container) {
             topicSel.appendChild(opt);
         });
     });
+
+    // 渲染引擎切换：用最近一次数据重绘（ECharts ↔ Canvas）
+    var engineSel = document.getElementById('kg-render-engine');
+    if (engineSel) {
+        engineSel.addEventListener('change', function() {
+            if (window._kgLastData) {
+                renderKG(
+                    window._kgLastData,
+                    document.getElementById('kg-graph-title').textContent,
+                    window._kgLayoutMode
+                );
+            }
+        });
+    }
+
+    // 控制栏（同法规/跨域/阈值/标签）统一绑定一次（两种引擎共用）
+    bindKGControlsOnce();
+
+    // 着色依据切换：Canvas 模式刷新图例；ECharts 模式重绘以重新配色
+    var colorSel = document.getElementById('kg-color-mode');
+    if (colorSel) {
+        colorSel.addEventListener('change', function() {
+            var mode = colorSel.value;
+            if (window._kgState) {
+                window._kgState.colorMode = mode;
+                updateKGLegend(window._kgState.nodes, window._kgState.communities, mode);
+            }
+            if (getKGRenderEngine() !== 'canvas' && window._kgLastData) {
+                renderKG(
+                    window._kgLastData,
+                    document.getElementById('kg-graph-title').textContent,
+                    window._kgLayoutMode
+                );
+            }
+        });
+    }
 });
 
 window.filterLawsByJur = function() {
@@ -384,6 +538,18 @@ window.switchKGMode = function(mode) {
     });
     document.querySelectorAll('.kg-panel').forEach(function(p) { p.style.display = 'none'; });
     document.getElementById('kg-' + mode + '-panel').style.display = 'block';
+    // 跨法域模式可能处于"对齐矩阵"视图（此时隐藏图谱卡片）：切换模式时恢复图谱卡片
+    var graphCard = document.getElementById('kg-graph-card');
+    var matrixCard = document.getElementById('kg-cross-matrix-card');
+    var crossView = document.getElementById('kg-cross-view');
+    var inMatrix = (mode === 'cross' && crossView && crossView.value === 'matrix');
+    if (graphCard) graphCard.style.display = inMatrix ? 'none' : 'block';
+    if (matrixCard) matrixCard.style.display = inMatrix ? 'block' : 'none';
+    // 首次进入概念对比时自动加载矩阵
+    if (mode === 'concept' && !window._kgConceptLoaded) {
+        window._kgConceptLoaded = true;
+        loadConceptMatrix();
+    }
 };
 
 // ===== 清除图谱 =====
@@ -425,8 +591,10 @@ function renderKG(data, title, layoutMode) {
     document.getElementById('kg-graph-title').textContent = title || '知识图谱';
     var badgeText = nodes.length + ' 节点 | ' + edges.length + ' 边';
 
-    // 动态更新法域图例
-    updateKGLegend(nodes);
+    // 着色依据（法域 / 社区）与社区图例
+    var colorMode = document.getElementById('kg-color-mode') ? document.getElementById('kg-color-mode').value : 'jur';
+    var communities = data.communities || [];
+    updateKGLegend(nodes, communities, colorMode);
 
     if (truncated) {
         badgeText += ' | <span id="kg-expand-all-btn" style="color:#D97706;font-weight:600;cursor:pointer;text-decoration:underline;">仅显示前40个重要节点（共' + totalOriginal + '个），点击展开全部</span>';
@@ -452,6 +620,29 @@ function renderKG(data, title, layoutMode) {
             data._showAll = false;
             renderKG(data, title, layoutMode);
         });
+    }
+
+    // 渲染引擎分流：ECharts 走独立渲染路径；Canvas 为降级备选
+    var engine = getKGRenderEngine();
+    var legendEl = document.getElementById('kg-legend');
+    var viewControls = document.getElementById('kg-view-controls');
+    if (engine !== 'canvas') {
+        // ECharts 自带图例/配色与漫游，隐藏 HTML 图例与 Canvas 专有视图按钮
+        if (legendEl) legendEl.style.display = 'none';
+        if (viewControls) viewControls.style.display = 'none';
+        generateKGInsight(data);
+        renderKGWithECharts(data, title);
+        return;
+    }
+    if (legendEl) legendEl.style.display = 'block';
+    if (viewControls) viewControls.style.display = 'flex';
+    var canvasEl = document.getElementById('kg-canvas');
+    var echartEl = document.getElementById('kg-echarts');
+    if (canvasEl) canvasEl.style.display = 'block';
+    if (echartEl) echartEl.style.display = 'none';
+    if (window._kgEchartsInstance) {
+        window._kgEchartsInstance.dispose();
+        window._kgEchartsInstance = null;
     }
 
     var canvas = document.getElementById('kg-canvas');
@@ -527,6 +718,9 @@ function renderKG(data, title, layoutMode) {
         });
     }
 
+    var prMax = 0;
+    nodes.forEach(function(n) { if (n.pagerank && n.pagerank > prMax) prMax = n.pagerank; });
+
     var state = {
         nodes: nodes, edges: edges, positions: positions, velocities: velocities,
         zoom: 1, panX: 0, panY: 0,
@@ -535,12 +729,12 @@ function renderKG(data, title, layoutMode) {
         filterSameLaw: true, filterCross: true,
         edgeThreshold: parseFloat(document.getElementById('kg-edge-threshold').value),
         labelMode: document.getElementById('kg-label-mode').value,
+        colorMode: colorMode, communities: communities, prMax: prMax,
         layoutTick: 0, maxLayoutTicks: isCircular ? 3 : 300, running: true,
         isCircular: isCircular,
         _time: 0  // 用于呼吸动画
     };
     window._kgState = state;
-    bindKGControls(state);
     generateKGInsight(data);
 
     // 力导向（圆形布局少量迭代让节点自然放松）
@@ -765,16 +959,20 @@ function drawKG(ctx, state, w, h) {
         // 按连接度分档：0=极小灰色, 1-2=小, 3-7=中, 8+=大
         var deg = n.degree || 0;
         var baseR;
-        if (deg >= 8) {
-            baseR = 13;          // 大节点（核心枢纽）
+        if (n.pagerank != null && state.prMax > 0) {
+            // 有 PageRank：按相对影响力定大小（开方压缩，避免极端值撑爆）
+            var prT = Math.min(1, n.pagerank / state.prMax);
+            baseR = 4.5 + Math.sqrt(prT) * 7.5;   // 4.5 ~ 12
+        } else if (deg >= 8) {
+            baseR = 11.5;        // 大节点（核心枢纽）
         } else if (deg >= 3) {
-            baseR = 9;           // 中节点
+            baseR = 8.5;         // 中节点
         } else if (deg >= 1) {
-            baseR = 6;           // 小节点
+            baseR = 5.5;         // 小节点
         } else {
-            baseR = 4;           // 极小节点
+            baseR = 3.8;         // 极小节点
         }
-        var radius = (n.is_core ? Math.max(baseR, 12) : baseR) * si;
+        var radius = (n.is_core ? Math.max(baseR, 11) : baseR) * si;
         var isHovered = state.hoveredNode && state.hoveredNode.id === n.id;
         var isSelected = state.selectedNode && state.selectedNode.id === n.id;
         var isDimmed = (state.hoveredNode && !isHovered && !neighborSet[n.id]) ||
@@ -801,10 +999,26 @@ function drawKG(ctx, state, w, h) {
             ctx.restore();
         }
 
+        var jurColor = (state.colorMode === 'community')
+            ? getCommunityColor(n.community_id)
+            : getJurColor(n.jurisdiction);
+
+        // 柔和光晕：为每个节点铺一层低透明度外圈，增加层次感（被打断高亮时不画）
+        if (!isDimmed) {
+            ctx.save();
+            ctx.shadowColor = 'transparent';
+            ctx.shadowBlur = 0;
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, radius + 4.5 * si, 0, Math.PI * 2);
+            ctx.fillStyle = jurColor;
+            ctx.globalAlpha = 0.16;
+            ctx.fill();
+            ctx.restore();
+        }
+
         // 绘制形状
         ctx.save();
         // 径向渐变填充
-        var jurColor = getJurColor(n.jurisdiction);
         var grad = ctx.createRadialGradient(p.x - radius * 0.3, p.y - radius * 0.3, radius * 0.1, p.x, p.y, radius);
         grad.addColorStop(0, lightenColor(jurColor, 40));
         grad.addColorStop(1, jurColor);
@@ -878,7 +1092,7 @@ function drawKG(ctx, state, w, h) {
             ctx.textAlign = 'center';
             ctx.textBaseline = 'top';
             var label = buildKGLabels(n);
-            var maxLen = state.zoom >= 1.5 ? 24 : 12;
+            var maxLen = state.zoom >= 1.5 ? 44 : 28;
             var displayText = label.length > maxLen ? label.substring(0, maxLen) + '…' : label;
             var labelY = p.y + radius + 4 * si;
 
@@ -894,19 +1108,55 @@ function drawKG(ctx, state, w, h) {
     ctx.restore();
 }
 
-function buildKGLabels(n) {
-    // 显示法规简称 + 第X条
-    var law = '';
-    if (n.law_name) {
-        // 取法规名称中"法"之前的部分做简称，如"澳门个人资料保护法" → "个资保护法"
-        var name = n.law_name.replace(/^[澳门香港新加坡美国欧盟]+\s*/g, '');
-        law = name.length > 8 ? name.substring(0, 6) + '…' : name;
+// 法规名智能缩写：既要短，又要让人一眼认出是哪部法规
+// - 去法域前缀与英文赘述（"Act on the…"）
+// - 英文按整词截断、中文按字数截断，尽量保留可辨识的主体词
+function shortenLawName(name, maxLen) {
+    if (!name) return '';
+    maxLen = maxLen || 16;
+    var s = String(name).trim();
+
+    // 去法域前缀（用多字词交替，避免字符类误删单字，如"法人登记"的"法"）
+    s = s.replace(
+        /^[\s【\[]*(?:中国大陆|澳大利亚|马来西亚|新加坡|港澳|澳门|香港|美国|欧盟|日本|泰国|越南|臺灣|台湾|韩国|韓國|英国|德国|法国|印度|俄罗斯|加拿大|巴西|中国)?[\s】\]]*/,
+        ''
+    );
+    // 去英文常见赘述前缀
+    s = s.replace(/^(the\s+)?act\s+on\s+(the\s+)?/i, '');
+    s = s.replace(/^(the|a|an)\s+/i, '');
+    s = s.trim();
+    if (!s) return '';
+
+    // 中文（含中英混排）按字符截断
+    if (/[\u4e00-\u9fff]/.test(s)) {
+        return s.length > maxLen ? s.substring(0, maxLen) + '…' : s;
     }
+
+    // 纯英文：按整词截断，避免把单词切一半
+    var words = s.split(/\s+/);
+    var out = '';
+    for (var i = 0; i < words.length; i++) {
+        var w = words[i];
+        if (out && (out.length + 1 + w.length) > maxLen) break;
+        out = out ? out + ' ' + w : w;
+        if (out.length >= maxLen) break;
+    }
+    if (!out) out = s.substring(0, maxLen);
+    return out.length < s.length ? out + '…' : out;
+}
+
+function buildKGLabels(n) {
+    // 实体节点（LLM 知识层）：直接显示实体名
+    if (n.node_kind === 'entity') {
+        return n.label || n.title || n.id || '';
+    }
+    // 显示法规简称 + 第X条（法规简称保留可辨识的主体词；完整名称见 tooltip/详情）
+    var law = shortenLawName(n.law_name || '', 24);
     if (n.article_number) {
         if (law) return law + ' 第' + n.article_number + '条';
         return '第' + n.article_number + '条';
     }
-    return law || (n.label || n.title || n.id || '').substring(0, 12);
+    return law || shortenLawName(n.label || n.title || n.id || '', 24);
 }
 
 // 构建关联线标签（简短显示）
@@ -931,6 +1181,7 @@ function buildKGEdgeDetail(e, state) {
     var fromLabel = fromNode ? (buildKGLabels(fromNode) || fromNode.id) : e.from;
     var toLabel = toNode ? (buildKGLabels(toNode) || toNode.id) : e.to;
     var isCross = e.type === 'cross_jurisdiction' || e.type === 'semantic_similar';
+    var isEntityRel = e.edge_kind === 'entity_relation';
     var sim = e.similarity != null ? e.similarity.toFixed(2) : '-';
     var fromJur = fromNode ? (fromNode.jurisdiction || '-') : '-';
     var toJur = toNode ? (toNode.jurisdiction || '-') : '-';
@@ -938,16 +1189,19 @@ function buildKGEdgeDetail(e, state) {
     var toLaw = toNode ? (toNode.law_name || '-') : '-';
 
     return {
-        label: isCross ? '语义关联' : '法规内关联',
+        label: isEntityRel ? (e.relation_label || '实体关系') : (isCross ? '语义关联' : '法规内关联'),
         fromNode: fromLabel,
         toNode: toLabel,
         fromJur: fromJur,
         toJur: toJur,
         fromLaw: fromLaw,
         toLaw: toLaw,
-        type: isCross ? '跨法域语义关联' : '同法域法规内关联',
+        type: isEntityRel ? '实体关系' : (isCross ? '跨法域语义关联' : '同法域法规内关联'),
         similarity: sim,
-        reason: e.reason || e.label || ''
+        similarityLabel: isEntityRel ? '置信度' : '相似度',
+        reason: e.reason || (isEntityRel
+            ? (e.source_article ? '来源条款：' + e.source_article : '')
+            : (e.label || ''))
     };
 }
 
@@ -1046,7 +1300,7 @@ function bindKGCanvas(canvas, container, state) {
                 '</div>' +
                 '<div style="color:var(--color-text-muted);font-size:0.75rem;">' +
                 escapeHtml(info.fromJur) + ' · ' + escapeHtml(info.toJur) +
-                ' | 相似度 ' + info.similarity +
+                ' | ' + escapeHtml(info.similarityLabel || '相似度') + ' ' + info.similarity +
                 '</div>' +
                 (info.reason ? '<div style="color:var(--color-text-secondary);font-size:0.75rem;margin-top:0.125rem;">' + escapeHtml(String(info.reason).substring(0, 100)) + '</div>' : '');
         } else if (tooltip) {
@@ -1135,7 +1389,7 @@ function showKGEdgeDetail(edge, state) {
     html += '<div style="margin-bottom:0.5rem;">';
     html += '<span class="badge badge-info" style="background:#3B82F6;color:#fff;">' + escapeHtml(info.type) + '</span>';
     if (info.similarity !== '-') {
-        html += '<span class="badge badge-warning" style="margin-left:0.375rem;background:#D97706;color:#fff;">相似度 ' + info.similarity + '</span>';
+        html += '<span class="badge badge-warning" style="margin-left:0.375rem;background:#D97706;color:#fff;">' + escapeHtml(info.similarityLabel || '相似度') + ' ' + info.similarity + '</span>';
     }
     html += '</div>';
     html += '<h3 style="font-size:1rem;font-weight:600;margin:0 0 0.75rem;color:var(--color-text);">' + escapeHtml(info.label) + '</h3>';
@@ -1173,19 +1427,48 @@ function showKGEdgeDetail(edge, state) {
 }
 
 // ===== 控制绑定 =====
-function bindKGControls(state) {
-    function sync() {
-        state.filterSameLaw = document.getElementById('kg-filter-same-law').checked;
-        state.filterCross = document.getElementById('kg-filter-cross').checked;
-        state.edgeThreshold = parseFloat(document.getElementById('kg-edge-threshold').value);
-        state.labelMode = document.getElementById('kg-label-mode').value;
-        document.getElementById('kg-threshold-val').textContent = state.edgeThreshold.toFixed(2);
+// 控制栏统一绑定（页面初始化时只绑一次，避免每次重渲染重复挂载监听）
+// Canvas 模式：更新窗口状态（drawKG 每帧读取）；ECharts 模式：重渲染图谱（带去抖）
+var _kgControlTimer = null;
+function onKGControlChange() {
+    var thr = parseFloat(document.getElementById('kg-edge-threshold').value);
+    var same = document.getElementById('kg-filter-same-law').checked;
+    var cross = document.getElementById('kg-filter-cross').checked;
+    var label = document.getElementById('kg-label-mode').value;
+    document.getElementById('kg-threshold-val').textContent = isNaN(thr) ? '0.00' : thr.toFixed(2);
+
+    var state = window._kgState;
+    if (state) {  // Canvas 模式：就地更新，无需重绘调用
+        state.filterSameLaw = same;
+        state.filterCross = cross;
+        state.edgeThreshold = thr;
+        state.labelMode = label;
+        return;
     }
-    document.getElementById('kg-filter-same-law').addEventListener('change', sync);
-    document.getElementById('kg-filter-cross').addEventListener('change', sync);
-    document.getElementById('kg-edge-threshold').addEventListener('input', sync);
-    document.getElementById('kg-label-mode').addEventListener('change', sync);
-    sync();
+    // ECharts 模式：边过滤/标签需重渲染，做 120ms 去抖避免拖动滑块时反复重建力导向
+    if (window._kgLastData) {
+        if (_kgControlTimer) clearTimeout(_kgControlTimer);
+        _kgControlTimer = setTimeout(function() {
+            renderKG(
+                window._kgLastData,
+                document.getElementById('kg-graph-title').textContent,
+                window._kgLayoutMode
+            );
+        }, 120);
+    }
+}
+
+function bindKGControlsOnce() {
+    var ids = ['kg-filter-same-law', 'kg-filter-cross', 'kg-edge-threshold', 'kg-label-mode'];
+    ids.forEach(function(id) {
+        var el = document.getElementById(id);
+        if (!el) return;
+        el.addEventListener('change', onKGControlChange);
+        el.addEventListener('input', onKGControlChange);
+    });
+    // 初始化阈值显示
+    var thr = document.getElementById('kg-edge-threshold');
+    if (thr) document.getElementById('kg-threshold-val').textContent = parseFloat(thr.value).toFixed(2);
 }
 
 window.resetKGView = function() {
@@ -1275,6 +1558,20 @@ function generateKGInsight(data) {
         parts.push(text);
     }
 
+    // 社区结构（Louvain）
+    var communities = data.communities || [];
+    if (communities.length > 1) {
+        var topComms = communities.slice(0, 3).map(function(c) { return (c.label || '簇') + '(' + c.size + ')'; });
+        parts.push('识别出 ' + communities.length + ' 个主题社区，如 ' + topComms.join('、'));
+    }
+
+    // 核心枢纽（PageRank）
+    var hubs = data.top_hubs || [];
+    if (hubs.length > 0) {
+        var hubLabels = hubs.slice(0, 5).map(function(h) { return h.label; });
+        parts.push('核心枢纽（PageRank）：' + hubLabels.join('、'));
+    }
+
     document.getElementById('kg-insight-text').textContent = parts.join('，') + '。';
     document.getElementById('kg-insight-panel').style.display = 'block';
 }
@@ -1283,11 +1580,16 @@ function generateKGInsight(data) {
 window.loadLawGraph = function() {
     var lawId = document.getElementById('kg-law-select').value;
     if (!lawId) return;
-    document.getElementById('kg-graph-title').textContent = '加载中...';
+    // 知识层首次构建需调用 LLM，可能耗时数十秒，此处给出明确提示
+    document.getElementById('kg-graph-title').textContent = '加载中（首次构建知识层可能需要数十秒）...';
     api.get('/kg/law/' + encodeURIComponent(lawId)).then(function(resp) {
         if (resp.success && resp.data) {
-            var name = (resp.data.nodes || []).find(function(n) { return n.law_id === lawId; });
-            renderKG(resp.data, (name && name.law_name) || lawId, window._kgLayoutMode);
+            var isLLM = resp.data.graph_source === 'llm';
+            var sourceTag = isLLM ? '知识层（实体关系）' : '条款关联（已降级）';
+            if (isLLM && resp.data.cache_hit) sourceTag += ' · 缓存命中';
+            var law = (resp.data.nodes || []).find(function(n) { return n.law_id === lawId; });
+            var title = ((law && law.law_name) || lawId) + ' · ' + sourceTag;
+            renderKG(resp.data, title, window._kgLayoutMode);
         } else {
             document.getElementById('kg-graph-title').textContent = '数据加载失败';
         }
@@ -1301,13 +1603,23 @@ window.searchKGEntities = function() {
     var q = document.getElementById('kg-search-input').value.trim();
     if (!q) return;
     document.getElementById('kg-graph-title').textContent = '搜索中...';
-    api.get('/kg/search-entity', { q: q, page_size: 20 }).then(function(resp) {
-        if (resp.success && resp.data) {
-            renderKG(resp.data, '实体搜索: ' + q);
-        } else {
-            document.getElementById('kg-graph-title').textContent = '未找到相关结果';
-            document.getElementById('kg-search-results').innerHTML = '<div class="alert alert-info">未找到相关结果，请尝试其他关键词</div>';
+    document.getElementById('kg-search-results').innerHTML = '';
+    // 优先：实体词典 → 实体邻域知识图谱
+    api.get('/kg/entity-graph', { q: q, limit: 50 }).then(function(resp) {
+        var nodes = (resp.success && resp.data && resp.data.nodes) || [];
+        if (nodes.length > 0) {
+            renderKG(resp.data, '实体图谱: ' + q);
+            return null;
         }
+        // 降级：知识层尚无该实体，回退条款检索建图
+        return api.get('/kg/search-entity', { q: q, page_size: 20 }).then(function(r2) {
+            if (r2.success && r2.data) {
+                renderKG(r2.data, '条款关联（已降级）: ' + q);
+            } else {
+                document.getElementById('kg-graph-title').textContent = '未找到相关结果';
+                document.getElementById('kg-search-results').innerHTML = '<div class="alert alert-info">未找到相关结果，请尝试其他关键词</div>';
+            }
+        });
     }).catch(function() {
         document.getElementById('kg-graph-title').textContent = '搜索请求失败';
     });
@@ -1318,7 +1630,24 @@ window.loadCrossGraph = function() {
     var jurA = document.getElementById('kg-cross-jur-a').value;
     var jurB = document.getElementById('kg-cross-jur-b').value;
     var topic = document.getElementById('kg-cross-topic').value;
+    var view = document.getElementById('kg-cross-view') ? document.getElementById('kg-cross-view').value : 'matrix';
     if (!jurA || !jurB || !topic) return;
+
+    var graphCard = document.getElementById('kg-graph-card');
+    var matrixCard = document.getElementById('kg-cross-matrix-card');
+    document.getElementById('kg-cross-detail').innerHTML = '';
+
+    // ---- 视图二：法规级对齐矩阵（默认，总览）----
+    if (view === 'matrix') {
+        if (graphCard) graphCard.style.display = 'none';
+        if (matrixCard) matrixCard.style.display = 'block';
+        renderCrossMatrix(jurA, jurB, topic);
+        return;
+    }
+
+    // ---- 视图一：条款级关系图谱 ----
+    if (matrixCard) matrixCard.style.display = 'none';
+    if (graphCard) graphCard.style.display = 'block';
     document.getElementById('kg-graph-title').textContent = '加载中...';
     api.get('/structured-analysis/network-graph', {
         topic_id: topic, jurisdiction_a: jurA, jurisdiction_b: jurB, top_n: 10
@@ -1343,6 +1672,147 @@ window.loadCrossGraph = function() {
         }
     }).catch(function() {
         document.getElementById('kg-graph-title').textContent = '对比请求失败';
+    });
+};
+
+// ===== 法规级对齐矩阵 =====
+var _kgCrossMatrixChart = null;
+
+function renderCrossMatrix(jurA, jurB, topic) {
+    var el = document.getElementById('kg-cross-matrix');
+    var fallback = document.getElementById('kg-cross-matrix-fallback');
+    fallback.innerHTML = '<div style="padding:1rem;color:var(--color-text-muted);">正在计算语义对齐（首次需编码条款，可能数秒）...</div>';
+    api.get('/structured-analysis/alignment-matrix', {
+        topic_id: topic, jurisdiction_a: jurA, jurisdiction_b: jurB, top_n: 10
+    }).then(function(resp) {
+        if (!resp.success || !resp.data || !(resp.data.cells || []).length) {
+            fallback.innerHTML = '<div class="alert alert-info" style="margin:0.5rem;">未找到可对齐的法规数据（可尝试提高每法域检索条款数或更换专题）</div>';
+            return;
+        }
+        fallback.innerHTML = '';
+        drawCrossMatrix(resp.data, jurA, jurB, topic);
+    }).catch(function() {
+        fallback.innerHTML = '<div class="alert alert-info" style="margin:0.5rem;">对齐矩阵加载失败</div>';
+    });
+}
+
+function drawCrossMatrix(data, jurA, jurB, topic) {
+    var lawsA = data.laws_a || [];
+    var lawsB = data.laws_b || [];
+    var yLabels = lawsA.map(function(l) { return l.law_name || l.law_id; });
+    var xLabels = lawsB.map(function(l) { return l.law_name || l.law_id; });
+    var el = document.getElementById('kg-cross-matrix');
+    el.innerHTML = '';
+
+    if (!window.echarts) {
+        renderCrossMatrixTable(data, jurA, jurB, topic);
+        el.style.display = 'none';
+        return;
+    }
+    el.style.display = 'block';
+    var rowH = 30;
+    el.style.height = Math.max(320, rowH * yLabels.length + 140) + 'px';
+    if (_kgCrossMatrixChart) { _kgCrossMatrixChart.dispose(); }
+    _kgCrossMatrixChart = echarts.init(el);
+
+    _kgCrossMatrixChart.setOption({
+        tooltip: {
+            position: 'top',
+            formatter: function(p) {
+                if (!p.value || !p.value[2]) return '';
+                return '<b>' + escapeHtml(yLabels[p.value[1]]) + '</b><br/>↕<br/><b>' +
+                    escapeHtml(xLabels[p.value[0]]) + '</b><br/>语义对口条款对：' + p.value[2];
+            }
+        },
+        grid: { left: 190, right: 30, top: 14, bottom: 90 },
+        xAxis: {
+            type: 'category', data: xLabels, splitArea: { show: true },
+            axisLabel: { interval: 0, rotate: 42, fontSize: 10, width: 120, overflow: 'truncate' }
+        },
+        yAxis: {
+            type: 'category', data: yLabels, splitArea: { show: true },
+            axisLabel: { fontSize: 10, width: 180, overflow: 'truncate' }
+        },
+        visualMap: {
+            min: 0, max: Math.max(1, data.max_count || 1), calculable: true, orient: 'horizontal',
+            left: 'center', bottom: 6,
+            inRange: { color: ['#F1F5F9', '#BFDBFE', '#60A5FA', '#2563EB', '#1E3A8A'] }
+        },
+        series: [{
+            name: '条款对数', type: 'heatmap', data: data.cells,
+            label: { show: true, fontSize: 10, formatter: function(p) { return p.value[2] || ''; } },
+            emphasis: { itemStyle: { shadowBlur: 10, shadowColor: 'rgba(0,0,0,0.3)' } }
+        }]
+    });
+    _kgCrossMatrixChart.off('click');
+    _kgCrossMatrixChart.on('click', function(p) {
+        if (!p.value || !p.value[2]) return;
+        var la = lawsA[p.value[1]], lb = lawsB[p.value[0]];
+        if (la && lb) showCrossDetail(jurA, jurB, topic, la, lb);
+    });
+}
+
+// ECharts 不可用时的 HTML 表格降级
+function renderCrossMatrixTable(data, jurA, jurB, topic) {
+    var lawsA = data.laws_a || [];
+    var lawsB = data.laws_b || [];
+    var countMap = {};
+    (data.cells || []).forEach(function(c) { countMap[c[1] + '_' + c[0]] = c[2]; });
+    var html = '<div style="overflow:auto;"><table style="border-collapse:collapse;font-size:0.72rem;">';
+    html += '<tr><th style="border:1px solid var(--color-border);padding:3px;"></th>';
+    lawsB.forEach(function(l) {
+        html += '<th style="border:1px solid var(--color-border);padding:3px;writing-mode:vertical-rl;max-height:110px;">' + escapeHtml(l.law_name || l.law_id) + '</th>';
+    });
+    html += '</tr>';
+    lawsA.forEach(function(la, i) {
+        html += '<tr><td style="border:1px solid var(--color-border);padding:3px;">' + escapeHtml(la.law_name || la.law_id) + '</td>';
+        lawsB.forEach(function(lb, j) {
+            var v = countMap[i + '_' + j] || 0;
+            var bg = v ? 'rgba(37,99,235,' + Math.min(0.85, 0.15 + v * 0.06) + ')' : 'transparent';
+            html += '<td data-i="' + i + '" data-j="' + j + '" style="border:1px solid var(--color-border);padding:3px;text-align:center;cursor:pointer;background:' + bg + ';">' + (v || '') + '</td>';
+        });
+        html += '</tr>';
+    });
+    html += '</table></div>';
+    var box = document.getElementById('kg-cross-matrix-fallback');
+    box.innerHTML = html;
+    box.querySelectorAll('td[data-i]').forEach(function(td) {
+        td.addEventListener('click', function() {
+            var i = parseInt(td.dataset.i, 10), j = parseInt(td.dataset.j, 10);
+            if ((countMap[i + '_' + j] || 0) > 0) showCrossDetail(jurA, jurB, topic, lawsA[i], lawsB[j]);
+        });
+    });
+}
+
+window.showCrossDetail = function(jurA, jurB, topic, lawA, lawB) {
+    var panel = document.getElementById('kg-cross-detail');
+    panel.innerHTML = '<div class="card" style="padding:0.75rem 1rem;color:var(--color-text-muted);">明细加载中...</div>';
+    api.get('/structured-analysis/alignment-detail', {
+        topic_id: topic, jurisdiction_a: jurA, jurisdiction_b: jurB,
+        law_a: lawA.law_id, law_b: lawB.law_id, top_n: 10
+    }).then(function(resp) {
+        if (!resp.success || !resp.data) {
+            panel.innerHTML = '<div class="alert alert-info">未找到该法规对的对齐明细</div>';
+            return;
+        }
+        var d = resp.data;
+        var html = '<div class="card" style="padding:0.75rem 1rem;">';
+        html += '<div style="font-weight:600;margin-bottom:0.5rem;">' + escapeHtml(d.law_a.law_name) +
+                ' <span style="color:var(--color-text-muted);">↔</span> ' + escapeHtml(d.law_b.law_name) +
+                ' <span class="badge" style="background:#2563EB;color:#fff;margin-left:0.375rem;">' + d.pair_count + ' 对</span></div>';
+        if (!(d.pairs || []).length) {
+            html += '<div style="color:var(--color-text-muted);font-size:0.8125rem;">暂无达到阈值的条款对</div>';
+        }
+        (d.pairs || []).forEach(function(pr) {
+            html += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;margin-bottom:0.5rem;padding-bottom:0.5rem;border-bottom:1px solid var(--color-border);">';
+            html += '<div style="font-size:0.75rem;line-height:1.5;"><span class="badge" style="background:#EFF6FF;color:#1E40AF;">第' + escapeHtml(pr.a_article || '?') + '条</span><div style="color:var(--color-text-secondary);margin-top:0.2rem;">' + escapeHtml((pr.a_preview || '').substring(0, 120)) + '…</div></div>';
+            html += '<div style="font-size:0.75rem;line-height:1.5;"><span class="badge" style="background:#FEF2F2;color:#B91C1C;">第' + escapeHtml(pr.b_article || '?') + '条</span><div style="color:var(--color-text-secondary);margin-top:0.2rem;">' + escapeHtml((pr.b_preview || '').substring(0, 120)) + '…</div></div>';
+            html += '</div>';
+        });
+        html += '</div>';
+        panel.innerHTML = html;
+    }).catch(function() {
+        panel.innerHTML = '<div class="alert alert-info">明细加载失败</div>';
     });
 };
 
@@ -1371,4 +1841,480 @@ var _origRenderKG = renderKG;
 renderKG = function(data, title, layoutMode) {
     window._kgLastData = data;
     _origRenderKG(data, title, layoutMode);
+};
+
+// ===== 概念对比（跨法域概念对齐矩阵）=====
+var _kgConceptChart = null;
+
+window.loadConceptMatrix = function() {
+    var minJur = parseInt(document.getElementById('kg-concept-minjur').value || '2', 10);
+    var topN = parseInt(document.getElementById('kg-concept-topn').value || '30', 10);
+    var fallback = document.getElementById('kg-concept-fallback');
+    document.getElementById('kg-concept-detail').innerHTML = '';
+    fallback.innerHTML = '<div style="padding:1rem;color:var(--color-text-muted);">加载中...</div>';
+    api.get('/kg/concept-matrix', { top_n: topN, min_jurisdictions: minJur }).then(function(resp) {
+        if (!resp.success || !resp.data || !(resp.data.concepts || []).length) {
+            fallback.innerHTML = '<div class="alert alert-info" style="margin:0.5rem;">暂无跨法域概念数据（知识层可能尚未构建，或没有概念跨法域出现）</div>';
+            return;
+        }
+        fallback.innerHTML = '';
+        renderConceptHeatmap(resp.data);
+    }).catch(function() {
+        fallback.innerHTML = '<div class="alert alert-info" style="margin:0.5rem;">矩阵加载失败</div>';
+    });
+};
+
+function renderConceptHeatmap(data) {
+    var jurs = data.jurisdictions || [];
+    var concepts = data.concepts || [];
+    var yLabels = concepts.map(function(c) { return c.name; });
+    var maxV = data.max_count || 1;
+
+    var cells = [];
+    concepts.forEach(function(c, yi) {
+        jurs.forEach(function(j, xi) {
+            var v = (c.counts && c.counts[j]) ? c.counts[j] : 0;
+            cells.push([xi, yi, v]);
+        });
+    });
+
+    var el = document.getElementById('kg-concept-heatmap');
+
+    // ECharts 不可用（CDN 未加载）时降级为 HTML 表格
+    if (!window.echarts) {
+        renderConceptTable(concepts, jurs);
+        el.style.display = 'none';
+        return;
+    }
+    el.style.display = 'block';
+    el.style.height = Math.max(320, 26 * yLabels.length + 120) + 'px';
+    if (!_kgConceptChart) {
+        _kgConceptChart = echarts.init(el);
+    } else {
+        _kgConceptChart.dispose();
+        _kgConceptChart = echarts.init(el);
+    }
+    _kgConceptChart.setOption({
+        tooltip: {
+            position: 'top',
+            formatter: function(p) {
+                return '<b>' + escapeHtml(yLabels[p.value[1]]) + '</b><br/>' +
+                    escapeHtml(jurs[p.value[0]]) + '：' + p.value[2] + ' 条';
+            }
+        },
+        grid: { left: 200, right: 40, top: 16, bottom: 70 },
+        xAxis: { type: 'category', data: jurs, splitArea: { show: true }, axisLabel: { interval: 0 } },
+        yAxis: {
+            type: 'category', data: yLabels, splitArea: { show: true },
+            axisLabel: {
+                fontSize: 11,
+                formatter: function(v) { return v.length > 16 ? v.substring(0, 16) + '…' : v; }
+            }
+        },
+        visualMap: {
+            min: 0, max: maxV, calculable: true, orient: 'horizontal',
+            left: 'center', bottom: 8,
+            inRange: { color: ['#EFF6FF', '#93C5FD', '#2563EB', '#1E3A8A'] }
+        },
+        series: [{
+            name: '条文数', type: 'heatmap', data: cells,
+            label: { show: true, fontSize: 10, formatter: function(p) { return p.value[2] || ''; } },
+            emphasis: { itemStyle: { shadowBlur: 10, shadowColor: 'rgba(0,0,0,0.3)' } }
+        }]
+    });
+    _kgConceptChart.off('click');
+    _kgConceptChart.on('click', function(p) {
+        var c = concepts[p.value[1]];
+        if (c) showConceptDetail(c);
+    });
+}
+
+function renderConceptTable(concepts, jurs) {
+    var html = '<div style="overflow:auto;"><table style="border-collapse:collapse;font-size:0.75rem;width:100%;">';
+    html += '<tr><th style="text-align:left;padding:4px 6px;border:1px solid var(--color-border);">概念</th>';
+    jurs.forEach(function(j) { html += '<th style="padding:4px 6px;border:1px solid var(--color-border);">' + escapeHtml(j) + '</th>'; });
+    html += '</tr>';
+    concepts.forEach(function(c, yi) {
+        html += '<tr style="cursor:pointer;" data-yi="' + yi + '"><td style="padding:4px 6px;border:1px solid var(--color-border);">' + escapeHtml(c.name) + '</td>';
+        jurs.forEach(function(j) {
+            var v = c.counts && c.counts[j] ? c.counts[j] : 0;
+            var bg = v ? 'rgba(37,99,235,' + Math.min(0.8, 0.15 + v * 0.08) + ')' : 'transparent';
+            html += '<td style="padding:4px 6px;border:1px solid var(--color-border);text-align:center;background:' + bg + ';">' + (v || '') + '</td>';
+        });
+        html += '</tr>';
+    });
+    html += '</table></div>';
+    var box = document.getElementById('kg-concept-fallback');
+    box.innerHTML = html;
+    box.querySelectorAll('tr[data-yi]').forEach(function(tr) {
+        tr.addEventListener('click', function() { showConceptDetail(concepts[parseInt(tr.dataset.yi, 10)]); });
+    });
+}
+
+window.showConceptDetail = function(concept) {
+    var panel = document.getElementById('kg-concept-detail');
+    panel.innerHTML = '<div class="card" style="padding:0.75rem 1rem;color:var(--color-text-muted);">明细加载中...</div>';
+    api.get('/kg/concept-detail', { entity_id: concept.entity_id }).then(function(resp) {
+        if (!resp.success || !resp.data) {
+            panel.innerHTML = '<div class="alert alert-info">未找到该概念的条款明细</div>';
+            return;
+        }
+        var d = resp.data;
+        var html = '<div class="card" style="padding:0.75rem 1rem;">';
+        html += '<div style="font-weight:600;margin-bottom:0.5rem;">概念：' + escapeHtml(d.name) +
+                ' <span class="badge" style="background:#6B7280;color:#fff;margin-left:0.375rem;">' + escapeHtml(d.type) + '</span></div>';
+        (d.jurisdictions || []).forEach(function(g) {
+            html += '<div style="margin-bottom:0.625rem;">';
+            html += '<div style="font-weight:600;color:var(--color-text-secondary);font-size:0.8125rem;margin-bottom:0.25rem;">' +
+                    escapeHtml(g.jurisdiction) + '（' + g.article_count + ' 条）</div>';
+            html += '<div style="display:flex;flex-wrap:wrap;gap:0.375rem;">';
+            (g.articles || []).slice(0, 40).forEach(function(a) {
+                var rel = (a.relations && a.relations.length) ? ' · ' + escapeHtml(a.relations.join('/')) : '';
+                var label = (a.law_name || a.law_id || '').substring(0, 18);
+                html += '<span class="badge" style="background:var(--color-bg);color:var(--color-text-secondary);border:1px solid var(--color-border);">' +
+                        escapeHtml(label) + ' ' + escapeHtml(a.article_number || '') + rel + '</span>';
+            });
+            html += '</div></div>';
+        });
+        html += '</div>';
+        panel.innerHTML = html;
+    }).catch(function() {
+        panel.innerHTML = '<div class="alert alert-info">明细加载失败</div>';
+    });
+};
+
+// 窗口缩放时同步 ECharts 实例尺寸（热力图 + 图谱 + 跨域矩阵，只注册一次）
+window.addEventListener('resize', function() {
+    if (_kgConceptChart) _kgConceptChart.resize();
+    if (_kgCrossMatrixChart) _kgCrossMatrixChart.resize();
+    if (window._kgEchartsInstance) window._kgEchartsInstance.resize();
+});
+
+// ===== 渲染引擎：ECharts 2D =====
+function getKGRenderEngine() {
+    var sel = document.getElementById('kg-render-engine');
+    return sel ? sel.value : 'echarts';
+}
+function getKGColorMode() {
+    var sel = document.getElementById('kg-color-mode');
+    return sel ? sel.value : 'jur';
+}
+function getKGLabelMode() {
+    var sel = document.getElementById('kg-label-mode');
+    return sel ? sel.value : 'smart';
+}
+
+/** 读取底部控制栏的边过滤条件（ECharts 模式下从 DOM 取值，与 Canvas 共用同一组控件） */
+function getKGEdgeFilters() {
+    var same = document.getElementById('kg-filter-same-law');
+    var cross = document.getElementById('kg-filter-cross');
+    var thr = document.getElementById('kg-edge-threshold');
+    return {
+        filterSameLaw: same ? same.checked : true,
+        filterCross: cross ? cross.checked : true,
+        edgeThreshold: thr ? parseFloat(thr.value) : 0,
+    };
+}
+
+/**
+ * 按控制栏条件过滤边（与 Canvas 的 drawKG 判定保持一致）。
+ *
+ * 例外：LLM 实体关系边（edge_kind === 'entity_relation'）的 type 也是 semantic_similar，
+ * 若套用"跨域"复选框，取消勾选会把实体图的边一次性清空。故实体边只受阈值（置信度）约束，
+ * 不受两个复选框约束 —— 这两个开关语义上只针对"条款关联图"。
+ */
+function filterKGEdges(edges, f) {
+    return (edges || []).filter(function(e) {
+        var isEntity = e.edge_kind === 'entity_relation';
+        var isCross = e.type === 'cross_jurisdiction' || e.type === 'semantic_similar';
+        if (isEntity) {
+            if (e.similarity != null && e.similarity < f.edgeThreshold) return false;
+            return true;
+        }
+        if (!f.filterCross && isCross) return false;
+        if (!f.filterSameLaw && !isCross) return false;
+        if (isCross && e.similarity != null && e.similarity < f.edgeThreshold) return false;
+        return true;
+    });
+}
+
+/**
+ * 分簇初始布局：按（法域 / 社区）把节点分组，各组中心均匀分布在圆环上，
+ * 组内用黄金角（叶序）螺旋散开，作为力导向的初始坐标。
+ *
+ * 为什么必须做：ECharts 力导向默认随机初始化，跨法域的两个簇会被挤成一团，
+ * 从起点就"糊"在中间；给定分簇初值后，力导向只做微调，两簇一眼可分。
+ */
+function computeKGClusterPositions(nodes, colorMode, width, height) {
+    var groups = {};
+    nodes.forEach(function(n, i) {
+        var key = (colorMode === 'community')
+            ? String(n.community_id != null ? n.community_id : -1)
+            : (n.jurisdiction || '未知');
+        (groups[key] || (groups[key] = [])).push(i);
+    });
+    var keys = Object.keys(groups);
+    var nG = keys.length;
+    var cx = width / 2, cy = height / 2;
+    var ringR = nG <= 1 ? 0 : Math.min(width, height) * 0.30;
+    var pos = new Array(nodes.length);
+
+    keys.forEach(function(k, gi) {
+        var members = groups[k];
+        var angle = nG <= 1 ? 0 : (gi / nG) * Math.PI * 2 - Math.PI / 2;
+        var gx = cx + (nG <= 1 ? 0 : Math.cos(angle) * ringR);
+        var gy = cy + (nG <= 1 ? 0 : Math.sin(angle) * ringR);
+        // 簇内螺旋半径随簇规模增长，但设上限避免溢出容器
+        var ga = Math.PI * (3 - Math.sqrt(5));   // 黄金角
+        var step = Math.max(11, Math.min(20, Math.min(width, height) * 0.05));
+        members.forEach(function(idx, j) {
+            var a = j * ga + gi * 1.7;
+            var r = step * Math.sqrt(j);
+            pos[idx] = [
+                Math.max(14, Math.min(width - 14, gx + Math.cos(a) * r)),
+                Math.max(14, Math.min(height - 14, gy + Math.sin(a) * r)),
+            ];
+        });
+    });
+    return pos;
+}
+
+/** 计算需要显示标签的节点集合（依据"标签"下拉：智能 / 仅核心 / 全部 / 无） */
+function computeKGLabelSet(nodes, labelMode) {
+    var show = {};
+    if (labelMode === 'all') {
+        nodes.forEach(function(_, i) { show[i] = true; });
+        return show;
+    }
+    if (labelMode === 'none') {
+        return show;
+    }
+    // 重要性：优先 PageRank，其次度数
+    var maxPR = 0, maxDeg = 0;
+    nodes.forEach(function(n) {
+        maxPR = Math.max(maxPR, n.pagerank || 0);
+        maxDeg = Math.max(maxDeg, n.degree || 0);
+    });
+    function importance(n) {
+        var pr = maxPR > 0 ? (n.pagerank || 0) / maxPR : 0;
+        var dg = maxDeg > 0 ? (n.degree || 0) / maxDeg : 0;
+        return pr * 0.7 + dg * 0.3;
+    }
+    var order = nodes.map(function(_, i) { return i; })
+        .sort(function(a, b) { return importance(nodes[b]) - importance(nodes[a]); });
+    // 智能：约前 22%；仅核心：约前 8% 且必含 is_core 节点
+    var ratio = labelMode === 'core' ? 0.08 : 0.22;
+    var count = Math.max(5, Math.min(24, Math.round(nodes.length * ratio)));
+    order.slice(0, count).forEach(function(i) { show[i] = true; });
+    if (labelMode === 'core') {
+        nodes.forEach(function(n, i) { if (n.is_core) show[i] = true; });
+    }
+    return show;
+}
+
+function renderKGWithECharts(data, title) {
+    var nodes = data.nodes || [];
+    var edges = data.edges || [];
+    var el = document.getElementById('kg-echarts');
+    var canvasEl = document.getElementById('kg-canvas');
+    if (!el) return;
+    if (canvasEl) canvasEl.style.display = 'none';
+    el.style.display = 'block';
+
+    if (!window.echarts) {
+        // 库未加载（理论上本地内置后不会发生）：静默回退到 Canvas，不打断用户
+        var engineSel = document.getElementById('kg-render-engine');
+        if (engineSel) engineSel.value = 'canvas';
+        console.warn('[KG] ECharts 未加载，已自动回退到 Canvas 引擎');
+        renderKG(data, title, window._kgLayoutMode);
+        return;
+    }
+
+    if (window._kgEchartsInstance) { window._kgEchartsInstance.dispose(); }
+    var chart = echarts.init(el);
+    window._kgEchartsInstance = chart;
+
+    var width = el.clientWidth || 800;
+    var height = el.clientHeight || 500;
+    var colorMode = getKGColorMode();
+    var labelMode = getKGLabelMode();
+    var communities = data.communities || [];
+    var prMax = 0;
+    nodes.forEach(function(n) { if (n.pagerank && n.pagerank > prMax) prMax = n.pagerank; });
+
+    function colorOf(n) {
+        return (colorMode === 'community')
+            ? getCommunityColor(n.community_id)
+            : getJurColor(n.jurisdiction);
+    }
+    function sizeOf(n) {
+        if (n.pagerank != null && prMax > 0) {
+            return 8 + Math.sqrt(Math.min(1, n.pagerank / prMax)) * 16;   // 8 ~ 24
+        }
+        var d = n.degree || 0;
+        return d >= 8 ? 18 : (d >= 3 ? 12 : 8);
+    }
+
+    // 分类（ECharts 图例 + 自动配色）
+    var catIndex = {};
+    var categories = [];
+    function categoryOf(n) {
+        var key = (colorMode === 'community')
+            ? ('社区 ' + (n.community_id != null ? getCommunityLabel(n.community_id, communities) : '其他'))
+            : (n.jurisdiction || '未知');
+        if (catIndex[key] === undefined) {
+            catIndex[key] = categories.length;
+            categories.push({ name: key, itemStyle: { color: colorOf(n) } });
+        }
+        return catIndex[key];
+    }
+
+    var labelSet = computeKGLabelSet(nodes, labelMode);
+    var idToIndex = {};
+    var nodeData = nodes.map(function(n, i) {
+        idToIndex[n.id] = i;
+        var fullName = buildKGLabels(n);
+        return {
+            id: n.id,
+            name: fullName,
+            symbolSize: sizeOf(n),
+            category: categoryOf(n),
+            value: n.content_preview || '',
+            itemStyle: { color: colorOf(n) },
+            // 逐节点控制标签显示：避免几十个长标签全开导致文字互相压叠
+            label: { show: !!labelSet[i] },
+        };
+    });
+
+    // 边过滤（与控制栏的复选框/阈值一致），再转换为 ECharts 边数据
+    var edgeFilters = getKGEdgeFilters();
+    var linkData = filterKGEdges(edges, edgeFilters)
+        .filter(function(e) { return idToIndex[e.from] !== undefined && idToIndex[e.to] !== undefined; })
+        .map(function(e) {
+            return { source: e.from, target: e.to, relation: (e.relation_label || e.label || '关联') };
+        });
+
+    // 边透明度按密度自适应：边越多越淡，避免"毛线团"
+    var density = linkData.length / Math.max(nodes.length, 1);
+    var edgeAlpha = density > 4 ? 0.16 : (density > 2 ? 0.28 : 0.45);
+
+    var initPositions = computeKGClusterPositions(nodes, colorMode, width, height);
+
+    var baseFormatter = function(p) {
+        if (p.dataType === 'edge') return escapeHtml(p.data.relation || '关联');
+        var n = nodes[p.dataIndex] || {};
+        return '<b>' + escapeHtml(buildKGLabels(n)) + '</b><br/>' +
+            escapeHtml(n.jurisdiction || '') + ' · ' + escapeHtml(n.law_name || '') +
+            (n.community_id != null ? '<br/>社区：' + escapeHtml(getCommunityLabel(n.community_id, communities)) : '');
+    };
+
+    // 图例：类别不多时显示（跨法域通常 2 类）；类别过多则省略，避免图例占满画面
+    var legendOption = [];
+    if (categories.length > 0 && categories.length <= 12) {
+        legendOption = [{
+            data: categories.map(function(c) { return c.name; }),
+            top: 4, right: 8, type: 'scroll',
+            textStyle: { fontSize: 10 }, itemWidth: 10, itemHeight: 10,
+        }];
+    }
+
+    chart.setOption({
+        tooltip: { formatter: baseFormatter },
+        legend: legendOption,
+        animation: false,
+        series: [{
+            type: 'graph',
+            layout: 'force',
+            roam: true,
+            draggable: true,
+            data: nodeData,
+            links: linkData,
+            categories: categories,
+            // 分簇初值 + 较大斥力 + 较小重力：两簇分开且不塌缩到中心
+            force: {
+                initLayout: function(nodeIndex) {
+                    return initPositions[nodeIndex] || [width / 2, height / 2];
+                },
+                repulsion: 320,
+                edgeLength: [70, 150],
+                gravity: 0.04,
+                friction: 0.6,
+                layoutAnimation: true,
+            },
+            label: {
+                show: false, position: 'right', fontSize: 10, color: '#334155',
+                formatter: function(p) {
+                    var s = p.name || '';
+                    return s.length > 22 ? s.substring(0, 22) + '…' : s;
+                },
+            },
+            labelLayout: { hideOverlap: true },   // 标签冲突时自动隐藏，进一步抗重叠
+            lineStyle: { color: 'source', curveness: 0.12, opacity: edgeAlpha, width: 1 },
+            emphasis: {
+                focus: 'adjacency',
+                label: { show: true },
+                lineStyle: { opacity: 0.85, width: 2 },
+            },
+            blur: { itemStyle: { opacity: 0.25 }, lineStyle: { opacity: 0.05 } },
+        }]
+    });
+    bindEChartsGraphEvents(chart, nodes);
+}
+
+// 节点点击 → 复用现有详情面板（图例高亮由 ECharts 自身处理）
+function bindEChartsGraphEvents(chart, nodes) {
+    chart.off('click');
+    chart.on('click', function(p) {
+        if (p.dataType !== 'node') return;
+        var n = null;
+        if (p.data && p.data.id) {
+            n = nodes.filter(function(x) { return x.id === p.data.id; })[0];
+        }
+        if (!n && p.dataIndex != null) n = nodes[p.dataIndex];
+        if (n) showKGDetail(n);
+    });
+}
+
+// ===== 图谱问答（多跳推理 + 路径证据）=====
+window.runKGReasoning = function() {
+    var q = (document.getElementById('kg-reasoning-input').value || '').trim();
+    if (!q) return;
+    var box = document.getElementById('kg-reasoning-result');
+    box.innerHTML = '<div style="color:var(--color-text-muted);">推理中（实体链接 → 子图检索 → 生成）...</div>';
+    api.post('/kg/reasoning-qa', { question: q }).then(function(resp) {
+        var d = resp && resp.data;
+        if (!d) { box.innerHTML = '<div class="alert alert-info">请求失败</div>'; return; }
+        if (!d.found) {
+            box.innerHTML = '<div class="alert alert-info">' + escapeHtml(d.message || '未找到图谱依据') + '</div>';
+            return;
+        }
+        var html = '<div class="card" style="padding:0.75rem 1rem;">';
+        html += '<div style="font-weight:600;margin-bottom:0.375rem;">回答</div>';
+        html += '<div style="white-space:pre-wrap;line-height:1.7;font-size:0.875rem;">' + escapeHtml(d.answer || '') + '</div>';
+
+        if (d.seed_entities && d.seed_entities.length) {
+            var names = d.seed_entities.map(function(s) { return escapeHtml(s.name || s.entity_id); }).join('、');
+            html += '<div style="margin-top:0.5rem;font-size:0.75rem;color:var(--color-text-muted);">命中实体：' + names + '</div>';
+        }
+        if (d.used_paths && d.used_paths.length) {
+            html += '<div style="margin-top:0.625rem;font-weight:600;font-size:0.8125rem;">推理路径证据</div>';
+            html += '<div style="font-size:0.8125rem;line-height:1.8;">';
+            d.used_paths.slice(0, 20).forEach(function(p) {
+                html += '<div>(' + escapeHtml(p.head || '') +
+                    ') <span style="color:var(--color-primary);">--' + escapeHtml(p.relation || '') + '--&gt;</span> (' +
+                    escapeHtml(p.tail || '') + ')' +
+                    (p.article ? ' <span style="color:var(--color-text-muted);">[' + escapeHtml(String(p.article)) + ']</span>' : '') +
+                    '</div>';
+            });
+            html += '</div>';
+        }
+        if (d.cited_articles && d.cited_articles.length) {
+            var cited = d.cited_articles.slice(0, 20).map(function(a) { return escapeHtml(String(a)); }).join('、');
+            html += '<div style="margin-top:0.5rem;font-size:0.75rem;color:var(--color-text-muted);">引用条款：' + cited + '</div>';
+        }
+        html += '</div>';
+        box.innerHTML = html;
+    }).catch(function() {
+        box.innerHTML = '<div class="alert alert-info">请求失败（请稍后再试）</div>';
+    });
 };

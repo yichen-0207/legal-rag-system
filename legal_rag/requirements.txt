@@ -12,3 +12,5 @@ pydantic>=2.0.0
 python-multipart>=0.0.6
 accelerate>=0.20.0
 openpyxl>=3.1.0
+# 知识图谱图算法（社区检测/PageRank/中心性）；实际随其他依赖已装入镜像
+networkx>=3.1,<4

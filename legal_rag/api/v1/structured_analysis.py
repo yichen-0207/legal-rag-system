@@ -117,11 +117,13 @@ def get_network_graph(
     jurisdiction_a: str = Query(..., description="法域A"),
     jurisdiction_b: str = Query(..., description="法域B"),
     center_law_id: str = Query(None, description="中心法规ID（可选，以此为中心展开子图）"),
-    top_n: int = Query(10, description="每法域检索条款数")
+    top_n: int = Query(10, description="每法域检索条款数"),
+    min_similarity: float = Query(0.6, ge=0.0, le=1.0, description="跨法域语义对齐的最低相似度"),
+    cross_top_k: int = Query(2, ge=1, le=5, description="每个条款最多保留的跨域对齐数")
 ):
     """
     获取关联网络图数据。
-    节点=法条，边=同法规关联/跨法域相似关系。
+    节点=法条，边=同法规关联/跨法域语义对齐（bge-m3 向量 + 每节点 Top-K 稀疏化）。
     可指定 center_law_id 以某法条为中心展开子图。
     """
     try:
@@ -134,11 +136,60 @@ def get_network_graph(
 
         graph = service.get_network_graph(
             chunks_a, chunks_b,
-            center_law_id=center_law_id or None
+            center_law_id=center_law_id or None,
+            similarity_threshold=min_similarity,
+            cross_top_k=cross_top_k,
         )
         return APIResponse(success=True, data=graph)
     except Exception as e:
         return APIResponse(success=False, message=f"获取网络图失败: {str(e)}")
+
+
+@router.get("/alignment-matrix")
+def get_alignment_matrix(
+    topic_id: str = Query(..., description="专题ID"),
+    jurisdiction_a: str = Query(..., description="法域A"),
+    jurisdiction_b: str = Query(..., description="法域B"),
+    top_n: int = Query(10, description="每法域检索条款数"),
+    min_similarity: float = Query(0.6, ge=0.0, le=1.0, description="语义对齐的最低相似度"),
+):
+    """
+    法规级对齐矩阵：行=法域A法规、列=法域B法规，格值=语义对口的条款对数量。
+    用于跨法域对比的"总览"视图（比条款级力导向图清晰得多）。
+    """
+    try:
+        data = service.get_alignment_matrix(
+            topic_id, jurisdiction_a, jurisdiction_b,
+            top_n=top_n, min_similarity=min_similarity,
+        )
+        if data is None:
+            return APIResponse(success=False, message="未找到可对齐的法规数据")
+        return APIResponse(success=True, data=data)
+    except Exception as e:
+        return APIResponse(success=False, message=f"生成对齐矩阵失败: {str(e)}")
+
+
+@router.get("/alignment-detail")
+def get_alignment_detail(
+    topic_id: str = Query(..., description="专题ID"),
+    jurisdiction_a: str = Query(..., description="法域A"),
+    jurisdiction_b: str = Query(..., description="法域B"),
+    law_a: str = Query(..., description="法域A的法规ID"),
+    law_b: str = Query(..., description="法域B的法规ID"),
+    top_n: int = Query(10, description="每法域检索条款数"),
+    min_similarity: float = Query(0.6, ge=0.0, le=1.0, description="语义对齐的最低相似度"),
+):
+    """下钻：两部法规之间语义对口的条款对明细（按相似度降序）。"""
+    try:
+        data = service.get_alignment_detail(
+            topic_id, jurisdiction_a, jurisdiction_b, law_a, law_b,
+            top_n=top_n, min_similarity=min_similarity,
+        )
+        if data is None:
+            return APIResponse(success=False, message="未找到该法规对的对齐明细")
+        return APIResponse(success=True, data=data)
+    except Exception as e:
+        return APIResponse(success=False, message=f"获取对齐明细失败: {str(e)}")
 
 
 @router.get("/cache-status")

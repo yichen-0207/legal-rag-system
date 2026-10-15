@@ -2386,6 +2386,22 @@ class ElasticsearchRepository:
         )
         return hashlib.md5(raw.encode("utf-8")).hexdigest()
 
+    @staticmethod
+    def _kg_entity_doc_id(entity_id: str) -> str:
+        """
+        实体文档 ID：ES 的 _id 上限为 512 字节，而实体规范名可能是很长的描述型串
+        （英文/越南文法条里常见），直接用 entity_id 作 _id 会触发
+        「id is too long」400 错误，使整批实体写入失败。
+
+        处理：仅在超长时把 _id 换成定长哈希；_source.entity_id 仍保留完整规范 ID，
+        因此实体词典内部查询（按 entity_id 匹配）与三元组的 canonical_id 关联不受影响。
+        """
+        raw = entity_id.encode("utf-8")
+        if len(raw) <= 512:
+            return entity_id
+        import hashlib
+        return "h_" + hashlib.md5(raw).hexdigest()
+
     def save_kg_triples(
         self,
         law_id: str,
@@ -2455,6 +2471,90 @@ class ElasticsearchRepository:
             logger.error(f"[KG] 三元组落库失败: {type(e).__name__}: {e}")
             return -1
 
+    @staticmethod
+    def _kg_triple_from_source(s: Dict) -> Dict:
+        """把 legal_kg_triples 的 _source 还原为 kg_extraction_service 的三元组格式"""
+        return {
+            "head": {
+                "id": s.get("head_id", ""),
+                "type": s.get("head_type", ""),
+                "name": s.get("head_name", ""),
+                "canonical_id": s.get("head_canonical_id", ""),
+            },
+            "relation": s.get("relation", ""),
+            "tail": {
+                "id": s.get("tail_id", ""),
+                "type": s.get("tail_type", ""),
+                "name": s.get("tail_name", ""),
+                "canonical_id": s.get("tail_canonical_id", ""),
+            },
+            "law_id": s.get("law_id", ""),
+            "source_article": s.get("source_article", ""),
+            "source_jurisdiction": s.get("jurisdiction", ""),
+            "confidence": s.get("confidence", 0.8),
+        }
+
+    def get_all_kg_triples(self, size: int = 20000) -> List[Dict]:
+        """
+        读取全部三元组，供跨法域聚合等分析场景使用。
+
+        ES 默认 max_result_window=10000，单次 size 超过会被拒；故用 PIT + search_after
+        分页取回（PIT 是 _shard_doc 排序的前置条件）。PIT 不可用时降级为单次读取
+        （上限 10000 条），保证功能仍可用。
+        """
+        results: List[Dict] = []
+        page_size = 2000
+
+        pit_id = None
+        try:
+            pit = self.client.open_point_in_time(index=self.KG_TRIPLE_INDEX, keep_alive="1m")
+            pit_id = pit.get("id")
+        except NotFoundError:
+            return []
+        except Exception as e:
+            logger.warning(f"[KG] PIT 打开失败，降级为单次读取: {e}")
+
+        try:
+            search_after = None
+            while len(results) < size:
+                body = {
+                    "query": {"match_all": {}},
+                    "size": min(page_size, size - len(results)),
+                    "track_total_hits": False,
+                }
+                if pit_id:
+                    body["sort"] = [{"_shard_doc": "asc"}]
+                    body["pit"] = {"id": pit_id, "keep_alive": "1m"}
+                else:
+                    # 降级：单次读取，受 max_result_window(10000) 限制
+                    body["size"] = min(size, 10000)
+
+                if search_after:
+                    body["search_after"] = search_after
+                try:
+                    resp = self.client.search(body=body)
+                except Exception as e:
+                    logger.warning(f"[KG] 读取全部三元组失败: {e}")
+                    break
+
+                pit_id = resp.get("pit_id") or pit_id
+                hits = resp.get("hits", {}).get("hits", [])
+                if not hits:
+                    break
+                for hit in hits:
+                    results.append(self._kg_triple_from_source(hit.get("_source", {})))
+                search_after = hits[-1].get("sort")
+                if not search_after or not pit_id:
+                    break  # 降级模式无 sort，读一轮即返回
+        finally:
+            if pit_id:
+                try:
+                    self.client.close_point_in_time(body={"id": pit_id})
+                except Exception:
+                    pass
+
+        return results
+
     def get_kg_triples(self, law_id: str, size: int = 2000) -> List[Dict]:
         """
         读取某法规的全部三元组，还原为 kg_extraction_service 的输出格式，
@@ -2475,28 +2575,108 @@ class ElasticsearchRepository:
             logger.warning(f"[KG] 读取三元组失败: {e}")
             return []
 
-        triples: List[Dict] = []
-        for hit in resp.get("hits", {}).get("hits", []):
-            s = hit.get("_source", {})
-            triples.append({
-                "head": {
-                    "id": s.get("head_id", ""),
-                    "type": s.get("head_type", ""),
-                    "name": s.get("head_name", ""),
-                    "canonical_id": s.get("head_canonical_id", ""),
+        return [
+            self._kg_triple_from_source(hit.get("_source", {}))
+            for hit in resp.get("hits", {}).get("hits", [])
+        ]
+
+    def get_kg_triples_by_entities(
+        self, canonical_ids: List[str], size: int = 2000
+    ) -> List[Dict]:
+        """
+        读取「头或尾规范实体命中给定集合」的全部三元组，用于实体邻域图构建。
+
+        只按 canonical_id（消歧后的规范 ID）匹配，因此同一实体在不同法规/法域中的
+        关系会被一并取回，这是实体邻域图能够跨法规连通的前提。
+        """
+        ids = [c for c in canonical_ids if c]
+        if not ids:
+            return []
+        try:
+            resp = self.client.search(
+                index=self.KG_TRIPLE_INDEX,
+                body={
+                    "query": {
+                        "bool": {
+                            "should": [
+                                {"terms": {"head_canonical_id": ids}},
+                                {"terms": {"tail_canonical_id": ids}},
+                            ],
+                            "minimum_should_match": 1,
+                        }
+                    },
+                    "size": size,
+                    "sort": [{"confidence": "desc"}],
                 },
-                "relation": s.get("relation", ""),
-                "tail": {
-                    "id": s.get("tail_id", ""),
-                    "type": s.get("tail_type", ""),
-                    "name": s.get("tail_name", ""),
-                    "canonical_id": s.get("tail_canonical_id", ""),
-                },
-                "source_article": s.get("source_article", ""),
-                "source_jurisdiction": s.get("jurisdiction", ""),
-                "confidence": s.get("confidence", 0.8),
+            )
+        except NotFoundError:
+            return []
+        except Exception as e:
+            logger.warning(f"[KG] 读取实体三元组失败: {e}")
+            return []
+
+        return [
+            self._kg_triple_from_source(hit.get("_source", {}))
+            for hit in resp.get("hits", {}).get("hits", [])
+        ]
+
+    def get_articles_by_refs(
+        self, refs: List[Dict], max_pairs: int = 20, max_chars: int = 600
+    ) -> Dict[str, str]:
+        """
+        按 (law_id, article_number) 批量取条款原文片段（供图谱问答组装证据）。
+
+        refs 为 [{"law_id":..., "article_number":...}]，去重后最多取 max_pairs 个，
+        用一次 msearch 返回。返回 {f"{law_id}::{article_number}": 片段}。
+        law_id / article_number 在 chunk 索引中均为 keyword，可精确过滤。
+        """
+        pairs: List[tuple] = []
+        seen = set()
+        for ref in refs or []:
+            law_id = (ref.get("law_id") or "").strip()
+            article = (ref.get("article_number") or "").strip()
+            if not law_id or not article:
+                continue
+            key = (law_id, article)
+            if key in seen:
+                continue
+            seen.add(key)
+            pairs.append(key)
+            if len(pairs) >= max_pairs:
+                break
+        if not pairs:
+            return {}
+
+        body: List[Dict] = []
+        for law_id, article in pairs:
+            body.append({"index": settings.es_index_name})
+            body.append({
+                "query": {"bool": {"filter": [
+                    {"term": {"law_id": law_id}},
+                    {"term": {"article_number": article}},
+                ]}},
+                "size": 5,
+                "_source": ["content", "chunk_index"],
             })
-        return triples
+
+        try:
+            resp = self.client.msearch(body=body)
+        except NotFoundError:
+            return {}
+        except Exception as e:
+            logger.warning(f"[KG] 批量读取条款原文失败: {e}")
+            return {}
+
+        result: Dict[str, str] = {}
+        for (law_id, article), item in zip(pairs, resp.get("responses", [])):
+            hits = item.get("hits", {}).get("hits", [])
+            if not hits:
+                continue
+            hits.sort(key=lambda h: h.get("_source", {}).get("chunk_index", 0))
+            content = "\n".join(h.get("_source", {}).get("content", "") for h in hits)
+            if content.strip():
+                result[f"{law_id}::{article}"] = content[:max_chars]
+        return result
 
     def get_kg_cache_meta(self, law_id: str) -> Optional[Dict]:
         """
@@ -2643,7 +2823,7 @@ class ElasticsearchRepository:
                 merged["embedding"] = ent["embedding"]
             actions.append({
                 "_index": self.KG_ENTITY_INDEX,
-                "_id": entity_id,
+                "_id": self._kg_entity_doc_id(entity_id),
                 "_source": merged,
             })
 
@@ -2697,6 +2877,50 @@ class ElasticsearchRepository:
             return []
 
         return [hit.get("_source", {}) for hit in resp.get("hits", {}).get("hits", [])]
+
+    def search_kg_entities_knn(
+        self,
+        vector: List[float],
+        k: int = 5,
+        exclude_types: Optional[List[str]] = None,
+    ) -> List[Dict]:
+        """
+        实体词典 KNN 检索：用查询向量在 embedding 字段（dense_vector, cosine）上取近邻。
+
+        用于图谱问答的「实体链接」——把自然语言问题映射到词典中的规范实体。
+        embedding 由 bge-m3 生成（与检索层同模型），因此跨语言也能匹配。
+        """
+        if not vector:
+            return []
+        knn = {
+            "field": "embedding",
+            "query_vector": vector,
+            "k": k,
+            "num_candidates": max(50, k * 20),
+        }
+        if exclude_types:
+            knn["filter"] = {"bool": {"must_not": [{"terms": {"type": exclude_types}}]}}
+        try:
+            resp = self.client.search(
+                index=self.KG_ENTITY_INDEX,
+                body={
+                    "knn": knn,
+                    "size": k,
+                    "_source": ["entity_id", "name", "type", "jurisdictions"],
+                },
+            )
+        except NotFoundError:
+            return []
+        except Exception as e:
+            logger.warning(f"[KG] 实体 KNN 检索失败: {e}")
+            return []
+
+        results = []
+        for hit in resp.get("hits", {}).get("hits", []):
+            src = hit.get("_source", {})
+            src["score"] = hit.get("_score")
+            results.append(src)
+        return results
 
     def get_kg_entities_with_vectors(
         self,

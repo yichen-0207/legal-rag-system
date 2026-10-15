@@ -31,8 +31,13 @@ services:
     mem_limit: 10g
     mem_reservation: 3g
     restart: always
+    # 只绑定宿主机回环地址，不对外暴露后端端口：
+    # 对外入口只有 nginx（3000），后端不再能被局域网/外部直连，符合「不暴露接口」。
+    # 之所以保留映射而非整条删除，是因为本机验收流程（见《优化说明与人工测试方案.md》）
+    # 与就绪探针巡检都直连 localhost:8001，且 nginx 当前未配置 /health/ 路由，
+    # 删掉映射会让这些已文档化的步骤失效。绑定回环即可两者兼顾。
     ports:
-      - "8001:8001"
+      - "127.0.0.1:8001:8001"
     environment:
       - LEGAL_ES_HOSTS=["http://elasticsearch:9200"]
       - LEGAL_ES_USER=elastic
@@ -64,6 +69,29 @@ services:
       - LEGAL_ENTITY_ALIGN_THRESHOLD=${LEGAL_ENTITY_ALIGN_THRESHOLD:-0.95}
       # 批次内部两两比对：根治「同一批次首次共同出现的變体」被写成两条文档
       - LEGAL_ENTITY_ALIGN_INTRA_BATCH=${LEGAL_ENTITY_ALIGN_INTRA_BATCH:-true}
+      # 问答检索召回通道：纯向量 + BM25 混合召回（RRF 融合），提升字面命中类查询的召回
+      - LEGAL_QA_HYBRID_ENABLED=${LEGAL_QA_HYBRID_ENABLED:-true}
+      - LEGAL_QA_HYBRID_RRF_K=${LEGAL_QA_HYBRID_RRF_K:-60}
+      - LEGAL_QA_HYBRID_BM25_ONLY_SIMILARITY=${LEGAL_QA_HYBRID_BM25_ONLY_SIMILARITY:-0.5}
+      # Agent（迭代式工具调用问答）：启用；配合复杂度路由，简单/定向查询自动走快速 RAG。
+      # 关闭时 /api/v1/agent/stream 自动降级为既有 RAG 链路。
+      - LEGAL_AGENT_ENABLED=${LEGAL_AGENT_ENABLED:-true}
+      - LEGAL_AGENT_MAX_STEPS=${LEGAL_AGENT_MAX_STEPS:-5}
+      # 工具调用预算与停滞短路阈值：共同决定探索轮次上界与「低效重复」的提前收口点
+      - LEGAL_AGENT_MAX_TOOL_CALLS=${LEGAL_AGENT_MAX_TOOL_CALLS:-4}
+      - LEGAL_AGENT_MAX_STAGNANT_STEPS=${LEGAL_AGENT_MAX_STAGNANT_STEPS:-2}
+      # 证据收口送精排的候选上限（先收敛再精排，直接决定收口耗时）
+      - LEGAL_AGENT_FINALIZE_MAX_CANDIDATES=${LEGAL_AGENT_FINALIZE_MAX_CANDIDATES:-12}
+      # 最终送入 LLM 的证据条数（需大于 top_k，否则多步额外召回被截掉）
+      - LEGAL_AGENT_FINALIZE_PASS_K=${LEGAL_AGENT_FINALIZE_PASS_K:-8}
+      # 复杂度路由：开启后仅复杂查询走多步探索，简单/定向查询走既有快速 RAG
+      - LEGAL_AGENT_COMPLEXITY_ROUTING_ENABLED=${LEGAL_AGENT_COMPLEXITY_ROUTING_ENABLED:-true}
+      - LEGAL_AGENT_MIN_QUERY_LEN=${LEGAL_AGENT_MIN_QUERY_LEN:-12}
+      - LEGAL_AGENT_CONJUNCTION_MIN_LEN=${LEGAL_AGENT_CONJUNCTION_MIN_LEN:-15}
+      # 自适应分流（灰区探测）：实测区分度不足，默认关闭；开启会多付一次向量检索成本
+      - LEGAL_AGENT_PROBE_ENABLED=${LEGAL_AGENT_PROBE_ENABLED:-false}
+      - LEGAL_AGENT_PROBE_MIN_SIMILARITY=${LEGAL_AGENT_PROBE_MIN_SIMILARITY:-0.7}
+      - LEGAL_AGENT_PROBE_MIN_RESULTS=${LEGAL_AGENT_PROBE_MIN_RESULTS:-2}
       - TOKENIZERS_PARALLELISM=false
     volumes:
       # 挂载本地 ML 模型（避免在容器内下载）

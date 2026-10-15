@@ -6,12 +6,21 @@ import logging
 from typing import List, Dict, Optional
 from concurrent.futures import ThreadPoolExecutor
 
+import numpy as np
+
 logger = logging.getLogger(__name__)
 
 from repositories.elasticsearch import ElasticsearchRepository
 from services.qa_service import QAService
 from services.topics_config import get_topic_by_id, TOPICS
 from core.config import settings
+
+# 跨法域相似度所用的文本截断长度与进程内向量缓存。
+# bge-m3 编码在 CPU 上是耗时操作，而同一批条款会被反复用于不同法域对比，
+# 故按「文本内容哈希」缓存向量，重复请求命中缓存后无需再编码。
+_CROSS_TEXT_MAX_CHARS = 320
+_CROSS_EMB_CACHE: Dict[str, np.ndarray] = {}
+_CROSS_EMB_CACHE_MAX = 6000
 
 # 繁→简 常见法规标题映射（覆盖本项目实际数据）
 _TRADITIONAL_TO_SIMPLIFIED = {
@@ -905,12 +914,94 @@ class StructuredAnalysisService:
     #  升级能力3：关联网络图数据
     # ================================================================
 
+    @staticmethod
+    def _encode_texts(texts: List[str]) -> np.ndarray:
+        """
+        批量编码文本为归一化向量（L2 归一化后点积即余弦相似度）。
+
+        带进程内缓存：按文本内容哈希复用向量，避免同一批条款在反复的
+        跨法域对比中重复编码（bge-m3 在 CPU 上编码是主要耗时）。
+        模型不可用时抛出异常，由调用方降级为不做跨域对齐。
+        """
+        from core.model_loader import get_embedding_model
+
+        if not texts:
+            return np.zeros((0, 1), dtype=np.float32)
+
+        keys = [hashlib.md5(t.encode("utf-8")).hexdigest() for t in texts]
+        missing = [i for i, k in enumerate(keys) if k not in _CROSS_EMB_CACHE]
+        if missing:
+            model = get_embedding_model()
+            vectors = model.encode(
+                [texts[i] for i in missing],
+                normalize_embeddings=True,
+                batch_size=settings.batch_size,
+                show_progress_bar=False,
+            )
+            # 缓存超限时整体清空（简单策略：条款集合随法规变化，无需精细 LRU）
+            if len(_CROSS_EMB_CACHE) + len(missing) > _CROSS_EMB_CACHE_MAX:
+                _CROSS_EMB_CACHE.clear()
+            for i, vec in zip(missing, vectors):
+                _CROSS_EMB_CACHE[keys[i]] = np.asarray(vec, dtype=np.float32)
+
+        return np.asarray([_CROSS_EMB_CACHE[k] for k in keys], dtype=np.float32)
+
+    def _cross_similarity_pairs(
+        self,
+        chunks_a: List[Dict],
+        chunks_b: List[Dict],
+        top_k: int = 2,
+        min_similarity: float = 0.6,
+    ) -> List[Dict]:
+        """
+        计算跨法域条款对的语义对齐（bge-m3 余弦），并做「每节点 Top-K」稀疏化。
+
+        为什么不再用字符/bigram/关键词重叠：同一主题的法律文本这类"表面重叠"恒高、
+        没有区分度（实测美泰对比中 779 条跨域边全部 >=0.35、中位数 0.653，退化为
+        近似完全二部图，任何可视化都是毛线团）。语义向量才具备区分"真对口"的能力。
+
+        稀疏化：行方向取 Top-K 与列方向取 Top-K 求并集 —— 保证每条边至少是一端的
+        强对齐，再按 min_similarity 过滤，避免把不相关的对强行连上。
+
+        Returns:
+            [{"i": 序号, "j": 序号, "score": float}]，i/j 对应 chunks_a / chunks_b 下标
+        """
+        if not chunks_a or not chunks_b:
+            return []
+
+        texts_a = [(c.get("content") or "")[:_CROSS_TEXT_MAX_CHARS] for c in chunks_a]
+        texts_b = [(c.get("content") or "")[:_CROSS_TEXT_MAX_CHARS] for c in chunks_b]
+        vec_a = self._encode_texts(texts_a)
+        vec_b = self._encode_texts(texts_b)
+        if vec_a.size == 0 or vec_b.size == 0 or vec_a.shape[1] != vec_b.shape[1]:
+            return []
+
+        sim = vec_a @ vec_b.T   # (na, nb)，向量已归一化，点积即余弦
+
+        k = max(1, top_k)
+        candidates = set()
+        for i in range(sim.shape[0]):
+            for j in np.argsort(-sim[i])[:k]:
+                candidates.add((i, int(j)))
+        for j in range(sim.shape[1]):
+            for i in np.argsort(-sim[:, j])[:k]:
+                candidates.add((int(i), j))
+
+        pairs = [
+            {"i": i, "j": j, "score": float(sim[i, j])}
+            for (i, j) in candidates
+            if float(sim[i, j]) >= min_similarity
+        ]
+        pairs.sort(key=lambda p: -p["score"])
+        return pairs
+
     def get_network_graph(
         self,
         chunks_a: list,
         chunks_b: list,
         center_law_id: Optional[str] = None,
-        similarity_threshold: float = 0.75
+        similarity_threshold: float = 0.6,
+        cross_top_k: int = 2,
     ) -> Dict:
         """
         基于检索到的两个法域的法条，构建关联网络图数据。
@@ -1005,7 +1096,7 @@ class StructuredAnalysisService:
             node_id = f"node_{len(nodes)}"
             title = to_simplified(ch.get("title", ""))
             art = ch.get("article_number", "")
-            law_name = title.split(" - ")[0] if " - " in title else title[:16]
+            law_name = title.split(" - ")[0] if " - " in title else title
             content_lower = content.lower()
 
             # 判断是否为核心法条
@@ -1089,91 +1180,57 @@ class StructuredAnalysisService:
                             "width": 1,
                         })
 
-        # ===== 边类型2：跨法域语义关联边（多策略匹配）=====
+        # ===== 边类型2：跨法域语义关联边（bge-m3 语义向量 + 每节点 Top-K 稀疏化）=====
+        # 旧实现用字符/bigram/关键词重叠算相似度，对同主题法律文本恒高、无区分度，
+        # 会退化成近似完全二部图（实测美泰对比 779 条跨域边全部 >=0.35、中位数 0.653）。
+        # 现改为语义向量余弦，并只保留每节点最强的 Top-K 对齐，使边数大幅下降且条条有意义。
         cross_edges = []
+        try:
+            cross_pairs = self._cross_similarity_pairs(
+                chunks_a, chunks_b,
+                top_k=cross_top_k,
+                min_similarity=similarity_threshold,
+            )
+        except Exception as e:
+            logger.warning(f"[NetworkGraph] 跨法域语义对齐失败，本次不生成跨域边: {type(e).__name__}: {e}")
+            cross_pairs = []
 
-        def extract_features(content, law_name, article_num):
-            text = content or ""
-            chars = set(re.sub(r'[^\u4e00-\u9fa5a-zA-Z0-9]', '', text))
-            text_clean = re.sub(r'[^\u4e00-\u9fa5a-zA-Z0-9]', '', text)
-            bigrams = set(text_clean[i:i+2] for i in range(len(text_clean)-1)) if len(text_clean) > 1 else set()
-            legal_keywords = set()
-            for kw_list_item in ["数据", "个人", "信息", "保护", "隐私", "安全", "处罚",
-                                 "责任", "义务", "权利", "同意", "披露", "传输", "存储",
-                                 "处理", "收集", "使用", "删除", "更正", "访问", "泄露",
-                                 "通知", "监管", "合规", "违规", "罚款", "刑事", "民事",
-                                 "定义", "范围", "适用", "主体", "控制者", "当事人"]:
-                if kw_list_item in text:
-                    legal_keywords.add(kw_list_item)
-            return {"chars": chars, "bigrams": bigrams, "keywords": legal_keywords}
+        for p in cross_pairs:
+            ch_a, ch_b = chunks_a[p["i"]], chunks_b[p["j"]]
+            final_score = p["score"]
+            ka = f"{ch_a.get('law_id','')}_{ch_a.get('article_number','')}"
+            kb = f"{ch_b.get('law_id','')}_{ch_b.get('article_number','')}"
+            if ka not in node_map or kb not in node_map:
+                continue
+            eid = tuple(sorted([node_map[ka], node_map[kb]]))
+            if eid in edge_set:
+                continue
+            edge_set.add(eid)
 
-        features_a = [extract_features(ch.get("content",""), ch.get("title",""), ch.get("article_number","")) for ch in chunks_a]
-        features_b = [extract_features(ch.get("content",""), ch.get("title",""), ch.get("article_number","")) for ch in chunks_b]
+            # 关系分档（按语义相似度）
+            if final_score >= 0.80:
+                rel_type, edge_label = "strong_match", f"强对齐 {final_score:.0%}"
+                edge_color, edge_style, edge_width = "#EF4444", "solid", 3
+            elif final_score >= 0.68:
+                rel_type, edge_label = "moderate_match", f"语义相关 {final_score:.0%}"
+                edge_color, edge_style, edge_width = "#F59E0B", "solid", 2
+            else:
+                rel_type, edge_label = "weak_match", f"弱对齐 {final_score:.0%}"
+                edge_color, edge_style, edge_width = "#D97706", "dash", 1
 
-        for i, (ch_a, feat_a) in enumerate(zip(chunks_a, features_a)):
-            for j, (ch_b, feat_b) in enumerate(zip(chunks_b, features_b)):
-                scores = []
-
-                if feat_a["chars"] and feat_b["chars"]:
-                    char_overlap = len(feat_a["chars"] & feat_b["chars"]) / min(len(feat_a["chars"]), len(feat_b["chars"]))
-                    scores.append(char_overlap * 0.8)
-
-                if feat_a["bigrams"] and feat_b["bigrams"]:
-                    bg_overlap = len(feat_a["bigrams"] & feat_b["bigrams"]) / min(len(feat_a["bigrams"]), len(feat_b["bigrams"]))
-                    scores.append(bg_overlap * 1.0)
-
-                if feat_a["keywords"] and feat_b["keywords"]:
-                    kw_overlap = len(feat_a["keywords"] & feat_b["keywords"]) / max(len(feat_a["keywords"] | feat_b["keywords"]), 1)
-                    scores.append(kw_overlap * 1.5)
-
-                if feat_a.get("article_num") and feat_b.get("article_num"):
-                    if feat_a["article_num"] == feat_b["article_num"]:
-                        scores.append(0.3)
-
-                final_score = sum(scores) / max(len(scores), 1)
-
-                if final_score >= 0.08:
-                    ka = f"{ch_a.get('law_id','')}_{ch_a.get('article_number','')}"
-                    kb = f"{ch_b.get('law_id','')}_{ch_b.get('article_number','')}"
-                    if ka in node_map and kb in node_map:
-                        eid = tuple(sorted([node_map[ka], node_map[kb]]))
-                        if eid not in edge_set:
-                            edge_set.add(eid)
-
-                            # 判断关系类型
-                            rel_type = "semantic_similar"
-                            if final_score >= 0.25:
-                                rel_type = "strong_match"
-                                edge_label = f"高度相似 {final_score:.0%}"
-                                edge_color = "#EF4444"  # 红色-强关联
-                                edge_style = "solid"
-                                edge_width = 3  # 必须是整数（ES字段类型为long）
-                            elif final_score >= 0.15:
-                                rel_type = "moderate_match"
-                                edge_label = f"语义相关 {final_score:.0%}"
-                                edge_color = "#F59E0B"  # 橙色-中等
-                                edge_style = "solid"
-                                edge_width = 2  # 必须是整数（ES字段类型为long）
-                            else:
-                                rel_type = "weak_match"
-                                edge_label = f"弱关联 {final_score:.0%}"
-                                edge_color = "#D97706"  # 深橙-弱关联
-                                edge_style = "dash"
-                                edge_width = 1  # 必须是整数（ES字段类型为long）
-
-                            edge_data = {
-                                "from": eid[0], "to": eid[1],
-                                "type": "cross_jurisdiction",
-                                "relation_type": rel_type,
-                                "label": edge_label,
-                                "similarity": round(final_score, 3),
-                                "weight": min(5, max(1, int(final_score * 12))),
-                                "style": edge_style,
-                                "color": edge_color,
-                                "width": edge_width,
-                            }
-                            edges.append(edge_data)
-                            cross_edges.append(edge_data)
+            edge_data = {
+                "from": eid[0], "to": eid[1],
+                "type": "cross_jurisdiction",
+                "relation_type": rel_type,
+                "label": edge_label,
+                "similarity": round(final_score, 3),
+                "weight": min(5, max(1, int(final_score * 6))),
+                "style": edge_style,
+                "color": edge_color,
+                "width": edge_width,
+            }
+            edges.append(edge_data)
+            cross_edges.append(edge_data)
 
         # ===== 计算图指标 =====
         # 度数
@@ -1325,6 +1382,180 @@ class StructuredAnalysisService:
             "path_cache": path_cache,
             "has_cross_edges": len([e for e in edges if e.get("type") == "cross_jurisdiction"]) > 0,
             "schema_version": "6.0",
+        }
+
+    # ================================================================
+    #  升级能力3b：法规级对齐矩阵（跨法域对比总览）
+    #  ------------------------------------------------------------
+    #  条款级网络图（力导向）天然是"毛线团"：条款多、跨域对齐多，人眼难以读出结构。
+    #  法规级矩阵把条款级对齐**聚合**到「法域A法规 × 法域B法规」，用一格表示
+    #  "这两部法有多少条条款语义对口"，一眼可见"哪部法对哪部法"，再下钻到条款对。
+    # ================================================================
+
+    @staticmethod
+    def _law_display(chunk: Dict) -> str:
+        """从 chunk 取法规展示名（去掉标题里的条款后缀）"""
+        title = to_simplified(chunk.get("title", "") or "")
+        return title.split(" - ")[0] if " - " in title else title
+
+    def _compute_cross_similarity(self, chunks_a: List[Dict], chunks_b: List[Dict]):
+        """返回 (sim 矩阵, vec 是否可用)。sim[i][j] = 条款 a_i 与 b_j 的语义余弦。"""
+        if not chunks_a or not chunks_b:
+            return None
+        texts_a = [(c.get("content") or "")[:_CROSS_TEXT_MAX_CHARS] for c in chunks_a]
+        texts_b = [(c.get("content") or "")[:_CROSS_TEXT_MAX_CHARS] for c in chunks_b]
+        vec_a = self._encode_texts(texts_a)
+        vec_b = self._encode_texts(texts_b)
+        if vec_a.size == 0 or vec_b.size == 0 or vec_a.shape[1] != vec_b.shape[1]:
+            return None
+        return vec_a @ vec_b.T
+
+    def get_alignment_matrix(
+        self,
+        topic_id: str,
+        jurisdiction_a: str,
+        jurisdiction_b: str,
+        top_n: int = 10,
+        min_similarity: float = 0.6,
+    ) -> Optional[Dict]:
+        """
+        法规级对齐矩阵：行=法域A法规，列=法域B法规。
+
+        格值口径为「最佳匹配」而非「超过固定阈值的对数」，原因：bge-m3 对同一主题的
+        法律文本余弦普遍落在 0.6~0.75 的窄带内，绝对阈值无法区分"真对口"与"泛泛相关"
+        （实测美泰对比中几乎所有条款对都 >=0.6，按阈值计数只会退化成条款数统计）。
+        故改为：对法域A的每条条款取其**最相似**的法域B条款，计入二者所属法规的格子；
+        反向（B→A）同理累加。这样格值表示"两法之间互相最像的条款有多少条"，
+        具备真实区分度，且总量受条款数上界约束。
+
+        Returns:
+            {
+              "jurisdiction_a","jurisdiction_b","threshold",
+              "laws_a":[{"law_id","law_name","article_count"}],
+              "laws_b":[...],
+              "cells":[[j_index, i_index, count]],   # 供热力图使用
+              "max_count": int,
+              "total_pairs": 被计入的条款数（A→B + B→A）,
+            }
+            无数据时返回 None。
+        """
+        queries = self.get_topic_queries(topic_id)
+        if not queries:
+            return None
+        chunks_a = self._search_topic(queries, jurisdiction_a, top_n)
+        chunks_b = self._search_topic(queries, jurisdiction_b, top_n)
+        if not chunks_a or not chunks_b:
+            return None
+
+        sim = self._compute_cross_similarity(chunks_a, chunks_b)
+        if sim is None:
+            return None
+
+        # 法规去重并保序（按首次出现），同时统计条款数
+        def _collect_laws(chunks: List[Dict]):
+            order, info = [], {}
+            for ch in chunks:
+                lid = ch.get("law_id", "") or "未知"
+                if lid not in info:
+                    info[lid] = {"law_id": lid, "law_name": self._law_display(ch), "article_count": 0}
+                    order.append(lid)
+                info[lid]["article_count"] += 1
+            return order, info
+
+        order_a, info_a = _collect_laws(chunks_a)
+        order_b, info_b = _collect_laws(chunks_b)
+        idx_a = {lid: k for k, lid in enumerate(order_a)}
+        idx_b = {lid: k for k, lid in enumerate(order_b)}
+
+        law_of_a = [chunks_a[i].get("law_id", "") or "未知" for i in range(len(chunks_a))]
+        law_of_b = [chunks_b[j].get("law_id", "") or "未知" for j in range(len(chunks_b))]
+
+        counts: Dict[tuple, int] = {}
+
+        def _bump(la: str, lb: str) -> None:
+            key = (idx_a[la], idx_b[lb])
+            counts[key] = counts.get(key, 0) + 1
+
+        # A → B：每条 A 条款找最相似的 B 条款
+        for i in range(len(chunks_a)):
+            j = int(np.argmax(sim[i]))
+            if float(sim[i, j]) >= min_similarity:
+                _bump(law_of_a[i], law_of_b[j])
+        # B → A：每条 B 条款找最相似的 A 条款
+        for j in range(len(chunks_b)):
+            i = int(np.argmax(sim[:, j]))
+            if float(sim[i, j]) >= min_similarity:
+                _bump(law_of_a[i], law_of_b[j])
+
+        cells = [[j, i, c] for (i, j), c in counts.items()]
+        max_count = max(counts.values()) if counts else 0
+        return {
+            "jurisdiction_a": jurisdiction_a,
+            "jurisdiction_b": jurisdiction_b,
+            "threshold": min_similarity,
+            "laws_a": [info_a[lid] for lid in order_a],
+            "laws_b": [info_b[lid] for lid in order_b],
+            "cells": cells,
+            "max_count": max_count,
+            "total_pairs": sum(counts.values()),
+        }
+
+    def get_alignment_detail(
+        self,
+        topic_id: str,
+        jurisdiction_a: str,
+        jurisdiction_b: str,
+        law_a: str,
+        law_b: str,
+        top_n: int = 10,
+        min_similarity: float = 0.6,
+        max_pairs: int = 50,
+    ) -> Optional[Dict]:
+        """
+        下钻：两部法规之间**最佳匹配**的条款对明细（与矩阵口径一致）。
+
+        只返回"最佳匹配"对（A 条款的最相似 B 条款 / B 条款的最相似 A 条款），
+        而非所有超过阈值的对 —— 后者在同主题下几乎等于全量笛卡尔积，没有阅读价值。
+        """
+        queries = self.get_topic_queries(topic_id)
+        if not queries:
+            return None
+        chunks_a = [c for c in self._search_topic(queries, jurisdiction_a, top_n) if (c.get("law_id", "") or "未知") == law_a]
+        chunks_b = [c for c in self._search_topic(queries, jurisdiction_b, top_n) if (c.get("law_id", "") or "未知") == law_b]
+        if not chunks_a or not chunks_b:
+            return None
+
+        sim = self._compute_cross_similarity(chunks_a, chunks_b)
+        if sim is None:
+            return None
+
+        pair_set = set()
+
+        def _add(i: int, j: int) -> None:
+            if float(sim[i, j]) >= min_similarity:
+                pair_set.add((i, j))
+
+        for i in range(len(chunks_a)):
+            _add(i, int(np.argmax(sim[i])))
+        for j in range(len(chunks_b)):
+            _add(int(np.argmax(sim[:, j])), j)
+
+        pairs = []
+        for (i, j) in pair_set:
+            score = round(float(sim[i, j]), 3)
+            pairs.append({
+                "a_article": chunks_a[i].get("article_number", ""),
+                "b_article": chunks_b[j].get("article_number", ""),
+                "a_preview": (chunks_a[i].get("content", "") or "")[:200],
+                "b_preview": (chunks_b[j].get("content", "") or "")[:200],
+                "score": score,
+            })
+        pairs.sort(key=lambda p: -p["score"])
+        return {
+            "law_a": {"law_id": law_a, "law_name": self._law_display(chunks_a[0])},
+            "law_b": {"law_id": law_b, "law_name": self._law_display(chunks_b[0])},
+            "pair_count": len(pairs),
+            "pairs": pairs[:max_pairs],
         }
 
     # ================================================================
@@ -1543,7 +1774,7 @@ class StructuredAnalysisService:
             node_id = f"node_{len(nodes)}"
             title = to_simplified(ch.get("title", ""))
             art = ch.get("article_number", "")
-            law_name = title.split(" - ")[0] if " - " in title else title[:16]
+            law_name = title.split(" - ")[0] if " - " in title else title
             content_lower = content.lower()
 
             # 判断核心条款

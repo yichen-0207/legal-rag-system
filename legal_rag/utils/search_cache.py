@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""检索结果缓存。
+"""检索结果缓存 / 问答答案缓存。
 
 检索链路里 CPU 精排占单次耗时约 93%（16s 量级），而前端在页面刷新、切换标签后
 会按设计重新发起同一查询（只保存查询条件、不保存结果快照）。本模块缓存
@@ -18,26 +18,54 @@
     法条场景返回错误答案的代价远高于省一次检索，故语义命中整体移除。
     附带收益：省去每次请求额外一次查询编码（几十毫秒）。
 
+问答答案缓存复用本模块的同一套机制（第二个独立实例，见 get_qa_answer_cache）：
+键仍是「归一化问题 + 筛选条件」的精确比对，因此同样不涉及上述语义阈值问题 ——
+语义判定在上面的实测中已被否决，问答链路不会重蹈该方向。
+
 失效：以 law_catalog.json 的 mtime 作为数据版本，版本变化时整体清空。
 线程安全：路由已由线程池执行，多个请求会并发读写，故所有操作加锁。
 """
 import copy
 import logging
 import os
+import re
 import threading
 from collections import OrderedDict
 from typing import Any, Dict, List, Optional, Tuple
 
 from core.config import settings
+from repositories.elasticsearch import zh_convert
 
 logger = logging.getLogger(__name__)
+
+
+def normalize_query_for_cache(query: str) -> str:
+    """缓存键的查询归一化：压缩空白 + 统一小写 + 繁→简。
+
+    繁→简保证「澳門 勞動關係法」与「澳门劳动关系法」落到同一个缓存键，
+    避免同一问题因输入法差异重复支付一次完整检索。
+
+    检索缓存与问答答案缓存共用本函数：两者若各自实现，一旦归一化口径漂移，
+    「同一问题」在两条链路上会落到不同的键，缓存收益与命中统计都会失真。
+    """
+    if not query:
+        return ""
+    collapsed = re.sub(r"\s+", " ", query).strip().lower()
+    return zh_convert(collapsed, "t2s")
+
 
 # 缓存键：(筛选条件标识, 归一化查询)
 CacheKey = Tuple[str, str]
 
 
 class SearchResultCache:
-    """有界的「查询 → 检索结果」缓存。
+    """有界的「缓存键 → 值」缓存（LRU 淘汰 + 法规目录版本失效）。
+
+    进程内存在两个独立实例，互不干扰：
+      - 检索结果缓存（get_search_cache）：值形态为 List[Dict]（检索结果列表）；
+      - 问答答案缓存（get_qa_answer_cache）：值形态为 Dict（答案正文 + 来源载荷）。
+    两者共用本类与同一套归一化/失效逻辑，但不共享条目 —— 否则问答答案会占用
+    检索缓存的条数配额，且同一问题在两条链路上的命中统计会相互污染。
 
     结果以深拷贝进出，避免调用方（检索服务 / 问答服务）后续对列表或字典的原地修改
     污染缓存内容。
@@ -124,3 +152,24 @@ def get_search_cache() -> SearchResultCache:
             if _cache is None:
                 _cache = SearchResultCache(max_entries=settings.search_cache_max_entries)
     return _cache
+
+
+_qa_cache: Optional[SearchResultCache] = None
+_qa_cache_lock = threading.Lock()
+
+
+def get_qa_answer_cache() -> SearchResultCache:
+    """问答答案缓存（进程内单例，惰性创建）。
+
+    与检索缓存相互独立：同一问题的检索结果与问答答案是两次不同的开销
+    （前者是精排 CPU，后者是 LLM 生成），分开计数才能看清单条链路的收益。
+
+    缓存值的形态为 Dict：{"answer": 答案正文, "sources": 来源载荷,
+    "retrieved_count": int, "jurisdictions": List[str]}。
+    """
+    global _qa_cache
+    if _qa_cache is None:
+        with _qa_cache_lock:
+            if _qa_cache is None:
+                _qa_cache = SearchResultCache(max_entries=settings.qa_answer_cache_max_entries)
+    return _qa_cache

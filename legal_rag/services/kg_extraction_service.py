@@ -12,6 +12,7 @@ LLM 实体关系抽取服务 v1.0
 import json
 import logging
 import re
+import time
 from typing import List, Dict, Optional
 from openai import OpenAI
 from core.config import settings
@@ -19,6 +20,10 @@ from repositories.elasticsearch import ElasticsearchRepository
 from services.entity_disambiguation_service import EntityDisambiguationService
 
 logger = logging.getLogger(__name__)
+
+# 单批送入 LLM 的条款数：与 extract_from_articles 默认值保持一致，
+# 批量预抽取的「成本估算」据此计算批次数。
+DEFAULT_BATCH_SIZE = 5
 
 # ---- 标准化本体定义 ----
 LEGAL_ONTOLOGY = {
@@ -361,6 +366,224 @@ class KGExtractionService:
 
         return {"triples": triples, "cache_hit": False, "fingerprint": fingerprint}
 
+    # ================================================================
+    #  批量预抽取（离线脚本用）
+    #  ------------------------------------------------------------
+    #  背景：知识层（三元组/实体词典）此前只在该法规被首次访问时按需抽取，
+    #  未访问的法规图谱为空。T2「跨法域概念对齐矩阵」与 T1「图算法聚簇」
+    #  的效果取决于实体词典与三元组的覆盖度，故需要一个离线批处理把全部
+    #  法规预抽取一遍。
+    #
+    #  幂等与可续跑：逐个复用 get_triples_cached，指纹命中即跳过、零 LLM 调用，
+    #  因此中断后重跑会自动「接着做已完成的部分」。
+    # ================================================================
+
+    @staticmethod
+    def _law_data_to_chunks(law_data: Dict) -> List[Dict]:
+        """把 repo.get_law_by_id 的返回值转为抽取所需的 chunk 列表"""
+        if not law_data:
+            return []
+        law_id = law_data.get("law_id", "")
+        title = law_data.get("title", "")
+        jurisdiction = law_data.get("jurisdiction", "")
+        chunks = []
+        for c in law_data.get("chunks", []):
+            chunks.append({
+                "law_id": law_id,
+                "article_number": c.get("article_number", ""),
+                "content": c.get("content", ""),
+                "title": title,
+                "jurisdiction": jurisdiction,
+                "chunk_index": c.get("chunk_index", 0),
+            })
+        return chunks
+
+    def _plan_law(self, law_id: str) -> Dict:
+        """
+        估算单个法规的抽取成本（**不调用 LLM**）。
+
+        区分三种状态，使 --dry-run 能给出真实花费预期：
+          - cached ：指纹命中，重跑无需 LLM 调用；
+          - planned：需抽取，batches 为预估 LLM 调用次数；
+          - not_found：法规不存在。
+        """
+        law_data = self.repo.get_law_by_id(law_id)
+        if not law_data:
+            return {"law_id": law_id, "status": "not_found", "articles": 0, "batches": 0}
+        article_count = len(law_data.get("chunks", []))
+        fingerprint = self.repo.compute_law_fingerprint(law_id)
+        meta = self.repo.get_kg_cache_meta(law_id) if fingerprint else None
+        cached = bool(
+            meta and meta.get("fingerprint") == fingerprint and meta.get("triple_count")
+        )
+        batches = 0 if cached else (article_count + DEFAULT_BATCH_SIZE - 1) // DEFAULT_BATCH_SIZE
+        return {
+            "law_id": law_id,
+            "status": "cached" if cached else "planned",
+            "articles": article_count,
+            "batches": batches,
+            "existing_triples": int(meta.get("triple_count", 0)) if meta else 0,
+        }
+
+    def _extract_one(self, law_id: str, force_refresh: bool) -> Dict:
+        """抽取单个法规（供批量方法复用；异常不抛出，转为 failed 状态）"""
+        try:
+            law_data = self.repo.get_law_by_id(law_id)
+            if not law_data:
+                return {"law_id": law_id, "status": "not_found"}
+            chunks = self._law_data_to_chunks(law_data)
+            if not chunks:
+                return {"law_id": law_id, "status": "empty"}
+            result = self.get_triples_cached(law_id, chunks, force_refresh=force_refresh)
+            return {
+                "law_id": law_id,
+                "status": "ok",
+                "triples": len(result.get("triples") or []),
+                "cache_hit": bool(result.get("cache_hit")),
+            }
+        except Exception as e:
+            logger.warning(
+                f"[KGExtraction] 法规 {law_id} 批量抽取失败: {type(e).__name__}: {e}"
+            )
+            return {"law_id": law_id, "status": "failed", "error": f"{type(e).__name__}: {e}"}
+
+    def extract_for_laws(
+        self,
+        law_ids: List[str],
+        workers: int = 1,
+        delay: float = 0.0,
+        force_refresh: bool = False,
+        dry_run: bool = False,
+    ) -> Dict:
+        """
+        批量预抽取多个法规的知识层。
+
+        Args:
+            law_ids: 待处理法规 ID 列表
+            workers: 并发数。**默认 1（串行）** —— 实体词典 merge_kg_entities 是
+                「读-并-写」，多线程并发写同一规范实体会丢别名/法域，故并发属
+                实验性选项，仅在可接受该风险时调大。
+            delay: 串行模式下每次调用之间的间隔（秒），用于规避 LLM 限流
+            force_refresh: 忽略缓存强制重抽（本体/别名表变更后使用）
+            dry_run: 只估算成本，不调用 LLM
+
+        Returns:
+            {
+              "total", "ok", "cache_hit", "failed", "not_found", "empty",
+              "triples_total", "llm_calls", "failed_laws": [...],
+              "plans": [...]   # 仅 dry_run 时返回
+            }
+        """
+        law_ids = [lid for lid in law_ids if lid]
+        summary = {
+            "total": len(law_ids), "ok": 0, "cache_hit": 0, "failed": 0,
+            "not_found": 0, "empty": 0, "triples_total": 0, "llm_calls": 0,
+            "failed_laws": [],
+        }
+        if not law_ids:
+            return summary
+
+        # ---- 成本估算模式：不调用 LLM ----
+        if dry_run:
+            plans = [self._plan_law(lid) for lid in law_ids]
+            planned = [p for p in plans if p["status"] == "planned"]
+            summary["plans"] = plans
+            summary["planned_laws"] = len(planned)
+            summary["cached_laws"] = sum(1 for p in plans if p["status"] == "cached")
+            summary["planned_articles"] = sum(p["articles"] for p in planned)
+            summary["planned_llm_calls"] = sum(p["batches"] for p in planned)
+            return summary
+
+        def _handle(item: Dict, index: int, total: int) -> None:
+            status = item.get("status")
+            if status == "ok":
+                summary["ok"] += 1
+                summary["triples_total"] += item.get("triples", 0)
+                if item.get("cache_hit"):
+                    summary["cache_hit"] += 1
+                else:
+                    summary["llm_calls"] += 1  # 未命中缓存才会真正发起 LLM 调用
+                print(
+                    f"[{index}/{total}] {item['law_id']} 完成: "
+                    f"{item.get('triples', 0)} 三元组"
+                    f"{'（缓存命中）' if item.get('cache_hit') else ''}",
+                    flush=True,
+                )
+            elif status == "failed":
+                summary["failed"] += 1
+                summary["failed_laws"].append(
+                    {"law_id": item["law_id"], "error": item.get("error", "")}
+                )
+                print(f"[{index}/{total}] {item['law_id']} 失败: {item.get('error', '')}", flush=True)
+            else:
+                summary[status] = summary.get(status, 0) + 1
+                print(f"[{index}/{total}] {item['law_id']} 跳过: {status}", flush=True)
+
+        if workers <= 1:
+            for i, law_id in enumerate(law_ids, 1):
+                _handle(self._extract_one(law_id, force_refresh), i, len(law_ids))
+                if delay:
+                    time.sleep(delay)
+        else:
+            from concurrent.futures import ThreadPoolExecutor, as_completed
+            done = 0
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                futures = {
+                    pool.submit(self._extract_one, lid, force_refresh): lid for lid in law_ids
+                }
+                for fut in as_completed(futures):
+                    done += 1
+                    _handle(fut.result(), done, len(law_ids))
+
+        return summary
+
+    def rebuild_entities(self, law_ids: List[str]) -> Dict:
+        """
+        零 LLM 重建实体词典（离线修复/回填用）。
+
+        适用场景：历史上因实体写入失败（如 _id 超长）或别名表/本体调整后，
+        实体词典与三元组不一致。本方法直接读取已落库的三元组，重新执行实体归一
+        并写回实体词典，同时把归一后的规范 ID 写回三元组，保证两者一致。
+
+        **不发起任何 LLM 请求**（输入是已抽取的三元组），仅涉及 ES 读写与向量编码。
+
+        Returns:
+            {"total", "rebuilt", "empty", "failed", "failed_laws": [...]}
+        """
+        disambiguator = EntityDisambiguationService(self.repo)
+        summary = {"total": len(law_ids), "rebuilt": 0, "empty": 0, "failed": 0, "failed_laws": []}
+
+        for i, law_id in enumerate([lid for lid in law_ids if lid], 1):
+            try:
+                triples = self.repo.get_kg_triples(law_id)
+                if not triples:
+                    summary["empty"] += 1
+                    print(f"[{i}/{summary['total']}] {law_id} 跳过: 无三元组", flush=True)
+                    continue
+                jurisdiction = triples[0].get("source_jurisdiction", "")
+                result = disambiguator.canonicalize_and_index(triples, law_id, jurisdiction)
+                # 保留原指纹，避免重建后触发无谓的重抽
+                meta = self.repo.get_kg_cache_meta(law_id)
+                fingerprint = (meta or {}).get("fingerprint", "")
+                self.repo.save_kg_triples(
+                    law_id, result["triples"],
+                    jurisdiction=jurisdiction, fingerprint=fingerprint,
+                )
+                summary["rebuilt"] += 1
+                print(
+                    f"[{i}/{summary['total']}] {law_id} 重建完成: "
+                    f"{result['stats']['merged_entities']} 实体",
+                    flush=True,
+                )
+            except Exception as e:
+                summary["failed"] += 1
+                summary["failed_laws"].append(
+                    {"law_id": law_id, "error": f"{type(e).__name__}: {e}"}
+                )
+                print(f"[{i}/{summary['total']}] {law_id} 重建失败: {type(e).__name__}: {e}", flush=True)
+
+        return summary
+
     def extract_and_format_for_graph(self, articles: List[Dict]) -> Dict:
         """
         抽取实体关系并格式化为图谱数据结构
@@ -368,44 +591,95 @@ class KGExtractionService:
         """
         return self.format_graph(self.extract_from_articles(articles))
 
-    def format_graph(self, triples: List[Dict]) -> Dict:
-        """将三元组列表格式化为前端图谱数据结构（无副作用，不发 LLM 请求）"""
-        # 构建节点
-        entity_map = {}
-        for t in triples:
-            for side in ["head", "tail"]:
-                ent = t[side]
-                eid = ent["id"]
-                if eid not in entity_map:
-                    entity_map[eid] = {
-                        "id": eid,
-                        "label": ent["name"],
-                        "title": ent["name"],
-                        "entity_type": ent["type"],
-                        "entity_label": LEGAL_ONTOLOGY["entities"].get(ent["type"], {}).get("label", "条款"),
-                        "entity_color": _ENTITY_COLORS.get(ent["type"], "#6B7280"),
-                        "entity_shape": _ENTITY_SHAPES.get(ent["type"], "ellipse"),
-                        "degree": 0,
-                        "importance_score": 0,
-                        "is_core": False,
-                    }
+    def format_graph(
+        self,
+        triples: List[Dict],
+        articles: Optional[List[Dict]] = None,
+    ) -> Dict:
+        """
+        将三元组列表格式化为前端图谱数据结构（无副作用，不发 LLM 请求）。
 
-        # 构建边
-        edge_list = []
+        Args:
+            triples: 三元组列表，元素含 head/tail（id/type/name/canonical_id）。
+            articles: 可选的法条（chunk）列表，用于为节点补齐 law_name /
+                jurisdiction / article_number / content_preview 展示字段；不传时
+                （如实体邻域图）退回使用三元组自身的 source_* 字段。
+
+        节点 id 优先取 canonical_id（实体消歧后的规范 ID），使同一实体在各法规/
+        法域中合并为一个节点，展示层不再出现重复实体。
+        """
+        # 法条号 -> 展示元信息（标题/法域/正文），供节点补齐字段
+        article_meta: Dict[str, Dict] = {}
+        for art in articles or []:
+            num = art.get("article_number", "")
+            if num and num not in article_meta:
+                article_meta[num] = {
+                    "title": art.get("title", ""),
+                    "jurisdiction": art.get("jurisdiction", ""),
+                    "content": art.get("content", ""),
+                }
+
+        def _node_id(ent: Dict) -> str:
+            """规范实体 ID：优先 canonical_id（消歧后），否则退回原始 id"""
+            return ent.get("canonical_id") or ent.get("id") or ""
+
+        # ---- 构建节点：同一规范实体只建一个节点 ----
+        entity_map: Dict[str, Dict] = {}
         for t in triples:
-            edge_list.append({
-                "from": t["head"]["id"],
-                "to": t["tail"]["id"],
+            for side in ("head", "tail"):
+                ent = t[side]
+                eid = _node_id(ent)
+                if not eid or eid in entity_map:
+                    continue
+                src_art = t.get("source_article", "")
+                meta = article_meta.get(src_art, {})
+                title = meta.get("title", "") or ""
+                # 保留完整法规名（不截断）：节点标签由前端按需缩写，tooltip/详情展示全名
+                law_name = title.split(" - ")[0] if " - " in title else title
+                entity_map[eid] = {
+                    "id": eid,
+                    "label": ent["name"],
+                    "title": ent["name"],
+                    "node_kind": "entity",
+                    "entity_type": ent["type"],
+                    "entity_label": LEGAL_ONTOLOGY["entities"].get(ent["type"], {}).get("label", "条款"),
+                    "entity_color": _ENTITY_COLORS.get(ent["type"], "#6B7280"),
+                    "entity_shape": _ENTITY_SHAPES.get(ent["type"], "ellipse"),
+                    # 示例来源（该实体在本图中首次出现的位置），供 tooltip / 详情展示
+                    "jurisdiction": meta.get("jurisdiction") or t.get("source_jurisdiction", ""),
+                    "law_name": law_name,
+                    "article_number": src_art,
+                    "content_preview": (meta.get("content", "") or "")[:500],
+                    "degree": 0,
+                    "importance_score": 0,
+                    "is_core": False,
+                }
+
+        # ---- 构建边：同一 (from, relation, to) 合并，保留置信度最高的一条 ----
+        edge_map: Dict[tuple, Dict] = {}
+        for t in triples:
+            src_id, tgt_id = _node_id(t["head"]), _node_id(t["tail"])
+            if not src_id or not tgt_id or src_id == tgt_id:
+                continue  # 跳过自环（LLM 偶发的 head==tail 噪声）
+            key = (src_id, t["relation"], tgt_id)
+            confidence = t.get("confidence", 0.8)
+            if key in edge_map and edge_map[key]["similarity"] >= confidence:
+                continue
+            edge_map[key] = {
+                "from": src_id,
+                "to": tgt_id,
                 "type": "semantic_similar",
+                "edge_kind": "entity_relation",
                 "relation_type": t["relation"],
                 "relation_label": _RELATION_LABELS.get(t["relation"], "关联"),
                 "label": _RELATION_LABELS.get(t["relation"], "关联"),
-                "similarity": t["confidence"],
-                "weight": max(1, round(t["confidence"] * 5)),
+                "similarity": confidence,
+                "weight": max(1, round(confidence * 5)),
                 "color": "#A78BFA",
                 "source_article": t.get("source_article", ""),
                 "source_jurisdiction": t.get("source_jurisdiction", ""),
-            })
+            }
+        edge_list = list(edge_map.values())
 
         # 计算度数
         nodes = list(entity_map.values())
@@ -422,6 +696,7 @@ class KGExtractionService:
             "edges": edge_list,
             "node_count": len(nodes),
             "edge_count": len(edge_list),
+            "graph_source": "llm",
             "stats": {
                 "total_nodes": len(nodes),
                 "total_edges": len(edge_list),

@@ -10,6 +10,7 @@ from fastapi import FastAPI, Response
 from fastapi.middleware.cors import CORSMiddleware
 from api.v1.search import router as search_router
 from api.v1.qa import router as qa_router
+from api.v1.agent import router as agent_router
 from api.v1.admin import router as admin_router
 from api.v1.compare import router as compare_router
 from api.v1.topic_analysis import router as topic_analysis_router
@@ -267,6 +268,7 @@ app.add_middleware(
 
 app.include_router(search_router, prefix="/api/v1")
 app.include_router(qa_router, prefix="/api/v1")
+app.include_router(agent_router, prefix="/api/v1")
 app.include_router(admin_router, prefix="/api/v1")
 app.include_router(compare_router, prefix="/api/v1")
 app.include_router(topic_analysis_router, prefix="/api/v1")

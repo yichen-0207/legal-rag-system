@@ -15,12 +15,16 @@ function loadQAState() {
                         role: m.role,
                         content: m.content,
                         sources: m.sources,
-                        jurisdictions: m.jurisdictions
+                        jurisdictions: m.jurisdictions,
+                        route: m.route,
+                        trace: m.trace
                     };
                 }),
                 pendingImages: [],
                 jurisdictions: parsed.jurisdictions || [],
-                topK: parsed.topK || 5
+                topK: parsed.topK || 5,
+                // 深度模式（Agent 多步探索）：随会话持久化，刷新后保持用户选择
+                deepMode: parsed.deepMode === true
             };
         }
     } catch (e) {
@@ -31,7 +35,8 @@ function loadQAState() {
         messages: [],
         pendingImages: [],
         jurisdictions: [],
-        topK: 5
+        topK: 5,
+        deepMode: false
     };
 }
 
@@ -40,10 +45,11 @@ function saveQAState() {
         const toSave = {
             sessionId: window.qaState.sessionId,
             messages: window.qaState.messages.map(function(m) {
-                return { role: m.role, content: m.content, sources: m.sources, jurisdictions: m.jurisdictions };
+                return { role: m.role, content: m.content, sources: m.sources, jurisdictions: m.jurisdictions, route: m.route, trace: m.trace };
             }),
             jurisdictions: window.qaState.jurisdictions,
-            topK: window.qaState.topK
+            topK: window.qaState.topK,
+            deepMode: window.qaState.deepMode === true
         };
         localStorage.setItem(QA_STORAGE_KEY, JSON.stringify(toSave));
     } catch (e) {
@@ -81,6 +87,13 @@ registerPage('qa', function(container) {
             <div style="width:150px;">
                 <label style="font-size:0.8125rem;font-weight:600;color:var(--color-text-secondary);display:block;margin-bottom:0.25rem;">检索数量: <span id="qa-topk-val">5</span></label>
                 <input type="range" id="qa-topk" min="3" max="10" value="5" style="width:100%;">
+            </div>
+            <div style="min-width:190px;">
+                <label style="font-size:0.8125rem;font-weight:600;color:var(--color-text-secondary);display:block;margin-bottom:0.25rem;">深度模式（多步推理）</label>
+                <button id="qa-deep-toggle" type="button" class="btn btn-secondary btn-sm" style="width:100%;"
+                    title="开启后由智能体自主多步检索、追引用、查图谱后再作答；复杂问题更全面，简单问题仍走快速通道">
+                    <span id="qa-deep-state">已关闭</span>
+                </button>
             </div>
             <button id="qa-new-session" type="button" class="btn btn-secondary btn-sm">新建会话</button>
         </div>
@@ -260,6 +273,17 @@ function setupQAEvents(container) {
         saveQAState();
     });
 
+    // 深度模式开关（Agent 多步探索）
+    const deepToggle = document.getElementById('qa-deep-toggle');
+    updateDeepToggleUI();
+    if (deepToggle) {
+        deepToggle.addEventListener('click', function() {
+            window.qaState.deepMode = !window.qaState.deepMode;
+            updateDeepToggleUI();
+            saveQAState();
+        });
+    }
+
     // 新建会话 - 使用事件委托，确保 SPA 路由切换后仍能响应
     container.addEventListener('click', function(e) {
         const target = e.target.closest('#qa-new-session');
@@ -287,6 +311,17 @@ function setupQAEvents(container) {
         const chatEl = document.getElementById('qa-chat');
         if (chatEl) chatEl.scrollTop = 0;
     });
+}
+
+function updateDeepToggleUI() {
+    // 同步开关视觉状态：开启时用主色实心，关闭时用次要按钮样式
+    const btn = document.getElementById('qa-deep-toggle');
+    const label = document.getElementById('qa-deep-state');
+    if (!btn || !label) return;
+    const on = window.qaState.deepMode === true;
+    label.textContent = on ? '已开启' : '已关闭';
+    btn.classList.toggle('btn-primary', on);
+    btn.classList.toggle('btn-secondary', !on);
 }
 
 function handleImageFiles(files) {
@@ -364,7 +399,7 @@ function sendQAMessage() {
     renderQAMessages();
 
     // 添加助手占位消息
-    const assistantMsg = { role: 'assistant', content: '', streaming: true, status: '正在检索相关法规…' };
+    const assistantMsg = { role: 'assistant', content: '', streaming: true, status: '正在检索相关法规…', trace: [] };
     window.qaState.messages.push(assistantMsg);
     renderQAMessages();
 
@@ -389,7 +424,11 @@ function sendQAMessage() {
     // 流式请求
     const chatEl = document.getElementById('qa-chat');
     const isMultimodal = images.length > 0;
-    const url = isMultimodal ? '/qa/stream' : '/qa/stream';
+    // 深度模式走 Agent 流式端点（mode=auto：由后端复杂度路由决定是否多步探索，
+    // 简单/定向查询仍自动走快速通道，避免拖慢）。图片问答暂不支持 Agent，保持原链路。
+    const useAgent = window.qaState.deepMode === true && !isMultimodal;
+    const streamPath = useAgent ? '/agent/stream' : '/qa/stream';
+    const url = streamPath;
     const method = isMultimodal ? 'streamPost' : 'streamGet';
 
     if (isMultimodal) {
@@ -404,8 +443,9 @@ function sendQAMessage() {
         params.set('top_k', window.qaState.topK);
         if (selectedJurs.length > 0) params.set('jurisdictions', selectedJurs.join(','));
         if (payload.history) params.set('history', JSON.stringify(payload.history));
+        if (useAgent) params.set('mode', 'auto');
 
-        const streamUrl = new URL(API_BASE + '/qa/stream?' + params.toString(), window.location.origin);
+        const streamUrl = new URL(API_BASE + streamPath + '?' + params.toString(), window.location.origin);
         fetch(streamUrl.toString())
             .then(function(resp) {
                 if (!resp.ok) throw new Error('API错误: ' + resp.status);
@@ -456,13 +496,37 @@ function handleQAChunk(chunk, assistantMsg) {
     } else if (chunk.type === 'sources') {
         assistantMsg.sources = chunk.sources || [];
         assistantMsg.jurisdictions = chunk.jurisdictions || [];
+    } else if (chunk.type === 'route') {
+        // Agent 复杂度路由结果：fast=走快速通道，agent=多步探索。用于「推理过程」展示。
+        assistantMsg.route = { mode: chunk.mode, reason: chunk.reason };
+        if (chunk.mode === 'agent' && !assistantMsg.content) {
+            assistantMsg.status = '正在规划检索步骤…';
+        }
+        renderQAMessages();
+    } else if (chunk.type === 'step') {
+        // 工具调用开始：先占位，结果由 observation 事件补齐摘要
+        assistantMsg.trace = assistantMsg.trace || [];
+        assistantMsg.trace.push({ step: chunk.step, tool: chunk.tool, args: chunk.args, summary: '' });
+        renderQAMessages();
+    } else if (chunk.type === 'observation') {
+        // 工具执行结果摘要：按 step+tool 回填到最后一条未完成的轨迹上
+        const tr = (assistantMsg.trace || []).slice().reverse()
+            .find(function(t) { return t.step === chunk.step && t.tool === chunk.tool && !t.summary; });
+        if (tr) tr.summary = chunk.summary || '';
+        renderQAMessages();
     } else if (chunk.type === 'end') {
+        // end.trace 为权威轨迹（含每步摘要），覆盖增量累积的近似结果，保证展示与后端一致
+        if (Array.isArray(chunk.trace) && chunk.trace.length > 0) {
+            assistantMsg.trace = chunk.trace;
+        }
         assistantMsg.streaming = false;
+        assistantMsg.status = '';
         saveQAState();
         renderQAMessages();
     } else if (chunk.type === 'error') {
         assistantMsg.content = '问答失败：' + (chunk.data || '');
         assistantMsg.streaming = false;
+        assistantMsg.status = '';
         saveQAState();
         renderQAMessages();
     }
@@ -473,6 +537,38 @@ function handleQAError(err, assistantMsg) {
     assistantMsg.streaming = false;
     saveQAState();
     renderQAMessages();
+}
+
+function qaToolLabel(tool) {
+    const map = { search_laws: '检索条文', follow_references: '追溯引用', query_graph: '查询图谱' };
+    return map[tool] || tool || '工具';
+}
+
+function renderQaTrace(msg) {
+    // 渲染 Agent 多步探索轨迹（可折叠）。无轨迹或空轨迹返回空串。
+    const trace = msg.trace || [];
+    const isAgent = msg.route && msg.route.mode === 'agent';
+    if (!isAgent && trace.length === 0) return '';
+
+    let html = '<details style="margin-bottom:0.75rem;background:var(--color-bg);border:1px dashed var(--color-border);border-radius:6px;"' +
+        (msg.streaming ? ' open' : '') + '>';
+    const n = trace.length;
+    html += '<summary style="cursor:pointer;font-size:0.8125rem;color:var(--color-text-secondary);user-select:none;padding:0.5rem 0.75rem;font-weight:600;">' +
+        '推理过程' + (n > 0 ? '（' + n + ' 步）' : '') + '</summary>';
+    html += '<div style="padding:0 0.75rem 0.625rem;">';
+    if (trace.length === 0) {
+        html += '<div style="font-size:0.75rem;color:var(--color-text-muted);">正在规划检索步骤…</div>';
+    } else {
+        trace.forEach(function(t) {
+            html += '<div style="display:flex;gap:0.5rem;padding:0.3125rem 0;border-top:1px solid var(--color-border);">';
+            html += '<span style="flex-shrink:0;font-size:0.75rem;font-weight:600;color:var(--color-primary);min-width:3.25rem;">第 ' + (t.step || '?') + ' 步</span>';
+            html += '<span style="flex-shrink:0;font-size:0.75rem;color:var(--color-text);font-weight:600;">' + escapeHtml(qaToolLabel(t.tool)) + '</span>';
+            html += '<span style="font-size:0.75rem;color:var(--color-text-secondary);line-height:1.5;word-break:break-word;">' + escapeHtml(t.summary || '执行中…') + '</span>';
+            html += '</div>';
+        });
+    }
+    html += '</div></details>';
+    return html;
 }
 
 function renderQAMessages() {
@@ -503,6 +599,7 @@ function renderQAMessages() {
             html += '<div style="margin-bottom:1.5rem;display:flex;align-items:flex-start;gap:0.75rem;">';
             html += '<div style="width:32px;height:32px;border-radius:50%;background:var(--color-info);color:white;display:flex;align-items:center;justify-content:center;font-size:0.875rem;font-weight:600;flex-shrink:0;">AI</div>';
             html += '<div style="flex:1;min-width:0;background:var(--color-surface);border:1px solid var(--color-border);border-radius:8px 8px 8px 4px;padding:1rem;box-shadow:0 1px 2px rgba(0,0,0,0.03);">';
+            html += renderQaTrace(msg);
             if (msg.streaming && !msg.content && msg.status) {
                 // 检索/生成阶段尚无正文，先展示阶段提示，避免十几秒空窗
                 html += '<div class="qa-status"><span class="qa-status-spinner"></span>' + escapeHtml(msg.status) + '</div>';

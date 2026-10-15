@@ -1,12 +1,16 @@
+import json
 import logging
+import os
 import threading
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 import time
 import math
 import numpy as np
 from openai import OpenAI
 from repositories.elasticsearch import ElasticsearchRepository
 from core.config import settings
+from utils.search_cache import get_qa_answer_cache, normalize_query_for_cache
+from utils.query_enhance import enhance_query
 
 logger = logging.getLogger(__name__)
 
@@ -42,6 +46,11 @@ class QAService:
         self._jurisdiction_vectors_loading = False
         # 供 /health/ready 读取：pending=尚未预热，ready=已跑完（含失败降级）
         self.jurisdiction_warmup_state = "pending"
+        # KG-RAG 融合：延迟构造的图谱推理服务（共享本实例的 ES 仓储）。
+        # 三态：None=未构造、False=构造失败（不再重试）、实例=可用。
+        self._kg_reasoning = None
+        # 法规目录映射缓存：(law_catalog.json 的 mtime, {law_id: 法规名}, {law_id: 法域})
+        self._law_catalog_cache = None
         # 这里不再启动后台预热线程：改由 main.py 的统一预热流程串行调用
         # warmup_jurisdiction_vectors()，使 /health/ready 能覆盖它。否则该线程会在
         # 就绪之后继续占满 CPU，与用户请求抢核（即此前"多请求偏慢"的真正原因）。
@@ -362,21 +371,16 @@ class QAService:
         return detected
 
     def _enhance_query(self, query: str) -> str:
-        enhancements = [
-            (('数据保护', '个人数据', '隐私', '个人信息'), 'personal data protection privacy'),
-            (('网络安全', '网络', '信息安全'), 'cybersecurity network security information security'),
-            (('电子', '数字化', '数字签名', '电子签名'), 'electronic digital signature'),
-            (('计算机', '电脑', '网络犯罪'), 'computer cybercrime'),
-            (('行政', '政府', '官员'), 'administrative government official'),
-            (('刑事', '犯罪', '处罚'), 'criminal penalty offense'),
-            (('法律', '法规', '条例'), 'law regulation act ordinance'),
-        ]
+        """查询增强：中→英关键词扩展 + 条款号提取（实现见 utils.query_enhance）。
 
-        for cn_keywords, en_keywords in enhancements:
-            for cn_kw in cn_keywords:
-                if cn_kw in query:
-                    return f"{query} {en_keywords}"
-        return query
+        历史遗留问题：此处原为一份独立的弱版实现——仅 7 组中英映射，且命中首个词组
+        即 return（不累积其余命中组）。实测该弱版会**降低**召回：「IMDA 对电信服务的
+        监管要求」缺少「电信/通讯 → telecommunications」映射，中文查询打不到英文
+        法规（top20 内 0 命中 gold）；「数据泄露通知」查询被追加无关的
+        「law regulation act ordinance」后反而把原本命中的条款挤出。现统一走共享
+        实现（24 组词表 + 累积所有命中组），与 RetrieverService 口径一致。
+        """
+        return enhance_query(query)
 
     def _is_retrieval_poor(self, contexts: List[Dict], min_results: int = 2, min_similarity: float = 0.6) -> bool:
         """
@@ -401,38 +405,102 @@ class QAService:
         merged.sort(key=lambda x: x['similarity'], reverse=True)
         return merged
 
+    @staticmethod
+    def _display_similarity(cosine: Optional[float]) -> float:
+        """把真实余弦相似度映射为展示/质量判定用的 similarity。
+
+        映射沿用纯向量路径的口径，使开启混合召回后数值量级不变：
+        纯向量路径 similarity = 1/(1+distance)，其中 distance = 1 - ES_KNN_score、
+        ES_KNN_score = (1+cos)/2，代入即 similarity = 2/(3-cos)。
+        取值区间 0.5(cos=-1) ~ 1.0(cos=1)；余弦缺失（仅 BM25 命中）时取下限占位。
+        """
+        if cosine is None:
+            return float(settings.qa_hybrid_bm25_only_similarity)
+        c = max(-1.0, min(1.0, float(cosine)))
+        return 2.0 / (3.0 - c)
+
+    def _fetch_candidates(self, enhanced_query: str, candidate_k: int,
+                          jurisdictions: Optional[List[str]]) -> List[Dict]:
+        """按法域拉取候选条款，返回按相关度降序的 context 列表。
+
+        两条通道：
+          - **混合**（qa_hybrid_enabled，默认开启）：向量 KNN + BM25 两路并行召回后
+            在应用层做 RRF 融合（repo.hybrid_search）。**顺序即 RRF 序，调用方不得再按
+            similarity 重排** —— BM25 单路命中的条款没有余弦分，若按 similarity 排序会
+            被整体压到纯向量命中之后而被 top_k 截断丢弃。实测：问答原用纯向量时，
+            「IMDA 对电信服务的监管要求」这类靠机构名/法规名字面命中的查询在 top20 内
+            0 命中 gold，切换到混合后命中 5 条。
+          - **纯向量**（回滚用）：沿用 repo.query 的 KNN 序，与 similarity 单调等价。
+        BM25 通道额外带来时效过滤（剔除已废止法规），纯向量通道原本没有该过滤。
+
+        Args:
+            enhanced_query: 已做查询增强的检索串。
+            candidate_k: 单法域召回条数（后续按 article 去重，故取大于 top_k）。
+            jurisdictions: 目标法域：>1 逐法域召回后合并，1 限定该法域，None/空 全域。
+        """
+        if jurisdictions and len(jurisdictions) > 1:
+            where_list: List[Optional[Dict]] = [{"jurisdiction": j} for j in jurisdictions]
+        elif jurisdictions:
+            where_list = [{"jurisdiction": jurisdictions[0]}]
+        else:
+            where_list = [None]
+
+        contexts: List[Dict] = []
+        for where in where_list:
+            if settings.qa_hybrid_enabled:
+                res = self.repo.hybrid_search(
+                    enhanced_query, n_results=candidate_k, where=where,
+                    rrf_k=settings.qa_hybrid_rrf_k,
+                )
+                ids = res.get("ids") or [[]]
+                if not (ids and ids[0]):
+                    continue
+                docs = res.get("documents") or [[]]
+                metas = res.get("metadatas") or [[]]
+                sims = res.get("_similarities") or [[]]
+                rrf = res.get("_scores") or [[]]
+                for i in range(len(ids[0])):
+                    cosine = sims[0][i] if (sims and sims[0] and i < len(sims[0])) else None
+                    contexts.append({
+                        "content": docs[0][i],
+                        "metadata": metas[0][i],
+                        "similarity": self._display_similarity(cosine),
+                        # 仅用于多法域结果按 RRF 分交错，不进入 prompt / 前端
+                        "_rrf": float(rrf[0][i]) if (rrf and rrf[0] and i < len(rrf[0])) else 0.0,
+                    })
+            else:
+                res = self.repo.query([enhanced_query], n_results=candidate_k, where=where)
+                if res.get("ids") and res["ids"][0]:
+                    for i in range(len(res["ids"][0])):
+                        distance = res["distances"][0][i]
+                        contexts.append({
+                            "content": res["documents"][0][i],
+                            "metadata": res["metadatas"][0][i],
+                            "similarity": 1 / (1 + distance),
+                        })
+
+        # 多法域：各法域列表已各自有序，需再次交错合并；混合模式必须按 RRF 分交错
+        # （纯按 similarity 会让 BM25 单路命中沉底），向量模式按 similarity 交错。
+        if len(where_list) > 1:
+            if settings.qa_hybrid_enabled:
+                contexts.sort(key=lambda c: c.get("_rrf", 0.0), reverse=True)
+            else:
+                contexts.sort(key=lambda x: x["similarity"], reverse=True)
+        return contexts
+
     def _retrieve_contexts(self, query: str, top_k: int, jurisdictions: Optional[List[str]] = None) -> List[Dict]:
         enhanced_query = self._enhance_query(query)
         # 扩大召回数量：sub_chunk 检索后需要按 article 去重，避免去重后结果不足
         candidate_k = max(top_k * 3, 20)
-        contexts = []
 
-        if jurisdictions and len(jurisdictions) > 1:
-            for jurisdiction in jurisdictions:
-                results = self.repo.query([enhanced_query], n_results=candidate_k, where={"jurisdiction": jurisdiction})
-                if results.get('ids') and results['ids'][0]:
-                    for i in range(len(results['ids'][0])):
-                        distance = results['distances'][0][i]
-                        contexts.append({
-                            'content': results['documents'][0][i],
-                            'metadata': results['metadatas'][0][i],
-                            'similarity': 1 / (1 + distance)
-                        })
-        else:
-            where_filter = {"jurisdiction": jurisdictions[0]} if (jurisdictions and len(jurisdictions) == 1) else None
-            results = self.repo.query([enhanced_query], n_results=candidate_k, where=where_filter)
-            if results.get('ids') and results['ids'][0]:
-                for i in range(len(results['ids'][0])):
-                    distance = results['distances'][0][i]
-                    contexts.append({
-                        'content': results['documents'][0][i],
-                        'metadata': results['metadatas'][0][i],
-                        'similarity': 1 / (1 + distance)
-                    })
+        contexts = self._fetch_candidates(enhanced_query, candidate_k, jurisdictions)
 
-        contexts.sort(key=lambda x: x['similarity'], reverse=True)
+        # 纯向量单/全域场景：_fetch_candidates 未排序（依赖 repo.query 的 KNN 序），
+        # 这里统一按 similarity 重排以保持既有行为；混合模式保序（见 _fetch_candidates）。
+        if not settings.qa_hybrid_enabled:
+            contexts.sort(key=lambda x: x['similarity'], reverse=True)
 
-        # 按 article 去重，保留每个 article 相似度最高的 sub_chunk
+        # 按 article 去重，保留每个 article 相关度最高的 sub_chunk（列表序即相关度序）
         seen_articles = {}
         for ctx in contexts:
             law_id = ctx['metadata'].get('law_id', '')
@@ -450,7 +518,9 @@ class QAService:
                 ctx['content'] = full_text
             deduped_contexts.append(ctx)
 
-        deduped_contexts.sort(key=lambda x: x['similarity'], reverse=True)
+        # 混合模式顺序即 RRF 序，不能再按 similarity 重排（否则 BM25 单路命中被压后）
+        if not settings.qa_hybrid_enabled:
+            deduped_contexts.sort(key=lambda x: x['similarity'], reverse=True)
         top_contexts = deduped_contexts[:top_k]
 
         # 引用链单跳扩展（组件D）：在主结果之外补入它们在同法规内引用的条款。
@@ -532,6 +602,162 @@ class QAService:
             "\n\n【引用链补充】以下条款不是直接检索命中，而是上述来源条款正文中明确引用到的"
             "同一法规条款，用于补全被引用规则的具体内容：\n" + "\n\n".join(parts)
         )
+
+    # ================================================================
+    #  KG-RAG 融合：把知识图谱子图作为一路补充证据并入问答上下文
+    # ================================================================
+    def _get_kg_reasoning(self):
+        """延迟构造图谱推理服务（共享本实例的 ES 仓储）；构造失败返回 None 且不再重试。
+
+        仅复用其「实体链接 + 定跳子图」能力，不触发其中的 LLM 生成，
+        因此这里对 api_key 是否存在无要求。
+        """
+        if self._kg_reasoning is None:
+            try:
+                from services.kg_reasoning_service import KGReasoningService
+                self._kg_reasoning = KGReasoningService(repo=self.repo)
+            except Exception as e:
+                logger.warning("[KG-RAG] 初始化图谱推理服务失败，本次起不再尝试: %s", e)
+                self._kg_reasoning = False  # 负缓存：避免每次问答都重试构造
+        return self._kg_reasoning or None
+
+    def _get_law_catalog_maps(self):
+        """读取本地法规目录，返回 (law_id->法规名, law_id->法域)，按 mtime 缓存。
+
+        目录不可读时返回两个空表：图谱证据退化为用 law_id 代称法规名、且不做法域
+        过滤，均不影响主链路。缓存失效依赖 law_catalog.json 的 mtime，法规入库后自动刷新。
+        """
+        catalog_path = os.path.join(
+            os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+            "data", "law_catalog.json",
+        )
+        try:
+            mtime = os.path.getmtime(catalog_path)
+        except OSError:
+            return {}, {}
+        if self._law_catalog_cache and self._law_catalog_cache[0] == mtime:
+            return self._law_catalog_cache[1], self._law_catalog_cache[2]
+
+        try:
+            with open(catalog_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            logger.warning("[KG-RAG] 读取法规目录失败，图谱证据将用 law_id 代称法规名且不做法域过滤: %s", e)
+            return {}, {}
+
+        laws = data.get("laws", []) if isinstance(data, dict) else data
+        if isinstance(laws, dict):
+            laws = list(laws.values())
+        titles: Dict[str, str] = {}
+        jurs: Dict[str, str] = {}
+        for law in laws:
+            if isinstance(law, dict) and law.get("law_id"):
+                lid = law["law_id"]
+                titles[lid] = law.get("law_name_zh") or law.get("title") or lid
+                jurs[lid] = law.get("jurisdiction") or ""
+
+        self._law_catalog_cache = (mtime, titles, jurs)
+        return titles, jurs
+
+    def _get_law_title_map(self) -> Dict[str, str]:
+        """{law_id: 法规名}（缓存与降级说明见 _get_law_catalog_maps）。"""
+        return self._get_law_catalog_maps()[0]
+
+    def _get_law_jurisdiction_map(self) -> Dict[str, str]:
+        """{law_id: 法域}，用于把图谱证据收敛到提问相关法域（见 _collect_kg_evidence）。"""
+        return self._get_law_catalog_maps()[1]
+
+    @staticmethod
+    def _format_kg_evidence(triples: List[Dict], snippets: Dict[str, str],
+                            law_titles: Dict[str, str]) -> str:
+        """把三元组与条款摘录渲染成可直接拼到参考资料后的段落；无三元组返回空串。"""
+        if not triples:
+            return ""
+        rel_lines = []
+        for t in triples:
+            head = (t.get("head") or {}).get("name", "")
+            tail = (t.get("tail") or {}).get("name", "")
+            law = law_titles.get(t.get("law_id", ""), t.get("law_id", ""))
+            rel_lines.append(
+                f"- ({head}) --{t.get('relation', '')}--> ({tail})  ←《{law}》{t.get('source_article', '')}"
+            )
+        text = (
+            "\n\n【知识图谱关联】以下实体关系由系统从法规正文中自动抽取，"
+            "用于补充条文之间的关联（非直接检索命中，仅作辅助佐证；不得凭空构造此处不存在的关系）：\n"
+            + "\n".join(rel_lines)
+        )
+        if snippets:
+            art_lines = []
+            for ref, content in snippets.items():
+                law_id, _, article = ref.partition("::")
+                law = law_titles.get(law_id, law_id)
+                art_lines.append(f"- 《{law}》{article}：{content}")
+            text += "\n\n【图谱条款摘录】\n" + "\n".join(art_lines)
+        return text
+
+    def _collect_kg_evidence(self, question: str,
+                             jurisdictions: Optional[List[str]] = None) -> str:
+        """收集知识图谱补充证据；任何异常/无命中一律返回空串（静默降级，不阻断问答）。
+
+        复用 KGReasoningService 的实体链接（别名表 + 向量 KNN）与定跳子图，
+        不新增 LLM 调用；条款摘录用一次 msearch 批量回取。
+
+        Args:
+            jurisdictions: 已识别的提问法域（中文名列表）。非空时把三元组收敛到这些
+                法域内，避免跨法域无关证据污染答案（实测：问泰国金融注入美国 HIPAA、
+                问新加坡电子交易注入澳门法规）。None/空表示未识别，不做过滤（保持
+                既有行为）。
+        """
+        if not settings.qa_kg_evidence_enabled:
+            return ""
+        q = (question or "").strip()
+        if not q:
+            return ""
+        try:
+            svc = self._get_kg_reasoning()
+            if svc is None:
+                return ""
+            seeds = svc._link_entities(q, settings.qa_kg_evidence_seed_entities)
+            if not seeds:
+                return ""
+            triples = svc._collect_subgraph(
+                [s["entity_id"] for s in seeds], hops=settings.qa_kg_evidence_hops
+            )
+            if not triples:
+                return ""
+            triples = triples[: settings.qa_kg_evidence_max_edges]
+
+            # 法域收敛：实体链接与定跳子图都是跨法域的，会把无关法域的证据一并带出。
+            # 仅在已识别法域且目录映射可用时过滤；过滤后为空则视为无图谱证据（静默降级），
+            # 避免用错误法域的证据「凑数」。目录不可用时不过滤，保持既有行为。
+            if jurisdictions:
+                jmap = self._get_law_jurisdiction_map()
+                if jmap:
+                    allowed = set(jurisdictions)
+                    triples = [t for t in triples if jmap.get(t.get("law_id", "")) in allowed]
+                    if not triples:
+                        logger.info("[KG-RAG] 图谱证据经法域过滤后为空，跳过注入")
+                        return ""
+
+            refs = [
+                {"law_id": t.get("law_id", ""), "article_number": t.get("source_article", "")}
+                for t in triples
+            ]
+            snippets = self.repo.get_articles_by_refs(
+                refs,
+                max_pairs=settings.qa_kg_evidence_max_articles,
+                max_chars=settings.qa_kg_evidence_article_chars,
+            )
+            text = self._format_kg_evidence(triples, snippets, self._get_law_title_map())
+            if text:
+                logger.info(
+                    "[KG-RAG] 已注入图谱证据：%d 条关系 / %d 条条款摘录",
+                    len(triples), len(snippets),
+                )
+            return text
+        except Exception as e:
+            logger.warning("[KG-RAG] 图谱证据收集失败，降级为不注入: %s: %s", type(e).__name__, e)
+            return ""
 
     def _retrieve_contexts_with_fallback(
         self,
@@ -817,20 +1043,25 @@ class QAService:
             if chunk.choices and chunk.choices[0].delta.content:
                 yield chunk.choices[0].delta.content
 
-    def _build_messages(self, question: str, contexts: List[Dict], history: Optional[List[Dict]] = None) -> List[Dict]:
+    def _build_messages(self, question: str, contexts: List[Dict], history: Optional[List[Dict]] = None,
+                        kg_evidence: str = "", max_primary: int = 5) -> List[Dict]:
         """构建标准 messages 数组（system + history + 当前用户消息）
 
         Args:
             question: 当前用户问题
             contexts: 检索到的法规上下文
             history: 对话历史列表，每条包含 role 和 content
+            kg_evidence: 知识图谱补充证据文本（已渲染），为空则不注入
+            max_primary: 直接命中来源（非引用链扩展）进入 prompt 的条数上限。
+                默认 5 与既有问答链路保持一致；Agent 多步探索会传入更大值，
+                使额外召回的条款也能进入 prompt（引用链扩展项不受此限制）。
 
         Returns:
             标准 OpenAI 格式的 messages 数组
         """
         # 引用链扩展项（组件D）带 retrieval_hop=2，需与直接检索命中的来源分开呈现
         hop_contexts = [c for c in contexts if c.get('retrieval_hop') == 2]
-        top_contexts = [c for c in contexts if c.get('retrieval_hop') != 2][:5]
+        top_contexts = [c for c in contexts if c.get('retrieval_hop') != 2][:max_primary]
         references = []
 
         for i, ctx in enumerate(top_contexts, 1):
@@ -848,6 +1079,9 @@ class QAService:
 
         # 引用链补充（组件D）：单独成段并标注引用来源，避免与直接命中的来源混淆
         references_text += self._format_hop_references(hop_contexts)
+
+        # KG-RAG 融合：知识图谱补充证据（实体关系 + 条款摘录），单独成段
+        references_text += kg_evidence
 
         jurisdictions_in_contexts = set()
         for ctx in top_contexts:
@@ -875,6 +1109,7 @@ class QAService:
 【重要约束 - 资料引用规则】
 - 每次追问都会重新检索法规资料，请仅引用当前用户消息中【参考资料库】标注的来源。
 - 历史对话中提到的【来源X】是上一轮的资料，已失效，不得引用。
+- 【知识图谱关联】为系统自动抽取的实体关系佐证，可用于说明条文间的关联；其权威性低于【来源X】的具体法条，不得据此虚构关系。
 
 【回答结构要求】
 ## 一、简要定位（1-2句话）
@@ -927,6 +1162,7 @@ class QAService:
 
 【严格约束】
 - 必须基于参考资料，所有论断有法条支撑，引用标注【来源X】。
+- 【知识图谱关联】为系统自动抽取的实体关系佐证，可用于说明条文间的关联；其权威性低于【来源X】的具体法条，不得据此虚构关系。
 - 严禁编造资料中没有的信息。
 - 如遇资料不足，明确说明："关于XX方面，现有法规资料暂未提供明确规定..." """
 
@@ -964,9 +1200,57 @@ class QAService:
         messages.append({"role": "user", "content": user_content})
         return messages
 
+    @staticmethod
+    def _qa_cache_key(question: str, top_k: int,
+                      jurisdictions: Optional[List[str]]) -> Optional[Tuple[str, str]]:
+        """问答答案缓存的键；问题为空时返回 None（既不读也不写）。
+
+        键只包含「真正影响答案的输入与开关」：
+          - top_k / jurisdictions：决定召回范围，进而决定答案所依据的条款集合；
+          - refexp：引用链扩展会改变送入 prompt 的条款集合，必须计入，否则切换该
+            开关前后的答案会被错误复用（与检索缓存计入同类开关是同一原因）；
+          - kgevi：KG-RAG 融合会改变送入 prompt 的证据集合，同理必须计入；
+          - 精排开关刻意不计入：问答链路走 repo.query 纯向量召回，不经过精排，
+            把它写进键只会让键虚增维度、并不反映任何答案差异。
+        """
+        if not question or not question.strip():
+            return None
+        jur = ",".join(sorted(jurisdictions)) if jurisdictions else ""
+        filter_key = "|".join([
+            f"top_k={top_k}",
+            f"jur={jur}",
+            f"refexp={int(settings.reference_expand_enabled)}:{int(settings.reference_expand_cross_law_enabled)}",
+            f"kgevi={int(settings.qa_kg_evidence_enabled)}:{settings.qa_kg_evidence_hops}",
+        ])
+        return (filter_key, normalize_query_for_cache(question))
+
     def ask_stream(self, question: str, top_k: int = 5, jurisdictions: Optional[List[str]] = None,
                     history: Optional[List[Dict]] = None):
         """流式问答"""
+        # 精确答案缓存：命中即跳过「检索 + LLM 生成」，直接回放既有答案。
+        # 仅对首轮提问启用 —— 追问（history 非空）的答案依赖上文，同一句问题在不同
+        # 对话语境下答案不同，用问题文本做键会返回错配答案，故带历史时一律不走缓存。
+        cache = get_qa_answer_cache() if (settings.qa_answer_cache_enabled and not history) else None
+        cache_key = self._qa_cache_key(question, top_k, jurisdictions) if cache is not None else None
+        if cache is not None and cache_key is not None:
+            cached = cache.get(cache_key)
+            if cached is not None:
+                # 事件序列与正常路径保持同形（status → sources → content → end），
+                # 前端无需为「缓存命中」写任何分支；状态文案如实说明答案来自缓存。
+                yield {"type": "status", "stage": "retrieve", "data": "已命中缓存，正在载入回答…"}
+                yield {"type": "sources", "sources": cached["sources"],
+                       "retrieved_count": cached["retrieved_count"],
+                       "jurisdictions": cached["jurisdictions"]}
+                yield {"type": "content", "data": cached["answer"]}
+                yield {"type": "end", "cache_hit": True, "timing": {
+                    "detect_jurisdictions": "0.0000s",
+                    "retrieve_contexts": "0.0000s",
+                    "build_prompt": "0.0000s",
+                    "call_llm": "0.0000s",
+                    "total": "0.0000s",
+                }}
+                return
+
         # 检索阶段（含 CPU 精排）是整条链路最慢的一段，若不先推送状态，前端会白屏十几秒。
         yield {"type": "status", "stage": "retrieve", "data": "正在检索相关法规…"}
         total_start = time.time()
@@ -1010,24 +1294,40 @@ class QAService:
         # 将实际检索到的法域附加到 sources 返回，便于前端保存到历史记录
         detected_jurisdictions = list(source_jurisdictions) if not jurisdictions else detected_jurisdictions
 
+        # 先推送来源，再收集图谱证据并构建 prompt：图谱证据需要一次查询向量编码 + ES 检索，
+        # 不应让它阻塞来源面板展示（前端拿到 sources 即可先渲染参考列表）。
+        yield {"type": "sources", "sources": sources, "retrieved_count": len(contexts), "jurisdictions": detected_jurisdictions}
+
         t3 = time.time()
-        messages = self._build_messages(question, contexts, history)
+        kg_evidence = self._collect_kg_evidence(question)
+        messages = self._build_messages(question, contexts, history, kg_evidence)
         t_prompt = time.time() - t3
 
-        yield {"type": "sources", "sources": sources, "retrieved_count": len(contexts), "jurisdictions": detected_jurisdictions}
         yield {"type": "status", "stage": "generate", "data": "正在生成回答…"}
 
+        answer_parts: List[str] = []
         try:
             t4 = time.time()
             llm_start_time = t4
 
             for chunk in self._call_llm_stream_with_messages(messages):
+                answer_parts.append(chunk)
                 yield {"type": "content", "data": chunk}
 
             t_llm = time.time() - t4
         except Exception as e:
             yield {"type": "error", "data": f"生成回答时发生错误：{str(e)}"}
             return
+
+        # 仅在完整生成成功后才落缓存：报错/中断产生的部分答案若写进缓存，
+        # 后续同一问题会命中一段残缺回答，比不缓存更糟。
+        if cache is not None and cache_key is not None and answer_parts:
+            cache.set(cache_key, {
+                "answer": "".join(answer_parts),
+                "sources": sources,
+                "retrieved_count": len(contexts),
+                "jurisdictions": detected_jurisdictions,
+            })
 
         total_time = time.time() - total_start
         print(
@@ -1053,6 +1353,9 @@ class QAService:
             history: 对话历史
             images: 图片列表，每项包含 {data: base64字符串, mime_type: 图片类型}
         """
+        # 刻意不接入答案缓存：图片问答的答案取决于图像内容，无法由问题文本唯一确定；
+        # 即便本次未传图片，其 prompt 也走多模态模板（_build_multimodal_messages），
+        # 与文本路径不是同一份答案，两者共用缓存会相互串场。
         # 与 ask_stream 同理：先推送状态，避免检索期间前端长时间无反馈
         yield {"type": "status", "stage": "retrieve", "data": "正在检索相关法规…"}
 
@@ -1085,7 +1388,8 @@ class QAService:
 
         # 2. 构建多模态消息（核心改动）
         try:
-            messages = self._build_multimodal_messages(question, contexts, history, images)
+            kg_evidence = self._collect_kg_evidence(question)
+            messages = self._build_multimodal_messages(question, contexts, history, images, kg_evidence)
         except Exception as e:
             logger.error(f"[多模态QA] 构建消息失败: {str(e)}")
             yield {"type": "error", "data": f"构建请求消息时发生错误：{str(e)}"}
@@ -1137,7 +1441,7 @@ class QAService:
         }}
 
     def _build_multimodal_messages(self, question: str, contexts: List[Dict], history: Optional[List[Dict]] = None,
-                                   images: Optional[List[Dict]] = None) -> List[Dict]:
+                                   images: Optional[List[Dict]] = None, kg_evidence: str = "") -> List[Dict]:
         """
         构建多模态消息格式
 
@@ -1146,6 +1450,7 @@ class QAService:
             contexts: 检索到的法规上下文
             history: 对话历史
             images: 图片列表
+            kg_evidence: 知识图谱补充证据文本（已渲染），为空则不注入
 
         Returns:
             符合OpenAI多模态格式的messages列表
@@ -1163,6 +1468,7 @@ class QAService:
 【重要约束 - 资料引用规则】
 - 每次追问都会重新检索法规资料，请仅引用当前用户消息中【参考资料】标注的来源。
 - 历史对话中提到的【来源X】是上一轮的资料，已失效，不得引用。
+- 【知识图谱关联】为系统自动抽取的实体关系佐证，可用于说明条文间的关联；其权威性低于【来源X】的具体法条，不得据此虚构关系。
 
 【输出格式要求】请严格按照以下结构输出，使用清晰的 Markdown 标题，不要添加多余 emoji：
 
@@ -1190,6 +1496,7 @@ class QAService:
             system_prompt = """你是一位精通境外法律法规的资深法律顾问，拥有20年实务经验。
 请严格基于【参考资料】回答用户问题；如果用户上传了图片，请结合图片内容进行分析和解读。
 使用通俗易懂的语言解释复杂的法律问题。
+【知识图谱关联】为系统自动抽取的实体关系佐证，可用于说明条文间的关联；其权威性低于【来源X】的具体法条，不得据此虚构关系。
 
 【输出格式要求】请严格按照以下结构输出，使用清晰的 Markdown 标题，不要添加多余 emoji：
 
@@ -1219,6 +1526,9 @@ class QAService:
         hop_contexts = [c for c in contexts if c.get('retrieval_hop') == 2]
         references_text = self._build_references_text_for_multimodal(primary_contexts)
         references_text += self._format_hop_references(hop_contexts)
+
+        # KG-RAG 融合：知识图谱补充证据（实体关系 + 条款摘录），单独成段
+        references_text += kg_evidence
 
         # 构建 messages 数组
         messages = [{"role": "system", "content": system_prompt}]

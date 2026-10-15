@@ -7,22 +7,11 @@ from collections import defaultdict
 from repositories.elasticsearch import ElasticsearchRepository, _jurisdiction_to_zh, zh_convert
 from core.config import settings
 from services.query_decomposer import decompose_query
-from utils.search_cache import get_search_cache
-
+from services.query_planner import plan_retrieval
+from utils.search_cache import get_search_cache, normalize_query_for_cache
+from utils.query_enhance import enhance_query
 
 logger = logging.getLogger(__name__)
-
-
-def _normalize_query_for_cache(query: str) -> str:
-    """检索缓存的查询归一化：压缩空白 + 统一小写 + 繁→简。
-
-    繁→简保证「澳門 勞動關係法」与「澳门劳动关系法」落到同一个缓存键，
-    避免同一问题因输入法差异重复支付一次完整检索。
-    """
-    if not query:
-        return ""
-    collapsed = re.sub(r"\s+", " ", query).strip().lower()
-    return zh_convert(collapsed, "t2s")
 
 
 def _flatten_topic_filters(topics: Optional[List[str]], topic: Optional[str]) -> List[str]:
@@ -318,93 +307,15 @@ class RetrieverService:
     COMPARE_KEYWORDS = ["有何异同", "有何差异", "比较", "区别", "差异", "异同", "不同模式", "versus", "vs"]
 
     # ============================================================
-    # 中→英关键词扩展表（覆盖竞赛检索场景）
+    # 查询增强（实现已抽出到 utils.query_enhance，与 QAService 共享同一份词表）
     # ============================================================
-    ZH_EN_MAP = [
-        # 数据保护与隐私
-        (('数据保护', '个人数据', '隐私', '个人信息', '个人资料'), 'personal data protection privacy GDPR'),
-        # 网络安全
-        (('网络安全', '网络', '信息安全', '网络犯罪', '黑客'), 'cybersecurity network security information security cybercrime'),
-        # 电子交易与签名
-        (('电子', '数字化', '数字签名', '电子签名', '电子交易', '电子政务'), 'electronic digital signature e-commerce e-government'),
-        # 电信与通讯
-        (('电信', '通讯', '通信', '电话营销', '电话'), 'telecommunications communication telemarketing telephone'),
-        # 金融监管
-        (('金融', '银行', '保险', '证券', '金融科技'), 'financial banking insurance securities fintech'),
-        # 反洗钱
-        (('反洗钱', '反恐融资', '反恐'), 'anti-money laundering AML counter-terrorism financing CTF'),
-        # 消费者保护
-        (('消费者', '消费者保护', '消费', '消费者权益'), 'consumer protection consumer rights'),
-        # 人工智能
-        (('人工智能', 'AI', '机器学习'), 'artificial intelligence machine learning AI'),
-        # 跨境数据流动
-        (('跨境', '数据流动', '数据传输', '数据跨境'), 'cross-border data flow data transfer cross-border data'),
-        # 牌照与监管
-        (('牌照', '许可', '监管', '许可证', '牌照发放'), 'license licensing regulation permit'),
-        # 数据泄露与通知
-        (('通知', '通报', '披露', '数据泄露', '泄露'), 'notification disclosure breach notification data breach'),
-        # 版权与知识产权
-        (('版权', '著作权', '知识产权', '专利', '商标'), 'copyright intellectual property patent trademark'),
-        # 公司与企业
-        (('公司', '企业', '经营', '商业'), 'company corporate business enterprise commercial'),
-        # 劳动与雇佣
-        (('劳动', '雇佣', '劳工', '员工', '就业'), 'labor employment employee worker'),
-        # 环境与环保
-        (('环境', '环保', '排放', '污染'), 'environmental protection emission pollution'),
-        # 医疗与药品
-        (('药品', '医疗', '健康', '药物'), 'medical pharmaceutical healthcare health drug'),
-        # 行政与政府
-        (('行政', '政府', '官员', '公共'), 'administrative government official public'),
-        # 刑事与处罚
-        (('刑事', '犯罪', '处罚', '刑罚', '罚款'), 'criminal penalty offense punishment fine'),
-        # 法律与法规
-        (('法律', '法规', '条例', '法令', '法例'), 'law regulation act ordinance legislation'),
-        # 电子认证
-        (('电子签名', '电子认证', '认证'), 'electronic signature e-signature authentication'),
-        # 金融科技（补充）
-        (('金融科技', 'fintech', 'FinTech', 'FINTECH'), 'financial technology fintech'),
-        # 版权（补充英文）
-        (('版权', 'copyright'), 'copyright'),
-        # 垃圾信息
-        (('垃圾', '骚扰', '垃圾信息'), 'spam junk unsolicited'),
-        # 广播与电视
-        (('广播', '电视', '无线电', '频段'), 'broadcast television radio spectrum frequency'),
-        # 数据保留
-        (('数据保留', '数据保存', '留存'), 'data retention data preservation'),
-    ]
-
     def _enhance_query(self, query: str) -> str:
-        """查询增强：中→英关键词扩展 + 条款号提取"""
-        extra_terms = []
+        """查询增强：中→英关键词扩展 + 条款号提取（实现见 utils.query_enhance）。
 
-        # 中→英关键词扩展
-        for cn_keywords, en_keywords in self.ZH_EN_MAP:
-            for cn_kw in cn_keywords:
-                if cn_kw in query:
-                    extra_terms.append(en_keywords)
-                    break
-
-        # 提取 "第X条/條" 中的数字和法规名称
-        article_match = re.search(r'第(\d+)[条條]', query)
-        if article_match:
-            extra_terms.append(article_match.group(1))  # 条款号数字
-            # 提取法域关键词和"第X条"之间的内容作为法规名称
-            juris_triggers = ['澳门', '澳門', 'macau', 'Macau', 'MACAU',
-                              '香港', 'Hong Kong', 'hongkong', 'Hongkong', 'HONG KONG',
-                              '新加坡', 'Singapore', 'SINGAPORE',
-                              '日本', 'Japan', 'JAPAN',
-                              '美国', 'US', 'United States', 'UNITED STATES']
-            for trigger in juris_triggers:
-                juris_pos = query.find(trigger)
-                if juris_pos != -1:
-                    law_name = query[juris_pos + len(trigger):article_match.start()].strip('的 \t')
-                    if law_name:
-                        extra_terms.append(law_name)
-                    break
-
-        if extra_terms:
-            return query + ' ' + ' '.join(extra_terms)
-        return query
+        保留为实例方法：本类多处（search / hybrid_search / bm25_search）以 self 方式
+        调用，且历史上是本类的自有能力；实现已抽出与 QAService 共享，避免两份漂移。
+        """
+        return enhance_query(query)
 
     # ============================================================
     # 跨法域路由模块
@@ -760,37 +671,50 @@ class RetrieverService:
             if cached is not None:
                 return cached
 
-        # 多跳 B：复合查询分解（仅顶层调用、且未关闭精排时触发；子查询不再分解）
-        if _decompose and _rerank and settings.multihop_decompose_enabled:
-            try:
-                sub_queries = self._decompose_query(query)
-            except Exception as e:
-                logger.warning("查询分解失败，降级单跳: %s", e)
-                sub_queries = []
-            if len(sub_queries) > 1:
-                merged = self._decomposed_search(sub_queries, top_k, jurisdiction, topic, topics)
-                if merged:
-                    if cache is not None and cache_key is not None:
-                        cache.set(cache_key, merged)
-                    return merged
+        # 检索决策统一交由规划器给出（分解 / 跨法域路由 / 单跳），
+        # 决策优先级与旧的内联判断逐条对齐（见 query_planner 模块说明），因此本重构
+        # 不改变既有查询的行为，只把决策集中化并输出可观测的 reasons。
+        plan = plan_retrieval(
+            query,
+            jurisdiction,
+            allow_decompose=_decompose,
+            rerank_active=_rerank,
+            detect_jurisdiction=self._detect_jurisdiction,
+            route_jurisdictions=self._route_to_jurisdictions,
+            decompose_subqueries=self._decompose_query,
+        )
+        # 仅顶层调用打日志：子查询会递归进入本函数，逐条打印会把日志刷满。
+        if _decompose:
+            logger.info(
+                "[Planner] mode=%s jur=%s nsub=%d reasons=%s",
+                plan.mode,
+                plan.jurisdiction or (plan.jurisdictions or "-"),
+                len(plan.sub_queries),
+                "；".join(plan.reasons),
+            )
+
+        if plan.mode == "decompose":
+            merged = self._decomposed_search(plan.sub_queries, top_k, jurisdiction, topic, topics)
+            if merged:
+                if cache is not None and cache_key is not None:
+                    cache.set(cache_key, merged)
+                return merged
+            # 分解未产出结果：回退单跳，法域沿用计划中预解析的值（与旧逻辑一致）
+            jurisdiction = plan.jurisdiction
+
+        elif plan.mode == "route":
+            routed = self._hybrid_search_routed(
+                query=query, jurisdictions=plan.jurisdictions, top_k=top_k,
+            )
+            if cache is not None:
+                cache.set(cache_key, routed)
+            return routed
+
+        else:
+            jurisdiction = plan.jurisdiction
 
         enhanced_query = self._enhance_query(query)
         search_query = enhanced_query or query
-
-        # 跨法域路由：仅顶层调用（_decompose=True）且未显式指定 jurisdiction 时触发。
-        # 子查询（_decompose=False）不参与路由，避免路由内部再次精排造成成本放大。
-        if _decompose and jurisdiction is None:
-            jurisdiction = self._detect_jurisdiction(query)
-            if jurisdiction is None:
-                # 尝试路由检测
-                routed_jurs = self._route_to_jurisdictions(query)
-                if routed_jurs and len(routed_jurs) > 1:
-                    routed = self._hybrid_search_routed(
-                        query=query, jurisdictions=routed_jurs, top_k=top_k,
-                    )
-                    if cache is not None:
-                        cache.set(cache_key, routed)
-                    return routed
 
         where_filter = {}
         if jurisdiction:
@@ -891,7 +815,8 @@ class RetrieverService:
 
         # 引用链扩展在其后追加：扩展项是「附加引用链接」而非排名结果，不计入 top_k 名额。
         # 若先追加再截断，因主结果始终填满 top_k，扩展项会被永久截掉（多跳A 在检索页失效）。
-        if _rerank:
+        # 是否扩展由计划决定（= 精排可用 且 引用扩展开关开启），与旧实现同口径。
+        if plan.expand_refs:
             formatted_results = self._expand_by_references(formatted_results)
 
         # 展示用匹配度（真实余弦）在这里统一计算：引用扩展补入的条款无余弦，置 None
@@ -906,15 +831,20 @@ class RetrieverService:
                       topics: Optional[List[str]]):
         """缓存查询，返回 (缓存键, 命中结果或 None)。
 
-        键由「筛选条件 + 结果相关开关 + 归一化查询」构成：只按查询串比对会让
+        键由「索引名 + 筛选条件 + 结果相关开关 + 归一化查询」构成：只按查询串比对会让
         「同一问题 + 不同法域筛选」错误复用结果；而评测脚本会在同一进程内切换
         reranker_enabled，若不把开关计入键，先跑的「无精排」结果会被「有精排」
-        那轮直接命中，得到未精排的错误顺序。
+        那轮直接命中，得到未精排的错误顺序。索引名同理：同进程切换索引做 A/B
+        对照时，不区分索引会让第二轮直接复用第一轮缓存。
         """
         if not query or not query.strip():
             return None, None
 
         filter_key = "|".join([
+            # 索引名入键：评测/探针脚本会在同一进程内切换 settings.es_index_name
+            # 做 A/B 对照，若不区分索引，第二次调用会命中第一次的缓存，
+            # 得到「两组结果完全一致」的假象（本次美国退步复测即踩此坑）。
+            f"idx={settings.es_index_name}",
             f"top_k={top_k}",
             f"jur={jurisdiction or ''}",
             f"topics={','.join(topics) if topics else ''}",
@@ -922,5 +852,5 @@ class RetrieverService:
             f"refexp={int(settings.reference_expand_enabled)}:{int(settings.reference_expand_cross_law_enabled)}",
             f"mhdec={int(settings.multihop_decompose_enabled)}",
         ])
-        key = (filter_key, _normalize_query_for_cache(query))
+        key = (filter_key, normalize_query_for_cache(query))
         return key, get_search_cache().get(key)
