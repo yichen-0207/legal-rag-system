@@ -29,6 +29,8 @@ docker.env
 
 # 备份文件
 *.bak
+# 仓库历史重写前的完整备份 bundle（本地留存，不入库）
+*.bundle
 
 # 文档：仅 README.md 入库，其余 Markdown（技术报告/面试知识体系/内部方案等）仅供本地
 *.md
