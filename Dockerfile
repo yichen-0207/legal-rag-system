@@ -14,28 +14,31 @@ RUN pip install --no-cache-dir "torch==2.0.0+cpu" --find-links https://mirrors.a
 
 # 安装其余依赖（numpy<2 避免与 sentence-transformers 冲突）
 # 显式使用清华 PyPI 镜像：阿里云 pypi 镜像实测仅 ~100KB/s，清华 ~3.6MB/s
+# 注意：每个包规格都必须加引号——否则 shell 会把 `>` / `<` 当作重定向符：
+#   未加引号的 `fastapi>=0.104.0` 会被拆成 `fastapi > =0.104.0`（版本约束静默失效），
+#   而 `networkx>=3.1,<4` 里的 `<4` 会触发输入重定向并直接报 "cannot open 4"。
 RUN pip install --no-cache-dir -i https://pypi.tuna.tsinghua.edu.cn/simple \
         "numpy<2" \
         "elasticsearch>=8.0.0,<9.0.0" \
-        fastapi>=0.104.0 \
-        uvicorn>=0.24.0 \
-        streamlit>=1.28.0 \
-        requests>=2.31.0 \
-        pandas>=2.0.0 \
-        plotly>=5.17.0 \
-        tqdm>=4.66.0 \
-        pydantic>=2.0.0 \
-        pydantic-settings>=2.0.0 \
-        python-multipart>=0.0.6 \
-        sentence-transformers>=2.2.0 \
-        transformers==4.36.2 \
-        accelerate>=0.20.0 \
-        openai>=1.0.0 \
-        openpyxl>=3.1.0 \
-        networkx>=3.1,<4 \
-        langchain>=1.0.0 \
-        langchain-openai>=1.0.0 \
-        langgraph>=1.0.0
+        "fastapi>=0.104.0" \
+        "uvicorn>=0.24.0" \
+        "streamlit>=1.28.0" \
+        "requests>=2.31.0" \
+        "pandas>=2.0.0" \
+        "plotly>=5.17.0" \
+        "tqdm>=4.66.0" \
+        "pydantic>=2.0.0" \
+        "pydantic-settings>=2.0.0" \
+        "python-multipart>=0.0.6" \
+        "sentence-transformers>=2.2.0" \
+        "transformers==4.36.2" \
+        "accelerate>=0.20.0" \
+        "openai>=1.0.0" \
+        "openpyxl>=3.1.0" \
+        "networkx>=3.1,<4" \
+        "langchain>=1.0.0" \
+        "langchain-openai>=1.0.0" \
+        "langgraph>=1.0.0"
 
 
 # ===== 运行阶段 =====
