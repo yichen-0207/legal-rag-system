@@ -31,7 +31,11 @@ RUN pip install --no-cache-dir -i https://pypi.tuna.tsinghua.edu.cn/simple \
         transformers==4.36.2 \
         accelerate>=0.20.0 \
         openai>=1.0.0 \
-        openpyxl>=3.1.0
+        openpyxl>=3.1.0 \
+        networkx>=3.1,<4 \
+        langchain>=1.0.0 \
+        langchain-openai>=1.0.0 \
+        langgraph>=1.0.0
 
 
 # ===== 运行阶段 =====

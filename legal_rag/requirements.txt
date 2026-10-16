@@ -14,3 +14,7 @@ accelerate>=0.20.0
 openpyxl>=3.1.0
 # 知识图谱图算法（社区检测/PageRank/中心性）；实际随其他依赖已装入镜像
 networkx>=3.1,<4
+# Agent 编排框架：工具声明（StructuredTool）+ ReAct 循环（LangGraph create_agent）
+langchain>=1.0.0
+langchain-openai>=1.0.0
+langgraph>=1.0.0

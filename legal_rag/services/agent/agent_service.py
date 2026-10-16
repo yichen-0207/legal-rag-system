@@ -1,10 +1,18 @@
-"""Agent 服务：LLM 迭代式工具调用问答（ReAct 风格的受约束实现）。
+"""Agent 服务：基于 LangGraph 的受约束多步推理问答。
 
 流程：
-    问题 → [探索循环] LLM 决定调用哪些工具（检索/引用追溯/图谱查询）
-                ↓ 工具结果作为 observation 回灌，直至模型认为证据足够或达到步数上限
+    问题 → [探索] LangGraph 编排「模型决策 ↔ 工具执行」循环（检索/引用追溯/图谱查询）
+                ↓ 工具结果作为 ToolMessage 回灌，直至模型认为证据足够或触达预算
          → [证据收口] 对累积证据去重 + 补全正文（一次 msearch）+ 精排一次
          → [最终合成] 复用 QAService 的合成 prompt 流式产出带来源标注的答案
+
+分工（框架管编排、自研管策略）：
+  - **交给框架**：模型↔工具的循环编排、工具 schema 生成、消息回灌、LLM 客户端；
+    LangGraph 是 async-first，但其 `stream()` 提供同步版本，可直接嵌入本项目的
+    同步 SSE 生成器，无需 async 桥接；
+  - **保留自研**：复杂度路由、三重预算（步数/工具次数/时长）、停滞短路、证据收敛、
+    最终合成、三层降级、以及自有 SSE 事件协议（前端契约不变）。这些是实测调优出的
+    策略资产，框架不提供，且替换会引入回归风险。
 
 设计取舍（与项目既有约束一致）：
   - **受约束而非放任**：步数、工具调用数、端到端时长三重上限，超限强制收口；
@@ -12,7 +20,7 @@
     只对最终证据集精排一次，兼顾成本与质量；
   - **最终合成复用既有 RAG**：调用 QAService._build_messages，保证回答结构、
     【来源X】标注、图谱证据口径与现有问答完全一致，不另造一套输出格式；
-  - **全链路降级**：开关关闭 / 模型不支持工具调用 / 探索未产出证据 / 任何异常，
+  - **全链路降级**：开关关闭 / 未配置密钥 / 探索未产出证据 / 任何异常，
     一律回退到既有 QAService.ask_stream，端点永远返回可用结果。
 """
 from __future__ import annotations
@@ -20,12 +28,14 @@ from __future__ import annotations
 import json
 import logging
 import time
-from typing import Dict, Iterator, List, Optional
+from typing import Any, Dict, Iterator, List, Optional
 
-from openai import OpenAI
+from langchain.agents import create_agent
+from langchain_core.messages import AIMessage, ToolMessage
+from langchain_openai import ChatOpenAI
 
 from core.config import settings
-from services.agent.tools import AgentTools, TOOL_SCHEMAS
+from services.agent.tools import AgentToolkit
 from services.query_decomposer import _CONJUNCTION_RE, _TARGET_ARTICLE_RE
 from services.retriever_service import RetrieverService
 
@@ -109,17 +119,19 @@ def decide_route(question: str, route_mode: str = ROUTE_MODE_AUTO,
 
 
 class AgentService:
-    """迭代式工具调用问答服务。"""
+    """LangGraph 编排的多步推理问答服务。"""
 
     def __init__(self):
         self.retriever = RetrieverService()
         self._qa = None  # 延迟获取 QAService（单例），避免构造期触发预热相关重活
-        # 本服务是进程级单例，但**工具执行器不挂在实例上**：其内部 memo 是「单次提问」
-        # 级别的去重缓存，必须在 ask_stream 内按请求新建，否则并发请求会互相清空/串用
-        # 对方的 memo（把 A 的检索结果当成 B 的缓存命中）。见 ask_stream 中的构造注释。
+        # 本服务是进程级单例，但**工具运行时与图都不挂在实例上**：工具运行时持有
+        # 「单次提问」级的去重 memo，必须按请求新建，否则并发请求会互相清空/串用
+        # 对方的缓存（把 A 的检索结果当成 B 的缓存命中）。见 ask_stream 中的构造注释。
         self.api_key = settings.llm_api_key or ""
         self.base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
-        self.client = OpenAI(api_key=self.api_key, base_url=self.base_url) if self.api_key else None
+        # LLM 客户端进程级复用：ChatOpenAI 内部持有 httpx 连接池，按请求新建会丢掉
+        # keep-alive、每次重新握手；它是无状态且线程安全的，可跨请求共享。
+        self._llm = self._make_llm() if self.api_key else None
 
     def _qa_service(self):
         if self._qa is None:
@@ -127,8 +139,24 @@ class AgentService:
             self._qa = QAService()
         return self._qa
 
+    def _make_llm(self) -> ChatOpenAI:
+        """构建共享的 ChatOpenAI 客户端（决策步用它产出 tool_calls）。"""
+        kwargs: Dict[str, Any] = {
+            "model": settings.agent_model or settings.llm_qa_model,
+            "api_key": self.api_key,
+            "base_url": self.base_url,
+            "temperature": 0.1,
+            "max_tokens": 1024,  # 决策步只需产出 tool_calls 或一句结论，无需长文
+            # 单次请求超时与端到端预算同量级：超预算的探索本就没有价值
+            "timeout": float(settings.agent_timeout_total),
+        }
+        extra_body = settings.llm_extra_body()
+        if extra_body:
+            kwargs["extra_body"] = extra_body
+        return ChatOpenAI(**kwargs)
+
     # ================================================================
-    #  探索循环
+    #  图与提示
     # ================================================================
     @staticmethod
     def _system_prompt(detected_jurisdictions: List[str]) -> str:
@@ -151,42 +179,48 @@ class AgentService:
             f"【已知法域】{jur_hint}（若非空，检索时优先使用该法域）。"
         )
 
-    def _chat(self, messages: List[Dict]):
-        """一次带工具的 LLM 决策调用（非流式：需要拿到 tool_calls）。"""
-        kwargs = {
-            "model": settings.agent_model or settings.llm_qa_model,
-            "messages": messages,
-            "tools": TOOL_SCHEMAS,
-            "tool_choice": "auto",
-            "temperature": 0.1,
-            "max_tokens": 1024,
-        }
-        extra_body = settings.llm_extra_body()
-        if extra_body:
-            kwargs["extra_body"] = extra_body
-        return self.client.chat.completions.create(**kwargs)
+    def _build_agent(self, system_prompt: str, tools: List[Any]):
+        """构建 LangGraph ReAct 图：模型↔工具循环由框架驱动。
+
+        `create_agent` 是当前 LangChain 的推荐入口（`langgraph.prebuilt.create_react_agent`
+        已标记弃用）。此处只传模型、工具与系统提示——预算、停滞、证据收敛等策略仍由
+        本服务在消费事件流时执行，避免把实测调优的逻辑埋进框架中间件里难以观测。
+
+        图按请求构建（工具绑定请求级 memo），但模型客户端复用进程级实例（见 __init__）。
+        """
+        return create_agent(self._llm, tools, system_prompt=system_prompt)
 
     @staticmethod
-    def _assistant_message_dict(msg) -> Dict:
-        """把 SDK 的 assistant 消息（含 tool_calls）转成可回传的纯 dict。"""
-        tool_calls = []
-        for tc in (getattr(msg, "tool_calls", None) or []):
-            tool_calls.append({
-                "id": tc.id,
-                "type": "function",
-                "function": {
-                    "name": tc.function.name,
-                    "arguments": tc.function.arguments or "{}",
-                },
-            })
-        out: Dict = {"role": "assistant", "content": msg.content or ""}
-        if tool_calls:
-            out["tool_calls"] = tool_calls
-        return out
+    def _recursion_limit() -> int:
+        """图的超级步上限（防御性第二层预算）。
+
+        LangGraph 以「超级步」计数，一次「模型决策 + 工具执行」约消耗 2 步，故取
+        `max_steps * 2 + 1`。主预算由本服务的工具次数与步数计数执行，此处仅防跑飞。
+        """
+        return max(3, max(1, int(settings.agent_max_steps)) * 2 + 1)
 
     # ================================================================
     #  证据累积与收口
     # ================================================================
+    @staticmethod
+    def _parse_tool_result(content: Any) -> Dict:
+        """把 ToolMessage 的内容解析回工具结果 dict（工具统一以 JSON 文本回传）。"""
+        if isinstance(content, dict):
+            return content
+        if isinstance(content, list):
+            # LangChain 可能以 content blocks 列表承载文本，拼接其中的 text 块
+            content = "".join(
+                b.get("text", "") if isinstance(b, dict) else str(b) for b in content
+            )
+        if isinstance(content, str):
+            try:
+                parsed = json.loads(content)
+                if isinstance(parsed, dict):
+                    return parsed
+            except Exception:
+                pass
+        return {"raw": content}
+
     @staticmethod
     def _add_ctx(evidence: Dict[str, Dict], r: Dict, similarity: float, source: str = "search") -> None:
         """把一条工具结果并入证据池（按 law_id::article 去重，保留更高相似度）。
@@ -354,27 +388,135 @@ class AgentService:
             return True
 
     # ================================================================
+    #  探索：消费 LangGraph 事件流，执行预算/停滞策略并转发 SSE
+    # ================================================================
+    def _explore(self, agent, messages_in: List[Dict], total_start: float):
+        """同步消费图的事件流，边转发 SSE 边执行预算/停滞策略。
+
+        yield 形状统一为 7 元组 `(event, evidence, graph_parts, trace, tool_calls, turns, stop)`：
+        转发事件时仅 `event` 非空，末尾再 yield 一次汇总结果（`event` 为空、其余字段填齐），
+        调用方据此区分「转发」与「汇总」，避免两套不同的返回形态。
+
+        为什么不用异步：LangGraph 是 async-first，但 `stream()` 提供同步版本，可直接嵌
+        进本项目的同步 SSE 生成器；改 async 会与「重操作不得占用事件循环」的既有铁律冲突，
+        还需额外做 async→sync 桥接。
+
+        预算与停滞为何放在这里而非中间件：它们需要在事件流上被观测与说明（trace 要写清
+        「为什么这次提前收口」）；放进中间件会把策略埋进框架内部、难以日志化与单测，
+        反而更复杂。
+        """
+        evidence: Dict[str, Dict] = {}
+        graph_parts: List[str] = []
+        graph_seen: set = set()
+        trace: List[Dict] = []
+        pending: Dict[str, Dict] = {}  # tool_call_id → 该次调用的 step/name/args
+        tool_calls_made = 0
+        model_turns = 0  # 模型决策轮次，等价于旧实现里的 step
+        stop_reason = "step_budget"
+        # 停滞计数：连续多少次工具调用没给证据池带来新增。模型偶尔会用不同措辞重复
+        # 检索同一内容，这类调用不产生新证据，留着只会拖长延迟，故达到阈值即收口。
+        no_gain_streak = 0
+        stagnant_limit = max(1, int(settings.agent_max_stagnant_steps))
+        halt = False
+        stream = None
+
+        try:
+            stream = agent.stream(
+                {"messages": messages_in},
+                stream_mode="updates",  # 按节点交付增量：model 节点给决策，tools 给观测
+                config={"recursion_limit": self._recursion_limit()},
+            )
+            for chunk in stream:
+                if time.time() - total_start > settings.agent_timeout_total:
+                    stop_reason = "timeout"
+                    logger.info("[Agent] 超出时长上限，收口作答（turn=%d）", model_turns)
+                    break
+
+                for _node, payload in (chunk or {}).items():
+                    for m in ((payload or {}).get("messages") or []):
+                        if isinstance(m, AIMessage):
+                            calls = list(getattr(m, "tool_calls", None) or [])
+                            if not calls:
+                                # 模型主动结束探索（认为证据足够 / 无需工具），最理想的收敛
+                                stop_reason = "model_stop"
+                                continue
+                            model_turns += 1
+                            for tc in calls:
+                                if tool_calls_made >= settings.agent_max_tool_calls:
+                                    stop_reason = "tool_budget"
+                                    halt = True
+                                    break
+                                tool_calls_made += 1
+                                args = tc.get("args") or {}
+                                pending[tc.get("id")] = {
+                                    "step": model_turns, "name": tc.get("name"), "args": args,
+                                }
+                                yield ({"type": "step", "step": model_turns, "action": "tool_call",
+                                        "tool": tc.get("name"), "args": args}, None, None, None, None, None, None)
+                        elif isinstance(m, ToolMessage):
+                            info = pending.pop(getattr(m, "tool_call_id", ""), None)
+                            if info is None:
+                                continue
+                            result = self._parse_tool_result(m.content)
+                            gained = self._absorb_evidence(
+                                info["name"], result, evidence, graph_parts, graph_seen)
+                            summary = self._summarize_result(info["name"], result)
+                            trace.append({"step": info["step"], "tool": info["name"],
+                                          "args": info["args"], "summary": summary})
+                            yield ({"type": "observation", "step": info["step"],
+                                    "tool": info["name"], "summary": summary}, None, None, None, None, None, None)
+
+                            # 停滞短路：连续多次调用都没带来新证据 → 判定为低效重复，立即收口
+                            if gained:
+                                no_gain_streak = 0
+                            else:
+                                no_gain_streak += 1
+                                if no_gain_streak >= stagnant_limit:
+                                    stop_reason = "no_progress"
+                                    halt = True
+                                    logger.info(
+                                        "[Agent] 连续 %d 次工具调用无新增证据，提前收口（turn=%d, tool=%s）",
+                                        no_gain_streak, model_turns, info["name"],
+                                    )
+                if halt:
+                    break
+        except Exception as e:
+            # 图递归上限（步数耗尽）与网络/模型异常都归入预算耗尽，用已得证据作答。
+            # 不按类型硬判（避免依赖具体异常类路径），按类名识别递归上限。
+            stop_reason = "step_budget" if type(e).__name__ == "GraphRecursionError" else "llm_error"
+            logger.warning("[Agent] 探索中断（%s），改用已收集证据作答: %s: %s",
+                           stop_reason, type(e).__name__, e)
+        finally:
+            if stream is not None and halt:
+                # 提前收口时显式关闭生成器，避免图在后台继续推进
+                close = getattr(stream, "close", None)
+                if callable(close):
+                    close()
+
+        yield (None, evidence, graph_parts, trace, tool_calls_made, model_turns, stop_reason)
+
+    # ================================================================
     #  主流程（SSE 事件生成器）
     # ================================================================
     def ask_stream(self, question: str, top_k: int = 5,
                    jurisdictions: Optional[List[str]] = None,
                    history: Optional[List[Dict]] = None,
                    route_mode: str = ROUTE_MODE_AUTO) -> Iterator[Dict]:
-        """迭代式工具调用问答；任何降级路径都回退到既有 RAG，保证有结果。
+        """多步推理问答；任何降级路径都回退到既有 RAG，保证有结果。
 
         route_mode 决定「是否值得走多步探索」：
-          - auto（默认）：按 should_use_agent 的复杂度规则决定；
+          - auto（默认）：按复杂度规则决定；
           - agent：强制走 Agent（前端「深度模式」）；
           - fast：强制走既有快速 RAG。
         简单/定向查询走快速 RAG，避免用简单查询的延迟换复杂查询的收益。
         """
-        # 开关关闭：直接走既有 RAG（端点仍可用）
+        # 开关关闭 / 未配密钥：直接走既有 RAG（端点仍可用）
         if not settings.agent_enabled:
             logger.info("[Agent] agent_enabled=false，降级为既有 RAG 链路")
             yield from self._qa_service().ask_stream(question, top_k, jurisdictions, history)
             return
 
-        if not self.client:
+        if not self.api_key:
             logger.warning("[Agent] 未配置 LLM 密钥，降级为既有 RAG 链路")
             yield from self._qa_service().ask_stream(question, top_k, jurisdictions, history)
             return
@@ -420,96 +562,37 @@ class AgentService:
         except Exception:
             detected = []
 
-        # 每请求独立的工具执行器：其 memo 是「单次提问」级去重缓存，必须与请求同生命周期；
-        # 并发请求各持一份、互不干扰（详见 __init__ 说明）。jurisdictions 供图谱工具做
-        # 法域内证据过滤，避免跨法域无关证据污染答案。
-        tools = AgentTools(self.retriever, self._qa_service, jurisdictions=detected)
-        messages: List[Dict] = [{"role": "system", "content": self._system_prompt(detected)}]
+        # 每请求独立的工具运行时与图：工具 memo 是「单次提问」级去重缓存，必须与请求
+        # 同生命周期，并发请求各持一份、互不干扰（详见 __init__ 说明）。jurisdictions
+        # 供图谱工具做法域内证据过滤，避免跨法域无关证据污染答案。
+        toolkit = AgentToolkit(self.retriever, self._qa_service, jurisdictions=detected)
+        agent = self._build_agent(self._system_prompt(detected), toolkit.build_tools())
+
+        messages_in: List[Dict] = []
         if history:
             for h in history[-6:]:
                 if h.get("role") in ("user", "assistant") and h.get("content"):
-                    messages.append({"role": h["role"], "content": h["content"]})
-        messages.append({"role": "user", "content": question})
+                    messages_in.append({"role": h["role"], "content": h["content"]})
+        messages_in.append({"role": "user", "content": question})
 
+        # 探索：由 _explore 消费图事件流并执行预算/停滞策略
         evidence: Dict[str, Dict] = {}
         graph_parts: List[str] = []
-        graph_seen: set = set()
         trace: List[Dict] = []
         tool_calls_made = 0
-        llm_calls = 0
-        # 探索结束原因：用于日志与 end 事件归因（评测时区分「模型自然停」与「被预算截断」）。
+        llm_turns = 0
         stop_reason = "step_budget"
-        # 停滞计数：连续多少次工具调用没给证据池带来新增。模型偶尔会用不同措辞重复
-        # 检索同一内容，这类调用不产生新证据，留着只会拖长延迟，故达到阈值即收口。
-        no_gain_streak = 0
-        stagnant_limit = max(1, int(settings.agent_max_stagnant_steps))
-
-        for step in range(1, max(1, settings.agent_max_steps) + 1):
-            if time.time() - total_start > settings.agent_timeout_total:
-                stop_reason = "timeout"
-                logger.info("[Agent] 超出时长上限，收口作答（step=%d）", step)
-                break
-            try:
-                resp = self._chat(messages)
-                llm_calls += 1
-            except Exception as e:
-                stop_reason = "llm_error"
-                logger.warning("[Agent] 探索步 LLM 调用失败（step=%d）: %s: %s", step, type(e).__name__, e)
-                break
-
-            msg = resp.choices[0].message
-            tool_calls = getattr(msg, "tool_calls", None) or []
-            if not tool_calls:
-                # 模型主动结束探索（认为证据足够 / 无需工具），这是最理想的收敛方式
-                stop_reason = "model_stop"
-                break
-
-            messages.append(self._assistant_message_dict(msg))
-            tool_budget_hit = False
-            for tc in tool_calls:
-                if tool_calls_made >= settings.agent_max_tool_calls:
-                    stop_reason = "tool_budget"
-                    tool_budget_hit = True
-                    break
-                name = tc.function.name
-                try:
-                    args = json.loads(tc.function.arguments or "{}")
-                    if not isinstance(args, dict):
-                        args = {}
-                except Exception:
-                    args = {}
-                tool_calls_made += 1
-
-                yield {"type": "step", "step": step, "action": "tool_call", "tool": name, "args": args}
-                result = tools.execute(name, args)
-                gained = self._absorb_evidence(name, result, evidence, graph_parts, graph_seen)
-                summary = self._summarize_result(name, result)
-                trace.append({"step": step, "tool": name, "args": args, "summary": summary})
-                yield {"type": "observation", "step": step, "tool": name, "summary": summary}
-                messages.append({
-                    "role": "tool",
-                    "tool_call_id": tc.id,
-                    "content": json.dumps(result, ensure_ascii=False),
-                })
-
-                # 停滞短路：连续多次调用都没带来新证据 → 判定为低效重复，立即收口。
-                if gained:
-                    no_gain_streak = 0
-                else:
-                    no_gain_streak += 1
-                    if no_gain_streak >= stagnant_limit:
-                        stop_reason = "no_progress"
-                        logger.info(
-                            "[Agent] 连续 %d 次工具调用无新增证据，提前收口（step=%d, tool=%s）",
-                            no_gain_streak, step, name,
-                        )
-                        break
-            if tool_budget_hit or stop_reason == "no_progress":
-                break
+        for ev, ev_evidence, ev_parts, ev_trace, ev_calls, ev_turns, ev_stop in self._explore(
+                agent, messages_in, total_start):
+            if ev is not None:
+                yield ev
+                continue
+            evidence, graph_parts, trace = ev_evidence, ev_parts, ev_trace
+            tool_calls_made, llm_turns, stop_reason = ev_calls, ev_turns, ev_stop
 
         # 探索未产出任何证据 → 降级到既有 RAG（保证有答案，覆盖简单问题/工具全失败）
         if not evidence and not graph_parts:
-            logger.info("[Agent] 探索未产出证据，降级为既有 RAG 链路（steps=%d）", len(trace))
+            logger.info("[Agent] 探索未产出证据，降级为既有 RAG 链路（turns=%d）", llm_turns)
             yield from self._qa_service().ask_stream(question, top_k, jurisdictions, history)
             return
 
@@ -563,8 +646,8 @@ class AgentService:
 
         total_time = time.time() - total_start
         logger.info(
-            "[Agent] 完成：steps=%d tool_calls=%d llm_calls=%d 证据=%d 图谱=%d stop=%s 耗时=%.2fs",
-            len(trace), tool_calls_made, llm_calls + 1, len(contexts), len(graph_parts),
+            "[Agent] 完成：steps=%d tool_calls=%d llm_turns=%d 证据=%d 图谱=%d stop=%s 耗时=%.2fs",
+            len(trace), tool_calls_made, llm_turns + 1, len(contexts), len(graph_parts),
             stop_reason, total_time,
         )
         yield {"type": "end", "cache_hit": False, "stop_reason": stop_reason,
