@@ -1,0 +1,12 @@
+# 评测环境专用依赖（宿主隔离 venv：.venv-eval，禁止装入 backend 镜像）
+#
+# 隔离理由：backend 镜像锁定 langchain>=1.0.0 / langgraph>=1.0.0，而 ragas 会引入
+# 同一族的 langchain 依赖树，若装入镜像存在版本下探、波及 Agent 核心模块的风险。
+# 故 ragas 只在宿主独立 venv 运行，仅消费评测脚本产出的 JSON 成品。
+#
+# 关键钉版说明：ragas==0.4.3 对 langchain-community 未设版本上界，pip 默认解析到
+# 0.4.x，而该线已移除 langchain_community.chat_models.vertexai，导致 ragas 包
+# 导入期即 ModuleNotFoundError（上游打包缺陷）。故必须显式钉住 <0.4（0.3.31 实测可用）。
+ragas==0.4.3
+langchain-community==0.3.31
+openai==1.109.1

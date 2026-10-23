@@ -1,45 +1,8 @@
-"""
-法律实体消歧服务 v1.0
-----------------------
-在 LLM 抽取出的三元组之上做实体归一，解决同一实体在不同法域、不同语言、
-不同字形下被当作不同实体的问题（例如「个人数据」/「個人資料」/「personal data」）。
+"""法律实体消歧：L1 规范化 → L2 别名表 → L3 向量对齐 → L4 类型约束。
 
-分层设计（成本由低到高，逐层独立交付）：
-    L1 规范化   ：NFKC（全角转半角）+ 繁转简 + 小写 + 去空白标点
-    L2 别名表   ：登记法律领域已知的同义/跨语言写法，直接映射到规范名
-    L3 向量对齐 ：bge-m3 跨语言向量相似度，兜住 L1 字表未覆盖的异体与措辞差异
-    L4 类型约束 ：只在相同实体类型内合并，避免「法律主体」被并进「法律概念」
-
-关于 L1 的覆盖范围：
-    项目内的繁简字表（repositories.elasticsearch.zh_t2s）是为「法规名称匹配」
-    整理的高频字表，未覆盖全部繁体字。此处在其之上叠加法律实体名常用的补充字表，
-    残留的字形差异由 L2 别名表显式登记 —— 法律领域的核心实体数量有限
-    （数十个），这正是 L2 存在的原因；长尾差异留给 L3 向量对齐。
-
-关于 L3 的定位（基于实测证据，重要）：
-    L3 是「变体兜底」，不是「语义聚类」。实测 378 个真实实体、17323 个同类型候选对后
-    确认：bge-m3 无法区分「语义相近但法律含义不同」的名称 —— 「最高一年徒刑或一百二十日
-    罰金」与「最高二年徒刑或二百四十日罰金」余弦 0.933、「總體規劃」与「詳細規劃」0.929，
-    纯阈值方案（0.90）会产生至少 6 对错误合并，这在法律知识图谱里是实质性错误。
-    因此 L3 采用「向量相似度 + 三重守卫」，且守卫才是判别主力：
-        · 数字一致   ：名称中的数字承载「量」（刑期/金额/期限），不同则必然不同实体
-        · 编辑距离   ：归一化后差异必须 <= entity_align_max_edit，区分变体与语义差异
-        · 长度上限   ：超长「描述型串」不参与，其表面相似度虚高而含义各异
-    实测该组合（阈值 0.95 + 数字一致 + 编辑距离<=1 + 长度<=40）在真实词典 378 个实体上
-    仅触发 2 对合并，全部人工核验为纯词缀變体（前缀「處」、助词「的」），可接受；
-    相应地，召回面很窄 —— 这是有意的：法律实体名上「宁可漏并，不可误并」。
-
-关于比对范围（两轮）：
-    第 1 轮「与词典比对」：把新实体归拢到词典里既有的规范实体；
-    第 2 轮「批次内部比对」：一对變体若在**同一批次里首次共同出现**、词典里都还没有
-    条目，第 1 轮会因两侧都无处可归而双双落库、形成新的重复实体 —— 这正是历史遗留
-    重复的来源。第 2 轮专堵这个复发源，复用同一套守卫，可整体关闭
-    （entity_align_intra_batch）。
-
-重要约束：
-    Article（条款）是「法规内局部实体」：A 法规的「条款 1」与 B 法规的
-    「条款 1」不是同一个东西，因此其规范 ID 必须带 law_id，禁止跨法规合并。
-    L3 同样跳过 Article —— 条款号靠 L1 归一即可，向量对齐对它只会有害。
+L3 是变体兜底而非语义聚类：bge-m3 对「语义相近但法律含义不同」的名称余弦可达 0.93，
+故判定主力是三重守卫（阈值 0.95 + 数字一致 + 编辑距离<=1 + 长度<=40），宁可漏并不可误并。
+Article 是法规内局部实体，规范 ID 必须带 law_id，禁止跨法规合并，L3 同样跳过。
 """
 
 import logging
@@ -196,11 +159,7 @@ def _to_simplified(text: str) -> str:
 
 
 def normalize_name(name: str) -> str:
-    """
-    L1 规范化：NFKC（全角转半角）→ 繁转简 → 小写 → 去空白与标点。
-
-    该函数结果用于「判断两个实体名是否等价」，不用于展示。
-    """
+    """L1 规范化：NFKC（全角转半角）→ 繁转简 → 小写 → 去空白与标点；结果只用于判断等价，不用于展示。"""
     if not name:
         return ""
     text = unicodedata.normalize("NFKC", name)
@@ -221,14 +180,10 @@ _NUMERAL_T2S = {"兩": "两", "萬": "万", "億": "亿"}
 
 
 def numeral_signature(name: str) -> str:
-    """
-    抽取名称中的全部数字 token，归一化后排序拼接，用于「数字一致」守卫。
+    """抽取名称中的全部数字 token 归一化后排序拼接，用于「数字一致」守卫。
 
-    法律实体名里的数字承载「量」——刑期（二年/六個月）、金额（二百四十日罰金）、
-    期限、条款号。数字不同必然不是同一实体，而向量对这类差异不敏感
-    （实测「最高一年徒刑」与「最高二年徒刑」余弦高达 0.933），故用此守卫硬拦。
-
-    返回空串表示名称中无数字，此时该守卫不产生约束（两侧都无数字才相等）。
+    法律实体名里的数字承载「量」（刑期/金额/期限），数字不同必非同一实体，而向量对此不敏感；
+    返回空串表示无数字，此时该守卫不产生约束。
     """
     tokens = []
     for match in _NUMERAL_RE.finditer(name or ""):
@@ -238,13 +193,7 @@ def numeral_signature(name: str) -> str:
 
 
 def edit_distance(a: str, b: str) -> int:
-    """
-    Levenshtein 距离（滚动数组 DP）。
-
-    用于区分「变体差异」与「语义差异」：变体通常只差 1-2 个字符
-    （前缀「處」、助词「的」、繁简表未覆盖的异体字），而语义不同的名称
-    差异远大于此（「總體規劃」vs「詳細規劃」）。
-    """
+    """Levenshtein 距离（滚动数组 DP）：变体通常只差 1-2 个字符，语义不同的名称差异远大于此。"""
     if a == b:
         return 0
     if not a:
@@ -300,16 +249,9 @@ class EntityDisambiguationService:
 
     @staticmethod
     def resolve(name: str, etype: str, law_id: str = "") -> Tuple[str, str]:
-        """
-        解析单个实体（L1 规范化 + L2 别名表 + L4 类型约束），返回 (规范 ID, 规范展示名)。
+        """L1/L2/L4 解析：返回 (规范 ID, 规范展示名)；纯函数，不读词典、不编码向量。
 
-        - Article 类型：规范 ID 带 law_id，跨法规不合并；
-        - 命中 L2 别名表：归并到规范名；
-        - 未命中：以自身归一化结果作为规范名（等价于「保持独立」），
-          是否进一步由 L3 向量对齐归并，由 canonicalize() 决定。
-
-        本方法是纯函数（不读词典、不编码向量），L3 因需读实体词典而放在
-        canonicalize() 中作为第二阶段，两者职责分离。
+        Article 的规范 ID 带 law_id（跨法规不合并）；命中别名表归并到规范名，未命中保持独立。
         """
         norm = normalize_name(name)
         if not norm:
@@ -326,11 +268,7 @@ class EntityDisambiguationService:
 
     @staticmethod
     def _guard_reject(name: str, candidate_name: str, similarity: float) -> Optional[str]:
-        """
-        L3 三重守卫判定：通过返回 None，未通过返回原因（供日志与候选审计）。
-
-        守卫顺序按「代价从低到高、拦截力从强到弱」排列，命中即返回。
-        """
+        """L3 三重守卫判定：通过返回 None，未通过返回原因（供日志与候选审计）；按拦截力从强到弱排列，命中即返回。"""
         if similarity < settings.entity_align_threshold:
             return "similarity_below_threshold"
         if numeral_signature(name) != numeral_signature(candidate_name):
@@ -344,29 +282,35 @@ class EntityDisambiguationService:
             return "edit_distance_too_large"
         return None
 
+    @staticmethod
+    def _is_actionable(name: str, candidate_name: str, blocked_by: str) -> bool:
+        """是否「可行动候选」：仅因相似度未达阈值被拦、其余守卫均能通过，即放宽阈值后即可安全归并。
+
+        _guard_reject 命中即返回，被阈值拦下时后续守卫未真正评估，故这里重跑一遍，滤除语义不同的对。
+        """
+        if blocked_by != "similarity_below_threshold":
+            return False
+        norm_a, norm_b = normalize_name(name), normalize_name(candidate_name)
+        if not norm_a or not norm_b:
+            return False
+        if max(len(norm_a), len(norm_b)) > settings.entity_align_max_name_len:
+            return False
+        if numeral_signature(name) != numeral_signature(candidate_name):
+            return False
+        if "《" in name or "《" in candidate_name:
+            return False
+        if edit_distance(norm_a, norm_b) > settings.entity_align_max_edit:
+            return False
+        return True
+
     def _align_keys(
         self,
         keys: Dict[Tuple[str, str], Tuple[str, str]],
     ) -> Dict:
-        """
-        L3 向量对齐：把 L1/L2 未能归并的实体对齐到实体词典中已有的规范实体。
+        """L3 向量对齐：把 L1/L2 未归并的非 Article 实体对齐到词典已有的规范实体。
 
-        只处理「L2 别名表未命中」的实体 —— 已归并的无需再判，且能显著压缩编码量；
-        只处理非 Article 类型 —— 条款是法规内局部实体（见模块 docstring）。
-
-        词典快照一次性取回后在内存做同类型矩阵比较，避免逐条 ES 往返。
-        任何一步失败都返回空 mapping（等价于不启用 L3），不向调用方抛异常。
-
-        Returns:
-            {
-              "mapping": {待对齐实体的 canonical_id: 归并后的规范 entity_id
-                          （已由 _resolve_alignment 去除互指环与链式映射）},
-              "display": {待对齐实体的 canonical_id: 归并后规范实体的展示名},
-              "applied": 归并条数,
-              "candidates": 相似度较高但被守卫拦下的候选（供人工扩表到 L2）,
-              "known_vectors": 词典中已有向量的 entity_id 集合,
-              "ready": 词典快照是否成功加载（决定是否需要补算新实体向量）,
-            }
+        词典快照一次取回后在内存做同类型矩阵比较，避免逐条 ES 往返；任一步失败返回空 mapping
+        （等价于不启用 L3），不抛异常。返回 mapping/display/applied/candidates/known_vectors/ready。
         """
         empty = {
             "mapping": {}, "display": {}, "applied": 0,
@@ -402,8 +346,7 @@ class EntityDisambiguationService:
             if d.get("entity_id") and d.get("embedding")
         }
 
-        # 回填：L3 上线前写入的词典条目没有向量，若不补算，它们永远无法被匹配，
-        # 向量对齐会「看不到任何候选」而形同虚设。
+        # 回填：历史词典条目没有向量，不补算就永远无法被匹配，向量对齐会形同虚设。
         missing = [
             d for d in snapshot
             if d.get("entity_id") and d.get("name") and not d.get("embedding")
@@ -444,16 +387,14 @@ class EntityDisambiguationService:
             logger.warning(f"[消歧] L3 待对齐实体编码失败，跳过向量对齐: {type(e).__name__}")
             return {**empty, "known_vectors": known_vectors, "ready": True}
 
-        # 词典按类型分组，只保留有向量的条目。可能为空（首次抽取时词典尚无条目），
-        # 此时下面这轮「与词典比对」自然空转，但批次内部比对仍要执行，故不提前返回
+        # 词典按类型分组（含刚回填的向量）。首次抽取时词典可能为空，此时「与词典比对」空转，但批次内部比对仍要执行，故不提前返回
         by_type: Dict[str, List[Dict]] = {}
         for d in snapshot:
             if d.get("embedding") and d.get("entity_id"):
                 by_type.setdefault(d.get("type", "Concept"), []).append(d)
 
-        # 先收集「两两命中」，最后再统一解析成归并表。
-        # 不能边判定边写 mapping：守卫是对称的，若一对變体同时出现在待对齐集合与词典中，
-        # 会同时产生 A->B 与 B->A，直接落库等于两个规范 ID 对调（见 _resolve_alignment）。
+        # 先收集「两两命中」，最后统一解析成归并表：不能边判定边写 mapping，
+        # 否则对称守卫会同时产出 A->B 与 B->A，落库等于两个规范 ID 对调（见 _resolve_alignment）。
         accepted: List[Tuple[str, str]] = []
         candidates: List[Dict] = []
         seen_candidates: set = set()
@@ -462,11 +403,7 @@ class EntityDisambiguationService:
             name: str, etype: str, cand_name: str, cand_id: str,
             score: float, reason: str,
         ) -> None:
-            """
-            记录「被守卫拦下但相似度不低」的候选，供人工确认后登记进 L2 别名表。
-
-            词典比对与批次内部比对可能对同一对给出同一条记录，故按 (名称, 候选ID) 去重。
-            """
+            """记录「被守卫拦下但相似度不低」的候选，供人工确认后登记进 L2 别名表；按 (名称, 候选ID) 去重。"""
             key = (name, cand_id)
             if not cand_id or score < 0.80 or key in seen_candidates:
                 return
@@ -528,10 +465,8 @@ class EntityDisambiguationService:
                     )
 
         # ---- 批次内部两两比对 ----
-        # 一对變体若在**同一批次里首次共同出现**、词典里都还没有对应条目，那么上面
-        # 那轮「与词典比对」会因两侧都无处可归而双双落库，形成新的重复实体
-        #（历史遗留的重复正来源于此）。这里补一轮同类型内部比对，复用同一套守卫，
-        # 让两侧都还是新实体时也能归拢到其中更规范的一方（由 _resolve_alignment 定夺）。
+        # 一对變体若在同一批次首次共同出现、词典里都还没有条目，「与词典比对」会双双落库形成新重复，
+        # 故补一轮同类型内部比对（复用同一套守卫），归并方向由 _resolve_alignment 定夺。
         if settings.entity_align_intra_batch:
             all_vectors = np.asarray(query_vectors, dtype=np.float32)
             by_type_pending: Dict[str, List[int]] = {}
@@ -597,29 +532,11 @@ class EntityDisambiguationService:
         dict_ids: set,
         scope: set,
     ) -> Tuple[Dict[str, str], Dict[str, str]]:
-        """
-        把「两两命中」解析成无环的最终归并表（并查集），返回 (mapping, display)。
+        """把「两两命中」解析成无环的最终归并表（并查集），返回 (mapping, display)。
 
-        为什么必须做：守卫是**对称**的（数字/编辑距离/长度判定都与方向无关），
-        因此当一对變体（A、B）都已存在于词典、又同时出现在本次待对齐集合中时，
-        会同时产出 A->B 与 B->A。若直接落库，`canonicalize` 第 3 步会把两个规范 ID
-        对调 —— 实体数不变、归并实际失败。链式命中（A->B、B->C）需要传递闭包才能收敛。
-
-        代表选取规则（**保证确定性**，同一输入两次运行的归并结果必须一致）：
-          1. 词典中既有的实体优先 —— 归并目标必须是「已在词典里的」规范实体。
-             否则本次批量里的新写法可能反过来吞掉词典里的既有实体，映射退化为空、
-             该合并被静默跳过；
-          2. 已积累别名多者优先 —— 别名多的那个是被反复归拢的一方，更应作为规范实体；
-          3. 名称短者优先 —— 噪声词缀（前缀「處」、助词「的」）只会让名称变长，
-             短的那个更接近规范写法；
-          4. entity_id 字典序 —— 纯兜底，只为在完全等价时也有确定的唯一解。
-
-        输出阶段遍历**变体簇内的全部节点**，而非只遍历 accepted 的左侧。
-        原因：批次内部比对时两侧都是新实体、都不在词典里，规则 1/2 同时打平，
-        代表由「名称短者」决定，可能恰好落在左侧。若只遍历左侧，该实体被当作
-        「自身即代表」跳过，同伴则永远拿不到映射 —— 合并静默失败、重复照旧产生。
-        `scope` 为本次待对齐的规范 ID 集合，用于把输出收敛到本批次涉及的实体上，
-        避免把「只在词典里、本批次未出现」的实体也写进 mapping 虚增归并数。
+        必须做：守卫是对称的，同时出现 A->B 与 B->A 会让两个规范 ID 对调、归并实际失败，链式命中需传递闭包。
+        代表选取保证确定性：词典既有 > 别名多 > 名称短 > entity_id 字典序；
+        输出遍历簇内全部节点并限定 scope，避免只遍历左侧导致同伴拿不到映射、或虚增归并数。
         """
         parent: Dict[str, str] = {}
 
@@ -665,12 +582,9 @@ class EntityDisambiguationService:
         return mapping, display
 
     def _embed_entities(self, entities: Dict[str, Dict], align: Dict) -> None:
-        """
-        为非 Article 的规范实体补算 embedding 并挂在实体文档上（由写入路径落库）。
+        """为非 Article 的规范实体补算 embedding 并挂在实体文档上（由写入路径落库）。
 
-        必要性：向量对齐「匹配已有词典」的前提是词典里有向量。若新入库实体不回写向量，
-        词典只能被匹配、不能作为匹配目标，覆盖面无法自增长。
-        已有向量的实体不重算（merge_kg_entities 也会优先保留旧向量）。
+        必要性：向量对齐的前提是词典里有向量，新实体不回写向量则词典无法自增长；已有向量的不重算。
         """
         if not align.get("ready"):
             return
@@ -700,29 +614,11 @@ class EntityDisambiguationService:
         law_id: str = "",
         jurisdiction: str = "",
     ) -> Dict:
-        """
-        对一批三元组做实体归一（L1/L2/L4 + L3），并汇总出需要写入实体词典的条目。
+        """对一批三元组做实体归一（L1/L2/L4 + L3），就地补写每个实体的 canonical_id 并汇总实体词典条目。
 
-        会就地补写每个实体的 canonical_id（不修改 head/tail 的原始 id/name，
-        原始抽取结果始终保留，便于回溯与效果对比）。
-
-        分三步，把「纯函数解析」与「有状态的向量对齐」解耦：
-          1. L1/L2/L4 解析出每个 (类型, 名称) 的规范 ID —— 纯函数，无外部依赖；
-          2. L3 向量对齐 —— 读实体词典，把 L2 未命中的实体改判到已有规范实体，
-             失败静默降级（不影响第 1 步结果）；
-          3. 应用结果：写回 canonical_id、汇总实体、为非 Article 规范实体补算向量。
-
-        Returns:
-            {
-              "triples": 三元组列表（已补 canonical_id）,
-              "entities": 实体词典条目列表,
-              "stats": {
-                  "raw_entities": 归一前实体数,
-                  "merged_entities": 归一后实体数,
-                  "vector_aligned": L3 归并条数,
-                  "vector_candidates": 被守卫拦下、建议人工扩表条数,
-              }
-            }
+        不修改 head/tail 的原始 id/name，便于回溯与效果对比；分三步：纯函数解析 → L3 向量对齐
+        （失败静默降级）→ 写回 canonical_id 并为非 Article 规范实体补算向量。
+        返回 triples / entities / stats（raw_entities/merged_entities/vector_aligned/vector_candidates）。
         """
         keys: Dict[Tuple[str, str], Tuple[str, str]] = {}
         raw_ids = set()
@@ -757,6 +653,18 @@ class EntityDisambiguationService:
             hit_id = align["mapping"].get(canonical_id)
             if hit_id:
                 keys[key] = (hit_id, align["display"].get(canonical_id) or canonical_id)
+
+        # 持久化「被守卫拦下的高相似候选」，供人工复核台展示（仅辅助，不自动归并）。
+        # 落库失败不影响归一结果，故整体包在 try 内降级处理。
+        if align.get("candidates"):
+            try:
+                for c in align["candidates"]:
+                    c["actionable"] = self._is_actionable(
+                        c.get("name", ""), c.get("candidate", ""), c.get("blocked_by", "")
+                    )
+                self.repo.save_kg_review_candidates(align["candidates"])
+            except Exception as e:
+                logger.warning(f"[消歧] 复核候选落库失败（不影响归一结果）: {type(e).__name__}")
 
         # ---- 第 3 步：写回 canonical_id 并汇总实体词典条目 ----
         entities: Dict[str, Dict] = {}

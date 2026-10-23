@@ -1,29 +1,7 @@
 # -*- coding: utf-8 -*-
-"""
-阶段 1 离线数据清洗（高配方案 1a / 1b / 1c / 1d）
+"""阶段 1 离线数据清洗：data/raw（只读）→ data/raw_v2（全量重建），并输出 data/phase1_report.json。
 
-读：legal_rag/data/raw             —— 只读，本脚本绝不修改原始语料
-写：legal_rag/data/raw_v2          —— 派生语料，每次运行全量重建（可复现、可回滚）
-写：legal_rag/data/phase1_report.json —— 审计报告（放在 data/ 下而非 raw_v2 内，
-                                     避免被 ingest 的目录扫描当成法规语料）
-
-变换清单
-  1a 泰国 law_id 拆分：TH_ACT_1979 拆出 Export And Import Of Goods Act, 1979
-                       TH_MIN_1999 拆出 No.22/23/24/25/26/27 六个部级规章
-                       同步重写 doc_id 前缀（原始数据中仅 law_id / doc_id 两个字段含该串）
-  1b 空文本条目盘点：只记录清单，不改数据（本机无原始语料，sub_chunks 亦无内容，无法补洗）
-  1c USA / 新加坡单字符行合并：还原被换行拆散的括号标记（"(\\na\\n)" → "(a)"）
-  1d 日期元数据回填：按文件取各日期字段的首个非空值，填齐同文件所有条目
-  1f 清除与合并（用户确认范围）：
-       1f-1 剔除三个文本字段全空的条目（不可召回，仅污染索引与统计）
-       1f-2 同文件内 doc_id 重复时保留首条
-       1f-3 新加坡 4 部法的片段 ID 文件并入规范 law_id（片段 ID 由正文首句截断生成，
-            属清洗缺陷产物，同一部法因此被拆成两个 law_id）；合并后同条款号
-            重复（新旧两代抓取并存）保留正文更长者
-
-用法：
-  python phase1_clean_data.py            # 全量重建 raw_v2 并输出报告
-  python phase1_clean_data.py --dry-run  # 只统计与校验，不写任何文件
+变换：1a 泰国 law_id 拆分 / 1b 空文本盘点 / 1c 单字符行合并 / 1d 日期回填 / 1f 空文本与重复剔除、新加坡片段 ID 合并。
 """
 
 import argparse
@@ -70,9 +48,8 @@ SHORT_LINE_MAX = 1          # 非空且长度 <= 1 的行视为被拆散的标�
 DATE_FIELDS = ("passing_date", "effective_date", "publication_date", "last_amended_date")
 
 # ---------------------------------------------------------------- 1f 清除与合并
-# 范围来自用户确认：① 空文本条目 ② 重复 doc_id ③ 新加坡重复 ID 副本 18 条。
-# 原则：只改写/剔除「重复副本」，不删除任何仅存一份的正文
-#（旧代块状条目是否剔除见报告 inventory_pending_decision 的 P1-SG-BLOCK）。
+# 只改写/剔除「重复副本」，不删除任何仅存一份的正文
+#（旧代块状条目是否剔除待决策，见报告 inventory_pending_decision 的 P1-SG-BLOCK）。
 EXCLUDE_EMPTY_TEXT = True
 DEDUP_DOC_ID = True
 
@@ -96,11 +73,7 @@ SG_ID_MERGE = {
 
 
 def merge_short_lines(text: str) -> str:
-    """把连续的单字符行拼回同一行（"(\\na\\n)\\nGeneral." → "(a)\\nGeneral."）。
-
-    空行保留为段落分隔，普通行原样保留（仅去尾部空白）。
-    幂等：已合并的文本再次处理结果不变。
-    """
+    """把连续的单字符行拼回同一行（"(\\na\\n)" → "(a)"）；空行保留为段落分隔，普通行仅去尾部空白。"""
     if not text:
         return text
     out = []
@@ -213,11 +186,7 @@ def merge_sg_items(items, fragments, old_id, new_id) -> int:
 
 
 def dedup_same_article(items):
-    """1f-3：同一 law_id + 条款号出现多条时保留正文更长者，返回被剔除条目清单。
-
-    合并后新旧两代抓取并存：旧代块状条目把多条规定压成一条且条款号为解析异常值
-    （如 2020/25/31），与逐条版本在同一部法内共存时只保留正文更完整的一条。
-    """
+    """1f-3：同一 law_id + 条款号重复时保留正文更长者（旧代块状条目与逐条版本并存），返回被剔除清单。"""
     best, dropped = {}, []
     for it in items:
         art = str(it.get("article_number") or "").strip()

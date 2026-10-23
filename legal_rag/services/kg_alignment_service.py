@@ -1,21 +1,6 @@
-"""
-跨法域概念对齐矩阵服务 v1.0
----------------------------
-回答一个跨境合规最关心的问题：「同一个法律概念，在各法域分别由多少条款规定？」
+"""跨法域概念对齐矩阵：统计同一概念在各法域的条文数（distinct source_article）。
 
-数据来源：法规知识层 legal_kg_triples（已完成实体消歧，实体以 canonical_id 归并），
-因此同一概念跨法规、跨法域的出现会被正确聚到一行。
-
-为什么在 Python 侧聚合而非 ES 聚合：
-    知识层三元组规模在数千条量级（当前约 6 千），一次取回在内存聚合比多次聚合查询
-    更简单、更灵活（可同时统计条文去重数、法域覆盖数并做排序过滤）。
-    若未来数据量级上升，再把聚合下沉到 ES。
-
-口径说明：
-    - 单元格值 = 该概念在该法域下**去重后的条文数**（distinct source_article），
-      比"三元组条数"更能反映"有多少条款在管这件事"。
-    - 只纳入「概念型」实体：排除 Article（条款是法规内局部实体），并过滤超长名称
-      （英文条款里的整句描述串），否则矩阵会被噪声撑爆、不可读。
+Python 侧聚合：三元组仅数千条，一次取回比 ES 多次聚合更灵活；排除 Article 与超长名称。
 """
 
 import logging
@@ -48,22 +33,7 @@ class KGAlignmentService:
         min_jurisdictions: int = 2,
         entity_types: Optional[List[str]] = None,
     ) -> Dict:
-        """
-        构建「概念 × 法域」条文数矩阵。
-
-        Args:
-            top_n: 返回的概念行数上限
-            min_jurisdictions: 只保留至少出现在这么多个法域的概念（跨域概念才有对比价值）
-            entity_types: 只保留指定实体类型（默认全部概念型）
-
-        Returns:
-            {
-              "jurisdictions": [法域名...],
-              "concepts": [{entity_id, name, type, jurisdiction_count, total, counts:{jur:条文数}}],
-              "max_count": 最大单元格值（供前端着色），
-              "concept_count": 概念行数
-            }
-        """
+        """构建「概念 × 法域」条文数矩阵（只保留覆盖 ≥ min_jurisdictions 个法域的概念）。"""
         triples = self.repo.get_all_kg_triples()
 
         # concept_id -> {name, type, jur: {jurisdiction: set(article)}}
@@ -117,11 +87,7 @@ class KGAlignmentService:
         }
 
     def get_concept_detail(self, entity_id: str) -> Optional[Dict]:
-        """
-        单概念下钻：列出各法域中涉及该概念的法规 / 条款号 / 关系类型。
-
-        返回 None 表示该概念在三元组中不存在（前端据此提示）。
-        """
+        """单概念下钻：各法域中涉及该概念的法规/条款号/关系类型；概念不存在时返回 None。"""
         entity_id = (entity_id or "").strip()
         if not entity_id:
             return None

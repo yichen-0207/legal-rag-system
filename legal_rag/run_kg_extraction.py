@@ -1,17 +1,10 @@
 """批量预抽取法规知识图谱 — 在容器内执行: python run_kg_extraction.py [选项]
 
-作用：把全部（或指定范围）法规的实体关系三元组预抽取并落库，填充
-legal_kg_triples / legal_kg_entities，为「跨法域概念对齐矩阵」「图算法聚簇」
-等下游能力提供数据覆盖度。
+把全部（或指定范围）法规的三元组预抽取并落库，填充 legal_kg_triples / legal_kg_entities。
+幂等：已缓存且指纹未变的法规自动跳过，不产生 LLM 调用，中断后重跑安全。
 
-幂等：已在知识层缓存且法规指纹未变的法规会被自动跳过，不产生 LLM 调用，
-因此中断后重跑安全、可续跑。
-
-用法示例：
-    python run_kg_extraction.py --dry-run                              # 只估算成本，不调用 LLM
-    python run_kg_extraction.py --law-ids MAC_LEI_8_2005,HK_CAP_486    # 指定法规（最可控）
-    python run_kg_extraction.py --sort-articles small --limit 3        # 最小的 3 部（真正的烟雾测试）
-    python run_kg_extraction.py --jurisdiction 香港                     # 按法域放量
+示例：--dry-run 只估算成本；--law-ids A,B 指定法规；
+     --sort-articles small --limit 3 烟雾测试；--jurisdiction 香港 按法域放量。
 """
 import argparse
 import json
@@ -49,6 +42,8 @@ def _parse_args() -> argparse.Namespace:
                         help="只估算成本，不调用 LLM")
     parser.add_argument("--rebuild-entities", action="store_true",
                         help="零 LLM 重建实体词典：从已有三元组重新归一并写回（修复历史写入失败）")
+    parser.add_argument("--prune-entities", action="store_true",
+                        help="（破坏性，需与 --rebuild-entities 同用）清理词典中已不被任何三元组引用的孤立实体")
     return parser.parse_args()
 
 
@@ -109,12 +104,19 @@ def main() -> int:
 
     extractor = KGExtractionService()
 
-    # ---- 零 LLM 重建实体词典 ----
+    # ---- 零 LLM 重建实体词典（历史回溯）----
     if args.rebuild_entities:
-        print(f"开始重建实体词典（零 LLM），共 {len(law_ids)} 部...")
-        summary = extractor.rebuild_entities(law_ids)
+        # 未显式指定法规时，自动收敛到「三元组索引中出现过的法规」，不做空查
+        scope_ids = law_ids if args.law_ids else None
+        scope_desc = f"{len(scope_ids)} 部（指定）" if scope_ids else "全部已抽取法规（自动收敛）"
+        print(f"开始重建实体词典（零 LLM，prune={args.prune_entities}），范围：{scope_desc}...")
+        summary = extractor.reconcile_entities(scope_ids, prune=args.prune_entities)
         print("\n===== 重建完成 =====")
-        print(f"重建 {summary['rebuilt']} / 无三元组 {summary['empty']} / 失败 {summary['failed']}")
+        print(f"范围 {summary.get('scope', 0)} 部 / 重建 {summary['rebuilt']} / "
+              f"无三元组 {summary['empty']} / 失败 {summary['failed']}")
+        if args.prune_entities:
+            pruned = summary.get("pruned", 0)
+            print(f"孤立实体清理: {pruned if pruned >= 0 else '失败（见日志）'}")
         log_path = _write_failure_log(summary.get("failed_laws", []))
         if log_path:
             print(f"失败明细已写入: {log_path}")

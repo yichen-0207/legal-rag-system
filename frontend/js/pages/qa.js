@@ -1,6 +1,3 @@
-/**
- * 法规智能问答页面
- */
 const QA_STORAGE_KEY = 'legal_rag_qa_state';
 
 function loadQAState() {
@@ -128,7 +125,6 @@ registerPage('qa', function(container) {
         </div>
     `;
 
-    // 加载法域选项
     api.get('/search/jurisdictions').then(function(data) {
         if (data && data.data) {
             const allJurs = data.data;
@@ -152,7 +148,6 @@ registerPage('qa', function(container) {
         }
     }).catch(function() {});
 
-    // 绑定事件
     setupQAEvents(container);
     renderQAMessages();
 });
@@ -226,7 +221,6 @@ function setupJurSelector() {
         });
     }
 
-    // 初始化时根据已保存的选择渲染标签
     renderJurTags();
     updateDropdownSelection();
 }
@@ -238,10 +232,8 @@ function setupQAEvents(container) {
     const topkSlider = document.getElementById('qa-topk');
     const topkVal = document.getElementById('qa-topk-val');
 
-    // 发送按钮
     sendBtn.addEventListener('click', sendQAMessage);
 
-    // Enter 发送，Shift+Enter 换行
     input.addEventListener('keydown', function(e) {
         if (e.key === 'Enter' && !e.shiftKey) {
             e.preventDefault();
@@ -249,13 +241,11 @@ function setupQAEvents(container) {
         }
     });
 
-    // 文件选择
     fileInput.addEventListener('change', function(e) {
         handleImageFiles(e.target.files);
         fileInput.value = '';
     });
 
-    // 粘贴图片
     input.addEventListener('paste', function(e) {
         const items = e.clipboardData.items;
         for (let i = 0; i < items.length; i++) {
@@ -266,14 +256,12 @@ function setupQAEvents(container) {
         }
     });
 
-    // TopK 滑块
     topkSlider.addEventListener('input', function() {
         topkVal.textContent = this.value;
         window.qaState.topK = parseInt(this.value);
         saveQAState();
     });
 
-    // 深度模式开关（Agent 多步探索）
     const deepToggle = document.getElementById('qa-deep-toggle');
     updateDeepToggleUI();
     if (deepToggle) {
@@ -298,7 +286,6 @@ function setupQAEvents(container) {
             input.value = '';
             input.style.height = 'auto';
         }
-        // 清空法域选择
         const jurSelect = document.getElementById('qa-jurisdictions');
         if (jurSelect) {
             Array.from(jurSelect.options).forEach(function(o) { o.selected = false; });
@@ -314,7 +301,6 @@ function setupQAEvents(container) {
 }
 
 function updateDeepToggleUI() {
-    // 同步开关视觉状态：开启时用主色实心，关闭时用次要按钮样式
     const btn = document.getElementById('qa-deep-toggle');
     const label = document.getElementById('qa-deep-state');
     if (!btn || !label) return;
@@ -382,7 +368,6 @@ function sendQAMessage() {
 
     const finalQuestion = question || '请分析这张图片中的法律条款内容';
 
-    // 添加用户消息
     const selectedJurs = Array.from(document.getElementById('qa-jurisdictions').selectedOptions).map(function(o) { return o.value; });
     window.qaState.messages.push({
         role: 'user',
@@ -391,19 +376,16 @@ function sendQAMessage() {
         jurisdictions: selectedJurs
     });
 
-    // 清空输入
     input.value = '';
     window.qaState.pendingImages = [];
     updateImagePreview();
 
     renderQAMessages();
 
-    // 添加助手占位消息
     const assistantMsg = { role: 'assistant', content: '', streaming: true, status: '正在检索相关法规…', trace: [] };
     window.qaState.messages.push(assistantMsg);
     renderQAMessages();
 
-    // 构建请求
     const payload = {
         question: finalQuestion,
         top_k: window.qaState.topK
@@ -421,68 +403,17 @@ function sendQAMessage() {
         });
     }
 
-    // 流式请求
-    const chatEl = document.getElementById('qa-chat');
+    // 流式请求统一走 POST 把参数放入请求体，避免多轮历史拼进 URL 触发 414
     const isMultimodal = images.length > 0;
-    // 深度模式走 Agent 流式端点（mode=auto：由后端复杂度路由决定是否多步探索，
-    // 简单/定向查询仍自动走快速通道，避免拖慢）。图片问答暂不支持 Agent，保持原链路。
+    // 深度模式走 Agent 端点（mode=auto 由后端复杂度路由决定是否多步），图片问答保持原链路
     const useAgent = window.qaState.deepMode === true && !isMultimodal;
     const streamPath = useAgent ? '/agent/stream' : '/qa/stream';
-    const url = streamPath;
-    const method = isMultimodal ? 'streamPost' : 'streamGet';
+    if (useAgent) payload.mode = 'auto';
 
-    if (isMultimodal) {
-        api.streamPost(url, payload,
-            function(chunk) { handleQAChunk(chunk, assistantMsg); },
-            function(err) { handleQAError(err, assistantMsg); }
-        );
-    } else {
-        // GET 流式请求
-        const params = new URLSearchParams();
-        params.set('question', finalQuestion);
-        params.set('top_k', window.qaState.topK);
-        if (selectedJurs.length > 0) params.set('jurisdictions', selectedJurs.join(','));
-        if (payload.history) params.set('history', JSON.stringify(payload.history));
-        if (useAgent) params.set('mode', 'auto');
-
-        const streamUrl = new URL(API_BASE + streamPath + '?' + params.toString(), window.location.origin);
-        fetch(streamUrl.toString())
-            .then(function(resp) {
-                if (!resp.ok) throw new Error('API错误: ' + resp.status);
-                const reader = resp.body.getReader();
-                const decoder = new TextDecoder();
-                let buffer = '';
-
-                function read() {
-                    reader.read().then(function(result) {
-                        if (result.done) {
-                            assistantMsg.streaming = false;
-                            renderQAMessages();
-                            return;
-                        }
-                        buffer += decoder.decode(result.value, { stream: true });
-                        const lines = buffer.split('\n');
-                        buffer = lines.pop();
-                        lines.forEach(function(line) {
-                            const trimmed = line.trim();
-                            if (trimmed.startsWith('data: ')) {
-                                try {
-                                    const data = JSON.parse(trimmed.slice(6));
-                                    handleQAChunk(data, assistantMsg);
-                                } catch (e) {}
-                            }
-                        });
-                        read();
-                    }).catch(function(err) {
-                        handleQAError(err.message, assistantMsg);
-                    });
-                }
-                read();
-            })
-            .catch(function(err) {
-                handleQAError(err.message, assistantMsg);
-            });
-    }
+    api.streamPost(streamPath, payload,
+        function(chunk) { handleQAChunk(chunk, assistantMsg); },
+        function(err) { handleQAError(err, assistantMsg); }
+    );
 }
 
 function handleQAChunk(chunk, assistantMsg) {
@@ -503,6 +434,18 @@ function handleQAChunk(chunk, assistantMsg) {
             assistantMsg.status = '正在规划检索步骤…';
         }
         renderQAMessages();
+    } else if (chunk.type === 'rewrite') {
+        // 追问指代消解：把依赖上文的追问改写为自足检索式（仅作检索种子）
+        assistantMsg.rewrite = { original: chunk.original || '', rewritten: chunk.rewritten || '' };
+        renderQAMessages();
+    } else if (chunk.type === 'plan') {
+        // 显式规划：探索前产出的检索计划（子问题/目标法域/重点方面）
+        assistantMsg.plan = {
+            sub_questions: chunk.sub_questions || [],
+            jurisdictions: chunk.jurisdictions || [],
+            aspects: chunk.aspects || []
+        };
+        renderQAMessages();
     } else if (chunk.type === 'step') {
         // 工具调用开始：先占位，结果由 observation 事件补齐摘要
         assistantMsg.trace = assistantMsg.trace || [];
@@ -519,6 +462,9 @@ function handleQAChunk(chunk, assistantMsg) {
         if (Array.isArray(chunk.trace) && chunk.trace.length > 0) {
             assistantMsg.trace = chunk.trace;
         }
+        // E：探索收口原因；A：引用溯源校验结果。均由后端在 end 事件一并下发
+        assistantMsg.stopReason = chunk.stop_reason || '';
+        assistantMsg.citationCheck = chunk.citation_check || null;
         assistantMsg.streaming = false;
         assistantMsg.status = '';
         saveQAState();
@@ -540,32 +486,105 @@ function handleQAError(err, assistantMsg) {
 }
 
 function qaToolLabel(tool) {
-    const map = { search_laws: '检索条文', follow_references: '追溯引用', query_graph: '查询图谱' };
+    const map = { search_laws: '检索条文', follow_references: '追溯引用', query_graph: '图谱多跳', get_evidence_status: '核对证据覆盖' };
     return map[tool] || tool || '工具';
 }
 
+// E：探索收口原因的中文映射（与后端 stop_reason 取值一一对应）
+function stopReasonLabel(stop) {
+    const map = {
+        model_stop: '证据自评通过，主动完成',
+        step_budget: '步数预算耗尽后收口',
+        tool_budget: '工具调用预算耗尽后收口',
+        timeout: '达到时长上限，用已收集证据作答',
+        no_progress: '连续检索无新增证据，提前收口',
+        llm_error: '探索中断，用已收集证据作答',
+        no_evidence_degraded: '探索无有效证据，已回退普通问答'
+    };
+    return map[stop] || stop || '';
+}
+
 function renderQaTrace(msg) {
-    // 渲染 Agent 多步探索轨迹（可折叠）。无轨迹或空轨迹返回空串。
+    // trace 的 t.step 是模型决策轮次：同轮并行工具共享 step，按 step 分组并标注「并行 K 项」
     const trace = msg.trace || [];
     const isAgent = msg.route && msg.route.mode === 'agent';
-    if (!isAgent && trace.length === 0) return '';
+    const plan = msg.plan || null;
+    const rewrite = msg.rewrite || null;
+    const planItems = plan ? (plan.sub_questions || []).concat(plan.jurisdictions || [], plan.aspects || []) : [];
+    const hasPlan = planItems.length > 0;
+    const hasRewrite = !!(rewrite && rewrite.rewritten && rewrite.rewritten !== rewrite.original);
+    if (!isAgent && trace.length === 0 && !hasPlan && !hasRewrite) return '';
+
+    const stepOrder = [];
+    const stepCount = {};
+    trace.forEach(function(t) {
+        const key = (t.step === undefined || t.step === null) ? '?' : t.step;
+        if (stepCount[key] === undefined) { stepCount[key] = 0; stepOrder.push(key); }
+        stepCount[key] += 1;
+    });
 
     let html = '<details style="margin-bottom:0.75rem;background:var(--color-bg);border:1px dashed var(--color-border);border-radius:6px;"' +
         (msg.streaming ? ' open' : '') + '>';
-    const n = trace.length;
+    const nSteps = stepOrder.length;
     html += '<summary style="cursor:pointer;font-size:0.8125rem;color:var(--color-text-secondary);user-select:none;padding:0.5rem 0.75rem;font-weight:600;">' +
-        '推理过程' + (n > 0 ? '（' + n + ' 步）' : '') + '</summary>';
+        '推理过程' + (nSteps > 0 ? '（' + nSteps + ' 步 / ' + trace.length + ' 次调用）' : '') + '</summary>';
     html += '<div style="padding:0 0.75rem 0.625rem;">';
+    if (hasRewrite) {
+        html += '<div style="padding:0.5rem 0;border-bottom:1px dashed var(--color-border);">';
+        html += '<div style="font-size:0.75rem;font-weight:600;color:var(--color-primary);margin-bottom:0.25rem;">追问指代消解</div>';
+        html += '<div style="font-size:0.75rem;color:var(--color-text-secondary);line-height:1.6;">' +
+            escapeHtml(rewrite.original) + ' <span style="color:var(--color-text-muted);">→</span> ' +
+            escapeHtml(rewrite.rewritten) + '</div>';
+        html += '</div>';
+    }
+    if (hasPlan) {
+        html += '<div style="padding:0.5rem 0 0.5rem;border-bottom:1px dashed var(--color-border);margin-bottom:0.25rem;">';
+        html += '<div style="font-size:0.75rem;font-weight:600;color:var(--color-primary);margin-bottom:0.25rem;">检索计划</div>';
+        if ((plan.sub_questions || []).length) {
+            html += '<div style="font-size:0.75rem;color:var(--color-text-secondary);line-height:1.6;">子问题：' + escapeHtml(plan.sub_questions.join('；')) + '</div>';
+        }
+        if ((plan.jurisdictions || []).length) {
+            html += '<div style="font-size:0.75rem;color:var(--color-text-secondary);line-height:1.6;">目标法域：' + escapeHtml(plan.jurisdictions.join('、')) + '</div>';
+        }
+        if ((plan.aspects || []).length) {
+            html += '<div style="font-size:0.75rem;color:var(--color-text-secondary);line-height:1.6;">重点方面：' + escapeHtml(plan.aspects.join('、')) + '</div>';
+        }
+        html += '</div>';
+    }
     if (trace.length === 0) {
         html += '<div style="font-size:0.75rem;color:var(--color-text-muted);">正在规划检索步骤…</div>';
     } else {
+        let seq = 0;
+        let lastKey = null;
         trace.forEach(function(t) {
+            const key = (t.step === undefined || t.step === null) ? '?' : t.step;
+            const isFirstOfStep = (key !== lastKey);
+            if (isFirstOfStep) { seq += 1; lastKey = key; }
+            const k = stepCount[key];
             html += '<div style="display:flex;gap:0.5rem;padding:0.3125rem 0;border-top:1px solid var(--color-border);">';
-            html += '<span style="flex-shrink:0;font-size:0.75rem;font-weight:600;color:var(--color-primary);min-width:3.25rem;">第 ' + (t.step || '?') + ' 步</span>';
+            html += '<span style="flex-shrink:0;font-size:0.75rem;font-weight:600;color:var(--color-primary);min-width:5.5rem;">' +
+                (isFirstOfStep ? '第 ' + seq + ' 步' + (k > 1 ? '（并行 ' + k + ' 项）' : '') : '') + '</span>';
             html += '<span style="flex-shrink:0;font-size:0.75rem;color:var(--color-text);font-weight:600;">' + escapeHtml(qaToolLabel(t.tool)) + '</span>';
             html += '<span style="font-size:0.75rem;color:var(--color-text-secondary);line-height:1.5;word-break:break-word;">' + escapeHtml(t.summary || '执行中…') + '</span>';
             html += '</div>';
         });
+    }
+    // A + E：面板底部展示收口原因与引用校验（仅在 end 事件已到、即流结束后出现）
+    const stopLabel = msg.stopReason ? stopReasonLabel(msg.stopReason) : '';
+    const cc = msg.citationCheck;
+    if (stopLabel || cc) {
+        html += '<div style="margin-top:0.5rem;padding-top:0.5rem;border-top:1px dashed var(--color-border);display:flex;flex-wrap:wrap;gap:0.5rem;font-size:0.75rem;">';
+        if (stopLabel) {
+            html += '<span style="color:var(--color-text-muted);">收口原因：<span style="color:var(--color-text-secondary);">' + escapeHtml(stopLabel) + '</span></span>';
+        }
+        if (cc) {
+            const bad = cc.invalid_count || 0;
+            html += '<span style="color:' + (bad > 0 ? 'var(--color-error)' : 'var(--color-text-muted)') + ';">引用校验：' +
+                '共 ' + (cc.ref_count || 0) + ' 处引用' +
+                (bad > 0 ? '，<b>' + bad + ' 处越界（' + escapeHtml((cc.invalid_refs || []).join(', ')) + '）</b>，越界来源无对应条文，请留意' : '，全部有对应来源') +
+                '</span>';
+        }
+        html += '</div>';
     }
     html += '</div></details>';
     return html;
@@ -634,7 +653,6 @@ function generateUUID() {
     });
 }
 
-// 添加闪烁动画
 const style = document.createElement('style');
 style.textContent = '@keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }';
 document.head.appendChild(style);

@@ -54,23 +54,7 @@ async def ask_stream(
 
 @router.post("/stream")
 async def ask_stream_multimodal(request: Request):
-    """
-    支持图片的多模态流式问答（POST接口）
-
-    请求体格式：
-    {
-        "question": "用户问题（必填）",
-        "top_k": 5,
-        "jurisdictions": ["澳门", "香港"],
-        "history": [{"role": "user", "content": "..."}],
-        "images": [
-            {
-                "data": "base64编码的图片数据",
-                "mime_type": "image/jpeg"
-            }
-        ]
-    }
-    """
+    """多模态流式问答（POST），请求体可携带 images 图片列表。"""
     try:
         data = await request.json()
     except Exception:
@@ -83,7 +67,7 @@ async def ask_stream_multimodal(request: Request):
     top_k = data.get("top_k", 5)
     jurisdictions = data.get("jurisdictions")
     history = data.get("history")
-    images = data.get("images", [])  # 新增：图片列表
+    images = data.get("images", [])
 
     jurisdiction_list = None
     if jurisdictions:
@@ -97,13 +81,23 @@ async def ask_stream_multimodal(request: Request):
         history_list = history
 
     def generate():
-        for chunk in qa_service.ask_stream_with_image(
-            question=question,
-            top_k=top_k,
-            jurisdictions=jurisdiction_list,
-            history=history_list,
-            images=images
-        ):
+        # 有图片走多模态模板，纯文本复用 ask_stream（两者 prompt 不同，不可混用）
+        if images:
+            stream = qa_service.ask_stream_with_image(
+                question=question,
+                top_k=top_k,
+                jurisdictions=jurisdiction_list,
+                history=history_list,
+                images=images
+            )
+        else:
+            stream = qa_service.ask_stream(
+                question=question,
+                top_k=top_k,
+                jurisdictions=jurisdiction_list,
+                history=history_list
+            )
+        for chunk in stream:
             yield f"data: {json.dumps(chunk, ensure_ascii=False)}\n\n"
 
     return StreamingResponse(

@@ -1,21 +1,8 @@
 """检索决策规划器（轻量、纯规则、零 LLM）。
 
-把原本散落在 RetrieverService 里的检索决策——「是否做复合查询分解」「是否跨法域
-扇出路由」「是否做引用链扩展」——收敛到一个可观测、可测试、无副作用的决策层，
-对外输出一个 RetrievalPlan。
-
-设计约束（保行为）：
-  - 本模块只做「决策」，不做任何检索；探测能力（法域检测 / 跨法域路由 / 查询分解）
-    由调用方以可调用对象注入，避免与 RetrieverService 的 REGION_MAP、ZH_EN_MAP 等
-    大表重复维护，也避免循环导入；
-  - 决策优先级与旧实现**逐条对齐**，切换本模块不改变任何既有查询的行为：
-      ① 子查询（allow_decompose=False）不分解、不路由；
-      ② 分解优先于路由，且多法域查询「让路」给路由（否则分解会绕过扇出、丢召回，
-         这是历史踩坑点）；
-      ③ 路由仅在未显式指定法域、且未检测到单一法域时触发；
-  - 不引入 LLM 规划：保留「规则前置」的确定性，Agent 阶段只需替换本函数即可。
-
-可观测性：plan 内含 reasons，调用方据此打日志，回答「这次查询为什么走了这条路」。
+只做决策、不做检索；探测能力由调用方注入，避免与 RetrieverService 的大表重复维护并防循环导入。
+优先级：子查询不分解不路由 → 分解优先于路由，但多法域查询让路（否则绕过扇出丢召回）→ 仅在未指定且未检测到单一法域时路由。
+plan.reasons 供日志排障，回答「这次查询为什么走了这条路」。
 """
 from __future__ import annotations
 
@@ -30,20 +17,10 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class RetrievalPlan:
-    """一次检索的执行计划。
+    """一次检索的执行计划（无副作用）。
 
-    Attributes:
-        mode: 执行模式，三选一且互斥：
-            - "single"    : 单跳检索（可限定单一法域）
-            - "decompose" : 复合查询分解为多个子查询并行检索后合并
-            - "route"     : 跨法域扇出路由（每个法域独立召回后 RRF 合并）
-        jurisdiction: single 模式下限定的法域（None 表示不限）；
-                      decompose 模式下为「分解失败回退单跳」时应使用的法域。
-        jurisdictions: route 模式下的目标法域列表。
-        sub_queries: decompose 模式下锚定原查询后的子查询列表。
-        expand_refs: 是否在单跳结果上做引用链扩展。
-        use_kg: 是否注入知识图谱补充证据（供问答链路观测/对齐，检索侧不使用）。
-        reasons: 决策依据，供日志与排障。
+    mode 互斥三选一："single" 单跳 / "decompose" 分解并行 / "route" 跨法域扇出；
+    decompose 时 jurisdiction 为分解失败回退单跳所用的法域；use_kg 仅供问答链路观测。
     """
 
     mode: str
@@ -76,27 +53,14 @@ def plan_retrieval(
 ) -> RetrievalPlan:
     """产出一份检索执行计划（无副作用，不触发检索）。
 
-    Args:
-        query: 原始查询串。
-        jurisdiction: 调用方显式指定的法域（None 表示未指定）。
-        allow_decompose: 是否允许分解。顶层调用为 True；子查询传 False
-            （对应旧实现的 _decompose=False，子查询不再分解、不参与路由）。
-        rerank_active: 当前是否走精排路径（对应旧实现的 _rerank）。分解依赖
-            「合并后用原查询统一精排」来纠偏，无精排时分解引入的噪声无法被纠正，
-            故不分解以避免净负收益。
-        detect_jurisdiction: 法域自动检测函数，签名 (query) -> Optional[str]。
-        route_jurisdictions: 跨法域路由检测函数，签名 (query) -> Optional[List[str]]。
-        decompose_subqueries: 复合查询分解函数，返回含锚定原查询的子查询列表；
-            无法/无需分解时返回长度 < 2 的列表。
-
-    Returns:
-        RetrievalPlan
+    allow_decompose 子查询传 False（不分解、不路由）；rerank_active 为 False 时不分解——
+    无精排「合并后用原查询统一纠偏」时，分解引入的噪声无法纠正，净负收益。
     """
     q = (query or "").strip()
     expand_refs = bool(rerank_active and settings.reference_expand_enabled)
     use_kg = bool(settings.qa_kg_evidence_enabled)
 
-    # ① 子查询：不分解、不路由，仅按传入法域检索（对应旧实现的 _decompose=False）
+    # ① 子查询：不分解、不路由，仅按传入法域检索
     if not allow_decompose:
         return RetrievalPlan(
             mode="single", jurisdiction=jurisdiction,
@@ -113,7 +77,7 @@ def plan_retrieval(
             and settings.multihop_decompose_enabled and not routed_multi):
         subs = _safe(decompose_subqueries, q)
         if subs and len(subs) > 1:
-            # 分解成功。法域沿用显式传入值；若分解失败回退单跳，再按需自动检测。
+            # 分解成功：法域沿用显式传入值，否则自动检测备用
             fallback_jur = jurisdiction if jurisdiction is not None else _safe(detect_jurisdiction, q)
             return RetrievalPlan(
                 mode="decompose", sub_queries=list(subs), jurisdiction=fallback_jur,

@@ -119,8 +119,8 @@ docker compose logs -f backend
 | 路径 | 方法 | 说明 |
 |------|------|------|
 | `/api/v1/search` | GET | 法规条款混合检索 |
-| `/api/v1/qa/stream` | GET / POST | 智能问答（SSE 流式，支持多模态） |
-| `/api/v1/agent/stream` | GET | 智能体多步推理问答（SSE 流式） |
+| `/api/v1/qa/stream` | GET / POST | 智能问答（SSE 流式，支持多模态；POST 走请求体，推荐前端使用以避免长历史触发 414） |
+| `/api/v1/agent/stream` | GET / POST | 智能体多步推理问答（SSE 流式；POST 走请求体，推荐前端使用以避免长历史触发 414） |
 | `/api/v1/compare` | GET | 双法域条款对比 |
 | `/api/v1/topic-analysis` | POST | 跨法域专题结构化分析 |
 | `/api/v1/kg/*` | GET | 知识图谱（法规图 / 实体搜索 / 统计） |

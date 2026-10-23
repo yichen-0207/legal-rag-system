@@ -17,9 +17,7 @@ logger = logging.getLogger(__name__)
 def _flatten_topic_filters(topics: Optional[List[str]], topic: Optional[str]) -> List[str]:
     """把 topic / topics 归一为排序去重后的字符串列表，供缓存键使用。
 
-    调用方形态不一：单主题传字符串（topic）、多主题传列表（topics），
-    而 /search 接口还存在把主题列表按位置传入 topic 的写法，使 topic 本身是列表。
-    这里统一拉平，避免嵌套列表在 ','.join() 处抛 TypeError。
+    调用方形态不一（topic 也可能被传成列表），统一拉平避免 ','.join() 抛 TypeError。
     """
     raw: List = []
     if topics:
@@ -39,9 +37,7 @@ def _flatten_topic_filters(topics: Optional[List[str]], topic: Optional[str]) ->
 def _title_matches_law_name(law_name: str, title: str) -> bool:
     """判断条款标题与法规名是否指向同一部法规（双向包含）。
 
-    统一到简体再比较：语料里澳门/香港等法域的法规标题是繁体，而提问里的法规名常是简体，
-    直接字符串比较永远不相等，会让「第X条」的定向置顶对简体提问失效。
-    繁→简 基本一一对应、方向可靠，反向（简→繁）存在多候选，故只做这一侧归一。
+    先统一繁转简再比较：语料标题多为繁体而提问常为简体，直接比较会让「第X条」置顶失效。
     """
     if not law_name or not title:
         return False
@@ -65,15 +61,10 @@ class RetrieverService:
         return self._reranker
 
     def _rerank_two_stage(self, query: str, candidates: List[Dict]) -> List[Dict]:
-        """
-        两阶段重排：只精排前 reranker_window 条，其余候选按 RRF 顺序拼在尾部。
+        """两阶段重排：只精排前 reranker_window 条，其余候选按原 RRF 顺序拼在尾部。
 
-        与「全量精排后截断」的区别在于尾部候选不再被丢弃：窗口从 50 降到 20 后，
-        排在 20 名之后的 30 条仍以原始 RRF 次序参与最终排序，因此 top_k 较大时
-        （如问答取 50 条候选）不会因为不进精排窗口而整体消失。
-        收益是 reranker 对数减半，CPU 推理耗时同步下降（reranker 占检索延迟约 93%）。
-
-        精排模型不可用时原样返回 candidates（保持 RRF 顺序），不阻断检索。
+        尾部候选不丢弃，top_k 较大时不会因不进精排窗口而消失；精排模型不可用时
+        原样返回 candidates，不阻断检索。
         """
         reranker = self._get_reranker()
         if not reranker or not candidates:
@@ -96,19 +87,11 @@ class RetrieverService:
         return reranked + skipped + tail
 
     def _expand_by_references(self, results: List[Dict]) -> List[Dict]:
-        """
-        引用链单跳扩展（组件D）：把排名靠前的结果引用到的条款补到候选尾部。
+        """引用链单跳扩展（组件D）：把排名靠前的结果引用到的条款补到候选尾部。
 
-        分两类引用（详见 repositories.elasticsearch）：
-          - 同法规内引用（parse_intra_law_refs）：条款编号是法规内局部的，正文里的
-            「第X條」必然指向本法规的条款，解析精确、无需法规名映射；
-          - 跨法规引用（parse_cross_law_refs，多跳 A）：仅覆盖能从正文确定性推导出
-            law_id 的形式（澳门「第N/YYYY號法律/行政法規」、香港「第N章」），
-            由 settings.reference_expand_cross_law_enabled 控制。
-
-        扩展项排在原有结果之后且 score 置 0，因此不挤占原有排序位置：调用方按 top_k
-        截断时主结果行为不变，多跳结果只在 top_k 有余量或被显式使用时生效。
-        扩展失败静默降级为不扩展，不影响主检索链路。
+        同法规内引用按条款编号精确解析；跨法规引用只覆盖能从正文确定性推导 law_id
+        的形式，由 reference_expand_cross_law_enabled 控制。扩展项 score 置 0 并排在
+        原有结果之后，不挤占 top_k；扩展失败静默降级。
         """
         if not settings.reference_expand_enabled or not results:
             return results
@@ -146,15 +129,8 @@ class RetrieverService:
     def _attach_match_scores(results: List[Dict]) -> List[Dict]:
         """为每条结果计算展示用「匹配度」match_score ∈ [0,1]，缺失置 None。
 
-        取值优先级：
-          1. 真实向量余弦相似度（`_cosine`）：语义明确、有界、可跨查询比较；
-          2. 都没有 → None，前端不显示百分比。
-
-        说明：曾考虑用精排分 sigmoid 作为优先项，但实测 bge-reranker-v2-m3 的
-        logit 在本语料整体偏负（相关知识条款中位数 ≈ -4.5），sigmoid 后会得到
-        ~1% 的荒谬值，故不采用。精排分只用于排序，不参与展示。
-        另外，旧实现用 RRF 分反推相似度（1/(1+1/(1+rrf))），因 RRF 分动态范围极小，
-        导致所有条款都显示约 50%，这里一并修正。
+        只用真实向量余弦（_cosine），无则 None、前端不显示百分比。精排分 logit 整体
+        偏负，sigmoid 后接近 0；RRF 分动态范围极小，反推相似度会全部约 50%，故都不采用。
         """
         for r in results:
             cos = r.get("_cosine")
@@ -165,12 +141,7 @@ class RetrieverService:
         return results
 
     def _deduplicate_and_enrich_articles(self, raw_results: Dict, top_k: int) -> Dict:
-        """
-        对原始检索结果按 article 去重，保留每个 article 相似度最高的 sub_chunk，
-        并回取完整 article 文本替换 sub_chunk 内容。
-
-        回取采用单次 msearch 批量完成；原实现为逐条 ES 查询（50 条候选约 3.5s 网络往返）。
-        """
+        """按 article 去重（保留相似度最高的 sub_chunk），并用单次 msearch 批量回取完整正文。"""
         if not raw_results.get('ids') or not raw_results['ids'][0]:
             return raw_results
 
@@ -241,16 +212,7 @@ class RetrieverService:
         return None
 
     def _extract_law_name(self, query: str) -> Optional[str]:
-        """从查询中提取法规名称
-        
-        仅提取原始名称，不进行跨语言映射（跨语言匹配由前端通过搜索结果频次分析处理）。
-        
-        支持:
-        1. 含"第X条": "澳门打击电脑犯罪法的第2条" → "打击电脑犯罪法"
-        2. 中文: "澳门网络安全法的定义" → "网络安全法"
-        3. 英文: "新加坡 Personal Data Protection Act 2012" → "Personal Data Protection Act 2012"
-        4. 其他语言: "日本個人情報保護法" → "個人情報保護法"
-        """
+        """从查询中提取原始法规名称（不做跨语言映射，跨语言匹配交给前端频次分析）。"""
         juris_triggers = ['澳门', '澳門', 'macau', 'Macau', 'MACAU',
                           '香港', 'Hong Kong', 'hongkong', 'Hongkong', 'HONG KONG',
                           '新加坡', 'Singapore', 'SINGAPORE']
@@ -312,8 +274,7 @@ class RetrieverService:
     def _enhance_query(self, query: str) -> str:
         """查询增强：中→英关键词扩展 + 条款号提取（实现见 utils.query_enhance）。
 
-        保留为实例方法：本类多处（search / hybrid_search / bm25_search）以 self 方式
-        调用，且历史上是本类的自有能力；实现已抽出与 QAService 共享，避免两份漂移。
+        保留为实例方法以便本类各处以 self 方式调用；实现与 QAService 共享同一份词表。
         """
         return enhance_query(query)
 
@@ -321,11 +282,7 @@ class RetrieverService:
     # 跨法域路由模块
     # ============================================================
     def _route_to_jurisdictions(self, query: str) -> Optional[List[str]]:
-        """
-        检测查询涉及的法域列表。
-        返回 None 表示不限法域（跨所有法域检索）。
-        返回 List[str] 表示应仅在这些法域检索。
-        """
+        """检测查询涉及的法域列表；返回 None 表示不限法域（跨所有法域检索）。"""
         # 检查是否已包含具体法域名（如"美国电话营销"）
         named_jurs = []
         SPECIFIC = {
@@ -389,9 +346,7 @@ class RetrieverService:
 
     def _hybrid_search_routed(self, query: str, jurisdictions: List[str],
                                top_k: int = 20) -> List[Dict]:
-        """
-        多法域路由检索：每个法域独立检索 Top-10，RRF 融合后精排
-        """
+        """多法域路由检索：每个法域独立检索 Top-10，RRF 融合后两阶段精排。"""
         enhanced_query = self._enhance_query(query) or query
         all_per_jur_results = []
 
@@ -439,16 +394,7 @@ class RetrieverService:
 
     def search(self, query: str, top_k: int = 5, jurisdiction: Optional[str] = None,
                topic: Optional[str] = None, topics: Optional[List[str]] = None) -> List[Dict]:
-        """
-        搜索法规内容
-
-        参数:
-            query: 搜索关键词
-            top_k: 返回数量
-            jurisdiction: 法域筛选
-            topic: 单个主题（向后兼容）
-            topics: 多个主题列表（新功能，优先使用）
-        """
+        """搜索法规内容（向量检索 + 条目去重 + 两阶段精排）。"""
         detected_jurisdiction = jurisdiction or self._detect_jurisdiction(query)
 
         where_filter = {}
@@ -547,9 +493,8 @@ class RetrieverService:
             where_filter["jurisdiction"] = jurisdiction
 
         enhanced_query = self._enhance_query(query)
-        # 条款级去重：新切分下一个条款可能命中多个子块，若直接返回会让重复子块
-        # 挤占 top-k 名额（BM25 结果已按 _score 降序，故每个条款保留首次即最高分子块）。
-        # 先多取候选再去重，保证去重后仍有 top_k 条；与 search/hybrid_search 口径一致。
+        # 条款级去重：一个条款可能命中多个子块，直接返回会让重复子块挤占 top-k 名额；
+        # BM25 结果已按 _score 降序，每个条款保留首次即最高分子块，故先多取候选再去重。
         bm25_results = self.repo._bm25_search(enhanced_query, max(top_k * 3, 20), where_filter)
 
         formatted_results = []
@@ -577,13 +522,8 @@ class RetrieverService:
     def _decompose_query(self, query: str) -> List[str]:
         """多跳 B：把复合查询拆成子查询列表（含锚定的原查询）。无需分解返回 []。
 
-        锚定原查询是「不退化」的关键：分解只往候选池里加条目，原有召回的文档仍在
-        池中，最终排序由统一的精排决定，不会因为某条子查询拆得不好而丢失主召回。
-
-        让路跨法域路由：区域词（各国/东南亚/亚太/不同法域…）或比较词（比较/异同…）
-        会让 _route_to_jurisdictions 触发多法域扇出检索，这是比较类查询的主召回通道。
-        而分解会把锚点也以 _decompose=False 重跑，从而绕过该路由、丢掉扇出召回
-        （A/B 实测：6 条变差全部落在此类查询，其中 4 条 gold 直接归零），故直接跳过。
+        锚定原查询保证只加不减：原有召回文档仍在候选池，排序由统一精排决定。
+        区域词/比较词查询直接跳过分解，否则会绕过跨法域扇出路由、丢掉主召回。
         """
         try:
             routed = self._route_to_jurisdictions(query)
@@ -604,10 +544,10 @@ class RetrieverService:
     def _decomposed_search(self, sub_queries: List[str], top_k: int,
                            jurisdiction: Optional[str], topic: Optional[str],
                            topics: Optional[List[str]]) -> Optional[List[Dict]]:
-        """并行执行各子查询检索（跳过精排/引用扩展）→ RRF 合并 → 合并后精排一次。
+        """并行执行各子查询检索（跳过精排/引用扩展）→ RRF 合并 → 统一精排一次。
 
-        子查询跳过精排是为了不把 cross-encoder 成本乘上子查询数：子查询只负责
-        「多召回」，排序质量交给合并后的这一次精排。任一步失败返回 None，调用方降级单跳。
+        子查询只负责多召回，避免把 cross-encoder 成本乘上子查询数；任一步失败返回
+        None，调用方降级单跳。
         """
         lists: List[List[Dict]] = []
         max_workers = max(1, min(len(sub_queries), settings.multihop_decompose_max_subqueries))
@@ -646,18 +586,10 @@ class RetrieverService:
                       topics: Optional[List[str]] = None,
                       _decompose: bool = True,
                       _rerank: bool = True) -> List[Dict]:
-        """
-        混合检索（向量 + BM25 + RRF 融合），返回格式与 search() 完全一致。
+        """混合检索（向量 + BM25 + RRF 融合），返回格式与 search() 一致。
 
-        参数与 search() 相同：
-            query: 搜索关键词
-            top_k: 返回数量
-            jurisdiction: 法域筛选
-            topic: 单个主题（向后兼容）
-            topics: 多主题列表（优先使用）
-
-        _decompose / _rerank 为内部参数：子查询检索时置 False，用于关闭「再分解」
-        与「精排/引用扩展」，避免递归与成本放大；外部调用方无需传。
+        _decompose / _rerank 为内部参数：子查询检索时置 False，关闭「再分解」与
+        「精排/引用扩展」，避免递归与成本放大；外部调用方无需传。
         """
         # 子查询检索跳过缓存：其缓存键用的是全局精排开关，与子查询实际关闭精排的
         # 口径不一致，读写都可能污染主查询结果，故直接绕过。
@@ -671,9 +603,7 @@ class RetrieverService:
             if cached is not None:
                 return cached
 
-        # 检索决策统一交由规划器给出（分解 / 跨法域路由 / 单跳），
-        # 决策优先级与旧的内联判断逐条对齐（见 query_planner 模块说明），因此本重构
-        # 不改变既有查询的行为，只把决策集中化并输出可观测的 reasons。
+        # 检索决策统一交由规划器（分解 / 跨法域路由 / 单跳），并输出可观测的 reasons。
         plan = plan_retrieval(
             query,
             jurisdiction,
@@ -831,19 +761,15 @@ class RetrieverService:
                       topics: Optional[List[str]]):
         """缓存查询，返回 (缓存键, 命中结果或 None)。
 
-        键由「索引名 + 筛选条件 + 结果相关开关 + 归一化查询」构成：只按查询串比对会让
-        「同一问题 + 不同法域筛选」错误复用结果；而评测脚本会在同一进程内切换
-        reranker_enabled，若不把开关计入键，先跑的「无精排」结果会被「有精排」
-        那轮直接命中，得到未精排的错误顺序。索引名同理：同进程切换索引做 A/B
-        对照时，不区分索引会让第二轮直接复用第一轮缓存。
+        键含索引名 + 筛选条件 + 结果相关开关 + 归一化查询：同一问题不同法域、不同
+        精排开关或不同索引都不能复用，否则评测/探针在同一进程内切换设置时会串用缓存。
         """
         if not query or not query.strip():
             return None, None
 
         filter_key = "|".join([
-            # 索引名入键：评测/探针脚本会在同一进程内切换 settings.es_index_name
-            # 做 A/B 对照，若不区分索引，第二次调用会命中第一次的缓存，
-            # 得到「两组结果完全一致」的假象（本次美国退步复测即踩此坑）。
+            # 索引名入键：评测/探针会在同一进程内切换 es_index_name 做 A/B，不区分索引
+            # 会让第二次调用命中第一次的缓存，得到「两组结果完全一致」的假象。
             f"idx={settings.es_index_name}",
             f"top_k={top_k}",
             f"jur={jurisdiction or ''}",

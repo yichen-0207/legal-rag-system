@@ -12,23 +12,28 @@ from services.kg_graph_analysis_service import (
     enrich_graph_with_analytics,
 )
 from services.kg_reasoning_service import KGReasoningService
+from services.kg_quality_service import KGQualityService
+from services.multihop_service import MultiHopService
 
 logger = logging.getLogger(__name__)
 
 # 以下路由刻意声明为同步 def：处理器内部是阻塞调用（ES 查询、向量检索、LLM 抽取校验），
-# FastAPI 会把 def 路由放进线程池；写成 async def 会让这些调用独占单进程的事件循环。
-# 参见 api/v1/search.py。
+# FastAPI 会把 def 路由放进线程池；写成 async def 会独占单进程的事件循环（参见 api/v1/search.py）。
 router = APIRouter(prefix="/kg", tags=["知识图谱"])
 repo = ElasticsearchRepository()
 analysis_service = StructuredAnalysisService()
 # 抽取服务含 ES 客户端与 LLM 客户端，模块级单例复用，避免每请求重建连接
 extractor = KGExtractionService()
-# 跨法域概念对齐：只读知识层做聚合，无 LLM 调用
+# 跨法域概念对齐：只读知识层聚合，无 LLM 调用
 alignment_service = KGAlignmentService()
 # 图算法（社区/中心性）：纯拓扑计算，无 LLM 调用
 graph_analysis = KGGraphAnalysisService()
 # 图谱多跳推理问答（含 LLM 调用），独立于既有 qa_service
 reasoning_service = KGReasoningService()
+# 质量与治理指标：只读知识层统计，无 LLM 调用
+quality_service = KGQualityService()
+# 跨法域对齐多跳问答：检索 + 预计算质心 + 概念交叉校验，仅最终合成 1 次 LLM
+multihop_service = MultiHopService()
 
 
 def _law_to_chunks(law_data: dict) -> list:
@@ -56,13 +61,7 @@ def get_law_graph(
     law_id: str,
     force_refresh: bool = Query(False, description="忽略缓存强制重新抽取知识层"),
 ):
-    """
-    获取指定法规的知识图谱。
-
-    优先返回 LLM 抽取的实体关系三元组图（知识层：实体节点 + 类型化关系）；
-    当知识层无结果或抽取/读取失败时，自动降级为基于关键词的条款关联图。
-    返回体中的 graph_source 标明来源（llm / keyword_fallback）。
-    """
+    """获取法规知识图谱：优先 LLM 三元组知识层，为空或失败时降级为关键词条款关联图。"""
     law_data = repo.get_law_by_id(law_id)
     if not law_data:
         return APIResponse(success=False, message="未找到该法规的数据")
@@ -126,6 +125,12 @@ def get_kg_statistics():
     return APIResponse(success=True, data=repo.get_kg_statistics())
 
 
+@router.get("/quality")
+def get_kg_quality():
+    """知识图谱质量与治理指标（覆盖率/平均度/密度/孤立实体率/类型分布），无 LLM 调用。"""
+    return APIResponse(success=True, data=quality_service.get_quality_report())
+
+
 @router.get("/entities")
 def list_entities(
     q: Optional[str] = Query(None, description="按规范名或别名模糊匹配"),
@@ -146,18 +151,31 @@ def get_alias_statistics():
     return APIResponse(success=True, data=_stats())
 
 
+@router.get("/review-queue")
+def get_review_queue(
+    actionable_only: bool = Query(True, description="仅返回可行动候选（放宽相似度阈值即可归并）"),
+    blocked_by: Optional[str] = Query(None, description="按拦截原因过滤，如 similarity_below_threshold"),
+    min_similarity: float = Query(0.0, ge=0, le=1, description="相似度下限"),
+    page_size: int = Query(50, ge=1, le=200, description="返回条数上限"),
+):
+    """实体合并候选复核队列（只读）：列出被 L3 守卫拦下的高相似实体对，不改写别名表。"""
+    return APIResponse(
+        success=True,
+        data=repo.list_kg_review_candidates(
+            actionable_only=actionable_only,
+            blocked_by=blocked_by,
+            min_similarity=min_similarity,
+            page_size=page_size,
+        ),
+    )
+
+
 @router.get("/extraction/{law_id}")
 def get_llm_extraction(
     law_id: str,
     force_refresh: bool = Query(False, description="忽略缓存强制重新抽取（本体变更后使用）"),
 ):
-    """
-    用 LLM 对该法规进行实体关系抽取（返回三元组格式的知识图谱）
-
-    抽取结果持久化在 legal_kg_triples 索引中：
-      - 命中缓存（法规指纹未变）时不调用 LLM，直接读 ES；
-      - 法规修订后指纹变化，仅该法规自动重抽，其余法规不受影响。
-    """
+    """用 LLM 抽取该法规的实体关系三元组；结果按法规指纹缓存，修订后仅该法规重抽。"""
     law_data = repo.get_law_by_id(law_id)
     if not law_data:
         return APIResponse(success=False, message="未找到该法规的数据")
@@ -177,14 +195,7 @@ def get_entity_graph(
     depth: int = Query(1, ge=1, le=2, description="邻域扩展跳数"),
     limit: int = Query(50, ge=1, le=200, description="种子实体数与返回规模上限"),
 ):
-    """
-    按实体构建邻域知识图谱（实体节点 + 类型化关系边）。
-
-    - entity_id：精确命中一个规范实体；
-    - q：按规范名/别名模糊匹配，取前 limit 个作为种子。
-    邻域扩展 1~2 跳；无命中时返回空图，由前端降级到条款检索建图。
-    仅依赖实体消歧后的 canonical_id 关联，因此可跨法规/跨法域连通同一实体。
-    """
+    """按实体构建 1~2 跳邻域知识图谱（entity_id 精确命中优先，q 按规范名/别名模糊匹配取种子）。"""
     seed_ids: list = []
     if entity_id:
         seed_ids = [entity_id]
@@ -244,12 +255,7 @@ def get_analytics(
     law_id: Optional[str] = Query(None, description="指定则分析单个法规的实体图，否则分析全局"),
     top_n: int = Query(10, ge=5, le=30, description="榜单长度"),
 ):
-    """
-    知识图谱拓扑分析（社区检测 + PageRank + 介数中心性），零 LLM 调用。
-
-    返回社区划分、核心枢纽榜单（PageRank）、桥接概念榜单（介数中心性）。
-    不传 law_id 时对全局实体图分析（可用于"全局核心实体/主题簇"总览）。
-    """
+    """知识图谱拓扑分析（社区检测 + PageRank + 介数中心性），零 LLM 调用。"""
     if law_id:
         law_data = repo.get_law_by_id(law_id)
         if not law_data:
@@ -272,13 +278,7 @@ def get_concept_matrix(
     top_n: int = Query(30, ge=5, le=100, description="返回的概念行数上限"),
     min_jurisdictions: int = Query(2, ge=1, le=8, description="概念至少出现在这么多个法域"),
 ):
-    """
-    跨法域概念对齐矩阵：概念 × 法域 的条文数总览（热力图）。
-
-    单元格值 = 该概念在该法域下去重后的条文数。默认只返回跨 ≥2 法域的跨域概念
-    （跨域概念才有对比价值），按法域覆盖数与条文总数排序。
-    纯知识层聚合，无 LLM 调用。
-    """
+    """跨法域概念对齐矩阵（概念 × 法域条文数，热力图），默认只返回跨 ≥2 法域的跨域概念。"""
     return APIResponse(
         success=True,
         data=alignment_service.get_concept_matrix(
@@ -300,15 +300,7 @@ def get_concept_detail(
 
 @router.post("/reasoning-qa")
 def reasoning_qa(payload: Dict = Body(...)):
-    """
-    图谱多跳推理问答（GraphRAG 局部检索）。
-
-    请求体：{"question": "...", "top_k_entities": 5, "hops": 2}
-    流程：实体链接 → 扩 2 跳子图 → 组装「三元组 + 条款原文」证据 → 1 次 LLM 生成，
-    返回答案与可溯源的关系路径（used_paths）和引用条款（cited_articles）。
-
-    仅对已完成知识层抽取的法规有效；无命中时返回 found=False，调用方可回退普通问答。
-    """
+    """图谱多跳推理问答（GraphRAG 局部检索）：实体链接→2 跳子图→路径校验→1 次 LLM 生成。"""
     question = (payload or {}).get("question", "")
     try:
         top_k = int((payload or {}).get("top_k_entities", 5) or 5)
@@ -319,8 +311,49 @@ def reasoning_qa(payload: Dict = Body(...)):
     except (TypeError, ValueError):
         hops = 2
     hops = max(1, min(2, hops))
+    deepen_raw = (payload or {}).get("deepen")
+    deepen = None if deepen_raw is None else bool(deepen_raw)
+    synthesize = bool((payload or {}).get("synthesize", True))
+    jur_raw = (payload or {}).get("jurisdictions")
+    jurisdictions = (
+        [str(j).strip() for j in jur_raw if str(j).strip()]
+        if isinstance(jur_raw, list) else None
+    )
     return APIResponse(
         success=True,
-        data=reasoning_service.answer(question, top_k_entities=top_k, hops=hops),
+        data=reasoning_service.answer(
+            question, top_k_entities=top_k, hops=hops,
+            deepen=deepen, synthesize=synthesize, jurisdictions=jurisdictions,
+        ),
+    )
+
+
+@router.post("/multihop-qa")
+def multihop_qa(payload: Dict = Body(...)):
+    """跨法域对齐多跳问答：源条款→对应法规→目标条款→共享概念交叉校验→1 次 LLM 合成。"""
+    question = ((payload or {}).get("question") or "").strip()
+    source_law_id = (payload or {}).get("source_law_id") or None
+    source_article = (payload or {}).get("source_article") or None
+    try:
+        top_k_laws = int((payload or {}).get("top_k_laws", 3) or 3)
+    except (TypeError, ValueError):
+        top_k_laws = 3
+    top_k_laws = max(1, min(5, top_k_laws))
+    synthesize = bool((payload or {}).get("synthesize", True))
+    jur_raw = (payload or {}).get("jurisdictions")
+    jurisdictions = (
+        [str(j).strip() for j in jur_raw if str(j).strip()]
+        if isinstance(jur_raw, list) else None
+    )
+    return APIResponse(
+        success=True,
+        data=multihop_service.answer(
+            question,
+            source_law_id=source_law_id,
+            source_article=source_article,
+            top_k_laws=top_k_laws,
+            synthesize=synthesize,
+            jurisdictions=jurisdictions,
+        ),
     )
 

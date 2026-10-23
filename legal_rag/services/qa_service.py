@@ -6,7 +6,7 @@ from typing import List, Dict, Optional, Tuple
 import time
 import math
 import numpy as np
-from openai import OpenAI
+from core.llm import get_default_client
 from repositories.elasticsearch import ElasticsearchRepository
 from core.config import settings
 from utils.search_cache import get_qa_answer_cache, normalize_query_for_cache
@@ -18,11 +18,8 @@ logger = logging.getLogger(__name__)
 class QAService:
     """问答服务（单例）。
 
-    为什么必须是单例：法域语义向量是一次性重活，而 QAService 会被多处构造
-    （api/v1/qa.py、topic_analysis_service、structured_analysis_service）。
-    若每个实例各自持有一份缓存，并在构造时就启动预热线程，启动阶段会并发跑多份
-    完全相同的预计算——实测 2 个实例把 16 核占满约 90 秒，与用户请求争抢 CPU，
-    导致就绪后的前几个请求被拖慢到 20 秒以上。这里保证进程内只有一个实例、一份缓存。
+    单例是为了让法域向量等预热结果只计算一份：本类会被多处构造，多实例会重复
+    预计算并争抢 CPU。
     """
 
     _instance: Optional['QAService'] = None
@@ -47,19 +44,15 @@ class QAService:
         # 供 /health/ready 读取：pending=尚未预热，ready=已跑完（含失败降级）
         self.jurisdiction_warmup_state = "pending"
         # KG-RAG 融合：延迟构造的图谱推理服务（共享本实例的 ES 仓储）。
-        # 三态：None=未构造、False=构造失败（不再重试）、实例=可用。
+        # 三态：None=未构造、False=构造失败（负缓存，不再重试）、实例=可用。
         self._kg_reasoning = None
         # 法规目录映射缓存：(law_catalog.json 的 mtime, {law_id: 法规名}, {law_id: 法域})
         self._law_catalog_cache = None
-        # 这里不再启动后台预热线程：改由 main.py 的统一预热流程串行调用
-        # warmup_jurisdiction_vectors()，使 /health/ready 能覆盖它。否则该线程会在
-        # 就绪之后继续占满 CPU，与用户请求抢核（即此前"多请求偏慢"的真正原因）。
 
     def warmup_jurisdiction_vectors(self) -> None:
-        """预计算法域语义向量（供启动预热流程调用；幂等，不抛异常）。
+        """预计算法域语义向量（幂等，不抛异常）。
 
-        失败时降级为空缓存（关键词方案仍可用），并同样标记为 ready，避免就绪探针
-        永远 503 把前端一直挡在门外；失败原因已记入日志。
+        失败时降级为空缓存（关键词方案仍可用）并标记 ready，避免就绪探针永远 503。
         """
         try:
             with self._jurisdiction_vectors_lock:
@@ -84,19 +77,11 @@ class QAService:
         return self.embedding_model
 
     def _build_jurisdiction_vectors_from_documents(self) -> Dict[str, np.ndarray]:
-        """从 ES 中各法域的已有文档语料，聚合生成法域语义向量。
+        """从 ES 各法域文档聚合生成法域语义向量。
 
-        步骤：
-          1. 从 ES 获取所有实际存在文档的法域列表
-          2. 对每个法域，采样代表性文档（取 title + content 前 100 字）
-          3. 计算各文档的 embedding，平均后 L2 归一化
-          4. 跳过文档数为 0 的法域（降级为名称向量）
-
-        规模取舍：法域向量只是一个「语义质心」，对单篇样本不敏感，采样量与截断长度取小值
-        即可。原先 30 篇 × 200 字、8 个法域共需编码约 240 段长文本，单份预热实测 52 秒，
-        且全部落在启动阶段（被 /health/ready 门控）；降到 10 篇 × 100 字后编码量约为原来 1/6。
-
-        当 ES 中新入库法域数据后，重启服务或调用 _refresh_jurisdiction_vectors_if_needed() 自动生效。
+        每法域采样 10 篇（title + 内容前 100 字）编码后取均值并 L2 归一化；无法域文档时
+        用名称向量降级。采样量与截断长度刻意取小：法域向量只是语义质心，预热在启动阶段
+        受 /health/ready 门控，编码量需受控。
         """
         model = self._get_embedding_model()
         vectors = {}
@@ -147,7 +132,7 @@ class QAService:
         return vectors
 
     def _ensure_jurisdiction_vectors(self):
-        """懒加载法域语义向量（首次使用时预计算）"""
+        """懒加载法域语义向量（首次使用时预计算）。"""
         if self.jurisdiction_vectors:
             return
         with self._jurisdiction_vectors_lock:
@@ -273,10 +258,9 @@ class QAService:
         return candidates
 
     def _detect_jurisdictions_semantic(self, question: str) -> Dict[str, float]:
-        """
-        方案 A：语义化法域识别。
-        将用户问题编码为向量，与预计算的法域描述向量计算余弦相似度。
-        返回高于阈值的法域及其相似度。
+        """方案 A：语义化法域识别。
+
+        问题向量与预计算的法域向量计算余弦相似度，返回相似度 ≥ 0.40 的法域。
         """
         self._ensure_jurisdiction_vectors()  # 首次使用时懒加载
         if not self.jurisdiction_vectors:
@@ -297,10 +281,7 @@ class QAService:
             return {}
 
     def _inherit_jurisdictions_from_history(self, history: Optional[List[Dict]]) -> Optional[List[str]]:
-        """
-        方案 D：从历史会话中继承法域。
-        倒序查找最近一条带有 jurisdictions 的消息，返回其法域列表。
-        """
+        """方案 D：倒序查找最近一条带 jurisdictions 的历史消息并继承其法域。"""
         if not history:
             return None
         for msg in reversed(history):
@@ -310,13 +291,8 @@ class QAService:
         return None
 
     def _detect_jurisdictions(self, question: str, history: Optional[List[Dict]] = None) -> List[str]:
-        """
-        法域检测：A + B + C + D 融合方案。
-        1. 触发词打分得到候选法域及置信度（B）
-        2. 语义识别补充别名、口语化表达（A）
-        3. 规则精修处理排除/对比/否定句式（C）
-        4. 应用阈值策略决定最终法域列表
-        5. 当前未检测到时，继承历史会话法域（D）
+        """法域检测：触发词打分(B) + 语义识别(A) 融合，规则精修(C) 后按阈值定列表；
+        未检测到时继承历史会话法域(D)。
         """
         keyword_scores = self._score_jurisdictions(question)
         semantic_scores = self._detect_jurisdictions_semantic(question)
@@ -371,22 +347,11 @@ class QAService:
         return detected
 
     def _enhance_query(self, query: str) -> str:
-        """查询增强：中→英关键词扩展 + 条款号提取（实现见 utils.query_enhance）。
-
-        历史遗留问题：此处原为一份独立的弱版实现——仅 7 组中英映射，且命中首个词组
-        即 return（不累积其余命中组）。实测该弱版会**降低**召回：「IMDA 对电信服务的
-        监管要求」缺少「电信/通讯 → telecommunications」映射，中文查询打不到英文
-        法规（top20 内 0 命中 gold）；「数据泄露通知」查询被追加无关的
-        「law regulation act ordinance」后反而把原本命中的条款挤出。现统一走共享
-        实现（24 组词表 + 累积所有命中组），与 RetrieverService 口径一致。
-        """
+        """查询增强：中→英关键词扩展 + 条款号提取（实现见 utils.query_enhance）。"""
         return enhance_query(query)
 
     def _is_retrieval_poor(self, contexts: List[Dict], min_results: int = 2, min_similarity: float = 0.6) -> bool:
-        """
-        方案 E：检索质量门。
-        当检索结果数量不足或最高相似度过低时，认为质量不达标。
-        """
+        """方案 E：结果数 < min_results 或最高相似度 < min_similarity 时判定检索质量不达标。"""
         if len(contexts) < min_results:
             return True
         return contexts[0]['similarity'] < min_similarity
@@ -409,10 +374,8 @@ class QAService:
     def _display_similarity(cosine: Optional[float]) -> float:
         """把真实余弦相似度映射为展示/质量判定用的 similarity。
 
-        映射沿用纯向量路径的口径，使开启混合召回后数值量级不变：
-        纯向量路径 similarity = 1/(1+distance)，其中 distance = 1 - ES_KNN_score、
-        ES_KNN_score = (1+cos)/2，代入即 similarity = 2/(3-cos)。
-        取值区间 0.5(cos=-1) ~ 1.0(cos=1)；余弦缺失（仅 BM25 命中）时取下限占位。
+        沿用纯向量路径口径 similarity = 2/(3-cos)（由 1/(1+distance) 与 ES KNN 得分推导），
+        使开启混合召回后数值量级不变；余弦缺失（仅 BM25 命中）时取下限占位。
         """
         if cosine is None:
             return float(settings.qa_hybrid_bm25_only_similarity)
@@ -423,20 +386,11 @@ class QAService:
                           jurisdictions: Optional[List[str]]) -> List[Dict]:
         """按法域拉取候选条款，返回按相关度降序的 context 列表。
 
-        两条通道：
-          - **混合**（qa_hybrid_enabled，默认开启）：向量 KNN + BM25 两路并行召回后
-            在应用层做 RRF 融合（repo.hybrid_search）。**顺序即 RRF 序，调用方不得再按
-            similarity 重排** —— BM25 单路命中的条款没有余弦分，若按 similarity 排序会
-            被整体压到纯向量命中之后而被 top_k 截断丢弃。实测：问答原用纯向量时，
-            「IMDA 对电信服务的监管要求」这类靠机构名/法规名字面命中的查询在 top20 内
-            0 命中 gold，切换到混合后命中 5 条。
-          - **纯向量**（回滚用）：沿用 repo.query 的 KNN 序，与 similarity 单调等价。
-        BM25 通道额外带来时效过滤（剔除已废止法规），纯向量通道原本没有该过滤。
+        混合模式（qa_hybrid_enabled）走向量 KNN + BM25 并行召回后由 repo 做 RRF 融合，
+        顺序即 RRF 序，调用方不得再按 similarity 重排，否则 BM25 单路命中（无余弦分）
+        会被压后截断；BM25 通道还额外剔除已废止法规。纯向量模式用于回滚。
 
-        Args:
-            enhanced_query: 已做查询增强的检索串。
-            candidate_k: 单法域召回条数（后续按 article 去重，故取大于 top_k）。
-            jurisdictions: 目标法域：>1 逐法域召回后合并，1 限定该法域，None/空 全域。
+        jurisdictions: >1 逐法域召回后合并，1 限定该法域，None/空 全域。
         """
         if jurisdictions and len(jurisdictions) > 1:
             where_list: List[Optional[Dict]] = [{"jurisdiction": j} for j in jurisdictions]
@@ -495,8 +449,7 @@ class QAService:
 
         contexts = self._fetch_candidates(enhanced_query, candidate_k, jurisdictions)
 
-        # 纯向量单/全域场景：_fetch_candidates 未排序（依赖 repo.query 的 KNN 序），
-        # 这里统一按 similarity 重排以保持既有行为；混合模式保序（见 _fetch_candidates）。
+        # 纯向量场景统一按 similarity 重排；混合模式保序（顺序即 RRF 序）。
         if not settings.qa_hybrid_enabled:
             contexts.sort(key=lambda x: x['similarity'], reverse=True)
 
@@ -523,20 +476,16 @@ class QAService:
             deduped_contexts.sort(key=lambda x: x['similarity'], reverse=True)
         top_contexts = deduped_contexts[:top_k]
 
-        # 引用链单跳扩展（组件D）：在主结果之外补入它们在同法规内引用的条款。
-        # 扩展项追加在列表尾部，不挤占主结果的 similarity 排序，也不会被
-        # 下方的 sources 事件当成检索来源；prompt 中由 _build_prompt 单独成段引用。
+        # 引用链单跳扩展（组件D）：扩展项追加在尾部，不计入 sources，prompt 中单独成段引用。
         if settings.reference_expand_enabled:
             top_contexts = top_contexts + self._expand_contexts_by_references(top_contexts)
 
         return top_contexts
 
     def _expand_contexts_by_references(self, contexts: List[Dict]) -> List[Dict]:
-        """
-        引用链单跳扩展（组件D）：回取上下文条款在同法规内引用到的条款。
+        """引用链单跳扩展（组件D）：回取上下文条款在同法规内引用到的条款。
 
-        只解析同法规引用（见 repositories.elasticsearch.parse_intra_law_refs），
-        扩展失败返回空列表，静默降级为不使用引用链，不影响主检索链路。
+        只解析同法规引用；扩展失败返回空列表，静默降级为不使用引用链。
         """
         seeds = []
         for ctx in contexts[: settings.reference_expand_sources]:
@@ -578,11 +527,9 @@ class QAService:
 
     @staticmethod
     def _format_hop_references(hop_contexts: List[Dict]) -> str:
-        """
-        渲染引用链扩展项（组件D），返回可直接拼到参考资料文本后的段落；无扩展项返回空串。
+        """渲染引用链扩展项（组件D），返回可拼到参考资料文本后的段落；无扩展项返回空串。
 
-        与【来源X】分开标注「由第 X 条引用」，让模型知道这些条款是交叉引用补入的、
-        不是直接检索命中，避免被当作独立命中来源引用。
+        单独标注「由第 X 条引用」，让模型知道这些条款是交叉引用补入、不是检索命中。
         """
         if not hop_contexts:
             return ""
@@ -607,10 +554,9 @@ class QAService:
     #  KG-RAG 融合：把知识图谱子图作为一路补充证据并入问答上下文
     # ================================================================
     def _get_kg_reasoning(self):
-        """延迟构造图谱推理服务（共享本实例的 ES 仓储）；构造失败返回 None 且不再重试。
+        """延迟构造图谱推理服务（共享本实例的 ES 仓储）；失败返回 None 并负缓存，不再重试。
 
-        仅复用其「实体链接 + 定跳子图」能力，不触发其中的 LLM 生成，
-        因此这里对 api_key 是否存在无要求。
+        仅复用其「实体链接 + 定跳子图」能力，不触发其中的 LLM 生成。
         """
         if self._kg_reasoning is None:
             try:
@@ -624,8 +570,8 @@ class QAService:
     def _get_law_catalog_maps(self):
         """读取本地法规目录，返回 (law_id->法规名, law_id->法域)，按 mtime 缓存。
 
-        目录不可读时返回两个空表：图谱证据退化为用 law_id 代称法规名、且不做法域
-        过滤，均不影响主链路。缓存失效依赖 law_catalog.json 的 mtime，法规入库后自动刷新。
+        目录不可读时返回空表：图谱证据退化为用 law_id 代称法规名且不做法域过滤，
+        不影响主链路；缓存失效依赖 law_catalog.json 的 mtime。
         """
         catalog_path = os.path.join(
             os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
@@ -699,14 +645,9 @@ class QAService:
                              jurisdictions: Optional[List[str]] = None) -> str:
         """收集知识图谱补充证据；任何异常/无命中一律返回空串（静默降级，不阻断问答）。
 
-        复用 KGReasoningService 的实体链接（别名表 + 向量 KNN）与定跳子图，
-        不新增 LLM 调用；条款摘录用一次 msearch 批量回取。
-
-        Args:
-            jurisdictions: 已识别的提问法域（中文名列表）。非空时把三元组收敛到这些
-                法域内，避免跨法域无关证据污染答案（实测：问泰国金融注入美国 HIPAA、
-                问新加坡电子交易注入澳门法规）。None/空表示未识别，不做过滤（保持
-                既有行为）。
+        复用 KGReasoningService 的实体链接与定跳子图，不新增 LLM 调用，条款摘录一次
+        msearch 批量回取。jurisdictions 非空时把三元组收敛到已识别法域，避免跨法域
+        无关证据污染答案；为空表示未识别，不做过滤。
         """
         if not settings.qa_kg_evidence_enabled:
             return ""
@@ -721,7 +662,9 @@ class QAService:
             if not seeds:
                 return ""
             triples = svc._collect_subgraph(
-                [s["entity_id"] for s in seeds], hops=settings.qa_kg_evidence_hops
+                [s["entity_id"] for s in seeds],
+                hops=settings.qa_kg_evidence_hops,
+                jurisdictions=jurisdictions,
             )
             if not triples:
                 return ""
@@ -766,9 +709,9 @@ class QAService:
         jurisdictions: Optional[List[str]] = None,
         allow_fallback: bool = True
     ) -> List[Dict]:
-        """
-        方案 E：检索-反馈自适应。
-        先按指定法域检索，若质量不达标且允许回退，则追加全域检索并合并去重。
+        """方案 E：检索-反馈自适应。
+
+        先按指定法域检索，质量不达标且允许回退时追加全域检索并合并去重。
         """
         contexts = self._retrieve_contexts(query, top_k, jurisdictions)
 
@@ -941,16 +884,7 @@ class QAService:
 
     def _call_llm_with_model(self, prompt: str, model: Optional[str] = None, 
                            response_format: Optional[Dict] = None) -> str:
-        """调用远程API（支持指定模型）
-        
-        Args:
-            prompt: 提示词
-            model: 模型名称，不传则使用 settings.llm_model 默认值
-            response_format: 响应格式配置，如 {'type': 'json_object'}，用于结构化输出
-        
-        Returns:
-            LLM响应内容
-        """
+        """调用远程API（支持指定模型；response_format 用于结构化输出）。"""
         import logging
 
         logger = logging.getLogger(__name__)
@@ -959,12 +893,10 @@ class QAService:
             logger.error(f"[LLM] prompt 为空！调用栈已截断，请检查上游 prompt 构建")
             raise ValueError("prompt 不能为空")
 
-        base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
-        api_key = settings.llm_api_key or ""
         target_model = model or settings.llm_model or "deepseek-flash"
 
         logger.info(f"[LLM] 调用 LLM，模型={target_model}，prompt 长度={len(prompt)}，前100字: {prompt[:100]!r}")
-        client = OpenAI(api_key=api_key, base_url=base_url)
+        client = get_default_client()
 
         kwargs = {
             "model": target_model,
@@ -982,22 +914,15 @@ class QAService:
         return response.choices[0].message.content.strip()
 
     def _call_llm_stream(self, prompt: str, model: Optional[str] = None):
-        """流式调用远程API（支持指定模型）
-
-        Args:
-            prompt: 提示词
-            model: 模型名称，不传则使用 settings.llm_qa_model 默认值
-        """
+        """流式调用远程API（model 不传则用 settings.llm_qa_model）。"""
         import logging
 
         logger = logging.getLogger(__name__)
 
-        base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
-        api_key = settings.llm_api_key or ""
         target_model = model or settings.llm_qa_model
         logger.info(f"[LLM] _call_llm_stream: 传入 model={model!r}, 解析结果 target={target_model!r}")
 
-        client = OpenAI(api_key=api_key, base_url=base_url)
+        client = get_default_client()
         response = client.chat.completions.create(
             **self._apply_thinking_policy({
                 "model": target_model,
@@ -1013,22 +938,15 @@ class QAService:
                 yield chunk.choices[0].delta.content
 
     def _call_llm_stream_with_messages(self, messages: List[Dict], model: Optional[str] = None):
-        """流式调用远程API（使用标准 messages 数组）
-
-        Args:
-            messages: 标准 OpenAI 格式的 messages 数组 [{"role": "system/user/assistant", "content": "..."}]
-            model: 模型名称，不传则使用 settings.llm_qa_model 默认值
-        """
+        """流式调用远程API（使用标准 OpenAI 格式 messages 数组）。"""
         import logging
 
         logger = logging.getLogger(__name__)
 
-        base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
-        api_key = settings.llm_api_key or ""
         target_model = model or settings.llm_qa_model
         logger.info(f"[LLM] _call_llm_stream_with_messages: 模型={target_model}, messages数量={len(messages)}")
 
-        client = OpenAI(api_key=api_key, base_url=base_url)
+        client = get_default_client()
         response = client.chat.completions.create(
             **self._apply_thinking_policy({
                 "model": target_model,
@@ -1044,20 +962,14 @@ class QAService:
                 yield chunk.choices[0].delta.content
 
     def _build_messages(self, question: str, contexts: List[Dict], history: Optional[List[Dict]] = None,
-                        kg_evidence: str = "", max_primary: int = 5) -> List[Dict]:
-        """构建标准 messages 数组（system + history + 当前用户消息）
+                        kg_evidence: str = "", max_primary: int = 5,
+                        system_prompt_override: Optional[str] = None) -> List[Dict]:
+        """构建标准 messages 数组（system + history + 当前用户消息）。
 
-        Args:
-            question: 当前用户问题
-            contexts: 检索到的法规上下文
-            history: 对话历史列表，每条包含 role 和 content
-            kg_evidence: 知识图谱补充证据文本（已渲染），为空则不注入
-            max_primary: 直接命中来源（非引用链扩展）进入 prompt 的条数上限。
-                默认 5 与既有问答链路保持一致；Agent 多步探索会传入更大值，
-                使额外召回的条款也能进入 prompt（引用链扩展项不受此限制）。
-
-        Returns:
-            标准 OpenAI 格式的 messages 数组
+        max_primary: 直接命中来源进入 prompt 的条数上限（引用链扩展项不受限），
+        Agent 多步探索会传入更大值。
+        system_prompt_override: 整体替换 system 提示（Agent 多步合成需独立报告结构），
+        参考资料与用户消息渲染保持一致，保证【来源X】口径不变。
         """
         # 引用链扩展项（组件D）带 retrieval_hop=2，需与直接检索命中的来源分开呈现
         hop_contexts = [c for c in contexts if c.get('retrieval_hop') == 2]
@@ -1166,6 +1078,9 @@ class QAService:
 - 严禁编造资料中没有的信息。
 - 如遇资料不足，明确说明："关于XX方面，现有法规资料暂未提供明确规定..." """
 
+        if system_prompt_override:
+            system_prompt = system_prompt_override
+
         messages = [{"role": "system", "content": system_prompt}]
 
         if history and len(history) >= 1:
@@ -1205,13 +1120,9 @@ class QAService:
                       jurisdictions: Optional[List[str]]) -> Optional[Tuple[str, str]]:
         """问答答案缓存的键；问题为空时返回 None（既不读也不写）。
 
-        键只包含「真正影响答案的输入与开关」：
-          - top_k / jurisdictions：决定召回范围，进而决定答案所依据的条款集合；
-          - refexp：引用链扩展会改变送入 prompt 的条款集合，必须计入，否则切换该
-            开关前后的答案会被错误复用（与检索缓存计入同类开关是同一原因）；
-          - kgevi：KG-RAG 融合会改变送入 prompt 的证据集合，同理必须计入；
-          - 精排开关刻意不计入：问答链路走 repo.query 纯向量召回，不经过精排，
-            把它写进键只会让键虚增维度、并不反映任何答案差异。
+        键只含真正影响答案的输入与开关：top_k、jurisdictions、refexp（引用链扩展）、
+        kgevi（KG-RAG 证据）——后两者会改变送入 prompt 的条款集合，必须计入。
+        精排开关刻意不计入：问答链路走纯向量召回，不经过精排。
         """
         if not question or not question.strip():
             return None
@@ -1226,17 +1137,15 @@ class QAService:
 
     def ask_stream(self, question: str, top_k: int = 5, jurisdictions: Optional[List[str]] = None,
                     history: Optional[List[Dict]] = None):
-        """流式问答"""
-        # 精确答案缓存：命中即跳过「检索 + LLM 生成」，直接回放既有答案。
-        # 仅对首轮提问启用 —— 追问（history 非空）的答案依赖上文，同一句问题在不同
-        # 对话语境下答案不同，用问题文本做键会返回错配答案，故带历史时一律不走缓存。
+        """流式问答。"""
+        # 精确答案缓存：命中即跳过检索+生成，直接回放。仅对首轮提问启用——
+        # 追问答案依赖上文，用问题文本做键会错配。
         cache = get_qa_answer_cache() if (settings.qa_answer_cache_enabled and not history) else None
         cache_key = self._qa_cache_key(question, top_k, jurisdictions) if cache is not None else None
         if cache is not None and cache_key is not None:
             cached = cache.get(cache_key)
             if cached is not None:
-                # 事件序列与正常路径保持同形（status → sources → content → end），
-                # 前端无需为「缓存命中」写任何分支；状态文案如实说明答案来自缓存。
+                # 事件序列与正常路径同形（status → sources → content → end），前端无需分支
                 yield {"type": "status", "stage": "retrieve", "data": "已命中缓存，正在载入回答…"}
                 yield {"type": "sources", "sources": cached["sources"],
                        "retrieved_count": cached["retrieved_count"],
@@ -1294,8 +1203,7 @@ class QAService:
         # 将实际检索到的法域附加到 sources 返回，便于前端保存到历史记录
         detected_jurisdictions = list(source_jurisdictions) if not jurisdictions else detected_jurisdictions
 
-        # 先推送来源，再收集图谱证据并构建 prompt：图谱证据需要一次查询向量编码 + ES 检索，
-        # 不应让它阻塞来源面板展示（前端拿到 sources 即可先渲染参考列表）。
+        # 先推送来源再收集图谱证据：后者要一次向量编码 + ES 检索，不应阻塞来源面板展示。
         yield {"type": "sources", "sources": sources, "retrieved_count": len(contexts), "jurisdictions": detected_jurisdictions}
 
         t3 = time.time()
@@ -1343,15 +1251,9 @@ class QAService:
 
     def ask_stream_with_image(self, question: str, top_k: int = 5, jurisdictions: Optional[List[str]] = None,
                               history: Optional[List[Dict]] = None, images: Optional[List[Dict]] = None):
-        """
-        支持图片的流式问答（使用智能问答模型原生多模态）
+        """支持图片的流式问答（使用智能问答模型原生多模态）。
 
-        Args:
-            question: 用户问题
-            top_k: 检索结果数量
-            jurisdictions: 法域列表
-            history: 对话历史
-            images: 图片列表，每项包含 {data: base64字符串, mime_type: 图片类型}
+        images 每项为 {data: base64, mime_type: 图片类型}。
         """
         # 刻意不接入答案缓存：图片问答的答案取决于图像内容，无法由问题文本唯一确定；
         # 即便本次未传图片，其 prompt 也走多模态模板（_build_multimodal_messages），
@@ -1442,19 +1344,7 @@ class QAService:
 
     def _build_multimodal_messages(self, question: str, contexts: List[Dict], history: Optional[List[Dict]] = None,
                                    images: Optional[List[Dict]] = None, kg_evidence: str = "") -> List[Dict]:
-        """
-        构建多模态消息格式
-
-        Args:
-            question: 用户问题
-            contexts: 检索到的法规上下文
-            history: 对话历史
-            images: 图片列表
-            kg_evidence: 知识图谱补充证据文本（已渲染），为空则不注入
-
-        Returns:
-            符合OpenAI多模态格式的messages列表
-        """
+        """构建符合 OpenAI 多模态格式的 messages 列表（文本 + 图片 + 参考资料）。"""
         import logging
         logger = logging.getLogger(__name__)
 
@@ -1613,25 +1503,15 @@ class QAService:
         return "\n\n".join(references)
 
     def _call_multimodal_stream(self, messages: List[Dict]):
-        """
-        调用多模态流式API（使用智能问答模型）
-
-        Args:
-            messages: 多模态消息列表
-
-        Yields:
-            流式文本片段
-        """
+        """调用多模态流式API（使用智能问答模型），逐段产出文本。"""
         import logging
 
         logger = logging.getLogger(__name__)
 
-        base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
-        api_key = settings.llm_api_key or ""
         target_model = settings.llm_qa_model
 
         logger.info(f"[多模态LLM] 调用模型: {target_model}, 消息数量: {len(messages)}")
-        client = OpenAI(api_key=api_key, base_url=base_url)
+        client = get_default_client()
         response = client.chat.completions.create(
             **self._apply_thinking_policy({
                 "model": target_model,

@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, Depends, Query, Header
+from fastapi import APIRouter, HTTPException, Depends, Query, Header, Body
 from typing import Dict, Optional, Any, List
 from core.config import settings
 from models.schemas import APIResponse
@@ -12,8 +12,7 @@ law_service = LawManagementService()
 repo = ElasticsearchRepository()
 catalog = LawCatalog()
 
-# 管理员Token，从环境变量 LEGAL_ADMIN_TOKEN 读取（见 core/config.py 的 admin_token）
-# 默认值仅供本地开发使用，生产环境务必在 .env 中覆盖
+# 管理员Token，从环境变量 LEGAL_ADMIN_TOKEN 读取；默认值仅限本地开发，生产必须在 .env 覆盖
 ADMIN_TOKEN = settings.admin_token
 
 
@@ -22,7 +21,6 @@ def verify_admin_token(authorization: Optional[str] = Header(None)) -> bool:
     if not authorization:
         raise HTTPException(status_code=401, detail="缺少认证令牌", headers={"WWW-Authenticate": "Bearer"})
     
-    # 支持Bearer token格式
     if authorization.startswith("Bearer "):
         token = authorization[7:].strip()
     else:
@@ -162,6 +160,39 @@ async def sync_index(
         raise HTTPException(status_code=500, detail=f"同步失败: {str(e)}")
 
 
+# ==================== 知识图谱实体词典回溯 ====================
+
+@router.post("/kg/rebuild-entities", summary="重建知识图谱实体词典（历史回溯）")
+async def rebuild_kg_entities(
+    prune: bool = Query(False, description="重建后清理孤立实体（破坏性，默认关闭）"),
+    _: bool = Depends(verify_admin_token),
+):
+    """
+    零 LLM 重建实体词典：按当前别名表/本体归一旧三元组的 canonical_id；prune=True 额外清理孤立实体。
+    长耗时（含向量编码），大批量建议改用离线脚本 run_kg_extraction.py --rebuild-entities。
+    """
+    from services.kg_extraction_service import KGExtractionService
+    try:
+        summary = KGExtractionService().reconcile_entities(prune=prune)
+        return APIResponse(success=True, data=summary)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"重建实体词典失败: {str(e)}")
+
+
+@router.post("/kg/review-queue/dismiss", summary="删除已确认的实体合并候选")
+async def dismiss_review_candidates(
+    payload: Dict[str, Any] = Body(...),
+    _: bool = Depends(verify_admin_token),
+):
+    """从复核队列移除已确认的实体合并候选，请求体 {"ids": ["<候选文档ID>", ...]}。"""
+    ids = (payload or {}).get("ids", []) or []
+    try:
+        deleted = repo.dismiss_kg_review_candidates(ids)
+        return APIResponse(success=True, data={"requested": len(ids), "deleted": deleted})
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"删除复核候选失败: {str(e)}")
+
+
 # ==================== 法律目录 (Law Catalog) API ====================
 
 @router.get("/catalog", summary="获取法律目录")
@@ -170,12 +201,7 @@ async def get_catalog(
     status: Optional[str] = Query(None, description="状态筛选 (active/amended/repealed/deleted)"),
     _: bool = Depends(verify_admin_token)
 ):
-    """
-    获取法律目录列表
-    
-    支持按法域和状态筛选
-    返回所有法律的元信息（不含全文）
-    """
+    """获取法律目录列表（可按法域/状态筛选，返回元信息，不含全文）"""
     try:
         laws = catalog.get_all_laws(jurisdiction=jurisdiction, status=status)
         stats = catalog.get_statistics()
@@ -193,11 +219,7 @@ async def get_catalog(
 async def get_catalog_statistics(
     _: bool = Depends(verify_admin_token)
 ):
-    """
-    获取详细的统计信息
-    
-    包括：总法规数、按法域分布、按年份分布、按状态分布等
-    """
+    """获取法律目录统计（总数、法域/年份/状态分布）"""
     try:
         stats = catalog.get_statistics()
         return APIResponse(success=True, data=stats)
@@ -227,12 +249,7 @@ async def delete_catalog_record(
     law_id: str,
     _: bool = Depends(verify_admin_token)
 ):
-    """
-    删除或标记删除法律目录记录
-    
-    注意：此操作仅标记为 deleted，不会物理删除（便于审计）
-    如需完全清除，请使用 /admin/catalog/rebuild 从 ES 重建
-    """
+    """标记删除目录记录（仅置 deleted 便于审计，物理清除走 /catalog/rebuild）"""
     try:
         success = catalog.delete(law_id)
         if success:
@@ -249,16 +266,7 @@ async def delete_catalog_record(
 async def rebuild_catalog(
     _: bool = Depends(verify_admin_token)
 ):
-    """
-    从 Elasticsearch 重建 law_catalog.json
-    
-    使用场景：
-    - catalog 文件丢失或损坏
-    - 需要修复数据不一致问题
-    - 首次初始化时从现有数据生成
-    
-    此操作会覆盖现有的 catalog 数据！
-    """
+    """从 Elasticsearch 重建 law_catalog.json（会覆盖现有 catalog 数据）"""
     try:
         stats = catalog.rebuild_from_es(repo)
         return APIResponse(success=True, data={
@@ -275,15 +283,7 @@ async def update_catalog_record(
     updates: Dict[str, Any],
     _: bool = Depends(verify_admin_token)
 ):
-    """
-    手动更新指定法律的目录记录
-    
-    可更新的字段：
-    - law_name_zh, law_name_original
-    - law_type, passing_date, effective_date
-    - topics (list), status
-    - total_articles, total_chunks
-    """
+    """手动更新指定法律的目录记录，仅覆盖 updates 中提供的字段"""
     try:
         existing = catalog.find_by_law_id(law_id)
         if not existing:

@@ -1,12 +1,4 @@
-"""
-法规数据统计 API 接口
-
-提供可视化看板所需的各种聚合统计数据：
-- 总览数据（数字卡片）
-- 按法域分布
-- 按主题分类
-- 按时间趋势
-"""
+"""法规数据统计 API：提供可视化看板所需的总览 / 法域 / 主题 / 时间趋势聚合数据。"""
 
 from fastapi import APIRouter, Query, HTTPException
 from typing import List, Dict, Optional, Any
@@ -26,11 +18,7 @@ catalog = LawCatalog()
 # ==================== 数据获取辅助函数（不包含路由参数） ====================
 
 def _get_best_date(law: Dict) -> str:
-    """
-    获取法规的最佳可视化日期。
-    优先级：passing_date → effective_date → publication_date → ingest_date
-    支持年份格式（如 "2011"）和完整日期格式（如 "2020-06-01"）。
-    """
+    """取法规最佳可视化日期（passing_date → effective_date → publication_date → ingest_date）"""
     for field in ("passing_date", "effective_date", "publication_date", "ingest_date"):
         date_str = law.get(field, "")
         if not date_str or date_str == "0000-00-00":
@@ -38,17 +26,15 @@ def _get_best_date(law: Dict) -> str:
         date_str = str(date_str).strip()
         if len(date_str) < 4:
             continue
-        # 年份格式（如 "2011"）补全为 "2011-01-01"
         if len(date_str) == 4 and date_str.isdigit():
             return f"{date_str}-01-01"
-        # 完整日期格式（如 "2020-06-01"）
         if len(date_str) >= 10:
             return date_str[:10]
     return ""
 
 
 def _fetch_overview_data() -> dict:
-    """获取总览数据（内部函数）"""
+    """获取总览数据"""
     cat_data = catalog.load()
     laws = [l for l in cat_data.get("laws", []) if l.get("status") != "deleted"]
     
@@ -106,7 +92,7 @@ def _fetch_overview_data() -> dict:
 
 
 def _fetch_jurisdiction_data() -> list:
-    """获取法域统计数据（内部函数）"""
+    """获取法域统计数据"""
     cat_data = catalog.load()
     laws = [l for l in cat_data.get("laws", []) if l.get("status") != "deleted"]
     
@@ -147,8 +133,8 @@ def _fetch_jurisdiction_data() -> list:
 
 
 def _fetch_topic_data(limit: int = 50) -> list:
-    """获取主题统计数据（内部函数）"""
-    # 尝试从 ES 获取更详细的主题数据
+    """获取主题统计数据"""
+    # 优先用 ES 的更细主题统计，无数据时回退到 catalog
     topic_stats = repo.get_topic_statistics(limit=limit)
     
     if topic_stats and len(topic_stats) > 0:
@@ -199,7 +185,7 @@ def _fetch_topic_data(limit: int = 50) -> list:
 
 
 def _fetch_time_data(group_by: str = "year") -> dict:
-    """获取时间统计数据（内部函数）"""
+    """获取时间统计数据（按年或月分组，附各法域累计值）"""
     cat_data = catalog.load()
     laws = [l for l in cat_data.get("laws", []) if l.get("status") != "deleted"]
     
@@ -247,7 +233,6 @@ def _fetch_time_data(group_by: str = "year") -> dict:
         except ValueError:
             continue
     
-    # 按时间排序
     result = list(time_stats.values())
     result.sort(key=lambda x: x["period"])
     
@@ -286,11 +271,10 @@ def _fetch_time_data(group_by: str = "year") -> dict:
 
 
 def _fetch_timeline_data(jurisdiction: Optional[str] = None) -> dict:
-    """获取时间轴数据（内部函数）"""
+    """获取时间轴数据"""
     cat_data = catalog.load()
     laws = [l for l in cat_data.get("laws", []) if l.get("status") != "deleted"]
     
-    # 筛选法域
     if jurisdiction:
         laws = [l for l in laws if l.get("jurisdiction") == jurisdiction]
     
@@ -309,7 +293,6 @@ def _fetch_timeline_data(jurisdiction: Optional[str] = None) -> dict:
             except ValueError:
                 continue
     
-    # 按日期排序
     valid_laws.sort(key=lambda x: x["sort_date"])
     
     return {
@@ -320,14 +303,9 @@ def _fetch_timeline_data(jurisdiction: Optional[str] = None) -> dict:
 
 
 def _fetch_radar_data(min_chunk_threshold: int = 3, max_dimensions: int = 10) -> dict:
-    """获取雷达图数据（内部函数）
+    """获取雷达图数据：从原始 JSON 的 topics.label_zh 动态统计各法域覆盖度并归一化到 0-100。
 
-    动态从原始数据的 topics.label_zh 统计各法域在各维度的覆盖度。
-    新法规入库后会自动纳入新的重要维度，无需手动维护关键词映射。
-
-    参数:
-        min_chunk_threshold: 维度至少包含的 chunk 数量门槛（低于此值的不展示）
-        max_dimensions: 雷达图最多展示的维度数量（取 topN）
+    低于 min_chunk_threshold 的维度不展示，最多取 max_dimensions 个。
     """
     import os
     from collections import defaultdict, Counter
@@ -424,12 +402,8 @@ def _fetch_radar_data(min_chunk_threshold: int = 3, max_dimensions: int = 10) ->
 @router.get("", summary="获取统计数据总入口")
 @router.get("/", summary="获取统计数据总入口")
 async def get_stats():
-    """
-    获取统计数据总入口（兼容前端直接调用 /api/v1/stats）
-    返回完整看板数据
-    """
+    """获取统计数据总入口（兼容前端直接调用 /api/v1/stats），返回完整看板数据。"""
     try:
-        # 获取原始数据
         overview = _fetch_overview_data()
         jur_list = _fetch_jurisdiction_data()
         topic_list = _fetch_topic_data(limit=30)
@@ -527,11 +501,7 @@ async def get_radar_data():
 
 @router.get("/full_dashboard", summary="获取完整看板数据")
 async def get_full_dashboard():
-    """
-    一次性获取所有可视化所需的数据（减少前端请求次数）
-    
-    适用于首次加载时批量获取全部数据
-    """
+    """一次性获取所有可视化所需数据（减少前端请求次数）"""
     try:
         # 直接调用内部数据获取函数，不调用路由函数
         dashboard_data = {

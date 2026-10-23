@@ -29,17 +29,14 @@ class SearchResult(BaseModel):
     content: str
     metadata: DocumentMetadata
     similarity: float
-    # 引用链多跳扩展标记（组件D）：retrieval_hop=2 表示该条由引用链补入，
-    # 不是语义命中，此时 similarity 无意义，前端应据此标注「由第 X 条引用」。
-    # 跨法规引用（多跳 A）额外携带 cross_law / referenced_law_id / referenced_law_name，
-    # 使前端能区分「同法规引用」与「引用自另一部法规」，避免把来源条号误读成本法规条号。
+    # retrieval_hop=2 表示由引用链补入（非语义命中，similarity 无意义）；
+    # cross_law / referenced_* 用于区分同法规引用与跨法规引用。
     retrieval_hop: Optional[int] = None
     referenced_by: Optional[str] = None
     cross_law: Optional[bool] = None
     referenced_law_id: Optional[str] = None
     referenced_law_name: Optional[str] = None
-    # 展示用「匹配度」= 真实向量余弦相似度（0~1）。None 表示该条无余弦分
-    # （仅 BM25 命中或引用扩展补入），前端此时不显示百分比，避免误示 0%/50%。
+    # 展示用匹配度（真实余弦相似度）；None 表示无余弦分，前端不显示百分比。
     match_score: Optional[float] = None
 
 
@@ -212,14 +209,7 @@ class AggregatedResult(BaseModel):
 
 
 class TopicAnalysisResponse(BaseModel):
-    """
-    跨法域专题分析完整响应
-
-    三阶段流水线：
-    阶段一：语义向量检索（分别搜索两个法域，各取 Top-N）
-    阶段二：按法规聚合去重（law_id 分组 + chunk_index 排序 + 拼接）
-    阶段三：LLM 生成结构化对比分析报告（5个固定维度）
-    """
+    """跨法域专题分析响应：检索 → 按法规聚合 → LLM 生成五维对比报告。"""
     query: str = ""
     jurisdiction_a: str = ""
     jurisdiction_b: str = ""

@@ -1,19 +1,6 @@
-"""
-问答评估脚本 (RAG QA Evaluation)
-================================
-评估指标:
-  1. HasAns@5     - 检索结果是否包含答案（与 gold 条款匹配）
-  2. Faithfulness - 生成答案是否忠实于检索文档（LLM-as-judge, 1-5分）
-  3. Relevance    - 生成答案是否准确回答用户问题（LLM-as-judge, 1-5分）
+"""问答评估（RAG QA Evaluation）：HasAns@5 命中 gold 条款，Faithfulness / Relevance 由 LLM 判 1-5 分。
 
-使用方式:
-  cd legal_rag
-  python run_qa_eval.py
-
-输出:
-  - 终端打印评估汇总表
-  - eval_data/eval_qa_results.json  - 每条查询详细结果
-  - eval_data/eval_qa_summary.json  - 汇总指标
+仅评估 B_nl_zh 变体；输出 eval_qa_results.json（逐条）与 eval_qa_summary.json（汇总）。
 """
 import sys, os, json
 from typing import List, Dict, Optional
@@ -166,7 +153,7 @@ def judge_faithfulness(query: str, answer: str, retrieved_articles: List[tuple],
                        qa_service) -> int:
     """LLM-as-judge 评估忠实度 (1-5分)"""
     # 构建参考文档摘要
-    ref_text = "\n\n".join([f"【来源{i+1}】\n{c[:500]}" for i, (_, _, c) in enumerate(retrieved_articles)])
+    ref_text = "\n\n".join([f"【来源{i+1}】\n{c[:1500]}" for i, (_, _, c) in enumerate(retrieved_articles)])
 
     prompt = f"""请评估以下生成答案对参考文档的忠实程度。
 

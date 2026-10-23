@@ -21,10 +21,7 @@ from api.v1.kg import router as kg_router
 
 import torch
 
-# 限制 PyTorch inter-op 线程池为 1。该池默认大小等于 CPU 核数（本机 16），与 intra-op
-# 的 8 路叠加后在 16 核上过度订阅：实测冷启动后前几个请求会烧掉 ~300 CPU秒（占满
-# ~14/16 核），而同样的工作稳态只需 ~44.6 CPU秒。必须在任何并行工作开始前调用
-# （此处位于所有模型推理之前，安全）；重复调用会抛 RuntimeError，忽略即可。
+# 限制 PyTorch inter-op 线程池为 1，避免与 intra-op 叠加导致 CPU 过度订阅（须在使用前调用）
 try:
     torch.set_num_interop_threads(1)
 except RuntimeError:
@@ -32,20 +29,7 @@ except RuntimeError:
 
 
 def _configure_logging() -> None:
-    """把应用日志配置到 root，保证 `uvicorn main:app` 启动方式下 INFO 也可见。
-
-    背景：本文件的日志配置原先写在 `if __name__ == "__main__":` 分支里，而容器 CMD 是
-    `uvicorn main:app`，该分支从不执行 —— root logger 没有 handler，应用侧
-    `logging.getLogger(__name__).info(...)` 只落到 logging.lastResort（仅输出 WARNING 以上），
-    INFO 日志全部丢失。对照实验确认：root.handlers 为空，INFO 不打印、WARNING 正常。
-
-    为什么放在模块级能生效：uvicorn 在 Config.__init__ 中先完成自身 logger 配置，随后
-    Server.serve() 才 import 应用；其默认 LOGGING_CONFIG 满足 disable_existing_loggers=False
-    且不接管 root，因此这里的 handler 在 uvicorn 之后挂上，不会被清掉；也不会与 uvicorn 的
-    uvicorn/uvicorn.access（propagate=False、自带 handler）重复输出。
-
-    幂等：root 已有 handler 时直接返回，避免重复导入或 `python main.py` 路径重复配置导致日志翻倍。
-    """
+    """配置 root logger（uvicorn 启动方式下 INFO 也可用）；幂等。"""
     root = logging.getLogger()
     if root.handlers:
         return
@@ -67,23 +51,7 @@ app = FastAPI(
 
 
 def _warm_reranker(svc) -> None:
-    """用一次与真实检索同构的批量推理预热 cross-encoder。
-
-    为什么要做「推理预热」而不只是「加载模型」：PyTorch 的 CPU 后端会在首次前向时
-    按张量 shape 编译 oneDNN/MKL 原语并扩张内存池。实测只加载模型时，/health/ready
-    变 200 之后的前 4~5 个请求仍持续偏慢（46.9 → 23.6 → 25.2 → 14.1 → 7.8s），
-    就是因为这些开销被推迟到了真实请求上。
-
-    为什么只预热 1 个 batch：rerank 内部按 settings.reranker_batch_size 分批、并按
-    max_length=512 截断（见 ReRankerService._score_pairs），单次前向的主导形状就是
-    (batch_size, 512)。原先按 reranker_window(=20) 预热会跑 (8,512)+(8,512)+(4,512)
-    三批，其中第 2 批与第 1 批形状完全相同、纯属重复编译。实测预热耗时 19.7s → 10.5s，
-    并因此把与 bge-m3 加载的争抢窗口缩短，加载从 43.8s 回落到 40.2s。
-    只预热 1 个 batch 即可覆盖主导形状，把 oneDNN/MKL 编译与内存池扩张留在启动阶段。
-
-    预热规模对齐真实路径：候选数取 reranker_batch_size，content 填满 500 字符
-    （rerank 内部按 content[:500] 截断），覆盖的是 shape 最大、代价最高的那批前向。
-    """
+    """用一次与真实检索同构的批量推理预热 cross-encoder（只预热 1 个 batch 覆盖主导 shape）。"""
     from core.config import settings
 
     long_text = ("劳动争议与劳动关系的法律适用及当事人权利义务条款。" * 40)[:500]
@@ -96,11 +64,7 @@ def _warm_reranker(svc) -> None:
 
 
 def _warm_embedding(model) -> None:
-    """用一次真实编码预热嵌入模型。
-
-    参数与检索链路保持一致（见 ElasticsearchRepository 的 encode 调用）：
-    真实检索只编码查询文本本身，故这里同样只喂一条短文本。
-    """
+    """用一次真实编码预热嵌入模型（参数与检索链路一致）。"""
     import torch
     from core.config import settings
 
@@ -114,10 +78,7 @@ def _warm_embedding(model) -> None:
 
 
 def _load_and_warm_reranker(_log) -> None:
-    """加载 Re-ranker 并做一次同构推理预热（供并行加载调用）。
-
-    本函数不抛异常：失败只降级并记日志，因此调用方用 future.result() 只是为了等待完成。
-    """
+    """加载 Re-ranker 并做一次同构推理预热；不抛异常，失败只降级并记日志。"""
     import time
     from core.config import settings
 
@@ -148,11 +109,7 @@ def _load_and_warm_reranker(_log) -> None:
 
 
 def _load_and_warm_embedding(_log) -> None:
-    """加载 bge-m3 并做一次真实编码预热（供并行加载调用）。
-
-    本函数不抛异常：失败只记日志。嵌入模型是检索链路的必需组件、无法降级，
-    失败状态由 /health/ready 读取 ModelLoader.load_state() 暴露。
-    """
+    """加载 bge-m3 并做一次真实编码预热；不抛异常，失败状态由 /health/ready 暴露。"""
     import time
 
     t0 = time.time()
@@ -171,37 +128,11 @@ def _load_and_warm_embedding(_log) -> None:
 
 
 def _warmup_models() -> None:
-    """后台预热模型与法域向量（在独立线程中执行）。
-
-    关键点：
-    1. 必须放在独立线程里。模型加载与首次推理都是阻塞的 CPU/IO 重活，原先直接写在
-       async startup handler 中会占住事件循环，uvicorn 在完成前无法处理任何请求。
-    2. 不能只预热 reranker。嵌入模型原先走「首个请求触发的懒加载」，重启后第一个搜索
-       请求要自己扛下整个 bge-m3 加载（实测加载耗时 36.7s）。
-    3. 加载完成后各跑一次真实推理，把首次前向的 oneDNN/MKL 初始化开销留在启动阶段
-       （见 _warm_reranker / _warm_embedding）。
-    4. Re-ranker 与 bge-m3 **并行**加载。二者互不依赖（前者 cross-encoder，后者 bi-encoder），
-       原先串行要 1.6+18.4+34.0 ≈ 54s，纯属排队浪费；并行后只取较慢的一条链。
-       实测就绪时间 68.7s → 60.1s。收益低于理论值的原因是 Re-ranker 推理预热（8 线程满负荷）
-       与 bge-m3 加载争抢 CPU，把加载从 34.0s 抬到 43.8s；缩短预热规模后（见 _warm_reranker）
-       争抢窗口收窄，加载回落到 40.2s，就绪进一步降到 57.6s。
-       法域向量依赖 bge-m3，必须排在两条链汇合之后，不能一起丢进池子。
-    5. 法域语义向量也纳入本流程串行执行（见下）。它原先在 QAService 构造时以独立线程
-       启动、且每个实例各算一份，实测 2 份并发把 16 核占满约 90 秒，又不受就绪探针门控，
-       才是「就绪后前几个请求 20 秒以上」的真正原因——并非首次前向开销。
-    6. 冷启动优化已收口（判定不再投入）。剩余缺口为：① bge-m3 加载 40.2s（无并发争抢时
-       34.0s，现已无可与之争抢的并行伙伴）；② 进程与框架启动开销约 7.7s（容器启停 +
-       torch/fastapi import）。继续压缩需引入模型量化（int8）或把第二个模型改为延迟加载，
-       两者都会牺牲精度或首请求延迟，边际收益 < 2s 而风险明显上升，故判定收口。
-    沿用「加载失败不阻塞启动」的策略：reranker 失败降级为不精排；bge-m3 是必需组件无法降级，
-    失败时记录日志并由 /health/ready 报未就绪。
-    """
+    """后台预热模型与法域向量：独立线程执行，reranker 与 bge-m3 并行加载。"""
     global _warmup_done
     import time
 
-    # 预热阶段仍用 print：应用日志现已由模块级 _configure_logging() 统一配置（uvicorn 启动
-    # 方式下 INFO 同样可见），但 print 对每行立即 flush，且在启动早期不依赖日志级别与格式，
-    # 排查模型加载问题时更可靠 —— 此处正是最需要即时可见性的阶段。
+    # 预热阶段用 print：立即 flush，启动早期不依赖日志配置
     def _log(msg: str) -> None:
         print(f"[warmup] {msg}", flush=True)
 
@@ -210,9 +141,7 @@ def _warmup_models() -> None:
         from concurrent.futures import ThreadPoolExecutor
         from core.config import settings
 
-        # 两个加载器内部都会调用 torch.set_num_threads（且取值相同）。这里提前设置一次，
-        # 避免其中一个线程在另一个线程的并行区执行期间重复配置全局线程数——PyTorch 不保证
-        # 这种并发重配置是安全的，而同值的重复设置本身没有任何意义。
+        # 提前设置线程数，避免两个加载线程并发重配置全局状态（PyTorch 不保证安全）
         torch.set_num_threads(settings.torch_num_threads)
 
         t_all = time.time()
@@ -225,9 +154,7 @@ def _warmup_models() -> None:
         _log(f"模型加载与推理预热完成（并行），总耗时 {time.time() - t_all:.1f}s")
 
         # ---- 法域语义向量（问答用，依赖已加载的 bge-m3）----
-        # 必须排在嵌入模型之后，且必须放在统一预热流程里：它是一次性重活（实测占满多核数
-        # 十秒）。若像原先那样放在后台线程异步跑，会在 /health/ready 变绿之后继续与用户请求
-        # 抢 CPU，把就绪后的前几个请求拖慢到 20 秒以上。QAService 已改为单例，这里只算一份。
+        # 必须串行排在模型预热之后：否则会与用户请求抢 CPU，把就绪后的请求拖慢
         t0 = time.time()
         _log("开始预热法域语义向量...")
         try:
@@ -238,8 +165,8 @@ def _warmup_models() -> None:
             # 不抛出：问答会降级为纯关键词法域识别，标记为已完成避免就绪探针永远 503
             _log(f"法域语义向量预热失败（耗时 {time.time() - t0:.1f}s）：{type(e).__name__}: {e}")
     finally:
-        # 无论成败都置位：否则就绪探针永远 503，前端（depends_on: service_healthy）会一直被挡在门外。
-        # 模型是否可用由 /health/ready 里的 load_state 判定，本标记只表示"预热流程已跑完"。
+        # 无论成败都置位，否则就绪探针永远 503；
+        # 模型是否可用由 /health/ready 的 load_state 判定
         _warmup_done = True
         _log("预热流程结束")
 
@@ -257,11 +184,12 @@ def start_warmup():
     _warmup_started = True
     threading.Thread(target=_warmup_models, name="model-warmup", daemon=True).start()
 
-# 跨域支持（前后端分离）
+# 跨域白名单：正常部署走 nginx 同源反代不触发 CORS，仅保留本地调试场景；
+# 鉴权走 Authorization 头，不依赖 cookie，故 allow_credentials=False
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -280,30 +208,17 @@ app.include_router(kg_router, prefix="/api/v1")
 
 @app.get("/health")
 async def health_check():
-    """存活探针：只要进程能响应即视为存活。
-
-    语义保持不变（不反映模型/依赖状态），避免影响既有调用方。
-    「能否高效服务」的判断请用 /health/ready。
-    """
+    """存活探针：进程能响应即存活（不反映模型状态，后者见 /health/ready）。"""
     return {"status": "healthy", "service": "legal-rag"}
 
 
 @app.get("/health/ready")
 async def readiness_check(response: Response):
-    """就绪探针：模型加载完成后返回 200，预热期间返回 503。
+    """就绪探针：预热完成且模型可用返回 200，否则 503（供 docker healthcheck 使用）。
 
-    用于 docker healthcheck 与部署等待。预热期间返回 503 而不是 200，是为了让调用方
-    推迟发送检索/问答这类重活请求——否则会排在模型加载后面长时间等待（与 /health 的区别
-    就在于此：/health 是「进程活着」，本接口是「能高效服务」）。
-
-    就绪判定直接读取各服务实例的真实加载状态，不另外维护一份状态，避免与实际不一致：
-      - reranker：loaded=可用；failed=已降级为不精排（仍算就绪）；disabled=配置关闭（就绪）；
-        pending=仍在加载（未就绪）
-      - embedding：必须 loaded。它是检索链路的必需组件，失败无法降级（未就绪）
-      - jurisdiction_vectors：法域语义向量预热是否完成。它是启动阶段最重的一次性计算，
-        若不等它跑完就放行，用户请求会与它抢 CPU（实测被拖慢到 20 秒以上）
-      - warmup_done：预热线程是否跑完（含推理预热）。模型"加载完成"不等于"首次推理已预热"，
-        若不等这一步，请求会赶在推理预热之前到达，仍然要付首次前向的开销
+    判定直接读取各服务真实状态：
+      reranker: loaded/failed(降级不精排)/disabled 均视为就绪，pending 未就绪；
+      embedding 必须 loaded（不可降级）；jurisdiction_vectors 需 ready；warmup_done 需完成。
     """
     from core.config import settings
 
@@ -345,7 +260,7 @@ if __name__ == "__main__":
     import sys
     import signal
 
-    # 日志配置已在模块级 _configure_logging() 完成（uvicorn 启动方式下同样生效），此处不再重复配置。
+    # 日志已在模块级 _configure_logging() 配置，此处不再重复
     logger = logging.getLogger("legal_rag")
 
     def _handle_signal(signum, frame):

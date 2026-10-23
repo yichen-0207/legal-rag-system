@@ -1,6 +1,3 @@
-/**
- * 法规全文检索页面
- */
 registerPage('search', function(container) {
     container.innerHTML = `
         <h1 class="page-title">法规全文检索</h1>
@@ -33,7 +30,6 @@ registerPage('search', function(container) {
         <div id="search-results"></div>
     `;
 
-    // 加载法域和主题选项
     Promise.all([
         api.get('/search/jurisdictions'),
         api.get('/search/topics')
@@ -75,13 +71,11 @@ registerPage('search', function(container) {
         if (topicData && topicData.data) {
             topicData.data.forEach(function(t) {
                 const value = t.label_zh || t.topic || '';
-                // 原生 select option
                 const opt = document.createElement('option');
                 opt.value = value;
                 opt.textContent = value + ' (' + (t.count || 0) + ')';
                 topicSelect.appendChild(opt);
 
-                // 自定义下拉项
                 const item = document.createElement('div');
                 item.className = 'search-topic-item';
                 item.dataset.value = value;
@@ -115,11 +109,10 @@ registerPage('search', function(container) {
 
         updateTopicLabel();
 
-        // 恢复之前保存的搜索状态（从法规详情返回时）
+        // 恢复从法规详情返回前的搜索条件
         restoreSearchState();
     }).catch(function() { /* 静默失败 */ });
 
-    // 搜索按钮
     document.getElementById('search-btn').addEventListener('click', doSearch);
     document.getElementById('search-query').addEventListener('keydown', function(e) {
         if (e.key === 'Enter') doSearch();
@@ -136,7 +129,6 @@ function doSearch() {
     showLoading(resultsEl);
 
     if (!query) {
-        // 浏览模式：获取法规列表
         const params = {};
         if (jurisdiction) params.jurisdiction = jurisdiction;
         if (topics.length > 0) params.topics = topics.join(',');
@@ -151,7 +143,6 @@ function doSearch() {
             showError(resultsEl, '检索失败: ' + err.message);
         });
     } else {
-        // 语义检索模式
         const params = { query: query, top_k: 50 };
         if (jurisdiction) params.jurisdiction = jurisdiction;
         if (topics.length > 0) params.topics = topics.join(',');
@@ -203,10 +194,7 @@ function renderLawList(container, laws) {
     container.innerHTML = html;
 }
 
-/**
- * 繁简字符映射表（覆盖法规名称常用字）
- * 用于标题匹配时的繁简兼容，避免"网络安全法" vs "網絡安全法" 匹配失败
- */
+// 繁简映射表：用于标题匹配，避免"网络安全法"与"網絡安全法"匹配失败
 var _ZH_T2S_MAP = {
     '網': '网', '絡': '络', '網絡': '网络', '絡網': '络网',
     '個': '个', '資': '资', '訊': '讯', '料': '料', '保護': '保护',
@@ -344,9 +332,6 @@ var _ZH_T2S_MAP = {
     '裁': '裁', '調解': '调解', '調': '调', '解': '解',
 };
 
-/**
- * 将繁体字符串转换为简体（基于映射表，覆盖法规名称常用字）
- */
 function _zhT2S(str) {
     if (!str) return str;
     var result = '';
@@ -361,10 +346,7 @@ function _zhT2S(str) {
     return result;
 }
 
-/**
- * 繁简兼容的字符串包含判断
- * 返回 true 表示 a 包含 b 或 b 包含 a（双向判断，繁简互转后比较）
- */
+// 繁简兼容的双向包含判断
 function _zhIncludes(a, b) {
     if (!a || !b) return false;
     var aS = _zhT2S(a);
@@ -394,20 +376,18 @@ function extractTargetLawName(query) {
         if (pos !== -1) {
             var afterJuris = query.substring(pos + triggers[i].length);
 
-            // 中文法规名称
             var cnMatch = afterJuris.match(/^[的\s]*([\u4e00-\u9fff]{2,20}(?:法|條例|条例|法规|規則|规则|法令|令|守则|守則|制度|指引))(?=[的关于和与,，。．\s]|$)/);
             if (cnMatch) {
                 return cnMatch[1];
             }
 
-            // 英文法规名称（以 Act/Ordinance/Rule 等结尾）
+            // 英文法规名称
             var enMatch = afterJuris.match(/^\s*((?:[A-Za-z][-'A-Za-z]+[\s-]){0,5}(?:Act|Ordinance|Rule|Regulation|Program|Directive|Policy|Standard|Order|Code)(?:\s\d{4})?)(?=[\s\u4e00-\u9fff,，。．;(]|$)/);
             if (enMatch) {
                 return enMatch[1].trim();
             }
 
-            // 日韩等其他语言：捕获法域后的连续非空格内容作为法规名
-            // e.g. "日本個人情報保護法" → "個人情報保護法"
+            // 其他语言：如 "日本個人情報保護法" → "個人情報保護法"
             var otherMatch = afterJuris.match(/^[的\s]*([^\s,，。．;;(（]+)/);
             if (otherMatch) {
                 return otherMatch[1].trim();
@@ -419,10 +399,8 @@ function extractTargetLawName(query) {
 }
 
 function renderSearchResults(container, results, query) {
-    // 只渲染前 50 条避免 DOM 过大（后端 top_k=500 用于 RRF 融合质量）
-    // 引用链扩展项（retrieval_hop=2）被后端追加在列表最末——它不是语义命中、不参与排名，
-    // 若只取前 50 条会被永远截掉，「引用自第 X 条」的标注也就永远看不到。
-    // 其数量有上界（后端 reference_expand_max），故全部取回一并渲染。
+    // 只渲染前 50 条避免 DOM 过大；引用链扩展项（retrieval_hop=2）被追加在末尾且不参与排名，
+    // 若截断将永远看不到，其数量有后端上界，故一并取回渲染。
     var topResults = results.slice(0, 50);
     var hopResults = results.filter(function(item) { return item.retrieval_hop === 2; });
     var displayResults = topResults.concat(hopResults);
@@ -431,7 +409,6 @@ function renderSearchResults(container, results, query) {
     // 从查询中提取目标法规名称（与后端 _extract_law_name 逻辑一致）
     var targetLawName = extractTargetLawName(query);
     
-    // 按是否为目标法规分组
     var targetResults = [];
     var otherResults = [];
     
@@ -448,11 +425,8 @@ function renderSearchResults(container, results, query) {
         }
     });
 
-    // 如果没有标题匹配（跨语言情况：如中文名"个人资料保护法" vs ES标题"Personal Data Protection Act"），
-    // 用语言无关的"频次+分数加权"法确定目标法规：
-    // 1. 对每个 law_id 计算加权分数 = ∑score × (1 + count/10)，同时考虑匹配质量和数量
-    // 2. 如果头部法规显著领先其他法规（加权分 >= 2倍第二名），则认定为目标法规
-    // 3. 仅当用户查询中明确提取到法规名称时才启用此回退（targetLawName !== null）
+    // 无标题匹配时（如中文名 vs 英文标题），按 law_id 加权分（∑score×(1+count/10)）判定目标法规：
+    // 头部加权分 ≥ 2 倍第二名且命中 ≥ 2 条才认定；仅当查询明确提取到法规名时启用。
     if (targetLawName && !hasTitleMatch && otherResults.length > 0) {
         var lawScores = {};  // { law_id: { totalScore, count } }
         otherResults.forEach(function(item) {
@@ -467,13 +441,11 @@ function renderSearchResults(container, results, query) {
             }
         });
 
-        // 按加权分排序：加权分 = 总分 × (1 + 命中数/10)，同时衡量质量和覆盖率
         var ranked = Object.keys(lawScores).map(function(lid) {
             var s = lawScores[lid];
             return { lawId: lid, weightedScore: s.totalScore * (1 + s.count / 10), count: s.count };
         }).sort(function(a, b) { return b.weightedScore - a.weightedScore; });
 
-        // 只有当头部法规显著领先时才认定（加权分 >= 2倍第二名 或 第二名不存在）
         if (ranked.length > 0) {
             var top = ranked[0];
             var isDominant = ranked.length === 1 || top.weightedScore >= ranked[1].weightedScore * 2;
@@ -494,7 +466,6 @@ function renderSearchResults(container, results, query) {
         }
     }
 
-    // 按 law_id 聚合（辅助函数）
     function groupByLaw(items) {
         const lawDict = {};
         items.forEach(function(item) {
@@ -502,9 +473,7 @@ function renderSearchResults(container, results, query) {
             const lawId = metadata.law_id || item.law_id;
             if (!lawId) return;
 
-            // 展示分来自后端 match_score（真实向量余弦，0~1）。旧字段 similarity/score
-            // 是用 RRF 分反推的伪相似度（动态范围极小，几乎所有条款都是 0.50），
-            // 已不可用于展示；这里只认 match_score，缺失即 null（前端不显示百分比）。
+            // 展示分只认后端 match_score（真实余弦 0~1）；旧 similarity/score 是 RRF 反推的伪相似度，不可用。
             const mscore = (item.match_score === undefined || item.match_score === null) ? null : item.match_score;
 
             if (!lawDict[lawId]) {
@@ -600,16 +569,13 @@ function renderLawCard(law) {
     html += '<span style="font-size:0.75rem;color:' + scoreColor + ';font-weight:600;">' + (hasMax ? '最高匹配度 ' + maxScorePercent + '%' : '') + '</span>';
     html += '</div>';
 
-    // 条款列表：不再按前端分数重排 —— 后端返回顺序已是精排/融合后的最终顺序，
-    // 前端用无区分度的旧 score 重排反而会打乱它（tie 时依赖引擎稳定性，不可依赖）。
+    // 不按前端分数重排：后端返回顺序已是精排/融合后的最终顺序，重排会打乱它。
     law.clauses.forEach(function(clause) {
         const hasC = (clause.match_score !== null && clause.match_score !== undefined);
         const cPercent = hasC ? Math.round(clause.match_score * 100) : null;
-        // retrieval_hop=2 表示该条由同法规引用链补入（组件D），此时无余弦分，
-        // 故不显示匹配度，改标注它的引用来源，避免用户误以为 0% 是低相关命中
+        // retrieval_hop=2 为引用链补入项，无余弦分，故标注引用来源而非匹配度。
         const isRef = clause.retrieval_hop === 2 && clause.referenced_by;
-        // 跨法规引用（多跳 A）：来源条号属于另一部法规，必须带上法规名，
-        // 否则「引用自第 X 条」会被误读成本法规条号
+        // 跨法规引用的条号属于另一部法规，必须带法规名，避免误读为本法规条号。
         let refLabel = '引用自第 ' + escapeHtml(clause.referenced_by) + ' 条';
         if (clause.cross_law) {
             const srcLaw = clause.referenced_law_name || clause.referenced_law_id || '其他法规';
@@ -633,10 +599,8 @@ function renderLawCard(law) {
     return html;
 }
 
-// 在进入法规详情前保存搜索状态
-// 只保存「查询条件」，不保存结果 HTML：HTML 快照是保存那一刻的旧 DOM，
-// 前端代码更新后返回列表仍会回放旧画面（表现为「改了没效果」），且快照与
-// 后端数据也会脱节。存条件、返回时重新检索，才能始终按最新代码渲染。
+// 进详情前保存搜索条件：不存结果 HTML（旧 DOM 快照会与最新代码/后端数据脱节），
+// 返回时按条件重新检索。
 function saveSearchState() {
     var state = {
         query: document.getElementById('search-query').value,
@@ -646,8 +610,7 @@ function saveSearchState() {
     try { sessionStorage.setItem('search_state', JSON.stringify(state)); } catch(e) {}
 }
 
-// 从法规详情返回时恢复搜索状态：先还原筛选控件，再按条件重新检索
-// 调用点在本页主题下拉项构建完成之后，故此处可以安全地回填主题选中态。
+// 返回时先还原筛选控件再重新检索；调用点在主题下拉构建完成后，可安全回填选中态。
 function restoreSearchState() {
     var raw;
     try { raw = sessionStorage.getItem('search_state'); } catch(e) {}
@@ -661,19 +624,16 @@ function restoreSearchState() {
 
     var hasFilter = false;
 
-    // 恢复查询词
     if (state.query) {
         document.getElementById('search-query').value = state.query;
         hasFilter = true;
     }
 
-    // 恢复法域
     if (state.jurisdiction) {
         document.getElementById('search-jurisdiction').value = state.jurisdiction;
         hasFilter = true;
     }
 
-    // 恢复主题选择
     if (state.topics && state.topics.length > 0) {
         hasFilter = true;
         var topicSelect = document.getElementById('search-topic');
@@ -694,8 +654,7 @@ function restoreSearchState() {
         }
     }
 
-    // 按恢复后的条件重新检索，等价于用户再点一次「检索」按钮。
-    // 无条件时不触发，避免每次进入本页都白跑一次全量法规列表请求。
+    // 有条件才重新检索，避免每次进入本页都请求全量法规列表。
     if (hasFilter) doSearch();
 }
 
@@ -746,7 +705,6 @@ function renderSummaryCard(container, summary) {
 
     let html = '<div class="card" style="border-color:var(--color-border-deep);">';
     
-    // 标题行（包含状态、类型、日期等）
     const status = basicInfo.status || '';
     const statusEmoji = (status.includes('有效') || !status) ? 'OK' : '!';
     const lawType = basicInfo.law_type || '';
@@ -763,13 +721,11 @@ function renderSummaryCard(container, summary) {
     html += '<h4 style="font-family:var(--font-serif);font-size:1rem;font-weight:600;margin-bottom:0.5rem;">' + titleParts.join(' | ') + '</h4>';
     if (jurisdiction) html += '<div style="font-size:0.75rem;color:var(--color-text-muted);margin-bottom:0.75rem;">' + escapeHtml(jurisdiction) + '</div>';
 
-    // 立法目的和适用范围
     html += '<div class="grid-2" style="gap:0.75rem;margin-bottom:0.75rem;">';
     html += '<div><strong>立法目的</strong><p style="font-size:0.8125rem;color:var(--color-text-secondary);margin-top:0.25rem;">' + escapeHtml(purpose.substring(0, 200)) + (purpose.length > 200 ? '...' : '') + '</p></div>';
     html += '<div><strong>适用范围</strong><p style="font-size:0.8125rem;color:var(--color-text-secondary);margin-top:0.25rem;">' + escapeHtml(scope.substring(0, 200)) + (scope.length > 200 ? '...' : '') + '</p></div>';
     html += '</div>';
 
-    // 企业合规要点（新增）
     if (compliance && compliance.core_obligations) {
         html += '<details style="margin-top:0.5rem;"><summary style="cursor:pointer;font-size:0.8125rem;font-weight:600;">企业合规要点</summary>';
         html += '<div style="margin-top:0.5rem;">';
@@ -791,7 +747,6 @@ function renderSummaryCard(container, summary) {
         html += '</div></details>';
     }
 
-    // 法律效力（新增）
     if (legalEffect && Object.keys(legalEffect).length > 0) {
         html += '<details style="margin-top:0.5rem;"><summary style="cursor:pointer;font-size:0.8125rem;font-weight:600;">法律效力</summary>';
         html += '<div style="margin-top:0.5rem;font-size:0.8125rem;">';
@@ -806,7 +761,6 @@ function renderSummaryCard(container, summary) {
         html += '</div></details>';
     }
 
-    // 主要章节
     if (chapters.length > 0) {
         html += '<details style="margin-top:0.5rem;"><summary style="cursor:pointer;font-size:0.8125rem;font-weight:600;">主要章节 (' + chapters.length + '章)</summary>';
         html += '<div style="margin-top:0.5rem;">';
@@ -927,7 +881,6 @@ function renderSimilarLaws(container, simData, currentLawId) {
         html += '<button class="btn btn-secondary btn-sm" onclick="viewLawDetail(\'' + (item.law_id || '') + '\')">查看</button>';
         html += '</div>';
 
-        // 匹配条款预览
         const topChunks = item.top_matched_chunks || [];
         if (topChunks.length > 0) {
             html += '<details style="margin-top:0.375rem;"><summary style="cursor:pointer;font-size:0.75rem;color:var(--color-text-muted);">匹配条款预览（' + topChunks.length + '条）</summary>';

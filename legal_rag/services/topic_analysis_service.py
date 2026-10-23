@@ -29,11 +29,7 @@ class TopicAnalysisService:
         jurisdiction: str,
         top_n: int = 8
     ) -> List[Dict]:
-        """
-        阶段一：对指定法域执行语义向量搜索，保证返回 top_n 条结果。
-
-        分开搜索确保每个法域都有足够素材，不会被另一个法域"淹没"。
-        """
+        """阶段一：对指定法域单独做语义检索，保证每个法域都有 top_n 条素材、不被另一法域「淹没」。"""
         results = self.repo.query([query], n_results=top_n, where={"jurisdiction": jurisdiction})
         chunks = []
 
@@ -55,11 +51,7 @@ class TopicAnalysisService:
         return chunks
 
     def _aggregate_chunks_to_laws(self, chunks: List[Dict]) -> List[Dict]:
-        """
-        阶段二：将碎片化的 chunk 聚合为法规级别的结构化文本。
-
-        按 law_id 分组 → 同一法规的 chunk 按 chunk_index 排序 → 拼接为完整条款上下文。
-        """
+        """阶段二：按 law_id 分组并按 chunk_index 排序，聚合为法规级结构化文本。"""
         laws_map: Dict[str, Dict] = defaultdict(lambda: {
             "chunks": [],
             "article_numbers": set(),
@@ -76,10 +68,8 @@ class TopicAnalysisService:
 
         aggregated = []
         for lid, info in laws_map.items():
-            # 按 chunk_index 排序后拼接
             sorted_chunks = sorted(info["chunks"], key=lambda c: c["chunk_index"])
 
-            # 构建结构化文本块
             parts = [f"## {info['title']}"]
             for ch in sorted_chunks:
                 art_num = ch.get("article_number", "")
@@ -88,7 +78,6 @@ class TopicAnalysisService:
                 header = f"### {art_num}" if art_num else "### 条款"
                 parts.append(f"{header}\n{content}\n*(匹配度: {sim:.2%})*")
 
-            # 提取去重后的条款编号列表
             article_list = sorted(
                 [a for a in info["article_numbers"] if a],
                 key=lambda x: x.lstrip("第").rstrip("条")[:5] if x else ""
@@ -103,7 +92,6 @@ class TopicAnalysisService:
                 "max_similarity": max(c["similarity"] for c in sorted_chunks) if sorted_chunks else 0
             })
 
-        # 按最高相似度降序排列
         aggregated.sort(key=lambda x: x["max_similarity"], reverse=True)
         return aggregated
 
@@ -115,9 +103,7 @@ class TopicAnalysisService:
         jurisdiction_b_name: str,
         context_b: str
     ) -> str:
-        """
-        阶段三：构建详细版 Prompt（要求深度分析）。
-        """
+        """阶段三：构建要求逐维度深度展开的对比分析 Prompt。"""
         dimension_lines = "\n".join("   {}. {}".format(i + 1, dim) for i, dim in enumerate(self.ANALYSIS_DIMENSIONS))
 
         prompt = (
@@ -201,18 +187,7 @@ class TopicAnalysisService:
         jurisdiction_b: str,
         top_n_per_jurisdiction: int = 8
     ) -> Dict:
-        """
-        执行完整的跨法域专题分析流程。
-
-        Args:
-            query: 用户输入的查询主题（如"个人数据跨境转移的规定"）
-            jurisdiction_a: 法域A名称（如"澳门"）
-            jurisdiction_b: 法域B名称（如"新加坡"）
-            top_n_per_jurisdiction: 每个法域检索的条款数量
-
-        Returns:
-            包含检索结果聚合 + LLM 分析报告的完整响应
-        """
+        """执行完整流程：两法域分别检索 → 聚合 → LLM 生成对比报告；top_n_per_jurisdiction 为每法域条款数。"""
         t_total = time.time()
 
         # ===== 阶段一：分别对两个法域进行语义向量搜索 =====
@@ -296,10 +271,7 @@ class TopicAnalysisService:
 
     def analyze_stream(self, query: str, jurisdiction_a: str, jurisdiction_b: str,
                        top_n_per_jurisdiction: int = 8):
-        """
-        流式版本：阶段一二同步返回，LLM部分流式输出。
-        用于前端实时展示进度。
-        """
+        """流式版本：阶段一二同步返回，LLM 部分流式输出，供前端实时展示进度。"""
         t_total = time.time()
 
         # 阶段一：语义检索
@@ -357,24 +329,13 @@ class TopicAnalysisService:
         original_analysis: Dict,
         follow_up_question: str
     ) -> Dict:
-        """
-        追问功能：基于已生成的分析报告，回答用户的后续问题。
-        
-        Args:
-            original_analysis: 原始分析结果（包含 analysis_report、context_a、context_b 等）
-            follow_up_question: 用户的追问问题
-            
-        Returns:
-            包含追问回答的结果字典
-        """
+        """基于已生成的分析报告回答用户的后续问题。"""
         t_start = time.time()
         
-        # 从原始分析中提取必要信息
         analysis_report = original_analysis.get("analysis_report", "")
         jurisdiction_a = original_analysis.get("jurisdiction_a", "")
         jurisdiction_b = original_analysis.get("jurisdiction_b", "")
         
-        # 构建追问的 prompt
         prompt = self._build_follow_up_prompt(
             follow_up_question,
             jurisdiction_a,
@@ -382,7 +343,6 @@ class TopicAnalysisService:
             analysis_report
         )
         
-        # 调用 LLM 生成回答
         answer = self.qa_service._call_llm(prompt)
         t_llm = time.time() - t_start
         
@@ -404,9 +364,7 @@ class TopicAnalysisService:
         jurisdiction_b: str,
         original_report: str
     ) -> str:
-        """
-        构建追问的 Prompt。
-        """
+        """构建追问 Prompt。"""
         prompt = (
             "你是一位资深的比较法研究专家，正在处理用户对已生成分析报告的追问。\n"
             "\n"

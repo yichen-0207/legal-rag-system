@@ -1,35 +1,6 @@
-"""
-法律目录管理模块 (law_catalog.json)
+"""法律目录管理（law_catalog.json）：维护法律级元信息，与 ES 数据保持同步。
 
-功能：
-- 维护法律级别的元信息索引文件
-- 支持新增、更新、查询法律目录记录
-- 与 ES 数据保持同步
-
-数据结构：
-{
-  "version": "1.0",
-  "last_updated": "2024-01-15T10:30:00",
-  "total_laws": 21,
-  "laws": [
-    {
-      "law_id": "MAC_LEI_13_2019",
-      "law_name_zh": "網絡安全法",
-      "law_name_original": "",
-      "jurisdiction": "澳门",
-      "law_type": "法律",
-      "passing_date": "2019-06-06",
-      "effective_date": "2019-08-05",
-      "total_articles": 28,
-      "total_chunks": 28,
-      "topics": ["网络安全", "关键基础设施"],
-      "ingest_date": "2024-01-15",
-      "last_updated": "2024-01-15",
-      "status": "active",
-      "source_file": "MO_13196741_cleaned.json"
-    }
-  ]
-}
+记录字段：law_id / 名称 / 法域 / 类型 / 日期 / 条款与分块数 / 主题 / 状态 / 来源文件。
 """
 
 import json
@@ -42,12 +13,7 @@ class LawCatalog:
     """法律目录管理器"""
 
     def __init__(self, catalog_path: str = None):
-        """
-        初始化目录管理器
-
-        参数:
-            catalog_path: catalog 文件路径，默认为 data/law_catalog.json
-        """
+        """catalog_path 缺省为 data/law_catalog.json。"""
         if catalog_path:
             self.catalog_path = Path(catalog_path)
         else:
@@ -110,27 +76,7 @@ class LawCatalog:
         source_file: str = "",
         status: str = "active"
     ) -> Dict:
-        """
-        新增或更新法律目录记录
-
-        参数:
-            law_id: 法律ID
-            law_name_zh: 中文名称
-            jurisdiction: 法域
-            total_articles: 总条款数
-            total_chunks: 总文档块数
-            law_name_original: 原始名称
-            law_type: 法律类型
-            passing_date: 通过日期
-            effective_date: 生效日期
-            publication_date: 发布日期
-            topics: 主题标签列表
-            source_file: 来源文件名
-            status: 状态 (active/amended/repealed/deleted/missing)
-
-        返回:
-            更新后的法律记录
-        """
+        """新增或更新法律记录；状态变更时归档 previous_versions。"""
         catalog = self.load()
         now = datetime.now().strftime("%Y-%m-%d")
 
@@ -155,10 +101,9 @@ class LawCatalog:
         }
 
         if existing_record:
-            # 更新现有记录，保留历史版本信息
             index = next(i for i, law in enumerate(catalog["laws"]) if law.get("law_id") == law_id)
-            
-            # 如果状态变化（如从 active 变为 amended），保留旧版本信息
+
+            # 状态变化（如 active→amended）时归档旧版本
             if existing_record.get("status") != status and status != "deleted":
                 if "previous_versions" not in existing_record:
                     existing_record["previous_versions"] = []
@@ -174,10 +119,9 @@ class LawCatalog:
             # 合并新数据
             new_record["ingest_date"] = existing_record.get("ingest_date", now)  # 首次入库日期不变
             catalog["laws"][index] = new_record
-            
+
             print(f"📝 更新 catalog 记录: {law_id} ({law_name_zh})")
         else:
-            # 新增记录
             catalog["laws"].append(new_record)
             print(f"➕ 新增 catalog 记录: {law_id} ({law_name_zh})")
 
@@ -185,21 +129,12 @@ class LawCatalog:
         return new_record
 
     def update_from_chunks(self, chunks_data: List[Dict]) -> Dict:
-        """
-        从 chunks 数据中提取元信息并更新 catalog
-
-        参数:
-            chunks_data: 同一法律的多个 chunk 列表
-
-        返回:
-            更新后的法律记录
-        """
+        """从同一法律的 chunks 汇总元信息并写入 catalog。"""
         if not chunks_data:
             return {}
 
         first_chunk = chunks_data[0]
-        
-        # 提取基础字段
+
         law_id = first_chunk.get("_meta", {}).get("law_id", "") or first_chunk.get("metadata", {}).get("law_id", "")
         law_name_zh = first_chunk.get("_meta", {}).get("law_name", "") or first_chunk.get("metadata", {}).get("title", "")
         jurisdiction = first_chunk.get("_meta", {}).get("jurisdiction", "") or first_chunk.get("metadata", {}).get("jurisdiction", "")
@@ -245,15 +180,7 @@ class LawCatalog:
         )
 
     def delete(self, law_id: str) -> bool:
-        """
-        删除或标记删除法律记录
-
-        参数:
-            law_id: 要删除的法律ID
-
-        返回:
-            是否成功删除
-        """
+        """标记删除（软删除，保留审计记录）。"""
         catalog = self.load()
         original_count = len(catalog["laws"])
         
@@ -270,16 +197,7 @@ class LawCatalog:
         return False
 
     def get_all_laws(self, jurisdiction: str = None, status: str = None) -> List[Dict]:
-        """
-        获取所有法律记录（支持筛选）
-
-        参数:
-            jurisdiction: 法域筛选（可选）
-            status: 状态筛选（可选）
-
-        返回:
-            法律记录列表
-        """
+        """按法域 / 状态筛选法律记录。"""
         catalog = self.load()
         laws = catalog.get("laws", [])
 
@@ -292,12 +210,7 @@ class LawCatalog:
         return laws
 
     def get_statistics(self) -> Dict:
-        """
-        获取统计信息
-
-        返回:
-            包含各种统计数据的字典
-        """
+        """汇总法规数、分块数及按法域 / 状态 / 年份的分布。"""
         catalog = self.load()
         laws = [l for l in catalog.get("laws", []) if l.get("status") != "deleted"]
 
@@ -323,15 +236,7 @@ class LawCatalog:
         return stats
 
     def rebuild_from_es(self, es_repo) -> Dict:
-        """
-        从 ES 重建 catalog（用于修复损坏或丢失的 catalog）
-
-        参数:
-            es_repo: ElasticsearchRepository 实例
-
-        返回:
-            重建后的统计数据
-        """
+        """从 ES 重建 catalog（用于修复损坏或丢失的目录）。"""
         print("🔄 开始从 ES 重建 law_catalog.json...")
         
         all_laws = es_repo.get_all_laws()
@@ -341,7 +246,6 @@ class LawCatalog:
         for law_info in all_laws:
             law_id = law_info.get("law_id")
             
-            # 获取该法律的详细信息
             law_detail = es_repo.get_law_by_id(law_id)
             if law_detail:
                 record = {

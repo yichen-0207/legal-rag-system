@@ -36,25 +36,17 @@ JURISDICTION_INFO: Dict[str, Tuple[str, str]] = {
 
 
 def get_jurisdiction_info(jurisdiction: str) -> Tuple[str, str]:
-    """
-    获取法域对应的英文目录名和ID前缀代码
-    
-    Args:
-        jurisdiction: 法域名称（中文或英文）
-    
-    Returns:
-        (英文目录名, ID前缀代码)
-    """
+    """返回法域对应的 (英文目录名, ID 前缀代码)。"""
     if jurisdiction in JURISDICTION_INFO:
         return JURISDICTION_INFO[jurisdiction]
     
-    # 如果不在映射表中，尝试大小写不敏感匹配
+    # 大小写不敏感兜底匹配
     jur_lower = jurisdiction.lower().strip()
     for key, value in JURISDICTION_INFO.items():
         if key.lower() == jur_lower:
             return value
     
-    # 如果仍然不在映射表中，使用默认值
+    # 仍未匹配时使用默认值
     dir_name = jur_lower.replace(" ", "_")
     prefix = jurisdiction[:2].upper()[:2] if len(jurisdiction) >= 2 else jurisdiction.upper()
     return (dir_name, prefix)

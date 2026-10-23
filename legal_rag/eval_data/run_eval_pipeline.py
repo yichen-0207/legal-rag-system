@@ -1,10 +1,4 @@
-"""
-检索评估全流程管道
-===================
-Step 2: 为80条查询检索Top-20候选文档 → 填入Excel L列
-Step 3: 基于K列ground truth自动标注相关性 → 填入Excel M列
-Step 4: 构建eval_dataset.json → 运行3种策略评估 → 输出对比表
-"""
+"""检索评估全流程：Step 2 检索 Top-20 候选写入 Excel L 列 → Step 3 按 K 列 ground truth 自动标注 M 列 → Step 4 构建 eval_dataset.json 并跑 3 种策略对比。"""
 import sys, os, json, math
 from typing import List, Dict, Tuple, Optional
 from collections import Counter
@@ -268,10 +262,7 @@ def _get_ground_truth_dict() -> Dict[str, List[str]]:
 # Step 4b: 运行评估（共享retriever，修复跨法域问题）
 # ============================================================
 def run_evaluation_shared(retriever, dataset_path: str):
-    """
-    使用共享retriever运行3种策略，避免重复加载模型。
-    直接从 scripts.evaluate 复用 EvalQuery、EvalResult 等数据结构。
-    """
+    """使用共享 retriever 运行 3 种策略，避免重复加载模型。"""
     from scripts.evaluate import (
         load_dataset, EvalQuery, EvalResult, print_comparison_table,
         STRATEGIES,

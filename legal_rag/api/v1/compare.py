@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from models.schemas import APIResponse
 from services.compare_service import CompareService
 from core.config import settings
+from core.llm import get_default_client
 
 router = APIRouter(prefix="/compare", tags=["法规对比"])
 compare_service = CompareService()
@@ -24,12 +25,7 @@ def compare_laws(
     topic: str = Query(..., description="对比主题/关键词（如：数据保护）"),
     top_k: int = Query(5, ge=1, le=20, description="每个法域检索条款数（1-20）")
 ):
-    """
-    法规对比（轻量版，不调用LLM，秒级响应）
-
-    分别检索两个法域的相关条款 → 按法规聚合去重 → 结构化表格展示 + 自动总结。
-    如需 LLM 深度分析报告，请使用「跨法域专题分析」功能或点击「AI深度对比分析」按钮。
-    """
+    """法规对比（轻量版，不调用 LLM）：两个法域分别检索条款并按法规聚合去重。"""
     try:
         result = compare_service.compare(
             jurisdiction_a=jurisdiction_a,
@@ -44,13 +40,8 @@ def compare_laws(
 
 @router.post("/deep-analysis")
 def deep_analysis(req: DeepAnalysisRequest):
-    """
-    AI深度对比分析（调用LLM，流式输出）
-
-    基于两个法域的检索结果，由LLM生成专业的跨法域深度对比报告，流式输出。
-    """
+    """AI 深度对比分析：由 LLM 生成跨法域对比报告，SSE 流式输出。"""
     try:
-        from openai import OpenAI
         from fastapi.responses import StreamingResponse
         import json
 
@@ -85,16 +76,14 @@ def deep_analysis(req: DeepAnalysisRequest):
 3条具体建议，针对跨法域运营主体。
 """
 
-        base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
-        api_key = settings.llm_api_key or ""
         model = settings.llm_comparison_model or "deepseek-flash"
 
-        client = OpenAI(api_key=api_key, base_url=base_url)
+        client = get_default_client()
         create_kwargs = {
             "model": model,
             "messages": [{"role": "user", "content": prompt}],
             "temperature": 0.3,
-            # 用全局 max_tokens：原先硬编码 2500 会被思考 token 吃满，导致 content 为空（报告空白）
+            # 用全局 max_tokens：硬编码值偏小会被思考 token 吃满，导致 content 为空（报告空白）
             "max_tokens": settings.max_tokens,
             "stream": True
         }
@@ -135,25 +124,20 @@ class CacheAIRequest(BaseModel):
 
 @router.post("/cache-ai")
 def cache_ai_analysis(req: CacheAIRequest):
-    """
-    将前端生成的 AI 深度分析报告回写到 ES 缓存中。
-    前端在首次生成 AI 报告后异步调用此接口，后续缓存命中时直接返回。
-    """
+    """将前端生成的 AI 深度分析报告回写到 ES 缓存（仅缓存已存在时可写）。"""
     try:
-        # 查询现有缓存
         cached = compare_service.repo.get_analysis_cache(
             req.topic, req.jurisdiction_a, req.jurisdiction_b, cache_type="compare"
         )
         if not cached or not isinstance(cached, dict):
             return APIResponse(success=False, message="缓存不存在，无法回写")
 
-        # 在现有 report_data 中追加 ai_analysis 字段
         report_data = cached.get("report_data", {})
         if not isinstance(report_data, dict):
             report_data = {}
         report_data["ai_analysis"] = req.ai_analysis
 
-        # 获取当前指纹重新写入
+        # 沿用原指纹重写，保持缓存键一致
         fingerprint = cached.get("fingerprint", "")
         compare_service.repo.save_analysis_cache(
             req.topic, req.jurisdiction_a, req.jurisdiction_b,

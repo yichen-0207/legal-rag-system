@@ -11,35 +11,27 @@ from repositories.elasticsearch import ElasticsearchRepository, _to_label_zh
 from utils.law_catalog import LawCatalog
 from utils.topic_classifier import TopicClassifier
 from services.abstract_service import AbstractService
+from services.similar_law_service import SimilarLawService
 
 
 def process_json_file(json_file: Path, repo, skip_existing: bool = True) -> Iterator[Tuple[str, Dict, str, Optional[str]]]:
-    """
-    处理单个JSON文件，支持新旧两种格式
+    """处理单个 JSON 文件，兼容旧字典格式与新数组格式（cleaned）。
 
-    旧格式: 字典 {"law_id": ..., "structure": {...}, ...}
-    新格式: 数组 [{"doc_id": ..., "text_zh": ...}, ...] (cleaned文件)
-
-    产出四元组 (content, metadata, doc_id, embed_text)：
-        embed_text 为带条款标题前缀的 embedding 输入（仅向量化用），
-        旧格式或无前缀时返回 None，由调用方回退为 content。
-
-    参数:
-        skip_existing: 如果为True，当数据库中已有相同law_id时跳过
+    产出四元组 (content, metadata, doc_id, embed_text)；embed_text 仅用于向量化，
+    无前缀时为 None，调用方回退为 content。skip_existing 时已存在的 law_id 直接跳过。
     """
     with open(json_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # 检测数据格式
     is_list_format = isinstance(data, list)
 
     if is_list_format:
-        # 新格式：数组（cleaned文件）
+        # 新格式：数组（cleaned 文件）
         if not data or len(data) == 0:
             print(f"⚠️  文件 {json_file.name} 为空数组，跳过")
             return
 
-        # 从第一个元素提取公共元数据
+        # 公共元数据取自第一个元素
         first_item = data[0]
         law_id = first_item.get('law_id', '')
         title = first_item.get('law_name', '')
@@ -48,33 +40,28 @@ def process_json_file(json_file: Path, repo, skip_existing: bool = True) -> Iter
         effective_date = first_item.get('effective_date', '')
         publication_date = first_item.get('publication_date', '')
 
-        # 验证关键字段（从元素级别提取）
+        # 校验关键字段，law_id 缺失时依次尝试从 doc_id、文件名推断
         if not law_id or law_id == 'null':
-            # 尝试从doc_id推断（格式: MAC_LEI_XX_XXXX_ART_XXX 或 ART_XXX）
             sample_doc_id = first_item.get('doc_id', '')
             if sample_doc_id and '_' in sample_doc_id:
-                # 从 "MAC_LEI_14_2001_ART_001" 提取 "MAC_LEI_14_2001"
                 parts = sample_doc_id.split('_ART_')[0] if '_ART_' in sample_doc_id else sample_doc_id
                 if parts and not parts.startswith('ART'):
                     law_id = parts
                     print(f"ℹ️  文件 {json_file.name} law_id为空，从doc_id推断: {law_id}")
                 else:
-                    # 使用文件名作为law_id（去掉_cleaned后缀）
                     law_id = json_file.stem.replace('_cleaned', '')
                     print(f"ℹ️  文件 {json_file.name} 无法推断law_id，使用文件名: {law_id}")
             else:
-                # 最后的备选方案
                 law_id = json_file.stem.replace('_cleaned', '')
                 print(f"ℹ️  文件 {json_file.name} law_id为空，使用文件名: {law_id}")
 
-        # jurisdiction 可选，如果缺失则使用目录名推断
+        # jurisdiction 缺失时用目录名推断
         if not jurisdiction:
-            # 尝试从父目录名推断法域
             parent_dir = json_file.parent.name
             jurisdiction = parent_dir
             print(f"ℹ️  文件 {json_file.name} 缺少 jurisdiction，使用目录名: {jurisdiction}")
 
-        # 去重检查：如果数据库中已有该law_id，则跳过
+        # 去重：数据库中已有该 law_id 则跳过
         if skip_existing and law_id and repo.exists_law_id(law_id):
             existing_count = repo.get_law_chunk_count(law_id)
             print(f"⏭️  跳过 {json_file.name} (law_id={law_id}) - 数据库中已存在 ({existing_count} 个文档块)")
@@ -83,7 +70,6 @@ def process_json_file(json_file: Path, repo, skip_existing: bool = True) -> Iter
         print(f"✅ 处理新格式文件: {json_file.name}")
         print(f"   法规ID: {law_id}, 标题: {title}, 条款数: {len(data)}")
 
-        # 使用新的处理函数
         structure_chunks = chunk_from_structure(data)
 
         if not structure_chunks:
@@ -94,12 +80,11 @@ def process_json_file(json_file: Path, repo, skip_existing: bool = True) -> Iter
             doc_id = chunk.get('_meta', {}).get('doc_id', f"{law_id}_chunk_{i}")
             article_num = chunk["article_number"] if chunk["article_number"] is not None else ""
 
-            # 提取 topics 信息
             topics = chunk.get('topics', [])
             topic_labels = chunk.get('topic_labels', [])
-            # 确保 topic_labels 全部为中文（将英文ID转换为中文）
+            # 标签统一转为中文
             topic_labels = [_to_label_zh(t) for t in topic_labels]
-            # topic 字段：用于 ES keyword 筛选（取第一个或合并）
+            # topic 字段供 ES keyword 筛选
             primary_topic = topic_labels[0] if topic_labels else ''
 
             metadata = {
@@ -113,7 +98,9 @@ def process_json_file(json_file: Path, repo, skip_existing: bool = True) -> Iter
                 "chunk_index": i,
                 "article_number": article_num,
                 "part_title": chunk.get("part_title", ""),
-                # 额外保留cleaned数据的元数据
+                # 条目类型（substantive/schedule 等），供详情页分区
+                "chunk_type": chunk.get("chunk_type", ""),
+                # cleaned 数据附带的元数据
                 "article_title": chunk.get('_meta', {}).get('article_title', ''),
                 # 主题信息（支持筛选）
                 "topic": primary_topic,
@@ -132,7 +119,7 @@ def process_json_file(json_file: Path, repo, skip_existing: bool = True) -> Iter
             print(f"⚠️  文件 {json_file.name} 缺少 law_id 字段，跳过")
             return
 
-        # 去重检查：如果数据库中已有该law_id，则跳过
+        # 去重：数据库中已有该 law_id 则跳过
         if skip_existing and repo.exists_law_id(law_id):
             existing_count = repo.get_law_chunk_count(law_id)
             print(f"⏭️  跳过 {json_file.name} (law_id={law_id}) - 数据库中已存在 ({existing_count} 个文档块)")
@@ -205,14 +192,9 @@ def load_json_files(data_dir_str: str, repo, skip_existing: bool = True) -> Iter
 def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = False,
                 skip_abstracts: bool = False):
     """
-    入库数据到Elasticsearch
+    入库数据到 Elasticsearch
 
-    参数:
-        batch_size: 批量处理大小
-        clear_index: 是否清空现有索引
-        force: 是否强制覆盖已有数据（忽略去重检查）
-        skip_abstracts: 跳过 LLM 摘要重生成（全量重建场景：摘要由回填脚本
-            从旧索引复制，避免 300+ 部法规逐个调用大模型）
+    force: 忽略去重检查；skip_abstracts: 跳过 LLM 摘要重生成（全量重建时由回填脚本复制）
     """
     print("开始加载数据...")
 
@@ -223,7 +205,7 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
     if clear_index:
         print("清空现有索引...")
         repo.clear()
-        
+
         # 同时重建空的 catalog（保留结构）
         print("重建 law_catalog.json...")
         initial_data = {
@@ -239,12 +221,11 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
             json_module.dump(initial_data, f, ensure_ascii=False, indent=2)
         print("索引和 catalog 已清空")
 
-    # 统计信息
     total_chunks = 0
     skipped_count = 0
-    processed_laws = set()  # 已处理的law_id集合
-    
-    # 用于收集每个法律的 chunks 信息（用于更新 catalog）
+    processed_laws = set()  # 已处理的 law_id
+
+    # 每个法律的 chunks 信息，用于更新 catalog
     law_chunks_map: Dict[str, List[Dict]] = {}
 
     documents_batch: List[str] = []
@@ -265,12 +246,11 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
         ids_batch.append(doc_id)
         embed_texts_batch.append(embed_text)
 
-        # 记录已处理的law_id
+        # 记录已处理的 law_id
         law_id = meta.get('law_id', '')
         if law_id:
             processed_laws.add(law_id)
             kept_ids_map.setdefault(law_id, []).append(doc_id)
-            
             # 收集 chunk 信息用于 catalog 更新
             if law_id not in law_chunks_map:
                 law_chunks_map[law_id] = []
@@ -308,6 +288,17 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
             pruned_total += deleted
             print(f"🧹 清理 {lid} 陈旧文档块: {deleted} 条")
 
+    # 重建本次涉及法规的质心（供相似法规推荐，避免运行时拉取整部法规向量）
+    centroid_built = 0
+    if kept_ids_map:
+        print("\n🧭 重建法规质心 (legal_law_centroids)...")
+        centroid_service = SimilarLawService(repo)
+        for lid in kept_ids_map:
+            if centroid_service.build_and_save_centroid(lid):
+                centroid_built += 1
+            else:
+                print(f"⚠️  重建质心失败/无向量数据: {lid}")
+
     # 更新 law_catalog.json
     print("\n📋 更新法律目录 (law_catalog.json)...")
     catalog_updated_count = 0
@@ -318,7 +309,6 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
         except Exception as e:
             print(f"⚠️  更新 {law_id} 的 catalog 记录失败: {e}")
 
-    # 输出统计结果
     print("\n" + "=" * 60)
     print("📊 入库完成统计")
     print("=" * 60)
@@ -326,19 +316,20 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
     if skipped_count > 0:
         print(f"⏭️  跳过已存在法规数: {skipped_count}")
     print(f"📚 新增/更新法规数量: {len(processed_laws)}")
+    print(f"🧭 重建质心法规数: {centroid_built}")
     print(f"📝 Catalog 更新记录数: {catalog_updated_count}")
     
     if processed_laws:
         print(f"\n已入库的法规ID:")
         for law_id in sorted(processed_laws):
             count = repo.get_law_chunk_count(law_id)
-            # 从 catalog 获取更详细的信息
+            # 优先取 catalog 中的详细名称
             cat_record = catalog.find_by_law_id(law_id)
             title = cat_record.get('law_name_zh', '') if cat_record else ''
             jur = cat_record.get('jurisdiction', '') if cat_record else ''
             print(f"   • {law_id} | {title} ({jur}) | {count} 个文档块")
 
-    # 显示 catalog 统计信息
+    # Catalog 统计
     stats = catalog.get_statistics()
     print(f"\n📊 Catalog 统计:")
     print(f"   总法规数: {stats['total_laws']}")
@@ -361,17 +352,13 @@ def ingest_data(batch_size: int = 32, clear_index: bool = False, force: bool = F
     elif processed_laws and skip_abstracts:
         print(f"\n⏭️  已跳过 {len(processed_laws)} 个法规的摘要生成（--skip-abstracts）")
 
-    # 自动重新标注过时数据（默认增量：仅标注词表版本落后的文档）
+    # 自动重新标注（默认增量：仅标注词表版本落后的文档）
     print(f"\n🔄 开始重新标注（增量）...")
     reannotate_all_data(repo)
 
 
 def reannotate_all_data(repo: ElasticsearchRepository, full: bool = False):
-    """重新标注数据（默认增量）。
-
-    仅处理 taxonomy_version 落后于当前词表版本的文档——每次入库都对全量
-    万级语料重标注毫无收益；full=True 时强制全量（词表结构变更后重建用）。
-    """
+    """重新标注数据（默认增量，只处理词表版本落后的文档；full=True 强制全量）。"""
     print("初始化主题分类器...")
     classifier = TopicClassifier()
     current_version = classifier.taxonomy_version
@@ -380,7 +367,7 @@ def reannotate_all_data(repo: ElasticsearchRepository, full: bool = False):
     if full:
         query: Dict = {"match_all": {}}
     else:
-        # 仅挑出词表版本落后的文档；无该字段的旧数据也会命中 must_not 而纳入
+        # 仅挑出词表版本落后的文档（无该字段的旧数据同样命中 must_not）
         query = {"bool": {"must_not": [{"term": {"taxonomy_version": current_version}}]}}
 
     total_docs = repo.client.count(index=settings.es_index_name, query=query).get("count", 0)
@@ -389,12 +376,11 @@ def reannotate_all_data(repo: ElasticsearchRepository, full: bool = False):
         return
     print(f"开始处理 {total_docs} 条数据（词表版本落后）...")
     
-    # 批量读取所有文档
+    # scroll 游标遍历，避免 from+size 超过 10000 限制
     batch_size = 100
     processed = 0
     labeled = 0
-    
-    # 使用 scroll 游标遍历待标注文档, 避免 from+size 超过 10000 限制
+
     results = repo.client.search(
         index=settings.es_index_name,
         body={"query": query, "size": batch_size},
@@ -408,17 +394,14 @@ def reannotate_all_data(repo: ElasticsearchRepository, full: bool = False):
             if not hits:
                 break
 
-            # 批量更新这批文档
             bulk_actions = []
             for hit in hits:
                 doc_id = hit["_id"]
                 source = hit["_source"]
 
-                # 进行主题分类
                 text = source.get("content", "")
                 topics_info = classifier.classify_document(text)
 
-                # 构建更新操作
                 update_action = {
                     "_op_type": "update",
                     "_index": settings.es_index_name,
@@ -432,11 +415,9 @@ def reannotate_all_data(repo: ElasticsearchRepository, full: bool = False):
                 }
                 bulk_actions.append(update_action)
 
-                # 统计信息
                 if topics_info["topics"]:
                     labeled += 1
 
-            # 执行批量更新
             if bulk_actions:
                 from elasticsearch.helpers import bulk
                 bulk(repo.client, bulk_actions)
@@ -445,7 +426,6 @@ def reannotate_all_data(repo: ElasticsearchRepository, full: bool = False):
             processed += len(hits)
             print(f"  已处理 {processed}/{total_docs} 条数据...")
 
-            # 获取下一批
             results = repo.client.scroll(scroll_id=scroll_id, scroll="2m")
             scroll_id = results.get("_scroll_id")
     finally:
@@ -454,7 +434,7 @@ def reannotate_all_data(repo: ElasticsearchRepository, full: bool = False):
     
     print(f"重新标注完成: {processed} 条数据, 有主题标签: {labeled} 条")
     
-    # 显示主题分布
+    # 主题分布 TOP20
     aggs = {
         "size": 0,
         "aggs": {

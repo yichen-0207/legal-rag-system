@@ -2,46 +2,21 @@ from typing import Dict, Optional
 from repositories.elasticsearch import ElasticsearchRepository
 
 class SummaryCache:
-    """
-    法规摘要缓存服务（基于 Elasticsearch）
-    
-    功能：
-    1. 缓存法规摘要，减少重复生成
-    2. 使用指纹检测法规数据变化，数据不变时直接返回缓存
-    3. 无过期时间，仅在数据变化时失效
-    4. 支持缓存清除
-    """
+    """法规摘要缓存（基于 Elasticsearch）：按 law_id 缓存，无过期时间，仅法规数据指纹变化时失效。"""
     
     def __init__(self):
         self._repo = ElasticsearchRepository()
     
     def get(self, law_id: str) -> Optional[Dict]:
-        """
-        从缓存获取摘要
-        
-        返回：
-        - 如果缓存存在且法规数据未变化，返回摘要
-        - 如果缓存不存在或法规数据已变化，返回 None
-        """
+        """读取缓存；缓存不存在或法规数据已变化时返回 None。"""
         return self._repo.get_summary_cache(law_id)
     
     def set(self, law_id: str, summary: Dict):
-        """
-        将摘要存入缓存
-        
-        Args:
-            law_id: 法规ID
-            summary: 摘要数据
-        """
+        """写入摘要缓存。"""
         self._repo.save_summary_cache(law_id, summary)
     
     def invalidate(self, law_id: str):
-        """
-        清除指定法规的缓存
-        
-        Args:
-            law_id: 法规ID
-        """
+        """清除指定法规的缓存。"""
         self._repo.delete_summary_cache(law_id)
     
     def invalidate_all(self):

@@ -7,14 +7,7 @@ from core.config import settings
 
 
 class LawMappingService:
-    """
-    法规条款映射服务（纯向量KNN，不依赖LLM）
-
-    核心流程：
-    1. 获取源法律所有 chunk（含向量）
-    2. 对每个源 chunk 的向量在目标法域做 KNN 搜索
-    3. 按相似度阈值过滤，组装映射表
-    """
+    """法规条款映射服务：纯向量 KNN（不调用 LLM），按相似度阈值过滤后组装映射表。"""
 
     # 相似度阈值
     THRESHOLD_HIGH = 0.85   # 高质量匹配
@@ -39,17 +32,7 @@ class LawMappingService:
         target_jurisdiction: str,
         exclude_law_ids: List[str]
     ) -> Dict:
-        """
-        对单个源 chunk 执行 KNN 搜索，返回映射结果。
-
-        Args:
-            source_chunk: 源 chunk 信息（含 embedding、article_number 等）
-            target_jurisdiction: 目标法域名称
-            exclude_law_ids: 需要排除的 law_id 列表（通常是源法律自身）
-
-        Returns:
-            映射结果字典
-        """
+        """对单个源 chunk 在目标法域做 KNN(k=1) 并判定匹配质量。"""
         query_vec = source_chunk.get("embedding", [])
         if not query_vec:
             return {
@@ -76,7 +59,6 @@ class LawMappingService:
         sim_score = best_match["similarity"] if best_match else 0.0
         quality = self._classify_quality(sim_score)
 
-        # 构建源端信息（需要补充 content）
         source_info = {
             "article_number": source_chunk.get("article_number", ""),
             "chunk_index": source_chunk.get("chunk_index", 0),
@@ -84,7 +66,6 @@ class LawMappingService:
             "chunk_id": source_chunk.get("_id", "")
         }
 
-        # 构建目标端信息
         if best_match and sim_score >= self.THRESHOLD_NONE:
             target_info = {
                 "law_name": best_match.get("title", ""),
@@ -111,24 +92,7 @@ class LawMappingService:
         similarity_threshold: float = 0.75,
         max_workers: int = 5
     ) -> Dict:
-        """
-        执行法规条款映射。
-
-        流程：
-        1. 获取源法律全部 chunk（含向量+内容）
-        2. 并发对每个 chunk 在目标法域做 KNN(k=1)
-        3. 过滤低分结果 → 组装映射表 → 计算统计摘要
-
-        Args:
-            source_jurisdiction: 源法域名称
-            source_law_id: 源法规 ID
-            target_jurisdiction: 目标法域名称
-            similarity_threshold: 匹配阈值（低于此值标记为无对应）
-            max_workers: 并发线程数
-
-        Returns:
-            完整的映射结果（含 source/target 元数据、mappings 列表、summary 统计）
-        """
+        """并发把源法规全部条款映射到目标法域，返回映射表与统计摘要；max_workers 控制并发路数。"""
         t_total = time.time()
 
         # ===== 步骤1：获取源法律全部 chunk（含向量和内容）=====
@@ -178,7 +142,7 @@ class LawMappingService:
                         "match_quality": "none"
                     }
 
-        # 按 chunk_index 排序恢复顺序
+        # 按原始顺序恢复
         for i in range(total_articles):
             if i in results_map:
                 mappings.append(results_map[i])
@@ -188,7 +152,6 @@ class LawMappingService:
         # ===== 步骤3：统计摘要 =====
         summary = self._build_summary(mappings)
 
-        # 目标法域涉及的法律数量
         target_law_ids = set()
         for m in mappings:
             if m.get("target_article") and m["target_article"].get("law_id"):
@@ -216,10 +179,7 @@ class LawMappingService:
         return result
 
     def _get_source_chunks(self, law_id: str) -> List[Dict]:
-        """
-        获取指定法规的所有 chunk（含 embedding 向量 + content 内容）。
-        用于映射服务的源端数据获取。
-        """
+        """获取指定法规全部 chunk（含 embedding 向量与 content）。"""
         query = {
             "query": {"term": {"law_id": law_id}},
             "size": 1000,

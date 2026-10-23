@@ -1,16 +1,6 @@
-"""
-知识图谱图算法分析服务 v1.0
---------------------------
-在实体关系图上做结构化分析，为可视化提供两类增强：
-  - 社区检测（Louvain）：把关系紧密的实体自动聚成主题簇，前端按簇染色；
-  - PageRank / 度中心性：衡量实体在关系网络中的影响力，产出「核心枢纽」榜单；
-  - 介数中心性：识别连接不同簇的「桥接概念」（跨主题的关键实体）。
+"""实体关系图的拓扑分析：Louvain 社区、PageRank/度中心性、介数中心性（桥接概念）。
 
-设计说明：
-  - 纯拓扑计算，不涉及文本语义、不调用 LLM（零成本、可解释）。
-  - Louvain 与采样介数都用固定 seed：否则每次刷新簇编号与配色都会变，
-    演示与截图不可复现。
-  - 介数中心性为 O(V·E)，节点数超过阈值时改用 k 采样近似，避免大图卡顿。
+纯拓扑计算不调 LLM；固定 seed 保证簇编号与结果可复现；大图介数改用 k 采样近似。
 """
 
 import logging
@@ -31,21 +21,7 @@ class KGGraphAnalysisService:
     """实体关系图的拓扑分析：社区 / 中心性 / 榜单"""
 
     def analyze(self, nodes: List[Dict], edges: List[Dict], top_n: int = _DEFAULT_TOP_N) -> Dict:
-        """
-        Args:
-            nodes: 图谱节点（需含 id，可选 label/name/entity_type/jurisdiction）
-            edges: 图谱边（需含 from/to）
-            top_n: 榜单长度
-
-        Returns:
-            {
-              "node_count", "edge_count",
-              "communities": [{community_id, size, label, representative, members}],
-              "metrics": {node_id: {pagerank, betweenness, degree, community_id}},
-              "top_hubs": [{id,label,entity_type,jurisdiction,pagerank,degree}],
-              "bridges": [{id,label,entity_type,jurisdiction,betweenness}],
-            }
-        """
+        """执行社区检测与中心性计算，返回 communities / metrics / top_hubs / bridges。"""
         empty = {"node_count": 0, "edge_count": 0, "communities": [],
                  "metrics": {}, "top_hubs": [], "bridges": []}
         if not nodes:
@@ -155,12 +131,7 @@ class KGGraphAnalysisService:
 
 
 def enrich_graph_with_analytics(graph: Dict, service: "KGGraphAnalysisService" = None) -> Dict:
-    """
-    把社区 / 中心性指标就地写入 graph 的节点，并挂上 communities / top_hubs / bridges。
-
-    供 /kg/law 与 /kg/entity-graph 复用：前端据 community_id 染色、据 pagerank 定大小、
-    据 communities/top_hubs 渲染图例与榜单，无需再发一次分析请求。
-    """
+    """把社区/中心性指标写入节点，并挂上 communities/top_hubs/bridges，供前端直接渲染。"""
     svc = service or KGGraphAnalysisService()
     analysis = svc.analyze(graph.get("nodes", []), graph.get("edges", []))
     metrics = analysis.get("metrics", {})

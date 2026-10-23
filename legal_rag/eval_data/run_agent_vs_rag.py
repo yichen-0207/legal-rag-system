@@ -1,25 +1,6 @@
-"""Agent vs RAG 离线效果对比
-============================
-目的：在同一批查询、同一套 LLM-as-judge 口径下，对比「迭代式工具调用 Agent」与
-「既有单跳 RAG 问答」的问答质量，为是否灰度 Agent 提供数据依据。
+"""Agent vs RAG 离线对比：同一批查询、同一 judge 口径下比较迭代式 Agent 与单跳 RAG 的问答质量。
 
-对照口径（控制变量）：
-  - RAG 基线 = QAService.ask_stream（即 agent_enabled=False 时 /agent 的降级路径，
-    也是线上既有问答链路），单次检索 + 完整合成 prompt；
-  - Agent    = AgentService.ask_stream，多步工具探索 + 证据收口 + 同一合成 prompt；
-  - 两者共用 QAService 的合成 prompt 与 judge 模型，唯一变量是「是否多步探索」；
-  - HasAns / Faithfulness 的参考条款一律回取**完整正文**再判，避免 Agent 的
-    sources 预览截断（100 字）拉低忠实度评分。
-
-指标（与 run_qa_eval.py 一致）：
-  - HasAns@5     ：检索/收集到的证据是否命中 gold 条款
-  - Faithfulness ：答案对证据的忠实度（LLM 1-5 分）
-  - Relevance    ：答案对问题的相关性（LLM 1-5 分）
-  - 额外观测      ：Agent 平均步数、工具调用数、端到端耗时
-
-用法（在 backend 容器内，工作目录 /app）：
-    python eval_data/run_agent_vs_rag.py --limit 20 --stratify
-    python eval_data/run_agent_vs_rag.py              # 全量 80 条（耗时很长）
+唯一变量为「是否多步探索」（两者共用合成 prompt 与 judge 模型）；HasAns@5 / Faithfulness / Relevance 口径与 run_qa_eval.py 一致，参考条款一律回取完整正文再判。
 """
 import argparse
 import importlib.util
@@ -47,12 +28,16 @@ TOP_K = 5
 OUTPUT_PATH = os.path.join(BASE_DIR, "eval_agent_vs_rag.json")
 
 
-def _pick_queries(limit: int, stratify: bool, query_ids: str = "") -> list:
-    """挑选评估查询；stratify 时按法域均匀抽样，保证小法域也有覆盖。
+def _load_subset_ids(path: str) -> str:
+    """读取固定回归子集（JSON 字符串数组），返回逗号分隔的 query_id（与 run_ragas_eval --subset 同口径）。"""
+    p = path if os.path.isabs(path) else os.path.join(BASE_DIR, path)
+    with open(p, "r", encoding="utf-8") as f:
+        ids = json.load(f)
+    return ",".join(str(x) for x in ids)
 
-    query_ids 非空时优先按其指定的 ID 顺序取数，用于 A/B 前后跑**同一批查询**，
-    避免抽样随机性把改动效果淹没在样本差异里。
-    """
+
+def _pick_queries(limit: int, stratify: bool, query_ids: str = "") -> list:
+    """挑选评估查询；query_ids 非空时按其顺序取数（A/B 跑同一批查询），stratify 时按法域均匀抽样。"""
     queries = rqe.load_queries()
     gold_map = rqe.load_gold()
     queries = [q for q in queries if gold_map.get(q["query_id"])]
@@ -89,11 +74,7 @@ def _pick_queries(limit: int, stratify: bool, query_ids: str = "") -> list:
 
 
 def _full_contents(repo, sources: list) -> list:
-    """把 sources 的 (law_id, article_number) 回取完整正文，供 judge 使用。
-
-    Agent 与 RAG 的 sources 事件都只带 100 字预览，直接喂 judge 会误判忠实度，
-    故统一回取完整条款正文。
-    """
+    """把 sources 的 (law_id, article_number) 回取完整正文：sources 预览仅 100 字，直接判分会误判忠实度。"""
     out = []
     for s in sources:
         law_id = s.get("law_id", "")
@@ -148,6 +129,8 @@ def _evaluate(query: str, gold: list, run: dict, qa_service, repo, mode: str) ->
         "faithfulness_score": 0,
         "relevance_score": 0,
         "tool_calls": sum(1 for t in run["trace"] if t.get("tool")),
+        # 检索到的完整条款正文，供 Ragas 侧计算忠实度/上下文精确率使用
+        "contexts": [],
     }
 
     if run["error"] and not run["answer"]:
@@ -157,6 +140,7 @@ def _evaluate(query: str, gold: list, run: dict, qa_service, repo, mode: str) ->
         return rec
 
     refs = _full_contents(repo, run["sources"])
+    rec["contexts"] = [content for _, _, content in refs]
     try:
         rec["faithfulness_score"] = rqe.judge_faithfulness(query, run["answer"], refs, qa_service)
     except Exception as e:
@@ -213,11 +197,13 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0, help="评估条数（0=全部）")
     ap.add_argument("--stratify", action="store_true", help="按法域分层抽样")
     ap.add_argument("--query-ids", default="", help="指定 query_id（逗号分隔），用于前后跑同一批查询")
+    ap.add_argument("--subset", default="", help="固定回归子集文件（query_id 字符串数组），与 run_ragas_eval 口径一致")
     ap.add_argument("--mode", choices=["both", "rag", "agent"], default="both")
     ap.add_argument("--tag", default="", help="输出文件标签，避免覆盖既有结果（如 before/after）")
     args = ap.parse_args()
 
-    queries, gold_map = _pick_queries(args.limit, args.stratify, args.query_ids)
+    query_ids = _load_subset_ids(args.subset) if args.subset else args.query_ids
+    queries, gold_map = _pick_queries(args.limit, args.stratify, query_ids)
     print("=" * 78)
     print(f"  Agent vs RAG 离线评估：{len(queries)} 条查询，top_k={TOP_K}，mode={args.mode}")
     print(f"  法域分布：{dict(sorted(Counter(q['jurisdiction'] for q in queries).items()))}")
@@ -230,8 +216,7 @@ def main() -> int:
     # 基线 RAG 与 Agent 用同一 QAService 实例；Agent 仅在 agent 模式下置位开关
     agent_service = AgentService() if args.mode in ("both", "agent") else None
 
-    # 预热：bge-m3 首次编码与 cross-encoder 首次前向的开销若落在正式样本上，
-    # 会把第一条查询的检索耗时抬到分钟级（实测首条 82s vs 后续 0.6s），使延迟对比失真。
+    # 预热：编码与精排首次前向的开销若落在正式样本上，会把检索耗时抬高，使延迟对比失真。
     _warmup(qa_service)
 
     for i, q in enumerate(queries, 1):

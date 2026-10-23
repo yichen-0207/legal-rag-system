@@ -4,9 +4,9 @@ import os
 from datetime import datetime
 from typing import Dict, List, Optional
 
-from openai import OpenAI
 from elasticsearch import Elasticsearch
 from core.config import settings
+from core.llm import get_deepseek_client
 
 INDEX_NAME = settings.es_index_name
 
@@ -37,18 +37,12 @@ class AbstractService:
         return Elasticsearch(**client_kwargs)
 
     def _init_llm_client(self):
-        base_url = settings.llm_deepseek_api_base_url or "https://api.deepseek.com/v1"
         api_key = settings.llm_deepseek_api_key or ""
 
         if not api_key:
             raise ValueError("DeepSeek API Key 未配置，请设置 settings.llm_deepseek_api_key")
 
-        return OpenAI(
-            api_key=api_key,
-            base_url=base_url,
-            timeout=120.0,
-            max_retries=2
-        )
+        return get_deepseek_client(timeout=120.0, max_retries=2)
 
     def _build_abstract_prompt(self, full_text: str, metadata: Dict) -> str:
         jurisdiction = metadata.get("jurisdiction", "")
@@ -112,35 +106,20 @@ class AbstractService:
 
         return full_text.strip(), metadata
 
-    def _call_llm_with_retry(self, prompt: str, max_retries: int = 3) -> str:
-        last_error = None
-
-        for attempt in range(max_retries):
-            try:
-                create_kwargs = {
-                    "model": self.model,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "temperature": 0.3,
-                    "max_tokens": 2048,
-                    "stream": False
-                }
-                extra_body = settings.llm_extra_body()
-                if extra_body:
-                    create_kwargs["extra_body"] = extra_body
-                response = self.llm_client.chat.completions.create(**create_kwargs)
-                return (response.choices[0].message.content or "").strip()
-            except Exception as e:
-                last_error = e
-                if attempt < max_retries - 1:
-                    wait_time = (attempt + 1) * 5
-                    print(f"[AbstractService] {self.model} 调用失败 ({attempt+1}/{max_retries}): {e}, 等待 {wait_time}s 重试...")
-                    time.sleep(wait_time)
-                else:
-                    print(f"[AbstractService] {self.model} 调用失败，已重试 {max_retries} 次: {e}")
-
-        if last_error:
-            raise Exception(f"LLM调用失败，{self.model} 重试 {max_retries} 次后仍失败: {last_error}")
-        raise Exception("LLM调用失败，所有模型均已尝试")
+    def _call_llm(self, prompt: str) -> str:
+        """调用远程 API。重试由客户端内置策略统一承担（见 core.llm.get_deepseek_client）。"""
+        create_kwargs = {
+            "model": self.model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.3,
+            "max_tokens": 2048,
+            "stream": False
+        }
+        extra_body = settings.llm_extra_body()
+        if extra_body:
+            create_kwargs["extra_body"] = extra_body
+        response = self.llm_client.chat.completions.create(**create_kwargs)
+        return (response.choices[0].message.content or "").strip()
 
     def _check_abstract_exists(self, law_id: str) -> bool:
         query = {
@@ -192,15 +171,7 @@ class AbstractService:
             return False
 
     def generate_for_law(self, law_id: str, force: bool = False) -> bool:
-        """为单个法规生成摘要
-
-        Args:
-            law_id: 法规ID
-            force: 是否强制重新生成（忽略已存在的摘要）
-
-        Returns:
-            bool: 是否成功
-        """
+        """为单个法规生成摘要并写回 ES；force=True 时忽略已有摘要。"""
         try:
             print(f"[AbstractService] 开始生成摘要: {law_id}")
 
@@ -215,7 +186,7 @@ class AbstractService:
                 print(f"[AbstractService] {law_id} 文本过长，已截断至 {self.MAX_INPUT_CHARS} 字符")
 
             prompt = self._build_abstract_prompt(full_text, metadata)
-            abstract_text = self._call_llm_with_retry(prompt)
+            abstract_text = self._call_llm(prompt)
 
             abstract_text = abstract_text.strip()
             if not abstract_text:
@@ -234,15 +205,7 @@ class AbstractService:
             return False
 
     def generate_for_laws(self, law_ids: List[str], delay: float = 2.0) -> Dict[str, bool]:
-        """批量为多个法规生成摘要
-
-        Args:
-            law_ids: 法规ID列表
-            delay: 每次调用之间的延迟（秒），用于避免LLM限流
-
-        Returns:
-            Dict: 每个法规ID对应的生成结果（True/False）
-        """
+        """批量生成摘要；delay 为调用间隔，用于避免 LLM 限流。"""
         results = {}
         success_count = 0
         failed_count = 0

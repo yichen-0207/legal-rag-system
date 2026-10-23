@@ -78,21 +78,11 @@ def zh_s2t(text: str) -> str:
     return ''.join(s2t.get(ch, ch) for ch in text)
 
 
-# ================================================================
-#  完整繁简字符表（检索侧查询改写用）
-#  ----------------------------------------------------------------
-#  与上方 _ZH_T2S_MAP 的分工：
-#    - 轻量表（约 200 字）服务于「法规名/实体名」规范化，其口径已被实体消歧 L1~L3 与
-#      KG 抽取链路的实测调优所绑定，故保持原样不动；
-#    - 本表是 OpenCC TSCharacters/STCharacters 的完整字符集（繁 4148 / 简 4012），
-#      只用于检索侧的查询改写。
-#
-#  为什么检索侧必须改写：ES 的 IK 词典不含繁体字，繁体正文会被切成一字一 token
-#  （实测 analyze("勞動關係") -> 勞/動/關/係），而简体查询经 IK 得到的是词级 token
-#  （劳动/关系）。两者 token 空间不相交，导致「澳门/香港等繁体语料上，简体查询的
-#  BM25 召回恒为 0 条」（实测 BM25("劳动关系", 法域=澳门) = 0 条）。
-#  做法是把同一查询的繁、简两种写法一并送入 multi_match，任一写法命中即可。
-# ================================================================
+# 完整繁简字符表（OpenCC 字符集），仅用于检索侧查询改写；上方轻量表服务于
+# 法规名/实体名规范化，口径已与实体消歧、KG 链路绑定，两者互不影响。
+# 必须改写的原因：IK 词典不含繁体字，繁体正文被切成一字一 token，与简体查询的
+# 词级 token 空间不相交，繁体语料上简体查询 BM25 召回为 0。做法是把同一查询的
+# 繁、简两种写法一并送入 multi_match，任一写法命中即可。
 _ZH_CONVERT_CACHE: Optional[Dict[str, Dict[str, str]]] = None
 
 
@@ -121,10 +111,10 @@ def zh_convert(text: str, direction: str) -> str:
 
 
 def zh_query_variants(text: str) -> List[str]:
-    """返回查询的繁简写法列表（原样 / 繁转简 / 简转繁，去重、保持顺序）。
+    """返回查询的繁简写法列表（原样 / 繁转简 / 简转繁，去重保序）。
 
-    多对一的字符（如「系」在简→繁时既可能是「系」也可能是「係」）只取 OpenCC 的
-    首选候选；对 BM25 而言错误候选只是多出若干个不命中的 token，不会误伤召回。
+    简→繁存在多候选（如「系」可为「系/係」），只取 OpenCC 首选；错误候选对 BM25
+    只是多出若干不命中 token，不会误伤召回。
     """
     if not text:
         return []
@@ -154,10 +144,8 @@ def _jurisdiction_to_zh(jur: str) -> str:
     """将法域名称转换为简体中文"""
     if not jur:
         return jur
-    # 如果已经是中文，直接返回
     if any('\u4e00' <= c <= '\u9fff' for c in jur):
         return jur
-    # 尝试英文映射
     lower_jur = jur.lower().strip()
     return _JURISDICTION_ZH_MAP.get(lower_jur, jur)
 _TOPIC_LABEL_ZH_CACHE: Optional[Dict[str, str]] = None
@@ -220,14 +208,10 @@ def _label_zh_to_topic_id(label_zh: str) -> str:
     return label_zh
 
 
-# ====================================================================
-#  同法规条款引用解析（组件D：引用链多跳）
-#  ----------------------------------------------------------------
-#  条款编号在法规内是局部的（「第 5 條」只在本法规内有意义），因此正文里的
-#  「第X條」必然是同一法规的条款引用 —— 据此建边不需要解析法规名，精度高。
-#  跨法规引用（如「第7/2023號法律第三十六條」）需要「法规名 -> law_id」映射，
-#  且实测 KG 中 cross_refers 仅 1 条，本阶段不参与扩展。
-# ====================================================================
+# 同法规条款引用解析（组件D：引用链多跳）
+# 条款编号在法规内是局部的，正文「第X條」即同法规引用，无需解析法规名，精度高。
+# 跨法规引用（如「第7/2023號法律第三十六條」）需「法规名 -> law_id」映射，且 KG 中
+# cross_refers 极少，本阶段不参与扩展。
 
 _CN_DIGITS = {
     "零": 0, "〇": 0, "一": 1, "二": 2, "两": 2, "兩": 2, "三": 3, "四": 4,
@@ -242,11 +226,11 @@ _OTHER_LAW_TAIL_RE = re.compile(
     r"號\s*(?:法律|法令|行政法規|行政命令|批示|訓令|決議|規章)[^。；;]{0,60}$"
 )
 
-# 跨法规引用（可从正文确定性推导目标 law_id）：
+# 跨法规引用（可确定性推导目标 law_id）：
 #   澳门「第N/YYYY號法律」→ MAC_LEI_N_YYYY，「第N/YYYY號行政法規」→ MAC_REG_N_YYYY
 #   香港「第N章」→ HK_CAP_N
-# 这些引用正是被上面的 _OTHER_LAW_TAIL_RE 从「同法规内引用」中剔除的部分。剔除本身是
-# 正确的（它们不属于本法规），因此跨法规解析独立进行、不复用该守卫，以免相互影响。
+# 这些引用已被 _OTHER_LAW_TAIL_RE 从同法规引用中剔除（剔除本身正确），故跨法规
+# 解析独立进行、不复用该守卫。
 _MAC_CROSS_LAW_RE = re.compile(r"第\s*(\d{1,4})\s*/\s*(\d{4})\s*號\s*(法律|行政法規)")
 _HK_CAP_RE = re.compile(r"第\s*(\d{1,4})\s*章")
 _MAC_LAW_TYPE_CODE = {"法律": "LEI", "行政法規": "REG"}
@@ -286,17 +270,11 @@ def _cn_numeral_to_int(text: str) -> Optional[int]:
 
 
 def parse_intra_law_refs(content: str, article_number: str) -> List[str]:
-    """
-    从条款正文解析同法规内被引用的条款号，返回数字字符串列表（如 ["2", "15"]）。
+    """从条款正文解析同法规内被引用的条款号，返回数字字符串列表（如 ["2", "15"]）。
 
-    会主动剔除三类跨法规引用的误判：
-      1. 条款号落在书名号《》内部（如「《收費總表第一百一十五條》」）；
-      2. 条款号紧跟在一个闭合的书名号之后（如「《收費總表》第一百一十五條」，
-         该条款号属于书名号里的法规）；
-      3. 条款号紧跟在「...號法律/法令/行政法規/...」之后（如「第7/2023號法律第三十六條」）。
-
-    返回结果只表示「正文里出现了这个条款号」，目标条款是否存在由回取阶段自然过滤 ——
-    这也是最后一道防线：即便前三条守卫漏判，回取不到的目标也不会进入结果。
+    剔除三类跨法规误判：书名号未闭合（条款号在书名号内）、条款号紧跟闭合书名号、
+    条款号紧跟「...號法律/法令/行政法規/...」。解析只表示正文出现了该条款号，
+    目标不存在由回取阶段自然过滤。
     """
     if not content:
         return []
@@ -335,14 +313,9 @@ def parse_cross_law_refs(content: str, article_number: str,
                          law_id: str) -> List[Tuple[str, str]]:
     """解析条款正文中指向【其他法规】的引用，返回 [(目标 law_id, 目标条款号), ...]。
 
-    只覆盖能从文本确定性推导 law_id 的模式：
-      - 澳门「第N/YYYY號法律/行政法規」→ MAC_{LEI|REG}_N_YYYY
-      - 香港「第N章」→ HK_CAP_N
-    并要求引用后紧随一个具体条款号（间隔超过 8 个字符即视为无关），
-    这样扩展出去的才是「另一部法规的具体条款」，而不是泛泛的法规名。
-
-    目标法规/条款是否真实存在不在解析阶段校验：交给回取阶段自然过滤，
-    因此不引入法规字典依赖，解析失败一律返回空、不阻断主链路。
+    仅覆盖能从文本确定性推导 law_id 的模式：澳门「第N/YYYY號法律/行政法規」、
+    香港「第N章」，且要求引用后 8 字符内紧随具体条款号。目标是否存在交给回取阶段
+    过滤，因此不依赖法规字典，解析失败返回空、不阻断主链路。
     """
     if not content:
         return []
@@ -384,14 +357,10 @@ def parse_cross_law_refs(content: str, article_number: str,
 
 
 def _join_chunks_without_overlap(chunks: List[str]) -> str:
-    """按顺序拼接同一 article 的子块，并裁掉相邻子块之间的切分重叠。
+    """按顺序拼接同一 article 的子块，并裁掉相邻子块间的切分重叠。
 
-    v2 切分对相邻子块保留 chunk_overlap（默认 150）字符的尾部重叠，
-    直接 '\n\n'.join 会让完整条款正文在每个拼接点出现一段重复文字。
-    对每对相邻块做「上块尾部 == 下块头部」检测：扫描上限
-    min(chunk_overlap + 20, 两侧块长)、下限 30（低于 30 字符的重复多为
-    自然语料巧合，不裁），命中即裁掉下块头部；无重叠的旧数据输出与
-    直接拼接一致，保证向后兼容。
+    对每对相邻块检测「上块尾部 == 下块头部」，扫描上限 min(chunk_overlap + 20, 两侧块长)，
+    下限 30（低于 30 字符的重复多为语料巧合，不裁）；无重叠的旧数据输出与直接拼接一致。
     """
     parts: List[str] = []
     prev = ""
@@ -479,8 +448,7 @@ class ElasticsearchRepository:
                                 "keyword": {"type": "keyword", "ignore_above": 256}
                             }
                         },
-                        # 简体改写字段：入库时对 content 做繁→简转换，BM25 检索时
-                        # 与 content 并行参与打分，改善简体查询在繁体语料上的召回
+                        # 简体改写字段：入库时 content 繁→简，BM25 与 content 并行打分
                         "content_s": {
                             "type": "text",
                             "analyzer": "chinese_analyzer"
@@ -502,6 +470,7 @@ class ElasticsearchRepository:
                             }
                         },
                         "article_number": {"type": "keyword"},
+                        "chunk_type": {"type": "keyword"},
                         "chunk_index": {"type": "integer"},
                         "passing_date": {"type": "keyword"},
                         "effective_date": {"type": "keyword"},
@@ -524,24 +493,23 @@ class ElasticsearchRepository:
             }
             self.client.indices.create(index=settings.es_index_name, body=index_settings)
         else:
-            # 索引已存在：补挂后加的字段（如 content_s 简体字段），
-            # 已存在且定义一致时 ES 会幂等接受；失败仅告警，不影响主流程
+            # 索引已存在：补挂后加字段（定义一致时 ES 幂等接受，失败仅告警）
             try:
                 self.client.indices.put_mapping(
                     index=settings.es_index_name,
                     body={"properties": {
-                        "content_s": {"type": "text", "analyzer": "chinese_analyzer"}
+                        "content_s": {"type": "text", "analyzer": "chinese_analyzer"},
+                        # 存量索引补挂 chunk_type（keyword）：不回填历史文档，仅让新写入生效
+                        "chunk_type": {"type": "keyword"}
                     }}
                 )
             except Exception as e:
-                logger.warning(f"[索引映射] content_s 补挂失败（不影响已有数据检索）: {e}")
+                logger.warning(f"[索引映射] 补充字段补挂失败（不影响已有数据检索）: {e}")
     
     def prune_law_docs(self, law_id: str, keep_ids: List[str]) -> int:
-        """清理某法规下不在 keep_ids 中的陈旧文档（幂等重建的收尾步骤）。
+        """删除某法规下不在 keep_ids 中的陈旧文档，保证重复入库结果幂等。
 
-        入库使用显式 _id upsert，但法规条款减少/重排后，旧版本残留的
-        doc_id 会变成孤儿文档。此处按 law_id 范围删除 keep_ids 之外的文档，
-        保证"同一份数据反复入库"结果一致（幂等）。
+        入库用显式 _id upsert，但条款减少/重排后旧 doc_id 会残留为孤儿文档。
         """
         if not law_id:
             return 0
@@ -590,21 +558,15 @@ class ElasticsearchRepository:
         return result
 
     def _normalize_topic_fields(self, content: str, metadata: Dict) -> Dict:
-        """
-        统一生成主题字段。
-        优先使用 metadata 中已有的 topics（如果有效），否则使用分类器自动标注。
-        """
-        # 清理 metadata 中的主题相关字段，避免与顶层字段重复/冲突
+        """统一生成主题字段：优先用 metadata 已有 topics，否则用分类器自动标注。"""
         clean_metadata = {k: v for k, v in metadata.items()
                           if k not in ('topic', 'topics', 'topic_labels', 'topics_details', 'taxonomy_version',
                                        'passing_date', 'effective_date', 'publication_date')}
 
-        # 尝试从 metadata 提取已有的 topic id
         existing_ids = self._extract_topic_ids(metadata.get("topics"))
         existing_details = metadata.get("topics_details")
 
         if existing_ids:
-            # 使用已有 topics，转换为统一格式
             topic_ids = existing_ids
             topic_labels = []
             details = []
@@ -612,7 +574,7 @@ class ElasticsearchRepository:
                 label = _to_label_zh(tid)
                 topic_labels.append(label)
                 detail = {"id": tid, "label_zh": label, "score": 0.0, "matched_keywords": []}
-                # 如果已有 details，尝试补充 score 和 matched_keywords
+                # 已有 details 时沿用其 score 与 matched_keywords
                 if isinstance(existing_details, list):
                     for d in existing_details:
                         if isinstance(d, dict) and (d.get("id") == tid or d.get("topic_id") == tid):
@@ -628,7 +590,6 @@ class ElasticsearchRepository:
                 "taxonomy_version": metadata.get("taxonomy_version", self.classifier.taxonomy_version),
             }
 
-        # 否则自动标注
         auto = self.classifier.classify_document(content)
         return {
             "metadata": clean_metadata,
@@ -642,10 +603,8 @@ class ElasticsearchRepository:
                       embed_texts: Optional[List[str]] = None):
         """批量写入文档（显式 _id，重复写入即 upsert）。
 
-        参数:
-            embed_texts: 与 documents 等长的 embedding 输入文本（子块标题前缀 +
-                正文）；为空或长度不符时回退为直接用 documents（content）向量化。
-                content 字段本身始终写入原文，不受前缀影响。
+        embed_texts 为与 documents 等长的 embedding 输入（带标题前缀）；为空或长度
+        不符时回退为直接用 documents 向量化，content 字段始终写入原文。
         """
         if embed_texts and len(embed_texts) == len(documents):
             embed_inputs = [et if et else d for et, d in zip(embed_texts, documents)]
@@ -667,6 +626,7 @@ class ElasticsearchRepository:
                 "jurisdiction": metadata.get("jurisdiction", ""),
                 "title": metadata.get("title", ""),
                 "article_number": metadata.get("article_number", "") or "",
+                "chunk_type": metadata.get("chunk_type", "") or "",
                 "chunk_index": metadata.get("chunk_index", 0),
                 "passing_date": metadata.get("passing_date", "") or None,
                 "effective_date": metadata.get("effective_date", "") or None,
@@ -682,7 +642,6 @@ class ElasticsearchRepository:
 
         response = self.client.bulk(body=operations, refresh=True)
         
-        # 检查每个文档的索引状态
         if response.get("errors"):
             error_items = []
             for item in response.get("items", []):
@@ -700,7 +659,6 @@ class ElasticsearchRepository:
                 retry_operations = []
                 for i, doc_id in enumerate(ids):
                     if doc_id in failed_docs:
-                        # 找到对应的文档信息
                         idx = ids.index(doc_id)
                         retry_operations.append({"index": {"_index": settings.es_index_name, "_id": doc_id}})
                         retry_operations.append(operations[idx * 2 + 1])  # 文档内容在偶数索引+1位置
@@ -733,10 +691,8 @@ class ElasticsearchRepository:
             }
             
             if where:
-                # 构建过滤条件
                 filter_clauses = []
                 for k, v in where.items():
-                    # 支持列表值：多选主题的 OR 逻辑
                     if isinstance(v, list) and len(v) > 1:
                         filter_clauses.append({
                             "bool": {
@@ -745,11 +701,10 @@ class ElasticsearchRepository:
                             }
                         })
                     else:
-                        # 单值或单元素列表
                         actual_value = v[0] if isinstance(v, list) else v
                         filter_clauses.append({"term": {k: actual_value}})
 
-                # 将 filter 嵌入 KNN 内部，确保 AND 关系（同时满足向量相似 + 过滤条件）
+                # filter 嵌入 KNN 内部，保证「向量相似 AND 过滤条件」语义
                 search_body = {
                     "knn": {
                         **knn_base,
@@ -759,7 +714,6 @@ class ElasticsearchRepository:
             else:
                 search_body = {"knn": knn_base}
             
-            # 不指定 _source，获取所有字段
             response = self.client.search(index=settings.es_index_name, body=search_body)
             
             hits = response.get("hits", {}).get("hits", [])
@@ -769,14 +723,12 @@ class ElasticsearchRepository:
                 source = hit.get("_source", {})
                 query_ids.append(hit.get("_id"))
                 query_docs.append(source.get("content", ""))
-                # 合并顶层字段到 metadata 中
                 metadata = source.get("metadata", {}).copy()
                 metadata["law_id"] = source.get("law_id", "")
                 metadata["title"] = source.get("title", "")
                 metadata["jurisdiction"] = source.get("jurisdiction", "")
                 metadata["article_number"] = source.get("article_number", "")
                 metadata["chunk_index"] = source.get("chunk_index", 0)
-                # 附加主题信息
                 metadata["topic"] = source.get("topic", "")
                 metadata["topics"] = source.get("topics", [])
                 metadata["topic_labels"] = source.get("topic_labels", [])
@@ -796,19 +748,10 @@ class ElasticsearchRepository:
                       knn_weight: float = 0.5,
                       bm25_weight: float = 0.5,
                       rrf_k: int = 60) -> Dict:
-        """
-        混合检索：向量检索 + BM25 全文检索，使用 ES 内置 RRF 融合。
+        """混合检索：向量 KNN + BM25，应用层 RRF 融合。
 
-        Args:
-            query_text: 查询文本
-            n_results: 返回结果数量
-            where: 过滤条件（支持单值或多选）
-            knn_weight: 向量检索权重（RRF 模式未使用，保留兼容）
-            bm25_weight: 全文检索权重（RRF 模式未使用，保留兼容）
-            rrf_k: RRF 常数，默认 60
-
-        Returns:
-            与 query() 相同格式的字典
+        knn_weight / bm25_weight 在 RRF 模式下未使用，仅为兼容保留；rrf_k 为 RRF 常数。
+        返回格式与 query() 相同，另含 _scores（RRF 分）与 _similarities（真实余弦）。
         """
         if not query_text.strip():
             return {"ids": [[]], "documents": [[]], "metadatas": [[]], "distances": [[]],
@@ -819,23 +762,14 @@ class ElasticsearchRepository:
 
     def hybrid_search_batch(self, query_texts: List[str], n_results: int = 5,
                            where: Optional[Dict] = None, rrf_k: int = 60) -> List[Dict]:
-        """
-        批量混合检索：一次批量编码所有查询词，并发执行 ES 搜索。
+        """批量混合检索：一次批量编码所有查询，再并发执行 ES 搜索（IO 密集）。
 
-        Args:
-            query_texts: 查询文本列表
-            n_results: 每个查询返回结果数量
-            where: 过滤条件（共享）
-            rrf_k: RRF 常数
-
-        Returns:
-            List[Dict]，每个元素与 hybrid_search() 返回格式相同
+        返回 List[Dict]，每项格式与 hybrid_search() 相同。
         """
         if not query_texts:
             return []
-        # 一次性批量编码所有查询词（关键优化：避免 N 次独立 CPU 推理）
+        # 一次性批量编码，避免 N 次独立推理
         embeddings = self._embed_texts(query_texts)
-        # 并发执行 ES 搜索（IO 密集型）
         with ThreadPoolExecutor(max_workers=min(len(query_texts), 8)) as executor:
             futures = [
                 executor.submit(self._hybrid_search_with_vector, query_text, embedding, n_results, where, rrf_k)
@@ -847,22 +781,18 @@ class ElasticsearchRepository:
     def _hybrid_search_with_vector(self, query_text: str, query_embedding: List[float],
                                    n_results: int = 5, where: Optional[Dict] = None,
                                    rrf_k: int = 60) -> Dict:
-        """使用预计算的向量执行混合搜索（内部方法，跳过 embedding 计算）
+        """使用预计算向量执行混合搜索（跳过 embedding 计算）。
 
-        说明：当前 ES 许可证可能不支持内置 RRF，因此分别执行 KNN 和 BM25 搜索，
-        在应用层手动计算 RRF 分数后合并排序，避免依赖 ES 付费特性。
+        ES 许可证可能不支持内置 RRF，故分别执行 KNN 与 BM25，在应用层手动计算 RRF 合并。
         """
-        # KNN 与 BM25 两次 ES 查询互不依赖，并行执行以只承担较大者而非两者之和
+        # 两次查询互不依赖，并行只承担较大者而非两者之和
         with ThreadPoolExecutor(max_workers=2) as executor:
             knn_future = executor.submit(self._knn_search, query_embedding, n_results * 3, where)
             bm25_future = executor.submit(self._bm25_search, query_text, n_results * 3, where)
             knn_results = knn_future.result()
             bm25_results = bm25_future.result()
 
-        # 使用 RRF 公式合并两个结果列表
         merged = self._merge_rrf_results(knn_results, bm25_results, rrf_k=rrf_k)
-
-        # 截取前 n_results 条
         merged = merged[:n_results]
 
         query_ids, query_docs, query_metas, query_distances, query_scores = [], [], [], [], []
@@ -885,9 +815,8 @@ class ElasticsearchRepository:
 
             rrf_score = item["rrf_score"]
             query_scores.append(rrf_score)
-            # distances 仅保留兼容性：RRF 分动态范围极小（~0.016~0.05），由它反推的
-            # 相似度没有区分度（旧实现因此让前端所有条款都显示 50%）。展示分改用
-            # 下面的 _similarities（真实余弦），不再依赖这里。
+            # distances 仅为兼容保留：RRF 分范围极小，反推的相似度无区分度（曾致前端
+            # 全部显示 50%）；展示分改用 _similarities 中的真实余弦。
             query_distances.append(1.0 / (1.0 + abs(rrf_score)) if rrf_score != 0 else 1.0)
             query_similarities.append(item.get("vector_similarity"))
 
@@ -929,9 +858,8 @@ class ElasticsearchRepository:
         if excluded:
             filter_clauses.append({"bool": {"must_not": [excluded]}})
 
-        # 必须显式设置顶层 size：ES 默认 size=10，仅设 knn.k 并不会让返回条数超过 10。
-        # 曾因此把向量召回硬截断在 10 条（k 请求 450 也只回 10 条），使 RRF 中向量通道
-        # 几乎失效、混合检索退化为 BM25 主导，且下游只有前 10 条能拿到余弦分。
+        # 必须显式设置顶层 size：ES 默认 size=10，仅设 knn.k 不会让返回条数超过 10。
+        # 否则向量召回被截断在 10 条，RRF 中向量通道近乎失效、退化为 BM25 主导。
         if filter_clauses:
             search_body = {
                 "size": n_results,
@@ -950,17 +878,15 @@ class ElasticsearchRepository:
                      where: Optional[Dict] = None) -> List[Dict]:
         """BM25 全文搜索，返回原始 hits 列表。
 
-        查询串会同时带上繁、简两种写法：语料里澳门/香港等法域正文是繁体，而 IK 词典
-        不含繁体字（繁体被切成一字一 token），若只按用户输入的写法检索，简体查询在
-        繁体语料上会一条都召不回。具体写法由 zh_query_variants 生成。
+        查询串同时携带繁、简两种写法：IK 词典不含繁体，只按输入写法检索时简体查询
+        在繁体语料上会零召回。写法由 zh_query_variants 生成。
         """
         variants = zh_query_variants(query_text)
         analysis_query = " ".join(variants) if len(variants) > 1 else query_text
         bm25_query = {
             "multi_match": {
                 "query": analysis_query,
-                # content_s 为入库时繁→简改写字段：繁体语料在 IK 下按单字切分，
-                # 简体查询经繁简双写法仍可能丢词，简体重写字段提供第二条命中通道
+                # content_s 为入库时繁→简改写字段，为繁体语料提供第二条命中通道
                 "fields": ["content^3", "content_s^3", "title^5", "article_number^2"],
                 "type": "best_fields",
                 "analyzer": "chinese_analyzer"
@@ -1007,12 +933,10 @@ class ElasticsearchRepository:
 
     def _merge_rrf_results(self, knn_hits: List[Dict], bm25_hits: List[Dict],
                            rrf_k: int = 60) -> List[Dict]:
-        """手动 RRF 融合：对 KNN 和 BM25 结果按 RRF 分数合并去重排序。
+        """手动 RRF 融合：对 KNN 与 BM25 结果按 RRF 分合并去重排序。
 
-        除 RRF 分（仅用于排序）外，还附带每条命中来自 KNN 的**真实余弦相似度**：
-        ES dense_vector(cosine) 的 _score 实为 (1+cos)/2（正交=0.5），故还原为
-        cos = 2*_score - 1。该值供上层计算展示用「匹配度」，与排序无关。
-        仅被 BM25 召回、未进 KNN 的条款没有余弦分，记为 None。
+        额外附带 KNN 命中的真实余弦：ES dense_vector(cosine) 的 _score 为 (1+cos)/2
+        （正交=0.5），故还原 cos = 2*_score - 1，仅供上层展示；BM25-only 命中记为 None。
         """
         scores: Dict[str, float] = {}
         sources: Dict[str, Dict] = {}
@@ -1048,26 +972,18 @@ class ElasticsearchRepository:
         merged.sort(key=lambda x: x["rrf_score"], reverse=True)
         return merged
 
-    # ================================================================
-    #  法规时效过滤（组件C）
-    #  ------------------------------------------------------------
-    #  law_catalog.json 的 status 标记法规时效。检索层默认剔除已废止/已删除的
-    #  法规，否则失效条款仍会被检索命中并被 LLM 当作现行法引用 —— 这在法律
-    #  场景下是致命错误。
-    #  实现上不改 ES 文档（避免重新入库）：状态只影响检索过滤条件，
-    #  按 law_id 排除即可；catalog 文件变更后依据 mtime 自动失效缓存。
-    # ================================================================
+    # 法规时效过滤（组件C）
+    # law_catalog.json 的 status 标记时效；检索层默认剔除已废止/已删除法规，否则失效
+    # 条款会被 LLM 当作现行法引用。不改 ES 文档，仅按 law_id 排除；缓存依 mtime 失效。
 
     # 不可检索的状态：repealed 已废止 / deleted 已删除 / missing 数据缺失
     # 注意 amended（已修订）表示法规仍然现行有效，只是内容被修改过，不排除
     _NON_RETRIEVABLE_STATUS = ("repealed", "deleted", "missing")
 
     def _non_active_law_ids(self) -> List[str]:
-        """
-        读取当前不可检索的 law_id 列表。
+        """读取当前不可检索的 law_id 列表（按文件 mtime 缓存）。
 
-        按文件 mtime 缓存解析结果，避免每次检索都解析整个法规目录 JSON。
-        目录不可读时返回空列表（降级为不过滤），保证检索本身不被阻断。
+        目录不可读时返回空列表（降级为不过滤），保证检索不被阻断。
         """
         import os
         catalog_path = os.path.join(
@@ -1110,10 +1026,9 @@ class ElasticsearchRepository:
         return {"terms": {"law_id": ids}} if ids else None
 
     def _law_title_index(self) -> Dict[str, str]:
-        """{法规标题的简体归一形式: law_id}，进程内缓存（法规总数仅数百，聚合一次即可）。
+        """{法规标题简体归一形式: law_id}，进程内缓存（法规仅数百部，聚合一次即可）。
 
-        归一方向固定为「繁→简」：繁体转简体基本一一对应，可靠；反向（简→繁）存在多候选
-        （如「系」可能是「系/係」），无法由简体标题反推出真实存储的繁体标题。
+        归一固定为繁→简：反向存在多候选，无法由简体标题反推存储的繁体标题。
         """
         if self._law_title_index_cache is None:
             index: Dict[str, str] = {}
@@ -1150,12 +1065,9 @@ class ElasticsearchRepository:
     def find_article(self, title: str, article_number: str) -> Optional[Dict]:
         """按「法规名 + 条款号」精确定位一条条款，繁简写法均可。
 
-        先把法规名经简体归一解析成 law_id，再按 (law_id, article_number) 精确查询。
-
-        此前是拿标题字符串本身（含各家写法）去查 title.keyword，失败后退化为 match title 兜底：
-        简→繁 为一对多（「关系」拼不出「關係」），拼出的变体无法命中真实标题，于是必然走兜底；
-        而 IK 分词下的 match title 是 OR 语义，近乎「匹配任意含『法』的文档」，返回结果随
-        set 迭代顺序漂移（实测同一简体查询时而命中「勞動關係法」，时而命中「經濟房屋法」）。
+        先把法规名简体归一解析为 law_id，再按 (law_id, article_number) 精确查询。
+        不用 title.keyword/match 兜底：简→繁为一对多拼不出真实繁体标题，且 IK 下
+        match title 是 OR 语义，返回结果不确定。
         """
         try:
             law_id = self._resolve_law_id(title)
@@ -1210,10 +1122,7 @@ class ElasticsearchRepository:
             return None
 
     def get_article_full_text(self, law_id: str, article_number: str) -> Optional[str]:
-        """
-        通过 law_id + article_number 聚合同一 article 下的所有 chunks，按顺序拼接为完整文本。
-        用于 sub_chunk 定位后回取完整 article 上下文。
-        """
+        """按 law_id + article_number 聚合该 article 的全部 chunk，按序拼成完整文本（供回取上下文）。"""
         if not law_id or not article_number:
             return None
         try:
@@ -1241,17 +1150,9 @@ class ElasticsearchRepository:
             return None
 
     def get_articles_full_text_batch(self, pairs: List[Tuple[str, str]]) -> Dict[Tuple[str, str], str]:
-        """
-        批量回取多个 article 的完整文本（单次 msearch）。
+        """批量回取多个 article 的完整文本（单次 msearch，把 N 次往返压缩为 1 次）。
 
-        与逐条调用 get_article_full_text 结果等价，但把 N 次网络往返压缩为 1 次。
-        用于检索结果按 article 去重后的批量补全。
-
-        Args:
-            pairs: [(law_id, article_number), ...]
-
-        Returns:
-            {(law_id, article_number): 完整文本}；未命中的键不出现在结果中
+        返回 {(law_id, article_number): 完整文本}，未命中的键不出现。
         """
         keys = [(lid, an) for lid, an in pairs if lid and an]
         if not keys:
@@ -1292,12 +1193,10 @@ class ElasticsearchRepository:
         return result
 
     def get_articles_docs_batch(self, pairs: List[Tuple[str, str]]) -> Dict[Tuple[str, str], Dict]:
-        """
-        批量回取多个 article 的完整文档（正文 + 元信息，单次 msearch）。
+        """批量回取多个 article 的完整文档（正文 + 元信息，单次 msearch）。
 
-        与 get_articles_full_text_batch 的区别：除拼接后的完整正文外，还返回
-        title/jurisdiction/topics 等字段，供「引用链扩展」直接构造检索结果项。
-        未命中的键不出现在返回值中。
+        比 get_articles_full_text_batch 多返回 title/jurisdiction/topics 等，供引用链扩展
+        直接构造检索结果项；未命中的键不出现。
         """
         keys = [(lid, an) for lid, an in pairs if lid and an]
         if not keys:
@@ -1353,56 +1252,58 @@ class ElasticsearchRepository:
 
     def get_referenced_articles(self, seeds: List[Tuple[str, str, str]],
                                 max_refs: int = 5) -> List[Dict]:
-        """
-        引用链单跳扩展（组件D）：回取种子条款引用到的其他条款。
+        """引用链单跳扩展（组件D）：回取种子条款引用到的其他条款，不额外调用 LLM。
 
-        引用来源有两种（同一批回取，不额外发起 LLM 调用）：
-          - 同法规内引用（parse_intra_law_refs，正文正则，精确且优先级更高）；
-          - 跨法规引用（parse_cross_law_refs，仅澳门 N/YYYY 号法律/行政法规与香港 N 章，
-            由 settings.reference_expand_cross_law_enabled 控制）。
+        引用来源：同法规内引用（parse_intra_law_refs，优先级更高）与跨法规引用
+        （parse_cross_law_refs，受 settings.reference_expand_cross_law_enabled 控制）。
+        seeds 为 [(law_id, article_number, content), ...]，max_refs 控制上下文膨胀。
 
-        Args:
-            seeds: [(law_id, article_number, content), ...]，通常是排名靠前的检索结果
-            max_refs: 本次最多补入的引用条款数，用于控制上下文膨胀
-
-        Returns:
-            被引用条款的文档列表（get_articles_docs_batch 的形状），每项额外带：
-              - retrieval_hop: 固定为 2，表示这是引用链扩展来的候选
-              - referenced_by: 引用方条款号
-              - referenced_law_id: 引用方法规 ID
-              - cross_law: 仅跨法规引用项携带，值为 True
-            已在 seeds 中出现过的条款不会重复返回；回取不到的目标（条款号不存在、
-            或属于跨法规引用的误判）会被静默跳过。
+        返回 get_articles_docs_batch 形状的文档，每项额外带 retrieval_hop=2、
+        referenced_by（引用方条款号）、referenced_law_id；跨法规项另带 cross_law=True。
+        已在 seeds 中的条款不重复返回，回取不到的目标静默跳过。
         """
         if not seeds or max_refs <= 0:
             return []
 
         seed_keys = {(law_id, str(article_number)) for law_id, article_number, _ in seeds if law_id}
 
-        # 先按「同法规内引用 → 跨法规引用」的优先级收集候选（每个种子内部保持该顺序），
-        # 再统一去重、截断：这样开启跨法规扩展时，同法规引用的优先级不受影响。
-        candidates: List[Tuple[Tuple[str, str], Tuple[str, str], bool]] = []
+        # 按「同法规内 → 跨法规」收集候选后轮转分配配额：每种子每轮最多取 1 条，
+        # 避免排名第一的种子独占配额、挤掉后续种子的第二跳目标。
+        per_seed: List[List[Tuple[Tuple[str, str], Tuple[str, str], bool]]] = []
         for law_id, article_number, content in seeds:
             if not law_id:
                 continue
+            items: List[Tuple[Tuple[str, str], Tuple[str, str], bool]] = []
             for ref in parse_intra_law_refs(content, article_number):
-                candidates.append(((law_id, ref), (law_id, str(article_number)), False))
+                items.append(((law_id, ref), (law_id, str(article_number)), False))
             if settings.reference_expand_cross_law_enabled:
                 for target_law, target_art in parse_cross_law_refs(content, article_number, law_id):
-                    candidates.append(((target_law, target_art), (law_id, str(article_number)), True))
+                    items.append(((target_law, target_art), (law_id, str(article_number)), True))
+            if items:
+                per_seed.append(items)
 
         targets: List[Tuple[str, str]] = []
         origin: Dict[Tuple[str, str], Tuple[str, str]] = {}
         cross_flag: Dict[Tuple[str, str], bool] = {}
         seen = set()
-        for key, src, is_cross in candidates:
-            if key in seed_keys or key in seen:
-                continue
-            seen.add(key)
-            targets.append(key)
-            origin[key] = src
-            cross_flag[key] = is_cross
-            if len(targets) >= max_refs:
+        cursors = [0] * len(per_seed)
+        while len(targets) < max_refs and per_seed:
+            advanced = False
+            for i, items in enumerate(per_seed):
+                while cursors[i] < len(items):
+                    key, src, is_cross = items[cursors[i]]
+                    cursors[i] += 1
+                    if key in seed_keys or key in seen:
+                        continue
+                    seen.add(key)
+                    targets.append(key)
+                    origin[key] = src
+                    cross_flag[key] = is_cross
+                    advanced = True
+                    break
+                if len(targets) >= max_refs:
+                    break
+            if not advanced:
                 break
 
         docs = self.get_articles_docs_batch(targets)
@@ -1444,7 +1345,7 @@ class ElasticsearchRepository:
     
     def clear(self):
         index_name = settings.es_index_name
-        # 判断该名称是否为 alias，并找出对应的真实索引
+        # 先判断名称是否为 alias：是则删除其指向的真实索引，再删除 alias 本身
         is_alias = False
         concrete_indices = []
         try:
@@ -1455,14 +1356,11 @@ class ElasticsearchRepository:
             is_alias = False
 
         if is_alias and concrete_indices:
-            # 删除 alias 指向的真实索引
             self.client.indices.delete(index=",".join(concrete_indices))
-            # 删除 alias 本身
             self.client.indices.delete_alias(index=concrete_indices, name=index_name)
         elif self.client.indices.exists(index=index_name):
             self.client.indices.delete(index=index_name)
 
-        # 重新创建真实索引（名称为 es_index_name）
         self._create_index_if_not_exists()
     
     def get_all_laws(self, jurisdiction: Optional[str] = None, topics: Optional[str] = None) -> List[Dict]:
@@ -1479,7 +1377,7 @@ class ElasticsearchRepository:
                         "title": {"terms": {"field": "title.keyword", "size": 1}},
                         "jurisdiction": {"terms": {"field": "jurisdiction", "size": 1}},
                         "chunk_count": {"value_count": {"field": "chunk_index"}},
-                        # 新增：统计实际条款数（按article_number去重）
+                        # 条款数按 article_number 去重
                         "article_count": {
                             "cardinality": {
                                 "field": "article_number"
@@ -1511,7 +1409,6 @@ class ElasticsearchRepository:
             jur_buckets = bucket.get("jurisdiction", {}).get("buckets", [])
             jur = jur_buckets[0].get("key") if jur_buckets else ""
             chunk_count = bucket.get("chunk_count", {}).get("value", 0)
-            # 使用去重后的条款数
             article_count = bucket.get("article_count", {}).get("value", 0)
             
             laws.append({
@@ -1524,38 +1421,143 @@ class ElasticsearchRepository:
         
         return laws
     
-    def get_law_by_id(self, law_id: str) -> Optional[Dict]:
-        """根据law_id获取法规的所有条款"""
+    def get_law_outline(self, law_id: str) -> List[Dict]:
+        """获取法规条款目录（轻量）：每个 article_number 取最小 chunk_index 的一条。
+
+        ES 侧用 collapse 去重，避免为目录拉取整部法规正文。
+        """
+        query = {
+            "size": 5000,
+            "query": {"term": {"law_id": law_id}},
+            "collapse": {"field": "article_number"},
+            "sort": [{"chunk_index": {"order": "asc"}}],
+            "_source": ["article_number", "chunk_index", "chunk_type", "metadata.article_title"],
+        }
+
+        try:
+            response = self.client.search(index=settings.es_index_name, body=query)
+        except Exception as e:
+            logger.warning(f"[目录] 获取法规条款目录失败 {law_id}: {e}")
+            return []
+
+        outline = []
+        for hit in response.get("hits", {}).get("hits", []):
+            source = hit.get("_source", {})
+            meta = source.get("metadata", {}) or {}
+            outline.append({
+                "article_number": source.get("article_number", ""),
+                "article_title": meta.get("article_title", ""),
+                "chunk_index": source.get("chunk_index", 0),
+                # 条目类型：substantive 正文条款 / schedule 附表 / fragment 解析遗留片段
+                "chunk_type": source.get("chunk_type", "") or "",
+            })
+        return outline
+
+    def get_law_by_id(
+        self,
+        law_id: str,
+        page: int = 1,
+        page_size: int = 1000,
+        include_outline: bool = False
+    ) -> Optional[Dict]:
+        """根据 law_id 分页获取法规详情（chunk_index 升序）。
+
+        一次性取前 1000 块会让超长法规被静默截断，故改为分页；page_size 默认 1000 与原
+        上限一致，保证调用方行为不变。include_outline 附带轻量条款目录。
+        """
+        try:
+            page = max(1, int(page or 1))
+        except (TypeError, ValueError):
+            page = 1
+        try:
+            page_size = min(max(1, int(page_size or 1000)), 2000)
+        except (TypeError, ValueError):
+            page_size = 1000
+
+        offset = (page - 1) * page_size
+
+        # ES 默认 max_result_window=10000，from+size 超出会直接抛错；
+        # 此处显式拦截并给出可读提示，避免长法规翻页到边界时返回 500。
+        if offset + page_size > 10000:
+            raise ValueError(
+                f"页码超出可访问范围（每页 {page_size} 块，最多可翻到第 {10000 // page_size} 页）"
+            )
+
         query = {
             "query": {"term": {"law_id": law_id}},
-            "size": 1000,
-            "sort": [{"chunk_index": {"order": "asc"}}]
+            "from": offset,
+            "size": page_size,
+            "sort": [{"chunk_index": {"order": "asc"}}],
+            "track_total_hits": True,
+            "_source": [
+                "content", "article_number", "chunk_index", "chunk_type", "title", "jurisdiction",
+                "passing_date", "effective_date", "publication_date", "topics", "metadata",
+            ],
         }
-        
+
         response = self.client.search(index=settings.es_index_name, body=query)
         hits = response.get("hits", {}).get("hits", [])
-        
+        total_chunks = response.get("hits", {}).get("total", {}).get("value", 0)
+
         if not hits:
-            return None
-        
+            if total_chunks == 0:
+                return None
+            # 页码超出该法规实际块数：额外取首块补齐元数据，正文返回空列表
+            fallback = self.client.search(
+                index=settings.es_index_name,
+                body={
+                    "query": {"term": {"law_id": law_id}},
+                    "size": 1,
+                    "sort": [{"chunk_index": {"order": "asc"}}],
+                    "_source": ["title", "jurisdiction", "passing_date", "effective_date",
+                                "publication_date", "topics", "metadata"],
+                },
+            )
+            meta_hits = fallback.get("hits", {}).get("hits", [])
+            if not meta_hits:
+                return None
+        else:
+            meta_hits = hits
+
         chunks = []
         for hit in hits:
             source = hit.get("_source", {})
+            meta = source.get("metadata", {}) or {}
             chunks.append({
                 "content": source.get("content", ""),
                 "article_number": source.get("article_number", ""),
-                "article_title": source.get("article_title", ""),
-                "chunk_index": source.get("chunk_index", 0)
+                # 条款标题/所属篇章位于 metadata 子对象中（顶层无该字段）
+                "article_title": meta.get("article_title", ""),
+                "part_title": meta.get("part_title", ""),
+                "chunk_index": source.get("chunk_index", 0),
+                # 条目类型：供详情页把附表/解析碎片与正文条款分区渲染
+                "chunk_type": source.get("chunk_type", "") or "",
             })
-        
-        first_source = hits[0].get("_source", {})
-        return {
+
+        first_source = meta_hits[0].get("_source", {})
+        first_meta = first_source.get("metadata", {}) or {}
+
+        result = {
             "law_id": law_id,
             "title": first_source.get("title", ""),
+            "title_original": first_meta.get("title", ""),
             "jurisdiction": _jurisdiction_to_zh(first_source.get("jurisdiction", "")),
             "passing_date": first_source.get("passing_date", ""),
-            "chunks": chunks
+            "effective_date": first_source.get("effective_date", ""),
+            "publication_date": first_source.get("publication_date", ""),
+            "topics": first_source.get("topics", []) or [],
+            "page": page,
+            "page_size": page_size,
+            "total_chunks": total_chunks,
+            "has_more": offset + len(chunks) < total_chunks,
+            "chunks": chunks,
         }
+
+        if include_outline:
+            result["outline"] = self.get_law_outline(law_id)
+            result["total_articles"] = len(result["outline"])
+
+        return result
     
     def delete_by_law_id(self, law_id: str) -> int:
         """根据law_id批量删除所有相关文档"""
@@ -1596,11 +1598,9 @@ class ElasticsearchRepository:
         search_body = {}
 
         if where:
-            # 构建过滤条件（支持多值 OR 逻辑）
             filter_clauses = []
             for k, v in where.items():
                 if isinstance(v, list) and len(v) > 1:
-                    # 多选主题的 OR 逻辑
                     filter_clauses.append({
                         "bool": {
                             "should": [{"term": {k: item}} for item in v],
@@ -1615,7 +1615,6 @@ class ElasticsearchRepository:
             search_body["query"] = {"match_all": {}}
         
         search_body["size"] = n_results
-        # 不指定 _source，获取所有字段
         search_body["sort"] = [{"law_id": {"order": "asc"}}, {"chunk_index": {"order": "asc"}}]
         
         response = self.client.search(index=settings.es_index_name, body=search_body)
@@ -1627,14 +1626,12 @@ class ElasticsearchRepository:
             source = hit.get("_source", {})
             query_ids.append(hit.get("_id"))
             query_docs.append(source.get("content", ""))
-            # 合并顶层字段到 metadata 中
             metadata = source.get("metadata", {}).copy()
             metadata["law_id"] = source.get("law_id", "")
             metadata["title"] = source.get("title", "")
             metadata["jurisdiction"] = source.get("jurisdiction", "")
             metadata["article_number"] = source.get("article_number", "")
             metadata["chunk_index"] = source.get("chunk_index", 0)
-            # 附加主题信息
             metadata["topic"] = source.get("topic", "")
             metadata["topics"] = source.get("topics", [])
             metadata["topic_labels"] = source.get("topic_labels", [])
@@ -1665,7 +1662,6 @@ class ElasticsearchRepository:
         response = self.client.search(index=settings.es_index_name, body=query)
         buckets = response.get("aggregations", {}).get("jurisdictions", {}).get("buckets", [])
         
-        # 转换为中文并去重
         zh_jurisdictions = set()
         result = []
         for bucket in buckets:
@@ -1681,18 +1677,11 @@ class ElasticsearchRepository:
                          fields: Optional[List[str]] = None) -> List[Dict]:
         """按法域随机采样文档，用于构建法域语义向量。
 
-        Args:
-            jurisdiction: 法域名称（简体中文）
-            size: 采样数量
-            fields: 返回字段，默认 ['title', 'content']
-
-        Returns:
-            [{'title': ..., 'content': ...}, ...]
+        fields 默认 ['title', 'content']；返回 [{'title': ..., 'content': ...}, ...]。
         """
         if fields is None:
             fields = ['title', 'content']
 
-        # 使用 random_score 函数实现随机采样
         query = {
             "size": size,
             "query": {
@@ -1715,18 +1704,9 @@ class ElasticsearchRepository:
             return []
 
     def get_all_topics(self) -> List[Dict]:
-        """获取所有主题列表（含统计信息）
+        """获取所有主题列表（含 doc_count 与各法域分布），按 count 降序。
 
-        返回格式:
-        [
-            {
-                "id": "cybersecurity",
-                "label_zh": "网络安全",
-                "count": 15,
-                "by_jurisdiction": {"澳门": 10, "新加坡": 5}
-            },
-            ...
-        ]
+        返回 [{"id", "label_zh", "count", "by_jurisdiction"}, ...]。
         """
         query = {
             "size": 0,
@@ -1753,10 +1733,9 @@ class ElasticsearchRepository:
             raw_label = bucket.get("key", "")
             count = bucket.get("doc_count", 0)
 
-            # 确保返回中文标签：如果是英文ID则转换
+            # 英文 ID 转中文标签
             label_zh = _to_label_zh(raw_label) if raw_label and raw_label[0].islower() and '_' in raw_label else raw_label
 
-            # 统计各法域分布
             by_jur = {}
             for jur_bucket in bucket.get("jurisdiction_breakdown", {}).get("buckets", []):
                 by_jur[jur_bucket["key"]] = jur_bucket["doc_count"]
@@ -1794,16 +1773,13 @@ class ElasticsearchRepository:
             raw_label = bucket.get("key", "")
             if not raw_label:
                 continue
-            # 确保返回中文标签：如果是英文ID则转换
+            # 英文 ID 转中文标签
             label_zh = _to_label_zh(raw_label) if raw_label[0].islower() and '_' in raw_label else raw_label
             result.append(label_zh)
         return result
 
     def get_topic_frequencies(self) -> Dict[str, int]:
-        """
-        获取所有主题标签的出现频次（用于 IDF 加权）
-        返回: {"数据保护": 120, "网络安全": 85, ...}
-        """
+        """获取所有主题标签的出现频次（用于 IDF 加权），如 {"数据保护": 120, ...}"""
         query = {
             "size": 0,
             "aggs": {
@@ -1821,11 +1797,40 @@ class ElasticsearchRepository:
 
         return {bucket.get("key"): bucket.get("doc_count", 0) for bucket in buckets if bucket.get("key")}
 
+    def batch_get_law_topic_distributions(self, law_ids: List[str]) -> Dict[str, Dict[str, int]]:
+        """批量获取多个法规的主题分布（单次聚合，不拉取向量/正文）。
+
+        返回 {law_id: {"数据保护": 12, ...}}，替代逐法规拉取整部 embedding 的 N+1 查询。
+        """
+        if not law_ids:
+            return {}
+
+        query = {
+            "size": 0,
+            "query": {"terms": {"law_id": law_ids}},
+            "aggs": {
+                "laws": {
+                    "terms": {"field": "law_id", "size": max(len(law_ids), 10)},
+                    "aggs": {
+                        "topics": {"terms": {"field": "topic_labels", "size": 50}}
+                    }
+                }
+            }
+        }
+
+        response = self.client.search(index=settings.es_index_name, body=query)
+        result: Dict[str, Dict[str, int]] = {}
+        for law_bucket in response.get("aggregations", {}).get("laws", {}).get("buckets", []):
+            law_id = law_bucket.get("key")
+            topic_buckets = law_bucket.get("topics", {}).get("buckets", [])
+            result[law_id] = {
+                t.get("key"): t.get("doc_count", 0)
+                for t in topic_buckets if t.get("key")
+            }
+        return result
+
     def get_law_chunk_vectors(self, law_id: str) -> List[Dict]:
-        """
-        获取指定法规所有 chunk 的向量及元数据（仅取必要字段，不返回 content）
-        返回格式：[{"embedding": [...], "law_id": ..., "title": ..., "jurisdiction": ..., "topic_labels": [...]}, ...]
-        """
+        """获取指定法规所有 chunk 的向量及元数据（不返回 content，仅必要字段）"""
         query = {
             "query": {"term": {"law_id": law_id}},
             "size": 1000,
@@ -1853,6 +1858,140 @@ class ElasticsearchRepository:
 
         return results
 
+    # 法规质心（预计算，供相似法规推荐使用，避免运行时拉取整部法规向量）
+    CENTROID_INDEX = "legal_law_centroids"
+
+    def ensure_centroid_index(self) -> bool:
+        """确保质心索引存在（幂等，进程内缓存就绪标记）"""
+        if getattr(self, "_centroid_index_ready", False):
+            return True
+        try:
+            if not self.client.indices.exists(index=self.CENTROID_INDEX):
+                self.client.indices.create(
+                    index=self.CENTROID_INDEX,
+                    body={
+                        "settings": {"number_of_shards": 1, "number_of_replicas": 0},
+                        "mappings": {
+                            "properties": {
+                                "law_id": {"type": "keyword"},
+                                # 质心仅作查询向量下发，无需被检索，故 index=false 省开销
+                                "centroid": {"type": "dense_vector", "dims": 1024, "index": False},
+                                "jurisdiction": {"type": "keyword"},
+                                "title": {"type": "keyword"},
+                                "chunk_count": {"type": "integer"},
+                                "topic_distribution": {"type": "object", "enabled": False},
+                                "updated_at": {"type": "date"},
+                            }
+                        },
+                    },
+                )
+            self._centroid_index_ready = True
+            return True
+        except Exception as e:
+            logger.warning(f"[Centroid] 索引创建/检查失败: {e}")
+            return False
+
+    def save_law_centroid(
+        self,
+        law_id: str,
+        centroid: List[float],
+        jurisdiction: str = "",
+        title: str = "",
+        chunk_count: int = 0,
+        topic_distribution: Optional[Dict] = None,
+    ) -> bool:
+        """写入/覆盖指定法规的质心文档（doc_id = law_id）"""
+        if not self.ensure_centroid_index():
+            return False
+        from datetime import datetime, timezone
+        try:
+            self.client.index(
+                index=self.CENTROID_INDEX,
+                id=law_id,
+                body={
+                    "law_id": law_id,
+                    "centroid": centroid,
+                    "jurisdiction": jurisdiction,
+                    "title": title,
+                    "chunk_count": chunk_count,
+                    "topic_distribution": topic_distribution or {},
+                    "updated_at": datetime.now(timezone.utc).isoformat(),
+                },
+                refresh=True,
+            )
+            return True
+        except Exception as e:
+            logger.warning(f"[Centroid] 写入失败 {law_id}: {e}")
+            return False
+
+    def get_law_centroid(self, law_id: str) -> Optional[Dict]:
+        """读取指定法规的质心文档，不存在则返回 None"""
+        if not self.ensure_centroid_index():
+            return None
+        try:
+            resp = self.client.get(index=self.CENTROID_INDEX, id=law_id)
+            return resp.get("_source", {})
+        except NotFoundError:
+            return None
+        except Exception as e:
+            logger.warning(f"[Centroid] 读取失败 {law_id}: {e}")
+            return None
+
+    def delete_law_centroid(self, law_id: str) -> bool:
+        """删除指定法规的质心文档（不存在时静默成功）"""
+        if not self.ensure_centroid_index():
+            return False
+        try:
+            self.client.delete(index=self.CENTROID_INDEX, id=law_id, refresh=True)
+            return True
+        except NotFoundError:
+            return True
+        except Exception as e:
+            logger.warning(f"[Centroid] 删除失败 {law_id}: {e}")
+            return False
+
+    def get_law_chunk_indices(self, law_id: str) -> List[int]:
+        """获取指定法规所有 chunk 的 chunk_index（升序，仅投影该字段，开销极低）"""
+        query = {
+            "query": {"term": {"law_id": law_id}},
+            "size": 10000,
+            "sort": [{"chunk_index": {"order": "asc"}}],
+            "_source": ["chunk_index"],
+        }
+        response = self.client.search(index=settings.es_index_name, body=query)
+        hits = response.get("hits", {}).get("hits", [])
+        return [h.get("_source", {}).get("chunk_index", 0) for h in hits]
+
+    def get_law_chunks_by_indices(self, law_id: str, indices: List[int]) -> List[Dict]:
+        """按 chunk_index 精确回取指定法规的少量 chunk（含 embedding），用于质心采样"""
+        if not indices:
+            return []
+        query = {
+            "query": {
+                "bool": {
+                    "must": [
+                        {"term": {"law_id": law_id}},
+                        {"terms": {"chunk_index": indices}},
+                    ]
+                }
+            },
+            "size": len(indices),
+            "sort": [{"chunk_index": {"order": "asc"}}],
+            "_source": ["embedding", "chunk_index", "title", "jurisdiction"],
+        }
+        response = self.client.search(index=settings.es_index_name, body=query)
+        hits = response.get("hits", {}).get("hits", [])
+        results = []
+        for hit in hits:
+            source = hit.get("_source", {})
+            results.append({
+                "embedding": source.get("embedding", []),
+                "chunk_index": source.get("chunk_index", 0),
+                "title": source.get("title", ""),
+                "jurisdiction": source.get("jurisdiction", ""),
+            })
+        return results
+
     def knn_search_similar(
         self,
         query_vector: List[float],
@@ -1861,35 +2000,34 @@ class ElasticsearchRepository:
         jurisdiction_filter: Optional[str] = None,
         min_score: float = 0.3
     ) -> List[Dict]:
-        """
-        使用给定向量执行 KNN 相似搜索，返回去重前的原始 chunk 结果。
-        排除指定 law_id，可选法域过滤和最低分数阈值。
+        """用给定向量执行 KNN 相似搜索，返回去重前的原始 chunk 结果。
 
-        注意：使用 knn.filter 做预过滤（法域），用 post_filter 做后置排除（自身），
-        确保排除逻辑严格生效而非仅降权。
+        法域过滤与自身排除都放入 knn.filter 做预过滤：post_filter 是「先取 k 条再排除」，
+        大法规自身即可占满候选名额导致结果为空；放入 filter 则不占名额。
         """
-        # 构建 KNN 预过滤器（在向量搜索前缩小候选集）
-        knn_filters = []
+        # 构建 KNN 预过滤器（在向量搜索前收窄候选集）
+        filter_clauses = []
         if jurisdiction_filter:
-            knn_filters.append({"term": {"jurisdiction": jurisdiction_filter}})
+            filter_clauses.append({"term": {"jurisdiction": jurisdiction_filter}})
+
+        must_not_clauses = []
+        if exclude_law_id:
+            must_not_clauses.append({"term": {"law_id": exclude_law_id}})
 
         knn_body = {
             "field": "embedding",
             "query_vector": query_vector,
             "k": top_k * 5,
-            "num_candidates": max(top_k * 20, 100)
+            # HNSW 搜索开销与 num_candidates 近似成正比，故取 max(10*k, 100) 即可
+            "num_candidates": max(top_k * 10, 100)
         }
-        if knn_filters:
-            knn_body["filter"] = knn_filters
+        if filter_clauses or must_not_clauses:
+            knn_body["filter"] = {"bool": {
+                "filter": filter_clauses,
+                "must_not": must_not_clauses
+            }}
 
         search_body = {"knn": knn_body, "size": top_k * 5}
-
-        # post_filter：在搜索结果上做硬性排除（确保自身不被返回）
-        post_filter_clauses = []
-        if exclude_law_id:
-            post_filter_clauses.append({"term": {"law_id": exclude_law_id}})
-        if post_filter_clauses:
-            search_body["post_filter"] = {"bool": {"must_not": post_filter_clauses}}
 
         response = self.client.search(index=settings.es_index_name, body=search_body)
         hits = response.get("hits", {}).get("hits", [])
@@ -1898,7 +2036,6 @@ class ElasticsearchRepository:
         for hit in hits:
             source = hit.get("_source", {})
             score = hit.get("_score", 0.0)
-            # cosine similarity: ES dense_vector with cosine similarity returns cosine value as _score
             similarity = float(score)
 
             if similarity < min_score:
@@ -1917,11 +2054,7 @@ class ElasticsearchRepository:
         return results
 
     def get_topic_statistics(self, limit: int = 50) -> List[Dict]:
-        """
-        获取主题统计信息，包括各法域的分布
-        
-        用于可视化看板的主题词云、热力图等
-        """
+        """获取主题统计（含各法域分布与示例法规），用于看板的词云、热力图。"""
         query = {
             "size": 0,
             "aggs": {
@@ -1951,11 +2084,10 @@ class ElasticsearchRepository:
                 topic_name = bucket.get("key", "")
                 total_count = bucket.get("doc_count", 0)
 
-                # 获取各法域的分布
                 jur_buckets = bucket.get("by_jurisdiction", {}).get("buckets", [])
                 by_jurisdiction = {b.get("key"): b.get("doc_count") for b in jur_buckets}
 
-                # 获取示例法律（取前3个）
+                # 每个主题取前 3 条示例法规
                 sample_query = {
                     "size": 3,
                     "query": {"term": {"topic_labels": topic_name}},
@@ -1985,9 +2117,7 @@ class ElasticsearchRepository:
             print(f"⚠️ 获取主题统计失败: {e}")
             return []
 
-    # ================================================================
-    #  跨法域专题分析 — 缓存层（analysis_reports_cache）
-    # ================================================================
+    # 跨法域专题分析缓存（analysis_reports_cache）
 
     CACHE_INDEX = "analysis_reports_cache"
 
@@ -2031,15 +2161,14 @@ class ElasticsearchRepository:
         report_data: Dict,
         cache_type: str = "analysis",
     ) -> bool:
-        """保存/更新缓存（upsert），支持 analysis 和 compare 两种类型
-        
-        增强功能：写入前自动清除旧缓存，确保数据一致性
+        """保存/更新缓存（upsert），支持 analysis 与 compare 两种类型。
+
+        写入前先清除旧文档，确保读取到的始终是最新结果。
         """
         import datetime, copy
         self._ensure_cache_index()
         doc_id = self._cache_doc_id(cache_type, topic_id, jurisdiction_a, jurisdiction_b)
 
-        # ===== 自动清除旧缓存（确保最新结果）=====
         try:
             old_doc = self.client.get(index=self.CACHE_INDEX, id=doc_id, ignore=[404])
             if old_doc.get("found"):
@@ -2062,12 +2191,10 @@ class ElasticsearchRepository:
                 elif isinstance(ext[side_key], dict):
                     ext[side_key].pop("_raw_response", None)
 
-        # 修复：将 topic 对象转换为 JSON 字符串（ES字段定义为text类型，不支持对象）
-        # compare类型存储的是纯字符串（如"数据保护"），analysis类型传入的是字典对象
+        # ES 中 topic 字段为 text，不支持对象：compare 传纯字符串，analysis 传入字典
         import json
         topic_data = cache_data.get("topic")
         if isinstance(topic_data, dict):
-            # 完整序列化为JSON字符串，保留所有字段（name、id、dimensions等）
             cache_data["topic"] = json.dumps(topic_data, ensure_ascii=False)
             logger.info(f"[Cache] topic对象已转换为JSON字符串: {cache_data['topic'][:80]}...")
 
@@ -2109,7 +2236,7 @@ class ElasticsearchRepository:
     ) -> Optional[Dict]:
         """
         查询缓存。返回 {fingerprint, report_data, updated_at} 或 None。
-        特殊：topic_id="__all__" 时返回该类型的全部记录列表。
+        topic_id="__all__" 时返回该类型的全部记录列表。
         """
         self._ensure_cache_index()
 
@@ -2158,20 +2285,16 @@ class ElasticsearchRepository:
             print(f"[Cache] 删除失败: {e}")
             return False
 
-    # ================================================================
-    #  法规摘要缓存层（summary）
-    # ================================================================
+    # 法规摘要缓存层（summary）
 
     def _summary_cache_doc_id(self, law_id: str) -> str:
         """生成摘要缓存文档 ID"""
         return f"summary::{law_id}::_::_"
 
     def compute_law_fingerprint(self, law_id: str) -> str:
-        """
-        计算法规指纹（标题 + 条款数 + 通过日期），用于检测数据变化。
+        """计算法规指纹（标题 + 条款数 + 通过日期），用于检测数据变化。
 
-        公开方法：除缓存层内部使用外，知识层（KG）也用它判断抽取结果是否失效。
-        指纹相同的含义是「该法规的内容与结构未变」，可安全复用已抽取的三元组。
+        公开方法：缓存层与 KG 都用它判断抽取结果是否失效，指纹相同即可复用。
         """
         import hashlib
         try:
@@ -2187,16 +2310,7 @@ class ElasticsearchRepository:
         return ""
 
     def save_summary_cache(self, law_id: str, summary_data: Dict) -> bool:
-        """
-        保存法规摘要缓存（无过期时间，仅在数据变化时失效）
-        
-        Args:
-            law_id: 法规ID
-            summary_data: 摘要数据
-        
-        Returns:
-            是否保存成功
-        """
+        """保存法规摘要缓存（无过期时间，仅在数据变化时失效）"""
         import datetime, copy
         self._ensure_cache_index()
         doc_id = self._summary_cache_doc_id(law_id)
@@ -2239,17 +2353,7 @@ class ElasticsearchRepository:
 
     def get_summary_cache(self, law_id: str) -> Optional[Dict]:
         """
-        获取法规摘要缓存
-        
-        返回：
-        - 如果缓存存在且数据未变化，返回摘要数据
-        - 如果缓存不存在或数据已变化，返回 None
-        
-        Args:
-            law_id: 法规ID
-        
-        Returns:
-            摘要数据或 None
+        获取法规摘要缓存：存在且指纹未变时返回摘要数据，否则返回 None（并删除失效缓存）。
         """
         self._ensure_cache_index()
         doc_id = self._summary_cache_doc_id(law_id)
@@ -2300,21 +2404,15 @@ class ElasticsearchRepository:
             logger.error(f"[Cache] 删除所有摘要缓存失败: {e}")
             return False
 
-    # ================================================================
-    #  法规知识层（KG）持久化 — legal_kg_triples / legal_kg_entities
-    #  ------------------------------------------------------------
-    #  设计要点：
-    #   1. 按 law_id 组织数据：新增法规只抽新增部分，不做全量重建，
-    #      这是数据量持续增长时唯一可扩展的形态；
-    #   2. 三元组文档 ID 由内容哈希决定（幂等 upsert），
-    #      同一法规重复抽取不会产生重复记录；
-    #   3. 用 law 指纹判断缓存是否失效，指纹未变则完全跳过 LLM 抽取；
-    #   4. entities 索引预留 1024 维向量字段：dense_vector 的 dims 建索引后
-    #      不可修改，故此处一次性建好，供实体消歧的跨语言向量对齐使用。
-    # ================================================================
+    # 法规知识层（KG）持久化：legal_kg_triples / legal_kg_entities
+    # 按 law_id 组织数据，新增法规只抽新增部分；三元组 ID 由内容哈希决定（幂等 upsert）；
+    # 用 law 指纹判断缓存失效，指纹未变则跳过 LLM 抽取；entities 的 1024 维向量一次性
+    # 建好（dims 建索引后不可改），供实体消歧的跨语言向量对齐使用。
 
     KG_TRIPLE_INDEX = "legal_kg_triples"
     KG_ENTITY_INDEX = "legal_kg_entities"
+    # 实体合并候选（被 L3 守卫拦下的高相似实体对），供人工复核；仅辅助展示，不自动归并
+    KG_REVIEW_INDEX = "legal_kg_review"
 
     def _ensure_kg_indices(self) -> bool:
         """确保知识层索引存在，不存在则创建（失败时返回 False，调用方降级为实时抽取）"""
@@ -2389,12 +2487,9 @@ class ElasticsearchRepository:
     @staticmethod
     def _kg_entity_doc_id(entity_id: str) -> str:
         """
-        实体文档 ID：ES 的 _id 上限为 512 字节，而实体规范名可能是很长的描述型串
-        （英文/越南文法条里常见），直接用 entity_id 作 _id 会触发
-        「id is too long」400 错误，使整批实体写入失败。
-
-        处理：仅在超长时把 _id 换成定长哈希；_source.entity_id 仍保留完整规范 ID，
-        因此实体词典内部查询（按 entity_id 匹配）与三元组的 canonical_id 关联不受影响。
+        实体文档 ID：ES 的 _id 上限 512 字节，超长实体规范名直接用 entity_id 会触发
+        「id is too long」使整批写入失败；故仅超长时改用定长哈希，_source.entity_id
+        仍保留完整 ID，词典查询与 canonical_id 关联不受影响。
         """
         raw = entity_id.encode("utf-8")
         if len(raw) <= 512:
@@ -2410,11 +2505,8 @@ class ElasticsearchRepository:
         fingerprint: str = "",
     ) -> int:
         """
-        覆盖式保存某法规的实体关系三元组。
-
-        采用「先删旧、再批量写入」而非追加：法规被修订后旧抽取结果必须整体失效，
-        否则引用链与实体统计会同时看到新旧两版条款的关系。
-        写入条数成功返回条数，失败返回 -1（调用方据此判断是否降级）。
+        覆盖式保存某法规的三元组：先删旧再批量写入，法规修订后旧关系必须整体失效。
+        成功返回写入条数，失败返回 -1（调用方据此降级）。
         """
         if not self._ensure_kg_indices():
             return -1
@@ -2422,9 +2514,8 @@ class ElasticsearchRepository:
         import datetime
         now = datetime.datetime.now(datetime.timezone.utc).isoformat()
 
-        # 清除该法规的旧三元组，保证修订后不留残影。
-        # 注意：即使本次抽取结果为空也要执行清除，否则法规被修订为
-        # 「无可提取关系」后，旧版本的三元组会继续参与引用链与实体统计。
+        # 即使本次抽取为空也要清除，否则修订为「无可提取关系」后旧三元组会残留，
+        # 继续参与引用链与实体统计。
         self.delete_kg_triples(law_id)
 
         if not triples:
@@ -2498,9 +2589,8 @@ class ElasticsearchRepository:
         """
         读取全部三元组，供跨法域聚合等分析场景使用。
 
-        ES 默认 max_result_window=10000，单次 size 超过会被拒；故用 PIT + search_after
-        分页取回（PIT 是 _shard_doc 排序的前置条件）。PIT 不可用时降级为单次读取
-        （上限 10000 条），保证功能仍可用。
+        ES 默认 max_result_window=10000，故用 PIT + search_after 分页（PIT 是 _shard_doc
+        排序的前置条件）；PIT 不可用时降级为单次读取（上限 10000 条）。
         """
         results: List[Dict] = []
         page_size = 2000
@@ -2558,7 +2648,7 @@ class ElasticsearchRepository:
     def get_kg_triples(self, law_id: str, size: int = 2000) -> List[Dict]:
         """
         读取某法规的全部三元组，还原为 kg_extraction_service 的输出格式，
-        使调用方对「读缓存」与「实时抽取」得到的结果形态完全一致。
+        使「读缓存」与「实时抽取」的结果形态一致。
         """
         try:
             resp = self.client.search(
@@ -2580,14 +2670,53 @@ class ElasticsearchRepository:
             for hit in resp.get("hits", {}).get("hits", [])
         ]
 
+    def get_kg_triples_by_source_articles(
+        self, refs: List[Tuple[str, str]], size: int = 200
+    ) -> List[Dict]:
+        """回取「由指定条款正文抽取出的」三元组（按 law_id + source_article 精确匹配）。
+
+        以条款为入口，用于把检索命中条款直接接到图谱上：条款节点 canonical_id 由抽取时
+        命名决定，不能按条号反推，只能按 source_article 反查。refs 为
+        [(law_id, article_number), ...]，size 为返回上限（按置信度降序）。
+        """
+        pairs = [(str(law).strip(), str(art).strip()) for law, art in refs if law and art]
+        if not pairs:
+            return []
+        should = [
+            {"bool": {"filter": [
+                {"term": {"law_id": law_id}},
+                {"term": {"source_article": article}},
+            ]}}
+            for law_id, article in pairs
+        ]
+        try:
+            resp = self.client.search(
+                index=self.KG_TRIPLE_INDEX,
+                body={
+                    "query": {"bool": {"should": should, "minimum_should_match": 1}},
+                    "size": size,
+                    "sort": [{"confidence": "desc"}],
+                },
+            )
+        except NotFoundError:
+            return []
+        except Exception as e:
+            logger.warning(f"[KG] 读取条款三元组失败: {e}")
+            return []
+
+        return [
+            self._kg_triple_from_source(hit.get("_source", {}))
+            for hit in resp.get("hits", {}).get("hits", [])
+        ]
+
     def get_kg_triples_by_entities(
         self, canonical_ids: List[str], size: int = 2000
     ) -> List[Dict]:
         """
         读取「头或尾规范实体命中给定集合」的全部三元组，用于实体邻域图构建。
 
-        只按 canonical_id（消歧后的规范 ID）匹配，因此同一实体在不同法规/法域中的
-        关系会被一并取回，这是实体邻域图能够跨法规连通的前提。
+        只按 canonical_id 匹配，故同一实体跨法规/法域的关系会被一并取回，
+        这是邻域图能跨法规连通的前提。
         """
         ids = [c for c in canonical_ids if c]
         if not ids:
@@ -2626,9 +2755,8 @@ class ElasticsearchRepository:
         """
         按 (law_id, article_number) 批量取条款原文片段（供图谱问答组装证据）。
 
-        refs 为 [{"law_id":..., "article_number":...}]，去重后最多取 max_pairs 个，
-        用一次 msearch 返回。返回 {f"{law_id}::{article_number}": 片段}。
-        law_id / article_number 在 chunk 索引中均为 keyword，可精确过滤。
+        refs 为 [{"law_id":..., "article_number":...}]，去重后最多 max_pairs 个，
+        单次 msearch 返回 {f"{law_id}::{article_number}": 片段}（截断至 max_chars）。
         """
         pairs: List[tuple] = []
         seen = set()
@@ -2680,8 +2808,8 @@ class ElasticsearchRepository:
 
     def get_kg_cache_meta(self, law_id: str) -> Optional[Dict]:
         """
-        读取某法规的知识层缓存元信息：{fingerprint, triple_count, extracted_at}。
-        从未抽取过则返回 None。用于判断能否直接复用缓存、跳过 LLM 调用。
+        读取某法规知识层缓存元信息 {fingerprint, triple_count, extracted_at}，未抽取过返回 None。
+        用于判断能否直接复用缓存、跳过 LLM 调用。
         """
         try:
             resp = self.client.search(
@@ -2751,10 +2879,31 @@ class ElasticsearchRepository:
             pass
         return result
 
+    def get_kg_law_ids(self) -> List[str]:
+        """
+        返回三元组索引中出现过的全部 law_id（terms 聚合）。
+
+        用于把「重建实体词典」等操作收敛到真正有知识层的法规，避免逐条空查。
+        """
+        try:
+            resp = self.client.search(
+                index=self.KG_TRIPLE_INDEX,
+                body={
+                    "size": 0,
+                    "aggs": {"laws": {"terms": {"field": "law_id", "size": 10000}}},
+                },
+            )
+        except NotFoundError:
+            return []
+        except Exception as e:
+            logger.warning(f"[KG] 读取已抽取法规列表失败: {e}")
+            return []
+        buckets = resp.get("aggregations", {}).get("laws", {}).get("buckets", [])
+        return [b["key"] for b in buckets if b.get("key")]
+
     # ---- 实体词典（legal_kg_entities）-------------------------------
-    #  实体词典是「全局」的：记录规范实体名、别名集合、实体类型与出现法域。
-    #  刻意不记录 law_ids —— 法规重新抽取后该字段会失真（旧法规仍被列出），
-    #  而「实体出现在哪些法规」可随时由三元组索引查询得出，无需冗余存储。
+    # 实体词典是全局的：记录规范实体名、别名集合、类型与出现法域。刻意不记录 law_ids
+    # （重新抽取后易失真），「实体出现在哪些法规」可随时由三元组索引查出。
 
     def get_kg_entities_batch(self, entity_ids: List[str]) -> Dict[str, Dict]:
         """按 entity_id 批量读取实体词典条目（单次 msearch），返回 {entity_id: 文档}"""
@@ -2784,11 +2933,10 @@ class ElasticsearchRepository:
 
     def merge_kg_entities(self, entities: List[Dict]) -> int:
         """
-        合并写入实体词典：已有条目累加别名/法域集合，新条目直接写入。
+        合并写入实体词典：别名/法域取并集，已有条目累加、新条目直接写入。
 
-        采用「批量读 + 批量写」两次往返完成，避免逐条 read-modify-write。
-        别名与法域取并集，因此重复抽取同一法规不会产生重复项，也不会丢历史别名。
-        返回写入条数，失败返回 -1。
+        采用「批量读 + 批量写」两次往返，避免逐条 read-modify-write；重复抽取不会产生重复项
+        也不丢历史别名。返回写入条数，失败返回 -1。
         """
         if not entities:
             return 0
@@ -2842,6 +2990,212 @@ class ElasticsearchRepository:
             logger.error(f"[KG] 实体词典合并失败: {type(e).__name__}: {e}")
             return -1
 
+    def prune_kg_entities(self, referenced_ids: set) -> int:
+        """
+        删除实体词典中「已不再被任何三元组引用」的条目（重建后的残留清理）。
+
+        实体合并会改变三元组 canonical_id，旧条目不会自动移除而成为孤立实体；本方法把
+        词典收敛到当前三元组实际引用的规范实体集合。
+
+        **破坏性操作**：referenced_ids 必须是全部三元组引用的 canonical_id 全集，否则会
+        误删仍在使用的实体。返回删除条数；失败返回 -1。
+        """
+        ref = {r for r in (referenced_ids or set()) if r}
+        try:
+            resp = self.client.search(
+                index=self.KG_ENTITY_INDEX,
+                body={"query": {"match_all": {}}, "size": 10000, "_source": ["entity_id"]},
+            )
+        except NotFoundError:
+            return 0
+        except Exception as e:
+            logger.warning(f"[KG] 读取实体词典失败（跳过清理）: {e}")
+            return -1
+
+        hits = resp.get("hits", {}).get("hits", [])
+        stale = [
+            h.get("_source", {}).get("entity_id")
+            for h in hits
+            if h.get("_source", {}).get("entity_id")
+            and h["_source"]["entity_id"] not in ref
+        ]
+        if not stale:
+            return 0
+
+        actions = [
+            {"_op_type": "delete", "_index": self.KG_ENTITY_INDEX,
+             "_id": self._kg_entity_doc_id(eid)}
+            for eid in stale
+        ]
+        try:
+            from elasticsearch.helpers import bulk
+            success, failed = bulk(
+                self.client, actions, refresh=True,
+                raise_on_error=False, stats_only=True,
+            )
+            logger.info(f"[KG] 实体词典清理：删除 {success} 个孤立实体（失败 {failed}）")
+            return int(success)
+        except Exception as e:
+            logger.error(f"[KG] 实体词典清理失败: {type(e).__name__}: {e}")
+            return -1
+
+    # ---- 实体合并候选复核（legal_kg_review，仅辅助人工）-----------------
+
+    def _ensure_kg_review_index(self) -> bool:
+        """确保实体合并候选索引存在，不存在则创建"""
+        try:
+            if not self.client.indices.exists(index=self.KG_REVIEW_INDEX):
+                self.client.indices.create(
+                    index=self.KG_REVIEW_INDEX,
+                    body={
+                        "settings": {"number_of_shards": 1, "number_of_replicas": 0},
+                        "mappings": {
+                            "properties": {
+                                "name": {"type": "keyword"},
+                                "type": {"type": "keyword"},
+                                "candidate": {"type": "keyword"},
+                                "candidate_id": {"type": "keyword"},
+                                "similarity": {"type": "float"},
+                                "blocked_by": {"type": "keyword"},
+                                "actionable": {"type": "boolean"},
+                                "first_seen": {"type": "date"},
+                                "last_seen": {"type": "date"},
+                                "seen_count": {"type": "integer"},
+                            }
+                        },
+                    },
+                )
+            return True
+        except Exception as e:
+            logger.warning(f"[KG] 复核候选索引创建/检查失败: {e}")
+            return False
+
+    @staticmethod
+    def _kg_review_doc_id(name: str, candidate_id: str) -> str:
+        import hashlib
+        return hashlib.md5(f"{name}|{candidate_id}".encode("utf-8")).hexdigest()
+
+    def save_kg_review_candidates(self, candidates: List[Dict]) -> int:
+        """
+        持久化「实体合并候选」（被 L3 守卫拦下的高相似实体对），供人工复核。
+
+        文档 ID 由 (name, candidate_id) 哈希得到：同一候选反复被拦只累加 seen_count 并刷新
+        last_seen，不产生重复行；first_seen 首次写入时确定。失败返回 -1（调用方可降级）。
+        """
+        import datetime
+        rows = [c for c in (candidates or []) if c.get("name") and c.get("candidate_id")]
+        if not rows:
+            return 0
+        if not self._ensure_kg_review_index():
+            return -1
+
+        now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        ids = [self._kg_review_doc_id(c["name"], c["candidate_id"]) for c in rows]
+
+        # 读取既有条目：保留 first_seen 并累加 seen_count（读-并-写，与实体词典一致）
+        existing: Dict[str, Dict] = {}
+        try:
+            resp = self.client.search(
+                index=self.KG_REVIEW_INDEX,
+                body={"query": {"ids": {"values": ids}}, "size": len(ids)},
+            )
+            for hit in resp.get("hits", {}).get("hits", []):
+                existing[hit["_id"]] = hit.get("_source", {})
+        except NotFoundError:
+            pass
+        except Exception as e:
+            logger.warning(f"[KG] 读取既有复核候选失败（本次仅新增）: {e}")
+
+        actions = []
+        for c, doc_id in zip(rows, ids):
+            old = existing.get(doc_id, {})
+            actions.append({
+                "_index": self.KG_REVIEW_INDEX,
+                "_id": doc_id,
+                "_source": {
+                    "name": c.get("name", ""),
+                    "type": c.get("type", ""),
+                    "candidate": c.get("candidate", ""),
+                    "candidate_id": c.get("candidate_id", ""),
+                    "similarity": float(c.get("similarity", 0.0)),
+                    "blocked_by": c.get("blocked_by", ""),
+                    "actionable": bool(c.get("actionable", False)),
+                    "first_seen": old.get("first_seen") or now,
+                    "last_seen": now,
+                    "seen_count": int(old.get("seen_count", 0)) + 1,
+                },
+            })
+        try:
+            from elasticsearch.helpers import bulk
+            success, failed = bulk(
+                self.client, actions, refresh=True,
+                raise_on_error=False, stats_only=True,
+            )
+            logger.info(f"[KG] 复核候选已落库: 成功={success}, 失败={failed}")
+            return int(success)
+        except Exception as e:
+            logger.error(f"[KG] 复核候选落库失败: {type(e).__name__}: {e}")
+            return -1
+
+    def list_kg_review_candidates(
+        self,
+        actionable_only: bool = True,
+        blocked_by: Optional[str] = None,
+        min_similarity: float = 0.0,
+        page_size: int = 50,
+    ) -> List[Dict]:
+        """
+        列出待人工确认的实体合并候选（按相似度、出现次数降序）。
+
+        actionable_only=True 只返回「放宽阈值即可归并」的候选（已通过名称长度/数字/
+        书名号守卫），用于滤除英文整句描述串等噪声。
+        """
+        clauses: List[Dict] = [{"range": {"similarity": {"gte": min_similarity}}}]
+        if actionable_only:
+            clauses.append({"term": {"actionable": True}})
+        if blocked_by:
+            clauses.append({"term": {"blocked_by": blocked_by}})
+        try:
+            resp = self.client.search(
+                index=self.KG_REVIEW_INDEX,
+                body={
+                    "query": {"bool": {"filter": clauses}},
+                    "size": page_size,
+                    "sort": [{"similarity": "desc"}, {"seen_count": "desc"}],
+                },
+            )
+        except NotFoundError:
+            return []
+        except Exception as e:
+            logger.warning(f"[KG] 读取复核候选失败: {e}")
+            return []
+
+        results = []
+        for hit in resp.get("hits", {}).get("hits", []):
+            doc = dict(hit.get("_source", {}))
+            doc["id"] = hit.get("_id", "")
+            results.append(doc)
+        return results
+
+    def dismiss_kg_review_candidates(self, ids: List[str]) -> int:
+        """按文档 ID 删除已确认/已处理的复核候选。返回删除条数；失败返回 -1。"""
+        keys = [i for i in (ids or []) if i]
+        if not keys:
+            return 0
+        try:
+            resp = self.client.delete_by_query(
+                index=self.KG_REVIEW_INDEX,
+                body={"query": {"ids": {"values": keys}}},
+                refresh=True,
+                conflicts="proceed",
+            )
+            return resp.get("deleted", 0)
+        except NotFoundError:
+            return 0
+        except Exception as e:
+            logger.warning(f"[KG] 删除复核候选失败: {e}")
+            return -1
+
     def list_kg_entities(
         self,
         q: Optional[str] = None,
@@ -2885,10 +3239,9 @@ class ElasticsearchRepository:
         exclude_types: Optional[List[str]] = None,
     ) -> List[Dict]:
         """
-        实体词典 KNN 检索：用查询向量在 embedding 字段（dense_vector, cosine）上取近邻。
+        实体词典 KNN 检索：在 embedding 字段上取近邻，用于图谱问答的实体链接。
 
-        用于图谱问答的「实体链接」——把自然语言问题映射到词典中的规范实体。
-        embedding 由 bge-m3 生成（与检索层同模型），因此跨语言也能匹配。
+        embedding 由 bge-m3 生成（与检索层同模型），故跨语言也能匹配。
         """
         if not vector:
             return []
@@ -2930,9 +3283,8 @@ class ElasticsearchRepository:
         """
         读取实体词典（含 embedding），供 L3 向量对齐在内存中做同类型比对。
 
-        一次性取回而非逐条 KNN，原因：实体词典规模在数千以内，一次搜索即可覆盖，
-        后续同类型比较用矩阵运算完成，避免「每个待对齐实体一次 ES 往返」。
-        失败返回 None（调用方据此降级为不使用向量对齐，而非当成「词典为空」）。
+        词典规模在数千以内，一次搜索即可覆盖，后续用矩阵运算比较，避免逐条 KNN。
+        失败返回 None（调用方据此跳过向量对齐，而非当成「词典为空」）。
         """
         query: Dict = {"match_all": {}}
         if exclude_types:

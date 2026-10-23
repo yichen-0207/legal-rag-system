@@ -7,6 +7,7 @@ from core.config import settings
 from core.jurisdiction import get_jurisdiction_info, JURISDICTION_INFO
 from repositories.elasticsearch import ElasticsearchRepository
 from services.abstract_service import AbstractService
+from services.similar_law_service import SimilarLawService
 from utils.chunker import chunk_text, chunk_from_structure
 
 
@@ -14,8 +15,7 @@ class LawManagementService:
     def __init__(self):
         self.repo = ElasticsearchRepository()
         self.data_dir = Path(settings.data_dir)
-        # 守护：管理端只允许写入原始语料目录（raw）。派生语料 raw_v2 由清洗脚本
-        # 生成、作为只读派生物存在，若被管理端写入会与清洗重建互相覆盖。
+        # 守护：管理端只允许写原始语料目录 raw；raw_v2 是清洗脚本生成的只读派生物，写入会与重建互相覆盖。
         if self.data_dir.name == "raw_v2":
             raise RuntimeError(
                 "LawManagementService 不允许指向派生语料目录 raw_v2（应使用 LEGAL_DATA_DIR=/app/data/raw）"
@@ -46,10 +46,7 @@ class LawManagementService:
                                 break
     
     def _find_or_create_dir(self, jurisdiction: str) -> Tuple[Path, str]:
-        """
-        查找或创建法域目录，返回(目录路径, ID前缀)
-        自动从现有目录识别，或为新法域创建目录
-        """
+        """查找或创建法域目录，返回 (目录路径, ID 前缀)；优先复用现有目录识别出的前缀"""
         jur_lower = jurisdiction.lower().strip()
         
         # 使用法域信息获取标准英文目录名和ID前缀
@@ -226,6 +223,13 @@ class LawManagementService:
         if documents:
             self.repo.add_documents(documents, metadatas, ids, embed_texts=embed_texts)
 
+        # 同步维护法规质心：有新内容则重建，无内容则清理，避免相似推荐读到陈旧质心
+        centroid_service = SimilarLawService(self.repo)
+        if documents:
+            centroid_service.build_and_save_centroid(law_id)
+        else:
+            self.repo.delete_law_centroid(law_id)
+
         return len(documents)
     
     def create_law(self, data: Dict) -> Dict:
@@ -316,6 +320,7 @@ class LawManagementService:
             raise FileNotFoundError(f"法规文件不存在: {law_id}")
         
         deleted_count = self.repo.delete_by_law_id(law_id)
+        self.repo.delete_law_centroid(law_id)
         file_path.unlink()
         
         return {
@@ -326,11 +331,8 @@ class LawManagementService:
     
     def update_law(self, law_id: str, updates: Dict, overwrite: bool = False) -> Dict:
         """修改法规
-        
-        Args:
-            law_id: 法规ID
-            updates: 更新数据
-            overwrite: 是否完全覆盖原有数据（True: 用updates完全替换原数据; False: 合并更新）
+
+        overwrite=True 用 updates 完全替换原数据，False 合并更新。
         """
         dir_path = self._get_dir_for_law_id(law_id)
         if not dir_path:
@@ -409,10 +411,7 @@ class LawManagementService:
             return json.load(f)
     
     def sync_index(self) -> Dict:
-        """
-        同步 Elasticsearch 索引与文件系统
-        清理文件不存在的孤立索引
-        """
+        """同步 Elasticsearch 索引与文件系统：清理文件已不存在的孤立索引"""
         # 获取 Elasticsearch 中所有法规
         es_laws = self.repo.get_all_laws()
         es_law_ids = {law["law_id"] for law in es_laws}
@@ -431,6 +430,7 @@ class LawManagementService:
         deleted_count = 0
         for law_id in orphan_ids:
             count = self.repo.delete_by_law_id(law_id)
+            self.repo.delete_law_centroid(law_id)
             deleted_count += count
         
         return {
@@ -442,12 +442,7 @@ class LawManagementService:
         }
     
     def _start_abstract_generation(self, law_id: str, force: bool = False):
-        """在后台线程中启动摘要生成
-        
-        Args:
-            law_id: 法规ID
-            force: 是否强制重新生成
-        """
+        """在后台守护线程中生成摘要；force=True 时强制覆盖旧摘要"""
         def _generate_abstract_async():
             try:
                 abstract_service = AbstractService()

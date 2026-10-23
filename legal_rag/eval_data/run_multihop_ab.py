@@ -1,18 +1,4 @@
-"""多跳 B（查询分解）受影响查询的 A/B 快速回归。
-
-目的：验证开启查询分解后，会走分解路径的那部分查询是否发生指标退化。
-
-做法：
-  - 仅跑 hybrid+reranker 策略（分解只作用于该路径）；
-  - 关闭 LLM 兜底 → 规则切分确定、可复现，且不引入网络波动；
-  - 关闭检索缓存 → 两次跑互不污染；
-  - 先筛出「关 LLM 兜底时 decompose_query 非空」的查询，作为受影响集合；
-  - 同一 retriever 分别以 multihop_decompose_enabled=False/True 各跑一遍，
-    对比 MRR / R@10 / NDCG@10 等，并逐条给出变好/变差/持平。
-
-用法（在 backend 容器内，工作目录 /app）：
-    python eval_data/run_multihop_ab.py
-"""
+"""多跳 B（查询分解）受影响查询的 A/B 回归：固定规则切分与缓存设置，对同一 retriever 分别以 decompose 开/关跑一遍，对比 MRR / R@10 / NDCG@10。"""
 import importlib.util
 import json
 import os

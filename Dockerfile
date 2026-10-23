@@ -53,8 +53,17 @@ COPY --from=builder /usr/local/bin /usr/local/bin
 # 复制后端源代码
 COPY legal_rag/ .
 
+# 运行用户（非 root，容器逃逸防护基线；UID 固定便于宿主机卷对账）
+RUN useradd -m -u 10001 appuser
+
 # 创建数据目录（用于挂载宿主机数据）
-RUN mkdir -p /app/data/raw /models
+RUN mkdir -p /app/data/raw /models /app/logs && \
+    chown -R appuser:appuser /app/data /app/logs
+
+# 非 root 运行。端口 8001 > 1024，监听无特权要求；
+# /app/data 与 /app/logs 显式授权：代码目录 root 只读即可，运行时写入仅限这两处
+#（用量日志、管理端写入）。
+USER appuser
 
 # 暴露端口
 EXPOSE 8001

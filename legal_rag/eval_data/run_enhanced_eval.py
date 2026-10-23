@@ -1,15 +1,11 @@
-"""
-P0+P1: 增强评估脚本（独立版本，不依赖 evaluate.py）
-===================================================
-"""
+"""P0+P1 条款级评估：四种检索策略（bm25 / vector / hybrid / hybrid+reranker）的指标计算与导出。"""
 import sys, os
 import json, math, csv
 from collections import defaultdict
 from typing import List, Dict, Tuple
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-# 注意：本脚本与数据集同处 eval_data/ 目录（脚本原先在 legal_rag/ 下，后移入此处）。
-# 因此这里不能再拼一层 "eval_data"，否则会解析成 eval_data/eval_data/... 而找不到文件。
+# 本脚本与数据集同处 eval_data/ 目录，不能再拼一层 "eval_data"（否则解析成 eval_data/eval_data/...）。
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 EVAL_DATASET_PATH = os.path.join(BASE_DIR, "eval_dataset_clause.json")
 OUTPUT_DIR = BASE_DIR
@@ -146,10 +142,7 @@ def compute_summary(results: List[Dict]) -> Dict:
     for key in ["mrr", "top1_acc", "r_precision"]:
         s[key.capitalize().replace("_", "-")] = round(sum(r[key] for r in results) / n, 4)
 
-    # Manually build the dict to handle nested keys
     out = {"total_queries": n}
-    
-    # Calculate averages
     mrr_avg = sum(r["mrr"] for r in results) / n
     top1_avg = sum(r["top1_acc"] for r in results) / n
     rprec_avg = sum(r["r_precision"] for r in results) / n

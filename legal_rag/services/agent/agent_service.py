@@ -1,32 +1,17 @@
 """Agent 服务：基于 LangGraph 的受约束多步推理问答。
 
-流程：
-    问题 → [探索] LangGraph 编排「模型决策 ↔ 工具执行」循环（检索/引用追溯/图谱查询）
-                ↓ 工具结果作为 ToolMessage 回灌，直至模型认为证据足够或触达预算
-         → [证据收口] 对累积证据去重 + 补全正文（一次 msearch）+ 精排一次
-         → [最终合成] 复用 QAService 的合成 prompt 流式产出带来源标注的答案
-
-分工（框架管编排、自研管策略）：
-  - **交给框架**：模型↔工具的循环编排、工具 schema 生成、消息回灌、LLM 客户端；
-    LangGraph 是 async-first，但其 `stream()` 提供同步版本，可直接嵌入本项目的
-    同步 SSE 生成器，无需 async 桥接；
-  - **保留自研**：复杂度路由、三重预算（步数/工具次数/时长）、停滞短路、证据收敛、
-    最终合成、三层降级、以及自有 SSE 事件协议（前端契约不变）。这些是实测调优出的
-    策略资产，框架不提供，且替换会引入回归风险。
-
-设计取舍（与项目既有约束一致）：
-  - **受约束而非放任**：步数、工具调用数、端到端时长三重上限，超限强制收口；
-  - **探索便宜、合成讲究**：探索步检索跳过精排（本机精排占检索延迟约 93%），
-    只对最终证据集精排一次，兼顾成本与质量；
-  - **最终合成复用既有 RAG**：调用 QAService._build_messages，保证回答结构、
-    【来源X】标注、图谱证据口径与现有问答完全一致，不另造一套输出格式；
-  - **全链路降级**：开关关闭 / 未配置密钥 / 探索未产出证据 / 任何异常，
-    一律回退到既有 QAService.ask_stream，端点永远返回可用结果。
+流程：问题 → [探索] 模型↔工具循环（检索/引用追溯/图谱）→ [收口] 去重+补全正文+精排一次
+→ [合成] 复用 QAService 的证据渲染与流式调用，注入 Agent 专属提示产出分法域对照报告。
+框架负责循环编排与工具 schema，自研保留复杂度路由、三重预算（步数/工具次数/时长）、
+停滞短路、证据收敛、三层降级与自有 SSE 事件协议；任何开关关闭/无密钥/无证据/异常
+均回退 QAService.ask_stream，端点永远返回可用结果。探索步跳过精排（本机精排占检索
+延迟约 93%），只对最终证据集精排一次，兼顾成本与质量。
 """
 from __future__ import annotations
 
 import json
 import logging
+import re
 import time
 from typing import Any, Dict, Iterator, List, Optional
 
@@ -35,15 +20,15 @@ from langchain_core.messages import AIMessage, ToolMessage
 from langchain_openai import ChatOpenAI
 
 from core.config import settings
-from services.agent.tools import AgentToolkit
+from core.jurisdiction import get_all_jurisdictions
+from core.llm import get_chat_model
+from services.agent.tools import EVIDENCE_STATUS_TOOL, AgentToolkit
 from services.query_decomposer import _CONJUNCTION_RE, _TARGET_ARTICLE_RE
 from services.retriever_service import RetrieverService
 
 logger = logging.getLogger(__name__)
 
-# 复杂度路由的语义信号（对比/并列意图）。
-# 复用 RetrieverService.COMPARE_KEYWORDS 作为唯一口径：它同时驱动检索侧的跨法域扇出，
-# 两者保持一致才能保证「被路由判为复杂的查询」正是检索侧会特殊处理的那些。
+# 复杂度路由的语义信号；复用 RetrieverService.COMPARE_KEYWORDS，与检索侧跨法域扇出同口径。
 _COMPARE_KEYWORDS = tuple(RetrieverService.COMPARE_KEYWORDS)
 
 # route_mode 取值：auto=按复杂度自动决定；agent=强制多步探索；fast=强制既有快速 RAG
@@ -51,10 +36,19 @@ ROUTE_MODE_AUTO = "auto"
 ROUTE_MODE_AGENT = "agent"
 ROUTE_MODE_FAST = "fast"
 
-# decide_route 的三态决策：
-#   agent = 强信号，直接多步探索
-#   fast  = 强信号，直接快速 RAG
-#   probe = 灰区，规则无法定夺 → 由调用方做一次廉价检索质量探测后再定
+# 追问的指代信号：命中才做指代消解（多花一次 LLM 调用）；刻意排除裸「其」「以上」「相关」等高频误命中项。
+_ANAPHORA_RE = re.compile(
+    r"(它|该|此|上述|前述|前者|后者|这条|那项|这个规定|该项规定|该条|该法规|该法|这|那)"
+)
+# 省略型追问：去标点后 ≤15 字且以「呢」收尾（如「澳门的呢？」），即便无指代词也依赖上文；
+# 门槛不放大，否则会把自足问句误判为追问。
+_ELLIPSIS_TAIL = "呢"
+_ELLIPSIS_MAX_LEN = 15
+
+# 引用溯源校验：提取答案中的【来源X】编号，与 qa 侧提示词标注格式一致，纯正则零 LLM。
+_SOURCE_REF_RE = re.compile(r"【来源(\d+)】")
+
+# decide_route 三态：agent/fast 为强信号直接定夺；probe 为灰区，由调用方做一次廉价检索探测后再定。
 DECIDE_AGENT = "agent"
 DECIDE_FAST = "fast"
 DECIDE_PROBE = "probe"
@@ -64,33 +58,9 @@ def decide_route(question: str, route_mode: str = ROUTE_MODE_AUTO,
                  routed_jurisdictions: Optional[List[str]] = None) -> tuple:
     """复杂度路由决策，返回 (decision, reason)，decision ∈ {agent, fast, probe}。
 
-    动机：Agent 相对单跳 RAG 稳定多付约 10s 延迟（多轮 LLM 往返 + 收口精排），
-    但大量查询本就不需要多步探索，不加区分会拖慢简单查询。
-
-    决策分两层：
-      - **强信号**直接定夺（规则）；其中「多法域/对比词/并列连词」判 Agent，
-        「极短查询/定向第X条」判 Fast；
-      - **灰区**（名义上的单一问题，如「XX机构对YY的监管要求是什么」）返回 probe，
-        交由调用方做一次廉价检索探测决定。实测这类查询里有一批（Q051/Q009）单次
-        检索捞不到 gold、需要多轮召回，纯规则分流会丢掉它们，故不能一刀切。
-
-    判定优先级（越靠前越强）：
-      1. 显式 route_mode 优先（前端「深度模式」= agent；「快速」= fast）；
-      2. 关闭复杂度路由开关 → 一律 Agent（保持开关前行为，便于回滚）；
-      3. 空 / 短查询 / 定向「第X条」→ Fast。
-         定向查询在检索侧有专门的置顶逻辑，而 Agent 的 search_laws 工具不含该逻辑，
-         走 Agent 反而更差；
-      4. 多法域（检索侧会跨法域扇出）/ 对比词 / 并列连词 → Agent；
-      5. 其余 → probe（灰区探测）。
-
-    Args:
-        question: 用户问题原文。
-        route_mode: auto / agent / fast。
-        routed_jurisdictions: 检索侧规则路由出的目标法域（len>1 视为多法域）。
-            由调用方注入，避免本函数依赖 RetrieverService 实例，便于单测。
-
-    Returns:
-        (decision, reason)，reason 供日志与 SSE 事件观测。
+    Agent 比单跳 RAG 稳定多付约 10s 延迟，故强信号（显式 route_mode、定向第X条、
+    多法域/对比词/并列连词）直接定夺，灰区返回 probe 交由调用方探测；
+    routed_jurisdictions 由调用方注入，避免依赖 RetrieverService 实例以便单测。
     """
     q = (question or "").strip()
 
@@ -123,15 +93,14 @@ class AgentService:
 
     def __init__(self):
         self.retriever = RetrieverService()
-        self._qa = None  # 延迟获取 QAService（单例），避免构造期触发预热相关重活
-        # 本服务是进程级单例，但**工具运行时与图都不挂在实例上**：工具运行时持有
-        # 「单次提问」级的去重 memo，必须按请求新建，否则并发请求会互相清空/串用
-        # 对方的缓存（把 A 的检索结果当成 B 的缓存命中）。见 ask_stream 中的构造注释。
+        self._qa = None  # 延迟获取 QAService（单例），避免构造期触发预热重活
+        # 工具运行时持有「单次提问」级的去重 memo，必须按请求新建，否则并发请求会互相
+        # 清空/串用缓存（把 A 的检索结果当成 B 的缓存命中）。见 ask_stream。
         self.api_key = settings.llm_api_key or ""
-        self.base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
-        # LLM 客户端进程级复用：ChatOpenAI 内部持有 httpx 连接池，按请求新建会丢掉
-        # keep-alive、每次重新握手；它是无状态且线程安全的，可跨请求共享。
+        # LLM 客户端进程级复用：无状态且线程安全，避免每次请求重建 httpx 连接池。
         self._llm = self._make_llm() if self.api_key else None
+        # 规划客户端与决策步分开：规划输出短、超时更紧，同样进程级复用（见 _make_plan_llm）。
+        self._plan_llm = self._make_plan_llm() if self.api_key else None
 
     def _qa_service(self):
         if self._qa is None:
@@ -141,19 +110,24 @@ class AgentService:
 
     def _make_llm(self) -> ChatOpenAI:
         """构建共享的 ChatOpenAI 客户端（决策步用它产出 tool_calls）。"""
-        kwargs: Dict[str, Any] = {
-            "model": settings.agent_model or settings.llm_qa_model,
-            "api_key": self.api_key,
-            "base_url": self.base_url,
-            "temperature": 0.1,
-            "max_tokens": 1024,  # 决策步只需产出 tool_calls 或一句结论，无需长文
-            # 单次请求超时与端到端预算同量级：超预算的探索本就没有价值
-            "timeout": float(settings.agent_timeout_total),
-        }
-        extra_body = settings.llm_extra_body()
-        if extra_body:
-            kwargs["extra_body"] = extra_body
-        return ChatOpenAI(**kwargs)
+        # 决策步只需产出 tool_calls 或一句结论；超时与端到端预算同量级，超预算的探索无价值。
+        return get_chat_model(
+            model=settings.agent_model or settings.llm_qa_model,
+            temperature=0.1,
+            max_tokens=1024,
+            timeout=float(settings.agent_timeout_total),
+            max_retries=3,
+        )
+
+    def _make_plan_llm(self) -> ChatOpenAI:
+        """构建规划专用客户端：短 JSON 输出，超时收紧到 30s；进程级复用以保住连接池。"""
+        return get_chat_model(
+            model=settings.agent_model or settings.llm_qa_model,
+            temperature=0.2,
+            max_tokens=int(settings.agent_plan_max_tokens),
+            timeout=min(30.0, float(settings.agent_timeout_total)),
+            max_retries=1,
+        )
 
     # ================================================================
     #  图与提示
@@ -161,43 +135,262 @@ class AgentService:
     @staticmethod
     def _system_prompt(detected_jurisdictions: List[str]) -> str:
         jur_hint = "、".join(detected_jurisdictions) if detected_jurisdictions else "（未识别到，可按需自行判断）"
-        # 把工具预算显式告诉模型：实测旧提示词的「证据足够就停」形同虚设，模型几乎
-        # 每次都跑满预算（avg≈5.9 / 上限 6）。给出明确的调用次数与停止条件后，
-        # 模型才有依据主动收敛。
+        # 把工具预算与「自评通过才停」的停止条件显式告诉模型，否则它会首轮扇出后直接作答，
+        # 多步探索退化成单轮检索（深度模式与普通问答无差别）。
         max_calls = max(1, int(settings.agent_max_tool_calls))
         return (
-            "你是跨境法规检索分析助手，可通过调用工具分步收集证据后再回答问题。\n"
+            "你是跨境法规检索分析助手，通过调用工具分步收集证据，最终产出分法域对照的分析报告。\n"
             "【工作方式】\n"
-            "1. 先判断问题需要哪些法条/法域的证据。通常 1 次检索即可起步，必要时再补充"
-            "检索、追溯引用或查询图谱，不必面面俱到。\n"
-            f"2. 本次最多可调用工具 {max_calls} 次；请把调用留给最有价值的信息，"
+            "1. 先判断问题涉及哪些法域、哪些方面，规划所需证据；起步时可并行发起多条检索"
+            "（例如每个法域各一条），无需面面俱到。\n"
+            f"2. 本次最多可调用工具 {max_calls} 次；把调用留给最有价值的信息，"
             "不要用相同或高度相似的查询重复检索同一内容。\n"
-            "3. 一旦证据足以回答问题，立即停止本轮（直接输出最终回答文字、不要附带工具调用）；"
-            "若某次工具返回的内容没有带来新信息，也应立即停止，避免无效重复。\n"
-            "4. 不要凭空编造法条；工具未返回的内容不要臆断。\n"
-            "【工具】search_laws=检索条文；follow_references=追溯被引用条款；query_graph=查询实体关系。\n"
+            "3. 【证据自评，务必执行】每次工具返回后，先自评：问题涉及的每个法域、每个关键"
+            "方面是否都已有直接证据？\n"
+            "   - 若仍有法域或关键方面缺乏证据，必须继续发起调用补证（换查询措辞、追溯引用"
+            "或查询图谱），不得就此作答；\n"
+            "   - 仅当各法域/各方面证据齐备，或工具调用预算已用尽时，才输出最终回答。\n"
+            "4. 判断可以作答时，直接输出最终回答文字，不要附带工具调用。\n"
+            "5. 不要凭空编造法条；工具未返回的内容不要臆断。\n"
+            "6. 上下文中若给出了检索计划，请优先按计划推进；判断证据是否充分时，可调用"
+            "get_evidence_status 核对已覆盖的法域与缺口，再决定是否补证。\n"
+            "【工具】search_laws=检索条文；follow_references=追溯被引用条款；"
+            "query_graph=图谱多跳路径（mode=cross 跨法域对齐 / mode=entity 法域内实体关系，"
+            "entity 可 deepen=true 纵向深挖；mode=auto 自动判断）；"
+            "get_evidence_status=核对证据覆盖（无参数）。\n"
             f"【已知法域】{jur_hint}（若非空，检索时优先使用该法域）。"
         )
 
+    @staticmethod
+    def _synthesis_prompt() -> str:
+        """Agent 专属合成提示：产出「检索覆盖概览 / 分法域对照 / 差异与共性 / 结论建议」
+        的对照式报告，与普通问答的连续解读式回答刻意区分，让深度模式的产出差异可被感知。
+        """
+        return (
+            "你是跨境法规检索分析助手。本次已通过多步工具调用（检索条文 / 追溯引用 / 图谱多跳）"
+            "收集证据，请基于这些证据撰写结构化的分法域对照分析报告。\n"
+            "\n【报告结构】\n"
+            "## 一、检索覆盖概览（80-120字）\n"
+            "说明本次证据覆盖了哪些法域、主要涉及哪些法规（《法规名》第X条），并一句话点明问题核心。\n"
+            "\n## 二、分法域要点对照\n"
+            "按法域分别成节（如「### 澳门」「### 香港」「### 日本」…），每个法域下逐条列出与该问题"
+            "相关的关键规定，每条标注出处：法域 + 《法规全称》第 X 条【来源X】；并说明适用范围、"
+            "构成要件与实务影响（不要大段照抄原文）。\n"
+            "\n## 三、关键差异与共同点\n"
+            "用要点或 Markdown 表格，对比各法域在保护力度、适用门槛、责任承担等方面的差异与共性。\n"
+            "\n## 四、结论与行动建议\n"
+            "给出明确结论与可操作建议，并列 2-3 条延伸提醒。\n"
+            "\n【证据边界】\n"
+            "- 若某法域或某方面证据不足，必须在对应位置明确写出「现有检索证据未覆盖该方面」，不得略过。\n"
+            "- 仅可引用本次【参考资料库】中的【来源X】；历史对话里的旧来源已失效，不得引用。\n"
+            "- 所有结论须有【来源X】支撑，严禁编造资料中没有的信息。\n"
+            "\n【写作规范】\n"
+            "- 使用 Markdown 层级标题，关键术语加粗，法条用行内引用（仅摘录关键短语）。\n"
+            "- 总字数 1200-1800 字，以对照分析为主，不堆砌法条原文。"
+        )
+
     def _build_agent(self, system_prompt: str, tools: List[Any]):
-        """构建 LangGraph ReAct 图：模型↔工具循环由框架驱动。
-
-        `create_agent` 是当前 LangChain 的推荐入口（`langgraph.prebuilt.create_react_agent`
-        已标记弃用）。此处只传模型、工具与系统提示——预算、停滞、证据收敛等策略仍由
-        本服务在消费事件流时执行，避免把实测调优的逻辑埋进框架中间件里难以观测。
-
-        图按请求构建（工具绑定请求级 memo），但模型客户端复用进程级实例（见 __init__）。
+        """构建 LangGraph ReAct 图：模型↔工具循环由框架驱动，预算/停滞/证据收敛仍由本服务
+        在消费事件流时执行；图按请求构建（工具绑定请求级 memo），模型客户端复用进程级实例。
         """
         return create_agent(self._llm, tools, system_prompt=system_prompt)
 
     @staticmethod
     def _recursion_limit() -> int:
-        """图的超级步上限（防御性第二层预算）。
-
-        LangGraph 以「超级步」计数，一次「模型决策 + 工具执行」约消耗 2 步，故取
-        `max_steps * 2 + 1`。主预算由本服务的工具次数与步数计数执行，此处仅防跑飞。
+        """图的超级步上限（防御性第二层预算）：一次「模型决策+工具执行」约 2 步，故取
+        `max_steps * 2 + 1`；主预算由服务自身的工具次数与步数计数执行，此处仅防跑飞。
         """
         return max(3, max(1, int(settings.agent_max_steps)) * 2 + 1)
+
+    # ================================================================
+    #  显式规划（Plan）：探索前的一次性规划调用
+    # ================================================================
+    @staticmethod
+    def _parse_plan(text: str) -> Optional[Dict]:
+        """从规划原文中提取 JSON 计划，解析失败返回 None（调用方静默跳过）；
+        容忍 ```json 围栏或夹杂解释文字，取首个 { 到末个 } 之间的片段。
+        """
+        if not text or not isinstance(text, str):
+            return None
+        raw = text.strip()
+        if raw.startswith("```"):
+            raw = raw.strip("`").strip()
+            if raw[:4].lower() == "json":
+                raw = raw[4:]
+        start, end = raw.find("{"), raw.rfind("}")
+        if start < 0 or end <= start:
+            return None
+        try:
+            parsed = json.loads(raw[start:end + 1])
+        except (json.JSONDecodeError, TypeError, ValueError):
+            return None
+        if not isinstance(parsed, dict):
+            return None
+
+        def _clean(key: str, limit: int) -> List[str]:
+            vals = parsed.get(key) or []
+            if not isinstance(vals, list):
+                return []
+            return [str(v).strip() for v in vals if str(v).strip()][:limit]
+
+        plan = {
+            "sub_questions": _clean("sub_questions", 5),
+            "target_jurisdictions": _clean("target_jurisdictions", 5),
+            "priority_aspects": _clean("priority_aspects", 5),
+        }
+        if not any(plan.values()):
+            return None
+        return plan
+
+    @staticmethod
+    def _plan_text(plan: Dict) -> str:
+        """把计划渲染为文本并**并入当前用户消息**（作为用户轮前言）：单列 assistant 消息
+        会形成错序或让模型直接续写而不发起工具调用，导致零证据降级。
+        """
+        lines = ["【检索计划（供参考；若工具返回的证据与此不符，一律以证据为准）】"]
+        if plan.get("sub_questions"):
+            lines.append("拟检索子问题：" + "；".join(plan["sub_questions"]))
+        if plan.get("target_jurisdictions"):
+            lines.append("拟覆盖法域：" + "、".join(plan["target_jurisdictions"]))
+        if plan.get("priority_aspects"):
+            lines.append("重点对比方面：" + "、".join(plan["priority_aspects"]))
+        return "\n".join(lines)
+
+    @staticmethod
+    def _needs_resolution(question: str, history: Optional[List[Dict]]) -> bool:
+        """判断追问是否需要指代消解：存在历史且命中指代信号，或去标点后 ≤15 字且以「呢」
+        收尾；首轮提问、自足问句返回 False，确保常规问答零额外 LLM 成本。
+        """
+        if not history:
+            return False
+        q = (question or "").strip()
+        if not q:
+            return False
+        if _ANAPHORA_RE.search(q):
+            return True
+        bare = q.rstrip("？?。.！!～~")
+        return len(bare) <= _ELLIPSIS_MAX_LEN and bare.endswith(_ELLIPSIS_TAIL)
+
+    def _resolve_query(self, question: str, history: Optional[List[Dict]],
+                       detected_jurisdictions: List[str]) -> Optional[str]:
+        """把依赖上文的追问改写为自足问题（指代消解），复用规划客户端以免再建连接池。
+
+        **只作检索与规划种子**：合成阶段仍用用户原问题，故改写偏差不改变所回答的问题；
+        失败返回 None，调用方回退原问题。
+        """
+        if not settings.agent_query_rewrite_enabled or self._plan_llm is None:
+            return None
+        if not self._needs_resolution(question, history):
+            return None
+
+        # 只取最近 4 轮作为消解上下文：更早的对话对「它/该规定」指向无帮助，只会稀释提示并推高 token。
+        ctx_lines = []
+        for h in (history or [])[-4:]:
+            role = h.get("role")
+            content = (h.get("content") or "").strip()
+            if role in ("user", "assistant") and content:
+                ctx_lines.append(f"{'用户' if role == 'user' else '助手'}：{content[:200]}")
+        if not ctx_lines:
+            return None
+
+        jur_hint = "、".join(detected_jurisdictions) if detected_jurisdictions else "未识别"
+        sys_prompt = (
+            "你是查询改写器。根据对话历史，把用户最新的追问改写成一个可独立检索的自足问题。\n"
+            "要求：\n"
+            "1. 补全追问中省略的主体（法域、法规、条款、主题），使其脱离上下文也能被理解；\n"
+            "2. 不得添加历史中不存在的新事实，不得改变用户意图；\n"
+            "3. 仅输出改写后的问题本身，不要解释、不要引号、不要前缀；\n"
+            "4. 若追问本身已自足，原样输出。"
+        )
+        try:
+            resp = self._plan_llm.invoke([
+                {"role": "system", "content": sys_prompt},
+                {"role": "user", "content": (
+                    "【对话历史】\n" + "\n".join(ctx_lines) +
+                    f"\n\n【当前法域】{jur_hint}\n【用户追问】{question}"
+                )},
+            ])
+        except Exception as e:
+            logger.warning("[Agent] 指代消解失败，回退原问题: %s: %s", type(e).__name__, e)
+            return None
+
+        text = getattr(resp, "content", None)
+        if isinstance(text, list):
+            text = "".join(p.get("text", "") if isinstance(p, dict) else str(p) for p in text)
+        resolved = (text or "").strip().strip('"“”「」').strip()
+        # 空值、过长、或与原问题完全相同 → 视为无效改写，回退原问题
+        if not resolved or len(resolved) > 200 or resolved == question.strip():
+            return None
+        logger.info("[Agent] 指代消解：%s → %s", question[:40], resolved[:60])
+        return resolved
+
+    def _available_jurisdictions(self) -> List[str]:
+        """库中实际有语料的法域列表（规划白名单用）；取自 QAService 的 law catalog 映射，
+        纯内存读取无 ES/LLM 成本，异常或为空时回退到定义法域。
+        """
+        try:
+            m = self._qa_service()._get_law_jurisdiction_map()
+            js = sorted({str(v) for v in (m or {}).values() if v})
+            if js:
+                return js
+        except Exception as e:
+            logger.warning("[Agent] 拉取库内法域白名单失败，回退定义法域: %s: %s",
+                           type(e).__name__, e)
+        return get_all_jurisdictions()
+
+    def _plan(self, question: str, detected_jurisdictions: List[str]) -> Optional[Dict]:
+        """一次性规划调用：产出子问题 / 目标法域 / 重点方面，作为探索起点。
+
+        用**独立**的短预算客户端，避免与决策步争用连接池/超时预算；任何异常、超时或
+        解析失败都返回 None，由调用方静默跳过——规划失败绝不影响主链路。
+        """
+        if not settings.agent_plan_enabled or self._plan_llm is None:
+            return None
+        jur_hint = "、".join(detected_jurisdictions) if detected_jurisdictions else "（未识别）"
+        # 法域白名单：只允许规划指向库中实际有语料的法域，避免无数据法域吃掉一次恒零命中
+        # 检索；白名单取自 law catalog（零 ES 查询成本），拉取失败回退定义列表，绝不阻断规划。
+        allowed = self._available_jurisdictions()
+        allowed_text = "、".join(allowed)
+        sys_prompt = (
+            "你是检索规划器。针对用户的法律问题，规划需要在法规库中检索的证据。"
+            "只输出 JSON，不要任何解释文字，格式："
+            '{"sub_questions": ["..."], "target_jurisdictions": ["..."], "priority_aspects": ["..."]}。'
+            "sub_questions ≤5 条，每条为可直接用于检索的短查询（用常见法律术语，不要生造词）；"
+            f"target_jurisdictions 只能从以下白名单中选取，不得出现白名单之外的法域：{allowed_text}，"
+            "问题未点名法域时最多选 3 个最相关的；"
+            "priority_aspects ≤4 条，为需要重点对比的方面。"
+        )
+        try:
+            resp = self._plan_llm.invoke([
+                {"role": "system", "content": sys_prompt},
+                {"role": "user", "content": f"用户问题：{question}\n已识别法域：{jur_hint}"},
+            ])
+        except Exception as e:
+            logger.warning("[Agent] 规划调用失败，跳过计划注入: %s: %s", type(e).__name__, e)
+            return None
+
+        text = getattr(resp, "content", None)
+        if text is None:
+            text = str(resp)
+        elif isinstance(text, list):
+            # ChatOpenAI 的 AIMessage.content 可能是 content blocks 列表
+            text = "".join(
+                p.get("text", "") if isinstance(p, dict) else str(p) for p in text
+            )
+        plan = self._parse_plan(text)
+        if plan:
+            # 双保险：prompt 约束之外再做交集过滤，白名单外的幻觉法域直接剔除
+            before = plan["target_jurisdictions"]
+            plan["target_jurisdictions"] = [j for j in before if j in allowed]
+            dropped = [j for j in before if j not in allowed]
+            if dropped:
+                logger.info("[Agent] 规划幻觉法域已剔除：%s", dropped)
+            logger.info(
+                "[Agent] 规划完成：子问题=%d 法域=%s 方面=%d",
+                len(plan["sub_questions"]), plan["target_jurisdictions"],
+                len(plan["priority_aspects"]),
+            )
+        return plan
 
     # ================================================================
     #  证据累积与收口
@@ -226,7 +419,7 @@ class AgentService:
         """把一条工具结果并入证据池（按 law_id::article 去重，保留更高相似度）。
 
         source 标记证据来源（search=检索命中 / reference=引用追溯），收口收敛时据此
-        为引用条款保留配额，避免它们被检索命中的高相似度挤出候选池。
+        为引用条款保留配额，避免被检索命中的高相似度挤出候选池。
         """
         law_id = (r.get("law_id") or "").strip()
         article = str(r.get("article_number") or "").strip()
@@ -253,8 +446,8 @@ class AgentService:
                          graph_parts: List[str], graph_seen: set) -> bool:
         """吸收工具结果，返回本次调用是否给证据池带来了「新增」（供停滞检测判定）。
 
-        图谱证据按内容去重（graph_seen）：模型可能用不同措辞重复查询图谱，相同文本
-        重复追加不仅让「是否新增」判定失真，还会在最终 prompt 里重复堆叠。
+        图谱证据按内容去重（graph_seen）：模型可能换措辞重复查图谱，相同文本重复追加会
+        让「是否新增」判定失真，并在最终 prompt 里重复堆叠。
         """
         if not isinstance(result, dict) or result.get("error"):
             return False
@@ -288,16 +481,28 @@ class AgentService:
             head = "；".join(f"《{i.get('title','')}》{i.get('article_number','')}" for i in items[:3])
             return f"追溯引用 {len(items)} 条" + (f"：{head}" if head else "")
         if name == "query_graph":
-            return "命中图谱证据" if result.get("evidence") else "图谱无命中"
+            mode = result.get("mode", "")
+            count = int(result.get("count") or 0)
+            if mode == "flat":
+                return f"命中扁平图谱证据（{len(result.get('evidence') or '')} 字）" if count else "图谱无命中"
+            label = {"cross": "跨法域对齐", "entity": "实体多跳"}.get(mode, "图谱")
+            if not count:
+                return "图谱无命中"
+            deep = ""
+            if (result.get("subgraph") or {}).get("deep_path_count"):
+                deep = f"（含纵向深挖 {(result.get('subgraph') or {}).get('deep_path_count')} 条）"
+            return f"{label} {count} 条路径{deep}"
+        if name == EVIDENCE_STATUS_TOOL:
+            return result.get("summary") or "已核对证据覆盖"
         return "完成"
 
     @staticmethod
     def _converge_candidates(contexts: List[Dict], top_k: int) -> List[Dict]:
         """把证据池收敛到精排候选上限，兼顾成本与召回。
 
-        策略：为「引用追溯」来的条款保留配额（它们是 agent 显式追出的、相似度恒为 0，
-        若不保护会被检索命中的高相似度挤出），剩余名额给检索命中按相似度降序填充。
-        收敛后条数不超过 agent_finalize_max_candidates（且不少于最终要用的 top_k）。
+        为「引用追溯」来的条款保留配额（它们相似度恒为 0，不保护会被检索命中挤出），
+        剩余名额按相似度降序给检索命中；总条数不超过 agent_finalize_max_candidates
+        且不少于最终要用的 top_k。
         """
         cap = max(int(settings.agent_finalize_max_candidates), int(top_k))
         if len(contexts) <= cap:
@@ -314,13 +519,9 @@ class AgentService:
     def _finalize_evidence(self, question: str, evidence: Dict[str, Dict], top_k: int) -> List[Dict]:
         """证据收口：收敛候选 → 补全正文（一次 msearch）→ 精排一次 → 取 pass_k 条。
 
-        收敛必须排在精排（及正文补全）之前：本机 cross-encoder 精排占检索延迟约 93%，
-        30 条候选实测耗时 40s+，先压到 agent_finalize_max_candidates 条再精排是收口
-        耗时的决定性因素。任何一步失败均静默降级，不阻断作答。
-
-        返回条数取 max(top_k, agent_finalize_pass_k)：多步探索额外召回的证据若在此处
-        被截回 top_k，探索就白做了（实测 Agent 最终证据条数 5.00 < RAG 5.25）。精排成本
-        只由收敛上限决定，放宽返回条数不增加精排耗时而让额外召回真正进入 prompt。
+        收敛必须排在精排之前：本机精排占检索延迟约 93%，先压到 agent_finalize_max_candidates
+        条再精排是收口耗时的决定性因素；任一步失败均静默降级，不阻断作答。
+        返回条数取 max(top_k, agent_finalize_pass_k)，避免多步探索额外召回的证据被截回 top_k。
         """
         contexts = list(evidence.values())
         if not contexts:
@@ -359,20 +560,11 @@ class AgentService:
                                  jurisdictions: Optional[List[str]] = None) -> bool:
         """灰区查询的廉价探测：判断「一次检索是否已足够」，返回 True 表示足够。
 
-        做法：只做一次 QAService._retrieve_contexts（向量检索 + 去重回取，**不含精排**），
-        再复用 QAService._is_retrieval_poor 判定质量。不调用 LLM、不生成答案，因此
-        成本远小于一次完整问答。
-
-        为什么探测能预测快速路径的质量：快速路径（QAService.ask_stream）内部走的正是
-        同一个 _retrieve_contexts，两条路径的检索结果一致，故探测的判定对快速路径有效。
-
-        为什么用更高的相似度阈值：_is_retrieval_poor 默认阈值 0.6（≈cos 0.33）过于宽松，
-        只拦得住「完全没有相关内容」；而灰区查询（如 Q051/Q009）通常能召回多条形似条款、
-        只是没覆盖 gold，需要多轮探索才能补全。故这里用 agent_probe_min_similarity
-        （默认 0.7）作为「高置信命中」门槛——top1 不够强即判定为证据不足、升级 Agent。
-
-        任何异常一律返回 True（判定为「足够」→ 走快速路径）：探测只是优化项，不应因
-        自身故障把所有查询推向 Agent；且快速链路自身已有检索回退，行为可预期。
+        只做一次 QAService._retrieve_contexts（不含精排）并复用 _is_retrieval_poor 判定，
+        不调用 LLM；快速路径内部走的正是同一检索，故探测结果对其有效。
+        阈值用 agent_probe_min_similarity（默认 0.7）而非默认 0.6：灰区查询常召回形似
+        却未覆盖 gold 的条款，需更高门槛判定证据不足。异常一律返回 True（走快速路径），
+        探测只是优化项，不应因自身故障把所有查询推向 Agent。
         """
         try:
             qa = self._qa_service()
@@ -390,32 +582,29 @@ class AgentService:
     # ================================================================
     #  探索：消费 LangGraph 事件流，执行预算/停滞策略并转发 SSE
     # ================================================================
-    def _explore(self, agent, messages_in: List[Dict], total_start: float):
+    def _explore(self, agent, messages_in: List[Dict], total_start: float,
+                 evidence: Optional[Dict[str, Dict]] = None):
         """同步消费图的事件流，边转发 SSE 边执行预算/停滞策略。
 
         yield 形状统一为 7 元组 `(event, evidence, graph_parts, trace, tool_calls, turns, stop)`：
-        转发事件时仅 `event` 非空，末尾再 yield 一次汇总结果（`event` 为空、其余字段填齐），
-        调用方据此区分「转发」与「汇总」，避免两套不同的返回形态。
-
-        为什么不用异步：LangGraph 是 async-first，但 `stream()` 提供同步版本，可直接嵌
-        进本项目的同步 SSE 生成器；改 async 会与「重操作不得占用事件循环」的既有铁律冲突，
-        还需额外做 async→sync 桥接。
-
-        预算与停滞为何放在这里而非中间件：它们需要在事件流上被观测与说明（trace 要写清
-        「为什么这次提前收口」）；放进中间件会把策略埋进框架内部、难以日志化与单测，
-        反而更复杂。
+        转发事件时仅 `event` 非空，末尾再 yield 一次汇总结果（`event` 为空、其余字段填齐）。
+        `evidence` 由调用方传入并**原地累积**，与 get_evidence_status 工具共享同一引用。
+        用同步 `stream()` 而非 async：可直接嵌入项目同步 SSE 生成器，避免 async 桥接；
+        预算/停滞放在此处而非中间件，便于 trace 说明「为何提前收口」并单测。
         """
-        evidence: Dict[str, Dict] = {}
+        if evidence is None:
+            evidence = {}
         graph_parts: List[str] = []
         graph_seen: set = set()
         trace: List[Dict] = []
         pending: Dict[str, Dict] = {}  # tool_call_id → 该次调用的 step/name/args
         tool_calls_made = 0
-        model_turns = 0  # 模型决策轮次，等价于旧实现里的 step
+        model_turns = 0  # 模型决策轮次
         stop_reason = "step_budget"
-        # 停滞计数：连续多少次工具调用没给证据池带来新增。模型偶尔会用不同措辞重复
-        # 检索同一内容，这类调用不产生新证据，留着只会拖长延迟，故达到阈值即收口。
+        # 停滞判定按模型轮次聚合：一轮内任一调用带回新证据即视为有收益（streak 清零）；
+        # 按次计数会把并行扇出的部分空手误判为连续低效，导致同轮在途结果被丢弃。
         no_gain_streak = 0
+        turn_gained: Dict[int, bool] = {}  # 已出结果的模型轮 → 本轮是否带回新证据
         stagnant_limit = max(1, int(settings.agent_max_stagnant_steps))
         halt = False
         stream = None
@@ -435,18 +624,38 @@ class AgentService:
                 for _node, payload in (chunk or {}).items():
                     for m in ((payload or {}).get("messages") or []):
                         if isinstance(m, AIMessage):
+                            # 轮末结算：上轮 ToolMessage 已先于本轮 AIMessage 到达，在此判定上轮
+                            # 整轮是否有收益；连续零收益轮达阈值才收口（触发即不为新轮发 step）。
+                            if model_turns in turn_gained:
+                                if turn_gained.pop(model_turns):
+                                    no_gain_streak = 0
+                                else:
+                                    no_gain_streak += 1
+                                    if no_gain_streak >= stagnant_limit:
+                                        stop_reason = "no_progress"
+                                        halt = True
+                                        logger.info(
+                                            "[Agent] 连续 %d 个模型轮次无新增证据，"
+                                            "提前收口（上轮 turn=%d）",
+                                            no_gain_streak, model_turns,
+                                        )
+                            if halt:
+                                break
                             calls = list(getattr(m, "tool_calls", None) or [])
                             if not calls:
                                 # 模型主动结束探索（认为证据足够 / 无需工具），最理想的收敛
                                 stop_reason = "model_stop"
                                 continue
+                            # 轮边界预算：框架按整轮执行 tool_calls，观察层无法只跑子集；仍有余量
+                            # 则整轮受理，触顶则整轮不再受理并在本轮边界收口（不产生半轮在途）。
+                            # 代价是计数可超上限至多一轮的调用量（硬上界仍由步数/时长/递归兜底）。
+                            if tool_calls_made >= settings.agent_max_tool_calls:
+                                stop_reason = "tool_budget"
+                                halt = True
+                                break
                             model_turns += 1
+                            tool_calls_made += len(calls)
                             for tc in calls:
-                                if tool_calls_made >= settings.agent_max_tool_calls:
-                                    stop_reason = "tool_budget"
-                                    halt = True
-                                    break
-                                tool_calls_made += 1
                                 args = tc.get("args") or {}
                                 pending[tc.get("id")] = {
                                     "step": model_turns, "name": tc.get("name"), "args": args,
@@ -458,6 +667,7 @@ class AgentService:
                             if info is None:
                                 continue
                             result = self._parse_tool_result(m.content)
+                            is_neutral = info["name"] == EVIDENCE_STATUS_TOOL
                             gained = self._absorb_evidence(
                                 info["name"], result, evidence, graph_parts, graph_seen)
                             summary = self._summarize_result(info["name"], result)
@@ -466,23 +676,17 @@ class AgentService:
                             yield ({"type": "observation", "step": info["step"],
                                     "tool": info["name"], "summary": summary}, None, None, None, None, None, None)
 
-                            # 停滞短路：连续多次调用都没带来新证据 → 判定为低效重复，立即收口
-                            if gained:
-                                no_gain_streak = 0
-                            else:
-                                no_gain_streak += 1
-                                if no_gain_streak >= stagnant_limit:
-                                    stop_reason = "no_progress"
-                                    halt = True
-                                    logger.info(
-                                        "[Agent] 连续 %d 次工具调用无新增证据，提前收口（turn=%d, tool=%s）",
-                                        no_gain_streak, model_turns, info["name"],
-                                    )
+                            # get_evidence_status 只读、天然不产生新证据，不参与停滞判定，
+                            # 否则「模型自查覆盖」这一正向行为会反过来触发提前收口。
+                            if is_neutral:
+                                continue
+                            # 轮粒度聚合：合并进所属模型轮的收益标记（任一调用有证据即该轮有收益）
+                            turn_gained[info["step"]] = turn_gained.get(info["step"], False) or gained
                 if halt:
                     break
         except Exception as e:
-            # 图递归上限（步数耗尽）与网络/模型异常都归入预算耗尽，用已得证据作答。
-            # 不按类型硬判（避免依赖具体异常类路径），按类名识别递归上限。
+            # 递归上限（步数耗尽）与网络/模型异常都归入预算耗尽，用已得证据作答；
+            # 按类名识别递归上限，避免依赖具体异常类路径。
             stop_reason = "step_budget" if type(e).__name__ == "GraphRecursionError" else "llm_error"
             logger.warning("[Agent] 探索中断（%s），改用已收集证据作答: %s: %s",
                            stop_reason, type(e).__name__, e)
@@ -502,13 +706,10 @@ class AgentService:
                    jurisdictions: Optional[List[str]] = None,
                    history: Optional[List[Dict]] = None,
                    route_mode: str = ROUTE_MODE_AUTO) -> Iterator[Dict]:
-        """多步推理问答；任何降级路径都回退到既有 RAG，保证有结果。
+        """多步推理问答；开关关闭/无密钥/无证据/异常一律降级到既有 RAG，保证有结果。
 
-        route_mode 决定「是否值得走多步探索」：
-          - auto（默认）：按复杂度规则决定；
-          - agent：强制走 Agent（前端「深度模式」）；
-          - fast：强制走既有快速 RAG。
-        简单/定向查询走快速 RAG，避免用简单查询的延迟换复杂查询的收益。
+        route_mode：auto=按复杂度规则决定；agent=强制探索（前端「深度模式」）；
+        fast=强制既有快速 RAG。简单/定向查询走快速路径，避免用其延迟换复杂查询的收益。
         """
         # 开关关闭 / 未配密钥：直接走既有 RAG（端点仍可用）
         if not settings.agent_enabled:
@@ -521,8 +722,7 @@ class AgentService:
             yield from self._qa_service().ask_stream(question, top_k, jurisdictions, history)
             return
 
-        # 复杂度路由：仅 auto 模式需要判定；agent/fast 为显式指定，直接放行/短路。
-        # 多法域信号复用检索侧的规则路由（廉价、无副作用），不在此触发语义法域检测。
+        # 复杂度路由：仅 auto 模式需要判定；多法域信号复用检索侧的规则路由（廉价、无副作用）。
         if route_mode == ROUTE_MODE_AUTO and settings.agent_complexity_routing_enabled:
             try:
                 routed = self.retriever._route_to_jurisdictions(question)
@@ -532,9 +732,7 @@ class AgentService:
             routed = None
         decision, route_reason = decide_route(question, route_mode, routed)
 
-        # 灰区：做一次廉价检索探测（不生成答案）决定走哪条路。
-        # 探测与快速路径用的是同一个 QAService._retrieve_contexts，因此探测结果能
-        # 较准确地预测「快速路径能否拿到足够证据」；探测失败时保守走快速路径。
+        # 灰区：做一次廉价检索探测（不生成答案）决定走哪条路；探测失败保守走快速路径。
         if decision == DECIDE_PROBE:
             if self._probe_retrieval_quality(question, top_k, jurisdictions):
                 decision, route_reason = DECIDE_FAST, route_reason + ":probe_ok"
@@ -544,8 +742,8 @@ class AgentService:
         if decision == DECIDE_FAST:
             logger.info("[Agent] 复杂度路由→快速 RAG（reason=%s）", route_reason)
             yield {"type": "route", "mode": "fast", "reason": route_reason}
-            # 透传用户原始的 jurisdictions（可能为 None）：与 /qa/stream 完全同路径，
-            # 让 QAService 自行做法域检测与降级，保证「快速路径」行为与既有问答一致。
+            # 透传用户原始 jurisdictions（可能为 None）：与 /qa/stream 完全同路径，保证
+            # 「快速路径」行为与既有问答一致。
             yield from self._qa_service().ask_stream(question, top_k, jurisdictions, history)
             return
 
@@ -562,10 +760,27 @@ class AgentService:
         except Exception:
             detected = []
 
-        # 每请求独立的工具运行时与图：工具 memo 是「单次提问」级去重缓存，必须与请求
-        # 同生命周期，并发请求各持一份、互不干扰（详见 __init__ 说明）。jurisdictions
-        # 供图谱工具做法域内证据过滤，避免跨法域无关证据污染答案。
-        toolkit = AgentToolkit(self.retriever, self._qa_service, jurisdictions=detected)
+        # 追问指代消解：把「它/该规定/那例外呢？」这类追问改写成自足检索式；只作检索与
+        # 规划种子，合成阶段仍用原问题，故改写偏差不会改变答案所回答的问题本身。
+        retrieval_query = self._resolve_query(question, history, detected) or question
+        if retrieval_query != question:
+            yield {"type": "rewrite", "original": question, "rewritten": retrieval_query}
+
+        # 显式规划：用检索式做规划，使子问题不依赖上下文；失败返回 None，仅跳过注入与事件。
+        plan = self._plan(retrieval_query, detected)
+        if plan:
+            yield {"type": "plan", "sub_questions": plan["sub_questions"],
+                   "jurisdictions": plan["target_jurisdictions"],
+                   "aspects": plan["priority_aspects"]}
+
+        # 证据池在探索前创建，工具运行时（get_evidence_status）与 _explore（原地累积）
+        # 共享同一引用，保证跨步工作记忆看到实时台账。
+        evidence: Dict[str, Dict] = {}
+
+        # 每请求独立的工具运行时与图：memo 为单次提问级缓存，须与请求同生命周期，
+        # 并发请求各持一份、互不干扰（见 __init__）。
+        toolkit = AgentToolkit(self.retriever, self._qa_service,
+                               jurisdictions=detected, evidence=evidence)
         agent = self._build_agent(self._system_prompt(detected), toolkit.build_tools())
 
         messages_in: List[Dict] = []
@@ -573,30 +788,47 @@ class AgentService:
             for h in history[-6:]:
                 if h.get("role") in ("user", "assistant") and h.get("content"):
                     messages_in.append({"role": h["role"], "content": h["content"]})
-        messages_in.append({"role": "user", "content": question})
+        # 消解结果与计划并入当前用户轮前言，避免单列 assistant 消息造成错序；
+        # 两者都不存在时 user_content 即原问题。
+        prefix_parts: List[str] = []
+        if retrieval_query != question:
+            prefix_parts.append(
+                "【追问指代消解（检索/规划可采用此自足表述，但请回答用户原问题）】" + retrieval_query
+            )
+        if plan:
+            prefix_parts.append(self._plan_text(plan))
+        user_content = ("\n\n".join(prefix_parts) + "\n\n【用户问题】" + question) if prefix_parts else question
+        messages_in.append({"role": "user", "content": user_content})
 
         # 探索：由 _explore 消费图事件流并执行预算/停滞策略
-        evidence: Dict[str, Dict] = {}
         graph_parts: List[str] = []
         trace: List[Dict] = []
         tool_calls_made = 0
         llm_turns = 0
         stop_reason = "step_budget"
         for ev, ev_evidence, ev_parts, ev_trace, ev_calls, ev_turns, ev_stop in self._explore(
-                agent, messages_in, total_start):
+                agent, messages_in, total_start, evidence=evidence):
             if ev is not None:
                 yield ev
                 continue
             evidence, graph_parts, trace = ev_evidence, ev_parts, ev_trace
             tool_calls_made, llm_turns, stop_reason = ev_calls, ev_turns, ev_stop
 
-        # 探索未产出任何证据 → 降级到既有 RAG（保证有答案，覆盖简单问题/工具全失败）
+        # 探索未产出任何证据 → 降级到既有 RAG；并在 end 事件补 stop_reason，让降级可解释。
         if not evidence and not graph_parts:
             logger.info("[Agent] 探索未产出证据，降级为既有 RAG 链路（turns=%d）", llm_turns)
-            yield from self._qa_service().ask_stream(question, top_k, jurisdictions, history)
+            for ev in self._qa_service().ask_stream(question, top_k, jurisdictions, history):
+                if isinstance(ev, dict) and ev.get("type") == "end":
+                    ev = dict(ev)
+                    ev.setdefault("stop_reason", "no_evidence_degraded")
+                yield ev
             return
 
         # ---- 证据收口 + 最终合成（复用 QA 的合成 prompt 与流式调用）----
+        # 收口要跑一次精排（本机占检索延迟约 93%）且尚无正文输出，先推状态事件避免前端
+        # 在精排期间长时间无反馈。
+        yield {"type": "status", "stage": "finalize",
+               "data": f"已收集 {tool_calls_made} 次工具证据，正在收口精排…"}
         t_fin0 = time.time()
         contexts = self._finalize_evidence(question, evidence, top_k)
         kg_text = "\n".join(graph_parts)
@@ -623,12 +855,13 @@ class AgentService:
             "retrieved_count": len(contexts),
             "jurisdictions": list(source_jurisdictions) if not jurisdictions else jurisdictions,
         }
-        yield {"type": "status", "stage": "generate", "data": "正在生成回答…"}
+        yield {"type": "status", "stage": "generate", "data": "正在生成分法域对照分析…"}
 
         qa = self._qa_service()
         messages_final = qa._build_messages(
             question, contexts, history, kg_text,
             max_primary=max(int(top_k), int(settings.agent_finalize_pass_k)),
+            system_prompt_override=self._synthesis_prompt(),
         )
 
         t_gen0 = time.time()
@@ -644,6 +877,21 @@ class AgentService:
                 return
         t_generate = time.time() - t_gen0
 
+        # 引用溯源校验：纯正则比对答案中的【来源X】与实际来源数；答案已流式发出无法撤回，
+        # 故越界引用只通过 end 事件提示前端，不改正文。
+        answer_full = "".join(answer_parts)
+        ref_nums = [int(m) for m in _SOURCE_REF_RE.findall(answer_full)]
+        invalid_refs = sorted({n for n in ref_nums if n < 1 or n > len(sources)})
+        citation_check = {
+            "ref_count": len(ref_nums),
+            "invalid_count": len(invalid_refs),
+            "invalid_refs": invalid_refs,
+            "source_count": len(sources),
+        }
+        if invalid_refs:
+            logger.warning("[Agent] 引用越界：来源总数=%d，越界引用=%s",
+                           len(sources), invalid_refs)
+
         total_time = time.time() - total_start
         logger.info(
             "[Agent] 完成：steps=%d tool_calls=%d llm_turns=%d 证据=%d 图谱=%d stop=%s 耗时=%.2fs",
@@ -651,7 +899,8 @@ class AgentService:
             stop_reason, total_time,
         )
         yield {"type": "end", "cache_hit": False, "stop_reason": stop_reason,
-               "tool_calls": tool_calls_made, "timing": {
+               "tool_calls": tool_calls_made, "citation_check": citation_check,
+               "timing": {
             "finalize_evidence": f"{t_finalize:.4f}s",
             "generate": f"{t_generate:.4f}s",
             "total": f"{total_time:.4f}s",

@@ -103,14 +103,8 @@ class StructuredAnalysisService:
     """
     跨法域专题结构化对比分析服务
 
-    核心流程（三步）：
-    1. 检索：用预设检索词在两个法域分别搜索相关条款
-    2. LLM结构化提取：让LLM从条款中提取JSON格式的结构化信息（不是生成回答）
-    3. 返回两个法域的JSON + 对比维度定义，前端用模板渲染表格
-
-    与QA的本质区别：
-    - QA: 用户自由提问 → LLM生成自然语言回答
-    - 本服务: 选预设专题 → LLM做信息提取(输出JSON) → 前端模板渲染对比表
+    流程：检索预设检索词 → LLM 从条款中提取 JSON 结构化信息（不是生成回答）→
+    返回两法域 JSON + 对比维度定义，前端模板渲染表格。这是与 QA 的本质区别。
     """
 
     _qa_service_instance = None
@@ -130,11 +124,8 @@ class StructuredAnalysisService:
 
     def _compute_fingerprint(self, topic: Dict, jurisdiction_a: str, jurisdiction_b: str) -> str:
         """
-        生成专题分析的综合指纹（MD5）。
-
-        指纹仅基于稳定输入参数（topic_id + jurisdictions + dimensions），
-        不依赖 ES 检索结果（向量检索每次返回的 chunk 列表可能不同）。
-        数据变化检测通过外部手动清缓存或版本号机制处理。
+        生成专题分析的综合指纹（MD5）：仅基于稳定输入参数（topic_id + jurisdictions + dimensions），
+        不含 ES 检索结果，否则每次检索命中不同都会导致缓存失效。
         """
         raw = json.dumps({
             "topic_id": topic.get("id", ""),
@@ -148,10 +139,7 @@ class StructuredAnalysisService:
         return fp
 
     def _try_get_cached(self, topic_id: str, jur_a: str, jur_b: str, current_fp: str) -> Optional[Dict]:
-        """
-        尝试从 ES 缓存获取有效结果。
-        返回缓存的 report_data 或 None（缓存不存在/已失效）。
-        """
+        """尝试从 ES 缓存获取有效结果：返回缓存的 report_data 或 None（不存在/指纹不匹配）。"""
         logger.info(f"[Cache-Check] 查询缓存: {topic_id}, {jur_a} vs {jur_b}, fp={current_fp[:16]}...")
         cached = self.repo.get_analysis_cache(topic_id, jur_a, jur_b)
         if not cached or not isinstance(cached, dict):
@@ -189,9 +177,9 @@ class StructuredAnalysisService:
     def _search_topic(self, queries: List[str], jurisdiction: str, top_n: int) -> List[Dict]:
         """
         用多个查询词在指定法域中检索，合并去重后返回。
-        多个查询词通过线程池并行搜索，大幅缩短检索耗时。
-        所有查询词一次性批量编码，避免重复的 CPU embedding 计算。
-        双重过滤：ES where 条件 + Python 后置校验（防止 ES knn+filter 兼容性问题）。
+
+        查询词批量一次编码并在线程内并行检索（避免 N 次 CPU embedding）；
+        双重过滤：ES where 条件 + Python 后置校验（防 ES knn+filter 兼容性问题）。
         """
         if not queries:
             return []
@@ -256,8 +244,7 @@ class StructuredAnalysisService:
 
     def _format_chunks_for_llm(self, chunks: List[Dict], jurisdiction: str) -> str:
         """
-        将检索到的 chunks 格式化为供 LLM 阅读的文本。
-        优化：截断过长内容（每条最多500字），减少 LLM 输入 token 数。
+        将检索到的 chunks 格式化为供 LLM 阅读的文本（每条内容最多 400 字，控制输入 token）。
         """
         if not chunks:
             return "[未检索到相关条款，该法域数据库中可能不存在此专题的相关规定]"
@@ -493,9 +480,9 @@ class StructuredAnalysisService:
         include_summary: bool = True
     ):
         """
-        流式执行专题结构化分析，逐步 yield 事件。
+        流式执行专题结构化分析，逐步 yield 事件（当前为并行生成版本）。
 
-        事件类型（并行生成优化版）：
+        事件协议：
           {"type": "search_done", "data": {...}}          — 检索完成
           {"type": "extracted", "jurisdiction": "澳门", "data": {}} — 单个法域提取完成
           {"type": "extraction_done", "data": {}}         — 两个法域都提取完成（对比表数据就绪）
@@ -561,8 +548,7 @@ class StructuredAnalysisService:
         context_a = self._format_chunks_for_llm(chunks_a, jurisdiction_a)
         context_b = self._format_chunks_for_llm(chunks_b, jurisdiction_b)
 
-        # ===== 步骤3：LLM提取 + 网络图生成 并行执行 =====
-        # 网络图只需要 chunks 数据，可以与 LLM 提取同时开始
+        # ===== 步骤3：LLM提取（流式）=====
         t2 = time.time()
         json_schema = self._build_json_schema(topic["dimensions"])
         extraction_prompt_a = self._build_extraction_prompt(
@@ -596,7 +582,7 @@ class StructuredAnalysisService:
             try:
                 for chunk in self.qa_service._call_llm_stream(prompt, model=model_name):
                     raw += chunk
-                    # 实时检测已完成的关键字段 "key": "value"
+                    # 实时检测已完成的关键字段 "key": "value"（value 允许转义字符）
                     for dim in dims:
                         key = dim["key"]
                         if key in seen_keys:
@@ -693,8 +679,7 @@ class StructuredAnalysisService:
                             logger.warning(f"[Parallel] dashboard 生成失败: {e}")
                             return None
 
-                    # 总结与仪表盘互不依赖，用 2 个线程并行跑：
-                    # 原先合并成一次调用并串行等待，导致总结必须等仪表盘 JSON 一起产出才能下发
+                    # 总结与仪表盘互不依赖，用 2 个线程并行跑，避免总结被仪表盘 JSON 阻塞
                     _llm_executor = ThreadPoolExecutor(max_workers=2)
                     summary_future = _llm_executor.submit(_gen_summary, intermediate_result)
                     dashboard_future = _llm_executor.submit(_gen_dashboard, intermediate_result)
@@ -786,10 +771,7 @@ class StructuredAnalysisService:
 
     def generate_dashboard(self, analysis_result: Dict) -> Dict:
         """
-        基于已有的结构化分析结果，生成仪表盘所需的数据：
-        - 保护力度评分（每个法域 1-5 分）
-        - 关键差异点列表
-        - 雷达图各维度得分
+        基于结构化分析结果生成仪表盘数据：保护力度评分（1-5）、关键差异点、雷达图各维度得分。
         """
         topic = analysis_result.get("topic", {})
         jur_a = analysis_result.get("jurisdictions", ["", ""])[0]
@@ -919,9 +901,8 @@ class StructuredAnalysisService:
         """
         批量编码文本为归一化向量（L2 归一化后点积即余弦相似度）。
 
-        带进程内缓存：按文本内容哈希复用向量，避免同一批条款在反复的
-        跨法域对比中重复编码（bge-m3 在 CPU 上编码是主要耗时）。
-        模型不可用时抛出异常，由调用方降级为不做跨域对齐。
+        带进程内缓存：按文本哈希复用向量，避免同一批条款在反复跨法域对比中重复编码（bge-m3 CPU 编码是主要耗时）；
+        模型不可用时抛异常，由调用方降级为不做跨域对齐。
         """
         from core.model_loader import get_embedding_model
 
@@ -956,12 +937,8 @@ class StructuredAnalysisService:
         """
         计算跨法域条款对的语义对齐（bge-m3 余弦），并做「每节点 Top-K」稀疏化。
 
-        为什么不再用字符/bigram/关键词重叠：同一主题的法律文本这类"表面重叠"恒高、
-        没有区分度（实测美泰对比中 779 条跨域边全部 >=0.35、中位数 0.653，退化为
-        近似完全二部图，任何可视化都是毛线团）。语义向量才具备区分"真对口"的能力。
-
-        稀疏化：行方向取 Top-K 与列方向取 Top-K 求并集 —— 保证每条边至少是一端的
-        强对齐，再按 min_similarity 过滤，避免把不相关的对强行连上。
+        不用字符/bigram/关键词重叠：同主题法律文本的表面重叠恒高、无区分度（会退化成近似完全二部图）；
+        稀疏化取行/列 Top-K 并集保证每条边至少是一端的强对齐，再按 min_similarity 过滤。
 
         Returns:
             [{"i": 序号, "j": 序号, "score": float}]，i/j 对应 chunks_a / chunks_b 下标
@@ -1004,14 +981,9 @@ class StructuredAnalysisService:
         cross_top_k: int = 2,
     ) -> Dict:
         """
-        基于检索到的两个法域的法条，构建关联网络图数据。
+        基于检索到的两个法域法条构建关联网络图数据。
 
-        升级版 v2.0：
-        - 主题分类（基于关键词自动归类）
-        - 节点重要性评分（度数+核心性+中心性）
-        - 边标签增强（相似度百分比、关系类型）
-        - 最短路径算法支持
-        - 保护力度评分（颜色深浅编码）
+        含：主题分类、节点重要性评分、边标签增强、BFS 最短路径缓存、保护力度评分、抗杂乱过滤。
         """
         import hashlib
         import re
@@ -1075,7 +1047,7 @@ class StructuredAnalysisService:
             all_chunks.append({**ch, "_side": "B"})
 
         # 去重 + 构建节点（增强版）
-        # 关键修复：同一法条可能有多个chunk（ES分块存储），需要按chunk_index排序后拼接完整内容
+        # 同一法条可能有多个 chunk（ES 分块存储），按 chunk_index 排序后拼接完整内容
         chunk_groups = {}  # key -> list of chunks
         for ch in all_chunks:
             key = f"{ch.get('law_id','')}_{ch.get('article_number','')}"
@@ -1131,18 +1103,16 @@ class StructuredAnalysisService:
                 "content_preview": content[:500],      # 预览内容（适当增加长度）
                 "is_core": is_core,
                 "node_type": "definition" if is_definition else ("penalty" if is_penalty else "normal"),
-                # ---- v6.0: 实体类型标注 ----
                 "entity_type": self._classify_entity_type(content),
                 "entity_label": self.ENTITY_TYPE_RULES.get(self._classify_entity_type(content), {}).get("label", "条款"),
                 "entity_color": self.ENTITY_TYPE_RULES.get(self._classify_entity_type(content), {}).get("color", "#6B7280"),
                 "entity_shape": self.ENTITY_TYPE_RULES.get(self._classify_entity_type(content), {}).get("shape", "ellipse"),
                 "degree": 0,
                 "cluster": ch.get("_side", ""),
-                # 新增字段
                 "themes": detected_themes,
                 "primary_theme": primary_theme,
                 "protection_score": protection_score,
-                "importance_score": 0,  # 后续计算综合重要性
+                "importance_score": 0,
             })
             node_map[key] = node_id
 
@@ -1181,9 +1151,7 @@ class StructuredAnalysisService:
                         })
 
         # ===== 边类型2：跨法域语义关联边（bge-m3 语义向量 + 每节点 Top-K 稀疏化）=====
-        # 旧实现用字符/bigram/关键词重叠算相似度，对同主题法律文本恒高、无区分度，
-        # 会退化成近似完全二部图（实测美泰对比 779 条跨域边全部 >=0.35、中位数 0.653）。
-        # 现改为语义向量余弦，并只保留每节点最强的 Top-K 对齐，使边数大幅下降且条条有意义。
+        # 字符/bigram/关键词重叠对同主题法律文本恒高、无区分度，会退化成近似完全二部图，故改用语义余弦。
         cross_edges = []
         try:
             cross_pairs = self._cross_similarity_pairs(
@@ -1296,15 +1264,14 @@ class StructuredAnalysisService:
             nodes = [n for n in nodes if n["id"] in neighbor_ids]
             edges = [e for e in edges if e["from"] in neighbor_ids and e["to"] in neighbor_ids]
 
-        # ========== [v6.0] 抗杂乱过滤 ==========
+        # ========== 抗杂乱过滤 ==========
         MAX_NODES = 40
         MAX_EDGES_PER_NODE = 8
 
         # 记录原始节点数（供前端展示截断提示）—— 保留完整数据由前端控制显示
         _raw_node_count = len(nodes)
 
-        # 1. 节点数限制（已换由前端控制，仅统计标记不断）
-        # 保留每节点最大边数限制（减少视觉杂乱）
+        # 节点数限制已换由前端控制，仅统计标记不断；保留每节点最大边数限制（减少视觉杂乱）
 
         # 2. 每节点最大边数限制
         node_edge_count = {}
@@ -1363,7 +1330,6 @@ class StructuredAnalysisService:
             "themes_available": list(set(n.get("primary_theme", "") for n in nodes)),
             "has_cross_edges": len([e for e in edges if e.get("type") == "cross_jurisdiction"]) > 0,
             "path_cache_size": len(path_cache),
-            # [v6.0] 新增
             "entity_type_distribution": entity_type_distribution,
             "node_types_available": list(entity_type_distribution.keys()),
             "max_nodes_limit": MAX_NODES,
@@ -1386,10 +1352,7 @@ class StructuredAnalysisService:
 
     # ================================================================
     #  升级能力3b：法规级对齐矩阵（跨法域对比总览）
-    #  ------------------------------------------------------------
-    #  条款级网络图（力导向）天然是"毛线团"：条款多、跨域对齐多，人眼难以读出结构。
-    #  法规级矩阵把条款级对齐**聚合**到「法域A法规 × 法域B法规」，用一格表示
-    #  "这两部法有多少条条款语义对口"，一眼可见"哪部法对哪部法"，再下钻到条款对。
+    #  条款级网络图天然是"毛线团"，故把对齐聚合到「法域A法规 × 法域B法规」，一眼可见哪部法对哪部法，再下钻。
     # ================================================================
 
     @staticmethod
@@ -1421,23 +1384,13 @@ class StructuredAnalysisService:
         """
         法规级对齐矩阵：行=法域A法规，列=法域B法规。
 
-        格值口径为「最佳匹配」而非「超过固定阈值的对数」，原因：bge-m3 对同一主题的
-        法律文本余弦普遍落在 0.6~0.75 的窄带内，绝对阈值无法区分"真对口"与"泛泛相关"
-        （实测美泰对比中几乎所有条款对都 >=0.6，按阈值计数只会退化成条款数统计）。
-        故改为：对法域A的每条条款取其**最相似**的法域B条款，计入二者所属法规的格子；
-        反向（B→A）同理累加。这样格值表示"两法之间互相最像的条款有多少条"，
-        具备真实区分度，且总量受条款数上界约束。
+        格值口径为「最佳匹配」而非「超过固定阈值的对数」：bge-m3 对同主题法律文本的余弦普遍落在
+        0.6~0.75 窄带，绝对阈值无法区分真对口（按阈值计数会退化为条款数统计）。故每条 A 条款取其最相似
+        的 B 条款计入二者法规格，反向同理累加，格值即「两法互相最像的条款数」。
 
         Returns:
-            {
-              "jurisdiction_a","jurisdiction_b","threshold",
-              "laws_a":[{"law_id","law_name","article_count"}],
-              "laws_b":[...],
-              "cells":[[j_index, i_index, count]],   # 供热力图使用
-              "max_count": int,
-              "total_pairs": 被计入的条款数（A→B + B→A）,
-            }
-            无数据时返回 None。
+            {"jurisdiction_a","jurisdiction_b","threshold","laws_a","laws_b",
+             "cells":[[j_index,i_index,count]], "max_count", "total_pairs"}；无数据返回 None。
         """
         queries = self.get_topic_queries(topic_id)
         if not queries:
@@ -1512,10 +1465,7 @@ class StructuredAnalysisService:
         max_pairs: int = 50,
     ) -> Optional[Dict]:
         """
-        下钻：两部法规之间**最佳匹配**的条款对明细（与矩阵口径一致）。
-
-        只返回"最佳匹配"对（A 条款的最相似 B 条款 / B 条款的最相似 A 条款），
-        而非所有超过阈值的对 —— 后者在同主题下几乎等于全量笛卡尔积，没有阅读价值。
+        下钻：两部法规之间最佳匹配的条款对明细（与矩阵口径一致），只返回互相最像的对而非全量阈值笛卡尔积。
         """
         queries = self.get_topic_queries(topic_id)
         if not queries:
@@ -1559,9 +1509,7 @@ class StructuredAnalysisService:
         }
 
     # ================================================================
-    #  升级能力4：多法域通用知识图谱构建 v6.0
-    #  支持用户自主选择2-4个法域进行专题分析
-    #  新增：实体类型分类（5类）、语义关系边、抗杂乱机制
+    #  升级能力4：多法域通用知识图谱构建（支持 2-4 个法域专题分析）
     # ================================================================
 
     # ---- 实体类型检测规则 ----
@@ -1652,29 +1600,10 @@ class StructuredAnalysisService:
         center_law_id: Optional[str] = None
     ) -> Dict:
         """
-        多法域通用知识图谱构建器 v5.0
-
-        功能：
-        - 支持2-4个法域动态选择
-        - 自动两两计算跨法域语义关联
-        - 智能多簇布局参数生成
-        - 完整的节点/边/统计信息输出
-
-        Args:
-            jurisdiction_chunks: 法域名称到chunks列表的字典
-                例如：{
-                    "澳门": [chunk1, chunk2, ...],
-                    "新加坡": [chunk3, chunk4, ...],
-                    "香港": [chunk5, ...]
-                }
-            similarity_threshold: 语义相似度阈值（默认0.75）
-            center_law_id: 可选，指定中心法律ID（用于子图过滤）
-
-        Returns:
-            包含nodes、edges、stats等完整图谱数据的字典
+        多法域通用知识图谱构建器（2-4 个法域动态选择，两两计算跨法域语义关联，输出多簇布局参数）。
 
         Raises:
-            ValueError: 如果法域数量不在2-4之间
+            ValueError: 法域数量不在 2-4 之间
         """
         import hashlib
         import re
@@ -1752,7 +1681,7 @@ class StructuredAnalysisService:
                 all_chunks.append({**ch})
 
         # ========== 2. 构建节点（支持N个法域）==========
-        # 关键修复：同一法条可能有多个chunk（ES分块存储），需要按chunk_index排序后拼接完整内容
+        # 同一法条可能有多个 chunk（ES 分块存储），按 chunk_index 排序后拼接完整内容
         chunk_groups = {}  # key -> list of chunks
         for ch in all_chunks:
             key = f"{ch.get('law_id','')}_{ch.get('article_number','')}"
@@ -1809,7 +1738,6 @@ class StructuredAnalysisService:
                 "content_preview": content[:500],      # 预览内容（适当增加长度）
                 "is_core": is_core,
                 "node_type": "definition" if is_definition else ("penalty" if is_penalty else "normal"),
-                # ---- v6.0: 实体类型标注 ----
                 "entity_type": self._classify_entity_type(content),
                 "entity_label": self.ENTITY_TYPE_RULES.get(self._classify_entity_type(content), {}).get("label", "条款"),
                 "entity_color": self.ENTITY_TYPE_RULES.get(self._classify_entity_type(content), {}).get("color", "#6B7280"),
@@ -1950,9 +1878,6 @@ class StructuredAnalysisService:
                                 if nb_id in nodes_dict:
                                     nodes_dict[nb_id]["degree"] += 1
 
-        # ===== 边类型3：主题关联边（可选增强）=====
-        # （可根据需要添加基于topics字段交集的边）
-
         # ========== 4. 计算综合重要性评分 ==========
         if nodes:
             degrees = [n.get("degree", 0) for n in nodes]
@@ -2035,14 +1960,14 @@ class StructuredAnalysisService:
             nodes = [n for n in nodes if n["id"] in neighbor_ids]
             edges = [e for e in edges if e["from"] in neighbor_ids and e["to"] in neighbor_ids]
 
-        # ========== 7b. [v6.0] 抗杂乱过滤 ==========
+        # ========== 7b. 抗杂乱过滤 ==========
         MAX_NODES = 40
         MAX_EDGES_PER_NODE = 8
 
         # 记录原始节点数（供前端展示截断提示）—— 保留完整数据由前端控制显示
         _raw_node_count = len(nodes)
 
-        # 7b.1: 节点数限制（已换由前端控制，仅统计标记不断）
+        # 7b.1: 节点数限制已换由前端控制，仅统计标记不断
         # 7b.2: 每节点最大边数限制（保留权重最高的）
         node_edge_count = {}
         edge_priority = []  # (edge_idx, min_priority)
@@ -2116,7 +2041,6 @@ class StructuredAnalysisService:
                 f"{p[0]} ↔ {p[1]}" for p in jurisdiction_pairs
             ],
             "cross_pair_count": len(jurisdiction_pairs),
-            # [v6.0] 新增统计
             "entity_type_distribution": entity_type_distribution,
             "node_types_available": list(entity_type_distribution.keys()),
             "max_nodes_limit": MAX_NODES,
@@ -2156,31 +2080,10 @@ class StructuredAnalysisService:
         max_visits: int = 5000
     ) -> Dict:
         """
-        BFS最短路径查找算法（增强版）
+        BFS 最短路径查找（增强版）：返回路径上的节点、边及其关系详情。
 
-        在知识图谱中查找两个节点之间的最短路径，返回完整的路径信息，
-        包括路径上的每个节点、每条边及其关系详情。
-
-        Args:
-            nodes: 图谱节点列表
-            edges: 图谱边列表
-            source_id: 起始节点ID
-            target_id: 目标节点ID
-            max_depth: 最大搜索深度（默认6跳）
-            max_visits: 最大访问节点数上限（防止性能问题，默认5000）
-
-        Returns:
-            {
-                "found": bool,               # 是否找到路径
-                "path_nodes": [Dict],         # 路径上的节点列表
-                "path_edges": [Dict],         # 路径上的边列表（含关系详情）
-                "path_length": int,           # 路径长度（节点数）
-                "hops": int,                  # 跳数（边数）
-                "depth_reached": int,         # 实际搜索深度
-                "nodes_visited": int,         # 实际访问节点数
-                "path_description": str,      # 路径文字描述
-                "error": str | None           # 错误信息（如有）
-            }
+        max_depth 限制跳数，max_visits 限制访问节点数以防性能问题；
+        未找到时返回 found=False 与可读的失败原因。
         """
         # ---- 边界情况检查 ----
         if not nodes or not edges:
@@ -2317,15 +2220,7 @@ class StructuredAnalysisService:
 
     def interpret_path(self, path_result: Dict) -> str:
         """
-        调用LLM对最短路径结果进行自然语言解读
-
-        将路径上的节点和关系转化为一句通俗易懂的法律含义解释。
-
-        Args:
-            path_result: find_shortest_path() 返回的结果字典
-
-        Returns:
-            自然语言解读文本
+        调用 LLM 把最短路径结果转化为一句通俗的法律含义解读；路径无效时直接返回提示文本。
         """
         if not path_result.get("found") or not path_result.get("path_nodes"):
             return "无法解读：未找到有效路径。"
@@ -2398,9 +2293,7 @@ class StructuredAnalysisService:
     @staticmethod
     def _build_path_description(path_nodes: List[Dict], path_edges: List[Dict]) -> str:
         """
-        构建路径的文字描述
-
-        例如：澳门_PDPL_11 → (语义相似, 0.92) → 新加坡_PDPA_22 → (主题关联) → 新加坡_PDPA_15
+        构建路径的文字描述，形如：澳门_PDPL_11 → (语义相似, 0.92) → 新加坡_PDPA_22。
         """
         if not path_nodes:
             return ""

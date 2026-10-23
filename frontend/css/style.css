@@ -1,7 +1,5 @@
-/* ===== 字体导入 ===== */
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500&display=swap');
 
-/* ===== CSS变量（与Streamlit主题一致） ===== */
 :root {
     --color-bg: #FAF8F5;
     --color-surface: #FFFFFF;
@@ -27,7 +25,6 @@
     --sidebar-width: 240px;
 }
 
-/* ===== 全局重置 ===== */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -51,13 +48,11 @@ a:hover {
     color: var(--color-primary-hover);
 }
 
-/* ===== 布局 ===== */
 .app-layout {
     display: flex;
     min-height: 100vh;
 }
 
-/* ===== 侧边栏 ===== */
 .sidebar {
     width: var(--sidebar-width);
     background: var(--color-surface);
@@ -139,7 +134,6 @@ a:hover {
     opacity: 1;
 }
 
-/* ===== 主内容区 ===== */
 .main-content {
     flex: 1;
     margin-left: var(--sidebar-width);
@@ -151,7 +145,6 @@ a:hover {
     border-right: 1px solid var(--color-border);
 }
 
-/* ===== 页面标题 ===== */
 .page-title {
     font-family: var(--font-serif);
     font-size: 1.5rem;
@@ -177,14 +170,12 @@ a:hover {
     border-bottom: 1px solid var(--color-border);
 }
 
-/* ===== 分隔线 ===== */
 .divider {
     border: none;
     border-top: 1px solid var(--color-border);
     margin: 1.5rem 0;
 }
 
-/* ===== 卡片 ===== */
 .card {
     background: var(--color-surface);
     border: 1px solid var(--color-border);
@@ -204,7 +195,6 @@ a:hover {
     margin-bottom: 0.75rem;
 }
 
-/* ===== 图表滚动容器 ===== */
 .chart-scroll-wrap {
     max-height: 350px;
     overflow: auto;
@@ -230,7 +220,6 @@ a:hover {
     background: var(--color-text-muted);
 }
 
-/* ===== 统计卡片 ===== */
 .stat-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -260,7 +249,6 @@ a:hover {
     margin-top: 0.25rem;
 }
 
-/* ===== 按钮 ===== */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -326,7 +314,6 @@ a:hover {
     justify-content: center;
 }
 
-/* ===== 输入框 ===== */
 .input, .textarea, .select {
     width: 100%;
     padding: 0.5rem 0.75rem;
@@ -350,7 +337,6 @@ a:hover {
     min-height: 80px;
 }
 
-/* ===== 搜索筛选栏 ===== */
 .search-filter-bar {
     display: flex;
     align-items: flex-end;
@@ -486,7 +472,6 @@ a:hover {
     border-radius: 1px;
 }
 
-/* ===== 标签/徽章 ===== */
 .badge {
     display: inline-flex;
     align-items: center;
@@ -502,8 +487,7 @@ a:hover {
 .badge-info { background: var(--color-info-bg); color: var(--color-info); }
 .badge-muted { background: var(--color-bg); color: var(--color-text-muted); }
 
-/* 引用链扩展标记（组件D）：该条款由同法规内其他条款引用补入，非语义命中。
-   用描边弱化处理，与法域等实心 badge 区分开，避免抢占视觉重心。 */
+/* 引用链扩展标记：条款由同法规内其他条款引用补入（非语义命中），用描边弱化以区分实心 badge */
 .badge-ref {
     background: transparent;
     border: 1px solid var(--color-border);
@@ -513,7 +497,6 @@ a:hover {
     vertical-align: middle;
 }
 
-/* ===== 表格 ===== */
 .table-wrap {
     overflow-x: auto;
     border: 1px solid var(--color-border);
@@ -551,7 +534,6 @@ tr:hover td {
     background: var(--color-bg);
 }
 
-/* ===== 网格布局 ===== */
 .grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -564,7 +546,6 @@ tr:hover td {
     gap: 1.5rem;
 }
 
-/* ===== 加载状态 ===== */
 .loading {
     display: flex;
     align-items: center;
@@ -588,7 +569,6 @@ tr:hover td {
     to { transform: rotate(360deg); }
 }
 
-/* ===== 提示/警告 ===== */
 .alert {
     padding: 0.75rem 1rem;
     border-radius: 6px;
@@ -604,7 +584,6 @@ tr:hover td {
 .alert-error { background: var(--color-error-bg); color: var(--color-error); border: 1px solid var(--color-border); }
 .alert-success { background: var(--color-success-bg); color: var(--color-success); border: 1px solid var(--color-border); }
 
-/* ===== 搜索结果分区标记 ===== */
 .section-divider {
     display: flex;
     align-items: center;
@@ -627,7 +606,7 @@ tr:hover td {
     color: var(--color-text-muted);
 }
 
-/* ===== Markdown 内容渲染 ===== */
+/* Markdown 渲染内容（AI 回答），字号跟随正文 */
 .markdown-body {
     font-size: 0.9375rem;
     line-height: 1.7;
@@ -699,7 +678,6 @@ tr:hover td {
     margin: 0.75rem 0;
 }
 
-/* ===== QA 问答界面优化 ===== */
 .qa-answer-body {
     font-size: 0.9375rem;
     line-height: 1.75;
@@ -761,7 +739,6 @@ tr:hover td {
     flex-shrink: 0;
 }
 
-/* ===== 知识图谱网络图样式 ===== */
 .network-node-table {
     width: 100%;
     border-collapse: collapse;
@@ -894,7 +871,6 @@ tr:hover td {
     line-height: 1.5;
 }
 
-/* ===== 响应式 ===== */
 @media (max-width: 1024px) {
     .stat-cards { grid-template-columns: repeat(2, 1fr); }
     .grid-2 { grid-template-columns: 1fr; }
@@ -907,7 +883,6 @@ tr:hover td {
     .stat-cards { grid-template-columns: 1fr 1fr; }
 }
 
-/* ===== 骨架屏样式 ===== */
 .skeleton-card {
     background: var(--color-surface);
     border: 1px solid var(--color-border);
@@ -1002,7 +977,6 @@ tr:hover td {
     opacity: 0.8;
 }
 
-/* ===== 法域标签选择器 ===== */
 .jur-selector {
     position: relative;
     width: 100%;
@@ -1133,4 +1107,533 @@ tr:hover td {
     background: var(--color-primary);
     border-color: var(--color-primary);
     color: white;
+}
+
+/* 法规详情页：典籍/公报排版，颜色字体复用上方 token */
+.law-detail {
+    --law-fs: 0.9375rem;   /* 由 .law-content[data-fs] 切换 */
+    --law-lh: 1.85;
+    --law-gutter: 6.5rem;  /* 需容纳最长编号（如「第 1070.62 条」） */
+    max-width: 1180px;
+}
+
+.law-detail__crumb {
+    margin-bottom: 1rem;
+}
+
+.law-header {
+    position: relative;
+    padding: 1.75rem 0 1.25rem;
+    border-bottom: 3px double var(--color-border-deep);
+}
+
+.law-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 3px;
+    background: var(--color-primary);
+}
+
+.law-header__title {
+    font-family: var(--font-serif);
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.32;
+    letter-spacing: 0.01em;
+    color: var(--color-text);
+}
+
+.law-header__sub {
+    margin-top: 0.25rem;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--color-text-muted);
+}
+
+.law-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.875rem;
+}
+
+.law-meta__date {
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+}
+
+.law-meta__date b {
+    font-weight: 400;
+    color: var(--color-text-muted);
+    margin-right: 0.25rem;
+}
+
+.law-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-top: 0.875rem;
+}
+
+.law-stats span {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+}
+
+.law-stats b {
+    font-family: var(--font-serif);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-right: 0.125rem;
+}
+
+.law-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.law-toolbar__label {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin-right: 0.25rem;
+}
+
+.law-toolbar__btn {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    min-width: 2.25rem;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.law-toolbar__btn:hover {
+    border-color: var(--color-border-deep);
+    color: var(--color-text);
+}
+
+.law-toolbar__btn.is-active {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #FFFFFF;
+}
+
+.law-toolbar__sep {
+    width: 1px;
+    height: 1rem;
+    background: var(--color-border);
+    margin: 0 0.5rem;
+}
+
+.law-toolbar__right {
+    margin-left: auto;
+}
+
+.law-body {
+    display: grid;
+    /* 正文在左、目录在右；目录列收窄以突出正文 */
+    grid-template-columns: minmax(0, 1fr) 176px;
+    column-gap: 2rem;
+    align-items: start;
+    margin-top: 1.75rem;
+}
+
+.law-toc {
+    position: sticky;
+    top: 1.5rem;
+    align-self: start;
+    /* DOM 中目录位于正文之前，显式指定列以落到右栏 */
+    grid-column: 2;
+    max-height: calc(100vh - 3rem);
+    overflow-y: auto;
+    padding-left: 0.5rem;
+    border-left: 1px solid var(--color-border);
+}
+
+.law-toc::-webkit-scrollbar {
+    width: 6px;
+}
+
+.law-toc::-webkit-scrollbar-thumb {
+    background: var(--color-border-deep);
+    border-radius: 3px;
+}
+
+.law-toc::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.law-toc__head {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    color: var(--color-text-muted);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.law-toc__list {
+    list-style: none;
+}
+
+.law-toc__item a {
+    display: grid;
+    grid-template-columns: minmax(2.25rem, max-content) minmax(0, 1fr);
+    gap: 0.375rem;
+    align-items: baseline;
+    padding: 0.375rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8125rem;
+    line-height: 1.45;
+    color: var(--color-text-secondary);
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.law-toc__num {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+    color: var(--color-text-muted);
+}
+
+/* 窄目录列下最多两行再省略，避免标题塌成单个省略号 */
+.law-toc__text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+}
+
+.law-toc__item a:hover {
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+.law-toc__item.is-active a {
+    background: var(--color-error-bg);
+    /* 目录在右栏，强调竖条贴右边缘 */
+    box-shadow: inset -2px 0 0 var(--color-primary);
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.law-toc__item.is-active .law-toc__num {
+    color: var(--color-primary);
+}
+
+.law-toc__item a:focus-visible,
+.law-toolbar__btn:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+.law-content {
+    grid-column: 1;
+    min-width: 0;
+    font-family: var(--font-serif);
+    font-size: var(--law-fs);
+    line-height: var(--law-lh);
+    color: var(--color-text);
+}
+
+.law-content[data-fs="s"] { --law-fs: 0.875rem;  --law-lh: 1.8; }
+.law-content[data-fs="m"] { --law-fs: 0.9375rem; --law-lh: 1.85; }
+.law-content[data-fs="l"] { --law-fs: 1.0625rem; --law-lh: 1.9; }
+
+.law-article {
+    display: grid;
+    grid-template-columns: var(--law-gutter) minmax(0, 1fr);
+    column-gap: 1.25rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--color-border);
+    scroll-margin-top: 1.25rem;
+    animation: lawRise 0.4s ease both;
+}
+
+.law-article:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+.law-article__num {
+    font-family: var(--font-serif);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+    white-space: nowrap;
+    padding-right: 0.75rem;
+    border-right: 1px solid var(--color-border);
+}
+
+.law-article__title {
+    font-family: var(--font-serif);
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.45;
+    color: var(--color-text);
+    margin-bottom: 0.625rem;
+}
+
+.law-article__body {
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+.law-article__body p {
+    margin-bottom: 0.6em;
+}
+
+.law-article__body p:last-child {
+    margin-bottom: 0;
+}
+
+/* 法条分项（(1)/(a)/① 等）：悬挂缩进，折行对齐正文起点 */
+.law-item {
+    display: grid;
+    grid-template-columns: minmax(1.75rem, max-content) minmax(0, 1fr);
+    column-gap: 0.25rem;
+    margin-bottom: 0.4em;
+}
+
+.law-item__marker {
+    color: var(--color-text-secondary);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+/* 编/章/节标题 */
+.law-part {
+    margin: 2.25rem 0 0.75rem;
+    padding: 0.5rem 0;
+    border-top: 1px solid var(--color-border-deep);
+    border-bottom: 1px solid var(--color-border-deep);
+    font-family: var(--font-serif);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: var(--color-text-secondary);
+}
+
+.law-more {
+    padding: 1.5rem 0 0.5rem;
+    text-align: center;
+}
+
+.law-more__hint {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+}
+
+.law-extra {
+    margin-top: 2.5rem;
+}
+
+.law-extra__head {
+    font-family: var(--font-serif);
+    font-size: 1.0625rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--color-text);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid var(--color-border-deep);
+}
+
+.law-extra__hint {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.75rem;
+}
+
+/* 附表条目用虚线上边界区分于正文条款 */
+.law-extra .law-article {
+    border-top: 1px dashed var(--color-border-deep);
+}
+
+/* 解析遗留片段整体降噪，表明并非正式条文 */
+.law-extra--frag .law-article {
+    opacity: 0.8;
+}
+
+.law-toc__head--sub {
+    margin-top: 1.25rem;
+}
+
+.law-similar {
+    margin-top: 2.5rem;
+}
+
+.law-similar__lead {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    margin-bottom: 1rem;
+}
+
+.law-similar__list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.law-similar__card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.875rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: var(--color-surface);
+    transition: border-color 0.15s ease;
+}
+
+.law-similar__card:hover {
+    border-color: var(--color-border-deep);
+}
+
+.law-similar__title {
+    font-family: var(--font-serif);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 0.25rem;
+}
+
+.law-similar__meter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.law-similar__track {
+    width: 84px;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--color-bg);
+    overflow: hidden;
+}
+
+.law-similar__fill {
+    height: 100%;
+    border-radius: 3px;
+    background: var(--color-secondary);
+}
+
+.law-similar__fill.is-high { background: var(--color-success); }
+.law-similar__fill.is-mid  { background: var(--color-warning); }
+
+.law-similar__pct {
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-text-secondary);
+    min-width: 34px;
+    text-align: right;
+}
+
+@keyframes lawRise {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .law-article { animation: none; }
+}
+
+@media (max-width: 1024px) {
+    .law-body {
+        grid-template-columns: minmax(0, 1fr);
+        row-gap: 1.5rem;
+    }
+
+    .law-toc {
+        position: static;
+        /* 单栏堆叠：解除显式列定位并回到正文之上 */
+        grid-column: auto;
+        order: -1;
+        max-height: 16rem;
+        padding: 0 0 0.75rem;
+        border-left: none;
+        border-bottom: 1px solid var(--color-border);
+    }
+}
+
+@media (max-width: 768px) {
+    .law-header__title { font-size: 1.375rem; }
+
+    .law-article {
+        grid-template-columns: minmax(0, 1fr);
+        row-gap: 0.5rem;
+    }
+
+    .law-article__num {
+        padding-right: 0;
+        border-right: none;
+    }
+
+    .law-item { grid-template-columns: minmax(1.5rem, max-content) minmax(0, 1fr); }
+}
+
+@media print {
+    .sidebar,
+    .law-toc,
+    .law-toolbar,
+    .law-detail__crumb,
+    .law-more,
+    .law-similar,
+    .loading {
+        display: none !important;
+    }
+
+    .main-content {
+        margin: 0;
+        padding: 0;
+        border: none;
+        max-width: none;
+        background: #FFFFFF;
+    }
+
+    .law-detail { max-width: none; }
+
+    .law-header { border-bottom: 2px solid #000000; }
+
+    .law-content,
+    .law-article__body {
+        color: #000000;
+        font-size: 10.5pt;
+        line-height: 1.7;
+    }
+
+    .law-article {
+        break-inside: avoid;
+        animation: none;
+        border-top-color: #CCCCCC;
+    }
+
+    .law-article__num {
+        color: #000000;
+        border-right-color: #CCCCCC;
+    }
 }

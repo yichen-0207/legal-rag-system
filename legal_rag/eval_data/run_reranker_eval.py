@@ -1,8 +1,4 @@
-"""
-第三阶段：单独运行 Re-ranker 策略（手动加载模型绕开 mmap）
-=====================================================
-使用 torch.load 加载权重（不经过 safetensors mmap，避免页面文件不足）
-"""
+"""第三阶段：单独运行 Re-ranker 策略（Phase 1 先生成混合检索候选，Phase 2 再加载模型重排，避免显存峰值）。"""
 import sys, os, json, math, gc
 from collections import defaultdict
 from typing import List
@@ -66,7 +62,7 @@ def compute_summary(results):
 
 
 def load_reranker_direct():
-    """加载 reranker（页面文件已扩大，可直接 from_pretrained）"""
+    """加载 reranker（直接 from_pretrained）。"""
     import torch
     from core.config import settings
     from transformers import AutoTokenizer, AutoModelForSequenceClassification

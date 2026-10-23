@@ -1,6 +1,3 @@
-/**
- * 跨法域专题分析页面
- */
 registerPage('topic', function(container) {
     container.innerHTML = `
         <h1 class="page-title">跨法域合规地图</h1>
@@ -47,7 +44,6 @@ registerPage('topic', function(container) {
         <div id="topic-result"></div>
     `;
 
-    // 加载专题列表和法域
     Promise.all([
         api.get('/structured-analysis/topics'),
         api.get('/search/jurisdictions')
@@ -69,7 +65,6 @@ registerPage('topic', function(container) {
                 const desc = this.options[this.selectedIndex].dataset.desc || '';
                 document.getElementById('topic-desc').textContent = desc;
             });
-            // 触发初始描述
             if (topicSelect.options.length > 0) {
                 document.getElementById('topic-desc').textContent = topicSelect.options[0].dataset.desc || '';
             }
@@ -90,12 +85,10 @@ registerPage('topic', function(container) {
         }
     }).catch(function() {});
 
-    // TopN 滑块
     document.getElementById('topic-topn').addEventListener('input', function() {
         document.getElementById('topic-topn-val').textContent = this.value;
     });
 
-    // 运行分析
     document.getElementById('topic-run').addEventListener('click', runTopicAnalysis);
 });
 
@@ -176,8 +169,7 @@ function runTopicAnalysis() {
         const tab = document.querySelector('.topic-tab-btn[data-tab="' + tabName + '"]');
         if (!tab) return;
         const target = document.getElementById('topic-tab-' + tabName);
-        if (!target || target.style.display === 'block') return; // 已在此tab
-        // 模拟点击切换
+        if (!target || target.style.display === 'block') return;
         tab.click();
     }
 
@@ -253,7 +245,6 @@ function runTopicAnalysis() {
 
         if (!contentEl) return;
 
-        // 如果没有 dimensions 或两个法域数据都没有，暂时不渲染
         if (dimensions.length === 0 || (!dataA && !dataB)) {
             if (loadingEl) loadingEl.style.display = 'block';
             return;
@@ -301,7 +292,6 @@ function runTopicAnalysis() {
             return html;
         }
 
-        // source_articles 展开/收起全局函数
         if (!window.toggleSourceArticles) {
             window.toggleSourceArticles = function(idPrefix) {
                 const fullEl = document.getElementById(idPrefix + '-full');
@@ -371,14 +361,12 @@ function runTopicAnalysis() {
 
         contentEl.innerHTML = fullHtml;
 
-        // 如果两个法域数据都全了，绑定AI解读按钮
         if (dataA && dataB) {
             bindAIInterpretButtons();
         }
     }
 
     function renderTableRows() {
-        // 改为委托给 renderStreamTable，保持向后兼容（tab点击仍然可用）
         renderStreamTable();
     }
 
@@ -437,7 +425,6 @@ function runTopicAnalysis() {
                     collectedData.extraction[jur] = {};
                 }
                 collectedData.extraction[jur][key] = value;
-                // 首次有维度数据到达时存入 dimensions 并切换到对比表
                 if (data.dimensions && data.dimensions.length > 0 && collectedData.dimensions.length === 0) {
                     collectedData.dimensions = data.dimensions;
                 }
@@ -455,9 +442,7 @@ function runTopicAnalysis() {
                 }
                 const keys = Object.keys(collectedData.extraction);
                 statusEl.innerHTML = '<div class="alert alert-info">已获取 ' + jur + ' 数据（' + keys.length + '/2）...</div>';
-                // 切换到对比表tab（谁先生成就优先展示谁）
                 switchTab('table');
-                // 逐条渲染对比表
                 renderStreamTable();
                 return;
             }
@@ -466,7 +451,6 @@ function runTopicAnalysis() {
                 collectedData.dimensions = data.data.dimensions || [];
                 collectedData.jurisdictions = data.data.jurisdictions || [jurA, jurB];
                 statusEl.innerHTML = '<div class="alert alert-info">两个法域数据已就绪，正在生成仪表盘...</div>';
-                // 两个法域数据都到了，重新渲染完整表格
                 renderStreamTable();
                 return;
             }
@@ -487,10 +471,8 @@ function runTopicAnalysis() {
 
             if (type === 'summary_chunk') {
                 collectedData.summary += data.data;
-                // 实时更新对比表中的总结区域（如果已渲染）
                 const contentEl = document.getElementById('topic-table-content');
                 if (contentEl && collectedData.summary) {
-                    // 查找或创建 summary 区
                     let summaryEl = document.getElementById('topic-stream-summary');
                     if (!summaryEl) {
                         const existing = contentEl.querySelector('.topic-summary-section');
@@ -570,23 +552,19 @@ function renderTopicResult(container, result, jurA, jurB) {
 
     let html = '';
 
-    // 视图切换
     html += '<div style="margin-bottom:1rem;display:flex;gap:0.5rem;">';
     html += '<button class="btn btn-primary btn-sm topic-tab-btn" data-tab="dashboard">合规仪表盘</button>';
     html += '<button class="btn btn-secondary btn-sm topic-tab-btn" data-tab="table">结构化对比表</button>';
     html += '</div>';
 
-    // 仪表盘视图
     html += '<div id="topic-tab-dashboard">';
     html += renderTopicDashboard(dashboard, jurA, jurB);
     html += '</div>';
 
-    // 对比表视图
     html += '<div id="topic-tab-table" style="display:none;">';
     html += renderTopicTable(dimensions, dataA, dataB, jurA, jurB, summary);
     html += '</div>';
 
-    // 全局 AI 追问区
     html += '<hr class="divider" style="margin-top:2rem;">';
     html += '<h2 class="section-title">继续追问 AI</h2>';
     html += '<div class="card" style="margin-bottom:1rem;">';
@@ -599,7 +577,6 @@ function renderTopicResult(container, result, jurA, jurB) {
 
     container.innerHTML = html;
 
-    // 绑定 Tab 切换
     container.querySelectorAll('.topic-tab-btn').forEach(function(btn) {
         btn.addEventListener('click', function() {
             container.querySelectorAll('.topic-tab-btn').forEach(function(b) {
@@ -611,10 +588,8 @@ function renderTopicResult(container, result, jurA, jurB) {
         });
     });
 
-    // 渲染雷达图
     renderTopicRadar(dashboard, jurA, jurB);
 
-    // 绑定 AI 解读按钮
     container.querySelectorAll('.ai-interpret-btn').forEach(function(btn) {
         btn.addEventListener('click', function() {
             const payload = JSON.parse(btn.dataset.payload || '{}');
@@ -623,7 +598,6 @@ function renderTopicResult(container, result, jurA, jurB) {
         });
     });
 
-    // 绑定追问按钮
     document.getElementById('topic-follow-up-btn').addEventListener('click', function() {
         const input = document.getElementById('topic-follow-up-input');
         const question = input.value.trim();
@@ -703,7 +677,6 @@ function renderTopicDashboard(dashboard, jurA, jurB) {
     let html = '<h2 class="section-title">「' + topicName + '」合规仪表盘</h2>';
     html += '<div style="font-size:0.8125rem;color:var(--color-text-muted);margin-bottom:1rem;">对比法域：' + jurA + ' vs ' + jurB + '</div>';
 
-    // 评分卡片
     html += '<div class="grid-3">';
     html += renderScoreCard(jurA, scores[jurA] || 3.0, scoreReasons[jurA] || '');
     html += renderScoreCard(jurB, scores[jurB] || 3.0, scoreReasons[jurB] || '');
@@ -720,7 +693,6 @@ function renderTopicDashboard(dashboard, jurA, jurB) {
     html += '</div>';
     html += '</div>';
 
-    // 雷达图
     if (radarLabels.length > 0 && radar[jurA] && radar[jurB]) {
         html += '<h2 class="section-title">多维度雷达对比</h2>';
         html += '<div class="card" style="margin-bottom:1rem;">';
@@ -728,7 +700,6 @@ function renderTopicDashboard(dashboard, jurA, jurB) {
         html += '</div>';
     }
 
-    // 关键差异点详情
     if (differences.length > 0) {
         html += '<h2 class="section-title">关键差异点详情</h2>';
         differences.forEach(function(diff, i) {
@@ -819,9 +790,6 @@ function renderTopicTable(dimensions, dataA, dataB, jurA, jurB, summary) {
 }
 
 
-// AI 解读请求
-
-// AI 解读请求
 function requestAIInterpret(targetId, payload, jurA, jurB, topicName) {
     const targetEl = document.getElementById(targetId);
     if (!targetEl) return;
@@ -829,15 +797,21 @@ function requestAIInterpret(targetId, payload, jurA, jurB, topicName) {
     targetEl.style.display = 'block';
     targetEl.innerHTML = '<div class="loading" style="padding:1rem;"><div class="spinner"></div>AI 正在深度解读...</div>';
 
-    const url = new URL(API_BASE + '/structured-analysis/ai-interpret', window.location.origin);
-    url.searchParams.set('dimension_label', payload.dimension_label || '');
-    url.searchParams.set('detail_a', payload.detail_a || '');
-    url.searchParams.set('detail_b', payload.detail_b || '');
-    url.searchParams.set('jurisdiction_a', jurA);
-    url.searchParams.set('jurisdiction_b', jurB);
-    url.searchParams.set('topic_name', topicName);
+    // 参数放请求体：detail_a/detail_b 为条款正文（可能是长文本/JSON），拼进 URL 会触发 414
+    const body = {
+        dimension_label: payload.dimension_label || '',
+        detail_a: payload.detail_a || '',
+        detail_b: payload.detail_b || '',
+        jurisdiction_a: jurA,
+        jurisdiction_b: jurB,
+        topic_name: topicName
+    };
 
-    fetch(url.toString(), { method: 'POST' }).then(function(resp) { return resp.json(); }).then(function(data) {
+    fetch(API_BASE + '/structured-analysis/ai-interpret', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+    }).then(function(resp) { return resp.json(); }).then(function(data) {
         if (data && data.success && data.data) {
             targetEl.innerHTML = '<div class="markdown-body" style="background:var(--color-info-bg);padding:0.75rem 1rem;border-radius:6px;border-left:3px solid var(--color-info);">' + renderMarkdown(data.data.interpretation || '') + '</div>';
         } else {
@@ -848,7 +822,6 @@ function requestAIInterpret(targetId, payload, jurA, jurB, topicName) {
     });
 }
 
-// 追问请求
 function requestFollowUp(question, result, jurA, jurB, topicName) {
     const historyEl = document.getElementById('topic-follow-up-history');
     if (!historyEl) return;
@@ -861,13 +834,16 @@ function requestFollowUp(question, result, jurA, jurB, topicName) {
 
     const answerEl = qDiv.querySelector('.follow-up-answer');
 
-    const url = new URL(API_BASE + '/topic-analysis/follow-up', window.location.origin);
-    url.searchParams.set('follow_up_question', question);
+    // 追问问题与大对象原文一并放请求体，避免任何文本进入 URL 查询串触发 414
+    const body = {
+        follow_up_question: question,
+        original_analysis: result
+    };
 
-    fetch(url.toString(), {
+    fetch(API_BASE + '/topic-analysis/follow-up', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ original_analysis: result })
+        body: JSON.stringify(body)
     }).then(function(resp) { return resp.json(); }).then(function(data) {
         if (data && data.success && data.data) {
             answerEl.innerHTML = '<div class="markdown-body">' + renderMarkdown(data.data.answer || '') + '</div>';
@@ -878,5 +854,3 @@ function requestFollowUp(question, result, jurA, jurB, topicName) {
         answerEl.innerHTML = '<div class="alert alert-error" style="margin:0;">追问请求失败：' + err.message + '</div>';
     });
 }
-
-// ===== 网络图谱渲染代码已移至独立页面 kg.js =====

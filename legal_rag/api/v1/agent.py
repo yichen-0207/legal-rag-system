@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Query, Request
 from fastapi.responses import StreamingResponse
 from typing import Optional
 import json
@@ -8,8 +8,7 @@ from api.v1.qa import _parse_history
 
 router = APIRouter(prefix="/agent", tags=["Agent"])
 
-# 模块级单例：AgentService 构造仅持有轻量对象（RetrieverService/QAService 均为单例或轻量），
-# 与 api/v1/qa.py 的做法保持一致。
+# 模块级单例（与 api/v1/qa.py 一致）
 agent_service = AgentService()
 
 
@@ -23,13 +22,8 @@ async def agent_stream(
 ):
     """迭代式工具调用问答（SSE）。
 
-    开关 LEGAL_AGENT_ENABLED 关闭时，本接口自动降级为既有 RAG 问答，端点始终可用。
-    mode=auto（默认）时按复杂度路由：仅复杂查询走多步探索，简单/定向查询直接走既有
-    快速 RAG（与 /qa/stream 同路径），避免用简单查询的延迟换复杂查询的收益。
-
-    事件类型：route / status / step / observation / sources / content / end；其中
-    route 给出本次实际走的分支与原因，end.trace 给出完整工具调用轨迹，便于前端展示
-    「这次为什么走这条路」与「推理过程」。
+    LEGAL_AGENT_ENABLED 关闭时自动降级为既有 RAG；mode=auto 按复杂度路由，
+    简单查询直接走快速 RAG。事件：route / status / step / observation / sources / content / end。
     """
     jurisdiction_list = None
     if jurisdictions:
@@ -38,6 +32,54 @@ async def agent_stream(
     history_list = _parse_history(history)
 
     def generate():
+        for chunk in agent_service.ask_stream(
+            question, top_k, jurisdiction_list, history_list, route_mode=mode
+        ):
+            yield f"data: {json.dumps(chunk, ensure_ascii=False)}\n\n"
+
+    return StreamingResponse(
+        generate(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "X-Accel-Buffering": "no",
+        },
+    )
+
+
+@router.post("/stream")
+async def agent_stream_post(request: Request):
+    """迭代式工具调用问答（SSE，POST 版本），历史放入 body 避免 URL 过长。"""
+    try:
+        data = await request.json()
+    except Exception:
+        data = {}
+
+    question = str(data.get("question") or "").strip()
+    top_k = int(data.get("top_k") or 5)
+
+    jurisdictions = data.get("jurisdictions")
+    jurisdiction_list = None
+    if isinstance(jurisdictions, list):
+        jurisdiction_list = [str(j).strip() for j in jurisdictions if str(j).strip()]
+    elif isinstance(jurisdictions, str) and jurisdictions:
+        jurisdiction_list = [j.strip() for j in jurisdictions.split(",") if j.strip()]
+
+    history = data.get("history")
+    if isinstance(history, list):
+        history_list = history
+    elif isinstance(history, str):
+        history_list = _parse_history(history)
+    else:
+        history_list = None
+
+    mode = data.get("mode") or "auto"
+
+    def generate():
+        if not question:
+            yield f"data: {json.dumps({'type': 'error', 'data': '问题不能为空'}, ensure_ascii=False)}\n\n"
+            return
         for chunk in agent_service.ask_stream(
             question, top_k, jurisdiction_list, history_list, route_mode=mode
         ):

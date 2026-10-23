@@ -1,6 +1,3 @@
-/**
- * 数据总览看板页面
- */
 registerPage('dashboard', function(container) {
     container.innerHTML = `
         <h1 class="page-title">数据总览看板</h1>
@@ -25,7 +22,6 @@ registerPage('dashboard', function(container) {
 function renderDashboard(container, stats) {
     let html = '';
 
-    // 维度一：核心统计指标
     const overview = stats.overview || {};
     html += '<h2 class="section-title">核心数据概览</h2>';
     html += '<div class="stat-cards">';
@@ -35,7 +31,6 @@ function renderDashboard(container, stats) {
     html += statCard('主题类别', overview.topic_count || 0);
     html += '</div>';
 
-    // 维度二：法域分布
     const jurisdiction = stats.jurisdiction || {};
     html += '<h2 class="section-title">法域分布</h2>';
     html += '<div class="grid-2">';
@@ -49,7 +44,6 @@ function renderDashboard(container, stats) {
     html += '</div>';
     html += '</div>';
 
-    // 维度三：主题分类分布
     const topics = stats.topics || [];
     html += '<h2 class="section-title">主题分类分布</h2>';
     html += '<div class="grid-2">';
@@ -63,7 +57,6 @@ function renderDashboard(container, stats) {
     html += '</div>';
     html += '</div>';
 
-    // 维度四：时间变化趋势
     const timeTrend = stats.time_trend || {};
     html += '<h2 class="section-title">立法时间趋势</h2>';
     html += '<div class="grid-2">';
@@ -79,7 +72,6 @@ function renderDashboard(container, stats) {
 
     container.innerHTML = html;
 
-    // 渲染图表
     renderJurisdictionCharts(jurisdiction);
     renderTopicCharts(topics);
     renderTimeCharts(timeTrend);
@@ -137,7 +129,6 @@ function renderJurisdictionCharts(jurisdiction) {
     }
 }
 
-// 计算两个中文字符串的字符级 Jaccard 相似度
 function topicSimilarity(a, b) {
     var setA = new Set(a.replace(/\s+/g, ''));
     var setB = new Set(b.replace(/\s+/g, ''));
@@ -150,9 +141,7 @@ function topicSimilarity(a, b) {
     return union > 0 ? intersect / union : 0;
 }
 
-// 从主题列表中选取最具代表性的主题（去相似、按数量排序）
 function selectRepresentativeTopics(topics, maxCount) {
-    // 按 count 降序排序
     var sorted = topics.slice().sort(function(a, b) { return (b.count || 0) - (a.count || 0); });
     var selected = [];
     var SIMILARITY_THRESHOLD = 0.5;
@@ -160,7 +149,6 @@ function selectRepresentativeTopics(topics, maxCount) {
     sorted.forEach(function(item) {
         var name = item.label_zh || item.topic || '';
         if (!name) return;
-        // 检查是否与已选主题相似
         var isSimilar = selected.some(function(s) {
             return topicSimilarity(name, s.label_zh || s.topic || '') >= SIMILARITY_THRESHOLD;
         });
@@ -169,12 +157,10 @@ function selectRepresentativeTopics(topics, maxCount) {
         }
     });
 
-    // 取前 maxCount 个
     return selected.slice(0, maxCount);
 }
 
 function renderTopicCharts(topics) {
-    // 真实词云实现
     var wordcloudEl = document.getElementById('topic-wordcloud');
     if (topics.length > 0) {
         renderWordCloud(wordcloudEl, topics);
@@ -182,7 +168,6 @@ function renderTopicCharts(topics) {
         wordcloudEl.innerHTML = '暂无主题数据';
     }
 
-    // 真实热力图实现 — 选取最具代表性的主题（最多 10 个）
     var selectedTopics = selectRepresentativeTopics(topics, 10);
 
     var heatmapData = [];
@@ -213,7 +198,6 @@ function renderTopicCharts(topics) {
     }
 }
 
-// 词云渲染函数（3D 视差版）
 function renderWordCloud(container, topics) {
     container.innerHTML = '';
 
@@ -228,7 +212,6 @@ function renderWordCloud(container, topics) {
         return;
     }
 
-    // 为容器设置 3D 透视
     container.style.perspective = '800px';
     container.style.overflow = 'hidden';
     container.style.cursor = 'grab';
@@ -239,7 +222,6 @@ function renderWordCloud(container, topics) {
     const maxFontSize = 48;
     const minFontSize = 14;
 
-    // 在容器内创建一个 tilt 层，应用 3D 变换
     const tiltLayer = document.createElement('div');
     tiltLayer.style.cssText = 'position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform 0.1s ease-out;';
     container.appendChild(tiltLayer);
@@ -270,16 +252,13 @@ function renderWordCloud(container, topics) {
             'pointer-events:none',
             // Z 轴深度：大字更靠前（z 正），小字靠后（z 负）
             'transform:translateZ(' + Math.round((fontSize - minFontSize) * 2) + 'px)',
-            // 文字阴影增强立体感
             'text-shadow:' + [
                 '0 1px 2px rgba(0,0,0,0.15)',
                 '0 2px 6px rgba(0,0,0,0.06)'
             ].join(','),
-            // 大字略微旋转增加自然感
             'transform:rotate(' + (Math.random() * 4 - 2).toFixed(1) + 'deg) translateZ(' + Math.round((fontSize - minFontSize) * 2) + 'px)',
         ].join(';');
 
-        // 测量文字宽度
         var temp = document.createElement('span');
         temp.style.cssText = 'visibility:hidden;position:absolute;font-size:' + fontSize + 'px;font-weight:700;font-family:"Noto Serif SC", "SimSun", serif;white-space:nowrap;';
         temp.textContent = word.text;
@@ -289,7 +268,6 @@ function renderWordCloud(container, topics) {
 
         var th = fontSize;
 
-        // 螺旋布局
         var placed = false;
         var existing = tiltLayer.querySelectorAll('span');
         var existingRects = [];
@@ -332,7 +310,6 @@ function renderWordCloud(container, topics) {
             }
         }
 
-        // 如果螺旋没放下，简单的随机放置
         if (!placed) {
             span.style.left = Math.random() * (cw - tw - 20) + 10 + 'px';
             span.style.top = Math.random() * (ch - th - 20) + 10 + 'px';
@@ -340,12 +317,10 @@ function renderWordCloud(container, topics) {
         }
     });
 
-    // 鼠标移动 3D 视差效果
     container.addEventListener('mousemove', function(e) {
         var rect = container.getBoundingClientRect();
         var x = (e.clientX - rect.left) / rect.width;
         var y = (e.clientY - rect.top) / rect.height;
-        // 鼠标位置映射到旋转角度：中心为 0，边缘最大 ±12deg
         var tiltX = (y - 0.5) * -20;
         var tiltY = (x - 0.5) * 20;
         tiltLayer.style.transform = [
@@ -383,8 +358,7 @@ function setupHeatmapCanvas(canvas, wrap, topicCount, jurCount) {
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 }
 
-// 热力图颜色阶：法律文书暖棕色系（羊皮纸 -> 赭石 -> 深褐）
-// 阈值与背景色、文字色均经过对比度校验，确保可读性
+// 热力图颜色阶：法律文书暖棕色系（羊皮纸 -> 赭石 -> 深褐），配色经对比度校验
 const HEATMAP_COLOR_STOPS = [
     { threshold: 0.0, bg: '#faf8f3', text: '#a8a29e' },
     { threshold: 0.2, bg: '#f3e9d8', text: '#92400e' },
@@ -418,13 +392,11 @@ function drawRoundRect(ctx, x, y, w, h, r) {
     ctx.closePath();
 }
 
-// 热力图渲染函数
 function renderHeatmap(ctx, width, height, topics, jurisdictions, data) {
     ctx.clearRect(0, 0, width, height);
 
     if (topics.length === 0 || jurisdictions.length === 0) return;
 
-    // 计算边距
     const marginLeft = 150;
     const marginTop = 24;
     const marginRight = 24;
@@ -436,10 +408,8 @@ function renderHeatmap(ctx, width, height, topics, jurisdictions, data) {
     const cellWidth = plotWidth / jurisdictions.length;
     const cellHeight = plotHeight / topics.length;
 
-    // 找到最大值用于颜色映射
     const maxCount = Math.max.apply(null, data.map(function(d) { return d.count; }));
 
-    // 绘制单元格
     topics.forEach(function(topic, i) {
         jurisdictions.forEach(function(jur, j) {
             const item = data.find(function(d) { return d.topic === topic && d.jurisdiction === jur; });
@@ -453,12 +423,10 @@ function renderHeatmap(ctx, width, height, topics, jurisdictions, data) {
             const ratio = maxCount > 0 ? count / maxCount : 0;
             const style = getHeatmapColor(ratio);
 
-            // 绘制圆角单元格
             drawRoundRect(ctx, x, y, w, h, 8);
             ctx.fillStyle = style.bg;
             ctx.fill();
 
-            // 绘制数值
             if (cellWidth > 28 && cellHeight > 22) {
                 ctx.fillStyle = style.text;
                 ctx.font = 'bold 13px "Inter", "Noto Sans SC", sans-serif';
@@ -470,7 +438,6 @@ function renderHeatmap(ctx, width, height, topics, jurisdictions, data) {
         });
     });
 
-    // 绘制 Y 轴标签（主题）
     ctx.fillStyle = '#475569';
     ctx.font = '13px "Inter", "Noto Sans SC", sans-serif';
     ctx.textAlign = 'right';
@@ -482,7 +449,6 @@ function renderHeatmap(ctx, width, height, topics, jurisdictions, data) {
         ctx.fillText(label, marginLeft - 12, y);
     });
 
-    // 绘制 X 轴标签（法域）
     ctx.fillStyle = '#475569';
     ctx.font = '13px "Inter", "Noto Sans SC", sans-serif';
     ctx.textBaseline = 'top';
@@ -502,7 +468,6 @@ function renderHeatmap(ctx, width, height, topics, jurisdictions, data) {
         ctx.restore();
     });
 
-    // 绘制颜色图例
     const legendX = marginLeft;
     const legendY = height - 34;
     const legendW = 160;
@@ -532,7 +497,6 @@ function renderTimeCharts(timeTrend) {
 
     const periods = timeSeries.map(function(item) { return item.period; });
 
-    // 折线图（不分法域，整体趋势）
     const lineCtx = document.getElementById('time-line-chart').getContext('2d');
     const totalValues = timeSeries.map(function(item) { return item.total || 0; });
 
@@ -558,7 +522,6 @@ function renderTimeCharts(timeTrend) {
         }
     });
 
-    // 柱状图
     const totalCounts = timeSeries.map(function(item) { return item.total || 0; });
     const barCtx = document.getElementById('time-bar-chart').getContext('2d');
     new Chart(barCtx, {

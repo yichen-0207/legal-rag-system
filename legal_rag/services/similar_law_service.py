@@ -4,25 +4,19 @@ from repositories.elasticsearch import ElasticsearchRepository
 
 
 class SimilarLawService:
-    """相似法规推荐服务（主题感知版）
+    """相似法规推荐服务（主题感知版）。
 
-    核心思路：法律文本的向量相似度主要反映结构相似性（定义、义务、罚则等通用法律语言），
-    而非主题相关性。因此采用「主题优先 + 向量为辅」的策略：
-    1. 主题硬过滤：只推荐与查询法规有主题重叠的法规
-    2. 主题加权排序：主题重叠度作为主要排序因子
-    3. 向量相似度作为次要因子，区分同主题内的相关程度
+    法律文本的向量相似度主要反映结构相似性而非主题相关性，故采用「主题优先 + 向量为辅」：
+    主题硬过滤、主题重叠度主导排序（60%），向量相似度仅区分同主题内的相关程度（40%）。
     """
 
-    def __init__(self):
-        self.repo = ElasticsearchRepository()
+    def __init__(self, repo: Optional[ElasticsearchRepository] = None):
+        self.repo = repo or ElasticsearchRepository()
 
     # ===== 主题分析 =====
 
     def _analyze_law_topics(self, chunks: List[Dict]) -> Dict[str, int]:
-        """
-        统计法规各主题的出现频次。
-        返回: {"数据保护": 12, "网络安全": 8, ...}
-        """
+        """统计法规各主题的出现频次，返回 {"数据保护": 12, ...}。"""
         topic_counts: Dict[str, int] = {}
         for chunk in chunks:
             for topic in chunk.get("topic_labels", []):
@@ -30,11 +24,7 @@ class SimilarLawService:
         return topic_counts
 
     def _compute_topic_overlap(self, query_topics: Dict[str, int], candidate_topics: Dict[str, int]) -> float:
-        """
-        计算两个法规之间的主题重叠度（加权 Jaccard 相似度）。
-        使用权重：高频主题的重叠更有意义。
-        返回 0~1 之间的分数。
-        """
+        """计算两个法规的主题重叠度（频次加权 Jaccard，0~1）：高频主题的重叠更有意义。"""
         if not query_topics or not candidate_topics:
             return 0.0
 
@@ -61,10 +51,7 @@ class SimilarLawService:
     # ===== 向量计算 =====
 
     def _compute_median_vector(self, chunks: List[Dict]) -> Optional[List[float]]:
-        """
-        计算法规所有 chunk 向量的中位数向量。
-        中位数比平均值更鲁棒，不受极端值影响。
-        """
+        """计算法规所有 chunk 向量的中位数向量（比均值更鲁棒，不受极端值影响）。"""
         if not chunks:
             return None
 
@@ -88,14 +75,10 @@ class SimilarLawService:
         return median_vec.tolist()
 
     def _compute_representative_vector(self, chunks: List[Dict]) -> Optional[List[float]]:
-        """
-        计算法规的代表性向量：先聚类，再从每个簇中选中心点，最后平均。
-        简化版：按 chunk_index 均匀采样 N 个 chunk，然后计算中位数。
-        """
+        """法规代表性向量：按 chunk_index 均匀采样（最多 20 个，避免长法规主导）后取中位数。"""
         if not chunks:
             return None
 
-        # 均匀采样最多 20 个 chunk（避免长法规主导）
         sample_size = min(20, len(chunks))
         if sample_size >= len(chunks):
             sampled = chunks
@@ -108,18 +91,67 @@ class SimilarLawService:
     # ===== 批量获取主题 =====
 
     def _batch_get_law_topics(self, law_ids: List[str]) -> Dict[str, Dict[str, int]]:
+        """批量获取多个法规的主题分布，单次 ES 聚合查询（不拉 embedding/正文），避免 N+1。"""
+        if not law_ids:
+            return {}
+        try:
+            return self.repo.batch_get_law_topic_distributions(law_ids)
+        except Exception:
+            return {law_id: {} for law_id in law_ids}
+
+    # ===== 质心预计算 =====
+
+    def compute_law_centroid(self, law_id: str) -> Optional[Dict]:
+        """复现 median-of-sampled-20 逻辑，计算法规质心及元数据（供落库）。
+
+        先仅投影 chunk_index 定位采样位、再回取 ≤20 条 chunk 的 embedding，避免传输整部法规向量。
+        返回 None 表示该法规无有效向量数据。
         """
-        批量获取多个法规的主题分布。
-        返回: {law_id: {"数据保护": 12, "网络安全": 8, ...}, ...}
-        """
-        result = {}
-        for law_id in law_ids:
-            try:
-                chunks = self.repo.get_law_chunk_vectors(law_id)
-                result[law_id] = self._analyze_law_topics(chunks)
-            except Exception:
-                result[law_id] = {}
-        return result
+        indices = self.repo.get_law_chunk_indices(law_id)
+        if not indices:
+            return None
+
+        n = len(indices)
+        sample_size = min(20, n)
+        if sample_size < n:
+            positions = np.linspace(0, n - 1, sample_size, dtype=int)
+            needed = sorted({int(indices[p]) for p in positions})
+        else:
+            needed = sorted(int(i) for i in indices)
+
+        chunks = self.repo.get_law_chunks_by_indices(law_id, needed)
+        if not chunks:
+            return None
+
+        vectors = [c["embedding"] for c in chunks if c.get("embedding")]
+        if not vectors:
+            return None
+
+        arr = np.array(vectors, dtype=np.float32)
+        median_vec = np.median(arr, axis=0)
+        norm = np.linalg.norm(median_vec)
+        if norm > 0:
+            median_vec = median_vec / norm
+
+        topic_dist = self.repo.batch_get_law_topic_distributions([law_id]).get(law_id, {})
+
+        return {
+            "centroid": median_vec.tolist(),
+            "jurisdiction": chunks[0].get("jurisdiction", ""),
+            "title": chunks[0].get("title", ""),
+            "chunk_count": n,
+            "topic_distribution": topic_dist,
+        }
+
+    def build_and_save_centroid(self, law_id: str) -> bool:
+        """计算并落库指定法规质心（失败静默返回 False，不影响主流程）"""
+        try:
+            data = self.compute_law_centroid(law_id)
+            if not data:
+                return False
+            return self.repo.save_law_centroid(law_id, **data)
+        except Exception:
+            return False
 
     # ===== 核心方法 =====
 
@@ -129,45 +161,36 @@ class SimilarLawService:
         top_k: int = 5,
         jurisdiction_filter: Optional[str] = None
     ) -> Dict:
+        """核心方法：根据 law_id 查找最相似的 top_k 部法规（主题感知版）。
+
+        优先用预计算质心，缺失时降级为运行时计算代表向量；KNN 多取候选后按主题硬过滤，
+        以 主题重叠度 60% + 归一化向量相似度 40% 综合评分，最后做跨法域多样性选择。
         """
-        核心方法：根据 law_id 查找最相似的 top_k 部法规（主题感知版）。
+        # 1. 优先读取预计算质心；缺失时降级为运行时拉取整部法规向量
+        centroid_doc = self.repo.get_law_centroid(query_law_id)
+        rep_vector = None
 
-        算法流程：
-        1. 获取查询法规的 chunk 向量和主题分布
-        2. 计算代表性向量（中位数）
-        3. KNN 搜索候选法规（多取一些）
-        4. 批量获取候选法规的主题分布
-        5. 主题硬过滤：只保留有主题重叠的法规
-        6. 综合评分：主题重叠度(60%) + 向量相似度(40%)
-        7. 跨法域多样性选择
-        """
-        # 1. 获取查询法规的所有 chunk 向量（含主题）
-        chunks = self.repo.get_law_chunk_vectors(query_law_id)
-        if not chunks:
-            return {
-                "query_law_id": query_law_id,
-                "similar_laws": [],
-                "total_found": 0,
-                "message": "未找到该法规的向量数据"
-            }
+        if centroid_doc and centroid_doc.get("centroid"):
+            query_law_title = centroid_doc.get("title", "")
+            query_jurisdiction = centroid_doc.get("jurisdiction", "")
+            chunk_count = centroid_doc.get("chunk_count", 0)
+            query_topic_dist = centroid_doc.get("topic_distribution", {}) or {}
+            rep_vector = centroid_doc.get("centroid")
+        else:
+            chunks = self.repo.get_law_chunk_vectors(query_law_id)
+            if not chunks:
+                return {
+                    "query_law_id": query_law_id,
+                    "similar_laws": [],
+                    "total_found": 0,
+                    "message": "未找到该法规的向量数据"
+                }
+            query_law_title = chunks[0].get("title", "")
+            query_jurisdiction = chunks[0].get("jurisdiction", "")
+            chunk_count = len(chunks)
+            query_topic_dist = self._analyze_law_topics(chunks)
+            rep_vector = self._compute_representative_vector(chunks)
 
-        query_law_title = chunks[0].get("title", "")
-        query_jurisdiction = chunks[0].get("jurisdiction", "")
-        chunk_count = len(chunks)
-
-        # 2. 分析查询法规的主题分布
-        query_topic_dist = self._analyze_law_topics(chunks)
-        query_topics_set = set(query_topic_dist.keys())
-
-        if not query_topics_set:
-            # 无主题信息时降级为纯向量搜索
-            return self._fallback_vector_search(
-                chunks, query_law_id, query_law_title, query_jurisdiction,
-                chunk_count, top_k, jurisdiction_filter
-            )
-
-        # 3. 计算代表性向量（中位数）
-        rep_vector = self._compute_representative_vector(chunks)
         if rep_vector is None:
             return {
                 "query_law_id": query_law_id,
@@ -176,7 +199,15 @@ class SimilarLawService:
                 "message": "无法计算法规的代表性向量"
             }
 
-        # 4. KNN 搜索候选法规（多取一些用于后续过滤）
+        # 2. 主题集合；无主题信息时降级为纯向量搜索
+        query_topics_set = set(query_topic_dist.keys())
+        if not query_topics_set:
+            return self._fallback_vector_search(
+                rep_vector, query_law_id, query_law_title, query_jurisdiction,
+                chunk_count, top_k, jurisdiction_filter
+            )
+
+        # 3. KNN 搜索候选法规（多取一些用于后续过滤）
         raw_results = self.repo.knn_search_similar(
             query_vector=rep_vector,
             top_k=top_k * 8,  # 多取，因为后续要过滤
@@ -193,7 +224,7 @@ class SimilarLawService:
                 "message": "未找到相似的法规"
             }
 
-        # 5. 按 law_id 聚合，获取每个候选法规的最高相似度
+        # 4. 按 law_id 聚合，获取每个候选法规的最高相似度
         law_max_sim: Dict[str, float] = {}
         law_chunks: Dict[str, List[Dict]] = {}
 
@@ -214,11 +245,11 @@ class SimilarLawService:
                 "similarity": sim
             })
 
-        # 6. 批量获取候选法规的主题分布
+        # 5. 批量获取候选法规的主题分布
         candidate_law_ids = list(law_max_sim.keys())
         candidate_topics = self._batch_get_law_topics(candidate_law_ids)
 
-        # 7. 主题硬过滤 + 综合评分
+        # 6. 主题硬过滤 + 综合评分
         scored_laws = []
         for law_id, max_sim in law_max_sim.items():
             cand_topics = candidate_topics.get(law_id, {})
@@ -264,13 +295,13 @@ class SimilarLawService:
                 "shared_topics": list(query_topics_set & cand_topics_set)
             })
 
-        # 8. 按综合评分排序
+        # 7. 按综合评分排序
         scored_laws.sort(key=lambda x: x["composite_score"], reverse=True)
 
-        # 9. 跨法域多样性选择
+        # 8. 跨法域多样性选择
         selected = self._select_diverse_results(scored_laws, top_k, query_jurisdiction)
 
-        # 10. 构建返回结果
+        # 9. 构建返回结果
         similar_laws = []
         for entry in selected:
             similar_laws.append({
@@ -298,7 +329,7 @@ class SimilarLawService:
 
     def _fallback_vector_search(
         self,
-        chunks: List[Dict],
+        rep_vector: Optional[List[float]],
         query_law_id: str,
         query_law_title: str,
         query_jurisdiction: str,
@@ -306,10 +337,7 @@ class SimilarLawService:
         top_k: int,
         jurisdiction_filter: Optional[str]
     ) -> Dict:
-        """
-        降级方案：当查询法规无主题信息时，使用纯向量搜索。
-        """
-        rep_vector = self._compute_representative_vector(chunks)
+        """降级方案：查询法规无主题信息时使用纯向量搜索。"""
         if rep_vector is None:
             return {
                 "query_law_id": query_law_id,
@@ -386,9 +414,7 @@ class SimilarLawService:
     # ===== 跨法域多样性 =====
 
     def _select_diverse_results(self, scored_laws: List[Dict], top_k: int, query_jurisdiction: str) -> List[Dict]:
-        """
-        从评分结果中选择 top_k，同时保证跨法域多样性。
-        """
+        """从评分结果中选 top_k：先每法域取第一（优先非查询法域），再按评分补满。"""
         if not scored_laws:
             return []
 
@@ -435,9 +461,7 @@ class SimilarLawService:
         top_k: int = 10,
         jurisdiction_filter: Optional[str] = None
     ) -> Dict:
-        """
-        基于单条 chunk 的相似条款推荐。
-        """
+        """基于单条 chunk 的相似条款推荐（向量 KNN，排除同法规）。"""
         doc = self.repo.get(query_chunk_id)
         if not doc:
             return {

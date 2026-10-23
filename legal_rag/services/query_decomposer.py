@@ -1,23 +1,18 @@
-"""多跳 B：查询分解（规则前置 → LLM 兜底 → 失败降级单跳）。
+"""查询分解（规则前置 → LLM 兜底 → 失败降级单跳）。
 
-把「工伤赔偿和年假规定有什么要求」这类复合查询拆成若干单一意图子查询，交给
-RetrieverService 并行检索后合并；规则无法判定时再用 LLM 兜底。
-
-设计约束：
-  - 规则前置：能从字面确定性切分就不调 LLM（省时、确定、可复现）；
-  - LLM 兜底：仅当查询「明显复合但规则切不干净」时启用，且带超时；
-  - 失败降级：任何异常/超时/解析失败一律返回 []，调用方回退单跳，绝不阻断检索；
-  - 不处理「多法域」查询：那类查询已由 RetrieverService._route_to_jurisdictions
-    的跨法域路由负责，此处主动让路，避免重复检索与语义重叠。
+规则能确定性切分就不调 LLM；LLM 兜底带超时；任何异常/超时/解析失败一律返回 []，调用方回退单跳。
+多法域查询让路给既有的跨法域路由，避免重复检索与语义重叠。
 """
 from __future__ import annotations
 
-import json
 import logging
 import re
 from typing import List
 
+from pydantic import BaseModel, Field
+
 from core.config import settings
+from core.llm import get_chat_model
 
 logger = logging.getLogger(__name__)
 
@@ -37,8 +32,8 @@ _CONJUNCTION_RE = re.compile(r"以及|並且|并且|和|與|与|跟|、|對比|�
 # 定向查询（点名「第 X 条」）不参与分解：置顶逻辑在单跳路径里，分解会绕过它。
 _TARGET_ARTICLE_RE = re.compile(r"第\s*\d+\s*[条條]")
 
-# 触发 LLM 兜底的最小查询长度：太短的句子几乎不会是真正的复合问题，
-# 用长度门槛挡掉「和平与发展」这类被误判的短语，避免无谓的 LLM 调用与延迟。
+# 触发 LLM 兜底的最小查询长度：太短的句子几乎不是复合问题，
+# 用长度门槛挡掉「和平与发展」这类误判，避免无谓的 LLM 调用与延迟。
 _LLM_MIN_LEN = 12
 # 规则切分后每段的最小长度（字符）。
 _MIN_PART_LEN = 3
@@ -70,7 +65,7 @@ def _split_by_conjunction(query: str) -> List[str]:
     """按第一个并列/对比标志把查询一分为二；任一侧过短则视为切不干净。
 
     右半段补上左半段的共享限定语，避免产生「治理体系是怎样的」这类丢失主体的
-    子查询——那会召回大量无关文档，把噪声带进合并候选池。
+    子查询把噪声带进合并候选池。
     """
     m = _CONJUNCTION_RE.search(query)
     if not m:
@@ -84,21 +79,20 @@ def _split_by_conjunction(query: str) -> List[str]:
     return [left, right_full]
 
 
-def _parse_llm_subqueries(text: str, original: str) -> List[str]:
-    """从 LLM 输出里稳定地取出子查询列表（优先 JSON 数组，退化为逐行）。"""
-    parts: List[str] = []
-    m = re.search(r"\[.*\]", text or "", re.S)
-    if m:
-        try:
-            arr = json.loads(m.group(0))
-            parts = [str(x).strip() for x in arr if str(x).strip()]
-        except Exception:
-            parts = []
-    if not parts:
-        parts = [ln.strip(" \t-•*0123456789.、)") for ln in (text or "").splitlines() if ln.strip()]
+class _DecomposedQueries(BaseModel):
+    """查询分解的结构化输出。"""
 
+    queries: List[str] = Field(
+        default_factory=list,
+        description="拆分后的子查询列表；无法拆解时返回空列表",
+    )
+
+
+def _sanitize_subqueries(parts: List[str], original: str) -> List[str]:
+    """过滤空串、原查询本身与重复项。"""
     out: List[str] = []
     for p in parts:
+        p = str(p).strip()
         if p and p != original and len(p) >= 2 and p not in out:
             out.append(p)
     return out
@@ -111,7 +105,6 @@ def _llm_decompose(query: str) -> List[str]:
     api_key = settings.llm_api_key or ""
     if not api_key:
         return []
-    base_url = settings.llm_api_base_url or "https://api.deepseek.com/v1"
     model = settings.llm_model or "deepseek-flash"
     prompt = (
         "你是法规检索的查询改写助手。把下面这条可能包含多个问题的复合查询，"
@@ -119,23 +112,21 @@ def _llm_decompose(query: str) -> List[str]:
         "要求：\n"
         "1. 每条子查询自包含，不要出现「上述/前者/后者/它」等指代；\n"
         "2. 保留原查询中的法域、时间范围等限定条件；\n"
-        "3. 如果它其实只有一个问题、无法拆解，返回空数组 []；\n"
-        "4. 只输出 JSON 数组，例如 [\"子查询1\",\"子查询2\"]，不要输出解释。\n"
+        "3. 如果它其实只有一个问题、无法拆解，返回空列表；\n"
         f"查询：{query}"
     )
     try:
-        from openai import OpenAI
-        client = OpenAI(api_key=api_key, base_url=base_url,
-                        timeout=settings.multihop_decompose_llm_timeout)
-        resp = client.chat.completions.create(
+        llm = get_chat_model(
             model=model,
-            messages=[{"role": "user", "content": prompt}],
             temperature=0,
             max_tokens=200,
-            stream=False,
+            timeout=float(settings.multihop_decompose_llm_timeout),
         )
-        text = (resp.choices[0].message.content or "").strip()
-        return _parse_llm_subqueries(text, query)
+        # 端点仅支持 function_calling 方式（json_schema 实测返回 400）
+        result: _DecomposedQueries = llm.with_structured_output(
+            _DecomposedQueries, method="function_calling"
+        ).invoke(prompt)
+        return _sanitize_subqueries(list(result.queries or []), query)
     except Exception as e:  # 超时/网络/解析等一律降级
         logger.warning("LLM 查询分解失败，降级单跳: %s", e)
         return []
@@ -144,8 +135,7 @@ def _llm_decompose(query: str) -> List[str]:
 def decompose_query(query: str) -> List[str]:
     """把复合查询拆成子查询列表；无法/无需分解时返回 []。
 
-    返回的子查询**不包含**原查询——调用方负责把原查询作为锚点一并检索，
-    从而保证分解只增加候选、不丢原有召回。
+    返回的子查询不含原查询——调用方需把原查询作为锚点一并检索，保证分解只增加候选、不丢原有召回。
     """
     q = (query or "").strip()
     if len(q) < 4:

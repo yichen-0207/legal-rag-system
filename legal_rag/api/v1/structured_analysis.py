@@ -6,7 +6,7 @@ import json, asyncio
 
 # /stream 之外的以下路由刻意声明为同步 def：处理器内部是阻塞调用（ES 检索、LLM 解读、
 # 图计算），FastAPI 会把 def 路由放进线程池；写成 async def 会独占单进程的事件循环。
-# /stream 是流式接口，其生成器已用 run_in_executor 显式卸载阻塞迭代，必须保持 async。
+# /stream 的生成器已用 run_in_executor 显式卸载阻塞迭代，必须保持 async。
 router = APIRouter(prefix="/structured-analysis", tags=["结构化专题分析"])
 service = StructuredAnalysisService()
 
@@ -29,10 +29,7 @@ async def run_analysis_stream(
     top_n: int = Query(10, ge=3, le=20, description="每个法域检索条款数"),
     include_summary: bool = Query(True, description="是否生成LLM差异总结")
 ):
-    """
-    流式执行跨法域结构化专题分析（SSE）
-    新增事件类型：dashboard_done（仪表盘数据）、network_done（网络图数据）
-    """
+    """流式执行跨法域结构化专题分析（SSE，含 dashboard_done / network_done 事件）。"""
     async def generate():
         loop = asyncio.get_event_loop()
         _SENTINEL = object()
@@ -71,12 +68,7 @@ async def run_analysis_stream(
 def get_dashboard(
     analysis_result: dict = Body(..., description="已有的结构化分析结果")
 ):
-    """
-    基于已有分析结果，生成仪表盘数据：
-    - 保护力度评分（1-5分）
-    - 雷达图各维度得分
-    - 关键差异点列表
-    """
+    """基于已有分析结果生成仪表盘数据（保护力度评分 / 雷达图得分 / 关键差异点）。"""
     try:
         dashboard = service.generate_dashboard(analysis_result)
         return APIResponse(success=True, data=dashboard)
@@ -86,25 +78,17 @@ def get_dashboard(
 
 @router.post("/ai-interpret")
 def ai_interpret(
-    dimension_label: str = Query(..., description="差异维度名称"),
-    detail_a: str = Query("", description="法域A的具体规定"),
-    detail_b: str = Query("", description="法域B的具体规定"),
-    jurisdiction_a: str = Query(..., description="法域A名称"),
-    jurisdiction_b: str = Query(..., description="法域B名称"),
-    topic_name: str = Query(..., description="专题名称")
+    request_data: dict = Body(..., description="解读参数：dimension_label/detail_a/detail_b/jurisdiction_a/jurisdiction_b/topic_name")
 ):
-    """
-    AI 深度解读某个具体差异维度。
-    用通俗语言解释实务影响、合规策略建议。
-    """
+    """AI 深度解读某个差异维度；条款正文较长，故经请求体传入以免 URL 超长 414。"""
     try:
         interpretation = service.ai_interpret(
-            dimension_label=dimension_label,
-            detail_a=detail_a,
-            detail_b=detail_b,
-            jurisdiction_a=jurisdiction_a,
-            jurisdiction_b=jurisdiction_b,
-            topic_name=topic_name
+            dimension_label=request_data.get("dimension_label", ""),
+            detail_a=request_data.get("detail_a", ""),
+            detail_b=request_data.get("detail_b", ""),
+            jurisdiction_a=request_data.get("jurisdiction_a", ""),
+            jurisdiction_b=request_data.get("jurisdiction_b", ""),
+            topic_name=request_data.get("topic_name", "")
         )
         return APIResponse(success=True, data={"interpretation": interpretation})
     except Exception as e:
@@ -121,11 +105,7 @@ def get_network_graph(
     min_similarity: float = Query(0.6, ge=0.0, le=1.0, description="跨法域语义对齐的最低相似度"),
     cross_top_k: int = Query(2, ge=1, le=5, description="每个条款最多保留的跨域对齐数")
 ):
-    """
-    获取关联网络图数据。
-    节点=法条，边=同法规关联/跨法域语义对齐（bge-m3 向量 + 每节点 Top-K 稀疏化）。
-    可指定 center_law_id 以某法条为中心展开子图。
-    """
+    """关联网络图：节点=法条，边=同法规关联/跨法域语义对齐（bge-m3 向量 + 每节点 Top-K 稀疏化）。"""
     try:
         queries = service.get_topic_queries(topic_id)
         if not queries:
@@ -153,10 +133,7 @@ def get_alignment_matrix(
     top_n: int = Query(10, description="每法域检索条款数"),
     min_similarity: float = Query(0.6, ge=0.0, le=1.0, description="语义对齐的最低相似度"),
 ):
-    """
-    法规级对齐矩阵：行=法域A法规、列=法域B法规，格值=语义对口的条款对数量。
-    用于跨法域对比的"总览"视图（比条款级力导向图清晰得多）。
-    """
+    """法规级对齐矩阵：行=法域A法规、列=法域B法规，格值=语义对口的条款对数量。"""
     try:
         data = service.get_alignment_matrix(
             topic_id, jurisdiction_a, jurisdiction_b,
@@ -227,31 +204,7 @@ def get_cache_status(
 def find_shortest_path(
     request_data: dict = Body(..., description="最短路径查询参数"),
 ):
-    """
-    最短路径查找接口
-
-    在知识图谱中执行BFS搜索，找出两个法条节点之间的最短关联路径。
-
-    请求体：
-    {
-        "nodes": [...],           // 图谱节点列表（来自network_graph数据）
-        "edges": [...],           // 图谱边列表
-        "source_id": "node_0",    // 起始节点ID
-        "target_id": "node_5",    // 目标节点ID
-        "max_depth": 6,          // 最大搜索深度（可选，默认6）
-        "interpret": false       // 是否同时生成AI解读（可选，默认false）
-    }
-
-    返回：
-    {
-        "found": true,
-        "path_nodes": [...],      // 路径上的节点
-        "path_edges": [...],      // 路径上的边（含关系详情）
-        "hops": 3,                // 跳数
-        "path_description": "...", // 文字描述
-        "interpretation": "..."   // AI解读（仅当interpret=true时）
-    }
-    """
+    """在知识图谱中 BFS 查找两个法条节点的最短关联路径（可选同时生成 AI 解读）。"""
     try:
         nodes = request_data.get("nodes", [])
         edges = request_data.get("edges", [])
@@ -266,7 +219,6 @@ def find_shortest_path(
                 message="缺少必要参数：source_id 和 target_id 均为必填"
             )
 
-        # 执行BFS最短路径搜索
         result = service.find_shortest_path(
             nodes=nodes,
             edges=edges,
@@ -275,7 +227,6 @@ def find_shortest_path(
             max_depth=max_depth
         )
 
-        # 可选：生成AI解读
         if do_interpret and result.get("found"):
             interpretation = service.interpret_path(result)
             result["interpretation"] = interpretation

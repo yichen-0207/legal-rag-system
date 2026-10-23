@@ -1,9 +1,4 @@
-"""
-生成4张优化后评估图表
-=====================
-检索评估: ①分组柱状图 ②Recall折线图
-问答评估: ③三指标概览 ④评分分布堆叠柱状图
-"""
+"""生成 4 张评估图表：①四策略分组柱状图 ②Recall 折线图 ③问答三指标概览 ④评分分布堆叠柱状图。"""
 import os, json, datetime
 import matplotlib
 matplotlib.use('Agg')
@@ -29,13 +24,7 @@ with open(QA_PATH, "r", encoding="utf-8") as f:
 
 
 def report_vintage() -> None:
-    """打印两组输入数据的产出时点，相差超过 1 天时告警。
-
-    背景：图表①②取自 run_enhanced_eval.py 的检索结果，图表③④取自 run_qa_eval.py 的
-    问答结果，是两份各自独立产出的 JSON（内部没有时间戳字段，故以文件 mtime 为准）。
-    历史上出现过「检索基线已重跑、问答结果仍是旧批次」的情况：四张图看起来成套，
-    实则横跨两个时点，写进报告会自相矛盾。这里把它显式暴露出来。
-    """
+    """打印两组输入数据的产出时点，相差超过 1 天时告警（①② 来自 run_enhanced_eval，③④ 来自 run_qa_eval，均无内部时间戳，以文件 mtime 为准）。"""
     def fmt(p: str) -> str:
         return datetime.datetime.fromtimestamp(os.path.getmtime(p)).strftime("%Y-%m-%d %H:%M")
 

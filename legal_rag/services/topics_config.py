@@ -1,10 +1,6 @@
-"""
-跨法域专题对比 — 预设专题配置 v2
+"""跨法域专题对比的预设专题配置。
 
-设计原则：
-- 每个专题严格对应澳门+新加坡双方均有实质性法规的领域
-- search_queries 取自 taxonomy_merged.json 的关键词，确保 ES 能命中
-- dimensions 设计贴合各法实际条文结构，让 LLM 提取有据可依
+每个专题严格对应澳门+新加坡双方均有实质性法规的领域；search_queries 取自 taxonomy_merged.json 的关键词以确保 ES 能命中。
 """
 
 TOPICS: list[dict] = [

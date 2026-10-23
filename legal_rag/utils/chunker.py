@@ -3,9 +3,8 @@ from typing import List, Dict, Optional, Union
 from core.config import settings
 
 
-# 句子/段落边界字符：真滑窗切分时优先在这些字符之后落刀（找不到再硬切）
+# 滑窗切分的优先落刀位置（句读/换行）；长条款结构化切分另用编号行作边界
 _BOUNDARY_CHARS = "。！？；;.!?\n"
-# 条款内部结构行：长条款结构化切分时作为优先边界（(1)/(a)/1./1、/第X条 等）
 _STRUCT_LINE_RE = re.compile(
     r"^\s*(?:[（(]\s*[0-9a-zA-Z]{1,4}\s*[)）]|[0-9]{1,3}\s*[\.、)]|"
     r"第[〇零一二三四五六七八九十百千0-9]+[条節节款项])"
@@ -22,13 +21,7 @@ def _find_boundary_cut(text: str, start: int, hard_end: int) -> int:
 
 
 def chunk_text(text: str, chunk_size: int = None, chunk_overlap: int = None) -> List[str]:
-    """真滑动窗口切片。
-
-    旧实现把窗口尾部截掉 chunk_overlap 当"重叠"：相邻块实际零重叠（首块还被
-    缩短、只有最后一块保持完整尺寸）。现实现：窗口固定 chunk_size，步长 =
-    chunk_size - chunk_overlap，相邻窗口真实重叠 chunk_overlap 个字符；切点
-    优先落在句读/换行边界（窗口后半段内搜索），找不到才硬切。
-    """
+    """真滑动窗口切片：相邻窗口实际重叠 chunk_overlap 个字符，切点优先落在句读/换行边界。"""
     chunk_size = chunk_size or settings.chunk_size
     chunk_overlap = chunk_overlap or settings.chunk_overlap
     if chunk_size <= 0:
@@ -53,11 +46,7 @@ def chunk_text(text: str, chunk_size: int = None, chunk_overlap: int = None) -> 
 
 
 def _split_into_blocks(text: str) -> List[str]:
-    """把长文本按「段落 + 编号行」切成结构化块。
-
-    编号行（(1)/(a)/1./第X条 等）是条款内部的天然语义单元；切分点优先落在这里，
-    避免把一条编号规定从中间劈开（旧实现纯按字符窗切，编号内容常被拦腰截断）。
-    """
+    """按「段落 + 编号行」切块，避免把一条编号规定从中间劈开。"""
     blocks: List[str] = []
     buf: List[str] = []
 
@@ -129,11 +118,7 @@ def _resplit_long_text(text: str, chunk_size: int = None, chunk_overlap: int = N
 
 
 def _build_embed_prefix(item: Dict) -> str:
-    """子块 embedding 标题前缀：【法规名 条款号 条款标题】。
-
-    仅用于 embedding 输入（不写入 content）：向量化时补回条款标题上下文，
-    正文展示、BM25 检索与引用扩展均不受影响。
-    """
+    """子块 embedding 标题前缀（仅进向量化输入，不写入 content）。"""
     parts = [
         str(item.get("law_name") or "").strip(),
         str(item.get("article_number") or "").strip(),
@@ -146,11 +131,7 @@ def _build_embed_prefix(item: Dict) -> str:
 
 
 def process_pre_chunked_data(data_list: List[Dict]) -> List[Dict]:
-    """
-    处理已经预分块的数据（cleaned格式）
-    输入: 数组格式的条款列表
-    输出: 标准化的chunks列表
-    """
+    """把预分块的 cleaned 条款列表标准化为 chunks。"""
     chunks = []
 
     for item in data_list:
@@ -160,13 +141,11 @@ def process_pre_chunked_data(data_list: List[Dict]) -> List[Dict]:
         if not text:
             continue
 
-        # 提取 topics 信息（用于主题筛选）
-        # 优先从 topics_details 获取（含中文 label_zh），其次从 topics（字符串ID）映射
+        # 主题信息：优先 topics_details（含中文标签），其次 topics 字符串 ID 映射
         raw_topics_details = item.get('topics_details', [])
         raw_topics = item.get('topics', [])
         topics = []
 
-        # 优先使用 topics_details（已有中文标签）
         if isinstance(raw_topics_details, list) and raw_topics_details:
             for t in raw_topics_details:
                 if isinstance(t, dict):
@@ -174,7 +153,7 @@ def process_pre_chunked_data(data_list: List[Dict]) -> List[Dict]:
                         'id': t.get('id', ''),
                         'label_zh': t.get('label_zh', ''),
                     })
-        # 回退：topics 是字符串数组，需要映射为中文标签
+        # 回退：字符串 ID 映射为中文标签
         elif isinstance(raw_topics, list) and raw_topics:
             from repositories.elasticsearch import _to_label_zh
             for t in raw_topics:
@@ -200,6 +179,8 @@ def process_pre_chunked_data(data_list: List[Dict]) -> List[Dict]:
             chunk = {
                 'text': sub_text,
                 'article_number': item.get('article_number', ''),
+                # 条目类型（substantive/schedule 等），供检索筛选与分区
+                'chunk_type': item.get('chunk_type', ''),
                 'part_title': item.get('chapter', ''),  # chapter对应原来的part_title
                 # 额外保留原始元数据
                 '_meta': {
@@ -228,15 +209,7 @@ def process_pre_chunked_data(data_list: List[Dict]) -> List[Dict]:
 
 
 def chunk_from_structure(data: Union[Dict, List]) -> List[Dict]:
-    """
-    从结构化数据提取chunks - 支持多种格式
-
-    支持的格式:
-    1. 新格式: 数组 [ {...}, {...} ] (cleaned文件)
-    2. 旧格式1: data['structure']['parts'][...]['chapters'][...]['articles'][...]
-    3. 旧格式2: data['chapters'][...]['articles'][...]
-    4. 旧格式3: data['articles'][...]
-    """
+    """从结构化数据提取 chunks，兼容数组新格式与三种旧嵌套格式。"""
 
     # 格式0: 新清洗数据的数组格式 [ {...}, {...} ]
     if isinstance(data, list):

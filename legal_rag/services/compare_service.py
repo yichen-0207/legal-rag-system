@@ -9,11 +9,9 @@ from repositories.elasticsearch import ElasticsearchRepository
 
 
 class CompareService:
-    """
-    法规对比服务
+    """法规对比服务：分别检索两个法域的条款 → 聚合为法规级 → 表格展示 + 自动总结。
 
-    核心能力：分别检索两个法域的条款 → 聚合为法规级 → 结构化表格展示 + 自动总结 + 条款对照 + 关键词提取。
-    与专题分析的区别：专题分析调用LLM生成深度报告；法规对比以检索+展示为主，可选LLM增强。
+    与专题分析不同：以检索+展示为主，可选 LLM 增强，不生成深度报告。
     """
 
     def __init__(self):
@@ -64,11 +62,9 @@ class CompareService:
     # ================================================================
 
     def _compute_fingerprint(self, topic: str, jurisdiction_a: str, jurisdiction_b: str) -> str:
-        """
-        生成对比分析的综合指纹（MD5）。
+        """生成对比分析的综合指纹（MD5）。
 
-        指纹仅基于稳定输入参数（topic + jurisdictions + 检索关键词），
-        不依赖 ES 检索结果（向量检索每次返回的列表可能不同）。
+        指纹仅基于稳定输入（topic + 两个法域 + 检索关键词），不依赖每次可能不同的检索结果。
         """
         queries_a = self._get_search_queries(topic, jurisdiction_a)
         queries_b = self._get_search_queries(topic, jurisdiction_b)
@@ -119,27 +115,14 @@ class CompareService:
         jurisdiction: str,
         top_k: int = 10,
     ) -> List[Dict]:
-        """
-        检索指定法域的法规并聚合为法规级别结果。
-
-        Args:
-            topic: 搜索主题
-            jurisdiction: 法域名称
-            top_k: 每个法域返回的条款数上限
-        Returns:
-            聚合后的法规列表，每个元素包含：
-              - law_id, title, article_numbers (list), chunk_count
-              - passing_date, keywords, chunks_preview (前5条摘要)
-              - max_similarity, all_chunks (完整列表用于前端渲染)
-        """
+        """检索指定法域的法规并聚合为法规级结果（按 law_id 汇总条款、关键词与相似度）。"""
         start_time = time.time()
 
         # 根据法域选择合适的检索词（新加坡用英文，澳门用中文）
         queries = self._get_search_queries(topic, jurisdiction)
         raw = self.repo.query(queries, n_results=top_k, where={"jurisdiction": jurisdiction})
 
-        # 将 ChromaDB 格式（{ids: [[...]], documents: [[...]], metadatas: [[...]]}）
-        # 展平为 [{law_id, content, metadata, similarity, _id}, ...]
+        # 把 {ids: [[...]], documents: [[...]], metadatas: [[...]]} 展平为条目列表
         results = []
         all_ids = raw.get("ids", [])
         all_docs = raw.get("documents", [])
@@ -262,8 +245,7 @@ class CompareService:
 
     @staticmethod
     def _extract_keywords(text: str, top_n: int = 5) -> List[str]:
-        """从文本中提取高频实词作为关键词"""
-        # 简单分词 + 词频统计（实际项目可替换为 jieba）
+        """从文本中提取高频实词作为关键词（简单分词 + 词频统计）。"""
         words = re.findall(r'[\u4e00-\u9fff]{2,}|[\w]{3,}', text.lower())
         stop_words = {
             'the', 'and', 'for', 'that', 'this', 'with', 'are', 'was', 'has',
@@ -283,18 +265,7 @@ class CompareService:
         jurisdiction_a: str,
         jurisdiction_b: str,
     ) -> Dict:
-        """
-        构建对比指标统计。
-
-        返回结构与前端的 renderCompareStats / renderKeywordsComparison 对齐：
-        {
-            "total_chunks": {jurA: int, jurB: int},
-            "law_counts": {jurA: int, jurB: int},
-            "best_similarity": {jurA: float, jurB: float},
-            "avg_similarity": {jurA: float, jurB: float},
-            "top_keywords": {jurA: list, jurB: list},
-        }
-        """
+        """构建对比指标统计，返回结构与前端 renderCompareStats / renderKeywordsComparison 对齐。"""
         all_chunks_a = [c for r in results_a for c in r.get("all_chunks", [])]
         all_chunks_b = [c for r in results_b for c in r.get("all_chunks", [])]
 
@@ -391,27 +362,11 @@ class CompareService:
         jurisdiction_b: str,
         top_k_per_jurisdiction: int = 10,
     ) -> Dict:
-        """
-        执行双法域对比分析（带缓存）。
-
-        流程：检索 → 计算指纹 → 查缓存（命中直接返回）→ 未命中则构建结果并写入缓存
-
-        Returns:
-            {
-                "topic": str,
-                "jurisdictions": [str, str],
-                "results_a": [...],
-                "results_b": [...],
-                "elapsed_seconds": float,
-                "_cache_hit": bool   # 缓存状态标记
-            }
-        """
+        """执行双法域对比分析（带缓存）：检索 → 计算指纹 → 查缓存 → 未命中则构建并写缓存。"""
         overall_start = time.time()
 
-        # 步骤1：计算指纹 + 检查缓存。
-        # 指纹只由 topic 与两个法域决定，不依赖检索结果（见 _compute_fingerprint 文档），
-        # 因此可以提到检索之前：命中时直接返回，省掉后续两次法域检索
-        # （实测：未命中约 1~2s，命中约 0.01s）。
+        # 步骤1：计算指纹 + 检查缓存。指纹只由 topic 与两个法域决定、不依赖检索结果，
+        # 故可提到检索之前：命中时直接返回，省掉两次法域检索。
         current_fingerprint = self._compute_fingerprint(topic, jurisdiction_a, jurisdiction_b)
         cached_result = self._try_get_cached(topic, jurisdiction_a, jurisdiction_b, current_fingerprint)
         if cached_result is not None:

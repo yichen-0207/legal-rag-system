@@ -1,11 +1,7 @@
-"""
-主题分类器：基于 taxonomy_merged.json 的关键词匹配实现。
+"""主题分类器：基于 taxonomy_merged.json 的关键词匹配。
 
-输出格式：
-- topics: topic id 字符串数组
-- topic_labels: 中文标签数组
-- topics_details: 包含 id/label_zh/score/matched_keywords 的对象数组
-- taxonomy_version: 词表版本号
+输出 topics / topic_labels / topics_details（id, label_zh, score, matched_keywords）/
+taxonomy_version。
 """
 
 import json
