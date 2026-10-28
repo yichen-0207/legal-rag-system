@@ -1,5 +1,6 @@
+import re
 from enum import Enum
-from typing import Dict, Tuple
+from typing import Dict, FrozenSet, List, Sequence, Tuple
 
 
 class Jurisdiction(str, Enum):
@@ -41,6 +42,13 @@ JURISDICTION_ALIASES: Dict[str, str] = {
     "malaysia": "马来西亚",
     "japan": "日本",
     "singapore": "新加坡",
+    "sg": "新加坡",
+    "usa": "美国",
+    "us": "美国",
+    "united states": "美国",
+    "mac": "中国澳门",
+    "tw": "台湾",
+    "taiwan": "台湾",
 }
 
 
@@ -119,3 +127,115 @@ def get_jurisdiction_info(jurisdiction: str) -> Tuple[str, str]:
 def get_all_jurisdictions() -> list:
     """获取所有已定义的法域列表"""
     return list(JURISDICTION_INFO.keys())
+
+
+# ============================================================
+# 查询期法域识别：检索 / 智能体 / 专题分析共同依赖的唯一事实源
+# ============================================================
+
+# 触发词表：规范法域 → 查询中可能出现的写法。
+# 新增法域入库后必须同步维护，缺项时该法域只能靠语义向量兜底，召回精度更低。
+RETRIEVAL_TRIGGERS: Dict[str, List[str]] = {
+    "中国香港": ["中国香港", "香港", "hongkong", "hong kong", "hk"],
+    "中国澳门": ["中国澳门", "澳门", "澳門", "macau", "macao"],
+    "中国大陆": ["中国大陆", "mainland china", "china"],
+    "新加坡": ["新加坡", "singapore"],
+    "马来西亚": ["马来西亚", "malaysia"],
+    "日本": ["日本", "japan"],
+    "韩国": ["韩国", "韓国", "south korea", "korea"],
+    "泰国": ["泰国", "thailand"],
+    "越南": ["越南", "vietnam"],
+    "澳大利亚": ["澳大利亚", "澳洲", "australia"],
+    "美国": ["美国", "united states", "usa"],
+}
+
+# 未被香港/澳门/台湾限定的「中国」→ 中国大陆；「中国」不直接入触发词表，
+# 否则「中国香港」会被同时判为中国大陆。
+CHINA_STANDALONE_RE = re.compile(r"中国(?!香港|澳门|澳門|台湾|臺灣)")
+
+# 区域 → 法域清单（跨法域扇出）
+REGION_MAP: Dict[str, List[str]] = {
+    "亚太地区": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国",
+                 "越南", "中国澳门", "中国大陆", "澳大利亚"],
+    "亚太": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国",
+             "越南", "中国澳门", "中国大陆", "澳大利亚"],
+    "东南亚各国": ["新加坡", "马来西亚", "泰国", "越南"],
+    "东南亚": ["新加坡", "马来西亚", "泰国", "越南"],
+    "东亚": ["日本", "韩国", "中国香港", "中国澳门", "中国大陆"],
+    "亚洲各国": ["日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
+                 "中国香港", "中国澳门", "中国大陆"],
+    "亚洲主要国家": ["日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
+                     "中国香港", "中国澳门", "中国大陆"],
+    "亚洲各司法管辖区": ["日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
+                         "中国香港", "中国澳门", "中国大陆"],
+    "各国": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
+             "中国澳门", "中国大陆", "澳大利亚", "美国"],
+    "不同法域": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
+                 "中国澳门", "中国大陆", "澳大利亚", "美国"],
+    "各司法管辖区": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
+                     "中国澳门", "中国大陆", "澳大利亚", "美国"],
+}
+
+# 查询中直接点名的法域关键词 → 规范名（含英文与旧称）
+JURISDICTION_KEYWORDS: Dict[str, str] = {
+    "美国": "美国", "日本": "日本", "新加坡": "新加坡",
+    "泰国": "泰国", "越南": "越南", "中国香港": "中国香港",
+    "中国澳门": "中国澳门", "马来西亚": "马来西亚",
+    "韩国": "韩国", "澳大利亚": "澳大利亚",
+    "香港": "中国香港", "澳门": "中国澳门",
+    "中国大陆": "中国大陆", "china": "中国大陆",
+    "macau": "中国澳门", "macao": "中国澳门",
+    "hong kong": "中国香港", "singapore": "新加坡",
+    "japan": "日本", "thailand": "泰国",
+    "vietnam": "越南", "malaysia": "马来西亚",
+    "korea": "韩国", "australia": "澳大利亚", "澳洲": "澳大利亚",
+    "united states": "美国", "usa": "美国",
+}
+
+# 比较型问句（无法确定区域时的扇出信号）
+COMPARE_KEYWORDS: List[str] = [
+    "有何异同", "有何差异", "比较", "区别", "差异", "异同", "不同模式", "versus", "vs",
+]
+
+# 有数据的法域清单：比较型查询兜底扇出用
+ALL_DATA_JURISDICTIONS: List[str] = [
+    "美国", "日本", "韩国", "新加坡", "中国香港", "中国澳门",
+    "中国大陆", "马来西亚", "泰国", "越南", "澳大利亚",
+]
+
+# 以英文语料为主的法域：专题分析必须改用英文检索词，
+# 否则用中文主题词去检索英文条文，召回显著劣化。新增英文法域后需同步补充。
+ENGLISH_JURISDICTIONS: FrozenSet[str] = frozenset({
+    "新加坡", "中国香港", "香港", "韩国", "澳大利亚", "美国",
+    "Singapore", "Hong Kong", "Korea", "Australia", "USA",
+})
+
+
+def trigger_hit(trigger: str, query: str, lowered: str) -> bool:
+    """触发词匹配：ASCII 词加边界，避免 'hk' 命中 'shk' 这类子串误判；中文用子串。"""
+    if trigger.isascii():
+        return re.search(
+            rf"(?<![a-z0-9]){re.escape(trigger)}(?![a-z0-9])", lowered
+        ) is not None
+    return trigger in query
+
+
+def detect_single_jurisdiction(query: str) -> Tuple[str, List[str]]:
+    """识别查询中的**唯一**法域，返回 (法域或空串, 命中的全部法域)。
+
+    命中多个必须由调用方按「非唯一」处理：单法域会被当成检索硬过滤条件，
+    直接丢掉其余法域的召回（「美国与日本的跨境规则」曾被过滤成只搜美国）。
+    """
+    text = query or ""
+    lowered = text.lower()
+    matched = {
+        jurisdiction
+        for jurisdiction, triggers in RETRIEVAL_TRIGGERS.items()
+        if any(trigger_hit(t, text, lowered) for t in triggers)
+    }
+    if CHINA_STANDALONE_RE.search(text):
+        matched.add("中国大陆")
+    ordered = [j for j in ALL_DATA_JURISDICTIONS if j in matched]
+    if len(ordered) != 1:
+        return "", ordered
+    return ordered[0], ordered

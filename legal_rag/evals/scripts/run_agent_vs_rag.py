@@ -11,12 +11,10 @@ import sys
 import time
 from collections import Counter, defaultdict
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, "/app")
-sys.path.insert(0, BASE_DIR)
+from _bootstrap import DATASETS_DIR, RESULTS_DIR, SCRIPTS_DIR
 
 # 复用 run_qa_eval 的数据加载与 judge 实现，避免重复维护
-_spec = importlib.util.spec_from_file_location("rqe", os.path.join(BASE_DIR, "run_qa_eval.py"))
+_spec = importlib.util.spec_from_file_location("rqe", os.path.join(SCRIPTS_DIR, "run_qa_eval.py"))
 rqe = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(rqe)
 
@@ -25,12 +23,12 @@ from services.qa_service import QAService  # noqa: E402
 from services.agent.agent_service import AgentService  # noqa: E402
 
 TOP_K = 5
-OUTPUT_PATH = os.path.join(BASE_DIR, "eval_agent_vs_rag.json")
+OUTPUT_PATH = os.path.join(RESULTS_DIR, "eval_agent_vs_rag.json")
 
 
 def _load_subset_ids(path: str) -> str:
     """读取固定回归子集（JSON 字符串数组），返回逗号分隔的 query_id（与 run_ragas_eval --subset 同口径）。"""
-    p = path if os.path.isabs(path) else os.path.join(BASE_DIR, path)
+    p = path if os.path.isabs(path) else os.path.join(DATASETS_DIR, path)
     with open(p, "r", encoding="utf-8") as f:
         ids = json.load(f)
     return ",".join(str(x) for x in ids)

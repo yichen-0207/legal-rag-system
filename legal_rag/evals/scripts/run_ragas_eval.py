@@ -8,19 +8,20 @@ import argparse
 import json
 import os
 import re
-import sys
 import warnings
 from datetime import datetime
 from pathlib import Path
 from statistics import mean
 
+from _bootstrap import DATASETS_DIR, PROJECT_ROOT, RESULTS_DIR
+
 # ragas 0.4.3 运行时提示改用 metrics.collections，但 evaluate() 只接受 metrics.Metric 子类，故抑制弃用告警。
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-BASE = Path(__file__).resolve().parent          # legal_rag/eval_data
-ROOT = BASE.parent                              # legal_rag
-ENV_PATH = ROOT.parent / ".env"
-RAW_DIR = ROOT / "data" / "raw_v2"
+DATASETS = Path(DATASETS_DIR)                   # legal_rag/evals/datasets
+RESULTS = Path(RESULTS_DIR)                     # legal_rag/evals/results
+ENV_PATH = Path(PROJECT_ROOT).parent / ".env"   # 仓库根 .env
+RAW_DIR = Path(PROJECT_ROOT) / "data" / "raw_v2"
 
 QUERY_VARIANT = "B_nl_zh"                       # 与 run_qa_eval.py 的 USE_VARIANT 保持一致
 TEXT_FIELDS = ("text_zh", "text_en", "text_pt", "text_original_language")
@@ -44,7 +45,7 @@ def _load_llm_config() -> tuple:
 
 def _load_queries() -> dict:
     """返回 {query_id: 查询文本}，与 run_qa_eval.load_queries 口径一致。"""
-    data = json.loads((BASE / "eval_queries.json").read_text(encoding="utf-8"))
+    data = json.loads((DATASETS / "eval_queries.json").read_text(encoding="utf-8"))
     out = {}
     for item in data.get("queries", []):
         text = item.get(QUERY_VARIANT, "")
@@ -55,7 +56,7 @@ def _load_queries() -> dict:
 
 def _load_gold() -> dict:
     """返回 {base_query_id: [relevant]}：clause 数据中 id 形如 "Q001_A"，按 "_" 截断到 base id 后聚合。"""
-    items = json.loads((BASE / "eval_dataset_clause.json").read_text(encoding="utf-8"))
+    items = json.loads((DATASETS / "eval_dataset_clause.json").read_text(encoding="utf-8"))
     gold = {}
     for item in items:
         qid = item.get("id", "")
@@ -96,7 +97,7 @@ def _load_subset(path: str) -> set:
     """读取固定回归子集文件：JSON 字符串数组（query_id 列表）。"""
     p = Path(path)
     if not p.is_absolute():
-        p = BASE / p
+        p = DATASETS / p
     data = json.loads(p.read_text(encoding="utf-8"))
     if not isinstance(data, list) or not all(isinstance(x, str) for x in data):
         raise SystemExit(f"子集文件必须是 query_id 字符串数组：{p}")
@@ -129,7 +130,7 @@ def main() -> int:
     ap.add_argument("--out", default="eval_ragas_report.json", help="报告输出文件名")
     args = ap.parse_args()
 
-    artifact = BASE / args.artifact
+    artifact = RESULTS / args.artifact
     if not artifact.exists():
         raise SystemExit(f"产物不存在：{artifact}")
 
@@ -187,7 +188,6 @@ def main() -> int:
     from ragas.run_config import RunConfig
     from ragas.metrics import LLMContextPrecisionWithoutReference, ContextPrecision
 
-    sys.path.insert(0, str(ROOT))
     from core import llm_usage
 
     client = llm_usage.wrap_openai_client(OpenAI(api_key=api_key, base_url=base_url))
@@ -263,7 +263,7 @@ def main() -> int:
         "aggregate": aggregate,
         "per_record": meta_rows,
     }
-    out_path = BASE / args.out
+    out_path = RESULTS / args.out
     out_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"  报告已写入：{out_path}")
     return 0

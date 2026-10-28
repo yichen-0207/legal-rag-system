@@ -14,6 +14,7 @@ from repositories.elasticsearch import ElasticsearchRepository
 from services.qa_service import QAService
 from services.topics_config import get_topic_by_id, TOPICS
 from core.config import settings
+from core.jurisdiction import normalize_jurisdiction
 
 # 跨法域相似度所用的文本截断长度与进程内向量缓存。
 # bge-m3 编码在 CPU 上是耗时操作，而同一批条款会被反复用于不同法域对比，
@@ -1009,15 +1010,8 @@ class StructuredAnalysisService:
         PROTECTION_WEAK = ["可以", "可", "建议", "鼓励", "may", "should", "encourage"]
 
         def _normalize_jurisdiction(jur: str, law_id: str) -> str:
-            jur_map = {
-                "us": "美国", "usa": "美国", "united states": "美国",
-                "hk": "中国香港", "hong kong": "中国香港",
-                "sg": "新加坡", "singapore": "新加坡",
-                "mac": "中国澳门", "macau": "中国澳门", "mo": "中国澳门",
-                "tw": "台湾", "taiwan": "台湾",
-            }
             if jur:
-                normalized = jur_map.get(jur.lower(), jur)
+                normalized = normalize_jurisdiction(jur)
                 if normalized != jur:
                     return normalized
             if not jur:
@@ -1639,15 +1633,8 @@ class StructuredAnalysisService:
         PROTECTION_WEAK = ["可以", "可", "建议", "鼓励", "may", "should", "encourage"]
 
         def _normalize_jurisdiction(jur: str, law_id: str, default_jur: str) -> str:
-            jur_map = {
-                "us": "美国", "usa": "美国", "united states": "美国",
-                "hk": "中国香港", "hong kong": "中国香港",
-                "sg": "新加坡", "singapore": "新加坡",
-                "mac": "中国澳门", "macau": "中国澳门", "mo": "中国澳门",
-                "tw": "台湾", "taiwan": "台湾",
-            }
             if jur:
-                normalized = jur_map.get(jur.lower(), jur)
+                normalized = normalize_jurisdiction(jur)
                 if normalized != jur:
                     return normalized
             if not jur:

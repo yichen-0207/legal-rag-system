@@ -2,16 +2,16 @@
 
 仅评估 B_nl_zh 变体；输出 eval_qa_results.json（逐条）与 eval_qa_summary.json（汇总）。
 """
-import sys, os, json
+import os, json
 from typing import List, Dict, Optional
 from collections import defaultdict
 
-# 本脚本与数据集同处 eval_data/ 目录，BASE_DIR 已是该目录，不能再拼一层 "eval_data"。
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EVAL_QUERIES_PATH = os.path.join(BASE_DIR, "eval_queries.json")
-EVAL_CLAUSE_PATH = os.path.join(BASE_DIR, "eval_dataset_clause.json")
-OUTPUT_RESULTS = os.path.join(BASE_DIR, "eval_qa_results.json")
-OUTPUT_SUMMARY = os.path.join(BASE_DIR, "eval_qa_summary.json")
+from _bootstrap import DATASETS_DIR, RESULTS_DIR
+
+EVAL_QUERIES_PATH = os.path.join(DATASETS_DIR, "eval_queries.json")
+EVAL_CLAUSE_PATH = os.path.join(DATASETS_DIR, "eval_dataset_clause.json")
+OUTPUT_RESULTS = os.path.join(RESULTS_DIR, "eval_qa_results.json")
+OUTPUT_SUMMARY = os.path.join(RESULTS_DIR, "eval_qa_summary.json")
 TOP_K = 5  # 问答场景取 Top-5
 
 # 只评估 NL 中文变体（80条），兼顾效率与代表性
@@ -275,8 +275,6 @@ def print_summary(summary: Dict):
 # 6. 主流程
 # ============================================================
 def main():
-    sys.path.insert(0, BASE_DIR)
-
     print("=" * 60)
     print("  问答评估 (RAG QA Evaluation)")
     print("  变体: " + USE_VARIANT)

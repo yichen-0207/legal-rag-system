@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query
 from pydantic import BaseModel
-from models.schemas import APIResponse
+from schemas import APIResponse
 from services.compare_service import CompareService
 from core.config import settings
 from core.llm import get_default_client

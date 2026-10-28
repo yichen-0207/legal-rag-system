@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Query
-from models.schemas import APIResponse
+from schemas import APIResponse
 from services.mapping_service import LawMappingService
 
 # 同步 def：内部为阻塞式向量检索，交由 FastAPI 线程池执行，避免独占事件循环

@@ -5,7 +5,7 @@ from typing import List, Dict, Optional, Any
 from datetime import datetime
 import json
 
-from models.schemas import APIResponse
+from schemas import APIResponse
 from repositories.elasticsearch import ElasticsearchRepository, _to_label_zh, _jurisdiction_to_zh, is_excluded_topic
 from utils.law_catalog import LawCatalog
 

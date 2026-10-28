@@ -1,0 +1,4384 @@
+{
+ "meta": {
+  "version": "v2-35",
+  "created_at": "2026-10-22",
+  "description": "多跳检索/推理评测清单。每条问题都要求第 2 跳依赖第 1 跳结果，单跳检索无法同时覆盖 gold_path 两端；gold_path 均由真实法规条款、知识图谱三元组或正文引用正则核验。",
+  "total": 25,
+  "types": {
+   "cross_jurisdiction": 8,
+   "entity_navigation": 11,
+   "citation_chain": 6
+  },
+  "hop_distribution": {
+   "2": 23,
+   "3": 2
+  },
+  "fields": {
+   "type": "cross_jurisdiction=跨法域对齐；entity_navigation=图谱实体链；citation_chain=正文明确援引链",
+   "expected_modes": "对应 /kg/multihop-qa 或 /kg/reasoning-qa 的可用模式",
+   "gold_path": "首选路径的步骤（单路径条目）",
+   "gold_paths": "全部应命中的路径（跨法域多目标时含多条）",
+   "gold_articles": "路径涉及的全部条款，格式 law_id::article",
+   "relevant": "与既有 eval_dataset 兼容的检索相关性标注；2=直接答案条款，1=路径支撑条款"
+  },
+  "updated": "2026-10-28",
+  "note": "v2 增补 10 条覆盖新入库法域（澳/中/韩）：8 条中国大陆引用链（引用关系均取自正文正则可回取的真实引用，其中 4 条两跳、4 条单跳）+ 2 条经实测可对齐的澳韩跨法域题。澳/韩语料暂无中文条款引用，故不出引用链题；两法域亦未做知识图谱抽取，故不出实体导航题。"
+ },
+ "items": [
+  {
+   "id": "MH-C01",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "马来西亚《个人数据保护法》对向境外传输个人数据设定了哪些条件？日本和澳门法是否有对应规定？",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "马来西亚",
+    "日本",
+    "澳门"
+   ],
+   "expected_modes": [
+    "cross"
+   ],
+   "source": {
+    "law_id": "MY_ACT_709_2010",
+    "law_title": "Personal Data Protection Act 2010",
+    "article": "129",
+    "jurisdiction": "马来西亚"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "MY_ACT_709_2010",
+      "article": "129",
+      "label": "《Personal Data Protection Act 2010》129"
+     },
+     "relation": "对应法规",
+     "to": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "label": "《Act on the Protection of Personal Information》"
+     },
+     "source": "similar_law",
+     "level": "L1",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "label": "《Act on the Protection of Personal Information》"
+     },
+     "relation": "相关条款",
+     "to": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "article": "28",
+      "label": "《Act on the Protection of Personal Information》28"
+     },
+     "source": "retrieval",
+     "level": "L1",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "129",
+        "label": "《Personal Data Protection Act 2010》129"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "article": "28",
+        "label": "《Act on the Protection of Personal Information》28"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    },
+    {
+     "path_id": "P2",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "129",
+        "label": "《Personal Data Protection Act 2010》129"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "label": "《個人資料保護法》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "label": "《個人資料保護法》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "19",
+        "label": "《個人資料保護法》19"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MY_ACT_709_2010::129",
+    "JP_Act_2003_SMP_JP_002::28",
+    "MAC_LEI_8_2005::19"
+   ],
+   "relevant": [
+    {
+     "law_id": "MY_ACT_709_2010",
+     "article": "129",
+     "relevance": 2
+    },
+    {
+     "law_id": "JP_Act_2003_SMP_JP_002",
+     "article": "28",
+     "relevance": 2
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "19",
+     "relevance": 2
+    }
+   ],
+   "notes": "第 2 跳必须先由马来西亚第129条定位到日本/澳门对应法规，再落到目标条款；单跳检索只能命中马来西亚侧。"
+  },
+  {
+   "id": "MH-C02",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "澳门《个人资料保护法》在哪些情况下允许将个人资料转移至境外？日本法的例外机制是什么？",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "澳门",
+    "日本",
+    "马来西亚"
+   ],
+   "expected_modes": [
+    "cross"
+   ],
+   "source": {
+    "law_id": "MAC_LEI_8_2005",
+    "law_title": "個人資料保護法",
+    "article": "20",
+    "jurisdiction": "澳门"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "20",
+      "label": "《個人資料保護法》20"
+     },
+     "relation": "对应法规",
+     "to": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "label": "《Act on the Protection of Personal Information》"
+     },
+     "source": "similar_law",
+     "level": "L1",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "label": "《Act on the Protection of Personal Information》"
+     },
+     "relation": "相关条款",
+     "to": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "article": "28",
+      "label": "《Act on the Protection of Personal Information》28"
+     },
+     "source": "retrieval",
+     "level": "L1",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "20",
+        "label": "《個人資料保護法》20"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "article": "28",
+        "label": "《Act on the Protection of Personal Information》28"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    },
+    {
+     "path_id": "P2",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "20",
+        "label": "《個人資料保護法》20"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "MY_ACT_709_2010",
+        "label": "《Personal Data Protection Act 2010》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "label": "《Personal Data Protection Act 2010》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "129",
+        "label": "《Personal Data Protection Act 2010》129"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MAC_LEI_8_2005::20",
+    "JP_Act_2003_SMP_JP_002::28",
+    "MY_ACT_709_2010::129"
+   ],
+   "relevant": [
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "20",
+     "relevance": 2
+    },
+    {
+     "law_id": "JP_Act_2003_SMP_JP_002",
+     "article": "28",
+     "relevance": 2
+    },
+    {
+     "law_id": "MY_ACT_709_2010",
+     "article": "129",
+     "relevance": 2
+    }
+   ],
+   "notes": "澳门的例外清单（第20条）与日本的外国第三方提供规则（第28条）、马来西亚的例外条款（第129条）需两跳对齐。"
+  },
+  {
+   "id": "MH-C03",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "香港《个人资料（私隐）条例》赋予资料当事人的查阅权，在马来西亚和日本法中有哪些对应规定？",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "香港",
+    "马来西亚",
+    "日本"
+   ],
+   "expected_modes": [
+    "cross"
+   ],
+   "source": {
+    "law_id": "HK_CAP_486",
+    "law_title": "Personal Data (Privacy) Ordinance",
+    "article": "18",
+    "jurisdiction": "香港"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "HK_CAP_486",
+      "article": "18",
+      "label": "《Personal Data (Privacy) Ordinance》18"
+     },
+     "relation": "对应法规",
+     "to": {
+      "law_id": "MY_ACT_709_2010",
+      "label": "《Personal Data Protection Act 2010》"
+     },
+     "source": "similar_law",
+     "level": "L1",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "MY_ACT_709_2010",
+      "label": "《Personal Data Protection Act 2010》"
+     },
+     "relation": "相关条款",
+     "to": {
+      "law_id": "MY_ACT_709_2010",
+      "article": "30",
+      "label": "《Personal Data Protection Act 2010》30"
+     },
+     "source": "retrieval",
+     "level": "L1",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "article": "18",
+        "label": "《Personal Data (Privacy) Ordinance》18"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "MY_ACT_709_2010",
+        "label": "《Personal Data Protection Act 2010》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "label": "《Personal Data Protection Act 2010》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "30",
+        "label": "《Personal Data Protection Act 2010》30"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    },
+    {
+     "path_id": "P2",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "article": "18",
+        "label": "《Personal Data (Privacy) Ordinance》18"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "article": "33",
+        "label": "《Act on the Protection of Personal Information》33"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "HK_CAP_486::18",
+    "MY_ACT_709_2010::30",
+    "JP_Act_2003_SMP_JP_002::33"
+   ],
+   "relevant": [
+    {
+     "law_id": "HK_CAP_486",
+     "article": "18",
+     "relevance": 2
+    },
+    {
+     "law_id": "MY_ACT_709_2010",
+     "article": "30",
+     "relevance": 2
+    },
+    {
+     "law_id": "JP_Act_2003_SMP_JP_002",
+     "article": "33",
+     "relevance": 2
+    }
+   ],
+   "notes": "香港第18条（查阅资料要求）→ 马来西亚第30条（查阅权）/日本第33条（披露请求），第二跳依赖第一跳定位的对应法规。"
+  },
+  {
+   "id": "MH-C04",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "马来西亚法上的更正资料请求，与日本、香港的更正权条款如何对应？",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "马来西亚",
+    "日本",
+    "香港"
+   ],
+   "expected_modes": [
+    "cross",
+    "entity"
+   ],
+   "source": {
+    "law_id": "MY_ACT_709_2010",
+    "law_title": "Personal Data Protection Act 2010",
+    "article": "34",
+    "jurisdiction": "马来西亚"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "MY_ACT_709_2010",
+      "article": "34",
+      "label": "《Personal Data Protection Act 2010》34"
+     },
+     "relation": "对应法规",
+     "to": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "label": "《Act on the Protection of Personal Information》"
+     },
+     "source": "similar_law",
+     "level": "L1",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "label": "《Act on the Protection of Personal Information》"
+     },
+     "relation": "相关条款",
+     "to": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "article": "34",
+      "label": "《Act on the Protection of Personal Information》34"
+     },
+     "source": "retrieval",
+     "level": "L1",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "34",
+        "label": "《Personal Data Protection Act 2010》34"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "article": "34",
+        "label": "《Act on the Protection of Personal Information》34"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    },
+    {
+     "path_id": "P2",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "34",
+        "label": "《Personal Data Protection Act 2010》34"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "HK_CAP_486",
+        "label": "《Personal Data (Privacy) Ordinance》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "label": "《Personal Data (Privacy) Ordinance》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "HK_CAP_486",
+        "article": "22",
+        "label": "《Personal Data (Privacy) Ordinance》22"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MY_ACT_709_2010::34",
+    "JP_Act_2003_SMP_JP_002::34",
+    "HK_CAP_486::22"
+   ],
+   "relevant": [
+    {
+     "law_id": "MY_ACT_709_2010",
+     "article": "34",
+     "relevance": 2
+    },
+    {
+     "law_id": "JP_Act_2003_SMP_JP_002",
+     "article": "34",
+     "relevance": 2
+    },
+    {
+     "law_id": "HK_CAP_486",
+     "article": "22",
+     "relevance": 2
+    }
+   ],
+   "notes": "马来西亚第34条（更正请求）→ 日本第34条/香港第22条；同时可用实体链验证马来西亚第34条内部的权利义务关系。"
+  },
+  {
+   "id": "MH-C05",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "香港法对直接促销中取得同意的要求，与马来西亚、澳门的反对机制有何异同？",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "香港",
+    "马来西亚",
+    "澳门"
+   ],
+   "expected_modes": [
+    "cross"
+   ],
+   "source": {
+    "law_id": "HK_CAP_486",
+    "law_title": "Personal Data (Privacy) Ordinance",
+    "article": "35C",
+    "jurisdiction": "香港"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "HK_CAP_486",
+      "article": "35C",
+      "label": "《Personal Data (Privacy) Ordinance》35C"
+     },
+     "relation": "对应法规",
+     "to": {
+      "law_id": "MY_ACT_709_2010",
+      "label": "《Personal Data Protection Act 2010》"
+     },
+     "source": "similar_law",
+     "level": "L1",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "MY_ACT_709_2010",
+      "label": "《Personal Data Protection Act 2010》"
+     },
+     "relation": "相关条款",
+     "to": {
+      "law_id": "MY_ACT_709_2010",
+      "article": "43",
+      "label": "《Personal Data Protection Act 2010》43"
+     },
+     "source": "retrieval",
+     "level": "L1",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "article": "35C",
+        "label": "《Personal Data (Privacy) Ordinance》35C"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "MY_ACT_709_2010",
+        "label": "《Personal Data Protection Act 2010》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "label": "《Personal Data Protection Act 2010》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "43",
+        "label": "《Personal Data Protection Act 2010》43"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    },
+    {
+     "path_id": "P2",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "article": "35C",
+        "label": "《Personal Data (Privacy) Ordinance》35C"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "label": "《個人資料保護法》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "label": "《個人資料保護法》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "12",
+        "label": "《個人資料保護法》12"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "HK_CAP_486::35C",
+    "MY_ACT_709_2010::43",
+    "MAC_LEI_8_2005::12"
+   ],
+   "relevant": [
+    {
+     "law_id": "HK_CAP_486",
+     "article": "35C",
+     "relevance": 2
+    },
+    {
+     "law_id": "MY_ACT_709_2010",
+     "article": "43",
+     "relevance": 2
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "12",
+     "relevance": 2
+    }
+   ],
+   "notes": "香港采“事前告知+同意”，马来西亚/澳门提供“事后要求停止/反对”机制；第二跳需先定位对应法规。"
+  },
+  {
+   "id": "MH-C06",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "澳门法在收集个人资料时的告知义务，与马来西亚、日本的告知/通知义务如何对应？",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "澳门",
+    "马来西亚",
+    "日本"
+   ],
+   "expected_modes": [
+    "cross"
+   ],
+   "source": {
+    "law_id": "MAC_LEI_8_2005",
+    "law_title": "個人資料保護法",
+    "article": "10",
+    "jurisdiction": "澳门"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "10",
+      "label": "《個人資料保護法》10"
+     },
+     "relation": "对应法规",
+     "to": {
+      "law_id": "MY_ACT_709_2010",
+      "label": "《Personal Data Protection Act 2010》"
+     },
+     "source": "similar_law",
+     "level": "L1",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "MY_ACT_709_2010",
+      "label": "《Personal Data Protection Act 2010》"
+     },
+     "relation": "相关条款",
+     "to": {
+      "law_id": "MY_ACT_709_2010",
+      "article": "7",
+      "label": "《Personal Data Protection Act 2010》7"
+     },
+     "source": "retrieval",
+     "level": "L1",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "10",
+        "label": "《個人資料保護法》10"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "MY_ACT_709_2010",
+        "label": "《Personal Data Protection Act 2010》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "label": "《Personal Data Protection Act 2010》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "7",
+        "label": "《Personal Data Protection Act 2010》7"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    },
+    {
+     "path_id": "P2",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "10",
+        "label": "《個人資料保護法》10"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "article": "21",
+        "label": "《Act on the Protection of Personal Information》21"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MAC_LEI_8_2005::10",
+    "MY_ACT_709_2010::7",
+    "JP_Act_2003_SMP_JP_002::21"
+   ],
+   "relevant": [
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "10",
+     "relevance": 2
+    },
+    {
+     "law_id": "MY_ACT_709_2010",
+     "article": "7",
+     "relevance": 2
+    },
+    {
+     "law_id": "JP_Act_2003_SMP_JP_002",
+     "article": "21",
+     "relevance": 2
+    }
+   ],
+   "notes": "澳门第10条（提供资讯义务）→ 马来西亚第7条（通知与选择原则）/日本第21条（取得时通知使用目的）。"
+  },
+  {
+   "id": "MH-C07",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "马来西亚法要求的数据安全措施，在日本和澳门法中有哪些对应规定？",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "马来西亚",
+    "日本",
+    "澳门"
+   ],
+   "expected_modes": [
+    "cross"
+   ],
+   "source": {
+    "law_id": "MY_ACT_709_2010",
+    "law_title": "Personal Data Protection Act 2010",
+    "article": "9",
+    "jurisdiction": "马来西亚"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "MY_ACT_709_2010",
+      "article": "9",
+      "label": "《Personal Data Protection Act 2010》9"
+     },
+     "relation": "对应法规",
+     "to": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "label": "《Act on the Protection of Personal Information》"
+     },
+     "source": "similar_law",
+     "level": "L1",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "label": "《Act on the Protection of Personal Information》"
+     },
+     "relation": "相关条款",
+     "to": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "article": "23",
+      "label": "《Act on the Protection of Personal Information》23"
+     },
+     "source": "retrieval",
+     "level": "L1",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "9",
+        "label": "《Personal Data Protection Act 2010》9"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "label": "《Act on the Protection of Personal Information》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "article": "23",
+        "label": "《Act on the Protection of Personal Information》23"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    },
+    {
+     "path_id": "P2",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "9",
+        "label": "《Personal Data Protection Act 2010》9"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "label": "《個人資料保護法》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "label": "《個人資料保護法》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "15",
+        "label": "《個人資料保護法》15"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MY_ACT_709_2010::9",
+    "JP_Act_2003_SMP_JP_002::23",
+    "MAC_LEI_8_2005::15"
+   ],
+   "relevant": [
+    {
+     "law_id": "MY_ACT_709_2010",
+     "article": "9",
+     "relevance": 2
+    },
+    {
+     "law_id": "JP_Act_2003_SMP_JP_002",
+     "article": "23",
+     "relevance": 2
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "15",
+     "relevance": 2
+    }
+   ],
+   "notes": "马来西亚第9条（安全原则）→ 日本第23条（安全管理措施）/澳门第15条（保护个人资料的义务）。"
+  },
+  {
+   "id": "MH-C08",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "香港直接促销违规的处罚，与马来西亚法的处罚规定相比有何差异？",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "香港",
+    "马来西亚"
+   ],
+   "expected_modes": [
+    "cross",
+    "entity"
+   ],
+   "source": {
+    "law_id": "HK_CAP_486",
+    "law_title": "Personal Data (Privacy) Ordinance",
+    "article": "35C",
+    "jurisdiction": "香港"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "HK_CAP_486",
+      "article": "35C",
+      "label": "《Personal Data (Privacy) Ordinance》35C"
+     },
+     "relation": "对应法规",
+     "to": {
+      "law_id": "MY_ACT_709_2010",
+      "label": "《Personal Data Protection Act 2010》"
+     },
+     "source": "similar_law",
+     "level": "L1",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "MY_ACT_709_2010",
+      "label": "《Personal Data Protection Act 2010》"
+     },
+     "relation": "相关条款",
+     "to": {
+      "law_id": "MY_ACT_709_2010",
+      "article": "43",
+      "label": "《Personal Data Protection Act 2010》43"
+     },
+     "source": "retrieval",
+     "level": "L1",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "article": "35C",
+        "label": "《Personal Data (Privacy) Ordinance》35C"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "MY_ACT_709_2010",
+        "label": "《Personal Data Protection Act 2010》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "label": "《Personal Data Protection Act 2010》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "43",
+        "label": "《Personal Data Protection Act 2010》43"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "HK_CAP_486::35C",
+    "MY_ACT_709_2010::43"
+   ],
+   "relevant": [
+    {
+     "law_id": "HK_CAP_486",
+     "article": "35C",
+     "relevance": 2
+    },
+    {
+     "law_id": "MY_ACT_709_2010",
+     "article": "43",
+     "relevance": 2
+    }
+   ],
+   "notes": "香港第35C条与马来西亚第43条均含罚则；需先跨法域定位对应法规，再对比具体处罚。"
+  },
+  {
+   "id": "MH-E01",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "香港法上，资料使用者拟在直接促销中使用个人资料时，必须先履行哪些告知与同意义务？违反会有什么处罚？",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "香港"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "HK_CAP_486",
+    "law_title": "Personal Data (Privacy) Ordinance",
+    "article": "35C",
+    "jurisdiction": "香港"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "kg_edge",
+     "from": {
+      "entity": "告知義務",
+      "label": "告知義務"
+     },
+     "relation": "设定义务",
+     "to": {
+      "law_id": "HK_CAP_486",
+      "article": "35C",
+      "label": "《Personal Data (Privacy) Ordinance》35C"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "reverse"
+    },
+    {
+     "hop": 2,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "HK_CAP_486",
+      "article": "35C",
+      "label": "《Personal Data (Privacy) Ordinance》35C"
+     },
+     "relation": "处罚",
+     "to": {
+      "entity": "罰款$500,000及監禁3年",
+      "label": "罰款$500,000及監禁3年"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "kg_edge",
+       "from": {
+        "entity": "告知義務",
+        "label": "告知義務"
+       },
+       "relation": "设定义务",
+       "to": {
+        "law_id": "HK_CAP_486",
+        "article": "35C",
+        "label": "《Personal Data (Privacy) Ordinance》35C"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "reverse"
+      },
+      {
+       "hop": 2,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "article": "35C",
+        "label": "《Personal Data (Privacy) Ordinance》35C"
+       },
+       "relation": "处罚",
+       "to": {
+        "entity": "罰款$500,000及監禁3年",
+        "label": "罰款$500,000及監禁3年"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "HK_CAP_486::35C"
+   ],
+   "gold_entities": [
+    "告知義務",
+    "罰款$500,000及監禁3年"
+   ],
+   "relevant": [
+    {
+     "law_id": "HK_CAP_486",
+     "article": "35C",
+     "relevance": 2
+    }
+   ],
+   "notes": "必须先由义务实体定位到第35C条，再沿同一条款读取罚则；单跳实体或单跳条款都不足以串联义务与处罚。"
+  },
+  {
+   "id": "MH-E02",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "香港资料当事人要求停止在直接促销中使用其个人资料后，资料使用者负有什么义务和处罚？",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "香港"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "HK_CAP_486",
+    "law_title": "Personal Data (Privacy) Ordinance",
+    "article": "35G",
+    "jurisdiction": "香港"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "kg_edge",
+     "from": {
+      "entity": "停止使用義務",
+      "label": "停止使用義務"
+     },
+     "relation": "设定义务",
+     "to": {
+      "law_id": "HK_CAP_486",
+      "article": "35G",
+      "label": "《Personal Data (Privacy) Ordinance》35G"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "reverse"
+    },
+    {
+     "hop": 2,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "HK_CAP_486",
+      "article": "35G",
+      "label": "《Personal Data (Privacy) Ordinance》35G"
+     },
+     "relation": "处罚",
+     "to": {
+      "entity": "罰款$500,000及監禁3年",
+      "label": "罰款$500,000及監禁3年"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "kg_edge",
+       "from": {
+        "entity": "停止使用義務",
+        "label": "停止使用義務"
+       },
+       "relation": "设定义务",
+       "to": {
+        "law_id": "HK_CAP_486",
+        "article": "35G",
+        "label": "《Personal Data (Privacy) Ordinance》35G"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "reverse"
+      },
+      {
+       "hop": 2,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "article": "35G",
+        "label": "《Personal Data (Privacy) Ordinance》35G"
+       },
+       "relation": "处罚",
+       "to": {
+        "entity": "罰款$500,000及監禁3年",
+        "label": "罰款$500,000及監禁3年"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "HK_CAP_486::35G"
+   ],
+   "gold_entities": [
+    "停止使用義務",
+    "罰款$500,000及監禁3年"
+   ],
+   "relevant": [
+    {
+     "law_id": "HK_CAP_486",
+     "article": "35G",
+     "relevance": 2
+    }
+   ],
+   "notes": "停止使用义务与罚则都挂第35G条；需先命中义务实体再回查条款，才能把义务与处罚接起来。"
+  },
+  {
+   "id": "MH-E03",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "马来西亚法上，资料当事人提出更正资料请求后，资料使用者负有什么义务？",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "MY_ACT_709_2010",
+    "law_title": "Personal Data Protection Act 2010",
+    "article": "34",
+    "jurisdiction": "马来西亚"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "kg_edge",
+     "from": {
+      "entity": "make a data correction request in writing to the data user",
+      "label": "make a data correction request in writing to the data user"
+     },
+     "relation": "授予权利",
+     "to": {
+      "law_id": "MY_ACT_709_2010",
+      "article": "34",
+      "label": "《Personal Data Protection Act 2010》34"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "reverse"
+    },
+    {
+     "hop": 2,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "MY_ACT_709_2010",
+      "article": "34",
+      "label": "《Personal Data Protection Act 2010》34"
+     },
+     "relation": "设定义务",
+     "to": {
+      "entity": "makes the necessary correction to the personal data",
+      "label": "makes the necessary correction to the personal data"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "kg_edge",
+       "from": {
+        "entity": "make a data correction request in writing to the data user",
+        "label": "make a data correction request in writing to the data user"
+       },
+       "relation": "授予权利",
+       "to": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "34",
+        "label": "《Personal Data Protection Act 2010》34"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "reverse"
+      },
+      {
+       "hop": 2,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "MY_ACT_709_2010",
+        "article": "34",
+        "label": "《Personal Data Protection Act 2010》34"
+       },
+       "relation": "设定义务",
+       "to": {
+        "entity": "makes the necessary correction to the personal data",
+        "label": "makes the necessary correction to the personal data"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MY_ACT_709_2010::34"
+   ],
+   "gold_entities": [
+    "make a data correction request in writing to the data user",
+    "makes the necessary correction to the personal data"
+   ],
+   "relevant": [
+    {
+     "law_id": "MY_ACT_709_2010",
+     "article": "34",
+     "relevance": 2
+    }
+   ],
+   "notes": "权利与义务分别位于第34条两侧，需以条款为枢纽完成两跳，单条关系无法同时覆盖。"
+  },
+  {
+   "id": "MH-E04",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "日本法上，向外国第三方提供个人数据时，除了取得同意，还必须以哪一类第三方提供规则为前提？",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "JP_Act_2003_SMP_JP_002",
+    "law_title": "Act on the Protection of Personal Information",
+    "article": "28",
+    "jurisdiction": "日本"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "kg_edge",
+     "from": {
+      "entity": "prior provision obligation",
+      "label": "prior provision obligation"
+     },
+     "relation": "设定义务",
+     "to": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "article": "28",
+      "label": "《Act on the Protection of Personal Information》28"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "reverse"
+    },
+    {
+     "hop": 2,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "article": "28",
+      "label": "《Act on the Protection of Personal Information》28"
+     },
+     "relation": "引用",
+     "to": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "article": "27",
+      "label": "《Act on the Protection of Personal Information》27"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "kg_edge",
+       "from": {
+        "entity": "prior provision obligation",
+        "label": "prior provision obligation"
+       },
+       "relation": "设定义务",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "article": "28",
+        "label": "《Act on the Protection of Personal Information》28"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "reverse"
+      },
+      {
+       "hop": 2,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "article": "28",
+        "label": "《Act on the Protection of Personal Information》28"
+       },
+       "relation": "引用",
+       "to": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "article": "27",
+        "label": "《Act on the Protection of Personal Information》27"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "JP_Act_2003_SMP_JP_002::28",
+    "JP_Act_2003_SMP_JP_002::27"
+   ],
+   "gold_entities": [
+    "prior provision obligation"
+   ],
+   "relevant": [
+    {
+     "law_id": "JP_Act_2003_SMP_JP_002",
+     "article": "28",
+     "relevance": 2
+    },
+    {
+     "law_id": "JP_Act_2003_SMP_JP_002",
+     "article": "27",
+     "relevance": 2
+    }
+   ],
+   "notes": "第28条以第27条为前提；需先由义务实体定位第28条，再沿引用边到第27条。"
+  },
+  {
+   "id": "MH-E05",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "澳门法上，将个人资料转移至境外时，当事人明确同意这一例外与哪一条的适当保护程度标准相关？",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "澳门"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "MAC_LEI_8_2005",
+    "law_title": "個人資料保護法",
+    "article": "20",
+    "jurisdiction": "澳门"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "kg_edge",
+     "from": {
+      "entity": "資料當事人明確同意",
+      "label": "資料當事人明確同意"
+     },
+     "relation": "例外",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "20",
+      "label": "《個人資料保護法》20"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "reverse"
+    },
+    {
+     "hop": 2,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "20",
+      "label": "《個人資料保護法》20"
+     },
+     "relation": "引用",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "19",
+      "kg_name": "上條第二款",
+      "label": "《個人資料保護法》19（上條第二款）"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "kg_edge",
+       "from": {
+        "entity": "資料當事人明確同意",
+        "label": "資料當事人明確同意"
+       },
+       "relation": "例外",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "20",
+        "label": "《個人資料保護法》20"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "reverse"
+      },
+      {
+       "hop": 2,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "20",
+        "label": "《個人資料保護法》20"
+       },
+       "relation": "引用",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "19",
+        "kg_name": "上條第二款",
+        "label": "《個人資料保護法》19（上條第二款）"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MAC_LEI_8_2005::20",
+    "MAC_LEI_8_2005::19"
+   ],
+   "gold_entities": [
+    "資料當事人明確同意"
+   ],
+   "relevant": [
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "20",
+     "relevance": 2
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "19",
+     "relevance": 2
+    }
+   ],
+   "notes": "第20条的例外以第19条的适当保护程度为基准；需先定位例外实体，再沿引用边回第19条。"
+  },
+  {
+   "id": "MH-E06",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "澳门法上，哪些个人资料处理情形必须取得公共当局许可？该许可要求又指向哪些前置条款？",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "澳门"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "MAC_LEI_8_2005",
+    "law_title": "個人資料保護法",
+    "article": "22",
+    "jurisdiction": "澳门"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "22",
+      "label": "《個人資料保護法》22"
+     },
+     "relation": "引用",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "7",
+      "label": "《個人資料保護法》7"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "7",
+      "label": "《個人資料保護法》7"
+     },
+     "relation": "引用",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "16",
+      "label": "《個人資料保護法》16"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "22",
+        "label": "《個人資料保護法》22"
+       },
+       "relation": "引用",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "7",
+        "label": "《個人資料保護法》7"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "7",
+        "label": "《個人資料保護法》7"
+       },
+       "relation": "引用",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "16",
+        "label": "《個人資料保護法》16"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MAC_LEI_8_2005::22",
+    "MAC_LEI_8_2005::7",
+    "MAC_LEI_8_2005::9",
+    "MAC_LEI_8_2005::16"
+   ],
+   "gold_entities": [],
+   "relevant": [
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "22",
+     "relevance": 2
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "7",
+     "relevance": 1
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "9",
+     "relevance": 1
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "16",
+     "relevance": 1
+    }
+   ],
+   "notes": "第22条同时指向第7条（敏感资料处理）与第9条（资料互联）；主路径取 22→7→16，验证引用可继续延伸。"
+  },
+  {
+   "id": "MH-E07",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "美国联邦采购中，投标人的 SAM 登记义务在哪一条中规定了维护要求？",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "US_CFR_T48_P52_1983",
+    "law_title": "Solicitation Provisions and Contract Clauses (FAR)",
+    "article": "52.204-7",
+    "jurisdiction": "美国"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "US_CFR_T48_P52_1983",
+      "article": "52.204-7",
+      "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-7"
+     },
+     "relation": "引用",
+     "to": {
+      "law_id": "US_CFR_T48_P52_1983",
+      "article": "52.204-13",
+      "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-13"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "US_CFR_T48_P52_1983",
+      "article": "52.204-13",
+      "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-13"
+     },
+     "relation": "设定义务",
+     "to": {
+      "entity": "Contractor shall maintain registration in SAM during contract performance and through final payment",
+      "label": "Contractor shall maintain registration in SAM during contract performance and through final payment"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "US_CFR_T48_P52_1983",
+        "article": "52.204-7",
+        "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-7"
+       },
+       "relation": "引用",
+       "to": {
+        "law_id": "US_CFR_T48_P52_1983",
+        "article": "52.204-13",
+        "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-13"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "US_CFR_T48_P52_1983",
+        "article": "52.204-13",
+        "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-13"
+       },
+       "relation": "设定义务",
+       "to": {
+        "entity": "Contractor shall maintain registration in SAM during contract performance and through final payment",
+        "label": "Contractor shall maintain registration in SAM during contract performance and through final payment"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "US_CFR_T48_P52_1983::52.204-7",
+    "US_CFR_T48_P52_1983::52.204-13"
+   ],
+   "gold_entities": [
+    "Contractor shall maintain registration in SAM during contract performance and through final payment"
+   ],
+   "relevant": [
+    {
+     "law_id": "US_CFR_T48_P52_1983",
+     "article": "52.204-7",
+     "relevance": 1
+    },
+    {
+     "law_id": "US_CFR_T48_P52_1983",
+     "article": "52.204-13",
+     "relevance": 2
+    }
+   ],
+   "notes": "第52.204-7条规定登记义务，维护要求在第52.204-13条；必须先沿引用边到第52.204-13条才能回答。"
+  },
+  {
+   "id": "MH-E08",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "美国联邦采购中，FASCSA 命令的申报要求与 covered article 的禁止性定义分别规定在哪些条款？",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "US_CFR_T48_P52_1983",
+    "law_title": "Solicitation Provisions and Contract Clauses (FAR)",
+    "article": "52.204-29",
+    "jurisdiction": "美国"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "US_CFR_T48_P52_1983",
+      "article": "52.204-29",
+      "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-29"
+     },
+     "relation": "引用",
+     "to": {
+      "law_id": "US_CFR_T48_P52_1983",
+      "article": "52.204-30",
+      "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-30"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "US_CFR_T48_P52_1983",
+      "article": "52.204-30",
+      "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-30"
+     },
+     "relation": "定义",
+     "to": {
+      "entity": "Covered article",
+      "label": "Covered article"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "US_CFR_T48_P52_1983",
+        "article": "52.204-29",
+        "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-29"
+       },
+       "relation": "引用",
+       "to": {
+        "law_id": "US_CFR_T48_P52_1983",
+        "article": "52.204-30",
+        "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-30"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "US_CFR_T48_P52_1983",
+        "article": "52.204-30",
+        "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-30"
+       },
+       "relation": "定义",
+       "to": {
+        "entity": "Covered article",
+        "label": "Covered article"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "US_CFR_T48_P52_1983::52.204-29",
+    "US_CFR_T48_P52_1983::52.204-30"
+   ],
+   "gold_entities": [
+    "Covered article"
+   ],
+   "relevant": [
+    {
+     "law_id": "US_CFR_T48_P52_1983",
+     "article": "52.204-29",
+     "relevance": 1
+    },
+    {
+     "law_id": "US_CFR_T48_P52_1983",
+     "article": "52.204-30",
+     "relevance": 2
+    }
+   ],
+   "notes": "FASCSA 命令的申报要求在第52.204-29条，禁止与 covered article 定义在第52.204-30条；需两跳衔接。"
+  },
+  {
+   "id": "MH-E09",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "美国联邦采购中，合理查询（reasonable inquiry）的定义与 covered telecommunications 的陈述义务如何衔接？",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "US_CFR_T48_P52_1983",
+    "law_title": "Solicitation Provisions and Contract Clauses (FAR)",
+    "article": "52.204-24",
+    "jurisdiction": "美国"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "US_CFR_T48_P52_1983",
+      "article": "52.204-24",
+      "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-24"
+     },
+     "relation": "引用",
+     "to": {
+      "law_id": "US_CFR_T48_P52_1983",
+      "article": "52.204-26",
+      "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-26"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "US_CFR_T48_P52_1983",
+      "article": "52.204-26",
+      "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-26"
+     },
+     "relation": "设定义务",
+     "to": {
+      "entity": "provide representation regarding covered telecommunications equipment or services",
+      "label": "provide representation regarding covered telecommunications equipment or services"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "US_CFR_T48_P52_1983",
+        "article": "52.204-24",
+        "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-24"
+       },
+       "relation": "引用",
+       "to": {
+        "law_id": "US_CFR_T48_P52_1983",
+        "article": "52.204-26",
+        "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-26"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "US_CFR_T48_P52_1983",
+        "article": "52.204-26",
+        "label": "《Solicitation Provisions and Contract Clauses (FAR)》52.204-26"
+       },
+       "relation": "设定义务",
+       "to": {
+        "entity": "provide representation regarding covered telecommunications equipment or services",
+        "label": "provide representation regarding covered telecommunications equipment or services"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "US_CFR_T48_P52_1983::52.204-24",
+    "US_CFR_T48_P52_1983::52.204-26"
+   ],
+   "gold_entities": [
+    "provide representation regarding covered telecommunications equipment or services"
+   ],
+   "relevant": [
+    {
+     "law_id": "US_CFR_T48_P52_1983",
+     "article": "52.204-24",
+     "relevance": 1
+    },
+    {
+     "law_id": "US_CFR_T48_P52_1983",
+     "article": "52.204-26",
+     "relevance": 2
+    }
+   ],
+   "notes": "合理查询的定义在第52.204-24条，陈述义务在第52.204-26条；需沿引用边完成第二跳。"
+  },
+  {
+   "id": "MH-E10",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "澳门法上，资料当事人的查阅权在健康资料等情形下如何行使？",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "澳门"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "MAC_LEI_8_2005",
+    "law_title": "個人資料保護法",
+    "article": "11",
+    "jurisdiction": "澳门"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "11",
+      "label": "《個人資料保護法》11"
+     },
+     "relation": "授予权利",
+     "to": {
+      "entity": "查閱權",
+      "label": "查閱權"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "kg_edge",
+     "from": {
+      "entity": "查閱權",
+      "label": "查閱權"
+     },
+     "relation": "例外",
+     "to": {
+      "entity": "關於健康資料，包括遺傳資料的查閱權由資料當事人選擇的醫生行使",
+      "label": "關於健康資料，包括遺傳資料的查閱權由資料當事人選擇的醫生行使"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "11",
+        "label": "《個人資料保護法》11"
+       },
+       "relation": "授予权利",
+       "to": {
+        "entity": "查閱權",
+        "label": "查閱權"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "kg_edge",
+       "from": {
+        "entity": "查閱權",
+        "label": "查閱權"
+       },
+       "relation": "例外",
+       "to": {
+        "entity": "關於健康資料，包括遺傳資料的查閱權由資料當事人選擇的醫生行使",
+        "label": "關於健康資料，包括遺傳資料的查閱權由資料當事人選擇的醫生行使"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MAC_LEI_8_2005::11"
+   ],
+   "gold_entities": [
+    "查閱權",
+    "關於健康資料，包括遺傳資料的查閱權由資料當事人選擇的醫生行使"
+   ],
+   "relevant": [
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "11",
+     "relevance": 2
+    }
+   ],
+   "notes": "权利与例外分属两跳：条款授予查阅权，查阅权再挂例外；单跳只能看到权利本身。"
+  },
+  {
+   "id": "MH-E11",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "日本法上，个人信息泄露等情形应向哪个机构报告？",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "JP_Act_2003_SMP_JP_002",
+    "law_title": "Act on the Protection of Personal Information",
+    "article": "26",
+    "jurisdiction": "日本"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "kg_edge",
+     "from": {
+      "law_id": "JP_Act_2003_SMP_JP_002",
+      "article": "26",
+      "label": "《Act on the Protection of Personal Information》26"
+     },
+     "relation": "设定义务",
+     "to": {
+      "entity": "reporting obligation",
+      "label": "reporting obligation"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "kg_edge",
+     "from": {
+      "entity": "reporting obligation",
+      "label": "reporting obligation"
+     },
+     "relation": "引用",
+     "to": {
+      "entity": "Personal Information Protection Commission",
+      "label": "Personal Information Protection Commission"
+     },
+     "source": "kg_edge",
+     "level": "L2",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "kg_edge",
+       "from": {
+        "law_id": "JP_Act_2003_SMP_JP_002",
+        "article": "26",
+        "label": "《Act on the Protection of Personal Information》26"
+       },
+       "relation": "设定义务",
+       "to": {
+        "entity": "reporting obligation",
+        "label": "reporting obligation"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "kg_edge",
+       "from": {
+        "entity": "reporting obligation",
+        "label": "reporting obligation"
+       },
+       "relation": "引用",
+       "to": {
+        "entity": "Personal Information Protection Commission",
+        "label": "Personal Information Protection Commission"
+       },
+       "source": "kg_edge",
+       "level": "L2",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "JP_Act_2003_SMP_JP_002::26"
+   ],
+   "gold_entities": [
+    "reporting obligation",
+    "Personal Information Protection Commission"
+   ],
+   "relevant": [
+    {
+     "law_id": "JP_Act_2003_SMP_JP_002",
+     "article": "26",
+     "relevance": 2
+    }
+   ],
+   "notes": "报告义务在条款中，履行对象须从义务实体再跳一次才能得到；单跳无法回答“向谁报告”。"
+  },
+  {
+   "id": "MH-R01",
+   "type": "citation_chain",
+   "hops": 3,
+   "query": "澳门法上，向公共当局申请许可处理个人资料时，申请材料的要求如何与安全措施、敏感资料处理条件相连？",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "澳门"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "MAC_LEI_8_2005",
+    "law_title": "個人資料保護法",
+    "article": "23",
+    "jurisdiction": "澳门"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "23",
+      "label": "《個人資料保護法》23"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "16",
+      "label": "《個人資料保護法》16"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "citation",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "16",
+      "label": "《個人資料保護法》16"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "7",
+      "label": "《個人資料保護法》7"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 3,
+     "kind": "citation",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "7",
+      "label": "《個人資料保護法》7"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "21",
+      "label": "《個人資料保護法》21"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "23",
+        "label": "《個人資料保護法》23"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "16",
+        "label": "《個人資料保護法》16"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "citation",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "16",
+        "label": "《個人資料保護法》16"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "7",
+        "label": "《個人資料保護法》7"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 3,
+       "kind": "citation",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "7",
+        "label": "《個人資料保護法》7"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "21",
+        "label": "《個人資料保護法》21"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MAC_LEI_8_2005::23",
+    "MAC_LEI_8_2005::16",
+    "MAC_LEI_8_2005::7",
+    "MAC_LEI_8_2005::21"
+   ],
+   "relevant": [
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "23",
+     "relevance": 1
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "16",
+     "relevance": 1
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "7",
+     "relevance": 1
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "21",
+     "relevance": 2
+    }
+   ],
+   "notes": "三跳全部由正文正则可回取：23→16（安全措施）、16→7（敏感资料处理）、7→21（通知义务）；单跳检索只能命中其中一段。"
+  },
+  {
+   "id": "MH-R02",
+   "type": "citation_chain",
+   "hops": 3,
+   "query": "澳门法上，个人资料处理登记事项的要求如何关联通知义务、处理条件与安全措施？",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "澳门"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "MAC_LEI_8_2005",
+    "law_title": "個人資料保護法",
+    "article": "24",
+    "jurisdiction": "澳门"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "24",
+      "label": "《個人資料保護法》24"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "21",
+      "label": "《個人資料保護法》21"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "citation",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "21",
+      "label": "《個人資料保護法》21"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "7",
+      "label": "《個人資料保護法》7"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 3,
+     "kind": "citation",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "7",
+      "label": "《個人資料保護法》7"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "16",
+      "label": "《個人資料保護法》16"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "24",
+        "label": "《個人資料保護法》24"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "21",
+        "label": "《個人資料保護法》21"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "citation",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "21",
+        "label": "《個人資料保護法》21"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "7",
+        "label": "《個人資料保護法》7"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 3,
+       "kind": "citation",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "7",
+        "label": "《個人資料保護法》7"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "16",
+        "label": "《個人資料保護法》16"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MAC_LEI_8_2005::24",
+    "MAC_LEI_8_2005::21",
+    "MAC_LEI_8_2005::7",
+    "MAC_LEI_8_2005::16"
+   ],
+   "relevant": [
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "24",
+     "relevance": 1
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "21",
+     "relevance": 1
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "7",
+     "relevance": 1
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "16",
+     "relevance": 2
+    }
+   ],
+   "notes": "24→21→7→16 均为正文明确援引且目标条款真实存在；用于验证三跳引用链的深度与可回取性。"
+  },
+  {
+   "id": "MH-R03",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "澳门法上，个人资料的互联在什么情况下需要公共当局许可？其许可依据又指向哪些处理条件？",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "澳门"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "MAC_LEI_8_2005",
+    "law_title": "個人資料保護法",
+    "article": "9",
+    "jurisdiction": "澳门"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "9",
+      "label": "《個人資料保護法》9"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "22",
+      "label": "《個人資料保護法》22"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "citation",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "22",
+      "label": "《個人資料保護法》22"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "7",
+      "label": "《個人資料保護法》7"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "9",
+        "label": "《個人資料保護法》9"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "22",
+        "label": "《個人資料保護法》22"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "citation",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "22",
+        "label": "《個人資料保護法》22"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "7",
+        "label": "《個人資料保護法》7"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MAC_LEI_8_2005::9",
+    "MAC_LEI_8_2005::22",
+    "MAC_LEI_8_2005::7"
+   ],
+   "relevant": [
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "9",
+     "relevance": 1
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "22",
+     "relevance": 2
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "7",
+     "relevance": 1
+    }
+   ],
+   "notes": "第9条把互联许可指向第22条，第22条再指向第7条的敏感资料处理；两跳均为确定性援引。"
+  },
+  {
+   "id": "MH-R04",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "香港法上，资料使用者拒绝改正资料要求时，应如何通知申请人？拒绝情形规定在哪一条？",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "香港"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "HK_CAP_486",
+    "law_title": "Personal Data (Privacy) Ordinance",
+    "article": "22",
+    "jurisdiction": "香港"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "HK_CAP_486",
+      "article": "22",
+      "label": "《Personal Data (Privacy) Ordinance》22"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "HK_CAP_486",
+      "article": "23",
+      "label": "《Personal Data (Privacy) Ordinance》23"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "citation",
+     "from": {
+      "law_id": "HK_CAP_486",
+      "article": "23",
+      "label": "《Personal Data (Privacy) Ordinance》23"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "HK_CAP_486",
+      "article": "24",
+      "label": "《Personal Data (Privacy) Ordinance》24"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "article": "22",
+        "label": "《Personal Data (Privacy) Ordinance》22"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "HK_CAP_486",
+        "article": "23",
+        "label": "《Personal Data (Privacy) Ordinance》23"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "citation",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "article": "23",
+        "label": "《Personal Data (Privacy) Ordinance》23"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "HK_CAP_486",
+        "article": "24",
+        "label": "《Personal Data (Privacy) Ordinance》24"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "HK_CAP_486::22",
+    "HK_CAP_486::23",
+    "HK_CAP_486::24"
+   ],
+   "relevant": [
+    {
+     "law_id": "HK_CAP_486",
+     "article": "22",
+     "relevance": 1
+    },
+    {
+     "law_id": "HK_CAP_486",
+     "article": "23",
+     "relevance": 2
+    },
+    {
+     "law_id": "HK_CAP_486",
+     "article": "24",
+     "relevance": 1
+    }
+   ],
+   "notes": "第22条提出改正要求，第23条规定遵从义务，第24条规定拒绝情形；两跳均为正文明确援引。"
+  },
+  {
+   "id": "MH-R05",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "香港法上，资料使用者拒绝改正资料要求后，通知义务与拒绝情形条款如何衔接？",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "香港"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "HK_CAP_486",
+    "law_title": "Personal Data (Privacy) Ordinance",
+    "article": "22",
+    "jurisdiction": "香港"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "HK_CAP_486",
+      "article": "22",
+      "label": "《Personal Data (Privacy) Ordinance》22"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "HK_CAP_486",
+      "article": "25",
+      "label": "《Personal Data (Privacy) Ordinance》25"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "citation",
+     "from": {
+      "law_id": "HK_CAP_486",
+      "article": "25",
+      "label": "《Personal Data (Privacy) Ordinance》25"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "HK_CAP_486",
+      "article": "24",
+      "label": "《Personal Data (Privacy) Ordinance》24"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "article": "22",
+        "label": "《Personal Data (Privacy) Ordinance》22"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "HK_CAP_486",
+        "article": "25",
+        "label": "《Personal Data (Privacy) Ordinance》25"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "citation",
+       "from": {
+        "law_id": "HK_CAP_486",
+        "article": "25",
+        "label": "《Personal Data (Privacy) Ordinance》25"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "HK_CAP_486",
+        "article": "24",
+        "label": "《Personal Data (Privacy) Ordinance》24"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "HK_CAP_486::22",
+    "HK_CAP_486::25",
+    "HK_CAP_486::24"
+   ],
+   "relevant": [
+    {
+     "law_id": "HK_CAP_486",
+     "article": "22",
+     "relevance": 1
+    },
+    {
+     "law_id": "HK_CAP_486",
+     "article": "25",
+     "relevance": 2
+    },
+    {
+     "law_id": "HK_CAP_486",
+     "article": "24",
+     "relevance": 1
+    }
+   ],
+   "notes": "第25条是拒绝通知条款，其适用以第24条的拒绝情形为前提；两跳均为正文可回取援引。"
+  },
+  {
+   "id": "MH-R06",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "澳门法上，敏感个人资料的处理以哪些安全措施和许可条件为前提？",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "澳门"
+   ],
+   "expected_modes": [
+    "entity"
+   ],
+   "source": {
+    "law_id": "MAC_LEI_8_2005",
+    "law_title": "個人資料保護法",
+    "article": "7",
+    "jurisdiction": "澳门"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "7",
+      "label": "《個人資料保護法》7"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "16",
+      "label": "《個人資料保護法》16"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "citation",
+     "from": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "16",
+      "label": "《個人資料保護法》16"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "MAC_LEI_8_2005",
+      "article": "8",
+      "label": "《個人資料保護法》8"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "7",
+        "label": "《個人資料保護法》7"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "16",
+        "label": "《個人資料保護法》16"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "citation",
+       "from": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "16",
+        "label": "《個人資料保護法》16"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "MAC_LEI_8_2005",
+        "article": "8",
+        "label": "《個人資料保護法》8"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "MAC_LEI_8_2005::7",
+    "MAC_LEI_8_2005::16",
+    "MAC_LEI_8_2005::8"
+   ],
+   "relevant": [
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "7",
+     "relevance": 1
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "16",
+     "relevance": 2
+    },
+    {
+     "law_id": "MAC_LEI_8_2005",
+     "article": "8",
+     "relevance": 1
+    }
+   ],
+   "notes": "第7条明确以第16条安全措施为前提，第16条又援引第7条与第8条；主路径取 7→16→8，验证引用链的连续性。"
+  },
+  {
+   "id": "MH-R07",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "《中华人民共和国个人信息保护法》第四十五条规定的查阅、复制个人信息权利有哪些例外情形？这些例外又与国家机关处理个人信息时的哪些义务相衔接？",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "expected_modes": [
+    "citation"
+   ],
+   "source": {
+    "law_id": "CN_LAW_CN_002",
+    "law_title": "中华人民共和国个人信息保护法",
+    "article": "45",
+    "jurisdiction": "中国大陆"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_LAW_CN_002",
+      "article": "45",
+      "label": "《中华人民共和国个人信息保护法》45"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_LAW_CN_002",
+      "article": "35",
+      "label": "《中华人民共和国个人信息保护法》35"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_LAW_CN_002",
+      "article": "35",
+      "label": "《中华人民共和国个人信息保护法》35"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_LAW_CN_002",
+      "article": "18",
+      "label": "《中华人民共和国个人信息保护法》18"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_LAW_CN_002",
+        "article": "45",
+        "label": "《中华人民共和国个人信息保护法》45"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_LAW_CN_002",
+        "article": "35",
+        "label": "《中华人民共和国个人信息保护法》35"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_LAW_CN_002",
+        "article": "35",
+        "label": "《中华人民共和国个人信息保护法》35"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_LAW_CN_002",
+        "article": "18",
+        "label": "《中华人民共和国个人信息保护法》18"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "CN_LAW_CN_002::45",
+    "CN_LAW_CN_002::35",
+    "CN_LAW_CN_002::18"
+   ],
+   "relevant": [
+    {
+     "law_id": "CN_LAW_CN_002",
+     "article": "18",
+     "relevance": 2
+    },
+    {
+     "law_id": "CN_LAW_CN_002",
+     "article": "45",
+     "relevance": 1
+    }
+   ],
+   "notes": "45→35→18 三节点两跳全部由正文正则可回取：第45条明写「有本法第十八条第一款、第三十五条规定情形的除外」，第35条明写「应当依照本法规定履行告知义务」，第18条规定告知豁免情形。"
+  },
+  {
+   "id": "MH-R08",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "网络运营者不履行《网络安全法》规定的安全保护义务要承担什么责任？关键信息基础设施运营者的额外义务与网络安全等级保护制度如何衔接？",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "expected_modes": [
+    "citation"
+   ],
+   "source": {
+    "law_id": "CN_LAW_CN_001",
+    "law_title": "中华人民共和国网络安全法",
+    "article": "61",
+    "jurisdiction": "中国大陆"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "61",
+      "label": "《中华人民共和国网络安全法》61"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "36",
+      "label": "《中华人民共和国网络安全法》36"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "36",
+      "label": "《中华人民共和国网络安全法》36"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "23",
+      "label": "《中华人民共和国网络安全法》23"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "61",
+        "label": "《中华人民共和国网络安全法》61"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "36",
+        "label": "《中华人民共和国网络安全法》36"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "36",
+        "label": "《中华人民共和国网络安全法》36"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "23",
+        "label": "《中华人民共和国网络安全法》23"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "CN_LAW_CN_001::61",
+    "CN_LAW_CN_001::36",
+    "CN_LAW_CN_001::23"
+   ],
+   "relevant": [
+    {
+     "law_id": "CN_LAW_CN_001",
+     "article": "23",
+     "relevance": 2
+    },
+    {
+     "law_id": "CN_LAW_CN_001",
+     "article": "61",
+     "relevance": 1
+    }
+   ],
+   "notes": "61→36→23：第61条援引第23条、第27条的义务条款；第36条开头即「除本法第二十三条的规定外」，第23条为网络安全等级保护制度。"
+  },
+  {
+   "id": "MH-R09",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "违反《网络安全法》第二十四条、第五十条的规定会受到什么处罚？网络运营者的网络安全事件应急预案义务出自哪一条？",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "expected_modes": [
+    "citation"
+   ],
+   "source": {
+    "law_id": "CN_LAW_CN_001",
+    "law_title": "中华人民共和国网络安全法",
+    "article": "62",
+    "jurisdiction": "中国大陆"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "62",
+      "label": "《中华人民共和国网络安全法》62"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "61",
+      "label": "《中华人民共和国网络安全法》61"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "61",
+      "label": "《中华人民共和国网络安全法》61"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "27",
+      "label": "《中华人民共和国网络安全法》27"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "62",
+        "label": "《中华人民共和国网络安全法》62"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "61",
+        "label": "《中华人民共和国网络安全法》61"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "61",
+        "label": "《中华人民共和国网络安全法》61"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "27",
+        "label": "《中华人民共和国网络安全法》27"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "CN_LAW_CN_001::62",
+    "CN_LAW_CN_001::61",
+    "CN_LAW_CN_001::27"
+   ],
+   "relevant": [
+    {
+     "law_id": "CN_LAW_CN_001",
+     "article": "27",
+     "relevance": 2
+    },
+    {
+     "law_id": "CN_LAW_CN_001",
+     "article": "62",
+     "relevance": 1
+    }
+   ],
+   "notes": "62→61→27：第62条援引第24条、第50条并指向第61条的责任条款；第61条援引第23条、第27条，第27条为应急预案义务。"
+  },
+  {
+   "id": "MH-R10",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "《网络安全法》第六十二条对违反第二十四条、第五十条规定的行为如何处罚？关键信息基础设施运营者采购网络产品和服务时应履行什么义务？",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "expected_modes": [
+    "citation"
+   ],
+   "source": {
+    "law_id": "CN_LAW_CN_001",
+    "law_title": "中华人民共和国网络安全法",
+    "article": "62",
+    "jurisdiction": "中国大陆"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "62",
+      "label": "《中华人民共和国网络安全法》62"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "61",
+      "label": "《中华人民共和国网络安全法》61"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "61",
+      "label": "《中华人民共和国网络安全法》61"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_LAW_CN_001",
+      "article": "38",
+      "label": "《中华人民共和国网络安全法》38"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "62",
+        "label": "《中华人民共和国网络安全法》62"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "61",
+        "label": "《中华人民共和国网络安全法》61"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "61",
+        "label": "《中华人民共和国网络安全法》61"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_LAW_CN_001",
+        "article": "38",
+        "label": "《中华人民共和国网络安全法》38"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "CN_LAW_CN_001::62",
+    "CN_LAW_CN_001::61",
+    "CN_LAW_CN_001::38"
+   ],
+   "relevant": [
+    {
+     "law_id": "CN_LAW_CN_001",
+     "article": "38",
+     "relevance": 2
+    },
+    {
+     "law_id": "CN_LAW_CN_001",
+     "article": "62",
+     "relevance": 1
+    }
+   ],
+   "notes": "62→61→38：第62条→第61条（责任条款）→第61条正文援引第38条（采购网络产品和服务应签订安全保密协议）。"
+  },
+  {
+   "id": "MH-R11",
+   "type": "citation_chain",
+   "hops": 1,
+   "query": "《数据安全法》第四十五条对不履行数据安全保护义务的组织和个人规定了哪些处罚？重要数据处理者的风险评估义务规定在哪一条？",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "expected_modes": [
+    "citation"
+   ],
+   "source": {
+    "law_id": "CN_LAW_CN_003",
+    "law_title": "中华人民共和国数据安全法",
+    "article": "45",
+    "jurisdiction": "中国大陆"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_LAW_CN_003",
+      "article": "45",
+      "label": "《中华人民共和国数据安全法》45"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_LAW_CN_003",
+      "article": "30",
+      "label": "《中华人民共和国数据安全法》30"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_LAW_CN_003",
+        "article": "45",
+        "label": "《中华人民共和国数据安全法》45"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_LAW_CN_003",
+        "article": "30",
+        "label": "《中华人民共和国数据安全法》30"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "CN_LAW_CN_003::45",
+    "CN_LAW_CN_003::30"
+   ],
+   "relevant": [
+    {
+     "law_id": "CN_LAW_CN_003",
+     "article": "30",
+     "relevance": 2
+    },
+    {
+     "law_id": "CN_LAW_CN_003",
+     "article": "45",
+     "relevance": 1
+    }
+   ],
+   "notes": "45→30：第45条正文「不履行本法第二十七条、第二十九条、第三十条规定的数据安全保护义务的」，第30条为重要数据处理者风险评估与报送义务。单跳引用，用于检验引用扩展能否把处罚条款接回义务条款。"
+  },
+  {
+   "id": "MH-R12",
+   "type": "citation_chain",
+   "hops": 1,
+   "query": "《数据安全法》第四十六条对向境外提供重要数据的行为如何处罚？关键信息基础设施运营者的重要数据出境安全管理适用哪部法律？",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "expected_modes": [
+    "citation"
+   ],
+   "source": {
+    "law_id": "CN_LAW_CN_003",
+    "law_title": "中华人民共和国数据安全法",
+    "article": "46",
+    "jurisdiction": "中国大陆"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_LAW_CN_003",
+      "article": "46",
+      "label": "《中华人民共和国数据安全法》46"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_LAW_CN_003",
+      "article": "31",
+      "label": "《中华人民共和国数据安全法》31"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_LAW_CN_003",
+        "article": "46",
+        "label": "《中华人民共和国数据安全法》46"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_LAW_CN_003",
+        "article": "31",
+        "label": "《中华人民共和国数据安全法》31"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "CN_LAW_CN_003::46",
+    "CN_LAW_CN_003::31"
+   ],
+   "relevant": [
+    {
+     "law_id": "CN_LAW_CN_003",
+     "article": "31",
+     "relevance": 2
+    },
+    {
+     "law_id": "CN_LAW_CN_003",
+     "article": "46",
+     "relevance": 1
+    }
+   ],
+   "notes": "46→31：第46条正文「违反本法第三十一条规定，向境外提供重要数据的…」，第31条明确重要数据出境安全管理适用《中华人民共和国网络安全法》。单跳引用。"
+  },
+  {
+   "id": "MH-R13",
+   "type": "citation_chain",
+   "hops": 1,
+   "query": "《网络数据安全管理条例》第二十八条对处理1000万人以上个人信息的网络数据处理者提出了什么要求？重要数据处理者在合并、分立、解散时负有什么义务？",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "expected_modes": [
+    "citation"
+   ],
+   "source": {
+    "law_id": "CN_REG_790_2024",
+    "law_title": "网络数据安全管理条例",
+    "article": "28",
+    "jurisdiction": "中国大陆"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_REG_790_2024",
+      "article": "28",
+      "label": "《网络数据安全管理条例》28"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_REG_790_2024",
+      "article": "32",
+      "label": "《网络数据安全管理条例》32"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_REG_790_2024",
+        "article": "28",
+        "label": "《网络数据安全管理条例》28"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_REG_790_2024",
+        "article": "32",
+        "label": "《网络数据安全管理条例》32"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "CN_REG_790_2024::28",
+    "CN_REG_790_2024::32"
+   ],
+   "relevant": [
+    {
+     "law_id": "CN_REG_790_2024",
+     "article": "32",
+     "relevance": 2
+    },
+    {
+     "law_id": "CN_REG_790_2024",
+     "article": "28",
+     "relevance": 1
+    }
+   ],
+   "notes": "28→32：第28条正文「还应当遵守本条例第三十条、第三十二条对处理重要数据的网络数据处理者的规定」，第32条规定重要数据安全事件处置与报告义务。单跳引用。"
+  },
+  {
+   "id": "MH-R14",
+   "type": "citation_chain",
+   "hops": 1,
+   "query": "《网络数据安全管理条例》第五十七条对违反重要数据管理规定的行为如何处罚？重要数据处理者提供、委托处理重要数据前应当履行什么义务？",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "expected_modes": [
+    "citation"
+   ],
+   "source": {
+    "law_id": "CN_REG_790_2024",
+    "law_title": "网络数据安全管理条例",
+    "article": "57",
+    "jurisdiction": "中国大陆"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "citation",
+     "from": {
+      "law_id": "CN_REG_790_2024",
+      "article": "57",
+      "label": "《网络数据安全管理条例》57"
+     },
+     "relation": "援引",
+     "to": {
+      "law_id": "CN_REG_790_2024",
+      "article": "31",
+      "label": "《网络数据安全管理条例》31"
+     },
+     "source": "citation_regex",
+     "level": "L3",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "citation",
+       "from": {
+        "law_id": "CN_REG_790_2024",
+        "article": "57",
+        "label": "《网络数据安全管理条例》57"
+       },
+       "relation": "援引",
+       "to": {
+        "law_id": "CN_REG_790_2024",
+        "article": "31",
+        "label": "《网络数据安全管理条例》31"
+       },
+       "source": "citation_regex",
+       "level": "L3",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "CN_REG_790_2024::57",
+    "CN_REG_790_2024::31"
+   ],
+   "relevant": [
+    {
+     "law_id": "CN_REG_790_2024",
+     "article": "31",
+     "relevance": 2
+    },
+    {
+     "law_id": "CN_REG_790_2024",
+     "article": "57",
+     "relevance": 1
+    }
+   ],
+   "notes": "57→31：第57条正文「违反本条例第二十九条第二款、第三十条第二款和第三款、第三十一条、第三十二条规定的」，第31条为重要数据风险评估义务。单跳引用。"
+  },
+  {
+   "id": "MH-C09",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "澳大利亚《Telecommunications Act 1997》对电信运营商设定了哪些基本义务？韩国《TELECOMMUNICATIONS BUSINESS ACT》对电信业务经营者保护用户有何对应规定？",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "澳大利亚",
+    "韩国"
+   ],
+   "expected_modes": [
+    "cross"
+   ],
+   "source": {
+    "law_id": "AU_ACT_47_1997",
+    "law_title": "Telecommunications Act 1997",
+    "article": "5",
+    "jurisdiction": "澳大利亚"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "AU_ACT_47_1997",
+      "article": "5",
+      "label": "《Telecommunications Act 1997》5"
+     },
+     "relation": "对应法规",
+     "to": {
+      "law_id": "KR_ACT_10166",
+      "label": "《TELECOMMUNICATIONS BUSINESS ACT》"
+     },
+     "source": "similar_law",
+     "level": "L1",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "KR_ACT_10166",
+      "label": "《TELECOMMUNICATIONS BUSINESS ACT》"
+     },
+     "relation": "相关条款",
+     "to": {
+      "law_id": "KR_ACT_10166",
+      "article": "32",
+      "label": "《TELECOMMUNICATIONS BUSINESS ACT》32"
+     },
+     "source": "retrieval",
+     "level": "L1",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "AU_ACT_47_1997",
+        "article": "5",
+        "label": "《Telecommunications Act 1997》5"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "KR_ACT_10166",
+        "label": "《TELECOMMUNICATIONS BUSINESS ACT》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "KR_ACT_10166",
+        "label": "《TELECOMMUNICATIONS BUSINESS ACT》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "KR_ACT_10166",
+        "article": "32",
+        "label": "《TELECOMMUNICATIONS BUSINESS ACT》32"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "AU_ACT_47_1997::5",
+    "KR_ACT_10166::32"
+   ],
+   "relevant": [
+    {
+     "law_id": "KR_ACT_10166",
+     "article": "32",
+     "relevance": 2
+    },
+    {
+     "law_id": "AU_ACT_47_1997",
+     "article": "5",
+     "relevance": 1
+    }
+   ],
+   "notes": "跨法域对齐经实测可命中：源为澳《Telecommunications Act 1997》第5条（定义与基本义务），目标为韩国《TELECOMMUNICATIONS BUSINESS ACT》第32条（telecommunications business operator shall strive to prevent any loss to users）。"
+  },
+  {
+   "id": "MH-C10",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "韩国《TELECOMMUNICATIONS BUSINESS ACT》对电信业务经营者的业务开展有何规定？澳大利亚法对普遍服务义务有何对应规定？",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "韩国",
+    "澳大利亚"
+   ],
+   "expected_modes": [
+    "cross"
+   ],
+   "source": {
+    "law_id": "KR_ACT_10166",
+    "law_title": "TELECOMMUNICATIONS BUSINESS ACT",
+    "article": "4",
+    "jurisdiction": "韩国"
+   },
+   "gold_path": [
+    {
+     "hop": 1,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "KR_ACT_10166",
+      "article": "4",
+      "label": "《TELECOMMUNICATIONS BUSINESS ACT》4"
+     },
+     "relation": "对应法规",
+     "to": {
+      "law_id": "AU_ACT_50_1999",
+      "label": "《Telecommunications (Consumer Protection and Service Standards) Act 1999》"
+     },
+     "source": "similar_law",
+     "level": "L1",
+     "direction": "forward"
+    },
+    {
+     "hop": 2,
+     "kind": "cross_jurisdiction",
+     "from": {
+      "law_id": "AU_ACT_50_1999",
+      "label": "《Telecommunications (Consumer Protection and Service Standards) Act 1999》"
+     },
+     "relation": "相关条款",
+     "to": {
+      "law_id": "AU_ACT_50_1999",
+      "article": "9",
+      "label": "《Telecommunications (Consumer Protection and Service Standards) Act 1999》9"
+     },
+     "source": "retrieval",
+     "level": "L1",
+     "direction": "forward"
+    }
+   ],
+   "gold_paths": [
+    {
+     "path_id": "P1",
+     "steps": [
+      {
+       "hop": 1,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "KR_ACT_10166",
+        "article": "4",
+        "label": "《TELECOMMUNICATIONS BUSINESS ACT》4"
+       },
+       "relation": "对应法规",
+       "to": {
+        "law_id": "AU_ACT_50_1999",
+        "label": "《Telecommunications (Consumer Protection and Service Standards) Act 1999》"
+       },
+       "source": "similar_law",
+       "level": "L1",
+       "direction": "forward"
+      },
+      {
+       "hop": 2,
+       "kind": "cross_jurisdiction",
+       "from": {
+        "law_id": "AU_ACT_50_1999",
+        "label": "《Telecommunications (Consumer Protection and Service Standards) Act 1999》"
+       },
+       "relation": "相关条款",
+       "to": {
+        "law_id": "AU_ACT_50_1999",
+        "article": "9",
+        "label": "《Telecommunications (Consumer Protection and Service Standards) Act 1999》9"
+       },
+       "source": "retrieval",
+       "level": "L1",
+       "direction": "forward"
+      }
+     ]
+    }
+   ],
+   "gold_articles": [
+    "KR_ACT_10166::4",
+    "AU_ACT_50_1999::9"
+   ],
+   "relevant": [
+    {
+     "law_id": "AU_ACT_50_1999",
+     "article": "9",
+     "relevance": 2
+    },
+    {
+     "law_id": "KR_ACT_10166",
+     "article": "4",
+     "relevance": 1
+    }
+   ],
+   "notes": "跨法域对齐经实测可命中：源为韩国《TELECOMMUNICATIONS BUSINESS ACT》第4条，目标为澳《Telecommunications (Consumer Protection and Service Standards) Act 1999》第9条（universal service obligation）。"
+  }
+ ]
+}

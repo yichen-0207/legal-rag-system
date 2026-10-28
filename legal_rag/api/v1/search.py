@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Query
 from typing import List, Optional
 from core.jurisdiction import normalize_jurisdiction
-from models.schemas import APIResponse, SearchResult, DocumentMetadata, SimilarLawResponse, SimilarChunkResponse
+from schemas import APIResponse, SearchResult, DocumentMetadata, SimilarLawResponse, SimilarChunkResponse
 from services.retriever_service import RetrieverService
 from services.similar_law_service import SimilarLawService
 from services.summary_service import SummaryService

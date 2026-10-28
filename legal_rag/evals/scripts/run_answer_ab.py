@@ -9,14 +9,12 @@ import math
 import os
 import random
 import re
-import sys
 import time
 import unicodedata
 from datetime import datetime
 from typing import Dict, List, Optional
 
-sys.path.insert(0, "/app")
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+from _bootstrap import DATASETS_DIR, RESULTS_DIR
 
 from pydantic import BaseModel  # noqa: E402
 
@@ -28,11 +26,11 @@ from services.kg_reasoning_service import KGReasoningService  # noqa: E402
 from services.multihop_service import MultiHopService  # noqa: E402
 from services.qa_service import QAService  # noqa: E402
 
-MULTIHOP_PATH = os.path.join(BASE_DIR, "multihop_dataset.json")
-SINGLE_PATH = os.path.join(BASE_DIR, "eval_dataset_clause.json")
-OUT_JSON = os.path.join(BASE_DIR, "answer_ab_results.json")
-OUT_CSV = os.path.join(BASE_DIR, "answer_ab_results.csv")
-CACHE_PATH = os.path.join(BASE_DIR, "answer_ab_cache.json")
+MULTIHOP_PATH = os.path.join(DATASETS_DIR, "multihop_dataset.json")
+SINGLE_PATH = os.path.join(DATASETS_DIR, "eval_dataset_clause.json")
+OUT_JSON = os.path.join(RESULTS_DIR, "answer_ab_results.json")
+OUT_CSV = os.path.join(RESULTS_DIR, "answer_ab_results.csv")
+CACHE_PATH = os.path.join(RESULTS_DIR, "answer_ab_cache.json")
 USAGE_DIR = "/app/logs"
 REGRESS_ITEMS = 12
 SOURCE_REF_RE = re.compile(r"【来源(\d+)】")

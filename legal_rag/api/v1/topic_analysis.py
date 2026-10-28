@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Query, Body
-from models.schemas import APIResponse, TopicAnalysisResponse
+from schemas import APIResponse, TopicAnalysisResponse
 from services.topic_analysis_service import TopicAnalysisService
 
 # 同步 def：内部为双法域检索 + LLM 报告的阻塞流程，交由线程池执行，避免独占事件循环

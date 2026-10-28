@@ -2,7 +2,7 @@ from fastapi import APIRouter, Query
 from fastapi.responses import StreamingResponse
 from fastapi import Request
 from typing import Optional
-from models.schemas import APIResponse
+from schemas import APIResponse
 from services.qa_service import QAService
 import json
 

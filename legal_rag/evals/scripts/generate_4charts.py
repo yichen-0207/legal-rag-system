@@ -6,16 +6,17 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 import numpy as np
 
+from _bootstrap import RESULTS_DIR
+
 plt.rcParams['font.sans-serif'] = ['SimHei', 'Microsoft YaHei']
 plt.rcParams['axes.unicode_minus'] = False
 plt.rcParams['figure.dpi'] = 200
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_DIR = os.path.join(BASE_DIR, "charts")
+OUTPUT_DIR = os.path.join(RESULTS_DIR, "charts")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-VIZ_PATH = os.path.join(BASE_DIR, "eval_viz_data.json")
-QA_PATH = os.path.join(BASE_DIR, "eval_qa_summary.json")
+VIZ_PATH = os.path.join(RESULTS_DIR, "eval_viz_data.json")
+QA_PATH = os.path.join(RESULTS_DIR, "eval_qa_summary.json")
 
 with open(VIZ_PATH, "r", encoding="utf-8") as f:
     viz_data = json.load(f)

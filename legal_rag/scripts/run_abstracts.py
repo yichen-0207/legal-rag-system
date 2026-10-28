@@ -1,4 +1,9 @@
-"""独立运行摘要生成脚本 — 在容器内执行: python run_abstracts.py"""
+"""独立运行摘要生成脚本 — 在容器内执行: python -m scripts.run_abstracts"""
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from services.abstract_service import AbstractService
 from elasticsearch import Elasticsearch
 from core.config import settings

@@ -16,7 +16,7 @@ legal_rag/data/kg_cache/
 legal_rag/data/raw_v2/
 
 # 生成的图表（可重新生成）
-legal_rag/eval_data/charts/
+legal_rag/evals/results/charts/
 
 # LLM 用量账本（本地运行产物，不入库）
 /legal_rag/logs/

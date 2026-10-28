@@ -1,4 +1,4 @@
-"""批量预抽取法规知识图谱 — 在容器内执行: python run_kg_extraction.py [选项]
+"""批量预抽取法规知识图谱 — 在容器内执行: python -m scripts.run_kg_extraction [选项]
 
 把全部（或指定范围）法规的三元组预抽取并落库，填充 legal_kg_triples / legal_kg_entities。
 幂等：已缓存且指纹未变的法规自动跳过，不产生 LLM 调用，中断后重跑安全。
@@ -14,6 +14,9 @@ from datetime import datetime
 
 # 与 main.py 保持一致：避免 tokenizers 在并行环境下产生告警
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+
+# 以脚本方式（python scripts/run_kg_extraction.py）执行时，把项目根加入模块搜索路径
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from core.config import settings
 from repositories.elasticsearch import ElasticsearchRepository

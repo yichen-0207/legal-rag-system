@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Depends, Query, Header, Body
 from typing import Dict, Optional, Any, List
 from core.config import settings
-from models.schemas import APIResponse
+from schemas import APIResponse
 from services.law_management_service import LawManagementService
 from repositories.elasticsearch import ElasticsearchRepository
 from utils.law_catalog import LawCatalog

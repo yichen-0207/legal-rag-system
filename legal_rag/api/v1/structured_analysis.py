@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query, Body
 from fastapi.responses import StreamingResponse
-from models.schemas import APIResponse
+from schemas import APIResponse
 from services.structured_analysis_service import StructuredAnalysisService
 import json, asyncio
 

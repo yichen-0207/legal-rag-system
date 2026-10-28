@@ -7,14 +7,11 @@ import json
 import math
 import os
 import re
-import sys
 import time
 import unicodedata
 from collections import defaultdict
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, "/app")
-sys.path.insert(0, BASE_DIR)
+from _bootstrap import DATASETS_DIR, RESULTS_DIR
 
 from core.config import settings  # noqa: E402
 from repositories.elasticsearch import ElasticsearchRepository  # noqa: E402
@@ -22,9 +19,9 @@ from services.kg_reasoning_service import KGReasoningService  # noqa: E402
 from services.multihop_service import MultiHopService  # noqa: E402
 from services.retriever_service import RetrieverService  # noqa: E402
 
-DATA_PATH = os.path.join(BASE_DIR, "multihop_dataset.json")
-OUT_JSON = os.path.join(BASE_DIR, "multihop_ab_results.json")
-OUT_CSV = os.path.join(BASE_DIR, "multihop_ab_results.csv")
+DATA_PATH = os.path.join(DATASETS_DIR, "multihop_dataset.json")
+OUT_JSON = os.path.join(RESULTS_DIR, "multihop_ab_results.json")
+OUT_CSV = os.path.join(RESULTS_DIR, "multihop_ab_results.csv")
 TOP_K = 20
 KS = (5, 10, 20)
 

@@ -1,19 +1,17 @@
 """检索评估全流程：Step 2 检索 Top-20 候选写入 Excel L 列 → Step 3 按 K 列 ground truth 自动标注 M 列 → Step 4 构建 eval_dataset.json 并跑 3 种策略对比。"""
-import sys, os, json, math
+import os, json, math
 from typing import List, Dict, Tuple, Optional
 from collections import Counter
 from openpyxl import load_workbook
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _bootstrap import DATASETS_DIR
 
 # ============================================================
 # 配置
 # ============================================================
-# 本脚本与数据集同处 eval_data/ 目录，BASE_DIR 已是该目录，不能再拼一层 "eval_data"。
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EVAL_QUERIES_PATH = os.path.join(BASE_DIR, "eval_queries.json")
-XLSX_PATH = os.path.join(BASE_DIR, "eval_annotation_template.xlsx")
-EVAL_DATASET_PATH = os.path.join(BASE_DIR, "eval_dataset.json")
+EVAL_QUERIES_PATH = os.path.join(DATASETS_DIR, "eval_queries.json")
+XLSX_PATH = os.path.join(DATASETS_DIR, "eval_annotation_template.xlsx")
+EVAL_DATASET_PATH = os.path.join(DATASETS_DIR, "eval_dataset.json")
 TOP_K = 20
 
 

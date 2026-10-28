@@ -22,7 +22,7 @@ from langchain_core.messages import AIMessage, ToolMessage
 from langchain_openai import ChatOpenAI
 
 from core.config import settings
-from core.jurisdiction import get_all_jurisdictions
+from core.jurisdiction import COMPARE_KEYWORDS, get_all_jurisdictions
 from core.llm import get_chat_model
 from services.agent.tools import EVIDENCE_STATUS_TOOL, AgentToolkit
 from services.query_decomposer import _CONJUNCTION_RE, _TARGET_ARTICLE_RE
@@ -30,8 +30,8 @@ from services.retriever_service import RetrieverService
 
 logger = logging.getLogger(__name__)
 
-# 复杂度路由的语义信号；复用 RetrieverService.COMPARE_KEYWORDS，与检索侧跨法域扇出同口径。
-_COMPARE_KEYWORDS = tuple(RetrieverService.COMPARE_KEYWORDS)
+# 复杂度路由的语义信号；复用 core.jurisdiction.COMPARE_KEYWORDS，与检索侧跨法域扇出同口径。
+_COMPARE_KEYWORDS = tuple(COMPARE_KEYWORDS)
 
 # route_mode 取值：auto=按复杂度自动决定；agent=强制多步探索；fast=强制既有快速 RAG
 ROUTE_MODE_AUTO = "auto"
@@ -766,6 +766,15 @@ class AgentService:
                                 continue
                             # 轮粒度聚合：合并进所属模型轮的收益标记（任一调用有证据即该轮有收益）
                             turn_gained[info["step"]] = turn_gained.get(info["step"], False) or gained
+                # 预算已用尽：必须等本轮工具全部返回（pending 清空）后才收口——否则会在
+                # 模型刚发出调用的瞬间就中断，丢掉本轮证据。收口后模型下一轮只会「宣告结束」，
+                # 而那句结论最终被丢弃（答案由后续合成调用生成），故不必再等它。
+                if (not halt and not pending
+                        and tool_calls_made >= settings.agent_max_tool_calls):
+                    stop_reason = "tool_budget"
+                    halt = True
+                    logger.info("[Agent] 工具预算用尽（%d 次），跳过收尾决策直接收口",
+                                tool_calls_made)
                 if halt:
                     break
         except Exception as e:

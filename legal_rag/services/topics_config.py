@@ -1,6 +1,7 @@
 """跨法域专题对比的预设专题配置。
 
-每个专题严格对应澳门+新加坡双方均有实质性法规的领域；search_queries 取自 taxonomy_merged.json 的关键词以确保 ES 能命中。
+每个专题的 search_queries 必须同时覆盖简体、繁体与英文表述，并已通过 ES 检索校验：
+确保澳门与新加坡两侧都能命中目标法规，避免生成大量“未找到相关规定”的空报告。
 """
 
 TOPICS: list[dict] = [
@@ -241,6 +242,103 @@ TOPICS: list[dict] = [
             {"key": "oversight_accountability", "label": "监督机制与问责安排"},
             {"key": "subject_notification", "label": "是否/何时通知被监控对象"},
             {"key": "judicial_remedy", "label": "被监控者的救济途径"},
+            {"key": "source_articles", "label": "引用法条编号（仅记录）"}
+        ]
+    },
+
+    # ==========================================================================
+    #  11. 著作权与相关权利保护（澳门：第5/2012號法律 / 新加坡：Copyright Act 2021）
+    # ==========================================================================
+    {
+        "id": "copyright_related_rights",
+        "name": "著作权与相关权利保护",
+        "description": "比较两个法域在作品保护对象、专有权利、限制与例外、保护期限及侵权救济方面的制度差异",
+        "search_queries": [
+            "著作权", "著作權", "版权", "版權", "copyright", "literary work",
+            "作品", "邻接权", "相關權利", "related rights", "表演者", "performer",
+            "复制权", "reproduction right", "侵权", "infringement",
+            "合理使用", "fair use", "保护期"
+        ],
+        "dimensions": [
+            {"key": "protected_works", "label": "保护对象与作品类型（独创性要求、受保护客体）"},
+            {"key": "exclusive_rights", "label": "专有权利内容（复制/发行/公开传播/改编等）"},
+            {"key": "authorship_ownership", "label": "权利归属与作者认定（职务/委托/雇佣作品）"},
+            {"key": "limitations_exceptions", "label": "权利限制与例外（合理使用/法定许可）"},
+            {"key": "term_of_protection", "label": "保护期限及起算规则"},
+            {"key": "infringement_liability", "label": "侵权认定与民事救济（停止侵害/赔偿）"},
+            {"key": "criminal_administrative", "label": "刑事与行政责任"},
+            {"key": "related_rights", "label": "邻接权与集体管理"},
+            {"key": "source_articles", "label": "引用法条编号（仅记录）"}
+        ]
+    },
+
+    # ==========================================================================
+    #  12. 会计审计职业资格与监管（澳门：第20/2020號法律 / 新加坡：Accountants Act 2004）
+    # ==========================================================================
+    {
+        "id": "accounting_audit_profession",
+        "name": "会计审计职业资格与监管",
+        "description": "比较两个法域在会计师执业资格、会计准则、独立性、审计义务及纪律责任方面的制度差异",
+        "search_queries": [
+            "会计师", "會計師", "执业资格", "執業資格", "accountant", "audit",
+            "审计", "審計", "会计准则", "會計準則", "accounting standard",
+            "独立性", "independence", "纪律处分", "disciplinary",
+            "财务报表", "financial statements"
+        ],
+        "dimensions": [
+            {"key": "qualification_registration", "label": "执业资格与注册条件"},
+            {"key": "professional_standards", "label": "执业准则与会计准则"},
+            {"key": "independence_ethics", "label": "独立性与职业道德要求"},
+            {"key": "audit_obligations", "label": "审计义务与报告要求"},
+            {"key": "regulatory_body", "label": "监管机构与自律组织的职权"},
+            {"key": "disciplinary_liability", "label": "纪律处分与法律责任"},
+            {"key": "record_confidentiality", "label": "工作底稿与保密义务"},
+            {"key": "source_articles", "label": "引用法条编号（仅记录）"}
+        ]
+    },
+
+    # ==========================================================================
+    #  13. 公证与公文认证（澳门：第18/2024號法律 / 新加坡：Apostille Act 2020）
+    # ==========================================================================
+    {
+        "id": "notarization_authentication",
+        "name": "公证与公文认证",
+        "description": "比较两个法域在公证行为、公文认证、Apostille 跨境流转及电子公证方面的制度差异",
+        "search_queries": [
+            "公证", "公證", "认证", "認證", "公文", "apostille",
+            "public document", "notarial", "certificate"
+        ],
+        "dimensions": [
+            {"key": "public_document_scope", "label": "受公证/认证的文书范围与定义"},
+            {"key": "notarial_acts", "label": "公证行为类型与法律效力"},
+            {"key": "authentication_authority", "label": "公证/认证的签发机关与权限"},
+            {"key": "evidentiary_effect", "label": "经公证或认证文书的证明力"},
+            {"key": "cross_border_recognition", "label": "跨境公文流转与 Apostille 适用"},
+            {"key": "electronic_notarization", "label": "电子公证与电子登记"},
+            {"key": "liability_penalties", "label": "违规责任与处罚"},
+            {"key": "source_articles", "label": "引用法条编号（仅记录）"}
+        ]
+    },
+
+    # ==========================================================================
+    #  14. 电子政务与电子化公共服务（澳门：第2/2020號法律等 / 新加坡：ETA 2010）
+    # ==========================================================================
+    {
+        "id": "e_government_services",
+        "name": "电子政务与电子化公共服务",
+        "description": "比较两个法域在电子文件效力、电子签名、电子政务服务及跨部门数据共享方面的制度差异",
+        "search_queries": [
+            "电子政务", "電子政務", "电子服务", "電子服務", "电子文件", "電子文件",
+            "电子签名", "電子簽名", "electronic record", "electronic signature",
+            "electronic transaction", "公共服务", "公共服務"
+        ],
+        "dimensions": [
+            {"key": "legal_effect_electronic", "label": "电子文件的法律效力与适用范围"},
+            {"key": "signature_requirements", "label": "电子签名的类型与效力要件"},
+            {"key": "record_integrity", "label": "电子记录的保存、原件与完整性"},
+            {"key": "government_application", "label": "电子文件在政务服务中的应用"},
+            {"key": "authentication_trust", "label": "认证服务与可信性保障"},
+            {"key": "liability_dispute", "label": "责任分担与争议解决"},
             {"key": "source_articles", "label": "引用法条编号（仅记录）"}
         ]
     },

@@ -6,6 +6,13 @@ from typing import List, Dict, Optional, Tuple
 from collections import defaultdict
 from repositories.elasticsearch import ElasticsearchRepository, _jurisdiction_to_zh, zh_convert
 from core.config import settings
+from core.jurisdiction import (
+    ALL_DATA_JURISDICTIONS,
+    COMPARE_KEYWORDS,
+    JURISDICTION_KEYWORDS,
+    REGION_MAP,
+    detect_single_jurisdiction,
+)
 from services.query_decomposer import decompose_query
 from services.query_planner import plan_retrieval
 from utils.search_cache import get_search_cache, normalize_query_for_cache
@@ -198,34 +205,8 @@ class RetrieverService:
             result['_similarities'] = [new_sims]
         return result
 
-    # 法域触发词：无显式法域参数时用于识别查询提到的法域。
-    # 新增法域入库后必须同步维护此表（缺项时该法域只能靠语义向量兜底，精度更低）。
-    # 「中国」不入表：它既是「中国大陆」的简称，也是「中国香港/中国澳门」的前缀，
-    # 单独用正则按是否为限定前缀来判断（见 _CHINA_STANDALONE_RE）。
-    _JURISDICTION_TRIGGERS = {
-        '中国香港': ['中国香港', '香港', 'hongkong', 'hong kong', 'hk'],
-        '中国澳门': ['中国澳门', '澳门', '澳門', 'macau', 'macao'],
-        '中国大陆': ['中国大陆', 'mainland china', 'china'],
-        '新加坡': ['新加坡', 'singapore'],
-        '马来西亚': ['马来西亚', 'malaysia'],
-        '日本': ['日本', 'japan'],
-        '韩国': ['韩国', '韓国', 'south korea', 'korea'],
-        '泰国': ['泰国', 'thailand'],
-        '越南': ['越南', 'vietnam'],
-        '澳大利亚': ['澳大利亚', '澳洲', 'australia'],
-        '美国': ['美国', 'united states', 'usa'],
-    }
-    # 未被香港/澳门/台湾限定的「中国」→ 中国大陆
-    _CHINA_STANDALONE_RE = re.compile(r"中国(?!香港|澳门|澳門|台湾|臺灣)")
-
-    @staticmethod
-    def _trigger_hit(trigger: str, query: str, lowered: str) -> bool:
-        """触发词匹配：ASCII 词加边界，避免 'hk' 命中 'shk' 这类子串误判；中文用子串。"""
-        if trigger.isascii():
-            return re.search(
-                rf"(?<![a-z0-9]){re.escape(trigger)}(?![a-z0-9])", lowered
-            ) is not None
-        return trigger in query
+    # 法域触发词、区域映射、比较型关键词统一维护在 core.jurisdiction，
+    # 本类只负责检索侧口径（唯一法域 / 扇出判断）。
 
     def _detect_jurisdiction(self, query: str) -> Optional[str]:
         """识别查询中的**唯一**法域；未命中或命中多个都返回 None。
@@ -234,18 +215,12 @@ class RetrieverService:
         若在这里收敛成单法域，它会成为检索的硬过滤条件，直接丢掉其余法域的召回
         （「美国与日本的跨境规则」曾被过滤成只搜美国）。
         """
-        text = query or ""
-        lowered = text.lower()
-        matched = {
-            jurisdiction
-            for jurisdiction, triggers in self._JURISDICTION_TRIGGERS.items()
-            if any(self._trigger_hit(t, text, lowered) for t in triggers)
-        }
-        if self._CHINA_STANDALONE_RE.search(text):
-            matched.add('中国大陆')
-        if len(matched) != 1:
-            return None
-        return next(iter(matched))
+        jurisdiction, _matched = detect_single_jurisdiction(query)
+        return jurisdiction or None
+
+    def detect_jurisdiction(self, query: str) -> Optional[str]:
+        """对外暴露单法域识别：批量子查询需各自补法域过滤（planner 在第①步不做检测）。"""
+        return self._detect_jurisdiction(query)
 
     def _extract_law_name(self, query: str) -> Optional[str]:
         """从查询中提取原始法规名称（不做跨语言映射，跨语言匹配交给前端频次分析）。"""
@@ -285,32 +260,8 @@ class RetrieverService:
         
         return None
 
-    # ============================================================
-    # 区域→法域路由映射表
-    # ============================================================
-    REGION_MAP = {
-        "亚太地区": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国",
-                     "越南", "中国澳门", "中国大陆", "澳大利亚"],
-        "亚太": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国",
-                 "越南", "中国澳门", "中国大陆", "澳大利亚"],
-        "东南亚各国": ["新加坡", "马来西亚", "泰国", "越南"],
-        "东南亚": ["新加坡", "马来西亚", "泰国", "越南"],
-        "东亚": ["日本", "韩国", "中国香港", "中国澳门", "中国大陆"],
-        "亚洲各国": ["日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
-                     "中国香港", "中国澳门", "中国大陆"],
-        "亚洲主要国家": ["日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
-                         "中国香港", "中国澳门", "中国大陆"],
-        "亚洲各司法管辖区": ["日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
-                             "中国香港", "中国澳门", "中国大陆"],
-        "各国": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
-                 "中国澳门", "中国大陆", "澳大利亚", "美国"],
-        "不同法域": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
-                     "中国澳门", "中国大陆", "澳大利亚", "美国"],
-        "各司法管辖区": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
-                         "中国澳门", "中国大陆", "澳大利亚", "美国"],
-    }
+    # 区域映射（REGION_MAP）与比较型关键词（COMPARE_KEYWORDS）见 core.jurisdiction
 
-    COMPARE_KEYWORDS = ["有何异同", "有何差异", "比较", "区别", "差异", "异同", "不同模式", "versus", "vs"]
 
     # ============================================================
     # 查询增强（实现已抽出到 utils.query_enhance，与 QAService 共享同一份词表）
@@ -329,23 +280,9 @@ class RetrieverService:
         """检测查询涉及的法域列表；返回 None 表示不限法域（跨所有法域检索）。"""
         # 检查是否已包含具体法域名（如"美国电话营销"）
         named_jurs = []
-        SPECIFIC = {
-            "美国": "美国", "日本": "日本", "新加坡": "新加坡",
-            "泰国": "泰国", "越南": "越南", "中国香港": "中国香港",
-            "中国澳门": "中国澳门", "马来西亚": "马来西亚",
-            "韩国": "韩国", "澳大利亚": "澳大利亚",
-            "香港": "中国香港", "澳门": "中国澳门",
-            "中国大陆": "中国大陆", "china": "中国大陆",
-            "macau": "中国澳门", "macao": "中国澳门",
-            "hong kong": "中国香港", "singapore": "新加坡",
-            "japan": "日本", "thailand": "泰国",
-            "vietnam": "越南", "malaysia": "马来西亚",
-            "korea": "韩国", "australia": "澳大利亚", "澳洲": "澳大利亚",
-            "united states": "美国", "usa": "美国",
-        }
 
         # 检测具体法域
-        for keyword, jur in SPECIFIC.items():
+        for keyword, jur in JURISDICTION_KEYWORDS.items():
             # 使用 word boundary 或子串匹配
             pattern = re.compile(re.escape(keyword), re.IGNORECASE)
             if pattern.search(query):
@@ -363,16 +300,15 @@ class RetrieverService:
             return named_jurs
 
         # 检查区域性关键词
-        for region, jur_list in self.REGION_MAP.items():
+        for region, jur_list in REGION_MAP.items():
             if region in query:
                 return jur_list
 
         # 检查比较型关键词
-        is_comparative = any(kw in query for kw in self.COMPARE_KEYWORDS)
+        is_comparative = any(kw in query for kw in COMPARE_KEYWORDS)
         if is_comparative:
             # 比较型但无法确定区域 → 查所有有数据的法域（排除跨法域自身）
-            return ["美国", "日本", "韩国", "新加坡", "中国香港", "中国澳门",
-                    "中国大陆", "马来西亚", "泰国", "越南", "澳大利亚"]
+            return list(ALL_DATA_JURISDICTIONS)
 
         return None
 

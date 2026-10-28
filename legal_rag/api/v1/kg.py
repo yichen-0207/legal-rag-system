@@ -2,7 +2,7 @@ import logging
 
 from fastapi import APIRouter, Query, Body
 from typing import Optional, Dict
-from models.schemas import APIResponse
+from schemas import APIResponse
 from repositories.elasticsearch import ElasticsearchRepository
 from services.structured_analysis_service import StructuredAnalysisService
 from services.kg_extraction_service import KGExtractionService

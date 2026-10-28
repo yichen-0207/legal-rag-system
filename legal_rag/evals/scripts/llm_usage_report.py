@@ -3,21 +3,20 @@ from __future__ import annotations
 
 import argparse
 import json
-import sys
 from collections import defaultdict
 from datetime import date, timedelta
 from pathlib import Path
 from typing import Iterable, Optional
 
-BASE = Path(__file__).resolve().parent
-ROOT = BASE.parent
+from _bootstrap import PROJECT_ROOT
+
+ROOT = Path(PROJECT_ROOT)
 
 
 def _log_dir(override: Optional[str]) -> Path:
     """账本目录：优先命令行，其次复用 core.llm_usage 的默认解析（含环境变量）。"""
     if override:
         return Path(override)
-    sys.path.insert(0, str(ROOT))
     from core import llm_usage
 
     return Path(llm_usage.log_dir())

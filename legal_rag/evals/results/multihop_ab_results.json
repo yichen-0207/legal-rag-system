@@ -1,0 +1,1709 @@
+{
+ "meta": {
+  "dataset": "multihop_dataset.json",
+  "top_k": 20,
+  "zero_llm": true,
+  "note": "terminal gold 为每条路径末端条款；all_gold 口径见每行 baseline_all/multihop_all；multihop_oracle 仅对跨法域条目给出，表示给定正确源条款时的对齐能力上限"
+ },
+ "summary": {
+  "items": 25,
+  "baseline": {
+   "mrr": 0.4382,
+   "recall@5": 0.56,
+   "recall@10": 0.74,
+   "recall@20": 0.84,
+   "ndcg@10": 0.4989,
+   "full@10": 0.68
+  },
+  "multihop": {
+   "mrr": 0.5737,
+   "recall@5": 0.82,
+   "recall@10": 0.92,
+   "recall@20": 0.92,
+   "ndcg@10": 0.6343,
+   "full@10": 0.88
+  },
+  "delta": {
+   "mrr": 0.1355,
+   "recall@5": 0.26,
+   "recall@10": 0.18,
+   "recall@20": 0.08,
+   "ndcg@10": 0.1354,
+   "full@10": 0.2
+  },
+  "multihop_oracle": {
+   "mrr": 0.5833,
+   "recall@5": 0.625,
+   "recall@10": 0.6875,
+   "recall@20": 0.6875,
+   "ndcg@10": 0.5439,
+   "full@10": 0.5
+  }
+ },
+ "by_type": {
+  "cross_jurisdiction": {
+   "items": 8,
+   "baseline": {
+    "mrr": 0.1927,
+    "recall@5": 0.25,
+    "recall@10": 0.5625,
+    "recall@20": 0.625,
+    "ndcg@10": 0.2617,
+    "full@10": 0.375
+   },
+   "multihop": {
+    "mrr": 0.6146,
+    "recall@5": 0.6875,
+    "recall@10": 0.75,
+    "recall@20": 0.75,
+    "ndcg@10": 0.5744,
+    "full@10": 0.625
+   },
+   "multihop_oracle": {
+    "mrr": 0.5833,
+    "recall@5": 0.625,
+    "recall@10": 0.6875,
+    "recall@20": 0.6875,
+    "ndcg@10": 0.5439,
+    "full@10": 0.5
+   }
+  },
+  "entity_navigation": {
+   "items": 11,
+   "baseline": {
+    "mrr": 0.7292,
+    "recall@5": 0.8182,
+    "recall@10": 0.9091,
+    "recall@20": 1.0,
+    "ndcg@10": 0.7665,
+    "full@10": 0.9091
+   },
+   "multihop": {
+    "mrr": 0.5918,
+    "recall@5": 0.8182,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6881,
+    "full@10": 1.0
+   }
+  },
+  "citation_chain": {
+   "items": 6,
+   "baseline": {
+    "mrr": 0.232,
+    "recall@5": 0.5,
+    "recall@10": 0.6667,
+    "recall@20": 0.8333,
+    "ndcg@10": 0.3244,
+    "full@10": 0.6667
+   },
+   "multihop": {
+    "mrr": 0.4861,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6154,
+    "full@10": 1.0
+   }
+  }
+ },
+ "rows": [
+  {
+   "id": "MH-C01",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "马来西亚《个人数据保护法》对向境外传输个人数据设定了哪些条件？日本和澳门法是否有对应规定？",
+   "terminal_gold": [
+    "JP_Act_2003_SMP_JP_002::28",
+    "MAC_LEI_8_2005::19"
+   ],
+   "baseline": {
+    "mrr": 0.25,
+    "recall@5": 0.5,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.48247555939075504,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8503449055347546,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8385465274895063,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8072467605676945,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "MY_ACT_709_2010::129",
+    "MY_ACT_709_2010::3",
+    "MY_ACT_709_2010::2",
+    "JP_Act_2003_SMP_JP_002::28",
+    "MAC_LEI_8_2005::18"
+   ],
+   "multihop_top5": [
+    "JP_Act_2003_SMP_JP_002::28",
+    "JP_Act_2003_SMP_JP_002::71",
+    "JP_Act_2003_SMP_JP_002::27",
+    "MAC_LEI_8_2005::20",
+    "MAC_LEI_8_2005::19"
+   ],
+   "baseline_ms": 85833.6,
+   "multihop_ms": 5427.6,
+   "multihop_oracle": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8772153153380493,
+    "full@10": 1.0
+   },
+   "multihop_oracle_top5": [
+    "JP_Act_2003_SMP_JP_002::28",
+    "JP_Act_2003_SMP_JP_002::71",
+    "JP_Act_2003_SMP_JP_002::31",
+    "MAC_LEI_8_2005::19",
+    "MAC_LEI_8_2005::20"
+   ],
+   "delta_mrr": 0.75,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-C02",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "澳门《个人资料保护法》在哪些情况下允许将个人资料转移至境外？日本法的例外机制是什么？",
+   "terminal_gold": [
+    "JP_Act_2003_SMP_JP_002::28",
+    "MY_ACT_709_2010::129"
+   ],
+   "baseline": {
+    "mrr": 0.25,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.2640681225725909,
+    "full@10": 0.0
+   },
+   "multihop": {
+    "mrr": 0.25,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.2640681225725909,
+    "full@10": 0.0
+   },
+   "baseline_all": {
+    "mrr": 0.5,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.49818925746641285,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 0.25,
+    "recall@5": 0.3333333333333333,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.35853358850813305,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "MAC_LEI_8_2005::19",
+    "MAC_LEI_8_2005::20",
+    "MAC_LEI_8_2005::18",
+    "JP_Act_2003_SMP_JP_002::28",
+    "JP_Act_2003_SMP_JP_002::71"
+   ],
+   "multihop_top5": [
+    "JP_Act_2003_SMP_JP_002::71",
+    "JP_Act_2003_SMP_JP_002::96",
+    "JP_Act_2003_SMP_JP_002::85",
+    "MY_ACT_709_2010::129",
+    "MY_ACT_709_2010::39"
+   ],
+   "baseline_ms": 15736.4,
+   "multihop_ms": 6933.2,
+   "multihop_oracle": {
+    "mrr": 0.25,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.2640681225725909,
+    "full@10": 0.0
+   },
+   "multihop_oracle_top5": [
+    "JP_Act_2003_SMP_JP_002::71",
+    "JP_Act_2003_SMP_JP_002::96",
+    "JP_Act_2003_SMP_JP_002::85",
+    "MY_ACT_709_2010::129",
+    "MY_ACT_709_2010::39"
+   ],
+   "delta_mrr": 0.0,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-C03",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "香港《个人资料（私隐）条例》赋予资料当事人的查阅权，在马来西亚和日本法中有哪些对应规定？",
+   "terminal_gold": [
+    "JP_Act_2003_SMP_JP_002::33",
+    "MY_ACT_709_2010::30"
+   ],
+   "baseline": {
+    "mrr": 0.08333333333333333,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "recall@20": 0.5,
+    "ndcg@10": 0.0,
+    "full@10": 0.0
+   },
+   "multihop": {
+    "mrr": 0.0,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "recall@20": 0.0,
+    "ndcg@10": 0.0,
+    "full@10": 0.0
+   },
+   "baseline_all": {
+    "mrr": 0.25,
+    "recall@5": 0.3333333333333333,
+    "recall@10": 0.3333333333333333,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.20210734650054757,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 0.14285714285714285,
+    "recall@5": 0.0,
+    "recall@10": 0.3333333333333333,
+    "recall@20": 0.3333333333333333,
+    "ndcg@10": 0.15642624200758548,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "MY_ACT_709_2010::129",
+    "MY_ACT_709_2010::5",
+    "MY_ACT_709_2010::146",
+    "HK_CAP_486::18",
+    "HK_CAP_486::17"
+   ],
+   "multihop_top5": [
+    "MY_ACT_709_2010::32",
+    "MY_ACT_709_2010::121",
+    "MY_ACT_709_2010::35",
+    "JP_Act_2003_SMP_JP_002::76",
+    "JP_Act_2003_SMP_JP_002::77"
+   ],
+   "baseline_ms": 17248.5,
+   "multihop_ms": 4942.4,
+   "multihop_oracle": {
+    "mrr": 0.0,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "recall@20": 0.0,
+    "ndcg@10": 0.0,
+    "full@10": 0.0
+   },
+   "multihop_oracle_top5": [
+    "MY_ACT_709_2010::32",
+    "MY_ACT_709_2010::121",
+    "MY_ACT_709_2010::35",
+    "JP_Act_2003_SMP_JP_002::76",
+    "JP_Act_2003_SMP_JP_002::77"
+   ],
+   "delta_mrr": -0.0833,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-C04",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "马来西亚法上的更正资料请求，与日本、香港的更正权条款如何对应？",
+   "terminal_gold": [
+    "HK_CAP_486::22",
+    "JP_Act_2003_SMP_JP_002::34"
+   ],
+   "baseline": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.3065735963827292,
+    "full@10": 0.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8772153153380493,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 0.3333333333333333,
+    "recall@10": 0.3333333333333333,
+    "recall@20": 0.3333333333333333,
+    "ndcg@10": 0.23463936301137822,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8278123145308894,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "JP_Act_2003_SMP_JP_002::93",
+    "JP_Act_2003_SMP_JP_002::90",
+    "HK_CAP_486::22",
+    "MY_ACT_709_2010::26",
+    "HK_CAP_486::60b"
+   ],
+   "multihop_top5": [
+    "HK_CAP_486::22",
+    "HK_CAP_486::24",
+    "HK_CAP_486::23",
+    "JP_Act_2003_SMP_JP_002::34",
+    "JP_Act_2003_SMP_JP_002::90"
+   ],
+   "baseline_ms": 19189.3,
+   "multihop_ms": 4184.2,
+   "multihop_oracle": {
+    "mrr": 0.25,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.2640681225725909,
+    "full@10": 0.0
+   },
+   "multihop_oracle_top5": [
+    "HK_CAP_486::23",
+    "HK_CAP_486::24",
+    "HK_CAP_486::74",
+    "JP_Act_2003_SMP_JP_002::34",
+    "JP_Act_2003_SMP_JP_002::90"
+   ],
+   "delta_mrr": 0.6667,
+   "delta_recall@10": 0.5
+  },
+  {
+   "id": "MH-C05",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "香港法对直接促销中取得同意的要求，与马来西亚、澳门的反对机制有何异同？",
+   "terminal_gold": [
+    "MAC_LEI_8_2005::12",
+    "MY_ACT_709_2010::43"
+   ],
+   "baseline": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 0.5,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.4911492931622974,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8772153153380493,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 0.3333333333333333,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.37590633587120725,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.6713860725233041,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "HK_CAP_486::35a",
+    "HK_CAP_486::35l",
+    "MAC_LEI_8_2005::12",
+    "HK_CAP_486::35k",
+    "HK_CAP_486::35h"
+   ],
+   "multihop_top5": [
+    "MY_ACT_709_2010::43",
+    "MY_ACT_709_2010::8",
+    "MY_ACT_709_2010::40",
+    "MAC_LEI_8_2005::12",
+    "MAC_LEI_8_2005::24"
+   ],
+   "baseline_ms": 19687.6,
+   "multihop_ms": 6136.6,
+   "multihop_oracle": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8503449055347546,
+    "full@10": 1.0
+   },
+   "multihop_oracle_top5": [
+    "MY_ACT_709_2010::43",
+    "MY_ACT_709_2010::32",
+    "MY_ACT_709_2010::130",
+    "MAC_LEI_8_2005::32",
+    "MAC_LEI_8_2005::12"
+   ],
+   "delta_mrr": 0.6667,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-C06",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "澳门法在收集个人资料时的告知义务，与马来西亚、日本的告知/通知义务如何对应？",
+   "terminal_gold": [
+    "JP_Act_2003_SMP_JP_002::21",
+    "MY_ACT_709_2010::7"
+   ],
+   "baseline": {
+    "mrr": 0.125,
+    "recall@5": 0.0,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.19342640361727081,
+    "full@10": 0.0
+   },
+   "multihop": {
+    "mrr": 0.16666666666666666,
+    "recall@5": 0.0,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.21840743681816419,
+    "full@10": 0.0
+   },
+   "baseline_all": {
+    "mrr": 0.14285714285714285,
+    "recall@5": 0.0,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.3044671974905181,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 0.16666666666666666,
+    "recall@5": 0.0,
+    "recall@10": 0.3333333333333333,
+    "recall@20": 0.3333333333333333,
+    "ndcg@10": 0.16716045496620227,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "MAC_REG_47_2022::5",
+    "MAC_LEI_5_2017::18",
+    "MAC_LEI_8_2005::32",
+    "MAC_LEI_8_2005::21",
+    "MY_ACT_709_2010::129"
+   ],
+   "multihop_top5": [
+    "JP_Act_2003_SMP_JP_002::84",
+    "JP_Act_2003_SMP_JP_002::32",
+    "JP_Act_2003_SMP_JP_002::14",
+    "MY_ACT_709_2010::35",
+    "MY_ACT_709_2010::42"
+   ],
+   "baseline_ms": 15775.0,
+   "multihop_ms": 5657.7,
+   "multihop_oracle": {
+    "mrr": 0.16666666666666666,
+    "recall@5": 0.0,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.21840743681816419,
+    "full@10": 0.0
+   },
+   "multihop_oracle_top5": [
+    "JP_Act_2003_SMP_JP_002::32",
+    "JP_Act_2003_SMP_JP_002::30",
+    "JP_Act_2003_SMP_JP_002::29",
+    "MY_ACT_709_2010::8",
+    "MY_ACT_709_2010::32"
+   ],
+   "delta_mrr": 0.0417,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-C07",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "马来西亚法要求的数据安全措施，在日本和澳门法中有哪些对应规定？",
+   "terminal_gold": [
+    "JP_Act_2003_SMP_JP_002::23",
+    "MAC_LEI_8_2005::15"
+   ],
+   "baseline": {
+    "mrr": 0.0,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "recall@20": 0.0,
+    "ndcg@10": 0.0,
+    "full@10": 0.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8772153153380493,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 0.0,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "recall@20": 0.0,
+    "ndcg@10": 0.0,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8278123145308894,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "MY_ACT_709_2010::129",
+    "MY_ACT_709_2010::5",
+    "MY_ACT_709_2010::146",
+    "MY_ACT_709_2010::40",
+    "MY_ACT_709_2010::2"
+   ],
+   "multihop_top5": [
+    "JP_Act_2003_SMP_JP_002::23",
+    "JP_Act_2003_SMP_JP_002::22",
+    "JP_Act_2003_SMP_JP_002::6",
+    "MAC_LEI_8_2005::15",
+    "MAC_LEI_8_2005::16"
+   ],
+   "baseline_ms": 18876.6,
+   "multihop_ms": 3756.9,
+   "multihop_oracle": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8772153153380493,
+    "full@10": 1.0
+   },
+   "multihop_oracle_top5": [
+    "JP_Act_2003_SMP_JP_002::23",
+    "JP_Act_2003_SMP_JP_002::22",
+    "JP_Act_2003_SMP_JP_002::6",
+    "MAC_LEI_8_2005::15",
+    "MAC_LEI_8_2005::16"
+   ],
+   "delta_mrr": 1.0,
+   "delta_recall@10": 1.0
+  },
+  {
+   "id": "MH-C08",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "香港直接促销违规的处罚，与马来西亚法的处罚规定相比有何差异？",
+   "terminal_gold": [
+    "MY_ACT_709_2010::43"
+   ],
+   "baseline": {
+    "mrr": 0.16666666666666666,
+    "recall@5": 0.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.3562071871080222,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 0.16666666666666666,
+    "recall@5": 0.0,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.21840743681816419,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 0.5,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.38685280723454163,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "HK_CAP_200::153q",
+    "HK_CAP_200::104",
+    "HK_CAP_584::31",
+    "HK_CAP_200::103",
+    "HK_CAP_486::35m"
+   ],
+   "multihop_top5": [
+    "MY_ACT_709_2010::130",
+    "MY_ACT_709_2010::43",
+    "MY_ACT_709_2010::69",
+    "HK_CAP_200::153q"
+   ],
+   "baseline_ms": 19983.3,
+   "multihop_ms": 4083.0,
+   "multihop_oracle": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_oracle_top5": [
+    "MY_ACT_709_2010::43",
+    "MY_ACT_709_2010::130",
+    "MY_ACT_709_2010::32",
+    "HK_CAP_486::35c"
+   ],
+   "delta_mrr": 0.3333,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-E01",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "香港法上，资料使用者拟在直接促销中使用个人资料时，必须先履行哪些告知与同意义务？违反会有什么处罚？",
+   "terminal_gold": [
+    "HK_CAP_486::35c"
+   ],
+   "baseline": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.25,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.43067655807339306,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.25,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.43067655807339306,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "HK_CAP_486::35c",
+    "HK_CAP_486::35g",
+    "HK_CAP_486::35j",
+    "HK_CAP_486::35k",
+    "HK_CAP_486::35l"
+   ],
+   "multihop_top5": [
+    "HK_CAP_486::35j",
+    "HK_CAP_486::35k",
+    "HK_CAP_486::30",
+    "HK_CAP_486::35c",
+    "HK_CAP_486::35l"
+   ],
+   "baseline_ms": 24040.8,
+   "multihop_ms": 1155.6,
+   "delta_mrr": -0.75,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-E02",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "香港资料当事人要求停止在直接促销中使用其个人资料后，资料使用者负有什么义务和处罚？",
+   "terminal_gold": [
+    "HK_CAP_486::35g"
+   ],
+   "baseline": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "HK_CAP_486::35g",
+    "HK_CAP_486::35c",
+    "HK_CAP_486::35l",
+    "HK_CAP_486::35k",
+    "HK_CAP_486::35j"
+   ],
+   "multihop_top5": [
+    "HK_CAP_486::66",
+    "HK_CAP_486::35g",
+    "HK_CAP_486::30",
+    "HK_CAP_486::35c",
+    "HK_CAP_486::35j"
+   ],
+   "baseline_ms": 22358.9,
+   "multihop_ms": 727.6,
+   "delta_mrr": -0.5,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-E03",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "马来西亚法上，资料当事人提出更正资料请求后，资料使用者负有什么义务？",
+   "terminal_gold": [
+    "MY_ACT_709_2010::34"
+   ],
+   "baseline": {
+    "mrr": 0.1111111111111111,
+    "recall@5": 0.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.3010299956639812,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.25,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.43067655807339306,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 0.1111111111111111,
+    "recall@5": 0.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.3010299956639812,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.25,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.43067655807339306,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "MY_ACT_709_2010::109",
+    "MY_ACT_709_2010::35",
+    "MY_ACT_709_2010::40",
+    "MY_ACT_709_2010::12",
+    "MY_ACT_709_2010::129"
+   ],
+   "multihop_top5": [
+    "MY_ACT_709_2010::311",
+    "MY_ACT_709_2010::31",
+    "MY_ACT_709_2010::30",
+    "MY_ACT_709_2010::34",
+    "MY_ACT_709_2010::321"
+   ],
+   "baseline_ms": 6908.1,
+   "multihop_ms": 576.8,
+   "delta_mrr": 0.1389,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-E04",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "日本法上，向外国第三方提供个人数据时，除了取得同意，还必须以哪一类第三方提供规则为前提？",
+   "terminal_gold": [
+    "JP_Act_2003_SMP_JP_002::27"
+   ],
+   "baseline": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "JP_Act_2003_SMP_JP_002::27",
+    "JP_Act_2003_SMP_JP_002::28",
+    "JP_Act_2003_SMP_JP_002::71",
+    "JP_Act_2003_SMP_JP_002::30",
+    "JP_Act_2003_SMP_JP_002::31"
+   ],
+   "multihop_top5": [
+    "JP_Act_2003_SMP_JP_002::27",
+    "JP_Act_2003_SMP_JP_002::28",
+    "JP_Act_2003_SMP_JP_002::148",
+    "JP_Act_2003_SMP_JP_002::30",
+    "JP_Act_2003_SMP_JP_002::27paragraph1"
+   ],
+   "baseline_ms": 6763.3,
+   "multihop_ms": 705.1,
+   "delta_mrr": 0.0,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-E05",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "澳门法上，将个人资料转移至境外时，当事人明确同意这一例外与哪一条的适当保护程度标准相关？",
+   "terminal_gold": [
+    "MAC_LEI_8_2005::19"
+   ],
+   "baseline": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.2,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.38685280723454163,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.25,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.5012658353418871,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "MAC_LEI_8_2005::20",
+    "MAC_LEI_8_2005::19",
+    "MAC_LEI_5_2017::18",
+    "MAC_LEI_8_2005::18",
+    "MAC_LEI_8_2005::6"
+   ],
+   "multihop_top5": [
+    "MAC_LEI_8_2005::16",
+    "MAC_LEI_8_2005::7",
+    "MAC_LEI_8_2005::21",
+    "MAC_LEI_8_2005::20",
+    "MAC_LEI_8_2005::19"
+   ],
+   "baseline_ms": 27417.5,
+   "multihop_ms": 745.0,
+   "delta_mrr": -0.3,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-E06",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "澳门法上，哪些个人资料处理情形必须取得公共当局许可？该许可要求又指向哪些前置条款？",
+   "terminal_gold": [
+    "MAC_LEI_8_2005::16"
+   ],
+   "baseline": {
+    "mrr": 0.07692307692307693,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.0,
+    "full@10": 0.0
+   },
+   "multihop": {
+    "mrr": 0.16666666666666666,
+    "recall@5": 0.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.3562071871080222,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 0.25,
+    "recall@10": 0.5,
+    "recall@20": 1.0,
+    "ndcg@10": 0.5135312443624667,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 0.5,
+    "recall@5": 0.25,
+    "recall@10": 0.75,
+    "recall@20": 0.75,
+    "ndcg@10": 0.5085097626218706,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "MAC_LEI_8_2005::22",
+    "MAC_LEI_8_2005::21",
+    "MAC_LEI_8_2005::25",
+    "MAC_REG_44_2022::16",
+    "MAC_REG_19_2022::17"
+   ],
+   "multihop_top5": [
+    "MAC_LEI_8_2005::33",
+    "MAC_LEI_8_2005::22",
+    "MAC_LEI_8_2005::45",
+    "MAC_LEI_8_2005::25",
+    "MAC_LEI_8_2005::32"
+   ],
+   "baseline_ms": 21368.4,
+   "multihop_ms": 762.1,
+   "delta_mrr": 0.0897,
+   "delta_recall@10": 1.0
+  },
+  {
+   "id": "MH-E07",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "美国联邦采购中，投标人的 SAM 登记义务在哪一条中规定了维护要求？",
+   "terminal_gold": [
+    "US_CFR_T48_P52_1983::5220413"
+   ],
+   "baseline": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.5,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 1.0,
+    "ndcg@10": 0.3065735963827292,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "US_CFR_T48_P52_1983::5220412",
+    "US_CFR_T48_P52_1983::522123",
+    "US_CFR_T48_P52_1983::5220413",
+    "US_CFR_T48_P52_1983::5220429",
+    "US_CFR_T48_P52_1983::5220430"
+   ],
+   "multihop_top5": [
+    "US_CFR_T48_P52_1983::5220413",
+    "US_CFR_T48_P52_1983::522047",
+    "US_CFR_T48_P52_1983::522048",
+    "US_CFR_T48_P52_1983::5220425",
+    "US_CFR_T48_P52_1983::522123"
+   ],
+   "baseline_ms": 8401.6,
+   "multihop_ms": 630.5,
+   "delta_mrr": 0.6667,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-E08",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "美国联邦采购中，FASCSA 命令的申报要求与 covered article 的禁止性定义分别规定在哪些条款？",
+   "terminal_gold": [
+    "US_CFR_T48_P52_1983::5220430"
+   ],
+   "baseline": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8772153153380493,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "US_CFR_T48_P52_1983::5220430",
+    "US_CFR_T48_P52_1983::5220429",
+    "US_CFR_T48_P52_1983::5220428",
+    "US_CFR_T48_P52_1983::5220423",
+    "US_CFR_T33_P106::106310"
+   ],
+   "multihop_top5": [
+    "US_CFR_T48_P52_1983::5220430",
+    "US_CFR_T48_P52_1983::41usc4713k",
+    "US_CFR_T48_P52_1983::5220428",
+    "US_CFR_T48_P52_1983::5220429",
+    "US_CFR_T48_P52_1983::far5220430"
+   ],
+   "baseline_ms": 8411.0,
+   "multihop_ms": 672.9,
+   "delta_mrr": 0.0,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-E09",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "美国联邦采购中，合理查询（reasonable inquiry）的定义与 covered telecommunications 的陈述义务如何衔接？",
+   "terminal_gold": [
+    "US_CFR_T48_P52_1983::5220426"
+   ],
+   "baseline": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.14285714285714285,
+    "recall@5": 0.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.3333333333333333,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8772153153380493,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 0.5,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.5109559939712153,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "US_CFR_T48_P52_1983::5220426",
+    "US_CFR_T48_P52_1983::5220429",
+    "US_CFR_T17_P230_1992::230176",
+    "US_CFR_T48_P52_1983::5220424",
+    "US_CFR_T48_P52_1983::5220430"
+   ],
+   "multihop_top5": [
+    "US_CFR_T48_P52_1983::12301b2",
+    "US_CFR_T48_P52_1983::522123",
+    "US_CFR_T48_P52_1983::5220424",
+    "US_CFR_T48_P52_1983::5220425",
+    "US_CFR_T48_P52_1983::5220430"
+   ],
+   "baseline_ms": 9443.4,
+   "multihop_ms": 1059.8,
+   "delta_mrr": -0.8571,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-E10",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "澳门法上，资料当事人的查阅权在健康资料等情形下如何行使？",
+   "terminal_gold": [
+    "MAC_LEI_8_2005::11"
+   ],
+   "baseline": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "MAC_LEI_8_2005::11",
+    "MAC_LEI_8_2005::32",
+    "MAC_LEI_8_2005::2",
+    "MAC_LEI_8_2005::38",
+    "MAC_LEI_8_2005::10"
+   ],
+   "multihop_top5": [
+    "MAC_LEI_8_2005::11",
+    "MAC_LEI_8_2005::10",
+    "MAC_LEI_8_2005::16",
+    "MAC_LEI_8_2005::7",
+    "MAC_LEI_8_2005::37"
+   ],
+   "baseline_ms": 28693.0,
+   "multihop_ms": 674.0,
+   "delta_mrr": 0.0,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-E11",
+   "type": "entity_navigation",
+   "hops": 2,
+   "query": "日本法上，个人信息泄露等情形应向哪个机构报告？",
+   "terminal_gold": [
+    "JP_Act_2003_SMP_JP_002::26"
+   ],
+   "baseline": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "JP_Act_2003_SMP_JP_002::26",
+    "JP_Act_2003_SMP_JP_002::68",
+    "JP_Act_2001_SMP_JP_022::19",
+    "JP_Act_2003_SMP_JP_002::53",
+    "JP_Act_2003_SMP_JP_002::97"
+   ],
+   "multihop_top5": [
+    "JP_Act_2003_SMP_JP_002::26",
+    "JP_Act_2003_SMP_JP_002::29",
+    "JP_Act_2003_SMP_JP_002::33",
+    "JP_Act_2003_SMP_JP_002::148",
+    "JP_Act_2003_SMP_JP_002::32"
+   ],
+   "baseline_ms": 6299.5,
+   "multihop_ms": 589.7,
+   "delta_mrr": 0.0,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-R01",
+   "type": "citation_chain",
+   "hops": 3,
+   "query": "澳门法上，向公共当局申请许可处理个人资料时，申请材料的要求如何与安全措施、敏感资料处理条件相连？",
+   "terminal_gold": [
+    "MAC_LEI_8_2005::21"
+   ],
+   "baseline": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.9558295932317544,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 0.75,
+    "recall@10": 0.75,
+    "recall@20": 0.75,
+    "ndcg@10": 0.8318724637288826,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "MAC_LEI_8_2005::23",
+    "MAC_LEI_8_2005::21",
+    "MAC_LEI_8_2005::22",
+    "MAC_LEI_8_2005::16",
+    "MAC_LEI_8_2005::7"
+   ],
+   "multihop_top5": [
+    "MAC_LEI_8_2005::16",
+    "MAC_LEI_8_2005::21",
+    "MAC_LEI_8_2005::7",
+    "MAC_LEI_8_2005::8",
+    "MAC_LEI_8_2005::15"
+   ],
+   "baseline_ms": 21552.6,
+   "multihop_ms": 11.0,
+   "delta_mrr": 0.0,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-R02",
+   "type": "citation_chain",
+   "hops": 3,
+   "query": "澳门法上，个人资料处理登记事项的要求如何关联通知义务、处理条件与安全措施？",
+   "terminal_gold": [
+    "MAC_LEI_8_2005::16"
+   ],
+   "baseline": {
+    "mrr": 0.125,
+    "recall@5": 0.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.31546487678572877,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.25,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.43067655807339306,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 0.5,
+    "recall@10": 0.75,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6816587806335841,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 0.5,
+    "recall@10": 0.75,
+    "recall@20": 0.75,
+    "ndcg@10": 0.6975637657739948,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "MAC_LEI_8_2005::21",
+    "MAC_LEI_8_2005::32",
+    "MAC_LEI_5_2017::18",
+    "MAC_LEI_8_2005::7",
+    "MAC_LEI_8_2005::25"
+   ],
+   "multihop_top5": [
+    "MAC_LEI_8_2005::7",
+    "MAC_LEI_8_2005::22",
+    "MAC_LEI_8_2005::8",
+    "MAC_LEI_8_2005::16",
+    "MAC_LEI_8_2005::9"
+   ],
+   "baseline_ms": 18369.2,
+   "multihop_ms": 11.7,
+   "delta_mrr": 0.125,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-R03",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "澳门法上，个人资料的互联在什么情况下需要公共当局许可？其许可依据又指向哪些处理条件？",
+   "terminal_gold": [
+    "MAC_LEI_8_2005::7"
+   ],
+   "baseline": {
+    "mrr": 0.047619047619047616,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "recall@20": 0.0,
+    "ndcg@10": 0.0,
+    "full@10": 0.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.6713860725233041,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "MAC_LEI_8_2005::22",
+    "MAC_LEI_8_2005::21",
+    "MAC_REG_19_2022::17",
+    "MAC_LEI_8_2005::9",
+    "MAC_REG_44_2022::16"
+   ],
+   "multihop_top5": [
+    "MAC_LEI_8_2005::7",
+    "MAC_LEI_8_2005::9",
+    "MAC_LEI_8_2005::22"
+   ],
+   "baseline_ms": 19814.0,
+   "multihop_ms": 7.7,
+   "delta_mrr": 0.9524,
+   "delta_recall@10": 1.0
+  },
+  {
+   "id": "MH-R04",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "香港法上，资料使用者拒绝改正资料要求时，应如何通知申请人？拒绝情形规定在哪一条？",
+   "terminal_gold": [
+    "HK_CAP_486::24"
+   ],
+   "baseline": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.5,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.5,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 1.0,
+    "ndcg@10": 0.4367467095119258,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 0.3333333333333333,
+    "recall@10": 0.3333333333333333,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.23463936301137822,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "HK_CAP_486::25",
+    "HK_CAP_486::21",
+    "HK_CAP_486::24",
+    "HK_CAP_486::23",
+    "HK_CAP_486::27"
+   ],
+   "multihop_top5": [
+    "HK_CAP_486::9",
+    "HK_CAP_486::3",
+    "HK_CAP_486::24",
+    "HK_CAP_486::37",
+    "HK_CAP_486::67"
+   ],
+   "baseline_ms": 21669.1,
+   "multihop_ms": 11.2,
+   "delta_mrr": 0.0,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-R05",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "香港法上，资料使用者拒绝改正资料要求后，通知义务与拒绝情形条款如何衔接？",
+   "terminal_gold": [
+    "HK_CAP_486::24"
+   ],
+   "baseline": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.5,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.5,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8451850618939637,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 0.3333333333333333,
+    "recall@10": 0.3333333333333333,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.23463936301137822,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "HK_CAP_486::25",
+    "HK_CAP_486::21",
+    "HK_CAP_486::24",
+    "HK_CAP_486::23",
+    "HK_CAP_486::27"
+   ],
+   "multihop_top5": [
+    "HK_CAP_486::9",
+    "HK_CAP_486::3",
+    "HK_CAP_486::24",
+    "HK_CAP_486::37",
+    "HK_CAP_486::67"
+   ],
+   "baseline_ms": 22218.4,
+   "multihop_ms": 10.0,
+   "delta_mrr": 0.0,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-R06",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "澳门法上，敏感个人资料的处理以哪些安全措施和许可条件为前提？",
+   "terminal_gold": [
+    "MAC_LEI_8_2005::8"
+   ],
+   "baseline": {
+    "mrr": 0.05263157894736842,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.0,
+    "full@10": 0.0
+   },
+   "multihop": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 0.25,
+    "recall@5": 0.3333333333333333,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 1.0,
+    "ndcg@10": 0.36926780146674987,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "MAC_LEI_8_2005::2",
+    "MAC_LEI_8_2005::21",
+    "MAC_LEI_8_2005::3",
+    "MAC_LEI_8_2005::7",
+    "MAC_REG_44_2022::16"
+   ],
+   "multihop_top5": [
+    "MAC_LEI_8_2005::7",
+    "MAC_LEI_8_2005::8",
+    "MAC_LEI_8_2005::16",
+    "MAC_LEI_8_2005::21"
+   ],
+   "baseline_ms": 20965.7,
+   "multihop_ms": 8.3,
+   "delta_mrr": 0.4474,
+   "delta_recall@10": 1.0
+  }
+ ]
+}

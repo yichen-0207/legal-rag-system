@@ -93,6 +93,11 @@ docker compose logs -f backend
 
 将法规原文（PDF/DOCX 等可提取文本的格式）放入 `legal_rag/data/raw/<法域>/`，随后触发入库或通过管理端接口维护；入库扫描目录由 `LEGAL_INGEST_DATA_DIR` 指定。
 
+```bash
+# 容器内执行（扫描阶段 1 清洗产物 raw_v2）
+docker exec -e PYTHONUNBUFFERED=1 legal-backend python -m scripts.ingest
+```
+
 ## 目录结构
 
 ```
@@ -100,15 +105,23 @@ docker compose logs -f backend
 ├── docker-compose.yml        # 三容器编排（es / backend / frontend）
 ├── Dockerfile                # 后端镜像（Python 依赖 + 源码）
 ├── Dockerfile.es             # Elasticsearch 镜像（烘焙 IK 分词插件）
+├── docs/                     # 技术报告、评测报告、面试知识体系（仅本地留存，不入库）
 ├── legal_rag/                # 后端
 │   ├── main.py               # 应用入口、模型预热、健康检查
+│   ├── schemas.py            # API 响应模型
+│   ├── scripts/              # 可执行入口（统一 python -m scripts.<name> 调用）
+│   │   ├── ingest.py         # 数据入库
+│   │   ├── run_abstracts.py  # 摘要补生成
+│   │   ├── run_kg_extraction.py  # 知识图谱预抽取
+│   │   └── dev_frontend.py   # 本地前端静态服务（开发用）
 │   ├── api/v1/               # 路由：search / qa / agent / compare / topic / kg / stats / admin
-│   ├── core/                 # 配置、模型加载、法域工具
+│   ├── core/                 # 配置、模型加载、法域知识（法域别名/触发词唯一来源）
 │   ├── services/             # 业务服务（检索 / 问答 / 分析 / 图谱 / 智能体）
 │   │   └── agent/            # 智能体：工具声明与 ReAct 编排
 │   ├── repositories/         # Elasticsearch 数据访问
 │   ├── utils/                # 分块、查询增强、缓存、法规目录等
-│   ├── eval_data/            # 评测数据集与评测脚本
+│   ├── data_tools/           # 数据治理脚本（清洗 / 校验 / 索引构建）
+│   ├── evals/                # 评测：scripts / datasets / results
 │   └── data/                 # 语料与法规目录（运行时挂载）
 ├── frontend/                 # 前端静态资源（原生 JS + nginx 配置）
 └── models/                   # 本地模型权重（不入库）

@@ -1,6 +1,6 @@
 """
-前端静态文件服务器
-用法: python run_frontend.py [端口]
+前端静态文件服务器（本地开发用）
+用法: python -m scripts.dev_frontend [端口]
 默认端口: 3000
 """
 import http.server
@@ -9,7 +9,10 @@ import os
 import sys
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 3000
-DIRECTORY = os.path.dirname(os.path.abspath(__file__))
+# 脚本位于 legal_rag/scripts/，静态根仍是仓库根下的 frontend/
+DIRECTORY = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "frontend"
+)
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):

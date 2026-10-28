@@ -1,9 +1,13 @@
 import json
+import os
 import sys
 import argparse
 import time
 from pathlib import Path
 from typing import Iterator, Tuple, List, Dict, Optional
+
+# 以脚本方式（python scripts/ingest.py）执行时，把项目根加入模块搜索路径
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from core.config import settings
 from utils.chunker import chunk_text, chunk_from_structure

@@ -311,10 +311,15 @@ class AgentToolkit:
 
         def _run(sub_query: str) -> List[Dict]:
             try:
+                # 批量模式 planner 用 allow_decompose=False，会原样沿用传入法域（第①步直接返回），
+                # 不会做自动检测；不补这一步则每条子查询都跑一次全库 KNN（实测混合检索层
+                # 1.88s → 带单法域过滤 0.95s）。按子查询自身文本检测，命中多个/无命中仍为
+                # None，与单跳第④步同一规则，不会误伤跨法域召回。
+                jur = jurisdiction or self.retriever.detect_jurisdiction(sub_query)
                 return self.retriever.hybrid_search(
                     query=sub_query,
                     top_k=k,
-                    jurisdiction=jurisdiction or None,
+                    jurisdiction=jur or None,
                     # 批量模式各子查询已聚焦，关闭分解避免二次放大的编码与 ES 开销
                     _decompose=len(batch) == 1,
                     _rerank=False,
