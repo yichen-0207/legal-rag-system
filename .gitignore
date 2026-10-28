@@ -12,6 +12,9 @@ build/
 # 生成的缓存数据（可重新生成）
 legal_rag/data/kg_cache/
 
+# 派生语料：由 data_tools/phase1_clean_data.py 从 data/raw 全量重建，不入库（约 128MB）
+legal_rag/data/raw_v2/
+
 # 生成的图表（可重新生成）
 legal_rag/eval_data/charts/
 
