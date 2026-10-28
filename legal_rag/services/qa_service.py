@@ -9,10 +9,20 @@ import numpy as np
 from core.llm import get_default_client
 from repositories.elasticsearch import ElasticsearchRepository
 from core.config import settings
+from core.jurisdiction import ALL_TRIGGERS
 from utils.search_cache import get_qa_answer_cache, normalize_query_for_cache
 from utils.query_enhance import enhance_query
 
 logger = logging.getLogger(__name__)
+
+# 问答侧额外识别的写法：只影响问答法域打分，不进入检索路由
+_SHORT_CODES = {
+    "sg": "新加坡", "jp": "日本", "kr": "韩国", "us": "美国",
+    "au": "澳大利亚", "mo": "中国澳门", "hk": "中国香港",
+    "uk": "英国", "fr": "法国", "de": "德国",
+}
+# 「中国」在问答侧保留为触发词（与旧口径一致），检索侧仍走 CHINA_STANDALONE_RE
+_QA_EXTRA_ALIASES = {"中国大陆": ["中国"]}
 
 
 class QAService:
@@ -162,20 +172,17 @@ class QAService:
 
     def _get_jurisdiction_triggers(self) -> Dict[str, List[str]]:
         """构建法域触发词映射表（基础触发词 + 动态从ES获取的法域）"""
-        # 基础触发词：覆盖常见的中英文及缩写形式
+        # 基础触发词统一取自 core.jurisdiction，本地只补两字母缩写与「中国」
+        # 欧盟/英法德无对应语料，不纳入问答法域路由，避免把有数据的法域过滤成空结果
         base_triggers = {
-            '中国澳门': ['中国澳门', '澳门', 'macau', 'Macau', 'MACAU', '澳門', 'MO'],
-            '中国香港': ['中国香港', '香港', 'hong kong', 'hongkong', 'Hong Kong', 'Hongkong', 'HONG KONG', 'HK'],
-            '中国大陆': ['中国大陆', '中国', 'china', 'China', 'mainland china', 'Mainland China'],
-            '新加坡': ['新加坡', 'singapore', 'Singapore', 'SINGAPORE', 'sg', 'SG'],
-            '美国': ['美国', '美國', 'usa', 'USA', 'us', 'US', 'america', 'America', 'united states', 'United States'],
-            '英国': ['英国', '英國', 'uk', 'UK', 'britain', 'Britain', 'united kingdom', 'United Kingdom'],
-            '日本': ['日本', 'japan', 'Japan', 'JAPAN', 'jp', 'JP'],
-            '韩国': ['韩国', '韓国', 'korea', 'Korea', 'kr', 'KR', 'south korea'],
-            '法国': ['法国', '法國', 'france', 'France', 'FRANCE', 'fr', 'FR'],
-            '德国': ['德国', '德國', 'germany', 'Germany', 'GERMANY', 'de', 'DE'],
-            '澳大利亚': ['澳大利亚', '澳洲', 'australia', 'Australia', 'AUSTRALIA', 'au', 'AU'],
+            jur: list(aliases) for jur, aliases in ALL_TRIGGERS.items() if jur != "欧盟"
         }
+        for jur, extra in _QA_EXTRA_ALIASES.items():
+            base_triggers.setdefault(jur, [])
+            base_triggers[jur] = base_triggers[jur] + [a for a in extra if a not in base_triggers[jur]]
+        for code, jur in _SHORT_CODES.items():
+            if jur in base_triggers and code not in base_triggers[jur]:
+                base_triggers[jur].append(code)
 
         # 从ES动态获取实际存在的法域，补充到触发词表中
         try:
@@ -194,13 +201,14 @@ class QAService:
         多层级法域候选召回（方案 B）：基于触发词权重打分，返回各法域置信度。
         """
         jurisdiction_triggers = self._get_jurisdiction_triggers()
+        question_lower = question.lower()
         raw_scores = {}
 
         for jurisdiction, triggers in jurisdiction_triggers.items():
             score = 0.0
             matched = False
             for trigger in triggers:
-                if trigger in question:
+                if trigger in question_lower:
                     # 基础权重：触发词越长、越精确，权重越高
                     weight = max(1.0, len(trigger) * 0.3)
                     # 英文字母触发词（如 HK、SG）降低权重，避免缩写误命中
@@ -232,7 +240,7 @@ class QAService:
         # 排除结构："除了澳门之外"、"除澳门外"
         exclusion_match = re.search(r'除了?\s*([^，,。；;]+?)\s*(?:之外|以外|外|)', question)
         if exclusion_match and '除了' in question:
-            excluded_text = exclusion_match.group(1)
+            excluded_text = exclusion_match.group(1).lower()
             excluded = [j for j in candidates if any(t in excluded_text for t in self._get_jurisdiction_triggers()[j])]
             refined = [j for j in candidates if j not in excluded]
             return refined if refined else candidates

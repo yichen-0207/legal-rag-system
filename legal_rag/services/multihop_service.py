@@ -13,7 +13,7 @@ from typing import Dict, List, Optional
 from pydantic import BaseModel, Field
 
 from core.config import settings
-from core.jurisdiction import normalize_jurisdictions
+from core.jurisdiction import ALL_TRIGGERS, normalize_jurisdictions
 from core.llm import get_chat_model
 from repositories.elasticsearch import ElasticsearchRepository
 from services.kg_extraction_service import _RELATION_LABELS
@@ -30,11 +30,14 @@ _MAX_NAME_LEN = 40           # 超过视为整句描述串，不作概念对齐
 _MAX_PATHS = 20              # 候选路径上限（控制 prompt 长度）
 _MAX_SNIPPETS = 20           # 回取原文的条款上限
 # 法域名是结构性信息，检索条款时是噪声（「在日本和澳门法中」会把跨境条款顶上来）
-_JURISDICTION_NAMES = (
-    "中国香港", "香港", "中国澳门", "澳门", "台湾", "日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
-    "美国", "欧盟", "英国", "中国大陆", "中国", "内地", "加拿大", "澳大利亚", "印度",
-    "菲律宾", "印度尼西亚", "印尼", "柬埔寨", "缅甸", "老挝", "文莱",
-)
+# 法域名词表：用于把问题文本里的地域限定语剥离（不是「识别支持法域」）。
+# 中文写法统一由 core.jurisdiction 派生；英文缩写不参与剥离，避免误伤英文法规名。
+# 末尾保留本项目无对应语料、但仍需剥离的地域名。
+_JURISDICTION_NAMES = tuple(dict.fromkeys(
+    [kw for aliases in ALL_TRIGGERS.values() for kw in aliases if not kw.isascii()]
+    + ["台湾", "内地", "中国", "加拿大", "印度", "菲律宾", "印度尼西亚", "印尼",
+       "柬埔寨", "缅甸", "老挝", "文莱"]
+))
 _JURISDICTION_SUFFIX = r"(?:特别行政区|特区|法域|地区|的法律|法律|法规|法)?"
 
 

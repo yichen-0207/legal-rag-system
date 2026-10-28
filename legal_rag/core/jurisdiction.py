@@ -146,8 +146,19 @@ RETRIEVAL_TRIGGERS: Dict[str, List[str]] = {
     "泰国": ["泰国", "thailand"],
     "越南": ["越南", "vietnam"],
     "澳大利亚": ["澳大利亚", "澳洲", "australia"],
-    "美国": ["美国", "united states", "usa"],
+    "美国": ["美国", "美國", "united states", "usa", "america"],
 }
+
+# 非检索法域：问答与查询解析可识别，但语料中无对应法律，不参与检索路由
+QUERY_ONLY_TRIGGERS: Dict[str, List[str]] = {
+    "英国": ["英国", "英國", "uk", "britain", "united kingdom"],
+    "法国": ["法国", "法國", "france", "fr"],
+    "德国": ["德国", "德國", "germany", "de"],
+    "欧盟": ["欧盟", "歐盟", "european union", "eu"],
+}
+
+# 查询解析用全量触发词（检索法域 + 非检索法域）
+ALL_TRIGGERS: Dict[str, List[str]] = {**RETRIEVAL_TRIGGERS, **QUERY_ONLY_TRIGGERS}
 
 # 未被香港/澳门/台湾限定的「中国」→ 中国大陆；「中国」不直接入触发词表，
 # 否则「中国香港」会被同时判为中国大陆。

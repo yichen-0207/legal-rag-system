@@ -8,6 +8,8 @@ from __future__ import annotations
 
 import re
 
+from core.jurisdiction import ALL_TRIGGERS
+
 # 中→英关键词映射：(中文触发词元组, 英文扩展串)，弥补境外英文法规的召回
 ZH_EN_MAP = [
     # 数据保护与隐私
@@ -67,18 +69,24 @@ _ARTICLE_RE = re.compile(r"第(\d+)[条條]")
 
 # 法域触发词：用于从「法域 + 第X条」结构中截出法规名。
 # 长词必须排在短词前（"中国澳门" 先于 "澳门"），否则会截出错误的法规名。
-_JURIS_TRIGGERS = (
-    "中国澳门", "澳门", "澳門", "macau", "Macau", "MACAU",
-    "中国香港", "香港", "Hong Kong", "hongkong", "Hongkong", "HONG KONG",
-    "中国大陆", "新加坡", "Singapore", "SINGAPORE",
-    "日本", "Japan", "JAPAN",
-    "韩国", "Korea", "KOREA",
-    "马来西亚", "Malaysia", "MALAYSIA",
-    "泰国", "Thailand", "THAILAND",
-    "越南", "Vietnam", "VIETNAM",
-    "澳大利亚", "澳洲", "Australia", "AUSTRALIA",
-    "美国", "US", "United States", "UNITED STATES",
-)
+_JURIS_TRIGGERS = tuple(dict.fromkeys(
+    ["us"] + [kw.lower() for aliases in ALL_TRIGGERS.values() for kw in aliases]
+))
+
+
+def _first_jurisdiction_span(q: str):
+    """返回首个命中法域词的 (起始位置, 长度)；ASCII 词加边界，避免 us 命中 business。"""
+    lowered = q.lower()
+    for trigger in _JURIS_TRIGGERS:
+        if trigger.isascii():
+            m = re.search(rf"(?<![a-z0-9]){re.escape(trigger)}(?![a-z0-9])", lowered)
+            if m:
+                return m.start(), len(trigger)
+        else:
+            pos = q.find(trigger)
+            if pos != -1:
+                return pos, len(trigger)
+    return None
 
 
 def enhance_query(query: str) -> str:
@@ -96,13 +104,12 @@ def enhance_query(query: str) -> str:
     m = _ARTICLE_RE.search(q)
     if m:
         extra_terms.append(m.group(1))
-        for trigger in _JURIS_TRIGGERS:
-            pos = q.find(trigger)
-            if pos != -1:
-                law_name = q[pos + len(trigger):m.start()].strip('的 \t')
-                if law_name:
-                    extra_terms.append(law_name)
-                break
+        span = _first_jurisdiction_span(q)
+        if span:
+            pos, length = span
+            law_name = q[pos + length:m.start()].strip('的 \t')
+            if law_name:
+                extra_terms.append(law_name)
 
     if extra_terms:
         return q + ' ' + ' '.join(extra_terms)
