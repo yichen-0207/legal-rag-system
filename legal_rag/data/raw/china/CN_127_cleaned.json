@@ -1,0 +1,2398 @@
+[
+  {
+    "doc_id": "CN_DOC_4_2019_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第一条 为了保护儿童个人信息安全，促进儿童健康成长，根据《中华人民共和国网络安全法》《中华人民共和国未成年人保护法》等法律法规，制定本规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 61,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为了保护儿童个人信息安全，促进儿童健康成长，根据《中华人民共和国网络安全法》《中华人民共和国未成年人保护法》等法律法规，制定本规定。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 9.0,
+        "matched_keywords": [
+          "网络安全",
+          "信息安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 38,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二条 本规定所称儿童，是指不满十四周岁的未成年人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 23,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本规定所称儿童，是指不满十四周岁的未成年人。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 36,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第三条 在中华人民共和国境内通过网络从事收集、存储、使用、转移、披露儿童个人信息等活动，适用本规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 43,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 在中华人民共和国境内通过网络从事收集、存储、使用、转移、披露儿童个人信息等活动，适用本规定。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 45,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第四条 任何组织和个人不得制作、发布、传播侵害儿童个人信息安全的信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 31,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 任何组织和个人不得制作、发布、传播侵害儿童个人信息安全的信息。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "信息安全",
+          "安全 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 77,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第五条 儿童监护人应当正确履行监护职责，教育引导儿童增强个人信息保护意识和能力，保护儿童个人信息安全。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 47,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 儿童监护人应当正确履行监护职责，教育引导儿童增强个人信息保护意识和能力，保护儿童个人信息安全。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "信息安全",
+          "安全 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 351,
+    "source_end": 402,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第六条 鼓励互联网行业组织指导推动网络运营者制定儿童个人信息保护的行业规范、行为准则等，加强行业自律，履行社会责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 鼓励互联网行业组织指导推动网络运营者制定儿童个人信息保护的行业规范、行为准则等，加强行业自律，履行社会责任。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 49,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第七条 网络运营者收集、存储、使用、转移、披露儿童个人信息的，应当遵循正当必要、知情同意、目的明确、安全保障、依法利用的原则。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 52,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 网络运营者收集、存储、使用、转移、披露儿童个人信息的，应当遵循正当必要、知情同意、目的明确、安全保障、依法利用的原则。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2574,
+    "source_end": 2687,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第八条 网络运营者应当设置专门的儿童个人信息保护规则和用户协议，并指定专人负责儿童个人信息保护。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 45,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 网络运营者应当设置专门的儿童个人信息保护规则和用户协议，并指定专人负责儿童个人信息保护。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 42,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第九条 网络运营者收集、使用、转移、披露儿童个人信息的，应当以显著、清晰的方式告知儿童监护人，并应当征得儿童监护人的同意。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 网络运营者收集、使用、转移、披露儿童个人信息的，应当以显著、清晰的方式告知儿童监护人，并应当征得儿童监护人的同意。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 39,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十条 网络运营者征得同意时，应当同时提供拒绝选项，并明确告知以下事项：\n（一） 收集、存储、使用、转移、披露儿童个人信息的目的、方式和范围；\n（二） 儿童个人信息存储的地点、期限和到期后的处理方式；\n（三） 儿童个人信息的安全保障措施；（四） 拒绝的后果；\n（五） 投诉、举报的渠道和方式；（六） 更正、删除儿童个人信息的途径和方法；\n（七） 其他应当告知的事项。\n前款规定的告知事项发生实质性变化的，应当再次征得儿童监护人的同意。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 169,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 网络运营者征得同意时，应当同时提供拒绝选项，并明确告知以下事项：\n（一） 收集、存储、使用、转移、披露儿童个人信息的目的、方式和范围；\n（二） 儿童个人信息存储的地点、期限和到期后的处理方式；\n（三） 儿童个人信息的安全保障措施；（四） 拒绝的后果；\n（五） 投诉、举报的渠道和方式；（六） 更正、删除儿童个人信息的途径和方法；\n（七） 其他应当告知的事项。\n前款规定的告知事项发生实质性变化的，应当再次征得儿童监护人的同意。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 126,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十一条 网络运营者不得收集与其提供的服务无关的儿童个人信息，不得违反法律、行政法规的规定和双方的约定收集儿童个人信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 56,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 网络运营者不得收集与其提供的服务无关的儿童个人信息，不得违反法律、行政法规的规定和双方的约定收集儿童个人信息。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2566,
+    "source_end": 2676,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十二条 网络运营者存储儿童个人信息，不得超过实现其收集、使用目的所必需的期限。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 36,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 网络运营者存储儿童个人信息，不得超过实现其收集、使用目的所必需的期限。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 916,
+    "source_end": 956,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十三条 网络运营者应当采取加密等措施存储儿童个人信息，确保信息安全。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 32,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 网络运营者应当采取加密等措施存储儿童个人信息，确保信息安全。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "信息安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 957,
+    "source_end": 992,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十四条 网络运营者使用儿童个人信息，不得违反法律、行政法规的规定和双方约定的目的、范围。因业务需要，确需超出约定的目的、范围使用的，应当再次征得儿童监护人的同意。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 网络运营者使用儿童个人信息，不得违反法律、行政法规的规定和双方约定的目的、范围。因业务需要，确需超出约定的目的、范围使用的，应当再次征得儿童监护人的同意。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "同意 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 993,
+    "source_end": 1075,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十五条 网络运营者对其工作人员应当以最小授权为原则，严格设定信息访问权限，控制儿童个人信息知悉范围。工作人员访问儿童个人信息的，应当经过儿童个人信息保护负责人或者其授权的管理人员审批，记录访问情况，并采取技术措施，避免违法复制、下载儿童个人信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 114,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 网络运营者对其工作人员应当以最小授权为原则，严格设定信息访问权限，控制儿童个人信息知悉范围。工作人员访问儿童个人信息的，应当经过儿童个人信息保护负责人或者其授权的管理人员审批，记录访问情况，并采取技术措施，避免违法复制、下载儿童个人信息。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1076,
+    "source_end": 1200,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十六条 网络运营者委托第三方处理儿童个人信息的，应当对受委托方及委托行为等进行安全评估，签署委托协议，明确双方责任、处理事项、处理期限、处理性质和目的等，委托行为不得超出授权范围。\n前款规定的受委托方，应当履行以下义务：（一） 按照法律、行政法规的规定和网络运营者的要求处理儿童个人信息；\n（二） 协助网络运营者回应儿童监护人提出的申请；\n（三） 采取措施保障信息安全，并在发生儿童个人信息泄露安全事件时，及时向网络运营者反馈；\n（四） 委托关系解除时及时删除儿童个人信息;\n（五） 不得转委托；（六） 其他依法应当履行的儿童个人信息保护义务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 230,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 网络运营者委托第三方处理儿童个人信息的，应当对受委托方及委托行为等进行安全评估，签署委托协议，明确双方责任、处理事项、处理期限、处理性质和目的等，委托行为不得超出授权范围。\n前款规定的受委托方，应当履行以下义务：（一） 按照法律、行政法规的规定和网络运营者的要求处理儿童个人信息；\n（二） 协助网络运营者回应儿童监护人提出的申请；\n（三） 采取措施保障信息安全，并在发生儿童个人信息泄露安全事件时，及时向网络运营者反馈；\n（四） 委托关系解除时及时删除儿童个人信息;\n（五） 不得转委托；（六） 其他依法应当履行的儿童个人信息保护义务。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "cybersecurity",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 10.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "信息安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 48,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十七条 网络运营者向第三方转移儿童个人信息的，应当自行或者委托第三方机构进行安全评估。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 41,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 网络运营者向第三方转移儿童个人信息的，应当自行或者委托第三方机构进行安全评估。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1475,
+    "source_end": 1519,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十八条 网络运营者不得披露儿童个人信息，但法律、行政法规规定应当披露或者根据与儿童监护人的约定可以披露的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 52,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 网络运营者不得披露儿童个人信息，但法律、行政法规规定应当披露或者根据与儿童监护人的约定可以披露的除外。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1520,
+    "source_end": 1576,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十九条 儿童或者其监护人发现网络运营者收集、存储、使用、披露的儿童个人信息有错误的，有权要求网络运营者予以更正。网络运营者应当及时采取措施予以更正。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 儿童或者其监护人发现网络运营者收集、存储、使用、披露的儿童个人信息有错误的，有权要求网络运营者予以更正。网络运营者应当及时采取措施予以更正。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 38,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十条 儿童或者其监护人要求网络运营者删除其收集、存储、使用、披露的儿童个人信息的，网络运营者应当及时采取措施予以删除，包括但不限于以下情形：\n（一） 网络运营者违反法律、行政法规的规定或者双方的约定收集、存储、使用、转移、披露儿童个人信息的；\n（二） 超出目的范围或者必要期限收集、存储、使用、转移、披露儿童个人信息的；\n（三） 儿童监护人撤回同意的；（四） 儿童或者其监护人通过注销等方式终止使用产品或者服务的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 174,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 儿童或者其监护人要求网络运营者删除其收集、存储、使用、披露的儿童个人信息的，网络运营者应当及时采取措施予以删除，包括但不限于以下情形：\n（一） 网络运营者违反法律、行政法规的规定或者双方的约定收集、存储、使用、转移、披露儿童个人信息的；\n（二） 超出目的范围或者必要期限收集、存储、使用、转移、披露儿童个人信息的；\n（三） 儿童监护人撤回同意的；（四） 儿童或者其监护人通过注销等方式终止使用产品或者服务的。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)",
+          "同意 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 36,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十一条 网络运营者发现儿童个人信息发生或者可能发生泄露、毁损、丢失的，应当立即启动应急预案，采取补救措施；造成或者可能造成严重后果的，应当立即向有关主管部门报告，并将事件相关情况以邮件、信函、电话、推送通知等方式告知受影响的儿童及其监护人，难以逐一告知的，应当采取合理、有效的方式发布相关警示信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 136,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 网络运营者发现儿童个人信息发生或者可能发生泄露、毁损、丢失的，应当立即启动应急预案，采取补救措施；造成或者可能造成严重后果的，应当立即向有关主管部门报告，并将事件相关情况以邮件、信函、电话、推送通知等方式告知受影响的儿童及其监护人，难以逐一告知的，应当采取合理、有效的方式发布相关警示信息。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1863,
+    "source_end": 2014,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十二条 网络运营者应当对网信部门和其他有关部门依法开展的监督检查予以配合。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 37,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 网络运营者应当对网信部门和其他有关部门依法开展的监督检查予以配合。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 149,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十三条 网络运营者停止运营产品或者服务的，应当立即停止收集儿童个人信息的活动，删除其持有的儿童个人信息，并将停止运营的通知及时告知儿童监护人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 网络运营者停止运营产品或者服务的，应当立即停止收集儿童个人信息的活动，删除其持有的儿童个人信息，并将停止运营的通知及时告知儿童监护人。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 44,
+    "source_end": 166,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十四条 任何组织和个人发现有违反本规定行为的，可以向网信部门和其他有关部门举报。\n网信部门和其他有关部门收到相关举报的，应当依据职责及时进行处理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 69,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 任何组织和个人发现有违反本规定行为的，可以向网信部门和其他有关部门举报。\n网信部门和其他有关部门收到相关举报的，应当依据职责及时进行处理。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2129,
+    "source_end": 2204,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十五条 网络运营者落实儿童个人信息安全管理责任不到位，存在较大安全风险或者发生安全事件的，由网信部门依据职责进行约谈，网络运营者应当及时采取措施进行整改，消除隐患。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 78,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 网络运营者落实儿童个人信息安全管理责任不到位，存在较大安全风险或者发生安全事件的，由网信部门依据职责进行约谈，网络运营者应当及时采取措施进行整改，消除隐患。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "信息安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2205,
+    "source_end": 2289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十六条 违反本规定的，由网信部门和其他有关部门依据职责，根据《中华人民共和国网络安全法》《互联网信息服务管理办法》等相关法律法规规定处理；构成犯罪的，依法追究刑事责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 76,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 违反本规定的，由网信部门和其他有关部门依据职责，根据《中华人民共和国网络安全法》《互联网信息服务管理办法》等相关法律法规规定处理；构成犯罪的，依法追究刑事责任。"
+      }
+    ],
+    "topics": [
+      "criminal_law",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 13.5,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事责任",
+          "刑事 (weak)",
+          "犯罪 (weak)",
+          "责任 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2290,
+    "source_end": 2376,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十七条 违反本规定被追究法律责任的，依照有关法律、行政法规的规定记入信用档案，并予以公示。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 42,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 违反本规定被追究法律责任的，依照有关法律、行政法规的规定记入信用档案，并予以公示。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2573,
+    "source_end": 2670,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十八条 通过计算机信息系统自动留存处理信息且无法识别所留存处理的信息属于儿童个人信息的，依照其他有关规定执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 54,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 通过计算机信息系统自动留存处理信息且无法识别所留存处理的信息属于儿童个人信息的，依照其他有关规定执行。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2425,
+    "source_end": 2482,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2019_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2019",
+    "law_name": "儿童个人信息网络保护规定",
+    "law_name_original": "儿童个人信息网络保护规定",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十九条 本规定自2019年10月1日起施行。\n中央网络安全和信息化委员会办公室承办：国家互联网应急中心\n技术支持：长安通信科技有限责任公司京公网安备11040102700108号",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 64,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 本规定自2019年10月1日起施行。\n◆ ◆◆ ◆\n中央网络安全和信息化委员会办公室承办：国家互联网应急中心\n技术支持：长安通信科技有限责任公司京公网安备11040102700108号"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2019-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2019-08/23/c_1124913903.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_127.txt",
+    "sample_id": "CN_127",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_127",
+    "raw_sha256": "cd31dd4c427fbda06353a43fde89364d1b986fde00298ceb4285af4468130b63",
+    "extracted_text_sha256": "2641fc9f14ce1158bffa65495dc8078e80f076311b707198661a041cc340801c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2483,
+    "source_end": 2581,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

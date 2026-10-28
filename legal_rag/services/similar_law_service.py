@@ -159,12 +159,17 @@ class SimilarLawService:
         self,
         query_law_id: str,
         top_k: int = 5,
-        jurisdiction_filter: Optional[str] = None
+        jurisdiction_filter: Optional[str] = None,
+        preferred_jurisdictions: Optional[List[str]] = None,
     ) -> Dict:
         """核心方法：根据 law_id 查找最相似的 top_k 部法规（主题感知版）。
 
         优先用预计算质心，缺失时降级为运行时计算代表向量；KNN 多取候选后按主题硬过滤，
         以 主题重叠度 60% + 归一化向量相似度 40% 综合评分，最后做跨法域多样性选择。
+
+        preferred_jurisdictions：需要优先占位的法域（调用方已从问题中点名）。
+        多样性选择是"每个法域只取排名第一"，因此当候选法域数 ≥ top_k 时，未点名的
+        法域会按评分把点名法域挤出结果集（新增法域入库后尤其明显），故这里显式前置。
         """
         # 1. 优先读取预计算质心；缺失时降级为运行时拉取整部法规向量
         centroid_doc = self.repo.get_law_centroid(query_law_id)
@@ -204,7 +209,7 @@ class SimilarLawService:
         if not query_topics_set:
             return self._fallback_vector_search(
                 rep_vector, query_law_id, query_law_title, query_jurisdiction,
-                chunk_count, top_k, jurisdiction_filter
+                chunk_count, top_k, jurisdiction_filter, preferred_jurisdictions
             )
 
         # 3. KNN 搜索候选法规（多取一些用于后续过滤）
@@ -299,7 +304,9 @@ class SimilarLawService:
         scored_laws.sort(key=lambda x: x["composite_score"], reverse=True)
 
         # 8. 跨法域多样性选择
-        selected = self._select_diverse_results(scored_laws, top_k, query_jurisdiction)
+        selected = self._select_diverse_results(
+            scored_laws, top_k, query_jurisdiction, preferred_jurisdictions
+        )
 
         # 9. 构建返回结果
         similar_laws = []
@@ -335,7 +342,8 @@ class SimilarLawService:
         query_jurisdiction: str,
         chunk_count: int,
         top_k: int,
-        jurisdiction_filter: Optional[str]
+        jurisdiction_filter: Optional[str],
+        preferred_jurisdictions: Optional[List[str]] = None,
     ) -> Dict:
         """降级方案：查询法规无主题信息时使用纯向量搜索。"""
         if rep_vector is None:
@@ -382,7 +390,19 @@ class SimilarLawService:
                     "similarity": item["similarity"]
                 })
 
-        aggregated = sorted(law_map.values(), key=lambda x: x["max_similarity"], reverse=True)[:top_k]
+        aggregated = sorted(law_map.values(), key=lambda x: x["max_similarity"], reverse=True)
+        # 与主路径口径一致：点名法域先各占一席，其余按相似度补满
+        preferred = set(preferred_jurisdictions or [])
+        if preferred:
+            head, seen, rest = [], set(), []
+            for entry in aggregated:
+                if entry["jurisdiction"] in preferred and entry["jurisdiction"] not in seen:
+                    seen.add(entry["jurisdiction"])
+                    head.append(entry)
+                else:
+                    rest.append(entry)
+            aggregated = head + rest
+        aggregated = aggregated[:top_k]
 
         similar_laws = []
         for entry in aggregated:
@@ -413,8 +433,15 @@ class SimilarLawService:
 
     # ===== 跨法域多样性 =====
 
-    def _select_diverse_results(self, scored_laws: List[Dict], top_k: int, query_jurisdiction: str) -> List[Dict]:
-        """从评分结果中选 top_k：先每法域取第一（优先非查询法域），再按评分补满。"""
+    def _select_diverse_results(self, scored_laws: List[Dict], top_k: int,
+                                query_jurisdiction: str,
+                                preferred_jurisdictions: Optional[List[str]] = None) -> List[Dict]:
+        """从评分结果中选 top_k：先每法域取第一（优先非查询法域），再按评分补满。
+
+        preferred_jurisdictions 非空时，这些法域排在最前占位：多样性选择每个法域
+        只取一条，若候选法域数 ≥ top_k，未点名的法域会按评分先占满名额，
+        点名法域（如问题里的"澳门"）就再也进不来。
+        """
         if not scored_laws:
             return []
 
@@ -430,11 +457,16 @@ class SimilarLawService:
         selected = []
         used_ids = set()
 
-        # 优先选择非查询法域的结果
+        # 法域顺序：点名的 → 其他非查询法域 → 查询法域自身
+        preferred = set(preferred_jurisdictions or [])
         other_jurs = [j for j in by_jurisdiction if j != query_jurisdiction]
-        same_jur = [j for j in by_jurisdiction if j == query_jurisdiction]
+        ordered_jurs = (
+            [j for j in other_jurs if j in preferred]
+            + [j for j in other_jurs if j not in preferred]
+            + [j for j in by_jurisdiction if j == query_jurisdiction]
+        )
 
-        for jur in other_jurs + same_jur:
+        for jur in ordered_jurs:
             candidates = by_jurisdiction[jur]
             if candidates and candidates[0]["law_id"] not in used_ids:
                 selected.append(candidates[0])

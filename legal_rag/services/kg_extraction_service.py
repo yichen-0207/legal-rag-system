@@ -58,8 +58,13 @@ class _ExtractedTriple(BaseModel):
     confidence: float = Field(default=0.8, description="置信度，0.0-1.0")
 
 
-class _TripleExtraction(BaseModel):
-    """单批次三元组抽取的结构化输出。"""
+class TripleExtraction(BaseModel):
+    """单批次三元组抽取的结构化输出。
+
+    类名**不得以单下划线开头**：LangChain 会用类名作为 function_calling 的工具名，
+    实测模型会把 `_TripleExtraction` 渲染成 `\\_TripleExtraction` 并触发
+    `Unknown tool type` 解析失败（澳大利亚 5 部试点 10 次批次失败中占 7 次）。
+    """
 
     triples: List[_ExtractedTriple] = Field(
         default_factory=list, description="抽取到的三元组列表；无可抽取项时为空列表"
@@ -73,42 +78,56 @@ class KGExtractionService:
         self.model = settings.llm_extraction_model or "deepseek-flash"
         self.repo = ElasticsearchRepository()
 
-    def extract_from_articles(self, articles: List[Dict], batch_size: int = 5) -> List[Dict]:
-        """批量抽取三元组；单批失败不阻断整体，结果按 head-relation-tail 去重。
+    def extract_from_articles(
+        self, articles: List[Dict], batch_size: int = DEFAULT_BATCH_SIZE
+    ) -> tuple:
+        """批量抽取三元组，返回 (去重后的三元组, 批次统计)。
 
-        返回项：{head:{id,type,name}, relation, tail:{id,type,name},
-                 source_article, source_jurisdiction, confidence}。
+        单批失败不阻断整体；失败批次与「成功但零产出」分开计数，否则无法区分
+        「LLM 解析失败」和「这段法条确实没有三元组」。
+
+        stats: {"batches": 总批次, "failed_batches": 解析失败批次,
+                "empty_batches": 成功但零产出批次}
         """
+        stats = {"batches": 0, "failed_batches": 0, "empty_batches": 0}
         if not articles:
-            return []
+            return [], stats
 
         all_triples = []
         for i in range(0, len(articles), batch_size):
             batch = articles[i:i + batch_size]
+            stats["batches"] += 1
             try:
                 triples = self._extract_batch(batch)
-                all_triples.extend(triples)
-                logger.info(f"[KGExtraction] 批次 {i//batch_size + 1}: 提取 {len(triples)} 个三元组")
             except Exception as e:
-                logger.warning(f"[KGExtraction] 批次 {i//batch_size + 1} 提取失败: {e}")
+                stats["failed_batches"] += 1
+                logger.warning(
+                    f"[KGExtraction] 批次 {stats['batches']} 抽取失败"
+                    f"（{len(batch)} 条条款）: {type(e).__name__}: {e}"
+                )
                 continue
+            if not triples:
+                stats["empty_batches"] += 1
+            all_triples.extend(triples)
+            logger.info(
+                f"[KGExtraction] 批次 {stats['batches']}: 提取 {len(triples)} 个三元组"
+            )
 
         all_triples = self._deduplicate(all_triples)
-        logger.info(f"[KGExtraction] 总计提取 {len(all_triples)} 个唯一三元组")
-        return all_triples
+        logger.info(
+            f"[KGExtraction] 总计提取 {len(all_triples)} 个唯一三元组"
+            f"（批次 {stats['batches']}，失败 {stats['failed_batches']}，"
+            f"空产出 {stats['empty_batches']}）"
+        )
+        return all_triples, stats
 
     def _extract_batch(self, batch: List[Dict]) -> List[Dict]:
-        """调用 LLM 抽取单个批次的三元组"""
-        try:
-            llm = get_chat_model(model=self.model, temperature=0.1, max_tokens=4096)
-            # 端点仅支持 function_calling 方式（json_schema 实测返回 400）
-            result: _TripleExtraction = llm.with_structured_output(
-                _TripleExtraction, method="function_calling"
-            ).invoke(self._build_prompt(batch))
-        except Exception as e:
-            logger.warning(f"[KGExtraction] 结构化抽取失败: {type(e).__name__}: {e}")
-            return []
-
+        """调用 LLM 抽取单个批次的三元组；失败向上抛出，由调用方统一计入失败批次。"""
+        llm = get_chat_model(model=self.model, temperature=0.1, max_tokens=4096)
+        # 端点仅支持 function_calling 方式（json_schema 实测返回 400）
+        result: TripleExtraction = llm.with_structured_output(
+            TripleExtraction, method="function_calling"
+        ).invoke(self._build_prompt(batch))
         return self._normalize_triples([t.model_dump() for t in result.triples], batch)
 
     def _build_prompt(self, batch: List[Dict]) -> str:
@@ -251,9 +270,11 @@ class KGExtractionService:
                     "triples": repo.get_kg_triples(law_id),
                     "cache_hit": True,
                     "fingerprint": fingerprint,
+                    "llm_batches": 0,
+                    "failed_batches": 0,
                 }
 
-        triples = self.extract_from_articles(articles)
+        triples, batch_stats = self.extract_from_articles(articles)
 
         # 抽取为空时不覆盖旧结果：LLM 输出有抖动（实测同一段法条两次分别返回 5 条与 0 条），
         # 指纹未变则判定为抖动并保留旧结果；指纹已变或旧结果不存在才正常落库（含清除）。
@@ -268,6 +289,8 @@ class KGExtractionService:
                     "triples": repo.get_kg_triples(law_id),
                     "cache_hit": True,
                     "fingerprint": fingerprint,
+                    "llm_batches": batch_stats["batches"],
+                    "failed_batches": batch_stats["failed_batches"],
                 }
 
         jurisdiction = articles[0].get("jurisdiction", "") if articles else ""
@@ -296,7 +319,13 @@ class KGExtractionService:
         if saved < 0:
             logger.warning(f"[KGExtraction] 三元组落库失败，本次结果未缓存: law_id={law_id}")
 
-        return {"triples": triples, "cache_hit": False, "fingerprint": fingerprint}
+        return {
+            "triples": triples,
+            "cache_hit": False,
+            "fingerprint": fingerprint,
+            "llm_batches": batch_stats["batches"],
+            "failed_batches": batch_stats["failed_batches"],
+        }
 
     # ================================================================
     #  批量预抽取（离线脚本用）：逐个复用 get_triples_cached，指纹命中即跳过 LLM，
@@ -358,6 +387,9 @@ class KGExtractionService:
                 "status": "ok",
                 "triples": len(result.get("triples") or []),
                 "cache_hit": bool(result.get("cache_hit")),
+                # 按批次而非按法规计数：一次法规抽取可能是几十次 LLM 调用
+                "llm_batches": int(result.get("llm_batches", 0)),
+                "failed_batches": int(result.get("failed_batches", 0)),
             }
         except Exception as e:
             logger.warning(
@@ -380,7 +412,8 @@ class KGExtractionService:
         law_ids = [lid for lid in law_ids if lid]
         summary = {
             "total": len(law_ids), "ok": 0, "cache_hit": 0, "failed": 0,
-            "not_found": 0, "empty": 0, "triples_total": 0, "llm_calls": 0,
+            "not_found": 0, "empty": 0, "triples_total": 0,
+            "llm_batches": 0, "failed_batches": 0,
             "failed_laws": [],
         }
         if not law_ids:
@@ -402,13 +435,15 @@ class KGExtractionService:
             if status == "ok":
                 summary["ok"] += 1
                 summary["triples_total"] += item.get("triples", 0)
+                summary["llm_batches"] += item.get("llm_batches", 0)
+                summary["failed_batches"] += item.get("failed_batches", 0)
                 if item.get("cache_hit"):
                     summary["cache_hit"] += 1
-                else:
-                    summary["llm_calls"] += 1  # 未命中缓存才算一次 LLM 调用
                 print(
                     f"[{index}/{total}] {item['law_id']} 完成: "
                     f"{item.get('triples', 0)} 三元组"
+                    f"（LLM 批次 {item.get('llm_batches', 0)}，"
+                    f"失败批次 {item.get('failed_batches', 0)}）"
                     f"{'（缓存命中）' if item.get('cache_hit') else ''}",
                     flush=True,
                 )
@@ -502,7 +537,8 @@ class KGExtractionService:
 
     def extract_and_format_for_graph(self, articles: List[Dict]) -> Dict:
         """抽取并格式化为与 get_network_graph() 兼容的图谱结构"""
-        return self.format_graph(self.extract_from_articles(articles))
+        triples, _ = self.extract_from_articles(articles)
+        return self.format_graph(triples)
 
     def format_graph(
         self,

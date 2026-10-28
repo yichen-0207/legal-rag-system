@@ -1,0 +1,4809 @@
+[
+  {
+    "doc_id": "CN_DOC_7_2024_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第一条 为提高金融机构依法合规经营能力,根据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》《中\n华人民共和国信托法》等法律法规,制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 77,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为提高金融机构依法合规经营能力,根据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》《中\n华人民共和国信托法》等法律法规,制定本办法。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第二条 依法由国家金融监督管理总局及其派出机构监管的政策性银行、商业银行、金融资产管理公司、企业集团财务公司、金融租赁公司、汽车金融公\n司、消费金融公司、货币经纪公司、信托公司、理财公司、金融资产投资公司、保险公司(包括再保险公司)、保险资产管理公司、保险集团(控股)公司、相\n互保险组织等机构(以下统称金融机构)适用本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 139,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 依法由国家金融监督管理总局及其派出机构监管的政策性银行、商业银行、金融资产管理公司、企业集团财务公司、金融租赁公司、汽车金融公\n司、消费金融公司、货币经纪公司、信托公司、理财公司、金融资产投资公司、保险公司(包括再保险公司)、保险资产管理公司、保险集团(控股)公司、相\n互保险组织等机构(以下统称金融机构)适用本办法。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 21.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 21.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第三条 本办法所称合规,是指金融机构经营管理行为及其员工履职行为应当符合法律、行政法规、部门规章和规范性文件,以及金融机构落实监管要求制\n定的内部规范(以下统称合规规范)。\n本办法所称合规管理,是指金融机构以确保遵循合规规范、有效防控合规风险为目的,以提升依法合规经营管理水平为导向,以经营管理行为和员工履职行\n为为对象,开展的包括建立合规制度、完善运行机制、培育合规文化、强化监督问责等管理活动。\n本办法所称合规风险,是指因金融机构经营管理行为或者员工履职行为违反合规规范,造成金融机构或者其员工承担刑事、行政、民事法律责任,财产损\n失、声誉损失以及其他负面影响的可能性。\n本办法所称合规管理部门,是指金融机构设立的、牵头承担合规管理职责的内设部门。金融机构设置多个职责不相冲突的部门共同承担合规管理职责的,\n应当明确合规管理职责的牵头部门。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 336,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 本办法所称合规,是指金融机构经营管理行为及其员工履职行为应当符合法律、行政法规、部门规章和规范性文件,以及金融机构落实监管要求制\n定的内部规范(以下统称合规规范)。\n本办法所称合规管理,是指金融机构以确保遵循合规规范、有效防控合规风险为目的,以提升依法合规经营管理水平为导向,以经营管理行为和员工履职行\n为为对象,开展的包括建立合规制度、完善运行机制、培育合规文化、强化监督问责等管理活动。\n本办法所称合规风险,是指因金融机构经营管理行为或者员工履职行为违反合规规范,造成金融机构或者其员工承担刑事、行政、民事法律责任,财产损\n失、声誉损失以及其他负面影响的可能性。\n本办法所称合规管理部门,是指金融机构设立的、牵头承担合规管理职责的内设部门。金融机构设置多个职责不相冲突的部门共同承担合规管理职责的,\n应当明确合规管理职责的牵头部门。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "刑事",
+          "刑事 (weak)",
+          "责任 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8958,
+    "source_end": 9380,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第四条 国有金融机构中的党组织,应当充分发挥领导作用,将党的领导与公司治理有机结合,支持金融机构依法行使职权。非公有制金融机构中的党组织,应\n当引导和监督金融机构贯彻党的方针政策,遵守国家法律法规,维护各方合法权益,促进金融机构健康发展。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 108,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 国有金融机构中的党组织,应当充分发挥领导作用,将党的领导与公司治理有机结合,支持金融机构依法行使职权。非公有制金融机构中的党组织,应\n当引导和监督金融机构贯彻党的方针政策,遵守国家法律法规,维护各方合法权益,促进金融机构健康发展。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第五条 金融机构合规管理应当遵循以下原则:\n(一)依法合规。严格执行法律法规和各项监管规定,将依法合规经营作为金融机构一切活动必须坚守的底线和红线。\n(二)全面覆盖。将合规要求贯穿决策、执行、监督、反馈等全流程,覆盖各领域、各环节,落实到各部门、各机构、各岗位以及全体员工。\n(三)权责清晰。明确合规管理框架,落实业务及职能部门的主体责任、合规管理部门的管理责任和内部审计部门的监督责任,做到有机统筹、有效衔接。\n(四)务实高效。持续完善与本机构金融业务和人员规模相匹配的合规管理体系,加强对重点领域、关键人员和重要业务的管理,充分运用数字化、智能化\n等手段,不断提升合规管理效能。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 250,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 金融机构合规管理应当遵循以下原则:\n(一)依法合规。严格执行法律法规和各项监管规定,将依法合规经营作为金融机构一切活动必须坚守的底线和红线。\n(二)全面覆盖。将合规要求贯穿决策、执行、监督、反馈等全流程,覆盖各领域、各环节,落实到各部门、各机构、各岗位以及全体员工。\n(三)权责清晰。明确合规管理框架,落实业务及职能部门的主体责任、合规管理部门的管理责任和内部审计部门的监督责任,做到有机统筹、有效衔接。\n(四)务实高效。持续完善与本机构金融业务和人员规模相匹配的合规管理体系,加强对重点领域、关键人员和重要业务的管理,充分运用数字化、智能化\n等手段,不断提升合规管理效能。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 86,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第六条 国家金融监督管理总局及其派出机构依法对金融机构合规管理工作实施监督管理。\n银行业自律组织、保险业自律组织依照本办法制定实施细则,对会员单位的合规管理工作实施自律管理。\n第二章 合规管理架构和职责",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 93,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 国家金融监督管理总局及其派出机构依法对金融机构合规管理工作实施监督管理。\n银行业自律组织、保险业自律组织依照本办法制定实施细则,对会员单位的合规管理工作实施自律管理。\n第二章 合规管理架构和职责"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9026,
+    "source_end": 9177,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第七条 金融机构应当制定合规管理制度,按照“分级管理、逐级负责”的要求,完善合规管理组织架构,明确合规管理责任,深化合规文化建设,建立健全合规管\n理体系。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 66,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 金融机构应当制定合规管理制度,按照“分级管理、逐级负责”的要求,完善合规管理组织架构,明确合规管理责任,深化合规文化建设,建立健全合规管\n理体系。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第八条 金融机构的董事会(含行使董事会职权的董事,下同)负责确定合规管理目标,对合规管理的有效性承担最终责任。金融机构的高级管理人员负责落\n实合规管理目标,对主管或者分管领域业务合规性承担领导责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 90,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 金融机构的董事会(含行使董事会职权的董事,下同)负责确定合规管理目标,对合规管理的有效性承担最终责任。金融机构的高级管理人员负责落\n实合规管理目标,对主管或者分管领域业务合规性承担领导责任。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第九条 金融机构各部门主要负责人,各分支机构和纳入并表管理的各层级金融子公司(以下统称下属各机构)主要负责人负责落实本部门、本级机构的合规\n管理目标,对本部门、本级机构合规管理承担首要责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 86,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 金融机构各部门主要负责人,各分支机构和纳入并表管理的各层级金融子公司(以下统称下属各机构)主要负责人负责落实本部门、本级机构的合规\n管理目标,对本部门、本级机构合规管理承担首要责任。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第十条 金融机构应当深化合规文化建设,确立合规从高层做起、全员主动合规、合规创造价值等理念,营造不敢违规、不能违规、不想违规的合规文化氛\n围,促进金融机构自身合规与外部监管有效互动。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 81,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 金融机构应当深化合规文化建设,确立合规从高层做起、全员主动合规、合规创造价值等理念,营造不敢违规、不能违规、不想违规的合规文化氛\n围,促进金融机构自身合规与外部监管有效互动。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1654,
+    "source_end": 1745,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第十一条 金融机构的董事会履行下列合规管理职责:\n(一)审议批准合规管理基本制度;(二)决定合规管理部门的设置;\n(三)决定聘任、解聘首席合规官,建立与首席合规官的直接沟通机制;\n(四)决定解聘对发生重大违法违规行为、重大合规风险负有主要责任或者领导责任的高级管理人员;\n(五)评估合规管理有效性和合规文化建设水平,督促解决合规管理和合规文化建设中存在的重大问题;\n(六)其他合规管理职责。\n董事会可以下设合规委员会或者由董事会下设的其他专门委员会履行合规管理相关职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 204,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 金融机构的董事会履行下列合规管理职责:\n(一)审议批准合规管理基本制度;(二)决定合规管理部门的设置;\n(三)决定聘任、解聘首席合规官,建立与首席合规官的直接沟通机制;\n(四)决定解聘对发生重大违法违规行为、重大合规风险负有主要责任或者领导责任的高级管理人员;\n(五)评估合规管理有效性和合规文化建设水平,督促解决合规管理和合规文化建设中存在的重大问题;\n(六)其他合规管理职责。\n董事会可以下设合规委员会或者由董事会下设的其他专门委员会履行合规管理相关职责。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "administrative_procedures",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 6.0,
+        "matched_keywords": [
+          "委员会"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9055,
+    "source_end": 9340,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第十二条 金融机构的高级管理人员履行下列合规管理职责:\n(一)落实合规管理部门设置和职能要求,配备充足、适当的合规管理人员,并为其履行职责提供充分的人力、物力、财力、技术支持和保障;\n(二)组织推动主管或者分管领域的合规管理制度建设、合规审查、合规自查与检查、合规风险监测与管控、合规事件处理等工作;\n(三)发现重大违法违规行为或者重大合规风险及时报告、整改,督促落实责任追究;\n(四)其他合规管理职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 172,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 金融机构的高级管理人员履行下列合规管理职责:\n(一)落实合规管理部门设置和职能要求,配备充足、适当的合规管理人员,并为其履行职责提供充分的人力、物力、财力、技术支持和保障;\n\n(二)组织推动主管或者分管领域的合规管理制度建设、合规审查、合规自查与检查、合规风险监测与管控、合规事件处理等工作;\n(三)发现重大违法违规行为或者重大合规风险及时报告、整改,督促落实责任追究;\n(四)其他合规管理职责。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 82,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第十三条 金融机构应当在机构总部设立首席合规官,首席合规官是高级管理人员,接受机构董事长和行长(总经理)直接领导,向董事会负责。\n金融机构原则上应当在省级分支机构或者一级分支机构设立合规官,合规官是本级机构高级管理人员,接受本级机构行长(总经理)直接领导。\n金融机构的首席合规官及合规官应当取得国家金融监督管理总局或者其派出机构的任职资格许可,本办法另有规定的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 167,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 金融机构应当在机构总部设立首席合规官,首席合规官是高级管理人员,接受机构董事长和行长(总经理)直接领导,向董事会负责。\n金融机构原则上应当在省级分支机构或者一级分支机构设立合规官,合规官是本级机构高级管理人员,接受本级机构行长(总经理)直接领导。\n金融机构的首席合规官及合规官应当取得国家金融监督管理总局或者其派出机构的任职资格许可,本办法另有规定的除外。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2186,
+    "source_end": 2369,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第十四条 金融机构可以根据自身经营情况单独设立首席合规官、合规官,也可以由金融机构的高级管理人员、省级分支机构或者一级分支机构的高级管\n理人员兼任。\n由金融机构行长(总经理)兼任首席合规官,以及由金融机构省级分支机构或者一级分支机构行长(总经理)兼任合规官的,不受本办法规定的首席合规官或者\n合规官的任职条件限制,不需要另行取得任职资格许可。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 155,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 金融机构可以根据自身经营情况单独设立首席合规官、合规官,也可以由金融机构的高级管理人员、省级分支机构或者一级分支机构的高级管\n理人员兼任。\n由金融机构行长(总经理)兼任首席合规官,以及由金融机构省级分支机构或者一级分支机构行长(总经理)兼任合规官的,不受本办法规定的首席合规官或者\n合规官的任职条件限制,不需要另行取得任职资格许可。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2370,
+    "source_end": 2541,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第十五条 首席合规官及合规官不得负责管理金融机构的前台业务、财务、资金运用、内部审计等可能与合规管理存在职责冲突的部门。金融机构行长\n(总经理)兼任首席合规官、省级分支机构或者一级分支机构行长(总经理)兼任合规官的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 98,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 首席合规官及合规官不得负责管理金融机构的前台业务、财务、资金运用、内部审计等可能与合规管理存在职责冲突的部门。金融机构行长\n(总经理)兼任首席合规官、省级分支机构或者一级分支机构行长(总经理)兼任合规官的除外。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9244,
+    "source_end": 9404,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第十六条 首席合规官在符合国家金融监督管理总局关于相应机构高级管理人员任职资格基本条件的前提下,还应当具备下列条件:\n(一)本科以上学历;(二)从事金融工作八年以上且从事法律合规工作三年以上,或者从事法律合规工作八年以上且从事金融工作三年以上,或者从事金融工作八年以上且取得\n法律职业资格证书;(三)国家金融监督管理总局规定的其他条件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 152,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 首席合规官在符合国家金融监督管理总局关于相应机构高级管理人员任职资格基本条件的前提下,还应当具备下列条件:\n(一)本科以上学历;(二)从事金融工作八年以上且从事法律合规工作三年以上,或者从事法律合规工作八年以上且从事金融工作三年以上,或者从事金融工作八年以上且取得\n法律职业资格证书;(三)国家金融监督管理总局规定的其他条件。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9052,
+    "source_end": 9270,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第十七条 合规官在符合国家金融监督管理总局关于相应机构高级管理人员任职资格基本条件的前提下,还应当具备下列条件:\n(一)本科以上学历;(二)从事金融工作六年以上且从事法律合规工作三年以上,或者从事法律合规工作六年以上且从事金融工作三年以上,或者从事金融工作六年以上且取得\n法律职业资格证书;(三)国家金融监督管理总局规定的其他条件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 150,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 合规官在符合国家金融监督管理总局关于相应机构高级管理人员任职资格基本条件的前提下,还应当具备下列条件:\n(一)本科以上学历;(二)从事金融工作六年以上且从事法律合规工作三年以上,或者从事法律合规工作六年以上且从事金融工作三年以上,或者从事金融工作六年以上且取得\n法律职业资格证书;(三)国家金融监督管理总局规定的其他条件。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第十八条 首席合规官对本机构及其员工的合规管理负专门领导责任,履行下列合规管理职责:\n(一)负责本机构的合规管理工作,组织推动合规管理体系建设,监督合规管理部门和合规岗位的履职情况,组织推动合规规范在机构内严格执行与有效落实;\n(二)组织推动合规管理的制度建设、合规审查、合规检查与评价、重大合规事件处理、合规考核、问题整改及队伍建设等,确保合规管理工作有序运转;\n(三)按照要求定期向监管机构汇报;(四)其他合规管理职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 185,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 首席合规官对本机构及其员工的合规管理负专门领导责任,履行下列合规管理职责:\n(一)负责本机构的合规管理工作,组织推动合规管理体系建设,监督合规管理部门和合规岗位的履职情况,组织推动合规规范在机构内严格执行与有效落实;\n(二)组织推动合规管理的制度建设、合规审查、合规检查与评价、重大合规事件处理、合规考核、问题整改及队伍建设等,确保合规管理工作有序运转;\n(三)按照要求定期向监管机构汇报;(四)其他合规管理职责。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2989,
+    "source_end": 3201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第十九条 法律、行政法规、部门规章及规范性文件发生重大变动的,首席合规官应当及时组织督导有关部门、下属各机构评估变动对合规管理的影响,修\n改完善机构内部规范,并监督落实。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 76,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 法律、行政法规、部门规章及规范性文件发生重大变动的,首席合规官应当及时组织督导有关部门、下属各机构评估变动对合规管理的影响,修\n改完善机构内部规范,并监督落实。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第二十条 首席合规官应当组织合规管理部门对金融机构发展战略、重要内部规范、重要新产品和新业务方案、重大决策事项进行合规审查,并出具书面\n合规审查意见。\n国家金融监督管理总局及其派出机构要求首席合规官对金融机构报送的申请材料或者报告进行合规审查的,首席合规官应当组织审查,并在该申请材料或\n者报告上签署合规审查意见。其他相关高级管理人员等,应当对申请材料或者报告的基本事实和业务数据的真实性、准确性及完整性负责。\n首席合规官的合规审查意见未被采纳的,金融机构应当将有关事项提交董事会审定,重大事项应当及时向监管机构报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 240,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 首席合规官应当组织合规管理部门对金融机构发展战略、重要内部规范、重要新产品和新业务方案、重大决策事项进行合规审查,并出具书面\n合规审查意见。\n国家金融监督管理总局及其派出机构要求首席合规官对金融机构报送的申请材料或者报告进行合规审查的,首席合规官应当组织审查,并在该申请材料或\n者报告上签署合规审查意见。其他相关高级管理人员等,应当对申请材料或者报告的基本事实和业务数据的真实性、准确性及完整性负责。\n首席合规官的合规审查意见未被采纳的,金融机构应当将有关事项提交董事会审定,重大事项应当及时向监管机构报告。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第二十一条 首席合规官应当按照国家金融监督管理总局及其派出机构的要求和金融机构内部规范,组织或者要求相关内设部门对机构经营管理和员工履\n职行为的合规性进行监督检查。金融机构内设部门及其员工应当积极配合首席合规官开展工作。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 105,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 首席合规官应当按照国家金融监督管理总局及其派出机构的要求和金融机构内部规范,组织或者要求相关内设部门对机构经营管理和员工履\n职行为的合规性进行监督检查。金融机构内设部门及其员工应当积极配合首席合规官开展工作。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3548,
+    "source_end": 3658,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第二十二条 首席合规官发现金融机构及其员工存在重大违法违规行为或者重大合规风险隐患的,应当及时向董事会、董事长、行长(总经理)报告,提出处\n理意见,并督促整改。首席合规官发现金融机构及其员工存在其他违法违规行为或者合规风险隐患的,应当按照机构内部合规管理程序,组织督促机构及时报\n告、处理和整改。首席合规官有权向董事会、高级管理人员、相关部门及下属各机构提出对相关责任人员采取薪酬扣减、岗位调整、降职等措施的建议,并\n督促责任机构及责任人员及时整改。\n重大违法违规行为或者重大合规风险隐患主要包括:较大数额的罚款或者没收较大数额的违法所得;造成或者可能造成机构重大财产损失、重大声誉损失\n的合规风险事件、法律纠纷案件、涉刑案件等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 285,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 首席合规官发现金融机构及其员工存在重大违法违规行为或者重大合规风险隐患的,应当及时向董事会、董事长、行长(总经理)报告,提出处\n理意见,并督促整改。首席合规官发现金融机构及其员工存在其他违法违规行为或者合规风险隐患的,应当按照机构内部合规管理程序,组织督促机构及时报\n告、处理和整改。首席合规官有权向董事会、高级管理人员、相关部门及下属各机构提出对相关责任人员采取薪酬扣减、岗位调整、降职等措施的建议,并\n督促责任机构及责任人员及时整改。\n重大违法违规行为或者重大合规风险隐患主要包括:较大数额的罚款或者没收较大数额的违法所得;造成或者可能造成机构重大财产损失、重大声誉损失\n的合规风险事件、法律纠纷案件、涉刑案件等。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "薪酬"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3659,
+    "source_end": 3974,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第二十三条 金融机构存在重大违法违规行为或者重大合规风险隐患的,应当及时向国家金融监督管理总局或者其派出机构报告。首席合规官发现机构未\n按要求报告的,应当督促机构及时报告,并可以直接向国家金融监督管理总局或者其派出机构报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 105,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 金融机构存在重大违法违规行为或者重大合规风险隐患的,应当及时向国家金融监督管理总局或者其派出机构报告。首席合规官发现机构未\n按要求报告的,应当督促机构及时报告,并可以直接向国家金融监督管理总局或者其派出机构报告。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3975,
+    "source_end": 4087,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第二十四条 金融机构省级分支机构或者一级分支机构的合规官对本级机构及其员工的合规管理负责,其具体职责由金融机构参照首席合规官职责确定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 64,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 金融机构省级分支机构或者一级分支机构的合规官对本级机构及其员工的合规管理负责,其具体职责由金融机构参照首席合规官职责确定。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第二十五条 首席合规官及合规官应当及时组织处理国家金融监督管理总局及其派出机构要求调查的合规管理事项,跟踪、督促、评估监管意见和监管要\n求的落实情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 69,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 首席合规官及合规官应当及时组织处理国家金融监督管理总局及其派出机构要求调查的合规管理事项,跟踪、督促、评估监管意见和监管要\n求的落实情况。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 85,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第二十六条\n金融机构各部门、下属各机构及其员工发现本机构重大违法违规行为或者重大合规风险隐患时,应当及时主动向本级机构合规管理部门报\n告。设置合规官的分支机构,由合规管理部门及时向本级机构合规官报告。\n首席合规官或者合规官发现各部门、下属各机构对重大违法违规行为或者重大合规风险隐患存在瞒报、漏报情形的,应当在机构内部的合规考核中,对责\n任机构和相关负责人实施“一票否决”,不得评优评先等,并及时推动内部问责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 187,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条\n金融机构各部门、下属各机构及其员工发现本机构重大违法违规行为或者重大合规风险隐患时,应当及时主动向本级机构合规管理部门报\n告。设置合规官的分支机构,由合规管理部门及时向本级机构合规官报告。\n首席合规官或者合规官发现各部门、下属各机构对重大违法违规行为或者重大合规风险隐患存在瞒报、漏报情形的,应当在机构内部的合规考核中,对责\n\n任机构和相关负责人实施“一票否决”,不得评优评先等,并及时推动内部问责。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4232,
+    "source_end": 4438,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第二十七条 金融机构总部、省级分支机构或者一级分支机构、纳入并表管理的各层级金融子公司原则上应当设立独立的合规管理部门。\n金融机构应当根据业务规模、组织架构和合规管理工作的需要,在其他分支机构设置合规管理部门。不具备设立合规管理部门条件的其他分支机构,原则\n上应当设立符合履职需要的合规岗位。确不具备设立合规管理部门或者合规岗位条件的,应当由上级机构合规管理部门或者岗位代为履行该分支机构的合规\n管理职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 189,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 金融机构总部、省级分支机构或者一级分支机构、纳入并表管理的各层级金融子公司原则上应当设立独立的合规管理部门。\n金融机构应当根据业务规模、组织架构和合规管理工作的需要,在其他分支机构设置合规管理部门。不具备设立合规管理部门条件的其他分支机构,原则\n上应当设立符合履职需要的合规岗位。确不具备设立合规管理部门或者合规岗位条件的,应当由上级机构合规管理部门或者岗位代为履行该分支机构的合规\n管理职责。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4439,
+    "source_end": 4642,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第二十八条 金融机构的合规管理部门牵头负责合规管理工作,履行下列职责:\n(一)拟订机构的合规管理基本制度和年度合规管理计划,组织协调机构各部门和下属各机构拟订合规管理相关制度,并推动贯彻落实;\n(二)为机构经营管理活动、新产品和新业务的开发等事项提供法律合规支持。审查机构重要内部规范,及时提出制订或者修订建议;\n(三)牵头组织实施合规审查、合规检查、评估评价、合规风险监测与合规事件处理,推进合规规范得到严格执行;\n(四)组织或者参与实施合规考核,组织或者参与对违反合规规范主体的问责,保持与监管机构的日常合规工作联系;\n(五)组织培育合规文化,开展合规培训,组织刑事犯罪预防教育,向员工提供合规咨询,推动全体员工遵守行为合规准则;\n(六)董事会确定的其他职责。\n合规岗位的具体职责,由金融机构参照前款规定确定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 312,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 金融机构的合规管理部门牵头负责合规管理工作,履行下列职责:\n(一)拟订机构的合规管理基本制度和年度合规管理计划,组织协调机构各部门和下属各机构拟订合规管理相关制度,并推动贯彻落实;\n(二)为机构经营管理活动、新产品和新业务的开发等事项提供法律合规支持。审查机构重要内部规范,及时提出制订或者修订建议;\n(三)牵头组织实施合规审查、合规检查、评估评价、合规风险监测与合规事件处理,推进合规规范得到严格执行;\n(四)组织或者参与实施合规考核,组织或者参与对违反合规规范主体的问责,保持与监管机构的日常合规工作联系;\n(五)组织培育合规文化,开展合规培训,组织刑事犯罪预防教育,向员工提供合规咨询,推动全体员工遵守行为合规准则;\n(六)董事会确定的其他职责。\n合规岗位的具体职责,由金融机构参照前款规定确定。"
+      }
+    ],
+    "topics": [
+      "criminal_law",
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 9.0,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事 (weak)",
+          "犯罪 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4643,
+    "source_end": 5000,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第二十九条 金融机构的境外金融分支机构及境外金融子公司,应当遵循东道国(地区)法律法规和监管要求,并且设立独立的合规管理部门或者符合履职需\n要的合规岗位,负责根据境外业务、市场情况、相关司法辖区法律法规以及执法环境等因素,识别和防范合规风险,培养专业合规人才。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 118,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 金融机构的境外金融分支机构及境外金融子公司,应当遵循东道国(地区)法律法规和监管要求,并且设立独立的合规管理部门或者符合履职需\n要的合规岗位,负责根据境外业务、市场情况、相关司法辖区法律法规以及执法环境等因素,识别和防范合规风险,培养专业合规人才。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5001,
+    "source_end": 5131,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第三十条 金融机构总部合规管理部门向首席合规官负责,按照机构规定和首席合规官的安排履行合规管理职责;省级分支机构或者一级分支机构合规管理\n部门向本级机构合规官负责,按照本级机构规定和合规官安排履行合规管理职责;下属各机构合规管理部门接受上级合规管理部门的指导和监督。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 126,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 金融机构总部合规管理部门向首席合规官负责,按照机构规定和首席合规官的安排履行合规管理职责;省级分支机构或者一级分支机构合规管理\n部门向本级机构合规官负责,按照本级机构规定和合规官安排履行合规管理职责;下属各机构合规管理部门接受上级合规管理部门的指导和监督。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5132,
+    "source_end": 5265,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第三十一条 金融机构的合规管理部门和合规岗位应当独立于前台业务、财务、资金运用、内部审计部门等可能与合规管理存在职责冲突的部门或者岗\n位。合规管理部门和合规岗位不得承担与合规管理相冲突的其他职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 91,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 金融机构的合规管理部门和合规岗位应当独立于前台业务、财务、资金运用、内部审计部门等可能与合规管理存在职责冲突的部门或者岗\n位。合规管理部门和合规岗位不得承担与合规管理相冲突的其他职责。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5266,
+    "source_end": 5364,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第三十二条 金融机构应当为合规管理部门以外的其他部门配备专职或者兼职从事合规工作的人员。鼓励并支持金融机构建立上述人员向同级合规管理\n部门负责的机制。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 71,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 金融机构应当为合规管理部门以外的其他部门配备专职或者兼职从事合规工作的人员。鼓励并支持金融机构建立上述人员向同级合规管理\n部门负责的机制。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5365,
+    "source_end": 5440,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第三十三条\n金融机构应当将各部门、下属各机构的合规管理纳入统一体系,强化对各部门合规岗位、下属各机构合规管理部门的指导与监督,明确各部\n门、下属各机构向机构总部报告的合规管理事项,对下属各机构经营管理和员工履职行为的合规性进行检查,督导各部门、下属各机构合规管理工作符合合规\n规范。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 129,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条\n金融机构应当将各部门、下属各机构的合规管理纳入统一体系,强化对各部门合规岗位、下属各机构合规管理部门的指导与监督,明确各部\n门、下属各机构向机构总部报告的合规管理事项,对下属各机构经营管理和员工履职行为的合规性进行检查,督导各部门、下属各机构合规管理工作符合合规\n规范。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5441,
+    "source_end": 5582,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第三十四条 鼓励金融机构对合规管理部门实行垂直管理。对合规管理部门实行垂直管理的金融机构,其下属各机构合规管理部门向上一级合规管理部门\n负责,接受上一级合规管理部门管理。\n鼓励首席合规官统筹合规管理人员选聘、业务指导、工作汇报、考核管理、合规官提名等事项。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 116,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 鼓励金融机构对合规管理部门实行垂直管理。对合规管理部门实行垂直管理的金融机构,其下属各机构合规管理部门向上一级合规管理部门\n负责,接受上一级合规管理部门管理。\n鼓励首席合规官统筹合规管理人员选聘、业务指导、工作汇报、考核管理、合规官提名等事项。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5583,
+    "source_end": 5711,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第三十五条 金融机构的各业务及职能部门、下属各机构承担合规的主体责任,负责本条线本领域合规规范的严格执行与有效落实,积极配合合规管理部门\n的工作。\n金融机构的合规管理部门承担合规的管理责任,组织、协调、推动各部门和下属各机构开展合规管理工作。\n金融机构内部审计部门承担合规的监督责任,对机构经营管理的合规性进行审计,并与合规管理部门建立有效的信息交流机制。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 163,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 金融机构的各业务及职能部门、下属各机构承担合规的主体责任,负责本条线本领域合规规范的严格执行与有效落实,积极配合合规管理部门\n的工作。\n金融机构的合规管理部门承担合规的管理责任,组织、协调、推动各部门和下属各机构开展合规管理工作。\n金融机构内部审计部门承担合规的监督责任,对机构经营管理的合规性进行审计,并与合规管理部门建立有效的信息交流机制。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5712,
+    "source_end": 5890,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第二章",
+    "chapter_title": "合规管理架构和职责",
+    "text_zh": "第三十六条 金融机构全体员工应当遵守与其履职行为有关的合规规范,积极识别、控制其履职行为的合规风险,主动配合金融机构和监管机构开展合规管\n理,并对其履职行为的合规性承担责任。\n第三章 合规管理保障",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 89,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 金融机构全体员工应当遵守与其履职行为有关的合规规范,积极识别、控制其履职行为的合规风险,主动配合金融机构和监管机构开展合规管\n理,并对其履职行为的合规性承担责任。\n第三章 合规管理保障"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5891,
+    "source_end": 5989,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第三章",
+    "chapter_title": "合规管理保障",
+    "text_zh": "第三十七条 金融机构应当为首席合规官及合规官、合规管理部门履职提供充分保障,赋予相关人员和部门提出否定意见的权利。\n金融机构的股东、董事和高级管理人员不得违反规定的职责和程序,干涉首席合规官或者合规官依法合规开展工作。\n金融机构的董事、高级管理人员、各部门和下属各机构及其员工应当支持和配合首席合规官及合规官、合规管理部门及合规管理人员的工作,不得以任\n何理由限制、阻挠首席合规官及合规官、合规管理部门及合规管理人员履行职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 196,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 金融机构应当为首席合规官及合规官、合规管理部门履职提供充分保障,赋予相关人员和部门提出否定意见的权利。\n金融机构的股东、董事和高级管理人员不得违反规定的职责和程序,干涉首席合规官或者合规官依法合规开展工作。\n金融机构的董事、高级管理人员、各部门和下属各机构及其员工应当支持和配合首席合规官及合规官、合规管理部门及合规管理人员的工作,不得以任\n何理由限制、阻挠首席合规官及合规官、合规管理部门及合规管理人员履行职责。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "股东",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5990,
+    "source_end": 6203,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第三章",
+    "chapter_title": "合规管理保障",
+    "text_zh": "第三十八条 金融机构应当为合规管理部门配备充足的、具备与履行合规管理职责相适应专业知识和技能的合规管理人员。\n合规管理部门应当主要由具有法律或者经济金融专业学历背景的人员组成。初次从事对机构合同进行法律合规审核的人员,以及为机构改制重组、并购\n上市、产权转让、破产重整、和解及清算等重大事项提出法律合规意见的人员原则上应当具有法律专业背景或者通过法律职业资格考试。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 170,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条 金融机构应当为合规管理部门配备充足的、具备与履行合规管理职责相适应专业知识和技能的合规管理人员。\n合规管理部门应当主要由具有法律或者经济金融专业学历背景的人员组成。初次从事对机构合同进行法律合规审核的人员,以及为机构改制重组、并购\n上市、产权转让、破产重整、和解及清算等重大事项提出法律合规意见的人员原则上应当具有法律专业背景或者通过法律职业资格考试。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9103,
+    "source_end": 9335,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第三章",
+    "chapter_title": "合规管理保障",
+    "text_zh": "第三十九条 金融机构各部门、下属各机构应当配备与业务规模、风险管控难度相匹配的专职或者兼职合规管理人员。\n境外金融分支机构及境外金融子公司,应当配备熟悉所在司法辖区法律法规和相关银行保险业务的合规管理人员。合规风险较高的重点国家和地区,应当\n增加专职合规管理人员,有效防范应对合规风险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 132,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条 金融机构各部门、下属各机构应当配备与业务规模、风险管控难度相匹配的专职或者兼职合规管理人员。\n境外金融分支机构及境外金融子公司,应当配备熟悉所在司法辖区法律法规和相关银行保险业务的合规管理人员。合规风险较高的重点国家和地区,应当\n增加专职合规管理人员,有效防范应对合规风险。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6387,
+    "source_end": 6530,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第三章",
+    "chapter_title": "合规管理保障",
+    "text_zh": "第四十条 金融机构应当保证合规官报告的独立性,实行双线汇报,以向首席合规官汇报为主,并向本级机构行长(总经理)汇报。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 51,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条 金融机构应当保证合规官报告的独立性,实行双线汇报,以向首席合规官汇报为主,并向本级机构行长(总经理)汇报。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6531,
+    "source_end": 6589,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_041",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "第三章",
+    "chapter_title": "合规管理保障",
+    "text_zh": "第四十一条 金融机构应当保障首席合规官及合规官、合规管理部门及人员履行职责所需的知情权和调查权。\n首席合规官及合规官有权根据履行职责需要,参加或者列席有关会议,查阅、复制有关文件、资料。金融机构召开董事会会议、经营决策会议等重要会议\n的,应当提前通知首席合规官。\n首席合规官、合规官根据履行职责需要,有权向有关部门或者下属各机构进行质询和取证,要求金融机构有关人员对相关事项作出说明,向外部审计、法律\n服务等中介机构了解情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 192,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十一条 金融机构应当保障首席合规官及合规官、合规管理部门及人员履行职责所需的知情权和调查权。\n首席合规官及合规官有权根据履行职责需要,参加或者列席有关会议,查阅、复制有关文件、资料。金融机构召开董事会会议、经营决策会议等重要会议\n的,应当提前通知首席合规官。\n首席合规官、合规官根据履行职责需要,有权向有关部门或者下属各机构进行质询和取证,要求金融机构有关人员对相关事项作出说明,向外部审计、法律\n服务等中介机构了解情况。"
+      }
+    ],
+    "topics": [
+      "administrative_procedures",
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 9.0,
+        "matched_keywords": [
+          "会议"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6590,
+    "source_end": 6803,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_042",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "",
+    "chunk_index": 41,
+    "chapter": "第三章",
+    "chapter_title": "合规管理保障",
+    "text_zh": "第四十二条 金融机构应当保障首席合规官、合规官的独立性,决定解聘首席合规官、合规官的,应当有正当理由。\n正当理由包括首席合规官、合规官本人申请,或者被国家金融监督管理总局及其派出机构责令更换,或者有证据证明其无法正常履职、未能勤勉尽责等情\n形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十二条 金融机构应当保障首席合规官、合规官的独立性,决定解聘首席合规官、合规官的,应当有正当理由。\n正当理由包括首席合规官、合规官本人申请,或者被国家金融监督管理总局及其派出机构责令更换,或者有证据证明其无法正常履职、未能勤勉尽责等情\n形。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6805,
+    "source_end": 6927,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_043",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "",
+    "chunk_index": 42,
+    "chapter": "第三章",
+    "chapter_title": "合规管理保障",
+    "text_zh": "第四十三条 金融机构应当建立首席合规官、合规官、合规管理人员薪酬管理机制。首席合规官工作称职的,其年度薪酬收入总额原则上不低于同等条件\n(同职级、同考核结果)高级管理人员的平均水平。合规官及合规管理人员工作称职的,其年度薪酬收入总额原则上不低于所在机构同等条件(同岗位类型、同\n职级、同考核结果)人员的平均水平。国家对国有金融企业薪酬标准另有规定的,从其规定。\n金融机构应当制定首席合规官、合规官、合规管理部门及专职合规管理人员的考核管理制度,除机构主要负责人外,不得采取非分管合规管理部门的高级\n管理人员评价、其他部门评价、以业务部门的经营业绩为依据等不利于合规独立性的考核方式;不得将需要各部门合力完成的合规工作单独作为合规管理部\n门的考核指标。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 295,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十三条 金融机构应当建立首席合规官、合规官、合规管理人员薪酬管理机制。首席合规官工作称职的,其年度薪酬收入总额原则上不低于同等条件\n(同职级、同考核结果)高级管理人员的平均水平。合规官及合规管理人员工作称职的,其年度薪酬收入总额原则上不低于所在机构同等条件(同岗位类型、同\n职级、同考核结果)人员的平均水平。国家对国有金融企业薪酬标准另有规定的,从其规定。\n金融机构应当制定首席合规官、合规官、合规管理部门及专职合规管理人员的考核管理制度,除机构主要负责人外,不得采取非分管合规管理部门的高级\n管理人员评价、其他部门评价、以业务部门的经营业绩为依据等不利于合规独立性的考核方式;不得将需要各部门合力完成的合规工作单独作为合规管理部\n门的考核指标。"
+      }
+    ],
+    "topics": [
+      "compensation_benefits",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 9.0,
+        "matched_keywords": [
+          "薪酬"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6928,
+    "source_end": 7253,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_044",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "44",
+    "article_number_normalized": "044",
+    "article_title": "",
+    "chunk_index": 43,
+    "chapter": "第三章",
+    "chapter_title": "合规管理保障",
+    "text_zh": "第四十四条 金融机构应当建立合规工作考核制度,将内设部门、下属各机构合规管理质效纳入考核,并将合规管理情况纳入对下属各机构负责人的年度综\n合考核。\n金融机构应当强化考核结果运用,将合规职责履行情况作为员工考核、人员任用、评优评先等工作的重要依据。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 112,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十四条 金融机构应当建立合规工作考核制度,将内设部门、下属各机构合规管理质效纳入考核,并将合规管理情况纳入对下属各机构负责人的年度综\n合考核。\n金融机构应当强化考核结果运用,将合规职责履行情况作为员工考核、人员任用、评优评先等工作的重要依据。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "机构负责人"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7254,
+    "source_end": 7377,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_045",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "45",
+    "article_number_normalized": "045",
+    "article_title": "",
+    "chunk_index": 44,
+    "chapter": "第三章",
+    "chapter_title": "合规管理保障",
+    "text_zh": "第四十五条\n金融机构应当加强合规管理信息化建设,可以运用信息化手段将合规要求和业务管控措施嵌入流程,针对关键节点加强合规审查,强化过程管\n控。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 65,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十五条\n金融机构应当加强合规管理信息化建设,可以运用信息化手段将合规要求和业务管控措施嵌入流程,针对关键节点加强合规审查,强化过程管\n控。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7378,
+    "source_end": 7449,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_046",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "46",
+    "article_number_normalized": "046",
+    "article_title": "",
+    "chunk_index": 45,
+    "chapter": "第三章",
+    "chapter_title": "合规管理保障",
+    "text_zh": "第四十六条 金融机构应当建立合规培训机制,制定年度合规培训计划,加大对机构员工的培训力度,将合规管理作为董事、高级管理人员初任、重点合规风\n险岗位人员业务培训、新员工入职必修内容,持续提升员工合规意识。\n第四章 监督管理与法律责任",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 103,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十六条 金融机构应当建立合规培训机制,制定年度合规培训计划,加大对机构员工的培训力度,将合规管理作为董事、高级管理人员初任、重点合规风\n险岗位人员业务培训、新员工入职必修内容,持续提升员工合规意识。\n第四章 监督管理与法律责任"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7450,
+    "source_end": 7565,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_047",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "47",
+    "article_number_normalized": "047",
+    "article_title": "",
+    "chunk_index": 46,
+    "chapter": "第四章",
+    "chapter_title": "监督管理与法律责任",
+    "text_zh": "第四十七条 国家金融监督管理总局及其派出机构应当对金融机构合规管理工作进行监督检查,并将金融机构合规管理工作开展情况作为综合评级的重要\n依据。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十七条 国家金融监督管理总局及其派出机构应当对金融机构合规管理工作进行监督检查,并将金融机构合规管理工作开展情况作为综合评级的重要\n依据。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_048",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "48",
+    "article_number_normalized": "048",
+    "article_title": "",
+    "chunk_index": 47,
+    "chapter": "第四章",
+    "chapter_title": "监督管理与法律责任",
+    "text_zh": "第四十八条 国家金融监督管理总局及其派出机构根据履行职责的需要,可以与金融机构董事、高级管理人员进行监管谈话,要求金融机构董事、高级管理\n人员就金融机构合规管理的重大事项作出说明。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十八条 国家金融监督管理总局及其派出机构根据履行职责的需要,可以与金融机构董事、高级管理人员进行监管谈话,要求金融机构董事、高级管理\n人员就金融机构合规管理的重大事项作出说明。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7638,
+    "source_end": 7728,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_049",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "49",
+    "article_number_normalized": "049",
+    "article_title": "",
+    "chunk_index": 48,
+    "chapter": "第四章",
+    "chapter_title": "监督管理与法律责任",
+    "text_zh": "第四十九条 金融机构未及时报告重大违法违规行为或者重大合规风险隐患,未按照要求提供合规管理资料的,由国家金融监督管理总局或者其派出机构依\n照《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》等相关规定处理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 110,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十九条 金融机构未及时报告重大违法违规行为或者重大合规风险隐患,未按照要求提供合规管理资料的,由国家金融监督管理总局或者其派出机构依\n照《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》等相关规定处理。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7729,
+    "source_end": 7850,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_050",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "50",
+    "article_number_normalized": "050",
+    "article_title": "",
+    "chunk_index": 49,
+    "chapter": "第四章",
+    "chapter_title": "监督管理与法律责任",
+    "text_zh": "第五十条 金融机构存在违法违规行为的,国家金融监督管理总局或者其派出机构责令限期整改,并可以明确要求金融机构设立专职的首席合规官或合规官,\n加强合规管理人员配备,上收金融机构下属责任机构的合规管理职责。金融机构逾期未完成整改的,国家金融监督管理总局或者其派出机构根据情节严重程度,\n采取行政处罚或者其他监管措施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 145,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十条 金融机构存在违法违规行为的,国家金融监督管理总局或者其派出机构责令限期整改,并可以明确要求金融机构设立专职的首席合规官或合规官,\n加强合规管理人员配备,上收金融机构下属责任机构的合规管理职责。金融机构逾期未完成整改的,国家金融监督管理总局或者其派出机构根据情节严重程度,\n采取行政处罚或者其他监管措施。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7851,
+    "source_end": 8007,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_051",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "51",
+    "article_number_normalized": "051",
+    "article_title": "",
+    "chunk_index": 50,
+    "chapter": "第四章",
+    "chapter_title": "监督管理与法律责任",
+    "text_zh": "第五十一条 董事、高级管理人员未能勤勉尽责,致使金融机构发生重大违法违规行为或者重大合规风险的,由国家金融监督管理总局或者其派出机构依照\n相关法律规定采取行政处罚或者其他监管措施;涉嫌犯罪的,依法移送监察机关或者公安机关。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 103,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十一条 董事、高级管理人员未能勤勉尽责,致使金融机构发生重大违法违规行为或者重大合规风险的,由国家金融监督管理总局或者其派出机构依照\n相关法律规定采取行政处罚或者其他监管措施;涉嫌犯罪的,依法移送监察机关或者公安机关。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "犯罪",
+          "犯罪 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8008,
+    "source_end": 8119,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_052",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "52",
+    "article_number_normalized": "052",
+    "article_title": "",
+    "chunk_index": 51,
+    "chapter": "第四章",
+    "chapter_title": "监督管理与法律责任",
+    "text_zh": "第五十二条\n金融机构及其工作人员违反本办法规定,法律、行政法规对法律责任有规定的,适用法律、行政法规的规定;法律、行政法规没有规定的,国家\n金融监督管理总局及其派出机构根据情节严重程度,对金融机构及其直接负责的董事、高级管理人员和其他直接责任人员,处以警告、通报批评、十万元以下\n罚款;危害金融安全且有危害后果的,处以警告、通报批评、二十万元以下罚款。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 156,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十二条\n金融机构及其工作人员违反本办法规定,法律、行政法规对法律责任有规定的,适用法律、行政法规的规定;法律、行政法规没有规定的,国家\n金融监督管理总局及其派出机构根据情节严重程度,对金融机构及其直接负责的董事、高级管理人员和其他直接责任人员,处以警告、通报批评、十万元以下\n罚款;危害金融安全且有危害后果的,处以警告、通报批评、二十万元以下罚款。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8120,
+    "source_end": 8296,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_053",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "53",
+    "article_number_normalized": "053",
+    "article_title": "",
+    "chunk_index": 52,
+    "chapter": "第四章",
+    "chapter_title": "监督管理与法律责任",
+    "text_zh": "第五十三条 首席合规官或者合规官违反本办法规定,情节严重,致使金融机构发生重大违法违规行为或者重大合规风险的,国家金融监督管理总局及其派出\n机构除依法采取行政处罚或者其他监管措施外,还可以依法责令金融机构调整首席合规官或者合规官;涉嫌犯罪的,依法移送监察机关或者公安机关。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 127,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十三条 首席合规官或者合规官违反本办法规定,情节严重,致使金融机构发生重大违法违规行为或者重大合规风险的,国家金融监督管理总局及其派出\n机构除依法采取行政处罚或者其他监管措施外,还可以依法责令金融机构调整首席合规官或者合规官;涉嫌犯罪的,依法移送监察机关或者公安机关。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "犯罪",
+          "犯罪 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8297,
+    "source_end": 8433,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_054",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "54",
+    "article_number_normalized": "054",
+    "article_title": "",
+    "chunk_index": 53,
+    "chapter": "第四章",
+    "chapter_title": "监督管理与法律责任",
+    "text_zh": "第五十四条 金融机构通过有效的合规管理,主动发现违法违规行为或者合规风险隐患,积极妥善处理,落实责任追究,完善内部控制制度和业务流程,符合法定\n情形的,国家金融监督管理总局及其派出机构依法可以从轻、减轻处理;情节轻微并及时纠正违法违规行为,没有造成危害后果的,或者仅违反金融机构内部规定\n的,不予追究责任。\n对于金融机构的违法违规行为,首席合规官或者合规官、合规管理部门、合规管理人员已经按照本办法的规定尽职履责的,不予追究责任。\n第五章 附则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 199,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十四条 金融机构通过有效的合规管理,主动发现违法违规行为或者合规风险隐患,积极妥善处理,落实责任追究,完善内部控制制度和业务流程,符合法定\n情形的,国家金融监督管理总局及其派出机构依法可以从轻、减轻处理;情节轻微并及时纠正违法违规行为,没有造成危害后果的,或者仅违反金融机构内部规定\n的,不予追究责任。\n对于金融机构的违法违规行为,首席合规官或者合规官、合规管理部门、合规管理人员已经按照本办法的规定尽职履责的,不予追究责任。\n第五章 附则"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8434,
+    "source_end": 8656,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_055",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "55",
+    "article_number_normalized": "055",
+    "article_title": "",
+    "chunk_index": 54,
+    "chapter": "第五章",
+    "chapter_title": "附则",
+    "text_zh": "第五十五条 金融控股公司、农村合作银行、农村信用合作社、外国银行分行、外国再保险公司分公司以及其他由国家金融监督管理总局及其派出机构监\n管的金融机构根据行业特点和监管要求参照执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十五条 金融控股公司、农村合作银行、农村信用合作社、外国银行分行、外国再保险公司分公司以及其他由国家金融监督管理总局及其派出机构监\n管的金融机构根据行业特点和监管要求参照执行。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8657,
+    "source_end": 8747,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_056",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "56",
+    "article_number_normalized": "056",
+    "article_title": "",
+    "chunk_index": 55,
+    "chapter": "第五章",
+    "chapter_title": "附则",
+    "text_zh": "第五十六条 本办法施行前,金融机构和其省级分支机构或者一级分支机构已设置的首席合规官、合规总监、合规负责人、作为高级管理人员的总法律顾\n问,可以履行本办法规定的首席合规官、合规官各项职责。上述人员工作调动前,不受本办法规定的任职条件限制,不需要重新取得国家金融监督管理总局或者\n其派出机构核准的任职资格。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 139,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十六条 本办法施行前,金融机构和其省级分支机构或者一级分支机构已设置的首席合规官、合规总监、合规负责人、作为高级管理人员的总法律顾\n问,可以履行本办法规定的首席合规官、合规官各项职责。上述人员工作调动前,不受本办法规定的任职条件限制,不需要重新取得国家金融监督管理总局或者\n其派出机构核准的任职资格。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9362,
+    "source_end": 9564,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_057",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "57",
+    "article_number_normalized": "057",
+    "article_title": "",
+    "chunk_index": 56,
+    "chapter": "第五章",
+    "chapter_title": "附则",
+    "text_zh": "第五十七条 本办法所称“以上”“以下”均包含本数。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 19,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十七条 本办法所称“以上”“以下”均包含本数。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9233,
+    "source_end": 9308,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2024_ART_058",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2024",
+    "law_name": "金融机构合规管理办法",
+    "law_name_original": "金融机构合规管理办法",
+    "law_type": "规章/法规",
+    "article_number": "58",
+    "article_number_normalized": "058",
+    "article_title": "",
+    "chunk_index": 57,
+    "chapter": "第五章",
+    "chapter_title": "附则",
+    "text_zh": "第五十八条 本办法由国家金融监督管理总局负责解释,自2025年3月1日起施行,过渡期为本办法施行之日起一年。不符合本办法规定的,应当在过渡期内完\n成整改。《商业银行合规风险管理指引》(银监发〔2006〕76号)、《保险公司合规管理办法》(保监发〔2016〕116号)、《中国保监会关于进一步加强保险\n公司合规管理工作有关问题的通知》(保监发〔2016〕38号)同时废止。其他部门规章、规范性文件与本办法不一致的,以本办法为准。\n附:国家金融监督管理总局发布《金融机构合规管理办法》\n国家金融监督管理总局有关司局负责人就《金融机构合规管理办法》答记者问\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192057&itemId=915&generaltype=0\nhttps://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192056&itemId=915&generaltype=0",
+    "text_original_language": "zh-en",
+    "word_count_zh": 220,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十八条 本办法由国家金融监督管理总局负责解释,自2025年3月1日起施行,过渡期为本办法施行之日起一年。不符合本办法规定的,应当在过渡期内完\n成整改。《商业银行合规风险管理指引》(银监发〔2006〕76号)、《保险公司合规管理办法》(保监发〔2016〕116号)、《中国保监会关于进一步加强保险\n公司合规管理工作有关问题的通知》(保监发〔2016〕38号)同时废止。其他部门规章、规范性文件与本办法不一致的,以本办法为准。\n附:国家金融监督管理总局发布《金融机构合规管理办法》\nhttps://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192057&itemId=915&generaltype=0\n\n国家金融监督管理总局有关司局负责人就《金融机构合规管理办法》答记者问\nhttps://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192056&itemId=915&generaltype=0\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1192220&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_056.txt",
+    "sample_id": "CN_056",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_056",
+    "raw_sha256": "22dbd70718fcdaccb3b342105554fd693c11224172870b47454f8823f8660a98",
+    "extracted_text_sha256": "498fc12937167d88fdd4888421e9e8497e00cb261d7950dd7d8ebadc7cf61409",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8927,
+    "source_end": 9399,
+    "language_original": [
+      "zh",
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:04Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

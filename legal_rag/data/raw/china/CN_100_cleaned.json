@@ -1,0 +1,3811 @@
+[
+  {
+    "doc_id": "CN_DOC_1_2012_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第一条\n为了加强保险公司治理监管,规范保险公司控股股东行为,保护保险公司、投保人、被保险人和受益人的合法权益,根据《中华人民共和国保险\n法》、《中华人民共和国公司法》等法律、行政法规制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条\n为了加强保险公司治理监管,规范保险公司控股股东行为,保护保险公司、投保人、被保险人和受益人的合法权益,根据《中华人民共和国保险\n法》、《中华人民共和国公司法》等法律、行政法规制定本办法。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 18.0,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第二条 本办法所称保险公司,是指经中国保险监督管理委员会(以下简称中国保监会)批准设立,并依法登记注册的商业保险公司。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本办法所称保险公司,是指经中国保险监督管理委员会(以下简称中国保监会)批准设立,并依法登记注册的商业保险公司。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第三条 本办法所称保险公司控股股东,是指其出资额占保险公司资本总额百分之五十以上或者其持有的股份占保险公司股本总额百分之五十以上的股东;\n出资额或者持有股份的比例虽然不足百分之五十,但依其出资额或者持有的股份所享有的表决权已足以对股东会、股东大会的决议产生重大影响的股东。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 129,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 本办法所称保险公司控股股东,是指其出资额占保险公司资本总额百分之五十以上或者其持有的股份占保险公司股本总额百分之五十以上的股东;\n出资额或者持有股份的比例虽然不足百分之五十,但依其出资额或者持有的股份所享有的表决权已足以对股东会、股东大会的决议产生重大影响的股东。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 18.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 417,
+    "source_end": 553,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第四条 中国保监会根据法律、行政法规以及本办法的规定,对保险公司控股股东实施监督管理。\n第二章 行为及义务\n第一节 控制行为",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 54,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 中国保监会根据法律、行政法规以及本办法的规定,对保险公司控股股东实施监督管理。\n第二章 行为及义务\n第一节 控制行为"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第一节",
+    "chapter_title": "控制行为",
+    "text_zh": "第五条 保险公司控股股东应当善意行使对保险公司的控制权,依法对保险公司实施有效监督,防范保险公司经营风险,不得利用控制权损害保险公司、投保\n人、被保险人和受益人的合法权益。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 78,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 保险公司控股股东应当善意行使对保险公司的控制权,依法对保险公司实施有效监督,防范保险公司经营风险,不得利用控制权损害保险公司、投保\n人、被保险人和受益人的合法权益。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 91,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第一节",
+    "chapter_title": "控制行为",
+    "text_zh": "第六条 保险公司控股股东应当审慎行使对保险公司董事、监事的提名权,提名人选应当符合中国保监会规定的条件。\n保险公司控股股东应当依法加强对其提名的保险公司董事、监事的履职监督,对不能有效履职的人员应当按照法律和保险公司章程的规定及时进行调\n整。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 112,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 保险公司控股股东应当审慎行使对保险公司董事、监事的提名权,提名人选应当符合中国保监会规定的条件。\n保险公司控股股东应当依法加强对其提名的保险公司董事、监事的履职监督,对不能有效履职的人员应当按照法律和保险公司章程的规定及时进行调\n整。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 21.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司章程",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 704,
+    "source_end": 825,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第一节",
+    "chapter_title": "控制行为",
+    "text_zh": "第七条 保险公司控股股东应当对同时在控股股东和保险公司任职的人员进行有效管理,防范利益冲突。\n保险公司控股股东的工作人员不得兼任保险公司的执行董事和高级管理人员。\n保险公司控股股东的董事长不受本条第二款规定的限制。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 100,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 保险公司控股股东应当对同时在控股股东和保险公司任职的人员进行有效管理,防范利益冲突。\n保险公司控股股东的工作人员不得兼任保险公司的执行董事和高级管理人员。\n保险公司控股股东的董事长不受本条第二款规定的限制。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 19.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第一节",
+    "chapter_title": "控制行为",
+    "text_zh": "第八条 保险公司控股股东应当支持保险公司建立独立、完善、健全的公司治理结构,维护保险公司的独立运作,不得对保险公司董事会、监事会和管理层\n行使职权进行不正当限制或者施加其他不正当影响。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 84,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 保险公司控股股东应当支持保险公司建立独立、完善、健全的公司治理结构,维护保险公司的独立运作,不得对保险公司董事会、监事会和管理层\n行使职权进行不正当限制或者施加其他不正当影响。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 24.0,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "董事会",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第一节",
+    "chapter_title": "控制行为",
+    "text_zh": "第九条 保险公司控股股东不得指使保险公司董事、监事、高级管理人员以及其他在保险公司任职的人员作出损害保险公司、保险公司其他股东、投保\n人、被保险人和受益人合法权益的决策或者行为。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 81,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 保险公司控股股东不得指使保险公司董事、监事、高级管理人员以及其他在保险公司任职的人员作出损害保险公司、保险公司其他股东、投保\n人、被保险人和受益人合法权益的决策或者行为。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 16.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第一节",
+    "chapter_title": "控制行为",
+    "text_zh": "第十条 保险公司控股股东提名的保险公司董事,应当审慎提名保险公司高级管理人员,提名人选应当符合中国保监会规定的条件。\n保险公司控股股东提名的保险公司董事,应当以维护保险公司整体利益最大化为原则进行独立、公正决策,对所作决策依法承担责任,不得因直接或者间接\n为控股股东谋取利益导致保险公司、投保人、被保险人和受益人的合法权益受到损害。\n保险公司董事会决策违反法律、行政法规和中国保监会规定的,中国保监会将依法追究董事的法律责任,经证明在表决时曾表明异议并记载于会议记录的\n董事除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 221,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 保险公司控股股东提名的保险公司董事,应当审慎提名保险公司高级管理人员,提名人选应当符合中国保监会规定的条件。\n保险公司控股股东提名的保险公司董事,应当以维护保险公司整体利益最大化为原则进行独立、公正决策,对所作决策依法承担责任,不得因直接或者间接\n为控股股东谋取利益导致保险公司、投保人、被保险人和受益人的合法权益受到损害。\n保险公司董事会决策违反法律、行政法规和中国保监会规定的,中国保监会将依法追究董事的法律责任,经证明在表决时曾表明异议并记载于会议记录的\n董事除外。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 27.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "会议"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 26,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第一节",
+    "chapter_title": "控制行为",
+    "text_zh": "第十一条 保险公司控股股东应当维护保险公司财务和资产独立,不得对保险公司的财务核算、资金调动、资产管理和费用管理等进行非法干预,不得通过\n借款、担保等方式占用保险公司资金。\n第二节 交易行为",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 85,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 保险公司控股股东应当维护保险公司财务和资产独立,不得对保险公司的财务核算、资金调动、资产管理和费用管理等进行非法干预,不得通过\n借款、担保等方式占用保险公司资金。\n第二节 交易行为"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1358,
+    "source_end": 1453,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第二节",
+    "chapter_title": "交易行为",
+    "text_zh": "第十二条 保险公司控股股东应当确保与保险公司进行交易的透明性和公允性,不得无偿或者以明显不公平的条件要求保险公司为其提供资金或者其他重\n大利益。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 保险公司控股股东应当确保与保险公司进行交易的透明性和公允性,不得无偿或者以明显不公平的条件要求保险公司为其提供资金或者其他重\n大利益。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 84,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第二节",
+    "chapter_title": "交易行为",
+    "text_zh": "第十三条 保险公司控股股东与保险公司之间的关联交易应当严格遵守《保险公司关联交易管理暂行办法》等中国保监会的规定。\n保险公司控股股东不得利用关联交易、利润分配、资产重组、对外投资等任何方式损害保险公司的合法权益。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 97,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 保险公司控股股东与保险公司之间的关联交易应当严格遵守《保险公司关联交易管理暂行办法》等中国保监会的规定。\n保险公司控股股东不得利用关联交易、利润分配、资产重组、对外投资等任何方式损害保险公司的合法权益。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 16.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1527,
+    "source_end": 1633,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第二节",
+    "chapter_title": "交易行为",
+    "text_zh": "第十四条 保险公司控股股东不得利用其对保险公司的控制地位,谋取属于保险公司的商业机会。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 40,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 保险公司控股股东不得利用其对保险公司的控制地位,谋取属于保险公司的商业机会。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1634,
+    "source_end": 1677,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第二节",
+    "chapter_title": "交易行为",
+    "text_zh": "第十五条 保险公司控股股东不得向保险公司出售其非公开发行的债券。保险公司控股股东公开发行债券的,应当采取必要措施,确保保险公司购买的债券\n不得超过该次发行债券总额的百分之十。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 81,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 保险公司控股股东不得向保险公司出售其非公开发行的债券。保险公司控股股东公开发行债券的,应当采取必要措施,确保保险公司购买的债券\n不得超过该次发行债券总额的百分之十。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1678,
+    "source_end": 1765,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第二节",
+    "chapter_title": "交易行为",
+    "text_zh": "第十六条 保险公司控股股东不得要求保险公司代其偿还债务,不得要求保险公司为其支付或者垫支工资、福利、保险、广告等费用。\n第三节 资本协助",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 保险公司控股股东不得要求保险公司代其偿还债务,不得要求保险公司为其支付或者垫支工资、福利、保险、广告等费用。\n第三节 资本协助"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "支付",
+          "保险",
+          "支付 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 9.0,
+        "matched_keywords": [
+          "工资",
+          "福利"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1766,
+    "source_end": 1834,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第三节",
+    "chapter_title": "资本协助",
+    "text_zh": "第十七条 保险公司控股股东应当恪守对保险公司作出的资本协助承诺,不得擅自变更或者解除。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 40,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 保险公司控股股东应当恪守对保险公司作出的资本协助承诺,不得擅自变更或者解除。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第三节",
+    "chapter_title": "资本协助",
+    "text_zh": "第十八条 保险公司控股股东应当保持财务状况良好稳定,具有较强的资本实力和持续的出资能力。\n对偿付能力不足的保险公司,保监会依法责令其增加资本金时,保险公司控股股东应当积极协调保险公司其他股东或者采取其他有效措施,促使保险公司资\n本金达到保险监管的要求。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 117,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 保险公司控股股东应当保持财务状况良好稳定,具有较强的资本实力和持续的出资能力。\n对偿付能力不足的保险公司,保监会依法责令其增加资本金时,保险公司控股股东应当积极协调保险公司其他股东或者采取其他有效措施,促使保险公司资\n本金达到保险监管的要求。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 18.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1879,
+    "source_end": 2005,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第三节",
+    "chapter_title": "资本协助",
+    "text_zh": "第十九条 保险公司控股股东应当根据保险公司的发展战略、业务发展计划以及风险状况,指导保险公司编制资本中期规划和长期规划,促进保险公司资本\n需求与资本补充能力相匹配。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 76,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 保险公司控股股东应当根据保险公司的发展战略、业务发展计划以及风险状况,指导保险公司编制资本中期规划和长期规划,促进保险公司资本\n\n需求与资本补充能力相匹配。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第三节",
+    "chapter_title": "资本协助",
+    "text_zh": "第二十条 保险公司控股股东的财务状况、资本补充能力和信用状况发生重大不利变化的,应当依法及时向中国保监会报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 51,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 保险公司控股股东的财务状况、资本补充能力和信用状况发生重大不利变化的,应当依法及时向中国保监会报告。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第三节",
+    "chapter_title": "资本协助",
+    "text_zh": "第二十一条 保险公司控股股东不得接受其控制的保险公司以及该保险公司控制的子公司的投资入股。\n第四节 信息披露和保密",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 保险公司控股股东不得接受其控制的保险公司以及该保险公司控制的子公司的投资入股。\n第四节 信息披露和保密"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "保密"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第四节",
+    "chapter_title": "信息披露和保密",
+    "text_zh": "第二十二条 保险公司控股股东应当严格按照国家有关规定履行信息披露义务,并保证披露信息的及时、真实、准确、完整,不得有虚假记载、误导性陈述\n或者重大遗漏。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 保险公司控股股东应当严格按照国家有关规定履行信息披露义务,并保证披露信息的及时、真实、准确、完整,不得有虚假记载、误导性陈述\n或者重大遗漏。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2204,
+    "source_end": 2280,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第四节",
+    "chapter_title": "信息披露和保密",
+    "text_zh": "第二十三条 保险公司控股股东应当建立信息披露管理制度,明确规定涉及保险公司重大信息的范围、保密措施、报告和披露等事项。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 54,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 保险公司控股股东应当建立信息披露管理制度,明确规定涉及保险公司重大信息的范围、保密措施、报告和披露等事项。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "保密"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2281,
+    "source_end": 2340,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第四节",
+    "chapter_title": "信息披露和保密",
+    "text_zh": "第二十四条 保险公司控股股东与保险公司之间进行重大关联交易,保险公司按照《保险公司信息披露管理办法》的要求,披露保险公司全体独立董事就该\n交易公允性出具的书面意见以及其他相关信息,保险公司控股股东应当积极配合。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 97,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 保险公司控股股东与保险公司之间进行重大关联交易,保险公司按照《保险公司信息披露管理办法》的要求,披露保险公司全体独立董事就该\n交易公允性出具的书面意见以及其他相关信息,保险公司控股股东应当积极配合。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 18.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2341,
+    "source_end": 2446,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第四节",
+    "chapter_title": "信息披露和保密",
+    "text_zh": "第二十五条 保险公司控股股东应当恪守对保险公司的保密义务,不得违法使用保险公司的客户信息和其他信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 47,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 保险公司控股股东应当恪守对保险公司的保密义务,不得违法使用保险公司的客户信息和其他信息。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "保密"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 90,
+    "source_end": 259,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第四节",
+    "chapter_title": "信息披露和保密",
+    "text_zh": "第二十六条 公共传媒上出现与保险公司控股股东有关的、对保险公司可能产生重大影响的报道或者传闻,保险公司控股股东应当及时就有关报道或者传\n闻所涉及事项向保险公司通报。\n第五节 监管配合",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 84,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 公共传媒上出现与保险公司控股股东有关的、对保险公司可能产生重大影响的报道或者传闻,保险公司控股股东应当及时就有关报道或者传\n闻所涉及事项向保险公司通报。\n第五节 监管配合"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2498,
+    "source_end": 2589,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第五节",
+    "chapter_title": "监管配合",
+    "text_zh": "第二十七条 保险公司控股股东应当及时了解中国保监会的相关规定、政策,根据中国保监会对保险公司的监管意见,督促保险公司依法合规经营。\n保险公司控股股东认为必要时,可以向中国保监会反映保险公司的业务经营和风险管理等情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 100,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 保险公司控股股东应当及时了解中国保监会的相关规定、政策,根据中国保监会对保险公司的监管意见,督促保险公司依法合规经营。\n保险公司控股股东认为必要时,可以向中国保监会反映保险公司的业务经营和风险管理等情况。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 16.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2590,
+    "source_end": 2698,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第五节",
+    "chapter_title": "监管配合",
+    "text_zh": "第二十八条 保险公司控股股东对保险公司的股权投资策略和发展战略作出重大调整的,应当及时向中国保监会报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 49,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 保险公司控股股东对保险公司的股权投资策略和发展战略作出重大调整的,应当及时向中国保监会报告。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2699,
+    "source_end": 2751,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第五节",
+    "chapter_title": "监管配合",
+    "text_zh": "第二十九条 保险公司控股股东应当积极配合中国保监会对保险公司进行风险处置,并按照中国保监会的要求提供有关信息资料或者采取其他措施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 62,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 保险公司控股股东应当积极配合中国保监会对保险公司进行风险处置,并按照中国保监会的要求提供有关信息资料或者采取其他措施。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2752,
+    "source_end": 2817,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第五节",
+    "chapter_title": "监管配合",
+    "text_zh": "第三十条 保险公司控股股东转让股权导致或者有可能导致保险公司控制权变更的,应当在转让期间与受让方和保险公司共同制定控制权交接计划,确保保\n险公司经营管理稳定,维护投保人、被保险人和受益人的合法权益。\n控制权交接计划应当对转让过程中可能出现的违法违规或者违反承诺的行为约定处理措施。\n第三章 监督管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 138,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 保险公司控股股东转让股权导致或者有可能导致保险公司控制权变更的,应当在转让期间与受让方和保险公司共同制定控制权交接计划,确保保\n险公司经营管理稳定,维护投保人、被保险人和受益人的合法权益。\n控制权交接计划应当对转让过程中可能出现的违法违规或者违反承诺的行为约定处理措施。\n第三章 监督管理"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2818,
+    "source_end": 2967,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第三章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十一条 中国保监会建立保险公司控股股东信息档案,记录和管理保险公司控股股东的相关信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 42,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 中国保监会建立保险公司控股股东信息档案,记录和管理保险公司控股股东的相关信息。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2968,
+    "source_end": 3013,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第三章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十二条 因股权转让导致保险公司控制权变更的,保险公司在向中国保监会提交股权变更审批申请时,应当提交本办法第三十条规定的控制权交接计划\n并说明相关情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 72,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 因股权转让导致保险公司控制权变更的,保险公司在向中国保监会提交股权变更审批申请时,应当提交本办法第三十条规定的控制权交接计划\n并说明相关情况。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3014,
+    "source_end": 3091,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第三章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十三条 中国保监会有权要求保险公司控股股东在指定的期限内提供下列信息和资料:\n(一)法定代表人或者主要负责人情况;(二)股权控制关系结构图;\n(三)经审计的财务报告;(四)其他有关信息和资料。\n保险公司控股股东股权控制关系结构图应当包括其持股百分之五以上股东的基本情况、持股目的和持股情况,并应当逐级披露至享有最终控制权的自然\n人、法人或者机构。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 153,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 中国保监会有权要求保险公司控股股东在指定的期限内提供下列信息和资料:\n(一)法定代表人或者主要负责人情况;(二)股权控制关系结构图;\n(三)经审计的财务报告;(四)其他有关信息和资料。\n保险公司控股股东股权控制关系结构图应当包括其持股百分之五以上股东的基本情况、持股目的和持股情况,并应当逐级披露至享有最终控制权的自然\n人、法人或者机构。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 18.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "法人",
+          "公司 (weak)",
+          "股东 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3092,
+    "source_end": 3267,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第三章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十四条 保险公司出现严重亏损、偿付能力不足、多次重大违规或者其他重大风险隐患的,中国保监会可以对保险公司控股股东的董事、监事和高级\n管理人员进行监管谈话。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 72,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 保险公司出现严重亏损、偿付能力不足、多次重大违规或者其他重大风险隐患的,中国保监会可以对保险公司控股股东的董事、监事和高级\n管理人员进行监管谈话。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3268,
+    "source_end": 3347,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第三章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十五条 保险公司控股股东利用关联交易严重损害保险公司利益,危及公司偿付能力的,由中国保监会责令改正。在按照要求改正前,中国保监会可以限\n制其享有的资产收益、参与重大决策和选择管理者等股东权利;拒不改正的,可以责令其在一定期限内转让所持的部分或者全部保险公司股权。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 123,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 保险公司控股股东利用关联交易严重损害保险公司利益,危及公司偿付能力的,由中国保监会责令改正。在按照要求改正前,中国保监会可以限\n制其享有的资产收益、参与重大决策和选择管理者等股东权利;拒不改正的,可以责令其在一定期限内转让所持的部分或者全部保险公司股权。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3348,
+    "source_end": 3481,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第三章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十六条 保险公司控股股东有其他违反本办法规定行为的,由中国保监会责令改正,并可以依法采取相应的监管措施。\n第四章 附 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 55,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 保险公司控股股东有其他违反本办法规定行为的,由中国保监会责令改正,并可以依法采取相应的监管措施。\n第四章 附 则"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3482,
+    "source_end": 3544,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第四章",
+    "chapter_title": "附 则",
+    "text_zh": "第三十七条 保险集团公司控股股东参照适用本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 22,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 保险集团公司控股股东参照适用本办法。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3545,
+    "source_end": 3569,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第四章",
+    "chapter_title": "附 则",
+    "text_zh": "第三十八条 国务院财政部门、国务院授权投资机构以及《保险集团公司管理办法(试行)》规定的保险集团公司是保险公司控股股东的,不适用本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条 国务院财政部门、国务院授权投资机构以及《保险集团公司管理办法(试行)》规定的保险集团公司是保险公司控股股东的,不适用本办法。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 16.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司管理",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3570,
+    "source_end": 3638,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第四章",
+    "chapter_title": "附 则",
+    "text_zh": "第三十九条 外资保险公司控股股东不适用本办法第七条第二款的规定;中国保监会另有规定的,适用其规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 45,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条 外资保险公司控股股东不适用本办法第七条第二款的规定;中国保监会另有规定的,适用其规定。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3639,
+    "source_end": 3688,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第四章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十条 本办法由中国保监会负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 17,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条 本办法由中国保监会负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3689,
+    "source_end": 3708,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2012_ART_041",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2012",
+    "law_name": "保险公司控股股东管理办法",
+    "law_name_original": "保险公司控股股东管理办法",
+    "law_type": "规章/法规",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "第四章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十一条 本办法自2012年10月1日起施行。\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 24,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十一条 本办法自2012年10月1日起施行。\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2012-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025452&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_100.txt",
+    "sample_id": "CN_100",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_100",
+    "raw_sha256": "bf69c8ad5e367249b5e4cf7c081cfccb280a1b5c41d6bc2bd08722e8c6c1b984",
+    "extracted_text_sha256": "7e6c3c11590e9bf4a1af4cb63323f4f072bda1be1bf740a401d9da24e0070527",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3709,
+    "source_end": 3743,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

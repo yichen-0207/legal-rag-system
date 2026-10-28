@@ -337,8 +337,8 @@ registerPage('kg', function(container) {
                     <div id="kg-legend-body" style="padding:5px 9px;">
                     <div id="kg-legend-jur" style="display:flex;flex-wrap:wrap;gap:0.2rem 0.6rem;">
                         <span style="font-weight:600;min-width:3em;">法域：</span>
-                        <span><span class="kg-legend-icon" style="display:inline-block;width:8px;height:8px;background:#2563EB;border-radius:50%;"></span> 澳门</span>
-                        <span><span class="kg-legend-icon" style="display:inline-block;width:8px;height:8px;background:#DC2626;border-radius:50%;"></span> 香港</span>
+                        <span><span class="kg-legend-icon" style="display:inline-block;width:8px;height:8px;background:#2563EB;border-radius:50%;"></span> 中国澳门</span>
+                        <span><span class="kg-legend-icon" style="display:inline-block;width:8px;height:8px;background:#DC2626;border-radius:50%;"></span> 中国香港</span>
                         <span><span class="kg-legend-icon" style="display:inline-block;width:8px;height:8px;background:#D97706;border-radius:50%;"></span> 新加坡</span>
                         <span><span class="kg-legend-icon" style="display:inline-block;width:8px;height:8px;background:#7C3AED;border-radius:50%;"></span> 美国</span>
                         <span><span class="kg-legend-icon" style="display:inline-block;width:8px;height:8px;background:#0D9488;border-radius:50%;"></span> 欧盟</span>

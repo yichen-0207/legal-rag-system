@@ -1258,6 +1258,8 @@ tr:hover td {
     align-self: start;
     /* DOM 中目录位于正文之前，显式指定列以落到右栏 */
     grid-column: 2;
+    /* 必须显式指定行：否则稀疏自动放置会把正文挤到第二行，右栏下方留大片空白 */
+    grid-row: 1;
     max-height: calc(100vh - 3rem);
     overflow-y: auto;
     padding-left: 0.5rem;
@@ -1340,6 +1342,24 @@ tr:hover td {
     color: var(--color-primary);
 }
 
+/* 章节目录：整行条目，无独立编号列 */
+.law-toc__list--part .law-toc__item--part + .law-toc__item--part {
+    margin-top: 0.125rem;
+}
+
+.law-toc__list--part .law-toc__item--part a {
+    display: block;
+    padding: 0.5rem 0.625rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.law-toc__list--part .law-toc__text {
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+}
+
 .law-toc__item a:focus-visible,
 .law-toolbar__btn:focus-visible {
     outline: 2px solid var(--color-primary);
@@ -1348,6 +1368,7 @@ tr:hover td {
 
 .law-content {
     grid-column: 1;
+    grid-row: 1;
     min-width: 0;
     font-family: var(--font-serif);
     font-size: var(--law-fs);
@@ -1425,6 +1446,7 @@ tr:hover td {
 .law-part {
     margin: 2.25rem 0 0.75rem;
     padding: 0.5rem 0;
+    scroll-margin-top: 1rem;
     border-top: 1px solid var(--color-border-deep);
     border-bottom: 1px solid var(--color-border-deep);
     font-family: var(--font-serif);
@@ -1572,11 +1594,17 @@ tr:hover td {
         position: static;
         /* 单栏堆叠：解除显式列定位并回到正文之上 */
         grid-column: auto;
+        grid-row: auto;
         order: -1;
-        max-height: 16rem;
+        max-height: 20rem;
         padding: 0 0 0.75rem;
         border-left: none;
         border-bottom: 1px solid var(--color-border);
+    }
+
+    .law-content {
+        grid-column: auto;
+        grid-row: auto;
     }
 }
 

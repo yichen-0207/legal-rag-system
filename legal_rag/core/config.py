@@ -136,10 +136,19 @@ class Settings(BaseSettings):
     agent_tool_top_k: int = 5
     # 单个观测片段字符上限
     agent_obs_max_chars: int = 300
-    # 收口时送精排的候选数上限
+    # 收口时送精排的候选数上限（同时是最终证据条数上限，控制 prompt 规模）
     agent_finalize_max_candidates: int = 12
     # 最终送入 LLM 的证据条数（应大于 top_k）
-    agent_finalize_pass_k: int = 8
+    agent_finalize_pass_k: int = 12
+    # 收口精排开关：本机 cross-encoder 精排 12 条约需 22s，且只决定「12 选 12」的次序；
+    # 关闭后按 RRF 序全量入 prompt，probe 增加 <1s，可显式开启回滚
+    agent_finalize_rerank_enabled: bool = False
+    # search_laws 单次批量检索的子查询数上限（并行执行，合并去重）
+    agent_search_batch_max: int = 4
+    # 批量检索合并后返回给模型的条款条数上限（控制观测值规模）
+    agent_search_batch_result_max: int = 12
+    # get_article_text 返回的正文截断字符数
+    agent_article_text_chars: int = 2000
     # 探索循环模型，留空复用 llm_qa_model
     agent_model: str = ""
     # 复杂度路由：简单/定向查询直接走快速 RAG

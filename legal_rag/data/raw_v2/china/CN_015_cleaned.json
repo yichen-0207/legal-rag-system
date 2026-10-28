@@ -1,0 +1,1231 @@
+[
+  {
+    "doc_id": "CN_DOC_CN_015_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第一条 为规范网络安全事件报告管理，及时控制网络安全事件造成的损失和危害，根据《中华人民共和国网络安全法》、《中华人民共和国数据安全法》、《中华人民共和国个人信息保护法》、《关键信息基础设施安全保护条例》等法律法规，制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 98,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为规范网络安全事件报告管理，及时控制网络安全事件造成的损失和危害，根据《中华人民共和国网络安全法》、《中华人民共和国数据安全法》、《中华人民共和国个人信息保护法》、《关键信息基础设施安全保护条例》等法律法规，制定本办法。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 12.0,
+        "matched_keywords": [
+          "网络安全",
+          "关键信息基础设施",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "数据 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 46,
+    "source_end": 105,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二条 在中华人民共和国境内建设、运营网络或者通过网络提供服务的网络运营者，在发生网络安全事件时，应当按照本办法的规定进行报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 59,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 在中华人民共和国境内建设、运营网络或者通过网络提供服务的网络运营者，在发生网络安全事件时，应当按照本办法的规定进行报告。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 38,
+    "source_end": 105,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第三条 国家网信部门负责统筹协调全国网络安全事件报告管理工作。省级网信部门负责统筹协调本行政区域内网络安全事件报告管理工作。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 59,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 国家网信部门负责统筹协调全国网络安全事件报告管理工作。省级网信部门负责统筹协调本行政区域内网络安全事件报告管理工作。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1343,
+    "source_end": 1413,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第四条 网络运营者在发现或获知涉及本单位的网络安全事件时，应当按照《网络安全事件分级指南》（见附件）进行研判，属于较大以上网络安全事件的，按以下程序报告：\n涉及关键信息基础设施的，网络运营者应当第一时间向保护工作部门、公安机关报告，最迟不得超过1小时。属于重大、特别重大网络安全事件的，保护工作部门在收到报告后，应当第一时间向国家网信部门、国务院公安部门报告，最迟不得超过半小时。\n网络运营者属于中央和国家机关各部门及其直属单位的，应当及时向本部门网信工作机构报告，最迟不得超过2小时。属于重大、特别重大网络安全事件的，各部门网信工作机构在收到报告后，应当第一时间向国家网信部门报告，最迟不得超过1小时。国家网信部门收到报告后及时向有关部门通报。\n其他网络运营者应当及时向属地省级网信部门报告，最迟不得超过4小时。属于重大、特别重大网络安全事件的，省级网信部门在收到报告后，应当第一时间向国家网信部门报告，最迟不得超过1小时，并同时向同级有关部门通报。\n本行业领域有专门规定的，网络运营者还应当按照行业主管监管部门要求报告。\n涉嫌违法犯罪的，网络运营者应当及时向公安机关报案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 438,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 网络运营者在发现或获知涉及本单位的网络安全事件时，应当按照《网络安全事件分级指南》（见附件）进行研判，属于较大以上网络安全事件的，按以下程序报告：\n涉及关键信息基础设施的，网络运营者应当第一时间向保护工作部门、公安机关报告，最迟不得超过1小时。属于重大、特别重大网络安全事件的，保护工作部门在收到报告后，应当第一时间向国家网信部门、国务院公安部门报告，最迟不得超过半小时。\n网络运营者属于中央和国家机关各部门及其直属单位的，应当及时向本部门网信工作机构报告，最迟不得超过2小时。属于重大、特别重大网络安全事件的，各部门网信工作机构在收到报告后，应当第一时间向国家网信部门报告，最迟不得超过1小时。国家网信部门收到报告后及时向有关部门通报。\n其他网络运营者应当及时向属地省级网信部门报告，最迟不得超过4小时。属于重大、特别重大网络安全事件的，省级网信部门在收到报告后，应当第一时间向国家网信部门报告，最迟不得超过1小时，并同时向同级有关部门通报。\n本行业领域有专门规定的，网络运营者还应当按照行业主管监管部门要求报告。\n涉嫌违法犯罪的，网络运营者应当及时向公安机关报案。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 16.5,
+        "matched_keywords": [
+          "网络安全",
+          "关键信息基础设施",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "犯罪",
+          "犯罪 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 701,
+    "source_end": 837,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第五条 网络运营者应当以合同等形式要求为其提供网络安全、系统运维等服务的组织或个人，及时向其报告监测发现的网络安全事件，并协助其按照本办法规定报告网络安全事件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 75,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 网络运营者应当以合同等形式要求为其提供网络安全、系统运维等服务的组织或个人，及时向其报告监测发现的网络安全事件，并协助其按照本办法规定报告网络安全事件。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 7.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "系统 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 41,
+    "source_end": 105,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第六 条 鼓励社会组织和个人报告所获悉的较大以上网络安全事件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 28,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六 条 鼓励社会组织和个人报告所获悉的较大以上网络安全事件。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1923,
+    "source_end": 1956,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第七条 报告网络安全事件时，应当包括下列内容：\n（一）涉事单位名称及涉事系统或设施基本情况；\n（二）网络安全事件发现或发生的时间、地点、类型、级别，以及已造成的影响和危害，已采取的措施及效果；对勒索软件攻击事件，还应当包括要求支付赎金的金额、方式、日期等；\n（三）事态发展趋势及可能造成的进一步影响和危害；\n（四）网络安全事件原因初步分析意见；（五）溯源调查工作线索，包括但不限于可能的攻击者信息、攻击路径、存在的漏洞等；\n（六）拟进一步采取的应对措施以及请求支援事项；\n（七）网络安全事件现场保护情况；（八）其他应当报告的情况。\n对于规定时间内不能判定事发原因、影响或发展趋势等网络安全事件情况的，可先报告第一项、第二项内容，其他情况及时补报。\n网络安全事件报告后出现新的重要情况或调查工作取得阶段性进展的，涉事单位应当及时报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 312,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 报告网络安全事件时，应当包括下列内容：\n（一）涉事单位名称及涉事系统或设施基本情况；\n（二）网络安全事件发现或发生的时间、地点、类型、级别，以及已造成的影响和危害，已采取的措施及效果；对勒索软件攻击事件，还应当包括要求支付赎金的金额、方式、日期等；\n（三）事态发展趋势及可能造成的进一步影响和危害；\n（四）网络安全事件原因初步分析意见；（五）溯源调查工作线索，包括但不限于可能的攻击者信息、攻击路径、存在的漏洞等；\n（六）拟进一步采取的应对措施以及请求支援事项；\n（七）网络安全事件现场保护情况；（八）其他应当报告的情况。\n对于规定时间内不能判定事发原因、影响或发展趋势等网络安全事件情况的，可先报告第一项、第二项内容，其他情况及时补报。\n网络安全事件报告后出现新的重要情况或调查工作取得阶段性进展的，涉事单位应当及时报告。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 12.0,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)",
+          "系统 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "支付",
+          "支付 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1427,
+    "source_end": 1467,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第八条 网络安全事件处置工作结束后，网络运营者应当于30日内对相关事件发生原因、应急处置措施、造成的危害、责任追究、完善整改情况、教训等进行全面分析总结，形成事件处置总结报告按照原渠道上报。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 84,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 网络安全事件处置工作结束后，网络运营者应当于30日内对相关事件发生原因、应急处置措施、造成的危害、责任追究、完善整改情况、教训等进行全面分析总结，形成事件处置总结报告按照原渠道上报。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1426,
+    "source_end": 1467,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第九条 网信部门建设12387网络安全事件报告热线电话和网站、邮箱、传真等方式，统一接收网络安全事件报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 43,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 网信部门建设12387网络安全事件报告热线电话和网站、邮箱、传真等方式，统一接收网络安全事件报告。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 44,
+    "source_end": 105,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十条 网络运营者未按照本办法规定报告网络安全事件的，有关主管部门按照有关法律、行政法规的规定进行处罚。\n因网络运营者迟报、漏报、谎报或者瞒报网络安全事件，造成重大危害后果的，对网络运营者及有关责任人依法从重处罚。\n承担网络安全事件报告的部门未按照本办法规定报告网络安全事件的，依据有关法律、行政法规和网络安全工作责任制追究相关单位和人员责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 158,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 网络运营者未按照本办法规定报告网络安全事件的，有关主管部门按照有关法律、行政法规的规定进行处罚。\n因网络运营者迟报、漏报、谎报或者瞒报网络安全事件，造成重大危害后果的，对网络运营者及有关责任人依法从重处罚。\n承担网络安全事件报告的部门未按照本办法规定报告网络安全事件的，依据有关法律、行政法规和网络安全工作责任制追究相关单位和人员责任。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 10.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2346,
+    "source_end": 2568,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十一条 发生网络安全事件时，网络运营者已采取合理必要的防护措施，按照应急预案进行处置、有效降低网络安全事件影响和危害，并按照本办法规定及时报告的，可视情从轻或不予追究相关单位和人员责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 87,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 发生网络安全事件时，网络运营者已采取合理必要的防护措施，按照应急预案进行处置、有效降低网络安全事件影响和危害，并按照本办法规定及时报告的，可视情从轻或不予追究相关单位和人员责任。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 89,
+    "source_end": 105,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十二条 本办法所指网络安全事件是指由于人为原因、网络遭受攻击、网络存在漏洞隐患、软硬件缺陷或故障、不可抗力等因素，对网络和信息系统或其中的数据和业务应用造成危害，对国家、社会、经济造成负面影响的事件。\n本办法所指网络运营者是指网络的所有者、管理者和网络服务提供者。\n本办法所指《网络安全事件分级指南》参照《信息安全技术 网络安全事件分类分级指南》国家标准（GB/T 20986-2023）制定，以有限枚举的方式给出相关事件的分级定量指标。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 182,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 本办法所指网络安全事件是指由于人为原因、网络遭受攻击、网络存在漏洞隐患、软硬件缺陷或故障、不可抗力等因素，对网络和信息系统或其中的数据和业务应用造成危害，对国家、社会、经济造成负面影响的事件。\n本办法所指网络运营者是指网络的所有者、管理者和网络服务提供者。\n本办法所指《网络安全事件分级指南》参照《信息安全技术 网络安全事件分类分级指南》国家标准（GB/T 20986-2023）制定，以有限枚举的方式给出相关事件的分级定量指标。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 12.0,
+        "matched_keywords": [
+          "网络安全",
+          "信息安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)",
+          "系统 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1423,
+    "source_end": 1467,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十三条 涉及国家秘密的网络安全事件报告，按照有关部门规定执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 29,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 涉及国家秘密的网络安全事件报告，按照有关部门规定执行。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1956,
+    "source_end": 1988,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_015_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_015",
+    "law_name": "国家网络安全事件报告管理办法",
+    "law_name_original": "国家网络安全事件报告管理办法",
+    "law_type": "规范性文件",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十四条 本办法自2025年11月1日起施行。\n附件网络安全事件分级指南\n一、 特别重大网络安全事件符合下列情形之一的，为特别重大网络安全事件：\n1.重要网络和信息系统遭受特别严重的系统损失，造成系统大面积瘫痪，丧失业务处理能力。\n2.核心数据、重要数据、海量公民个人信息丢失或被窃取、篡改、假冒，对国家安全和社会稳定构成特别严重威胁。\n3.其他对国家安全、社会秩序、经济建设和公众利益构成特别严重威胁、造成特别严重影响的网络安全事件。\n通常情况下，满足下列条件之一的，可判别为特别重大网络安全事件：\n1.省级以上党政机关门户网站、中央重点新闻网站因攻击、故障，导致24小时以上不能访问。\n2.关键信息基础设施整体中断运行6小时以上或主要功能中断运行24小时以上。\n3.影响一个或多个省级行政区50%以上人口，或者1000万人以上用水、用电、用气、用油、取暖、交通出行、就医、购物等工作、生活。\n4.核心数据、重要数据泄露或被窃取、篡改、假冒，对国家安全和社会稳定构成特别严重威胁。\n5.泄露1亿人以上公民个人信息。\n6.省级以上党政机关门户网站、中央重点新闻网站、超大型网络平台等被攻击篡改，导致违法有害信息特大范围传播。以下情况之一，可认定为“特大范围”：\n（1）在主页上出现并持续6小时以上，或在其他页面出现并持续24小时以上；\n（2）通过社交平台转发10万次以上；（3）浏览或点击次数100万以上；\n（4）省级以上网信部门、公安机关认定为是“特大范围传播”的。\n7.造成1亿元以上的直接经济损失。\n8.其他对国家安全、社会秩序、经济建设和公众利益构成特别严重威胁、造成特别严重影响的网络安全事件。\n二、 重大网络安全事件符合下列情形之一且未达到特别重大网络安全事件的，为重大网络安全事件：\n1.重要网络和信息系统遭受严重的系统损失，造成系统长时间中断或局部瘫痪，业务处理能力受到极大影响。\n2.核心数据、重要数据、大量公民个人信息丢失或被窃取、篡改、假冒，对国家安全和社会稳定构成严重威胁。\n3.其他对国家安全、社会秩序、经济建设和公众利益构成严重威胁、造成严重影响的网络安全事件。\n通常情况下，满足下列条件之一的，可判别为重大网络安全事件：\n1.地市级以上党政机关、企事业单位门户网站，省级以上重点新闻网站因攻击、故障，导致6小时以上不能访问。\n2.关键信息基础设施整体中断运行1小时以上或主要功能中断运行3小时以上。\n3.影响一个或多个地市级行政区50%以上人口，或者100万人以上用水、用电、用气、用油、取暖、交通出行、就医、购物等的工作、生活。\n4.核心数据、重要数据泄露或被窃取、篡改、仿冒，对国家安全和社会稳定构成严重威胁。\n5.泄露1000万人以上公民个人信息。\n6.地市级以上党政机关、企事业单位门户网站，省级以上重点新闻网站，大型以上网络平台等被攻击篡改，导致违法有害信息大范围传播。以下情况之一，可认定为“大范围”：\n（1）在主页上出现并持续2小时以上，或在其他页面出现并持续12小时以上；\n（2）通过社交平台转发1万次以上；（3）浏览或点击次数10万以上；\n（4）省级以上网信部门、公安机关认定为是“大范围传播”的。\n7.造成2000万元以上的直接经济损失。\n8.其他对国家安全、社会秩序、经济建设和公众利益构成严重威胁、造成严重影响的网络安全事件。\n三、 较大网络安全事件符合下列情形之一且未达到重大网络安全事件的，为较大网络安全事件：\n1.重要网络和信息系统遭受较大的系统损失，造成系统中断，明显影响系统效率，业务处理能力受到影响。\n2.重要数据、较大量公民个人信息丢失或被窃取、篡改、假冒，对国家安全和社会稳定构成较严重威胁。\n3.其他对国家安全、社会秩序、经济建设和公众利益构成较严重威胁、造成较严重影响的网络安全事件。\n通常情况下，满足下列条件之一的，可判别为较大网络安全事件：\n1.地市级以上党政机关、企事业单位门户网站，省级以上重点新闻网站因攻击、故障，导致2小时以上不能访问。\n2.关键信息基础设施整体中断运行10分钟以上或主要功能中断运行30分钟以上。\n3.影响一个或多个地市级行政区30%以上人口，或者10万人以上用水、用电、用气、用油、取暖、交通出行、就医、购物等工作、生活。\n4.重要数据泄露或被窃取，对国家安全和社会稳定构成较严重威胁。\n5.泄露100万人以上公民个人信息。\n6.党政机关、企事业单位门户网站，重点新闻网站，网络平台等被攻击篡改，导致违法有害信息较大范围传播。以下情况之一，可认定为“较大范围”：\n（1）在主页上出现并持续30分钟以上，或在其他页面出现并持续2小时以上；\n（2）通过社交平台转发1000次以上；（3）浏览或点击次数1万以上；\n（4）省级以上网信部门、公安机关认定为是“较大范围传播”的。\n7.造成500万元以上的直接经济损失。\n8.其他对国家安全、社会秩序、经济建设和公众利益构成较严重威胁、造成较严重影响的网络安全事件。\n四、 一般网络安全事件除上述网络安全事件外，对国家安全、社会秩序、经济建设和公众利益构成一定威胁、造成一定影响的网络安全事件。\n注：本指南中的“以上”均包括本数。\n中央网络安全和信息化委员会办公室承办：国家互联网应急中心\n技术支持：长安通信科技有限责任公司京公网安备11040102700108号",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 1757,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 本办法自2025年11月1日起施行。\n附件网络安全事件分级指南\n一、 特别重大网络安全事件符合下列情形之一的，为特别重大网络安全事件：\n1.重要网络和信息系统遭受特别严重的系统损失，造成系统大面积瘫痪，丧失业务处理能力。\n2.核心数据、重要数据、海量公民个人信息丢失或被窃取、篡改、假冒，对国家安全和社会稳定构成特别严重威胁。\n3.其他对国家安全、社会秩序、经济建设和公众利益构成特别严重威胁、造成特别严重影响的网络安全事件。\n通常情况下，满足下列条件之一的，可判别为特别重大网络安全事件：\n1.省级以上党政机关门户网站、中央重点新闻网站因攻击、故障，导致24小时以上不能访问。\n2.关键信息基础设施整体中断运行6小时以上或主要功能中断运行24小时以上。\n3.影响一个或多个省级行政区50%以上人口，或者1000万人以上用水、用电、用气、用油、取暖、交通出行、就医、购物等工作、生活。\n4.核心数据、重要数据泄露或被窃取、篡改、假冒，对国家安全和社会稳定构成特别严重威胁。\n5.泄露1亿人以上公民个人信息。\n6.省级以上党政机关门户网站、中央重点新闻网站、超大型网络平台等被攻击篡改，导致违法有害信息特大范围传播。以下情况之一，可认定为“特大范围”：\n（1）在主页上出现并持续6小时以上，或在其他页面出现并持续24小时以上；\n（2）通过社交平台转发10万次以上；（3）浏览或点击次数100万以上；\n（4）省级以上网信部门、公安机关认定为是“特大范围传播”的。\n7.造成1亿元以上的直接经济损失。\n8.其他对国家安全、社会秩序、经济建设和公众利益构成特别严重威胁、造成特别严重影响的网络安全事件。\n二、 重大网络安全事件符合下列情形之一且未达到特别重大网络安全事件的，为重大网络安全事件：\n1.重要网络和信息系统遭受严重的系统损失，造成系统长时间中断或局部瘫痪，业务处理能力受到极大影响。\n2.核心数据、重要数据、大量公民个人信息丢失或被窃取、篡改、假冒，对国家安全和社会稳定构成严重威胁。\n3.其他对国家安全、社会秩序、经济建设和公众利益构成严重威胁、造成严重影响的网络安全事件。\n通常情况下，满足下列条件之一的，可判别为重大网络安全事件：\n1.地市级以上党政机关、企事业单位门户网站，省级以上重点新闻网站因攻击、故障，导致6小时以上不能访问。\n2.关键信息基础设施整体中断运行1小时以上或主要功能中断运行3小时以上。\n3.影响一个或多个地市级行政区50%以上人口，或者100万人以上用水、用电、用气、用油、取暖、交通出行、就医、购物等的工作、生活。\n4.核心数据、重要数据泄露或被窃取、篡改、仿冒，对国家安全和社会稳定构成严重威胁。\n5.泄露1000万人以上公民个人信息。\n6.地市级以上党政机关、企事业单位门户网站，省级以上重点新闻网站，大型以上网络平台等被攻击篡改，导致违法有害信息大范围传播。以下情况之一，可认定为“大范围”：\n（1）在主页上出现并持续2小时以上，或在其他页面出现并持续12小时以上；\n（2）通过社交平台转发1万次以上；（3）浏览或点击次数10万以上；\n（4）省级以上网信部门、公安机关认定为是“大范围传播”的。\n7.造成2000万元以上的直接经济损失。\n8.其他对国家安全、社会秩序、经济建设和公众利益构成严重威胁、造成严重影响的网络安全事件。\n三、 较大网络安全事件符合下列情形之一且未达到重大网络安全事件的，为较大网络安全事件：\n1.重要网络和信息系统遭受较大的系统损失，造成系统中断，明显影响系统效率，业务处理能力受到影响。\n2.重要数据、较大量公民个人信息丢失或被窃取、篡改、假冒，对国家安全和社会稳定构成较严重威胁。\n3.其他对国家安全、社会秩序、经济建设和公众利益构成较严重威胁、造成较严重影响的网络安全事件。\n通常情况下，满足下列条件之一的，可判别为较大网络安全事件：\n1.地市级以上党政机关、企事业单位门户网站，省级以上重点新闻网站因攻击、故障，导致2小时以上不能访问。\n2.关键信息基础设施整体中断运行10分钟以上或主要功能中断运行30分钟以上。\n3.影响一个或多个地市级行政区30%以上人口，或者10万人以上用水、用电、用气、用油、取暖、交通出行、就医、购物等工作、生活。\n4.重要数据泄露或被窃取，对国家安全和社会稳定构成较严重威胁。\n5.泄露100万人以上公民个人信息。\n6.党政机关、企事业单位门户网站，重点新闻网站，网络平台等被攻击篡改，导致违法有害信息较大范围传播。以下情况之一，可认定为“较大范围”：\n（1）在主页上出现并持续30分钟以上，或在其他页面出现并持续2小时以上；\n（2）通过社交平台转发1000次以上；（3）浏览或点击次数1万以上；\n（4）省级以上网信部门、公安机关认定为是“较大范围传播”的。\n7.造成500万元以上的直接经济损失。\n8.其他对国家安全、社会秩序、经济建设和公众利益构成较严重威胁、造成较严重影响的网络安全事件。\n四、 一般网络安全事件除上述网络安全事件外，对国家安全、社会秩序、经济建设和公众利益构成一定威胁、造成一定影响的网络安全事件。\n注：本指南中的“以上”均包括本数。\n◆ ◆◆ ◆\n中央网络安全和信息化委员会办公室承办：国家互联网应急中心\n技术支持：长安通信科技有限责任公司京公网安备11040102700108号"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "national_security",
+      "data_protection",
+      "public_governance",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 43.5,
+        "matched_keywords": [
+          "网络安全",
+          "关键信息基础设施",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)",
+          "系统 (weak)",
+          "威胁 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 22.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 19.5,
+        "matched_keywords": [
+          "个人信息",
+          "数据泄露",
+          "数据 (weak)",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_015.txt",
+    "sample_id": "CN_015",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_015",
+    "raw_sha256": "2a56b9b53cb0693942cf76b09e1c1bc13daf5adb42979c34332cd94f0a4aa0d3",
+    "extracted_text_sha256": "534a1058e9924b9bf4e281ccb22d88d0d3bfc5b3ff193529ca86daa4e347f45b",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1989,
+    "source_end": 4200,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:35Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

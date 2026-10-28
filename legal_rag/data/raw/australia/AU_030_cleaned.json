@@ -1,0 +1,567 @@
+[
+  {
+    "doc_id": "AU_ACT_55_2025_ART_001",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_55_2025",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "Short title",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act is the Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025 .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act is the Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025 ."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2025A00055/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_030.txt",
+    "sample_id": "AU_030",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_030",
+    "raw_sha256": "085344c98121a8f7c944a758090af22d690ec20b1921180bb0996f5e5f7c184a",
+    "extracted_text_sha256": "5982fd7355f09b495a843718f1cd0d8b6a0b139c95bae2b94d427931c9f78d76",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 192,
+    "source_end": 346,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_55_2025_ART_002",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_55_2025",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Commencement",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provisions\nCommencementDate/Details\n1. The whole of this Act\nThe 14th day after this Act receives the Royal Assent.\n18 November 2025\nNote: This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.\nAny information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provisions\nCommencementDate/Details\n1. The whole of this Act\nThe 14th day after this Act receives the Royal Assent.\n18 November 2025\nNote: This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.\nAny information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2025A00055/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_030.txt",
+    "sample_id": "AU_030",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_030",
+    "raw_sha256": "085344c98121a8f7c944a758090af22d690ec20b1921180bb0996f5e5f7c184a",
+    "extracted_text_sha256": "5982fd7355f09b495a843718f1cd0d8b6a0b139c95bae2b94d427931c9f78d76",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 311,
+    "source_end": 1093,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_55_2025_ART_003",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_55_2025",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Schedules",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Legislation that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned, and any other item in a Schedule to this Act has effect according to its terms.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Legislation that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned, and any other item in a Schedule to this Act has effect according to its terms."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2025A00055/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_030.txt",
+    "sample_id": "AU_030",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_030",
+    "raw_sha256": "085344c98121a8f7c944a758090af22d690ec20b1921180bb0996f5e5f7c184a",
+    "extracted_text_sha256": "5982fd7355f09b495a843718f1cd0d8b6a0b139c95bae2b94d427931c9f78d76",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1059,
+    "source_end": 1329,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_55_2025_ART_004",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_55_2025",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "Section 7A",
+    "chunk_index": 3,
+    "chapter": "Part 1",
+    "chapter_title": "Amendments",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Omit “sponsor of”, substitute “person specified by the Private Health Insurance (National Joint Replacement Register Levy) Rules for”.\nPart 2 — Application of amendments and validation of payment of certain levies",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Omit “sponsor of”, substitute “person specified by the Private Health Insurance (National Joint Replacement Register Levy) Rules for”.\nPart 2 — Application of amendments and validation of payment of certain levies"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "payment",
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2025A00055/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_030.txt",
+    "sample_id": "AU_030",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_030",
+    "raw_sha256": "085344c98121a8f7c944a758090af22d690ec20b1921180bb0996f5e5f7c184a",
+    "extracted_text_sha256": "5982fd7355f09b495a843718f1cd0d8b6a0b139c95bae2b94d427931c9f78d76",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1939,
+    "source_end": 2202,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_55_2025_ART_005",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_55_2025",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "Application of amendments",
+    "chunk_index": 4,
+    "chapter": "Part 2",
+    "chapter_title": "Application of amendments and validation of payment of certain levies",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The amendments made by Part 1 of this Schedule apply in relation to national joint replacement register levy that is imposed on a day that occurs on or after the commencement of this Schedule, whether the calculation of the rate of the levy is by reference to matters occurring before, on or after that commencement.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The amendments made by Part 1 of this Schedule apply in relation to national joint replacement register levy that is imposed on a day that occurs on or after the commencement of this Schedule, whether the calculation of the rate of the levy is by reference to matters occurring before, on or after that commencement."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2025A00055/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_030.txt",
+    "sample_id": "AU_030",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_030",
+    "raw_sha256": "085344c98121a8f7c944a758090af22d690ec20b1921180bb0996f5e5f7c184a",
+    "extracted_text_sha256": "5982fd7355f09b495a843718f1cd0d8b6a0b139c95bae2b94d427931c9f78d76",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2166,
+    "source_end": 2532,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_55_2025_ART_006",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_55_2025",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "Validation of payment of certain levies",
+    "chunk_index": 5,
+    "chapter": "Part 2",
+    "chapter_title": "Application of amendments and validation of payment of certain levies",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "imposed before 1 July 2023\nIf:(a) before 1 July 2023, national joint replacement register levy was imposed on a particular day (the imposition day ) in relation to a joint replacement prosthesis (within the meaning of the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 , as in force on the imposition day); and\n(b) the levy was paid by a person who:\n(i) was not the sponsor (within the meaning of the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 , as in force on the imposition day) of the prosthesis; but\n(ii) was the person mentioned for the prosthesis in the Prostheses List Rules, as in force on the imposition day;\nthe Private Health Insurance (National Joint Replacement Register Levy) Act 2009 has effect, and is taken always to have had effect, as if that person had been the sponsor of the prosthesis on the imposition day.\nValidation of payment of certain levies imposed on or after 1 July 2023\nIf:(a) on or after 1 July 2023 and before the commencement of this Schedule, national joint replacement register levy was imposed on a particular day (the imposition day ) in relation to a joint replacement device; and\n(b) the levy was paid by a person who:\n(i) was not the sponsor (within the meaning of the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 , as in force on the imposition day) of the device; but\n(ii) was the person mentioned for the device in Schedule 1 to the Private Health Insurance (Medical Devices and Human Tissue Products) Rules, as in force on the imposition day;\nthe Private Health Insurance (National Joint Replacement Register Levy) Act 2009 has effect, and is taken always to have had effect, as if that person had been the sponsor of the device on the imposition day.\nDefinitionIn this item:\nProstheses List Rules means the Private Health Insurance (Prostheses) Rules made before 1 July 2023 for the purposes of item 4 of the table in subsection 333 ‑ 20(1) of the Private Health Insurance Act 2007 , as in force before that day.\n[ Minister’s second reading speech made in—\nHouse of Representatives on 4 September 2025\nSenate on 27 October 2025 ]\n(62/25)",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "B",
+        "content": "the levy was paid by a person who:"
+      },
+      {
+        "marker": "I",
+        "content": "was not the sponsor (within the meaning of the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 , as in force on the imposition day) of the prosthesis; but"
+      },
+      {
+        "marker": "2",
+        "content": "was the person mentioned for the prosthesis in the Prostheses List Rules, as in force on the imposition day;\nthe Private Health Insurance (National Joint Replacement Register Levy) Act 2009 has effect, and is taken always to have had effect, as if that person had been the sponsor of the prosthesis on the imposition day.\nValidation of payment of certain levies imposed on or after 1 July 2023\nIf:(a) on or after 1 July 2023 and before the commencement of this Schedule, national joint replacement register levy was imposed on a particular day (the imposition day ) in relation to a joint replacement device; and"
+      },
+      {
+        "marker": "B",
+        "content": "the levy was paid by a person who:"
+      },
+      {
+        "marker": "I",
+        "content": "was not the sponsor (within the meaning of the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 , as in force on the imposition day) of the device; but"
+      },
+      {
+        "marker": "2",
+        "content": "was the person mentioned for the device in Schedule 1 to the Private Health Insurance (Medical Devices and Human Tissue Products) Rules, as in force on the imposition day;\nthe Private Health Insurance (National Joint Replacement Register Levy) Act 2009 has effect, and is taken always to have had effect, as if that person had been the sponsor of the device on the imposition day.\nDefinitionIn this item:\nProstheses List Rules means the Private Health Insurance (Prostheses) Rules made before 1 July 2023 for the purposes of item 4 of the table in subsection 333 ‑ 20(1) of the Private Health Insurance Act 2007 , as in force before that day.\n[ Minister’s second reading speech made in—\nHouse of Representatives on 4 September 2025\nSenate on 27 October 2025 ]\n(62/25)"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 24.5,
+        "matched_keywords": [
+          "payment (title, +5)",
+          "payment",
+          "insurance"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.0,
+        "matched_keywords": [
+          "means",
+          "for the purposes of",
+          "meaning (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2025A00055/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_030.txt",
+    "sample_id": "AU_030",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_030",
+    "raw_sha256": "085344c98121a8f7c944a758090af22d690ec20b1921180bb0996f5e5f7c184a",
+    "extracted_text_sha256": "5982fd7355f09b495a843718f1cd0d8b6a0b139c95bae2b94d427931c9f78d76",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2511,
+    "source_end": 4742,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_55_2025_ART_Sch1",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_55_2025",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025",
+    "law_type": "Act",
+    "article_number": "Sch1",
+    "article_number_normalized": "Sch1",
+    "article_title": "1 — Amendments",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 1 — Amendments\nPrivate Health Insurance (National Joint Replacement Register Levy) Act 2009\n1 Subsection 5(1) (definition of Private Health Insurance (Medical Devices and Human Tissue Products) Rules )\nRepeal the definition, substitute:\nPrivate Health Insurance (Medical Devices and Human Tissue Products) Rules means the Private Health Insurance (Medical Devices and Human Tissue Products) Rules made for the purposes of item 4 of the table in subsection 333 ‑ 20(1) of the Private Health Insurance Act 2007 .\n2 Subsection 5(1) (definition of sponsor )\nRepeal the definition.\n3 Subsection 5(2)\nRepeal the subsection.\n4 Section 7A\nOmit “sponsor of”, substitute “person specified by the Private Health Insurance (National Joint Replacement Register Levy) Rules for”.\nPart 2 — Application of amendments and validation of payment of certain levies\n5 Application of amendments\nThe amendments made by Part 1 of this Schedule apply in relation to national joint replacement register levy that is imposed on a day that occurs on or after the commencement of this Schedule, whether the calculation of the rate of the levy is by reference to matters occurring before, on or after that commencement.\n6 Validation of payment of certain levies\nValidation of payment of certain levies imposed before 1 July 2023\nIf:(a) before 1 July 2023, national joint replacement register levy was imposed on a particular day (the imposition day ) in relation to a joint replacement prosthesis (within the meaning of the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 , as in force on the imposition day); and\n(b) the levy was paid by a person who:\n(i) was not the sponsor (within the meaning of the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 , as in force on the imposition day) of the prosthesis; but\n(ii) was the person mentioned for the prosthesis in the Prostheses List Rules, as in force on the imposition day;\nthe Private Health Insurance (National Joint Replacement Register Levy) Act 2009 has effect, and is taken always to have had effect, as if that person had been the sponsor of the prosthesis on the imposition day.\nValidation of payment of certain levies imposed on or after 1 July 2023\nIf:(a) on or after 1 July 2023 and before the commencement of this Schedule, national joint replacement register levy was imposed on a particular day (the imposition day ) in relation to a joint replacement device; and\n(b) the levy was paid by a person who:\n(i) was not the sponsor (within the meaning of the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 , as in force on the imposition day) of the device; but\n(ii) was the person mentioned for the device in Schedule 1 to the Private Health Insurance (Medical Devices and Human Tissue Products) Rules, as in force on the imposition day;\nthe Private Health Insurance (National Joint Replacement Register Levy) Act 2009 has effect, and is taken always to have had effect, as if that person had been the sponsor of the device on the imposition day.\nDefinitionIn this item:\nProstheses List Rules means the Private Health Insurance (Prostheses) Rules made before 1 July 2023 for the purposes of item 4 of the table in subsection 333 ‑ 20(1) of the Private Health Insurance Act 2007 , as in force before that day.\n[ Minister’s second reading speech made in—\nHouse of Representatives on 4 September 2025\nSenate on 27 October 2025 ]\n(62/25)",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "schedule",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "B",
+        "content": "the levy was paid by a person who:"
+      },
+      {
+        "marker": "I",
+        "content": "was not the sponsor (within the meaning of the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 , as in force on the imposition day) of the prosthesis; but"
+      },
+      {
+        "marker": "2",
+        "content": "was the person mentioned for the prosthesis in the Prostheses List Rules, as in force on the imposition day;\nthe Private Health Insurance (National Joint Replacement Register Levy) Act 2009 has effect, and is taken always to have had effect, as if that person had been the sponsor of the prosthesis on the imposition day.\nValidation of payment of certain levies imposed on or after 1 July 2023\nIf:(a) on or after 1 July 2023 and before the commencement of this Schedule, national joint replacement register levy was imposed on a particular day (the imposition day ) in relation to a joint replacement device; and"
+      },
+      {
+        "marker": "B",
+        "content": "the levy was paid by a person who:"
+      },
+      {
+        "marker": "I",
+        "content": "was not the sponsor (within the meaning of the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 , as in force on the imposition day) of the device; but"
+      },
+      {
+        "marker": "2",
+        "content": "was the person mentioned for the device in Schedule 1 to the Private Health Insurance (Medical Devices and Human Tissue Products) Rules, as in force on the imposition day;\nthe Private Health Insurance (National Joint Replacement Register Levy) Act 2009 has effect, and is taken always to have had effect, as if that person had been the sponsor of the device on the imposition day.\nDefinitionIn this item:\nProstheses List Rules means the Private Health Insurance (Prostheses) Rules made before 1 July 2023 for the purposes of item 4 of the table in subsection 333 ‑ 20(1) of the Private Health Insurance Act 2007 , as in force before that day.\n[ Minister’s second reading speech made in—\nHouse of Representatives on 4 September 2025\nSenate on 27 October 2025 ]\n(62/25)"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 33.0,
+        "matched_keywords": [
+          "payment",
+          "insurance"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 22.5,
+        "matched_keywords": [
+          "means",
+          "definition",
+          "for the purposes of",
+          "definition (weak)",
+          "meaning (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2025A00055/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_030.txt",
+    "sample_id": "AU_030",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_030",
+    "raw_sha256": "085344c98121a8f7c944a758090af22d690ec20b1921180bb0996f5e5f7c184a",
+    "extracted_text_sha256": "5982fd7355f09b495a843718f1cd0d8b6a0b139c95bae2b94d427931c9f78d76",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1316,
+    "source_end": 4774,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

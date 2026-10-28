@@ -1,0 +1,532 @@
+[
+  {
+    "doc_id": "AU_ACT_109_2009_ART_001",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_109_2009",
+    "law_name": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_name_original": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "Short title",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act may be cited as the Asian Development Bank (Additional Subscription) Act 2009 .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act may be cited as the Asian Development Bank (Additional Subscription) Act 2009 ."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-07-10",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00109/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_045.txt",
+    "sample_id": "AU_045",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_045",
+    "raw_sha256": "57aa248d9ad9a6912777d013e78be7c3af7e5223c7d8ee1f82fc3daa59a0f394",
+    "extracted_text_sha256": "dc6fa6ba0d5abe74662b246dd49be1f1691211c3091cdf8c7cf259e1ae91adba",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 148,
+    "source_end": 286,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_109_2009_ART_002",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_109_2009",
+    "law_name": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_name_original": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Commencement",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act commences on the day this Act receives the Royal Assent.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act commences on the day this Act receives the Royal Assent."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-07-10",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00109/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_045.txt",
+    "sample_id": "AU_045",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_045",
+    "raw_sha256": "57aa248d9ad9a6912777d013e78be7c3af7e5223c7d8ee1f82fc3daa59a0f394",
+    "extracted_text_sha256": "dc6fa6ba0d5abe74662b246dd49be1f1691211c3091cdf8c7cf259e1ae91adba",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 251,
+    "source_end": 366,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_109_2009_ART_003",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_109_2009",
+    "law_name": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_name_original": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Definitions",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In this Act:Bank means the Asian Development Bank.\nBank Agreement means the Agreement establishing the Asian Development Bank, done at Manila on 4 December 1965, as in force for Australia on the commencement of this Act.\nNote: The Agreement establishing the Asian Development Bank is in Australian Treaty Series 1966 No. 13 ([1966] ATS 13) and could in 2024 be viewed in the Australian Treaties Library on the AustLII website (http://www.austlii.edu.au).\ncallable shares has the same meaning as in the Bank Agreement.\npaid ‑ in shares has the same meaning as in the Bank Agreement.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "In this Act:Bank means the Asian Development Bank.\nBank Agreement means the Agreement establishing the Asian Development Bank, done at Manila on 4 December 1965, as in force for Australia on the commencement of this Act.\nNote: The Agreement establishing the Asian Development Bank is in Australian Treaty Series 1966 No. 13 ([1966] ATS 13) and could in 2024 be viewed in the Australian Treaties Library on the AustLII website (http://www.austlii.edu.au).\ncallable shares has the same meaning as in the Bank Agreement.\npaid ‑ in shares has the same meaning as in the Bank Agreement."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 11.0,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "meaning (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-07-10",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00109/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_045.txt",
+    "sample_id": "AU_045",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_045",
+    "raw_sha256": "57aa248d9ad9a6912777d013e78be7c3af7e5223c7d8ee1f82fc3daa59a0f394",
+    "extracted_text_sha256": "dc6fa6ba0d5abe74662b246dd49be1f1691211c3091cdf8c7cf259e1ae91adba",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 332,
+    "source_end": 963,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_109_2009_ART_004",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_109_2009",
+    "law_name": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_name_original": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "4 Treasurer may make agreement for purchase of additional shares\nThe Treasurer may, on behalf of Australia, make an agreement or agreements with the Bank for the purchase by Australia of the following shares of the capital stock of the Bank at a price per share that is the equivalent of 12,063.50 United States dollars:\n(a) 16,379 additional paid ‑ in shares;\n(b) 393,101 additional callable shares.\nSubject to this Act, an agreement made under subsection (1) may contain such terms and conditions as the Treasurer determines.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "16,379 additional paid ‑ in shares;"
+      },
+      {
+        "marker": "B",
+        "content": "393,101 additional callable shares.\nSubject to this Act, an agreement made under subsection (1) may contain such terms and conditions as the Treasurer determines."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-07-10",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00109/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_045.txt",
+    "sample_id": "AU_045",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_045",
+    "raw_sha256": "57aa248d9ad9a6912777d013e78be7c3af7e5223c7d8ee1f82fc3daa59a0f394",
+    "extracted_text_sha256": "dc6fa6ba0d5abe74662b246dd49be1f1691211c3091cdf8c7cf259e1ae91adba",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 491,
+    "source_end": 1068,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_109_2009_ART_005",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_109_2009",
+    "law_name": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_name_original": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "Issue of promissory notes",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Treasurer may, on behalf of Australia, make promissory notes and issue them to the Bank, for the purposes of making any payment that is to be made by Australia to the Bank under an agreement made under subsection 4(1).\nA promissory note made under subsection (1) is to be:\n(a) non ‑ negotiable; and\n(b) non ‑ interest ‑ bearing; and\n(c) payable to the Bank at par value upon demand.\nSection 5 of the Asian Development Bank Act 1966 does not apply in relation to a payment that is to be made by Australia to the Bank under an agreement made under subsection 4(1).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "non ‑ negotiable; and"
+      },
+      {
+        "marker": "B",
+        "content": "non ‑ interest ‑ bearing; and"
+      },
+      {
+        "marker": "C",
+        "content": "payable to the Bank at par value upon demand.\nSection 5 of the Asian Development Bank Act 1966 does not apply in relation to a payment that is to be made by Australia to the Bank under an agreement made under subsection 4(1)."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "payment"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-07-10",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00109/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_045.txt",
+    "sample_id": "AU_045",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_045",
+    "raw_sha256": "57aa248d9ad9a6912777d013e78be7c3af7e5223c7d8ee1f82fc3daa59a0f394",
+    "extracted_text_sha256": "dc6fa6ba0d5abe74662b246dd49be1f1691211c3091cdf8c7cf259e1ae91adba",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1456,
+    "source_end": 2072,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_109_2009_ART_006",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_109_2009",
+    "law_name": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_name_original": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "Appropriation",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The money necessary for making a payment for the purposes of an agreement made under subsection 4(1) (including any payment that is to be made under a promissory note made under subsection 5(1)) is to be paid out of the Consolidated Revenue Fund, which is appropriated accordingly.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The money necessary for making a payment for the purposes of an agreement made under subsection 4(1) (including any payment that is to be made under a promissory note made under subsection 5(1)) is to be paid out of the Consolidated Revenue Fund, which is appropriated accordingly."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "payment"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-07-10",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00109/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_045.txt",
+    "sample_id": "AU_045",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_045",
+    "raw_sha256": "57aa248d9ad9a6912777d013e78be7c3af7e5223c7d8ee1f82fc3daa59a0f394",
+    "extracted_text_sha256": "dc6fa6ba0d5abe74662b246dd49be1f1691211c3091cdf8c7cf259e1ae91adba",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2051,
+    "source_end": 2382,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_109_2009_ART_End0",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_109_2009",
+    "law_name": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_name_original": "Asian Development Bank (Additional Subscription) Act 2009",
+    "law_type": "Act",
+    "article_number": "End0",
+    "article_number_normalized": "End0",
+    "article_title": "Endnotes",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "EndnotesEndnote 1—About the endnotes\nThe endnotes provide information about this compilation and the compiled law.\nThe following endnotes are included in every compilation:\nEndnote 1—About the endnotes\nEndnote 2—Abbreviation key\nEndnote 3—Legislation history\nEndnote 4—Amendment history\nAbbreviation key—Endnote 2\nThe abbreviation key sets out abbreviations that may be used in the endnotes.\nLegislation history and amendment history—Endnotes 3 and 4\nAmending laws are annotated in the legislation history and amendment history.\nThe legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.\nThe amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.\nEditorial changesThe Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.\nIf the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.\nMisdescribed amendments\nA misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003 .\nIf a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.\nEndnote 2—Abbreviation key\nad = added or inserted\no = order(s)am = amended\nOrd = Ordinanceamdt = amendment\norig = originalc = clause(s)\npar = paragraph(s)/subparagraph(s)\nC[x] = Compilation No. x\n/sub ‑ subparagraph(s)\nCh = Chapter(s)pres = present\ndef = definition(s)prev = previous\nDict = Dictionary(prev…) = previously\ndisallowed = disallowed by Parliament\nPt = Part(s)Div = Division(s)\nr = regulation(s)/rule(s)\ned = editorial change\nreloc = relocatedexp = expires/expired or ceases/ceased to have\nrenum = renumberedeffect\nrep = repealedF = Federal Register of Legislation\nrs = repealed and substituted\ngaz = gazettes = section(s)/subsection(s)\nLA = Legislation Act 2003\nSch = Schedule(s)LIA = Legislative Instruments Act 2003\nSdiv = Subdivision(s)\n(md) = misdescribed amendment can be given\nSLI = Select Legislative Instrument\neffectSR = Statutory Rules\n(md not incorp) = misdescribed amendment\nSub ‑ Ch = Sub ‑ Chapter(s)\ncannot be given effect\nSubPt = Subpart(s)mod = modified/modification\nunderlining = whole or part not\nNo. = Number(s)commenced or to be commenced\nEndnote 3—Legislation history\nActNumber and year\nAssentCommencement\nApplication, saving and transitional provisions\nAsian Development Bank (Additional Subscription) Act 2009\n109, 2009\n16 Nov 2009\n16 Nov 2009 (s 2)\nTreasury Laws Amendment (Delivering Better Financial Outcomes and Other Measures) Act 2024\n67, 2024\n9 July 2024\nSch 4 (item 8): 10 July 2024 (s 2(1) item 8)\n—\nEndnote 4—Amendment history\nProvision affectedHow affected\ns 3 .....................\nrs No 67, 2024",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "endnote",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "EndnotesEndnote 1—About the endnotes\nThe endnotes provide information about this compilation and the compiled law.\nThe following endnotes are included in every compilation:\nEndnote 1—About the endnotes\nEndnote 2—Abbreviation key\nEndnote 3—Legislation history\nEndnote 4—Amendment history\nAbbreviation key—Endnote 2\nThe abbreviation key sets out abbreviations that may be used in the endnotes.\nLegislation history and amendment history—Endnotes 3 and 4\nAmending laws are annotated in the legislation history and amendment history.\nThe legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.\nThe amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.\nEditorial changesThe Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.\nIf the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.\nMisdescribed amendments\nA misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003 .\nIf a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.\nEndnote 2—Abbreviation key\nad = added or inserted\no = order(s)am = amended\nOrd = Ordinanceamdt = amendment\norig = originalc = clause(s)\npar = paragraph(s)/subparagraph(s)\nC[x] = Compilation No. x\n/sub ‑ subparagraph(s)\nCh = Chapter(s)pres = present\ndef = definition(s)prev = previous\nDict = Dictionary(prev…) = previously\ndisallowed = disallowed by Parliament\nPt = Part(s)Div = Division(s)\nr = regulation(s)/rule(s)\ned = editorial change\nreloc = relocatedexp = expires/expired or ceases/ceased to have\nrenum = renumberedeffect\nrep = repealedF = Federal Register of Legislation\nrs = repealed and substituted\ngaz = gazettes = section(s)/subsection(s)\nLA = Legislation Act 2003\nSch = Schedule(s)LIA = Legislative Instruments Act 2003\nSdiv = Subdivision(s)\n(md) = misdescribed amendment can be given\nSLI = Select Legislative Instrument\neffectSR = Statutory Rules\n(md not incorp) = misdescribed amendment\nSub ‑ Ch = Sub ‑ Chapter(s)\ncannot be given effect\nSubPt = Subpart(s)mod = modified/modification\nunderlining = whole or part not\nNo. = Number(s)commenced or to be commenced\nEndnote 3—Legislation history\nActNumber and year\nAssentCommencement\nApplication, saving and transitional provisions\nAsian Development Bank (Additional Subscription) Act 2009\n109, 2009\n16 Nov 2009\n16 Nov 2009 (s 2)\nTreasury Laws Amendment (Delivering Better Financial Outcomes and Other Measures) Act 2024\n67, 2024\n9 July 2024\nSch 4 (item 8): 10 July 2024 (s 2(1) item 8)\n—\nEndnote 4—Amendment history\nProvision affectedHow affected\ns 3 .....................\nrs No 67, 2024"
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "definition",
+          "definition (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-07-10",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00109/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_045.txt",
+    "sample_id": "AU_045",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_045",
+    "raw_sha256": "57aa248d9ad9a6912777d013e78be7c3af7e5223c7d8ee1f82fc3daa59a0f394",
+    "extracted_text_sha256": "dc6fa6ba0d5abe74662b246dd49be1f1691211c3091cdf8c7cf259e1ae91adba",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2349,
+    "source_end": 6008,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

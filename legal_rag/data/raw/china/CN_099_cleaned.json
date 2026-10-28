@@ -1,0 +1,5042 @@
+[
+  {
+    "doc_id": "CN_DOC_3_2015_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第一条 为了加强人身保险公司(以下简称保险公司)保险条款和保险费率的监督管理,保护投保人、被保险人和受益人的合法权益,维护保险市场竞争秩序,\n鼓励保险公司创新,根据《中华人民共和国保险法》(以下简称《保险法》)等有关法律、行政法规,制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 104,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为了加强人身保险公司(以下简称保险公司)保险条款和保险费率的监督管理,保护投保人、被保险人和受益人的合法权益,维护保险市场竞争秩序,\n鼓励保险公司创新,根据《中华人民共和国保险法》(以下简称《保险法》)等有关法律、行政法规,制定本办法。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第二条 中国保险监督管理委员会(以下简称中国保监会)依法对保险公司的保险条款和保险费率实施监督管理。中国保监会派出机构在中国保监会授权范\n围内行使职权。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 70,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 中国保险监督管理委员会(以下简称中国保监会)依法对保险公司的保险条款和保险费率实施监督管理。中国保监会派出机构在中国保监会授权范\n围内行使职权。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第三条 保险公司应当按照《保险法》和中国保监会有关规定,公平、合理拟订保险条款和保险费率,不得损害投保人、被保险人和受益人的合法权益。保\n险公司对其拟订的保险条款和保险费率承担相应责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 保险公司应当按照《保险法》和中国保监会有关规定,公平、合理拟订保险条款和保险费率,不得损害投保人、被保险人和受益人的合法权益。保\n险公司对其拟订的保险条款和保险费率承担相应责任。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 182,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第四条 保险公司应当按照本办法规定将保险条款和保险费率报送中国保监会审批或者备案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 保险公司应当按照本办法规定将保险条款和保险费率报送中国保监会审批或者备案。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第五条 保险公司应当建立科学、高效、符合市场需求的人身保险开发管理机制,定期跟踪和分析经营情况,及时发现保险条款、保险费率经营管理中存在\n的问题并采取相应解决措施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 74,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 保险公司应当建立科学、高效、符合市场需求的人身保险开发管理机制,定期跟踪和分析经营情况,及时发现保险条款、保险费率经营管理中存在\n的问题并采取相应解决措施。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 83,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第六条 保险公司应当充分发挥核心竞争优势,合理配置公司资源,围绕宏观经济政策、市场需求、公司战略目标开发保险险种。\n第二章 设计与分类",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 59,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 保险公司应当充分发挥核心竞争优势,合理配置公司资源,围绕宏观经济政策、市场需求、公司战略目标开发保险险种。\n第二章 设计与分类"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7223,
+    "source_end": 7340,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第七条 人身保险分为人寿保险、年金保险、健康保险、意外伤害保险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 27,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 人身保险分为人寿保险、年金保险、健康保险、意外伤害保险。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第八条 人寿保险是指以人的寿命为保险标的的人身保险。人寿保险分为定期寿险、终身寿险、两全保险等。\n定期寿险是指以被保险人死亡为给付保险金条件,且保险期间为固定年限的人寿保险。\n终身寿险是指以被保险人死亡为给付保险金条件,且保险期间为终身的人寿保险。\n两全保险是指既包含以被保险人死亡为给付保险金条件,又包含以被保险人生存为给付保险金条件的人寿保险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 160,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 人寿保险是指以人的寿命为保险标的的人身保险。人寿保险分为定期寿险、终身寿险、两全保险等。\n定期寿险是指以被保险人死亡为给付保险金条件,且保险期间为固定年限的人寿保险。\n终身寿险是指以被保险人死亡为给付保险金条件,且保险期间为终身的人寿保险。\n两全保险是指既包含以被保险人死亡为给付保险金条件,又包含以被保险人生存为给付保险金条件的人寿保险。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 31.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第九条 年金保险是指以被保险人生存为给付保险金条件,并按约定的时间间隔分期给付生存保险金的人身保险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 47,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 年金保险是指以被保险人生存为给付保险金条件,并按约定的时间间隔分期给付生存保险金的人身保险。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第十条 养老年金保险是指以养老保障为目的的年金保险。养老年金保险应当符合下列条件:\n(一)保险合同约定给付被保险人生存保险金的年龄不得小于国家规定的退休年龄;\n(二)相邻两次给付的时间间隔不得超过一年。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 90,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 养老年金保险是指以养老保障为目的的年金保险。养老年金保险应当符合下列条件:\n(一)保险合同约定给付被保险人生存保险金的年龄不得小于国家规定的退休年龄;\n(二)相邻两次给付的时间间隔不得超过一年。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 26,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第十一条 健康保险是指以因健康原因导致损失为给付保险金条件的人身保险。健康保险分为疾病保险、医疗保险、失能收入损失保险、护理保险等。\n疾病保险是指以保险合同约定的疾病发生为给付保险金条件的健康保险。\n医疗保险是指以保险合同约定的医疗行为发生为给付保险金条件,按约定对被保险人接受诊疗期间的医疗费用支出提供保障的健康保险。\n失能收入损失保险是指以因保险合同约定的疾病或者意外伤害导致工作能力丧失为给付保险金条件,按约定对被保险人在一定时期内收入减少或者中断\n提供保障的健康保险。\n护理保险是指以因保险合同约定的日常生活能力障碍引发护理需要为给付保险金条件,按约定对被保险人的护理支出提供保障的健康保险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 282,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 健康保险是指以因健康原因导致损失为给付保险金条件的人身保险。健康保险分为疾病保险、医疗保险、失能收入损失保险、护理保险等。\n疾病保险是指以保险合同约定的疾病发生为给付保险金条件的健康保险。\n医疗保险是指以保险合同约定的医疗行为发生为给付保险金条件,按约定对被保险人接受诊疗期间的医疗费用支出提供保障的健康保险。\n失能收入损失保险是指以因保险合同约定的疾病或者意外伤害导致工作能力丧失为给付保险金条件,按约定对被保险人在一定时期内收入减少或者中断\n提供保障的健康保险。\n护理保险是指以因保险合同约定的日常生活能力障碍引发护理需要为给付保险金条件,按约定对被保险人的护理支出提供保障的健康保险。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 43.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1128,
+    "source_end": 1428,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第十二条 意外伤害保险是指以被保险人因意外事故而导致身故、残疾或者发生保险合同约定的其他事故为给付保险金条件的人身保险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 57,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 意外伤害保险是指以被保险人因意外事故而导致身故、残疾或者发生保险合同约定的其他事故为给付保险金条件的人身保险。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1429,
+    "source_end": 1489,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第十三条 人寿保险和健康保险可以包含全残责任。\n健康保险包含两种以上健康保障责任的,应当按照一般精算原理判断主要责任,并根据主要责任确定险种类别。长期健康保险中的疾病保险,可以包含死亡\n保险责任,但死亡给付金额不得高于疾病最高给付金额。其他健康保险不得包含死亡保险责任,但因疾病引发的死亡保险责任除外。\n医疗保险和疾病保险不得包含生存保险责任。\n意外伤害保险可以包含由意外伤害导致的医疗保险责任。仅包含由意外伤害导致的医疗保险责任的保险应当确定为医疗保险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 211,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 人寿保险和健康保险可以包含全残责任。\n健康保险包含两种以上健康保障责任的,应当按照一般精算原理判断主要责任,并根据主要责任确定险种类别。长期健康保险中的疾病保险,可以包含死亡\n保险责任,但死亡给付金额不得高于疾病最高给付金额。其他健康保险不得包含死亡保险责任,但因疾病引发的死亡保险责任除外。\n医疗保险和疾病保险不得包含生存保险责任。\n意外伤害保险可以包含由意外伤害导致的医疗保险责任。仅包含由意外伤害导致的医疗保险责任的保险应当确定为医疗保险。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 28.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1490,
+    "source_end": 1718,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第十四条 保险公司应当严格遵循本办法所规定的人寿保险、年金保险、健康保险、意外伤害保险的分类标准,中国保监会另有规定的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 56,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 保险公司应当严格遵循本办法所规定的人寿保险、年金保险、健康保险、意外伤害保险的分类标准,中国保监会另有规定的除外。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1719,
+    "source_end": 1781,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第十五条 人身保险的定名应当符合下列格式:\n\"保险公司名称\"+\"吉庆、说明性文字\"+\"险种类别\"+\"(设计类型)\"\n前款规定的保险公司名称可用全称或者简称;吉庆、说明性文字的字数不得超过10个。\n附加保险的定名应当在\"保险公司名称\"后标注\"附加\"字样。\n团体保险应当在名称中标明\"团体\"字样。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 113,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 人身保险的定名应当符合下列格式:\n\"保险公司名称\"+\"吉庆、说明性文字\"+\"险种类别\"+\"(设计类型)\"\n前款规定的保险公司名称可用全称或者简称;吉庆、说明性文字的字数不得超过10个。\n附加保险的定名应当在\"保险公司名称\"后标注\"附加\"字样。\n团体保险应当在名称中标明\"团体\"字样。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 82,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第十六条 年金保险中的养老年金保险险种类别为\"养老年金保险\",其他年金保险险种类别为\"年金保险\";意外伤害保险险种类别为\"意外伤害保险\"。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 59,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 年金保险中的养老年金保险险种类别为\"养老年金保险\",其他年金保险险种类别为\"年金保险\";意外伤害保险险种类别为\"意外伤害保险\"。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7222,
+    "source_end": 7341,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第十七条 人身保险的设计类型分为普通型、分红型、投资连结型、万能型等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 30,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 人身保险的设计类型分为普通型、分红型、投资连结型、万能型等。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第二章",
+    "chapter_title": "设计与分类",
+    "text_zh": "第十八条 分红型、投资连结型和万能型人身保险应当在名称中注明设计类型,普通型人身保险无须在名称中注明设计类型。\n第三章 审批与备案",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 59,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 分红型、投资连结型和万能型人身保险应当在名称中注明设计类型,普通型人身保险无须在名称中注明设计类型。\n第三章 审批与备案"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2036,
+    "source_end": 2101,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第十九条 保险公司总公司负责将保险条款和保险费率报送中国保监会审批或者备案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 36,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 保险公司总公司负责将保险条款和保险费率报送中国保监会审批或者备案。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第二十条 保险公司下列险种的保险条款和保险费率,应当在使用前报送中国保监会审批:\n(一)关系社会公众利益的保险险种;(二)依法实行强制保险的险种;\n(三)中国保监会规定的新开发人寿保险险种;\n(四)中国保监会规定的其他险种。\n前款规定以外的其他险种,应当报送中国保监会备案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 116,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 保险公司下列险种的保险条款和保险费率,应当在使用前报送中国保监会审批:\n(一)关系社会公众利益的保险险种;(二)依法实行强制保险的险种;\n(三)中国保监会规定的新开发人寿保险险种;\n(四)中国保监会规定的其他险种。\n前款规定以外的其他险种,应当报送中国保监会备案。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第二十一条 保险公司报送保险条款和保险费率备案的,应当提交下列材料:\n(一)《人身保险公司保险条款和保险费率备案报送材料清单表》;\n(二)保险条款;(三)保险费率表;\n(四)总精算师签署的相关精算报告;(五)总精算师声明书;\n(六)法律责任人声明书;(七)中国保监会规定的其他材料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 111,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 保险公司报送保险条款和保险费率备案的,应当提交下列材料:\n(一)《人身保险公司保险条款和保险费率备案报送材料清单表》;\n(二)保险条款;(三)保险费率表;\n(四)总精算师签署的相关精算报告;(五)总精算师声明书;\n(六)法律责任人声明书;(七)中国保监会规定的其他材料。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第二十二条 保险公司报送分红保险、投资连结保险、万能保险保险条款和保险费率备案的,除提交第二十一条规定的材料以外,还应当提交下列材料:\n(一)财务管理办法;(二)业务管理办法;\n(三)信息披露管理制度;(四)业务规划及对偿付能力的影响;\n(五)产品说明书。\n分红保险,还应当提交红利计算和分配办法、收入分配和费用分摊原则;投资连结保险和万能保险,还应当提交包括销售渠道、销售区域等内容的销售管理\n办法。\n保险公司提交的上述材料与本公司已经中国保监会审批或者备案的同类险种对应材料完全一致的,可以免于提交该材料,但应当在材料清单表中予以注\n明。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 234,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 保险公司报送分红保险、投资连结保险、万能保险保险条款和保险费率备案的,除提交第二十一条规定的材料以外,还应当提交下列材料:\n(一)财务管理办法;(二)业务管理办法;\n(三)信息披露管理制度;(四)业务规划及对偿付能力的影响;\n(五)产品说明书。\n分红保险,还应当提交红利计算和分配办法、收入分配和费用分摊原则;投资连结保险和万能保险,还应当提交包括销售渠道、销售区域等内容的销售管理\n办法。\n保险公司提交的上述材料与本公司已经中国保监会审批或者备案的同类险种对应材料完全一致的,可以免于提交该材料,但应当在材料清单表中予以注\n明。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2422,
+    "source_end": 2693,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第二十三条 保险公司报送保险条款和保险费率审批的,除提交第二十一条第(二)项至第(七)项以及第二十二条规定的材料外,还应当提交下列材料:\n(一)《人身保险公司保险条款和保险费率审批申请表》;\n(二)《人身保险公司保险条款和保险费率审批报送材料清单表》;\n(三)保险条款和保险费率的说明材料,包括保险条款和保险费率的主要特点、市场风险和经营风险分析、相应的管控措施等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 156,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 保险公司报送保险条款和保险费率审批的,除提交第二十一条第(二)项至第(七)项以及第二十二条规定的材料外,还应当提交下列材料:\n(一)《人身保险公司保险条款和保险费率审批申请表》;\n(二)《人身保险公司保险条款和保险费率审批报送材料清单表》;\n(三)保险条款和保险费率的说明材料,包括保险条款和保险费率的主要特点、市场风险和经营风险分析、相应的管控措施等。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 22.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7180,
+    "source_end": 7413,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第二十四条 保险公司报送下列保险条款和保险费率审批或者备案的,除分别按照第二十一条、第二十二条、第二十三条规定报送材料以外,还应当按照下\n列规定提交材料:(一)具有现金价值的,提交包含现金价值表示例的书面材料以及包含各年龄现金价值全表的电子文档;\n(二)具有减额交清条款的,提交包含减额交清保额表示例的书面材料以及包含各年龄减额交清保额全表的电子文档;\n(三)中国保监会允许费率浮动或者参数调整的,提交由总精算师签署的费率浮动管理办法或者产品参数调整办法;\n(四)保险期间超过一年的,提交利润测试模型的电子文档。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 230,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 保险公司报送下列保险条款和保险费率审批或者备案的,除分别按照第二十一条、第二十二条、第二十三条规定报送材料以外,还应当按照下\n列规定提交材料:(一)具有现金价值的,提交包含现金价值表示例的书面材料以及包含各年龄现金价值全表的电子文档;\n(二)具有减额交清条款的,提交包含减额交清保额表示例的书面材料以及包含各年龄减额交清保额全表的电子文档;\n(三)中国保监会允许费率浮动或者参数调整的,提交由总精算师签署的费率浮动管理办法或者产品参数调整办法;\n(四)保险期间超过一年的,提交利润测试模型的电子文档。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2878,
+    "source_end": 3134,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第二十五条 保险公司报送保险条款和保险费率审批或者备案的,提交的精算报告至少应当包括下列内容:\n(一)数据来源和定价基础;(二)定价方法和定价假设,保险期间超过一年的,还应当包括利润测试参数、利润测试结果以及主要参数变化的敏感性分析;\n(三)法定准备金计算方法;(四)主要风险及相应管理意见;\n(五)总精算师需要特别说明的内容;(六)中国保监会规定的其他内容。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 153,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 保险公司报送保险条款和保险费率审批或者备案的,提交的精算报告至少应当包括下列内容:\n(一)数据来源和定价基础;(二)定价方法和定价假设,保险期间超过一年的,还应当包括利润测试参数、利润测试结果以及主要参数变化的敏感性分析;\n(三)法定准备金计算方法;(四)主要风险及相应管理意见;\n(五)总精算师需要特别说明的内容;(六)中国保监会规定的其他内容。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 88,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第二十六条 保险公司报送下列保险条款和保险费率审批或者备案的,提交的精算报告除符合第二十五条规定外,还应当符合下列规定:\n(一)具有现金价值的,列明现金价值计算方法;\n(二)具有减额交清条款的,列明减额交清保额的计算方法;\n(三)具有利益演示的,列明利益演示的计算方法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 116,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 保险公司报送下列保险条款和保险费率审批或者备案的,提交的精算报告除符合第二十五条规定外,还应当符合下列规定:\n(一)具有现金价值的,列明现金价值计算方法;\n(二)具有减额交清条款的,列明减额交清保额的计算方法;\n(三)具有利益演示的,列明利益演示的计算方法。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3316,
+    "source_end": 3451,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第二十七条 中国保监会收到保险公司报送的保险条款和保险费率审批申请后,应当根据下列情况分别作出处理:\n(一)申请材料不齐全的,自收到材料之日起5日内一次告知保险公司需要补正的全部内容;\n(二)申请材料齐全或者保险公司按照规定提交全部补正申请材料的,受理该申请,并向保险公司出具加盖受理专用印章的书面凭证。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 137,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 中国保监会收到保险公司报送的保险条款和保险费率审批申请后,应当根据下列情况分别作出处理:\n\n(一)申请材料不齐全的,自收到材料之日起5日内一次告知保险公司需要补正的全部内容;\n(二)申请材料齐全或者保险公司按照规定提交全部补正申请材料的,受理该申请,并向保险公司出具加盖受理专用印章的书面凭证。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3452,
+    "source_end": 3605,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第二十八条 中国保监会应当自受理保险条款和保险费率审批申请之日起20日内作出批准或者不予批准的决定。20日内不能作出决定的,经中国保监会负\n责人批准,审批期限可以延长10日。中国保监会应当将延长期限的理由告知保险公司。\n决定批准的,中国保监会应当将批准决定在保监会文告或者网站上向社会公布;决定不予批准的,中国保监会应当书面通知保险公司,说明理由并告知其享有\n依法申请行政复议或者提起行政诉讼的权利。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 180,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 中国保监会应当自受理保险条款和保险费率审批申请之日起20日内作出批准或者不予批准的决定。20日内不能作出决定的,经中国保监会负\n责人批准,审批期限可以延长10日。中国保监会应当将延长期限的理由告知保险公司。\n决定批准的,中国保监会应当将批准决定在保监会文告或者网站上向社会公布;决定不予批准的,中国保监会应当书面通知保险公司,说明理由并告知其享有\n依法申请行政复议或者提起行政诉讼的权利。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance",
+      "corporate_governance",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3606,
+    "source_end": 3806,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第二十九条 中国保监会可以对审批的保险条款和保险费率进行专家评审,并将专家评审所需时间书面告知保险公司。\n中国保监会对涉及社会公共利益的保险条款和保险费率可以组织听证,并根据《中华人民共和国行政许可法》有关规定予以实施。\n专家评审时间和听证时间不在本办法第二十八条规定的审批期限内计算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 133,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 中国保监会可以对审批的保险条款和保险费率进行专家评审,并将专家评审所需时间书面告知保险公司。\n中国保监会对涉及社会公共利益的保险条款和保险费率可以组织听证,并根据《中华人民共和国行政许可法》有关规定予以实施。\n专家评审时间和听证时间不在本办法第二十八条规定的审批期限内计算。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "公共 (weak)",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3807,
+    "source_end": 3950,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第三十条 保险公司在保险条款和保险费率审批申请受理后、审批决定作出前,撤回审批申请的,应当向中国保监会提交书面申请,中国保监会应当及时终止\n对保险条款和保险费率审批申请的审查,并将审批申请材料退回保险公司。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 95,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 保险公司在保险条款和保险费率审批申请受理后、审批决定作出前,撤回审批申请的,应当向中国保监会提交书面申请,中国保监会应当及时终止\n对保险条款和保险费率审批申请的审查,并将审批申请材料退回保险公司。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6165,
+    "source_end": 6290,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第三十一条 保险公司在保险条款和保险费率审批申请受理后、审批决定作出前,对申报的保险条款和保险费率进行修改的,应当向中国保监会申请撤回审\n批。\n保险公司有前款规定情形的,审批期限自中国保监会收到修改后的完整申请材料之日起重新计算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 106,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 保险公司在保险条款和保险费率审批申请受理后、审批决定作出前,对申报的保险条款和保险费率进行修改的,应当向中国保监会申请撤回审\n批。\n保险公司有前款规定情形的,审批期限自中国保监会收到修改后的完整申请材料之日起重新计算。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4055,
+    "source_end": 4170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第三十二条 保险公司对于未获批准的保险条款和保险费率,可以在修改后重新报送中国保监会审批。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 42,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 保险公司对于未获批准的保险条款和保险费率,可以在修改后重新报送中国保监会审批。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4171,
+    "source_end": 4216,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第三十三条 保险公司报送保险条款和保险费率备案,不得迟于使用后10日。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 30,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 保险公司报送保险条款和保险费率备案,不得迟于使用后10日。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4217,
+    "source_end": 4252,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第三章",
+    "chapter_title": "审批与备案",
+    "text_zh": "第三十四条 中国保监会收到备案材料后,应当根据下列情况分别作出处理:\n(一)备案材料不齐全的,一次告知保险公司在10日内补正全部备案材料;\n(二)备案材料齐全或者保险公司按照规定提交全部补正材料的,将备案材料存档,并向保险公司出具备案回执;\n(三)发现备案的保险条款和保险费率有《保险法》第一百三十六条规定情形的,责令保险公司立即停止使用。\n第四章 变更与停止使用",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 157,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 中国保监会收到备案材料后,应当根据下列情况分别作出处理:\n(一)备案材料不齐全的,一次告知保险公司在10日内补正全部备案材料;\n(二)备案材料齐全或者保险公司按照规定提交全部补正材料的,将备案材料存档,并向保险公司出具备案回执;\n(三)发现备案的保险条款和保险费率有《保险法》第一百三十六条规定情形的,责令保险公司立即停止使用。\n第四章 变更与停止使用"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4253,
+    "source_end": 4435,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第四章",
+    "chapter_title": "变更与停止使用",
+    "text_zh": "第三十五条 保险公司变更已经审批或者备案的保险条款和保险费率,改变其保险责任、险种类别或者定价方法的,应当将保险条款和保险费率重新报送审\n批或者备案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 69,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 保险公司变更已经审批或者备案的保险条款和保险费率,改变其保险责任、险种类别或者定价方法的,应当将保险条款和保险费率重新报送审\n批或者备案。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4437,
+    "source_end": 4512,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第四章",
+    "chapter_title": "变更与停止使用",
+    "text_zh": "第三十六条 保险公司变更已经审批或者备案的保险条款和保险费率,且不改变保险责任、险种类别和定价方法的,应当在发生变更之日起10日内向中国保\n监会备案,并提交下列材料:(一)《变更备案报送材料清单表》;\n(二)变更原因、主要变更内容的对比说明;\n(三)已经审批或者备案的保险条款;(四)变更后的相关材料;\n(五)总精算师声明书;(六)法律责任人声明书;\n(七)中国保监会规定的其他材料。\n保险公司名称变更导致人身保险定名发生变更,但其他内容未变更的,可以不提交前款第(三)、(四)、(五)项规定的材料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 201,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 保险公司变更已经审批或者备案的保险条款和保险费率,且不改变保险责任、险种类别和定价方法的,应当在发生变更之日起10日内向中国保\n监会备案,并提交下列材料:(一)《变更备案报送材料清单表》;\n(二)变更原因、主要变更内容的对比说明;\n(三)已经审批或者备案的保险条款;(四)变更后的相关材料;\n(五)总精算师声明书;(六)法律责任人声明书;\n(七)中国保监会规定的其他材料。\n保险公司名称变更导致人身保险定名发生变更,但其他内容未变更的,可以不提交前款第(三)、(四)、(五)项规定的材料。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4513,
+    "source_end": 4763,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第四章",
+    "chapter_title": "变更与停止使用",
+    "text_zh": "第三十七条 保险公司决定在全国范围内停止使用保险条款和保险费率的,应当在停止使用后10日内向中国保监会提交报告,说明停止使用的原因、后续服\n务的相关措施等情况,并将报告抄送原使用区域的中国保监会派出机构。\n保险公司决定在部分区域停止使用保险条款和保险费率的,不得以停止使用保险条款和保险费率进行宣传和销售误导。\n保险公司省级分公司及以下分支机构,不得决定停止使用保险条款和保险费率。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 176,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 保险公司决定在全国范围内停止使用保险条款和保险费率的,应当在停止使用后10日内向中国保监会提交报告,说明停止使用的原因、后续服\n务的相关措施等情况,并将报告抄送原使用区域的中国保监会派出机构。\n保险公司决定在部分区域停止使用保险条款和保险费率的,不得以停止使用保险条款和保险费率进行宣传和销售误导。\n保险公司省级分公司及以下分支机构,不得决定停止使用保险条款和保险费率。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 19.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4764,
+    "source_end": 4955,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第四章",
+    "chapter_title": "变更与停止使用",
+    "text_zh": "第三十八条 保险公司决定重新销售已经停止使用的保险条款和保险费率的,应当在重新销售后10日内向中国保监会提交报告,说明重新使用的原因、管理\n计划等情况,并将报告抄送拟使用区域的中国保监会派出机构。\n第五章 总精算师和法律责任人",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 102,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条 保险公司决定重新销售已经停止使用的保险条款和保险费率的,应当在重新销售后10日内向中国保监会提交报告,说明重新使用的原因、管理\n计划等情况,并将报告抄送拟使用区域的中国保监会派出机构。\n第五章 总精算师和法律责任人"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4956,
+    "source_end": 5069,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第五章",
+    "chapter_title": "总精算师和法律责任人",
+    "text_zh": "第三十九条 保险公司总精算师应当对报送审批或者备案的保险条款和保险费率出具总精算师声明书,并签署相关的精算报告、费率浮动管理办法或者产\n品参数调整办法。\n保险公司总精算师对报送审批或者备案的保险条款和保险费率承担下列责任:\n(一)分类准确,定名符合本办法规定;(二)精算报告内容完备;\n(三)精算假设和精算方法符合一般精算原理和中国保监会的精算规定;\n(四)具有利益演示的险种,利益演示方法符合一般精算原理和中国保监会的有关规定;\n(五)保险费率厘定合理,满足充足性、适当性和公平性原则;\n(六)中国保监会规定的其他责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 227,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条 保险公司总精算师应当对报送审批或者备案的保险条款和保险费率出具总精算师声明书,并签署相关的精算报告、费率浮动管理办法或者产\n品参数调整办法。\n保险公司总精算师对报送审批或者备案的保险条款和保险费率承担下列责任:\n(一)分类准确,定名符合本办法规定;(二)精算报告内容完备;\n(三)精算假设和精算方法符合一般精算原理和中国保监会的精算规定;\n(四)具有利益演示的险种,利益演示方法符合一般精算原理和中国保监会的有关规定;\n(五)保险费率厘定合理,满足充足性、适当性和公平性原则;\n(六)中国保监会规定的其他责任。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5070,
+    "source_end": 5331,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第五章",
+    "chapter_title": "总精算师和法律责任人",
+    "text_zh": "第四十条保险公司应当指定法律责任人,并向中国保监会备案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 26,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条保险公司应当指定法律责任人,并向中国保监会备案。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5332,
+    "source_end": 5360,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_041",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "第五章",
+    "chapter_title": "总精算师和法律责任人",
+    "text_zh": "第四十一条 保险公司指定的法律责任人应当符合下列条件:\n(一)在中华人民共和国境内有住所;(二)具有本科以上学历;\n(三)具有中国律师资格证书或者法律职业资格证书;\n(四)属于公司正式员工,且在公司内担任部门负责人及以上职务;\n(五)具有5年以上国内保险或者法律从业经验,其中包括三年以上在保险行业内的法律从业经验;\n(六)过去3年内未因违法执业行为受到行政处罚;\n(七)未受过刑事处罚;(八)中国保监会规定的其他条件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 174,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十一条 保险公司指定的法律责任人应当符合下列条件:\n(一)在中华人民共和国境内有住所;(二)具有本科以上学历;\n(三)具有中国律师资格证书或者法律职业资格证书;\n(四)属于公司正式员工,且在公司内担任部门负责人及以上职务;\n(五)具有5年以上国内保险或者法律从业经验,其中包括三年以上在保险行业内的法律从业经验;\n(六)过去3年内未因违法执业行为受到行政处罚;\n(七)未受过刑事处罚;(八)中国保监会规定的其他条件。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "public_governance",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "刑事",
+          "刑事 (weak)",
+          "责任 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5362,
+    "source_end": 5572,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_042",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "",
+    "chunk_index": 41,
+    "chapter": "第五章",
+    "chapter_title": "总精算师和法律责任人",
+    "text_zh": "第四十二条 保险公司法律责任人履行下列职责:\n(一)参与制定人身保险开发策略;(二)审核保险条款的相关材料;\n(三)定期分析由保险条款引发的诉讼案件;\n(四)及时向中国保监会报告保险条款的重大风险隐患;\n(五)中国保监会或者保险公司章程规定的其他职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 105,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十二条 保险公司法律责任人履行下列职责:\n(一)参与制定人身保险开发策略;(二)审核保险条款的相关材料;\n(三)定期分析由保险条款引发的诉讼案件;\n(四)及时向中国保监会报告保险条款的重大风险隐患;\n(五)中国保监会或者保险公司章程规定的其他职责。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "公司章程",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7210,
+    "source_end": 7386,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_043",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "",
+    "chunk_index": 42,
+    "chapter": "第五章",
+    "chapter_title": "总精算师和法律责任人",
+    "text_zh": "第四十三条 保险公司法律责任人应当对报送审批或者备案的保险条款出具法律责任人声明书,并承担下列责任:\n(一)保险条款公平合理,不损害社会公共利益,不侵害投保人、被保险人和受益人的合法权益;\n(二)保险条款文字准确,表述严谨;(三)具有产品说明书的,产品说明书符合条款表述,内容全面、真实,符合中国保监会的有关规定;\n(四)保险条款符合《保险法》等法律、行政法规和中国保监会有关规定;\n(五)中国保监会规定的其他责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 175,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十三条 保险公司法律责任人应当对报送审批或者备案的保险条款出具法律责任人声明书,并承担下列责任:\n(一)保险条款公平合理,不损害社会公共利益,不侵害投保人、被保险人和受益人的合法权益;\n(二)保险条款文字准确,表述严谨;(三)具有产品说明书的,产品说明书符合条款表述,内容全面、真实,符合中国保监会的有关规定;\n(四)保险条款符合《保险法》等法律、行政法规和中国保监会有关规定;\n(五)中国保监会规定的其他责任。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "公共 (weak)",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5700,
+    "source_end": 5908,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_044",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "44",
+    "article_number_normalized": "044",
+    "article_title": "",
+    "chunk_index": 43,
+    "chapter": "第五章",
+    "chapter_title": "总精算师和法律责任人",
+    "text_zh": "第四十四条 保险公司报送法律责任人备案的,应当向中国保监会提交下列材料一式两份:\n(一)《法律责任人备案情况表》;(二)拟任人身份证明和住所证明复印件;\n(三)学历证明和专业资格证明复印件;(四)从业经历证明;\n(五)中国保监会规定的其他材料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 99,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十四条 保险公司报送法律责任人备案的,应当向中国保监会提交下列材料一式两份:\n(一)《法律责任人备案情况表》;(二)拟任人身份证明和住所证明复印件;\n(三)学历证明和专业资格证明复印件;(四)从业经历证明;\n(五)中国保监会规定的其他材料。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5909,
+    "source_end": 6031,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_045",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "45",
+    "article_number_normalized": "045",
+    "article_title": "",
+    "chunk_index": 44,
+    "chapter": "第五章",
+    "chapter_title": "总精算师和法律责任人",
+    "text_zh": "第四十五条 保险公司应当加强对法律责任人管理,建立法律责任人相关制度,向法律责任人提供其承担工作职责所必需的信息,并保证法律责任人能够独立\n地履行职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 70,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十五条 保险公司应当加强对法律责任人管理,建立法律责任人相关制度,向法律责任人提供其承担工作职责所必需的信息,并保证法律责任人能够独立\n地履行职责。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6032,
+    "source_end": 6108,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_046",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "46",
+    "article_number_normalized": "046",
+    "article_title": "",
+    "chunk_index": 45,
+    "chapter": "第五章",
+    "chapter_title": "总精算师和法律责任人",
+    "text_zh": "第四十六条 法律责任人因辞职、被免职或者被撤职等原因离职的,保险公司应当自作出批准辞职或者免职、撤职等决定之日起30日内,向中国保监会报告,\n并提交下列材料:(一)法律责任人被免职或者被撤职的原因说明;\n(二)免职、撤职或者批准辞职等有关决定的复印件;\n(三)法律责任人作出的离职报告或者保险公司对未作离职报告的法律责任人作出的离职说明报告。\n第六章 法律责任",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 156,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十六条 法律责任人因辞职、被免职或者被撤职等原因离职的,保险公司应当自作出批准辞职或者免职、撤职等决定之日起30日内,向中国保监会报告,\n并提交下列材料:(一)法律责任人被免职或者被撤职的原因说明;\n(二)免职、撤职或者批准辞职等有关决定的复印件;\n(三)法律责任人作出的离职报告或者保险公司对未作离职报告的法律责任人作出的离职说明报告。\n第六章 法律责任"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6109,
+    "source_end": 6289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_047",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "47",
+    "article_number_normalized": "047",
+    "article_title": "",
+    "chunk_index": 46,
+    "chapter": "第六章",
+    "chapter_title": "法律责任",
+    "text_zh": "第四十七条 保险公司未按照规定申请批准保险条款、保险费率的,由中国保监会依据《保险法》第一百六十四条进行处罚。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 49,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十七条 保险公司未按照规定申请批准保险条款、保险费率的,由中国保监会依据《保险法》第一百六十四条进行处罚。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_048",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "48",
+    "article_number_normalized": "048",
+    "article_title": "",
+    "chunk_index": 47,
+    "chapter": "第六章",
+    "chapter_title": "法律责任",
+    "text_zh": "第四十八条\n保险公司使用的保险条款和保险费率有下列情形之一的,由中国保监会责令停止使用,限期修改;情节严重的,可以在一定期限内禁止申报新的\n保险条款和保险费率:(一)损害社会公共利益;\n(二)内容显失公平或者形成价格垄断,侵害投保人、被保险人或者受益人的合法权益;\n(三)条款设计或者费率厘定不当,可能危及保险公司偿付能力;\n(四)违反法律、行政法规或者中国保监会的其他规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 162,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十八条\n保险公司使用的保险条款和保险费率有下列情形之一的,由中国保监会责令停止使用,限期修改;情节严重的,可以在一定期限内禁止申报新的\n保险条款和保险费率:(一)损害社会公共利益;\n(二)内容显失公平或者形成价格垄断,侵害投保人、被保险人或者受益人的合法权益;\n(三)条款设计或者费率厘定不当,可能危及保险公司偿付能力;\n(四)违反法律、行政法规或者中国保监会的其他规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "公共 (weak)",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6346,
+    "source_end": 6534,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_049",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "49",
+    "article_number_normalized": "049",
+    "article_title": "",
+    "chunk_index": 48,
+    "chapter": "第六章",
+    "chapter_title": "法律责任",
+    "text_zh": "第四十九条 保险公司有下列行为之一的,由中国保监会依据《保险法》第一百六十九条进行处罚:\n(一)未按照规定报送保险条款、保险费率备案的;\n(二)未按照规定报送停止使用保险条款和保险费率相关报告的;\n(三)未按照规定报送或者保管与保险条款、保险费率相关的其他报告、报表、文件、资料的,或者未按照规定提供有关信息、资料的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 135,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十九条 保险公司有下列行为之一的,由中国保监会依据《保险法》第一百六十九条进行处罚:\n(一)未按照规定报送保险条款、保险费率备案的;\n(二)未按照规定报送停止使用保险条款和保险费率相关报告的;\n(三)未按照规定报送或者保管与保险条款、保险费率相关的其他报告、报表、文件、资料的,或者未按照规定提供有关信息、资料的。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6535,
+    "source_end": 6694,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_050",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "50",
+    "article_number_normalized": "050",
+    "article_title": "",
+    "chunk_index": 49,
+    "chapter": "第六章",
+    "chapter_title": "法律责任",
+    "text_zh": "第五十条 保险公司有下列行为之一的,由中国保监会依据《保险法》第一百七十条进行处罚:\n(一)报送审批、备案保险条款和保险费率时,编制或者提供虚假的报告、报表、文件、资料的;\n(二)报送法律责任人备案时,编制或者提供虚假的报告、报表、文件、资料的;\n(三)未按照规定使用经批准或者备案的保险条款、保险费率的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 126,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十条 保险公司有下列行为之一的,由中国保监会依据《保险法》第一百七十条进行处罚:\n(一)报送审批、备案保险条款和保险费率时,编制或者提供虚假的报告、报表、文件、资料的;\n(二)报送法律责任人备案时,编制或者提供虚假的报告、报表、文件、资料的;\n(三)未按照规定使用经批准或者备案的保险条款、保险费率的。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6695,
+    "source_end": 6848,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_051",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "51",
+    "article_number_normalized": "051",
+    "article_title": "",
+    "chunk_index": 50,
+    "chapter": "第六章",
+    "chapter_title": "法律责任",
+    "text_zh": "第五十一条 保险公司违反本办法第三十七条第三款的由中国保监会给予警告,处3万元以下罚款。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 40,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十一条 保险公司违反本办法第三十七条第三款的由中国保监会给予警告,处3万元以下罚款。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6849,
+    "source_end": 6893,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_052",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "52",
+    "article_number_normalized": "052",
+    "article_title": "",
+    "chunk_index": 51,
+    "chapter": "第六章",
+    "chapter_title": "法律责任",
+    "text_zh": "第五十二条 保险公司以停止使用保险条款和保险费率进行销售误导的,由中国保监会依据《保险法》第一百六十一条进行处罚。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 52,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十二条 保险公司以停止使用保险条款和保险费率进行销售误导的,由中国保监会依据《保险法》第一百六十一条进行处罚。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6895,
+    "source_end": 6952,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_053",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "53",
+    "article_number_normalized": "053",
+    "article_title": "",
+    "chunk_index": 52,
+    "chapter": "第六章",
+    "chapter_title": "法律责任",
+    "text_zh": "第五十三条 保险公司违反本办法规定,聘任不符合规定条件的法律责任人的,由中国保监会责令限期改正;逾期不改正的,给予警告,处1万元以下罚款。\n第七章 附 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 66,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十三条 保险公司违反本办法规定,聘任不符合规定条件的法律责任人的,由中国保监会责令限期改正;逾期不改正的,给予警告,处1万元以下罚款。\n第七章 附 则"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6953,
+    "source_end": 7030,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_054",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "54",
+    "article_number_normalized": "054",
+    "article_title": "",
+    "chunk_index": 53,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第五十四条 中国保监会对保险公司总精算师、法律责任人另有规定的,适用其规定。\n团体保险的保险条款和保险费率的管理,中国保监会另有规定的,适用其规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 66,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十四条 中国保监会对保险公司总精算师、法律责任人另有规定的,适用其规定。\n团体保险的保险条款和保险费率的管理,中国保监会另有规定的,适用其规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7032,
+    "source_end": 7106,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_055",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "55",
+    "article_number_normalized": "055",
+    "article_title": "",
+    "chunk_index": 54,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第五十五条 本办法规定的期限以工作日计算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 19,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十五条 本办法规定的期限以工作日计算。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7107,
+    "source_end": 7128,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_056",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "56",
+    "article_number_normalized": "056",
+    "article_title": "",
+    "chunk_index": 55,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第五十六条 本办法由中国保监会负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 18,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十六条 本办法由中国保监会负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7129,
+    "source_end": 7149,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2015_ART_057",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2015",
+    "law_name": "人身保险公司保险条款和保险费率管理办法",
+    "law_name_original": "人身保险公司保险条款和保险费率管理办法",
+    "law_type": "规章/法规",
+    "article_number": "57",
+    "article_number_normalized": "057",
+    "article_title": "",
+    "chunk_index": 56,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第五十七条 本办法自颁布之日起施行。中国保监会2000年3月23日发布的《人身保险产品定名暂行办法》(保监发〔2000〕42号)、2000年5月16日发布\n的《关于放开短期意外险费率及简化短期意外险备案手续的通知》(保监发〔2000〕78号)、2004年6月30日发布的《人身保险产品审批和备案管理办法》\n(保监会令〔2004〕6号)以及2004年7月1日发布的《关于〈人身保险产品审批和备案管理办法〉若干问题的通知》(保监发〔2004〕76号)同时废止。\n附件:人身保险公司保险条款和费率管理办法格式文本\n附件信息:\n人身保险公司保险条款和费率管理办法格式文本.\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "doc",
+    "text_original_language": "zh-en",
+    "word_count_zh": 202,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十七条 本办法自颁布之日起施行。中国保监会2000年3月23日发布的《人身保险产品定名暂行办法》(保监发〔2000〕42号)、2000年5月16日发布\n的《关于放开短期意外险费率及简化短期意外险备案手续的通知》(保监发〔2000〕78号)、2004年6月30日发布的《人身保险产品审批和备案管理办法》\n(保监会令〔2004〕6号)以及2004年7月1日发布的《关于〈人身保险产品审批和备案管理办法〉若干问题的通知》(保监发〔2004〕76号)同时废止。\n附件:人身保险公司保险条款和费率管理办法格式文本\n附件信息:\n人身保险公司保险条款和费率管理办法格式文本.doc\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2000-03-23",
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025609&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_099.txt",
+    "sample_id": "CN_099",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_099",
+    "raw_sha256": "14e6070c3a4ba18fa4caabc933971ebf9af8b18e000f8284876bfb61a13690a5",
+    "extracted_text_sha256": "9a212b1731e0e5b4ebae8bec8f694cd056c0f6d3a2351f05be40d9d2b1898335",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7150,
+    "source_end": 7445,
+    "language_original": [
+      "zh",
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

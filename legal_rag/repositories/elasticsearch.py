@@ -7,6 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 from elasticsearch import Elasticsearch
 from elasticsearch.exceptions import NotFoundError, TransportError, ApiError
 from core.config import settings
+from core.jurisdiction import jurisdiction_aliases, normalize_jurisdiction
 from core.model_loader import get_embedding_model
 from utils.topic_classifier import TopicClassifier
 
@@ -131,23 +132,40 @@ _JURISDICTION_ZH_MAP: Dict[str, str] = {
     "us": "美国",
     "usa": "美国",
     "united states": "美国",
-    "hk": "香港",
-    "hong kong": "香港",
-    "mo": "澳门",
-    "macau": "澳门",
+    "cn": "中国大陆",
+    "china": "中国大陆",
+    "hk": "中国香港",
+    "hong kong": "中国香港",
+    "mo": "中国澳门",
+    "macau": "中国澳门",
     "sg": "新加坡",
     "singapore": "新加坡",
 }
 
 
 def _jurisdiction_to_zh(jur: str) -> str:
-    """将法域名称转换为简体中文"""
+    """将法域名称归一为规范简体中文名。"""
     if not jur:
         return jur
-    if any('\u4e00' <= c <= '\u9fff' for c in jur):
-        return jur
     lower_jur = jur.lower().strip()
-    return _JURISDICTION_ZH_MAP.get(lower_jur, jur)
+    zh = jur if any('\u4e00' <= c <= '\u9fff' for c in jur) else _JURISDICTION_ZH_MAP.get(lower_jur, jur)
+    return normalize_jurisdiction(zh)
+
+
+def _expand_jurisdiction_where(where: Optional[Dict]) -> Optional[Dict]:
+    """把 where 中的法域值展开为规范名 + 旧称，兼容改名前后的索引数据。"""
+    if not where or "jurisdiction" not in where:
+        return where
+    raw_values = where["jurisdiction"]
+    values = raw_values if isinstance(raw_values, list) else [raw_values]
+    expanded: List[str] = []
+    for value in values:
+        for alias in jurisdiction_aliases(value):
+            if alias not in expanded:
+                expanded.append(alias)
+    if expanded == values:
+        return where
+    return {**where, "jurisdiction": expanded}
 _TOPIC_LABEL_ZH_CACHE: Optional[Dict[str, str]] = None
 _TOPIC_FALLBACK_ZH: Dict[str, str] = {
     # 美国词表中未在 taxonomy_merged.json 中定义的主题
@@ -192,6 +210,15 @@ def _to_label_zh(topic_id: str) -> str:
     if topic_id in mapping:
         return mapping[topic_id]
     return _TOPIC_FALLBACK_ZH.get(topic_id, topic_id)
+
+
+# 已废弃的粗粒度主题：无中文标签且缺乏区分度，展示层与入库层统一剔除
+EXCLUDED_TOPICS = {"legal_definitions", "regulatory_scope", "法律定义"}
+
+
+def is_excluded_topic(value: str) -> bool:
+    """判断主题（英文 ID 或中文标签）是否属于剔除名单"""
+    return str(value or "").strip().lower() in EXCLUDED_TOPICS
 
 
 def _label_zh_to_topic_id(label_zh: str) -> str:
@@ -691,6 +718,7 @@ class ElasticsearchRepository:
             }
             
             if where:
+                where = _expand_jurisdiction_where(where)
                 filter_clauses = []
                 for k, v in where.items():
                     if isinstance(v, list) and len(v) > 1:
@@ -841,6 +869,7 @@ class ElasticsearchRepository:
 
         filter_clauses = []
         if where:
+            where = _expand_jurisdiction_where(where)
             for k, v in where.items():
                 if isinstance(v, list) and len(v) > 1:
                     filter_clauses.append({
@@ -895,6 +924,7 @@ class ElasticsearchRepository:
 
         filter_clauses = []
         if where:
+            where = _expand_jurisdiction_where(where)
             for k, v in where.items():
                 if isinstance(v, list) and len(v) > 1:
                     filter_clauses.append({
@@ -1391,7 +1421,9 @@ class ElasticsearchRepository:
         # 构建查询条件（AND 逻辑）
         must_clauses = []
         if jurisdiction:
-            must_clauses.append({"term": {"jurisdiction": jurisdiction}})
+            aliases = jurisdiction_aliases(jurisdiction)
+            must_clauses.append({"bool": {"should": [{"term": {"jurisdiction": alias}} for alias in aliases],
+                                          "minimum_should_match": 1}})
         if topics:
             for topic_label in [t.strip() for t in topics.split(",") if t.strip()]:
                 must_clauses.append({"term": {"topic_labels": topic_label}})
@@ -1421,6 +1453,42 @@ class ElasticsearchRepository:
         
         return laws
     
+    def get_law_meta(self, law_id: str) -> Optional[Dict]:
+        """取法规级元数据（轻量）：单条文档的字段投影，不拉正文。
+
+        供 Agent 判断法规是否现行有效、法域与通过/生效日期；法规不存在时返回 None。
+        """
+        if not law_id:
+            return None
+        query = {
+            "size": 1,
+            "query": {"term": {"law_id": law_id}},
+            "sort": [{"chunk_index": {"order": "asc"}}],
+            "_source": ["title", "jurisdiction", "status", "passing_date",
+                        "effective_date", "publication_date", "topics", "metadata.title"],
+        }
+        try:
+            response = self.client.search(index=settings.es_index_name, body=query)
+        except Exception as e:
+            logger.warning(f"[法规元数据] 获取失败 {law_id}: {e}")
+            return None
+
+        hits = response.get("hits", {}).get("hits", [])
+        if not hits:
+            return None
+        source = hits[0].get("_source", {}) or {}
+        meta = source.get("metadata") or {}
+        return {
+            "law_id": law_id,
+            "title": source.get("title") or meta.get("title") or "",
+            "jurisdiction": _jurisdiction_to_zh(source.get("jurisdiction", "")),
+            "status": source.get("status", "") or "",
+            "passing_date": source.get("passing_date") or "",
+            "effective_date": source.get("effective_date") or "",
+            "publication_date": source.get("publication_date") or "",
+            "topics": source.get("topics") or [],
+        }
+
     def get_law_outline(self, law_id: str) -> List[Dict]:
         """获取法规条款目录（轻量）：每个 article_number 取最小 chunk_index 的一条。
 
@@ -1431,7 +1499,7 @@ class ElasticsearchRepository:
             "query": {"term": {"law_id": law_id}},
             "collapse": {"field": "article_number"},
             "sort": [{"chunk_index": {"order": "asc"}}],
-            "_source": ["article_number", "chunk_index", "chunk_type", "metadata.article_title"],
+            "_source": ["article_number", "chunk_index", "chunk_type", "metadata.article_title", "metadata.part_title"],
         }
 
         try:
@@ -1447,6 +1515,8 @@ class ElasticsearchRepository:
             outline.append({
                 "article_number": source.get("article_number", ""),
                 "article_title": meta.get("article_title", ""),
+                # 所属编/章/节：供前端按章节聚合目录
+                "part_title": meta.get("part_title", ""),
                 "chunk_index": source.get("chunk_index", 0),
                 # 条目类型：substantive 正文条款 / schedule 附表 / fragment 解析遗留片段
                 "chunk_type": source.get("chunk_type", "") or "",
@@ -1686,7 +1756,9 @@ class ElasticsearchRepository:
             "size": size,
             "query": {
                 "function_score": {
-                    "query": {"term": {"jurisdiction": jurisdiction}},
+                    "query": {"bool": {"should": [{"term": {"jurisdiction": alias}}
+                                                  for alias in jurisdiction_aliases(jurisdiction)],
+                                       "minimum_should_match": 1}},
                     "random_score": {"seed": int(time.time()), "field": "_seq_no"},
                     "boost_mode": "replace"
                 }
@@ -1736,6 +1808,9 @@ class ElasticsearchRepository:
             # 英文 ID 转中文标签
             label_zh = _to_label_zh(raw_label) if raw_label and raw_label[0].islower() and '_' in raw_label else raw_label
 
+            if is_excluded_topic(raw_label) or is_excluded_topic(label_zh):
+                continue
+
             by_jur = {}
             for jur_bucket in bucket.get("jurisdiction_breakdown", {}).get("buckets", []):
                 by_jur[jur_bucket["key"]] = jur_bucket["doc_count"]
@@ -1775,6 +1850,8 @@ class ElasticsearchRepository:
                 continue
             # 英文 ID 转中文标签
             label_zh = _to_label_zh(raw_label) if raw_label[0].islower() and '_' in raw_label else raw_label
+            if is_excluded_topic(raw_label) or is_excluded_topic(label_zh):
+                continue
             result.append(label_zh)
         return result
 
@@ -2008,7 +2085,9 @@ class ElasticsearchRepository:
         # 构建 KNN 预过滤器（在向量搜索前收窄候选集）
         filter_clauses = []
         if jurisdiction_filter:
-            filter_clauses.append({"term": {"jurisdiction": jurisdiction_filter}})
+            aliases = jurisdiction_aliases(jurisdiction_filter)
+            filter_clauses.append({"bool": {"should": [{"term": {"jurisdiction": alias}} for alias in aliases],
+                                            "minimum_should_match": 1}})
 
         must_not_clauses = []
         if exclude_law_id:
@@ -2083,6 +2162,9 @@ class ElasticsearchRepository:
             for bucket in topic_buckets:
                 topic_name = bucket.get("key", "")
                 total_count = bucket.get("doc_count", 0)
+
+                if is_excluded_topic(topic_name) or is_excluded_topic(_to_label_zh(topic_name)):
+                    continue
 
                 jur_buckets = bucket.get("by_jurisdiction", {}).get("buckets", [])
                 by_jurisdiction = {b.get("key"): b.get("doc_count") for b in jur_buckets}
@@ -2856,19 +2938,37 @@ class ElasticsearchRepository:
             return 0
 
     def get_kg_statistics(self) -> Dict:
-        """知识层统计：三元组总数、已抽取法规数、实体总数（供管理端与验收核对）"""
-        result = {"triple_count": 0, "law_count": 0, "entity_count": 0}
+        """知识层统计：三元组总数、已抽取法规数、实体总数、各法域覆盖情况。
+
+        覆盖情况用于把「图谱页/图谱问答对某法域为空」明确呈现为"尚未抽取"，
+        而不是让调用方误以为该法域没有实体关系。全部为 ES 聚合，零 LLM。
+        """
+        result = {"triple_count": 0, "law_count": 0, "entity_count": 0,
+                  "triples_by_jurisdiction": {}, "covered_laws_by_jurisdiction": {},
+                  "total_laws_by_jurisdiction": {}, "coverage": 0.0}
         try:
             resp = self.client.search(
                 index=self.KG_TRIPLE_INDEX,
                 body={
                     "size": 0,
                     "track_total_hits": True,
-                    "aggs": {"laws": {"cardinality": {"field": "law_id"}}},
+                    "aggs": {
+                        "laws": {"cardinality": {"field": "law_id"}},
+                        "by_jur": {
+                            "terms": {"field": "jurisdiction", "size": 40},
+                            "aggs": {"laws": {"cardinality": {"field": "law_id"}}},
+                        },
+                    },
                 },
             )
             result["triple_count"] = resp.get("hits", {}).get("total", {}).get("value", 0)
             result["law_count"] = resp.get("aggregations", {}).get("laws", {}).get("value", 0)
+            for bucket in resp.get("aggregations", {}).get("by_jur", {}).get("buckets", []):
+                jur = bucket.get("key")
+                result["triples_by_jurisdiction"][jur] = bucket.get("doc_count", 0)
+                result["covered_laws_by_jurisdiction"][jur] = (
+                    bucket.get("laws", {}).get("value", 0)
+                )
         except Exception as e:
             logger.warning(f"[KG] 三元组统计失败: {e}")
         try:
@@ -2877,6 +2977,19 @@ class ElasticsearchRepository:
             )
         except Exception:
             pass
+        # 各法域的法规总数（来自法规目录），用于计算覆盖率
+        try:
+            for law in self.get_all_laws():
+                jur = _jurisdiction_to_zh(str(law.get("jurisdiction") or ""))
+                if jur:
+                    result["total_laws_by_jurisdiction"][jur] = (
+                        result["total_laws_by_jurisdiction"].get(jur, 0) + 1
+                    )
+        except Exception as e:
+            logger.warning(f"[KG] 法规目录统计失败: {e}")
+        total_laws = sum(result["total_laws_by_jurisdiction"].values())
+        if total_laws:
+            result["coverage"] = round(result["law_count"] / total_laws, 4)
         return result
 
     def get_kg_law_ids(self) -> List[str]:

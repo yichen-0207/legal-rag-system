@@ -1,0 +1,2832 @@
+[
+  {
+    "doc_id": "CN_DOC_3_2007_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第一条\n为了完善保险精算监管制度,规范保险公司内部治理,防范经营风险,促进保险业健康发展,根据《中华人民共和国保险法》、《中华人民共和国外\n资保险公司管理条例》等法律、行政法规,制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 81,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条\n为了完善保险精算监管制度,规范保险公司内部治理,防范经营风险,促进保险业健康发展,根据《中华人民共和国保险法》、《中华人民共和国外\n资保险公司管理条例》等法律、行政法规,制定本办法。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "公司管理",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第二条 本办法所称总精算师,是指保险公司总公司负责精算以及相关事务的高级管理人员。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 38,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本办法所称总精算师,是指保险公司总公司负责精算以及相关事务的高级管理人员。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第三条 保险公司应当设立总精算师职位。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 17,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 保险公司应当设立总精算师职位。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 29,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第四条 总精算师应当遵守法律、行政法规和中国保险监督管理委员会(以下简称中国保监会)的规定,遵守保险公司章程和职业准则,公正、客观地履行精\n算职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 65,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 总精算师应当遵守法律、行政法规和中国保险监督管理委员会(以下简称中国保监会)的规定,遵守保险公司章程和职业准则,公正、客观地履行精\n算职责。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "公司章程",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第五条 中国保监会依法审查总精算师任职资格,并对总精算师履职行为进行监督管理。\n第二章 任职资格管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 45,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 中国保监会依法审查总精算师任职资格,并对总精算师履职行为进行监督管理。\n第二章 任职资格管理"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 653,
+    "source_end": 811,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第六条 总精算师应当具备诚实信用的良好品行和履行职务必需的专业知识、从业经历和管理能力。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 41,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 总精算师应当具备诚实信用的良好品行和履行职务必需的专业知识、从业经历和管理能力。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3394,
+    "source_end": 3488,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第七条 担任总精算师应当具备下列条件:\n(一)取得中国精算师资格3年以上;(二)从事保险精算、保险财务或者保险投资工作8年以上,其中包括5年以上在保险行业内担任保险精算、保险财务或者保险投资管理职务的任职经历;\n(三)在中华人民共和国境内有住所;(四)中国保监会规定的其他条件。\n取得国外精算师资格3年以上的,可以豁免前款第(一)项规定的条件,但应当经中国保监会考核,确认其熟悉中国的保险精算监管制度,具有相当于中国精算师\n资格必需的专业知识和能力。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 193,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 担任总精算师应当具备下列条件:\n(一)取得中国精算师资格3年以上;(二)从事保险精算、保险财务或者保险投资工作8年以上,其中包括5年以上在保险行业内担任保险精算、保险财务或者保险投资管理职务的任职经历;\n(三)在中华人民共和国境内有住所;(四)中国保监会规定的其他条件。\n取得国外精算师资格3年以上的,可以豁免前款第(一)项规定的条件,但应当经中国保监会考核,确认其熟悉中国的保险精算监管制度,具有相当于中国精算师\n资格必需的专业知识和能力。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第八条 有下列情形之一的,不得担任总精算师:\n(一)有《保险公司董事、监事和高级管理人员任职资格管理规定》中禁止担任高级管理人员情形之一的;\n(二)中国保监会规定不适宜担任总精算师的其他情形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 82,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 有下列情形之一的,不得担任总精算师:\n(一)有《保险公司董事、监事和高级管理人员任职资格管理规定》中禁止担任高级管理人员情形之一的;\n(二)中国保监会规定不适宜担任总精算师的其他情形。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第九条 未经中国保监会核准任职资格,保险公司不得以任何形式任命总精算师。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 33,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 未经中国保监会核准任职资格,保险公司不得以任何形式任命总精算师。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第十条 保险公司任命总精算师,应当在任命前向中国保监会申请核准任职资格,提交下列书面材料一式三份,并同时提交有关电子文档:\n(一)拟任总精算师任职资格核准申请书;(二)《保险公司董事、监事和高级管理人员任职资格申请表》;\n(三)符合本办法规定的《职务声明书》;(四)拟任总精算师的身份证、学历证书、精算师资格认证证书等有关文件的复印件,有护照的应当同时提供护照复印件;\n(五)中国保监会规定提交的其他材料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 172,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 保险公司任命总精算师,应当在任命前向中国保监会申请核准任职资格,提交下列书面材料一式三份,并同时提交有关电子文档:\n(一)拟任总精算师任职资格核准申请书;(二)《保险公司董事、监事和高级管理人员任职资格申请表》;\n(三)符合本办法规定的《职务声明书》;(四)拟任总精算师的身份证、学历证书、精算师资格认证证书等有关文件的复印件,有护照的应当同时提供护照复印件;\n(五)中国保监会规定提交的其他材料。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 26,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第十一条\n中国保监会应当自受理任职资格核准申请之日起20日以内,作出核准或者不予核准的决定。20日以内不能作出决定的,经中国保监会主席批准,\n可以延长10日,并应当将延长期限的理由告知申请人。\n决定核准的,颁发任职资格核准文件;决定不予核准的,应当作出书面决定并说明理由。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 117,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条\n中国保监会应当自受理任职资格核准申请之日起20日以内,作出核准或者不予核准的决定。20日以内不能作出决定的,经中国保监会主席批准,\n可以延长10日,并应当将延长期限的理由告知申请人。\n决定核准的,颁发任职资格核准文件;决定不予核准的,应当作出书面决定并说明理由。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3470,
+    "source_end": 3656,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第十二条 总精算师有下列情形之一的,其任职资格自动失效,拟再担任总精算师的,应当重新经过任职资格核准:\n(一)因辞职、被免职、被撤职等原因,不再为该保险公司及其分支机构工作的;\n(二)受到撤销任职资格的行政处罚的;(三)出现《公司法》第一百四十七条第一款规定情形的。\n第三章 总精算师职责",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 121,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 总精算师有下列情形之一的,其任职资格自动失效,拟再担任总精算师的,应当重新经过任职资格核准:\n(一)因辞职、被免职、被撤职等原因,不再为该保险公司及其分支机构工作的;\n(二)受到撤销任职资格的行政处罚的;(三)出现《公司法》第一百四十七条第一款规定情形的。\n第三章 总精算师职责"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1286,
+    "source_end": 1430,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第三章",
+    "chapter_title": "总精算师职责",
+    "text_zh": "第十三条 总精算师对保险公司董事会和总经理负责,并应当向中国保监会及时报告保险公司的重大风险隐患。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 46,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 总精算师对保险公司董事会和总经理负责,并应当向中国保监会及时报告保险公司的重大风险隐患。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3511,
+    "source_end": 3610,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第三章",
+    "chapter_title": "总精算师职责",
+    "text_zh": "第十四条 总精算师有权获得履行职责所需的数据、文件、资料等相关信息,保险公司有关部门和人员不得非法干预,不得隐瞒或者提供虚假信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 59,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 总精算师有权获得履行职责所需的数据、文件、资料等相关信息,保险公司有关部门和人员不得非法干预,不得隐瞒或者提供虚假信息。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1481,
+    "source_end": 1546,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第三章",
+    "chapter_title": "总精算师职责",
+    "text_zh": "第十五条 总精算师有权参加涉及其职责范围内相关事务的保险公司董事会会议,并发表专业意见。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 41,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 总精算师有权参加涉及其职责范围内相关事务的保险公司董事会会议,并发表专业意见。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "会议"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1547,
+    "source_end": 1591,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第三章",
+    "chapter_title": "总精算师职责",
+    "text_zh": "第十六条 总精算师具体履行下列职责:\n(一)分析、研究经验数据,参与制定保险产品开发策略,拟定保险产品费率,审核保险产品材料;\n(二)负责或者参与偿付能力管理;(三)制定或者参与制定再保险制度、审核或者参与审核再保险安排计划;\n(四)评估各项准备金以及相关负债,参与预算管理;\n(五)参与制定股东红利分配制度,制定分红保险等有关保险产品的红利分配方案;\n(六)参与资产负债配置管理,参与决定投资方案或者参与拟定资产配置指引;\n(七)参与制定业务营运规则和手续费、佣金等中介服务费用给付制度;\n(八)根据中国保监会和国家有关部门规定,审核、签署公开披露的有关数据和报告;\n(九)根据中国保监会规定,审核、签署精算报告、内含价值报告等有关文件;\n(十)按照本办法规定,向保险公司和中国保监会报告重大风险隐患;\n(十一)中国保监会或者保险公司章程规定的其他职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 318,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 总精算师具体履行下列职责:\n(一)分析、研究经验数据,参与制定保险产品开发策略,拟定保险产品费率,审核保险产品材料;\n(二)负责或者参与偿付能力管理;(三)制定或者参与制定再保险制度、审核或者参与审核再保险安排计划;\n\n(四)评估各项准备金以及相关负债,参与预算管理;\n(五)参与制定股东红利分配制度,制定分红保险等有关保险产品的红利分配方案;\n(六)参与资产负债配置管理,参与决定投资方案或者参与拟定资产配置指引;\n(七)参与制定业务营运规则和手续费、佣金等中介服务费用给付制度;\n(八)根据中国保监会和国家有关部门规定,审核、签署公开披露的有关数据和报告;\n(九)根据中国保监会规定,审核、签署精算报告、内含价值报告等有关文件;\n(十)按照本办法规定,向保险公司和中国保监会报告重大风险隐患;\n(十一)中国保监会或者保险公司章程规定的其他职责。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司章程",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1592,
+    "source_end": 1971,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第三章",
+    "chapter_title": "总精算师职责",
+    "text_zh": "第十七条 保险公司有下列情形之一的,总精算师应当根据职责要求,向保险公司总经理提交重大风险提示报告,并提出改进措施:\n(一)出现可能严重危害保险公司偿付能力状况的重大隐患的;\n(二)在拟定分红保险红利分配方案等经营活动中,出现严重损害投保人、被保险人或者受益人合法权益的情形的。\n总精算师应当将重大风险提示报告同时抄报保险公司董事会。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 150,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 保险公司有下列情形之一的,总精算师应当根据职责要求,向保险公司总经理提交重大风险提示报告,并提出改进措施:\n(一)出现可能严重危害保险公司偿付能力状况的重大隐患的;\n(二)在拟定分红保险红利分配方案等经营活动中,出现严重损害投保人、被保险人或者受益人合法权益的情形的。\n总精算师应当将重大风险提示报告同时抄报保险公司董事会。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第三章",
+    "chapter_title": "总精算师职责",
+    "text_zh": "第十八条 总精算师提交重大风险提示报告的,保险公司应当及时采取措施防范或者化解风险,保险公司未及时采取有关措施的,总精算师应当向中国保监会\n报告。\n第四章 监督管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 74,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 总精算师提交重大风险提示报告的,保险公司应当及时采取措施防范或者化解风险,保险公司未及时采取有关措施的,总精算师应当向中国保监会\n报告。\n第四章 监督管理"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2140,
+    "source_end": 2222,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第十九条 保险公司应当按照本办法的规定,在保险公司章程中明确规定总精算师的职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 37,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 保险公司应当按照本办法的规定,在保险公司章程中明确规定总精算师的职责。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "公司章程",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十条 总精算师由保险公司董事会任命。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 18,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 总精算师由保险公司董事会任命。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十一条 保险公司任命总精算师,应当在任命前与拟任总精算师签署《职务声明书》。\n《职务声明书》应当载明下列内容:(一)总精算师工作职责;\n(二)由拟任总精算师作出的,将按照本办法规定提交离职报告的承诺;\n(三)拟任总精算师在审读前任总精算师离职报告后作出的有关声明;\n(四)中国保监会要求载明的其他内容。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 128,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 保险公司任命总精算师,应当在任命前与拟任总精算师签署《职务声明书》。\n《职务声明书》应当载明下列内容:(一)总精算师工作职责;\n(二)由拟任总精算师作出的,将按照本办法规定提交离职报告的承诺;\n(三)拟任总精算师在审读前任总精算师离职报告后作出的有关声明;\n(四)中国保监会要求载明的其他内容。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十二条 在同一保险公司内,董事长、总经理不得兼任总精算师。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 27,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 在同一保险公司内,董事长、总经理不得兼任总精算师。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2439,
+    "source_end": 2470,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十三条 除下列情形以外,总精算师不得在所任职保险公司以外的其他机构中兼职:\n(一)兼职机构与总精算师所任职保险公司之间具有控股关系;\n(二)总精算师在精算师专业组织中兼职从事不获取报酬的活动;\n(三)中国保监会规定的其他情形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 100,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 除下列情形以外,总精算师不得在所任职保险公司以外的其他机构中兼职:\n(一)兼职机构与总精算师所任职保险公司之间具有控股关系;\n(二)总精算师在精算师专业组织中兼职从事不获取报酬的活动;\n(三)中国保监会规定的其他情形。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2471,
+    "source_end": 2586,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十四条 总精算师因辞职、被免职或者被撤职等原因离职的,应当在辞职时或者在收到免职、撤职决定之日起20日以内独立完成离职报告,并向保险公\n司董事会和总经理提交。\n离职报告应当对离职原因、任职期间的履职情况和精算工作移交进行说明。\n离职报告应当一式两份,并由总精算师签字。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 121,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 总精算师因辞职、被免职或者被撤职等原因离职的,应当在辞职时或者在收到免职、撤职决定之日起20日以内独立完成离职报告,并向保险公\n司董事会和总经理提交。\n离职报告应当对离职原因、任职期间的履职情况和精算工作移交进行说明。\n离职报告应当一式两份,并由总精算师签字。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2587,
+    "source_end": 2723,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十五条 保险公司任命总精算师,应当在申请核准拟任总精算师任职资格以前,根据其要求,将前任总精算师离职报告送交其审读。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 55,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 保险公司任命总精算师,应当在申请核准拟任总精算师任职资格以前,根据其要求,将前任总精算师离职报告送交其审读。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2724,
+    "source_end": 2784,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十六条 总精算师因辞职、被免职或者被撤职等原因离职的,保险公司应当自作出批准辞职或者免职、撤职等决定之日起30日以内,向中国保监会报告,\n并提交下列书面材料:(一)总精算师被免职或者被撤职的原因说明;\n(二)免职、撤职或者批准辞职等有关决定的复印件;\n(三)总精算师作出的离职报告。\n第五章 法律责任",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 128,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 总精算师因辞职、被免职或者被撤职等原因离职的,保险公司应当自作出批准辞职或者免职、撤职等决定之日起30日以内,向中国保监会报告,\n并提交下列书面材料:(一)总精算师被免职或者被撤职的原因说明;\n(二)免职、撤职或者批准辞职等有关决定的复印件;\n(三)总精算师作出的离职报告。\n第五章 法律责任"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2785,
+    "source_end": 2937,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第五章",
+    "chapter_title": "法律责任",
+    "text_zh": "第二十七条 总精算师违背精算职责,致使根据中国保监会规定应当由其签署的各项文件不符合中国保监会规定的,由中国保监会责令改正,对总精算师予以\n警告;情节严重的,并处1万元以下罚款。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 80,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 总精算师违背精算职责,致使根据中国保监会规定应当由其签署的各项文件不符合中国保监会规定的,由中国保监会责令改正,对总精算师予以\n警告;情节严重的,并处1万元以下罚款。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2938,
+    "source_end": 3027,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第五章",
+    "chapter_title": "法律责任",
+    "text_zh": "第二十八条 保险公司未经核准擅自任命总精算师的,由中国保监会予以警告,并处1万元以下罚款。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 40,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 保险公司未经核准擅自任命总精算师的,由中国保监会予以警告,并处1万元以下罚款。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 88,
+    "source_end": 256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第五章",
+    "chapter_title": "法律责任",
+    "text_zh": "第二十九条 总精算师未按照本办法规定及时向中国保监会报告有关事项的,由中国保监会责令改正,予以警告。\n第六章 附则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 51,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 总精算师未按照本办法规定及时向中国保监会报告有关事项的,由中国保监会责令改正,予以警告。\n第六章 附则"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3074,
+    "source_end": 3131,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第三十条 对总精算师的任职管理,本办法没有规定的,适用《保险公司董事和高级管理人员任职资格管理规定》的有关规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 50,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 对总精算师的任职管理,本办法没有规定的,适用《保险公司董事和高级管理人员任职资格管理规定》的有关规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2840,
+    "source_end": 2938,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第三十一条 本办法所称日,是指工作日,不包括法定节假日。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 24,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 本办法所称日,是指工作日,不包括法定节假日。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3189,
+    "source_end": 3217,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第三十二条 本办法由中国保监会负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 18,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 本办法由中国保监会负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3218,
+    "source_end": 3238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2007_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2007",
+    "law_name": "保险公司总精算师管理办法",
+    "law_name_original": "保险公司总精算师管理办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第三十三条 本办法自2008年1月1日起施行。人寿保险公司、养老保险公司和健康保险公司自施行之日起适用本办法;财产保险公司适用本办法的时间和\n具体适用办法由中国保监会另行规定。\n自本办法施行之日起,中国保监会之前规定的人寿保险公司、养老保险公司和健康保险公司精算责任人的职责由总精算师履行,中国保监会2004年6月30\n日发布的《人身保险产品审批和备案管理办法》(保监会令〔2004〕6号)中关于上述保险公司应当指定精算责任人的规定不再执行。中国保监会2004年11月\n11日发布的《关于精算责任人任职资格有关要求的通知》(保监发〔2004〕133号)自本办法施行之日起同时废止。\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 240,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 本办法自2008年1月1日起施行。人寿保险公司、养老保险公司和健康保险公司自施行之日起适用本办法;财产保险公司适用本办法的时间和\n具体适用办法由中国保监会另行规定。\n自本办法施行之日起,中国保监会之前规定的人寿保险公司、养老保险公司和健康保险公司精算责任人的职责由总精算师履行,中国保监会2004年6月30\n日发布的《人身保险产品审批和备案管理办法》(保监会令〔2004〕6号)中关于上述保险公司应当指定精算责任人的规定不再执行。中国保监会2004年11月\n\n11日发布的《关于精算责任人任职资格有关要求的通知》(保监发〔2004〕133号)自本办法施行之日起同时废止。\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2004-06-30",
+    "effective_date": "2008-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1025505&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_109.txt",
+    "sample_id": "CN_109",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_109",
+    "raw_sha256": "253d995c5e5b9085baea47715e4d23f87aeea81f41802d614b1e555a6fc73e06",
+    "extracted_text_sha256": "f6bf92b906a92b1747ffea95a5d52543745d48e81a512e18c129113aff30c391",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3512,
+    "source_end": 3863,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

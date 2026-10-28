@@ -1,8 +1,8 @@
 {
   "phase": 1,
-  "generated_at": "2026-10-12T05:40:17",
-  "source_dir": "/app/data/raw",
-  "output_dir": "/app/data/raw_v2",
+  "generated_at": "2026-10-26T19:24:48",
+  "source_dir": "E:\\传智杯\\智能检索分析系统源代码\\legal_rag\\data\\raw",
+  "output_dir": "E:\\传智杯\\智能检索分析系统源代码\\legal_rag\\data\\raw_v2",
   "dry_run": false,
   "transforms": {
     "1a_law_id_split": {
@@ -54,8 +54,8 @@
       "note": "拆分后 law_id 全局唯一，doc_id 前缀同步改写"
     },
     "1b_empty_text_inventory": {
-      "total": 40,
-      "recoverable_from_sub_chunks": 15,
+      "total": 39,
+      "recoverable_from_sub_chunks": 14,
       "note": "本机无原始语料（.txt/.pdf 源文件不在仓库内），sub_chunks 亦无内容，无法补洗；建议保留清单并在评测分母中对不可召回项显式剔除",
       "items": [
         {
@@ -84,15 +84,6 @@
           "sub_chunks": 0,
           "source_file": "Cap 200.pdf",
           "source_url": "https://www.elegislation.gov.hk)"
-        },
-        {
-          "jurisdiction": "japan",
-          "file": "SMP_JP_014_cleaned.json",
-          "doc_id": "JP_Act_1984_SMP_JP_014_ART_178",
-          "article_number": "178",
-          "sub_chunks": 1,
-          "source_file": "SMP_JP_014.json",
-          "source_url": "https://www.japaneselawtranslation.go.jp/en/laws/view/4450"
         },
         {
           "jurisdiction": "macau",
@@ -444,10 +435,13 @@
     },
     "1f_cleanup": {
       "empty_text_removed": {
-        "total": 40,
+        "total": 39,
         "by_jurisdiction": {
+          "australia": 0,
+          "china": 0,
           "hk": 3,
-          "japan": 1,
+          "japan": 0,
+          "korea": 0,
           "macau": 22,
           "malaysia": 2,
           "singapore": 0,
@@ -535,9 +529,31 @@
     }
   ],
   "verification": {
-    "distinct_law_id_raw": 302,
-    "distinct_law_id_v2": 305,
+    "distinct_law_id_raw": 533,
+    "distinct_law_id_v2": 536,
     "per_jurisdiction": {
+      "australia": {
+        "files_raw": 83,
+        "files_v2": 83,
+        "articles_raw": 7865,
+        "articles_v2": 7865,
+        "articles_removed": 0,
+        "files_removed": 0,
+        "match": true,
+        "articles_on_disk": 7865,
+        "disk_readback_match": true
+      },
+      "china": {
+        "files_raw": 135,
+        "files_v2": 135,
+        "articles_raw": 6023,
+        "articles_v2": 6023,
+        "articles_removed": 0,
+        "files_removed": 0,
+        "match": true,
+        "articles_on_disk": 6023,
+        "disk_readback_match": true
+      },
       "hk": {
         "files_raw": 8,
         "files_v2": 8,
@@ -553,11 +569,22 @@
         "files_raw": 43,
         "files_v2": 43,
         "articles_raw": 1983,
-        "articles_v2": 1982,
-        "articles_removed": 1,
+        "articles_v2": 1983,
+        "articles_removed": 0,
         "files_removed": 0,
         "match": true,
-        "articles_on_disk": 1982,
+        "articles_on_disk": 1983,
+        "disk_readback_match": true
+      },
+      "korea": {
+        "files_raw": 13,
+        "files_v2": 13,
+        "articles_raw": 736,
+        "articles_v2": 736,
+        "articles_removed": 0,
+        "files_removed": 0,
+        "match": true,
+        "articles_on_disk": 736,
         "disk_readback_match": true
       },
       "macau": {

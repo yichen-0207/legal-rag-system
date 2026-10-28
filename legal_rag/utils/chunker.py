@@ -130,6 +130,21 @@ def _build_embed_prefix(item: Dict) -> str:
     return ("【" + " ".join(parts) + "】")[:100]
 
 
+def _compose_part_title(chapter: str, chapter_title: str) -> str:
+    """合并「第一章」与「总则」，过滤把正文首句误当章节名的噪声。"""
+    chapter = str(chapter or "").strip()
+    title = str(chapter_title or "").strip()
+
+    if title:
+        # 源数据常见「总 则」，去掉中文字符之间的空格
+        title = re.sub(r"(?<=[\u4e00-\u9fff])\s+(?=[\u4e00-\u9fff])", "", title)
+        title = re.sub(r"\s+", " ", title)
+        if len(title) > 24 or title[0].islower():
+            title = ""
+
+    return f"{chapter} {title}".strip() if title else chapter
+
+
 def process_pre_chunked_data(data_list: List[Dict]) -> List[Dict]:
     """把预分块的 cleaned 条款列表标准化为 chunks。"""
     chunks = []
@@ -165,6 +180,11 @@ def process_pre_chunked_data(data_list: List[Dict]) -> List[Dict]:
                 elif isinstance(t, str):
                     topics.append({'id': t, 'label_zh': _to_label_zh(t)})
 
+        # 剔除已废弃的粗粒度主题，避免重新入库后再次出现在看板
+        from repositories.elasticsearch import is_excluded_topic
+        topics = [t for t in topics
+                  if not (is_excluded_topic(t.get('id')) or is_excluded_topic(t.get('label_zh')))]
+
         # 对超长文本二次切分，生成 sub_chunk
         parent_doc_id = item.get('doc_id')
         sub_texts = _resplit_long_text(text)
@@ -181,7 +201,7 @@ def process_pre_chunked_data(data_list: List[Dict]) -> List[Dict]:
                 'article_number': item.get('article_number', ''),
                 # 条目类型（substantive/schedule 等），供检索筛选与分区
                 'chunk_type': item.get('chunk_type', ''),
-                'part_title': item.get('chapter', ''),  # chapter对应原来的part_title
+                'part_title': _compose_part_title(item.get('chapter', ''), item.get('chapter_title', '')),
                 # 额外保留原始元数据
                 '_meta': {
                     'doc_id': sub_doc_id,

@@ -6,7 +6,7 @@ from datetime import datetime
 import json
 
 from models.schemas import APIResponse
-from repositories.elasticsearch import ElasticsearchRepository, _to_label_zh, _jurisdiction_to_zh
+from repositories.elasticsearch import ElasticsearchRepository, _to_label_zh, _jurisdiction_to_zh, is_excluded_topic
 from utils.law_catalog import LawCatalog
 
 router = APIRouter(prefix="/stats", tags=["数据统计"])
@@ -71,12 +71,12 @@ def _fetch_overview_data() -> dict:
             "law_id": latest_law.get("law_id", "")
         }
     
-    # 收集所有主题
+    # 收集所有主题（剔除已废弃的粗粒度主题）
     all_topics = set()
     for law in laws:
         topics = law.get("topics", [])
         if isinstance(topics, list):
-            all_topics.update(topics)
+            all_topics.update(t for t in topics if t and not is_excluded_topic(t))
     
     return {
         "total_laws": total_laws,
@@ -155,6 +155,8 @@ def _fetch_topic_data(limit: int = 50) -> list:
         
         for topic in topics:
             if not topic or topic == "":
+                continue
+            if is_excluded_topic(topic):
                 continue
 
             if topic not in topic_distribution:
@@ -235,33 +237,30 @@ def _fetch_time_data(group_by: str = "year") -> dict:
     
     result = list(time_stats.values())
     result.sort(key=lambda x: x["period"])
-    
-    # 计算累计值
-    cumulative = {"macau": 0, "singapore": 0, "hongkong": 0, "other": 0}
+
+    # 累计值按「实际存在的法域」动态生成：
+    # 原先硬编码 macau/singapore/hongkong/other 三类，新入库的澳大利亚、中国大陆、
+    # 韩国等法域全部被并进 other，看板上的累计曲线无法反映真实构成。
+    cumulative_by_jur: Dict[str, int] = {}
     cumulative_total = 0
-    
+
     for item in result:
         cumulative_total += item["total"]
         item["cumulative_total"] = cumulative_total
-        
+
         for jur, count in item["by_jurisdiction"].items():
-            jur_lower = jur.lower()
-            if "澳门" in jur or "macau" in jur_lower:
-                cumulative["macau"] += count
-                item["cumulative_macau"] = cumulative["macau"]
-            elif "新加坡" in jur or "singapore" in jur_lower:
-                cumulative["singapore"] += count
-                item["cumulative_singapore"] = cumulative["singapore"]
-            elif "香港" in jur or "hongkong" in jur_lower:
-                cumulative["hongkong"] += count
-                item["cumulative_hongkong"] = cumulative["hongkong"]
-            else:
-                cumulative["other"] += count
-                item["cumulative_other"] = cumulative["other"]
-    
+            cumulative_by_jur[jur] = cumulative_by_jur.get(jur, 0) + count
+
+        item["cumulative_by_jurisdiction"] = dict(cumulative_by_jur)
+        # 兼容旧字段：三个早期法域的累计值单独保留（前端旧版本可能读取）
+        item["cumulative_macau"] = cumulative_by_jur.get("中国澳门", 0)
+        item["cumulative_singapore"] = cumulative_by_jur.get("新加坡", 0)
+        item["cumulative_hongkong"] = cumulative_by_jur.get("中国香港", 0)
+
     return {
         "group_by": group_by,
         "data": result,
+        "jurisdictions": list(cumulative_by_jur.keys()),
         "summary": {
             "earliest_period": result[0]["period"] if result else "",
             "latest_period": result[-1]["period"] if result else "",

@@ -13,9 +13,11 @@ import json
 import logging
 import re
 import time
+from concurrent.futures import Future, ThreadPoolExecutor
 from typing import Any, Dict, Iterator, List, Optional
 
 from langchain.agents import create_agent
+from langchain.agents.middleware import AgentMiddleware
 from langchain_core.messages import AIMessage, ToolMessage
 from langchain_openai import ChatOpenAI
 
@@ -52,6 +54,45 @@ _SOURCE_REF_RE = re.compile(r"【来源(\d+)】")
 DECIDE_AGENT = "agent"
 DECIDE_FAST = "fast"
 DECIDE_PROBE = "probe"
+
+# 规划线程池：plan 与首轮检索并行执行，独立小池避免与检索批次池互相排队。
+_PLAN_EXECUTOR = ThreadPoolExecutor(max_workers=2, thread_name_prefix="agent-plan")
+
+
+class _LatePlanMiddleware(AgentMiddleware):
+    """把晚到的检索计划注入后续模型轮的 system prompt。
+
+    计划改为与首轮检索并行后不再阻塞首 token：首轮模型调用时计划通常尚未返回，
+    因此第 1 轮无计划（与改动前实测行为一致——模型本就不按计划的子问题检索）；
+    计划一返回即在下一轮生效。注入放在 system prompt 而非对话消息，避免模型把
+    「新消息」当作新一轮用户输入而提前作答。
+    """
+
+    def __init__(self, plan_future: Optional["Future"]):
+        super().__init__()
+        self._future = plan_future
+        self._consumed = plan_future is None
+
+    def _take(self) -> Optional[str]:
+        """未完成则本次跳过、下轮再试；完成后只取一次。"""
+        if self._consumed or self._future is None:
+            return None
+        if not self._future.done():
+            return None
+        self._consumed = True
+        try:
+            plan = self._future.result()
+        except Exception:
+            return None
+        return AgentService._plan_text(plan) if plan else None
+
+    def wrap_model_call(self, request, handler):
+        text = self._take()
+        if text:
+            base = request.system_prompt
+            base_text = base if isinstance(base, str) else (getattr(base, "content", "") or "")
+            request = request.override(system_prompt=(base_text + "\n\n" + text).strip())
+        return handler(request)
 
 
 def decide_route(question: str, route_mode: str = ROUTE_MODE_AUTO,
@@ -141,10 +182,12 @@ class AgentService:
         return (
             "你是跨境法规检索分析助手，通过调用工具分步收集证据，最终产出分法域对照的分析报告。\n"
             "【工作方式】\n"
-            "1. 先判断问题涉及哪些法域、哪些方面，规划所需证据；起步时可并行发起多条检索"
-            "（例如每个法域各一条），无需面面俱到。\n"
-            f"2. 本次最多可调用工具 {max_calls} 次；把调用留给最有价值的信息，"
-            "不要用相同或高度相似的查询重复检索同一内容。\n"
+            "1. 先判断问题涉及哪些法域、哪些方面；首轮直接用 search_laws 的 queries 一次批量检索"
+            "2-4 条针对不同法域/方面的查询（内部并行合并去重），不要拆成多轮重复检索。\n"
+            f"2. 本次最多可调用工具 {max_calls} 次；预算优先留给补证而非重复检索："
+            "片段不足以判断构成要件或例外时用 get_article_text 取全文；条款引用链用 "
+            "follow_references；跨法域关联用 query_graph；对比类问题用 compare_jurisdictions "
+            "一次取两侧条款分布；引用前可用 check_law_status 确认法规时效。\n"
             "3. 【证据自评，务必执行】每次工具返回后，先自评：问题涉及的每个法域、每个关键"
             "方面是否都已有直接证据？\n"
             "   - 若仍有法域或关键方面缺乏证据，必须继续发起调用补证（换查询措辞、追溯引用"
@@ -154,7 +197,9 @@ class AgentService:
             "5. 不要凭空编造法条；工具未返回的内容不要臆断。\n"
             "6. 上下文中若给出了检索计划，请优先按计划推进；判断证据是否充分时，可调用"
             "get_evidence_status 核对已覆盖的法域与缺口，再决定是否补证。\n"
-            "【工具】search_laws=检索条文；follow_references=追溯被引用条款；"
+            "【工具】search_laws=检索条文（支持 queries 批量）；get_article_text=取条款全文；"
+            "check_law_status=查法规时效；compare_jurisdictions=双法域同主题条款对照；"
+            "follow_references=追溯被引用条款；"
             "query_graph=图谱多跳路径（mode=cross 跨法域对齐 / mode=entity 法域内实体关系，"
             "entity 可 deepen=true 纵向深挖；mode=auto 自动判断）；"
             "get_evidence_status=核对证据覆盖（无参数）。\n"
@@ -189,11 +234,13 @@ class AgentService:
             "- 总字数 1200-1800 字，以对照分析为主，不堆砌法条原文。"
         )
 
-    def _build_agent(self, system_prompt: str, tools: List[Any]):
+    def _build_agent(self, system_prompt: str, tools: List[Any], middleware: List[Any] = None):
         """构建 LangGraph ReAct 图：模型↔工具循环由框架驱动，预算/停滞/证据收敛仍由本服务
         在消费事件流时执行；图按请求构建（工具绑定请求级 memo），模型客户端复用进程级实例。
+        middleware 用于把晚到的检索计划注入后续模型轮（见 _LatePlanMiddleware）。
         """
-        return create_agent(self._llm, tools, system_prompt=system_prompt)
+        return create_agent(self._llm, tools, system_prompt=system_prompt,
+                            middleware=middleware or [])
 
     @staticmethod
     def _recursion_limit() -> int:
@@ -392,6 +439,17 @@ class AgentService:
             )
         return plan
 
+    @staticmethod
+    def _resolve_plan(future: Optional["Future"]) -> Optional[Dict]:
+        """取异步规划结果：未完成或异常一律返回 None（计划永远可缺省）。"""
+        if future is None or not future.done():
+            return None
+        try:
+            return future.result()
+        except Exception as e:
+            logger.warning("[Agent] 规划任务异常，忽略计划: %s: %s", type(e).__name__, e)
+            return None
+
     # ================================================================
     #  证据累积与收口
     # ================================================================
@@ -427,8 +485,12 @@ class AgentService:
             return
         key = f"{law_id}::{article}"
         if key in evidence:
-            if similarity > evidence[key].get("similarity", 0.0):
-                evidence[key]["similarity"] = similarity
+            current = evidence[key]
+            if similarity > current.get("similarity", 0.0):
+                current["similarity"] = similarity
+            # 同一条款被全文回取时，用更长的正文替换片段，避免证据池里仍是截断内容
+            if len(r.get("content") or "") > len(current.get("content") or ""):
+                current["content"] = r["content"]
             return
         evidence[key] = {
             "content": r.get("content", "") or "",
@@ -455,6 +517,10 @@ class AgentService:
         if name == "search_laws":
             for r in result.get("results", []):
                 self._add_ctx(evidence, r, float(r.get("score") or 0.0), source="search")
+        elif name == "get_article_text":
+            # 全文回取是高质量证据，直接并入证据池（相似度沿用 0，收口按原有顺序）
+            if result.get("found"):
+                self._add_ctx(evidence, result, 0.0, source="article")
         elif name == "follow_references":
             for r in result.get("referenced", []):
                 self._add_ctx(evidence, r, 0.0, source="reference")
@@ -475,7 +541,20 @@ class AgentService:
         if name == "search_laws":
             items = result.get("results", [])
             head = "；".join(f"《{i.get('title','')}》{i.get('article_number','')}" for i in items[:3])
-            return f"命中 {len(items)} 条" + (f"：{head}" if head else "")
+            batch = result.get("queries_used") or []
+            prefix = f"（{len(batch)} 条查询合并）" if len(batch) > 1 else ""
+            return f"命中 {len(items)} 条{prefix}" + (f"：{head}" if head else "")
+        if name == "get_article_text":
+            if not result.get("found"):
+                return "未取到该条款正文"
+            return f"《{result.get('title','')}》{result.get('article_number','')} 全文 {result.get('total_chars', 0)} 字"
+        if name == "check_law_status":
+            if not result.get("found"):
+                return "未找到该法规"
+            return f"《{result.get('title','')}》{result.get('status_text','')}"
+        if name == "compare_jurisdictions":
+            return (f"对照 {result.get('jurisdiction_a','')}({len(result.get('a') or [])} 部) vs "
+                    f"{result.get('jurisdiction_b','')}({len(result.get('b') or [])} 部)")
         if name == "follow_references":
             items = result.get("referenced", [])
             head = "；".join(f"《{i.get('title','')}》{i.get('article_number','')}" for i in items[:3])
@@ -498,7 +577,7 @@ class AgentService:
 
     @staticmethod
     def _converge_candidates(contexts: List[Dict], top_k: int) -> List[Dict]:
-        """把证据池收敛到精排候选上限，兼顾成本与召回。
+        """把证据池收敛到条数上限，兼顾成本与召回。
 
         为「引用追溯」来的条款保留配额（它们相似度恒为 0，不保护会被检索命中挤出），
         剩余名额按相似度降序给检索命中；总条数不超过 agent_finalize_max_candidates
@@ -508,19 +587,23 @@ class AgentService:
         if len(contexts) <= cap:
             return contexts
 
-        refs = [c for c in contexts if c.get("_source") == "reference"]
-        hits = [c for c in contexts if c.get("_source") != "reference"]
+        # 引用追溯与全文回取的条款相似度恒为 0，不保护会被检索命中挤出候选池
+        protected = [c for c in contexts if c.get("_source") in ("reference", "article")]
+        hits = [c for c in contexts if c.get("_source") not in ("reference", "article")]
         hits.sort(key=lambda c: float(c.get("similarity") or 0.0), reverse=True)
 
-        ref_quota = min(len(refs), settings.reference_expand_max, cap)
-        picked = hits[: max(0, cap - ref_quota)] + refs[:ref_quota]
+        protected_quota = min(len(protected), settings.reference_expand_max, cap)
+        picked = hits[: max(0, cap - protected_quota)] + protected[:protected_quota]
         return picked
 
     def _finalize_evidence(self, question: str, evidence: Dict[str, Dict], top_k: int) -> List[Dict]:
-        """证据收口：收敛候选 → 补全正文（一次 msearch）→ 精排一次 → 取 pass_k 条。
+        """证据收口：收敛候选 → 补全正文（一次 msearch）→ 可选精排 → 取 pass_k 条。
 
-        收敛必须排在精排之前：本机精排占检索延迟约 93%，先压到 agent_finalize_max_candidates
-        条再精排是收口耗时的决定性因素；任一步失败均静默降级，不阻断作答。
+        收敛同时控制 prompt 规模：候选不超过 agent_finalize_max_candidates，
+        避免多步探索把无界证据全塞进上下文。
+        精排默认关闭：本机 cross-encoder 对 12 条候选耗时约 22s，而其作用仅是决定
+        哪些条进入 prompt；改为按 RRF 序全量入 prompt 后，prefill 增量 <1s。
+        任一步失败均静默降级，不阻断作答。
         返回条数取 max(top_k, agent_finalize_pass_k)，避免多步探索额外召回的证据被截回 top_k。
         """
         contexts = list(evidence.values())
@@ -531,7 +614,7 @@ class AgentService:
         contexts = self._converge_candidates(contexts, top_k)
         if len(contexts) < raw_n:
             logger.info(
-                "[Agent] 证据池收敛：%d → %d（精排候选上限 %d）",
+                "[Agent] 证据池收敛：%d → %d（候选上限 %d）",
                 raw_n, len(contexts), settings.agent_finalize_max_candidates,
             )
 
@@ -550,10 +633,11 @@ class AgentService:
             if doc and doc.get("content"):
                 c["content"] = doc["content"]
 
-        try:
-            contexts = self.retriever._rerank_two_stage(query=question, candidates=contexts)
-        except Exception as e:
-            logger.warning("[Agent] 最终证据精排失败，沿用原顺序: %s", e)
+        if settings.agent_finalize_rerank_enabled:
+            try:
+                contexts = self.retriever._rerank_two_stage(query=question, candidates=contexts)
+            except Exception as e:
+                logger.warning("[Agent] 最终证据精排失败，沿用原顺序: %s", e)
         return contexts[: max(int(top_k), int(settings.agent_finalize_pass_k))]
 
     def _probe_retrieval_quality(self, question: str, top_k: int,
@@ -766,12 +850,12 @@ class AgentService:
         if retrieval_query != question:
             yield {"type": "rewrite", "original": question, "rewritten": retrieval_query}
 
-        # 显式规划：用检索式做规划，使子问题不依赖上下文；失败返回 None，仅跳过注入与事件。
-        plan = self._plan(retrieval_query, detected)
-        if plan:
-            yield {"type": "plan", "sub_questions": plan["sub_questions"],
-                   "jurisdictions": plan["target_jurisdictions"],
-                   "aspects": plan["priority_aspects"]}
+        # 显式规划改为与首轮检索并行：plan 只是「参考计划」，实测模型并不按它的子问题
+        # 检索，却要串行占用首 token 前的 2–9s。此处只提交任务、不等待结果；plan 事件
+        # 在探索事件流中补发（可能晚于首个 step，前端按消息累积渲染，不依赖事件顺序）。
+        plan_future = None
+        if settings.agent_plan_enabled and self._plan_llm is not None:
+            plan_future = _PLAN_EXECUTOR.submit(self._plan, retrieval_query, detected)
 
         # 证据池在探索前创建，工具运行时（get_evidence_status）与 _explore（原地累积）
         # 共享同一引用，保证跨步工作记忆看到实时台账。
@@ -781,22 +865,21 @@ class AgentService:
         # 并发请求各持一份、互不干扰（见 __init__）。
         toolkit = AgentToolkit(self.retriever, self._qa_service,
                                jurisdictions=detected, evidence=evidence)
-        agent = self._build_agent(self._system_prompt(detected), toolkit.build_tools())
+        agent = self._build_agent(self._system_prompt(detected), toolkit.build_tools(),
+                                  middleware=[_LatePlanMiddleware(plan_future)])
 
         messages_in: List[Dict] = []
         if history:
             for h in history[-6:]:
                 if h.get("role") in ("user", "assistant") and h.get("content"):
                     messages_in.append({"role": h["role"], "content": h["content"]})
-        # 消解结果与计划并入当前用户轮前言，避免单列 assistant 消息造成错序；
-        # 两者都不存在时 user_content 即原问题。
+        # 消解结果并入当前用户轮前言，避免单列 assistant 消息造成错序；计划已改为异步，
+        # 不再进入首轮 user 消息，而是由中间件在后续轮注入 system prompt。
         prefix_parts: List[str] = []
         if retrieval_query != question:
             prefix_parts.append(
                 "【追问指代消解（检索/规划可采用此自足表述，但请回答用户原问题）】" + retrieval_query
             )
-        if plan:
-            prefix_parts.append(self._plan_text(plan))
         user_content = ("\n\n".join(prefix_parts) + "\n\n【用户问题】" + question) if prefix_parts else question
         messages_in.append({"role": "user", "content": user_content})
 
@@ -806,8 +889,17 @@ class AgentService:
         tool_calls_made = 0
         llm_turns = 0
         stop_reason = "step_budget"
+        plan_reported = plan_future is None
         for ev, ev_evidence, ev_parts, ev_trace, ev_calls, ev_turns, ev_stop in self._explore(
                 agent, messages_in, total_start, evidence=evidence):
+            # 计划的产物一落地就补发事件（只判一次），不阻塞后续事件
+            if not plan_reported and plan_future.done():
+                plan_reported = True
+                plan = self._resolve_plan(plan_future)
+                if plan:
+                    yield {"type": "plan", "sub_questions": plan["sub_questions"],
+                           "jurisdictions": plan["target_jurisdictions"],
+                           "aspects": plan["priority_aspects"]}
             if ev is not None:
                 yield ev
                 continue

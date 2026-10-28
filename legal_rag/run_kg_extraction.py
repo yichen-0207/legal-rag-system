@@ -157,10 +157,21 @@ def main() -> int:
 
     print("\n===== 抽取完成 =====")
     print(
-        f"成功 {summary['ok']}（其中缓存命中 {summary['cache_hit']}，"
-        f"实际 LLM 调用 {summary['llm_calls']}） / 失败 {summary['failed']} / "
-        f"未找到 {summary['not_found']} / 空条款 {summary['empty']}"
+        f"成功 {summary['ok']}（其中缓存命中 {summary['cache_hit']}） / "
+        f"失败 {summary['failed']} / 未找到 {summary['not_found']} / 空条款 {summary['empty']}"
     )
+    total_batches = summary["llm_batches"] + summary["failed_batches"]
+    fail_rate = summary["failed_batches"] / total_batches if total_batches else 0.0
+    print(
+        f"实际 LLM 调用 {summary['llm_batches']} 次 / 解析失败 {summary['failed_batches']} 次"
+        f"（失败率 {fail_rate:.1%}）"
+    )
+    if fail_rate > 0.2:
+        print(
+            "警告：批次解析失败率超过 20%，本次三元组被系统性打折，"
+            "请先排查抽取提示词/结构化输出，再考虑放量。",
+            file=sys.stderr,
+        )
     print(f"本次三元组总数: {summary['triples_total']}")
 
     log_path = _write_failure_log(summary.get("failed_laws", []))

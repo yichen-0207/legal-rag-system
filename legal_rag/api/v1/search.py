@@ -1,11 +1,13 @@
 from fastapi import APIRouter, Query
 from typing import List, Optional
+from core.jurisdiction import normalize_jurisdiction
 from models.schemas import APIResponse, SearchResult, DocumentMetadata, SimilarLawResponse, SimilarChunkResponse
 from services.retriever_service import RetrieverService
 from services.similar_law_service import SimilarLawService
 from services.summary_service import SummaryService
-from repositories.elasticsearch import ElasticsearchRepository
+from repositories.elasticsearch import ElasticsearchRepository, is_excluded_topic
 from utils.law_catalog import LawCatalog
+from utils.law_parts import enrich_parts
 
 router = APIRouter(prefix="/search", tags=["搜索"])
 retriever = RetrieverService()
@@ -66,7 +68,8 @@ def get_laws(
     all_laws = [l for l in cat_data.get("laws", []) if l.get("status") != "deleted"]
 
     if jurisdiction:
-        all_laws = [l for l in all_laws if l.get("jurisdiction") == jurisdiction]
+        target = normalize_jurisdiction(jurisdiction)
+        all_laws = [l for l in all_laws if normalize_jurisdiction(l.get("jurisdiction")) == target]
 
     # 主题筛选（多选 OR，支持中文标签）
     topic_filter = None
@@ -142,6 +145,16 @@ def get_law(
         law["status"] = "active"
         law["total_articles"] = law.get("total_articles", 0)
         law["chunk_count"] = law.get("total_chunks", 0)
+
+    # 剔除已废弃的粗粒度主题，避免在法规详情页继续展示
+    if isinstance(law.get("topics"), list):
+        law["topics"] = [t for t in law["topics"] if t and not is_excluded_topic(t)]
+
+    # 补全章节名：ES 中的 part_title 可能只有「第一章」这类裸序号
+    if law.get("outline"):
+        law["outline"] = enrich_parts(law_id, law["outline"])
+    if law.get("chunks"):
+        law["chunks"] = enrich_parts(law_id, law["chunks"])
 
     return APIResponse(success=True, data=law)
 

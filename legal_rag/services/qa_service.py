@@ -164,8 +164,9 @@ class QAService:
         """构建法域触发词映射表（基础触发词 + 动态从ES获取的法域）"""
         # 基础触发词：覆盖常见的中英文及缩写形式
         base_triggers = {
-            '澳门': ['澳门', 'macau', 'Macau', 'MACAU', '澳門', 'MO'],
-            '香港': ['香港', 'hong kong', 'hongkong', 'Hong Kong', 'Hongkong', 'HONG KONG', 'HK'],
+            '中国澳门': ['中国澳门', '澳门', 'macau', 'Macau', 'MACAU', '澳門', 'MO'],
+            '中国香港': ['中国香港', '香港', 'hong kong', 'hongkong', 'Hong Kong', 'Hongkong', 'HONG KONG', 'HK'],
+            '中国大陆': ['中国大陆', '中国', 'china', 'China', 'mainland china', 'Mainland China'],
             '新加坡': ['新加坡', 'singapore', 'Singapore', 'SINGAPORE', 'sg', 'SG'],
             '美国': ['美国', '美國', 'usa', 'USA', 'us', 'US', 'america', 'America', 'united states', 'United States'],
             '英国': ['英国', '英國', 'uk', 'UK', 'britain', 'Britain', 'united kingdom', 'United Kingdom'],

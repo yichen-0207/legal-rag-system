@@ -1,0 +1,3589 @@
+[
+  {
+    "doc_id": "CN_DOC_8_2021_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第一条\n为规范和发展再保险市场,加强对再保险业务的管理,实现保险业健康协调可持续发展,依据《中华人民共和国保险法》(以下简称《保险法》)、\n《中华人民共和国外资保险公司管理条例》以及有关法律、行政法规,制定本规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 90,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条\n为规范和发展再保险市场,加强对再保险业务的管理,实现保险业健康协调可持续发展,依据《中华人民共和国保险法》(以下简称《保险法》)、\n《中华人民共和国外资保险公司管理条例》以及有关法律、行政法规,制定本规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "environmental_law",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "公司管理",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "environmental_law",
+        "label_zh": "环境法",
+        "label_en": "Environmental Law",
+        "label_pt": "Direito Ambiental",
+        "score": 4.5,
+        "matched_keywords": [
+          "可持续发展"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第二条 本规定所称再保险,是指保险人将其承担的保险业务,部分转移给其他保险人的经营行为。\n本规定所称直接保险,也称原保险,是相对再保险而言的保险,由投保人与保险人直接订立保险合同的保险业务。\n本规定所称转分保,是指再保险接受人将其分入的保险业务,转移给其他保险人的经营行为。\n本规定所称合约分保,是指保险人与其他保险人预先订立合同,约定将一定时期内其承担的保险业务,部分向其他保险人办理再保险,再保险接受人需按照约\n定分保条件承担再保险责任的经营行为。\n本规定所称临时分保,是指保险人临时与其他保险人约定,将其承担的保险业务,部分向其他保险人逐保单办理再保险,再保险接受人需逐保单约定分保条件\n并承担再保险责任的经营行为。\n本规定所称比例再保险,是指以保险金额为基础确定再保险分出人自留额和再保险接受人分保额的再保险方式。\n本规定所称非比例再保险,是指以赔款金额为基础确定再保险分出人自负责任和再保险接受人分保责任的再保险方式。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 381,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本规定所称再保险,是指保险人将其承担的保险业务,部分转移给其他保险人的经营行为。\n本规定所称直接保险,也称原保险,是相对再保险而言的保险,由投保人与保险人直接订立保险合同的保险业务。\n本规定所称转分保,是指再保险接受人将其分入的保险业务,转移给其他保险人的经营行为。\n本规定所称合约分保,是指保险人与其他保险人预先订立合同,约定将一定时期内其承担的保险业务,部分向其他保险人办理再保险,再保险接受人需按照约\n定分保条件承担再保险责任的经营行为。\n本规定所称临时分保,是指保险人临时与其他保险人约定,将其承担的保险业务,部分向其他保险人逐保单办理再保险,再保险接受人需逐保单约定分保条件\n并承担再保险责任的经营行为。\n本规定所称比例再保险,是指以保险金额为基础确定再保险分出人自留额和再保险接受人分保额的再保险方式。\n本规定所称非比例再保险,是指以赔款金额为基础确定再保险分出人自负责任和再保险接受人分保责任的再保险方式。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 58.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第三条\n本规定所称再保险分出人,是指将其承担的保险业务,部分转移给其他保险人的保险人;本规定所称再保险接受人,是指承接其他保险人转移的保险\n业务的保险人。\n本规定所称分出业务,是指再保险分出人转移出的保险业务;本规定所称分入业务,是指再保险接受人接受分入的保险业务。\n本规定所称直接保险公司,也称原保险公司,是相对再保险人而言,是指直接与投保人订立保险合同的保险人。\n本规定所称保险联合体,是指为了处理单个保险人无法承担的特殊风险或者巨额保险业务,或者按照国际惯例,由两个或两个以上保险人联合组成、按照其\n章程约定共同经营保险业务的组织。\n本规定所称保险经纪人,是指接受再保险分出人委托,基于再保险分出人利益,为再保险分出人与再保险接受人办理再保险业务提供中介服务,并按约定收取\n佣金的保险经纪机构。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 319,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条\n本规定所称再保险分出人,是指将其承担的保险业务,部分转移给其他保险人的保险人;本规定所称再保险接受人,是指承接其他保险人转移的保险\n业务的保险人。\n本规定所称分出业务,是指再保险分出人转移出的保险业务;本规定所称分入业务,是指再保险接受人接受分入的保险业务。\n本规定所称直接保险公司,也称原保险公司,是相对再保险人而言,是指直接与投保人订立保险合同的保险人。\n本规定所称保险联合体,是指为了处理单个保险人无法承担的特殊风险或者巨额保险业务,或者按照国际惯例,由两个或两个以上保险人联合组成、按照其\n章程约定共同经营保险业务的组织。\n本规定所称保险经纪人,是指接受再保险分出人委托,基于再保险分出人利益,为再保险分出人与再保险接受人办理再保险业务提供中介服务,并按约定收取\n佣金的保险经纪机构。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 46.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3115,
+    "source_end": 3256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第四条 在中华人民共和国境内(不含港澳台)设立的保险人、保险联合体以及保险经纪人或其他保险机构办理再保险业务,应当遵守本规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 57,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 在中华人民共和国境内(不含港澳台)设立的保险人、保险联合体以及保险经纪人或其他保险机构办理再保险业务,应当遵守本规定。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第五条 保险人、保险联合体和保险经纪人办理再保险业务,应当遵循审慎和最大诚信原则。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 37,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 保险人、保险联合体和保险经纪人办理再保险业务,应当遵循审慎和最大诚信原则。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3158,
+    "source_end": 3256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第六条 再保险分出人、再保险接受人和保险经纪人,对在办理再保险业务中知悉的商业秘密或其他应当保密的信息,负有保密义务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 54,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 再保险分出人、再保险接受人和保险经纪人,对在办理再保险业务中知悉的商业秘密或其他应当保密的信息,负有保密义务。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "保密"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 26,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第七条\n中国银行保险监督管理委员会(以下简称银保监会)鼓励保险人、保险联合体和保险经纪人积极为农业保险,地震、台风、洪水、突发公共卫生事\n件等巨灾保险和国家重点项目提供保险及再保险服务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条\n中国银行保险监督管理委员会(以下简称银保监会)鼓励保险人、保险联合体和保险经纪人积极为农业保险,地震、台风、洪水、突发公共卫生事\n件等巨灾保险和国家重点项目提供保险及再保险服务。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 19.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第八条 银保监会依法对再保险业务实施监督和管理。\n第二章 业务经营",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 29,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 银保监会依法对再保险业务实施监督和管理。\n第二章 业务经营"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第九条 保险人应当制定再保险战略,明确再保险在公司风险和资本管理战略中的作用。再保险战略应包括再保险安排的目的、自留政策、分保政策、风\n险管控机制等内容。\n再保险战略的制定、实施、评估和调整由公司高级管理层负责,董事会或其授权的专业委员会应对再保险战略的制定和调整进行审批,并对实施情况进行\n监督。\n外国再保险公司分公司,其再保险战略的制定、实施、评估和调整应经其分公司高级管理层同意。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 173,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 保险人应当制定再保险战略,明确再保险在公司风险和资本管理战略中的作用。再保险战略应包括再保险安排的目的、自留政策、分保政策、风\n险管控机制等内容。\n再保险战略的制定、实施、评估和调整由公司高级管理层负责,董事会或其授权的专业委员会应对再保险战略的制定和调整进行审批,并对实施情况进行\n监督。\n外国再保险公司分公司,其再保险战略的制定、实施、评估和调整应经其分公司高级管理层同意。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第十条 保险集团应当统筹制定集团的再保险战略,明确再保险战略与集团风险管理和资本管理战略的关系。集团再保险战略应包括集团的风险累积和净\n自留管理、信用风险管控、集团内保险公司的再保险授权管理、集团内分保战略等内容。\n保险集团再保险战略的制定、实施、评估和调整由集团高级管理层负责,董事会或其授权的专业委员会应对再保险战略的制定和调整进行审批,并对实施\n情况进行监督。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 168,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 保险集团应当统筹制定集团的再保险战略,明确再保险战略与集团风险管理和资本管理战略的关系。集团再保险战略应包括集团的风险累积和净\n自留管理、信用风险管控、集团内保险公司的再保险授权管理、集团内分保战略等内容。\n保险集团再保险战略的制定、实施、评估和调整由集团高级管理层负责,董事会或其授权的专业委员会应对再保险战略的制定和调整进行审批,并对实施\n情况进行监督。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5124,
+    "source_end": 5357,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第十一条 再保险业务分为寿险再保险和非寿险再保险。保险人对寿险再保险和非寿险再保险应当单独列账、分别核算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 49,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 再保险业务分为寿险再保险和非寿险再保险。保险人对寿险再保险和非寿险再保险应当单独列账、分别核算。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5223,
+    "source_end": 5326,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第十二条 保险人应当依照《保险法》规定,确定当年总自留保险费和每一危险单位自留责任;超过的部分,应当办理再保险。\n保险人对危险单位的划分应当符合银保监会的相关规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 保险人应当依照《保险法》规定,确定当年总自留保险费和每一危险单位自留责任;超过的部分,应当办理再保险。\n保险人对危险单位的划分应当符合银保监会的相关规定。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5089,
+    "source_end": 5221,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第十三条 保险人应当根据实际情况,科学、合理安排巨灾再保险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 26,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 保险人应当根据实际情况,科学、合理安排巨灾再保险。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1945,
+    "source_end": 1975,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第十四条 保险人应当按照银保监会的规定办理再保险,并审慎选择再保险接受人和保险经纪人,选择再保险接受人和保险经纪人应当符合银保监会的有关\n规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 保险人应当按照银保监会的规定办理再保险,并审慎选择再保险接受人和保险经纪人,选择再保险接受人和保险经纪人应当符合银保监会的有关\n规定。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 27,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第十五条 再保险分出人应当及时将影响再保险定价和分保条件的重要信息向再保险接受人书面告知;再保险合同成立后,再保险分出人应当及时向再保险\n接受人提供重大赔案信息、赔款准备金等对再保险接受人的偿付能力计算、准备金计提及预期赔付有重大影响的信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 114,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 再保险分出人应当及时将影响再保险定价和分保条件的重要信息向再保险接受人书面告知;再保险合同成立后,再保险分出人应当及时向再保险\n接受人提供重大赔案信息、赔款准备金等对再保险接受人的偿付能力计算、准备金计提及预期赔付有重大影响的信息。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5235,
+    "source_end": 5406,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第十六条 再保险分出人和再保险接受人应加强再保险合同管理,及时完成再保险合同文本或再保险合同简要文本的签订。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 51,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 再保险分出人和再保险接受人应加强再保险合同管理,及时完成再保险合同文本或再保险合同简要文本的签订。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2172,
+    "source_end": 2226,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第十七条 再保险分出人应按约定及时支付再保险保费,再保险接受人应按约定及时支付赔款。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 再保险分出人应按约定及时支付再保险保费,再保险接受人应按约定及时支付赔款。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "支付",
+          "保险",
+          "支付 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第十八条 保险人应当建立再保险业务档案管理制度,妥善保管再保险业务合同文本、账单、赔案资料及相关往来文件资料,及时进行电子化处理并存储到\n相关电子档案管理系统。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 保险人应当建立再保险业务档案管理制度,妥善保管再保险业务合同文本、账单、赔案资料及相关往来文件资料,及时进行电子化处理并存储到\n相关电子档案管理系统。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "records_management"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 6.0,
+        "matched_keywords": [
+          "档案管理"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4410,
+    "source_end": 4621,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第十九条 保险人应建立再保险业务集中度管理制度,对分出业务集中于同一家再保险接受人和与其关联的再保险接受人的情况进行监测和管控,防范信用\n风险。\n除航空航天保险、核保险、石油保险、信用保险外,直接保险公司以比例再保险方式分出财产险直接保险业务时,每一危险单位分给同一家再保险接受人\n的总比例,不得超过再保险分出人承保直接保险合同保险金额或者责任限额的80%。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 162,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 保险人应建立再保险业务集中度管理制度,对分出业务集中于同一家再保险接受人和与其关联的再保险接受人的情况进行监测和管控,防范信用\n风险。\n除航空航天保险、核保险、石油保险、信用保险外,直接保险公司以比例再保险方式分出财产险直接保险业务时,每一危险单位分给同一家再保险接受人\n的总比例,不得超过再保险分出人承保直接保险合同保险金额或者责任限额的80%。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 25.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第二十条 保险人应当正确识别自身临时分保需求,建立科学合理的临时分保管理制度。保险人承保的业务超过其承保能力和风险承担能力的,应当在承保\n前完成临时分保安排。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 保险人应当正确识别自身临时分保需求,建立科学合理的临时分保管理制度。保险人承保的业务超过其承保能力和风险承担能力的,应当在承保\n前完成临时分保安排。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第二十一条 保险人开展境外分出业务的,应当建立境外分出业务监测制度,每半年对分保至境外的再保险业务的信用风险和流动性风险进行分析,及时提出\n应对措施,保证再保险交易安全。分析报告应当经公司总经理审核确认,妥善保管。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 98,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 保险人开展境外分出业务的,应当建立境外分出业务监测制度,每半年对分保至境外的再保险业务的信用风险和流动性风险进行分析,及时提出\n应对措施,保证再保险交易安全。分析报告应当经公司总经理审核确认,妥善保管。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23,
+    "source_end": 262,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第二十二条 保险人应当建立再保险业务流动性风险管理制度,加强对再保险应收款项的管理,制定重大赔付案件流动性风险处置预案,确保发生重大赔付时\n及早识别和应对潜在的流动性风险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 80,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 保险人应当建立再保险业务流动性风险管理制度,加强对再保险应收款项的管理,制定重大赔付案件流动性风险处置预案,确保发生重大赔付时\n及早识别和应对潜在的流动性风险。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2719,
+    "source_end": 2805,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第二十三条 保险人在与关联企业进行再保险交易时,应当遵循市场化原则确定再保险价格与条件,不得利用再保险转移利润,逃避税收。保险人应当按有关\n规定披露再保险关联交易信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 77,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 保险人在与关联企业进行再保险交易时,应当遵循市场化原则确定再保险价格与条件,不得利用再保险转移利润,逃避税收。保险人应当按有关\n规定披露再保险关联交易信息。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "tax_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "tax_law",
+        "label_zh": "税法",
+        "label_en": "Tax Law",
+        "label_pt": "Direito Fiscal",
+        "score": 4.5,
+        "matched_keywords": [
+          "税收",
+          "税 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2806,
+    "source_end": 2890,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第二十四条 保险人和保险经纪人可以利用金融工具开发设计新型风险转移产品。保险人应当按照有关规定向银保监会报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 52,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 保险人和保险经纪人可以利用金融工具开发设计新型风险转移产品。保险人应当按照有关规定向银保监会报告。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "金融 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2891,
+    "source_end": 2946,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第二十五条 中国境内的专业再保险接受人,应当配备在中国境内有住所的专职再保险核保人和再保险核赔人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 46,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 中国境内的专业再保险接受人,应当配备在中国境内有住所的专职再保险核保人和再保险核赔人。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2947,
+    "source_end": 2996,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第二章",
+    "chapter_title": "业务经营",
+    "text_zh": "第二十六条 直接保险公司开展再保险分入业务的,应当满足以下条件:\n(一)由总公司统一办理,除银保监会另有规定外,分支机构不得办理再保险分入业务;\n(二)设立独立的再保险部门,配备必要的专业人员,上一年分保费收入超过1亿元的,应配置不少于3名独立于直接保险业务的专职人员,上一年分保费收入超\n过3亿元的,前述专职人员不得少于5名;(三)建立完整的分入业务管理制度和独立的分入业务信息系统模块,并与财务系统自动对接,实现分入业务与直保业务的独立管理;\n(四)制定合理、详细的年度分入业务发展计划。\n第三章 再保险经纪业务",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 223,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 直接保险公司开展再保险分入业务的,应当满足以下条件:\n(一)由总公司统一办理,除银保监会另有规定外,分支机构不得办理再保险分入业务;\n(二)设立独立的再保险部门,配备必要的专业人员,上一年分保费收入超过1亿元的,应配置不少于3名独立于直接保险业务的专职人员,上一年分保费收入超\n过3亿元的,前述专职人员不得少于5名;(三)建立完整的分入业务管理制度和独立的分入业务信息系统模块,并与财务系统自动对接,实现分入业务与直保业务的独立管理;\n(四)制定合理、详细的年度分入业务发展计划。\n第三章 再保险经纪业务"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2997,
+    "source_end": 3255,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第三章",
+    "chapter_title": "再保险经纪业务",
+    "text_zh": "第二十七条 保险经纪人从事再保险经纪业务,应恪尽职责,不得损害保险人的信誉和合法权益。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 保险经纪人从事再保险经纪业务,应恪尽职责,不得损害保险人的信誉和合法权益。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3256,
+    "source_end": 3299,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第三章",
+    "chapter_title": "再保险经纪业务",
+    "text_zh": "第二十八条 保险经纪人可以根据业务需要引进或者设计再保险合同。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 29,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 保险经纪人可以根据业务需要引进或者设计再保险合同。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3300,
+    "source_end": 3331,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第三章",
+    "chapter_title": "再保险经纪业务",
+    "text_zh": "第二十九条 保险经纪人应当按照再保险合同的约定,及时送达账单、结算再保险款项以及履行其他义务,不得挪用或者截留再保险费、摊回赔款、摊回手\n续费以及摊回费用。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 70,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 保险经纪人应当按照再保险合同的约定,及时送达账单、结算再保险款项以及履行其他义务,不得挪用或者截留再保险费、摊回赔款、摊回手\n续费以及摊回费用。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3332,
+    "source_end": 3410,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第三章",
+    "chapter_title": "再保险经纪业务",
+    "text_zh": "第三十条 保险经纪人应当将再保险接受人的有关信息及时、准确地书面告知再保险分出人。\n应再保险接受人的要求,保险经纪人应当按照与再保险分出人的约定,将其知道的再保险分出人的自留责任以及直接保险的有关情况,及时、准确地书面告\n知再保险接受人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 保险经纪人应当将再保险接受人的有关信息及时、准确地书面告知再保险分出人。\n应再保险接受人的要求,保险经纪人应当按照与再保险分出人的约定,将其知道的再保险分出人的自留责任以及直接保险的有关情况,及时、准确地书面告\n知再保险接受人。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4002,
+    "source_end": 4621,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第三章",
+    "chapter_title": "再保险经纪业务",
+    "text_zh": "第三十一条 应再保险分出人或者再保险接受人的要求,保险经纪人应当按照合同约定配合进行赔案的理赔工作。\n第四章 监督管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 54,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 应再保险分出人或者再保险接受人的要求,保险经纪人应当按照合同约定配合进行赔案的理赔工作。\n第四章 监督管理"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3531,
+    "source_end": 3590,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十二条 保险人办理再保险业务,应当按照精算的原理、方法,评估各项准备金,并按照银保监会有关规定准确、足额提取和结转各项准备金。\n对于同一笔寿险业务,在有关精算规定责任准备金下,再保险接受人与再保险分出人在评估准备金时,应采用一致的评估方法与假设。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 113,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 保险人办理再保险业务,应当按照精算的原理、方法,评估各项准备金,并按照银保监会有关规定准确、足额提取和结转各项准备金。\n对于同一笔寿险业务,在有关精算规定责任准备金下,再保险接受人与再保险分出人在评估准备金时,应采用一致的评估方法与假设。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3591,
+    "source_end": 3716,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十三条 保险人偿付能力报告中涉及再保险业务的内容,应当符合银保监会发布的保险公司偿付能力监管规则的要求。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 51,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 保险人偿付能力报告中涉及再保险业务的内容,应当符合银保监会发布的保险公司偿付能力监管规则的要求。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3717,
+    "source_end": 3771,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十四条 外国再保险公司分公司的偿付能力应当符合银保监会发布的保险公司偿付能力监管规则等有关制度的要求。外国再保险公司分公司自留保\n费以其总公司直接授权的额度为限。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 79,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 外国再保险公司分公司的偿付能力应当符合银保监会发布的保险公司偿付能力监管规则等有关制度的要求。外国再保险公司分公司自留保\n费以其总公司直接授权的额度为限。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3772,
+    "source_end": 3855,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十五条 保险人应当严格按照本规定对合约分保和临时分保业务进行分类和经营,不得以临时分保名义变相经营合约分保业务。\n预约分保等非逐保单约定分保条件的再保险业务属于合约分保业务,应当按合约分保的要求进行管理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 98,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 保险人应当严格按照本规定对合约分保和临时分保业务进行分类和经营,不得以临时分保名义变相经营合约分保业务。\n预约分保等非逐保单约定分保条件的再保险业务属于合约分保业务,应当按合约分保的要求进行管理。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3856,
+    "source_end": 3960,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十六条 保险公司应按规定向银保监会或其派出机构提交下列材料:\n(一)于每年4月30日前,提交上一会计年度再保险经营管理情况:\n1.再保险业务经营情况。\n包括分保费收入、分出保费、手续费以及摊回、赔款以及摊回等情况。\n直接保险公司还应报送重大保险赔案及其再保险安排、摊回赔款等情况。重大保险赔案是指在一次保险事故中,财产损失赔偿在5000万元以上,或者人身\n伤亡赔付在3000万元以上的理赔案件。\n2.经总精算师签署的、有关再保险业务的各类准备金提取办法和金额。\n3.除航空航天保险、核保险、石油保险、信用保险外,财产保险公司以比例再保险方式将每一危险单位分给同一家再保险接受人的业务,超过再保险分出\n人承保直接保险合同部分的保险金额或者责任限额50%的交易情况,以及管理该业务信用风险的相关措施。\n4.巨灾风险安排情况,包括巨灾风险累积、巨灾风险自留额及其确定方式、巨灾风险的再保险分出安排等情况。\n5.再保险保费、赔款的应收、应付情况,包括余额、账龄结构、原因分析等,特别是应收应付账龄超过180天的情况。\n(二)于每年6月30日前,提交本会计年度再保险安排有关情况:\n1.财产保险公司的危险单位划分方法及每一危险单位的最大净自留额。\n2.直接保险公司的再保险安排情况,主要包括再保合约的增减、合约分保首席接受人或最大份额接受人的变化等情况。\n3.外国再保险公司分公司的总公司注册地保险监管机构根据当地法律出具的有关其总公司偿付能力状况的意见书或者经营状况意见书,以及总公司对其授\n权的承保权限和自留保费额度。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 561,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 保险公司应按规定向银保监会或其派出机构提交下列材料:\n(一)于每年4月30日前,提交上一会计年度再保险经营管理情况:\n1.再保险业务经营情况。\n包括分保费收入、分出保费、手续费以及摊回、赔款以及摊回等情况。\n直接保险公司还应报送重大保险赔案及其再保险安排、摊回赔款等情况。重大保险赔案是指在一次保险事故中,财产损失赔偿在5000万元以上,或者人身\n伤亡赔付在3000万元以上的理赔案件。\n2.经总精算师签署的、有关再保险业务的各类准备金提取办法和金额。\n3.除航空航天保险、核保险、石油保险、信用保险外,财产保险公司以比例再保险方式将每一危险单位分给同一家再保险接受人的业务,超过再保险分出\n\n人承保直接保险合同部分的保险金额或者责任限额50%的交易情况,以及管理该业务信用风险的相关措施。\n4.巨灾风险安排情况,包括巨灾风险累积、巨灾风险自留额及其确定方式、巨灾风险的再保险分出安排等情况。\n5.再保险保费、赔款的应收、应付情况,包括余额、账龄结构、原因分析等,特别是应收应付账龄超过180天的情况。\n(二)于每年6月30日前,提交本会计年度再保险安排有关情况:\n1.财产保险公司的危险单位划分方法及每一危险单位的最大净自留额。\n2.直接保险公司的再保险安排情况,主要包括再保合约的增减、合约分保首席接受人或最大份额接受人的变化等情况。\n3.外国再保险公司分公司的总公司注册地保险监管机构根据当地法律出具的有关其总公司偿付能力状况的意见书或者经营状况意见书,以及总公司对其授\n权的承保权限和自留保费额度。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 43.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 18.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3961,
+    "source_end": 4620,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十七条 保险联合体应当在每年4月30日以前,向银保监会报告上一年度的财务报告、业务分析报告以及与境外再保险交易情况。\n第五章 法律责任",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 保险联合体应当在每年4月30日以前,向银保监会报告上一年度的财务报告、业务分析报告以及与境外再保险交易情况。\n第五章 法律责任"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4621,
+    "source_end": 4690,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第五章",
+    "chapter_title": "法律责任",
+    "text_zh": "第三十八条\n保险公司、保险经纪人违反本规定办理再保险业务的,由银保监会及其派出机构责令改正,处以五万元以上三十万元以下罚款;情节严重的,可\n以限制业务范围、责令停止接受新业务或者吊销业务许可证。\n对违反本规定办理再保险业务的行为负有直接责任的主管人员和其他直接责任人员给予警告,并处一万元以上十万元以下的罚款;情节严重的,撤销任职资\n格。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 154,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条\n保险公司、保险经纪人违反本规定办理再保险业务的,由银保监会及其派出机构责令改正,处以五万元以上三十万元以下罚款;情节严重的,可\n以限制业务范围、责令停止接受新业务或者吊销业务许可证。\n对违反本规定办理再保险业务的行为负有直接责任的主管人员和其他直接责任人员给予警告,并处一万元以上十万元以下的罚款;情节严重的,撤销任职资\n格。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4691,
+    "source_end": 4860,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第五章",
+    "chapter_title": "法律责任",
+    "text_zh": "第三十九条 办理再保险业务违反法律、行政法规的规定,情节严重的,银保监会可以禁止有关责任人员一定期限直至终身进入保险业。\n第六章 附则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条 办理再保险业务违反法律、行政法规的规定,情节严重的,银保监会可以禁止有关责任人员一定期限直至终身进入保险业。\n第六章 附则"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4861,
+    "source_end": 4928,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第四十条 政策性保险公司办理再保险业务参照适用本规定。不能适用本规定的,政策性保险公司应当在3个月内向银保监会报告有关情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 57,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条 政策性保险公司办理再保险业务参照适用本规定。不能适用本规定的,政策性保险公司应当在3个月内向银保监会报告有关情况。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4929,
+    "source_end": 4991,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_041",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第四十一条 鼓励保险公司利用金融基础设施提供的数字化服务,推动再保险业务向线上化、智能化转型发展,提高经营水平和服务质效。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 56,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十一条 鼓励保险公司利用金融基础设施提供的数字化服务,推动再保险业务向线上化、智能化转型发展,提高经营水平和服务质效。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "金融 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4992,
+    "source_end": 5053,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_042",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "",
+    "chunk_index": 41,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第四十二条 本规定由银保监会负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 17,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十二条 本规定由银保监会负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5054,
+    "source_end": 5073,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2021_ART_043",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2021",
+    "law_name": "再保险业务管理规定",
+    "law_name_original": "再保险业务管理规定",
+    "law_type": "规章/法规",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "",
+    "chunk_index": 42,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第四十三条 本规定自2021年12月1日起施行。《再保险业务管理规定》(中国保险监督管理委员会令2010年第8号)同时废止。\n中国银保监会发布新修订的《再保险业务管理规定》\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "http://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999112&itemId=915",
+    "text_original_language": "zh-en",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十三条 本规定自2021年12月1日起施行。《再保险业务管理规定》(中国保险监督管理委员会令2010年第8号)同时废止。\n中国银保监会发布新修订的《再保险业务管理规定》\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999112&itemId=915\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=999118&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_077.txt",
+    "sample_id": "CN_077",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_077",
+    "raw_sha256": "6a4e65ae21ca705c7e313080d8b667091c4c0e2151d11ce4a234207a155bc0db",
+    "extracted_text_sha256": "12673501dbb105828a15f8b928b297db9b5b209ca76727b3361e7dc27d5f0e26",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5074,
+    "source_end": 5247,
+    "language_original": [
+      "zh",
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

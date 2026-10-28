@@ -13,6 +13,7 @@ from typing import Dict, List, Optional
 from pydantic import BaseModel, Field
 
 from core.config import settings
+from core.jurisdiction import normalize_jurisdictions
 from core.llm import get_chat_model
 from repositories.elasticsearch import ElasticsearchRepository
 from services.kg_extraction_service import _RELATION_LABELS
@@ -30,11 +31,12 @@ _MAX_PATHS = 20              # 候选路径上限（控制 prompt 长度）
 _MAX_SNIPPETS = 20           # 回取原文的条款上限
 # 法域名是结构性信息，检索条款时是噪声（「在日本和澳门法中」会把跨境条款顶上来）
 _JURISDICTION_NAMES = (
-    "香港", "澳门", "台湾", "日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
-    "美国", "欧盟", "英国", "中国", "内地", "加拿大", "澳大利亚", "印度",
+    "中国香港", "香港", "中国澳门", "澳门", "台湾", "日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
+    "美国", "欧盟", "英国", "中国大陆", "中国", "内地", "加拿大", "澳大利亚", "印度",
     "菲律宾", "印度尼西亚", "印尼", "柬埔寨", "缅甸", "老挝", "文莱",
 )
 _JURISDICTION_SUFFIX = r"(?:特别行政区|特区|法域|地区|的法律|法律|法规|法)?"
+
 
 # 通用指代型「概念」：实体消歧会把它们归并到同一 canonical_id，但对跨法域对齐无信息量
 _GENERIC_CONCEPTS = {
@@ -509,6 +511,11 @@ class MultiHopService:
             return {"found": False, "message": "问题为空", "answer": "",
                     "reasoning_path": [], "cited_articles": [], "targets": []}
 
+        # 法域入参归一：调用方常用旧称（"香港"）或英文名，而索引与质心里存的是规范名
+        # （"中国香港"）。不归一时字面比较会全部失配，点名法域优先逻辑静默退化成
+        # 纯相似度排序，源侧定位与目标法规选择都会失准。
+        jurisdictions = normalize_jurisdictions(jurisdictions)
+
         candidates = self._locate_source(
             question, source_law_id, source_article, jurisdictions
         )
@@ -520,8 +527,12 @@ class MultiHopService:
         for cand in candidates:
             if not cand.get("law_id"):
                 continue
+            # 候选池需覆盖全部点名法域：多样性选择每法域只取一条，top_k 太小
+            # 会被未点名的法域按评分占满（新增法域入库后澳门曾被挤到第 7 位出局）。
             data = self.similar.get_similar_laws(
-                cand["law_id"], top_k=max(top_k_laws * 2, 6)
+                cand["law_id"],
+                top_k=max(top_k_laws * 2, 6),
+                preferred_jurisdictions=jurisdictions,
             )
             picked = self._pick_targets(
                 data, cand.get("jurisdiction", ""), top_k_laws, jurisdictions

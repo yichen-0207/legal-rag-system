@@ -1,0 +1,4079 @@
+[
+  {
+    "doc_id": "CN_DOC_1_2010_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第一条 为了防止和纠正违法的或者不当的具体行政行为,保护公民、法人和其他组织的合法权益,保障和监督中国保险监督管理委员会(以下简称“中国保\n监会”)及中国保监会派出机构(以下简称“派出机构”)依法行使职权,根据《中华人民共和国保险法》(以下简称“保险法”)、《中华人民共和国行政复议法》(以下\n简称“行政复议法”)、《中华人民共和国行政复议法实施条例》(以下简称“行政复议实施条例”)等有关法律、行政法规,制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 171,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为了防止和纠正违法的或者不当的具体行政行为,保护公民、法人和其他组织的合法权益,保障和监督中国保险监督管理委员会(以下简称“中国保\n监会”)及中国保监会派出机构(以下简称“派出机构”)依法行使职权,根据《中华人民共和国保险法》(以下简称“保险法”)、《中华人民共和国行政复议法》(以下\n简称“行政复议法”)、《中华人民共和国行政复议法实施条例》(以下简称“行政复议实施条例”)等有关法律、行政法规,制定本办法。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "financial_services",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 12.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 43,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第二条 公民、法人或者其他组织认为中国保监会或者其派出机构的具体行政行为侵犯其合法权益的,可以依照法律、行政法规和本办法的规定向中国保\n监会申请行政复议。\n中国保监会作为行政复议机关,依照法律、行政法规和本办法的规定受理行政复议申请,对中国保监会或者其派出机构的具体行政行为进行审查,作出行政\n复议决定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 139,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 公民、法人或者其他组织认为中国保监会或者其派出机构的具体行政行为侵犯其合法权益的,可以依照法律、行政法规和本办法的规定向中国保\n监会申请行政复议。\n中国保监会作为行政复议机关,依照法律、行政法规和本办法的规定受理行政复议申请,对中国保监会或者其派出机构的具体行政行为进行审查,作出行政\n复议决定。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 15.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 41,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第三条 中国保监会负责法制工作的机构作为中国保监会的行政复议机构,具体办理行政复议事项,履行下列职责:\n(一)受理行政复议申请;(二)向有关组织和人员调查取证,查阅文件和资料;\n(三)审查申请行政复议的具体行政行为是否合法与适当,拟订行政复议决定;\n(四)处理或者转送对本办法第七条所列有关规定的审查申请;\n(五)办理行政复议统计和重大行政复议决定备案事项;\n(六)对违反本办法规定的行为依照规定的权限和程序提出处理建议;\n(七)督促行政复议决定的执行;(八)法律、行政法规和中国保监会规章规定的其他职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 216,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 中国保监会负责法制工作的机构作为中国保监会的行政复议机构,具体办理行政复议事项,履行下列职责:\n(一)受理行政复议申请;(二)向有关组织和人员调查取证,查阅文件和资料;\n(三)审查申请行政复议的具体行政行为是否合法与适当,拟订行政复议决定;\n(四)处理或者转送对本办法第七条所列有关规定的审查申请;\n(五)办理行政复议统计和重大行政复议决定备案事项;\n(六)对违反本办法规定的行为依照规定的权限和程序提出处理建议;\n(七)督促行政复议决定的执行;(八)法律、行政法规和中国保监会规章规定的其他职责。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 18.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5635,
+    "source_end": 5686,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第四条 中国保监会履行行政复议职责,应当遵循合法、公正、公开、及时、便民的原则,坚持有错必纠,保障法律、法规的正确实施。\n第二章 行政复议范围",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 59,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 中国保监会履行行政复议职责,应当遵循合法、公正、公开、及时、便民的原则,坚持有错必纠,保障法律、法规的正确实施。\n第二章 行政复议范围"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5645,
+    "source_end": 5686,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第二章",
+    "chapter_title": "行政复议范围",
+    "text_zh": "第五条 公民、法人或者其他组织对中国保监会或者其派出机构作出的、属于行政复议法第六条规定的具体行政行为不服,可以向中国保监会申请行政复\n议。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 64,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 公民、法人或者其他组织对中国保监会或者其派出机构作出的、属于行政复议法第六条规定的具体行政行为不服,可以向中国保监会申请行政复\n议。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5658,
+    "source_end": 5686,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第二章",
+    "chapter_title": "行政复议范围",
+    "text_zh": "第六条 对中国保监会或者其派出机构的下列行为不能申请行政复议:\n(一)对其工作人员作出的行政处分或者其他人事处理决定;\n(二)不具有强制力的行政指导行为;(三)对公民、法人或者其他组织的权利义务不产生实际影响的行为。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 94,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 对中国保监会或者其派出机构的下列行为不能申请行政复议:\n(一)对其工作人员作出的行政处分或者其他人事处理决定;\n(二)不具有强制力的行政指导行为;(三)对公民、法人或者其他组织的权利义务不产生实际影响的行为。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 988,
+    "source_end": 1096,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第二章",
+    "chapter_title": "行政复议范围",
+    "text_zh": "第七条 公民、法人或者其他组织认为中国保监会或者其派出机构的具体行政行为所依据的规定不合法,在对具体行政行为申请行政复议时,可以一并向中\n国保监会提出对该规定的审查申请;申请人在对具体行政行为提出行政复议申请时,尚不知道该具体行政行为所依据的规定的,可以在中国保监会作出行政复议\n决定前向中国保监会提出对该规定的审查申请。\n前款规定不适用于规章。规章的审查依照法律、行政法规办理。\n第三章 行政复议申请",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 185,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 公民、法人或者其他组织认为中国保监会或者其派出机构的具体行政行为所依据的规定不合法,在对具体行政行为申请行政复议时,可以一并向中\n国保监会提出对该规定的审查申请;申请人在对具体行政行为提出行政复议申请时,尚不知道该具体行政行为所依据的规定的,可以在中国保监会作出行政复议\n决定前向中国保监会提出对该规定的审查申请。\n前款规定不适用于规章。规章的审查依照法律、行政法规办理。\n第三章 行政复议申请"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 16.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 50,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第八条 公民、法人或者其他组织认为中国保监会或者其派出机构的具体行政行为侵犯其合法权益的,可以自知道该具体行政行为之日起六十日内提出行\n政复议申请。法律规定的申请期限超过六十日的除外。\n因不可抗力或者其他正当理由耽误法定申请期限的,经行政复议机构依法审查属实,申请期限自障碍消除之日起继续计算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 137,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 公民、法人或者其他组织认为中国保监会或者其派出机构的具体行政行为侵犯其合法权益的,可以自知道该具体行政行为之日起六十日内提出行\n政复议申请。法律规定的申请期限超过六十日的除外。\n因不可抗力或者其他正当理由耽误法定申请期限的,经行政复议机构依法审查属实,申请期限自障碍消除之日起继续计算。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1299,
+    "source_end": 1446,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第九条 依照本办法申请行政复议的公民、法人或者其他组织是行政复议的申请人。\n有权申请行政复议的公民死亡的,其近亲属可以申请行政复议。\n有权申请行政复议的公民为无民事行为能力人或者限制民事行为能力人的,其法定代理人可以代为申请行政复议。\n有权申请行政复议的法人或者其他组织终止的,承受其权利的法人或者其他组织可以申请行政复议。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 150,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 依照本办法申请行政复议的公民、法人或者其他组织是行政复议的申请人。\n有权申请行政复议的公民死亡的,其近亲属可以申请行政复议。\n有权申请行政复议的公民为无民事行为能力人或者限制民事行为能力人的,其法定代理人可以代为申请行政复议。\n有权申请行政复议的法人或者其他组织终止的,承受其权利的法人或者其他组织可以申请行政复议。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 15.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1447,
+    "source_end": 1609,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第十条 合伙企业申请行政复议的,应当以核准登记的企业为申请人,由执行合伙事务的合伙人代表该企业参加行政复议;其他合伙组织申请行政复议的,由合\n伙人共同申请行政复议。\n前款规定以外的不具备法人资格的其他组织申请行政复议的,由该组织的主要负责人代表该组织参加行政复议;没有主要负责人的,由共同推选的其他成员\n代表该组织参加行政复议。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 151,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 合伙企业申请行政复议的,应当以核准登记的企业为申请人,由执行合伙事务的合伙人代表该企业参加行政复议;其他合伙组织申请行政复议的,由合\n伙人共同申请行政复议。\n前款规定以外的不具备法人资格的其他组织申请行政复议的,由该组织的主要负责人代表该组织参加行政复议;没有主要负责人的,由共同推选的其他成员\n代表该组织参加行政复议。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 13.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 43,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第十一条 股份制企业的股东大会、股东代表大会、董事会认为中国保监会或者其派出机构的具体行政行为侵犯企业合法权益的,可以以企业的名义申请\n行政复议。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 股份制企业的股东大会、股东代表大会、董事会认为中国保监会或者其派出机构的具体行政行为侵犯企业合法权益的,可以以企业的名义申请\n\n行政复议。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "董事会",
+          "股东",
+          "董事 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1775,
+    "source_end": 1849,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第十二条 公民、法人或者其他组织对中国保监会或者其派出机构的具体行政行为不服申请行政复议的,作出该具体行政行为的机关是被申请人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 公民、法人或者其他组织对中国保监会或者其派出机构的具体行政行为不服申请行政复议的,作出该具体行政行为的机关是被申请人。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1850,
+    "source_end": 1914,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第十三条 与申请行政复议的具体行政行为有利害关系的其他公民、法人或者其他组织,提出申请并经行政复议机构审查认为符合行政复议第三人条件的,\n可以作为第三人参加行政复议。行政复议机构也可以直接通知上述人员作为第三人参加行政复议。\n参加行政复议的第三人有权提出与所参加的行政复议有关的主张。第三人不参加行政复议,不影响行政复议案件的审理。\n本条第一款所称利害关系是指与具体行政行为有法律上的利害关系。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 184,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 与申请行政复议的具体行政行为有利害关系的其他公民、法人或者其他组织,提出申请并经行政复议机构审查认为符合行政复议第三人条件的,\n可以作为第三人参加行政复议。行政复议机构也可以直接通知上述人员作为第三人参加行政复议。\n参加行政复议的第三人有权提出与所参加的行政复议有关的主张。第三人不参加行政复议,不影响行政复议案件的审理。\n本条第一款所称利害关系是指与具体行政行为有法律上的利害关系。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 21.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1915,
+    "source_end": 2112,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第十四条 申请人、第三人可以委托一至二名代理人代为参加行政复议。\n委托代理人代为参加行政复议时,应当向行政复议机构提交委托人签署的授权委托书,出示委托人及代理人的合法有效身份证件。授权委托书应当载明委\n托事项、权限和期限。\n公民在特殊情况下无法书面委托的,可以口头委托。口头委托的,行政复议机构应当核实并记录在卷。申请人、第三人解除或者变更委托的,应当书面报告\n行政复议机构。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 169,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 申请人、第三人可以委托一至二名代理人代为参加行政复议。\n委托代理人代为参加行政复议时,应当向行政复议机构提交委托人签署的授权委托书,出示委托人及代理人的合法有效身份证件。授权委托书应当载明委\n托事项、权限和期限。\n公民在特殊情况下无法书面委托的,可以口头委托。口头委托的,行政复议机构应当核实并记录在卷。申请人、第三人解除或者变更委托的,应当书面报告\n行政复议机构。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 10.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2113,
+    "source_end": 2301,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第十五条 申请人申请行政复议,可以书面申请,也可以口头申请。\n申请人书面申请行政复议的,可以采取当面递交、邮寄或者传真方式提出行政复议申请。\n申请人选择口头申请的,行政复议机构应当依照本办法第十六条规定的事项,当场制作行政复议申请笔录交申请人核对或者向申请人宣读,并由申请人签字\n确认。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 129,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 申请人申请行政复议,可以书面申请,也可以口头申请。\n申请人书面申请行政复议的,可以采取当面递交、邮寄或者传真方式提出行政复议申请。\n申请人选择口头申请的,行政复议机构应当依照本办法第十六条规定的事项,当场制作行政复议申请笔录交申请人核对或者向申请人宣读,并由申请人签字\n确认。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 10.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2302,
+    "source_end": 2445,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第十六条 申请人书面申请行政复议的,应当在行政复议申请书中载明下列事项:\n(一)申请人的基本情况,包括:公民的姓名、性别、年龄、身份证号码、工作单位、住所、邮政编码;法人或者其他组织的名称、住所、邮政编码和法定代\n表人或者主要负责人的姓名、职务;(二)被申请人的名称;\n(三)行政复议请求;(四)申请行政复议的主要事实和理由;\n(五)申请人的签名或者盖章;(六)申请行政复议的日期。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 154,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 申请人书面申请行政复议的,应当在行政复议申请书中载明下列事项:\n(一)申请人的基本情况,包括:公民的姓名、性别、年龄、身份证号码、工作单位、住所、邮政编码;法人或者其他组织的名称、住所、邮政编码和法定代\n表人或者主要负责人的姓名、职务;(二)被申请人的名称;\n(三)行政复议请求;(四)申请行政复议的主要事实和理由;\n(五)申请人的签名或者盖章;(六)申请行政复议的日期。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 10.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2446,
+    "source_end": 2637,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第十七条 申请人对中国保监会或者其派出机构的具体行政行为不服的,可以直接向中国保监会申请行政复议,也可以通过派出机构提出。\n申请人选择向派出机构口头提出行政复议申请的,派出机构应当根据本办法第十五条第三款的规定,制作行政复议申请笔录交申请人核对或者向申请人宣\n读,并由申请人签字确认。\n派出机构应当在收到申请人的行政复议申请或者制作完成行政复议申请笔录之日起七日内,将申请人的行政复议申请转呈中国保监会,并告知申请人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 195,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 申请人对中国保监会或者其派出机构的具体行政行为不服的,可以直接向中国保监会申请行政复议,也可以通过派出机构提出。\n申请人选择向派出机构口头提出行政复议申请的,派出机构应当根据本办法第十五条第三款的规定,制作行政复议申请笔录交申请人核对或者向申请人宣\n读,并由申请人签字确认。\n派出机构应当在收到申请人的行政复议申请或者制作完成行政复议申请笔录之日起七日内,将申请人的行政复议申请转呈中国保监会,并告知申请人。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 13.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2638,
+    "source_end": 2847,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第十八条 有下列情形之一的,申请人应当提供证明材料:\n(一)认为被申请人不履行法定职责的,提供曾经要求被申请人履行法定职责而被申请人未履行的证明材料;\n(二)法律、法规规定需要申请人提供证据材料的其他情形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 90,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 有下列情形之一的,申请人应当提供证明材料:\n(一)认为被申请人不履行法定职责的,提供曾经要求被申请人履行法定职责而被申请人未履行的证明材料;\n(二)法律、法规规定需要申请人提供证据材料的其他情形。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2848,
+    "source_end": 2951,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第三章",
+    "chapter_title": "行政复议申请",
+    "text_zh": "第十九条 申请人向中国保监会申请行政复议,中国保监会已经受理的,在法定行政复议期限内申请人不得向人民法院起诉;申请人向人民法院提起行政诉讼,\n人民法院已经依法受理的,不得申请行政复议。\n第四章行政复议受理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 93,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 申请人向中国保监会申请行政复议,中国保监会已经受理的,在法定行政复议期限内申请人不得向人民法院起诉;申请人向人民法院提起行政诉讼,\n人民法院已经依法受理的,不得申请行政复议。\n第四章行政复议受理"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 10.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2952,
+    "source_end": 3054,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第四章",
+    "chapter_title": "行政复议受理",
+    "text_zh": "第二十条 行政复议机构应当在收到申请人提交的或派出机构转呈的行政复议申请之日起五日内进行审查,对不符合行政复议法、行政复议实施条例和本\n办法规定的受理条件的行政复议申请,决定不予受理,并书面告知申请人。对符合行政复议法、行政复议实施条例和本办法规定的受理条件的行政复议申请,自\n行政复议机构收到之日起即为受理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 144,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 行政复议机构应当在收到申请人提交的或派出机构转呈的行政复议申请之日起五日内进行审查,对不符合行政复议法、行政复议实施条例和本\n办法规定的受理条件的行政复议申请,决定不予受理,并书面告知申请人。对符合行政复议法、行政复议实施条例和本办法规定的受理条件的行政复议申请,自\n行政复议机构收到之日起即为受理。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 16.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 41,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第四章",
+    "chapter_title": "行政复议受理",
+    "text_zh": "第二十一条 行政复议申请材料不齐全或者表述不清楚的,行政复议机构可以自收到该行政复议申请之日起五日内书面通知申请人补正。补正通知应当载\n明需要补正的事项和合理的补正期限。无正当理由逾期不补正的,视为申请人放弃行政复议申请。补正申请材料所用时间不计入行政复议审理期限。\n申请人采取传真方式提出行政复议申请的,行政复议机构可以要求申请人依照行政复议实施条例第二十九条和本办法第二十二条的规定补充提交申请材\n料的原件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 194,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 行政复议申请材料不齐全或者表述不清楚的,行政复议机构可以自收到该行政复议申请之日起五日内书面通知申请人补正。补正通知应当载\n明需要补正的事项和合理的补正期限。无正当理由逾期不补正的,视为申请人放弃行政复议申请。补正申请材料所用时间不计入行政复议审理期限。\n申请人采取传真方式提出行政复议申请的,行政复议机构可以要求申请人依照行政复议实施条例第二十九条和本办法第二十二条的规定补充提交申请材\n料的原件。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 15.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3211,
+    "source_end": 3417,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第四章",
+    "chapter_title": "行政复议受理",
+    "text_zh": "第二十二条 有下列情形之一的,属于行政复议申请材料不齐全或者表述不清楚:\n(一)未依照本办法第十六条第(一)项的规定提供申请人基本情况;\n(二)无明确的被申请人;(三)行政复议请求不具体、不明确;\n(四)委托代理的手续不全或者权限不明确;\n(五)未依照本办法第十八条的规定提供证明材料;\n(六)其他行政复议申请材料不齐全或者表述不清楚的情形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 142,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 有下列情形之一的,属于行政复议申请材料不齐全或者表述不清楚:\n(一)未依照本办法第十六条第(一)项的规定提供申请人基本情况;\n(二)无明确的被申请人;(三)行政复议请求不具体、不明确;\n(四)委托代理的手续不全或者权限不明确;\n(五)未依照本办法第十八条的规定提供证明材料;\n(六)其他行政复议申请材料不齐全或者表述不清楚的情形。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3418,
+    "source_end": 3589,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第四章",
+    "chapter_title": "行政复议受理",
+    "text_zh": "第二十三条 行政复议申请材料不齐全或者表述不清楚,或者采取传真方式提出行政复议申请,行政复议机构书面通知申请人补正申请材料或者提交申请材\n料原件的,受理的审查期限自收到补正后的申请材料或者申请材料原件之日起算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 99,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 行政复议申请材料不齐全或者表述不清楚,或者采取传真方式提出行政复议申请,行政复议机构书面通知申请人补正申请材料或者提交申请材\n料原件的,受理的审查期限自收到补正后的申请材料或者申请材料原件之日起算。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3590,
+    "source_end": 3695,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第四章",
+    "chapter_title": "行政复议受理",
+    "text_zh": "第二十四条 下列情形不视为申请行政复议,行政复议机构可以转由其他机构处理并告知申请人:\n(一)对中国保监会或者其派出机构工作人员的个人违法违纪行为进行举报、控告的;\n(二)其他以行政复议申请名义,进行信访投诉的情形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 95,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 下列情形不视为申请行政复议,行政复议机构可以转由其他机构处理并告知申请人:\n(一)对中国保监会或者其派出机构工作人员的个人违法违纪行为进行举报、控告的;\n\n(二)其他以行政复议申请名义,进行信访投诉的情形。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3696,
+    "source_end": 3805,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第四章",
+    "chapter_title": "行政复议受理",
+    "text_zh": "第二十五条 复议期间具体行政行为不停止执行;但是,有下列情形之一的,可以停止执行:\n(一) 被申请人认为需要停止执行的;(二) 中国保监会认为需要停止执行的;\n(三) 申请人申请停止执行,中国保监会认为其要求合理,决定停止执行的;\n(四) 法律规定停止执行的。\n第五章 行政复议决定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 113,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 复议期间具体行政行为不停止执行;但是,有下列情形之一的,可以停止执行:\n(一) 被申请人认为需要停止执行的;(二) 中国保监会认为需要停止执行的;\n(三) 申请人申请停止执行,中国保监会认为其要求合理,决定停止执行的;\n(四) 法律规定停止执行的。\n第五章 行政复议决定"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3806,
+    "source_end": 3947,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第二十六条 行政复议原则上实行书面审查。但是申请人提出要求或者行政复议机构认为必要的,行政复议机构可以向有关组织和人员调查情况,听取申请\n人、被申请人和第三人的意见。对于重大、复杂的案件,行政复议机构可以采取听证的方式审理。\n需要现场勘验的,现场勘验所用时间不计入行政复议审理期限。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 128,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 行政复议原则上实行书面审查。但是申请人提出要求或者行政复议机构认为必要的,行政复议机构可以向有关组织和人员调查情况,听取申请\n人、被申请人和第三人的意见。对于重大、复杂的案件,行政复议机构可以采取听证的方式审理。\n需要现场勘验的,现场勘验所用时间不计入行政复议审理期限。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 10.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3948,
+    "source_end": 4089,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第二十七条 行政复议机构应当自行政复议申请受理之日起七日内,将行政复议申请书副本或者行政复议申请笔录复印件发送被申请人。被申请人应当自\n收到申请书副本或者申请笔录复印件之日起十日内,向行政复议机构提交书面答复一式两份,并提交当初作出具体行政行为的证据、依据和其他有关材料。\n中国保监会是被申请人的,由中国保监会主办该具体行政行为的部门提交书面答复,并提交当初作出具体行政行为的证据、依据和其他有关材料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 188,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 行政复议机构应当自行政复议申请受理之日起七日内,将行政复议申请书副本或者行政复议申请笔录复印件发送被申请人。被申请人应当自\n收到申请书副本或者申请笔录复印件之日起十日内,向行政复议机构提交书面答复一式两份,并提交当初作出具体行政行为的证据、依据和其他有关材料。\n中国保监会是被申请人的,由中国保监会主办该具体行政行为的部门提交书面答复,并提交当初作出具体行政行为的证据、依据和其他有关材料。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 15.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 49,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第二十八条 被申请人提交的书面答复应当载明下列内容:\n(一)被申请人的名称和住址;(二)被申请人当初作出具体行政行为时所认定的事实、证据及所依据的规定,对有关事实的陈述应当注明相应的证据及证据的来源;\n(三)对申请人行政复议申请中陈述的事实和理由提出答辩并进行相应的举证;\n(四)结论;(五)作出书面答复的年、月、日,并加盖派出机构或部门的印章。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 148,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 被申请人提交的书面答复应当载明下列内容:\n(一)被申请人的名称和住址;(二)被申请人当初作出具体行政行为时所认定的事实、证据及所依据的规定,对有关事实的陈述应当注明相应的证据及证据的来源;\n(三)对申请人行政复议申请中陈述的事实和理由提出答辩并进行相应的举证;\n(四)结论;(五)作出书面答复的年、月、日,并加盖派出机构或部门的印章。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4292,
+    "source_end": 4465,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第二十九条 申请人和第三人可以查阅被申请人提出的书面答复、作出具体行政行为的证据、依据和其他有关材料,除涉及国家秘密、商业秘密或者个人\n隐私外,中国保监会不得拒绝。\n申请人和第三人查阅材料,按下列程序和要求办理:\n(一)在行政复议机构要求的时限内,提出查阅申请,并办理相关查阅手续;\n(二)在查阅过程中,不得涂改、替换、毁损、隐匿查阅的材料;\n(三)经行政复议机构同意,可以摘抄查阅材料的内容。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 167,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 申请人和第三人可以查阅被申请人提出的书面答复、作出具体行政行为的证据、依据和其他有关材料,除涉及国家秘密、商业秘密或者个人\n隐私外,中国保监会不得拒绝。\n申请人和第三人查阅材料,按下列程序和要求办理:\n(一)在行政复议机构要求的时限内,提出查阅申请,并办理相关查阅手续;\n(二)在查阅过程中,不得涂改、替换、毁损、隐匿查阅的材料;\n(三)经行政复议机构同意,可以摘抄查阅材料的内容。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4466,
+    "source_end": 4663,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第三十条 申请人和第三人在行政复议过程中,需要针对被申请人提交的书面答复作出补充说明的,应当在行政复议机构指定的合理期限内提交书面意见,逾\n期提交的,行政复议机构可以不予接受。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 81,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 申请人和第三人在行政复议过程中,需要针对被申请人提交的书面答复作出补充说明的,应当在行政复议机构指定的合理期限内提交书面意见,逾\n期提交的,行政复议机构可以不予接受。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4664,
+    "source_end": 4752,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第三十一条 在行政复议过程中,被申请人不得自行向申请人和其他有关组织或者个人收集证据。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 40,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 在行政复议过程中,被申请人不得自行向申请人和其他有关组织或者个人收集证据。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4753,
+    "source_end": 4796,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第三十二条 行政复议决定作出前,申请人要求撤回行政复议申请的,经说明理由,可以撤回。\n申请人撤回行政复议申请的,不得再以同一事实和理由提出行政复议申请。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 行政复议决定作出前,申请人要求撤回行政复议申请的,经说明理由,可以撤回。\n申请人撤回行政复议申请的,不得再以同一事实和理由提出行政复议申请。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 9.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4797,
+    "source_end": 4873,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第三十三条 行政复议期间有下列情形之一,影响行政复议案件审理的,行政复议中止:\n(一)行政复议法第二十六条、第二十七条规定的情形;\n(二)行政复议实施条例第四十一条规定的情形。\n行政复议中止的原因消除后,应当及时恢复行政复议案件的审理。\n行政复议机构中止、恢复行政复议案件的审理,应当告知有关当事人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 130,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 行政复议期间有下列情形之一,影响行政复议案件审理的,行政复议中止:\n(一)行政复议法第二十六条、第二十七条规定的情形;\n(二)行政复议实施条例第四十一条规定的情形。\n行政复议中止的原因消除后,应当及时恢复行政复议案件的审理。\n行政复议机构中止、恢复行政复议案件的审理,应当告知有关当事人。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 16.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4874,
+    "source_end": 5024,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第三十四条 行政复议期间有行政复议实施条例第四十二条规定情形的,行政复议终止。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 36,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 行政复议期间有行政复议实施条例第四十二条规定情形的,行政复议终止。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5025,
+    "source_end": 5064,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第三十五条 申请人、被申请人和第三人认为复议工作人员与本案有利害关系或者有其他关系可能影响公正审理复议案件的,有权申请复议工作人员回\n避。\n复议工作人员认为自己与本案有利害关系或者有其他关系的,应当申请回避。\n复议工作人员的回避由行政复议机构负责人决定。行政复议机构负责人的回避由中国保监会负责人决定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 140,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 申请人、被申请人和第三人认为复议工作人员与本案有利害关系或者有其他关系可能影响公正审理复议案件的,有权申请复议工作人员回\n避。\n复议工作人员认为自己与本案有利害关系或者有其他关系的,应当申请回避。\n复议工作人员的回避由行政复议机构负责人决定。行政复议机构负责人的回避由中国保监会负责人决定。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "机构负责人"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5065,
+    "source_end": 5216,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第三十六条 有下列情形之一的,中国保监会应当决定驳回行政复议申请:\n(一)申请人认为被申请人不履行法定职责申请行政复议,中国保监会受理后发现被申请人没有相应法定职责或者在受理前已经履行法定职责的;\n(二)受理行政复议申请后,发现该行政复议申请不符合行政复议法、行政复议实施条例和本办法规定的受理条件的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 137,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 有下列情形之一的,中国保监会应当决定驳回行政复议申请:\n(一)申请人认为被申请人不履行法定职责申请行政复议,中国保监会受理后发现被申请人没有相应法定职责或者在受理前已经履行法定职责的;\n(二)受理行政复议申请后,发现该行政复议申请不符合行政复议法、行政复议实施条例和本办法规定的受理条件的。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 12.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5217,
+    "source_end": 5368,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第三十七条 行政复议机构应当对被申请人作出的具体行政行为进行审查,提出意见,经中国保监会负责人同意或者集体讨论通过后,中国保监会按照下列规\n定作出行政复议决定:(一)具体行政行为认定事实清楚,证据确凿,适用依据正确,程序合法,内容适当的,决定维持;\n(二)被申请人不履行法定职责的,决定其在一定期限内履行;\n(三)具体行政行为有下列情形之一的,决定撤销、变更或者确认该具体行政行为违法;决定撤销或者确认该具体行政行为违法的,可以责令被申请人在一定\n期限内重新作出具体行政行为:1、主要事实不清、证据不足的;\n2、适用依据错误的;\n3、违反法定程序的;4、超越或者滥用职权的;\n5、具体行政行为明显不当的。\n(四)被申请人不按照本办法第二十七条的规定提出书面答复、提交当初作出具体行政行为的证据、依据和其他有关材料的,视为该具体行政行为没有证\n据、依据,决定撤销该具体行政行为。\n中国保监会责令被申请人重新作出具体行政行为的,被申请人不得以同一事实和理由作出与原具体行政行为相同或者基本相同的具体行政行为。因违反\n法定程序而被撤销的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 406,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 行政复议机构应当对被申请人作出的具体行政行为进行审查,提出意见,经中国保监会负责人同意或者集体讨论通过后,中国保监会按照下列规\n定作出行政复议决定:(一)具体行政行为认定事实清楚,证据确凿,适用依据正确,程序合法,内容适当的,决定维持;\n(二)被申请人不履行法定职责的,决定其在一定期限内履行;\n(三)具体行政行为有下列情形之一的,决定撤销、变更或者确认该具体行政行为违法;决定撤销或者确认该具体行政行为违法的,可以责令被申请人在一定\n期限内重新作出具体行政行为:1、主要事实不清、证据不足的;\n2、适用依据错误的;\n\n3、违反法定程序的;4、超越或者滥用职权的;\n5、具体行政行为明显不当的。\n(四)被申请人不按照本办法第二十七条的规定提出书面答复、提交当初作出具体行政行为的证据、依据和其他有关材料的,视为该具体行政行为没有证\n据、依据,决定撤销该具体行政行为。\n中国保监会责令被申请人重新作出具体行政行为的,被申请人不得以同一事实和理由作出与原具体行政行为相同或者基本相同的具体行政行为。因违反\n法定程序而被撤销的除外。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 25.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5369,
+    "source_end": 5838,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第三十八条 中国保监会应当自受理申请之日起六十日内作出行政复议决定;但是法律规定的行政复议期限少于六十日的除外。情况复杂,不能在规定期限\n内作出行政复议决定的,经中国保监会负责人批准,可以适当延长,并告知申请人、被申请人和第三人;但是延长期限最多不超过三十日。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 119,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条 中国保监会应当自受理申请之日起六十日内作出行政复议决定;但是法律规定的行政复议期限少于六十日的除外。情况复杂,不能在规定期限\n内作出行政复议决定的,经中国保监会负责人批准,可以适当延长,并告知申请人、被申请人和第三人;但是延长期限最多不超过三十日。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5839,
+    "source_end": 5969,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第三十九条 中国保监会作出行政复议决定,应当制作《行政复议决定书》,送达申请人、被申请人和第三人。\n行政复议决定书一经送达,即发生法律效力。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条 中国保监会作出行政复议决定,应当制作《行政复议决定书》,送达申请人、被申请人和第三人。\n行政复议决定书一经送达,即发生法律效力。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5970,
+    "source_end": 6040,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第五章",
+    "chapter_title": "行政复议决定",
+    "text_zh": "第四十条 被申请人应当履行行政复议决定。\n被申请人不履行或者无正当理由拖延履行行政复议决定的,中国保监会应当责令被申请人限期履行。\n第六章 法律责任",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条 被申请人应当履行行政复议决定。\n被申请人不履行或者无正当理由拖延履行行政复议决定的,中国保监会应当责令被申请人限期履行。\n第六章 法律责任"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6041,
+    "source_end": 6115,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_041",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "第六章",
+    "chapter_title": "法律责任",
+    "text_zh": "第四十一条 中国保监会或者其派出机构、中国保监会或者其派出机构工作人员,在行政复议活动中有违反行政复议法、行政复议实施条例及本办法规定\n的行为的,按照行政复议法第三十四条至第三十八条和行政复议实施条例第六十二条、第六十四条的规定,追究法律责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 113,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十一条 中国保监会或者其派出机构、中国保监会或者其派出机构工作人员,在行政复议活动中有违反行政复议法、行政复议实施条例及本办法规定\n的行为的,按照行政复议法第三十四条至第三十八条和行政复议实施条例第六十二条、第六十四条的规定,追究法律责任。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 10.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6116,
+    "source_end": 6238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_042",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "",
+    "chunk_index": 41,
+    "chapter": "第六章",
+    "chapter_title": "法律责任",
+    "text_zh": "第四十二条 拒绝或者阻挠行政复议人员调查取证、查阅、复制、调取有关文件和资料的,对有关责任人员依法给予处分或者治安处罚;构成犯罪的,依法追\n究刑事责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十二条 拒绝或者阻挠行政复议人员调查取证、查阅、复制、调取有关文件和资料的,对有关责任人员依法给予处分或者治安处罚;构成犯罪的,依法追\n究刑事责任。"
+      }
+    ],
+    "topics": [
+      "criminal_law",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 13.5,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事责任",
+          "刑事 (weak)",
+          "犯罪 (weak)",
+          "责任 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6239,
+    "source_end": 6315,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_043",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "",
+    "chunk_index": 42,
+    "chapter": "第六章",
+    "chapter_title": "法律责任",
+    "text_zh": "第四十三条 中国保监会或者其派出机构、中国保监会或者其派出机构工作人员,违反行政复议法、行政复议实施条例和本办法规定的,行政复议机构可以\n向人事、监察部门提出对有关责任人员的处分建议,也可以将有关人员违法的事实材料直接转送人事、监察部门处理;接受转送的人事、监察部门应当依法处\n理,并将处理结果通报转送的行政复议机构。\n第七章 附则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 150,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十三条 中国保监会或者其派出机构、中国保监会或者其派出机构工作人员,违反行政复议法、行政复议实施条例和本办法规定的,行政复议机构可以\n向人事、监察部门提出对有关责任人员的处分建议,也可以将有关人员违法的事实材料直接转送人事、监察部门处理;接受转送的人事、监察部门应当依法处\n理,并将处理结果通报转送的行政复议机构。\n第七章 附则"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 9.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6316,
+    "source_end": 6482,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_044",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "44",
+    "article_number_normalized": "044",
+    "article_title": "",
+    "chunk_index": 43,
+    "chapter": "第七章",
+    "chapter_title": "附则",
+    "text_zh": "第四十四条 中国保监会受理行政复议申请,不得向申请人收取任何费用。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 30,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十四条 中国保监会受理行政复议申请,不得向申请人收取任何费用。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6483,
+    "source_end": 6516,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_045",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "45",
+    "article_number_normalized": "045",
+    "article_title": "",
+    "chunk_index": 44,
+    "chapter": "第七章",
+    "chapter_title": "附则",
+    "text_zh": "第四十五条 行政复议期间的计算依照民事诉讼法关于期间的规定执行。\n本办法关于行政复议期间有关“五日”、“七日”的规定是指工作日,不含节假日。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十五条 行政复议期间的计算依照民事诉讼法关于期间的规定执行。\n本办法关于行政复议期间有关“五日”、“七日”的规定是指工作日,不含节假日。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6517,
+    "source_end": 6587,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_046",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "46",
+    "article_number_normalized": "046",
+    "article_title": "",
+    "chunk_index": 45,
+    "chapter": "第七章",
+    "chapter_title": "附则",
+    "text_zh": "第四十六条 行政复议文书的送达,依照民事诉讼法和中国保监会关于送达的规定执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 36,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十六条 行政复议文书的送达,依照民事诉讼法和中国保监会关于送达的规定执行。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6588,
+    "source_end": 6627,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_047",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "47",
+    "article_number_normalized": "047",
+    "article_title": "",
+    "chunk_index": 46,
+    "chapter": "第七章",
+    "chapter_title": "附则",
+    "text_zh": "第四十七条 外国人、无国籍人、外国组织在中华人民共和国境内向中国保监会申请行政复议的,适用本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 44,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十七条 外国人、无国籍人、外国组织在中华人民共和国境内向中国保监会申请行政复议的,适用本办法。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6628,
+    "source_end": 6677,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_048",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "48",
+    "article_number_normalized": "048",
+    "article_title": "",
+    "chunk_index": 47,
+    "chapter": "第七章",
+    "chapter_title": "附则",
+    "text_zh": "第四十八条 本办法由中国保监会负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 18,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十八条 本办法由中国保监会负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6678,
+    "source_end": 6698,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_049",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "49",
+    "article_number_normalized": "049",
+    "article_title": "",
+    "chunk_index": 48,
+    "chapter": "第七章",
+    "chapter_title": "附则",
+    "text_zh": "第四十九条 本办法未作规定的,适用行政复议法和行政复议实施条例的规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 32,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十九条 本办法未作规定的,适用行政复议法和行政复议实施条例的规定。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6699,
+    "source_end": 6734,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2010_ART_050",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2010",
+    "law_name": "中国保险监督管理委员会行政复议办法",
+    "law_name_original": "中国保险监督管理委员会行政复议办法",
+    "law_type": "规章/法规",
+    "article_number": "50",
+    "article_number_normalized": "050",
+    "article_title": "",
+    "chunk_index": 49,
+    "chapter": "第七章",
+    "chapter_title": "附则",
+    "text_zh": "第五十条 本办法自2010年3月1日起施行。中国保监会2001年7月5日发布的《中国保险监督管理委员会行政复议办法》(保监会令〔2001〕2号)同时废\n止。\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十条 本办法自2010年3月1日起施行。中国保监会2001年7月5日发布的《中国保险监督管理委员会行政复议办法》(保监会令〔2001〕2号)同时废\n止。\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2001-07-05",
+    "effective_date": "2010-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372815&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_105.txt",
+    "sample_id": "CN_105",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_105",
+    "raw_sha256": "405644cd88417c16ee80e81dedf0517571bc5d1c3d73c3e4110e60dcc8abb712",
+    "extracted_text_sha256": "264b529795a148858c4ec64f5c703b3750c3ae475c2dcc5bd7d0e92e67df0693",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6735,
+    "source_end": 6823,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:41Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

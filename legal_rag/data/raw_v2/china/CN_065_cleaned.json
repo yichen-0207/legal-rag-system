@@ -1,0 +1,2730 @@
+[
+  {
+    "doc_id": "CN_DOC_CN_065_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第一条 为加强银行业保险业监管统计管理,规范监管统计行为,提升监管统计质效,落实统计监督职能,促进科学监管和行业平稳健康发\n展,根据《中华人民共和国银行业监督管理法》《中华人民共和国保险法》《中华人民共和国商业银行法》《中华人民共和国统计法》\n《中华人民共和国数据安全法》等法律法规,制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 128,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为加强银行业保险业监管统计管理,规范监管统计行为,提升监管统计质效,落实统计监督职能,促进科学监管和行业平稳健康发\n展,根据《中华人民共和国银行业监督管理法》《中华人民共和国保险法》《中华人民共和国商业银行法》《中华人民共和国统计法》\n《中华人民共和国数据安全法》等法律法规,制定本办法。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第二条 本办法所称银行保险机构,是指在中华人民共和国境内依法设立的商业银行、农村信用合作社等吸收公众存款的金融机构以及\n政策性银行、金融资产管理公司、金融租赁公司、理财公司、保险集团(控股)公司、保险公司和保险资产管理公司等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 101,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本办法所称银行保险机构,是指在中华人民共和国境内依法设立的商业银行、农村信用合作社等吸收公众存款的金融机构以及\n政策性银行、金融资产管理公司、金融租赁公司、理财公司、保险集团(控股)公司、保险公司和保险资产管理公司等。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 21.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第三条 本办法所称监管统计,是指银保监会及其派出机构组织实施的以银行保险机构为对象的统计调查、统计分析、统计信息服务、\n统计管理和统计监督检查等活动,以及银行保险机构为落实相关监管要求开展的各类统计活动。\n本办法所称监管统计资料,是指依据银保监会及其派出机构监管统计要求采集的,反映银行保险机构经营情况和风险状况的数据、报\n表、报告等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 153,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 本办法所称监管统计,是指银保监会及其派出机构组织实施的以银行保险机构为对象的统计调查、统计分析、统计信息服务、\n统计管理和统计监督检查等活动,以及银行保险机构为落实相关监管要求开展的各类统计活动。\n本办法所称监管统计资料,是指依据银保监会及其派出机构监管统计要求采集的,反映银行保险机构经营情况和风险状况的数据、报\n表、报告等。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 24,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第四条 监管统计工作遵循统一规范、准确及时、科学严谨、实事求是的原则。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 30,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 监管统计工作遵循统一规范、准确及时、科学严谨、实事求是的原则。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第五条 银保监会对银行保险监管统计工作实行统一领导、分级管理的管理体制。银保监会派出机构负责辖内银行保险机构监管统计\n工作。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 57,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 银保监会对银行保险监管统计工作实行统一领导、分级管理的管理体制。银保监会派出机构负责辖内银行保险机构监管统计\n工作。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4377,
+    "source_end": 4489,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第六条 银保监会及其派出机构、银行保险机构应不断提高监管统计信息化水平,充分合理利用先进信息技术,满足监管统计工作需要。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 55,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 银保监会及其派出机构、银行保险机构应不断提高监管统计信息化水平,充分合理利用先进信息技术,满足监管统计工作需要。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 27,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第七条 监管统计工作及资料管理应严格遵循保密、网络安全、数据安全、个人信息保护等有关法律法规、监管规章和标准规范。相\n关单位和个人应依法依规严格予以保密,保障监管统计数据安全。\n第二章 监管统计管理机构",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 90,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 监管统计工作及资料管理应严格遵循保密、网络安全、数据安全、个人信息保护等有关法律法规、监管规章和标准规范。相\n关单位和个人应依法依规严格予以保密,保障监管统计数据安全。\n第二章 监管统计管理机构"
+      }
+    ],
+    "topics": [
+      "national_security",
+      "data_protection",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "保密"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "数据 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第二章",
+    "chapter_title": "监管统计管理机构",
+    "text_zh": "第八条 银保监会统计部门对监管统计工作实行归口管理,履行下列职责:\n(一)组织制定监管统计管理制度、监管统计业务制度、监管数据标准和数据安全制度等有关工作制度;\n(二)组织开展监管统计调查和统计分析;(三)收集、编制和管理监管统计数据;\n(四)按照有关规定定期公布监管统计资料;\n(五)组织开展监管统计监督检查和业务培训;\n(六)推动监管统计信息系统建设;(七) 组织开展监管统计数据安全保护相关工作;\n(八)为满足监管统计需要开展的其他工作。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 185,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 银保监会统计部门对监管统计工作实行归口管理,履行下列职责:\n(一)组织制定监管统计管理制度、监管统计业务制度、监管数据标准和数据安全制度等有关工作制度;\n(二)组织开展监管统计调查和统计分析;(三)收集、编制和管理监管统计数据;\n(四)按照有关规定定期公布监管统计资料;\n(五)组织开展监管统计监督检查和业务培训;\n(六)推动监管统计信息系统建设;(七) 组织开展监管统计数据安全保护相关工作;\n(八)为满足监管统计需要开展的其他工作。"
+      }
+    ],
+    "topics": [
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据标准",
+          "数据 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第二章",
+    "chapter_title": "监管统计管理机构",
+    "text_zh": "第九条 银保监会相关部门配合统计部门做好监管统计工作,履行下列职责:\n(一)参与制定监管统计管理制度、监管统计业务制度和监管数据标准;\n(二)指导督促银行保险机构执行监管统计制度、加强监管统计管理和提高监管统计质量;\n(三)依据监管责任划分和有关规定,审核所辖银行保险机构监管统计数据;\n(四)落实监管统计数据安全保护相关工作;\n(五)为满足监管统计需要开展的其他工作。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 159,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 银保监会相关部门配合统计部门做好监管统计工作,履行下列职责:\n(一)参与制定监管统计管理制度、监管统计业务制度和监管数据标准;\n(二)指导督促银行保险机构执行监管统计制度、加强监管统计管理和提高监管统计质量;\n(三)依据监管责任划分和有关规定,审核所辖银行保险机构监管统计数据;\n(四)落实监管统计数据安全保护相关工作;\n(五)为满足监管统计需要开展的其他工作。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据标准",
+          "数据 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第二章",
+    "chapter_title": "监管统计管理机构",
+    "text_zh": "第十条 银保监会派出机构贯彻银保监会监管统计制度、标准和有关工作要求。派出机构统计部门在辖区内履行本办法第八条第(二)\n至(八)款之规定职责,以及制定辖区监管统计制度;相关部门履行本办法第九条之规定职责。\n第三章 监管统计调查管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 102,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 银保监会派出机构贯彻银保监会监管统计制度、标准和有关工作要求。派出机构统计部门在辖区内履行本办法第八条第(二)\n至(八)款之规定职责,以及制定辖区监管统计制度;相关部门履行本办法第九条之规定职责。\n第三章 监管统计调查管理"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2825,
+    "source_end": 2849,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第三章",
+    "chapter_title": "监管统计调查管理",
+    "text_zh": "第十一条 银保监会及其派出机构开展监管统计调查应充分评估其必要性、可行性和科学性,合理控制数量,不必要的应及时清理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 银保监会及其派出机构开展监管统计调查应充分评估其必要性、可行性和科学性,合理控制数量,不必要的应及时清理。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1389,
+    "source_end": 1447,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第三章",
+    "chapter_title": "监管统计调查管理",
+    "text_zh": "第十二条 监管统计调查按照统计方式和期限,分为常规统计调查和临时统计调查。\n常规统计调查以固定的制式、内容、频次定期收集监管统计资料,由银保监会归口管理部门统一管理。开展监管统计常规调查,应同时\n配套制定监管统计业务制度。\n临时统计调查以灵活的制式、内容、频次收集监管统计资料,有效期限原则上不超过一年,到期后仍需继续采集的,应重新制定下发或\n转为常规统计调查。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 162,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 监管统计调查按照统计方式和期限,分为常规统计调查和临时统计调查。\n常规统计调查以固定的制式、内容、频次定期收集监管统计资料,由银保监会归口管理部门统一管理。开展监管统计常规调查,应同时\n配套制定监管统计业务制度。\n\n临时统计调查以灵活的制式、内容、频次收集监管统计资料,有效期限原则上不超过一年,到期后仍需继续采集的,应重新制定下发或\n转为常规统计调查。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1448,
+    "source_end": 1630,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第三章",
+    "chapter_title": "监管统计调查管理",
+    "text_zh": "第十三条 派出机构开展辖内银行保险机构临时统计调查,相关统计报表和统计要求等情况应报上一级统计部门备案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 49,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 派出机构开展辖内银行保险机构临时统计调查,相关统计报表和统计要求等情况应报上一级统计部门备案。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4261,
+    "source_end": 4363,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第三章",
+    "chapter_title": "监管统计调查管理",
+    "text_zh": "第十四条 银保监会及其派出机构应建立健全监管统计资料管理机制和流程,规范资料的审核、整理、保存、查询、使用、共享和信息\n服务等事项,采取必要的管理手段和技术措施,强化监管统计资料安全管理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 银保监会及其派出机构应建立健全监管统计资料管理机制和流程,规范资料的审核、整理、保存、查询、使用、共享和信息\n服务等事项,采取必要的管理手段和技术措施,强化监管统计资料安全管理。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1684,
+    "source_end": 1778,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第三章",
+    "chapter_title": "监管统计调查管理",
+    "text_zh": "第十五条 银保监会建立统计信息公布机制,依法依规定期向公众公布银行保险监管统计资料。派出机构根据银保监会规定和授权,建立\n辖内统计信息公布机制。\n第四章 银行保险机构监管统计管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 81,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 银保监会建立统计信息公布机制,依法依规定期向公众公布银行保险监管统计资料。派出机构根据银保监会规定和授权,建立\n辖内统计信息公布机制。\n第四章 银行保险机构监管统计管理"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4376,
+    "source_end": 4515,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第四章",
+    "chapter_title": "银行保险机构监管统计管理",
+    "text_zh": "第十六条 银行保险机构应按照银保监会及其派出机构要求,完善监管统计数据填报审核工作机制和流程,确保数据的真实性、准确性、\n及时性、完整性。\n银行保险机构应保证同一指标在监管报送与对外披露的一致性。如有重大差异,应及时向银保监会或其派出机构解释说明。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 112,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 银行保险机构应按照银保监会及其派出机构要求,完善监管统计数据填报审核工作机制和流程,确保数据的真实性、准确性、\n及时性、完整性。\n银行保险机构应保证同一指标在监管报送与对外披露的一致性。如有重大差异,应及时向银保监会或其派出机构解释说明。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 26,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第四章",
+    "chapter_title": "银行保险机构监管统计管理",
+    "text_zh": "第十七条 银行保险法人机构应将监管统计数据纳入数据治理,建立满足监管统计工作需要的组织架构、工作机制和流程,明确职权和责\n任,实施问责和激励,评估监管统计管理的有效性和执行情况,推动监管统计工作有效开展和数据质量持续提升,并加强对分支机构监管统计\n数据质量的监督和管理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 124,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 银行保险法人机构应将监管统计数据纳入数据治理,建立满足监管统计工作需要的组织架构、工作机制和流程,明确职权和责\n任,实施问责和激励,评估监管统计管理的有效性和执行情况,推动监管统计工作有效开展和数据质量持续提升,并加强对分支机构监管统计\n数据质量的监督和管理。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "data_management",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据质量",
+          "数据 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第四章",
+    "chapter_title": "银行保险机构监管统计管理",
+    "text_zh": "第十八条 银行保险机构法定代表人或主要负责人对监管统计数据质量承担最终责任。\n银行保险法人机构及其县级及以上分支机构应分别指定一名高级管理人员(或主要负责人)为监管统计负责人,负责组织部署本机构监\n管统计工作,保障岗位、人员、薪酬、科技支持等资源配置。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 114,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 银行保险机构法定代表人或主要负责人对监管统计数据质量承担最终责任。\n银行保险法人机构及其县级及以上分支机构应分别指定一名高级管理人员(或主要负责人)为监管统计负责人,负责组织部署本机构监\n管统计工作,保障岗位、人员、薪酬、科技支持等资源配置。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "data_management",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据质量",
+          "数据 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "薪酬"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2130,
+    "source_end": 2256,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第四章",
+    "chapter_title": "银行保险机构监管统计管理",
+    "text_zh": "第十九条 银行保险法人机构应明确并授权归口管理部门负责组织、协调和管理本机构监管统计工作,履行下列职责:\n(一)组织落实监管统计法规、监管统计标准及有关工作要求;\n(二)组织制定满足监管统计要求的内部管理制度和统计业务制度;\n(三)组织收集、编制、报送和管理监管统计数据;\n(四)组织开展对内部各部门、各分支机构的监管统计管理、考评、检查和培训工作,对不按规定提供或提供虚假监管统计数据的进行\n责任认定追溯;(五)推动建设满足监管统计报送工作需要的信息系统;\n(六)落实监管统计数据安全保护相关工作;\n(七)为满足监管统计需要开展的其他工作。\n银行保险法人机构各相关部门应承担与监管统计报送有关的业务规则确认、数据填报和审核、源头数据质量治理等工作职责。\n银行保险机构省级、地市级分支机构应明确统计工作部门,地市级以下分支机构应至少指定统计工作团队,负责组织开展本级机构的监\n管统计工作。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 345,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 银行保险法人机构应明确并授权归口管理部门负责组织、协调和管理本机构监管统计工作,履行下列职责:\n(一)组织落实监管统计法规、监管统计标准及有关工作要求;\n(二)组织制定满足监管统计要求的内部管理制度和统计业务制度;\n(三)组织收集、编制、报送和管理监管统计数据;\n(四)组织开展对内部各部门、各分支机构的监管统计管理、考评、检查和培训工作,对不按规定提供或提供虚假监管统计数据的进行\n责任认定追溯;(五)推动建设满足监管统计报送工作需要的信息系统;\n(六)落实监管统计数据安全保护相关工作;\n(七)为满足监管统计需要开展的其他工作。\n银行保险法人机构各相关部门应承担与监管统计报送有关的业务规则确认、数据填报和审核、源头数据质量治理等工作职责。\n银行保险机构省级、地市级分支机构应明确统计工作部门,地市级以下分支机构应至少指定统计工作团队,负责组织开展本级机构的监\n管统计工作。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "法人",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据质量",
+          "数据 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第四章",
+    "chapter_title": "银行保险机构监管统计管理",
+    "text_zh": "第二十条 银行保险法人机构归口管理部门及其省级分支机构统计工作部门应设置监管统计专职岗位。地市级及以下分支机构可视实\n际情况设置监管统计专职或兼职岗位。\n相关岗位均应设立A、B角,人员数量、专业能力和激励机制应满足监管统计工作需要。\n银行保险法人机构或其县级及以上分支机构应在指定或者变更监管统计负责人、归口管理部门(或统计工作部门、团队)负责人后10\n个工作日内,向银保监会或其派出机构备案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 176,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 银行保险法人机构归口管理部门及其省级分支机构统计工作部门应设置监管统计专职岗位。地市级及以下分支机构可视实\n际情况设置监管统计专职或兼职岗位。相关岗位均应设立A、B角,人员数量、专业能力和激励机制应满足监管统计工作需要。\n银行保险法人机构或其县级及以上分支机构应在指定或者变更监管统计负责人、归口管理部门(或统计工作部门、团队)负责人后10\n个工作日内,向银保监会或其派出机构备案。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "法人",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第四章",
+    "chapter_title": "银行保险机构监管统计管理",
+    "text_zh": "第二十一条 银行保险机构应及时制定并更新满足监管要求的监管统计内部管理制度和业务制度,在制度制定或发生重大修订后10个工\n作日内向银保监会或其派出机构备案。\n管理制度应包括组织领导、部门职责、岗位人员、信息系统保障、数据编制报送、数据质量管控、检查评估、考核评价、问责与激\n励、资料管理、数据安全保护等方面。\n业务制度应全面覆盖常规监管统计数据要求,对统计内容、口径、方法、分工和流程等方面做出统一规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 177,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 银行保险机构应及时制定并更新满足监管要求的监管统计内部管理制度和业务制度,在制度制定或发生重大修订后10个工\n作日内向银保监会或其派出机构备案。\n管理制度应包括组织领导、部门职责、岗位人员、信息系统保障、数据编制报送、数据质量管控、检查评估、考核评价、问责与激\n励、资料管理、数据安全保护等方面。\n业务制度应全面覆盖常规监管统计数据要求,对统计内容、口径、方法、分工和流程等方面做出统一规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据质量",
+          "数据 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2849,
+    "source_end": 3051,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第四章",
+    "chapter_title": "银行保险机构监管统计管理",
+    "text_zh": "第二十二条 银行保险机构应建立包括数据源管理、统计口径管理、日常监控、监督检查、问题整改、考核评价在内的监管统计数据\n质量全流程管理机制,明确各部门数据质量责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 72,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 银行保险机构应建立包括数据源管理、统计口径管理、日常监控、监督检查、问题整改、考核评价在内的监管统计数据\n质量全流程管理机制,明确各部门数据质量责任。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据质量",
+          "数据 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3052,
+    "source_end": 3133,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第四章",
+    "chapter_title": "银行保险机构监管统计管理",
+    "text_zh": "第二十三条 银行保险机构应建立满足监管统计工作需要的信息系统,提高数字化水平。\n银行保险机构内部业务及管理基础系统等各类信息系统应覆盖监管统计所需各项业务和管理数据。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 78,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 银行保险机构应建立满足监管统计工作需要的信息系统,提高数字化水平。\n银行保险机构内部业务及管理基础系统等各类信息系统应覆盖监管统计所需各项业务和管理数据。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第四章",
+    "chapter_title": "银行保险机构监管统计管理",
+    "text_zh": "第二十四条 银行保险机构应加强监管统计资料的存储管理,建立全面、严密的管理流程和归档机制,保证监管统计资料的完整性、连续\n性、安全性和可追溯性。\n银行保险机构向境外机构、组织或个人提供境内采集、存储的监管统计资料,应遵守国家有关法律法规及行业相关规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 113,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 银行保险机构应加强监管统计资料的存储管理,建立全面、严密的管理流程和归档机制,保证监管统计资料的完整性、连续\n性、安全性和可追溯性。\n银行保险机构向境外机构、组织或个人提供境内采集、存储的监管统计资料,应遵守国家有关法律法规及行业相关规定。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3218,
+    "source_end": 3344,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第四章",
+    "chapter_title": "银行保险机构监管统计管理",
+    "text_zh": "第二十五条 银行保险机构应当充分运用数据分析手段,对本机构监管统计指标变化情况开展统计分析和数据挖掘应用,充分发挥监管统\n计资料价值。\n第五章 监管统计监督管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 银行保险机构应当充分运用数据分析手段,对本机构监管统计指标变化情况开展统计分析和数据挖掘应用,充分发挥监管统\n\n计资料价值。\n第五章 监管统计监督管理"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3345,
+    "source_end": 3426,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第五章",
+    "chapter_title": "监管统计监督管理",
+    "text_zh": "第二十六条 银保监会及其派出机构依据有关规定和程序对银行保险机构监管统计工作情况进行监督检查,内容包括:\n(一)监管统计法律法规及相关制度的执行;\n(二)统计相关组织架构及其管理;(三)相关岗位人员配置及培训;\n(四)内部统计管理制度和统计业务制度建设及其执行情况;\n(五)相关统计信息系统建设,以及统计信息系统完备性和安全性情况;\n(六)监管统计数据质量及其管理;(七)监管统计资料管理;\n(八)监管统计数据安全保护情况;(九)与监管统计工作相关的其他情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 193,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 银保监会及其派出机构依据有关规定和程序对银行保险机构监管统计工作情况进行监督检查,内容包括:\n(一)监管统计法律法规及相关制度的执行;\n(二)统计相关组织架构及其管理;(三)相关岗位人员配置及培训;\n(四)内部统计管理制度和统计业务制度建设及其执行情况;\n(五)相关统计信息系统建设,以及统计信息系统完备性和安全性情况;\n(六)监管统计数据质量及其管理;(七)监管统计资料管理;\n(八)监管统计数据安全保护情况;(九)与监管统计工作相关的其他情况。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据质量",
+          "数据 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3427,
+    "source_end": 3657,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第五章",
+    "chapter_title": "监管统计监督管理",
+    "text_zh": "第二十七条 银保监会及其派出机构采取非现场或现场方式实施监管统计监督管理。对违反本办法规定的银行保险机构,银保监会及其\n派出机构可依法依规采取监督管理措施或者给予行政处罚。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 81,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 银保监会及其派出机构采取非现场或现场方式实施监管统计监督管理。对违反本办法规定的银行保险机构,银保监会及其\n派出机构可依法依规采取监督管理措施或者给予行政处罚。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3658,
+    "source_end": 3744,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第五章",
+    "chapter_title": "监管统计监督管理",
+    "text_zh": "第二十八条 银行保险机构未按规定提供监管统计资料的,分别依据《中华人民共和国银行业监督管理法》《中华人民共和国保险法》\n《中华人民共和国商业银行法》等法律法规,视情况依法予以处罚。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 79,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 银行保险机构未按规定提供监管统计资料的,分别依据《中华人民共和国银行业监督管理法》《中华人民共和国保险法》\n《中华人民共和国商业银行法》等法律法规,视情况依法予以处罚。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3745,
+    "source_end": 3835,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第五章",
+    "chapter_title": "监管统计监督管理",
+    "text_zh": "第二十九条 银行保险机构违反本办法规定,有下列行为之一的,分别依据《中华人民共和国银行业监督管理法》《中华人民共和国保险\n法》《中华人民共和国商业银行法》等法律法规予以处罚;构成犯罪的,依法追究刑事责任:\n(一)编造或提供虚假的监管统计资料;(二)拒绝接受依法进行的监管统计监督检查;\n(三)阻碍依法进行的监管统计监督检查。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 138,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 银行保险机构违反本办法规定,有下列行为之一的,分别依据《中华人民共和国银行业监督管理法》《中华人民共和国保险\n法》《中华人民共和国商业银行法》等法律法规予以处罚;构成犯罪的,依法追究刑事责任:\n(一)编造或提供虚假的监管统计资料;(二)拒绝接受依法进行的监管统计监督检查;\n(三)阻碍依法进行的监管统计监督检查。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 13.5,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事责任",
+          "刑事 (weak)",
+          "犯罪 (weak)",
+          "责任 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3836,
+    "source_end": 3998,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第五章",
+    "chapter_title": "监管统计监督管理",
+    "text_zh": "第三十条\n银行保险机构违反本办法第二十八、二十九条规定的,银保监会及其派出机构分别依据《中华人民共和国银行业监督管理\n法》《中华人民共和国保险法》《中华人民共和国商业银行法》等法律法规对有关责任人员采取监管措施或予以处罚。\n第六章 附 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 105,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条\n银行保险机构违反本办法第二十八、二十九条规定的,银保监会及其派出机构分别依据《中华人民共和国银行业监督管理\n法》《中华人民共和国保险法》《中华人民共和国商业银行法》等法律法规对有关责任人员采取监管措施或予以处罚。\n第六章 附 则"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3999,
+    "source_end": 4118,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第三十一条 银保监会及其派出机构依法监管的其他机构参照本办法执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 31,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 银保监会及其派出机构依法监管的其他机构参照本办法执行。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4119,
+    "source_end": 4152,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第三十二条 本办法由银保监会负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 17,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 本办法由银保监会负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4365,
+    "source_end": 4434,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_065_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_065",
+    "law_name": "银行保险监管统计管理办法",
+    "law_name_original": "银行保险监管统计管理办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第三十三条 本办法自2023年2月1日起施行。《银行业监管统计管理暂行办法》(中国银行业监督管理委员会令2004年第6号)、《保\n险统计管理规定》(中国保险监督管理委员会令2013年第1号)同时废止。\n附:1.中国银保监会发布《银行保险监管统计管理办法》\n2.中国银保监会有关部门负责人就《银行保险监管统计管理办法》答记者问\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "http://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089732&itemId=915\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089717&itemId=915",
+    "text_original_language": "zh-en",
+    "word_count_zh": 131,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 本办法自2023年2月1日起施行。《银行业监管统计管理暂行办法》(中国银行业监督管理委员会令2004年第6号)、《保\n险统计管理规定》(中国保险监督管理委员会令2013年第1号)同时废止。\n附:1.中国银保监会发布《银行保险监管统计管理办法》\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089732&itemId=915\n2.中国银保监会有关部门负责人就《银行保险监管统计管理办法》答记者问\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089717&itemId=915\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 6.0,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1089714&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_065.txt",
+    "sample_id": "CN_065",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_065",
+    "raw_sha256": "dbde8c7dc67e1e950f7c9d0f84811351497659bd665a8a89e8eda44f85f90401",
+    "extracted_text_sha256": "ca796bfd02b7442478939849f8743cd2f8fd92ff845037168ccc7d18b2c3adb8",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4173,
+    "source_end": 4501,
+    "language_original": [
+      "zh",
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

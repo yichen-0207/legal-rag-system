@@ -1011,9 +1011,9 @@ class StructuredAnalysisService:
         def _normalize_jurisdiction(jur: str, law_id: str) -> str:
             jur_map = {
                 "us": "美国", "usa": "美国", "united states": "美国",
-                "hk": "香港", "hong kong": "香港",
+                "hk": "中国香港", "hong kong": "中国香港",
                 "sg": "新加坡", "singapore": "新加坡",
-                "mac": "澳门", "macau": "澳门", "mo": "澳门",
+                "mac": "中国澳门", "macau": "中国澳门", "mo": "中国澳门",
                 "tw": "台湾", "taiwan": "台湾",
             }
             if jur:
@@ -1023,11 +1023,11 @@ class StructuredAnalysisService:
             if not jur:
                 lid = law_id or ""
                 if any(lid.startswith(prefix) for prefix in ["MAC", "MO"]):
-                    jur = "澳门"
+                    jur = "中国澳门"
                 elif lid.startswith("SG"):
                     jur = "新加坡"
                 elif lid.startswith("HK"):
-                    jur = "香港"
+                    jur = "中国香港"
                 elif lid.startswith("TW"):
                     jur = "台湾"
                 elif lid.startswith("US"):
@@ -1641,9 +1641,9 @@ class StructuredAnalysisService:
         def _normalize_jurisdiction(jur: str, law_id: str, default_jur: str) -> str:
             jur_map = {
                 "us": "美国", "usa": "美国", "united states": "美国",
-                "hk": "香港", "hong kong": "香港",
+                "hk": "中国香港", "hong kong": "中国香港",
                 "sg": "新加坡", "singapore": "新加坡",
-                "mac": "澳门", "macau": "澳门", "mo": "澳门",
+                "mac": "中国澳门", "macau": "中国澳门", "mo": "中国澳门",
                 "tw": "台湾", "taiwan": "台湾",
             }
             if jur:
@@ -1653,11 +1653,11 @@ class StructuredAnalysisService:
             if not jur:
                 lid = law_id or ""
                 if any(lid.startswith(prefix) for prefix in ["MAC", "MO"]):
-                    jur = "澳门"
+                    jur = "中国澳门"
                 elif lid.startswith("SG"):
                     jur = "新加坡"
                 elif lid.startswith("HK"):
-                    jur = "香港"
+                    jur = "中国香港"
                 elif lid.startswith("TW"):
                     jur = "台湾"
                 elif lid.startswith("US"):

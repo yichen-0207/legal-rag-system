@@ -65,12 +65,18 @@ ZH_EN_MAP = [
 # 「第X条 / 第X條」
 _ARTICLE_RE = re.compile(r"第(\d+)[条條]")
 
-# 法域触发词：用于从「法域 + 第X条」结构中截出法规名
+# 法域触发词：用于从「法域 + 第X条」结构中截出法规名。
+# 长词必须排在短词前（"中国澳门" 先于 "澳门"），否则会截出错误的法规名。
 _JURIS_TRIGGERS = (
-    "澳门", "澳門", "macau", "Macau", "MACAU",
-    "香港", "Hong Kong", "hongkong", "Hongkong", "HONG KONG",
-    "新加坡", "Singapore", "SINGAPORE",
+    "中国澳门", "澳门", "澳門", "macau", "Macau", "MACAU",
+    "中国香港", "香港", "Hong Kong", "hongkong", "Hongkong", "HONG KONG",
+    "中国大陆", "新加坡", "Singapore", "SINGAPORE",
     "日本", "Japan", "JAPAN",
+    "韩国", "Korea", "KOREA",
+    "马来西亚", "Malaysia", "MALAYSIA",
+    "泰国", "Thailand", "THAILAND",
+    "越南", "Vietnam", "VIETNAM",
+    "澳大利亚", "澳洲", "Australia", "AUSTRALIA",
     "美国", "US", "United States", "UNITED STATES",
 )
 

@@ -17,11 +17,19 @@ from core.llm import get_chat_model
 logger = logging.getLogger(__name__)
 
 # 法域中英文别名：用于识别「多法域」查询并让路给既有路由。
+# 新增法域入库后需同步维护，否则「韩国与澳大利亚…」这类查询识别不到多法域信号，
+# 会被误判为可分解的复合问题，绕过跨法域扇出。
 _JUR_ALIASES = {
-    "澳门": ["澳门", "澳門", "macau", "macao"],
-    "香港": ["香港", "hong kong"],
+    "中国澳门": ["中国澳门", "澳门", "澳門", "macau", "macao"],
+    "中国香港": ["中国香港", "香港", "hong kong", "hongkong"],
+    "中国大陆": ["中国大陆", "china", "mainland china"],
     "新加坡": ["新加坡", "singapore"],
+    "马来西亚": ["马来西亚", "malaysia"],
     "日本": ["日本", "japan"],
+    "韩国": ["韩国", "韓国", "korea"],
+    "泰国": ["泰国", "thailand"],
+    "越南": ["越南", "vietnam"],
+    "澳大利亚": ["澳大利亚", "澳洲", "australia"],
     "美国": ["美国", "美國", "united states", "usa"],
     "欧盟": ["欧盟", "歐盟", "european union", "eu"],
 }

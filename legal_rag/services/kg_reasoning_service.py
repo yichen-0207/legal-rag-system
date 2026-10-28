@@ -10,6 +10,7 @@ from typing import Dict, List, Optional
 from pydantic import BaseModel, Field
 
 from core.config import settings
+from core.jurisdiction import normalize_jurisdictions
 from core.llm import get_chat_model
 from repositories.elasticsearch import ElasticsearchRepository
 from services.entity_disambiguation_service import (
@@ -614,6 +615,9 @@ class KGReasoningService:
         if not question:
             return {"found": False, "message": "问题为空", "answer": "", "used_paths": [],
                     "reasoning_path": [], "cited_articles": []}
+        # 法域入参归一：图谱三元组里的 jurisdiction 是规范名（"中国香港"），
+        # 调用方若传旧称（"香港"）会在子图过滤时被整片滤掉，表现为"有种无路径"。
+        jurisdictions = normalize_jurisdictions(jurisdictions)
 
         seeds = self._link_entities(question, top_k_entities)
         # 条款入口：检索命中条款 → 其三元组 → 真实条款节点与义务实体种子；

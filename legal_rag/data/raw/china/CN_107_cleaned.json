@@ -1,0 +1,2625 @@
+[
+  {
+    "doc_id": "CN_DOC_4_2008_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第一条 为了促进保险公司加强经营管理,完善公司治理,实现保险业持续、健康发展,根据《中华人民共和国保险法》、《中华人民共和国公司法》、《中\n华人民共和国外资保险公司管理条例》等法律、行政法规,制定本规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 85,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为了促进保险公司加强经营管理,完善公司治理,实现保险业持续、健康发展,根据《中华人民共和国保险法》、《中华人民共和国公司法》、《中\n华人民共和国外资保险公司管理条例》等法律、行政法规,制定本规定。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 18.0,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司管理",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第二条 本规定所称保险公司财务负责人(以下简称财务负责人),是指保险公司负责会计核算、财务管理等企业价值管理活动的总公司高级管理人员。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 61,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本规定所称保险公司财务负责人(以下简称财务负责人),是指保险公司负责会计核算、财务管理等企业价值管理活动的总公司高级管理人员。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第三条 保险公司应当设立财务负责人职位。\n保险公司任命财务负责人,应当在任命前向中国保险监督管理委员会(以下简称中国保监会)申请核准拟任财务负责人的任职资格;未经核准的,不得以任何\n形式任命。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 86,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 保险公司应当设立财务负责人职位。\n保险公司任命财务负责人,应当在任命前向中国保险监督管理委员会(以下简称中国保监会)申请核准拟任财务负责人的任职资格;未经核准的,不得以任何\n形式任命。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3148,
+    "source_end": 3279,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第四条 财务负责人应当勤勉尽责,遵守法律、行政法规和中国保监会的有关规定,遵守保险公司章程和职业准则。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 46,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 财务负责人应当勤勉尽责,遵守法律、行政法规和中国保监会的有关规定,遵守保险公司章程和职业准则。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "公司章程",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第五条 中国保监会依法对财务负责人的任职和履职进行监督管理。\n第二章 任职资格管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 37,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 中国保监会依法对财务负责人的任职和履职进行监督管理。\n第二章 任职资格管理"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 743,
+    "source_end": 1105,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第六条 财务负责人应当具有诚信勤勉的品行和良好的职业道德操守,具备履行职务必需的专业知识、从业经历和管理能力。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 51,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 财务负责人应当具有诚信勤勉的品行和良好的职业道德操守,具备履行职务必需的专业知识、从业经历和管理能力。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 645,
+    "source_end": 700,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第七条 担任财务负责人应当具备下列条件:\n(一)大学本科以上学历;(二)从事金融工作5年以上或者从事经济工作8年以上;\n(三)具有在企事业单位或者国家机关担任领导或者管理职务的任职经历;\n(四)具有国内外会计、财务、投资或者精算等相关领域的合法专业资格,或者具有国内会计或者审计系列高级职称;\n(五)熟悉履行职责所需的法律法规和监管规定,在会计、精算、投资或者风险管理等方面具有良好的专业基础;\n(六)对保险业的经营规律有比较深入的认识,有较强的专业判断能力、组织管理能力和沟通能力;\n(七)能够熟练使用中文进行工作;(八)在中华人民共和国境内有住所;\n(九)中国保监会规定的其他条件。\n具有财会等相关专业博士学位的,可以豁免本条第一款第(四)项规定的条件,并可以适当放宽从事金融工作或者经济工作的年限。\n从事金融工作10年以上并且在金融机构担任5年以上管理职务的,可以豁免本条第一款第(四)项规定的条件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 343,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 担任财务负责人应当具备下列条件:\n(一)大学本科以上学历;(二)从事金融工作5年以上或者从事经济工作8年以上;\n(三)具有在企事业单位或者国家机关担任领导或者管理职务的任职经历;\n(四)具有国内外会计、财务、投资或者精算等相关领域的合法专业资格,或者具有国内会计或者审计系列高级职称;\n(五)熟悉履行职责所需的法律法规和监管规定,在会计、精算、投资或者风险管理等方面具有良好的专业基础;\n(六)对保险业的经营规律有比较深入的认识,有较强的专业判断能力、组织管理能力和沟通能力;\n(七)能够熟练使用中文进行工作;(八)在中华人民共和国境内有住所;\n(九)中国保监会规定的其他条件。\n具有财会等相关专业博士学位的,可以豁免本条第一款第(四)项规定的条件,并可以适当放宽从事金融工作或者经济工作的年限。\n从事金融工作10年以上并且在金融机构担任5年以上管理职务的,可以豁免本条第一款第(四)项规定的条件。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第八条 有《保险公司董事、监事和高级管理人员任职资格管理规定》中禁止担任高级管理人员情形之一,或者有中国保监会规定不适宜担任财务负责人\n的其他情形的,不得担任保险公司财务负责人。\n曾因提供虚假财务会计信息受过行政处罚的,不论其申请核准任职资格时是否超过《保险公司董事、监事和高级管理人员任职资格管理规定》或者中国\n保监会其他规定中规定的禁入年限,均不得担任财务负责人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 168,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 有《保险公司董事、监事和高级管理人员任职资格管理规定》中禁止担任高级管理人员情形之一,或者有中国保监会规定不适宜担任财务负责人\n的其他情形的,不得担任保险公司财务负责人。\n曾因提供虚假财务会计信息受过行政处罚的,不论其申请核准任职资格时是否超过《保险公司董事、监事和高级管理人员任职资格管理规定》或者中国\n保监会其他规定中规定的禁入年限,均不得担任财务负责人。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第九条 保险公司任命财务负责人,应当在任命前向中国保监会申请核准财务负责人任职资格,提交下列书面材料一式三份,并同时提交有关电子文档:\n(一)董事会拟任命财务负责人的决议;(二)拟任财务负责人任职资格核准申请书;\n(三)《保险公司董事、监事和高级管理人员任职资格申请表》;\n(四)拟任财务负责人身份证、学历证书、专业资格证书、职称证明等有关文件的复印件,有护照的应当同时提供护照复印件;\n(五)在中华人民共和国境内有住所的证明;\n(六)离职时进行离任审计的,提交离任审计报告,没有进行离任审计的,由原任职单位作出未进行离任审计的说明,不能提交上述资料的,由拟任财务负责人作\n出书面说明;(七)中国保监会规定提交的其他材料。\n经中国保监会核准开业的保险公司,应当在取得开业核准文件之后1个月以内,按照前款规定向中国保监会申请核准拟任财务负责人的任职资格。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 327,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 保险公司任命财务负责人,应当在任命前向中国保监会申请核准财务负责人任职资格,提交下列书面材料一式三份,并同时提交有关电子文档:\n(一)董事会拟任命财务负责人的决议;(二)拟任财务负责人任职资格核准申请书;\n(三)《保险公司董事、监事和高级管理人员任职资格申请表》;\n(四)拟任财务负责人身份证、学历证书、专业资格证书、职称证明等有关文件的复印件,有护照的应当同时提供护照复印件;\n(五)在中华人民共和国境内有住所的证明;\n(六)离职时进行离任审计的,提交离任审计报告,没有进行离任审计的,由原任职单位作出未进行离任审计的说明,不能提交上述资料的,由拟任财务负责人作\n出书面说明;(七)中国保监会规定提交的其他材料。\n经中国保监会核准开业的保险公司,应当在取得开业核准文件之后1个月以内,按照前款规定向中国保监会申请核准拟任财务负责人的任职资格。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第十条 中国保监会应当自受理任职资格核准申请之日起20个工作日以内,作出核准或者不予核准的决定。20个工作日以内不能作出决定的,经中国保监会\n主席批准,可以延长10个工作日,并应当将延长期限的理由告知申请人。\n决定核准的,颁发任职资格核准文件;决定不予核准的,应当作出书面决定并说明理由。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 125,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 中国保监会应当自受理任职资格核准申请之日起20个工作日以内,作出核准或者不予核准的决定。20个工作日以内不能作出决定的,经中国保监会\n主席批准,可以延长10个工作日,并应当将延长期限的理由告知申请人。\n决定核准的,颁发任职资格核准文件;决定不予核准的,应当作出书面决定并说明理由。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1060,
+    "source_end": 1105,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第十一条 中国保监会对任职资格核准申请进行审查,审查可以包括下列方式:\n(一)审查任职申请材料;\n(二)对拟任财务负责人进行任职考察谈话;\n(三)中国保监会规定的其他方式。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 71,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 中国保监会对任职资格核准申请进行审查,审查可以包括下列方式:\n(一)审查任职申请材料;\n\n(二)对拟任财务负责人进行任职考察谈话;\n(三)中国保监会规定的其他方式。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 26,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第十二条 任职考察谈话可以包括下列内容:\n(一)了解拟任财务负责人对保险业经营规律的认识,对拟任职企业内外部环境的认识;\n(二)对与其履行职责相关的重要法律、行政法规和规章的掌握情况;\n(三)对担任财务负责人应当重点关注的问题进行提示;\n(四)中国保监会认为应当考察或者提示的其他内容。\n任职考察谈话应当作成书面记录,由考察人和拟任财务负责人双方签字。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 153,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 任职考察谈话可以包括下列内容:\n(一)了解拟任财务负责人对保险业经营规律的认识,对拟任职企业内外部环境的认识;\n(二)对与其履行职责相关的重要法律、行政法规和规章的掌握情况;\n(三)对担任财务负责人应当重点关注的问题进行提示;\n(四)中国保监会认为应当考察或者提示的其他内容。\n任职考察谈话应当作成书面记录,由考察人和拟任财务负责人双方签字。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 97,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第十三条 中国保监会可以向拟任财务负责人原任职机构以及有关部门征询意见,了解拟任财务负责人的有关情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 48,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 中国保监会可以向拟任财务负责人原任职机构以及有关部门征询意见,了解拟任财务负责人的有关情况。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2077,
+    "source_end": 2128,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第二章",
+    "chapter_title": "任职资格管理",
+    "text_zh": "第十四条 财务负责人有下列情形之一的,其任职资格自动失效,拟再担任财务负责人的,应当重新核准任职资格:\n(一)因辞职、被免职或者被撤职等原因离职的;\n(二)受到撤销任职资格的行政处罚的;(三)出现《中华人民共和国公司法》第一百四十七条第一款规定情形的。\n第三章 财务负责人职责",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 117,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 财务负责人有下列情形之一的,其任职资格自动失效,拟再担任财务负责人的,应当重新核准任职资格:\n(一)因辞职、被免职或者被撤职等原因离职的;\n(二)受到撤销任职资格的行政处罚的;(三)出现《中华人民共和国公司法》第一百四十七条第一款规定情形的。\n第三章 财务负责人职责"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 27,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第三章",
+    "chapter_title": "财务负责人职责",
+    "text_zh": "第十五条 保险公司应当在公司章程中明确规定财务负责人的职责和权利。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 31,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 保险公司应当在公司章程中明确规定财务负责人的职责和权利。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "公司章程",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2268,
+    "source_end": 2301,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第三章",
+    "chapter_title": "财务负责人职责",
+    "text_zh": "第十六条 财务负责人的聘任、解聘及其报酬事项,由保险公司董事会根据总经理提名决定。\n保险公司董事会应当对财务负责人的履职行为进行持续评估和定期考核,及时更换不能胜任的财务负责人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 82,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 财务负责人的聘任、解聘及其报酬事项,由保险公司董事会根据总经理提名决定。\n保险公司董事会应当对财务负责人的履职行为进行持续评估和定期考核,及时更换不能胜任的财务负责人。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2302,
+    "source_end": 2391,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第三章",
+    "chapter_title": "财务负责人职责",
+    "text_zh": "第十七条 财务负责人履行下列职责:\n(一)负责会计核算和编制财务报告,建立和维护与财务报告有关的内部控制体系,负责财务会计信息的真实性;\n(二)负责财务管理,包括预算管理、成本控制、资金调度、收益分配、经营绩效评估等;\n(三)负责或者参与风险管理和偿付能力管理;\n(四)参与战略规划等重大经营管理活动;(五)根据法律、行政法规和有关监管规定,审核、签署对外披露的有关数据和报告;\n(六)中国保监会规定以及依法应当履行的其他职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 179,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 财务负责人履行下列职责:\n(一)负责会计核算和编制财务报告,建立和维护与财务报告有关的内部控制体系,负责财务会计信息的真实性;\n(二)负责财务管理,包括预算管理、成本控制、资金调度、收益分配、经营绩效评估等;\n(三)负责或者参与风险管理和偿付能力管理;\n(四)参与战略规划等重大经营管理活动;(五)根据法律、行政法规和有关监管规定,审核、签署对外披露的有关数据和报告;\n(六)中国保监会规定以及依法应当履行的其他职责。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第三章",
+    "chapter_title": "财务负责人职责",
+    "text_zh": "第十八条 财务负责人向董事会和总经理报告工作。\n保险公司应当规定董事会每半年至少听取一次财务负责人就保险公司财务状况、经营成果以及应当注意问题等事项的汇报。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 财务负责人向董事会和总经理报告工作。\n保险公司应当规定董事会每半年至少听取一次财务负责人就保险公司财务状况、经营成果以及应当注意问题等事项的汇报。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2607,
+    "source_end": 2685,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第三章",
+    "chapter_title": "财务负责人职责",
+    "text_zh": "第十九条 财务负责人在签署财务报告、偿付能力报告等文件之前,应当向保险公司负责精算、投资以及风险管理等相关业务的高级管理人员书面征询意\n见。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 64,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 财务负责人在签署财务报告、偿付能力报告等文件之前,应当向保险公司负责精算、投资以及风险管理等相关业务的高级管理人员书面征询意\n见。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第三章",
+    "chapter_title": "财务负责人职责",
+    "text_zh": "第二十条 保险公司有下列情形之一的,财务负责人应当依据其职责,及时向董事会、总经理或者相关高级管理人员提出纠正建议;董事会、总经理没有采取\n措施纠正的,财务负责人应当向中国保监会报告,并有权拒绝在相关文件上签字:\n(一)经营活动或者编制的财务会计报告严重违反保险法律、行政法规或者监管规定的;\n(二)严重损害投保人、被保险人合法权益的;\n(三)保险公司其他高级管理人员侵犯保险公司合法权益,给保险公司经营可能造成严重危害的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 187,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 保险公司有下列情形之一的,财务负责人应当依据其职责,及时向董事会、总经理或者相关高级管理人员提出纠正建议;董事会、总经理没有采取\n措施纠正的,财务负责人应当向中国保监会报告,并有权拒绝在相关文件上签字:\n(一)经营活动或者编制的财务会计报告严重违反保险法律、行政法规或者监管规定的;\n(二)严重损害投保人、被保险人合法权益的;\n(三)保险公司其他高级管理人员侵犯保险公司合法权益,给保险公司经营可能造成严重危害的。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第三章",
+    "chapter_title": "财务负责人职责",
+    "text_zh": "第二十一条 财务负责人有权获得履行职责所需的数据、文件、资料等相关信息,保险公司有关部门和人员不得进行非法干预,不得隐瞒信息或者提供虚假\n信息。\n保险公司应当规定财务负责人有权列席与其职责相关的董事会会议。\n第四章 监督管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 101,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 财务负责人有权获得履行职责所需的数据、文件、资料等相关信息,保险公司有关部门和人员不得进行非法干预,不得隐瞒信息或者提供虚假\n信息。\n保险公司应当规定财务负责人有权列席与其职责相关的董事会会议。\n第四章 监督管理"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "会议"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23,
+    "source_end": 283,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十二条 保险公司任命财务负责人,应当依照本规定经中国保监会核准任职资格;情况特殊需要指定临时财务负责人的,临时任职时间不得超过3个月。\n保险公司任命临时财务负责人,应当在作出任职或者免职决定之日起10个工作日以内向中国保监会报告。临时财务负责人有下列情形之一的,中国保监会\n有权要求保险公司更换:(一)有本规定禁止担任财务负责人情形的;\n(二)中国保监会规定不适宜行使财务负责人职责的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 174,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 保险公司任命财务负责人,应当依照本规定经中国保监会核准任职资格;情况特殊需要指定临时财务负责人的,临时任职时间不得超过3个月。\n保险公司任命临时财务负责人,应当在作出任职或者免职决定之日起10个工作日以内向中国保监会报告。临时财务负责人有下列情形之一的,中国保监会\n有权要求保险公司更换:(一)有本规定禁止担任财务负责人情形的;\n(二)中国保监会规定不适宜行使财务负责人职责的。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3083,
+    "source_end": 3278,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十三条 保险公司有下列情形之一的,中国保监会可以对负有直接责任的董事、财务负责人或者其他高级管理人员进行监管谈话,并可以视情形责令限\n期整改:(一)没有在公司章程中明确规定财务负责人职责和权利的;\n(二)公司治理结构或者内部控制制度存在重大缺陷,导致财务负责人难以获取履行职责所需的数据、文件、资料等相关信息的;\n(三)有证据证明财务负责人违背本规定中规定的职责,或者违背《中华人民共和国公司法》规定的忠实和勤勉义务,可能给保险公司经营造成严重危害的;\n(四)保险公司在财务负责人职责范围内的有关经营管理活动存在重大风险隐患,可能给保险公司经营造成严重危害的;\n(五)中国保监会认为应当提示风险的其他情形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 272,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 保险公司有下列情形之一的,中国保监会可以对负有直接责任的董事、财务负责人或者其他高级管理人员进行监管谈话,并可以视情形责令限\n期整改:(一)没有在公司章程中明确规定财务负责人职责和权利的;\n(二)公司治理结构或者内部控制制度存在重大缺陷,导致财务负责人难以获取履行职责所需的数据、文件、资料等相关信息的;\n(三)有证据证明财务负责人违背本规定中规定的职责,或者违背《中华人民共和国公司法》规定的忠实和勤勉义务,可能给保险公司经营造成严重危害的;\n(四)保险公司在财务负责人职责范围内的有关经营管理活动存在重大风险隐患,可能给保险公司经营造成严重危害的;\n(五)中国保监会认为应当提示风险的其他情形。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 22.5,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司章程",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3279,
+    "source_end": 3584,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十四条 财务负责人因辞职、被免职或者被撤职等原因离职的,保险公司应当在做出批准辞职或者免职、撤职等决定的同时,将决定文件抄报中国保监\n会,并同时提交对财务负责人免职或者撤职的原因说明。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 86,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 财务负责人因辞职、被免职或者被撤职等原因离职的,保险公司应当在做出批准辞职或者免职、撤职等决定的同时,将决定文件抄报中国保监\n会,并同时提交对财务负责人免职或者撤职的原因说明。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3585,
+    "source_end": 3679,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十五条 财务负责人应当持续进行法律法规和专业知识学习,参加中国保监会组织或者认可的培训。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 43,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 财务负责人应当持续进行法律法规和专业知识学习,参加中国保监会组织或者认可的培训。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3681,
+    "source_end": 3727,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十六条 中国保监会根据本规定对保险公司财务负责人履职行为的合规性进行监督检查,并向董事会和总经理通报检查结果。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 54,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 中国保监会根据本规定对保险公司财务负责人履职行为的合规性进行监督检查,并向董事会和总经理通报检查结果。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3728,
+    "source_end": 3785,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第四章",
+    "chapter_title": "监督管理",
+    "text_zh": "第二十七条 财务负责人违反《中华人民共和国保险法》和本规定的,由中国保监会依法予以处罚。\n第五章 附则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 44,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 财务负责人违反《中华人民共和国保险法》和本规定的,由中国保监会依法予以处罚。\n第五章 附则"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3786,
+    "source_end": 3837,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第五章",
+    "chapter_title": "附则",
+    "text_zh": "第二十八条 对保险公司财务负责人的任职资格管理,本规定没有规定的,适用《保险公司董事、监事和高级管理人员任职资格管理规定》,中国保监会另有\n规定的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 对保险公司财务负责人的任职资格管理,本规定没有规定的,适用《保险公司董事、监事和高级管理人员任职资格管理规定》,中国保监会另有\n规定的除外。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3838,
+    "source_end": 3914,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第五章",
+    "chapter_title": "附则",
+    "text_zh": "第二十九条 保险资产管理公司参照本规定执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 20,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 保险资产管理公司参照本规定执行。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3915,
+    "source_end": 3937,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第五章",
+    "chapter_title": "附则",
+    "text_zh": "第三十条 本规定由中国保监会负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 17,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 本规定由中国保监会负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3938,
+    "source_end": 3957,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_4_2008_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_4_2008",
+    "law_name": "保险公司财务负责人任职资格管理规定",
+    "law_name_original": "保险公司财务负责人任职资格管理规定",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第五章",
+    "chapter_title": "附则",
+    "text_zh": "第三十一条 本规定自2009年2月1日起施行。\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 24,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 本规定自2009年2月1日起施行。\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2009-02-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1026862&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_107.txt",
+    "sample_id": "CN_107",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_107",
+    "raw_sha256": "a2476970d56febc651f678155291166c193e45f131325556a864dee72e1ed9be",
+    "extracted_text_sha256": "406f7b29eff4c11606efeca35f16680d6d3d570f3edebfe9248f10f6e455bfd6",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3958,
+    "source_end": 3991,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -11,7 +11,7 @@ import json
 import logging
 import re
 from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeoutError
-from typing import Any, Callable, Dict, List, Literal, Optional
+from typing import Any, Callable, Dict, List, Literal, Optional, Tuple
 
 from langchain_core.tools import BaseTool, StructuredTool
 from pydantic import BaseModel, Field
@@ -25,6 +25,46 @@ logger = logging.getLogger(__name__)
 # HTTP 客户端的 socket 超时（秒级~30s）自行回收，8 是留出余量后的取值。
 _TOOL_EXECUTOR = ThreadPoolExecutor(max_workers=8, thread_name_prefix="agent-tool")
 
+# 批量检索的子查询并行池：与 _TOOL_EXECUTOR 分离，避免「工具池内的任务再向同一池提交
+# 子任务」造成线程池饥饿（工具调用本身已占用一个 worker）。
+_BATCH_EXECUTOR = ThreadPoolExecutor(max_workers=4, thread_name_prefix="agent-batch")
+
+# 对比服务为无请求状态的重型对象（自带 ES 客户端），进程级复用即可。
+_COMPARE_SERVICE = None
+
+
+def _get_compare_service():
+    global _COMPARE_SERVICE
+    if _COMPARE_SERVICE is None:
+        from services.compare_service import CompareService
+        _COMPARE_SERVICE = CompareService()
+    return _COMPARE_SERVICE
+
+
+# 法规目录缓存：status/日期等法规级字段只在 law_catalog.json 中，ES 索引不存 status。
+# 按文件 mtime 失效，法规管理改动目录后自动重载。
+_CATALOG_CACHE: Dict[str, Any] = {"mtime": None, "map": {}}
+
+
+def _law_catalog_entry(law_id: str) -> Dict:
+    """取 law_catalog 中的法规记录（带 mtime 缓存）；失败返回空 dict。"""
+    if not law_id:
+        return {}
+    try:
+        from utils.law_catalog import LawCatalog
+
+        catalog = LawCatalog()
+        mtime = catalog.catalog_path.stat().st_mtime
+        if _CATALOG_CACHE["mtime"] != mtime:
+            data = catalog.load()
+            _CATALOG_CACHE["map"] = {
+                x.get("law_id"): x for x in (data.get("laws") or []) if x.get("law_id")
+            }
+            _CATALOG_CACHE["mtime"] = mtime
+        return _CATALOG_CACHE["map"].get(law_id) or {}
+    except Exception:
+        return {}
+
 
 # ============================================================
 # 工具参数模型（schema 由 pydantic 自动生成，字段描述即工具选择依据）
@@ -32,12 +72,22 @@ _TOOL_EXECUTOR = ThreadPoolExecutor(max_workers=8, thread_name_prefix="agent-too
 class SearchLawsArgs(BaseModel):
     """检索法规条文的入参。"""
 
-    query: str = Field(..., description="检索查询，建议使用法律术语，可包含法域、主题词")
+    query: Optional[str] = Field(
+        None, description="单条检索查询，建议使用法律术语，可包含法域、主题词")
+    queries: Optional[List[str]] = Field(
+        None,
+        description=(
+            "批量检索查询（2-4 条不同子问题/法域），与 query 二选一。"
+            "内部并行检索并合并去重，适合首轮一次性覆盖多个法域或方面，"
+            "比逐条多次调用更省预算"
+        ),
+    )
     jurisdiction: Optional[str] = Field(
         None,
         description="可选，限定法域（如 澳门 / 香港 / 新加坡 / 日本 / 美国 / 马来西亚 / 泰国 / 越南）",
     )
     top_k: Optional[int] = Field(None, description="返回条数，默认 5，最大 10")
+
 
 
 class FollowReferencesArgs(BaseModel):
@@ -69,10 +119,34 @@ class EvidenceStatusArgs(BaseModel):
     pass
 
 
+class GetArticleTextArgs(BaseModel):
+    """读取条款完整正文的入参。"""
+
+    law_id: str = Field(..., description="法规 ID，取自 search_laws 结果的 law_id")
+    article_number: str = Field(..., description="条款号，取自 search_laws 结果的 article_number")
+
+
+class CheckLawStatusArgs(BaseModel):
+    """查询法规时效与基本信息的入参。"""
+
+    law_id: str = Field(..., description="法规 ID，取自 search_laws 结果的 law_id")
+
+
+class CompareJurisdictionsArgs(BaseModel):
+    """双法域同主题条款对照的入参。"""
+
+    topic: str = Field(..., description="对比主题/关键词，如 数据保护、网络安全")
+    jurisdiction_a: str = Field(..., description="法域 A（如 中国澳门）")
+    jurisdiction_b: str = Field(..., description="法域 B（如 中国香港）")
+    top_k: Optional[int] = Field(None, description="每个法域检索条款数，默认 5，最大 20")
+
+
+
 # 工具观测值统一为 JSON 文本；AgentService 消费 ToolMessage 时再解析回 dict 累积证据。
 _SEARCH_LAWS_DESC = (
     "按关键词/语义检索法规条文，返回最相关的条文（含法域、法规名、条号、正文片段）。"
-    "适合先定位与问题相关的法条；可指定法域缩小范围。"
+    "适合先定位与问题相关的法条；可指定法域缩小范围。支持 queries 批量检索："
+    "首轮一次传入 2-4 条针对不同法域/方面的查询，内部并行并合并去重，比分多次调用更省预算。"
 )
 _FOLLOW_REFERENCES_DESC = (
     "追溯某条款正文中引用到的其他条款（同法规内「第X条」及可解析的跨法规引用），"
@@ -91,6 +165,21 @@ EVIDENCE_STATUS_TOOL = "get_evidence_status"
 _EVIDENCE_STATUS_DESC = (
     "查询当前已收集证据的覆盖情况：已覆盖的法域及条款数、仍缺口的目标法域、"
     "已检索过的条文清单。在判断「证据是否已足够、还需补充哪个法域」时调用，无参数。"
+)
+
+_GET_ARTICLE_TEXT_DESC = (
+    "读取指定条款的完整正文（超长会截断并标注）。当 search_laws 返回的片段不足以判断"
+    "构成要件、例外或程序细节时使用；一次取全文可替代用相近措辞反复检索。"
+    "参数取自 search_laws 结果的 law_id 与 article_number。"
+)
+_CHECK_LAW_STATUS_DESC = (
+    "查询法规的时效状态与基本信息：是否现行有效、通过/生效/公布日期、法域与主题。"
+    "在把某条款作为依据前确认其未被废止时调用；参数取自 search_laws 结果的 law_id。"
+)
+_COMPARE_JURISDICTIONS_DESC = (
+    "对两个法域在同一主题下做条款级对照（按法规聚合，返回涉及条款号与内容摘要）。"
+    "适合「A 与 B 在某方面有何差异」类问题：一次调用即可获得两侧条款分布，"
+    "替代分别检索两个法域。"
 )
 
 # auto 模式下判定是否优先走跨法域链：多法域/对比类信号；识别到 ≥2 个法域时直接走 cross。
@@ -127,9 +216,15 @@ class AgentToolkit:
 
     # ---------------- 对外入口 ----------------
     def build_tools(self) -> List[BaseTool]:
-        """把四个执行器包装为 LangChain 工具（各自绑定本请求的 memo 与法域）。"""
+        """把工具执行器包装为 LangChain 工具（各自绑定本请求的 memo 与法域）。"""
         return [
             self._as_tool("search_laws", _SEARCH_LAWS_DESC, SearchLawsArgs, self._search_laws),
+            self._as_tool("get_article_text", _GET_ARTICLE_TEXT_DESC,
+                          GetArticleTextArgs, self._get_article_text),
+            self._as_tool("check_law_status", _CHECK_LAW_STATUS_DESC,
+                          CheckLawStatusArgs, self._check_law_status),
+            self._as_tool("compare_jurisdictions", _COMPARE_JURISDICTIONS_DESC,
+                          CompareJurisdictionsArgs, self._compare_jurisdictions),
             self._as_tool("follow_references", _FOLLOW_REFERENCES_DESC,
                           FollowReferencesArgs, self._follow_references),
             self._as_tool("query_graph", _QUERY_GRAPH_DESC, QueryGraphArgs, self._query_graph),
@@ -192,27 +287,60 @@ class AgentToolkit:
         return result
 
     # ---------------- 具体工具实现 ----------------
-    def _search_laws(self, query: str = "", jurisdiction: Optional[str] = None,
+    def _search_laws(self, query: str = "", queries: Optional[List[str]] = None,
+                     jurisdiction: Optional[str] = None,
                      top_k: Optional[int] = None) -> Dict:
-        """检索法规条文。固定跳过精排（`_rerank=False`）以换取速度。"""
-        q = (query or "").strip()
-        if not q:
-            return {"error": "query 不能为空", "count": 0, "results": []}
+        """检索法规条文，支持 queries 批量：子查询并行执行后按条款去重合并。
+
+        固定跳过精排（`_rerank=False`）以换取速度。批量模式让首轮一次调用覆盖多个
+        子问题/法域，减少探索轮次；单条模式保留原有的查询分解行为。
+        """
+        batch = [str(q).strip() for q in (queries or []) if str(q or "").strip()]
+        if not batch:
+            q = (query or "").strip()
+            if not q:
+                return {"error": "query 或 queries 至少提供一项", "count": 0, "results": []}
+            batch = [q]
+        batch = batch[: max(1, int(settings.agent_search_batch_max))]
+
         try:
             k = min(int(top_k), 10) if top_k else settings.agent_tool_top_k
         except (TypeError, ValueError):
             k = settings.agent_tool_top_k
         k = max(1, k)
 
-        results = self.retriever.hybrid_search(
-            query=q,
-            top_k=k,
-            jurisdiction=jurisdiction or None,
-            _decompose=True,
-            _rerank=False,  # 探索步跳过精排：精排留给最终证据集统一做一次
-        )
+        def _run(sub_query: str) -> List[Dict]:
+            try:
+                return self.retriever.hybrid_search(
+                    query=sub_query,
+                    top_k=k,
+                    jurisdiction=jurisdiction or None,
+                    # 批量模式各子查询已聚焦，关闭分解避免二次放大的编码与 ES 开销
+                    _decompose=len(batch) == 1,
+                    _rerank=False,
+                )
+            except Exception as e:
+                logger.warning("[Agent] 子查询检索失败 %s: %s", sub_query[:30], e)
+                return []
+
+        if len(batch) == 1:
+            per_query = [_run(batch[0])]
+        else:
+            per_query = list(_BATCH_EXECUTOR.map(_run, batch))
+
+        # 按 (law_id, article_number) 去重，保留最高分，再按分数降序截断
+        merged: Dict[Tuple[str, str], Dict] = {}
+        for hits in per_query:
+            for r in hits or []:
+                key = (r.get("law_id", ""), str(r.get("article_number", "")))
+                if key not in merged or float(r.get("score") or 0.0) > float(merged[key].get("score") or 0.0):
+                    merged[key] = r
+
+        cap = min(max(k, 1) * len(batch), max(1, int(settings.agent_search_batch_result_max)))
+        ordered = sorted(merged.values(), key=lambda x: float(x.get("score") or 0.0), reverse=True)[:cap]
+
         out = []
-        for r in results[:k]:
+        for r in ordered:
             out.append({
                 "law_id": r.get("law_id", ""),
                 "title": r.get("title", ""),
@@ -221,7 +349,115 @@ class AgentToolkit:
                 "content": (r.get("content", "") or "")[: settings.agent_obs_max_chars],
                 "score": round(float(r.get("score") or 0.0), 4),
             })
-        return {"count": len(out), "results": out}
+        return {"count": len(out), "queries_used": batch, "results": out}
+
+    def _get_article_text(self, law_id: str = "", article_number: str = "") -> Dict:
+        """读取单条条款的完整正文，替代为补全细节而反复检索。"""
+        law_id = (law_id or "").strip()
+        article = str(article_number or "").strip()
+        if not law_id or not article:
+            return {"error": "law_id 与 article_number 均不能为空", "found": False}
+        try:
+            text = self.retriever.repo.get_article_full_text(law_id, article)
+        except Exception as e:
+            return {"error": f"{type(e).__name__}: {e}", "found": False}
+        if not text:
+            return {"found": False, "law_id": law_id, "article_number": article,
+                    "note": "未取到该条款正文，请核对 law_id 与条号"}
+
+        meta: Dict[str, Any] = {}
+        try:
+            meta = self.retriever.repo.get_law_meta(law_id) or {}
+        except Exception:
+            pass
+        entry = _law_catalog_entry(law_id)
+
+        cap = max(200, int(settings.agent_article_text_chars))
+        return {
+            "found": True,
+            "law_id": law_id,
+            "article_number": article,
+            "title": entry.get("law_name_zh") or meta.get("title", ""),
+            "jurisdiction": entry.get("jurisdiction") or meta.get("jurisdiction", ""),
+            "status": entry.get("status") or meta.get("status", ""),
+            "content": text[:cap],
+            "total_chars": len(text),
+            "truncated": len(text) > cap,
+        }
+
+    def _check_law_status(self, law_id: str = "") -> Dict:
+        """查询法规时效与基本信息，用于在引用前确认法规未被废止。"""
+        law_id = (law_id or "").strip()
+        if not law_id:
+            return {"error": "law_id 不能为空", "found": False}
+        meta: Dict[str, Any] = {}
+        try:
+            meta = self.retriever.repo.get_law_meta(law_id) or {}
+        except Exception as e:
+            return {"error": f"{type(e).__name__}: {e}", "found": False}
+        entry = _law_catalog_entry(law_id)
+        if not meta and not entry:
+            return {"found": False, "law_id": law_id, "note": "库中未找到该法规"}
+
+        raw_status = str(entry.get("status") or meta.get("status") or "")
+        status_map = {"active": "现行有效", "repealed": "已废止", "amended": "已修订"}
+        return {
+            "found": True,
+            "law_id": law_id,
+            "title": entry.get("law_name_zh") or meta.get("title", ""),
+            "jurisdiction": entry.get("jurisdiction") or meta.get("jurisdiction", ""),
+            "status": raw_status,
+            "status_text": status_map.get(raw_status, raw_status or "未知"),
+            "passing_date": entry.get("passing_date") or meta.get("passing_date", ""),
+            "effective_date": entry.get("effective_date") or meta.get("effective_date", ""),
+            "publication_date": entry.get("publication_date") or meta.get("publication_date", ""),
+        }
+
+    def _compare_jurisdictions(self, topic: str = "", jurisdiction_a: str = "",
+                               jurisdiction_b: str = "", top_k: Optional[int] = None) -> Dict:
+        """双法域同主题条款对照：一次调用获得两侧条款分布，替代分别检索。"""
+        topic = (topic or "").strip()
+        jur_a = (jurisdiction_a or "").strip()
+        jur_b = (jurisdiction_b or "").strip()
+        if not topic or not jur_a or not jur_b:
+            return {"error": "topic、jurisdiction_a、jurisdiction_b 均不能为空", "count": 0}
+
+        try:
+            k = max(1, min(int(top_k), 20)) if top_k else 5
+        except (TypeError, ValueError):
+            k = 5
+
+        try:
+            result = _get_compare_service().compare(
+                topic, jur_a, jur_b, top_k_per_jurisdiction=k,
+            )
+        except Exception as e:
+            return {"error": f"{type(e).__name__}: {e}", "count": 0}
+
+        def _brief(items: List[Dict]) -> List[Dict]:
+            brief = []
+            for law in (items or [])[:3]:
+                previews = law.get("chunks_preview") or []
+                brief.append({
+                    "law_id": law.get("law_id", ""),
+                    "title": law.get("title", ""),
+                    "article_numbers": (law.get("article_numbers") or [])[:10],
+                    "article_count": law.get("article_count", 0),
+                    "keywords": (law.get("keywords") or [])[:5],
+                    "preview": (previews[0].get("content", "")[:200] if previews else ""),
+                })
+            return brief
+
+        side_a, side_b = _brief(result.get("results_a")), _brief(result.get("results_b"))
+        return {
+            "topic": topic,
+            "jurisdiction_a": jur_a,
+            "jurisdiction_b": jur_b,
+            "a": side_a,
+            "b": side_b,
+            "count": len(side_a) + len(side_b),
+            "cache_hit": bool(result.get("_cache_hit")),
+        }
 
     def _follow_references(self, law_id: str = "", article_number: str = "") -> Dict:
         """追溯条款引用：先取引用方原文，再解析并回取被引条款。"""

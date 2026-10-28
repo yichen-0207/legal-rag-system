@@ -19,6 +19,13 @@ registerPage('dashboard', function(container) {
     });
 });
 
+// 饼图配色：蓝-橙双色系交替排列，相邻扇区明度/色相高对比，色弱友好；超出调色板长度循环复用
+const PIE_PALETTE = [
+    '#08306B', '#F2A33C', '#6FA8D0', '#8C3B00', '#1F5FA8', '#D2691E',
+    '#4A93C8', '#E8B84B', '#0F4270', '#A6430F', '#2E6DA4', '#D98324',
+    '#7A93C4', '#B35C00'
+];
+
 function renderDashboard(container, stats) {
     let html = '';
 
@@ -93,7 +100,9 @@ function renderJurisdictionCharts(jurisdiction) {
                 labels: lawCounts.map(function(item) { return item.jurisdiction; }),
                 datasets: [{
                     data: lawCounts.map(function(item) { return item.count; }),
-                    backgroundColor: ['#8B2500', '#A0522D', '#3D5A6E', '#2E6B3E', '#8B6914']
+                    backgroundColor: lawCounts.map(function(item, i) {
+                        return PIE_PALETTE[i % PIE_PALETTE.length];
+                    })
                 }]
             },
             options: {
@@ -522,23 +531,48 @@ function renderTimeCharts(timeTrend) {
         }
     });
 
-    const totalCounts = timeSeries.map(function(item) { return item.total || 0; });
+    // 柱状图按法域堆叠：法域从数据里动态收集，新增法域（澳大利亚/中国大陆/韩国）
+    // 不再被并进"其他"，也不会因为写死四类而漏画。
+    var jurTotals = {};
+    timeSeries.forEach(function(item) {
+        var byJur = item.by_jurisdiction || {};
+        Object.keys(byJur).forEach(function(jur) {
+            jurTotals[jur] = (jurTotals[jur] || 0) + (byJur[jur] || 0);
+        });
+    });
+    var jurList = Object.keys(jurTotals).sort(function(a, b) {
+        return jurTotals[b] - jurTotals[a];
+    });
+
+    var palette = ['#3D5A6E', '#2E6B3E', '#C08A3E', '#8B5E83', '#B5544A',
+                   '#4A8CA8', '#6B8E4E', '#7A6BB5', '#B58A4A', '#5E8B8B',
+                   '#A05E5E', '#4A6FA8'];
+    var stackDatasets = jurList.map(function(jur, i) {
+        return {
+            label: jur,
+            data: timeSeries.map(function(item) {
+                return (item.by_jurisdiction || {})[jur] || 0;
+            }),
+            backgroundColor: palette[i % palette.length]
+        };
+    });
+
     const barCtx = document.getElementById('time-bar-chart').getContext('2d');
     new Chart(barCtx, {
         type: 'bar',
         data: {
             labels: periods,
-            datasets: [{
-                label: '法规总量',
-                data: totalCounts,
-                backgroundColor: '#2E6B3E'
-            }]
+            datasets: stackDatasets
         },
         options: {
             responsive: true,
             maintainAspectRatio: false,
             scales: {
-                y: { beginAtZero: true }
+                x: { stacked: true },
+                y: { stacked: true, beginAtZero: true }
+            },
+            plugins: {
+                legend: { position: 'bottom', labels: { boxWidth: 10, font: { size: 10 } } }
             }
         }
     });

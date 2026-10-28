@@ -88,10 +88,13 @@ services:
       # 一致——本环境变量优先级高于 config.py，两处不一致时以本处为生效值。
       - LEGAL_AGENT_MAX_TOOL_CALLS=${LEGAL_AGENT_MAX_TOOL_CALLS:-6}
       - LEGAL_AGENT_MAX_STAGNANT_STEPS=${LEGAL_AGENT_MAX_STAGNANT_STEPS:-2}
-      # 证据收口送精排的候选上限（先收敛再精排，直接决定收口耗时）
+      # 证据收敛条数上限（控制最终 prompt 规模）
       - LEGAL_AGENT_FINALIZE_MAX_CANDIDATES=${LEGAL_AGENT_FINALIZE_MAX_CANDIDATES:-12}
       # 最终送入 LLM 的证据条数（需大于 top_k，否则多步额外召回被截掉）
-      - LEGAL_AGENT_FINALIZE_PASS_K=${LEGAL_AGENT_FINALIZE_PASS_K:-8}
+      - LEGAL_AGENT_FINALIZE_PASS_K=${LEGAL_AGENT_FINALIZE_PASS_K:-12}
+      # 收口精排开关：本机 cross-encoder 对 12 条约需 22s，仅决定 12 选 12 的次序；
+      # 关闭后按 RRF 序全量入 prompt，需回滚排序质量时设为 true
+      - LEGAL_AGENT_FINALIZE_RERANK_ENABLED=${LEGAL_AGENT_FINALIZE_RERANK_ENABLED:-false}
       # 复杂度路由：开启后仅复杂查询走多步探索，简单/定向查询走既有快速 RAG
       - LEGAL_AGENT_COMPLEXITY_ROUTING_ENABLED=${LEGAL_AGENT_COMPLEXITY_ROUTING_ENABLED:-true}
       - LEGAL_AGENT_MIN_QUERY_LEN=${LEGAL_AGENT_MIN_QUERY_LEN:-12}

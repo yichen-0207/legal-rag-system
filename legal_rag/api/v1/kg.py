@@ -60,8 +60,18 @@ def _law_to_chunks(law_data: dict) -> list:
 def get_law_graph(
     law_id: str,
     force_refresh: bool = Query(False, description="忽略缓存强制重新抽取知识层"),
+    extract: bool = Query(
+        False, description="允许在无缓存时调用 LLM 抽取（默认关闭，避免浏览即产生费用）"
+    ),
 ):
-    """获取法规知识图谱：优先 LLM 三元组知识层，为空或失败时降级为关键词条款关联图。"""
+    """获取法规知识图谱：优先 LLM 三元组知识层，为空或失败时降级为关键词条款关联图。
+
+    默认**只读缓存**：未抽取过的法规直接返回关键词图，并把 graph_source 标为
+    `not_extracted`。此前这里无条件调用 `get_triples_cached`，打开一部法规图谱页
+    就会触发几十次 LLM 调用（如澳大利亚单部法规约 58 次、约 17 万 tokens），
+    在大批量数据入库后属于不可控成本。需要按需补抽时显式传 `extract=true`，
+    批量补抽走 `run_kg_extraction.py`。
+    """
     law_data = repo.get_law_by_id(law_id)
     if not law_data:
         return APIResponse(success=False, message="未找到该法规的数据")
@@ -70,11 +80,19 @@ def get_law_graph(
 
     # ---- 优先：LLM 知识层（命中缓存则不发起 LLM 请求）----
     try:
-        result = extractor.get_triples_cached(law_id, chunks, force_refresh=force_refresh)
-        triples = result.get("triples") or []
+        if extract or force_refresh:
+            result = extractor.get_triples_cached(
+                law_id, chunks, force_refresh=force_refresh
+            )
+            triples = result.get("triples") or []
+            cache_hit = result.get("cache_hit", False)
+        else:
+            triples = repo.get_kg_triples(law_id)
+            cache_hit = True
         if triples:
             graph = extractor.format_graph(triples, articles=chunks)
-            graph["cache_hit"] = result.get("cache_hit", False)
+            graph["cache_hit"] = cache_hit
+            graph["graph_source"] = "knowledge"
             # 附上社区划分与中心性，供前端按社区染色 / 按 PageRank 定大小
             enrich_graph_with_analytics(graph, graph_analysis)
             return APIResponse(success=True, data=graph)
@@ -88,6 +106,8 @@ def get_law_graph(
     # ---- 降级：关键词版条款关联图 ----
     graph = analysis_service.get_network_graph(chunks, [], center_law_id=law_id)
     graph["graph_source"] = "keyword_fallback"
+    graph["kg_extracted"] = False
+    graph["hint"] = "该法规知识层尚未抽取，当前为关键词关联图；可用 extract=true 按需抽取"
     enrich_graph_with_analytics(graph, graph_analysis)
     return APIResponse(success=True, data=graph)
 

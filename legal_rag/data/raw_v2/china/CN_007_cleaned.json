@@ -1,0 +1,2193 @@
+[
+  {
+    "doc_id": "CN_RULE_24_2026_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第一条 为了规范网络数据安全风险评估活动，保障网络数据安全，促进网络数据依法合理有效利用，根据《中华人民共和国数据安全法》、《中华人民共和国网络安全法》、《网络数据安全管理条例》等法律法规，制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 87,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为了规范网络数据安全风险评估活动，保障网络数据安全，促进网络数据依法合理有效利用，根据《中华人民共和国数据安全法》、《中华人民共和国网络安全法》、《网络数据安全管理条例》等法律法规，制定本办法。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 44,
+    "source_end": 274,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二条 在中华人民共和国境内开展网络数据安全风险评估，应当遵守本办法。\n本办法所称网络数据安全风险评估（以下简称风险评估），是指对网络数据和网络数据处理活动安全进行的风险识别、风险分析和风险评价等活动。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 92,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 在中华人民共和国境内开展网络数据安全风险评估，应当遵守本办法。\n本办法所称网络数据安全风险评估（以下简称风险评估），是指对网络数据和网络数据处理活动安全进行的风险识别、风险分析和风险评价等活动。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 36,
+    "source_end": 274,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第三条 在国家数据安全工作协调机制指导下，国家网信部门会同国务院电信、公安等有关部门建立网络数据安全风险评估专项工作机制，指导、监督风险评估工作。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 在国家数据安全工作协调机制指导下，国家网信部门会同国务院电信、公安等有关部门建立网络数据安全风险评估专项工作机制，指导、监督风险评估工作。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 894,
+    "source_end": 906,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第四条 有关主管部门应当按照谁管业务、谁管业务数据、谁管数据安全的原则，定期组织开展本行业、本领域风险评估，根据工作需要对本行业、本领域处理重要数据的网络数据处理者（以下简称重要数据处理者）开展风险评估情况进行检查，并于每年1月底前将年度风险评估检查计划报送国家网信部门。国家网信部门通过国家数据安全工作协调机制将计划与国务院电信、公安、国家安全等有关部门共享并进行协调，避免不必要的检查和交叉重复检查。\n有关主管部门开展检查不得向被检查的重要数据处理者收取费用。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 214,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 有关主管部门应当按照谁管业务、谁管业务数据、谁管数据安全的原则，定期组织开展本行业、本领域风险评估，根据工作需要对本行业、本领域处理重要数据的网络数据处理者（以下简称重要数据处理者）开展风险评估情况进行检查，并于每年1月底前将年度风险评估检查计划报送国家网信部门。国家网信部门通过国家数据安全工作协调机制将计划与国务院电信、公安、国家安全等有关部门共享并进行协调，避免不必要的检查和交叉重复检查。\n有关主管部门开展检查不得向被检查的重要数据处理者收取费用。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management",
+      "telecommunications",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 104,
+    "source_end": 274,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第五条 重要数据处理者应当每年度开展风险评估。\n重要数据安全状态发生重大变化可能对数据安全造成不利影响的，应当及时对发生变化及其影响的部分开展风险评估。\n鼓励处理一般数据的网络数据处理者（以下简称一般数据处理者）至少每3年开展一次风险评估。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 110,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 重要数据处理者应当每年度开展风险评估。\n重要数据安全状态发生重大变化可能对数据安全造成不利影响的，应当及时对发生变化及其影响的部分开展风险评估。\n鼓励处理一般数据的网络数据处理者（以下简称一般数据处理者）至少每3年开展一次风险评估。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2413,
+    "source_end": 2476,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第六条 风险评估工作应当按照《中华人民共和国数据安全法》、《网络数据安全管理条例》有关要求，参照数据安全风险评估有关国家标准开展。有关主管部门对本行业、本领域风险评估工作另有规定的，从其规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 85,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 风险评估工作应当按照《中华人民共和国数据安全法》、《网络数据安全管理条例》有关要求，参照数据安全风险评估有关国家标准开展。有关主管部门对本行业、本领域风险评估工作另有规定的，从其规定。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 39,
+    "source_end": 274,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第七条 网络数据处理者可以自行或者委托第三方评估机构（以下简称评估机构）开展风险评估。\n网络数据处理者自行开展风险评估，应当指定专人负责。网络数据处理者委托评估机构开展风险评估，应当通过订立合同或者其他具有法律效力的文件等方式明确双方的权利、义务等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 115,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 网络数据处理者可以自行或者委托第三方评估机构（以下简称评估机构）开展风险评估。\n网络数据处理者自行开展风险评估，应当指定专人负责。网络数据处理者委托评估机构开展风险评估，应当通过订立合同或者其他具有法律效力的文件等方式明确双方的权利、义务等。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 49,
+    "source_end": 274,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第八条 鼓励相关评估机构通过认证。评估机构的认证按照《中华人民共和国认证认可条例》的有关规定执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 44,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 鼓励相关评估机构通过认证。评估机构的认证按照《中华人民共和国认证认可条例》的有关规定执行。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 45,
+    "source_end": 274,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第九条 在国家数据安全工作协调机制指导下，国家网信部门和国务院电信、公安等有关部门积极促进网络数据安全风险评估服务的发展，培育评估机构。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 63,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 在国家数据安全工作协调机制指导下，国家网信部门和国务院电信、公安等有关部门积极促进网络数据安全风险评估服务的发展，培育评估机构。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信",
+          "网络 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1179,
+    "source_end": 1247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十条 评估机构开展风险评估应当遵守法律法规，公正客观地作出风险判断，并对所出具的风险评估报告真实性、有效性、完整性负责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 55,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 评估机构开展风险评估应当遵守法律法规，公正客观地作出风险判断，并对所出具的风险评估报告真实性、有效性、完整性负责。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1800,
+    "source_end": 1940,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十一条 评估机构不得转委托其他机构开展风险评估。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 23,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 评估机构不得转委托其他机构开展风险评估。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3086,
+    "source_end": 3161,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十二条 同一评估机构及其关联机构不得连续3次以上对同一网络数据处理者开展年度风险评估。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 41,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 同一评估机构及其关联机构不得连续3次以上对同一网络数据处理者开展年度风险评估。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 147,
+    "source_end": 274,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十三条 评估机构在风险评估过程中发现网络数据处理活动存在重大数据安全风险的，应当及时通知网络数据处理者。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 50,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 评估机构在风险评估过程中发现网络数据处理活动存在重大数据安全风险的，应当及时通知网络数据处理者。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1381,
+    "source_end": 1434,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十四条 评估机构及其工作人员应当对在风险评估过程中获得的数据、商业秘密、保密商务信息等依法予以保密，不得泄露或者非法向他人提供，在风险评估结束后及时删除或者按照合同约定妥善处置相关信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 88,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 评估机构及其工作人员应当对在风险评估过程中获得的数据、商业秘密、保密商务信息等依法予以保密，不得泄露或者非法向他人提供，在风险评估结束后及时删除或者按照合同约定妥善处置相关信息。"
+      }
+    ],
+    "topics": [
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "保密"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1435,
+    "source_end": 1529,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十五条 重要数据处理者开展年度风险评估，应当依法按照有关主管部门规定编制风险评估报告。有关主管部门对风险评估报告没有规定的，可以参照数据安全风险评估有关国家标准编制风险评估报告。风险评估报告至少保存3年。\n一般数据处理者可以参照前款要求编制风险评估报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 119,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 重要数据处理者开展年度风险评估，应当依法按照有关主管部门规定编制风险评估报告。有关主管部门对风险评估报告没有规定的，可以参照数据安全风险评估有关国家标准编制风险评估报告。风险评估报告至少保存3年。\n一般数据处理者可以参照前款要求编制风险评估报告。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2412,
+    "source_end": 2476,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十六条 重要数据处理者应当在年度风险评估完成后的20个工作日内按照有关主管部门要求向其报送风险评估报告。主管部门不明确的，向省级网信部门或者国家网信部门报送。\n有关主管部门应当公开风险评估报告报送渠道和联系方式，及时接收重要数据处理者报送的风险评估报告，自收到风险评估报告之日起的10个工作日内将报告通报同级网信部门。国家网信部门汇总相关报告，并与国务院电信、公安、国家安全等有关部门共享。\n省级以上网信部门、电信主管部门、公安机关、国家安全机关和其他有关部门可以对重要数据处理者的风险评估报告真实性、准确性进行检查核验，重要数据处理者应当配合开展检查核验。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 257,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 重要数据处理者应当在年度风险评估完成后的20个工作日内按照有关主管部门要求向其报送风险评估报告。主管部门不明确的，向省级网信部门或者国家网信部门报送。\n有关主管部门应当公开风险评估报告报送渠道和联系方式，及时接收重要数据处理者报送的风险评估报告，自收到风险评估报告之日起的10个工作日内将报告通报同级网信部门。国家网信部门汇总相关报告，并与国务院电信、公安、国家安全等有关部门共享。\n省级以上网信部门、电信主管部门、公安机关、国家安全机关和其他有关部门可以对重要数据处理者的风险评估报告真实性、准确性进行检查核验，重要数据处理者应当配合开展检查核验。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management",
+      "telecommunications",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1659,
+    "source_end": 1939,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十七条 省级以上网信部门、电信主管部门、公安机关和其他有关部门在风险评估报告核验、监督检查等工作中发现网络数据处理者有以下情形之一的，可以要求其委托通过认证的评估机构开展风险评估：\n（一）网络数据处理活动存在较大安全风险，可能危害国家安全、公共利益的；\n（二）发生网络数据安全事件，导致重要数据或者大规模个人信息泄露、被窃取的；\n（三）有关部门规定的其他情形。\n对同一网络数据安全事件或者风险，不得重复要求网络数据处理者委托评估机构开展风险评估。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 199,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 省级以上网信部门、电信主管部门、公安机关和其他有关部门在风险评估报告核验、监督检查等工作中发现网络数据处理者有以下情形之一的，可以要求其委托通过认证的评估机构开展风险评估：\n（一）网络数据处理活动存在较大安全风险，可能危害国家安全、公共利益的；\n（二）发生网络数据安全事件，导致重要数据或者大规模个人信息泄露、被窃取的；\n（三）有关部门规定的其他情形。\n对同一网络数据安全事件或者风险，不得重复要求网络数据处理者委托评估机构开展风险评估。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management",
+      "telecommunications",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 12.0,
+        "matched_keywords": [
+          "个人信息",
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 48,
+    "source_end": 274,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十八条 网络数据处理者按照有关部门要求委托评估机构开展风险评估的，应当履行下列义务：\n（一）为评估机构开展风险评估提供必要支持，包括为风险评估人员提供必要的访问网络数据设施、网络数据、系统及操作日志记录权限等；\n（二）在限定时间内完成风险评估，情况复杂的，报有关部门批准后可以适当延长；\n（三）在完成风险评估后将评估机构出具的风险评估报告报送有关部门，风险评估报告应当由评估机构主要负责人、风险评估负责人签字并加盖机构公章；\n（四）按照有关部门要求对风险评估中发现的问题进行整改，在整改完成后15个工作日内，向有关部门报送整改情况报告。\n网络数据处理者不得以任何方式要求或者示意评估机构出具不实或者不当的风险评估报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 278,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 网络数据处理者按照有关部门要求委托评估机构开展风险评估的，应当履行下列义务：\n（一）为评估机构开展风险评估提供必要支持，包括为风险评估人员提供必要的访问网络数据设施、网络数据、系统及操作日志记录权限等；\n（二）在限定时间内完成风险评估，情况复杂的，报有关部门批准后可以适当延长；\n（三）在完成风险评估后将评估机构出具的风险评估报告报送有关部门，风险评估报告应当由评估机构主要负责人、风险评估负责人签字并加盖机构公章；\n（四）按照有关部门要求对风险评估中发现的问题进行整改，在整改完成后15个工作日内，向有关部门报送整改情况报告。\n网络数据处理者不得以任何方式要求或者示意评估机构出具不实或者不当的风险评估报告。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)",
+          "记录 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 44,
+    "source_end": 274,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十九条 有关部门在组织开展风险评估中发现重要数据处理者的重要数据处理活动可能危害国家安全、公共利益的，应当依据职责责令重要数据处理者进行整改；对拒不整改或者未达到整改要求的重要数据处理者，可以采取要求其停止处理重要数据等措施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 108,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 有关部门在组织开展风险评估中发现重要数据处理者的重要数据处理活动可能危害国家安全、公共利益的，应当依据职责责令重要数据处理者进行整改；对拒不整改或者未达到整改要求的重要数据处理者，可以采取要求其停止处理重要数据等措施。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2476,
+    "source_end": 2590,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十条 有关主管部门应当加强风险信息共享和协同处置，及时处置风险评估中发现的安全风险和问题，并按照有关规定及时报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 55,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 有关主管部门应当加强风险信息共享和协同处置，及时处置风险评估中发现的安全风险和问题，并按照有关规定及时报告。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 36,
+    "source_end": 274,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十一条 任何组织、个人有权对风险评估中的违法活动向有关部门进行投诉、举报，收到投诉、举报的部门应当依法及时处理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 52,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 任何组织、个人有权对风险评估中的违法活动向有关部门进行投诉、举报，收到投诉、举报的部门应当依法及时处理。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2651,
+    "source_end": 2709,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十二条 省级以上网信部门、电信主管部门、公安机关、国家安全机关或者其他有关部门发现网络数据处理者未按规定开展风险评估的，应当依据《中华人民共和国数据安全法》、《网络数据安全管理条例》等有关法律、行政法规予以处理。\n发现评估机构违反本办法开展风险评估的，有关部门应当依法予以处理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 126,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 省级以上网信部门、电信主管部门、公安机关、国家安全机关或者其他有关部门发现网络数据处理者未按规定开展风险评估的，应当依据《中华人民共和国数据安全法》、《网络数据安全管理条例》等有关法律、行政法规予以处理。\n发现评估机构违反本办法开展风险评估的，有关部门应当依法予以处理。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "telecommunications",
+      "public_governance",
+      "data_management",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "管理 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2710,
+    "source_end": 2851,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十三条 处理核心数据的网络数据处理者的风险评估，按照国家有关规定执行。\n涉及重要数据加密等技术措施的，应当按照国家密码相关法律、行政法规要求开展商用密码应用安全性评估。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 79,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 处理核心数据的网络数据处理者的风险评估，按照国家有关规定执行。\n涉及重要数据加密等技术措施的，应当按照国家密码相关法律、行政法规要求开展商用密码应用安全性评估。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2852,
+    "source_end": 2938,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十四条 开展涉及国家秘密、工作秘密的风险评估活动，按照《中华人民共和国保守国家秘密法》等法律、行政法规及国家保密规定执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 56,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 开展涉及国家秘密、工作秘密的风险评估活动，按照《中华人民共和国保守国家秘密法》等法律、行政法规及国家保密规定执行。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "保密"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 103,
+    "source_end": 274,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_RULE_24_2026_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_RULE_24_2026",
+    "law_name": "网络数据安全风险评估办法",
+    "law_name_original": "网络数据安全风险评估办法",
+    "law_type": "部门规章",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十五条 本办法自2026年8月20日起施行。\n中央网络安全和信息化委员会办公室承办：国家互联网应急中心\n技术支持：长安通信科技有限责任公司京公网安备11040102700108号",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 64,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 本办法自2026年8月20日起施行。\n◆ ◆◆ ◆\n中央网络安全和信息化委员会办公室承办：国家互联网应急中心\n技术支持：长安通信科技有限责任公司京公网安备11040102700108号"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-08-20",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_007.txt",
+    "sample_id": "CN_007",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_007",
+    "raw_sha256": "8d23ce3bf94624947506b92ba551fb83a3dfdab9bde3fd03d33e1e99e588cbf1",
+    "extracted_text_sha256": "86ebc5206f687a4bc4579bb8ab1be25fbf6d96131176b1b6a2bcb41a1ddedf61",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3003,
+    "source_end": 3101,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:42:31Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

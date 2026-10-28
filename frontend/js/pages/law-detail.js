@@ -308,8 +308,8 @@ function tocHtml(data) {
             '<li class="law-toc__item"><a href="javascript:void(0)">目录不可用</a></li></ul>';
     }
 
-    var html = '<div class="law-toc__head">条款目录</div><ul class="law-toc__list">';
-    var schedHtml = '';
+    var subs = [];
+    var sched = [];
 
     outline.forEach(function(item, idx) {
         ldState.numToIdx[item.article_number] = idx;
@@ -318,29 +318,100 @@ function tocHtml(data) {
         var stream = streamOf(item.article_number, item.chunk_type);
         if (stream === 'fragment') return;
 
-        var t = ldCleanTitle(item.article_title);
-        // 元数据标题不可信时先占位，待正文加载后由 backfillTocTitles 补全
-        var full = t ? escapeHtml(truncateTitle(t, 60)).replace(/"/g, '&quot;') : '';
-        var li = '<li class="law-toc__item" data-target="a' + idx + '"' + (t ? '' : ' data-pending="1"') + '>' +
-            '<a href="javascript:void(0)" onclick="ldGoArticle(' + idx + ')">' +
-            '<span class="law-toc__num">' + escapeHtml(displayNum(item.article_number)) + '</span>' +
-            '<span class="law-toc__text" title="' + full + '">' +
-                escapeHtml(truncateTitle(t, 26) || '—') +
-            '</span>' +
-            '</a></li>';
-
-        if (stream === 'schedule') schedHtml += li;
-        else html += li;
+        var entry = {
+            idx: idx,
+            num: displayNum(item.article_number),
+            part: item.part_title || '',
+            title: ldCleanTitle(item.article_title)
+        };
+        (stream === 'schedule' ? sched : subs).push(entry);
     });
+
+    // 章节信息充足时按编/章/节聚合，否则退回条款级目录
+    var parts = buildParts(subs);
+    var byChapter = parts.titles.length >= 2;
+
+    var html = '<div class="law-toc__head">' + (byChapter ? '章节目录' : '条款目录') + '</div>';
+    html += '<ul class="law-toc__list' + (byChapter ? ' law-toc__list--part' : '') + '">';
+
+    if (byChapter) {
+        parts.titles.forEach(function(title, i) {
+            var full = escapeHtml(title).replace(/"/g, '&quot;');
+            html += '<li class="law-toc__item law-toc__item--part" data-target="p' + i + '">' +
+                '<a href="javascript:void(0)" onclick="ldGoPart(' + i + ')">' +
+                '<span class="law-toc__text" title="' + full + '">' + escapeHtml(title) + '</span>' +
+            '</a></li>';
+        });
+    } else {
+        subs.forEach(function(entry) { html += tocArticleItem(entry); });
+    }
 
     html += '</ul>';
 
-    if (schedHtml) {
+    // 附表条款数量少，仍按条款列出
+    if (sched.length) {
+        var schedHtml = '';
+        sched.forEach(function(entry) { schedHtml += tocArticleItem(entry); });
         html += '<div class="law-toc__head law-toc__head--sub">附表</div>' +
             '<ul class="law-toc__list">' + schedHtml + '</ul>';
     }
 
     return html;
+}
+
+/** 条款级目录项 */
+function tocArticleItem(entry) {
+    // 元数据标题不可信时先占位，待正文加载后由 backfillTocTitles 补全
+    var full = entry.title ? escapeHtml(truncateTitle(entry.title, 60)).replace(/"/g, '&quot;') : '';
+    return '<li class="law-toc__item" data-target="a' + entry.idx + '"' +
+        (entry.title ? '' : ' data-pending="1"') + '>' +
+        '<a href="javascript:void(0)" onclick="ldGoArticle(' + entry.idx + ')">' +
+        '<span class="law-toc__num">' + escapeHtml(entry.num) + '</span>' +
+        '<span class="law-toc__text" title="' + full + '">' +
+            escapeHtml(truncateTitle(entry.title, 26) || '—') +
+        '</span>' +
+    '</a></li>';
+}
+
+/** 编/章/节标题清洗：去注记、限长，噪声标题视为缺失 */
+function ldCleanPart(raw) {
+    var t = ldTrimEdges(ldStripNotes(String(raw || '')));
+    if (!t || LD_NOISE_RE.test(t)) return '';
+    return t.length > 40 ? ldCutAtWord(t, 40) : t;
+}
+
+/**
+ * 把有序条目归并为编/章/节序列：标题变化即开新段，无章节信息的条款沿袭上一段。
+ * 返回 { titles: [章节标题], idx: [逐条所属章节序号，-1 表示全篇无章节信息] }
+ */
+function buildParts(list, key) {
+    key = key || 'part';
+    var titles = [];
+    var idx = [];
+    var cur = -1;
+    var untitledLead = false;
+
+    list.forEach(function(item) {
+        var t = ldCleanPart(item[key]);
+        if (!t) {
+            if (cur < 0) untitledLead = true;
+            idx.push(cur);
+            return;
+        }
+        if (cur < 0 || titles[cur] !== t) {
+            titles.push(t);
+            cur = titles.length - 1;
+        }
+        idx.push(cur);
+    });
+
+    // 开篇存在无章节信息的条款时补「正文」段，保证目录条目与正文锚点一一对应
+    if (untitledLead && titles.length) {
+        titles.unshift('正文');
+        idx = idx.map(function(i) { return i < 0 ? 0 : i + 1; });
+    }
+
+    return { titles: titles, idx: idx };
 }
 
 /* ===== 正文：累积索引块 → 条款分组 → 增量渲染 ===== */
@@ -418,6 +489,9 @@ function syncStream(key, groups, containerId, withParts) {
     if (!list) return;
 
     var state = ldState.rendered[key];
+    // 章节序列：与目录的聚合规则一致，-1 表示该条款无章节归属
+    var parts = withParts ? buildParts(groups, 'partTitle') : { titles: [], idx: [] };
+
     var i = 0;
     while (i < state.length && i < groups.length &&
            state[i].firstIndex === groups[i].firstIndex &&
@@ -434,15 +508,19 @@ function syncStream(key, groups, containerId, withParts) {
 
     for (var j = i; j < groups.length; j++) {
         var nodes = [];
-        // 编/章/节分隔标题：仅当与上一条款的所属篇章不同时输出
-        if (withParts && groups[j].partTitle && (j === 0 || groups[j - 1].partTitle !== groups[j].partTitle)) {
+        var partNo = withParts ? parts.idx[j] : -1;
+
+        // 编/章/节分隔标题：仅在该段首条条款前输出
+        if (partNo >= 0 && (j === 0 || parts.idx[j - 1] !== partNo)) {
             var part = document.createElement('div');
             part.className = 'law-part';
-            part.textContent = groups[j].partTitle;
+            part.id = 'p' + partNo;
+            part.textContent = parts.titles[partNo];
             list.appendChild(part);
             nodes.push(part);
         }
         var article = articleEl(groups[j]);
+        if (partNo >= 0) article.setAttribute('data-part', 'p' + partNo);
         list.appendChild(article);
         nodes.push(article);
         state.push({ firstIndex: groups[j].firstIndex, count: groups[j].chunks.length, nodes: nodes });
@@ -615,6 +693,24 @@ function ldGoArticle(idx, tries) {
     });
 }
 
+/** 章节目录跳转：目标章节尚未加载时按页加载直至出现 */
+function ldGoPart(partIdx, tries) {
+    tries = tries || 0;
+    var el = document.getElementById('p' + partIdx);
+    if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+    }
+    if (!ldState.hasMore || tries >= 5) return;
+
+    setMoreButtonLoading();
+    loadLawPage(ldState.page + 1).then(function(data) {
+        if (!data) return;
+        applyPageData(data);
+        ldGoPart(partIdx, tries + 1);
+    });
+}
+
 function setMoreButtonLoading() {
     var btn = document.getElementById('law-more-btn');
     if (btn) { btn.disabled = true; btn.textContent = '加载中…'; }
@@ -684,22 +780,24 @@ function updateActiveToc() {
         }
     }
 
-    var activeId = (found < 0 ? arts[0] : arts[found]).id;
+    var activeEl = found < 0 ? arts[0] : arts[found];
+    // 章节目录下高亮该条款所属章节；条款目录下仍按条款高亮
+    var activeTarget = activeEl.getAttribute('data-part') || activeEl.id;
     var toc = document.getElementById('law-toc');
     var items = document.querySelectorAll('.law-toc__item');
 
     for (var i = 0; i < items.length; i++) {
-        var isActive = items[i].getAttribute('data-target') === activeId;
+        var isActive = items[i].getAttribute('data-target') === activeTarget;
         items[i].classList.toggle('is-active', isActive);
 
+        // 目录跟随高亮滚动：用视口坐标计算，静态定位（窄屏单栏）下同样成立
         if (isActive && toc) {
-            var top = items[i].offsetTop;
-            var height = toc.clientHeight;
-            var scrollTop = toc.scrollTop;
-            if (top < scrollTop) {
-                toc.scrollTop = Math.max(0, top - 12);
-            } else if (top + items[i].offsetHeight > scrollTop + height) {
-                toc.scrollTop = top + items[i].offsetHeight - height + 12;
+            var tocBox = toc.getBoundingClientRect();
+            var itemBox = items[i].getBoundingClientRect();
+            if (itemBox.top < tocBox.top) {
+                toc.scrollTop -= (tocBox.top - itemBox.top) + 12;
+            } else if (itemBox.bottom > tocBox.bottom) {
+                toc.scrollTop += (itemBox.bottom - tocBox.bottom) + 12;
             }
         }
     }

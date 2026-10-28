@@ -28,8 +28,14 @@ class CompareService:
     }
 
     def _get_search_queries(self, topic: str, jurisdiction: str) -> List[str]:
-        """根据法域语言特性选择检索词：新加坡等英文法域使用英文查询"""
-        en_jurisdictions = {"新加坡", "香港", "Singapore", "Hong Kong"}
+        """根据法域语言特性选择检索词：英文语料法域使用英文查询。
+
+        语料是英文/中英混排的法域若不在此列，就会用中文主题词去检索英文条文，
+        召回显著劣化。新增以英文为主的法域后需同步补充。
+        """
+        en_jurisdictions = {"新加坡", "中国香港", "香港",
+                            "韩国", "澳大利亚", "美国",
+                            "Singapore", "Hong Kong", "Korea", "Australia", "USA"}
         if jurisdiction in en_jurisdictions:
             for cn_key, en_queries in self._TOPIC_EN_QUERIES.items():
                 if cn_key in topic:

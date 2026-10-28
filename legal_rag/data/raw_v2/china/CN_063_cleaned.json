@@ -1,0 +1,5665 @@
+[
+  {
+    "doc_id": "CN_DOC_CN_063_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第一条 为加强对汽车金融公司的监督管理,促进我国汽车金融业的健康发展,依据《中华人民共和国银行业监督管理法》《中华人民共和国公司法》等法\n律法规,制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 69,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为加强对汽车金融公司的监督管理,促进我国汽车金融业的健康发展,依据《中华人民共和国银行业监督管理法》《中华人民共和国公司法》等法\n律法规,制定本办法。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "银行",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第二条 本办法所称汽车金融公司,是指经国家金融监督管理总局批准设立的、专门提供汽车金融服务的非银行金融机构。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 50,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本办法所称汽车金融公司,是指经国家金融监督管理总局批准设立的、专门提供汽车金融服务的非银行金融机构。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "金融服务",
+          "银行",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第三条\n汽车金融公司名称中应标明“汽车金融”字样。未经国家金融监督管理总局批准,任何单位和个人不得在机构名称中使用“汽车金融”“汽车信贷”“汽车贷\n款”等字样。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条\n汽车金融公司名称中应标明“汽车金融”字样。未经国家金融监督管理总局批准,任何单位和个人不得在机构名称中使用“汽车金融”“汽车信贷”“汽车贷\n款”等字样。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 24,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第四条 国家金融监督管理总局及其派出机构依法对汽车金融公司实施监督管理。\n第二章 机构设立、变更与终止",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 46,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 国家金融监督管理总局及其派出机构依法对汽车金融公司实施监督管理。\n第二章 机构设立、变更与终止"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第五条 设立汽车金融公司法人机构应具备下列条件:\n(一)有符合《中华人民共和国公司法》和国家金融监督管理总局规定的公司章程;\n(二)有符合本办法规定的出资人;(三)有符合本办法规定的注册资本;\n(四)有符合任职资格条件的董事、高级管理人员和熟悉汽车金融业务的合格从业人员;\n(五)建立了有效的公司治理、内部控制和风险管理体系;\n(六)建立了与业务经营和监管要求相适应的信息科技架构,具有支撑业务经营的必要、安全且合规的信息系统,具备保障业务持续运营的技术与措施;\n(七)有与业务经营相适应的营业场所、安全防范措施和其他设施;\n(八)国家金融监督管理总局规定的其他审慎性条件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 246,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 设立汽车金融公司法人机构应具备下列条件:\n(一)有符合《中华人民共和国公司法》和国家金融监督管理总局规定的公司章程;\n(二)有符合本办法规定的出资人;(三)有符合本办法规定的注册资本;\n(四)有符合任职资格条件的董事、高级管理人员和熟悉汽车金融业务的合格从业人员;\n(五)建立了有效的公司治理、内部控制和风险管理体系;\n(六)建立了与业务经营和监管要求相适应的信息科技架构,具有支撑业务经营的必要、安全且合规的信息系统,具备保障业务持续运营的技术与措施;\n(七)有与业务经营相适应的营业场所、安全防范措施和其他设施;\n(八)国家金融监督管理总局规定的其他审慎性条件。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 22.5,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司章程",
+          "法人",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 26,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第六条 汽车金融公司的出资人为中国境内外依法设立的非银行企业法人,其中主要出资人须为汽车整车制造企业或非银行金融机构。\n前款所称主要出资人是指出资数额最大且出资额不低于拟设汽车金融公司全部股本30%的出资人。\n汽车金融公司出资人中至少应当有1名具备5年以上丰富的汽车消费信贷业务管理和风险控制经验,或为汽车金融公司引进合格的专业管理团队,其中至少\n包括1名有丰富汽车金融从业经验的高级管理人员和1名风险管理专业人员。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 191,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 汽车金融公司的出资人为中国境内外依法设立的非银行企业法人,其中主要出资人须为汽车整车制造企业或非银行金融机构。\n前款所称主要出资人是指出资数额最大且出资额不低于拟设汽车金融公司全部股本30%的出资人。\n汽车金融公司出资人中至少应当有1名具备5年以上丰富的汽车消费信贷业务管理和风险控制经验,或为汽车金融公司引进合格的专业管理团队,其中至少\n包括1名有丰富汽车金融从业经验的高级管理人员和1名风险管理专业人员。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "法人",
+          "公司 (weak)",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "银行",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8124,
+    "source_end": 8382,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第七条 非金融机构作为汽车金融公司出资人,应当具备以下条件:\n(一)最近1个会计年度营业收入不低于500亿元人民币或等值的可自由兑换货币;作为主要出资人的,还应当具有足够支持汽车金融业务发展的汽车产销规\n模。\n(二)最近1个会计年度末净资产不低于总资产的30%;作为汽车金融公司控股股东的,最近1个会计年度末净资产不低于总资产的40%。\n(三)财务状况良好,且最近2个会计年度连续盈利;作为汽车金融公司控股股东的,最近3个会计年度连续盈利。\n(四)入股资金为自有资金,不得以借贷资金入股,不得以他人委托资金入股。\n(五)权益性投资余额原则上不得超过本企业净资产的50%(含本次投资金额);作为汽车金融公司控股股东的,权益性投资余额原则上不得超过本企业净资产的\n40%(含本次投资金额);国务院规定的投资公司和控股公司除外。\n(六)遵守注册地法律,近2年无重大违法违规行为。\n(七)主要股东自取得股权之日起5年内不得转让所持有的股权,承诺不将所持有的汽车金融公司股权进行质押或设立信托,并在拟设公司章程中载明。\n(八)国家金融监督管理总局规定的其他审慎性条件。\n前款第(一)(二)(三)(五)项涉及的财务指标要求均为合并会计报表口径。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 428,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 非金融机构作为汽车金融公司出资人,应当具备以下条件:\n(一)最近1个会计年度营业收入不低于500亿元人民币或等值的可自由兑换货币;作为主要出资人的,还应当具有足够支持汽车金融业务发展的汽车产销规\n模。\n(二)最近1个会计年度末净资产不低于总资产的30%;作为汽车金融公司控股股东的,最近1个会计年度末净资产不低于总资产的40%。\n(三)财务状况良好,且最近2个会计年度连续盈利;作为汽车金融公司控股股东的,最近3个会计年度连续盈利。\n(四)入股资金为自有资金,不得以借贷资金入股,不得以他人委托资金入股。\n(五)权益性投资余额原则上不得超过本企业净资产的50%(含本次投资金额);作为汽车金融公司控股股东的,权益性投资余额原则上不得超过本企业净资产的\n40%(含本次投资金额);国务院规定的投资公司和控股公司除外。\n(六)遵守注册地法律,近2年无重大违法违规行为。\n(七)主要股东自取得股权之日起5年内不得转让所持有的股权,承诺不将所持有的汽车金融公司股权进行质押或设立信托,并在拟设公司章程中载明。\n(八)国家金融监督管理总局规定的其他审慎性条件。\n前款第(一)(二)(三)(五)项涉及的财务指标要求均为合并会计报表口径。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 28.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司章程",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融机构",
+          "金融 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第八条 非银行金融机构作为汽车金融公司出资人,除应具备第七条第(四)(六)(七)项规定的条件外,还应当具备以下条件:\n(一)注册资本不低于3亿元人民币或等值的可自由兑换货币。\n(二)具有良好的公司治理结构、内部控制机制和健全的风险管理体系;作为主要出资人的,还应当具有5年以上汽车消费信贷业务管理和风险控制经验。\n(三)财务状况良好,最近2个会计年度连续盈利。\n(四)权益性投资余额原则上不得超过本企业净资产的50%(含本次投资金额);\n(五)满足所在国家或地区监管当局的审慎监管要求。\n前款第(三)(四)项涉及的财务指标要求均为合并会计报表口径。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 226,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 非银行金融机构作为汽车金融公司出资人,除应具备第七条第(四)(六)(七)项规定的条件外,还应当具备以下条件:\n(一)注册资本不低于3亿元人民币或等值的可自由兑换货币。\n(二)具有良好的公司治理结构、内部控制机制和健全的风险管理体系;作为主要出资人的,还应当具有5年以上汽车消费信贷业务管理和风险控制经验。\n(三)财务状况良好,最近2个会计年度连续盈利。\n(四)权益性投资余额原则上不得超过本企业净资产的50%(含本次投资金额);\n(五)满足所在国家或地区监管当局的审慎监管要求。\n前款第(三)(四)项涉及的财务指标要求均为合并会计报表口径。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第九条 汽车金融公司注册资本的最低限额为10亿元人民币或等值的可自由兑换货币。注册资本为一次性实缴货币资本。\n国家金融监督管理总局可以根据汽车金融业务发展情况及审慎监管需要,调高注册资本的最低限额。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 91,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 汽车金融公司注册资本的最低限额为10亿元人民币或等值的可自由兑换货币。注册资本为一次性实缴货币资本。\n国家金融监督管理总局可以根据汽车金融业务发展情况及审慎监管需要,调高注册资本的最低限额。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第十条 汽车金融公司可以在全国范围内开展业务。未经国家金融监督管理总局批准,汽车金融公司不得设立分支机构。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 49,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 汽车金融公司可以在全国范围内开展业务。未经国家金融监督管理总局批准,汽车金融公司不得设立分支机构。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 85,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第十一条 经国家金融监督管理总局批准,汽车金融公司可以设立境外子公司。具体设立条件、程序及监管要求由国家金融监督管理总局另行制定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 经国家金融监督管理总局批准,汽车金融公司可以设立境外子公司。具体设立条件、程序及监管要求由国家金融监督管理总局另行制定。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7994,
+    "source_end": 8109,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第十二条 国家金融监督管理总局对汽车金融公司董事和高级管理人员实行任职资格核准制度。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 40,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 国家金融监督管理总局对汽车金融公司董事和高级管理人员实行任职资格核准制度。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1937,
+    "source_end": 1979,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第十三条 汽车金融公司有下列变更事项之一的,应依据有关行政许可规定报国家金融监督管理总局或其派出机构批准:\n(一)变更公司名称;(二)变更公司注册资本;\n(三)变更住所或营业场所;(四)调整业务范围;\n(五)变更股权或调整股权结构;(六)修改章程;\n(七)变更公司董事及高级管理人员;(八)合并或分立;\n(九)国家金融监督管理总局规定的其他变更事项。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 140,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 汽车金融公司有下列变更事项之一的,应依据有关行政许可规定报国家金融监督管理总局或其派出机构批准:\n(一)变更公司名称;(二)变更公司注册资本;\n(三)变更住所或营业场所;(四)调整业务范围;\n(五)变更股权或调整股权结构;(六)修改章程;\n(七)变更公司董事及高级管理人员;(八)合并或分立;\n(九)国家金融监督管理总局规定的其他变更事项。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1980,
+    "source_end": 2155,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第十四条 汽车金融公司有以下情况之一的,经国家金融监督管理总局批准后可以解散:\n(一)公司章程规定的营业期限届满或公司章程规定的其他解散事由出现时;\n(二)股东会议决定解散;(三)因公司合并或分立需要解散;\n(四)其他法定事由。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 96,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 汽车金融公司有以下情况之一的,经国家金融监督管理总局批准后可以解散:\n(一)公司章程规定的营业期限届满或公司章程规定的其他解散事由出现时;\n(二)股东会议决定解散;(三)因公司合并或分立需要解散;\n(四)其他法定事由。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 19.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司章程",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "会议"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2156,
+    "source_end": 2270,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第十五条 汽车金融公司有以下情形之一的,经国家金融监督管理总局批准,可向法院申请破产:\n(一)不能清偿到期债务,并且资产不足以清偿全部债务或明显缺乏清偿能力,自愿或应其债权人要求申请破产;\n(二)已解散但未清算或者未清算完毕,依法负有清算责任的人发现汽车金融公司财产不足以清偿债务,应当申请破产。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 132,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 汽车金融公司有以下情形之一的,经国家金融监督管理总局批准,可向法院申请破产:\n(一)不能清偿到期债务,并且资产不足以清偿全部债务或明显缺乏清偿能力,自愿或应其债权人要求申请破产;\n(二)已解散但未清算或者未清算完毕,依法负有清算责任的人发现汽车金融公司财产不足以清偿债务,应当申请破产。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6489,
+    "source_end": 6673,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第十六条 汽车金融公司因解散、依法被撤销或被宣告破产而终止的,按照有关法律法规办理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 38,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 汽车金融公司因解散、依法被撤销或被宣告破产而终止的,按照有关法律法规办理。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2420,
+    "source_end": 2462,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第二章",
+    "chapter_title": "机构设立、变更与终止",
+    "text_zh": "第十七条 汽车金融公司的设立、变更、终止和董事及高级管理人员任职资格核准的行政许可程序,按照国家金融监督管理总局有关规定执行。\n第三章 业务范围与经营规则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 70,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 汽车金融公司的设立、变更、终止和董事及高级管理人员任职资格核准的行政许可程序,按照国家金融监督管理总局有关规定执行。\n第三章 业务范围与经营规则"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第三章",
+    "chapter_title": "业务范围与经营规则",
+    "text_zh": "第十八条 汽车金融公司可从事下列部分或全部本外币业务:\n(一)接受股东及其所在集团母公司和控股子公司的定期存款或通知存款;\n(二)接受汽车经销商和售后服务商贷款保证金和承租人汽车租赁保证金;\n(三)同业拆借业务;(四)向金融机构借款;\n(五)发行非资本类债券;(六)汽车及汽车附加品贷款和融资租赁业务;\n(七)汽车经销商和汽车售后服务商贷款业务,包括库存采购、展厅建设、零配件和维修设备购买等贷款;\n(八)转让或受让汽车及汽车附加品贷款和融资租赁资产;\n(九)汽车残值评估、变卖及处理业务;(十)与汽车金融相关的咨询、代理和服务。\n前款所称控股子公司是指股东所在集团母公司持股50%(含)以上的公司。\n汽车经销商是指依法取得汽车(含新车及二手车)销售资质的经营者。\n汽车售后服务商是指从事汽车售后维护、修理、汽车零配件和附加品销售的经营者。\n汽车附加品是指依附于汽车所产生的产品和服务,如导航设备、外观贴膜、充电桩、电池等物理附属设备以及车辆延长质保、车辆保险、车辆软件等与\n汽车使用相关的服务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 380,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 汽车金融公司可从事下列部分或全部本外币业务:\n(一)接受股东及其所在集团母公司和控股子公司的定期存款或通知存款;\n(二)接受汽车经销商和售后服务商贷款保证金和承租人汽车租赁保证金;\n(三)同业拆借业务;(四)向金融机构借款;\n(五)发行非资本类债券;(六)汽车及汽车附加品贷款和融资租赁业务;\n(七)汽车经销商和汽车售后服务商贷款业务,包括库存采购、展厅建设、零配件和维修设备购买等贷款;\n(八)转让或受让汽车及汽车附加品贷款和融资租赁资产;\n(九)汽车残值评估、变卖及处理业务;(十)与汽车金融相关的咨询、代理和服务。\n前款所称控股子公司是指股东所在集团母公司持股50%(含)以上的公司。\n汽车经销商是指依法取得汽车(含新车及二手车)销售资质的经营者。\n汽车售后服务商是指从事汽车售后维护、修理、汽车零配件和附加品销售的经营者。\n汽车附加品是指依附于汽车所产生的产品和服务,如导航设备、外观贴膜、充电桩、电池等物理附属设备以及车辆延长质保、车辆保险、车辆软件等与\n汽车使用相关的服务。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 18.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2541,
+    "source_end": 2989,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第三章",
+    "chapter_title": "业务范围与经营规则",
+    "text_zh": "第十九条 符合条件的汽车金融公司,可以向国家金融监督管理总局及其派出机构申请经营下列部分或者全部本外币业务:\n(一)发行资本工具;(二)资产证券化业务;\n(三)套期保值类业务;(四)国家金融监督管理总局批准的其他业务。\n汽车金融公司申请开办上述业务的具体条件和程序,按照行政许可有关规定执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 126,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 符合条件的汽车金融公司,可以向国家金融监督管理总局及其派出机构申请经营下列部分或者全部本外币业务:\n(一)发行资本工具;(二)资产证券化业务;\n(三)套期保值类业务;(四)国家金融监督管理总局批准的其他业务。\n汽车金融公司申请开办上述业务的具体条件和程序,按照行政许可有关规定执行。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "证券",
+          "金融 (weak)",
+          "证券 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第三章",
+    "chapter_title": "业务范围与经营规则",
+    "text_zh": "第二十条 汽车金融公司应当基于真实贸易背景开展贷款和融资租赁业务,严格资金用途管理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 汽车金融公司应当基于真实贸易背景开展贷款和融资租赁业务,严格资金用途管理。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第三章",
+    "chapter_title": "业务范围与经营规则",
+    "text_zh": "第二十一条 汽车金融公司仅限于向其汽车贷款或融资租赁业务客户(含贷款或融资租赁合同已结清客户)提供汽车附加品融资服务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 55,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 汽车金融公司仅限于向其汽车贷款或融资租赁业务客户(含贷款或融资租赁合同已结清客户)提供汽车附加品融资服务。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3180,
+    "source_end": 3239,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第三章",
+    "chapter_title": "业务范围与经营规则",
+    "text_zh": "第二十二条 汽车金融公司开展融资租赁业务应当合法取得租赁物的所有权;应当按照国家有关规定进行融资租赁登记公示,保障对租赁物的合法权益。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 63,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 汽车金融公司开展融资租赁业务应当合法取得租赁物的所有权;应当按照国家有关规定进行融资租赁登记公示,保障对租赁物的合法权益。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3240,
+    "source_end": 3307,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第三章",
+    "chapter_title": "业务范围与经营规则",
+    "text_zh": "第二十三条 汽车金融公司应当规范开展保证金存款业务,不得从信贷资金中直接扣收保证金。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 汽车金融公司应当规范开展保证金存款业务,不得从信贷资金中直接扣收保证金。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第三章",
+    "chapter_title": "业务范围与经营规则",
+    "text_zh": "第二十四条 汽车金融公司发行非资本类债券应当坚持举债同偿债能力相匹配原则,审慎合理安排债券发行计划;发债资金用途应当依法合规并符合国家政\n策规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 汽车金融公司发行非资本类债券应当坚持举债同偿债能力相匹配原则,审慎合理安排债券发行计划;发债资金用途应当依法合规并符合国家政\n策规定。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3351,
+    "source_end": 3424,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第三章",
+    "chapter_title": "业务范围与经营规则",
+    "text_zh": "第二十五条 汽车金融公司转让汽车及汽车附加品贷款和融资租赁资产应当严格遵守法律法规和监管规定,遵守真实、整体和洁净转让原则。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 58,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 汽车金融公司转让汽车及汽车附加品贷款和融资租赁资产应当严格遵守法律法规和监管规定,遵守真实、整体和洁净转让原则。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3425,
+    "source_end": 3487,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第三章",
+    "chapter_title": "业务范围与经营规则",
+    "text_zh": "第二十六条 汽车金融公司经营业务中涉及外汇管理事项的,应当遵守国家外汇管理有关规定。\n第四章 公司治理与内部控制",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 51,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 汽车金融公司经营业务中涉及外汇管理事项的,应当遵守国家外汇管理有关规定。\n\n第四章 公司治理与内部控制"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3488,
+    "source_end": 3545,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第二十七条 汽车金融公司应当根据有关法律法规和监管规定,建立和健全公司治理架构,遵循各治理主体独立运作、有效制衡、相互合作、协调运转的原\n则,构建决策科学、执行有力、监督有效的公司治理机制。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 84,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 汽车金融公司应当根据有关法律法规和监管规定,建立和健全公司治理架构,遵循各治理主体独立运作、有效制衡、相互合作、协调运转的原\n则,构建决策科学、执行有力、监督有效的公司治理机制。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3546,
+    "source_end": 3641,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第二十八条 汽车金融公司应当按照有关监管规定建立和完善股权管理相关制度,加强股权管理,规范股东行为。\n汽车金融公司应当在公司章程中载明,主要股东必要时向公司补充资本,在公司出现支付困难时给予流动性支持。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 93,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 汽车金融公司应当按照有关监管规定建立和完善股权管理相关制度,加强股权管理,规范股东行为。\n汽车金融公司应当在公司章程中载明,主要股东必要时向公司补充资本,在公司出现支付困难时给予流动性支持。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 21.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司章程",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "支付",
+          "金融 (weak)",
+          "支付 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3642,
+    "source_end": 3743,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第二十九条 汽车金融公司应当加强董事会建设,建立健全董事履职评价制度。董事会应单独或合并设立审计、关联交易控制、风险管理和消费者权益保\n护等专门委员会。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 69,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 汽车金融公司应当加强董事会建设,建立健全董事履职评价制度。董事会应单独或合并设立审计、关联交易控制、风险管理和消费者权益保\n护等专门委员会。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "consumer_protection",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 4.5,
+        "matched_keywords": [
+          "消费者权益",
+          "消费者 (weak)",
+          "交易 (weak)",
+          "权益 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3744,
+    "source_end": 3820,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第三十条 汽车金融公司应当设立监事会或专职监事,建立健全监事履职评价制度,明确履职标准。法律法规另有规定的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 51,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 汽车金融公司应当设立监事会或专职监事,建立健全监事履职评价制度,明确履职标准。法律法规另有规定的除外。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 811,
+    "source_end": 924,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第三十一条 汽车金融公司应当规范高级管理层履职,明确高级管理人员范围、职责,清晰界定董事会与高级管理层之间的关系;完善对高级管理层履职能力\n的考核评价、监督检查及专业培训,加强对失职或不当履职的责任追究。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 93,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 汽车金融公司应当规范高级管理层履职,明确高级管理人员范围、职责,清晰界定董事会与高级管理层之间的关系;完善对高级管理层履职能力\n的考核评价、监督检查及专业培训,加强对失职或不当履职的责任追究。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3878,
+    "source_end": 3980,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第三十二条 汽车金融公司应当根据业务特点建立科学合理的薪酬管理制度,优化薪酬结构,对高级管理人员以及对风险有重要影响的岗位人员实施薪酬延\n期支付和追索扣回等制度,确保激励约束并重。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 84,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 汽车金融公司应当根据业务特点建立科学合理的薪酬管理制度,优化薪酬结构,对高级管理人员以及对风险有重要影响的岗位人员实施薪酬延\n期支付和追索扣回等制度,确保激励约束并重。"
+      }
+    ],
+    "topics": [
+      "compensation_benefits",
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 7.5,
+        "matched_keywords": [
+          "薪酬"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "支付",
+          "金融 (weak)",
+          "支付 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3981,
+    "source_end": 4071,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第三十三条 汽车金融公司应当制定完善关联交易管理制度,开展关联交易应当遵守法律法规和有关监管规定,遵循诚实信用、公开公允、穿透识别、结构\n清晰的原则。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 汽车金融公司应当制定完善关联交易管理制度,开展关联交易应当遵守法律法规和有关监管规定,遵循诚实信用、公开公允、穿透识别、结构\n清晰的原则。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4072,
+    "source_end": 4147,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第三十四条\n汽车金融公司应当建立健全年度信息披露制度,每年4月30日前通过官方网站及其他渠道向社会公众披露机构基本信息、财务会计报告、风\n险管理信息、股权信息、关联交易信息、消费者咨询投诉渠道信息等相关信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 92,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条\n汽车金融公司应当建立健全年度信息披露制度,每年4月30日前通过官方网站及其他渠道向社会公众披露机构基本信息、财务会计报告、风\n险管理信息、股权信息、关联交易信息、消费者咨询投诉渠道信息等相关信息。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4148,
+    "source_end": 4252,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第三十五条 汽车金融公司应当建立和完善消费者权益保护工作机制;规范产品和服务信息披露,依法保护消费者个人信息;切实履行消费投诉处理工作主体\n责任,强化投诉源头治理;加强金融宣传教育,提升消费者金融素养和风险意识。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 97,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 汽车金融公司应当建立和完善消费者权益保护工作机制;规范产品和服务信息披露,依法保护消费者个人信息;切实履行消费投诉处理工作主体\n责任,强化投诉源头治理;加强金融宣传教育,提升消费者金融素养和风险意识。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "consumer_protection",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 4.5,
+        "matched_keywords": [
+          "消费者权益",
+          "消费者 (weak)",
+          "权益 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4253,
+    "source_end": 4359,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第三十六条\n汽车金融公司应当建立符合自身经营特点的内部控制机制,明确部门、岗位职责分工,加强制度建设,完善操作流程;持续开展内控合规评价和\n监督,加强内部控制问题整改和责任追究,充分发挥内部控制在经营管理和风险防控中的作用,确保安全稳定运营。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 110,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条\n汽车金融公司应当建立符合自身经营特点的内部控制机制,明确部门、岗位职责分工,加强制度建设,完善操作流程;持续开展内控合规评价和\n监督,加强内部控制问题整改和责任追究,充分发挥内部控制在经营管理和风险防控中的作用,确保安全稳定运营。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4360,
+    "source_end": 4481,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第三十七条 汽车金融公司应当按照国家有关规定建立健全公司财务和会计制度,遵循审慎的会计原则,真实记录并全面反映其业务活动和财务状况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 62,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 汽车金融公司应当按照国家有关规定建立健全公司财务和会计制度,遵循审慎的会计原则,真实记录并全面反映其业务活动和财务状况。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4482,
+    "source_end": 4548,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第三十八条 汽车金融公司应当建立健全内部审计体系,独立、客观审查评价并督促改善公司业务经营、风险管理、内控合规和公司治理效果,促进稳健运\n行和价值提升。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条 汽车金融公司应当建立健全内部审计体系,独立、客观审查评价并督促改善公司业务经营、风险管理、内控合规和公司治理效果,促进稳健运\n行和价值提升。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4549,
+    "source_end": 4625,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第三十九条 汽车金融公司应当建立定期外部审计制度,并于每个会计年度结束后的4个月内,将经注册会计师签名确认的年度审计报告报送国家金融监督\n管理总局派出机构。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 72,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条 汽车金融公司应当建立定期外部审计制度,并于每个会计年度结束后的4个月内,将经注册会计师签名确认的年度审计报告报送国家金融监督\n管理总局派出机构。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4626,
+    "source_end": 4704,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第四章",
+    "chapter_title": "公司治理与内部控制",
+    "text_zh": "第四十条\n汽车金融公司应当建立完善数据治理体系,确保数据治理资源配置,制定并实施系统化的制度、流程和方法,建立数据质量控制机制,强化数据安\n全管理。\n第五章 风险管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条\n汽车金融公司应当建立完善数据治理体系,确保数据治理资源配置,制定并实施系统化的制度、流程和方法,建立数据质量控制机制,强化数据安\n全管理。\n第五章 风险管理"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据质量",
+          "数据 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1088,
+    "source_end": 1441,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_041",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第四十一条 汽车金融公司应当建立与业务规模和风险状况相匹配的全面风险管理体系,健全适应业务特点的风险治理架构、风险管理政策和程序,有效识\n别、计量、监测、控制或缓释各类风险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 78,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十一条 汽车金融公司应当建立与业务规模和风险状况相匹配的全面风险管理体系,健全适应业务特点的风险治理架构、风险管理政策和程序,有效识\n别、计量、监测、控制或缓释各类风险。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4789,
+    "source_end": 4876,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_042",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "",
+    "chunk_index": 41,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第四十二条 汽车金融公司应当建立完善合规管理体系,明确专门负责合规管理的部门、岗位以及相应的权限,制定合规管理政策,优化合规管理流程,加强合规文\n化建设和合规培训。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 74,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十二条 汽车金融公司应当建立完善合规管理体系,明确专门负责合规管理的部门、岗位以及相应的权限,制定合规管理政策,优化合规管理流程,加强合规文\n化建设和合规培训。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4877,
+    "source_end": 4959,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_043",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "",
+    "chunk_index": 42,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第四十三条 汽车金融公司应当不断完善信用风险管理制度和流程,提升风险管理精细化水平。应实行信用风险资产五级分类制度,建立审慎的资产减值损失准\n备制度,及时足额计提资产减值损失准备。未提足准备的,不得进行利润分配。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 97,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十三条 汽车金融公司应当不断完善信用风险管理制度和流程,提升风险管理精细化水平。应实行信用风险资产五级分类制度,建立审慎的资产减值损失准\n备制度,及时足额计提资产减值损失准备。未提足准备的,不得进行利润分配。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4960,
+    "source_end": 5066,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_044",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "44",
+    "article_number_normalized": "044",
+    "article_title": "",
+    "chunk_index": 43,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第四十四条 汽车金融公司应当建立与自身业务规模相适应的流动性风险管理体系,定期开展流动性压力测试,制定并完善流动性风险应急计划,及时消除流动性\n风险隐患。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 71,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十四条 汽车金融公司应当建立与自身业务规模相适应的流动性风险管理体系,定期开展流动性压力测试,制定并完善流动性风险应急计划,及时消除流动性\n风险隐患。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5067,
+    "source_end": 5144,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_045",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "45",
+    "article_number_normalized": "045",
+    "article_title": "",
+    "chunk_index": 44,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第四十五条 汽车金融公司应当根据业务流程、人员岗位、信息系统和外包管理等情况建立科学的操作风险管理体系,制定规范员工行为和道德操守的相关制\n度,加强员工行为管理和案件防控,确保有效识别、评估、监测和控制操作风险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 96,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十五条 汽车金融公司应当根据业务流程、人员岗位、信息系统和外包管理等情况建立科学的操作风险管理体系,制定规范员工行为和道德操守的相关制\n度,加强员工行为管理和案件防控,确保有效识别、评估、监测和控制操作风险。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5145,
+    "source_end": 5251,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_046",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "46",
+    "article_number_normalized": "046",
+    "article_title": "",
+    "chunk_index": 45,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第四十六条 汽车金融公司应当构建欺诈风险防控体系,有效识别欺诈行为,保障信贷资金安全。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十六条 汽车金融公司应当构建欺诈风险防控体系,有效识别欺诈行为,保障信贷资金安全。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5252,
+    "source_end": 5295,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_047",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "47",
+    "article_number_normalized": "047",
+    "article_title": "",
+    "chunk_index": 46,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第四十七条 汽车金融公司应当建立与信息系统运行管理模式相匹配的信息科技风险管理体系,强化网络安全、数据安全、业务连续性、外包等领域的风险防\n控,保障信息系统安全、稳定运行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 77,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十七条 汽车金融公司应当建立与信息系统运行管理模式相匹配的信息科技风险管理体系,强化网络安全、数据安全、业务连续性、外包等领域的风险防\n控,保障信息系统安全、稳定运行。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 9.0,
+        "matched_keywords": [
+          "网络安全",
+          "系统安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)",
+          "系统 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_048",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "48",
+    "article_number_normalized": "048",
+    "article_title": "",
+    "chunk_index": 47,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第四十八条 汽车金融公司应当制定完善声誉风险监测机制、应急预案和处置措施,主动加强舆情监测,有效防范声誉风险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 50,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十八条 汽车金融公司应当制定完善声誉风险监测机制、应急预案和处置措施,主动加强舆情监测,有效防范声誉风险。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5383,
+    "source_end": 5438,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_049",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "49",
+    "article_number_normalized": "049",
+    "article_title": "",
+    "chunk_index": 48,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第四十九条 汽车金融公司应当对合作机构实行名单制管理,建立合作机构准入、退出标准以及合作期间定期评估制度,确保合作机构与合作事项符合法律法规\n和监管要求。\n前款所称合作机构,是指与汽车金融公司在营销获客、共同出资发放贷款、支付结算、风险分担、信息科技、逾期清收等方面开展合作的各类机构。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 129,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十九条 汽车金融公司应当对合作机构实行名单制管理,建立合作机构准入、退出标准以及合作期间定期评估制度,确保合作机构与合作事项符合法律法规\n和监管要求。\n前款所称合作机构,是指与汽车金融公司在营销获客、共同出资发放贷款、支付结算、风险分担、信息科技、逾期清收等方面开展合作的各类机构。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "支付",
+          "金融 (weak)",
+          "支付 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5439,
+    "source_end": 5582,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_050",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "50",
+    "article_number_normalized": "050",
+    "article_title": "",
+    "chunk_index": 49,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第五十条 汽车金融公司开展汽车经销商和汽车售后服务商贷款业务,应当对借款人进行信用评级,实施分级管理和授信;持续关注其经营状况、股东、实际控制\n人和高级管理人员的变化情况;对相关交易的真实性和合理性进行尽职审核与专业判断;建立有效的库存监测和盘点、车辆发票、车辆合格证、二手车产权登\n记证管理制度等贷后风险监测机制。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 144,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十条 汽车金融公司开展汽车经销商和汽车售后服务商贷款业务,应当对借款人进行信用评级,实施分级管理和授信;持续关注其经营状况、股东、实际控制\n人和高级管理人员的变化情况;对相关交易的真实性和合理性进行尽职审核与专业判断;建立有效的库存监测和盘点、车辆发票、车辆合格证、二手车产权登\n记证管理制度等贷后风险监测机制。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 26,
+    "source_end": 159,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_051",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "51",
+    "article_number_normalized": "051",
+    "article_title": "",
+    "chunk_index": 50,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第五十一条 汽车金融公司开展汽车及汽车附加品贷款和融资租赁业务,应当通过合法方式获得借款人或承租人的征信信息和其他内外部信息,全面评估借\n款人或承租人的信用状况;独立有效开展客户身份核实、风险评估、授信审批、合同签订等核心风控工作;建立完善个人或机构客户信贷风险模型,动态监测信\n贷资产质量。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 134,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十一条 汽车金融公司开展汽车及汽车附加品贷款和融资租赁业务,应当通过合法方式获得借款人或承租人的征信信息和其他内外部信息,全面评估借\n款人或承租人的信用状况;独立有效开展客户身份核实、风险评估、授信审批、合同签订等核心风控工作;建立完善个人或机构客户信贷风险模型,动态监测信\n贷资产质量。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5742,
+    "source_end": 5888,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_052",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "52",
+    "article_number_normalized": "052",
+    "article_title": "",
+    "chunk_index": 51,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第五十二条 汽车金融公司开展融资租赁业务应当建立健全融资租赁车辆价值评估和定价体系,密切监测租赁物价值对融资租赁债权的风险覆盖水平,制定有效\n的风险应对措施;应当加强对租赁期限届满返还或因承租人违约而取回的租赁车辆的风险管理,建立完善的租赁车辆处置制度和程序,降低租赁车辆持有期风\n险。\n汽车金融公司售后回租业务的租赁物必须由承租人真实拥有并有权处分,不得接受已设置任何抵押、权属存在争议或已被司法机关查封、扣押的财产或\n所有权存在瑕疵的租赁物;租赁物的买入价格应当有合理的、不违反会计准则的定价依据作为参考,不得低值高买。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 244,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十二条 汽车金融公司开展融资租赁业务应当建立健全融资租赁车辆价值评估和定价体系,密切监测租赁物价值对融资租赁债权的风险覆盖水平,制定有效\n\n的风险应对措施;应当加强对租赁期限届满返还或因承租人违约而取回的租赁车辆的风险管理,建立完善的租赁车辆处置制度和程序,降低租赁车辆持有期风\n险。\n汽车金融公司售后回租业务的租赁物必须由承租人真实拥有并有权处分,不得接受已设置任何抵押、权属存在争议或已被司法机关查封、扣押的财产或\n所有权存在瑕疵的租赁物;租赁物的买入价格应当有合理的、不违反会计准则的定价依据作为参考,不得低值高买。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "争议"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5889,
+    "source_end": 6152,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_053",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "53",
+    "article_number_normalized": "053",
+    "article_title": "",
+    "chunk_index": 52,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第五十三条 汽车金融公司开展二手车金融业务应当建立二手车市场信息数据库和二手车残值估算体系,严格把控交易真实性和车辆评估价格,防范车辆交\n易风险和残值风险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十三条 汽车金融公司开展二手车金融业务应当建立二手车市场信息数据库和二手车残值估算体系,严格把控交易真实性和车辆评估价格,防范车辆交\n易风险和残值风险。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6153,
+    "source_end": 6231,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_054",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "54",
+    "article_number_normalized": "054",
+    "article_title": "",
+    "chunk_index": 53,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第五十四条 汽车金融公司开展汽车附加品贷款和融资租赁业务应当客观评估汽车附加品价值,制定单类附加品融资限额。\n汽车附加品融资金额不得超过附加品合计售价的80%;合计售价超过20万元人民币的,融资金额不得超过合计售价的70%。\n汽车金融公司应当加强对汽车附加品交易真实性和合理性的审核与判断,收集附加品相关交易资料或凭证,并加强贷款资金支付和用途管理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 156,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十四条 汽车金融公司开展汽车附加品贷款和融资租赁业务应当客观评估汽车附加品价值,制定单类附加品融资限额。\n汽车附加品融资金额不得超过附加品合计售价的80%;合计售价超过20万元人民币的,融资金额不得超过合计售价的70%。\n汽车金融公司应当加强对汽车附加品交易真实性和合理性的审核与判断,收集附加品相关交易资料或凭证,并加强贷款资金支付和用途管理。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "支付",
+          "金融 (weak)",
+          "支付 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6232,
+    "source_end": 6407,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_055",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "55",
+    "article_number_normalized": "055",
+    "article_title": "",
+    "chunk_index": 54,
+    "chapter": "第五章",
+    "chapter_title": "风险管理",
+    "text_zh": "第五十五条 汽车金融公司应当遵守以下监管指标:\n(一)资本充足率、杠杆率不低于国家金融监督管理总局的最低监管要求;\n(二)对单一借款人的授信余额不得超过资本净额的15%;\n(三)对单一集团客户的授信余额不得超过资本净额的50%;\n(四)对单一股东及其关联方的授信余额不得超过该股东在汽车金融公司的出资额;\n(五)自用固定资产比例不得超过资本净额的40%;\n(六)流动性比例不得低于50%。\n国家金融监督管理总局可根据监管需要对上述指标做出适当调整。\n前款所称关联方是指《企业会计准则》关联方披露所界定的关联方。\n第六章 监督管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 217,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十五条 汽车金融公司应当遵守以下监管指标:\n(一)资本充足率、杠杆率不低于国家金融监督管理总局的最低监管要求;\n(二)对单一借款人的授信余额不得超过资本净额的15%;\n(三)对单一集团客户的授信余额不得超过资本净额的50%;\n(四)对单一股东及其关联方的授信余额不得超过该股东在汽车金融公司的出资额;\n(五)自用固定资产比例不得超过资本净额的40%;\n(六)流动性比例不得低于50%。\n国家金融监督管理总局可根据监管需要对上述指标做出适当调整。\n前款所称关联方是指《企业会计准则》关联方披露所界定的关联方。\n第六章 监督管理"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6408,
+    "source_end": 6672,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_056",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "56",
+    "article_number_normalized": "056",
+    "article_title": "",
+    "chunk_index": 55,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第五十六条 汽车金融公司应按规定向国家金融监督管理总局及其派出机构报送有关报告、监管报表及其他资料,并确保所提供报告、报表、资料真实、\n准确和完整。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 66,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十六条 汽车金融公司应按规定向国家金融监督管理总局及其派出机构报送有关报告、监管报表及其他资料,并确保所提供报告、报表、资料真实、\n准确和完整。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6673,
+    "source_end": 6747,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_057",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "57",
+    "article_number_normalized": "057",
+    "article_title": "",
+    "chunk_index": 56,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第五十七条 汽车金融公司在经营中出现或者可能出现重大风险和损失时,应当立即采取应急措施并及时向国家金融监督管理总局派出机构报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 61,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十七条 汽车金融公司在经营中出现或者可能出现重大风险和损失时,应当立即采取应急措施并及时向国家金融监督管理总局派出机构报告。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6748,
+    "source_end": 6812,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_058",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "58",
+    "article_number_normalized": "058",
+    "article_title": "",
+    "chunk_index": 57,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第五十八条 国家金融监督管理总局及其派出机构根据审慎监管的要求,有权依照有关程序和规定对汽车金融公司进行现场检查,有权依法对与涉嫌违法事\n项有关的单位和个人进行调查。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 78,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十八条 国家金融监督管理总局及其派出机构根据审慎监管的要求,有权依照有关程序和规定对汽车金融公司进行现场检查,有权依法对与涉嫌违法事\n项有关的单位和个人进行调查。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6813,
+    "source_end": 6896,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_059",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "59",
+    "article_number_normalized": "059",
+    "article_title": "",
+    "chunk_index": 58,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第五十九条 国家金融监督管理总局及其派出机构必要时可指定外部审计机构对汽车金融公司的经营状况、财务状况、风险状况、内部控制制度及执行\n情况等进行审计。国家金融监督管理总局及其派出机构可要求汽车金融公司对专业技能和独立性不满足监管要求的外部审计机构进行更换。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 121,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十九条 国家金融监督管理总局及其派出机构必要时可指定外部审计机构对汽车金融公司的经营状况、财务状况、风险状况、内部控制制度及执行\n情况等进行审计。国家金融监督管理总局及其派出机构可要求汽车金融公司对专业技能和独立性不满足监管要求的外部审计机构进行更换。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6897,
+    "source_end": 7025,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_060",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "60",
+    "article_number_normalized": "060",
+    "article_title": "",
+    "chunk_index": 59,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第六十条 国家金融监督管理总局及其派出机构应加强与汽车金融公司以及外部审计机构的信息交流,定期开展三方会谈或者直接与外部审计机构进行会\n谈,及时发现和解决汽车金融公司存在的相关问题。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 86,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十条 国家金融监督管理总局及其派出机构应加强与汽车金融公司以及外部审计机构的信息交流,定期开展三方会谈或者直接与外部审计机构进行会\n谈,及时发现和解决汽车金融公司存在的相关问题。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7026,
+    "source_end": 7117,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_061",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "61",
+    "article_number_normalized": "061",
+    "article_title": "",
+    "chunk_index": 60,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第六十一条 汽车金融公司违反本办法规定的,国家金融监督管理总局及其派出机构将责令限期整改;逾期未整改的,或其行为严重危及公司稳健运行、损害\n客户合法权益的,国家金融监督管理总局及其派出机构可区别情形,依照《中华人民共和国银行业监督管理法》等法律法规的规定,采取责令暂停部分业务、限\n制股东权利等监管措施以及实施行政处罚。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 146,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十一条 汽车金融公司违反本办法规定的,国家金融监督管理总局及其派出机构将责令限期整改;逾期未整改的,或其行为严重危及公司稳健运行、损害\n客户合法权益的,国家金融监督管理总局及其派出机构可区别情形,依照《中华人民共和国银行业监督管理法》等法律法规的规定,采取责令暂停部分业务、限\n制股东权利等监管措施以及实施行政处罚。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "银行",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7118,
+    "source_end": 7278,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_062",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "62",
+    "article_number_normalized": "062",
+    "article_title": "",
+    "chunk_index": 61,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第六十二条\n汽车金融公司已经或可能发生信用危机,严重影响债权人和其他客户合法权益的,国家金融监督管理总局可依法对其实行接管或促成机构重\n组。汽车金融公司有违法经营、经营管理不善等情形,不撤销将严重危害金融秩序、损害公众利益的,国家金融监督管理总局有权依法予以撤销。\n汽车金融公司符合《中华人民共和国企业破产法》规定的破产情形的,经国家金融监督管理总局同意,汽车金融公司或其债权人可以向人民法院提出重\n整、和解或者破产清算申请。破产重整的汽车金融公司,其重整后的股东应符合汽车金融公司的出资人条件。国家金融监督管理总局派出机构应根据进入破\n产程序的汽车金融公司的业务活动和风险状况,对其采取暂停相关业务等监管措施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 283,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十二条\n汽车金融公司已经或可能发生信用危机,严重影响债权人和其他客户合法权益的,国家金融监督管理总局可依法对其实行接管或促成机构重\n组。汽车金融公司有违法经营、经营管理不善等情形,不撤销将严重危害金融秩序、损害公众利益的,国家金融监督管理总局有权依法予以撤销。\n汽车金融公司符合《中华人民共和国企业破产法》规定的破产情形的,经国家金融监督管理总局同意,汽车金融公司或其债权人可以向人民法院提出重\n整、和解或者破产清算申请。破产重整的汽车金融公司,其重整后的股东应符合汽车金融公司的出资人条件。国家金融监督管理总局派出机构应根据进入破\n产程序的汽车金融公司的业务活动和风险状况,对其采取暂停相关业务等监管措施。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 18.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7279,
+    "source_end": 7585,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_063",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "63",
+    "article_number_normalized": "063",
+    "article_title": "",
+    "chunk_index": 62,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第六十三条 汽车金融公司可成立行业性自律组织,实行自律管理。自律组织开展活动,应当接受国家金融监督管理总局的指导和监督。\n第七章 附 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十三条 汽车金融公司可成立行业性自律组织,实行自律管理。自律组织开展活动,应当接受国家金融监督管理总局的指导和监督。\n第七章 附 则"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7586,
+    "source_end": 7654,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_064",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "64",
+    "article_number_normalized": "064",
+    "article_title": "",
+    "chunk_index": 63,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第六十四条 本办法第二十八条所称主要股东,是指持有或控制汽车金融公司5%以上股份或表决权,或持有资本总额或股份总额不足5%,但对汽车金融公司经营\n管理有重大影响的股东。\n前款所称重大影响,包括但不限于向汽车金融公司派驻董事、监事或高级管理人员,通过协议或其他方式影响汽车金融公司的财务和经营管理决策,以及国\n家金融监督管理总局或其派出机构认定的其他情形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 160,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十四条 本办法第二十八条所称主要股东,是指持有或控制汽车金融公司5%以上股份或表决权,或持有资本总额或股份总额不足5%,但对汽车金融公司经营\n管理有重大影响的股东。\n前款所称重大影响,包括但不限于向汽车金融公司派驻董事、监事或高级管理人员,通过协议或其他方式影响汽车金融公司的财务和经营管理决策,以及国\n家金融监督管理总局或其派出机构认定的其他情形。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7655,
+    "source_end": 7832,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_065",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "65",
+    "article_number_normalized": "065",
+    "article_title": "",
+    "chunk_index": 64,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第六十五条 中国境内设立的汽车金融公司仅限于向境内客户提供金融服务。境内是指中国大陆,不包括港、澳、台地区。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 48,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十五条 中国境内设立的汽车金融公司仅限于向境内客户提供金融服务。境内是指中国大陆,不包括港、澳、台地区。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融服务",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7833,
+    "source_end": 7887,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_066",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "66",
+    "article_number_normalized": "066",
+    "article_title": "",
+    "chunk_index": 65,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第六十六条 汽车金融公司开展专用汽车、农用运输车、摩托车、推土机、挖掘机、搅拌机、泵机等车辆金融服务的,适用本办法相关规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十六条 汽车金融公司开展专用汽车、农用运输车、摩托车、推土机、挖掘机、搅拌机、泵机等车辆金融服务的,适用本办法相关规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融服务",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7888,
+    "source_end": 7950,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_067",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "67",
+    "article_number_normalized": "067",
+    "article_title": "",
+    "chunk_index": 66,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第六十七条 本办法由国家金融监督管理总局负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 23,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十七条 本办法由国家金融监督管理总局负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7951,
+    "source_end": 7976,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_063_ART_068",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_063",
+    "law_name": "汽车金融公司管理办法",
+    "law_name_original": "汽车金融公司管理办法",
+    "law_type": "规章/法规",
+    "article_number": "68",
+    "article_number_normalized": "068",
+    "article_title": "",
+    "chunk_index": 67,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第六十八条 本办法自2023年8月11日起施行。原《汽车金融公司管理办法》(中国银监会令2008年第1号)废止。\n国家金融监督管理总局发布《汽车金融公司管理办法》\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "http://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117706&itemId=915&generaltype=0",
+    "text_original_language": "zh-en",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十八条 本办法自2023年8月11日起施行。原《汽车金融公司管理办法》(中国银监会令2008年第1号)废止。\n国家金融监督管理总局发布《汽车金融公司管理办法》\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117706&itemId=915&generaltype=0\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "公司管理",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2023-08-11",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1117684&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_063.txt",
+    "sample_id": "CN_063",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_063",
+    "raw_sha256": "4048cc136ea9bccacfaf91d1a9806fa9822256934278943e52d2bec3fcd7d262",
+    "extracted_text_sha256": "3db171012f1a4a34fc24cd1fbaee07b41faf8dc68444e2e45540860ddbf0a4ef",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7977,
+    "source_end": 8160,
+    "language_original": [
+      "zh",
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:36Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]
