@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-10-26T14:15:00",
+  "last_updated": "2026-11-07T16:08:32",
   "total_laws": 536,
   "laws": [
     {
@@ -11,7 +11,7 @@
       "law_type": "",
       "passing_date": "1962-01-01",
       "effective_date": null,
-      "publication_date": null,
+      "publication_date": "",
       "total_articles": 107,
       "total_chunks": 157,
       "topics": [
@@ -22,7 +22,7 @@
         "电信"
       ],
       "ingest_date": "2026-08-02",
-      "last_updated": "2026-10-12",
+      "last_updated": "2026-11-07",
       "status": "active",
       "source_file": "/app/data/raw_v2/hk/Cap 106_cleaned.json"
     },

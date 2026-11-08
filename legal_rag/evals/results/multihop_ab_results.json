@@ -6,65 +6,65 @@
   "note": "terminal gold 为每条路径末端条款；all_gold 口径见每行 baseline_all/multihop_all；multihop_oracle 仅对跨法域条目给出，表示给定正确源条款时的对齐能力上限"
  },
  "summary": {
-  "items": 25,
+  "items": 35,
   "baseline": {
-   "mrr": 0.4382,
-   "recall@5": 0.56,
-   "recall@10": 0.74,
-   "recall@20": 0.84,
-   "ndcg@10": 0.4989,
-   "full@10": 0.68
+   "mrr": 0.4453,
+   "recall@5": 0.6571,
+   "recall@10": 0.7857,
+   "recall@20": 0.8571,
+   "ndcg@10": 0.5188,
+   "full@10": 0.7429
   },
   "multihop": {
-   "mrr": 0.5737,
-   "recall@5": 0.82,
-   "recall@10": 0.92,
-   "recall@20": 0.92,
-   "ndcg@10": 0.6343,
-   "full@10": 0.88
+   "mrr": 0.556,
+   "recall@5": 0.8429,
+   "recall@10": 0.9143,
+   "recall@20": 0.9143,
+   "ndcg@10": 0.6267,
+   "full@10": 0.8857
   },
   "delta": {
-   "mrr": 0.1355,
-   "recall@5": 0.26,
-   "recall@10": 0.18,
-   "recall@20": 0.08,
-   "ndcg@10": 0.1354,
-   "full@10": 0.2
+   "mrr": 0.1107,
+   "recall@5": 0.1858,
+   "recall@10": 0.1286,
+   "recall@20": 0.0572,
+   "ndcg@10": 0.1079,
+   "full@10": 0.1428
   },
   "multihop_oracle": {
-   "mrr": 0.5833,
-   "recall@5": 0.625,
-   "recall@10": 0.6875,
-   "recall@20": 0.6875,
-   "ndcg@10": 0.5439,
+   "mrr": 0.5667,
+   "recall@5": 0.6,
+   "recall@10": 0.65,
+   "recall@20": 0.65,
+   "ndcg@10": 0.5351,
    "full@10": 0.5
   }
  },
  "by_type": {
   "cross_jurisdiction": {
-   "items": 8,
+   "items": 10,
    "baseline": {
-    "mrr": 0.1927,
-    "recall@5": 0.25,
-    "recall@10": 0.5625,
-    "recall@20": 0.625,
-    "ndcg@10": 0.2617,
-    "full@10": 0.375
+    "mrr": 0.3542,
+    "recall@5": 0.4,
+    "recall@10": 0.65,
+    "recall@20": 0.7,
+    "ndcg@10": 0.4094,
+    "full@10": 0.5
    },
    "multihop": {
-    "mrr": 0.6146,
-    "recall@5": 0.6875,
-    "recall@10": 0.75,
-    "recall@20": 0.75,
-    "ndcg@10": 0.5744,
-    "full@10": 0.625
+    "mrr": 0.5167,
+    "recall@5": 0.65,
+    "recall@10": 0.7,
+    "recall@20": 0.7,
+    "ndcg@10": 0.5026,
+    "full@10": 0.6
    },
    "multihop_oracle": {
-    "mrr": 0.5833,
-    "recall@5": 0.625,
-    "recall@10": 0.6875,
-    "recall@20": 0.6875,
-    "ndcg@10": 0.5439,
+    "mrr": 0.5667,
+    "recall@5": 0.6,
+    "recall@10": 0.65,
+    "recall@20": 0.65,
+    "ndcg@10": 0.5351,
     "full@10": 0.5
    }
   },
@@ -88,21 +88,21 @@
    }
   },
   "citation_chain": {
-   "items": 6,
+   "items": 14,
    "baseline": {
-    "mrr": 0.232,
-    "recall@5": 0.5,
-    "recall@10": 0.6667,
-    "recall@20": 0.8333,
-    "ndcg@10": 0.3244,
-    "full@10": 0.6667
+    "mrr": 0.2873,
+    "recall@5": 0.7143,
+    "recall@10": 0.7857,
+    "recall@20": 0.8571,
+    "ndcg@10": 0.4022,
+    "full@10": 0.7857
    },
    "multihop": {
-    "mrr": 0.4861,
+    "mrr": 0.556,
     "recall@5": 1.0,
     "recall@10": 1.0,
     "recall@20": 1.0,
-    "ndcg@10": 0.6154,
+    "ndcg@10": 0.6672,
     "full@10": 1.0
    }
   }
@@ -163,8 +163,8 @@
     "MAC_LEI_8_2005::20",
     "MAC_LEI_8_2005::19"
    ],
-   "baseline_ms": 85833.6,
-   "multihop_ms": 5427.6,
+   "baseline_ms": 128823.0,
+   "multihop_ms": 13101.5,
    "multihop_oracle": {
     "mrr": 1.0,
     "recall@5": 1.0,
@@ -238,8 +238,8 @@
     "MY_ACT_709_2010::129",
     "MY_ACT_709_2010::39"
    ],
-   "baseline_ms": 15736.4,
-   "multihop_ms": 6933.2,
+   "baseline_ms": 18285.6,
+   "multihop_ms": 17966.4,
    "multihop_oracle": {
     "mrr": 0.25,
     "recall@5": 0.5,
@@ -313,8 +313,8 @@
     "JP_Act_2003_SMP_JP_002::76",
     "JP_Act_2003_SMP_JP_002::77"
    ],
-   "baseline_ms": 17248.5,
-   "multihop_ms": 4942.4,
+   "baseline_ms": 16615.5,
+   "multihop_ms": 6897.3,
    "multihop_oracle": {
     "mrr": 0.0,
     "recall@5": 0.0,
@@ -388,8 +388,8 @@
     "JP_Act_2003_SMP_JP_002::34",
     "JP_Act_2003_SMP_JP_002::90"
    ],
-   "baseline_ms": 19189.3,
-   "multihop_ms": 4184.2,
+   "baseline_ms": 20427.2,
+   "multihop_ms": 4467.1,
    "multihop_oracle": {
     "mrr": 0.25,
     "recall@5": 0.5,
@@ -463,8 +463,8 @@
     "MAC_LEI_8_2005::12",
     "MAC_LEI_8_2005::24"
    ],
-   "baseline_ms": 19687.6,
-   "multihop_ms": 6136.6,
+   "baseline_ms": 16643.0,
+   "multihop_ms": 5959.8,
    "multihop_oracle": {
     "mrr": 1.0,
     "recall@5": 1.0,
@@ -538,8 +538,8 @@
     "MY_ACT_709_2010::35",
     "MY_ACT_709_2010::42"
    ],
-   "baseline_ms": 15775.0,
-   "multihop_ms": 5657.7,
+   "baseline_ms": 14812.0,
+   "multihop_ms": 5310.5,
    "multihop_oracle": {
     "mrr": 0.16666666666666666,
     "recall@5": 0.0,
@@ -613,8 +613,8 @@
     "MAC_LEI_8_2005::15",
     "MAC_LEI_8_2005::16"
    ],
-   "baseline_ms": 18876.6,
-   "multihop_ms": 3756.9,
+   "baseline_ms": 24020.9,
+   "multihop_ms": 4029.9,
    "multihop_oracle": {
     "mrr": 1.0,
     "recall@5": 1.0,
@@ -686,8 +686,8 @@
     "MY_ACT_709_2010::69",
     "HK_CAP_200::153q"
    ],
-   "baseline_ms": 19983.3,
-   "multihop_ms": 4083.0,
+   "baseline_ms": 21362.0,
+   "multihop_ms": 4882.6,
    "multihop_oracle": {
     "mrr": 1.0,
     "recall@5": 1.0,
@@ -759,8 +759,8 @@
     "HK_CAP_486::35c",
     "HK_CAP_486::35l"
    ],
-   "baseline_ms": 24040.8,
-   "multihop_ms": 1155.6,
+   "baseline_ms": 29391.2,
+   "multihop_ms": 1515.4,
    "delta_mrr": -0.75,
    "delta_recall@10": 0.0
   },
@@ -818,8 +818,8 @@
     "HK_CAP_486::35c",
     "HK_CAP_486::35j"
    ],
-   "baseline_ms": 22358.9,
-   "multihop_ms": 727.6,
+   "baseline_ms": 27185.6,
+   "multihop_ms": 1024.6,
    "delta_mrr": -0.5,
    "delta_recall@10": 0.0
   },
@@ -877,8 +877,8 @@
     "MY_ACT_709_2010::34",
     "MY_ACT_709_2010::321"
    ],
-   "baseline_ms": 6908.1,
-   "multihop_ms": 576.8,
+   "baseline_ms": 8750.7,
+   "multihop_ms": 679.4,
    "delta_mrr": 0.1389,
    "delta_recall@10": 0.0
   },
@@ -936,8 +936,8 @@
     "JP_Act_2003_SMP_JP_002::30",
     "JP_Act_2003_SMP_JP_002::27paragraph1"
    ],
-   "baseline_ms": 6763.3,
-   "multihop_ms": 705.1,
+   "baseline_ms": 8580.4,
+   "multihop_ms": 857.6,
    "delta_mrr": 0.0,
    "delta_recall@10": 0.0
   },
@@ -995,8 +995,8 @@
     "MAC_LEI_8_2005::20",
     "MAC_LEI_8_2005::19"
    ],
-   "baseline_ms": 27417.5,
-   "multihop_ms": 745.0,
+   "baseline_ms": 25607.8,
+   "multihop_ms": 769.6,
    "delta_mrr": -0.3,
    "delta_recall@10": 0.0
   },
@@ -1054,8 +1054,8 @@
     "MAC_LEI_8_2005::25",
     "MAC_LEI_8_2005::32"
    ],
-   "baseline_ms": 21368.4,
-   "multihop_ms": 762.1,
+   "baseline_ms": 23414.1,
+   "multihop_ms": 964.6,
    "delta_mrr": 0.0897,
    "delta_recall@10": 1.0
   },
@@ -1113,8 +1113,8 @@
     "US_CFR_T48_P52_1983::5220425",
     "US_CFR_T48_P52_1983::522123"
    ],
-   "baseline_ms": 8401.6,
-   "multihop_ms": 630.5,
+   "baseline_ms": 13559.3,
+   "multihop_ms": 872.0,
    "delta_mrr": 0.6667,
    "delta_recall@10": 0.0
   },
@@ -1172,8 +1172,8 @@
     "US_CFR_T48_P52_1983::5220429",
     "US_CFR_T48_P52_1983::far5220430"
    ],
-   "baseline_ms": 8411.0,
-   "multihop_ms": 672.9,
+   "baseline_ms": 9610.3,
+   "multihop_ms": 675.3,
    "delta_mrr": 0.0,
    "delta_recall@10": 0.0
   },
@@ -1231,8 +1231,8 @@
     "US_CFR_T48_P52_1983::5220425",
     "US_CFR_T48_P52_1983::5220430"
    ],
-   "baseline_ms": 9443.4,
-   "multihop_ms": 1059.8,
+   "baseline_ms": 9497.5,
+   "multihop_ms": 845.0,
    "delta_mrr": -0.8571,
    "delta_recall@10": 0.0
   },
@@ -1290,8 +1290,8 @@
     "MAC_LEI_8_2005::7",
     "MAC_LEI_8_2005::37"
    ],
-   "baseline_ms": 28693.0,
-   "multihop_ms": 674.0,
+   "baseline_ms": 31164.9,
+   "multihop_ms": 1594.4,
    "delta_mrr": 0.0,
    "delta_recall@10": 0.0
   },
@@ -1349,8 +1349,8 @@
     "JP_Act_2003_SMP_JP_002::148",
     "JP_Act_2003_SMP_JP_002::32"
    ],
-   "baseline_ms": 6299.5,
-   "multihop_ms": 589.7,
+   "baseline_ms": 8526.4,
+   "multihop_ms": 932.3,
    "delta_mrr": 0.0,
    "delta_recall@10": 0.0
   },
@@ -1408,8 +1408,8 @@
     "MAC_LEI_8_2005::8",
     "MAC_LEI_8_2005::15"
    ],
-   "baseline_ms": 21552.6,
-   "multihop_ms": 11.0,
+   "baseline_ms": 26670.2,
+   "multihop_ms": 31.9,
    "delta_mrr": 0.0,
    "delta_recall@10": 0.0
   },
@@ -1467,8 +1467,8 @@
     "MAC_LEI_8_2005::16",
     "MAC_LEI_8_2005::9"
    ],
-   "baseline_ms": 18369.2,
-   "multihop_ms": 11.7,
+   "baseline_ms": 23867.9,
+   "multihop_ms": 60.6,
    "delta_mrr": 0.125,
    "delta_recall@10": 0.0
   },
@@ -1524,8 +1524,8 @@
     "MAC_LEI_8_2005::9",
     "MAC_LEI_8_2005::22"
    ],
-   "baseline_ms": 19814.0,
-   "multihop_ms": 7.7,
+   "baseline_ms": 27265.0,
+   "multihop_ms": 23.2,
    "delta_mrr": 0.9524,
    "delta_recall@10": 1.0
   },
@@ -1583,8 +1583,8 @@
     "HK_CAP_486::37",
     "HK_CAP_486::67"
    ],
-   "baseline_ms": 21669.1,
-   "multihop_ms": 11.2,
+   "baseline_ms": 42060.0,
+   "multihop_ms": 48.9,
    "delta_mrr": 0.0,
    "delta_recall@10": 0.0
   },
@@ -1642,8 +1642,8 @@
     "HK_CAP_486::37",
     "HK_CAP_486::67"
    ],
-   "baseline_ms": 22218.4,
-   "multihop_ms": 10.0,
+   "baseline_ms": 31607.8,
+   "multihop_ms": 38.4,
    "delta_mrr": 0.0,
    "delta_recall@10": 0.0
   },
@@ -1700,10 +1700,617 @@
     "MAC_LEI_8_2005::16",
     "MAC_LEI_8_2005::21"
    ],
-   "baseline_ms": 20965.7,
-   "multihop_ms": 8.3,
+   "baseline_ms": 27918.3,
+   "multihop_ms": 27.6,
    "delta_mrr": 0.4474,
    "delta_recall@10": 1.0
+  },
+  {
+   "id": "MH-R07",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "《中华人民共和国个人信息保护法》第四十五条规定的查阅、复制个人信息权利有哪些例外情形？这些例外又与国家机关处理个人信息时的哪些义务相衔接？",
+   "terminal_gold": [
+    "CN_LAW_CN_002::18"
+   ],
+   "baseline": {
+    "mrr": 0.047619047619047616,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "recall@20": 0.0,
+    "ndcg@10": 0.0,
+    "full@10": 0.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.7653606369886217,
+    "full@10": 0.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.7653606369886217,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "CN_LAW_CN_002::45",
+    "CN_LAW_CN_002::35",
+    "CN_LAW_CN_002::44",
+    "CN_LAW_CN_002::49",
+    "CN_LAW_CN_002::34"
+   ],
+   "multihop_top5": [
+    "CN_LAW_CN_002::18",
+    "CN_LAW_CN_002::35"
+   ],
+   "baseline_ms": 15310.4,
+   "multihop_ms": 18.3,
+   "delta_mrr": 0.9524,
+   "delta_recall@10": 1.0
+  },
+  {
+   "id": "MH-R08",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "网络运营者不履行《网络安全法》规定的安全保护义务要承担什么责任？关键信息基础设施运营者的额外义务与网络安全等级保护制度如何衔接？",
+   "terminal_gold": [
+    "CN_LAW_CN_001::23"
+   ],
+   "baseline": {
+    "mrr": 0.25,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.43067655807339306,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.9674679834891693,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 0.6666666666666666,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.6713860725233041,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "CN_LAW_CN_001::61",
+    "CN_LAW_CN_001::36",
+    "CN_LAW_CN_001::74",
+    "CN_LAW_CN_001::23",
+    "CN_LAW_CN_001::40"
+   ],
+   "multihop_top5": [
+    "CN_LAW_CN_001::23",
+    "CN_LAW_CN_001::27",
+    "CN_LAW_CN_001::35",
+    "CN_LAW_CN_001::36",
+    "CN_LAW_CN_001::38"
+   ],
+   "baseline_ms": 17008.6,
+   "multihop_ms": 28.7,
+   "delta_mrr": 0.75,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-R09",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "违反《网络安全法》第二十四条、第五十条的规定会受到什么处罚？网络运营者的网络安全事件应急预案义务出自哪一条？",
+   "terminal_gold": [
+    "CN_LAW_CN_001::27"
+   ],
+   "baseline": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.5,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8854598815714874,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.5,
+    "recall@5": 0.3333333333333333,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.43734888382569426,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "CN_LAW_CN_001::62",
+    "CN_LAW_CN_001::57",
+    "CN_LAW_CN_001::27",
+    "CN_LAW_CN_001::55",
+    "CN_LAW_CN_001::61"
+   ],
+   "multihop_top5": [
+    "CN_LAW_CN_001::23",
+    "CN_LAW_CN_001::27",
+    "CN_LAW_CN_001::35",
+    "CN_LAW_CN_001::36",
+    "CN_LAW_CN_001::38"
+   ],
+   "baseline_ms": 15010.3,
+   "multihop_ms": 25.2,
+   "delta_mrr": 0.1667,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-R10",
+   "type": "citation_chain",
+   "hops": 2,
+   "query": "《网络安全法》第六十二条对违反第二十四条、第五十条规定的行为如何处罚？关键信息基础设施运营者采购网络产品和服务时应履行什么义务？",
+   "terminal_gold": [
+    "CN_LAW_CN_001::38"
+   ],
+   "baseline": {
+    "mrr": 0.25,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.43067655807339306,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.2,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.38685280723454163,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.9674679834891693,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.2,
+    "recall@5": 0.3333333333333333,
+    "recall@10": 0.6666666666666666,
+    "recall@20": 0.6666666666666666,
+    "ndcg@10": 0.3228087653971817,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "CN_LAW_CN_001::62",
+    "CN_LAW_CN_001::61",
+    "CN_DOC_8_2022::6",
+    "CN_LAW_CN_001::38",
+    "CN_DOC_8_2022::2"
+   ],
+   "multihop_top5": [
+    "CN_LAW_CN_001::23",
+    "CN_LAW_CN_001::27",
+    "CN_LAW_CN_001::35",
+    "CN_LAW_CN_001::36",
+    "CN_LAW_CN_001::38"
+   ],
+   "baseline_ms": 16876.2,
+   "multihop_ms": 25.0,
+   "delta_mrr": -0.05,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-R11",
+   "type": "citation_chain",
+   "hops": 1,
+   "query": "《数据安全法》第四十五条对不履行数据安全保护义务的组织和个人规定了哪些处罚？重要数据处理者的风险评估义务规定在哪一条？",
+   "terminal_gold": [
+    "CN_LAW_CN_003::30"
+   ],
+   "baseline": {
+    "mrr": 0.25,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.43067655807339306,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.5,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8772153153380493,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.3065735963827292,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "CN_LAW_CN_003::45",
+    "CN_RULE_24_2026::19",
+    "CN_REG_790_2024::31",
+    "CN_LAW_CN_003::30",
+    "CN_LAW_CN_003::49"
+   ],
+   "multihop_top5": [
+    "CN_LAW_CN_003::27",
+    "CN_LAW_CN_003::29",
+    "CN_LAW_CN_003::30"
+   ],
+   "baseline_ms": 21155.4,
+   "multihop_ms": 16.9,
+   "delta_mrr": 0.0833,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-R12",
+   "type": "citation_chain",
+   "hops": 1,
+   "query": "《数据安全法》第四十六条对向境外提供重要数据的行为如何处罚？关键信息基础设施运营者的重要数据出境安全管理适用哪部法律？",
+   "terminal_gold": [
+    "CN_LAW_CN_003::31"
+   ],
+   "baseline": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 1.0,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.6131471927654584,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "CN_LAW_CN_003::46",
+    "CN_LAW_CN_003::31",
+    "CN_LAW_CN_001::71",
+    "CN_DOC_CN_128::28",
+    "CN_REG_790_2024::38"
+   ],
+   "multihop_top5": [
+    "CN_LAW_CN_003::31"
+   ],
+   "baseline_ms": 19915.2,
+   "multihop_ms": 12.5,
+   "delta_mrr": 0.5,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-R13",
+   "type": "citation_chain",
+   "hops": 1,
+   "query": "《网络数据安全管理条例》第二十八条对处理1000万人以上个人信息的网络数据处理者提出了什么要求？重要数据处理者在合并、分立、解散时负有什么义务？",
+   "terminal_gold": [
+    "CN_REG_790_2024::32"
+   ],
+   "baseline": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.5,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.38685280723454163,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "CN_REG_790_2024::28",
+    "CN_REG_790_2024::32",
+    "CN_REG_790_2024::21",
+    "CN_REG_790_2024::14",
+    "CN_REG_790_2024::20"
+   ],
+   "multihop_top5": [
+    "CN_REG_790_2024::30",
+    "CN_REG_790_2024::32"
+   ],
+   "baseline_ms": 27773.4,
+   "multihop_ms": 15.1,
+   "delta_mrr": 0.0,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-R14",
+   "type": "citation_chain",
+   "hops": 1,
+   "query": "《网络数据安全管理条例》第五十七条对违反重要数据管理规定的行为如何处罚？重要数据处理者提供、委托处理重要数据前应当履行什么义务？",
+   "terminal_gold": [
+    "CN_REG_790_2024::31"
+   ],
+   "baseline": {
+    "mrr": 0.5,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.6309297535714575,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.5,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.3333333333333333,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.3065735963827292,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "CN_REG_790_2024::57",
+    "CN_REG_790_2024::31",
+    "CN_LAW_CN_001::71",
+    "CN_REG_790_2024::12",
+    "CN_REG_790_2024::47"
+   ],
+   "multihop_top5": [
+    "CN_REG_790_2024::29",
+    "CN_REG_790_2024::30",
+    "CN_REG_790_2024::31",
+    "CN_REG_790_2024::32"
+   ],
+   "baseline_ms": 51413.4,
+   "multihop_ms": 86.8,
+   "delta_mrr": -0.1667,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-C09",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "澳大利亚《Telecommunications Act 1997》对电信运营商设定了哪些基本义务？韩国《TELECOMMUNICATIONS BUSINESS ACT》对电信业务经营者保护用户有何对应规定？",
+   "terminal_gold": [
+    "KR_ACT_10166::32"
+   ],
+   "baseline": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.25,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.43067655807339306,
+    "full@10": 1.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.8772153153380493,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.25,
+    "recall@5": 0.5,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 0.46845052016107697,
+    "full@10": 1.0
+   },
+   "baseline_top5": [
+    "KR_ACT_10166::32",
+    "KR_DEC_20666::372",
+    "AU_ACT_50_1999::4",
+    "AU_ACT_47_1997::5",
+    "KR_ACT_4393::sch18"
+   ],
+   "multihop_top5": [
+    "KR_DEC_20666::55",
+    "KR_DEC_20666::372",
+    "KR_DEC_20666::397",
+    "KR_ACT_10166::32",
+    "KR_ACT_10166::4"
+   ],
+   "baseline_ms": 23870.8,
+   "multihop_ms": 18166.0,
+   "multihop_oracle": {
+    "mrr": 0.0,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "recall@20": 0.0,
+    "ndcg@10": 0.0,
+    "full@10": 0.0
+   },
+   "multihop_oracle_top5": [
+    "KR_DEC_20666::37",
+    "KR_DEC_20666::36",
+    "KR_DEC_20666::35",
+    "KR_ACT_10166::50",
+    "KR_ACT_10166::2"
+   ],
+   "delta_mrr": -0.75,
+   "delta_recall@10": 0.0
+  },
+  {
+   "id": "MH-C10",
+   "type": "cross_jurisdiction",
+   "hops": 2,
+   "query": "韩国《TELECOMMUNICATIONS BUSINESS ACT》对电信业务经营者的业务开展有何规定？澳大利亚法对普遍服务义务有何对应规定？",
+   "terminal_gold": [
+    "AU_ACT_50_1999::9"
+   ],
+   "baseline": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop": {
+    "mrr": 0.0,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "recall@20": 0.0,
+    "ndcg@10": 0.0,
+    "full@10": 0.0
+   },
+   "baseline_all": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_all": {
+    "mrr": 0.25,
+    "recall@5": 0.5,
+    "recall@10": 0.5,
+    "recall@20": 0.5,
+    "ndcg@10": 0.2640681225725909,
+    "full@10": 0.0
+   },
+   "baseline_top5": [
+    "AU_ACT_50_1999::9",
+    "KR_ACT_10166::4",
+    "AU_ACT_50_1999::4",
+    "AU_ACT_50_1999::8",
+    "KR_ACT_10166::50"
+   ],
+   "multihop_top5": [
+    "KR_DEC_20666::2",
+    "KR_DEC_20666::62",
+    "KR_DEC_20666::35",
+    "KR_ACT_10166::4",
+    "KR_ACT_10166::2"
+   ],
+   "baseline_ms": 21682.7,
+   "multihop_ms": 16937.3,
+   "multihop_oracle": {
+    "mrr": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "recall@20": 1.0,
+    "ndcg@10": 1.0,
+    "full@10": 1.0
+   },
+   "multihop_oracle_top5": [
+    "AU_ACT_50_1999::9",
+    "AU_ACT_50_1999::4",
+    "AU_ACT_50_1999::8",
+    "AU_ACT_36_2024::sch4",
+    "AU_ACT_36_2024::87"
+   ],
+   "delta_mrr": -1.0,
+   "delta_recall@10": -1.0
   }
  ]
 }
