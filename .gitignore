@@ -51,3 +51,22 @@ Thumbs.db
 
 # Trae IDE
 .trae/
+.trae-html-share-packages/
+
+# 诊断与证据产物（截图、探针证据，本地留存）
+.screenshots/
+evidence_radar/
+evidence_stage8/
+
+# 一次性实验脚本（以 _ 开头的临时探针）
+/legal_rag/evals/scripts/_exp_*.py
+# 探针结果的临时备份
+/legal_rag/evals/results/*.prev.json
+
+# 离线检查/清洗报告（可由脚本重新生成）
+/legal_rag/data/pre_ingest_report.json
+/legal_rag/data/phase1_report.json
+/legal_rag/data/report.json
+
+# Python 测试缓存
+.pytest_cache/
