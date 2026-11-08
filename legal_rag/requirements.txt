@@ -1,14 +1,20 @@
 torch>=2.0.0
 sentence-transformers>=2.2.0
 elasticsearch>=8.0.0
-fastapi>=0.104.0
+# 框架件版本锁：与旧可用镜像（2 周前构建、实测可启动）的实际安装版本一致。
+# 起因：fastapi>=0.104.0 在重建时被拉到 0.162.0，该版移除了 Query(enum=...)，
+# 导致 api/v1/stats.py 启动即 TypeError。下列 4 项互相强耦合，必须一起锁。
+# 版本依据：在旧镜像 e3c477b9366c 内 pip show 实测。
+fastapi==0.143.3
+starlette==1.7.0
+pydantic==2.14.1
+pydantic-settings==2.15.0
 uvicorn>=0.24.0
 streamlit>=1.28.0
 requests>=2.31.0
 pandas>=2.0.0
 plotly>=5.17.0
 tqdm>=4.66.0
-pydantic>=2.0.0
 python-multipart>=0.0.6
 accelerate>=0.20.0
 openpyxl>=3.1.0
@@ -18,3 +24,5 @@ networkx>=3.1,<4
 langchain>=1.0.0
 langchain-openai>=1.0.0
 langgraph>=1.0.0
+# 答案层 Redis 缓存客户端（阶段 A 仅具备能力，LEGAL_REDIS_CACHE_ENABLED 默认关闭）
+redis>=5.0.0
