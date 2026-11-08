@@ -57,6 +57,18 @@ services:
     container_name: legal-backend
     mem_limit: 10g
     mem_reservation: 3g
+    # GPU 预留：只给 backend 一张卡，供 cross-encoder 精排与 embedding（auto 命中 GPU 时）使用。
+    # Docker Desktop 的 WSL2 后端已注册 nvidia runtime，等价于 docker run --gpus all。
+    # 注意：compose 会把上面的 mem_reservation 归一化到 reservations.memory，
+    # 若两处取值不同会直接报 "can't set distinct values"，故此处显式声明相同的 3g。
+    deploy:
+      resources:
+        reservations:
+          memory: 3g
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
     restart: always
     # 只绑定宿主机回环地址，不对外暴露后端端口：
     # 对外入口只有 nginx（3000），后端不再能被局域网/外部直连，符合「不暴露接口」。
@@ -83,7 +95,11 @@ services:
       # 数据目录：管理端写入 /app/data/raw（原始语料）；入库扫描 /app/data/raw_v2（阶段 1 清洗产物）
       - LEGAL_DATA_DIR=/app/data/raw
       - LEGAL_INGEST_DATA_DIR=/app/data/raw_v2
-      - LEGAL_EMBEDDING_MODEL=/models/bge-m3
+      # 模型路径可被宿主机环境变量覆盖（默认值即生产路径），便于故障演练与灰度
+      - LEGAL_EMBEDDING_MODEL=${LEGAL_EMBEDDING_MODEL:-/models/bge-m3}
+      # embedding 推理设备：auto（按空闲显存自动选 GPU/CPU）/ cuda / cpu。
+      # 运行期一键回退：宿主机设 LEGAL_EMBEDDING_DEVICE=cpu 后 `docker compose up -d backend` 即可，无需改代码
+      - LEGAL_EMBEDDING_DEVICE=${LEGAL_EMBEDDING_DEVICE:-auto}
       - LEGAL_RERANKER_MODEL=/models/bge-reranker-v2-m3
       # CPU 推理性能参数（可按部署机器调整，无需改代码）
       - LEGAL_TORCH_NUM_THREADS=${LEGAL_TORCH_NUM_THREADS:-8}

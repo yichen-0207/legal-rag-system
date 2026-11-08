@@ -22,6 +22,8 @@ class Settings(BaseSettings):
 
     # 模型路径（Docker 环境: /models/bge-m3）
     embedding_model: str = "/models/bge-m3"
+    # embedding 推理设备：auto（按空闲显存自动选 GPU/CPU）/ cuda / cpu。运行期一键回退用 cpu
+    embedding_device: str = "auto"
 
     # DeepSeek API 配置
     llm_api_type: str = "deepseek"  # deepseek

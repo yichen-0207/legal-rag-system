@@ -7,6 +7,7 @@ os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 import threading
 
 from fastapi import FastAPI, Response
+from fastapi.concurrency import run_in_threadpool
 from fastapi.middleware.cors import CORSMiddleware
 from api.v1.search import router as search_router
 from api.v1.qa import router as qa_router
@@ -174,6 +175,28 @@ def _warmup_models() -> None:
 _warmup_started = False
 _warmup_done = False
 
+# 就绪探针专用的 ES 仓储单例（惰性构造，构造阶段不建连）
+_es_probe_repo = None
+_es_probe_lock = threading.Lock()
+
+
+def _elasticsearch_available() -> bool:
+    """ES 可用性探测（同步函数，由就绪探针丢到线程池执行，避免阻塞事件循环）。
+
+    只做单次 ping，不建索引、不退避重试：ES 未就绪时如实返回 False，
+    恢复后下一次探测即转 True，从而让容器在不重启的情况下自行转为 healthy。
+    """
+    global _es_probe_repo
+    try:
+        if _es_probe_repo is None:
+            with _es_probe_lock:
+                if _es_probe_repo is None:
+                    from repositories.elasticsearch import ElasticsearchRepository
+                    _es_probe_repo = ElasticsearchRepository()
+        return _es_probe_repo.is_available()
+    except Exception:
+        return False
+
 
 @app.on_event("startup")
 def start_warmup():
@@ -218,7 +241,9 @@ async def readiness_check(response: Response):
 
     判定直接读取各服务真实状态：
       reranker: loaded/failed(降级不精排)/disabled 均视为就绪，pending 未就绪；
-      embedding 必须 loaded（不可降级）；jurisdiction_vectors 需 ready；warmup_done 需完成。
+      embedding 必须 loaded（不可降级），cooldown(加载失败冷却中)/failed 均 503，
+      并在 models.embedding_error 里给出最后一次失败原因；
+      elasticsearch 需可连通（compose start 时 ES 可能晚于 backend 就绪，未连通时如实 503）。
     """
     from core.config import settings
 
@@ -230,15 +255,20 @@ async def readiness_check(response: Response):
 
     from core.model_loader import ModelLoader
     embedding_state = ModelLoader.load_state()
+    embedding_device = ModelLoader.active_device()
+    embedding_error = ModelLoader.load_error()
 
     from services.qa_service import QAService
     jvector_state = QAService().jurisdiction_warmup_state
+
+    es_ok = await run_in_threadpool(_elasticsearch_available)
 
     ready = (
         _warmup_done
         and embedding_state == "loaded"
         and reranker_state in ("loaded", "failed", "disabled")
         and jvector_state == "ready"
+        and es_ok
     )
     if not ready:
         response.status_code = 503
@@ -248,7 +278,14 @@ async def readiness_check(response: Response):
         "models": {
             "reranker": reranker_state,
             "embedding": embedding_state,
+            # auto 模式下实际生效的设备（cuda/cpu），未加载完成时为 null
+            "embedding_device": embedding_device,
+            # 最近一次加载失败原因；正常加载后为 null
+            "embedding_error": embedding_error,
             "jurisdiction_vectors": jvector_state,
+        },
+        "dependencies": {
+            "elasticsearch": "ok" if es_ok else "unavailable",
         },
         "warmup": "done" if _warmup_done else "running",
     }

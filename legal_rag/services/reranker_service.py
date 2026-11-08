@@ -85,8 +85,10 @@ class ReRankerService:
                 torch.set_num_threads(settings.torch_num_threads)
                 _log.info(f"torch.set_num_threads({settings.torch_num_threads})")
             else:
-                import os as _os
-                _os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
+                # GPU 路径不设置 CUDA_LAUNCH_BLOCKING：该变量会让每个 kernel 同步执行，
+                # cross-encoder 单次前向有数百次 kernel 调用，开启后会把提速吃掉大半，
+                # 仅在需要定位某个 kernel 的报错时才临时打开。
+                _log.info("GPU 推理：已跳过 CUDA_LAUNCH_BLOCKING（保持异步 kernel 调度）")
 
             _log.info("加载 tokenizer...")
             sys.stdout.flush()
@@ -105,7 +107,10 @@ class ReRankerService:
                 low_cpu_mem_usage=True,
             )
             if device == "cuda":
-                self._model = self._model.to("cuda")
+                # FP16 常驻：权重 2.16GB → 1.08GB，为 8GB 显存留出余量（桌面进程常占 ~1.1GB）。
+                # 精排只取相对次序，FP16 的数值误差对排序结果无实质影响；先在半精度下转换再上卡，
+                # 避免先以 FP32 拷到显存造成的瞬时峰值。
+                self._model = self._model.half().to("cuda")
             _log.info("模型权重加载完成")
 
             self._model.eval()
