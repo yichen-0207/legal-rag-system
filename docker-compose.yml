@@ -186,11 +186,18 @@ services:
   frontend:
     image: nginx:alpine
     container_name: legal-frontend
+    restart: always
     ports:
       - "3000:80"
     volumes:
       - ./frontend:/usr/share/nginx/html:ro
       - ./frontend/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
     # 等后端"就绪"而非"启动"：否则前端容器会在后端模型仍在预热时就绪，
     # 用户此时打开页面发起的检索会排在模型加载后面长时间等待。
     depends_on:
