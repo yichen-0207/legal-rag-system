@@ -148,6 +148,11 @@ _SEARCH_LAWS_DESC = (
     "适合先定位与问题相关的法条；可指定法域缩小范围。支持 queries 批量检索："
     "首轮一次传入 2-4 条针对不同法域/方面的查询，内部并行并合并去重，比分多次调用更省预算。"
 )
+# 仅在 agent_search_obs_meta_enabled 打开时追加，关闭时工具描述与改动前逐字一致
+_SEARCH_OBS_META_HINT = (
+    "每条结果带 total_chars/truncated/omitted_chars：truncated=false 表示 content 已是"
+    "该条完整正文，不必再调用 get_article_text；truncated=true 时 omitted_chars 为未显示的剩余字数。"
+)
 _FOLLOW_REFERENCES_DESC = (
     "追溯某条款正文中引用到的其他条款（同法规内「第X条」及可解析的跨法规引用），"
     "用于补全被引用规则的具体内容。参数取自 search_laws 结果中的 law_id 与 article_number。"
@@ -217,8 +222,11 @@ class AgentToolkit:
     # ---------------- 对外入口 ----------------
     def build_tools(self) -> List[BaseTool]:
         """把工具执行器包装为 LangChain 工具（各自绑定本请求的 memo 与法域）。"""
+        search_desc = _SEARCH_LAWS_DESC
+        if settings.agent_search_obs_meta_enabled:
+            search_desc = search_desc + _SEARCH_OBS_META_HINT
         return [
-            self._as_tool("search_laws", _SEARCH_LAWS_DESC, SearchLawsArgs, self._search_laws),
+            self._as_tool("search_laws", search_desc, SearchLawsArgs, self._search_laws),
             self._as_tool("get_article_text", _GET_ARTICLE_TEXT_DESC,
                           GetArticleTextArgs, self._get_article_text),
             self._as_tool("check_law_status", _CHECK_LAW_STATUS_DESC,
@@ -345,15 +353,24 @@ class AgentToolkit:
         ordered = sorted(merged.values(), key=lambda x: float(x.get("score") or 0.0), reverse=True)[:cap]
 
         out = []
+        meta_on = bool(settings.agent_search_obs_meta_enabled)
+        cut = max(1, int(settings.agent_obs_max_chars))
         for r in ordered:
-            out.append({
+            full = r.get("content", "") or ""
+            item = {
                 "law_id": r.get("law_id", ""),
                 "title": r.get("title", ""),
                 "article_number": r.get("article_number", ""),
                 "jurisdiction": r.get("jurisdiction", ""),
-                "content": (r.get("content", "") or "")[: settings.agent_obs_max_chars],
+                "content": full[:cut],
                 "score": round(float(r.get("score") or 0.0), 4),
-            })
+            }
+            if meta_on:
+                # 显式告知片段是否完整：truncated=false 时无需再调 get_article_text 重复回取
+                item["total_chars"] = len(full)
+                item["truncated"] = len(full) > cut
+                item["omitted_chars"] = max(0, len(full) - cut)
+            out.append(item)
         return {"count": len(out), "queries_used": batch, "results": out}
 
     def _get_article_text(self, law_id: str = "", article_number: str = "") -> Dict:

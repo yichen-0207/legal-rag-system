@@ -144,6 +144,9 @@ class Settings(BaseSettings):
     agent_tool_top_k: int = 5
     # 单个观测片段字符上限
     agent_obs_max_chars: int = 300
+    # search_laws 每条结果是否附带 total_chars/truncated/omitted_chars。
+    # A/B 单变量开关：关闭后工具输出与改动前逐字一致（默认开）
+    agent_search_obs_meta_enabled: bool = True
     # 收口时送精排的候选数上限（同时是最终证据条数上限，控制 prompt 规模）
     agent_finalize_max_candidates: int = 12
     # 最终送入 LLM 的证据条数（应大于 top_k）

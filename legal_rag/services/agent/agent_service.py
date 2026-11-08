@@ -529,6 +529,14 @@ class AgentService:
             if ev and ev not in graph_seen:
                 graph_seen.add(ev)
                 graph_parts.append(ev)
+            # 图谱路径已含条款编号（law_id::article），并入证据池后才能被【来源X】引用，
+            # 也让最终分法域对照看到图谱覆盖的条款；正文由收口阶段的批量回填补齐。
+            for ref in result.get("cited_articles") or []:
+                law_id, _, article = str(ref).partition("::")
+                if law_id and article:
+                    self._add_ctx(evidence,
+                                  {"law_id": law_id, "article_number": article},
+                                  0.0, source="graph")
         return (len(evidence) + len(graph_parts)) > before
 
     @staticmethod
@@ -587,9 +595,9 @@ class AgentService:
         if len(contexts) <= cap:
             return contexts
 
-        # 引用追溯与全文回取的条款相似度恒为 0，不保护会被检索命中挤出候选池
-        protected = [c for c in contexts if c.get("_source") in ("reference", "article")]
-        hits = [c for c in contexts if c.get("_source") not in ("reference", "article")]
+        # 引用追溯、全文回取与图谱路径的条款相似度恒为 0，不保护会被检索命中挤出候选池
+        protected = [c for c in contexts if c.get("_source") in ("reference", "article", "graph")]
+        hits = [c for c in contexts if c.get("_source") not in ("reference", "article", "graph")]
         hits.sort(key=lambda c: float(c.get("similarity") or 0.0), reverse=True)
 
         protected_quota = min(len(protected), settings.reference_expand_max, cap)
@@ -632,6 +640,15 @@ class AgentService:
             doc = full.get((c["metadata"].get("law_id", ""), c["metadata"].get("article_number", "")))
             if doc and doc.get("content"):
                 c["content"] = doc["content"]
+                # 图谱条款入库时只有编号，标题/法域靠这次回填补齐，否则来源标注为空
+                meta = c["metadata"]
+                if not meta.get("title"):
+                    meta["title"] = doc.get("title", "") or ""
+                if not meta.get("jurisdiction"):
+                    meta["jurisdiction"] = doc.get("jurisdiction", "") or ""
+        # 图谱条款回填不到正文则丢弃，避免空正文进入最终 prompt
+        contexts = [c for c in contexts
+                    if (c.get("content") or "").strip() or c.get("_source") != "graph"]
 
         if settings.agent_finalize_rerank_enabled:
             try:
@@ -757,6 +774,15 @@ class AgentService:
                             summary = self._summarize_result(info["name"], result)
                             trace.append({"step": info["step"], "tool": info["name"],
                                           "args": info["args"], "summary": summary})
+                            if info["name"] == "search_laws":
+                                # 补记检索命中排名（只进 trace/SSE，不进模型上下文），
+                                # 供事后统计 get_article_text 的命中排名分布。
+                                trace[-1]["hits"] = [
+                                    {"rank": i + 1,
+                                     "law_id": r.get("law_id", ""),
+                                     "article": str(r.get("article_number", ""))}
+                                    for i, r in enumerate(result.get("results") or [])
+                                ]
                             yield ({"type": "observation", "step": info["step"],
                                     "tool": info["name"], "summary": summary}, None, None, None, None, None, None)
 
