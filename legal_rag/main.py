@@ -198,6 +198,36 @@ def _elasticsearch_available() -> bool:
         return False
 
 
+def _run_self_warmup_probe(attempts: int = 20, interval: float = 0.5) -> None:
+    """启动后自发一次内部探针，把「首个请求」的一次性初始化成本提前吃掉。
+
+    只是缓解：把 ASGI/线程池/连接建立这类首次使用成本前移到启动阶段，不等于
+    「首个查询尖峰」的根因已定位。守护线程执行，不阻塞 startup、不推迟
+    /health/ready；失败只记日志，不影响服务可用性。
+    """
+    import time
+    import urllib.request
+
+    log = logging.getLogger("legal_rag")
+    url = "http://127.0.0.1:8001/health"  # 只读存活探针，不走检索与模型
+    log.info("[自预热] 已触发：%s", url)
+    for i in range(1, attempts + 1):
+        t0 = time.perf_counter()
+        try:
+            with urllib.request.urlopen(url, timeout=2.0) as resp:
+                resp.read()
+            log.info("[自预热] 完成：%s 返回 %s，耗时 %.0fms（第 %d 次尝试）",
+                     url, resp.status, (time.perf_counter() - t0) * 1000, i)
+            return
+        except Exception as e:
+            # 启动瞬间端口可能尚未监听，按 interval 重试；耗尽后只告警，不影响服务
+            if i == attempts:
+                log.warning("[自预热] 失败：%d 次尝试后仍无法访问 %s（%s: %s），不影响服务可用性",
+                            attempts, url, type(e).__name__, e)
+                return
+            time.sleep(interval)
+
+
 @app.on_event("startup")
 def start_warmup():
     """startup 钩子只负责拉起后台预热线程并立即返回，不阻塞 uvicorn 开始服务。"""
@@ -212,6 +242,8 @@ def start_warmup():
     except Exception as e:
         logging.getLogger("legal_rag").warning("打印 Redis 缓存开关状态失败: %s", e)
     threading.Thread(target=_warmup_models, name="model-warmup", daemon=True).start()
+    # 自预热探针：独立守护线程，等端口监听后打一发 /health，提前吃掉首请求初始化成本
+    threading.Thread(target=_run_self_warmup_probe, name="self-warmup-probe", daemon=True).start()
 
 # 跨域白名单：正常部署走 nginx 同源反代不触发 CORS，仅保留本地调试场景；
 # 鉴权走 Authorization 头，不依赖 cookie，故 allow_credentials=False

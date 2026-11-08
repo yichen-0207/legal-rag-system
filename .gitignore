@@ -66,6 +66,9 @@ evidence_stage8/
 /legal_rag/evals/results/probe_*.json
 /legal_rag/evals/results/p3_agent_profile.json
 /legal_rag/evals/results/agent_a1_ab_*.json
+# A1 观测字段盲评产物（一次性评测数据与脚本，结论已归档，不入库）
+/legal_rag/evals/results/agent_a1_blind_judge*.json
+/legal_rag/evals/scripts/run_a1_blind_judge.py
 # 探针结果的临时备份
 /legal_rag/evals/results/*.prev.json
 
