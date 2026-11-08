@@ -27,6 +27,30 @@ services:
       retries: 10
       start_period: 30s
 
+  # 答案层 Redis：只做问答结果的跨重启留存，命中失败必须降级而非影响主链路。
+  # 因此刻意不映射宿主机端口（仅 compose 内网可访问），也不被 backend 的 depends_on 依赖：
+  # Redis 掉线时 backend 照常启动，由应用层在 50ms 超时后回退进程内 LRU。
+  # allkeys-lru + 512mb 上限：容量压力下先淘汰旧条目而不是写失败。
+  # AOF everysec：断电最多丢 1s 缓存（缓存可重建，成本可接受）。
+  legal-redis:
+    image: redis:7-alpine
+    container_name: legal-redis
+    restart: always
+    # 上限留出 AOF 重写期间的额外内存（重写会 fork 并在临时文件缓冲）
+    mem_limit: 768m
+    command:
+      - redis-server
+      - --maxmemory
+      - 512mb
+      - --maxmemory-policy
+      - allkeys-lru
+      - --appendonly
+      - "yes"
+      - --appendfsync
+      - everysec
+    volumes:
+      - legal_redis_data:/data
+
   backend:
     image: legal-rag-backend:latest
     build: .
@@ -53,6 +77,9 @@ services:
       - LEGAL_LLM_USAGE_LOG_ENABLED=${LEGAL_LLM_USAGE_LOG_ENABLED:-true}
       - LEGAL_LLM_USAGE_LOG_DIR=${LEGAL_LLM_USAGE_LOG_DIR:-/app/logs}
       - LEGAL_ADMIN_TOKEN=${LEGAL_ADMIN_TOKEN:-dev_admin_token_change_me}
+      # 答案层 Redis：开启后问答答案跨 backend 重启留存；Redis 不可用自动降级为进程内 LRU
+      - LEGAL_REDIS_CACHE_ENABLED=${LEGAL_REDIS_CACHE_ENABLED:-true}
+      - LEGAL_REDIS_URL=redis://legal-redis:6379/0
       # 数据目录：管理端写入 /app/data/raw（原始语料）；入库扫描 /app/data/raw_v2（阶段 1 清洗产物）
       - LEGAL_DATA_DIR=/app/data/raw
       - LEGAL_INGEST_DATA_DIR=/app/data/raw_v2
@@ -158,3 +185,5 @@ volumes:
   es_data:
     name: es_data
     external: true
+  legal_redis_data:
+    name: legal_redis_data

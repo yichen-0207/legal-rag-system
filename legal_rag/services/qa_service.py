@@ -2,6 +2,7 @@ import json
 import logging
 import os
 import threading
+import hashlib
 from typing import List, Dict, Optional, Tuple
 import time
 import math
@@ -11,6 +12,7 @@ from repositories.elasticsearch import ElasticsearchRepository
 from core.config import settings
 from core.jurisdiction import ALL_TRIGGERS
 from utils.search_cache import get_qa_answer_cache, normalize_query_for_cache
+from utils.redis_cache import get_data_version
 from utils.query_enhance import enhance_query
 
 logger = logging.getLogger(__name__)
@@ -23,6 +25,40 @@ _SHORT_CODES = {
 }
 # 「中国」在问答侧保留为触发词（与旧口径一致），检索侧仍走 CHINA_STANDALONE_RE
 _QA_EXTRA_ALIASES = {"中国大陆": ["中国"]}
+
+# 首轮问答的系统提示词模板：既是渲染源，也是缓存指纹来源。
+# 改动此模板即改变指纹，旧答案缓存自动失效，避免模板与缓存答案版本错配。
+_QA_FIRST_TURN_SYSTEM_PROMPT = """你是一位精通境外法律法规的资深法律顾问，拥有20年实务经验，擅长用通俗易懂的语言解释复杂的法律问题。
+
+【回答结构要求】
+## 一、核心概括（80-100字）
+用 1-2 句话直接回答问题的核心，给出明确结论，并简要预告将涉及的主要法规和关键点。
+
+## 二、法律依据详解（主体部分，分4-6个要点，每个要点250-320字）
+以深度解读、实务分析和案例化说明为主，法条原文仅作支撑。每个要点按以下结构展开：
+1. 法规出处：法域 + 《法规全称》第 X 条/第 X 款；来源标注【来源X】。
+2. 深度解读（重点）：阐释法律依据、适用范围、核心含义、立法意图、相互关联和实务影响，避免停留在表面复述。
+3. 重点提示：合规风险点、特殊情况处理、时限或程序性规定。
+4. 实务指引（重点）：给出企业或个人可操作的具体步骤、最佳实践、需准备的材料、落地建议和常见误区。
+{structure_section}
+
+【写作规范】
+- 使用清晰的 Markdown 层级标题，关键术语加粗，重要法条用行内引用或短引用块（仅摘录关键短语，不要大段复制原文）。
+- 回答以分析、解读、实务建议为主，不要堆砌法条原文。
+- 不要过多使用 emoji，保持专业、简洁的排版。
+- 语言风格：像资深律师给客户做法律解读，专业但不晦涩。
+- 字数控制：{total_words_hint}
+  - 开头概括：80-100字
+  - 每个要点：250-320字
+  - 结尾总结：150-200字
+
+【严格约束】
+- 必须基于参考资料，所有论断有法条支撑，引用标注【来源X】。
+- 【知识图谱关联】为系统自动抽取的实体关系佐证，可用于说明条文间的关联；其权威性低于【来源X】的具体法条，不得据此虚构关系。
+- 严禁编造资料中没有的信息。
+- 如遇资料不足，明确说明："关于XX方面，现有法规资料暂未提供明确规定..." """
+
+_QA_PROMPT_FP = hashlib.sha1(_QA_FIRST_TURN_SYSTEM_PROMPT.encode("utf-8")).hexdigest()[:8]
 
 
 class QAService:
@@ -1057,35 +1093,10 @@ class QAService:
 - 总字数要求：1000-1500字。
 - 严禁编造资料中没有的信息；资料不足时明确说明。"""
         else:
-            system_prompt = f"""你是一位精通境外法律法规的资深法律顾问，拥有20年实务经验，擅长用通俗易懂的语言解释复杂的法律问题。
-
-【回答结构要求】
-## 一、核心概括（80-100字）
-用 1-2 句话直接回答问题的核心，给出明确结论，并简要预告将涉及的主要法规和关键点。
-
-## 二、法律依据详解（主体部分，分4-6个要点，每个要点250-320字）
-以深度解读、实务分析和案例化说明为主，法条原文仅作支撑。每个要点按以下结构展开：
-1. 法规出处：法域 + 《法规全称》第 X 条/第 X 款；来源标注【来源X】。
-2. 深度解读（重点）：阐释法律依据、适用范围、核心含义、立法意图、相互关联和实务影响，避免停留在表面复述。
-3. 重点提示：合规风险点、特殊情况处理、时限或程序性规定。
-4. 实务指引（重点）：给出企业或个人可操作的具体步骤、最佳实践、需准备的材料、落地建议和常见误区。
-{structure_section}
-
-【写作规范】
-- 使用清晰的 Markdown 层级标题，关键术语加粗，重要法条用行内引用或短引用块（仅摘录关键短语，不要大段复制原文）。
-- 回答以分析、解读、实务建议为主，不要堆砌法条原文。
-- 不要过多使用 emoji，保持专业、简洁的排版。
-- 语言风格：像资深律师给客户做法律解读，专业但不晦涩。
-- 字数控制：{total_words_hint}
-  - 开头概括：80-100字
-  - 每个要点：250-320字
-  - 结尾总结：150-200字
-
-【严格约束】
-- 必须基于参考资料，所有论断有法条支撑，引用标注【来源X】。
-- 【知识图谱关联】为系统自动抽取的实体关系佐证，可用于说明条文间的关联；其权威性低于【来源X】的具体法条，不得据此虚构关系。
-- 严禁编造资料中没有的信息。
-- 如遇资料不足，明确说明："关于XX方面，现有法规资料暂未提供明确规定..." """
+            system_prompt = _QA_FIRST_TURN_SYSTEM_PROMPT.format(
+                structure_section=structure_section,
+                total_words_hint=total_words_hint,
+            )
 
         if system_prompt_override:
             system_prompt = system_prompt_override
@@ -1129,14 +1140,21 @@ class QAService:
                       jurisdictions: Optional[List[str]]) -> Optional[Tuple[str, str]]:
         """问答答案缓存的键；问题为空时返回 None（既不读也不写）。
 
-        键只含真正影响答案的输入与开关：top_k、jurisdictions、refexp（引用链扩展）、
-        kgevi（KG-RAG 证据）——后两者会改变送入 prompt 的条款集合，必须计入。
+        键只含真正影响答案的输入与开关：ES 索引名、数据版本、LLM 模型、提示词指纹、
+        top_k、jurisdictions、refexp（引用链扩展）、kgevi（KG-RAG 证据）。
+        后两者会改变送入 prompt 的条款集合，必须计入。
+        索引名与数据版本缺失会让改法规/重建索引后继续吐旧答案（缓存历史踩坑），
+        模型与提示词指纹缺失会让换模型/改模板后继续复用旧口径答案。
         精排开关刻意不计入：问答链路走纯向量召回，不经过精排。
         """
         if not question or not question.strip():
             return None
         jur = ",".join(sorted(jurisdictions)) if jurisdictions else ""
         filter_key = "|".join([
+            f"idx={settings.es_index_name}",
+            f"dv={get_data_version()}",
+            f"llm={settings.llm_qa_model}",
+            f"pv={_QA_PROMPT_FP}",
             f"top_k={top_k}",
             f"jur={jur}",
             f"refexp={int(settings.reference_expand_enabled)}:{int(settings.reference_expand_cross_law_enabled)}",

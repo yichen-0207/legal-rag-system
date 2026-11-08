@@ -182,6 +182,18 @@ class Settings(BaseSettings):
     # 缓存条数上限
     qa_answer_cache_max_entries: int = 300
 
+    # 答案层 Redis（跨 backend 重启留存）；默认关闭，关闭时行为与进程内缓存完全一致
+    redis_cache_enabled: bool = False
+    redis_url: str = "redis://legal-redis:6379/0"
+    redis_key_prefix: str = "legal:qa:"
+    # 连接/读写超时（秒）：必须短于一次检索，故障时不能拖慢请求
+    redis_connect_timeout: float = 0.05
+    redis_socket_timeout: float = 0.05
+    # 答案条目 TTL（秒），24 小时
+    redis_answer_cache_ttl: int = 86400
+    # Redis 内答案条数上限（按写入时间淘汰）
+    redis_answer_cache_max_entries: int = 300
+
     # 实体消歧 L3 向量对齐：仅作变体兜底，误合并由编辑距离/长度/数字三重守卫拦截
     entity_align_enabled: bool = True
     # 向量相似度下限（廉价预筛，判别靠守卫）

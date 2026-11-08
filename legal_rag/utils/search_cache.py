@@ -16,6 +16,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from core.config import settings
 from repositories.elasticsearch import zh_convert
+from utils.redis_cache import build_answer_cache
 
 logger = logging.getLogger(__name__)
 
@@ -116,18 +117,21 @@ def get_search_cache() -> SearchResultCache:
     return _cache
 
 
-_qa_cache: Optional[SearchResultCache] = None
+_qa_cache: Optional[Any] = None
 _qa_cache_lock = threading.Lock()
 
 
-def get_qa_answer_cache() -> SearchResultCache:
-    """问答答案缓存（进程内单例，与检索缓存相互独立）。
+def get_qa_answer_cache():
+    """问答答案缓存（单例，与检索缓存相互独立）。
 
     值形态：{"answer", "sources", "retrieved_count", "jurisdictions"}。
+    LEGAL_REDIS_CACHE_ENABLED 打开且客户端可用时换成 Redis 实现，
+    以进程内 LRU 为兜底；否则与旧行为完全一致。
     """
     global _qa_cache
     if _qa_cache is None:
         with _qa_cache_lock:
             if _qa_cache is None:
-                _qa_cache = SearchResultCache(max_entries=settings.qa_answer_cache_max_entries)
+                local = SearchResultCache(max_entries=settings.qa_answer_cache_max_entries)
+                _qa_cache = build_answer_cache(local)
     return _qa_cache

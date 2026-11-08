@@ -1,3 +1,4 @@
+import logging
 from fastapi import APIRouter, HTTPException, Depends, Query, Header, Body
 from typing import Dict, Optional, Any, List
 from core.config import settings
@@ -5,8 +6,12 @@ from schemas import APIResponse
 from services.law_management_service import LawManagementService
 from repositories.elasticsearch import ElasticsearchRepository
 from utils.law_catalog import LawCatalog
+from utils.search_cache import get_qa_answer_cache
+from utils.redis_cache import bump_data_version
 
 router = APIRouter(prefix="/admin", tags=["管理员"])
+
+logger = logging.getLogger(__name__)
 
 law_service = LawManagementService()
 repo = ElasticsearchRepository()
@@ -32,6 +37,18 @@ def verify_admin_token(authorization: Optional[str] = Header(None)) -> bool:
     return True
 
 
+def _invalidate_answer_cache(reason: str) -> None:
+    """写操作成功后递增数据版本，使答案缓存整体失效。
+
+    版本号进入问答缓存键，递增后旧条目不再被命中；失败不影响写操作本身，
+    最坏后果是旧答案保留到 TTL 到期。
+    """
+    try:
+        logger.info("[缓存失效] %s → 数据版本 v%s", reason, bump_data_version())
+    except Exception as e:
+        logger.warning("[缓存失效] 递增数据版本失败，旧答案将保留至 TTL 到期: %s", e)
+
+
 @router.post("/law", summary="新增法规")
 async def create_law(
     data: Dict[str, Any],
@@ -39,6 +56,7 @@ async def create_law(
 ):
     try:
         result = law_service.create_law(data)
+        _invalidate_answer_cache("新增法规")
         return APIResponse(success=True, data=result)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
@@ -81,6 +99,8 @@ async def batch_import_laws(
                     "error": str(e)
                 })
         
+        if success_count:
+            _invalidate_answer_cache(f"批量导入法规（成功 {success_count} 条）")
         return APIResponse(success=True, data={
             "success_count": success_count,
             "failed_count": failed_count,
@@ -97,6 +117,7 @@ async def delete_law(
 ):
     try:
         result = law_service.delete_law(law_id)
+        _invalidate_answer_cache(f"删除法规 {law_id}")
         return APIResponse(success=True, data=result)
     except FileNotFoundError as e:
         raise HTTPException(status_code=404, detail=str(e))
@@ -114,6 +135,7 @@ async def update_law(
     """修改法规，支持合并更新和完全覆盖两种模式"""
     try:
         result = law_service.update_law(law_id, updates, overwrite=overwrite)
+        _invalidate_answer_cache(f"修改法规 {law_id}")
         return APIResponse(success=True, data=result)
     except FileNotFoundError as e:
         raise HTTPException(status_code=404, detail=str(e))
@@ -155,6 +177,7 @@ async def sync_index(
 ):
     try:
         result = law_service.sync_index()
+        _invalidate_answer_cache("索引与文件系统同步")
         return APIResponse(success=True, data=result)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"同步失败: {str(e)}")
@@ -174,6 +197,7 @@ async def rebuild_kg_entities(
     from services.kg_extraction_service import KGExtractionService
     try:
         summary = KGExtractionService().reconcile_entities(prune=prune)
+        _invalidate_answer_cache("重建知识图谱实体词典")
         return APIResponse(success=True, data=summary)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"重建实体词典失败: {str(e)}")
@@ -253,6 +277,7 @@ async def delete_catalog_record(
     try:
         success = catalog.delete(law_id)
         if success:
+            _invalidate_answer_cache(f"删除目录记录 {law_id}")
             return APIResponse(success=True, message=f"已标记删除 {law_id}")
         else:
             raise HTTPException(status_code=404, detail=f"未找到法律 {law_id} 的目录记录")
@@ -269,6 +294,7 @@ async def rebuild_catalog(
     """从 Elasticsearch 重建 law_catalog.json（会覆盖现有 catalog 数据）"""
     try:
         stats = catalog.rebuild_from_es(repo)
+        _invalidate_answer_cache("从 ES 重建法律目录")
         return APIResponse(success=True, data={
             "message": "Catalog 已从 ES 重建完成",
             "statistics": stats
@@ -304,9 +330,25 @@ async def update_catalog_record(
             source_file=existing.get("source_file", ""),
             status=updates.get("status", existing.get("status", "active"))
         )
-
+        _invalidate_answer_cache(f"更新目录记录 {law_id}")
         return APIResponse(success=True, data=updated_record)
     except HTTPException:
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"更新目录记录失败: {str(e)}")
+
+
+# ==================== 缓存可观测（只读） ====================
+
+@router.get("/cache/stats", summary="答案缓存统计")
+async def get_cache_stats(
+    _: bool = Depends(verify_admin_token)
+):
+    """返回答案层缓存的命中/未命中/错误计数与后端类型。
+
+    只读接口：不清理、不影响缓存状态；Redis 关闭时 backend=memory。
+    """
+    try:
+        return APIResponse(success=True, data=get_qa_answer_cache().stats())
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"获取缓存统计失败: {str(e)}")
