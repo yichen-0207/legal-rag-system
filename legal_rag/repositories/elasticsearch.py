@@ -2,6 +2,7 @@ from typing import List, Dict, Optional, Any, Tuple
 import json
 import os
 import re
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
 from elasticsearch import Elasticsearch
@@ -408,18 +409,32 @@ def _join_chunks_without_overlap(chunks: List[str]) -> str:
 
 
 class ElasticsearchRepository:
+    # 建连重试上限：只在"首次使用"这条路径上做有界退避，避免导入期/探针期长时间阻塞。
+    # 3 次 × 退避 0.5s、1.0s，最坏约 1.5s 后抛出明确错误，由调用方（请求或探针）决定如何响应。
+    _CONNECT_MAX_ATTEMPTS = 3
+    _CONNECT_BACKOFF_BASE = 0.5
+
     def __init__(self):
-        self._init_client()
+        # 惰性连接：构造阶段只做本地初始化，不碰网络。
+        # 起因：docker compose start 不评估 depends_on 的 service_healthy，ES 与 backend
+        # 会同时启动；若在模块导入期硬连 ES，连不上会让 uvicorn 进程直接退出。
+        self._client = None
+        self._client_lock = threading.Lock()
+        self._index_ready = False  # 索引是否已确认存在（首次建连后只执行一次）
         self._model = None  # 懒加载，避免启动时加载大模型
         self._non_active_cache = None  # 失效法规 law_id 缓存：(mtime, ids)
         self._law_title_index_cache = None  # 法规标题索引缓存：{简体归一标题: law_id}
         self._init_classifier()
-        self._create_index_if_not_exists()
     
     def _init_classifier(self):
         self.classifier = TopicClassifier()
-    
-    def _init_client(self):
+
+    @property
+    def client(self) -> Elasticsearch:
+        """ES 客户端：首次访问时才建连（并确保索引存在），之后复用。"""
+        return self._ensure_client()
+
+    def _build_client_kwargs(self) -> Dict[str, Any]:
         client_kwargs: Dict[str, Any] = {
             "hosts": settings.es_hosts,
             "verify_certs": settings.es_verify_certs,
@@ -434,10 +449,59 @@ class ElasticsearchRepository:
         if settings.es_user and settings.es_password:
             client_kwargs["basic_auth"] = (settings.es_user, settings.es_password)
         
-        self.client = Elasticsearch(**client_kwargs)
-        
-        if not self.client.ping():
-            raise ConnectionError("无法连接到 Elasticsearch")
+        return client_kwargs
+
+    def _ensure_client(self) -> Elasticsearch:
+        """返回可用客户端；必要时建连并确保索引存在。线程安全。"""
+        if self._client is not None:
+            return self._client
+        with self._client_lock:
+            if self._client is not None:
+                return self._client
+            self._init_client()
+            if not self._index_ready:
+                self._create_index_if_not_exists()
+                self._index_ready = True
+            return self._client
+    
+    def _init_client(self):
+        """建立客户端并做连通性探测：有界退避重试，失败抛出带上下文的 ConnectionError。"""
+        last_error = "未执行探测"
+        for attempt in range(1, self._CONNECT_MAX_ATTEMPTS + 1):
+            try:
+                client = Elasticsearch(**self._build_client_kwargs())
+                if client.ping():
+                    self._client = client
+                    return
+                last_error = "ping 返回 False（服务可达但未就绪）"
+            except Exception as e:
+                last_error = f"{type(e).__name__}: {e}"
+            if attempt < self._CONNECT_MAX_ATTEMPTS:
+                # 指数退避（0.5s、1.0s…）：上限刻意很小，避免长时间阻塞事件循环
+                time.sleep(self._CONNECT_BACKOFF_BASE * (2 ** (attempt - 1)))
+        raise ConnectionError(
+            f"无法连接到 Elasticsearch（hosts={settings.es_hosts}，"
+            f"已尝试 {self._CONNECT_MAX_ATTEMPTS} 次，最后一次错误：{last_error}）"
+        )
+
+    def is_available(self) -> bool:
+        """ES 连通性探测（供 /health/ready 使用）：单次 ping，不建索引、不重试、不抛异常。
+
+        探针路径必须快速返回；若已有客户端 ping 失败，则丢弃旧客户端，使下一次真实请求
+        重新走 _ensure_client() 建连，从而在 ES 恢复后自行转 healthy。
+        """
+        try:
+            if self._client is not None:
+                if self._client.ping():
+                    return True
+                with self._client_lock:
+                    self._client = None
+                    self._index_ready = False
+                return False
+            probe = Elasticsearch(**self._build_client_kwargs())
+            return bool(probe.ping())
+        except Exception:
+            return False
     
     def _get_model(self):
         """懒加载 embedding 模型（首次使用时加载）"""
@@ -446,7 +510,9 @@ class ElasticsearchRepository:
         return self._model
     
     def _create_index_if_not_exists(self):
-        if not self.client.indices.exists(index=settings.es_index_name):
+        # 本方法只在 _ensure_client() 的锁内、_client 已建立后调用，
+        # 直接用 _client 而非 client property，避免锁内递归。
+        if not self._client.indices.exists(index=settings.es_index_name):
             index_settings = {
                 "settings": {
                     "number_of_shards": 1,
@@ -518,11 +584,11 @@ class ElasticsearchRepository:
                     }
                 }
             }
-            self.client.indices.create(index=settings.es_index_name, body=index_settings)
+            self._client.indices.create(index=settings.es_index_name, body=index_settings)
         else:
             # 索引已存在：补挂后加字段（定义一致时 ES 幂等接受，失败仅告警）
             try:
-                self.client.indices.put_mapping(
+                self._client.indices.put_mapping(
                     index=settings.es_index_name,
                     body={"properties": {
                         "content_s": {"type": "text", "analyzer": "chinese_analyzer"},
@@ -805,6 +871,33 @@ class ElasticsearchRepository:
             ]
             results = [f.result() for f in futures]
         return results
+
+    def hybrid_search_same_query(self, query_text: str, wheres: List[Optional[Dict]],
+                                 n_results: int = 5, max_workers: int = 4,
+                                 rrf_k: int = 60) -> List[Dict]:
+        """同一查询文本 + 多个过滤条件：只编码一次，ES 并发执行，按下标回填结果。
+
+        等价于逐个调用 hybrid_search(query_text, n_results, where=w)：查询向量只由文本决定，
+        复用它不改变任何召回与打分。返回顺序严格等于 wheres 的顺序（按 futures 提交序取结果，
+        不使用 as_completed），上层按下标消费即可与串行版本保持完全一致的顺序。
+        任一路失败时按串行顺序重抛同一异常，异常语义不变。
+        """
+        if not wheres:
+            return []
+        if not query_text.strip():
+            empty = {"ids": [[]], "documents": [[]], "metadatas": [[]], "distances": [[]],
+                     "_scores": [[]], "_similarities": [[]]}
+            return [dict(empty) for _ in wheres]
+
+        query_embedding = self._embed_texts([query_text])[0]
+        workers = max(1, min(len(wheres), max_workers))
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = [
+                executor.submit(self._hybrid_search_with_vector, query_text, query_embedding,
+                                n_results, where, rrf_k)
+                for where in wheres
+            ]
+            return [future.result() for future in futures]
 
     def _hybrid_search_with_vector(self, query_text: str, query_embedding: List[float],
                                    n_results: int = 5, where: Optional[Dict] = None,
@@ -2158,32 +2251,49 @@ class ElasticsearchRepository:
             response = self.client.search(index=settings.es_index_name, body=query)
             topic_buckets = response.get("aggregations", {}).get("topics", {}).get("buckets", [])
 
-            result = []
+            # 先筛掉不展示的主题，再用一次 msearch 批量取回各主题的示例法规。
+            # 原实现每个主题一次串行 search（limit=30 时要多付 28 次往返，实测 0.41s）；
+            # 查询体与 size/_source 完全沿用，只是把 N 次请求合并成 1 次。
+            kept = []
             for bucket in topic_buckets:
                 topic_name = bucket.get("key", "")
-                total_count = bucket.get("doc_count", 0)
-
                 if is_excluded_topic(topic_name) or is_excluded_topic(_to_label_zh(topic_name)):
                     continue
+                kept.append(bucket)
+
+            msearch_body: List[Dict] = []
+            for bucket in kept:
+                msearch_body.append({"index": settings.es_index_name})
+                msearch_body.append({
+                    "size": 3,
+                    "query": {"term": {"topic_labels": bucket.get("key", "")}},
+                    "_source": ["law_id", "title", "jurisdiction"]
+                })
+
+            sample_responses = []
+            if msearch_body:
+                try:
+                    sample_responses = self.client.msearch(body=msearch_body).get("responses", [])
+                except Exception as e:
+                    print(f"⚠️ 主题示例法规批量取回失败: {e}")
+
+            result = []
+            for idx, bucket in enumerate(kept):
+                topic_name = bucket.get("key", "")
+                total_count = bucket.get("doc_count", 0)
 
                 jur_buckets = bucket.get("by_jurisdiction", {}).get("buckets", [])
                 by_jurisdiction = {b.get("key"): b.get("doc_count") for b in jur_buckets}
 
-                # 每个主题取前 3 条示例法规
-                sample_query = {
-                    "size": 3,
-                    "query": {"term": {"topic_labels": topic_name}},
-                    "_source": ["law_id", "title", "jurisdiction"]
-                }
-                sample_response = self.client.search(index=settings.es_index_name, body=sample_query)
                 samples = []
-                for hit in sample_response.get("hits", {}).get("hits", []):
-                    source = hit.get("_source", {})
-                    samples.append({
-                        "law_id": source.get("law_id"),
-                        "law_name_zh": source.get("title"),
-                        "jurisdiction": source.get("jurisdiction")
-                    })
+                if idx < len(sample_responses):
+                    for hit in sample_responses[idx].get("hits", {}).get("hits", []):
+                        source = hit.get("_source", {})
+                        samples.append({
+                            "law_id": source.get("law_id"),
+                            "law_name_zh": source.get("title"),
+                            "jurisdiction": source.get("jurisdiction")
+                        })
 
                 result.append({
                     "topic": topic_name,

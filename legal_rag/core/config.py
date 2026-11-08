@@ -94,6 +94,12 @@ class Settings(BaseSettings):
     multihop_decompose_llm_enabled: bool = True
     multihop_decompose_llm_timeout: float = 3.0
 
+    # 跨法域多跳：同一查询在多部法规上检索时是否并行（编码一次 + ES 并发，结果按下标回填）
+    # 关闭后回到逐个串行，行为与改造前一致
+    multihop_parallel_search_enabled: bool = True
+    # 并行度上限：每个 worker 内部还会并发跑 knn+bm25，整体连接数约为 2×该值（ES 连接池默认 10）
+    multihop_parallel_max_workers: int = 4
+
     # 纵向深挖：从图谱路径末端沿高置信关系再扩展若干轮（纯 ES，默认关闭）
     multihop_deepen_enabled: bool = False
     multihop_deepen_max_rounds: int = 2

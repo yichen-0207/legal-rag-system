@@ -97,9 +97,8 @@ class MultiHopService:
         hits.sort(key=lambda hit: -float(hit.get("score", 0) or 0))
         return hits
 
-    def _search_in_law(self, question: str, law_id: str, n_results: int = 1) -> List[Dict]:
-        """按 law_id 收窄的混合检索（where 同时作用于 KNN 与 BM25 通道）。"""
-        res = self.repo.hybrid_search(question, n_results=n_results, where={"law_id": law_id})
+    def _hits_from_result(self, res: Dict) -> List[Dict]:
+        """把 hybrid_search 的返回转成源条款命中；串行与并发两条路径共用，保证同一转换口径。"""
         sims = (res.get("_similarities") or [[]])[0]
         out: List[Dict] = []
         for i, (meta, doc, score) in enumerate(zip(
@@ -110,6 +109,26 @@ class MultiHopService:
             similarity = sims[i] if i < len(sims) else None
             out.append(self._hit_to_source(meta, doc, score, similarity))
         return out
+
+    def _search_in_law(self, question: str, law_id: str, n_results: int = 1) -> List[Dict]:
+        """按 law_id 收窄的混合检索（where 同时作用于 KNN 与 BM25 通道）。"""
+        res = self.repo.hybrid_search(question, n_results=n_results, where={"law_id": law_id})
+        return self._hits_from_result(res)
+
+    def _search_laws_same_query(self, query_text: str, law_ids: List[str],
+                                n_results: int) -> List[List[Dict]]:
+        """同一查询文本在多部法规上检索，返回按 law_ids 顺序排列的命中列表。
+
+        开关打开且法规数 > 1 时：查询只编码一次，ES 并发执行后按下标回填（顺序与串行一致）；
+        关闭时逐个串行检索，即改造前的行为。两路共用 _hits_from_result，字段口径不变。
+        """
+        if settings.multihop_parallel_search_enabled and len(law_ids) > 1:
+            res_list = self.repo.hybrid_search_same_query(
+                query_text, [{"law_id": law_id} for law_id in law_ids], n_results,
+                max_workers=settings.multihop_parallel_max_workers,
+            )
+            return [self._hits_from_result(res) for res in res_list]
+        return [self._search_in_law(query_text, law_id, n_results) for law_id in law_ids]
 
     @staticmethod
     def _strip_jurisdiction_terms(question: str) -> str:
@@ -168,10 +187,14 @@ class MultiHopService:
         candidates: List[Dict] = []
         seen_pairs = set()
         # 每部候选法规做一次法内检索，最多 6 部：既覆盖问题点名的法域，又避免一次问答放大成十几次 ES 往返。
-        for lid, info in list(law_hits.items())[:6]:
+        # 同一个 cleaned 查询只编码一次、ES 并发执行，命中按法规下标回填，结果顺序与串行版本一致。
+        law_items = list(law_hits.items())[:6]
+        law_results = self._search_laws_same_query(
+            cleaned, [lid for lid, _ in law_items], 6
+        )
+        for (lid, info), hits in zip(law_items, law_results):
             # 同法规内用「去掉法域名的问题」重新排序，取前 2 条作为该法规的源候选
-            hits = self._by_cosine(self._search_in_law(cleaned, lid, 6))
-            for hit in hits[:2]:
+            for hit in self._by_cosine(hits)[:2]:
                 art = hit.get("article_number", "")
                 if not art or (lid, art) in seen_pairs:
                     continue
@@ -223,14 +246,15 @@ class MultiHopService:
     # ================================================================
     #  3. 目标侧条款：在《B′》内回答同一问题
     # ================================================================
-    def _target_articles(self, question: str, source: Dict, target: Dict) -> List[Dict]:
-        # 用「问题 + 源条款原文」作查询：跨语言向量模型能把对应条款拉近，只用问题易命中目标法规的通用程序条款。
-        query = question
+    @staticmethod
+    def _target_query(question: str, source: Dict) -> str:
+        """目标侧查询 = 问题 + 源条款原文：跨语言向量模型能把对应条款拉近，只用问题易命中通用程序条款。"""
         if source.get("content"):
-            query = f"{question}\n{source['content'][:600]}"
-        hits = self._by_cosine(self._search_in_law(
-            query, target["law_id"], _MAX_TARGET_ARTICLES * 3
-        ))
+            return f"{question}\n{source['content'][:600]}"
+        return question
+
+    def _target_articles_from_hits(self, target: Dict, hits: List[Dict]) -> List[Dict]:
+        """把某部对应法规的法内命中整理成目标条款（去重、限额，再并入相似法规评分命中的条款）。"""
         articles: List[Dict] = []
         seen = set()
         for hit in hits:
@@ -559,12 +583,20 @@ class MultiHopService:
             }
 
         # 目标侧条款 + 原文回填（一次 msearch，源/目标共用）
-        for target in targets:
+        # 同一查询在多部对应法规上检索：编码一次 + ES 并发，命中按 targets 下标回填，顺序与串行一致
+        target_results = self._search_laws_same_query(
+            self._target_query(question, source),
+            [target.get("law_id", "") for target in targets],
+            _MAX_TARGET_ARTICLES * 3,
+        )
+        for target, hits in zip(targets, target_results):
             target["same_jurisdiction"] = bool(
                 source.get("jurisdiction") and
                 target.get("jurisdiction") == source.get("jurisdiction")
             )
-            target["articles"] = self._target_articles(question, source, target)
+            target["articles"] = self._target_articles_from_hits(
+                target, self._by_cosine(hits)
+            )
 
         refs = [{
             "law_id": source.get("law_id", ""),
