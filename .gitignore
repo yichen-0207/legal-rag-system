@@ -60,6 +60,12 @@ evidence_stage8/
 
 # 一次性实验脚本（以 _ 开头的临时探针）
 /legal_rag/evals/scripts/_exp_*.py
+# 单次问题归因探针（S6 法域名剥离等），结论已归档在评测记录里
+/legal_rag/evals/scripts/probe_s6_*.py
+# 探针结果输出（一次性诊断数据）
+/legal_rag/evals/results/probe_*.json
+/legal_rag/evals/results/p3_agent_profile.json
+/legal_rag/evals/results/agent_a1_ab_*.json
 # 探针结果的临时备份
 /legal_rag/evals/results/*.prev.json
 
