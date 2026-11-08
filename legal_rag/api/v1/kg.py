@@ -1,4 +1,5 @@
 import logging
+import time
 
 from fastapi import APIRouter, Query, Body
 from typing import Optional, Dict
@@ -21,6 +22,27 @@ logger = logging.getLogger(__name__)
 # FastAPI 会把 def 路由放进线程池；写成 async def 会独占单进程的事件循环（参见 api/v1/search.py）。
 router = APIRouter(prefix="/kg", tags=["知识图谱"])
 repo = ElasticsearchRepository()
+
+# 进程内短缓存（拓扑分析结果）：一次 analyze 要对近万个节点跑 Louvain + PageRank + 采样介数，
+# 实测 4.1s，而结果只随图谱内容变化。键含数据版本号，管理员改数据后自动失效。
+_ANALYTICS_CACHE: Dict[str, tuple] = {}
+_ANALYTICS_TTL = 300.0
+
+# 进程内短缓存（质量报告）：/quality 每次对全量实体/三元组做聚合，实测 0.48-0.57s，
+# 结果同样只随知识层内容变化；键只含数据版本号（该接口无参数），版本变更即失效。
+_QUALITY_CACHE: Dict[str, tuple] = {}
+_QUALITY_TTL = 300.0
+
+
+def _analytics_version() -> str:
+    """取当前数据版本号（复用 redis_cache 的 bump_data_version 机制）。"""
+    try:
+        from utils.redis_cache import get_data_version
+        return str(get_data_version())
+    except Exception:
+        return "static"
+
+
 analysis_service = StructuredAnalysisService()
 # 抽取服务含 ES 客户端与 LLM 客户端，模块级单例复用，避免每请求重建连接
 extractor = KGExtractionService()
@@ -147,8 +169,22 @@ def get_kg_statistics():
 
 @router.get("/quality")
 def get_kg_quality():
-    """知识图谱质量与治理指标（覆盖率/平均度/密度/孤立实体率/类型分布），无 LLM 调用。"""
-    return APIResponse(success=True, data=quality_service.get_quality_report())
+    """知识图谱质量与治理指标（覆盖率/平均度/密度/孤立实体率/类型分布），无 LLM 调用。
+
+    每次都要对全量实体/三元组做聚合（实测 0.48-0.57s），结果只随知识层内容变化，
+    故加与 /analytics 同口径的进程内短缓存：键含数据版本号，管理员改数据后自动失效。
+    """
+    cache_key = _analytics_version()
+    hit = _QUALITY_CACHE.get(cache_key)
+    if hit is not None and time.time() - hit[0] < _QUALITY_TTL:
+        return APIResponse(success=True, data=hit[1])
+
+    data = quality_service.get_quality_report()
+    # 只保留当前数据版本下的缓存项，避免版本切换后旧键堆积
+    for k in [k for k in _QUALITY_CACHE if k != cache_key]:
+        _QUALITY_CACHE.pop(k, None)
+    _QUALITY_CACHE[cache_key] = (time.time(), data)
+    return APIResponse(success=True, data=data)
 
 
 @router.get("/entities")
@@ -276,6 +312,11 @@ def get_analytics(
     top_n: int = Query(10, ge=5, le=30, description="榜单长度"),
 ):
     """知识图谱拓扑分析（社区检测 + PageRank + 介数中心性），零 LLM 调用。"""
+    cache_key = "%s:%s:%d" % (_analytics_version(), law_id or "*", top_n)
+    hit = _ANALYTICS_CACHE.get(cache_key)
+    if hit is not None and time.time() - hit[0] < _ANALYTICS_TTL:
+        return APIResponse(success=True, data=hit[1])
+
     if law_id:
         law_data = repo.get_law_by_id(law_id)
         if not law_data:
@@ -285,12 +326,14 @@ def get_analytics(
     else:
         graph = extractor.format_graph(repo.get_all_kg_triples())
 
-    return APIResponse(
-        success=True,
-        data=graph_analysis.analyze(
-            graph.get("nodes", []), graph.get("edges", []), top_n=top_n
-        ),
+    data = graph_analysis.analyze(
+        graph.get("nodes", []), graph.get("edges", []), top_n=top_n
     )
+    # 只保留当前数据版本下的缓存项，避免版本切换后旧键堆积
+    for k in [k for k in _ANALYTICS_CACHE if not k.startswith(_analytics_version() + ":")]:
+        _ANALYTICS_CACHE.pop(k, None)
+    _ANALYTICS_CACHE[cache_key] = (time.time(), data)
+    return APIResponse(success=True, data=data)
 
 
 @router.get("/concept-matrix")

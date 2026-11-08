@@ -4,6 +4,13 @@ from fastapi import APIRouter, Query, HTTPException
 from typing import List, Dict, Optional, Any
 from datetime import datetime
 import json
+import os
+import tempfile
+
+try:  # orjson 解析大 JSON 比标准库快约 1.5-2 倍；缺失时自动回退
+    import orjson as _orjson
+except Exception:  # pragma: no cover
+    _orjson = None
 
 from schemas import APIResponse
 from repositories.elasticsearch import ElasticsearchRepository, _to_label_zh, _jurisdiction_to_zh, is_excluded_topic
@@ -13,6 +20,26 @@ router = APIRouter(prefix="/stats", tags=["数据统计"])
 
 repo = ElasticsearchRepository()
 catalog = LawCatalog()
+
+# 进程内短缓存（雷达图）：数据源是 data/raw 下全部法域目录的 JSON，结果只随语料变化。
+# 键含数据版本号；管理员增删改法规会 bump_data_version，缓存随版本自然失效。
+_RADAR_CACHE: Dict[str, Any] = {}
+_RADAR_TTL = 300.0
+
+# 原始语料索引：只保存「法域 → 主题 → chunk 数」，不保留 chunk 正文/向量。
+# 目录 mtime + 数据版本未变时整目录复用；否则按每个 JSON 的 (size, mtime) 指纹增量解析。
+# 解析逻辑变更时必须把版本号 +1，否则会沿用旧口径的结果。索引放 /tmp，不进仓库。
+_RADAR_INDEX_VERSION = 3
+_RADAR_INDEX_FILE = os.path.join(tempfile.gettempdir(), "legal_radar_index_v3.json")
+
+
+def _data_version_key() -> str:
+    """取当前数据版本号（复用 redis_cache 的 bump_data_version 机制）。"""
+    try:
+        from utils.redis_cache import get_data_version
+        return str(get_data_version())
+    except Exception:
+        return "static"
 
 
 # ==================== 数据获取辅助函数（不包含路由参数） ====================
@@ -301,42 +328,241 @@ def _fetch_timeline_data(jurisdiction: Optional[str] = None) -> dict:
     }
 
 
+def _chunk_topic_labels(chunk: Dict) -> List[str]:
+    """解析一条原始 chunk 的主题中文标签，兼容两种上游格式。
+
+    - 新版：``topics_details`` = [{"id": ..., "label_zh": ...}]，有中文标签，优先使用；
+    - 旧版/其它语料：``topics`` = ["data_protection", ...] 字符串列表，无 label_zh，
+      回退按 topic_id 转中文标签；若 ``topics`` 本身是 dict 列表也照样取 label_zh。
+    """
+    details = chunk.get("topics_details")
+    labels: List[str] = []
+    if isinstance(details, list) and details:
+        for item in details:
+            if isinstance(item, dict):
+                label = item.get("label_zh") or item.get("label_en") or ""
+                if not label:
+                    tid = item.get("id") or item.get("topic_id") or ""
+                    label = _to_label_zh(tid) if tid else ""
+            elif isinstance(item, str):
+                label = _to_label_zh(item)
+            else:
+                continue
+            if label:
+                labels.append(label)
+        if labels:
+            return labels
+
+    topics = chunk.get("topics")
+    if isinstance(topics, list):
+        for item in topics:
+            if isinstance(item, dict):
+                label = item.get("label_zh") or item.get("label_en") or ""
+            elif isinstance(item, str):
+                label = _to_label_zh(item)
+            else:
+                continue
+            if label:
+                labels.append(label)
+    return labels
+
+
+def _load_raw_json(fpath: str):
+    """读取原始 chunk JSON；优先 orjson，缺失时回退标准库。"""
+    if _orjson is not None:
+        with open(fpath, "rb") as fh:
+            return _orjson.loads(fh.read())
+    with open(fpath, "r", encoding="utf-8") as fh:
+        return json.load(fh)
+
+
+def _summarize_raw_file(fpath: str) -> Dict[str, Any]:
+    """统计单个原始 JSON 的「法域 → 主题 → chunk 数」，结果可写入索引复用。"""
+    try:
+        chunks = _load_raw_json(fpath)
+    except Exception:
+        return {"error": True}
+    if not isinstance(chunks, list):
+        return {"error": True}
+
+    jur_topics: Dict[str, Dict[str, int]] = {}
+    jur_chunks: Dict[str, int] = {}
+    no_jur = 0
+    for chunk in chunks:
+        if not isinstance(chunk, dict):
+            continue
+        jur = _jurisdiction_to_zh(chunk.get("jurisdiction") or "")
+        if not jur:
+            no_jur += 1
+            continue
+        jur_chunks[jur] = jur_chunks.get(jur, 0) + 1
+        bucket = jur_topics.setdefault(jur, {})
+        # 同一条 chunk 内同一主题只计一次，避免重复计入覆盖度
+        for label in set(_chunk_topic_labels(chunk)):
+            if is_excluded_topic(label):
+                continue
+            bucket[label] = bucket.get(label, 0) + 1
+    return {"jur_topics": jur_topics, "jur_chunks": jur_chunks, "no_jur": no_jur}
+
+
+def _read_radar_index() -> Dict[str, Any]:
+    """读取原始语料索引；版本不符或损坏时返回空索引。"""
+    try:
+        with open(_RADAR_INDEX_FILE, "r", encoding="utf-8") as fh:
+            idx = json.load(fh)
+        if idx.get("version") == _RADAR_INDEX_VERSION and isinstance(idx.get("files"), dict):
+            return idx
+    except Exception:
+        pass
+    return {}
+
+
+def _write_radar_index(index: Dict[str, Any]) -> None:
+    """原子写入索引；失败不影响本次响应（下次只是重新解析）。"""
+    try:
+        tmp = _RADAR_INDEX_FILE + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as fh:
+            json.dump(index, fh, ensure_ascii=False)
+        os.replace(tmp, _RADAR_INDEX_FILE)
+    except Exception:
+        pass
+
+
+def _scan_region_dirs(raw_base: str) -> Dict[str, int]:
+    """返回 data/raw 下所有法域目录的 mtime 指纹（名 → mtime_ns），按名称排序。
+
+    只取目录自身 mtime：新增/删除/改名文件都会更新它，成本是「目录数」次 stat 而非「文件数」次。
+    文件内容原地改写不会更新目录 mtime，那种情况由数据版本号兜底。
+    """
+    dir_mtimes: Dict[str, int] = {}
+    try:
+        with os.scandir(raw_base) as it:
+            entries = sorted(it, key=lambda e: e.name)
+    except OSError:
+        return dir_mtimes
+    for entry in entries:
+        if entry.name.startswith("."):
+            continue
+        try:
+            if not entry.is_dir():
+                continue
+            dir_mtimes[entry.name] = entry.stat().st_mtime_ns
+        except OSError:
+            continue
+    return dir_mtimes
+
+
 def _fetch_radar_data(min_chunk_threshold: int = 3, max_dimensions: int = 10) -> dict:
-    """获取雷达图数据：从原始 JSON 的 topics.label_zh 动态统计各法域覆盖度并归一化到 0-100。
+    """获取雷达图数据：从原始 JSON 动态统计各法域的主题覆盖度并归一化到 0-100。
 
     低于 min_chunk_threshold 的维度不展示，最多取 max_dimensions 个。
+
+    - 法域目录不写死：扫描 data/raw 下所有子目录（跳过隐藏目录），并按名称排序遍历，
+      与文件名排序一起保证同一份语料每次返回相同的维度与法域顺序（图表不会刷新一次变一次）。
+    - 主题解析同时兼容 ``topics_details``（dict 列表，含 label_zh）与 ``topics``（字符串列表）。
+    - 响应区分「该法域无数据」与「整体算不出来」：``has_data`` / ``reason`` /
+      ``empty_jurisdictions`` / ``jurisdictions_without_raw_data``，不再静默返回空数组。
+
+    全量语料约 128MB / 540 个 JSON，单次解析代价高，分两层缓存：
+      1) 文件级索引（跨进程/重启有效）：目录 mtime 未变且数据版本未变时直接复用索引，
+         不再逐个 stat/解析文件；目录 mtime 变化时只重新解析该目录下指纹变化的文件；
+      2) 进程内 300s 结果缓存，键含「数据版本 + 目录 mtime 指纹」，目录增删文件会立即失效。
     """
-    import os
+    import time as _time
     from collections import defaultdict, Counter
+
+    raw_base = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "data", "raw")
+    cur_data_version = _data_version_key()
+    dir_mtimes = _scan_region_dirs(raw_base)
+    region_dirs = list(dir_mtimes.keys())
+    # 目录指纹既是缓存键的一部分，也是索引「是否可整目录信任」的依据
+    _dir_fingerprint = "|".join("%s:%d" % (k, v) for k, v in dir_mtimes.items())
+
+    _cache_key = "%s:%d:%d:%s" % (cur_data_version, min_chunk_threshold, max_dimensions, _dir_fingerprint)
+    _hit = _RADAR_CACHE.get(_cache_key)
+    if _hit is not None and _time.time() - _hit[0] < _RADAR_TTL:
+        return _hit[1]
+
+    _t0 = _time.time()
+
+    _cache_parse_hits = 0
+    _reparsed_files = 0
 
     # ---- 第一步：从原始 JSON 文件收集 (jurisdiction, label_zh) → chunk 数量 ----
     jur_topic_counts: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(int))
-    raw_base = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "data", "raw")
+    raw_chunk_counts: Dict[str, int] = defaultdict(int)
 
-    for region_dir in ("macau", "hongkong", "singapore"):
+    scanned_files = 0
+    failed_files = 0
+    no_jur_chunks = 0
+
+    _index = _read_radar_index()
+    cached_files = _index.get("files") or {}
+    cached_dir_mtimes = _index.get("dir_mtimes") or {}
+    # 数据版本变了，说明可能发生过原地改文件（不改目录 mtime），此时逐文件校验指纹
+    _version_unchanged = _index.get("data_version") == cur_data_version
+
+    new_files: Dict[str, Any] = {}
+    index_dirty = False
+
+    for region_dir in region_dirs:
         region_path = os.path.join(raw_base, region_dir)
-        if not os.path.isdir(region_path):
+        _trust_dir = bool(_version_unchanged) and cached_dir_mtimes.get(region_dir) == dir_mtimes[region_dir]
+        try:
+            names = sorted(os.listdir(region_path))
+        except OSError:
             continue
-        for fname in os.listdir(region_path):
+        for fname in names:
             if not fname.endswith(".json"):
                 continue
             fpath = os.path.join(region_path, fname)
-            try:
-                with open(fpath, "r", encoding="utf-8") as f:
-                    chunks = json.load(f)
-                if not isinstance(chunks, list):
+            rel = region_dir + "/" + fname
+
+            entry = cached_files.get(rel)
+            if _trust_dir and isinstance(entry, dict) and "error" not in entry:
+                # 目录 mtime 与数据版本都没变 → 文件不可能新增/删除/改写，直接用索引
+                _cache_parse_hits += 1
+            else:
+                try:
+                    st = os.stat(fpath)
+                    size, mtime = st.st_size, st.st_mtime_ns
+                except OSError:
                     continue
-                for chunk in chunks:
-                    jur = chunk.get("jurisdiction", "")
-                    if not jur:
-                        continue
-                    for topic_obj in chunk.get("topics", []):
-                        if isinstance(topic_obj, dict):
-                            label = topic_obj.get("label_zh", "")
-                            if label:
-                                jur_topic_counts[jur][label] += 1
-            except Exception:
+                if (
+                    isinstance(entry, dict)
+                    and entry.get("size") == size
+                    and entry.get("mtime") == mtime
+                    and "error" not in entry
+                ):
+                    _cache_parse_hits += 1
+                else:
+                    entry = {"size": size, "mtime": mtime, **_summarize_raw_file(fpath)}
+                    index_dirty = True
+                    _reparsed_files += 1
+
+            new_files[rel] = entry
+            if entry.get("error"):
+                failed_files += 1
                 continue
+            scanned_files += 1
+            no_jur_chunks += entry.get("no_jur", 0)
+            for jur, cnt in (entry.get("jur_chunks") or {}).items():
+                raw_chunk_counts[jur] += cnt
+            for jur, topics in (entry.get("jur_topics") or {}).items():
+                bucket = jur_topic_counts[jur]
+                for label, cnt in topics.items():
+                    bucket[label] += cnt
+
+    # 目录或文件集合变化也要让索引收敛
+    if set(cached_files) != set(new_files):
+        index_dirty = True
+    if index_dirty:
+        _write_radar_index({
+            "version": _RADAR_INDEX_VERSION,
+            "data_version": cur_data_version,
+            "dir_mtimes": dir_mtimes,
+            "files": new_files,
+        })
 
     # ---- 第二步：统计全局各主题的总 chunk 数，筛选出有效维度 ----
     global_topic_counter: Counter = Counter()
@@ -344,56 +570,82 @@ def _fetch_radar_data(min_chunk_threshold: int = 3, max_dimensions: int = 10) ->
         for label, cnt in jur_topics.items():
             global_topic_counter[label] += cnt
 
-    # 过滤低于阈值的主题，并取前 max_dimensions 个作为雷达图维度
-    dimensions = [
-        label for label, _ in global_topic_counter.most_common()
-        if global_topic_counter[label] >= min_chunk_threshold
-    ][:max_dimensions]
+    # 过滤低于阈值的主题；同票数时按名称排序，保证维度顺序稳定
+    ordered_topics = sorted(global_topic_counter.items(), key=lambda kv: (-kv[1], kv[0]))
+    dimensions = [label for label, cnt in ordered_topics if cnt >= min_chunk_threshold][:max_dimensions]
 
     # 若没有任何维度达到阈值，回退到全部主题（上限 max_dimensions）
     if not dimensions:
-        dimensions = [label for label, _ in global_topic_counter.most_common(max_dimensions)]
+        dimensions = [label for label, _ in ordered_topics[:max_dimensions]]
 
-    # ---- 第三步：获取实际有数据的法域列表 ----
-    jurisdictions = sorted(jur_topic_counts.keys())
-
-    # 若原始文件未覆盖，补充 catalog 中的法域
-    catalog_jurs = {j["jurisdiction"] for j in _fetch_jurisdiction_data()}
-    for j in catalog_jurs:
-        if j not in jurisdictions:
-            jurisdictions.append(j)
+    # ---- 第三步：获取法域列表（原始数据里的 + catalog 里的，并集后排序）----
+    jurisdictions = set(jur_topic_counts.keys())
+    catalog_jurs = {_jurisdiction_to_zh(j["jurisdiction"]) for j in _fetch_jurisdiction_data()}
+    jurisdictions.update(j for j in catalog_jurs if j)
 
     # ---- 第四步：计算每个法域在每个维度的得分 ----
     radar_data: Dict[str, List[int]] = {}
-    for jur in jurisdictions:
-        scores = []
+    for jur in sorted(jurisdictions):
         topic_counter = jur_topic_counts.get(jur, {})
-        for dim in dimensions:
-            scores.append(topic_counter.get(dim, 0))
-        radar_data[jur] = scores
+        radar_data[jur] = [topic_counter.get(dim, 0) for dim in dimensions]
 
     # ---- 第五步：归一化到 0-100 分 ----
     all_scores = [s for scores in radar_data.values() for s in scores]
-    max_score = max(all_scores) if all_scores else 1
+    max_score = max(all_scores) if all_scores else 0
     if max_score == 0:
-        max_score = 1
+        normalized = {jur: [0.0 for _ in scores] for jur, scores in radar_data.items()}
+    else:
+        normalized = {
+            jur: [round((s / max_score) * 100, 1) for s in scores]
+            for jur, scores in radar_data.items()
+        }
 
-    normalized = {
-        jur: [round((s / max_score) * 100, 1) for s in scores]
-        for jur, scores in radar_data.items()
-    }
+    # ---- 第六步：区分「该法域无数据」与「整体算不出来」----
+    has_data = bool(dimensions) and max_score > 0
+    if not scanned_files:
+        reason = "no_raw_files"
+    elif not global_topic_counter:
+        reason = "no_topics"
+    elif not dimensions:
+        reason = "all_topics_below_threshold"
+    else:
+        reason = ""
 
-    return {
+    empty_jurisdictions = sorted(
+        jur for jur, scores in radar_data.items() if not any(scores)
+    )
+    jurisdictions_without_raw_data = sorted(
+        jur for jur in radar_data if raw_chunk_counts.get(jur, 0) == 0
+    )
+
+    _payload = {
         "dimensions": dimensions,
         "jurisdictions": normalized,
+        "has_data": has_data,
+        "reason": reason,
+        "empty_jurisdictions": empty_jurisdictions,
+        "jurisdictions_without_raw_data": jurisdictions_without_raw_data,
+        "raw_chunk_counts": {jur: raw_chunk_counts.get(jur, 0) for jur in radar_data},
         "_meta": {
-            "dimension_source": "dynamic_from_topics",
+            "dimension_source": "dynamic_from_topics_details",
             "total_topics_found": len(global_topic_counter),
             "dimensions_after_filter": len(dimensions),
             "min_chunk_threshold": min_chunk_threshold,
+            "scan_dirs": region_dirs,
+            "scanned_files": scanned_files,
+            "failed_files": failed_files,
+            "chunks_without_jurisdiction": no_jur_chunks,
+            "index_reused_files": _cache_parse_hits,
+            "index_reparsed_files": _reparsed_files,
+            "scan_seconds": round(_time.time() - _t0, 3),
             "all_available_topics": dict(global_topic_counter.most_common())
         }
     }
+    # 只保留当前数据版本下的缓存项，避免版本切换/目录变更后旧键堆积
+    for _k in [k for k in _RADAR_CACHE if not k.startswith(cur_data_version + ":")]:
+        _RADAR_CACHE.pop(_k, None)
+    _RADAR_CACHE[_cache_key] = (_time.time(), _payload)
+    return _payload
 
 
 # ==================== API 路由函数 ====================
