@@ -91,6 +91,8 @@ services:
       - LEGAL_ADMIN_TOKEN=${LEGAL_ADMIN_TOKEN:-dev_admin_token_change_me}
       # 答案层 Redis：开启后问答答案跨 backend 重启留存；Redis 不可用自动降级为进程内 LRU
       - LEGAL_REDIS_CACHE_ENABLED=${LEGAL_REDIS_CACHE_ENABLED:-true}
+      # 数据版本 bump 后是否后台异步清理旧版本答案缓存键（SCAN，不阻塞写操作）
+      - LEGAL_REDIS_STALE_CLEANUP_ENABLED=${LEGAL_REDIS_STALE_CLEANUP_ENABLED:-true}
       - LEGAL_REDIS_URL=redis://legal-redis:6379/0
       # 数据目录：管理端写入 /app/data/raw（原始语料）；入库扫描 /app/data/raw_v2（阶段 1 清洗产物）
       - LEGAL_DATA_DIR=/app/data/raw
@@ -147,6 +149,8 @@ services:
       - LEGAL_AGENT_PROBE_MIN_SIMILARITY=${LEGAL_AGENT_PROBE_MIN_SIMILARITY:-0.7}
       - LEGAL_AGENT_PROBE_MIN_RESULTS=${LEGAL_AGENT_PROBE_MIN_RESULTS:-2}
       - TOKENIZERS_PARALLELISM=false
+      # 雷达图索引持久目录：与下面的命名卷对应，容器 recreate 后索引仍可复用
+      - LEGAL_RADAR_CACHE_DIR=/var/cache/legal-radar
     volumes:
       # 挂载本地 ML 模型（避免在容器内下载）
       # 模型目录由 .env 的 LEGAL_MODELS_DIR 指定，默认项目内 ./models
@@ -159,6 +163,9 @@ services:
       - ./legal_rag/data/raw:/app/data/raw:rw
       - ./legal_rag/data/law_catalog.json:/app/data/law_catalog.json
       - ./legal_rag/data/taxonomy_merged.json:/app/data/taxonomy_merged.json:ro
+      # 雷达图原始语料索引：命名卷持久化，容器 recreate 后仍可复用（不再重扫 13.3s）。
+      # 刻意不放在 /app 下：/app 被源码 bind-mount 覆盖，写进去会污染 git 跟踪目录。
+      - legal_radar_cache:/var/cache/legal-radar
     # 就绪探针：打 /health/ready（模型加载完成后才 200，预热期间 503）。
     # 不用 /health：那个只要进程活着就返回 200，无法反映"能不能高效服务"。
     # 镜像基于 python:3.10-slim，没有 curl，故用 python 发起请求。
@@ -182,6 +189,20 @@ services:
     depends_on:
       elasticsearch:
         condition: service_healthy
+      radar-cache-init:
+        condition: service_completed_successfully
+
+  # 一次性初始化：Docker 新建命名卷时目录属主是 root，而 backend 以 appuser(10001) 运行。
+  # 不把属主交出去，雷达索引就无法落盘，会静默回退 /tmp —— 那正是本次要根治的问题。
+  # 只做 chown 后退出（restart: no），不改 backend 的运行用户与权限模型。
+  radar-cache-init:
+    image: legal-rag-backend:latest
+    container_name: legal-radar-cache-init
+    user: root
+    restart: "no"
+    volumes:
+      - legal_radar_cache:/var/cache/legal-radar
+    command: ["sh", "-c", "chown -R 10001:10001 /var/cache/legal-radar"]
 
   frontend:
     image: nginx:alpine
@@ -210,3 +231,5 @@ volumes:
     external: true
   legal_redis_data:
     name: legal_redis_data
+  legal_radar_cache:
+    name: legal_radar_cache

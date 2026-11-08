@@ -156,9 +156,27 @@ function loadLawPage(page) {
         }
         return resp.data;
     }).catch(function(err) {
+        // 后端对不存在的法规返回 404（契约见 api/v1/search.py），这里给友好提示而非报错页
+        if (err && err.status === 404) {
+            renderLawNotFound(ldState.lawId);
+            return null;
+        }
         showError(document.getElementById('law-detail-content'), '请求失败：' + err.message);
         return null;
     });
+}
+
+/** 法规不存在：不显示异常堆栈/白屏，提供明确文案与返回入口 */
+function renderLawNotFound(lawId) {
+    var el = document.getElementById('law-detail-content');
+    if (!el) return;
+    el.innerHTML =
+        '<div class="alert alert-warning">' +
+            '<strong>未找到该法规</strong>' +
+            '<div style="margin-top:6px;">法规 ID「' + escapeHtml(String(lawId || '')) +
+            '」不存在，可能已下线或链接有误。</div>' +
+        '</div>' +
+        '<button class="btn btn-secondary" onclick="goBackToSearch()">返回检索</button>';
 }
 
 function loadSimilar() {

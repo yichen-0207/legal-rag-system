@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Query, HTTPException
 from typing import List, Optional
 from core.jurisdiction import normalize_jurisdiction
 from schemas import APIResponse, SearchResult, DocumentMetadata, SimilarLawResponse, SimilarChunkResponse
@@ -117,13 +117,17 @@ def get_law(
     page_size: int = Query(1000, ge=1, le=2000, description="每页文档块数"),
     outline: bool = Query(False, description="是否返回完整条款目录（供前端生成目录导航）")
 ):
-    """根据law_id获取法规详情（支持分页与条款目录）"""
+    """根据law_id获取法规详情（支持分页与条款目录）
+
+    找不到法规时返回 404（detail 为可读文案），页码越界返回 400：
+    前端统一请求封装按 HTTP 状态分流，不再把「不存在」伪装成 200 业务失败。
+    """
     try:
         law = repo.get_law_by_id(law_id, page=page, page_size=page_size, include_outline=outline)
     except ValueError as e:
-        return APIResponse(success=False, message=str(e))
+        raise HTTPException(status_code=400, detail=str(e))
     if law is None:
-        return APIResponse(success=False, message="法规不存在")
+        raise HTTPException(status_code=404, detail="法规不存在")
 
     # 合并法规目录（catalog）中的元数据：ES 文档仅存块级字段，法条级元信息以 catalog 为准
     entry = catalog.find_by_law_id(law_id) or {}

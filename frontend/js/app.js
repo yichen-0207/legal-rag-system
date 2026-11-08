@@ -1,10 +1,12 @@
 // Docker 环境用相对路径（Nginx 反代）；本地调试改为 'http://127.0.0.1:8001/api/v1'
 const API_BASE = '/api/v1';
 
-// HTTP 错误统一转 Error：429（nginx IP 限流超限）给友好文案，其余保留状态码便于排查
+// HTTP 错误统一转 Error：429（nginx IP 限流超限）给友好文案，其余保留状态码便于排查。
+// status 挂在 Error 上，调用方需要区分 404/400 等语义时按 err.status 判断。
 function apiHttpError(resp) {
-    if (resp.status === 429) return new Error('请求过于频繁，请稍后再试');
-    return new Error(`API错误: ${resp.status}`);
+    const err = new Error(resp.status === 429 ? '请求过于频繁，请稍后再试' : `API错误: ${resp.status}`);
+    err.status = resp.status;
+    return err;
 }
 
 const api = {

@@ -205,6 +205,12 @@ def start_warmup():
     if _warmup_started:
         return
     _warmup_started = True
+    # 启动时打印 Redis 答案缓存开关的最终生效值与来源：禁用同样明确可见，避免静默失效
+    try:
+        from utils.redis_cache import log_effective_config
+        log_effective_config()
+    except Exception as e:
+        logging.getLogger("legal_rag").warning("打印 Redis 缓存开关状态失败: %s", e)
     threading.Thread(target=_warmup_models, name="model-warmup", daemon=True).start()
 
 # 跨域白名单：正常部署走 nginx 同源反代不触发 CORS，仅保留本地调试场景；

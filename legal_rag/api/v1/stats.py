@@ -4,8 +4,11 @@ from fastapi import APIRouter, Query, HTTPException
 from typing import List, Dict, Optional, Any
 from datetime import datetime
 import json
+import logging
 import os
 import tempfile
+
+logger = logging.getLogger(__name__)
 
 try:  # orjson 解析大 JSON 比标准库快约 1.5-2 倍；缺失时自动回退
     import orjson as _orjson
@@ -28,9 +31,35 @@ _RADAR_TTL = 300.0
 
 # 原始语料索引：只保存「法域 → 主题 → chunk 数」，不保留 chunk 正文/向量。
 # 目录 mtime + 数据版本未变时整目录复用；否则按每个 JSON 的 (size, mtime) 指纹增量解析。
-# 解析逻辑变更时必须把版本号 +1，否则会沿用旧口径的结果。索引放 /tmp，不进仓库。
+# 解析逻辑变更时必须把版本号 +1，否则会沿用旧口径的结果。
+# 落盘位置由 LEGAL_RADAR_CACHE_DIR 指定（compose 命名卷 /var/cache/legal-radar），
+# 容器 recreate 后索引仍在；未配置或目录不可写时退回系统临时目录（旧行为）。
 _RADAR_INDEX_VERSION = 3
-_RADAR_INDEX_FILE = os.path.join(tempfile.gettempdir(), "legal_radar_index_v3.json")
+_RADAR_INDEX_FILENAME = "legal_radar_index_v%d.json" % _RADAR_INDEX_VERSION
+
+
+def _resolve_radar_index_file() -> str:
+    """解析索引文件路径：优先持久目录，不可用时回退 /tmp 并记录原因。"""
+    from core.config import settings
+
+    configured = (settings.radar_cache_dir or "").strip()
+    if configured:
+        try:
+            os.makedirs(configured, exist_ok=True)
+            probe = os.path.join(configured, ".write_probe")
+            with open(probe, "w", encoding="utf-8") as fh:
+                fh.write("1")
+            os.remove(probe)
+            logger.info("[雷达索引] 持久目录可用: %s", configured)
+            return os.path.join(configured, _RADAR_INDEX_FILENAME)
+        except OSError as e:
+            logger.warning("[雷达索引] 持久目录不可写，回退临时目录: %s (%s)", configured, e)
+    else:
+        logger.warning("[雷达索引] 未配置 LEGAL_RADAR_CACHE_DIR，索引落临时目录：容器重建后会丢失")
+    return os.path.join(tempfile.gettempdir(), _RADAR_INDEX_FILENAME)
+
+
+_RADAR_INDEX_FILE = _resolve_radar_index_file()
 
 
 def _data_version_key() -> str:

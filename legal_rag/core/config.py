@@ -145,8 +145,9 @@ class Settings(BaseSettings):
     # 单个观测片段字符上限
     agent_obs_max_chars: int = 300
     # search_laws 每条结果是否附带 total_chars/truncated/omitted_chars。
-    # A/B 单变量开关：关闭后工具输出与改动前逐字一致（默认开）
-    agent_search_obs_meta_enabled: bool = True
+    # A1 盲评：开臂去偏后 9 平 1 胜（唯一胜例来自关臂）、token 多 13.1%，且有一例稳定回归，
+    # 无「开得更准」的证据，故默认关闭；开关保留，需要时可用环境变量打开做对照。
+    agent_search_obs_meta_enabled: bool = False
     # 收口时送精排的候选数上限（同时是最终证据条数上限，控制 prompt 规模）
     agent_finalize_max_candidates: int = 12
     # 最终送入 LLM 的证据条数（应大于 top_k）
@@ -204,6 +205,12 @@ class Settings(BaseSettings):
     redis_answer_cache_ttl: int = 86400
     # Redis 内答案条数上限（按写入时间淘汰）
     redis_answer_cache_max_entries: int = 300
+    # bump_data_version 后是否后台异步清理旧版本前缀的答案缓存键（SCAN，非阻塞）
+    redis_stale_cleanup_enabled: bool = True
+
+    # 雷达图原始语料索引落盘目录。留空时退回系统临时目录（容器内 recreate 即丢）；
+    # compose 通过命名卷挂到 /var/cache/legal-radar 并注入 LEGAL_RADAR_CACHE_DIR。
+    radar_cache_dir: str = ""
 
     # 实体消歧 L3 向量对齐：仅作变体兜底，误合并由编辑距离/长度/数字三重守卫拦截
     entity_align_enabled: bool = True
