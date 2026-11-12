@@ -152,11 +152,19 @@ services:
       # 雷达图索引持久目录：与下面的命名卷对应，容器 recreate 后索引仍可复用
       - LEGAL_RADAR_CACHE_DIR=/var/cache/legal-radar
     volumes:
-      # 挂载本地 ML 模型（避免在容器内下载）
-      # 模型目录由 .env 的 LEGAL_MODELS_DIR 指定，默认项目内 ./models
-      - ${LEGAL_MODELS_DIR:-./models}/bge-m3:/models/bge-m3:ro
-      - ${LEGAL_MODELS_DIR:-./models}/bge-reranker-v2-m3:/models/bge-reranker-v2-m3:ro
-      # 挂载后端源码：改代码后重启容器即可生效，无需重建镜像
+      # 模型挂载到 VM 内 ext4 命名卷（原 Windows bind mount 保留在下方作为回退）。
+      # 实测：bind mount(Windows 9p) 顺序读 125 MB/s，ext4 卷 direct 读 3.8 GB/s；
+      # 同一 from_pretrained(torch_dtype=float16) 36.1s → 13.8s，冷启动主要成本在 io 而非反序列化。
+      - legal_models:/models
+      # 回退方式：注释上一行，恢复下面两行 bind mount，再执行 docker compose up -d backend
+      # - ${LEGAL_MODELS_DIR:-./models}/bge-m3:/models/bge-m3:ro
+      # - ${LEGAL_MODELS_DIR:-./models}/bge-reranker-v2-m3:/models/bge-reranker-v2-m3:ro
+      # 源码以 bind mount 挂载：开发期热改，改代码后重启容器即生效，无需 rebuild。
+      # 【已评估并撤销】曾把源码烤进镜像（去掉本行、改由 Dockerfile `COPY legal_rag/ .` 提供），
+      # 期望消除启动期 Python import 的冷读开销。同机 A/B 实测无实质收益：
+      #   restart 30.9 / 32.5 / 34.3 / 37.1s（烤入） vs 34.8 / 35.2s（bind mount）；
+      #   up -d 43.0s（烤入） vs 33.8s（bind mount），反而更慢。
+      # 故保留 bind mount。如日后重新评估该方案：注释本行并 rebuild（改代码即需 build）。
       - ./legal_rag:/app
       # 挂载法规数据
       # data/raw 必须可写：管理端新增/修改/删除法规会写入该目录（含新建法域子目录）
@@ -233,3 +241,7 @@ volumes:
     name: legal_redis_data
   legal_radar_cache:
     name: legal_radar_cache
+  # 模型卷：由一次性拷贝容器从 ./models 灌入（19 个文件 / 4.29 GiB，sha256 全量校验一致）。
+  # 固定卷名，避免 compose 自动加项目前缀导致与已建好的卷不匹配。
+  legal_models:
+    name: legal_models

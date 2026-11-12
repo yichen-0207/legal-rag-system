@@ -1,4 +1,4 @@
-# 本地模型文件：运行时通过 bind mount 挂载，无需打进构建上下文
+# 本地模型文件：运行时通过命名卷挂载，无需打进构建上下文
 # 若忽略此项，每次 docker compose build 都会向 daemon 传输约 6.4GB
 models/
 
@@ -6,8 +6,15 @@ models/
 .venv-eval/
 .git/
 
-# 语料与日志：运行时以 ./legal_rag 挂载卷为准（compose volumes），不打进镜像
+# 语料与日志：运行时以 compose 卷挂载为准，不打进镜像
 #（镜像内保留快照既无用又含全量语料，存在泄露面）
 legal_rag/data/
 legal_rag/logs/
 **/__pycache__/
+
+# 前端、截图与构建产物：后端镜像不需要，避免撑大构建上下文
+frontend/
+.screenshots/
+evidence_*/
+*.zip
+requirements-eval.txt
