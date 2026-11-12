@@ -1,0 +1,3236 @@
+[
+  {
+    "doc_id": "CN_DOC_7_2006_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第一条\n为了加强管理保险公司设立境外保险类机构的活动,防范风险,保障被保险人的利益,根据《中华人民共和国保险法》(以下简称《保险法》)等法\n律、行政法规,制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 69,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条\n为了加强管理保险公司设立境外保险类机构的活动,防范风险,保障被保险人的利益,根据《中华人民共和国保险法》(以下简称《保险法》)等法\n律、行政法规,制定本办法。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 43,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第二条 本办法所称保险公司,是指经中国保险监督管理委员会(以下简称中国保监会)批准设立,并依法登记注册的商业保险公司。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本办法所称保险公司,是指经中国保险监督管理委员会(以下简称中国保监会)批准设立,并依法登记注册的商业保险公司。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 41,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第三条 本办法所称境外保险类机构,是指保险公司的境外分支机构、境外保险公司和保险中介机构。\n本办法所称保险中介机构,是指保险代理机构、保险经纪机构和保险公估机构。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 本办法所称境外保险类机构,是指保险公司的境外分支机构、境外保险公司和保险中介机构。\n本办法所称保险中介机构,是指保险代理机构、保险经纪机构和保险公估机构。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 50,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第四条 本办法所称设立境外保险类机构,是指保险公司的下列行为:\n(一)设立境外分支机构、境外保险公司和保险中介机构;\n(二)收购境外保险公司和保险中介机构。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 66,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 本办法所称设立境外保险类机构,是指保险公司的下列行为:\n(一)设立境外分支机构、境外保险公司和保险中介机构;\n(二)收购境外保险公司和保险中介机构。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 454,
+    "source_end": 532,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第五条 本办法所称收购,是指保险公司受让境外保险公司、保险中介机构的股权、且其持有的股权达到该机构表决权资本总额20%及以上或者虽不足20%\n但对该机构拥有实际控制权、共同控制权或者重大影响的行为。\n保险公司收购上市的境外保险公司、保险中介机构的,适用本办法。中国保监会另有规定的从其规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 127,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 本办法所称收购,是指保险公司受让境外保险公司、保险中介机构的股权、且其持有的股权达到该机构表决权资本总额20%及以上或者虽不足20%\n但对该机构拥有实际控制权、共同控制权或者重大影响的行为。\n保险公司收购上市的境外保险公司、保险中介机构的,适用本办法。中国保监会另有规定的从其规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 44,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第六条 保险公司设立境外保险类机构应当遵守中国有关保险和外汇管理的法律、行政法规以及中国保监会相关规定,遵守境外的相关法律及规定。\n保险公司收购境外保险公司和保险中介机构,应当执行现行保险外汇资金的有关规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 97,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 保险公司设立境外保险类机构应当遵守中国有关保险和外汇管理的法律、行政法规以及中国保监会相关规定,遵守境外的相关法律及规定。\n保险公司收购境外保险公司和保险中介机构,应当执行现行保险外汇资金的有关规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 136,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第七条 中国保监会依法对保险公司设立境外保险类机构的活动实施监督管理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 33,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 中国保监会依法对保险公司设立境外保险类机构的活动实施监督管理。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 139,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第一章",
+    "chapter_title": "总则",
+    "text_zh": "第八条 保险公司在境外设立代表机构、联络机构或者办事处等非营业性机构的,适用本办法。\n第二章 设立审批",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 45,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 保险公司在境外设立代表机构、联络机构或者办事处等非营业性机构的,适用本办法。\n第二章 设立审批"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 820,
+    "source_end": 871,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第二章",
+    "chapter_title": "设立审批",
+    "text_zh": "第九条 保险公司设立境外保险类机构的,应当具备下列条件:\n(一)开业2年以上;(二)上年末总资产不低于50亿元人民币;\n(三)上年末外汇资金不低于1500万美元或者其等值的自由兑换货币;\n(四)偿付能力额度符合中国保监会有关规定;\n(五)内部控制制度和风险管理制度符合中国保监会有关规定;\n(六)最近2年内无受重大处罚的记录;(七)拟设立境外保险类机构所在的国家或者地区金融监管制度完善,并与中国保险监管机构保持有效的监管合作关系;\n(八)中国保监会规定的其他条件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 191,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 保险公司设立境外保险类机构的,应当具备下列条件:\n(一)开业2年以上;(二)上年末总资产不低于50亿元人民币;\n(三)上年末外汇资金不低于1500万美元或者其等值的自由兑换货币;\n(四)偿付能力额度符合中国保监会有关规定;\n(五)内部控制制度和风险管理制度符合中国保监会有关规定;\n(六)最近2年内无受重大处罚的记录;(七)拟设立境外保险类机构所在的国家或者地区金融监管制度完善,并与中国保险监管机构保持有效的监管合作关系;\n(八)中国保监会规定的其他条件。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4176,
+    "source_end": 4459,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第二章",
+    "chapter_title": "设立审批",
+    "text_zh": "第十条 保险公司申请设立境外分支机构、境外保险公司和保险中介机构的,应当向中国保监会提交下列材料:\n(一)申请书;(二)国家外汇管理局外汇资金来源核准决定的复印件;\n(三)上一年度经会计师事务所审计的公司财务报表及外币资产负债表;\n(四)上一年度经会计师事务所审计的偿付能力状况报告;\n(五)内部控制制度和风险管理制度;(六)拟设境外保险类机构的基本情况说明,包括名称、住所、章程、注册资本或者营运资金、股权结构及出资额、业务范围、筹建负责人简历及身份证明\n材料复印件;(七)拟设境外保险类机构的可行性研究报告、市场分析报告和筹建方案;\n(八)拟设境外保险类机构所在地法律要求保险公司为其设立的境外保险类机构承担连带责任的,提交相关说明材料;\n(九)中国保监会规定的其他材料。\n保险公司在境外设立的保险公司、保险中介机构有其他发起人的,还应当提交其他发起人的名称、股份认购协议书复印件、营业执照以及上一年度经会\n计师事务所审计的资产负债表。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 366,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 保险公司申请设立境外分支机构、境外保险公司和保险中介机构的,应当向中国保监会提交下列材料:\n(一)申请书;(二)国家外汇管理局外汇资金来源核准决定的复印件;\n(三)上一年度经会计师事务所审计的公司财务报表及外币资产负债表;\n(四)上一年度经会计师事务所审计的偿付能力状况报告;\n(五)内部控制制度和风险管理制度;(六)拟设境外保险类机构的基本情况说明,包括名称、住所、章程、注册资本或者营运资金、股权结构及出资额、业务范围、筹建负责人简历及身份证明\n材料复印件;(七)拟设境外保险类机构的可行性研究报告、市场分析报告和筹建方案;\n(八)拟设境外保险类机构所在地法律要求保险公司为其设立的境外保险类机构承担连带责任的,提交相关说明材料;\n(九)中国保监会规定的其他材料。\n保险公司在境外设立的保险公司、保险中介机构有其他发起人的,还应当提交其他发起人的名称、股份认购协议书复印件、营业执照以及上一年度经会\n计师事务所审计的资产负债表。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 19.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3782,
+    "source_end": 3793,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第二章",
+    "chapter_title": "设立审批",
+    "text_zh": "第十一条 保险公司申请收购境外保险公司和保险中介机构的,应当向中国保监会提交下列材料:\n(一)申请书;(二)国家外汇管理局外汇资金来源核准决定的复印件;\n(三)上一年度经会计师事务所审计的公司财务报表及外币资产负债表;\n(四)上一年度和最近季度经会计师事务所审计的偿付能力状况报告及其说明;\n(五)内部管理制度和风险控制制度;(六)拟被收购的境外保险类机构的基本情况说明,包括名称、住所、章程、注册资本或者营运资金、业务范围、负责人情况说明;\n(七)拟被收购的境外保险类机构上一年度经会计师事务所审计的公司财务报表;\n(八)收购境外保险类机构的可行性研究报告、市场分析报告、收购方案;\n(九)中国保监会规定的其他材料。\n拟被收购境外保险类机构为保险公司的,还应当提交其上一年度和最近季度经会计师事务所审计的偿付能力状况报告及说明。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 317,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 保险公司申请收购境外保险公司和保险中介机构的,应当向中国保监会提交下列材料:\n\n(一)申请书;(二)国家外汇管理局外汇资金来源核准决定的复印件;\n(三)上一年度经会计师事务所审计的公司财务报表及外币资产负债表;\n(四)上一年度和最近季度经会计师事务所审计的偿付能力状况报告及其说明;\n(五)内部管理制度和风险控制制度;(六)拟被收购的境外保险类机构的基本情况说明,包括名称、住所、章程、注册资本或者营运资金、业务范围、负责人情况说明;\n(七)拟被收购的境外保险类机构上一年度经会计师事务所审计的公司财务报表;\n(八)收购境外保险类机构的可行性研究报告、市场分析报告、收购方案;\n(九)中国保监会规定的其他材料。\n拟被收购境外保险类机构为保险公司的,还应当提交其上一年度和最近季度经会计师事务所审计的偿付能力状况报告及说明。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1527,
+    "source_end": 1893,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第二章",
+    "chapter_title": "设立审批",
+    "text_zh": "第十二条 中国保监会应当依法对设立境外保险类机构的申请进行审查,并自受理申请之日起20日内作出批准或者不予批准的决定。决定不予批准的,应当\n书面通知申请人并说明理由。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 75,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 中国保监会应当依法对设立境外保险类机构的申请进行审查,并自受理申请之日起20日内作出批准或者不予批准的决定。决定不予批准的,应当\n书面通知申请人并说明理由。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 46,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第二章",
+    "chapter_title": "设立审批",
+    "text_zh": "第十三条 保险公司应当在境外保险类机构获得许可证或者收购交易完成后20日内,将境外保险类机构的下列情况书面报告中国保监会:\n(一)许可证复印件;(二)机构名称和住所;\n(三)机构章程;(四)机构的组织形式、业务范围、注册资本或者营运资金、其他股东或者合伙人的出资金额及出资比例;\n(五)机构负责人姓名及联系方式;(六)中国保监会规定的其他材料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 143,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 保险公司应当在境外保险类机构获得许可证或者收购交易完成后20日内,将境外保险类机构的下列情况书面报告中国保监会:\n(一)许可证复印件;(二)机构名称和住所;\n(三)机构章程;(四)机构的组织形式、业务范围、注册资本或者营运资金、其他股东或者合伙人的出资金额及出资比例;\n(五)机构负责人姓名及联系方式;(六)中国保监会规定的其他材料。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "机构负责人"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1978,
+    "source_end": 2150,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第二章",
+    "chapter_title": "设立审批",
+    "text_zh": "第十四条 保险公司应当在境外代表机构、联络机构或者办事处等非营业性机构设立后20日内,将境外代表机构、联络机构或者办事处等非营业性机构的\n下列情况书面报告中国保监会:(一)登记证明的复印件;\n(二)名称和住所;(三)负责人姓名及联系方式;\n(四)中国保监会规定的其他材料。\n第三章 境外保险类机构管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 126,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 保险公司应当在境外代表机构、联络机构或者办事处等非营业性机构设立后20日内,将境外代表机构、联络机构或者办事处等非营业性机构的\n下列情况书面报告中国保监会:(一)登记证明的复印件;\n(二)名称和住所;(三)负责人姓名及联系方式;\n(四)中国保监会规定的其他材料。\n第三章 境外保险类机构管理"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2151,
+    "source_end": 2301,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第三章",
+    "chapter_title": "境外保险类机构管理",
+    "text_zh": "第十五条\n保险公司应当对其设立的境外保险类机构进行有效的风险管理,并督促该类机构按照所在国法律和监管部门的相关规定,建立健全风险管理制\n度。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 65,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条\n保险公司应当对其设立的境外保险类机构进行有效的风险管理,并督促该类机构按照所在国法律和监管部门的相关规定,建立健全风险管理制\n度。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 43,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第三章",
+    "chapter_title": "境外保险类机构管理",
+    "text_zh": "第十六条 保险公司应当严格控制其设立的境外保险类机构对外提供担保。\n保险公司在境外设立的分支机构确需对外提供担保的,应当取得被担保人的资信证明,并签署具有法律效力的反担保协议书。以财产抵押、质押等方式提\n供反担保协议的,提供担保的金额不得超过抵押、质押财产重估价值的60%。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 123,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 保险公司应当严格控制其设立的境外保险类机构对外提供担保。\n保险公司在境外设立的分支机构确需对外提供担保的,应当取得被担保人的资信证明,并签署具有法律效力的反担保协议书。以财产抵押、质押等方式提\n供反担保协议的,提供担保的金额不得超过抵押、质押财产重估价值的60%。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2373,
+    "source_end": 2510,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第三章",
+    "chapter_title": "境外保险类机构管理",
+    "text_zh": "第十七条 保险公司在境外设立的分支机构,除保单质押贷款外,不得对外贷款。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 32,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 保险公司在境外设立的分支机构,除保单质押贷款外,不得对外贷款。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2511,
+    "source_end": 2547,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第三章",
+    "chapter_title": "境外保险类机构管理",
+    "text_zh": "第十八条 保险公司应当对派往其设立的境外保险类机构的董事长和高级管理人员建立绩效考核制度、期中审计制度和离任审计制度。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 56,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 保险公司应当对派往其设立的境外保险类机构的董事长和高级管理人员建立绩效考核制度、期中审计制度和离任审计制度。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2548,
+    "source_end": 2607,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第三章",
+    "chapter_title": "境外保险类机构管理",
+    "text_zh": "第十九条 保险公司设立的境外保险类机构清算完毕后,应当将清算机构出具的经当地注册会计师验证的清算报告,报送中国保监会。\n第四章 监督检查",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 62,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 保险公司设立的境外保险类机构清算完毕后,应当将清算机构出具的经当地注册会计师验证的清算报告,报送中国保监会。\n第四章 监督检查"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2608,
+    "source_end": 2676,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第四章",
+    "chapter_title": "监督检查",
+    "text_zh": "第二十条 保险公司应当按照中国会计制度及中国保监会的规定,在财务报告和偿付能力报告中单独披露其设立的境外保险类机构的经营成果、财务状况\n和偿付能力状况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 71,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 保险公司应当按照中国会计制度及中国保监会的规定,在财务报告和偿付能力报告中单独披露其设立的境外保险类机构的经营成果、财务状况\n和偿付能力状况。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 41,
+    "source_end": 228,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第四章",
+    "chapter_title": "监督检查",
+    "text_zh": "第二十一条 保险公司设立的境外保险类机构按照所在地保险监管机构要求编制偿付能力报告的,保险公司应当抄送中国保监会。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 54,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 保险公司设立的境外保险类机构按照所在地保险监管机构要求编制偿付能力报告的,保险公司应当抄送中国保监会。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2754,
+    "source_end": 2811,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第四章",
+    "chapter_title": "监督检查",
+    "text_zh": "第二十二条 保险公司应当在其设立的境外保险类机构每一会计年度结束后5个月内,将该境外保险类机构上一年度的财务报表报送中国保监会。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 保险公司应当在其设立的境外保险类机构每一会计年度结束后5个月内,将该境外保险类机构上一年度的财务报表报送中国保监会。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2812,
+    "source_end": 2876,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第四章",
+    "chapter_title": "监督检查",
+    "text_zh": "第二十三条 保险公司应当在每年1月底之前,将其境外代表机构、联络机构或者办事处等非营业性机构的年度工作报告,报送中国保监会。\n境外代表机构、联络机构或者办事处等非营业性机构的年度工作报告应当包括该机构的主要工作和机构变更情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 104,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 保险公司应当在每年1月底之前,将其境外代表机构、联络机构或者办事处等非营业性机构的年度工作报告,报送中国保监会。\n境外代表机构、联络机构或者办事处等非营业性机构的年度工作报告应当包括该机构的主要工作和机构变更情况。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2877,
+    "source_end": 2990,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第四章",
+    "chapter_title": "监督检查",
+    "text_zh": "第二十四条 保险公司设立的境外保险类机构发生下列事项的,保险公司应当在事项发生之日起20日内书面报告中国保监会:\n(一)投资、设立公司的;(二)分立、合并、解散、撤销或者破产的;\n(三)机构名称或者注册地变更的;(四)董事长和高级管理人员变动的;\n(五)注册资本和股东结构发生重大变化的;\n(六)调整业务范围的;\n(七)出现重大经营或者财务问题的;(八)涉及重大诉讼、受到重大处罚的;\n(九)所在地保险监管部门出具监管报告或者检查报告的;\n(十) 中国保监会认为有必要报告的其他事项。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 194,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 保险公司设立的境外保险类机构发生下列事项的,保险公司应当在事项发生之日起20日内书面报告中国保监会:\n(一)投资、设立公司的;(二)分立、合并、解散、撤销或者破产的;\n(三)机构名称或者注册地变更的;(四)董事长和高级管理人员变动的;\n(五)注册资本和股东结构发生重大变化的;\n(六)调整业务范围的;\n\n(七)出现重大经营或者财务问题的;(八)涉及重大诉讼、受到重大处罚的;\n(九)所在地保险监管部门出具监管报告或者检查报告的;\n(十) 中国保监会认为有必要报告的其他事项。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2991,
+    "source_end": 3234,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第四章",
+    "chapter_title": "监督检查",
+    "text_zh": "第二十五条 保险公司转让其境外保险类机构股权的,应当报经中国保监会批准。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 33,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 保险公司转让其境外保险类机构股权的,应当报经中国保监会批准。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3235,
+    "source_end": 3271,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第四章",
+    "chapter_title": "监督检查",
+    "text_zh": "第二十六条 保险公司对其境外保险类机构实施下列行为之一的,应当报经中国保监会批准,并按照本办法第十一条的规定提交材料:\n(一)增持境外保险类机构股份的;(二)增加境外保险类机构的资本金或者营运资金的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 89,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 保险公司对其境外保险类机构实施下列行为之一的,应当报经中国保监会批准,并按照本办法第十一条的规定提交材料:\n(一)增持境外保险类机构股份的;(二)增加境外保险类机构的资本金或者营运资金的。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3272,
+    "source_end": 3372,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第四章",
+    "chapter_title": "监督检查",
+    "text_zh": "第二十七条 保险公司应当建立控制和管理关联交易的相关制度。保险公司与其境外设立的保险公司和保险中介机构之间发生重大关联交易的,应当在交\n易完成后15日内向中国保监会报告。\n前款规定的重大关联交易是指保险公司与其境外设立的保险公司和保险中介机构之间的下列交易活动:\n(一)再保险分出或者分入业务;(二)资产管理、担保和代理业务;\n(三)固定资产买卖或者债权债务转移;(四)大额借款;\n(五)其他重大交易活动。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 175,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 保险公司应当建立控制和管理关联交易的相关制度。保险公司与其境外设立的保险公司和保险中介机构之间发生重大关联交易的,应当在交\n易完成后15日内向中国保监会报告。\n前款规定的重大关联交易是指保险公司与其境外设立的保险公司和保险中介机构之间的下列交易活动:\n(一)再保险分出或者分入业务;(二)资产管理、担保和代理业务;\n(三)固定资产买卖或者债权债务转移;(四)大额借款;\n(五)其他重大交易活动。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3373,
+    "source_end": 3576,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第四章",
+    "chapter_title": "监督检查",
+    "text_zh": "第二十八条 保险公司向中国保监会报送的境外保险类机构的各项材料,应当完整、真实、准确。\n第五章 法律责任",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 45,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 保险公司向中国保监会报送的境外保险类机构的各项材料,应当完整、真实、准确。\n第五章 法律责任"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3577,
+    "source_end": 3629,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第五章",
+    "chapter_title": "法律责任",
+    "text_zh": "第二十九条 未经中国保监会批准,擅自设立境外保险类机构的,由中国保监会责令改正,并处5万元以上30万元以下的罚款;情节严重的,可以限制业务范围、\n责令停止接受新业务或者吊销经营保险业务许可证。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 84,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 未经中国保监会批准,擅自设立境外保险类机构的,由中国保监会责令改正,并处5万元以上30万元以下的罚款;情节严重的,可以限制业务范围、\n责令停止接受新业务或者吊销经营保险业务许可证。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3630,
+    "source_end": 3726,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第五章",
+    "chapter_title": "法律责任",
+    "text_zh": "第三十条 未按照本办法规定报送有关报告、报表、文件和资料的,由中国保监会责令改正,逾期不改正的,处以1万元以上10万元以下的罚款。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 55,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 未按照本办法规定报送有关报告、报表、文件和资料的,由中国保监会责令改正,逾期不改正的,处以1万元以上10万元以下的罚款。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3677,
+    "source_end": 3727,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第五章",
+    "chapter_title": "法律责任",
+    "text_zh": "第三十一条 提供虚假的报告、报表、文件和资料的,由中国保监会责令改正,处以10万元以上50万元以下的罚款;情节严重的,可以限制业务范围、责令停止\n接受新业务或者吊销经营保险业务许可证。\n第六章 附则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 提供虚假的报告、报表、文件和资料的,由中国保监会责令改正,处以10万元以上50万元以下的罚款;情节严重的,可以限制业务范围、责令停止\n接受新业务或者吊销经营保险业务许可证。\n第六章 附则"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3793,
+    "source_end": 3892,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第三十二条 保险集团公司、保险控股公司设立境外保险类机构和境外代表机构、联络机构、办事处等非营业性机构的,适用本办法。中国保监会另有规\n定的,从其规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 保险集团公司、保险控股公司设立境外保险类机构和境外代表机构、联络机构、办事处等非营业性机构的,适用本办法。中国保监会另有规\n定的,从其规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3893,
+    "source_end": 3969,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第三十三条 保险公司在香港、澳门和台湾地区设立保险类机构和境外代表机构、联络机构、办事处等非营业性机构的,适用本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 保险公司在香港、澳门和台湾地区设立保险类机构和境外代表机构、联络机构、办事处等非营业性机构的,适用本办法。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3970,
+    "source_end": 4029,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第三十四条 保险公司按照本办法向中国保监会报送的各项报告、报表、文件和材料,应当使用中文。原件为外文的,应当附中文译本。中文与外文表述不\n一致的,以中文表述为准。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 71,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 保险公司按照本办法向中国保监会报送的各项报告、报表、文件和材料,应当使用中文。原件为外文的,应当附中文译本。中文与外文表述不\n一致的,以中文表述为准。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4030,
+    "source_end": 4111,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第三十五条 本办法所称的“日”是指工作日,不含节假日。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 22,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 本办法所称的“日”是指工作日,不含节假日。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4112,
+    "source_end": 4139,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第三十六条 本办法由中国保监会负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 18,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 本办法由中国保监会负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4140,
+    "source_end": 4160,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2006_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2006",
+    "law_name": "保险公司设立境外保险类机构管理办法",
+    "law_name_original": "保险公司设立境外保险类机构管理办法",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第六章",
+    "chapter_title": "附则",
+    "text_zh": "第三十七条 本办法自2006年9月1日起施行。\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 24,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 本办法自2006年9月1日起施行。\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2006-09-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=372898&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_097.txt",
+    "sample_id": "CN_097",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_097",
+    "raw_sha256": "402cc9ebd89746143ea3ec55584b610b5e99bbd4f9e271c1ee4f326a7c40ef84",
+    "extracted_text_sha256": "cdf42aca59ac6a7b4472c513ee7332900f9c488925552d17e051a47aa269496f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4161,
+    "source_end": 4194,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:40Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

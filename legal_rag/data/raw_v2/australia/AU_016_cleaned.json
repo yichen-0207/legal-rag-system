@@ -1,0 +1,703 @@
+[
+  {
+    "doc_id": "AU_ACT_25_1966_ART_001",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_25_1966",
+    "law_name": "Asian Development Bank Act 1966",
+    "law_name_original": "Asian Development Bank Act 1966",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "Short title",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act may be cited as the Asian Development Bank Act 1966 .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act may be cited as the Asian Development Bank Act 1966 ."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-04-09",
+    "publication_date": "1966-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C1966A00025/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_016.txt",
+    "sample_id": "AU_016",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_016",
+    "raw_sha256": "6bdd62c43b9e7632af9697b94bd25c643a7db6ab997cee32a5593cf21e3a3f94",
+    "extracted_text_sha256": "3888c5214f875e6485eee4729104251d018d98bd5c2e7e6b5580d636218f58e7",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 46,
+    "source_end": 158,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_25_1966_ART_002",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_25_1966",
+    "law_name": "Asian Development Bank Act 1966",
+    "law_name_original": "Asian Development Bank Act 1966",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Commencement",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act shall come into operation on the day on which it receives the Royal Assent.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act shall come into operation on the day on which it receives the Royal Assent."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-04-09",
+    "publication_date": "1966-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C1966A00025/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_016.txt",
+    "sample_id": "AU_016",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_016",
+    "raw_sha256": "6bdd62c43b9e7632af9697b94bd25c643a7db6ab997cee32a5593cf21e3a3f94",
+    "extracted_text_sha256": "3888c5214f875e6485eee4729104251d018d98bd5c2e7e6b5580d636218f58e7",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 123,
+    "source_end": 257,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_25_1966_ART_003",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_25_1966",
+    "law_name": "Asian Development Bank Act 1966",
+    "law_name_original": "Asian Development Bank Act 1966",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Definitions",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In this Act:Bank means the Asian Development Bank.\nBank Agreement means the Agreement establishing the Asian Development Bank, done at Manila on 4 December 1965, as in force for Australia from time to time.\nNote: The Agreement establishing the Asian Development Bank is in Australian Treaty Series 1966 No. 13 ([1966] ATS 13) and could in 2024 be viewed in the Australian Treaties Library on the AustLII website (http://www.austlii.edu.au).\nrelevant financial obligation has the meaning given by section 3A.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "In this Act:Bank means the Asian Development Bank.\nBank Agreement means the Agreement establishing the Asian Development Bank, done at Manila on 4 December 1965, as in force for Australia from time to time.\nNote: The Agreement establishing the Asian Development Bank is in Australian Treaty Series 1966 No. 13 ([1966] ATS 13) and could in 2024 be viewed in the Australian Treaties Library on the AustLII website (http://www.austlii.edu.au).\nrelevant financial obligation has the meaning given by section 3A."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 15.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "has the meaning",
+          "meaning (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-04-09",
+    "publication_date": "1966-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C1966A00025/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_016.txt",
+    "sample_id": "AU_016",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_016",
+    "raw_sha256": "6bdd62c43b9e7632af9697b94bd25c643a7db6ab997cee32a5593cf21e3a3f94",
+    "extracted_text_sha256": "3888c5214f875e6485eee4729104251d018d98bd5c2e7e6b5580d636218f58e7",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 223,
+    "source_end": 780,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_25_1966_ART_003A",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_25_1966",
+    "law_name": "Asian Development Bank Act 1966",
+    "law_name_original": "Asian Development Bank Act 1966",
+    "law_type": "Act",
+    "article_number": "3A",
+    "article_number_normalized": "003A",
+    "article_title": "Meaning of relevant financial obligation",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "For the purposes of this Act, a relevant financial obligation is an obligation of Australia (contingent or otherwise) for which the following requirements are satisfied:\n(a) the obligation requires (or could require) Australia to make one or more payments;\n(b) the obligation is undertaken or imposed under:\n(i) the Bank Agreement; or\n(ii) an agreement or arrangement between Australia and the Bank (other than an agreement mentioned in section 8CA of the International Monetary Agreements Act 1947 ); or\n(iii) a resolution adopted by the Board of Governors of the Bank;\n(c) for an obligation undertaken or imposed under an agreement, arrangement or resolution mentioned in subparagraph (b)(ii) or (iii)—the agreement, arrangement or resolution relates to Australia:\n(i) purchasing or subscribing to shares of the capital stock of the Bank; or\n(ii) purchasing a bond, debenture, convertible note or similar financial instrument issued by the Bank; or\n(iii) granting a guarantee in support of the purpose of the Bank; or\n(iv) providing any other form of financial accommodation in support of the purpose of the Bank;\n(d) the obligation is not excluded by a determination under subsection (4).\nHowever, for the purposes of this Act:\n(a) an obligation that is undertaken or imposed after the commencement of this section is a relevant financial obligation only if notice of the obligation has been given under subsection (5); and\n(b) an increase in an amount of a relevant financial obligation because of the variation of, or making of a new, agreement, arrangement or resolution after the commencement of this section is to be taken into account only if notice of the increase has been given under subsection (5).\nTo avoid doubt, for the purposes of subsection (2), the timing of when a contingency happens or may happen does not affect the timing of when a contingent obligation itself is undertaken or imposed.\nNote: For example, an obligation to make one or more payments in response to a call on callable shares is undertaken or imposed when the callable shares are purchased or subscribed to (rather than when the call is made).\nMinister may exclude obligations\nThe Minister may, by legislative instrument, determine that an obligation is excluded for the purposes of paragraph (1)(d).\nNotification of new financial obligations\nThe Minister may, by legislative instrument, give notice of:\n(a) the undertaking or imposition of an obligation for the purposes of paragraph (2)(a); or\n(b) an increase in an amount for the purposes of paragraph (2)(b).\nA legislative instrument under subsection (5) commences at the later of the following days or times:\n(a) the earliest day or time applicable under subsection 12(1) of the Legislation Act 2003 ;\n(b) the start of the day immediately after the last day on which a resolution referred to in subsection 42(1) of the Legislation Act 2003 disallowing the instrument could be passed.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "the obligation requires (or could require) Australia to make one or more payments;"
+      },
+      {
+        "marker": "B",
+        "content": "the obligation is undertaken or imposed under:"
+      },
+      {
+        "marker": "I",
+        "content": "the Bank Agreement; or"
+      },
+      {
+        "marker": "2",
+        "content": "an agreement or arrangement between Australia and the Bank (other than an agreement mentioned in section 8CA of the International Monetary Agreements Act 1947 ); or"
+      },
+      {
+        "marker": "3",
+        "content": "a resolution adopted by the Board of Governors of the Bank;"
+      },
+      {
+        "marker": "C",
+        "content": "for an obligation undertaken or imposed under an agreement, arrangement or resolution mentioned in subparagraph (b)(ii) or (iii)—the agreement, arrangement or resolution relates to Australia:"
+      },
+      {
+        "marker": "I",
+        "content": "purchasing or subscribing to shares of the capital stock of the Bank; or"
+      },
+      {
+        "marker": "2",
+        "content": "purchasing a bond, debenture, convertible note or similar financial instrument issued by the Bank; or"
+      },
+      {
+        "marker": "3",
+        "content": "granting a guarantee in support of the purpose of the Bank; or"
+      },
+      {
+        "marker": "4",
+        "content": "providing any other form of financial accommodation in support of the purpose of the Bank;"
+      },
+      {
+        "marker": "D",
+        "content": "the obligation is not excluded by a determination under subsection (4).\nHowever, for the purposes of this Act:"
+      },
+      {
+        "marker": "A",
+        "content": "an obligation that is undertaken or imposed after the commencement of this section is a relevant financial obligation only if notice of the obligation has been given under subsection (5); and"
+      },
+      {
+        "marker": "B",
+        "content": "an increase in an amount of a relevant financial obligation because of the variation of, or making of a new, agreement, arrangement or resolution after the commencement of this section is to be taken into account only if notice of the increase has been given under subsection (5).\nTo avoid doubt, for the purposes of subsection (2), the timing of when a contingency happens or may happen does not affect the timing of when a contingent obligation itself is undertaken or imposed.\nNote: For example, an obligation to make one or more payments in response to a call on callable shares is undertaken or imposed when the callable shares are purchased or subscribed to (rather than when the call is made).\nMinister may exclude obligations\nThe Minister may, by legislative instrument, determine that an obligation is excluded for the purposes of paragraph (1)(d).\nNotification of new financial obligations\nThe Minister may, by legislative instrument, give notice of:"
+      },
+      {
+        "marker": "A",
+        "content": "the undertaking or imposition of an obligation for the purposes of paragraph (2)(a); or"
+      },
+      {
+        "marker": "B",
+        "content": "an increase in an amount for the purposes of paragraph (2)(b).\nA legislative instrument under subsection (5) commences at the later of the following days or times:"
+      },
+      {
+        "marker": "A",
+        "content": "the earliest day or time applicable under subsection 12(1) of the Legislation Act 2003 ;"
+      },
+      {
+        "marker": "B",
+        "content": "the start of the day immediately after the last day on which a resolution referred to in subsection 42(1) of the Legislation Act 2003 disallowing the instrument could be passed."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 12.0,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-04-09",
+    "publication_date": "1966-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C1966A00025/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_016.txt",
+    "sample_id": "AU_016",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_016",
+    "raw_sha256": "6bdd62c43b9e7632af9697b94bd25c643a7db6ab997cee32a5593cf21e3a3f94",
+    "extracted_text_sha256": "3888c5214f875e6485eee4729104251d018d98bd5c2e7e6b5580d636218f58e7",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 745,
+    "source_end": 3721,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_25_1966_ART_004",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_25_1966",
+    "law_name": "Asian Development Bank Act 1966",
+    "law_name_original": "Asian Development Bank Act 1966",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "Appropriation",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Consolidated Revenue Fund is appropriated for the purposes of:\n(a) making any payments necessary to meet relevant financial obligations; and\n(b) making any payments necessary to redeem securities issued under section 5.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "making any payments necessary to meet relevant financial obligations; and"
+      },
+      {
+        "marker": "B",
+        "content": "making any payments necessary to redeem securities issued under section 5."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "securities"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-04-09",
+    "publication_date": "1966-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C1966A00025/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_016.txt",
+    "sample_id": "AU_016",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_016",
+    "raw_sha256": "6bdd62c43b9e7632af9697b94bd25c643a7db6ab997cee32a5593cf21e3a3f94",
+    "extracted_text_sha256": "3888c5214f875e6485eee4729104251d018d98bd5c2e7e6b5580d636218f58e7",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3716,
+    "source_end": 3989,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_25_1966_ART_005",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_25_1966",
+    "law_name": "Asian Development Bank Act 1966",
+    "law_name_original": "Asian Development Bank Act 1966",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "Issue of securities",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "To the extent that the Bank or another body is prepared to accept promissory notes or other securities issued by Australia in place of any payment that Australia is required to make to the Bank or other body in accordance with a relevant financial obligation, the Minister may make and issue those securities.\nA security issued under subsection (1) is to be:\n(a) non ‑ negotiable; and\n(b) non ‑ interest bearing; and\n(c) payable to the Bank or other body at its par value on demand.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "non ‑ negotiable; and"
+      },
+      {
+        "marker": "B",
+        "content": "non ‑ interest bearing; and"
+      },
+      {
+        "marker": "C",
+        "content": "payable to the Bank or other body at its par value on demand."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "federalism_legal"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.5,
+        "matched_keywords": [
+          "securities (title, +5)",
+          "payment",
+          "securities"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "to the extent"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-04-09",
+    "publication_date": "1966-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C1966A00025/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_016.txt",
+    "sample_id": "AU_016",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_016",
+    "raw_sha256": "6bdd62c43b9e7632af9697b94bd25c643a7db6ab997cee32a5593cf21e3a3f94",
+    "extracted_text_sha256": "3888c5214f875e6485eee4729104251d018d98bd5c2e7e6b5580d636218f58e7",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3956,
+    "source_end": 4488,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_25_1966_ART_006",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_25_1966",
+    "law_name": "Asian Development Bank Act 1966",
+    "law_name_original": "Asian Development Bank Act 1966",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "Delegation by the Minister",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Minister may, in writing, delegate all or any of the Minister’s powers under section 5 to:\n(a) the Secretary of the Department; or\n(b) an SES employee, or an acting SES employee, in the Department.\nNote: Sections 34AA to 34A of the Acts Interpretation Act 1901 contain provisions relating to delegations.\nA person exercising powers under a delegation under subsection (1) must comply with any written directions of the Minister under subsection (3).\nThe Minister may, in writing, give directions for the purposes of subsection (2).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "the Secretary of the Department; or"
+      },
+      {
+        "marker": "B",
+        "content": "an SES employee, or an acting SES employee, in the Department.\nNote: Sections 34AA to 34A of the Acts Interpretation Act 1901 contain provisions relating to delegations.\nA person exercising powers under a delegation under subsection (1) must comply with any written directions of the Minister under subsection (3).\nThe Minister may, in writing, give directions for the purposes of subsection (2)."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-04-09",
+    "publication_date": "1966-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C1966A00025/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_016.txt",
+    "sample_id": "AU_016",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_016",
+    "raw_sha256": "6bdd62c43b9e7632af9697b94bd25c643a7db6ab997cee32a5593cf21e3a3f94",
+    "extracted_text_sha256": "3888c5214f875e6485eee4729104251d018d98bd5c2e7e6b5580d636218f58e7",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4461,
+    "source_end": 5046,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_25_1966_ART_End0",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_25_1966",
+    "law_name": "Asian Development Bank Act 1966",
+    "law_name_original": "Asian Development Bank Act 1966",
+    "law_type": "Act",
+    "article_number": "End0",
+    "article_number_normalized": "End0",
+    "article_title": "Endnotes",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "EndnotesEndnote 1—About the endnotes\nThe endnotes provide information about this compilation and the compiled law.\nThe following endnotes are included in every compilation:\nEndnote 1—About the endnotes\nEndnote 2—Abbreviation key\nEndnote 3—Legislation history\nEndnote 4—Amendment history\nAbbreviation key—Endnote 2\nThe abbreviation key sets out abbreviations that may be used in the endnotes.\nLegislation history and amendment history—Endnotes 3 and 4\nAmending laws are annotated in the legislation history and amendment history.\nThe legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.\nThe amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.\nEditorial changesThe Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.\nIf the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.\nMisdescribed amendments\nA misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003 .\nIf a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.\nEndnote 2—Abbreviation key\nad = added or inserted\norig = originalam = amended\np = page(s)amdt = amendment\npara = paragraph(s)/subparagraph(s)\nC[x] = Compilation No. x\n/sub ‑ subparagraph(s)\nch = Chapter(s)pres = present\ncl = clause(s)prev = previous\ncont. = continued(prev…) = previously\ndef = definition(s)pt = Part(s)\nDict = Dictionaryr = regulation(s)/Court rule(s)\ndisallowed = disallowed by Parliament\nreloc = relocateddiv = Division(s)\nrenum = renumbereded = editorial change\nrep = repealedexp = expires/expired or ceases/ceased to have\nrs = repealed and substituted\neffects = section(s)/subsection(s)\ngaz = gazette/rule(s)/subrule(s)/order(s)/suborder(s)\nLA = Legislation Act 2003\nsch = Schedule(s)LIA = Legislative Instruments Act 2003\nSLI = Select Legislative Instrument\n(md) = misdescribed amendment can be given\nSR = Statutory Rules\neffectsub ch = Sub ‑ Chapter(s)\n(md not incorp) = misdescribed amendment\nsub div = Subdivision(s)\ncannot be given effect\nsub pt = Subpart(s)mod = modified/modification\nunderlining = whole or part not\nNo. = Number(s)commenced or to be commenced\nOrd = OrdinanceEndnote 3—Legislation history\nAct(Register ID)\nNumber and yearAssent\nCommencementApplication, saving and transitional provisions\nAsian Development Bank Act 1966 (C1966A00025)\n25, 1966\n24 May 1966\n24 May 1966 (s 2)\nTreasury Laws Amendment (Delivering Better Financial Outcomes and Other Measures) Act 2024 (C2024A00067)\n67, 2024\n9 July 2024\nsch 4 (items 1 ‑ 3): 10 July 2024 (s 2(1) item 8)\n—\nTreasury Laws Amendment (Genetic Testing Protections in Life Insurance and Other Measures) Act 2026 (C2026A00035)\n35, 2026\n8 Apr 2026\nsch 3 (items 1 ‑ 4, 31, 33, 37, 38): 9 Apr 2026 (s 2(1) item 4)\nsch 3 (items 31, 33, 37, 38)\nEndnote 4—Amendment history\nProvision affectedHow affected\ns 3 .....................\nrs No 67, 2024am No 35, 2026\ns 3A ....................\nad No 35, 2026s 4 .....................\nam No 67, 2024rs No 35, 2026\ns 5 .....................\nrs No 35, 2026s 6 .....................\nad No 35, 2026Schedule .................\nrep No 67, 2024",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "endnote",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "EndnotesEndnote 1—About the endnotes\nThe endnotes provide information about this compilation and the compiled law.\nThe following endnotes are included in every compilation:\nEndnote 1—About the endnotes\nEndnote 2—Abbreviation key\nEndnote 3—Legislation history\nEndnote 4—Amendment history\nAbbreviation key—Endnote 2\nThe abbreviation key sets out abbreviations that may be used in the endnotes.\nLegislation history and amendment history—Endnotes 3 and 4\nAmending laws are annotated in the legislation history and amendment history.\nThe legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.\nThe amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.\nEditorial changesThe Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.\nIf the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.\nMisdescribed amendments\nA misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003 .\nIf a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.\nEndnote 2—Abbreviation key\nad = added or inserted\norig = originalam = amended\np = page(s)amdt = amendment\npara = paragraph(s)/subparagraph(s)\nC[x] = Compilation No. x\n/sub ‑ subparagraph(s)\nch = Chapter(s)pres = present\ncl = clause(s)prev = previous\ncont. = continued(prev…) = previously\ndef = definition(s)pt = Part(s)\nDict = Dictionaryr = regulation(s)/Court rule(s)\ndisallowed = disallowed by Parliament\nreloc = relocateddiv = Division(s)\nrenum = renumbereded = editorial change\nrep = repealedexp = expires/expired or ceases/ceased to have\nrs = repealed and substituted\neffects = section(s)/subsection(s)\ngaz = gazette/rule(s)/subrule(s)/order(s)/suborder(s)\nLA = Legislation Act 2003\nsch = Schedule(s)LIA = Legislative Instruments Act 2003\nSLI = Select Legislative Instrument\n(md) = misdescribed amendment can be given\nSR = Statutory Rules\neffectsub ch = Sub ‑ Chapter(s)\n(md not incorp) = misdescribed amendment\nsub div = Subdivision(s)\ncannot be given effect\nsub pt = Subpart(s)mod = modified/modification\nunderlining = whole or part not\nNo. = Number(s)commenced or to be commenced\nOrd = OrdinanceEndnote 3—Legislation history\nAct(Register ID)\nNumber and yearAssent\nCommencementApplication, saving and transitional provisions\nAsian Development Bank Act 1966 (C1966A00025)\n25, 1966\n24 May 1966\n24 May 1966 (s 2)\nTreasury Laws Amendment (Delivering Better Financial Outcomes and Other Measures) Act 2024 (C2024A00067)\n67, 2024\n9 July 2024\nsch 4 (items 1 ‑ 3): 10 July 2024 (s 2(1) item 8)\n—\nTreasury Laws Amendment (Genetic Testing Protections in Life Insurance and Other Measures) Act 2026 (C2026A00035)\n35, 2026\n8 Apr 2026\nsch 3 (items 1 ‑ 4, 31, 33, 37, 38): 9 Apr 2026 (s 2(1) item 4)\nsch 3 (items 31, 33, 37, 38)\nEndnote 4—Amendment history\nProvision affectedHow affected\ns 3 .....................\nrs No 67, 2024am No 35, 2026\ns 3A ....................\nad No 35, 2026s 4 .....................\nam No 67, 2024rs No 35, 2026\ns 5 .....................\nrs No 35, 2026s 6 .....................\nad No 35, 2026Schedule .................\nrep No 67, 2024"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "definition",
+          "definition (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-04-09",
+    "publication_date": "1966-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C1966A00025/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_016.txt",
+    "sample_id": "AU_016",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_016",
+    "raw_sha256": "6bdd62c43b9e7632af9697b94bd25c643a7db6ab997cee32a5593cf21e3a3f94",
+    "extracted_text_sha256": "3888c5214f875e6485eee4729104251d018d98bd5c2e7e6b5580d636218f58e7",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5026,
+    "source_end": 9193,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:44Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

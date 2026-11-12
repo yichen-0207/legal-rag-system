@@ -1,0 +1,2075 @@
+[
+  {
+    "doc_id": "AU_ACT_70_2024_ART_001",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "Short title",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act is the Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024 .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act is the Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024 ."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "benefits",
+          "benefits (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 73,
+    "source_end": 222,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_002",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Commencement",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provisions\nCommencementDate/Details\n1. Sections 1 to 3 and anything in this Act not elsewhere covered by this table\nThe day this Act receives the Royal Assent.\n9 July 2024\n2. Schedule 1\n1 July 2026.\n1 July 2026\nNote: This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.\nAny information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provisions\nCommencementDate/Details\n1. Sections 1 to 3 and anything in this Act not elsewhere covered by this table\nThe day this Act receives the Royal Assent.\n9 July 2024\n2. Schedule 1\n1 July 2026.\n1 July 2026\nNote: This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.\nAny information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 187,
+    "source_end": 1047,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_003",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Schedules",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Legislation that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned, and any other item in a Schedule to this Act has effect according to its terms.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Legislation that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned, and any other item in a Schedule to this Act has effect according to its terms."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1013,
+    "source_end": 1283,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_004",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "Before subsection 20A(3)",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Insert:Payment of assigned medicare benefits",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Insert:Payment of assigned medicare benefits"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "benefits",
+          "benefits (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4583,
+    "source_end": 4677,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_005",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "Before subsection 20A(4)",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Insert:Professional services rendered on behalf of another person",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Insert:Professional services rendered on behalf of another person"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4655,
+    "source_end": 4770,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_006",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "At the end of section 20A",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Add:Regulations\nWithout limiting this section, regulations prescribing requirements for the purposes of this section may specify:\n(a) requirements relating to the content of agreements to be entered into, or the manner and form in which the agreements are to be entered into; and\n(b) requirements relating to information that must be given and the manner and form in which the information must be given; and\n(c) requirements relating to the giving of notifications before or at the time agreements are entered into, or before or after information is given.\nNote: Regulations made for the purposes of paragraph (c) of this subsection may specify that paragraph 127(6)(c) applies. Subsection 127(6) is a civil penalty provision.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "requirements relating to the content of agreements to be entered into, or the manner and form in which the agreements are to be entered into; and"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to information that must be given and the manner and form in which the information must be given; and"
+      },
+      {
+        "marker": "C",
+        "content": "requirements relating to the giving of notifications before or at the time agreements are entered into, or before or after information is given.\nNote: Regulations made for the purposes of paragraph (c) of this subsection may specify that paragraph 127(6)(c) applies. Subsection 127(6) is a civil penalty provision."
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.0,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "penalty"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4748,
+    "source_end": 5524,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_007",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "After section 20A",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Insert:20AAA Simplified billing assignments: additional matters\nInsurer has arrangement with professional etc.\nFor the purposes of paragraph 20A(2)(e), this subsection applies to the assignor’s right to the payment of a medicare benefit in respect of a professional service rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment is provided if:\n(a) any of the following conditions is satisfied:\n(i) the insurer concerned has an arrangement with the professional for the provision of treatment to persons insured by the insurer;\n(ii) in the case of hospital treatment authorised by the operator of a hospital (see subsection (7))—the insurer has an arrangement with the operator of the hospital for the provision of treatment to persons insured by the insurer, and the operator of the hospital has an arrangement with the professional under which treatment is provided to persons insured by the insurer;\n(iii) in the case of hospital ‑ substitute treatment authorised by an organization (see subsection (7))—the insurer has an arrangement with the organization for the provision of treatment to persons insured by the insurer, and the organization has an arrangement with the professional under which treatment is provided to persons insured by the insurer; and\n(b) the arrangement or arrangements (as the case may be) cover (wholly or partly) a liability of the insurer, the operator of the hospital or the organization to pay fees and charges in respect of the professional service; and\n(c) the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1).\nFor the purposes of subsection 20A(2A), if subsection (1) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to whichever of the following is applicable:\n(a) if the claim for the medicare benefit is made by an approved billing agent—the approved billing agent;\n(b) otherwise—the insurer.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nRequest made by assignor\nFor the purposes of paragraph 20A(2)(e), this subsection applies to the assignor’s right to the payment of a medicare benefit in respect of a professional service rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment is provided if:\n(a) unless paragraph (b) applies—the medicare benefit is covered by a request made by the assignor for the purposes of this paragraph, in accordance with requirements specified in the regulations, to the following person (the responsible provider ):\n(i) in the case of hospital treatment authorised by the operator of a hospital (see subsection (7))—the operator of the hospital;\n(ii) in the case of hospital ‑ substitute treatment authorised by an organization (see subsection (7))—the organization;\n(iii) in the case of hospital ‑ substitute treatment to which subparagraph (ii) does not apply—the professional; and\n(b) if a request mentioned in paragraph (a) has been modified, in accordance with requirements specified in the regulations, after the professional service is rendered, by the responsible provider or a person authorised by the responsible provider—the medicare benefit is covered by the request as modified; and\n(c) the request, or the request as modified (as the case may be), provides that the assignor’s right to the payment of the medicare benefit in respect of the professional service is to be assigned to the insurer concerned or an approved billing agent; and\n(d) any requirements specified in the regulations are met; and\n(e) the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1), or because of the operation of subsection (1) or (5) of this section.\nNote 1: The operator of the hospital, the organization or the professional (as the case may be) must, if asked to, give the assignor a copy of the terms of a request made under paragraph (3)(a): see subsection 127(4).\nNote 2: The operator of the hospital, the organization or the professional (as the case may be) must give the assignor a notification as soon as practicable after a request is modified under paragraph (3)(b): see subsection 127(5).\nFor the purposes of subsection 20A(2A), if subsection (3) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to the insurer or approved billing agent mentioned in paragraph (3)(c) of this section.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nComplications and related urgent unplanned services\nFor the purposes of paragraph 20A(2)(e), this subsection applies to the assignor’s right to the payment of a medicare benefit in respect of a professional service rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment is provided if:\n(a) another professional service (the related professional service ) is rendered while the hospital treatment or hospital ‑ substitute treatment is provided; and\n(b) the right to payment of the medicare benefit in respect of the related professional service is taken to be assigned to the insurer concerned or an approved billing agent because of the operation of subsection (1) or (3) of this section; and\n(c) the professional service:\n(i) is rendered for a complication that arises during the related professional service; or\n(ii) is unplanned but is rendered during planned treatment of which the related professional service is part, and is, in the view of the professional, necessary and urgent; and\n(d) the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1), or because of the operation of subsection (1) of this section.\nFor the purposes of subsection 20A(2A), if subsection (5) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to the insurer or approved billing agent mentioned in paragraph (5)(b) of this section.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nTreatment provided under authorisation of operator of hospital or organization\nFor the purposes of this section, the operator of a hospital, or an organization, authorises the provision of hospital treatment, or hospital ‑ substitute treatment, to a patient if:\n(a) the operator of the hospital, or the organization, is a body corporate or a body politic; and\n(b) the treatment is provided:\n(i) by a person who is authorised by the operator of the hospital, or the organization, to provide the treatment; or\n(ii) under the management or control of such a person.\nNote: In this Act, a hospital is a facility for which a declaration under subsection 121 ‑ 5(6) of the Private Health Insurance Act 2007 is in force: see subsection 3(1) of this Act and subsection 121 ‑ 5(5) of the Private Health Insurance Act 2007 .\nRegulationsWithout limiting this section, regulations prescribing requirements for the purposes of this section may specify:\n(a) requirements relating to the content of requests or modifications to be made, or the manner and form in which the requests or modifications are to be made; and\n(b) requirements relating to information that must be given and the manner and form in which the information must be given; and\n(c) requirements relating to the giving of notifications at the time or after modifications are made, or before or after information is given; and\n(d) in relation to the making or modifying of a request—the circumstances in which the request may be made or modified.\nNote: Regulations made for the purposes of paragraph (c) of this subsection may specify that paragraph 127(6)(c) applies. Subsection 127(6) is a civil penalty provision.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "any of the following conditions is satisfied:"
+      },
+      {
+        "marker": "I",
+        "content": "the insurer concerned has an arrangement with the professional for the provision of treatment to persons insured by the insurer;"
+      },
+      {
+        "marker": "2",
+        "content": "in the case of hospital treatment authorised by the operator of a hospital (see subsection (7))—the insurer has an arrangement with the operator of the hospital for the provision of treatment to persons insured by the insurer, and the operator of the hospital has an arrangement with the professional under which treatment is provided to persons insured by the insurer;"
+      },
+      {
+        "marker": "3",
+        "content": "in the case of hospital ‑ substitute treatment authorised by an organization (see subsection (7))—the insurer has an arrangement with the organization for the provision of treatment to persons insured by the insurer, and the organization has an arrangement with the professional under which treatment is provided to persons insured by the insurer; and"
+      },
+      {
+        "marker": "B",
+        "content": "the arrangement or arrangements (as the case may be) cover (wholly or partly) a liability of the insurer, the operator of the hospital or the organization to pay fees and charges in respect of the professional service; and"
+      },
+      {
+        "marker": "C",
+        "content": "the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1).\nFor the purposes of subsection 20A(2A), if subsection (1) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to whichever of the following is applicable:"
+      },
+      {
+        "marker": "A",
+        "content": "if the claim for the medicare benefit is made by an approved billing agent—the approved billing agent;"
+      },
+      {
+        "marker": "B",
+        "content": "otherwise—the insurer.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nRequest made by assignor\nFor the purposes of paragraph 20A(2)(e), this subsection applies to the assignor’s right to the payment of a medicare benefit in respect of a professional service rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment is provided if:"
+      },
+      {
+        "marker": "A",
+        "content": "unless paragraph (b) applies—the medicare benefit is covered by a request made by the assignor for the purposes of this paragraph, in accordance with requirements specified in the regulations, to the following person (the responsible provider ):"
+      },
+      {
+        "marker": "I",
+        "content": "in the case of hospital treatment authorised by the operator of a hospital (see subsection (7))—the operator of the hospital;"
+      },
+      {
+        "marker": "2",
+        "content": "in the case of hospital ‑ substitute treatment authorised by an organization (see subsection (7))—the organization;"
+      },
+      {
+        "marker": "3",
+        "content": "in the case of hospital ‑ substitute treatment to which subparagraph (ii) does not apply—the professional; and"
+      },
+      {
+        "marker": "B",
+        "content": "if a request mentioned in paragraph (a) has been modified, in accordance with requirements specified in the regulations, after the professional service is rendered, by the responsible provider or a person authorised by the responsible provider—the medicare benefit is covered by the request as modified; and"
+      },
+      {
+        "marker": "C",
+        "content": "the request, or the request as modified (as the case may be), provides that the assignor’s right to the payment of the medicare benefit in respect of the professional service is to be assigned to the insurer concerned or an approved billing agent; and"
+      },
+      {
+        "marker": "D",
+        "content": "any requirements specified in the regulations are met; and"
+      },
+      {
+        "marker": "E",
+        "content": "the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1), or because of the operation of subsection (1) or (5) of this section.\nNote 1: The operator of the hospital, the organization or the professional (as the case may be) must, if asked to, give the assignor a copy of the terms of a request made under paragraph (3)(a): see subsection 127(4).\nNote 2: The operator of the hospital, the organization or the professional (as the case may be) must give the assignor a notification as soon as practicable after a request is modified under paragraph (3)(b): see subsection 127(5).\nFor the purposes of subsection 20A(2A), if subsection (3) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to the insurer or approved billing agent mentioned in paragraph (3)(c) of this section.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nComplications and related urgent unplanned services\nFor the purposes of paragraph 20A(2)(e), this subsection applies to the assignor’s right to the payment of a medicare benefit in respect of a professional service rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment is provided if:"
+      },
+      {
+        "marker": "A",
+        "content": "another professional service (the related professional service ) is rendered while the hospital treatment or hospital ‑ substitute treatment is provided; and"
+      },
+      {
+        "marker": "B",
+        "content": "the right to payment of the medicare benefit in respect of the related professional service is taken to be assigned to the insurer concerned or an approved billing agent because of the operation of subsection (1) or (3) of this section; and"
+      },
+      {
+        "marker": "C",
+        "content": "the professional service:"
+      },
+      {
+        "marker": "I",
+        "content": "is rendered for a complication that arises during the related professional service; or"
+      },
+      {
+        "marker": "2",
+        "content": "is unplanned but is rendered during planned treatment of which the related professional service is part, and is, in the view of the professional, necessary and urgent; and"
+      },
+      {
+        "marker": "D",
+        "content": "the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1), or because of the operation of subsection (1) of this section.\nFor the purposes of subsection 20A(2A), if subsection (5) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to the insurer or approved billing agent mentioned in paragraph (5)(b) of this section.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nTreatment provided under authorisation of operator of hospital or organization\nFor the purposes of this section, the operator of a hospital, or an organization, authorises the provision of hospital treatment, or hospital ‑ substitute treatment, to a patient if:"
+      },
+      {
+        "marker": "A",
+        "content": "the operator of the hospital, or the organization, is a body corporate or a body politic; and"
+      },
+      {
+        "marker": "B",
+        "content": "the treatment is provided:"
+      },
+      {
+        "marker": "I",
+        "content": "by a person who is authorised by the operator of the hospital, or the organization, to provide the treatment; or"
+      },
+      {
+        "marker": "2",
+        "content": "under the management or control of such a person.\nNote: In this Act, a hospital is a facility for which a declaration under subsection 121 ‑ 5(6) of the Private Health Insurance Act 2007 is in force: see subsection 3(1) of this Act and subsection 121 ‑ 5(5) of the Private Health Insurance Act 2007 .\nRegulationsWithout limiting this section, regulations prescribing requirements for the purposes of this section may specify:"
+      },
+      {
+        "marker": "A",
+        "content": "requirements relating to the content of requests or modifications to be made, or the manner and form in which the requests or modifications are to be made; and"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to information that must be given and the manner and form in which the information must be given; and"
+      },
+      {
+        "marker": "C",
+        "content": "requirements relating to the giving of notifications at the time or after modifications are made, or before or after information is given; and"
+      },
+      {
+        "marker": "D",
+        "content": "in relation to the making or modifying of a request—the circumstances in which the request may be made or modified.\nNote: Regulations made for the purposes of paragraph (c) of this subsection may specify that paragraph 127(6)(c) applies. Subsection 127(6) is a civil penalty provision."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "compensation_benefits",
+      "legal_definitions",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 25.5,
+        "matched_keywords": [
+          "payment",
+          "insurance"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 21.0,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 18.0,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "penalty"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5503,
+    "source_end": 13789,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_008",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "Subsections 20B(1) to (3)",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Repeal the subsections, substitute:\nA claim for a medicare benefit in respect of a professional service must be made to the Chief Executive Medicare:\n(a) in accordance with any requirements set out in the regulations; and\n(b) in the manner and form (if any) approved, by notifiable instrument, by the Chief Executive Medicare; and\n(c) within the period of 2 years, or such further period as is allowed in accordance with subsection (3A), after the rendering of the service.\nWithout limiting this section, regulations prescribing requirements for the purposes of paragraph (1)(a) may specify any of the following:\n(a) requirements that must be met before a claim can be made;\n(b) requirements relating to the content of a claim;\n(c) requirements relating to the giving of notifications before or at the time a claim is made.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "in accordance with any requirements set out in the regulations; and"
+      },
+      {
+        "marker": "B",
+        "content": "in the manner and form (if any) approved, by notifiable instrument, by the Chief Executive Medicare; and"
+      },
+      {
+        "marker": "C",
+        "content": "within the period of 2 years, or such further period as is allowed in accordance with subsection (3A), after the rendering of the service.\nWithout limiting this section, regulations prescribing requirements for the purposes of paragraph (1)(a) may specify any of the following:"
+      },
+      {
+        "marker": "A",
+        "content": "requirements that must be met before a claim can be made;"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to the content of a claim;"
+      },
+      {
+        "marker": "C",
+        "content": "requirements relating to the giving of notifications before or at the time a claim is made."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 13760,
+    "source_end": 14633,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_009",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "Subsection 20B(3A)",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Omit “lodging the claim than the period of 2 years referred to in paragraph (1)(b) or (2)(b)”, substitute “making the claim”.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Omit “lodging the claim than the period of 2 years referred to in paragraph (1)(b) or (2)(b)”, substitute “making the claim”."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14612,
+    "source_end": 14787,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_010",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "Subsection 20B(3B)",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Omit “lodging”, substitute “making”.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Omit “lodging”, substitute “making”."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14759,
+    "source_end": 14845,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_011",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "Section 127",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Repeal the section, substitute:",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Repeal the section, substitute:"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14818,
+    "source_end": 14899,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_127",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "127",
+    "article_number_normalized": "127",
+    "article_title": "Assignor of medicare benefit to be given notifications etc",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Bulk billing assignments\nA person contravenes this subsection if:\n(a) the person is a professional mentioned in paragraph 20A(1)(b); and\n(b) the professional and an eligible person (the assignor ) enter into an agreement under subsection 20A(1); and\n(c) the assignor asks for a copy of the terms of the agreement; and\n(d) the professional does not give the assignor a copy of the terms of the agreement as soon as practicable after the assignor asks for it.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:\n(a) the person is a professional mentioned in paragraph 20A(1)(b); and\n(b) the professional and an eligible person (the assignor ) enter into an agreement under subsection 20A(1); and\n(c) under regulations made for the purposes of this paragraph, the professional is required to give a notification to the assignor relating to the agreement or to a right to payment of a medicare benefit assigned under the agreement; and\n(d) the professional contravenes those regulations; and\n(e) those regulations specify that this paragraph applies.\nCivil penalty: 5 penalty units.\nSimplified billing assignments\nA person contravenes this subsection if:\n(a) the person is an insurer or approved billing agent; and\n(b) an eligible person (the assignor ) is taken to have assigned a medicare benefit to the insurer or approved billing agent under subsection 20A(2); and\n(c) the medicare benefit is paid to the insurer or approved billing agent; and\n(d) the insurer or approved billing agent does not give the assignor a notification:\n(i) in accordance with any requirements specified in the regulations; and\n(ii) within 6 months of the payment.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:\n(a) the person is a responsible provider mentioned in paragraph 20AAA(3)(a); and\n(b) an eligible person (the assignor ) makes a request for the purposes of paragraph 20AAA(3)(a) to the responsible provider; and\n(c) the assignor asks the responsible provider for a copy of the terms of the request; and\n(d) the responsible provider does not ensure that the assignor is given a copy of the terms of the request as soon as practicable after the assignor asks for it.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:\n(a) the person is a responsible provider mentioned in paragraph 20AAA(3)(b); and\n(b) an eligible person (the assignor ) makes a request for the purposes of paragraph 20AAA(3)(a) to the responsible provider; and\n(c) the responsible provider, or a person authorised by the responsible provider, modifies the request as mentioned in paragraph 20AAA(3)(b); and\n(d) the responsible provider does not ensure that the assignor is given a notification:\n(i) in accordance with any requirements specified in the regulations; and\n(ii) as soon as practicable after modifying the request.\nCivil penalty: 5 penalty units.\nNotification obligations in regulations\nA person contravenes this subsection if:\n(a) under regulations made for the purposes of paragraph 20A(6)(c), 20AAA(8)(c) or 20B(2)(c), the person is required to:\n(i) give a notification to an eligible person; or\n(ii) ensure that a notification is given to an eligible person; and\n(b) the person contravenes those regulations; and\n(c) those regulations specify that this paragraph applies.\nCivil penalty: 5 penalty units.\nRegulationsWithout limiting this section, regulations prescribing requirements for the purposes of this section in relation to the giving of a notification may specify:\n(a) requirements relating to the content of the notification to be given; and\n(b) requirements relating to the manner and form in which the notification is to be given; and\n(c) in the case of regulations made for the purposes of paragraph (2)(c)—circumstances in which the notification must be given.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "the person is a professional mentioned in paragraph 20A(1)(b); and"
+      },
+      {
+        "marker": "B",
+        "content": "the professional and an eligible person (the assignor ) enter into an agreement under subsection 20A(1); and"
+      },
+      {
+        "marker": "C",
+        "content": "the assignor asks for a copy of the terms of the agreement; and"
+      },
+      {
+        "marker": "D",
+        "content": "the professional does not give the assignor a copy of the terms of the agreement as soon as practicable after the assignor asks for it.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:"
+      },
+      {
+        "marker": "A",
+        "content": "the person is a professional mentioned in paragraph 20A(1)(b); and"
+      },
+      {
+        "marker": "B",
+        "content": "the professional and an eligible person (the assignor ) enter into an agreement under subsection 20A(1); and"
+      },
+      {
+        "marker": "C",
+        "content": "under regulations made for the purposes of this paragraph, the professional is required to give a notification to the assignor relating to the agreement or to a right to payment of a medicare benefit assigned under the agreement; and"
+      },
+      {
+        "marker": "D",
+        "content": "the professional contravenes those regulations; and"
+      },
+      {
+        "marker": "E",
+        "content": "those regulations specify that this paragraph applies.\nCivil penalty: 5 penalty units.\nSimplified billing assignments\nA person contravenes this subsection if:"
+      },
+      {
+        "marker": "A",
+        "content": "the person is an insurer or approved billing agent; and"
+      },
+      {
+        "marker": "B",
+        "content": "an eligible person (the assignor ) is taken to have assigned a medicare benefit to the insurer or approved billing agent under subsection 20A(2); and"
+      },
+      {
+        "marker": "C",
+        "content": "the medicare benefit is paid to the insurer or approved billing agent; and"
+      },
+      {
+        "marker": "D",
+        "content": "the insurer or approved billing agent does not give the assignor a notification:"
+      },
+      {
+        "marker": "I",
+        "content": "in accordance with any requirements specified in the regulations; and"
+      },
+      {
+        "marker": "2",
+        "content": "within 6 months of the payment.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:"
+      },
+      {
+        "marker": "A",
+        "content": "the person is a responsible provider mentioned in paragraph 20AAA(3)(a); and"
+      },
+      {
+        "marker": "B",
+        "content": "an eligible person (the assignor ) makes a request for the purposes of paragraph 20AAA(3)(a) to the responsible provider; and"
+      },
+      {
+        "marker": "C",
+        "content": "the assignor asks the responsible provider for a copy of the terms of the request; and"
+      },
+      {
+        "marker": "D",
+        "content": "the responsible provider does not ensure that the assignor is given a copy of the terms of the request as soon as practicable after the assignor asks for it.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:"
+      },
+      {
+        "marker": "A",
+        "content": "the person is a responsible provider mentioned in paragraph 20AAA(3)(b); and"
+      },
+      {
+        "marker": "B",
+        "content": "an eligible person (the assignor ) makes a request for the purposes of paragraph 20AAA(3)(a) to the responsible provider; and"
+      },
+      {
+        "marker": "C",
+        "content": "the responsible provider, or a person authorised by the responsible provider, modifies the request as mentioned in paragraph 20AAA(3)(b); and"
+      },
+      {
+        "marker": "D",
+        "content": "the responsible provider does not ensure that the assignor is given a notification:"
+      },
+      {
+        "marker": "I",
+        "content": "in accordance with any requirements specified in the regulations; and"
+      },
+      {
+        "marker": "2",
+        "content": "as soon as practicable after modifying the request.\nCivil penalty: 5 penalty units.\nNotification obligations in regulations\nA person contravenes this subsection if:"
+      },
+      {
+        "marker": "A",
+        "content": "under regulations made for the purposes of paragraph 20A(6)(c), 20AAA(8)(c) or 20B(2)(c), the person is required to:"
+      },
+      {
+        "marker": "I",
+        "content": "give a notification to an eligible person; or"
+      },
+      {
+        "marker": "2",
+        "content": "ensure that a notification is given to an eligible person; and"
+      },
+      {
+        "marker": "B",
+        "content": "the person contravenes those regulations; and"
+      },
+      {
+        "marker": "C",
+        "content": "those regulations specify that this paragraph applies.\nCivil penalty: 5 penalty units.\nRegulationsWithout limiting this section, regulations prescribing requirements for the purposes of this section in relation to the giving of a notification may specify:"
+      },
+      {
+        "marker": "A",
+        "content": "requirements relating to the content of the notification to be given; and"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to the manner and form in which the notification is to be given; and"
+      },
+      {
+        "marker": "C",
+        "content": "in the case of regulations made for the purposes of paragraph (2)(c)—circumstances in which the notification must be given."
+      }
+    ],
+    "topics": [
+      "criminal_law",
+      "legal_definitions",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 21.0,
+        "matched_keywords": [
+          "penalty"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 12.0,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "payment"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14865,
+    "source_end": 18724,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_127A",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "127A",
+    "article_number_normalized": "127A",
+    "article_title": "Record ‑ keeping in relation to assignments",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Persons to keep relevant records\nA professional mentioned in subsection 20A(1), an insurer or an approved billing agent (a relevant person ) must keep all records of a kind specified by the regulations that are relevant to the following:\n(a) the assignment of the right to payment of a medicare benefit to the relevant person under section 20A;\n(b) any claim for a medicare benefit assigned to the relevant person made under section 20B;\n(c) any matter specified in the regulations.\nSubsection (3) applies if:\n(a) the right to the payment of a medicare benefit in respect of a professional service is taken to have been assigned under subsection 20A(2); and\n(b) the professional service was rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment was provided.\nThe following person (also a relevant person ):\n(a) in the case of hospital treatment authorised by the operator of a hospital (see subsection 20AAA(7))—the operator of the hospital;\n(b) in the case of hospital ‑ substitute treatment authorised by an organization (see subsection 20AAA(7))—the organization;\n(c) in the case of hospital ‑ substitute treatment to which paragraph (b) does not apply—the professional;\nmust keep all records of a kind specified by the regulations that are relevant to the following:\n(d) the assignment of the right to payment of the medicare benefit;\n(e) any matter specified in the regulations.\nRecord ‑ keeping requirements\nThe records must be kept in:\n(a) an electronic form; or\n(b) another form approved by the Secretary.\nThe records must be retained until the latest of the following:\n(a) if the record is an agreement entered into under subsection 20A(1) or an arrangement mentioned in paragraph 20AAA(1)(a)—2 years after the agreement or arrangement ceases to be in force;\n(b) 2 years after the day on which the records were created;\n(c) if the regulations specify a day for records of a specified kind, and the records are of that kind—that day.\nCivil penalty provision\nA relevant person contravenes this subsection if the relevant person fails to:\n(a) keep the records required by subsection (1) or (3); or\n(b) keep the records in the form required by or under subsection (4); or\n(c) retain the records for the period required by or under subsection (5).\nCivil penalty: 5 penalty units.\nRegulationsWithout limiting this section, regulations prescribing kinds of records, or matters to which records are relevant, may specify different kinds or matters for different classes of person.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "the assignment of the right to payment of a medicare benefit to the relevant person under section 20A;"
+      },
+      {
+        "marker": "B",
+        "content": "any claim for a medicare benefit assigned to the relevant person made under section 20B;"
+      },
+      {
+        "marker": "C",
+        "content": "any matter specified in the regulations.\nSubsection (3) applies if:"
+      },
+      {
+        "marker": "A",
+        "content": "the right to the payment of a medicare benefit in respect of a professional service is taken to have been assigned under subsection 20A(2); and"
+      },
+      {
+        "marker": "B",
+        "content": "the professional service was rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment was provided.\nThe following person (also a relevant person ):"
+      },
+      {
+        "marker": "A",
+        "content": "in the case of hospital treatment authorised by the operator of a hospital (see subsection 20AAA(7))—the operator of the hospital;"
+      },
+      {
+        "marker": "B",
+        "content": "in the case of hospital ‑ substitute treatment authorised by an organization (see subsection 20AAA(7))—the organization;"
+      },
+      {
+        "marker": "C",
+        "content": "in the case of hospital ‑ substitute treatment to which paragraph (b) does not apply—the professional;\nmust keep all records of a kind specified by the regulations that are relevant to the following:"
+      },
+      {
+        "marker": "D",
+        "content": "the assignment of the right to payment of the medicare benefit;"
+      },
+      {
+        "marker": "E",
+        "content": "any matter specified in the regulations.\nRecord ‑ keeping requirements\nThe records must be kept in:"
+      },
+      {
+        "marker": "A",
+        "content": "an electronic form; or"
+      },
+      {
+        "marker": "B",
+        "content": "another form approved by the Secretary.\nThe records must be retained until the latest of the following:"
+      },
+      {
+        "marker": "A",
+        "content": "if the record is an agreement entered into under subsection 20A(1) or an arrangement mentioned in paragraph 20AAA(1)(a)—2 years after the agreement or arrangement ceases to be in force;"
+      },
+      {
+        "marker": "B",
+        "content": "2 years after the day on which the records were created;"
+      },
+      {
+        "marker": "C",
+        "content": "if the regulations specify a day for records of a specified kind, and the records are of that kind—that day.\nCivil penalty provision\nA relevant person contravenes this subsection if the relevant person fails to:"
+      },
+      {
+        "marker": "A",
+        "content": "keep the records required by subsection (1) or (3); or"
+      },
+      {
+        "marker": "B",
+        "content": "keep the records in the form required by or under subsection (4); or"
+      },
+      {
+        "marker": "C",
+        "content": "retain the records for the period required by or under subsection (5).\nCivil penalty: 5 penalty units.\nRegulationsWithout limiting this section, regulations prescribing kinds of records, or matters to which records are relevant, may specify different kinds or matters for different classes of person."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 7.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 7.5,
+        "matched_keywords": [
+          "penalty"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18739,
+    "source_end": 21335,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_012",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "Application and saving provisions",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Subsection 19(6) of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to a professional service rendered on or after the commencement of this Schedule.\nSubsection 20A(1) of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to an agreement entered into under that subsection on or after the commencement of this Schedule.\nSubitem (4) applies if:\n(a) before the commencement of this Schedule, an eligible person made an offer under subsection 20A(2) of the Health Insurance Act 1973 to enter into an agreement under subsection 20A(1) with respect to the medicare benefit payable in respect of a pathology service; and\n(b) on the commencement of this Schedule, the pathology service had not yet been rendered.\nFor the purposes of the Health Insurance Act 1973 , as amended by this Schedule, on and after the commencement of this Schedule, treat the offer as an offer to enter into an agreement under subsection 20A(1) of the Act, as amended by this Schedule.\nSubsections 20A(2) and (2A), and section 20AAA, of the Health Insurance Act 1973 , as amended or inserted by this Schedule, apply in relation to a professional service rendered on or after the commencement of this Schedule.\nSection 20B of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to a professional service rendered on or after the commencement of this Schedule.\nSubsection 127(1) of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to an agreement entered into under subsection 20A(1) of that Act, as amended by this Schedule, on or after the commencement of this Schedule.\nSection 127A of the Health Insurance Act 1973 , as inserted by this Schedule, applies in relation to a professional service rendered on or after the commencement of this Schedule.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "before the commencement of this Schedule, an eligible person made an offer under subsection 20A(2) of the Health Insurance Act 1973 to enter into an agreement under subsection 20A(1) with respect to the medicare benefit payable in respect of a pathology service; and"
+      },
+      {
+        "marker": "B",
+        "content": "on the commencement of this Schedule, the pathology service had not yet been rendered.\nFor the purposes of the Health Insurance Act 1973 , as amended by this Schedule, on and after the commencement of this Schedule, treat the offer as an offer to enter into an agreement under subsection 20A(1) of the Act, as amended by this Schedule.\nSubsections 20A(2) and (2A), and section 20AAA, of the Health Insurance Act 1973 , as amended or inserted by this Schedule, apply in relation to a professional service rendered on or after the commencement of this Schedule.\nSection 20B of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to a professional service rendered on or after the commencement of this Schedule.\nSubsection 127(1) of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to an agreement entered into under subsection 20A(1) of that Act, as amended by this Schedule, on or after the commencement of this Schedule.\nSection 127A of the Health Insurance Act 1973 , as inserted by this Schedule, applies in relation to a professional service rendered on or after the commencement of this Schedule."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "insurance"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21335,
+    "source_end": 23228,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_Sch1",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "Sch1",
+    "article_number_normalized": "Sch1",
+    "article_title": "1 — Amendments",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Health Insurance Act 1973\n1 Subsection 19(6)\nOmit “an employee of that person, has recorded on the account, or on the receipt, for fees in respect of the service or, if an assignment has been made, or an agreement has been entered into, in accordance with section 20A, in relation to the medicare benefit in respect of the service, on the form of the assignment or agreement, as the case may be,”, substitute “a person authorised by that person, has recorded”.\n2 At the end of subsection 19(6)\nAdd:in the following manner:\n(a) unless paragraph (b) applies—on the account, or on the receipt, for fees in respect of the service;\n(b) if regulations made for the purposes of this paragraph specify a manner—in that manner.\n3 Subsections 20A(1), (2) and (2A)\nRepeal the subsections, substitute:\nBulk billing assignments\nAn eligible person (the assignor ) to whom a medicare benefit is or will be payable in respect of a professional service may enter into an agreement to assign the assignor’s right to the payment of the medicare benefit if:\n(a) the professional service is or will be rendered to the assignor or to another eligible person; and\n(b) the agreement is entered into with the person by whom, or on whose behalf, the professional service is or will be rendered (the professional ); and\n(c) the agreement provides that:\n(i) the assignor assigns the assignor’s right to the payment of the medicare benefit to the professional at the time the agreement is entered into or when the medicare benefit becomes payable (whichever is the later); and\n(ii) the professional accepts the assignment in full payment of the medical expenses that have been or will be incurred in respect of the professional service by the assignor; and\n(d) any requirements specified in the regulations are met.\nNote 1: The professional must, if asked to, give the assignor a copy of the terms of the agreement: see subsection 127(1).\nNote 2: Regulations made for the purposes of paragraph 127(2)(c) may require the professional to give the assignor other notifications.\nSimplified billing assignments: basic rule\nAn eligible person (the assignor ) to whom a medicare benefit would, apart from this section, be payable in respect of a professional service is taken to have assigned the assignor’s right to the payment of the medicare benefit if:\n(a) the professional service is rendered to the assignor or another eligible person while hospital treatment or hospital ‑ substitute treatment is provided to the assignor or that other eligible person; and\n(b) the assignor has entered into a complying health insurance policy with a private health insurer (the insurer ); and\n(c) under the policy, the assignor is covered (wholly or partly) for liability to pay fees and charges in respect of the professional service; and\n(d) a claim is made under section 20B for the medicare benefit that would, apart from this section, be payable to the assignor in respect of the professional service; and\n(e) subsection 20AAA(1), (3) or (5) applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service.\n(2A) If the right to payment of a medicare benefit is taken to be assigned under subsection (2) of this section, it is taken to be assigned to the person specified in subsection 20AAA(2), (4) or (6).\n4 Before subsection 20A(3)\nInsert:Payment of assigned medicare benefits\n5 Before subsection 20A(4)\nInsert:Professional services rendered on behalf of another person\n6 At the end of section 20A\nAdd:Regulations\nWithout limiting this section, regulations prescribing requirements for the purposes of this section may specify:\n(a) requirements relating to the content of agreements to be entered into, or the manner and form in which the agreements are to be entered into; and\n(b) requirements relating to information that must be given and the manner and form in which the information must be given; and\n(c) requirements relating to the giving of notifications before or at the time agreements are entered into, or before or after information is given.\nNote: Regulations made for the purposes of paragraph (c) of this subsection may specify that paragraph 127(6)(c) applies. Subsection 127(6) is a civil penalty provision.\n7 After section 20A\nInsert:20AAA Simplified billing assignments: additional matters\nInsurer has arrangement with professional etc.\nFor the purposes of paragraph 20A(2)(e), this subsection applies to the assignor’s right to the payment of a medicare benefit in respect of a professional service rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment is provided if:\n(a) any of the following conditions is satisfied:\n(i) the insurer concerned has an arrangement with the professional for the provision of treatment to persons insured by the insurer;\n(ii) in the case of hospital treatment authorised by the operator of a hospital (see subsection (7))—the insurer has an arrangement with the operator of the hospital for the provision of treatment to persons insured by the insurer, and the operator of the hospital has an arrangement with the professional under which treatment is provided to persons insured by the insurer;\n(iii) in the case of hospital ‑ substitute treatment authorised by an organization (see subsection (7))—the insurer has an arrangement with the organization for the provision of treatment to persons insured by the insurer, and the organization has an arrangement with the professional under which treatment is provided to persons insured by the insurer; and\n(b) the arrangement or arrangements (as the case may be) cover (wholly or partly) a liability of the insurer, the operator of the hospital or the organization to pay fees and charges in respect of the professional service; and\n(c) the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1).\nFor the purposes of subsection 20A(2A), if subsection (1) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to whichever of the following is applicable:\n(a) if the claim for the medicare benefit is made by an approved billing agent—the approved billing agent;\n(b) otherwise—the insurer.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nRequest made by assignor\nFor the purposes of paragraph 20A(2)(e), this subsection applies to the assignor’s right to the payment of a medicare benefit in respect of a professional service rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment is provided if:\n(a) unless paragraph (b) applies—the medicare benefit is covered by a request made by the assignor for the purposes of this paragraph, in accordance with requirements specified in the regulations, to the following person (the responsible provider ):\n(i) in the case of hospital treatment authorised by the operator of a hospital (see subsection (7))—the operator of the hospital;\n(ii) in the case of hospital ‑ substitute treatment authorised by an organization (see subsection (7))—the organization;\n(iii) in the case of hospital ‑ substitute treatment to which subparagraph (ii) does not apply—the professional; and\n(b) if a request mentioned in paragraph (a) has been modified, in accordance with requirements specified in the regulations, after the professional service is rendered, by the responsible provider or a person authorised by the responsible provider—the medicare benefit is covered by the request as modified; and\n(c) the request, or the request as modified (as the case may be), provides that the assignor’s right to the payment of the medicare benefit in respect of the professional service is to be assigned to the insurer concerned or an approved billing agent; and\n(d) any requirements specified in the regulations are met; and\n(e) the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1), or because of the operation of subsection (1) or (5) of this section.\nNote 1: The operator of the hospital, the organization or the professional (as the case may be) must, if asked to, give the assignor a copy of the terms of a request made under paragraph (3)(a): see subsection 127(4).\nNote 2: The operator of the hospital, the organization or the professional (as the case may be) must give the assignor a notification as soon as practicable after a request is modified under paragraph (3)(b): see subsection 127(5).\nFor the purposes of subsection 20A(2A), if subsection (3) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to the insurer or approved billing agent mentioned in paragraph (3)(c) of this section.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nComplications and related urgent unplanned services\nFor the purposes of paragraph 20A(2)(e), this subsection applies to the assignor’s right to the payment of a medicare benefit in respect of a professional service rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment is provided if:\n(a) another professional service (the related professional service ) is rendered while the hospital treatment or hospital ‑ substitute treatment is provided; and\n(b) the right to payment of the medicare benefit in respect of the related professional service is taken to be assigned to the insurer concerned or an approved billing agent because of the operation of subsection (1) or (3) of this section; and\n(c) the professional service:\n(i) is rendered for a complication that arises during the related professional service; or\n(ii) is unplanned but is rendered during planned treatment of which the related professional service is part, and is, in the view of the professional, necessary and urgent; and\n(d) the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1), or because of the operation of subsection (1) of this section.\nFor the purposes of subsection 20A(2A), if subsection (5) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to the insurer or approved billing agent mentioned in paragraph (5)(b) of this section.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nTreatment provided under authorisation of operator of hospital or organization\nFor the purposes of this section, the operator of a hospital, or an organization, authorises the provision of hospital treatment, or hospital ‑ substitute treatment, to a patient if:\n(a) the operator of the hospital, or the organization, is a body corporate or a body politic; and\n(b) the treatment is provided:\n(i) by a person who is authorised by the operator of the hospital, or the organization, to provide the treatment; or\n(ii) under the management or control of such a person.\nNote: In this Act, a hospital is a facility for which a declaration under subsection 121 ‑ 5(6) of the Private Health Insurance Act 2007 is in force: see subsection 3(1) of this Act and subsection 121 ‑ 5(5) of the Private Health Insurance Act 2007 .\nRegulationsWithout limiting this section, regulations prescribing requirements for the purposes of this section may specify:\n(a) requirements relating to the content of requests or modifications to be made, or the manner and form in which the requests or modifications are to be made; and\n(b) requirements relating to information that must be given and the manner and form in which the information must be given; and\n(c) requirements relating to the giving of notifications at the time or after modifications are made, or before or after information is given; and\n(d) in relation to the making or modifying of a request—the circumstances in which the request may be made or modified.\nNote: Regulations made for the purposes of paragraph (c) of this subsection may specify that paragraph 127(6)(c) applies. Subsection 127(6) is a civil penalty provision.\n8 Subsections 20B(1) to (3)\nRepeal the subsections, substitute:\nA claim for a medicare benefit in respect of a professional service must be made to the Chief Executive Medicare:\n(a) in accordance with any requirements set out in the regulations; and\n(b) in the manner and form (if any) approved, by notifiable instrument, by the Chief Executive Medicare; and\n(c) within the period of 2 years, or such further period as is allowed in accordance with subsection (3A), after the rendering of the service.\nWithout limiting this section, regulations prescribing requirements for the purposes of paragraph (1)(a) may specify any of the following:\n(a) requirements that must be met before a claim can be made;\n(b) requirements relating to the content of a claim;\n(c) requirements relating to the giving of notifications before or at the time a claim is made.\n9 Subsection 20B(3A)\nOmit “lodging the claim than the period of 2 years referred to in paragraph (1)(b) or (2)(b)”, substitute “making the claim”.\n10 Subsection 20B(3B)\nOmit “lodging”, substitute “making”.\n11 Section 127\nRepeal the section, substitute:\n127 Assignor of medicare benefit to be given notifications etc.\nBulk billing assignments\nA person contravenes this subsection if:\n(a) the person is a professional mentioned in paragraph 20A(1)(b); and\n(b) the professional and an eligible person (the assignor ) enter into an agreement under subsection 20A(1); and\n(c) the assignor asks for a copy of the terms of the agreement; and\n(d) the professional does not give the assignor a copy of the terms of the agreement as soon as practicable after the assignor asks for it.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:\n(a) the person is a professional mentioned in paragraph 20A(1)(b); and\n(b) the professional and an eligible person (the assignor ) enter into an agreement under subsection 20A(1); and\n(c) under regulations made for the purposes of this paragraph, the professional is required to give a notification to the assignor relating to the agreement or to a right to payment of a medicare benefit assigned under the agreement; and\n(d) the professional contravenes those regulations; and\n(e) those regulations specify that this paragraph applies.\nCivil penalty: 5 penalty units.\nSimplified billing assignments\nA person contravenes this subsection if:\n(a) the person is an insurer or approved billing agent; and\n(b) an eligible person (the assignor ) is taken to have assigned a medicare benefit to the insurer or approved billing agent under subsection 20A(2); and\n(c) the medicare benefit is paid to the insurer or approved billing agent; and\n(d) the insurer or approved billing agent does not give the assignor a notification:\n(i) in accordance with any requirements specified in the regulations; and\n(ii) within 6 months of the payment.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:\n(a) the person is a responsible provider mentioned in paragraph 20AAA(3)(a); and\n(b) an eligible person (the assignor ) makes a request for the purposes of paragraph 20AAA(3)(a) to the responsible provider; and\n(c) the assignor asks the responsible provider for a copy of the terms of the request; and\n(d) the responsible provider does not ensure that the assignor is given a copy of the terms of the request as soon as practicable after the assignor asks for it.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:\n(a) the person is a responsible provider mentioned in paragraph 20AAA(3)(b); and\n(b) an eligible person (the assignor ) makes a request for the purposes of paragraph 20AAA(3)(a) to the responsible provider; and\n(c) the responsible provider, or a person authorised by the responsible provider, modifies the request as mentioned in paragraph 20AAA(3)(b); and\n(d) the responsible provider does not ensure that the assignor is given a notification:\n(i) in accordance with any requirements specified in the regulations; and\n(ii) as soon as practicable after modifying the request.\nCivil penalty: 5 penalty units.\nNotification obligations in regulations\nA person contravenes this subsection if:\n(a) under regulations made for the purposes of paragraph 20A(6)(c), 20AAA(8)(c) or 20B(2)(c), the person is required to:\n(i) give a notification to an eligible person; or\n(ii) ensure that a notification is given to an eligible person; and\n(b) the person contravenes those regulations; and\n(c) those regulations specify that this paragraph applies.\nCivil penalty: 5 penalty units.\nRegulationsWithout limiting this section, regulations prescribing requirements for the purposes of this section in relation to the giving of a notification may specify:\n(a) requirements relating to the content of the notification to be given; and\n(b) requirements relating to the manner and form in which the notification is to be given; and\n(c) in the case of regulations made for the purposes of paragraph (2)(c)—circumstances in which the notification must be given.\n127A Record ‑ keeping in relation to assignments\nPersons to keep relevant records\nA professional mentioned in subsection 20A(1), an insurer or an approved billing agent (a relevant person ) must keep all records of a kind specified by the regulations that are relevant to the following:\n(a) the assignment of the right to payment of a medicare benefit to the relevant person under section 20A;\n(b) any claim for a medicare benefit assigned to the relevant person made under section 20B;\n(c) any matter specified in the regulations.\nSubsection (3) applies if:\n(a) the right to the payment of a medicare benefit in respect of a professional service is taken to have been assigned under subsection 20A(2); and\n(b) the professional service was rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment was provided.\nThe following person (also a relevant person ):\n(a) in the case of hospital treatment authorised by the operator of a hospital (see subsection 20AAA(7))—the operator of the hospital;\n(b) in the case of hospital ‑ substitute treatment authorised by an organization (see subsection 20AAA(7))—the organization;\n(c) in the case of hospital ‑ substitute treatment to which paragraph (b) does not apply—the professional;\nmust keep all records of a kind specified by the regulations that are relevant to the following:\n(d) the assignment of the right to payment of the medicare benefit;\n(e) any matter specified in the regulations.\nRecord ‑ keeping requirements\nThe records must be kept in:\n(a) an electronic form; or\n(b) another form approved by the Secretary.\nThe records must be retained until the latest of the following:\n(a) if the record is an agreement entered into under subsection 20A(1) or an arrangement mentioned in paragraph 20AAA(1)(a)—2 years after the agreement or arrangement ceases to be in force;\n(b) 2 years after the day on which the records were created;\n(c) if the regulations specify a day for records of a specified kind, and the records are of that kind—that day.\nCivil penalty provision\nA relevant person contravenes this subsection if the relevant person fails to:\n(a) keep the records required by subsection (1) or (3); or\n(b) keep the records in the form required by or under subsection (4); or\n(c) retain the records for the period required by or under subsection (5).\nCivil penalty: 5 penalty units.\nRegulationsWithout limiting this section, regulations prescribing kinds of records, or matters to which records are relevant, may specify different kinds or matters for different classes of person.\n12 Application and saving provisions\nSubsection 19(6) of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to a professional service rendered on or after the commencement of this Schedule.\nSubsection 20A(1) of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to an agreement entered into under that subsection on or after the commencement of this Schedule.\nSubitem (4) applies if:\n(a) before the commencement of this Schedule, an eligible person made an offer under subsection 20A(2) of the Health Insurance Act 1973 to enter into an agreement under subsection 20A(1) with respect to the medicare benefit payable in respect of a pathology service; and\n(b) on the commencement of this Schedule, the pathology service had not yet been rendered.\nFor the purposes of the Health Insurance Act 1973 , as amended by this Schedule, on and after the commencement of this Schedule, treat the offer as an offer to enter into an agreement under subsection 20A(1) of the Act, as amended by this Schedule.\nSubsections 20A(2) and (2A), and section 20AAA, of the Health Insurance Act 1973 , as amended or inserted by this Schedule, apply in relation to a professional service rendered on or after the commencement of this Schedule.\nSection 20B of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to a professional service rendered on or after the commencement of this Schedule.\nSubsection 127(1) of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to an agreement entered into under subsection 20A(1) of that Act, as amended by this Schedule, on or after the commencement of this Schedule.\nSection 127A of the Health Insurance Act 1973 , as inserted by this Schedule, applies in relation to a professional service rendered on or after the commencement of this Schedule.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "schedule",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "unless paragraph (b) applies—on the account, or on the receipt, for fees in respect of the service;"
+      },
+      {
+        "marker": "B",
+        "content": "if regulations made for the purposes of this paragraph specify a manner—in that manner.\n3 Subsections 20A(1), (2) and (2A)\nRepeal the subsections, substitute:\nBulk billing assignments\nAn eligible person (the assignor ) to whom a medicare benefit is or will be payable in respect of a professional service may enter into an agreement to assign the assignor’s right to the payment of the medicare benefit if:"
+      },
+      {
+        "marker": "A",
+        "content": "the professional service is or will be rendered to the assignor or to another eligible person; and"
+      },
+      {
+        "marker": "B",
+        "content": "the agreement is entered into with the person by whom, or on whose behalf, the professional service is or will be rendered (the professional ); and"
+      },
+      {
+        "marker": "C",
+        "content": "the agreement provides that:"
+      },
+      {
+        "marker": "I",
+        "content": "the assignor assigns the assignor’s right to the payment of the medicare benefit to the professional at the time the agreement is entered into or when the medicare benefit becomes payable (whichever is the later); and"
+      },
+      {
+        "marker": "2",
+        "content": "the professional accepts the assignment in full payment of the medical expenses that have been or will be incurred in respect of the professional service by the assignor; and"
+      },
+      {
+        "marker": "D",
+        "content": "any requirements specified in the regulations are met.\nNote 1: The professional must, if asked to, give the assignor a copy of the terms of the agreement: see subsection 127(1).\nNote 2: Regulations made for the purposes of paragraph 127(2)(c) may require the professional to give the assignor other notifications.\nSimplified billing assignments: basic rule\nAn eligible person (the assignor ) to whom a medicare benefit would, apart from this section, be payable in respect of a professional service is taken to have assigned the assignor’s right to the payment of the medicare benefit if:"
+      },
+      {
+        "marker": "A",
+        "content": "the professional service is rendered to the assignor or another eligible person while hospital treatment or hospital ‑ substitute treatment is provided to the assignor or that other eligible person; and"
+      },
+      {
+        "marker": "B",
+        "content": "the assignor has entered into a complying health insurance policy with a private health insurer (the insurer ); and"
+      },
+      {
+        "marker": "C",
+        "content": "under the policy, the assignor is covered (wholly or partly) for liability to pay fees and charges in respect of the professional service; and"
+      },
+      {
+        "marker": "D",
+        "content": "a claim is made under section 20B for the medicare benefit that would, apart from this section, be payable to the assignor in respect of the professional service; and"
+      },
+      {
+        "marker": "E",
+        "content": "subsection 20AAA(1), (3) or (5) applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service.\n(2A) If the right to payment of a medicare benefit is taken to be assigned under subsection (2) of this section, it is taken to be assigned to the person specified in subsection 20AAA(2), (4) or (6).\n4 Before subsection 20A(3)\nInsert:Payment of assigned medicare benefits\n5 Before subsection 20A(4)\nInsert:Professional services rendered on behalf of another person\n6 At the end of section 20A\nAdd:Regulations\nWithout limiting this section, regulations prescribing requirements for the purposes of this section may specify:"
+      },
+      {
+        "marker": "A",
+        "content": "requirements relating to the content of agreements to be entered into, or the manner and form in which the agreements are to be entered into; and"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to information that must be given and the manner and form in which the information must be given; and"
+      },
+      {
+        "marker": "C",
+        "content": "requirements relating to the giving of notifications before or at the time agreements are entered into, or before or after information is given.\nNote: Regulations made for the purposes of paragraph (c) of this subsection may specify that paragraph 127(6)(c) applies. Subsection 127(6) is a civil penalty provision.\n7 After section 20A\nInsert:20AAA Simplified billing assignments: additional matters\nInsurer has arrangement with professional etc.\nFor the purposes of paragraph 20A(2)(e), this subsection applies to the assignor’s right to the payment of a medicare benefit in respect of a professional service rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment is provided if:"
+      },
+      {
+        "marker": "A",
+        "content": "any of the following conditions is satisfied:"
+      },
+      {
+        "marker": "I",
+        "content": "the insurer concerned has an arrangement with the professional for the provision of treatment to persons insured by the insurer;"
+      },
+      {
+        "marker": "2",
+        "content": "in the case of hospital treatment authorised by the operator of a hospital (see subsection (7))—the insurer has an arrangement with the operator of the hospital for the provision of treatment to persons insured by the insurer, and the operator of the hospital has an arrangement with the professional under which treatment is provided to persons insured by the insurer;"
+      },
+      {
+        "marker": "3",
+        "content": "in the case of hospital ‑ substitute treatment authorised by an organization (see subsection (7))—the insurer has an arrangement with the organization for the provision of treatment to persons insured by the insurer, and the organization has an arrangement with the professional under which treatment is provided to persons insured by the insurer; and"
+      },
+      {
+        "marker": "B",
+        "content": "the arrangement or arrangements (as the case may be) cover (wholly or partly) a liability of the insurer, the operator of the hospital or the organization to pay fees and charges in respect of the professional service; and"
+      },
+      {
+        "marker": "C",
+        "content": "the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1).\nFor the purposes of subsection 20A(2A), if subsection (1) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to whichever of the following is applicable:"
+      },
+      {
+        "marker": "A",
+        "content": "if the claim for the medicare benefit is made by an approved billing agent—the approved billing agent;"
+      },
+      {
+        "marker": "B",
+        "content": "otherwise—the insurer.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nRequest made by assignor\nFor the purposes of paragraph 20A(2)(e), this subsection applies to the assignor’s right to the payment of a medicare benefit in respect of a professional service rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment is provided if:"
+      },
+      {
+        "marker": "A",
+        "content": "unless paragraph (b) applies—the medicare benefit is covered by a request made by the assignor for the purposes of this paragraph, in accordance with requirements specified in the regulations, to the following person (the responsible provider ):"
+      },
+      {
+        "marker": "I",
+        "content": "in the case of hospital treatment authorised by the operator of a hospital (see subsection (7))—the operator of the hospital;"
+      },
+      {
+        "marker": "2",
+        "content": "in the case of hospital ‑ substitute treatment authorised by an organization (see subsection (7))—the organization;"
+      },
+      {
+        "marker": "3",
+        "content": "in the case of hospital ‑ substitute treatment to which subparagraph (ii) does not apply—the professional; and"
+      },
+      {
+        "marker": "B",
+        "content": "if a request mentioned in paragraph (a) has been modified, in accordance with requirements specified in the regulations, after the professional service is rendered, by the responsible provider or a person authorised by the responsible provider—the medicare benefit is covered by the request as modified; and"
+      },
+      {
+        "marker": "C",
+        "content": "the request, or the request as modified (as the case may be), provides that the assignor’s right to the payment of the medicare benefit in respect of the professional service is to be assigned to the insurer concerned or an approved billing agent; and"
+      },
+      {
+        "marker": "D",
+        "content": "any requirements specified in the regulations are met; and"
+      },
+      {
+        "marker": "E",
+        "content": "the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1), or because of the operation of subsection (1) or (5) of this section.\nNote 1: The operator of the hospital, the organization or the professional (as the case may be) must, if asked to, give the assignor a copy of the terms of a request made under paragraph (3)(a): see subsection 127(4).\nNote 2: The operator of the hospital, the organization or the professional (as the case may be) must give the assignor a notification as soon as practicable after a request is modified under paragraph (3)(b): see subsection 127(5).\nFor the purposes of subsection 20A(2A), if subsection (3) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to the insurer or approved billing agent mentioned in paragraph (3)(c) of this section.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nComplications and related urgent unplanned services\nFor the purposes of paragraph 20A(2)(e), this subsection applies to the assignor’s right to the payment of a medicare benefit in respect of a professional service rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment is provided if:"
+      },
+      {
+        "marker": "A",
+        "content": "another professional service (the related professional service ) is rendered while the hospital treatment or hospital ‑ substitute treatment is provided; and"
+      },
+      {
+        "marker": "B",
+        "content": "the right to payment of the medicare benefit in respect of the related professional service is taken to be assigned to the insurer concerned or an approved billing agent because of the operation of subsection (1) or (3) of this section; and"
+      },
+      {
+        "marker": "C",
+        "content": "the professional service:"
+      },
+      {
+        "marker": "I",
+        "content": "is rendered for a complication that arises during the related professional service; or"
+      },
+      {
+        "marker": "2",
+        "content": "is unplanned but is rendered during planned treatment of which the related professional service is part, and is, in the view of the professional, necessary and urgent; and"
+      },
+      {
+        "marker": "D",
+        "content": "the right to payment of the medicare benefit has not been assigned under an agreement entered into under subsection 20A(1), or because of the operation of subsection (1) of this section.\nFor the purposes of subsection 20A(2A), if subsection (5) of this section applies to the assignor’s right to the payment of the medicare benefit in respect of the professional service, it is taken to be assigned to the insurer or approved billing agent mentioned in paragraph (5)(b) of this section.\nNote: The insurer or approved billing agent must notify the assignor within 6 months of being paid the medicare benefit: see subsection 127(3).\nTreatment provided under authorisation of operator of hospital or organization\nFor the purposes of this section, the operator of a hospital, or an organization, authorises the provision of hospital treatment, or hospital ‑ substitute treatment, to a patient if:"
+      },
+      {
+        "marker": "A",
+        "content": "the operator of the hospital, or the organization, is a body corporate or a body politic; and"
+      },
+      {
+        "marker": "B",
+        "content": "the treatment is provided:"
+      },
+      {
+        "marker": "I",
+        "content": "by a person who is authorised by the operator of the hospital, or the organization, to provide the treatment; or"
+      },
+      {
+        "marker": "2",
+        "content": "under the management or control of such a person.\nNote: In this Act, a hospital is a facility for which a declaration under subsection 121 ‑ 5(6) of the Private Health Insurance Act 2007 is in force: see subsection 3(1) of this Act and subsection 121 ‑ 5(5) of the Private Health Insurance Act 2007 .\nRegulationsWithout limiting this section, regulations prescribing requirements for the purposes of this section may specify:"
+      },
+      {
+        "marker": "A",
+        "content": "requirements relating to the content of requests or modifications to be made, or the manner and form in which the requests or modifications are to be made; and"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to information that must be given and the manner and form in which the information must be given; and"
+      },
+      {
+        "marker": "C",
+        "content": "requirements relating to the giving of notifications at the time or after modifications are made, or before or after information is given; and"
+      },
+      {
+        "marker": "D",
+        "content": "in relation to the making or modifying of a request—the circumstances in which the request may be made or modified.\nNote: Regulations made for the purposes of paragraph (c) of this subsection may specify that paragraph 127(6)(c) applies. Subsection 127(6) is a civil penalty provision.\n8 Subsections 20B(1) to (3)\nRepeal the subsections, substitute:\nA claim for a medicare benefit in respect of a professional service must be made to the Chief Executive Medicare:"
+      },
+      {
+        "marker": "A",
+        "content": "in accordance with any requirements set out in the regulations; and"
+      },
+      {
+        "marker": "B",
+        "content": "in the manner and form (if any) approved, by notifiable instrument, by the Chief Executive Medicare; and"
+      },
+      {
+        "marker": "C",
+        "content": "within the period of 2 years, or such further period as is allowed in accordance with subsection (3A), after the rendering of the service.\nWithout limiting this section, regulations prescribing requirements for the purposes of paragraph (1)(a) may specify any of the following:"
+      },
+      {
+        "marker": "A",
+        "content": "requirements that must be met before a claim can be made;"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to the content of a claim;"
+      },
+      {
+        "marker": "C",
+        "content": "requirements relating to the giving of notifications before or at the time a claim is made.\n9 Subsection 20B(3A)\nOmit “lodging the claim than the period of 2 years referred to in paragraph (1)(b) or (2)(b)”, substitute “making the claim”.\n10 Subsection 20B(3B)\nOmit “lodging”, substitute “making”.\n11 Section 127\nRepeal the section, substitute:\n127 Assignor of medicare benefit to be given notifications etc.\nBulk billing assignments\nA person contravenes this subsection if:"
+      },
+      {
+        "marker": "A",
+        "content": "the person is a professional mentioned in paragraph 20A(1)(b); and"
+      },
+      {
+        "marker": "B",
+        "content": "the professional and an eligible person (the assignor ) enter into an agreement under subsection 20A(1); and"
+      },
+      {
+        "marker": "C",
+        "content": "the assignor asks for a copy of the terms of the agreement; and"
+      },
+      {
+        "marker": "D",
+        "content": "the professional does not give the assignor a copy of the terms of the agreement as soon as practicable after the assignor asks for it.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:"
+      },
+      {
+        "marker": "A",
+        "content": "the person is a professional mentioned in paragraph 20A(1)(b); and"
+      },
+      {
+        "marker": "B",
+        "content": "the professional and an eligible person (the assignor ) enter into an agreement under subsection 20A(1); and"
+      },
+      {
+        "marker": "C",
+        "content": "under regulations made for the purposes of this paragraph, the professional is required to give a notification to the assignor relating to the agreement or to a right to payment of a medicare benefit assigned under the agreement; and"
+      },
+      {
+        "marker": "D",
+        "content": "the professional contravenes those regulations; and"
+      },
+      {
+        "marker": "E",
+        "content": "those regulations specify that this paragraph applies.\nCivil penalty: 5 penalty units.\nSimplified billing assignments\nA person contravenes this subsection if:"
+      },
+      {
+        "marker": "A",
+        "content": "the person is an insurer or approved billing agent; and"
+      },
+      {
+        "marker": "B",
+        "content": "an eligible person (the assignor ) is taken to have assigned a medicare benefit to the insurer or approved billing agent under subsection 20A(2); and"
+      },
+      {
+        "marker": "C",
+        "content": "the medicare benefit is paid to the insurer or approved billing agent; and"
+      },
+      {
+        "marker": "D",
+        "content": "the insurer or approved billing agent does not give the assignor a notification:"
+      },
+      {
+        "marker": "I",
+        "content": "in accordance with any requirements specified in the regulations; and"
+      },
+      {
+        "marker": "2",
+        "content": "within 6 months of the payment.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:"
+      },
+      {
+        "marker": "A",
+        "content": "the person is a responsible provider mentioned in paragraph 20AAA(3)(a); and"
+      },
+      {
+        "marker": "B",
+        "content": "an eligible person (the assignor ) makes a request for the purposes of paragraph 20AAA(3)(a) to the responsible provider; and"
+      },
+      {
+        "marker": "C",
+        "content": "the assignor asks the responsible provider for a copy of the terms of the request; and"
+      },
+      {
+        "marker": "D",
+        "content": "the responsible provider does not ensure that the assignor is given a copy of the terms of the request as soon as practicable after the assignor asks for it.\nCivil penalty: 5 penalty units.\nA person contravenes this subsection if:"
+      },
+      {
+        "marker": "A",
+        "content": "the person is a responsible provider mentioned in paragraph 20AAA(3)(b); and"
+      },
+      {
+        "marker": "B",
+        "content": "an eligible person (the assignor ) makes a request for the purposes of paragraph 20AAA(3)(a) to the responsible provider; and"
+      },
+      {
+        "marker": "C",
+        "content": "the responsible provider, or a person authorised by the responsible provider, modifies the request as mentioned in paragraph 20AAA(3)(b); and"
+      },
+      {
+        "marker": "D",
+        "content": "the responsible provider does not ensure that the assignor is given a notification:"
+      },
+      {
+        "marker": "I",
+        "content": "in accordance with any requirements specified in the regulations; and"
+      },
+      {
+        "marker": "2",
+        "content": "as soon as practicable after modifying the request.\nCivil penalty: 5 penalty units.\nNotification obligations in regulations\nA person contravenes this subsection if:"
+      },
+      {
+        "marker": "A",
+        "content": "under regulations made for the purposes of paragraph 20A(6)(c), 20AAA(8)(c) or 20B(2)(c), the person is required to:"
+      },
+      {
+        "marker": "I",
+        "content": "give a notification to an eligible person; or"
+      },
+      {
+        "marker": "2",
+        "content": "ensure that a notification is given to an eligible person; and"
+      },
+      {
+        "marker": "B",
+        "content": "the person contravenes those regulations; and"
+      },
+      {
+        "marker": "C",
+        "content": "those regulations specify that this paragraph applies.\nCivil penalty: 5 penalty units.\nRegulationsWithout limiting this section, regulations prescribing requirements for the purposes of this section in relation to the giving of a notification may specify:"
+      },
+      {
+        "marker": "A",
+        "content": "requirements relating to the content of the notification to be given; and"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to the manner and form in which the notification is to be given; and"
+      },
+      {
+        "marker": "C",
+        "content": "in the case of regulations made for the purposes of paragraph (2)(c)—circumstances in which the notification must be given.\n127A Record ‑ keeping in relation to assignments\nPersons to keep relevant records\nA professional mentioned in subsection 20A(1), an insurer or an approved billing agent (a relevant person ) must keep all records of a kind specified by the regulations that are relevant to the following:"
+      },
+      {
+        "marker": "A",
+        "content": "the assignment of the right to payment of a medicare benefit to the relevant person under section 20A;"
+      },
+      {
+        "marker": "B",
+        "content": "any claim for a medicare benefit assigned to the relevant person made under section 20B;"
+      },
+      {
+        "marker": "C",
+        "content": "any matter specified in the regulations.\nSubsection (3) applies if:"
+      },
+      {
+        "marker": "A",
+        "content": "the right to the payment of a medicare benefit in respect of a professional service is taken to have been assigned under subsection 20A(2); and"
+      },
+      {
+        "marker": "B",
+        "content": "the professional service was rendered by, or on behalf of, a person (the professional ) while hospital treatment or hospital ‑ substitute treatment was provided.\nThe following person (also a relevant person ):"
+      },
+      {
+        "marker": "A",
+        "content": "in the case of hospital treatment authorised by the operator of a hospital (see subsection 20AAA(7))—the operator of the hospital;"
+      },
+      {
+        "marker": "B",
+        "content": "in the case of hospital ‑ substitute treatment authorised by an organization (see subsection 20AAA(7))—the organization;"
+      },
+      {
+        "marker": "C",
+        "content": "in the case of hospital ‑ substitute treatment to which paragraph (b) does not apply—the professional;\nmust keep all records of a kind specified by the regulations that are relevant to the following:"
+      },
+      {
+        "marker": "D",
+        "content": "the assignment of the right to payment of the medicare benefit;"
+      },
+      {
+        "marker": "E",
+        "content": "any matter specified in the regulations.\nRecord ‑ keeping requirements\nThe records must be kept in:"
+      },
+      {
+        "marker": "A",
+        "content": "an electronic form; or"
+      },
+      {
+        "marker": "B",
+        "content": "another form approved by the Secretary.\nThe records must be retained until the latest of the following:"
+      },
+      {
+        "marker": "A",
+        "content": "if the record is an agreement entered into under subsection 20A(1) or an arrangement mentioned in paragraph 20AAA(1)(a)—2 years after the agreement or arrangement ceases to be in force;"
+      },
+      {
+        "marker": "B",
+        "content": "2 years after the day on which the records were created;"
+      },
+      {
+        "marker": "C",
+        "content": "if the regulations specify a day for records of a specified kind, and the records are of that kind—that day.\nCivil penalty provision\nA relevant person contravenes this subsection if the relevant person fails to:"
+      },
+      {
+        "marker": "A",
+        "content": "keep the records required by subsection (1) or (3); or"
+      },
+      {
+        "marker": "B",
+        "content": "keep the records in the form required by or under subsection (4); or"
+      },
+      {
+        "marker": "C",
+        "content": "retain the records for the period required by or under subsection (5).\nCivil penalty: 5 penalty units.\nRegulationsWithout limiting this section, regulations prescribing kinds of records, or matters to which records are relevant, may specify different kinds or matters for different classes of person.\n12 Application and saving provisions\nSubsection 19(6) of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to a professional service rendered on or after the commencement of this Schedule.\nSubsection 20A(1) of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to an agreement entered into under that subsection on or after the commencement of this Schedule.\nSubitem (4) applies if:"
+      },
+      {
+        "marker": "A",
+        "content": "before the commencement of this Schedule, an eligible person made an offer under subsection 20A(2) of the Health Insurance Act 1973 to enter into an agreement under subsection 20A(1) with respect to the medicare benefit payable in respect of a pathology service; and"
+      },
+      {
+        "marker": "B",
+        "content": "on the commencement of this Schedule, the pathology service had not yet been rendered.\nFor the purposes of the Health Insurance Act 1973 , as amended by this Schedule, on and after the commencement of this Schedule, treat the offer as an offer to enter into an agreement under subsection 20A(1) of the Act, as amended by this Schedule.\nSubsections 20A(2) and (2A), and section 20AAA, of the Health Insurance Act 1973 , as amended or inserted by this Schedule, apply in relation to a professional service rendered on or after the commencement of this Schedule.\nSection 20B of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to a professional service rendered on or after the commencement of this Schedule.\nSubsection 127(1) of the Health Insurance Act 1973 , as amended by this Schedule, applies in relation to an agreement entered into under subsection 20A(1) of that Act, as amended by this Schedule, on or after the commencement of this Schedule.\nSection 127A of the Health Insurance Act 1973 , as inserted by this Schedule, applies in relation to a professional service rendered on or after the commencement of this Schedule."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "compensation_benefits",
+      "legal_definitions",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 58.5,
+        "matched_keywords": [
+          "payment",
+          "insurance"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 52.5,
+        "matched_keywords": [
+          "pay",
+          "benefits",
+          "pay (weak)",
+          "benefits (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 36.0,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 28.5,
+        "matched_keywords": [
+          "penalty"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1270,
+    "source_end": 23215,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_70_2024_ART_End0",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_70_2024",
+    "law_name": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_name_original": "Health Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024",
+    "law_type": "Act",
+    "article_number": "End0",
+    "article_number_normalized": "End0",
+    "article_title": "Endnotes",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "EndnotesEndnote 1—About the endnotes\nThe endnotes provide information about this compilation and the compiled law.\nThe following endnotes are included in every compilation:\nEndnote 1—About the endnotes\nEndnote 2—Abbreviation key\nEndnote 3—Legislation history\nEndnote 4—Amendment history\nAbbreviation key—Endnote 2\nThe abbreviation key sets out abbreviations that may be used in the endnotes.\nLegislation history and amendment history—Endnotes 3 and 4\nAmending laws are annotated in the legislation history and amendment history.\nThe legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.\nThe amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.\nEditorial changesThe Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.\nIf the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.\nMisdescribed amendments\nA misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003 .\nIf a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.\nEndnote 2—Abbreviation key\nad = added or inserted\norig = originalam = amended\np = page(s)amdt = amendment\npara = paragraph(s)/subparagraph(s)\nC[x] = Compilation No. x\n/sub ‑ subparagraph(s)\nch = Chapter(s)pres = present\ncl = clause(s)prev = previous\ncont. = continued(prev…) = previously\ndef = definition(s)pt = Part(s)\nDict = Dictionaryr = regulation(s)/Court rule(s)\ndisallowed = disallowed by Parliament\nreloc = relocateddiv = Division(s)\nrenum = renumbereded = editorial change\nrep = repealedexp = expires/expired or ceases/ceased to have\nrs = repealed and substituted\neffects = section(s)/subsection(s)\ngaz = gazette/rule(s)/subrule(s)/order(s)/suborder(s)\nLA = Legislation Act 2003\nsch = Schedule(s)LIA = Legislative Instruments Act 2003\nSLI = Select Legislative Instrument\n(md) = misdescribed amendment can be given\nSR = Statutory Rules\neffectsub ch = Sub ‑ Chapter(s)\n(md not incorp) = misdescribed amendment\nsub div = Subdivision(s)\ncannot be given effect\nsub pt = Subpart(s)mod = modified/modification\nunderlining = whole or part not\nNo. = Number(s)commenced or to be commenced\nOrd = OrdinanceEndnote 3—Legislation history\nAct(Register ID)\nNumber and yearAssent\nCommencementApplication, saving and transitional provisions\nHealth Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024 (C2024A00070)\n70, 2024\n9 July 2024\ns 1 ‑ 3: 9 July 2024 (s 2(1) item 1)\nsch 1: 1 July 2026 (s 2(1) item 2)\nHealth Legislation Amendment (Miscellaneous Measures No. 1) Act 2025 (C2025A00054)\n54, 2025\n4 Nov 2025\nsch 3 (item 1): 5 Nov 2025 (s 2(1) item 4)\n—\nEndnote 4—Amendment history\nProvision affectedHow affected\ns 2 .....................\nam No 54, 2025",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "endnote",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "EndnotesEndnote 1—About the endnotes\nThe endnotes provide information about this compilation and the compiled law.\nThe following endnotes are included in every compilation:\nEndnote 1—About the endnotes\nEndnote 2—Abbreviation key\nEndnote 3—Legislation history\nEndnote 4—Amendment history\nAbbreviation key—Endnote 2\nThe abbreviation key sets out abbreviations that may be used in the endnotes.\nLegislation history and amendment history—Endnotes 3 and 4\nAmending laws are annotated in the legislation history and amendment history.\nThe legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.\nThe amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.\nEditorial changesThe Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.\nIf the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.\nMisdescribed amendments\nA misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003 .\nIf a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.\nEndnote 2—Abbreviation key\nad = added or inserted\norig = originalam = amended\np = page(s)amdt = amendment\npara = paragraph(s)/subparagraph(s)\nC[x] = Compilation No. x\n/sub ‑ subparagraph(s)\nch = Chapter(s)pres = present\ncl = clause(s)prev = previous\ncont. = continued(prev…) = previously\ndef = definition(s)pt = Part(s)\nDict = Dictionaryr = regulation(s)/Court rule(s)\ndisallowed = disallowed by Parliament\nreloc = relocateddiv = Division(s)\nrenum = renumbereded = editorial change\nrep = repealedexp = expires/expired or ceases/ceased to have\nrs = repealed and substituted\neffects = section(s)/subsection(s)\ngaz = gazette/rule(s)/subrule(s)/order(s)/suborder(s)\nLA = Legislation Act 2003\nsch = Schedule(s)LIA = Legislative Instruments Act 2003\nSLI = Select Legislative Instrument\n(md) = misdescribed amendment can be given\nSR = Statutory Rules\neffectsub ch = Sub ‑ Chapter(s)\n(md not incorp) = misdescribed amendment\nsub div = Subdivision(s)\ncannot be given effect\nsub pt = Subpart(s)mod = modified/modification\nunderlining = whole or part not\nNo. = Number(s)commenced or to be commenced\nOrd = OrdinanceEndnote 3—Legislation history\nAct(Register ID)\nNumber and yearAssent\nCommencementApplication, saving and transitional provisions\nHealth Insurance Legislation Amendment (Assignment of Medicare Benefits) Act 2024 (C2024A00070)\n70, 2024\n9 July 2024\ns 1 ‑ 3: 9 July 2024 (s 2(1) item 1)\nsch 1: 1 July 2026 (s 2(1) item 2)\nHealth Legislation Amendment (Miscellaneous Measures No. 1) Act 2025 (C2025A00054)\n54, 2025\n4 Nov 2025\nsch 3 (item 1): 5 Nov 2025 (s 2(1) item 4)\n—\nEndnote 4—Amendment history\nProvision affectedHow affected\ns 2 .....................\nam No 54, 2025"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "definition",
+          "definition (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "benefits",
+          "benefits (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-05",
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00070/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_027.txt",
+    "sample_id": "AU_027",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_027",
+    "raw_sha256": "e29eb242452588274c8377b72ddfe0887315402b89c89b7fbe0cdb95711c6e48",
+    "extracted_text_sha256": "92039aeaa5832264d92213121f41831d54479d38b2da38afebf1713ed1b6f1b0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23216,
+    "source_end": 26998,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:57Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

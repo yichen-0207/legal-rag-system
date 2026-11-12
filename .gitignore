@@ -12,8 +12,8 @@ build/
 # 生成的缓存数据（可重新生成）
 legal_rag/data/kg_cache/
 
-# 派生语料：由 data_tools/phase1_clean_data.py 从 data/raw 全量重建，不入库（约 128MB）
-legal_rag/data/raw_v2/
+# 派生语料 raw_v2：由 data_tools/phase1_clean_data.py 从 data/raw 重建，
+# 已随仓库提供（ingest 的唯一扫描目录），故不再忽略
 
 # 生成的图表（可重新生成）
 legal_rag/evals/results/charts/
@@ -74,7 +74,6 @@ evidence_stage8/
 
 # 离线检查/清洗报告（可由脚本重新生成）
 /legal_rag/data/pre_ingest_report.json
-/legal_rag/data/phase1_report.json
 /legal_rag/data/report.json
 
 # Python 测试缓存

@@ -1,0 +1,2195 @@
+[
+  {
+    "doc_id": "CN_DOC_8_2022_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第一条 为了确保关键信息基础设施供应链安全，保障网络安全和数据安全，维护国家安全，根据《中华人民共和国国家安全法》、《中华人民共和国网络安全法》、《中华人民共和国数据安全法》、《关键信息基础设施安全保护条例》，制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 94,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为了确保关键信息基础设施供应链安全，保障网络安全和数据安全，维护国家安全，根据《中华人民共和国国家安全法》、《中华人民共和国网络安全法》、《中华人民共和国数据安全法》、《关键信息基础设施安全保护条例》，制定本办法。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 12.0,
+        "matched_keywords": [
+          "网络安全",
+          "关键信息基础设施",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 194,
+    "source_end": 203,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二条 关键信息基础设施运营者采购网络产品和服务，网络平台运营者开展数据处理活动，影响或者可能影响国家安全的，应当按照本办法进行网络安全审查。\n前款规定的关键信息基础设施运营者、网络平台运营者统称为当事人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 95,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 关键信息基础设施运营者采购网络产品和服务，网络平台运营者开展数据处理活动，影响或者可能影响国家安全的，应当按照本办法进行网络安全审查。\n前款规定的关键信息基础设施运营者、网络平台运营者统称为当事人。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "data_protection",
+      "data_management",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 10.5,
+        "matched_keywords": [
+          "网络安全",
+          "关键信息基础设施",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 187,
+    "source_end": 203,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第三条 网络安全审查坚持防范网络安全风险与促进先进技术应用相结合、过程公正透明与知识产权保护相结合、事前审查与持续监管相结合、企业承诺与社会监督相结合，从产品和服务以及数据处理活动安全性、可能带来的国家安全风险等方面进行审查。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 106,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 网络安全审查坚持防范网络安全风险与促进先进技术应用相结合、过程公正透明与知识产权保护相结合、事前审查与持续监管相结合、企业承诺与社会监督相结合，从产品和服务以及数据处理活动安全性、可能带来的国家安全风险等方面进行审查。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "data_protection",
+      "intellectual_property",
+      "data_management",
+      "national_security",
+      "intellectual_property_licensing"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "intellectual_property",
+        "label_zh": "知识产权",
+        "label_en": "Intellectual Property",
+        "label_pt": "Propriedade Intelectual",
+        "score": 4.5,
+        "matched_keywords": [
+          "知识产权"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      },
+      {
+        "id": "intellectual_property_licensing",
+        "label_zh": "知识产权与许可",
+        "label_en": "IP Licensing",
+        "label_pt": "Licença de Propriedade Intelectual",
+        "score": 4.5,
+        "matched_keywords": [
+          "知识产权"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1636,
+    "source_end": 1712,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第四条 在中央网络安全和信息化委员会领导下，国家互联网信息办公室会同中华人民共和国国家发展和改革委员会、中华人民共和国工业和信息化部、中华人民共和国公安部、中华人民共和国国家安全部、中华人民共和国财政部、中华人民共和国商务部、中国人民银行、国家市场监督管理总局、国家广播电视总局、中国证券监督管理委员会、国家保密局、国家密码管理局建立国家网络安全审查工作机制。\n网络安全审查办公室设在国家互联网信息办公室，负责制定网络安全审查相关制度规范，组织网络安全审查。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 211,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 在中央网络安全和信息化委员会领导下，国家互联网信息办公室会同中华人民共和国国家发展和改革委员会、中华人民共和国工业和信息化部、中华人民共和国公安部、中华人民共和国国家安全部、中华人民共和国财政部、中华人民共和国商务部、中国人民银行、国家市场监督管理总局、国家广播电视总局、中国证券监督管理委员会、国家保密局、国家密码管理局建立国家网络安全审查工作机制。\n网络安全审查办公室设在国家互联网信息办公室，负责制定网络安全审查相关制度规范，组织网络安全审查。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "financial_services",
+      "national_security",
+      "administrative_procedures",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 10.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "证券",
+          "银行 (weak)",
+          "证券 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 9.0,
+        "matched_keywords": [
+          "国家安全",
+          "保密"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 7.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "广播",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2728,
+    "source_end": 3007,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第五条 关键信息基础设施运营者采购网络产品和服务的，应当预判该产品和服务投入使用后可能带来的国家安全风险。影响或者可能影响国家安全的，应当向网络安全审查办公室申报网络安全审查。\n关键信息基础设施安全保护工作部门可以制定本行业、本领域预判指南。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 113,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 关键信息基础设施运营者采购网络产品和服务的，应当预判该产品和服务投入使用后可能带来的国家安全风险。影响或者可能影响国家安全的，应当向网络安全审查办公室申报网络安全审查。\n关键信息基础设施安全保护工作部门可以制定本行业、本领域预判指南。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 12.0,
+        "matched_keywords": [
+          "网络安全",
+          "关键信息基础设施",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 195,
+    "source_end": 203,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第六条 对于申报网络安全审查的采购活动，关键信息基础设施运营者应当通过采购文件、协议等要求产品和服务提供者配合网络安全审查，包括承诺不利用提供产品和服务的便利条件非法获取用户数据、非法控制和操纵用户设备，无正当理由不中断产品供应或者必要的技术支持服务等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 120,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 对于申报网络安全审查的采购活动，关键信息基础设施运营者应当通过采购文件、协议等要求产品和服务提供者配合网络安全审查，包括承诺不利用提供产品和服务的便利条件非法获取用户数据、非法控制和操纵用户设备，无正当理由不中断产品供应或者必要的技术支持服务等。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 10.5,
+        "matched_keywords": [
+          "网络安全",
+          "关键信息基础设施",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2837,
+    "source_end": 3014,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第七条 掌握超过100万用户个人信息的网络平台运营者赴国外上市，必须向网络安全审查办公室申报网络安全审查。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 47,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 掌握超过100万用户个人信息的网络平台运营者赴国外上市，必须向网络安全审查办公室申报网络安全审查。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1013,
+    "source_end": 1066,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第八条 当事人申报网络安全审查，应当提交以下材料：\n（一）申报书；（二）关于影响或者可能影响国家安全的分析报告；\n（三）采购文件、协议、拟签订的合同或者拟提交的首次公开募股（IPO）等上市申请文件；\n（四）网络安全审查工作需要的其他材料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 94,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 当事人申报网络安全审查，应当提交以下材料：\n（一）申报书；（二）关于影响或者可能影响国家安全的分析报告；\n（三）采购文件、协议、拟签订的合同或者拟提交的首次公开募股（IPO）等上市申请文件；\n（四）网络安全审查工作需要的其他材料。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 181,
+    "source_end": 203,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第九条 网络安全审查办公室应当自收到符合本办法第八条规定的审查申报材料起10个工作日内，确定是否需要审查并书面通知当事人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 56,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 网络安全审查办公室应当自收到符合本办法第八条规定的审查申报材料起10个工作日内，确定是否需要审查并书面通知当事人。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1979,
+    "source_end": 2000,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十条 网络安全审查重点评估相关对象或者情形的以下国家安全风险因素：\n（一）产品和服务使用后带来的关键信息基础设施被非法控制、遭受干扰或者破坏的风险；\n（二）产品和服务供应中断对关键信息基础设施业务连续性的危害；\n（三）产品和服务的安全性、开放性、透明性、来源的多样性，供应渠道的可靠性以及因为政治、外交、贸易等因素导致供应中断的风险；\n（四）产品和服务提供者遵守中国法律、行政法规、部门规章情况；\n（五）核心数据、重要数据或者大量个人信息被窃取、泄露、毁损以及非法利用、非法出境的风险；\n（六）上市存在关键信息基础设施、核心数据、重要数据或者大量个人信息被外国政府影响、控制、恶意利用的风险，以及网络信息安全风险；\n（七）其他可能危害关键信息基础设施安全、网络安全和数据安全的因素。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 293,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 网络安全审查重点评估相关对象或者情形的以下国家安全风险因素：\n（一）产品和服务使用后带来的关键信息基础设施被非法控制、遭受干扰或者破坏的风险；\n（二）产品和服务供应中断对关键信息基础设施业务连续性的危害；\n（三）产品和服务的安全性、开放性、透明性、来源的多样性，供应渠道的可靠性以及因为政治、外交、贸易等因素导致供应中断的风险；\n（四）产品和服务提供者遵守中国法律、行政法规、部门规章情况；\n（五）核心数据、重要数据或者大量个人信息被窃取、泄露、毁损以及非法利用、非法出境的风险；\n（六）上市存在关键信息基础设施、核心数据、重要数据或者大量个人信息被外国政府影响、控制、恶意利用的风险，以及网络信息安全风险；\n（七）其他可能危害关键信息基础设施安全、网络安全和数据安全的因素。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "public_governance",
+      "data_protection",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 19.5,
+        "matched_keywords": [
+          "网络安全",
+          "信息安全",
+          "关键信息基础设施",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 9.0,
+        "matched_keywords": [
+          "政府",
+          "行政",
+          "政府 (weak)",
+          "行政 (weak)",
+          "服务 (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "数据 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1021,
+    "source_end": 1067,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十一条 网络安全审查办公室认为需要开展网络安全审查的，应当自向当事人发出书面通知之日起30个工作日内完成初步审查，包括形成审查结论建议和将审查结论建议发送网络安全审查工作机制成员单位、相关部门征求意见；情况复杂的，可以延长15个工作日。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 108,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 网络安全审查办公室认为需要开展网络安全审查的，应当自向当事人发出书面通知之日起30个工作日内完成初步审查，包括形成审查结论建议和将审查结论建议发送网络安全审查工作机制成员单位、相关部门征求意见；情况复杂的，可以延长15个工作日。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 7.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1592,
+    "source_end": 1711,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十二条 网络安全审查工作机制成员单位和相关部门应当自收到审查结论建议之日起15个工作日内书面回复意见。\n网络安全审查工作机制成员单位、相关部门意见一致的，网络安全审查办公室以书面形式将审查结论通知当事人；意见不一致的，按照特别审查程序处理，并通知当事人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 117,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 网络安全审查工作机制成员单位和相关部门应当自收到审查结论建议之日起15个工作日内书面回复意见。\n网络安全审查工作机制成员单位、相关部门意见一致的，网络安全审查办公室以书面形式将审查结论通知当事人；意见不一致的，按照特别审查程序处理，并通知当事人。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 7.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1712,
+    "source_end": 1840,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十三条 按照特别审查程序处理的，网络安全审查办公室应当听取相关单位和部门意见，进行深入分析评估，再次形成审查结论建议，并征求网络安全审查工作机制成员单位和相关部门意见，按程序报中央网络安全和信息化委员会批准后，形成审查结论并书面通知当事人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 113,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 按照特别审查程序处理的，网络安全审查办公室应当听取相关单位和部门意见，进行深入分析评估，再次形成审查结论建议，并征求网络安全审查工作机制成员单位和相关部门意见，按程序报中央网络安全和信息化委员会批准后，形成审查结论并书面通知当事人。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 7.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2730,
+    "source_end": 2901,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十四条 特别审查程序一般应当在90个工作日内完成，情况复杂的可以延长。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 31,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 特别审查程序一般应当在90个工作日内完成，情况复杂的可以延长。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1963,
+    "source_end": 1999,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十五条 网络安全审查办公室要求提供补充材料的，当事人、产品和服务提供者应当予以配合。提交补充材料的时间不计入审查时间。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 55,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 网络安全审查办公室要求提供补充材料的，当事人、产品和服务提供者应当予以配合。提交补充材料的时间不计入审查时间。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 194,
+    "source_end": 203,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十六条 网络安全审查工作机制成员单位认为影响或者可能影响国家安全的网络产品和服务以及数据处理活动，由网络安全审查办公室按程序报中央网络安全和信息化委员会批准后，依照本办法的规定进行审查。\n为了防范风险，当事人应当在审查期间按照网络安全审查要求采取预防和消减风险的措施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 128,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 网络安全审查工作机制成员单位认为影响或者可能影响国家安全的网络产品和服务以及数据处理活动，由网络安全审查办公室按程序报中央网络安全和信息化委员会批准后，依照本办法的规定进行审查。\n为了防范风险，当事人应当在审查期间按照网络安全审查要求采取预防和消减风险的措施。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "data_protection",
+      "data_management",
+      "national_security",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 9.0,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2061,
+    "source_end": 2196,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十七条 参与网络安全审查的相关机构和人员应当严格保护知识产权，对在审查工作中知悉的商业秘密、个人信息，当事人、产品和服务提供者提交的未公开材料，以及其他未公开信息承担保密义务；未经信息提供方同意，不得向无关方披露或者用于审查以外的目的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 110,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 参与网络安全审查的相关机构和人员应当严格保护知识产权，对在审查工作中知悉的商业秘密、个人信息，当事人、产品和服务提供者提交的未公开材料，以及其他未公开信息承担保密义务；未经信息提供方同意，不得向无关方披露或者用于审查以外的目的。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "cybersecurity",
+      "intellectual_property",
+      "national_security",
+      "intellectual_property_licensing"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "同意 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "intellectual_property",
+        "label_zh": "知识产权",
+        "label_en": "Intellectual Property",
+        "label_pt": "Propriedade Intelectual",
+        "score": 4.5,
+        "matched_keywords": [
+          "知识产权"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "保密"
+        ]
+      },
+      {
+        "id": "intellectual_property_licensing",
+        "label_zh": "知识产权与许可",
+        "label_en": "IP Licensing",
+        "label_pt": "Licença de Propriedade Intelectual",
+        "score": 4.5,
+        "matched_keywords": [
+          "知识产权"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2197,
+    "source_end": 2316,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十八条 当事人或者网络产品和服务提供者认为审查人员有失客观公正，或者未能对审查工作中知悉的信息承担保密义务的，可以向网络安全审查办公室或者有关部门举报。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 当事人或者网络产品和服务提供者认为审查人员有失客观公正，或者未能对审查工作中知悉的信息承担保密义务的，可以向网络安全审查办公室或者有关部门举报。"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "保密"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2317,
+    "source_end": 2394,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十九条 当事人应当督促产品和服务提供者履行网络安全审查中作出的承诺。\n网络安全审查办公室通过接受举报等形式加强事前事中事后监督。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 61,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 当事人应当督促产品和服务提供者履行网络安全审查中作出的承诺。\n网络安全审查办公室通过接受举报等形式加强事前事中事后监督。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2395,
+    "source_end": 2460,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十条 当事人违反本办法规定的，依照《中华人民共和国网络安全法》、《中华人民共和国数据安全法》的规定处理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 46,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 当事人违反本办法规定的，依照《中华人民共和国网络安全法》、《中华人民共和国数据安全法》的规定处理。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 187,
+    "source_end": 203,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十一条 本办法所称网络产品和服务主要指核心网络设备、重要通信产品、高性能计算机和服务器、大容量存储设备、大型数据库和应用软件、网络安全设备、云计算服务，以及其他对关键信息基础设施安全、网络安全和数据安全有重要影响的网络产品和服务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 107,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 本办法所称网络产品和服务主要指核心网络设备、重要通信产品、高性能计算机和服务器、大容量存储设备、大型数据库和应用软件、网络安全设备、云计算服务，以及其他对关键信息基础设施安全、网络安全和数据安全有重要影响的网络产品和服务。"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 10.5,
+        "matched_keywords": [
+          "网络安全",
+          "关键信息基础设施",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2516,
+    "source_end": 2633,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十二条 涉及国家秘密信息的，依照国家有关保密规定执行。\n国家对数据安全审查、外商投资安全审查另有规定的，应当同时符合其规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 57,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 涉及国家秘密信息的，依照国家有关保密规定执行。\n国家对数据安全审查、外商投资安全审查另有规定的，应当同时符合其规定。"
+      }
+    ],
+    "topics": [
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "保密"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 189,
+    "source_end": 203,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_8_2022_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_8_2022",
+    "law_name": "网络安全审查办法",
+    "law_name_original": "网络安全审查办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十三条 本办法自2022年2月15日起施行。2020年4月13日公布的《网络安全审查办法》（国家互联网信息办公室、国家发展和改革委员会、工业和信息化部、公安部、国家安全部、财政部、商务部、中国人民银行、国家市场监督管理总局、国家广播电视总局、国家保密局、国家密码管理局令第6号）同时废止。\n工业和信息化部发布",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 122,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 本办法自2022年2月15日起施行。2020年4月13日公布的《网络安全审查办法》（国家互联网信息办公室、国家发展和改革委员会、工业和信息化部、公安部、国家安全部、财政部、商务部、中国人民银行、国家市场监督管理总局、国家广播电视总局、国家保密局、国家密码管理局令第6号）同时废止。\n工业和信息化部发布"
+      }
+    ],
+    "topics": [
+      "national_security",
+      "cybersecurity",
+      "telecommunications",
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 9.0,
+        "matched_keywords": [
+          "国家安全",
+          "保密"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "广播",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "银行",
+          "银行 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2020-04-13",
+    "effective_date": "2022-02-15",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_558854ad8be243dcad5c7875a26387d3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_043.txt",
+    "sample_id": "CN_043",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_043",
+    "raw_sha256": "979a1a00ac840de8269f2186c5a52c069b259a265e148c303358db29b499b877",
+    "extracted_text_sha256": "ca89c6612f85d7afd660f331d8969a3c78df0186b37a09d08d6bea86548efd0c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2699,
+    "source_end": 2855,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:21Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "doc_id": "SG_ACT_19_1993_ART_012",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_19_1993",
+    "law_name": "Computer Misuse Act 1993",
+    "law_name_original": "Computer Misuse Act 1993",
+    "law_type": "法律",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "Abetments and attempts punishable as offences",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 3 MISCELLANEOUS AND GENERAL",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 3 MISCELLANEOUS AND GENERAL"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-12-30",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_19_1993",
+    "source_type": "gov_gazette",
+    "source_file": "SG_43332705_Computer_Misuse_Act_1993.txt",
+    "source_start": 934,
+    "source_end": 982,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:12Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

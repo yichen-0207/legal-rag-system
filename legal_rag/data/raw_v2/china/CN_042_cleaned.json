@@ -1,0 +1,1491 @@
+[
+  {
+    "doc_id": "CN_DOC_170_2024_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第一条 为打击治理电信网络诈骗及其关联违法犯罪，建立健全联合惩戒制度，根据《中华人民共和国反电信网络诈骗法》等法律法规，制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 59,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为打击治理电信网络诈骗及其关联违法犯罪，建立健全联合惩戒制度，根据《中华人民共和国反电信网络诈骗法》等法律法规，制定本办法。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 12.0,
+        "matched_keywords": [
+          "电信",
+          "电信网络",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "犯罪",
+          "犯罪 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 95,
+    "source_end": 119,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二条 联合惩戒应当遵循依法认定、过惩相当、动态管理的原则。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 26,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 联合惩戒应当遵循依法认定、过惩相当、动态管理的原则。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 58,
+    "source_end": 119,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第三条 本办法规定的惩戒对象包括：\n（一）因实施电信网络诈骗犯罪活动，或者实施与电信网络诈骗相关联的帮助信息网络犯罪活动，妨害信用卡管理，侵犯公民个人信息，掩饰、隐瞒犯罪所得、犯罪所得收益及组织他人偷越国（边）境、偷越国（边）境等犯罪受过刑事处罚的人员；\n（二）经设区的市级以上公安机关认定，具有下列行为之一的单位、个人和相关组织者：\n1. 非法买卖、出租、出借电话卡、物联网卡、固定电话、电信线路、短信端口、银行账户、支付账户、数字人民币钱包、互联网账号等三张（个）以上，或者为上述卡、账户、账号提供实名核验帮助三张（个）以上的；\n2. 非法买卖、出租、出借电话卡、物联网卡、固定电话、电信线路、短信端口、银行账户、支付账户、数字人民币钱包、互联网账号等三次以上，或者为上述卡、账户、账号提供实名核验帮助三次以上的；\n3. 向三个以上对象非法买卖、出租、出借电话卡、物联网卡、固定电话、电信线路、短信端口、银行账户、支付账户、数字人民币钱包、互联网账号等，或者提供实名核验帮助的；\n4. 假冒他人身份或者虚构代理关系开立电话卡、物联网卡、固定电话、电信线路、短信端口、银行账户、支付账户、数字人民币钱包、互联网账号等的；\n具有前三种情形之一，虽未达到数量标准，但造成较大影响、确有惩戒必要的，报经省级以上公安机关审核认定，可以列为惩戒对象。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 472,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 本办法规定的惩戒对象包括：\n（一）因实施电信网络诈骗犯罪活动，或者实施与电信网络诈骗相关联的帮助信息网络犯罪活动，妨害信用卡管理，侵犯公民个人信息，掩饰、隐瞒犯罪所得、犯罪所得收益及组织他人偷越国（边）境、偷越国（边）境等犯罪受过刑事处罚的人员；\n（二）经设区的市级以上公安机关认定，具有下列行为之一的单位、个人和相关组织者：\n1. 非法买卖、出租、出借电话卡、物联网卡、固定电话、电信线路、短信端口、银行账户、支付账户、数字人民币钱包、互联网账号等三张（个）以上，或者为上述卡、账户、账号提供实名核验帮助三张（个）以上的；\n2. 非法买卖、出租、出借电话卡、物联网卡、固定电话、电信线路、短信端口、银行账户、支付账户、数字人民币钱包、互联网账号等三次以上，或者为上述卡、账户、账号提供实名核验帮助三次以上的；\n3. 向三个以上对象非法买卖、出租、出借电话卡、物联网卡、固定电话、电信线路、短信端口、银行账户、支付账户、数字人民币钱包、互联网账号等，或者提供实名核验帮助的；\n4. 假冒他人身份或者虚构代理关系开立电话卡、物联网卡、固定电话、电信线路、短信端口、银行账户、支付账户、数字人民币钱包、互联网账号等的；\n具有前三种情形之一，虽未达到数量标准，但造成较大影响、确有惩戒必要的，报经省级以上公安机关审核认定，可以列为惩戒对象。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "financial_services",
+      "criminal_law",
+      "data_protection",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 18.0,
+        "matched_keywords": [
+          "电信",
+          "电信网络",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "银行",
+          "支付",
+          "银行 (weak)",
+          "支付 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 15.0,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事 (weak)",
+          "犯罪 (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络犯罪",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 577,
+    "source_end": 789,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第四条 惩戒对象为单位的，可以同时对其直接负责的主管人员和其他直接责任人员实施惩戒。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 惩戒对象为单位的，可以同时对其直接负责的主管人员和其他直接责任人员实施惩戒。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 61,
+    "source_end": 119,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第五条 惩戒措施包括金融惩戒、电信网络惩戒、信用惩戒。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 23,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 惩戒措施包括金融惩戒、电信网络惩戒、信用惩戒。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信",
+          "电信网络",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 65,
+    "source_end": 119,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第六条 银行业金融机构、非银行支付机构应当对惩戒对象落实以下金融惩戒措施：\n（一）限制惩戒对象名下银行账户、数字人民币钱包的非柜面出金功能，与开立机构既有协议约定的代扣代缴税款、社保、水电煤气费等基本生活保障的款项除外；\n（二）停止惩戒对象名下支付账户业务，支付账户余额向本人同名银行账户转账除外；\n（三）暂停为惩戒对象新开立支付账户、实名数字人民币钱包，新开立的银行账户应遵循本条第（一）项要求。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 175,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 银行业金融机构、非银行支付机构应当对惩戒对象落实以下金融惩戒措施：\n（一）限制惩戒对象名下银行账户、数字人民币钱包的非柜面出金功能，与开立机构既有协议约定的代扣代缴税款、社保、水电煤气费等基本生活保障的款项除外；\n（二）停止惩戒对象名下支付账户业务，支付账户余额向本人同名银行账户转账除外；\n（三）暂停为惩戒对象新开立支付账户、实名数字人民币钱包，新开立的银行账户应遵循本条第（一）项要求。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 24.0,
+        "matched_keywords": [
+          "银行",
+          "支付",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "支付 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 860,
+    "source_end": 1059,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第七条 电信业务经营者、互联网服务提供者应当对惩戒对象落实以下电信网络惩戒措施：\n（一）限制惩戒对象名下的电话卡、物联网卡、固定电话、电信线路、短信端口等功能以及过户等业务；\n（二）限制惩戒对象名下电话卡注册的存在涉诈风险的互联网账号功能及业务；\n（三）不得为惩戒对象开立新的电话卡、物联网卡、固定电话、电信线路、短信端口，存在涉诈风险的互联网账号等以及提供网站、应用程序的分发、上架等业务；\n以上涉及惩戒的通信业务、互联网应用等应当具备较高的涉诈属性和安全风险，具体惩戒范围由公安机关会同行业主管部门认定。在惩戒期内，惩戒对象在收到公安机关惩戒通知后十个工作日内可申请保留一张名下非涉案电话卡。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 266,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 电信业务经营者、互联网服务提供者应当对惩戒对象落实以下电信网络惩戒措施：\n（一）限制惩戒对象名下的电话卡、物联网卡、固定电话、电信线路、短信端口等功能以及过户等业务；\n（二）限制惩戒对象名下电话卡注册的存在涉诈风险的互联网账号功能及业务；\n（三）不得为惩戒对象开立新的电话卡、物联网卡、固定电话、电信线路、短信端口，存在涉诈风险的互联网账号等以及提供网站、应用程序的分发、上架等业务；\n以上涉及惩戒的通信业务、互联网应用等应当具备较高的涉诈属性和安全风险，具体惩戒范围由公安机关会同行业主管部门认定。在惩戒期内，惩戒对象在收到公安机关惩戒通知后十个工作日内可申请保留一张名下非涉案电话卡。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 13.5,
+        "matched_keywords": [
+          "电信",
+          "电信网络",
+          "网络 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 96,
+    "source_end": 119,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第八条 信用惩戒措施应当通过以下方式予以落实：\n（一）将有关惩戒对象纳入“电信网络诈骗”严重失信主体名单，共享至全国信用信息共享平台，并通过“信用中国”网站对严重失信主体信息进行公示；\n（二）将有关惩戒对象信息纳入金融信用信息基础数据库。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 103,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 信用惩戒措施应当通过以下方式予以落实：\n（一）将有关惩戒对象纳入“电信网络诈骗”严重失信主体名单，共享至全国信用信息共享平台，并通过“信用中国”网站对严重失信主体信息进行公示；\n（二）将有关惩戒对象信息纳入金融信用信息基础数据库。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信",
+          "电信网络",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1359,
+    "source_end": 1478,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第九条 对惩戒对象实行分级惩戒：\n（一）实施电信网络诈骗及其关联犯罪被追究刑事责任的，适用本办法第六条至第八条规定的惩戒措施，惩戒期限为三年；\n（二）经设区的市级以上公安机关认定的惩戒对象，适用本办法第六条、第七条及第八条第（二）项规定的惩戒措施，惩戒期限为二年。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 115,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 对惩戒对象实行分级惩戒：\n（一）实施电信网络诈骗及其关联犯罪被追究刑事责任的，适用本办法第六条至第八条规定的惩戒措施，惩戒期限为三年；\n（二）经设区的市级以上公安机关认定的惩戒对象，适用本办法第六条、第七条及第八条第（二）项规定的惩戒措施，惩戒期限为二年。"
+      }
+    ],
+    "topics": [
+      "criminal_law",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 13.5,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事责任",
+          "刑事 (weak)",
+          "犯罪 (weak)",
+          "责任 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信",
+          "电信网络",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 63,
+    "source_end": 119,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十条 被判处有期徒刑、拘役的惩戒对象，惩戒期限自有期徒刑、拘役执行完毕之日起计算，惩戒措施效力当然施用于有期徒刑、拘役执行期间。被判处管制或者宣告缓刑的惩戒对象，惩戒期限自判决生效之日起计算。\n经设区的市级公安机关认定的，惩戒期限自认定之日起计算。\n惩戒对象在惩戒期限内被多次惩戒的，惩戒期限累计执行，但连续执行期限不得超过五年。\n惩戒到期后自动解除，有关惩戒对象自动移出“电信网络诈骗”严重失信主体名单。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 183,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 被判处有期徒刑、拘役的惩戒对象，惩戒期限自有期徒刑、拘役执行完毕之日起计算，惩戒措施效力当然施用于有期徒刑、拘役执行期间。被判处管制或者宣告缓刑的惩戒对象，惩戒期限自判决生效之日起计算。\n经设区的市级公安机关认定的，惩戒期限自认定之日起计算。\n惩戒对象在惩戒期限内被多次惩戒的，惩戒期限累计执行，但连续执行期限不得超过五年。\n惩戒到期后自动解除，有关惩戒对象自动移出“电信网络诈骗”严重失信主体名单。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信",
+          "电信网络",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1612,
+    "source_end": 1816,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十一条 县级公安机关在办理电信网络诈骗及其关联违法犯罪案件时，应当及时掌握对犯罪嫌疑人、被告人移送起诉、审判的情况，对符合本办法第三条规定的，及时呈报设区的市级以上公安机关审核。\n设区的市级以上公安机关审核认定后，出具联合惩戒对象信息报送表，注明惩戒措施及期限、申诉渠道等信息，层报公安部。公安部将联合惩戒对象相关信息移送国家发展和改革委员会、工业和信息化部和中国人民银行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 173,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 县级公安机关在办理电信网络诈骗及其关联违法犯罪案件时，应当及时掌握对犯罪嫌疑人、被告人移送起诉、审判的情况，对符合本办法第三条规定的，及时呈报设区的市级以上公安机关审核。\n设区的市级以上公安机关审核认定后，出具联合惩戒对象信息报送表，注明惩戒措施及期限、申诉渠道等信息，层报公安部。公安部将联合惩戒对象相关信息移送国家发展和改革委员会、工业和信息化部和中国人民银行。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "criminal_law",
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信",
+          "电信网络",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 6.0,
+        "matched_keywords": [
+          "犯罪",
+          "犯罪 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "银行",
+          "银行 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1817,
+    "source_end": 2005,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十二条 中国人民银行征信中心、电信业务经营者、银行业金融机构、非银行支付机构、互联网服务提供者应当在收到公安机关惩戒对象相关信息后十个工作日内落实惩戒措施并及时反馈结果。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 80,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 中国人民银行征信中心、电信业务经营者、银行业金融机构、非银行支付机构、互联网服务提供者应当在收到公安机关惩戒对象相关信息后十个工作日内落实惩戒措施并及时反馈结果。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "银行",
+          "支付",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "支付 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 108,
+    "source_end": 119,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十三条 作出惩戒对象认定的公安机关应当在有关部门落实惩戒措施前，采取当面或者邮寄等方式，将惩戒的事由依据、惩戒期限、惩戒措施、依法享有申诉的权利及申诉渠道等内容书面告知被惩戒对象。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 84,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 作出惩戒对象认定的公安机关应当在有关部门落实惩戒措施前，采取当面或者邮寄等方式，将惩戒的事由依据、惩戒期限、惩戒措施、依法享有申诉的权利及申诉渠道等内容书面告知被惩戒对象。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2093,
+    "source_end": 2184,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十四条 惩戒对象对惩戒认定有异议的，或者相关惩戒措施到期未解除的，可以通过当面、电话、书面等方式向作出认定的公安机关申诉。\n公安机关收到申诉后，应当在三个工作日内一次性告知申诉人需要提供的材料，并在收到材料之日起十五个工作日内完成核查工作，向申诉人书面反馈核查结果，对于不予解除惩戒措施的应当说明理由。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 140,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 惩戒对象对惩戒认定有异议的，或者相关惩戒措施到期未解除的，可以通过当面、电话、书面等方式向作出认定的公安机关申诉。\n公安机关收到申诉后，应当在三个工作日内一次性告知申诉人需要提供的材料，并在收到材料之日起十五个工作日内完成核查工作，向申诉人书面反馈核查结果，对于不予解除惩戒措施的应当说明理由。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2185,
+    "source_end": 2337,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十五条 对于经过核查，发现原惩戒认定确有错误的，经设区的市级以上公安机关审核认定后，及时出具解除联合惩戒对象信息报送表，层报公安部。公安部将解除联合惩戒对象相关信息移送国家发展和改革委员会、工业和信息化部和中国人民银行。\n对于因惩戒认定错误给原被惩戒对象造成损害的，应当依法追究相关责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 134,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 对于经过核查，发现原惩戒认定确有错误的，经设区的市级以上公安机关审核认定后，及时出具解除联合惩戒对象信息报送表，层报公安部。公安部将解除联合惩戒对象相关信息移送国家发展和改革委员会、工业和信息化部和中国人民银行。\n对于因惩戒认定错误给原被惩戒对象造成损害的，应当依法追究相关责任。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "银行",
+          "银行 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2338,
+    "source_end": 2483,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十六条 中国人民银行征信中心、电信业务经营者、银行业金融机构、非银行支付机构、互联网服务提供者应当在收到公安机关解除惩戒对象相关信息后十个工作日内解除惩戒措施并及时反馈结果。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 82,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 中国人民银行征信中心、电信业务经营者、银行业金融机构、非银行支付机构、互联网服务提供者应当在收到公安机关解除惩戒对象相关信息后十个工作日内解除惩戒措施并及时反馈结果。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "银行",
+          "支付",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "支付 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2484,
+    "source_end": 2572,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十七条 直辖市的区县公安机关适用本办法中设区的市级公安机关的相关规定。\n本办法中“以上”，均包含本级、本数。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 47,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 直辖市的区县公安机关适用本办法中设区的市级公安机关的相关规定。\n本办法中“以上”，均包含本级、本数。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 95,
+    "source_end": 119,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_170_2024_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_170_2024",
+    "law_name": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_name_original": "电信网络诈骗及其关联违法犯罪联合惩戒办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十八条 本办法自 2024 年 12 月 1 日起施行。《中华人民共和国反电信网络诈骗法》施行前，实施本办法第三条所列行为的，不适用本办法。\n工业和信息化部发布",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 本办法自 2024 年 12 月 1 日起施行。《中华人民共和国反电信网络诈骗法》施行前，实施本办法第三条所列行为的，不适用本办法。\n工业和信息化部发布"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信",
+          "电信网络",
+          "网络 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2024-12-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/qtl/art/2025/art_a448c137a4e3435f89362ba62c71346e.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_042.txt",
+    "sample_id": "CN_042",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_042",
+    "raw_sha256": "8e61867e1aaacbe5516e63cf03b0c8fe2227d71ad1945a18a7c20945cbb817e2",
+    "extracted_text_sha256": "f44d7f85c2802e544c06b63bc54c70eb8cc6495615d41b42e41fcd33136ebbed",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2629,
+    "source_end": 2710,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:09Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

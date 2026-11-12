@@ -1,0 +1,1955 @@
+[
+  {
+    "doc_id": "AU_ACT_138_2021_ART_001",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "Short title",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act is the Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021 .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act is the Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021 ."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 142,
+    "source_end": 303,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_002",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Commencement",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provisions\nCommencementDate/Details\n1. Sections 1 to 3 and anything in this Act not elsewhere covered by this table\nThe day this Act receives the Royal Assent.\n13 December 2021\n2. Schedule 1A single day to be fixed by Proclamation.\nHowever, if the provisions do not commence within the period of 6 months beginning on the day this Act receives the Royal Assent, they commence on the day after the end of that period.\n13 June 2022\n3. Schedule 2The day after this Act receives the Royal Assent.\n14 December 2021\nNote: This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.\nAny information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provisions\nCommencementDate/Details\n1. Sections 1 to 3 and anything in this Act not elsewhere covered by this table\nThe day this Act receives the Royal Assent.\n13 December 2021\n2. Schedule 1A single day to be fixed by Proclamation.\nHowever, if the provisions do not commence within the period of 6 months beginning on the day this Act receives the Royal Assent, they commence on the day after the end of that period.\n13 June 2022\n3. Schedule 2The day after this Act receives the Royal Assent.\n14 December 2021\nNote: This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.\nAny information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 268,
+    "source_end": 1427,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_003",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Schedules",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Legislation that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned, and any other item in a Schedule to this Act has effect according to its terms.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Legislation that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned, and any other item in a Schedule to this Act has effect according to its terms."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1393,
+    "source_end": 1663,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_004",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "Subsection 124ZH(2)",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Omit “The person”, substitute “Subject to subsection (4), the person”.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Omit “The person”, substitute “Subject to subsection (4), the person”."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6254,
+    "source_end": 6374,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_005",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "At the end of section 124ZH",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Add:Subsection (2) does not apply to a person if:\n(a) a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and\n(b) the written notice of the determination includes a statement that the Secretary is satisfied that the person breached the condition mentioned in paragraph 124ZG(1)(a) or (c) (as applicable) as a result of those exceptional circumstances.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and"
+      },
+      {
+        "marker": "B",
+        "content": "the written notice of the determination includes a statement that the Secretary is satisfied that the person breached the condition mentioned in paragraph 124ZG(1)(a) or (c) (as applicable) as a result of those exceptional circumstances."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6347,
+    "source_end": 6811,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_006",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "Subsection 124ZJ(1)",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Omit “A medicare”, substitute “Subject to subsection (4), a medicare”.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Omit “A medicare”, substitute “Subject to subsection (4), a medicare”."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6792,
+    "source_end": 6912,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_007",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "Paragraph 124ZJ(1)(a)",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Omit “is”, substitute “was”.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Omit “is”, substitute “was”."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6885,
+    "source_end": 6963,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_008",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "Paragraph 124ZJ(1)(b)",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Repeal the paragraph, substitute:\n(b) breached the condition mentioned in paragraph 124ZG(1)(c) when the medical practitioner was a bonded participant.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Repeal the paragraph, substitute:\n(b) breached the condition mentioned in paragraph 124ZG(1)(c) when the medical practitioner was a bonded participant."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6938,
+    "source_end": 7139,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_009",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "At the end of section 124ZJ",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Add:This section does not apply to a person who is a medical practitioner if:\n(a) a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and\n(b) the written notice of the determination includes a statement that the Secretary is satisfied that the person breached the condition mentioned in paragraph 124ZG(1)(c) as a result of those exceptional circumstances.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and"
+      },
+      {
+        "marker": "B",
+        "content": "the written notice of the determination includes a statement that the Secretary is satisfied that the person breached the condition mentioned in paragraph 124ZG(1)(c) as a result of those exceptional circumstances."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7114,
+    "source_end": 7583,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_010",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "Subsection 124ZK(2)",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Omit “$10,000”, substitute “$1,000”.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Omit “$10,000”, substitute “$1,000”."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7564,
+    "source_end": 7650,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_011",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "Before paragraph 124ZN(a)",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Insert:(aa) a decision of the Secretary, under subsection 124ZEA(3), to refuse to determine that exceptional circumstances apply in relation to a person;",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Insert:(aa) a decision of the Secretary, under subsection 124ZEA(3), to refuse to determine that exceptional circumstances apply in relation to a person;"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7624,
+    "source_end": 7827,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_012",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "After paragraph 124ZN(b)",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Insert:(ba) a decision of the Secretary, under subsection 124ZUA(3), to refuse to make an extended compliance determination in relation to a person;",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Insert:(ba) a decision of the Secretary, under subsection 124ZUA(3), to refuse to make an extended compliance determination in relation to a person;"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7807,
+    "source_end": 8005,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_013",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "Subsection 124ZQ(1)",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Omit “If a”, substitute “Subject to subsection (6), if a”.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Omit “If a”, substitute “Subject to subsection (6), if a”."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7984,
+    "source_end": 8092,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_014",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "Subsection 124ZQ(3)",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Omit “A medicare”, substitute “Subject to subsection (6), a medicare”.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Omit “A medicare”, substitute “Subject to subsection (6), a medicare”."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8066,
+    "source_end": 8186,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_015",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "At the end of section 124ZQ",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Add:Exception\nThis section does not apply to a person if:\n(a) a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and\n(b) the written notice of the determination includes a statement that the Secretary is satisfied that the person withdrew from the Bonded Medical Program under section 124ZP as a result of the exceptional circumstances.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and"
+      },
+      {
+        "marker": "B",
+        "content": "the written notice of the determination includes a statement that the Secretary is satisfied that the person withdrew from the Bonded Medical Program under section 124ZP as a result of the exceptional circumstances."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8160,
+    "source_end": 8610,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_016",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "At the end of section 124ZU",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Add:If a person to whom subsection (1) applies makes an application under subsection 124ZUA(1), the person must not advise the Department of the matters mentioned in subsection (2) of this section until both of the following apply:\n(a) a decision on the application has been made;\n(b) any rights of review and appeal in relation to the decision have been exhausted.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "a decision on the application has been made;"
+      },
+      {
+        "marker": "B",
+        "content": "any rights of review and appeal in relation to the decision have been exhausted."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8592,
+    "source_end": 9007,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_017",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "After section 124ZU",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Insert:124ZUA Extended compliance determination for certain BMP and MRBS participants\nIf:(a) a person is:\n(i) a party to a deed of agreement with the Commonwealth (as represented by the Department) for funding of a place in the Bonded Medical Places Scheme, including a deed of agreement as varied; or\n(ii) a party to a contract with the Commonwealth (as represented by the Department) for a Medical Rural Bonded Scholarship, including a contract as varied; and\n(b) the person meets the requirements specified in the Bonded Medical Program rules;\nthe person may apply to the Secretary for a determination (the extended compliance determination ) that, if the person were to become a bonded participant, the person would be required to complete their return of service obligation within a period that is longer than the RoSO compliance period.\nThe application must:\n(a) be made in writing; and\n(b) be made before the person advises the Department of the matters mentioned in subsection 124ZU(2); and\n(c) be made within any period specified in the Bonded Medical Program rules that applies in relation to the person; and\n(d) specify a period within which the person would be able to complete their return of service obligation (which must not be a period that would be more than 6 years longer than the RoSO compliance period); and\n(e) be accompanied by a written plan that sets out:\n(i) how the person proposes to complete their return of service obligation within the period specified under paragraph (d); and\n(ii) any other matters specified in the Bonded Medical Program rules; and\n(f) be accompanied by any other documents specified in the Bonded Medical Program rules; and\n(g) set out any other information specified in the Bonded Medical Program rules.\nIf the person makes an application under subsection (1), the Secretary may make the extended compliance determination in relation to the person if the Secretary is satisfied that:\n(a) the person is a person of kind mentioned in subparagraph (1)(a)(i) or (ii); and\n(b) the person meets the requirements specified in the Bonded Medical Program rules for the purposes of paragraph (1)(b); and\n(c) if the person were to become a bonded participant, the plan referred to in paragraph (2)(e) sets out a reasonable proposal for the completion of their return of service obligation within a period that is longer than the RoSO compliance period.\nIf the Secretary makes the extended compliance determination in relation to the person, the Secretary must:\n(a) give the person written notice of the determination; and\n(b) specify in the notice the period within which the person would, if the person were to become a bonded participant, be required to complete their return of service obligation.\nThe period specified under paragraph (4)(b):\n(a) must not be a period that would be more than 6 years longer than the RoSO compliance period; and\n(b) may be the same as, or different from, the period specified in the application.\nIf the Secretary refuses to make the extended compliance determination in relation to the person, the Secretary must give the person written notice of the following:\n(a) the decision to refuse to make the determination;\n(b) the reasons for the decision;\n(c) how the person may apply for review of the decision.\n124ZUB Secretary may request further information\nIf:(a) a person makes an application under subsection 124ZUA(1); and\n(b) the Secretary needs further information to make a decision on the application;\nthe Secretary may, by written notice, request the person to give further information to the Secretary within a specified period.\nThe specified period must not be shorter than 28 days after the notice is given.\nThe Secretary may, at the person’s request, extend the specified period. The request must be made in writing and before that period ends.\nIf the person does not give the requested further information within:\n(a) in a case in which the specified period has been extended under subsection (3)—the period as so extended; or\n(b) otherwise—the specified period;\nthe application is taken to be withdrawn at the end of the period.\nA notice given under subsection (1) must set out the effect of subsection (4).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "I",
+        "content": "a party to a deed of agreement with the Commonwealth (as represented by the Department) for funding of a place in the Bonded Medical Places Scheme, including a deed of agreement as varied; or"
+      },
+      {
+        "marker": "2",
+        "content": "a party to a contract with the Commonwealth (as represented by the Department) for a Medical Rural Bonded Scholarship, including a contract as varied; and"
+      },
+      {
+        "marker": "B",
+        "content": "the person meets the requirements specified in the Bonded Medical Program rules;\nthe person may apply to the Secretary for a determination (the extended compliance determination ) that, if the person were to become a bonded participant, the person would be required to complete their return of service obligation within a period that is longer than the RoSO compliance period.\nThe application must:"
+      },
+      {
+        "marker": "A",
+        "content": "be made in writing; and"
+      },
+      {
+        "marker": "B",
+        "content": "be made before the person advises the Department of the matters mentioned in subsection 124ZU(2); and"
+      },
+      {
+        "marker": "C",
+        "content": "be made within any period specified in the Bonded Medical Program rules that applies in relation to the person; and"
+      },
+      {
+        "marker": "D",
+        "content": "specify a period within which the person would be able to complete their return of service obligation (which must not be a period that would be more than 6 years longer than the RoSO compliance period); and"
+      },
+      {
+        "marker": "E",
+        "content": "be accompanied by a written plan that sets out:"
+      },
+      {
+        "marker": "I",
+        "content": "how the person proposes to complete their return of service obligation within the period specified under paragraph (d); and"
+      },
+      {
+        "marker": "2",
+        "content": "any other matters specified in the Bonded Medical Program rules; and"
+      },
+      {
+        "marker": "F",
+        "content": "be accompanied by any other documents specified in the Bonded Medical Program rules; and"
+      },
+      {
+        "marker": "G",
+        "content": "set out any other information specified in the Bonded Medical Program rules.\nIf the person makes an application under subsection (1), the Secretary may make the extended compliance determination in relation to the person if the Secretary is satisfied that:"
+      },
+      {
+        "marker": "A",
+        "content": "the person is a person of kind mentioned in subparagraph (1)(a)(i) or (ii); and"
+      },
+      {
+        "marker": "B",
+        "content": "the person meets the requirements specified in the Bonded Medical Program rules for the purposes of paragraph (1)(b); and"
+      },
+      {
+        "marker": "C",
+        "content": "if the person were to become a bonded participant, the plan referred to in paragraph (2)(e) sets out a reasonable proposal for the completion of their return of service obligation within a period that is longer than the RoSO compliance period.\nIf the Secretary makes the extended compliance determination in relation to the person, the Secretary must:"
+      },
+      {
+        "marker": "A",
+        "content": "give the person written notice of the determination; and"
+      },
+      {
+        "marker": "B",
+        "content": "specify in the notice the period within which the person would, if the person were to become a bonded participant, be required to complete their return of service obligation.\nThe period specified under paragraph (4)(b):"
+      },
+      {
+        "marker": "A",
+        "content": "must not be a period that would be more than 6 years longer than the RoSO compliance period; and"
+      },
+      {
+        "marker": "B",
+        "content": "may be the same as, or different from, the period specified in the application.\nIf the Secretary refuses to make the extended compliance determination in relation to the person, the Secretary must give the person written notice of the following:"
+      },
+      {
+        "marker": "A",
+        "content": "the decision to refuse to make the determination;"
+      },
+      {
+        "marker": "B",
+        "content": "the reasons for the decision;"
+      },
+      {
+        "marker": "C",
+        "content": "how the person may apply for review of the decision.\n124ZUB Secretary may request further information\nIf:(a) a person makes an application under subsection 124ZUA(1); and"
+      },
+      {
+        "marker": "B",
+        "content": "the Secretary needs further information to make a decision on the application;\nthe Secretary may, by written notice, request the person to give further information to the Secretary within a specified period.\nThe specified period must not be shorter than 28 days after the notice is given.\nThe Secretary may, at the person’s request, extend the specified period. The request must be made in writing and before that period ends.\nIf the person does not give the requested further information within:"
+      },
+      {
+        "marker": "A",
+        "content": "in a case in which the specified period has been extended under subsection (3)—the period as so extended; or"
+      },
+      {
+        "marker": "B",
+        "content": "otherwise—the specified period;\nthe application is taken to be withdrawn at the end of the period.\nA notice given under subsection (1) must set out the effect of subsection (4)."
+      }
+    ],
+    "topics": [
+      "consumer_protection",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 10.5,
+        "matched_keywords": [
+          "return"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8989,
+    "source_end": 13237,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_018",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "At the end of subsection 124ZV(2)",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Add:; and (d) if an extended compliance determination has been made under subsection 124ZUA(3) in relation to the person—the person is to be taken, for the purposes of this Part, to be required to complete their return of service obligation within the period specified in the written notice of the determination given to the person.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Add:; and (d) if an extended compliance determination has been made under subsection 124ZUA(3) in relation to the person—the person is to be taken, for the purposes of this Part, to be required to complete their return of service obligation within the period specified in the written notice of the determination given to the person."
+      }
+    ],
+    "topics": [
+      "consumer_protection",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 4.5,
+        "matched_keywords": [
+          "return"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 13211,
+    "source_end": 13593,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_019",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "At the end of subsection 124ZW(2)",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Add:; and (d) if an extended compliance determination has been made under subsection 124ZUA(3) in relation to the person—the person is to be taken, for the purposes of this Part, to be required to complete their return of service obligation within the period specified in the written notice of the determination given to the person.\nSchedule 2 — Amendments relating to MRBS contracts\nHealth Insurance Act 1973",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Add:; and (d) if an extended compliance determination has been made under subsection 124ZUA(3) in relation to the person—the person is to be taken, for the purposes of this Part, to be required to complete their return of service obligation within the period specified in the written notice of the determination given to the person.\nSchedule 2 — Amendments relating to MRBS contracts\nHealth Insurance Act 1973"
+      }
+    ],
+    "topics": [
+      "consumer_protection",
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 4.5,
+        "matched_keywords": [
+          "return"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 13581,
+    "source_end": 14040,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_Sch1",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "Sch1",
+    "article_number_normalized": "Sch1",
+    "article_title": "1 — Amendments relating to the Bonded Medical Program",
+    "chunk_index": 19,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Health Insurance Act 1973\n1 Subsection 3(1)\nInsert:extended compliance determination has the meaning given by subsection 124ZUA(1).\nRoSO compliance period means the period referred to in paragraph 124ZF(2)(a).\n2 Subsection 124ZE(4)\nRepeal the subsection, substitute:\nWhen a person ceases to be a bonded participant\nIf:(a) a person is a bonded participant; and\n(b) any of the following events occur:\n(i) the person completes their return of service obligation;\n(ii) the person withdraws from, or is barred from, a course of study in medicine at an Australian university;\n(iii) the person breaches the condition mentioned in paragraph 124ZG(1)(c);\n(iv) the person withdraws from the Bonded Medical Program in accordance with section 124ZP;\n(v) the person dies;\n(vi) the Secretary makes a determination under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person;\nthe person ceases to be a bonded participant immediately after the first of those events occurs.\n3 At the end of Subdivision A of Division 1 of Part VD\nAdd:124ZEA Determination that exceptional circumstances apply in relation to a person\nIf:(a) a person (the affected person ) is or was a bonded participant; or\n(b) a person is a legal personal representative of an affected person who:\n(i) is deceased; or(ii) lacks capacity to make an application under this section;\nthe affected person, or the legal personal representative, may apply to the Secretary for a determination that exceptional circumstances apply in relation to the affected person.\nThe application must:\n(a) be made in writing; and\n(b) set out the exceptional circumstances that apply in relation to the affected person; and\n(c) set out any other information specified in the Bonded Medical Program rules; and\n(d) be accompanied by any documents specified in the Bonded Medical Program rules.\nIf an applicant makes an application under subsection (1), the Secretary may determine that exceptional circumstances apply in relation to the affected person.\nIn determining whether exceptional circumstances apply in relation to the affected person, the Secretary must have regard to any matter specified in the Bonded Medical Program rules.\nIf the Secretary makes the determination under subsection (3) that exceptional circumstances apply in relation to the affected person, the Secretary must:\n(a) give the applicant written notice of the determination; and\n(b) state in the notice that the Secretary is satisfied that:\n(i) the exceptional circumstances will prevent the affected person from complying with the condition mentioned in paragraph 124ZG(1)(a) or (c); or\n(ii) the affected person breached a condition mentioned in paragraph 124ZG(1)(a) or (c) as a result of the exceptional circumstances; or\n(iii) the affected person withdrew from the Bonded Medical Program under section 124ZP as a result of the exceptional circumstances; and\n(c) set out, in the notice, the effect of subparagraph 124ZE(4)(b)(vi) and whichever of the following provisions is applicable in relation to the affected person:\n(i) subsection 124ZH(4);\n(ii) subsection 124ZJ(4);\n(iii) subsection 124ZQ(6).\nA statement under subparagraph (5)(b)(ii) or (iii) may relate to a breach of a condition or a withdrawal (as the case may be) that occurs before or after the commencement of this section.\nIf the Secretary refuses to make the determination under subsection (3) in relation to the affected person, the Secretary must give the applicant written notice of the following:\n(a) the decision to refuse to make the determination;\n(b) the reasons for the decision;\n(c) how the applicant may apply for review of the decision.\n124ZEB Secretary may request further information\nIf:(a) a person makes an application under subsection 124ZEA(1); and\n(b) the Secretary needs further information to make a decision on the application;\nthe Secretary may, by written notice, request the person to give further information to the Secretary within a specified period.\nThe specified period must not be shorter than 28 days after the notice is given.\nThe Secretary may, at the person’s request, extend the specified period. The request must be made in writing and before that period ends.\nIf the person does not give the requested further information within:\n(a) in a case in which the specified period has been extended under subsection (3)—the period as so extended; or\n(b) otherwise—the specified period;\nthe application is taken to be withdrawn at the end of the period.\nA notice given under subsection (1) must set out the effect of subsection (4).\n4 Subsection 124ZH(2)\nOmit “The person”, substitute “Subject to subsection (4), the person”.\n5 At the end of section 124ZH\nAdd:Subsection (2) does not apply to a person if:\n(a) a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and\n(b) the written notice of the determination includes a statement that the Secretary is satisfied that the person breached the condition mentioned in paragraph 124ZG(1)(a) or (c) (as applicable) as a result of those exceptional circumstances.\n6 Subsection 124ZJ(1)\nOmit “A medicare”, substitute “Subject to subsection (4), a medicare”.\n7 Paragraph 124ZJ(1)(a)\nOmit “is”, substitute “was”.\n8 Paragraph 124ZJ(1)(b)\nRepeal the paragraph, substitute:\n(b) breached the condition mentioned in paragraph 124ZG(1)(c) when the medical practitioner was a bonded participant.\n9 At the end of section 124ZJ\nAdd:This section does not apply to a person who is a medical practitioner if:\n(a) a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and\n(b) the written notice of the determination includes a statement that the Secretary is satisfied that the person breached the condition mentioned in paragraph 124ZG(1)(c) as a result of those exceptional circumstances.\n10 Subsection 124ZK(2)\nOmit “$10,000”, substitute “$1,000”.\n11 Before paragraph 124ZN(a)\nInsert:(aa) a decision of the Secretary, under subsection 124ZEA(3), to refuse to determine that exceptional circumstances apply in relation to a person;\n12 After paragraph 124ZN(b)\nInsert:(ba) a decision of the Secretary, under subsection 124ZUA(3), to refuse to make an extended compliance determination in relation to a person;\n13 Subsection 124ZQ(1)\nOmit “If a”, substitute “Subject to subsection (6), if a”.\n14 Subsection 124ZQ(3)\nOmit “A medicare”, substitute “Subject to subsection (6), a medicare”.\n15 At the end of section 124ZQ\nAdd:Exception\nThis section does not apply to a person if:\n(a) a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and\n(b) the written notice of the determination includes a statement that the Secretary is satisfied that the person withdrew from the Bonded Medical Program under section 124ZP as a result of the exceptional circumstances.\n16 At the end of section 124ZU\nAdd:If a person to whom subsection (1) applies makes an application under subsection 124ZUA(1), the person must not advise the Department of the matters mentioned in subsection (2) of this section until both of the following apply:\n(a) a decision on the application has been made;\n(b) any rights of review and appeal in relation to the decision have been exhausted.\n17 After section 124ZU\nInsert:124ZUA Extended compliance determination for certain BMP and MRBS participants\nIf:(a) a person is:\n(i) a party to a deed of agreement with the Commonwealth (as represented by the Department) for funding of a place in the Bonded Medical Places Scheme, including a deed of agreement as varied; or\n(ii) a party to a contract with the Commonwealth (as represented by the Department) for a Medical Rural Bonded Scholarship, including a contract as varied; and\n(b) the person meets the requirements specified in the Bonded Medical Program rules;\nthe person may apply to the Secretary for a determination (the extended compliance determination ) that, if the person were to become a bonded participant, the person would be required to complete their return of service obligation within a period that is longer than the RoSO compliance period.\nThe application must:\n(a) be made in writing; and\n(b) be made before the person advises the Department of the matters mentioned in subsection 124ZU(2); and\n(c) be made within any period specified in the Bonded Medical Program rules that applies in relation to the person; and\n(d) specify a period within which the person would be able to complete their return of service obligation (which must not be a period that would be more than 6 years longer than the RoSO compliance period); and\n(e) be accompanied by a written plan that sets out:\n(i) how the person proposes to complete their return of service obligation within the period specified under paragraph (d); and\n(ii) any other matters specified in the Bonded Medical Program rules; and\n(f) be accompanied by any other documents specified in the Bonded Medical Program rules; and\n(g) set out any other information specified in the Bonded Medical Program rules.\nIf the person makes an application under subsection (1), the Secretary may make the extended compliance determination in relation to the person if the Secretary is satisfied that:\n(a) the person is a person of kind mentioned in subparagraph (1)(a)(i) or (ii); and\n(b) the person meets the requirements specified in the Bonded Medical Program rules for the purposes of paragraph (1)(b); and\n(c) if the person were to become a bonded participant, the plan referred to in paragraph (2)(e) sets out a reasonable proposal for the completion of their return of service obligation within a period that is longer than the RoSO compliance period.\nIf the Secretary makes the extended compliance determination in relation to the person, the Secretary must:\n(a) give the person written notice of the determination; and\n(b) specify in the notice the period within which the person would, if the person were to become a bonded participant, be required to complete their return of service obligation.\nThe period specified under paragraph (4)(b):\n(a) must not be a period that would be more than 6 years longer than the RoSO compliance period; and\n(b) may be the same as, or different from, the period specified in the application.\nIf the Secretary refuses to make the extended compliance determination in relation to the person, the Secretary must give the person written notice of the following:\n(a) the decision to refuse to make the determination;\n(b) the reasons for the decision;\n(c) how the person may apply for review of the decision.\n124ZUB Secretary may request further information\nIf:(a) a person makes an application under subsection 124ZUA(1); and\n(b) the Secretary needs further information to make a decision on the application;\nthe Secretary may, by written notice, request the person to give further information to the Secretary within a specified period.\nThe specified period must not be shorter than 28 days after the notice is given.\nThe Secretary may, at the person’s request, extend the specified period. The request must be made in writing and before that period ends.\nIf the person does not give the requested further information within:\n(a) in a case in which the specified period has been extended under subsection (3)—the period as so extended; or\n(b) otherwise—the specified period;\nthe application is taken to be withdrawn at the end of the period.\nA notice given under subsection (1) must set out the effect of subsection (4).\n18 At the end of subsection 124ZV(2)\nAdd:; and (d) if an extended compliance determination has been made under subsection 124ZUA(3) in relation to the person—the person is to be taken, for the purposes of this Part, to be required to complete their return of service obligation within the period specified in the written notice of the determination given to the person.\n19 At the end of subsection 124ZW(2)\nAdd:; and (d) if an extended compliance determination has been made under subsection 124ZUA(3) in relation to the person—the person is to be taken, for the purposes of this Part, to be required to complete their return of service obligation within the period specified in the written notice of the determination given to the person.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "schedule",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "B",
+        "content": "any of the following events occur:"
+      },
+      {
+        "marker": "I",
+        "content": "the person completes their return of service obligation;"
+      },
+      {
+        "marker": "2",
+        "content": "the person withdraws from, or is barred from, a course of study in medicine at an Australian university;"
+      },
+      {
+        "marker": "3",
+        "content": "the person breaches the condition mentioned in paragraph 124ZG(1)(c);"
+      },
+      {
+        "marker": "4",
+        "content": "the person withdraws from the Bonded Medical Program in accordance with section 124ZP;"
+      },
+      {
+        "marker": "V",
+        "content": "the person dies;"
+      },
+      {
+        "marker": "6",
+        "content": "the Secretary makes a determination under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person;\nthe person ceases to be a bonded participant immediately after the first of those events occurs.\n3 At the end of Subdivision A of Division 1 of Part VD\nAdd:124ZEA Determination that exceptional circumstances apply in relation to a person\nIf:(a) a person (the affected person ) is or was a bonded participant; or"
+      },
+      {
+        "marker": "B",
+        "content": "a person is a legal personal representative of an affected person who:"
+      },
+      {
+        "marker": "I",
+        "content": "is deceased; or(ii) lacks capacity to make an application under this section;\nthe affected person, or the legal personal representative, may apply to the Secretary for a determination that exceptional circumstances apply in relation to the affected person.\nThe application must:"
+      },
+      {
+        "marker": "A",
+        "content": "be made in writing; and"
+      },
+      {
+        "marker": "B",
+        "content": "set out the exceptional circumstances that apply in relation to the affected person; and"
+      },
+      {
+        "marker": "C",
+        "content": "set out any other information specified in the Bonded Medical Program rules; and"
+      },
+      {
+        "marker": "D",
+        "content": "be accompanied by any documents specified in the Bonded Medical Program rules.\nIf an applicant makes an application under subsection (1), the Secretary may determine that exceptional circumstances apply in relation to the affected person.\nIn determining whether exceptional circumstances apply in relation to the affected person, the Secretary must have regard to any matter specified in the Bonded Medical Program rules.\nIf the Secretary makes the determination under subsection (3) that exceptional circumstances apply in relation to the affected person, the Secretary must:"
+      },
+      {
+        "marker": "A",
+        "content": "give the applicant written notice of the determination; and"
+      },
+      {
+        "marker": "B",
+        "content": "state in the notice that the Secretary is satisfied that:"
+      },
+      {
+        "marker": "I",
+        "content": "the exceptional circumstances will prevent the affected person from complying with the condition mentioned in paragraph 124ZG(1)(a) or (c); or"
+      },
+      {
+        "marker": "2",
+        "content": "the affected person breached a condition mentioned in paragraph 124ZG(1)(a) or (c) as a result of the exceptional circumstances; or"
+      },
+      {
+        "marker": "3",
+        "content": "the affected person withdrew from the Bonded Medical Program under section 124ZP as a result of the exceptional circumstances; and"
+      },
+      {
+        "marker": "C",
+        "content": "set out, in the notice, the effect of subparagraph 124ZE(4)(b)(vi) and whichever of the following provisions is applicable in relation to the affected person:"
+      },
+      {
+        "marker": "I",
+        "content": "subsection 124ZH(4);"
+      },
+      {
+        "marker": "2",
+        "content": "subsection 124ZJ(4);"
+      },
+      {
+        "marker": "3",
+        "content": "subsection 124ZQ(6).\nA statement under subparagraph (5)(b)(ii) or (iii) may relate to a breach of a condition or a withdrawal (as the case may be) that occurs before or after the commencement of this section.\nIf the Secretary refuses to make the determination under subsection (3) in relation to the affected person, the Secretary must give the applicant written notice of the following:"
+      },
+      {
+        "marker": "A",
+        "content": "the decision to refuse to make the determination;"
+      },
+      {
+        "marker": "B",
+        "content": "the reasons for the decision;"
+      },
+      {
+        "marker": "C",
+        "content": "how the applicant may apply for review of the decision.\n124ZEB Secretary may request further information\nIf:(a) a person makes an application under subsection 124ZEA(1); and"
+      },
+      {
+        "marker": "B",
+        "content": "the Secretary needs further information to make a decision on the application;\nthe Secretary may, by written notice, request the person to give further information to the Secretary within a specified period.\nThe specified period must not be shorter than 28 days after the notice is given.\nThe Secretary may, at the person’s request, extend the specified period. The request must be made in writing and before that period ends.\nIf the person does not give the requested further information within:"
+      },
+      {
+        "marker": "A",
+        "content": "in a case in which the specified period has been extended under subsection (3)—the period as so extended; or"
+      },
+      {
+        "marker": "B",
+        "content": "otherwise—the specified period;\nthe application is taken to be withdrawn at the end of the period.\nA notice given under subsection (1) must set out the effect of subsection (4).\n4 Subsection 124ZH(2)\nOmit “The person”, substitute “Subject to subsection (4), the person”.\n5 At the end of section 124ZH\nAdd:Subsection (2) does not apply to a person if:"
+      },
+      {
+        "marker": "A",
+        "content": "a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and"
+      },
+      {
+        "marker": "B",
+        "content": "the written notice of the determination includes a statement that the Secretary is satisfied that the person breached the condition mentioned in paragraph 124ZG(1)(a) or (c) (as applicable) as a result of those exceptional circumstances.\n6 Subsection 124ZJ(1)\nOmit “A medicare”, substitute “Subject to subsection (4), a medicare”.\n7 Paragraph 124ZJ(1)(a)\nOmit “is”, substitute “was”.\n8 Paragraph 124ZJ(1)(b)\nRepeal the paragraph, substitute:"
+      },
+      {
+        "marker": "B",
+        "content": "breached the condition mentioned in paragraph 124ZG(1)(c) when the medical practitioner was a bonded participant.\n9 At the end of section 124ZJ\nAdd:This section does not apply to a person who is a medical practitioner if:"
+      },
+      {
+        "marker": "A",
+        "content": "a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and"
+      },
+      {
+        "marker": "B",
+        "content": "the written notice of the determination includes a statement that the Secretary is satisfied that the person breached the condition mentioned in paragraph 124ZG(1)(c) as a result of those exceptional circumstances.\n10 Subsection 124ZK(2)\nOmit “$10,000”, substitute “$1,000”.\n11 Before paragraph 124ZN(a)\nInsert:(aa) a decision of the Secretary, under subsection 124ZEA(3), to refuse to determine that exceptional circumstances apply in relation to a person;\n12 After paragraph 124ZN(b)\nInsert:(ba) a decision of the Secretary, under subsection 124ZUA(3), to refuse to make an extended compliance determination in relation to a person;\n13 Subsection 124ZQ(1)\nOmit “If a”, substitute “Subject to subsection (6), if a”.\n14 Subsection 124ZQ(3)\nOmit “A medicare”, substitute “Subject to subsection (6), a medicare”.\n15 At the end of section 124ZQ\nAdd:Exception\nThis section does not apply to a person if:"
+      },
+      {
+        "marker": "A",
+        "content": "a determination is made under subsection 124ZEA(3) that exceptional circumstances apply in relation to the person; and"
+      },
+      {
+        "marker": "B",
+        "content": "the written notice of the determination includes a statement that the Secretary is satisfied that the person withdrew from the Bonded Medical Program under section 124ZP as a result of the exceptional circumstances.\n16 At the end of section 124ZU\nAdd:If a person to whom subsection (1) applies makes an application under subsection 124ZUA(1), the person must not advise the Department of the matters mentioned in subsection (2) of this section until both of the following apply:"
+      },
+      {
+        "marker": "A",
+        "content": "a decision on the application has been made;"
+      },
+      {
+        "marker": "B",
+        "content": "any rights of review and appeal in relation to the decision have been exhausted.\n17 After section 124ZU\nInsert:124ZUA Extended compliance determination for certain BMP and MRBS participants\nIf:(a) a person is:"
+      },
+      {
+        "marker": "I",
+        "content": "a party to a deed of agreement with the Commonwealth (as represented by the Department) for funding of a place in the Bonded Medical Places Scheme, including a deed of agreement as varied; or"
+      },
+      {
+        "marker": "2",
+        "content": "a party to a contract with the Commonwealth (as represented by the Department) for a Medical Rural Bonded Scholarship, including a contract as varied; and"
+      },
+      {
+        "marker": "B",
+        "content": "the person meets the requirements specified in the Bonded Medical Program rules;\nthe person may apply to the Secretary for a determination (the extended compliance determination ) that, if the person were to become a bonded participant, the person would be required to complete their return of service obligation within a period that is longer than the RoSO compliance period.\nThe application must:"
+      },
+      {
+        "marker": "A",
+        "content": "be made in writing; and"
+      },
+      {
+        "marker": "B",
+        "content": "be made before the person advises the Department of the matters mentioned in subsection 124ZU(2); and"
+      },
+      {
+        "marker": "C",
+        "content": "be made within any period specified in the Bonded Medical Program rules that applies in relation to the person; and"
+      },
+      {
+        "marker": "D",
+        "content": "specify a period within which the person would be able to complete their return of service obligation (which must not be a period that would be more than 6 years longer than the RoSO compliance period); and"
+      },
+      {
+        "marker": "E",
+        "content": "be accompanied by a written plan that sets out:"
+      },
+      {
+        "marker": "I",
+        "content": "how the person proposes to complete their return of service obligation within the period specified under paragraph (d); and"
+      },
+      {
+        "marker": "2",
+        "content": "any other matters specified in the Bonded Medical Program rules; and"
+      },
+      {
+        "marker": "F",
+        "content": "be accompanied by any other documents specified in the Bonded Medical Program rules; and"
+      },
+      {
+        "marker": "G",
+        "content": "set out any other information specified in the Bonded Medical Program rules.\nIf the person makes an application under subsection (1), the Secretary may make the extended compliance determination in relation to the person if the Secretary is satisfied that:"
+      },
+      {
+        "marker": "A",
+        "content": "the person is a person of kind mentioned in subparagraph (1)(a)(i) or (ii); and"
+      },
+      {
+        "marker": "B",
+        "content": "the person meets the requirements specified in the Bonded Medical Program rules for the purposes of paragraph (1)(b); and"
+      },
+      {
+        "marker": "C",
+        "content": "if the person were to become a bonded participant, the plan referred to in paragraph (2)(e) sets out a reasonable proposal for the completion of their return of service obligation within a period that is longer than the RoSO compliance period.\nIf the Secretary makes the extended compliance determination in relation to the person, the Secretary must:"
+      },
+      {
+        "marker": "A",
+        "content": "give the person written notice of the determination; and"
+      },
+      {
+        "marker": "B",
+        "content": "specify in the notice the period within which the person would, if the person were to become a bonded participant, be required to complete their return of service obligation.\nThe period specified under paragraph (4)(b):"
+      },
+      {
+        "marker": "A",
+        "content": "must not be a period that would be more than 6 years longer than the RoSO compliance period; and"
+      },
+      {
+        "marker": "B",
+        "content": "may be the same as, or different from, the period specified in the application.\nIf the Secretary refuses to make the extended compliance determination in relation to the person, the Secretary must give the person written notice of the following:"
+      },
+      {
+        "marker": "A",
+        "content": "the decision to refuse to make the determination;"
+      },
+      {
+        "marker": "B",
+        "content": "the reasons for the decision;"
+      },
+      {
+        "marker": "C",
+        "content": "how the person may apply for review of the decision.\n124ZUB Secretary may request further information\nIf:(a) a person makes an application under subsection 124ZUA(1); and"
+      },
+      {
+        "marker": "B",
+        "content": "the Secretary needs further information to make a decision on the application;\nthe Secretary may, by written notice, request the person to give further information to the Secretary within a specified period.\nThe specified period must not be shorter than 28 days after the notice is given.\nThe Secretary may, at the person’s request, extend the specified period. The request must be made in writing and before that period ends.\nIf the person does not give the requested further information within:"
+      },
+      {
+        "marker": "A",
+        "content": "in a case in which the specified period has been extended under subsection (3)—the period as so extended; or"
+      },
+      {
+        "marker": "B",
+        "content": "otherwise—the specified period;\nthe application is taken to be withdrawn at the end of the period.\nA notice given under subsection (1) must set out the effect of subsection (4).\n18 At the end of subsection 124ZV(2)\nAdd:; and (d) if an extended compliance determination has been made under subsection 124ZUA(3) in relation to the person—the person is to be taken, for the purposes of this Part, to be required to complete their return of service obligation within the period specified in the written notice of the determination given to the person.\n19 At the end of subsection 124ZW(2)\nAdd:; and (d) if an extended compliance determination has been made under subsection 124ZUA(3) in relation to the person—the person is to be taken, for the purposes of this Part, to be required to complete their return of service obligation within the period specified in the written notice of the determination given to the person."
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "consumer_protection",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 16.5,
+        "matched_keywords": [
+          "means",
+          "has the meaning",
+          "for the purposes of",
+          "meaning (weak)"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 15.0,
+        "matched_keywords": [
+          "return"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1689,
+    "source_end": 13950,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_138_2021_ART_Sch2",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_138_2021",
+    "law_name": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_name_original": "Health Insurance Amendment (Enhancing the Bonded Medical Program and Other Measures) Act 2021",
+    "law_type": "Act",
+    "article_number": "Sch2",
+    "article_number_normalized": "Sch2",
+    "article_title": "2 — Amendments relating to MRBS contracts",
+    "chunk_index": 20,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Health Insurance Act 1973\n1 At the end of section 19ABA\nAdd:If the contract is a contract with the Commonwealth (as represented by the Department) for a Medical Rural Bonded Scholarship (including such a contract as varied from time to time) then this section applies in relation to a breach of the contract that occurs before the commencement of this subsection but it does not apply in relation to a breach of the contract that occurs after that commencement.\n2 After section 19ABA\nInsert:19ABB Waiver of amounts owing by a person who is or was a party to an MRBS contract\nThis section applies if:\n(a) a person is or was a party to a contract with the Commonwealth (as represented by the Department) for a Medical Rural Bonded Scholarship (including such a contract as varied from time to time); and\n(b) an amount of medicare benefit was purportedly paid in respect of a professional service rendered at a particular time (the service time ) by, or on behalf of, the person as a medical practitioner; and\n(c) the service time occurred in a period during which a medicare benefit was not payable to the person under subsection 19ABA(1); and\n(d) the amount is recoverable as an amount owing to the Commonwealth.\nThe Minister may, on behalf of the Commonwealth, waive the amount owing.\nIf the Minister waives the amount owing under subsection (2), the Minister must give written notice of the waiver to the person.\n19ABC Medicare benefits not payable to certain MRBS participants\nIf:(a) a person is a party to a contract with the Commonwealth (as represented by the Department) for a Medical Rural Bonded Scholarship (including such a contract as varied from time to time) that was entered into before the commencement of this section; and\n(b) after the commencement of this section, the person breaches a provision of the contract that requires the person to work in a rural or remote area in accordance with that provision;\nthe Minister may determine that a medicare benefit is not payable in respect of a professional service rendered by, or on behalf of, the person as a medical practitioner.\nIn deciding whether to make a determination under subsection (1), the Minister must have regard to any matters prescribed by the regulations.\nIf the Minister makes a determination under subsection (1) in relation to the person, a medicare benefit is not payable to the person during the period that:\n(a) starts on the day specified in the determination (which must not be a day before the determination is made); and\n(b) ends:(i) when the period that is equal to double the length of the period that the person was required under the contract to work in a rural or remote area ends; or\n(ii) if a shorter period is determined in, or in accordance with, the contract—when that shorter period ends.\nSubsection (3) applies whether or not the person was a medical practitioner at the time the contract was entered into or at the time the breach occurred.\nIf the Minister makes a determination under subsection (1) in relation to the person, the Minister must give the person written notice of the following:\n(a) the decision to make the determination;\n(b) the reasons for the decision;\n(c) how the person may apply for reconsideration or review of the decision.\n19ABD Reconsideration and review of determination that medicare benefits are not payable to certain MRBS participants\nRequest for reconsideration\nIf the Minister makes a determination under subsection 19ABC(1) in relation to a person (the affected person ), the affected person may request the Minister to reconsider the decision (the original decision ).\nThe request must:(a) be made in writing; and\n(b) set out the reasons for the request; and\n(c) be given to the Minister within 28 days after the affected person is notified of the original decision.\nReconsideration of original decision\nIf a request to reconsider the original decision is made under subsection (1), the Minister must:\n(a) personally reconsider the decision; or\n(b) cause the decision to be reconsidered by a delegate of the Minister who:\n(i) was not involved in making the decision; and\n(ii) occupies a position that is at least the same level as that occupied by the person who made the decision.\nAfter reconsidering the original decision, the Minister or delegate (as the case may be) must:\n(a) affirm the decision; or\n(b) vary the decision; or\n(c) set the decision aside and substitute a new decision.\nAfter making a decision under subsection (4), the Minister or delegate (as the case may be) must give written notice of the following to the affected person:\n(a) the decision;(b) the date the decision takes effect;\n(c) the reasons for the decision.\nNote: Section 27A of the Administrative Appeals Tribunal Act 1975 requires the affected person to be notified of the person’s review rights.\nReview by the Administrative Appeals Tribunal\nApplications may be made to the Administrative Appeals Tribunal for review of a decision of the Minister, or a delegate of the Minister, made under subsection (4).\n3 Section 19CC (heading)\nOmit “ covered by section 19AA, 19AB or 19ABA ”, substitute “ for which a medicare benefit is not payable ”.\n4 Paragraph 19CC(1)(a)\nOmit “or 19ABA”, substitute “, 19ABA or 19ABC”.\n5 After paragraph 124ZU(3)(a)\nInsert:(aa) both of the following apply:\n(i) a determination has been made under subsection 19ABC(1) in relation to the person;\n(ii) the period during which a medicare benefit is not payable to the person, as a result of the making of the determination, has not ended; or\n6 Subsection 124ZW(3)\nAfter “section 19ABA”, insert “or 19ABC”.\n[ Minister’s second reading speech made in—\nHouse of Representatives on 26 August 2021\nSenate on 22 November 2021 ]\n(115/21)",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "schedule",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "a person is or was a party to a contract with the Commonwealth (as represented by the Department) for a Medical Rural Bonded Scholarship (including such a contract as varied from time to time); and"
+      },
+      {
+        "marker": "B",
+        "content": "an amount of medicare benefit was purportedly paid in respect of a professional service rendered at a particular time (the service time ) by, or on behalf of, the person as a medical practitioner; and"
+      },
+      {
+        "marker": "C",
+        "content": "the service time occurred in a period during which a medicare benefit was not payable to the person under subsection 19ABA(1); and"
+      },
+      {
+        "marker": "D",
+        "content": "the amount is recoverable as an amount owing to the Commonwealth.\nThe Minister may, on behalf of the Commonwealth, waive the amount owing.\nIf the Minister waives the amount owing under subsection (2), the Minister must give written notice of the waiver to the person.\n19ABC Medicare benefits not payable to certain MRBS participants\nIf:(a) a person is a party to a contract with the Commonwealth (as represented by the Department) for a Medical Rural Bonded Scholarship (including such a contract as varied from time to time) that was entered into before the commencement of this section; and"
+      },
+      {
+        "marker": "B",
+        "content": "after the commencement of this section, the person breaches a provision of the contract that requires the person to work in a rural or remote area in accordance with that provision;\nthe Minister may determine that a medicare benefit is not payable in respect of a professional service rendered by, or on behalf of, the person as a medical practitioner.\nIn deciding whether to make a determination under subsection (1), the Minister must have regard to any matters prescribed by the regulations.\nIf the Minister makes a determination under subsection (1) in relation to the person, a medicare benefit is not payable to the person during the period that:"
+      },
+      {
+        "marker": "A",
+        "content": "starts on the day specified in the determination (which must not be a day before the determination is made); and"
+      },
+      {
+        "marker": "B",
+        "content": "ends:(i) when the period that is equal to double the length of the period that the person was required under the contract to work in a rural or remote area ends; or"
+      },
+      {
+        "marker": "2",
+        "content": "if a shorter period is determined in, or in accordance with, the contract—when that shorter period ends.\nSubsection (3) applies whether or not the person was a medical practitioner at the time the contract was entered into or at the time the breach occurred.\nIf the Minister makes a determination under subsection (1) in relation to the person, the Minister must give the person written notice of the following:"
+      },
+      {
+        "marker": "A",
+        "content": "the decision to make the determination;"
+      },
+      {
+        "marker": "B",
+        "content": "the reasons for the decision;"
+      },
+      {
+        "marker": "C",
+        "content": "how the person may apply for reconsideration or review of the decision.\n19ABD Reconsideration and review of determination that medicare benefits are not payable to certain MRBS participants\nRequest for reconsideration\nIf the Minister makes a determination under subsection 19ABC(1) in relation to a person (the affected person ), the affected person may request the Minister to reconsider the decision (the original decision ).\nThe request must:(a) be made in writing; and"
+      },
+      {
+        "marker": "B",
+        "content": "set out the reasons for the request; and"
+      },
+      {
+        "marker": "C",
+        "content": "be given to the Minister within 28 days after the affected person is notified of the original decision.\nReconsideration of original decision\nIf a request to reconsider the original decision is made under subsection (1), the Minister must:"
+      },
+      {
+        "marker": "A",
+        "content": "personally reconsider the decision; or"
+      },
+      {
+        "marker": "B",
+        "content": "cause the decision to be reconsidered by a delegate of the Minister who:"
+      },
+      {
+        "marker": "I",
+        "content": "was not involved in making the decision; and"
+      },
+      {
+        "marker": "2",
+        "content": "occupies a position that is at least the same level as that occupied by the person who made the decision.\nAfter reconsidering the original decision, the Minister or delegate (as the case may be) must:"
+      },
+      {
+        "marker": "A",
+        "content": "affirm the decision; or"
+      },
+      {
+        "marker": "B",
+        "content": "vary the decision; or"
+      },
+      {
+        "marker": "C",
+        "content": "set the decision aside and substitute a new decision.\nAfter making a decision under subsection (4), the Minister or delegate (as the case may be) must give written notice of the following to the affected person:"
+      },
+      {
+        "marker": "A",
+        "content": "the decision;(b) the date the decision takes effect;"
+      },
+      {
+        "marker": "C",
+        "content": "the reasons for the decision.\nNote: Section 27A of the Administrative Appeals Tribunal Act 1975 requires the affected person to be notified of the person’s review rights.\nReview by the Administrative Appeals Tribunal\nApplications may be made to the Administrative Appeals Tribunal for review of a decision of the Minister, or a delegate of the Minister, made under subsection (4).\n3 Section 19CC (heading)\nOmit “ covered by section 19AA, 19AB or 19ABA ”, substitute “ for which a medicare benefit is not payable ”.\n4 Paragraph 19CC(1)(a)\nOmit “or 19ABA”, substitute “, 19ABA or 19ABC”.\n5 After paragraph 124ZU(3)(a)\nInsert:(aa) both of the following apply:"
+      },
+      {
+        "marker": "I",
+        "content": "a determination has been made under subsection 19ABC(1) in relation to the person;"
+      },
+      {
+        "marker": "2",
+        "content": "the period during which a medicare benefit is not payable to the person, as a result of the making of the determination, has not ended; or\n6 Subsection 124ZW(3)\nAfter “section 19ABA”, insert “or 19ABC”.\n[ Minister’s second reading speech made in—\nHouse of Representatives on 26 August 2021\nSenate on 22 November 2021 ]\n(115/21)"
+      }
+    ],
+    "topics": [
+      "government_contracting",
+      "litigation_procedure",
+      "compensation_benefits",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "appeals",
+          "contract (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 7.5,
+        "matched_keywords": [
+          "appeals"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 6.0,
+        "matched_keywords": [
+          "benefits",
+          "benefits (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1973-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2021A00138/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_070.txt",
+    "sample_id": "AU_070",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_070",
+    "raw_sha256": "a99ed239729dce3a786d8c20d90e8984494c45266e7f0b842ea635ea49e016c5",
+    "extracted_text_sha256": "2fe817748c328d426817d492baee0372df707a7d061e62dca05edde803228eee",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14002,
+    "source_end": 19726,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -1,0 +1,2458 @@
+[
+  {
+    "doc_id": "KR_DEC_16457_ART_001",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "(Purpose)",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The purpose of this Decree is to prescribe matters mandated by the Electronic Signature Act and matters necessary for the enforcement thereof.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The purpose of this Decree is to prescribe matters mandated by the Electronic Signature Act and matters necessary for the enforcement thereof."
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 6.75,
+        "matched_keywords": [
+          "electronic signature"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1054,
+    "source_end": 1246,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_004",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 4 (Period of validity of accreditation of compliance with operating standards)\nThe accreditation of compliance with operating standards shall be valid for one year from the date of accreditation.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 4 (Period of validity of accreditation of compliance with operating standards)\nThe accreditation of compliance with operating standards shall be valid for one year from the date of accreditation."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 77,
+    "source_end": 330,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_005",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 5 (Criteria and procedures for selection of assessment bodies)\nThe selection criteria for an assessment body under Article 10 (1) of the Act (hereinafter referred to as \"assessment body\") are as follows:\nIt shall be a legal person;\nIts selection as an assessment body shall not have been revoked within the last 2 years;\nIt shall employ at least 5 full-time professional personnel who meet the requirements specified in Appendix 1;\nIt shall have the operational and management capabilities and technical and physical capabilities necessary to conduct assessments;\nIt shall be able to ensure independence, objectivity, impartiality, and reliability in conducting assessments.\nDetails, including assessment items and assessment methods, to confirm compliance with the criteria under paragraph (1) 4 and 5 shall be prescribed by Ministerial Decree of Science and ICT.\nA person that seeks to be selected as an assessment body shall submit an application for selection in the form prescribed by Ministerial Decree of Science and ICT to the Minister of Science and ICT.\nUpon receipt of an application under paragraph (3), the Minister of Science and ICT may, if necessary, request assistance from the Korea Internet and Security Agency under Article 52 of the Act on Promotion of Information and Communication Network Utilization and Information Protection (hereinafter referred to as the \"Korea Internet and Security Agency\") to determine whether to select the application, and obtain opinions from the applicant or experts and others with abundant knowledge and experience in electronic signatures.\nWhere the Minister of Science and ICT reviews an application under paragraph (3) and recognizes that the body meets the selection criteria under paragraph (1), he or she shall issue a certificate of selection as an assessment body in the form prescribed by the Ministry of Science and ICT Ordinance and publicly announce the fact in the Official Gazette or on the website of the Ministry.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 5 (Criteria and procedures for selection of assessment bodies)\nThe selection criteria for an assessment body under Article 10 (1) of the Act (hereinafter referred to as \"assessment body\") are as follows:\nIt shall be a legal person;\nIts selection as an assessment body shall not have been revoked within the last 2 years;\nIt shall employ at least 5 full-time professional personnel who meet the requirements specified in Appendix 1;\nIt shall have the operational and management capabilities and technical and physical capabilities necessary to conduct assessments;\nIt shall be able to ensure independence, objectivity, impartiality, and reliability in conducting assessments.\nDetails, including assessment items and assessment methods, to confirm compliance with the criteria under paragraph (1) 4 and 5 shall be prescribed by Ministerial Decree of Science and ICT.\nA person that seeks to be selected as an assessment body shall submit an application for selection in the form prescribed by Ministerial Decree of Science and ICT to the Minister of Science and ICT.\nUpon receipt of an application under paragraph (3), the Minister of Science and ICT may, if necessary, request assistance from the Korea Internet and Security Agency under Article 52 of the Act on Promotion of Information and Communication Network Utilization and Information Protection (hereinafter referred to as the \"Korea Internet and Security Agency\") to determine whether to select the application, and obtain opinions from the applicant or experts and others with abundant knowledge and experience in electronic signatures.\nWhere the Minister of Science and ICT reviews an application under paragraph (3) and recognizes that the body meets the selection criteria under paragraph (1), he or she shall issue a certificate of selection as an assessment body in the form prescribed by the Ministry of Science and ICT Ordinance and publicly announce the fact in the Official Gazette or on the website of the Ministry."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 78,
+    "source_end": 2119,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_006",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "(Code of conduct of assessment body)",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The assessment body shall prepare detailed standards for assessment and guidelines for conducting assessments, necessary for the performance of assessment work, and shall conduct assessments fairly and objectively in accordance with them.\nThe guidelines for conducting assessments pursuant to paragraph (1) shall include the following:\nAssessment methods, such as written assessment and on-site assessment;\nAssessment procedures (including reasons and procedures for discontinuing or omitting portions of assessment);\nMatters regarding management in conducting assessments, such as quality control and operations management in conducting assessments;\nMatters related to security and management of assessment-related documents, facilities, etc.;\nDuties and responsibilities of staff conducting assessments;\nOther matters necessary to ensure independence, objectivity, impartiality, and reliability in conducting assessments.\nWhere the assessment body receives an application from a certification-service provider for an assessment to obtain an accreditation of compliance with the operating standards pursuant to Article 10 (2) of the Act, it shall consult with the accreditation agency in advance on the detailed assessment standards to be applied to the assessment, the scope of the assessment, the assessment schedule, matters related to the observation of the assessment, and other relevant matters.\nThe assessment body shall complete the assessment within 180 days from the date of receipt of the application for assessment; provided, if there are unavoidable reasons that make it difficult to complete the assessment, the period may be extended only once up to 180 days, and if the assessment period is extended, the fact shall be notified to the relevant certification-service provider.\nThe assessment body shall submit the previous year's assessment performance report to the Minister of Science and ICT by the end of February every year.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The assessment body shall prepare detailed standards for assessment and guidelines for conducting assessments, necessary for the performance of assessment work, and shall conduct assessments fairly and objectively in accordance with them.\nThe guidelines for conducting assessments pursuant to paragraph (1) shall include the following:\nAssessment methods, such as written assessment and on-site assessment;\nAssessment procedures (including reasons and procedures for discontinuing or omitting portions of assessment);\nMatters regarding management in conducting assessments, such as quality control and operations management in conducting assessments;\nMatters related to security and management of assessment-related documents, facilities, etc.;\nDuties and responsibilities of staff conducting assessments;\nOther matters necessary to ensure independence, objectivity, impartiality, and reliability in conducting assessments.\nWhere the assessment body receives an application from a certification-service provider for an assessment to obtain an accreditation of compliance with the operating standards pursuant to Article 10 (2) of the Act, it shall consult with the accreditation agency in advance on the detailed assessment standards to be applied to the assessment, the scope of the assessment, the assessment schedule, matters related to the observation of the assessment, and other relevant matters.\nThe assessment body shall complete the assessment within 180 days from the date of receipt of the application for assessment; provided, if there are unavoidable reasons that make it difficult to complete the assessment, the period may be extended only once up to 180 days, and if the assessment period is extended, the fact shall be notified to the relevant certification-service provider.\nThe assessment body shall submit the previous year's assessment performance report to the Minister of Science and ICT by the end of February every year."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4910,
+    "source_end": 6905,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_007",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 7 (Selection criteria for internationally-accepted assessments)\nThe selection criteria for internationally-accepted assessments under Article 11 (1) of the Act are as follows:\nIt must be an assessment of the safety and reliability of the electronic-signature certification services;\nThe assessment criteria shall meet the operating standards under Article 7 (2) of the Act;\nIt must be an assessment that is commonly used or recognized by international organizations or organizations that establish standards or standards related to electronic signature authentication services, or international electronic signature authentication service user groups, etc.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 7 (Selection criteria for internationally-accepted assessments)\nThe selection criteria for internationally-accepted assessments under Article 11 (1) of the Act are as follows:\nIt must be an assessment of the safety and reliability of the electronic-signature certification services;\nThe assessment criteria shall meet the operating standards under Article 7 (2) of the Act;\nIt must be an assessment that is commonly used or recognized by international organizations or organizations that establish standards or standards related to electronic signature authentication services, or international electronic signature authentication service user groups, etc."
+      }
+    ],
+    "topics": [
+      "electronic_transactions",
+      "digital_identity"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 6.0,
+        "matched_keywords": [
+          "electronic signature"
+        ]
+      },
+      {
+        "id": "digital_identity",
+        "label_zh": "数字身份",
+        "label_en": "Digital Identity",
+        "label_pt": "Identidade Digital",
+        "score": 6.0,
+        "matched_keywords": [
+          "authentication"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 79,
+    "source_end": 793,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_008",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 8 (Revocation of selection as assessment body and suspension of business)\nCriteria for revocation of selection of an assessment body and disposition for suspension of its business under Article 12 (1) of the Act shall be as specified in Appendix 2.\nIf the Minister of Science, ICT and Future Planning revokes the selection of an assessment body or orders the suspension of its business pursuant to Article 12 (1) of the Act, the Minister shall publicly announce the fact in the Official Gazette or on the website of the Ministry.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 8 (Revocation of selection as assessment body and suspension of business)\nCriteria for revocation of selection of an assessment body and disposition for suspension of its business under Article 12 (1) of the Act shall be as specified in Appendix 2.\nIf the Minister of Science, ICT and Future Planning revokes the selection of an assessment body or orders the suspension of its business pursuant to Article 12 (1) of the Act, the Minister shall publicly announce the fact in the Official Gazette or on the website of the Ministry."
+      }
+    ],
+    "topics": [
+      "government_contracting"
+    ],
+    "topics_details": [
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "suspension"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 177,
+    "source_end": 764,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_009",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "(Methods of verifying identities)",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "When a certification-service provider that has obtained an accreditation of compliance with the operating standards verifies the identity of a person who intends to sign up for electronic-signature certification services pursuant to Article 14 of the Act, it shall do so in the following relevant method:\nIf the relevant certification-service provider is an identification service agency pursuant to Article 23-3 (1) of the Act on Promotion of Information and Communications Network Utilization and Information Protection (hereinafter referred to as \"identification service agency\"): Method of verification based on the real name defined in subparagraph 4 of Article 2 of the Act on Real Name Financial Transactions and Confidentiality (hereinafter referred to as \"real name\"); provided, if the relevant certification-service provider can confirm that the identity of the person who intends to sign up is verified based on the real name, the subscriber verification method accredited for compliance with the operating standards may be used.\nIf the relevant certification-service provider is not an identification service agency: Subscriber verification methods accredited for compliance with the operating standards.\nDetails regarding the methods of verifying identity based on the real name under paragraph (1) 1 shall be prescribed by Ministerial Decree of Science and ICT.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "When a certification-service provider that has obtained an accreditation of compliance with the operating standards verifies the identity of a person who intends to sign up for electronic-signature certification services pursuant to Article 14 of the Act, it shall do so in the following relevant method:\nIf the relevant certification-service provider is an identification service agency pursuant to Article 23-3 (1) of the Act on Promotion of Information and Communications Network Utilization and Information Protection (hereinafter referred to as \"identification service agency\"): Method of verification based on the real name defined in subparagraph 4 of Article 2 of the Act on Real Name Financial Transactions and Confidentiality (hereinafter referred to as \"real name\"); provided, if the relevant certification-service provider can confirm that the identity of the person who intends to sign up is verified based on the real name, the subscriber verification method accredited for compliance with the operating standards may be used.\nIf the relevant certification-service provider is not an identification service agency: Subscriber verification methods accredited for compliance with the operating standards.\nDetails regarding the methods of verifying identity based on the real name under paragraph (1) 1 shall be prescribed by Ministerial Decree of Science and ICT."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8106,
+    "source_end": 9531,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_010",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "(Corrective order)",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "When ordering to take corrective measures pursuant to Article 17 of the Act, the Minister of Science and ICT shall notify in writing the fact of violation and the deadline for correction.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "When ordering to take corrective measures pursuant to Article 17 of the Act, the Minister of Science and ICT shall notify in writing the fact of violation and the deadline for correction."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9526,
+    "source_end": 9763,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_011",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 11 (Obtainment of insurance for liability of damages)\nA certification-service provider that has obtained an accreditation of compliance with the operating standards shall obtain liability insurance that satisfies all of the following requirements pursuant to Article 20 (2) of the Act:\nThe limit of the total annual compensation amount shall be 1 billion won or more;\nIncidents that occur during the period of validity under Article 4 shall be covered.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 11 (Obtainment of insurance for liability of damages)\nA certification-service provider that has obtained an accreditation of compliance with the operating standards shall obtain liability insurance that satisfies all of the following requirements pursuant to Article 20 (2) of the Act:\nThe limit of the total annual compensation amount shall be 1 billion won or more;\nIncidents that occur during the period of validity under Article 4 shall be covered."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "insurance"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "compensation",
+          "compensation (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 505,
+    "source_end": 1015,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_012",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "(Entrustment of Duties)",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Minister of Science and ICT shall entrust the following duties to the Korea Internet and Security Agency pursuant to Article 23 of the Act:\nProvision of assistance in respect of the matters specified in subparagraphs 2 through 4 of Article 5 of the Act;\nEstablishment of operating standards for electronic-signature certification services pursuant to Article 7 (2) of the Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Minister of Science and ICT shall entrust the following duties to the Korea Internet and Security Agency pursuant to Article 23 of the Act:\nProvision of assistance in respect of the matters specified in subparagraphs 2 through 4 of Article 5 of the Act;\nEstablishment of operating standards for electronic-signature certification services pursuant to Article 7 (2) of the Act."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 10205,
+    "source_end": 10635,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_013",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 13 (Processing of personally identifiable information)\nThe accreditation agency processes data containing resident registration numbers, passport numbers, or alien registration numbers under Article 19 of the Enforcement Decree of the Personal Information Protection Act if it is essential for conducting the tasks related to confirming whether the qualification requirements under Article 8 (3) of the Act are met.\nA certification-service provider that has obtained an accreditation of compliance with the operating standards (only applicable to cases in which the relevant service provider is an identification service agency) may process data containing resident registration numbers, passport numbers, or alien registration numbers under Article 19 of the Enforcement Decree if it is essential for conducting the verification of identities under Article 9 (1) 1.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 13 (Processing of personally identifiable information)\nThe accreditation agency processes data containing resident registration numbers, passport numbers, or alien registration numbers under Article 19 of the Enforcement Decree of the Personal Information Protection Act if it is essential for conducting the tasks related to confirming whether the qualification requirements under Article 8 (3) of the Act are met.\nA certification-service provider that has obtained an accreditation of compliance with the operating standards (only applicable to cases in which the relevant service provider is an identification service agency) may process data containing resident registration numbers, passport numbers, or alien registration numbers under Article 19 of the Enforcement Decree if it is essential for conducting the verification of identities under Article 9 (1) 1."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 595,
+    "source_end": 1519,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_014",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "(Processing of connecting information)",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "A certification-service provider that has obtained an accreditation of compliance with the operating standards may process information that an identification service agency has generated by connecting resident registration numbers of signatories, etc. for the purpose of interlinking on-line and off-line services by providers of information and communications services as defined in subparagraph 3 of Article 2 of the Act on Information and Communications Network Utilization and Information Protection information, with the consents of the signatories, etc., if it is essential for conducting the verification of identities under Article 9 (1) or allowing users to identify the identities of signatories.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "A certification-service provider that has obtained an accreditation of compliance with the operating standards may process information that an identification service agency has generated by connecting resident registration numbers of signatories, etc. for the purpose of interlinking on-line and off-line services by providers of information and communications services as defined in subparagraph 3 of Article 2 of the Act on Information and Communications Network Utilization and Information Protection information, with the consents of the signatories, etc., if it is essential for conducting the verification of identities under Article 9 (1) or allowing users to identify the identities of signatories."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11496,
+    "source_end": 12252,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_015",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "(Standards for imposition of fines)",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The criteria for imposing fines under Article 26 (1) and (2) of the Act shall be shown in Appendix 3.\nADDENDA <Presidential Decree No. 31222, Dec. 8, 2020>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The criteria for imposing fines under Article 26 (1) and (2) of the Act shall be shown in Appendix 3.\nADDENDA <Presidential Decree No. 31222, Dec. 8, 2020>"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12253,
+    "source_end": 12458,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_003",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Omitted",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "PC Version Go Topⓒ 2019 KLRI",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "omitted_article",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "PC Version Go Topⓒ 2019 KLRI"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 13116,
+    "source_end": 13194,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_SCH001",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "Sch1",
+    "article_number_normalized": "SCH001",
+    "article_title": "ADDENDA <Presidential Decree No. 31222, Dec. 8, 2020>",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 1 (Enforcement Date)\nThis Decree shall enter into force on December 10, 2020.\nArticle 2 Omitted.\nArticle 3 (Relationship to other statues or regulations)\nWhere other statutes or regulations cite the provisions of the previous Enforcement Decree of the Digital Signature at the time this Decree enters into force and if this Decree contains any corresponding provisions, the corresponding provisions of this Decree shall be deemed cited in lieu of the previous provisions.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "schedule",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 1 (Enforcement Date)\nThis Decree shall enter into force on December 10, 2020.\nArticle 2 Omitted.\nArticle 3 (Relationship to other statues or regulations)\nWhere other statutes or regulations cite the provisions of the previous Enforcement Decree of the Digital Signature at the time this Decree enters into force and if this Decree contains any corresponding provisions, the corresponding provisions of this Decree shall be deemed cited in lieu of the previous provisions."
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 4.5,
+        "matched_keywords": [
+          "digital signature"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12448,
+    "source_end": 12927,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_16457_ART_SCH002",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_16457",
+    "law_name": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ELECTRONIC SIGNATURE ACT",
+    "law_type": "Enforcement Decree",
+    "article_number": "Sch2",
+    "article_number_normalized": "SCH002",
+    "article_title": "ADDENDA <Presidential Decree No. 33723, Sep. 12, 2023>",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 1 (Enforcement Date)\nThis Decree shall enter into force on September 15, 2023. (Proviso Omitted.)\nArticle 2 Omitted.\nArticle 3 Omitted.\nPC Version Go Topⓒ 2019 KLRI",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "schedule",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 1 (Enforcement Date)\nThis Decree shall enter into force on September 15, 2023. (Proviso Omitted.)\nArticle 2 Omitted.\nArticle 3 Omitted.\nPC Version Go Topⓒ 2019 KLRI"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-12-10",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "17625",
+        "date": ""
+      },
+      {
+        "act_no": "18312",
+        "date": ""
+      },
+      {
+        "act_no": "19507",
+        "date": ""
+      },
+      {
+        "act_no": "19570",
+        "date": ""
+      },
+      {
+        "act_no": "20741",
+        "date": ""
+      },
+      {
+        "act_no": "20917",
+        "date": ""
+      },
+      {
+        "act_no": "22016",
+        "date": ""
+      },
+      {
+        "act_no": "22151",
+        "date": "2010-05-04"
+      },
+      {
+        "act_no": "22846",
+        "date": ""
+      },
+      {
+        "act_no": "23898",
+        "date": ""
+      },
+      {
+        "act_no": "24425",
+        "date": ""
+      },
+      {
+        "act_no": "25050",
+        "date": ""
+      },
+      {
+        "act_no": "25406",
+        "date": ""
+      },
+      {
+        "act_no": "25532",
+        "date": ""
+      },
+      {
+        "act_no": "25840",
+        "date": ""
+      },
+      {
+        "act_no": "26166",
+        "date": ""
+      },
+      {
+        "act_no": "26980",
+        "date": ""
+      },
+      {
+        "act_no": "27751",
+        "date": ""
+      },
+      {
+        "act_no": "27960",
+        "date": ""
+      },
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "33723",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=67692&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_011.txt",
+    "sample_id": "KR_011",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-011",
+    "raw_sha256": "c7d19038e766f3fbb1132dd12baaeb8c10d843ac3c42f86eb2f5fc83c145ee0f",
+    "extracted_text_sha256": "e9ed87ea81d960f2f800c54b91ce3cd2cedd250e5fd62e5550f98523aa15ce57",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12983,
+    "source_end": 13155,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:44:51Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -1,0 +1,3532 @@
+[
+  {
+    "doc_id": "CN_DOC_CN_153_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第一条 为规范电信业务经营许可证的管理，根据《中华人民共和国电信条例》及其他法律、行政法规的规定，制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 48,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为规范电信业务经营许可证的管理，根据《中华人民共和国电信条例》及其他法律、行政法规的规定，制定本办法。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 261,
+    "source_end": 537,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第二条 在中华人民共和国境内申请、审批和管理电信业务经营许可证（以下简称“经营许可证”），适用本办法。国家另有规定的，从其规定。\n采用招标等方式颁发基础电信业务经营许可证的具体办法，由信息产业部另行制定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 89,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 在中华人民共和国境内申请、审批和管理电信业务经营许可证（以下简称“经营许可证”），适用本办法。国家另有规定的，从其规定。\n采用招标等方式颁发基础电信业务经营许可证的具体办法，由信息产业部另行制定。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "government_procurement",
+      "government_contracting"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "government_procurement",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "招标",
+          "招标 (weak)"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "招标"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 314,
+    "source_end": 537,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第三条 信息产业部和省、自治区、直辖市通信管理局（以下统称“电信主管部门”）是电信业务经营许可证的审批管理机构。\n电信主管部门在电信业务经营许可证审批管理中应当遵循公开、公平、公正的原则。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 82,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 信息产业部和省、自治区、直辖市通信管理局（以下统称“电信主管部门”）是电信业务经营许可证的审批管理机构。\n电信主管部门在电信业务经营许可证审批管理中应当遵循公开、公平、公正的原则。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 269,
+    "source_end": 537,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第四条 电信业务经营者在电信业务经营活动中，应当遵守电信业务经营许可证的规定，接受电信主管部门的监督管理。\n电信业务经营者按照电信业务经营许可证的规定经营电信业务受国家法律保护。\n第二章 经营许可证的申请",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 94,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 电信业务经营者在电信业务经营活动中，应当遵守电信业务经营许可证的规定，接受电信主管部门的监督管理。\n电信业务经营者按照电信业务经营许可证的规定经营电信业务受国家法律保护。\n第二章 经营许可证的申请"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 13.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 791,
+    "source_end": 893,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第二章",
+    "chapter_title": "经营许可证的申请",
+    "text_zh": "第五条 申请经营基础电信业务的，应当符合《中华人民共和国电信条例》第十条的规定和下列条件：\n（一）在省、自治区、直辖市范围内经营的，其注册资本最低限额为2亿元人民币；在全国或跨省、自治区、直辖市范围内经营的，其注册资本最低限额为20亿元人民币；\n（二）最近三年内未发生过重大违法行为。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 119,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 申请经营基础电信业务的，应当符合《中华人民共和国电信条例》第十条的规定和下列条件：\n（一）在省、自治区、直辖市范围内经营的，其注册资本最低限额为2亿元人民币；在全国或跨省、自治区、直辖市范围内经营的，其注册资本最低限额为20亿元人民币；\n（二）最近三年内未发生过重大违法行为。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2893,
+    "source_end": 3013,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第二章",
+    "chapter_title": "经营许可证的申请",
+    "text_zh": "第六条申请经营增值电信业务的，应当符合《中华人民共和国电信条例》第十三条的规定和下列条件：\n（一）在省、自治区、直辖市范围内经营的，其注册资本最低限额为100万元人民币；在全国或跨省、自治区、直辖市范围内经营的，其注册资本最低限额为1000万元人民币；\n（二）有可行性研究报告和相关技术方案；（三） 有必要的场地和设施；\n（四） 最近三年内未发生过重大违法行为。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 146,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条申请经营增值电信业务的，应当符合《中华人民共和国电信条例》第十三条的规定和下列条件：\n（一）在省、自治区、直辖市范围内经营的，其注册资本最低限额为100万元人民币；在全国或跨省、自治区、直辖市范围内经营的，其注册资本最低限额为1000万元人民币；\n（二）有可行性研究报告和相关技术方案；（三） 有必要的场地和设施；\n（四） 最近三年内未发生过重大违法行为。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 489,
+    "source_end": 537,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第二章",
+    "chapter_title": "经营许可证的申请",
+    "text_zh": "第七条 申请基础电信业务经营许可证的，应当向信息产业部提交下列申请材料：\n（一）公司法定代表人签署的经营基础电信业务的书面申请。内容包括：申请经营电信业务的种类、业务覆盖范围、公司名称、公司通信地址、邮政编码、联系人、联系电话、电子信箱地址等；\n（二）公司的企业法人营业执照副本及复印件；\n（三）公司概况。包括公司基本情况，拟从事电信业务的机构设置和管理情况、技术力量和经营管理人员情况，与从事经营活动相适应的场地、设施等情况；\n（四）公司最近经会计师事务所审计的企业法人年度财务会计报告或验资报告及信息产业部规定的其他相关会计资料；\n（五）公司章程，公司股权结构及股东的有关情况；\n（六）业务发展可行性研究报告。包括：申请经营电信业务的业务发展和实施计划、服务项目、业务覆盖范围、市场调研与分析、收费方案、预期服务质量、投资分析、社会效益和经济效益分析等；\n（七）组网技术方案。包括：网络结构、网络规模、网络建设计划、网络互联方案、技术标准、电信设备的配置、电信资源使用方案等；\n（八）为用户提供长期服务和质量保障的措施；\n（九）网络与信息安全保障措施；（十）证明公司信誉的有关材料；\n（十一）公司法定代表人签署的公司依法经营电信业务的承诺书。\n申请经营无线电通信业务的，应当提交国家无线电管理机构出具的无线电频率资源预指配意见。\n尚未获得企业法人营业执照的申请者，应当提交公司的企业名称预先核准通知书，无需提交第一款第（二）、（十）项规定的内容。第一款第（一）项规定的书面申请和第（十一）项规定的承诺书，拟成立有限责任公司的，应当由全体股东签署；拟成立股份有限公司的，应当由全体发起人签署。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 598,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 申请基础电信业务经营许可证的，应当向信息产业部提交下列申请材料：\n（一）公司法定代表人签署的经营基础电信业务的书面申请。内容包括：申请经营电信业务的种类、业务覆盖范围、公司名称、公司通信地址、邮政编码、联系人、联系电话、电子信箱地址等；\n（二）公司的企业法人营业执照副本及复印件；\n（三）公司概况。包括公司基本情况，拟从事电信业务的机构设置和管理情况、技术力量和经营管理人员情况，与从事经营活动相适应的场地、设施等情况；\n（四）公司最近经会计师事务所审计的企业法人年度财务会计报告或验资报告及信息产业部规定的其他相关会计资料；\n（五）公司章程，公司股权结构及股东的有关情况；\n（六）业务发展可行性研究报告。包括：申请经营电信业务的业务发展和实施计划、服务项目、业务覆盖范围、市场调研与分析、收费方案、预期服务质量、投资分析、社会效益和经济效益分析等；\n（七）组网技术方案。包括：网络结构、网络规模、网络建设计划、网络互联方案、技术标准、电信设备的配置、电信资源使用方案等；\n（八）为用户提供长期服务和质量保障的措施；\n（九）网络与信息安全保障措施；（十）证明公司信誉的有关材料；\n（十一）公司法定代表人签署的公司依法经营电信业务的承诺书。\n申请经营无线电通信业务的，应当提交国家无线电管理机构出具的无线电频率资源预指配意见。\n尚未获得企业法人营业执照的申请者，应当提交公司的企业名称预先核准通知书，无需提交第一款第（二）、（十）项规定的内容。第一款第（一）项规定的书面申请和第（十一）项规定的承诺书，拟成立有限责任公司的，应当由全体股东签署；拟成立股份有限公司的，应当由全体发起人签署。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "telecommunications",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 43.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司章程",
+          "法人",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 22.5,
+        "matched_keywords": [
+          "电信",
+          "无线电",
+          "网络 (weak)",
+          "服务 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "信息安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1219,
+    "source_end": 1916,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第二章",
+    "chapter_title": "经营许可证的申请",
+    "text_zh": "第八条 申请增值电信业务经营许可证的，应当向电信主管部门提交下列申请材料：\n（一）公司法定代表人签署的经营增值电信业务的书面申请。内容包括：申请电信业务的种类、业务覆盖范围、公司名称、通信地址、邮政编码、联系人、联系电话、电子信箱地址等；\n（二）公司的企业法人营业执照副本及复印件；\n（三）公司概况。包括：公司基本情况，拟从事增值电信业务的人员、场地和设施等情况；\n（四）公司最近经会计师事务所审计的企业法人年度财务会计报告或验资报告及电信主管部门规定的其他相关会计资料；\n（五）公司章程，公司股权结构及股东的有关情况；\n（六）业务发展可行性研究报告和技术方案。包括：申请经营电信业务的业务发展和实施计划、技术方案、服务项目、业务覆盖范围、市场调研与分析、收费方案、预期服务质量、投资分析、社会效益和经济效益等；\n（七）为用户提供长期服务和质量保障的措施；\n（八）信息安全保障措施；（九）证明公司信誉的有关材料；\n（十）公司法定代表人签署的公司依法经营电信业务的承诺书；\n（十一）申请经营的电信业务依照法律、行政法规及国家有关规定须经有关主管部门事先审核同意的，应当提交有关主管部门审核同意的文件。\n申请经营无线电通信业务的，应当提交国家或者省级无线电管理机构出具的无线电频率资源预指配意见。\n尚未获得企业法人营业执照的申请者，应当提交公司的企业名称预先核准通知书，无需提交第一款第（二）、（九）项中规定的材料。第一款第（一）项规定的书面申请和第（十）项规定的承诺书，拟成立有限责任公司的，应当由全体股东签署；拟成立股份有限公司的，应当由全体发起人签署。\n第三章 经营许可证的审批",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 595,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 申请增值电信业务经营许可证的，应当向电信主管部门提交下列申请材料：\n（一）公司法定代表人签署的经营增值电信业务的书面申请。内容包括：申请电信业务的种类、业务覆盖范围、公司名称、通信地址、邮政编码、联系人、联系电话、电子信箱地址等；\n（二）公司的企业法人营业执照副本及复印件；\n（三）公司概况。包括：公司基本情况，拟从事增值电信业务的人员、场地和设施等情况；\n（四）公司最近经会计师事务所审计的企业法人年度财务会计报告或验资报告及电信主管部门规定的其他相关会计资料；\n（五）公司章程，公司股权结构及股东的有关情况；\n（六）业务发展可行性研究报告和技术方案。包括：申请经营电信业务的业务发展和实施计划、技术方案、服务项目、业务覆盖范围、市场调研与分析、收费方案、预期服务质量、投资分析、社会效益和经济效益等；\n（七）为用户提供长期服务和质量保障的措施；\n（八）信息安全保障措施；（九）证明公司信誉的有关材料；\n（十）公司法定代表人签署的公司依法经营电信业务的承诺书；\n（十一）申请经营的电信业务依照法律、行政法规及国家有关规定须经有关主管部门事先审核同意的，应当提交有关主管部门审核同意的文件。\n申请经营无线电通信业务的，应当提交国家或者省级无线电管理机构出具的无线电频率资源预指配意见。\n尚未获得企业法人营业执照的申请者，应当提交公司的企业名称预先核准通知书，无需提交第一款第（二）、（九）项中规定的材料。第一款第（一）项规定的书面申请和第（十）项规定的承诺书，拟成立有限责任公司的，应当由全体股东签署；拟成立股份有限公司的，应当由全体发起人签署。\n第三章 经营许可证的审批"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "telecommunications",
+      "cybersecurity",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 42.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司章程",
+          "法人",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 24.0,
+        "matched_keywords": [
+          "电信",
+          "无线电",
+          "服务 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "信息安全",
+          "安全 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "服务 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 495,
+    "source_end": 537,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第三章",
+    "chapter_title": "经营许可证的审批",
+    "text_zh": "第九条 电信业务经营许可证分为《基础电信业务经营许可证》和《增值电信业务经营许可证》两类。其中《增值电信业务经营许可证》中又分为《跨地区增值电信业务经营许可证》和省、自治区、直辖市范围内的《增值电信业务经营许可证》。\n《基础电信业务经营许可证》和《跨地区增值电信业务经营许可证》，由信息产业部负责审批。省、自治区、直辖市范围内的《增值电信业务经营许可证》，由省、自治区、直辖市通信管理局负责审批。\n外商投资电信企业的电信业务经营许可证，根据《外商投资电信企业管理规定》第十七条的规定，由信息产业部负责审批。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 217,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 电信业务经营许可证分为《基础电信业务经营许可证》和《增值电信业务经营许可证》两类。其中《增值电信业务经营许可证》中又分为《跨地区增值电信业务经营许可证》和省、自治区、直辖市范围内的《增值电信业务经营许可证》。\n《基础电信业务经营许可证》和《跨地区增值电信业务经营许可证》，由信息产业部负责审批。省、自治区、直辖市范围内的《增值电信业务经营许可证》，由省、自治区、直辖市通信管理局负责审批。\n外商投资电信企业的电信业务经营许可证，根据《外商投资电信企业管理规定》第十七条的规定，由信息产业部负责审批。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 21.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5746,
+    "source_end": 5802,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第三章",
+    "chapter_title": "经营许可证的审批",
+    "text_zh": "第十条 信息产业部应当自收到经营基础电信业务的申请材料之日起15日内，完成对材料的初步审查。对申请材料齐备的，向申请者发出受理申请通知书。对申请材料不齐备的，书面通知申请者补齐，申请者将材料补齐后，信息产业部应当在15日内向申请者发出受理申请通知书。\n信息产业部在发出受理申请通知书之后，应当组织专家对第七条第（六）、第（七）项申请材料进行评审，并根据专家评审意见作出批准或者不予批准的决定。信息产业部的审查工作应当在发出受理申请通知书之日起180日内完成。\n对已经依法设立公司的申请者，予以批准的，颁发《基础电信业务经营许可证》。\n对尚未获得企业法人营业执照的申请者，予以批准的，应当向申请者发出批准文件，同意其向工商行政管理部门申请设立公司经营该项基础电信业务，申请者持该批准文件到工商行政管理部门办理公司设立登记手续。在申请者取得企业法人营业执照后，信息产业部向其颁发《基础电信业务经营许可证》。\n对申请不予批准的，应当书面通知申请者并说明理由。\n审查中，对申请材料不符合要求的，应当通知申请者修改和补充，申请者应当自通知发出之日起30日内按要求完成，否则视为放弃申请。申请者修改和补充材料的时间不计算在审查工作时限内。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 459,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 信息产业部应当自收到经营基础电信业务的申请材料之日起15日内，完成对材料的初步审查。对申请材料齐备的，向申请者发出受理申请通知书。对申请材料不齐备的，书面通知申请者补齐，申请者将材料补齐后，信息产业部应当在15日内向申请者发出受理申请通知书。\n信息产业部在发出受理申请通知书之后，应当组织专家对第七条第（六）、第（七）项申请材料进行评审，并根据专家评审意见作出批准或者不予批准的决定。信息产业部的审查工作应当在发出受理申请通知书之日起180日内完成。\n对已经依法设立公司的申请者，予以批准的，颁发《基础电信业务经营许可证》。\n对尚未获得企业法人营业执照的申请者，予以批准的，应当向申请者发出批准文件，同意其向工商行政管理部门申请设立公司经营该项基础电信业务，申请者持该批准文件到工商行政管理部门办理公司设立登记手续。在申请者取得企业法人营业执照后，信息产业部向其颁发《基础电信业务经营许可证》。\n对申请不予批准的，应当书面通知申请者并说明理由。\n审查中，对申请材料不符合要求的，应当通知申请者修改和补充，申请者应当自通知发出之日起30日内按要求完成，否则视为放弃申请。申请者修改和补充材料的时间不计算在审查工作时限内。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "telecommunications",
+      "public_governance",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "法人",
+          "公司 (weak)",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政管理"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 261,
+    "source_end": 537,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第三章",
+    "chapter_title": "经营许可证的审批",
+    "text_zh": "第十一条 电信主管部门应当自收到经营增值电信业务的申请材料之日起15日内，完成对材料的初步审查。对申请材料齐备的，向申请者发出受理申请通知书。对申请材料不齐备的，书面通知申请者补齐，申请者将材料补齐后，电信主管部门应当在15日内向申请者发出受理申请通知书。\n电信主管部门应当自发出受理申请通知书之日起60日内完成审查工作，作出批准或者不予批准的决定。\n对已经依法设立的公司的申请，予以批准的，颁发《跨地区增值电信业务经营许可证》或者省、自治区、直辖市范围内的《增值电信业务经营许可证》。\n对尚未获得企业法人营业执照的申请者，予以批准的，应当向申请者发出批准文件，同意其向工商行政管理部门申请设立公司经营该项增值电信业务，申请者持该批准文件到工商行政管理部门办理公司设立登记手续。在申请者取得企业法人营业执照后，电信主管部门向其颁发《跨地区增值电信业务经营许可证》或者省、自治区、直辖市范围内的《增值电信业务经营许可证》。\n对申请不予批准的，应当书面通知申请者并说明理由。\n审查中，对申请材料不符合要求的，应当通知申请者修改和补充，申请者应当自通知发出之日起30日内按要求完成，否则视为放弃申请。申请者修改和补充材料的时间不计算在审查工作时限内。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 468,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 电信主管部门应当自收到经营增值电信业务的申请材料之日起15日内，完成对材料的初步审查。对申请材料齐备的，向申请者发出受理申请通知书。对申请材料不齐备的，书面通知申请者补齐，申请者将材料补齐后，电信主管部门应当在15日内向申请者发出受理申请通知书。\n电信主管部门应当自发出受理申请通知书之日起60日内完成审查工作，作出批准或者不予批准的决定。\n对已经依法设立的公司的申请，予以批准的，颁发《跨地区增值电信业务经营许可证》或者省、自治区、直辖市范围内的《增值电信业务经营许可证》。\n对尚未获得企业法人营业执照的申请者，予以批准的，应当向申请者发出批准文件，同意其向工商行政管理部门申请设立公司经营该项增值电信业务，申请者持该批准文件到工商行政管理部门办理公司设立登记手续。在申请者取得企业法人营业执照后，电信主管部门向其颁发《跨地区增值电信业务经营许可证》或者省、自治区、直辖市范围内的《增值电信业务经营许可证》。\n对申请不予批准的，应当书面通知申请者并说明理由。\n审查中，对申请材料不符合要求的，应当通知申请者修改和补充，申请者应当自通知发出之日起30日内按要求完成，否则视为放弃申请。申请者修改和补充材料的时间不计算在审查工作时限内。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "corporate_governance",
+      "public_governance",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 18.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "法人",
+          "公司 (weak)",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政管理"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 491,
+    "source_end": 537,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第三章",
+    "chapter_title": "经营许可证的审批",
+    "text_zh": "第十二条 经营许可证由正文部分和附件部分组成。\n经营许可证的正文部分应当载明公司名称、法定代表人、注册住所、业务种类、业务覆盖范围、有效期限、发证机关和发证日期、签发人、经营许可证编号等内容。\n经营许可证的附件部分包括经营许可证使用规定、经营者的权利和义务、特别规定事项和年检情况记录表等附件。原发证机关根据管理需要可以按照信息产业部的规定增发经营许可证附件。\n电信业务经营许可证的具体内容在本办法附件中列出。信息产业部根据实际情况，可以调整电信业务经营许可证附件的内容，重新公布。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 219,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 经营许可证由正文部分和附件部分组成。\n经营许可证的正文部分应当载明公司名称、法定代表人、注册住所、业务种类、业务覆盖范围、有效期限、发证机关和发证日期、签发人、经营许可证编号等内容。\n经营许可证的附件部分包括经营许可证使用规定、经营者的权利和义务、特别规定事项和年检情况记录表等附件。原发证机关根据管理需要可以按照信息产业部的规定增发经营许可证附件。\n电信业务经营许可证的具体内容在本办法附件中列出。信息产业部根据实际情况，可以调整电信业务经营许可证附件的内容，重新公布。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3899,
+    "source_end": 4140,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第三章",
+    "chapter_title": "经营许可证的审批",
+    "text_zh": "第十三条 《基础电信业务经营许可证》的有效期限，根据电信业务种类分为5年、10年。\n《跨地区增值电信业务经营许可证》和省、自治区、直辖市范围内的《增值电信业务经营许可证》的有效期限为5年。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 76,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 《基础电信业务经营许可证》的有效期限，根据电信业务种类分为5年、10年。\n《跨地区增值电信业务经营许可证》和省、自治区、直辖市范围内的《增值电信业务经营许可证》的有效期限为5年。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4141,
+    "source_end": 4235,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第三章",
+    "chapter_title": "经营许可证的审批",
+    "text_zh": "第十四条 《基础电信业务经营许可证》、《跨地区增值电信业务经营许可证》以及外商投资电信企业的电信业务经营许可证由信息产业部部长签发。\n省、自治区、直辖市范围内的《增值电信业务经营许可证》由省、自治区、直辖市通信管理局局长签发，并报信息产业部备案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 107,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 《基础电信业务经营许可证》、《跨地区增值电信业务经营许可证》以及外商投资电信企业的电信业务经营许可证由信息产业部部长签发。\n省、自治区、直辖市范围内的《增值电信业务经营许可证》由省、自治区、直辖市通信管理局局长签发，并报信息产业部备案。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 10.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4236,
+    "source_end": 4359,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第三章",
+    "chapter_title": "经营许可证的审批",
+    "text_zh": "第十五条 电信业务经营许可证由公司法定代表人领取，或者由其委托的其他人凭委托书领取。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 电信业务经营许可证由公司法定代表人领取，或者由其委托的其他人凭委托书领取。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2892,
+    "source_end": 3013,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第三章",
+    "chapter_title": "经营许可证的审批",
+    "text_zh": "第十六条 电信主管部门在审查电信业务经营许可申请时，发现申请者提交虚假证明文件的，应当不批准其申请，并在3年内不再受理其经营电信业务的申请。\n第四章 经营许可证的使用",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 75,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 电信主管部门在审查电信业务经营许可申请时，发现申请者提交虚假证明文件的，应当不批准其申请，并在3年内不再受理其经营电信业务的申请。\n第四章 经营许可证的使用"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4403,
+    "source_end": 4486,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第四章",
+    "chapter_title": "经营许可证的使用",
+    "text_zh": "第十七条 获准经营电信业务的公司，应当按照经营许可证正文中所载明的电信业务种类，在规定的业务覆盖范围和期限内，按照经营许可证的规定经营电信业务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 获准经营电信业务的公司，应当按照经营许可证正文中所载明的电信业务种类，在规定的业务覆盖范围和期限内，按照经营许可证的规定经营电信业务。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4487,
+    "source_end": 4559,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第四章",
+    "chapter_title": "经营许可证的使用",
+    "text_zh": "第十八条 获准经营电信业务的公司，持经营许可证到工商行政管理部门办理公司变更登记手续。\n获准经营无线电通信业务的，持经营许可证到无线电管理机构申请办理无线电频率使用手续。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 79,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 获准经营电信业务的公司，持经营许可证到工商行政管理部门办理公司变更登记手续。\n获准经营无线电通信业务的，持经营许可证到无线电管理机构申请办理无线电频率使用手续。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "corporate_governance",
+      "public_governance",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 12.0,
+        "matched_keywords": [
+          "电信",
+          "无线电"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政管理"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3083,
+    "source_end": 3376,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第四章",
+    "chapter_title": "经营许可证的使用",
+    "text_zh": "第十九条 获准跨地区经营电信业务的公司，应当在经营许可证载明的业务覆盖范围所在省、自治区和直辖市设立分公司或子公司等相应机构经营电信业务。\n经营基础电信业务公司的子公司，国有股权或者股份的比例应当符合国家有关电信的法律、行政法规规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 获准跨地区经营电信业务的公司，应当在经营许可证载明的业务覆盖范围所在省、自治区和直辖市设立分公司或子公司等相应机构经营电信业务。\n经营基础电信业务公司的子公司，国有股权或者股份的比例应当符合国家有关电信的法律、行政法规规定。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "telecommunications",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4646,
+    "source_end": 4763,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第四章",
+    "chapter_title": "经营许可证的使用",
+    "text_zh": "第二十条 获准经营电信业务的公司，经发证机关批准，可以授权其持有股份不少于51%并符合经营电信业务条件的子公司经营其获准经营的电信业务。该子公司的名称、法定代表人、注册住所、业务种类、业务覆盖范围等内容，由发证机关在获准经营电信业务公司的经营许可证正文附页中载明。在一个地区不能授权两家或两家以上子公司经营同一项电信业务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 147,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 获准经营电信业务的公司，经发证机关批准，可以授权其持有股份不少于51%并符合经营电信业务条件的子公司经营其获准经营的电信业务。该子公司的名称、法定代表人、注册住所、业务种类、业务覆盖范围等内容，由发证机关在获准经营电信业务公司的经营许可证正文附页中载明。在一个地区不能授权两家或两家以上子公司经营同一项电信业务。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 10.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 314,
+    "source_end": 537,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第四章",
+    "chapter_title": "经营许可证的使用",
+    "text_zh": "第二十一条 获准经营基础电信业务或在两个以上省、自治区、直辖市范围内经营增值电信业务的公司，应当凭经营许可证到相关省、自治区、直辖市通信管理局办理备案手续，并提交下列备案材料：\n（一）在当地开展业务的书面报告。内容包括：公司在当地设立的分公司或子公司等相应机构的名称、通信地址、邮政编码、联系人、联系电话、电子信箱地址等；\n（二）经营许可证复印件；（三）公司在当地设有分公司或子公司等相应机构的公司批准文件、分公司或子公司的营业执照（复印件）、章程、股权结构等有关材料；\n（四）在当地开展业务的方案。\n省、自治区、直辖市通信管理局在收到前款规定的备案材料后，对材料齐备的，应当在15日内向备案者发出备案确认书，并向信息产业部报告。对材料不齐备的，应当在15日内书面通知备案者。待材料补齐后，应当在10日内向备案者发出备案确认书。\n未办理备案手续的，不得在当地经营电信业务。\n第一款所列四项材料发生变化的，分公司或子公司等相应机构应当在变化后20日内，向当地省、自治区、直辖市通信管理局备案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 382,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 获准经营基础电信业务或在两个以上省、自治区、直辖市范围内经营增值电信业务的公司，应当凭经营许可证到相关省、自治区、直辖市通信管理局办理备案手续，并提交下列备案材料：\n（一）在当地开展业务的书面报告。内容包括：公司在当地设立的分公司或子公司等相应机构的名称、通信地址、邮政编码、联系人、联系电话、电子信箱地址等；\n（二）经营许可证复印件；（三）公司在当地设有分公司或子公司等相应机构的公司批准文件、分公司或子公司的营业执照（复印件）、章程、股权结构等有关材料；\n（四）在当地开展业务的方案。\n省、自治区、直辖市通信管理局在收到前款规定的备案材料后，对材料齐备的，应当在15日内向备案者发出备案确认书，并向信息产业部报告。对材料不齐备的，应当在15日内书面通知备案者。待材料补齐后，应当在10日内向备案者发出备案确认书。\n未办理备案手续的，不得在当地经营电信业务。\n第一款所列四项材料发生变化的，分公司或子公司等相应机构应当在变化后20日内，向当地省、自治区、直辖市通信管理局备案。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 21.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4926,
+    "source_end": 5371,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第四章",
+    "chapter_title": "经营许可证的使用",
+    "text_zh": "第二十二条 除经营许可证中有特别规定外，电信业务经营者取得经营许可证后，应当在1年内按照经营许可证规定的业务种类和业务覆盖范围提供电信服务。不能在1年内提供电信服务的，应当在申请经营许可证时提出，说明理由，报电信主管部门批准，并在经营许可证中作出特别规定。\n对未在经营许可证规定时限内提供电信服务的，原发证机关可以注销其经营许可证，或者取消其未提供电信服务的业务覆盖范围。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 171,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 除经营许可证中有特别规定外，电信业务经营者取得经营许可证后，应当在1年内按照经营许可证规定的业务种类和业务覆盖范围提供电信服务。不能在1年内提供电信服务的，应当在申请经营许可证时提出，说明理由，报电信主管部门批准，并在经营许可证中作出特别规定。\n对未在经营许可证规定时限内提供电信服务的，原发证机关可以注销其经营许可证，或者取消其未提供电信服务的业务覆盖范围。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 21.0,
+        "matched_keywords": [
+          "电信",
+          "电信服务",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5372,
+    "source_end": 5558,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第四章",
+    "chapter_title": "经营许可证的使用",
+    "text_zh": "第二十三条 相关基础电信业务经营者应当按照电信主管部门的规定，及时为取得经营许可证的公司提供经营电信业务所需的电路、设施等。\n基础电信业务经营者不得为无经营许可证的公司提供用于经营电信业务的电路、设施等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 95,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 相关基础电信业务经营者应当按照电信主管部门的规定，及时为取得经营许可证的公司提供经营电信业务所需的电路、设施等。\n基础电信业务经营者不得为无经营许可证的公司提供用于经营电信业务的电路、设施等。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 10.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5559,
+    "source_end": 5661,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第四章",
+    "chapter_title": "经营许可证的使用",
+    "text_zh": "第二十四条 任何单位和个人不得伪造、涂改、冒用、租借、买卖和转让经营许可证。\n第五章 经营许可证的变更和注销",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 46,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 任何单位和个人不得伪造、涂改、冒用、租借、买卖和转让经营许可证。\n第五章 经营许可证的变更和注销"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5662,
+    "source_end": 5716,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第五章",
+    "chapter_title": "经营许可证的变更和注销",
+    "text_zh": "第二十五条 经营许可证有效期届满，需要继续经营的，应当提前90日，向原发证机关提出续办经营许可证的申请。不再继续经营的，应当提前90日向原发证机关报告，并做好善后工作。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 72,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 经营许可证有效期届满，需要继续经营的，应当提前90日，向原发证机关提出续办经营许可证的申请。不再继续经营的，应当提前90日向原发证机关报告，并做好善后工作。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5717,
+    "source_end": 5801,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第五章",
+    "chapter_title": "经营许可证的变更和注销",
+    "text_zh": "第二十六条 取得电信业务经营许可证的公司或者其获准授权经营电信业务的子公司，遇有合并或分立、有限责任公司股东变化、业务经营权转移等涉及经营主体需要变更的情形，或者业务覆盖范围需要变化的，应当自公司作出决定之日起30日内向原发证机关提出申请，经批准后方可实施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 119,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 取得电信业务经营许可证的公司或者其获准授权经营电信业务的子公司，遇有合并或分立、有限责任公司股东变化、业务经营权转移等涉及经营主体需要变更的情形，或者业务覆盖范围需要变化的，应当自公司作出决定之日起30日内向原发证机关提出申请，经批准后方可实施。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5802,
+    "source_end": 5931,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第五章",
+    "chapter_title": "经营许可证的变更和注销",
+    "text_zh": "第二十七条 在经营许可证有效期内，变更公司名称、注册住所、法定代表人的，应当在完成公司的工商变更登记手续后30日内向原发证机关办理电信业务经营许可证的变更手续。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 72,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 在经营许可证有效期内，变更公司名称、注册住所、法定代表人的，应当在完成公司的工商变更登记手续后30日内向原发证机关办理电信业务经营许可证的变更手续。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5932,
+    "source_end": 6012,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第五章",
+    "chapter_title": "经营许可证的变更和注销",
+    "text_zh": "第二十八条 在经营许可证有效期内，电信业务经营者需要终止经营的，应当自公司作出决定之日起30日内向原发证机关提出申请，在做好用户善后处理工作后，原发证机关为其办理经营许可证注销手续。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 在经营许可证有效期内，电信业务经营者需要终止经营的，应当自公司作出决定之日起30日内向原发证机关提出申请，在做好用户善后处理工作后，原发证机关为其办理经营许可证注销手续。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6013,
+    "source_end": 6104,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第五章",
+    "chapter_title": "经营许可证的变更和注销",
+    "text_zh": "第二十九条 电信业务经营者被国家行政、司法机关依法处罚，不能继续经营电信业务的，原发证机关应当将其经营许可证收回注销。\n提交虚假证明文件或者采取其他欺诈手段，取得电信业务经营许可证的，由原发证机关将经营许可证收回注销。并在3年内不再受理其经营电信业务的申请。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 118,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 电信业务经营者被国家行政、司法机关依法处罚，不能继续经营电信业务的，原发证机关应当将其经营许可证收回注销。\n提交虚假证明文件或者采取其他欺诈手段，取得电信业务经营许可证的，由原发证机关将经营许可证收回注销。并在3年内不再受理其经营电信业务的申请。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6105,
+    "source_end": 6234,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第五章",
+    "chapter_title": "经营许可证的变更和注销",
+    "text_zh": "第三十条 发证机关吊销或注销电信业务经营者的经营许可证后，应当通知相应的工商行政管理部门，并向社会公布。\n被吊销或注销经营许可证的公司，应当及时到相应工商行政管理部门办理手续。\n第六章 经营许可证的年检",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 92,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 发证机关吊销或注销电信业务经营者的经营许可证后，应当通知相应的工商行政管理部门，并向社会公布。\n被吊销或注销经营许可证的公司，应当及时到相应工商行政管理部门办理手续。\n第六章 经营许可证的年检"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "public_administration",
+      "telecommunications",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政管理"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3331,
+    "source_end": 3376,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第六章",
+    "chapter_title": "经营许可证的年检",
+    "text_zh": "第三十一条 发证机关对经营许可证实行年检制度。电信业务经营者应当在报告年的次年第一季度向原发证机关报送下列年检材料：\n（一）公司的年检报告，包括：本年度的电信业务经营情况；网络建设、业务发展、人员及机构变动情况；服务质量情况；执行国家和电信主管部门有关规定的情况等；\n（二）电信业务经营许可证原件；（三）公司的企业法人营业执照复印件；\n（四）公司年度财务会计报告及电信主管部门规定的其他相关会计资料；\n（五）发证机关要求报送的其它有关材料。\n业务覆盖范围在两个省、自治区、直辖市以上的，还须提供各地分公司或子公司等相应机构及全网业务的经营管理情况。\n各地分公司或子公司等相应机构应当向当地省、自治区、直辖市通信管理局报送在当地开展电信业务的年度报告；分公司或子公司的营业执照复印件；财务报表等有关材料。年度报告内容包括：本年度的电信业务经营情况；网络建设、业务发展、人员及机构变动情况；服务质量情况；执行国家和电信主管部门有关规定的情况等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 373,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 发证机关对经营许可证实行年检制度。电信业务经营者应当在报告年的次年第一季度向原发证机关报送下列年检材料：\n（一）公司的年检报告，包括：本年度的电信业务经营情况；网络建设、业务发展、人员及机构变动情况；服务质量情况；执行国家和电信主管部门有关规定的情况等；\n（二）电信业务经营许可证原件；（三）公司的企业法人营业执照复印件；\n（四）公司年度财务会计报告及电信主管部门规定的其他相关会计资料；\n（五）发证机关要求报送的其它有关材料。\n业务覆盖范围在两个省、自治区、直辖市以上的，还须提供各地分公司或子公司等相应机构及全网业务的经营管理情况。\n各地分公司或子公司等相应机构应当向当地省、自治区、直辖市通信管理局报送在当地开展电信业务的年度报告；分公司或子公司的营业执照复印件；财务报表等有关材料。年度报告内容包括：本年度的电信业务经营情况；网络建设、业务发展、人员及机构变动情况；服务质量情况；执行国家和电信主管部门有关规定的情况等。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 21.0,
+        "matched_keywords": [
+          "公司",
+          "法人",
+          "公司 (weak)",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 15.0,
+        "matched_keywords": [
+          "电信",
+          "网络 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6337,
+    "source_end": 6757,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第六章",
+    "chapter_title": "经营许可证的年检",
+    "text_zh": "第三十二条 省、自治区、直辖市通信管理局对跨地区电信业务经营者在当地的相应机构进行年度检查，并将结果报告信息产业部。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 省、自治区、直辖市通信管理局对跨地区电信业务经营者在当地的相应机构进行年度检查，并将结果报告信息产业部。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6758,
+    "source_end": 6816,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第六章",
+    "chapter_title": "经营许可证的年检",
+    "text_zh": "第三十三条 发证机关进行经营许可证年检时，应当对电信业务经营者报送的材料进行全面审核，并对其经营主体、经营行为、电信设施建设、电信资费和服务质量等进行必要的检查。对年检合格的在年检情况记录表上加盖印章；对未按规定参加年检的或年检中发现有不符合规定要求的，限期整改；整改仍不合格的，将经营许可证收回注销，通知相应工商行政管理部门，并向社会公布。\n第七章 罚 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 162,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 发证机关进行经营许可证年检时，应当对电信业务经营者报送的材料进行全面审核，并对其经营主体、经营行为、电信设施建设、电信资费和服务质量等进行必要的检查。对年检合格的在年检情况记录表上加盖印章；对未按规定参加年检的或年检中发现有不符合规定要求的，限期整改；整改仍不合格的，将经营许可证收回注销，通知相应工商行政管理部门，并向社会公布。\n第七章 罚 则"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "public_governance",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "电信",
+          "服务 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "服务 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政管理"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6817,
+    "source_end": 6996,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第七章",
+    "chapter_title": "罚 则",
+    "text_zh": "第三十四条 违反本办法第十七条、第二十六条和第三十一条规定的，依照《中华人民共和国电信条例》第七十条规定予以处罚。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 51,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 违反本办法第十七条、第二十六条和第三十一条规定的，依照《中华人民共和国电信条例》第七十条规定予以处罚。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6997,
+    "source_end": 7054,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第七章",
+    "chapter_title": "罚 则",
+    "text_zh": "第三十五条 违反本办法第二十四条规定的，依照《中华人民共和国电信条例》第六十九条规定予以处罚。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 42,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 违反本办法第二十四条规定的，依照《中华人民共和国电信条例》第六十九条规定予以处罚。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7055,
+    "source_end": 7102,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第七章",
+    "chapter_title": "罚 则",
+    "text_zh": "第三十六条 违反本办法第四条第一款、第十九条、第二十条、第二十一条第三款、第四款、第二十三条、第二十五条、第二十七条和第二十八条规定的，由电信主管部门责令改正，予以警告，并处5000元以上3万元以下罚款。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 85,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 违反本办法第四条第一款、第十九条、第二十条、第二十一条第三款、第四款、第二十三条、第二十五条、第二十七条和第二十八条规定的，由电信主管部门责令改正，予以警告，并处5000元以上3万元以下罚款。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7103,
+    "source_end": 7205,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第七章",
+    "chapter_title": "罚 则",
+    "text_zh": "第三十七条 当事人对电信主管部门作出的行政审批和行政处罚决定不服的，可以依法申请行政复议或者提起行政诉讼。\n当事人逾期不申请行政复议也不提起行政诉讼，又不履行行政处罚决定的，由作出行政处罚决定的机关申请人民法院强制执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 103,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 当事人对电信主管部门作出的行政审批和行政处罚决定不服的，可以依法申请行政复议或者提起行政诉讼。\n当事人逾期不申请行政复议也不提起行政诉讼，又不履行行政处罚决定的，由作出行政处罚决定的机关申请人民法院强制执行。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "litigation_procedure",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 15.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 6.0,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7206,
+    "source_end": 7316,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第七章",
+    "chapter_title": "罚 则",
+    "text_zh": "第三十八条 电信主管部门的工作人员在经营许可证管理工作中，玩忽职守、滥用职权、徇私舞弊，构成犯罪的，提请司法机关依法追究刑事责任；尚不构成犯罪的，由所在单位或者上级主管部门给予行政处分。\n第八章 附 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 89,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条 电信主管部门的工作人员在经营许可证管理工作中，玩忽职守、滥用职权、徇私舞弊，构成犯罪的，提请司法机关依法追究刑事责任；尚不构成犯罪的，由所在单位或者上级主管部门给予行政处分。\n第八章 附 则"
+      }
+    ],
+    "topics": [
+      "criminal_law",
+      "telecommunications",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 15.0,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事责任",
+          "刑事 (weak)",
+          "犯罪 (weak)",
+          "责任 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7317,
+    "source_end": 7418,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第八章",
+    "chapter_title": "附 则",
+    "text_zh": "第三十九条 经营许可证由信息产业部统一印制。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 20,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条 经营许可证由信息产业部统一印制。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7419,
+    "source_end": 7441,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_CN_153_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_CN_153",
+    "law_name": "电信业务经营许可证管理办法",
+    "law_name_original": "电信业务经营许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第八章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十条 本办法自2002年1月1日起施行。\n附件：略\n关于我们 | 网站声明 | 网站地图 | 联系我们 | 版权声明\n国家计算机网络应急技术处理协调中心版权所有\n网站由知道创宇公司加速乐产品提供访问优化服务",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 80,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条 本办法自2002年1月1日起施行。\n附件：略\n﻿\n关于我们 | 网站声明 | 网站地图 | 联系我们 | 版权声明\n国家计算机网络应急技术处理协调中心版权所有\n网站由知道创宇公司加速乐产品提供访问优化服务"
+      }
+    ],
+    "topics": [
+      "intellectual_property",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "intellectual_property",
+        "label_zh": "知识产权",
+        "label_en": "Intellectual Property",
+        "label_pt": "Propriedade Intelectual",
+        "score": 6.0,
+        "matched_keywords": [
+          "版权",
+          "版权 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cert.org.cn/publish/main/27/2012/20120330183545317605582/20120330183545317605582_.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_153.txt",
+    "sample_id": "CN_153",
+    "source_id": "CN_CERT_001",
+    "original_id": "SMP_CN_153",
+    "raw_sha256": "af0cb2de01d93acd5563cd02b2ee8972501ef68e1c2843d054d31a8c8cb1e0bf",
+    "extracted_text_sha256": "fac3213d1d9492b4a42c2441c8483fb811969203149708e6cfff6c4b2f150a36",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7442,
+    "source_end": 7549,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:45Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -93,6 +93,8 @@ docker compose logs -f backend
 
 将法规原文（PDF/DOCX 等可提取文本的格式）放入 `legal_rag/data/raw/<法域>/`，随后触发入库或通过管理端接口维护；入库扫描目录由 `LEGAL_INGEST_DATA_DIR` 指定。
 
+阶段 1 清洗产物 `legal_rag/data/raw_v2/` 已随仓库提供，克隆后可直接入库；若修改了 `raw/`，需先重新运行清洗脚本再入库。
+
 ```bash
 # 容器内执行（扫描阶段 1 清洗产物 raw_v2）
 docker exec -e PYTHONUNBUFFERED=1 legal-backend python -m scripts.ingest
@@ -123,6 +125,8 @@ docker exec -e PYTHONUNBUFFERED=1 legal-backend python -m scripts.ingest
 │   ├── data_tools/           # 数据治理脚本（清洗 / 校验 / 索引构建）
 │   ├── evals/                # 评测：scripts / datasets / results
 │   └── data/                 # 语料与法规目录（运行时挂载）
+│       ├── raw/              # 原始语料（管理端写入，看板雷达图扫描）
+│       └── raw_v2/           # 阶段 1 清洗产物（ingest 扫描目录，随仓库提供）
 ├── frontend/                 # 前端静态资源（原生 JS + nginx 配置）
 └── models/                   # 本地模型权重（不入库）
 ```
@@ -165,4 +169,4 @@ docker exec -e PYTHONUNBUFFERED=1 legal-backend python -m scripts.ingest
 
 ## 说明
 
-本仓库仅包含代码与配置。技术报告、面试知识体系、内部方案等文档仅供本地留存，不纳入版本管理。
+本仓库包含代码、配置与阶段 1 清洗语料（`legal_rag/data/raw_v2/`）。技术报告、面试知识体系、内部方案等文档仅供本地留存，不纳入版本管理。

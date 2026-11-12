@@ -1,0 +1,3719 @@
+[
+  {
+    "doc_id": "CN_DOC_3_2020_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第一条 为了规范银行业保险业消费投诉处理工作,保护消费者合法权益,根据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中\n华人民共和国保险法》《中华人民共和国消费者权益保护法》等法律法规,制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 94,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为了规范银行业保险业消费投诉处理工作,保护消费者合法权益,根据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中\n华人民共和国保险法》《中华人民共和国消费者权益保护法》等法律法规,制定本办法。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 4.5,
+        "matched_keywords": [
+          "消费者权益",
+          "消费者 (weak)",
+          "权益 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第二条 本办法所称银行业保险业消费投诉(以下简称“消费投诉”),是指消费者因购买银行、保险产品或者接受银行、保险相关服务与银行保险机构或者其\n从业人员产生纠纷(以下简称“消费纠纷”),并向银行保险机构主张其民事权益的行为。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 96,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本办法所称银行业保险业消费投诉(以下简称“消费投诉”),是指消费者因购买银行、保险产品或者接受银行、保险相关服务与银行保险机构或者其\n从业人员产生纠纷(以下简称“消费纠纷”),并向银行保险机构主张其民事权益的行为。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 21.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第三条 银行业保险业消费投诉处理工作应当坚持依法合规、便捷高效、标本兼治和多元化解原则。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 40,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 银行业保险业消费投诉处理工作应当坚持依法合规、便捷高效、标本兼治和多元化解原则。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 178,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第四条 银行保险机构是维护消费者合法权益、处理消费投诉的责任主体,负责对本单位及其分支机构消费投诉处理工作的管理、指导和考核,协调、督促\n其分支机构妥善处理各类消费投诉。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 77,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 银行保险机构是维护消费者合法权益、处理消费投诉的责任主体,负责对本单位及其分支机构消费投诉处理工作的管理、指导和考核,协调、督促\n其分支机构妥善处理各类消费投诉。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第五条 各相关行业协会应当充分发挥在消费纠纷化解方面的行业自律作用,协调、促进其会员单位通过协商、调解、仲裁、诉讼等方式妥善处理消费纠\n纷。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 62,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 各相关行业协会应当充分发挥在消费纠纷化解方面的行业自律作用,协调、促进其会员单位通过协商、调解、仲裁、诉讼等方式妥善处理消费纠\n纷。"
+      }
+    ],
+    "topics": [
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1619,
+    "source_end": 1623,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第六条 中国银行保险监督管理委员会(以下简称“中国银保监会”)是全国银行业保险业消费投诉处理工作的监督单位,对全国银行业保险业消费投诉处理工\n作进行监督指导。\n中国银保监会各级派出机构应当对辖区内银行业保险业消费投诉处理工作进行监督指导,推动辖区内建立完善消费纠纷多元化解机制。\n第二章 组织管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 135,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 中国银行保险监督管理委员会(以下简称“中国银保监会”)是全国银行业保险业消费投诉处理工作的监督单位,对全国银行业保险业消费投诉处理工\n作进行监督指导。\n中国银保监会各级派出机构应当对辖区内银行业保险业消费投诉处理工作进行监督指导,推动辖区内建立完善消费纠纷多元化解机制。\n第二章 组织管理"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5478,
+    "source_end": 5676,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第二章",
+    "chapter_title": "组织管理",
+    "text_zh": "第七条 银行保险机构应当从人力物力财力上保证消费投诉处理工作顺利开展,指定高级管理人员或者机构负责人分管本单位消费投诉处理工作,设立或者\n指定本单位消费投诉处理工作的管理部门和岗位,合理配备工作人员。\n银行保险机构应当畅通投诉渠道,设立或者指定投诉接待区域,配备录音录像等设备记录并保存消费投诉接待处理过程,加强消费投诉管理信息系统建设,规\n范消费投诉处理流程和管理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 171,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 银行保险机构应当从人力物力财力上保证消费投诉处理工作顺利开展,指定高级管理人员或者机构负责人分管本单位消费投诉处理工作,设立或者\n指定本单位消费投诉处理工作的管理部门和岗位,合理配备工作人员。\n银行保险机构应当畅通投诉渠道,设立或者指定投诉接待区域,配备录音录像等设备记录并保存消费投诉接待处理过程,加强消费投诉管理信息系统建设,规\n范消费投诉处理流程和管理。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "机构负责人"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第二章",
+    "chapter_title": "组织管理",
+    "text_zh": "第八条 银行保险机构应当在官方网站、移动客户端、营业场所或者办公场所醒目位置公布本单位的投诉电话、通讯地址等投诉渠道信息和消费投诉处\n理流程,开通电子邮件、官网平台等互联网投诉渠道的,应当公布本单位接收消费投诉的电子邮箱、网址等。在产品或者服务合约中,银行保险机构应当提供投\n诉电话或者其他投诉渠道信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 139,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 银行保险机构应当在官方网站、移动客户端、营业场所或者办公场所醒目位置公布本单位的投诉电话、通讯地址等投诉渠道信息和消费投诉处\n理流程,开通电子邮件、官网平台等互联网投诉渠道的,应当公布本单位接收消费投诉的电子邮箱、网址等。在产品或者服务合约中,银行保险机构应当提供投\n诉电话或者其他投诉渠道信息。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "通讯",
+          "通讯 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第二章",
+    "chapter_title": "组织管理",
+    "text_zh": "第九条 银行保险机构开展消费投诉处理工作应当属地管理、分级负责,充分考虑和尊重消费者的合理诉求,公平合法作出处理结论。及时查找引发投诉事\n项的原因,健全完善溯源整改机制,切实注重消费者消费体验,提升服务水平。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 94,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 银行保险机构开展消费投诉处理工作应当属地管理、分级负责,充分考虑和尊重消费者的合理诉求,公平合法作出处理结论。及时查找引发投诉事\n项的原因,健全完善溯源整改机制,切实注重消费者消费体验,提升服务水平。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第二章",
+    "chapter_title": "组织管理",
+    "text_zh": "第十条 银行保险机构应当加强对第三方机构合作业务消费投诉的管理,因合作销售产品或者提供服务而产生消费纠纷的,银行保险机构应当要求相关第三\n方机构配合处理消费投诉,对消费投诉事项进行核实,及时提供相关情况,促进消费投诉顺利解决。银行保险机构应当将第三方机构对消费投诉处理工作的配合\n情况纳入合作第三方机构的准入退出评估机制。\n第三章 银行业保险业消费投诉处理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 166,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 银行保险机构应当加强对第三方机构合作业务消费投诉的管理,因合作销售产品或者提供服务而产生消费纠纷的,银行保险机构应当要求相关第三\n方机构配合处理消费投诉,对消费投诉事项进行核实,及时提供相关情况,促进消费投诉顺利解决。银行保险机构应当将第三方机构对消费投诉处理工作的配合\n情况纳入合作第三方机构的准入退出评估机制。\n第三章 银行业保险业消费投诉处理"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1290,
+    "source_end": 1468,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第十一条 银行保险机构应当负责处理因购买其产品或者接受其服务产生的消费投诉。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 36,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 银行保险机构应当负责处理因购买其产品或者接受其服务产生的消费投诉。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1469,
+    "source_end": 1507,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第十二条 银行保险机构可以要求投诉人通过其公布的投诉渠道提出消费投诉。\n采取面谈方式提出消费投诉的,银行保险机构可以要求投诉人在其指定的接待场所提出。多名投诉人采取面谈方式提出共同消费投诉的,应当推选代表,代\n表人数不超过5名。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 104,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 银行保险机构可以要求投诉人通过其公布的投诉渠道提出消费投诉。\n采取面谈方式提出消费投诉的,银行保险机构可以要求投诉人在其指定的接待场所提出。多名投诉人采取面谈方式提出共同消费投诉的,应当推选代表,代\n表人数不超过5名。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1508,
+    "source_end": 1622,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第十三条 银行保险机构可以要求投诉人提供以下材料或者信息:\n(一)投诉人的基本情况,包括:自然人或者其法定代理人姓名、身份信息、联系方式;法人或者其他组织的名称、住所、统一社会信用代码,法定代表人或者\n主要负责人的姓名、身份信息、联系方式,法人或者其他组织投诉代理人的姓名、身份信息、联系方式、授权委托书;\n(二)被投诉人的基本情况,包括:被投诉的银行保险机构的名称;被投诉的银行业保险业从业人员的相关情况以及其所属机构的名称;\n(三)投诉请求、主要事实和相关依据;(四)投诉人提交书面材料的,应当由投诉人签字或者盖章。\n银行保险机构已经掌握或者通过查询内部信息档案可以获得的材料,不得要求投诉人提供。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 261,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 银行保险机构可以要求投诉人提供以下材料或者信息:\n(一)投诉人的基本情况,包括:自然人或者其法定代理人姓名、身份信息、联系方式;法人或者其他组织的名称、住所、统一社会信用代码,法定代表人或者\n主要负责人的姓名、身份信息、联系方式,法人或者其他组织投诉代理人的姓名、身份信息、联系方式、授权委托书;\n(二)被投诉人的基本情况,包括:被投诉的银行保险机构的名称;被投诉的银行业保险业从业人员的相关情况以及其所属机构的名称;\n(三)投诉请求、主要事实和相关依据;(四)投诉人提交书面材料的,应当由投诉人签字或者盖章。\n银行保险机构已经掌握或者通过查询内部信息档案可以获得的材料,不得要求投诉人提供。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5292,
+    "source_end": 5643,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第十四条 投诉人提出消费投诉确有困难的,银行保险机构应当接受投诉人委托他人代为投诉,除第十三条规定材料或者信息外,可以要求提供经投诉人亲笔\n签名或者盖章的授权委托书原件,受托人身份证明和有效联系方式。\n银行保险机构应当接受消费者继承人提出的消费投诉,除第十三条规定材料或者信息外,可以要求提供继承关系证明。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 142,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 投诉人提出消费投诉确有困难的,银行保险机构应当接受投诉人委托他人代为投诉,除第十三条规定材料或者信息外,可以要求提供经投诉人亲笔\n签名或者盖章的授权委托书原件,受托人身份证明和有效联系方式。\n银行保险机构应当接受消费者继承人提出的消费投诉,除第十三条规定材料或者信息外,可以要求提供继承关系证明。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 85,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第十五条 银行保险机构可以接受投诉人撤回消费投诉。投诉人撤回消费投诉的,消费投诉处理程序自银行保险机构收到撤回申请当日终止。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 58,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 银行保险机构可以接受投诉人撤回消费投诉。投诉人撤回消费投诉的,消费投诉处理程序自银行保险机构收到撤回申请当日终止。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2424,
+    "source_end": 2708,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第十六条 投诉人提出消费投诉,应当客观真实,对所提供材料内容的真实性负责,不得提供虚假信息或者捏造、歪曲事实,不得诬告、陷害他人。\n投诉人在消费投诉过程中应当遵守法律、行政法规和国家有关规定,维护社会公共秩序和消费投诉处理单位的办公经营秩序。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 投诉人提出消费投诉,应当客观真实,对所提供材料内容的真实性负责,不得提供虚假信息或者捏造、歪曲事实,不得诬告、陷害他人。\n投诉人在消费投诉过程中应当遵守法律、行政法规和国家有关规定,维护社会公共秩序和消费投诉处理单位的办公经营秩序。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "公共 (weak)",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5479,
+    "source_end": 5650,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第十七条 银行保险机构应当建立消费投诉处理回避制度,收到消费投诉后,应当指定与被投诉事项无直接利益关系的人员核实消费投诉内容,及时与投诉人\n沟通,积极通过协商方式解决消费纠纷。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 81,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 银行保险机构应当建立消费投诉处理回避制度,收到消费投诉后,应当指定与被投诉事项无直接利益关系的人员核实消费投诉内容,及时与投诉人\n沟通,积极通过协商方式解决消费纠纷。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第十八条 银行保险机构应当依照相关法律法规、合同约定,公平公正作出处理决定,对于事实清楚、争议情况简单的消费投诉,应当自收到消费投诉之日起\n15日内作出处理决定并告知投诉人,情况复杂的可以延长至30日;情况特别复杂或者有其他特殊原因的,经其上级机构或者总行、总公司高级管理人员审批并告\n知投诉人,可以再延长30日。\n消费投诉处理过程中需外部机构进行鉴定、检测、评估等工作的,相关期间可以不计入消费投诉处理期限,但应当及时告知投诉人。\n投诉人在消费投诉处理期限内再次提出同一消费投诉的,银行保险机构可以合并处理,如投诉人提出新的事实和理由,处理期限自收到新的投诉材料之日起\n重新计算。\n在消费投诉处理过程中,发现消费投诉不是由投诉人或者其法定代理人、受托人提出的,银行保险机构可以不予办理,并告知投诉提出人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 315,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 银行保险机构应当依照相关法律法规、合同约定,公平公正作出处理决定,对于事实清楚、争议情况简单的消费投诉,应当自收到消费投诉之日起\n15日内作出处理决定并告知投诉人,情况复杂的可以延长至30日;情况特别复杂或者有其他特殊原因的,经其上级机构或者总行、总公司高级管理人员审批并告\n知投诉人,可以再延长30日。\n消费投诉处理过程中需外部机构进行鉴定、检测、评估等工作的,相关期间可以不计入消费投诉处理期限,但应当及时告知投诉人。\n投诉人在消费投诉处理期限内再次提出同一消费投诉的,银行保险机构可以合并处理,如投诉人提出新的事实和理由,处理期限自收到新的投诉材料之日起\n重新计算。\n在消费投诉处理过程中,发现消费投诉不是由投诉人或者其法定代理人、受托人提出的,银行保险机构可以不予办理,并告知投诉提出人。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "争议"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 26,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第十九条 银行保险机构在告知投诉人处理决定的同时,应当说明对消费投诉内容的核实情况、作出决定的有关依据和理由,以及投诉人可以采取的申请核\n查、调解、仲裁、诉讼等救济途径。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 76,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 银行保险机构在告知投诉人处理决定的同时,应当说明对消费投诉内容的核实情况、作出决定的有关依据和理由,以及投诉人可以采取的申请核\n查、调解、仲裁、诉讼等救济途径。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第二十条 投诉人对银行保险机构分支机构消费投诉处理结果有异议的,可以自收到处理决定之日起30日内向其上级机构书面申请核查。核查机构应当对\n消费投诉处理过程、处理时限和处理结果进行核查,自收到核查申请之日起30日内作出核查决定并告知投诉人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 108,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 投诉人对银行保险机构分支机构消费投诉处理结果有异议的,可以自收到处理决定之日起30日内向其上级机构书面申请核查。核查机构应当对\n消费投诉处理过程、处理时限和处理结果进行核查,自收到核查申请之日起30日内作出核查决定并告知投诉人。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第二十一条 银行保险机构应当依照本办法的规定向投诉人告知相关事项并保留相关证明资料,投诉人无法联系的除外。\n采取书面形式告知的,应当在本办法规定的告知期限内当面递交,或者通过邮寄方式寄出。\n采取短信、电子邮件等可以保存的电子信息形式告知的,应当在本办法规定的告知期限内发出。\n采取电话形式告知的,应当在本办法规定的告知期限内拨打投诉人电话。\n银行保险机构与投诉人对消费投诉处理决定、告知期限、告知方式等事项协商一致的,按照协商确定的内容履行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 202,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 银行保险机构应当依照本办法的规定向投诉人告知相关事项并保留相关证明资料,投诉人无法联系的除外。\n采取书面形式告知的,应当在本办法规定的告知期限内当面递交,或者通过邮寄方式寄出。\n采取短信、电子邮件等可以保存的电子信息形式告知的,应当在本办法规定的告知期限内发出。\n采取电话形式告知的,应当在本办法规定的告知期限内拨打投诉人电话。\n银行保险机构与投诉人对消费投诉处理决定、告知期限、告知方式等事项协商一致的,按照协商确定的内容履行。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2914,
+    "source_end": 3135,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第二十二条 银行保险机构在消费投诉处理工作中,应当核实投诉人身份,保护投诉人信息安全,依法保护国家秘密、商业秘密和个人隐私不受侵犯。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 银行保险机构在消费投诉处理工作中,应当核实投诉人身份,保护投诉人信息安全,依法保护国家秘密、商业秘密和个人隐私不受侵犯。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "信息安全",
+          "安全 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3136,
+    "source_end": 3202,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第二十三条 银行保险机构在消费投诉处理过程中,可以根据需要向投诉人提出通过调解方式解决消费纠纷的建议。投诉人同意调解的,银行保险机构和投\n诉人应当向调解组织提出申请。调解期间不计入消费投诉处理期限。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 92,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 银行保险机构在消费投诉处理过程中,可以根据需要向投诉人提出通过调解方式解决消费纠纷的建议。投诉人同意调解的,银行保险机构和投\n诉人应当向调解组织提出申请。调解期间不计入消费投诉处理期限。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3203,
+    "source_end": 3302,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第三章",
+    "chapter_title": "银行业保险业消费投诉处理",
+    "text_zh": "第二十四条 银行保险机构应当充分运用当地消费纠纷调解处理机制,通过建立临时授权、异地授权、快速审批等机制促进消费纠纷化解。\n第四章 银行业保险业消费投诉处理工作制度",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 75,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 银行保险机构应当充分运用当地消费纠纷调解处理机制,通过建立临时授权、异地授权、快速审批等机制促进消费纠纷化解。\n第四章 银行业保险业消费投诉处理工作制度"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3303,
+    "source_end": 3385,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第四章",
+    "chapter_title": "银行业保险业消费投诉处理工作制度",
+    "text_zh": "第二十五条 银行保险机构应当根据本办法健全本单位消费投诉处理工作制度,明确消费投诉处理流程、责任分工、处理时限等要求。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 54,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 银行保险机构应当根据本办法健全本单位消费投诉处理工作制度,明确消费投诉处理流程、责任分工、处理时限等要求。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3386,
+    "source_end": 3445,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第四章",
+    "chapter_title": "银行业保险业消费投诉处理工作制度",
+    "text_zh": "第二十六条 银行保险机构应当建立消费投诉统计分析、溯源整改、信息披露、责任追究制度,定期开展消费投诉情况分析,及时有效整改问题;通过年报等\n方式对年度消费投诉情况进行披露;对于消费投诉处理中发现的违规行为,要依照相关规定追究直接责任人员和管理人员责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 115,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 银行保险机构应当建立消费投诉统计分析、溯源整改、信息披露、责任追究制度,定期开展消费投诉情况分析,及时有效整改问题;通过年报等\n方式对年度消费投诉情况进行披露;对于消费投诉处理中发现的违规行为,要依照相关规定追究直接责任人员和管理人员责任。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3446,
+    "source_end": 3572,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第四章",
+    "chapter_title": "银行业保险业消费投诉处理工作制度",
+    "text_zh": "第二十七条 银行保险机构应当健全消费投诉处理考核评价制度,综合运用正向激励和负面约束手段,将消费投诉以及处理工作情况纳入各级机构综合绩效\n考核指标体系,并在各级机构高级管理人员、机构负责人和相关部门人员的薪酬分配、职务晋升等方面设定合理考核权重。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 115,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 银行保险机构应当健全消费投诉处理考核评价制度,综合运用正向激励和负面约束手段,将消费投诉以及处理工作情况纳入各级机构综合绩效\n考核指标体系,并在各级机构高级管理人员、机构负责人和相关部门人员的薪酬分配、职务晋升等方面设定合理考核权重。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_administration",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "机构负责人"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "薪酬"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3573,
+    "source_end": 3696,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第四章",
+    "chapter_title": "银行业保险业消费投诉处理工作制度",
+    "text_zh": "第二十八条\n银行保险机构应当建立消费投诉处理登记制度和档案管理制度。消费投诉登记记录、处理意见等书面资料或者信息档案应当存档备查,法\n律、行政法规对保存期限有规定的,依照其规定执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条\n银行保险机构应当建立消费投诉处理登记制度和档案管理制度。消费投诉登记记录、处理意见等书面资料或者信息档案应当存档备查,法\n律、行政法规对保存期限有规定的,依照其规定执行。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance",
+      "records_management"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 4.5,
+        "matched_keywords": [
+          "档案管理"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3697,
+    "source_end": 3788,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第四章",
+    "chapter_title": "银行业保险业消费投诉处理工作制度",
+    "text_zh": "第二十九条 银行保险机构应当依照国家有关规定制定重大消费投诉处理应急预案,做好重大消费投诉的预防、报告和应急处理工作。\n重大消费投诉包括以下情形:(一)因重大自然灾害、安全事故、公共卫生事件等引发的消费投诉;\n(二)20名以上投诉人采取面谈方式提出共同消费投诉的群体性投诉;\n(三)中国银保监会及其派出机构(以下统称“银行保险监督管理机构”)认定的其他重大消费投诉。\n第五章 监督管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 165,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 银行保险机构应当依照国家有关规定制定重大消费投诉处理应急预案,做好重大消费投诉的预防、报告和应急处理工作。\n重大消费投诉包括以下情形:(一)因重大自然灾害、安全事故、公共卫生事件等引发的消费投诉;\n(二)20名以上投诉人采取面谈方式提出共同消费投诉的群体性投诉;\n(三)中国银保监会及其派出机构(以下统称“银行保险监督管理机构”)认定的其他重大消费投诉。\n第五章 监督管理"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3789,
+    "source_end": 3981,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十条 银行保险监督管理机构应当明确银行保险机构消费投诉处理工作的监督管理部门。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 银行保险监督管理机构应当明确银行保险机构消费投诉处理工作的监督管理部门。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2451,
+    "source_end": 2708,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十一条 银行保险监督管理机构设立消费投诉转办服务渠道,方便投诉人反映与银行保险机构的消费纠纷。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 46,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 银行保险监督管理机构设立消费投诉转办服务渠道,方便投诉人反映与银行保险机构的消费纠纷。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4024,
+    "source_end": 4073,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十二条 投诉人反映与银行保险机构的消费纠纷,同时提出应当由银行保险监督管理机构负责处理的其他事项的,依照有关规定处理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 57,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 投诉人反映与银行保险机构的消费纠纷,同时提出应当由银行保险监督管理机构负责处理的其他事项的,依照有关规定处理。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4074,
+    "source_end": 4135,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十三条 银行保险监督管理机构的消费投诉处理监督管理部门应当自收到辖区内消费投诉之日起7个工作日内,将消费投诉转送被投诉银行保险机构并\n告知投诉人,投诉人无法联系的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 80,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 银行保险监督管理机构的消费投诉处理监督管理部门应当自收到辖区内消费投诉之日起7个工作日内,将消费投诉转送被投诉银行保险机构并\n告知投诉人,投诉人无法联系的除外。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4136,
+    "source_end": 4222,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十四条 银行保险监督管理机构应当对银行保险机构消费投诉处理情况进行监督检查。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 38,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 银行保险监督管理机构应当对银行保险机构消费投诉处理情况进行监督检查。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4223,
+    "source_end": 4263,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十五条 银行保险机构应当按照银行保险监督管理机构的要求,报告本单位消费投诉处理工作相关制度、消费投诉管理工作责任人名单,以及上述事项\n的变动情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 69,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 银行保险机构应当按照银行保险监督管理机构的要求,报告本单位消费投诉处理工作相关制度、消费投诉管理工作责任人名单,以及上述事项\n的变动情况。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4264,
+    "source_end": 4339,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十六条 银行保险机构应当按照银行保险监督管理机构的要求,报告本单位消费投诉数据、消费投诉处理工作情况,并对报送的数据、文件、资料的真\n实性、完整性、准确性负责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 72,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 银行保险机构应当按照银行保险监督管理机构的要求,报告本单位消费投诉数据、消费投诉处理工作情况,并对报送的数据、文件、资料的真\n实性、完整性、准确性负责。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4340,
+    "source_end": 4422,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十七条 银行保险监督管理机构应当定期将转送银行保险机构的消费投诉情况进行通报和对外披露,督促银行保险机构做好消费者权益保护工作。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 63,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 银行保险监督管理机构应当定期将转送银行保险机构的消费投诉情况进行通报和对外披露,督促银行保险机构做好消费者权益保护工作。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 4.5,
+        "matched_keywords": [
+          "消费者权益",
+          "消费者 (weak)",
+          "权益 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4423,
+    "source_end": 4489,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十八条 银行保险监督管理机构应当将银行保险机构消费投诉处理工作情况纳入年度消费者权益保护监管评价。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 49,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条 银行保险监督管理机构应当将银行保险机构消费投诉处理工作情况纳入年度消费者权益保护监管评价。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 4.5,
+        "matched_keywords": [
+          "消费者权益",
+          "消费者 (weak)",
+          "权益 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4490,
+    "source_end": 4541,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十九条\n银行保险监督管理机构要加强对银行业保险业消费纠纷调解组织建设的指导,推动建立行业调解规则和标准,促进行业调解组织各项工作健\n康、规范、有序开展。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 71,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条\n银行保险监督管理机构要加强对银行业保险业消费纠纷调解组织建设的指导,推动建立行业调解规则和标准,促进行业调解组织各项工作健\n\n康、规范、有序开展。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4542,
+    "source_end": 4621,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第四十条 银行保险机构在处理消费投诉中有下列情形之一的,银行保险监督管理机构可以提出整改要求,并监督其限期整改:\n(一)未按照本办法第八条规定公布消费投诉处理相关信息的;\n(二)未按照本办法规定程序办理消费投诉并告知的;\n(三)无正当理由拒绝配合调解工作或者履行调解协议的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 121,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条 银行保险机构在处理消费投诉中有下列情形之一的,银行保险监督管理机构可以提出整改要求,并监督其限期整改:\n(一)未按照本办法第八条规定公布消费投诉处理相关信息的;\n(二)未按照本办法规定程序办理消费投诉并告知的;\n(三)无正当理由拒绝配合调解工作或者履行调解协议的。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4622,
+    "source_end": 4759,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_041",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第四十一条 银行保险机构违反本办法规定,有下列情形之一的,银行保险监督管理机构应当责令限期改正;逾期未改正的,区别情形,银行保险监督管理机构\n可以进行监督管理谈话,并对银行业金融机构依照《中华人民共和国银行业监督管理法》采取暂停相关业务、责令调整高级管理人员、停止批准增设分支机\n构以及行政处罚等措施,对保险机构、保险中介机构依照《中华人民共和国保险法》采取罚款、限制其业务范围、责令停止接受新业务等措施,对银行保险监\n督管理机构负责监管的其他主体依照相关法律法规采取相应措施。\n(一)未按照本办法规定建立并实施消费投诉处理相关制度的;\n(二)未按照本办法规定报告消费投诉处理工作有关情况的;\n(三)违反本办法第四十条规定并未按照要求整改的;\n(四)其他违反本办法规定,造成严重后果的。\n第六章 附 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 309,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十一条 银行保险机构违反本办法规定,有下列情形之一的,银行保险监督管理机构应当责令限期改正;逾期未改正的,区别情形,银行保险监督管理机构\n可以进行监督管理谈话,并对银行业金融机构依照《中华人民共和国银行业监督管理法》采取暂停相关业务、责令调整高级管理人员、停止批准增设分支机\n构以及行政处罚等措施,对保险机构、保险中介机构依照《中华人民共和国保险法》采取罚款、限制其业务范围、责令停止接受新业务等措施,对银行保险监\n督管理机构负责监管的其他主体依照相关法律法规采取相应措施。\n(一)未按照本办法规定建立并实施消费投诉处理相关制度的;\n(二)未按照本办法规定报告消费投诉处理工作有关情况的;\n(三)违反本办法第四十条规定并未按照要求整改的;\n(四)其他违反本办法规定,造成严重后果的。\n第六章 附 则"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 30.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4760,
+    "source_end": 5111,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_042",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "",
+    "chunk_index": 41,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十二条 本办法所称银行保险机构包括银行业金融机构、保险机构、保险中介机构以及银行保险监督管理机构负责监管的其他主体。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 56,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十二条 本办法所称银行保险机构包括银行业金融机构、保险机构、保险中介机构以及银行保险监督管理机构负责监管的其他主体。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 21.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5112,
+    "source_end": 5172,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_043",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "",
+    "chunk_index": 42,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十三条 本办法所称的“以内”“以上”均包含本数。\n本办法中除“7个工作日”以外的“日”均为自然日。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 38,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十三条 本办法所称的“以内”“以上”均包含本数。\n本办法中除“7个工作日”以外的“日”均为自然日。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5173,
+    "source_end": 5224,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_044",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "44",
+    "article_number_normalized": "044",
+    "article_title": "",
+    "chunk_index": 43,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十四条 本办法由中国银保监会负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 19,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十四条 本办法由中国银保监会负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5225,
+    "source_end": 5246,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_3_2020_ART_045",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_3_2020",
+    "law_name": "银行业保险业消费投诉处理管理办法",
+    "law_name_original": "银行业保险业消费投诉处理管理办法",
+    "law_type": "规章/法规",
+    "article_number": "45",
+    "article_number_normalized": "045",
+    "article_title": "",
+    "chunk_index": 44,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十五条 本办法自2020年3月1日起施行,原《保险消费投诉处理管理办法》(保监会令2013年第8号)和《中国银监会办公厅关于印发银监会机关银行业\n消费者投诉处理规程的通知》(银监办发〔2018〕13号)同时废止。原中国银监会、原中国保监会发布的规定与本办法不一致的,以本办法为准。\n中国银保监会发布《银行业保险业消费投诉处理管理办法》\n中国银保监会有关负责人就《银行业保险业消费投诉处理管理办法》答记者问\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "http://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886161&itemId=915&generaltype=0\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=966097&itemId=915&generaltype=0",
+    "text_original_language": "zh-en",
+    "word_count_zh": 173,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十五条 本办法自2020年3月1日起施行,原《保险消费投诉处理管理办法》(保监会令2013年第8号)和《中国银监会办公厅关于印发银监会机关银行业\n消费者投诉处理规程的通知》(银监办发〔2018〕13号)同时废止。原中国银监会、原中国保监会发布的规定与本办法不一致的,以本办法为准。\n中国银保监会发布《银行业保险业消费投诉处理管理办法》\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886161&itemId=915&generaltype=0\n中国银保监会有关负责人就《银行业保险业消费投诉处理管理办法》答记者问\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=966097&itemId=915&generaltype=0\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2020-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=886173&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_086.txt",
+    "sample_id": "CN_086",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_086",
+    "raw_sha256": "89626e69ad7486d4228883722dda1974a20bcb961cfaf28cf9910d4628ec7b83",
+    "extracted_text_sha256": "43f693bb1eb571d156535ed2b466cfb4b55b004564235ecf0d28cdae43b129df",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5247,
+    "source_end": 5643,
+    "language_original": [
+      "zh",
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:38Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

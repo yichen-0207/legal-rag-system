@@ -1,0 +1,3262 @@
+[
+  {
+    "doc_id": "KR_DEC_26728_ART_001",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "(Purpose)",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The purpose of this Decree is to prescribe matters mandated by the Act on the Promotion of Information Security Industry and matters necessary for the enforcement thereof.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The purpose of this Decree is to prescribe matters mandated by the Act on the Promotion of Information Security Industry and matters necessary for the enforcement thereof."
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.75,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 410,
+    "source_end": 631,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_002",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "(Scope of public institutions)",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "\"Corporations, organizations and institutions prescribed by Presidential Decree\" in Article 2 (1) 5 (d) of the Act on the Promotion of Information Security Industry (hereinafter referred to as the \"Act\") means schools prescribed in Article 2 of the Elementary and Secondary Education Act ; schools prescribed in Article 2 of the Higher Education Act ; or schools founded or established pursuant to other statutes.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "\"Corporations, organizations and institutions prescribed by Presidential Decree\" in Article 2 (1) 5 (d) of the Act on the Promotion of Information Security Industry (hereinafter referred to as the \"Act\") means schools prescribed in Article 2 of the Elementary and Secondary Education Act ; schools prescribed in Article 2 of the Higher Education Act ; or schools founded or established pursuant to other statutes."
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.75,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.75,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 602,
+    "source_end": 1065,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_004",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 4 (Submission of information on purchase demand)\nThe head of an administrative agency or public institution referred to in subparagraph 2 of Article 2 of the Electronic Government Act (hereinafter referred to as \"public institution, etc.\") shall annually submit information on purchase demand (hereinafter referred to as \"information on purchase demand\") for information security technology, information security products, and information security services (hereinafter referred to as \"information security technology, etc.\") provided by information security enterprises to the Minister of Science and ICT, by the deadlines classified as follows, pursuant to Article 6 (1) of the Act: <Amended on Jul. 26, 2017>\nInformation on purchase demand of the relevant year: March 31;\nInformation on purchase demand of the following year: October 31.\nThe Minister of Science and ICT shall convene meetings of a deliberative committee under Article 6 (3) of the Act within 30 days from the deadlines prescribed in paragraph (1) 1 and 2. In such cases, the period of deliberation shall not exceed 15 days. <Amended on Jul. 26, 2017>\nThe Minister of Science and ICT may construct and operate a purchase demand information system on information security technology, etc. provided by information security enterprises in order to efficiently conduct affairs related to submitting and providing information on purchase demand under Article 6 (1) and (2) of the Act. <Amended on Jul. 26, 2017>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 4 (Submission of information on purchase demand)\nThe head of an administrative agency or public institution referred to in subparagraph 2 of Article 2 of the Electronic Government Act (hereinafter referred to as \"public institution, etc.\") shall annually submit information on purchase demand (hereinafter referred to as \"information on purchase demand\") for information security technology, information security products, and information security services (hereinafter referred to as \"information security technology, etc.\") provided by information security enterprises to the Minister of Science and ICT, by the deadlines classified as follows, pursuant to Article 6 (1) of the Act: <Amended on Jul. 26, 2017>\nInformation on purchase demand of the relevant year: March 31;\nInformation on purchase demand of the following year: October 31.\nThe Minister of Science and ICT shall convene meetings of a deliberative committee under Article 6 (3) of the Act within 30 days from the deadlines prescribed in paragraph (1) 1 and 2. In such cases, the period of deliberation shall not exceed 15 days. <Amended on Jul. 26, 2017>\nThe Minister of Science and ICT may construct and operate a purchase demand information system on information security technology, etc. provided by information security enterprises in order to efficiently conduct affairs related to submitting and providing information on purchase demand under Article 6 (1) and (2) of the Act. <Amended on Jul. 26, 2017>"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 13.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "meetings",
+          "committee (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1941,
+    "source_end": 3474,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_005",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 5 (Payment of reasonable prices for information security products and information security services)\nThe Minister of Science and ICT shall formulate standards for calculating reasonable prices for information security products and information security services for developing the information security industry and the quality assurance of information security products and information security services. <Amended on Jul. 26, 2017>\nThe Minister of Science and ICT may disclose the outcomes of investigations conducted through public-private partnership monitoring pursuant to Article 10 (2) of the Act on a quarterly basis via the website, etc. of the Ministry of Science and ICT. <Amended on Jul. 26, 2017>\nWhere the Minister of Science and ICT intends to request the heads of public institutions to submit data pursuant to Article 10 (5) of the Act, he or she shall pre-notify them of the following matters in writing: <Amended on Jul. 26, 2017>\nGrounds for requesting submission;\nDeadline for submission;\nSpecific matters of data to be submitted;\nMeans for and types of data to be submitted;\nMethods of utilizing data to be submitted.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 5 (Payment of reasonable prices for information security products and information security services)\nThe Minister of Science and ICT shall formulate standards for calculating reasonable prices for information security products and information security services for developing the information security industry and the quality assurance of information security products and information security services. <Amended on Jul. 26, 2017>\nThe Minister of Science and ICT may disclose the outcomes of investigations conducted through public-private partnership monitoring pursuant to Article 10 (2) of the Act on a quarterly basis via the website, etc. of the Ministry of Science and ICT. <Amended on Jul. 26, 2017>\nWhere the Minister of Science and ICT intends to request the heads of public institutions to submit data pursuant to Article 10 (5) of the Act, he or she shall pre-notify them of the following matters in writing: <Amended on Jul. 26, 2017>\nGrounds for requesting submission;\nDeadline for submission;\nSpecific matters of data to be submitted;\nMeans for and types of data to be submitted;\nMethods of utilizing data to be submitted."
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "financial_services",
+      "legal_definitions",
+      "quality_management"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 13.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "payment"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 4.5,
+        "matched_keywords": [
+          "quality assurance",
+          "quality (weak)",
+          "assurance (weak)",
+          "standards (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 123,
+    "source_end": 1317,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_007",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 7 (Requesting agency for evaluating level of information security preparedness to provide data)\nThe Minister of Science and ICT may verify the following matters on an agency for evaluating the level of information security preparedness to provide support under Article 12 (3) and (4) of the Act: <Amended on Jul. 26, 2017>\nWhether the agency for evaluating the level of information security preparedness continues to meet the requirements for registration under Appendix 1;\nPerformance in its evaluation of the level of information security preparedness;\nResults of evaluating enterprises that have undergone the evaluation of the level of information security preparedness.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 7 (Requesting agency for evaluating level of information security preparedness to provide data)\nThe Minister of Science and ICT may verify the following matters on an agency for evaluating the level of information security preparedness to provide support under Article 12 (3) and (4) of the Act: <Amended on Jul. 26, 2017>\nWhether the agency for evaluating the level of information security preparedness continues to meet the requirements for registration under Appendix 1;\nPerformance in its evaluation of the level of information security preparedness;\nResults of evaluating enterprises that have undergone the evaluation of the level of information security preparedness."
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 10.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 106,
+    "source_end": 838,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_008",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "(Information security disclosure)",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "\"Person ··· who meets the standards prescribed by Presidential Decree\" in the main clause of Article 13 (2) of the Act means any of the following persons who provides information or intermediates the provision thereof through an information and communications network (hereinafter referred to as \"person with information security disclosure obligations\"): <Added on Dec. 9, 2021>\nAny of the following persons:\n(a)A person who conducts business possessing line equipment provided in Article 11 of the Enforcement Decree of the Telecommunications Business Act , among facilities-based telecommunications business entities who file for registration of their business under Article 6 (1) of that Act;\n(b)A data center operator under Article 46 (1) of the Act on Promotion of Information and Communications Network Utilization and Information Protection ;\n(c)A tertiary hospital under Article 3-4 (1) of the Medical Service Act ;\n(d)A person who provides cloud computing services pursuant to subparagraph 1 of Article 3 of the Enforcement Decree of the Act on the Development of Cloud Computing and Protection of Its Users ;\nA person who is required to designate a chief information security officer and to report such designation to the Minister of Science of ICT under the main clause of Article 45-3 (1) of the Act on Promotion of Information and Communications Network Utilization and Information Protection and whose sales for the immediately preceding business year amount to at least 300 billion won, among corporations which issue stock certificates listed on a marketable securities market (referring to a marketable securities market under Article 176-9 (1) of the Enforcement Decree of the Financial Investment Services and Capital Markets Act ) or on the KOSDAQ market (referring to the KOSDAQ market under Article 8 of the Addenda to the Enforcement Decree of the Financial Investment Services and Capital Markets Act (Presidential Decree No. 24697));\nA person in whose case the average number of daily users of information and communications services provided in the Act on Promotion of Information and Communications Network Utilization and Information Protection (hereinafter referred to as \"information and communications services\") during three months immediately before the end of the preceding year is at least one million.\nNotwithstanding paragraph (1), any of the following persons shall be excluded from persons with information security disclosure obligations: <Added on Dec. 9, 2021; Oct. 1, 2025>\nA public institution;\nA small enterprise under Article 8 (1) of the Enforcement Decree of the Framework Act on Small and Medium Enterprises , among those falling under paragraph (1) 1 or 3;\nA financial company under the Electronic Financial Transactions Act ;\nAn electronic financial business entity under the Electronic Financial Transactions Act which does not engage in, as its main business, the information and communications business or the wholesale or retail business as specified in the Korean Standard Industrial Classification publicly notified by the Minister of Data and Statistics under Article 22 (1) of the Statistics Act .\nWhere a person who provides information or intermediates the provision thereof through an information and communications network discloses information security pursuant to Article 13 (1) or (2) of the Act, he or she shall include the following in the details thereof: <Amended on Dec. 9, 2021>\nStatus of investment in the information security field in comparison with the current status of investment in the information technology field;\nStatus of human resources exclusively in charge of the information security field in comparison with the current status of human resources in the information technology field;\nMatters concerning certification, evaluation, examination, etc. related to information security (limited to applicable cases);\nStatus of other activities for information security performed by persons who use information and communications services.\nWhere information security is disclosed pursuant to Article 13 (1) or (2) of the Act, the chief information security officer of the business entity subject to disclosure shall preside over the process and obtain confirmation from the chief executive officer on the details of such disclosure beforehand. <Amended on Dec. 9, 2021>\nThe Minister of Science and ICT may establish and operate an electronic disclosure system (hereafter in this Article referred to as \"electronic disclosure system\") to ensure effective disclosure of information security under Article 13 (1) or (2) of the Act. <Amended on Jul. 26, 2017; Dec. 9, 2021>\nA person who intends to disclose information security under Article 13 (1) or (2) of the Act shall enter the current status of information security into the electronic disclosure system no later than June 30 every year. <Added on Dec. 9, 2021>\nExcept as provided in paragraphs (1) through (6), matters regarding preparation standards, methods and procedures for disclosing information security shall be determined and publicly notified by the Minister of Science and ICT. <Added on Apr. 2, 2019; Dec. 9, 2021>\n[Title Amended on Dec. 9, 2021]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "\"Person ··· who meets the standards prescribed by Presidential Decree\" in the main clause of Article 13 (2) of the Act means any of the following persons who provides information or intermediates the provision thereof through an information and communications network (hereinafter referred to as \"person with information security disclosure obligations\"): <Added on Dec. 9, 2021>\nAny of the following persons:\n(a)A person who conducts business possessing line equipment provided in Article 11 of the Enforcement Decree of the Telecommunications Business Act , among facilities-based telecommunications business entities who file for registration of their business under Article 6 (1) of that Act;\n(b)A data center operator under Article 46 (1) of the Act on Promotion of Information and Communications Network Utilization and Information Protection ;\n(c)A tertiary hospital under Article 3-4 (1) of the Medical Service Act ;\n(d)A person who provides cloud computing services pursuant to subparagraph 1 of Article 3 of the Enforcement Decree of the Act on the Development of Cloud Computing and Protection of Its Users ;\nA person who is required to designate a chief information security officer and to report such designation to the Minister of Science of ICT under the main clause of Article 45-3 (1) of the Act on Promotion of Information and Communications Network Utilization and Information Protection and whose sales for the immediately preceding business year amount to at least 300 billion won, among corporations which issue stock certificates listed on a marketable securities market (referring to a marketable securities market under Article 176-9 (1) of the Enforcement Decree of the Financial Investment Services and Capital Markets Act ) or on the KOSDAQ market (referring to the KOSDAQ market under Article 8 of the Addenda to the Enforcement Decree of the Financial Investment Services and Capital Markets Act (Presidential Decree No. 24697));\nA person in whose case the average number of daily users of information and communications services provided in the Act on Promotion of Information and Communications Network Utilization and Information Protection (hereinafter referred to as \"information and communications services\") during three months immediately before the end of the preceding year is at least one million.\nNotwithstanding paragraph (1), any of the following persons shall be excluded from persons with information security disclosure obligations: <Added on Dec. 9, 2021; Oct. 1, 2025>\nA public institution;\nA small enterprise under Article 8 (1) of the Enforcement Decree of the Framework Act on Small and Medium Enterprises , among those falling under paragraph (1) 1 or 3;\nA financial company under the Electronic Financial Transactions Act ;\nAn electronic financial business entity under the Electronic Financial Transactions Act which does not engage in, as its main business, the information and communications business or the wholesale or retail business as specified in the Korean Standard Industrial Classification publicly notified by the Minister of Data and Statistics under Article 22 (1) of the Statistics Act .\nWhere a person who provides information or intermediates the provision thereof through an information and communications network discloses information security pursuant to Article 13 (1) or (2) of the Act, he or she shall include the following in the details thereof: <Amended on Dec. 9, 2021>\nStatus of investment in the information security field in comparison with the current status of investment in the information technology field;\nStatus of human resources exclusively in charge of the information security field in comparison with the current status of human resources in the information technology field;\nMatters concerning certification, evaluation, examination, etc. related to information security (limited to applicable cases);\nStatus of other activities for information security performed by persons who use information and communications services.\nWhere information security is disclosed pursuant to Article 13 (1) or (2) of the Act, the chief information security officer of the business entity subject to disclosure shall preside over the process and obtain confirmation from the chief executive officer on the details of such disclosure beforehand. <Amended on Dec. 9, 2021>\nThe Minister of Science and ICT may establish and operate an electronic disclosure system (hereafter in this Article referred to as \"electronic disclosure system\") to ensure effective disclosure of information security under Article 13 (1) or (2) of the Act. <Amended on Jul. 26, 2017; Dec. 9, 2021>\nA person who intends to disclose information security under Article 13 (1) or (2) of the Act shall enter the current status of information security into the electronic disclosure system no later than June 30 every year. <Added on Dec. 9, 2021>\nExcept as provided in paragraphs (1) through (6), matters regarding preparation standards, methods and procedures for disclosing information security shall be determined and publicly notified by the Minister of Science and ICT. <Added on Apr. 2, 2019; Dec. 9, 2021>\n[Title Amended on Dec. 9, 2021]"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "financial_services",
+      "telecommunications",
+      "corporate_governance",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 29.0,
+        "matched_keywords": [
+          "information security (title, +5)",
+          "information security"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "securities",
+          "capital markets"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "company"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9229,
+    "source_end": 14471,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_009",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 9 (Implementation of projects for standardization)\nThe Minister of Science and ICT may conduct the following affairs to revitalize the trade of information security technology and to ensure compatibility among information security products pursuant to Article 14 (4) of the Act. In such cases, he or she shall consult with the heads of related agencies about matters related to national security, such as ciphers or codes: <Amended on Jul. 26, 2017>\nResearch on the demand for standards and formulating strategies for standards for domestic group standards and national standards related to information security technology, etc.;\nOrganizing and operating a committee in the Republic of Korea for developing and deliberating on international standards related to Information security technology, etc.;\nResearch on the trends of international standards related to information security technology, etc. and supporting the activities of domestic professionals related thereto;\nProviding support for the confirmation of conformity to, application or utilization of standards related to information security technology, etc.;\nAdvertising on standards related to information security technology, etc.;\nEducation, etc. to nurture domestic and international professionals in standards related to information security technology, etc.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 9 (Implementation of projects for standardization)\nThe Minister of Science and ICT may conduct the following affairs to revitalize the trade of information security technology and to ensure compatibility among information security products pursuant to Article 14 (4) of the Act. In such cases, he or she shall consult with the heads of related agencies about matters related to national security, such as ciphers or codes: <Amended on Jul. 26, 2017>\nResearch on the demand for standards and formulating strategies for standards for domestic group standards and national standards related to information security technology, etc.;\nOrganizing and operating a committee in the Republic of Korea for developing and deliberating on international standards related to Information security technology, etc.;\nResearch on the trends of international standards related to information security technology, etc. and supporting the activities of domestic professionals related thereto;\nProviding support for the confirmation of conformity to, application or utilization of standards related to information security technology, etc.;\nAdvertising on standards related to information security technology, etc.;\nEducation, etc. to nurture domestic and international professionals in standards related to information security technology, etc."
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 15.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "national security",
+          "national security (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 206,
+    "source_end": 1588,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_010",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 10 (Performance assessment methods and designation of performance assessment agency)\nAn assessment of the performance of an information security product under Article 17 (1) of the Act (hereinafter referred to as \"performance assessment\") shall include the following:\nThe processing performance of security functions of the information security product;\nWhether the information security product realizes key functions related to information security other than its security functions;\nThe processing performance of general functions other than information security functions when operating the information security product;\nEfficiency of the information security product in terms of time and resources.\nThe Minister of Science and ICT may designate the following institutions or organizations as an assessment agency under Article 17 (2) of the Act (hereinafter referred to as \"performance assessment agency\"): <Amended on Jul. 26, 2017>\nThe Korea Internet and Security Agency (hereinafter referred to as the \"Korea Internet and Security Agency\") established under Article 52 of the Act on Promotion of Information and Communications Network Utilization and Information Protection ;\nCorporations fully meeting the following requirements:\n(a)Organizational structure and human resources to assess performance;\n(b)Space for office work and testing, to assess performance;\n(c)Facilities to assess performance;\n(d)Procedures for operation to assess information security products subject to performance assessment.\nAny person who intends to undergo performance assessment pursuant to Article 17 (3) of the Act shall submit an application for performance assessment, products subject to performance assessment, and the following data, to a performance assessment agency:\nA product manual;A user guide;\nOther data necessary for performance assessment.\nExcept as provided in paragraphs (1) through (3), the Minister of Science and ICT shall prescribe and publicly notify necessary matters concerning methods and procedures for performance assessment, designation of a performance assessment agency, etc. <Amended on Jul. 26, 2017>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 10 (Performance assessment methods and designation of performance assessment agency)\nAn assessment of the performance of an information security product under Article 17 (1) of the Act (hereinafter referred to as \"performance assessment\") shall include the following:\nThe processing performance of security functions of the information security product;\nWhether the information security product realizes key functions related to information security other than its security functions;\nThe processing performance of general functions other than information security functions when operating the information security product;\nEfficiency of the information security product in terms of time and resources.\nThe Minister of Science and ICT may designate the following institutions or organizations as an assessment agency under Article 17 (2) of the Act (hereinafter referred to as \"performance assessment agency\"): <Amended on Jul. 26, 2017>\nThe Korea Internet and Security Agency (hereinafter referred to as the \"Korea Internet and Security Agency\") established under Article 52 of the Act on Promotion of Information and Communications Network Utilization and Information Protection ;\nCorporations fully meeting the following requirements:\n(a)Organizational structure and human resources to assess performance;\n(b)Space for office work and testing, to assess performance;\n(c)Facilities to assess performance;\n(d)Procedures for operation to assess information security products subject to performance assessment.\nAny person who intends to undergo performance assessment pursuant to Article 17 (3) of the Act shall submit an application for performance assessment, products subject to performance assessment, and the following data, to a performance assessment agency:\nA product manual;A user guide;\nOther data necessary for performance assessment.\nExcept as provided in paragraphs (1) through (3), the Minister of Science and ICT shall prescribe and publicly notify necessary matters concerning methods and procedures for performance assessment, designation of a performance assessment agency, etc. <Amended on Jul. 26, 2017>"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 15.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 163,
+    "source_end": 2343,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_011",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 11 (Information security technology eligible for designation as excellent information security technology)\nThe Minister of Science and ICT may designate any of the following information security technology, etc. as excellent information security technology, etc. pursuant to Article 18 (1) of the Act: <Amended on Jul. 26, 2017>\nInformation security technology, etc. deemed new, creative and commercializable, which has been developed in the Republic of Korea;\nInformation security technology, etc. deemed new, creative and commercializable in the Republic of Korea, which was imported from a foreign country and has been improved.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 11 (Information security technology eligible for designation as excellent information security technology)\nThe Minister of Science and ICT may designate any of the following information security technology, etc. as excellent information security technology, etc. pursuant to Article 18 (1) of the Act: <Amended on Jul. 26, 2017>\nInformation security technology, etc. deemed new, creative and commercializable, which has been developed in the Republic of Korea;\nInformation security technology, etc. deemed new, creative and commercializable in the Republic of Korea, which was imported from a foreign country and has been improved."
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 12.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9755,
+    "source_end": 10444,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_012",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 12 (Methods of designation of excellent information security technology)\nAny person who intends to apply for designation as excellent information security technology, etc. under Article 18 (1) of the Act shall submit an application for designation prescribed by Decree of the Ministry of Science and ICT to the Minister of Science and ICT along with the following documents: <Amended on Jul. 26, 2017>\nName and development background of information security technology, etc.;\nDetails of information security technology, etc. (including the outline of information security technology, etc. and specific explanation of matters falling under the subparagraphs of Article 11) ;\nName of the person who has developed or improved information security technology, etc. (where the person is a corporation, referring to the name of the corporation and the name of the representative thereof);\nLevel of contribution to revitalizing the information security industry both domestically and internationally;\nOutcomes of performance assessment, and other matters related to the findings of evaluation, testing and certification of information security technology, etc.\nThe Minister of Science and ICT shall notify a person who applied for designation as excellent information security technology, etc. as to whether the designation as excellent information security technology, etc., is made within 90 days from the date he or she received the relevant application under paragraph (1). In such cases, he or she shall issue a written designation prescribed by Decree of the Ministry of Science and ICT to a person who obtains designation as excellent information security technology, etc. <Amended on Jul. 26, 2017>\nWhere the Minister of Science and ICT designates excellent information security technology, etc., he or she may hear opinions of interested parties or opinions of institutions, organization, etc. related to excellent information security technology, etc. <Amended on Jul. 26, 2017>\nExcept as provided in paragraphs (1) through (3), the Minister of Science and ICT shall prescribe and publicly notify necessary matters concerning specific methods, etc. for designation of excellent information security technology, etc. <Amended on Jul. 26, 2017>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 12 (Methods of designation of excellent information security technology)\nAny person who intends to apply for designation as excellent information security technology, etc. under Article 18 (1) of the Act shall submit an application for designation prescribed by Decree of the Ministry of Science and ICT to the Minister of Science and ICT along with the following documents: <Amended on Jul. 26, 2017>\nName and development background of information security technology, etc.;\nDetails of information security technology, etc. (including the outline of information security technology, etc. and specific explanation of matters falling under the subparagraphs of Article 11) ;\nName of the person who has developed or improved information security technology, etc. (where the person is a corporation, referring to the name of the corporation and the name of the representative thereof);\nLevel of contribution to revitalizing the information security industry both domestically and internationally;\nOutcomes of performance assessment, and other matters related to the findings of evaluation, testing and certification of information security technology, etc.\nThe Minister of Science and ICT shall notify a person who applied for designation as excellent information security technology, etc. as to whether the designation as excellent information security technology, etc., is made within 90 days from the date he or she received the relevant application under paragraph (1). In such cases, he or she shall issue a written designation prescribed by Decree of the Ministry of Science and ICT to a person who obtains designation as excellent information security technology, etc. <Amended on Jul. 26, 2017>\nWhere the Minister of Science and ICT designates excellent information security technology, etc., he or she may hear opinions of interested parties or opinions of institutions, organization, etc. related to excellent information security technology, etc. <Amended on Jul. 26, 2017>\nExcept as provided in paragraphs (1) through (3), the Minister of Science and ICT shall prescribe and publicly notify necessary matters concerning specific methods, etc. for designation of excellent information security technology, etc. <Amended on Jul. 26, 2017>"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 24.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4820,
+    "source_end": 7123,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_013",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 13 (Details of support for excellent information security technology)\nThe Minister of Science and ICT may provide the following support to a person who has obtained designation as excellent information security technology, etc. pursuant to Article 18 (1) of the Act: <Amended on Jul. 26, 2017>\nSupport for providing prototypes and commercialization;\nSupport for startup and advertising;\nSupport for new market opening and exportation.\nThe Minister of Science and ICT shall prescribe and publicly notify necessary matters concerning procedures and methods for providing support and the details of support for excellent information security technology, etc. under paragraph (1). <Amended on Jul. 26, 2017>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 13 (Details of support for excellent information security technology)\nThe Minister of Science and ICT may provide the following support to a person who has obtained designation as excellent information security technology, etc. pursuant to Article 18 (1) of the Act: <Amended on Jul. 26, 2017>\nSupport for providing prototypes and commercialization;\nSupport for startup and advertising;\nSupport for new market opening and exportation.\nThe Minister of Science and ICT shall prescribe and publicly notify necessary matters concerning procedures and methods for providing support and the details of support for excellent information security technology, etc. under paragraph (1). <Amended on Jul. 26, 2017>"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 7.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9366,
+    "source_end": 10127,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_014",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 14 (Support for excellent information security enterprises)\n\"Matters prescribed by Presidential Decree\" in Article 19 (2) 4 of the Act means the following matters:\nProviding support for international cooperation under Article 16 of the Act;\nSubsidizing expenses incurred in assessing performance;\nProviding support for exportation under Article 21 of the Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 14 (Support for excellent information security enterprises)\n\"Matters prescribed by Presidential Decree\" in Article 19 (2) 4 of the Act means the following matters:\nProviding support for international cooperation under Article 16 of the Act;\nSubsidizing expenses incurred in assessing performance;\nProviding support for exportation under Article 21 of the Act."
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14726,
+    "source_end": 15143,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_015",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 15 (Methods of designation of exemplary information security enterprises)\nAny person who intends to apply for designation as an exemplary information security enterprise pursuant to Article 19 of the Act shall submit an application for designation prescribed by Decree of the Ministry of Science and ICT to the Minister of Science and ICT along with the following documents: <Amended on Jul. 26, 2017>\nData on the achievements that contributed to promoting the information security industry, such as developing and commercializing excellent information security technology, etc.;\nData evidencing the fact that the applicant is an information security enterprise or a statement of opinion of the Korea Information Security Industry Association established under Article 24 of the Act as to whether the applicant is an information security enterprise.\nArticle 12 (2) and (3) shall apply mutatis mutandis to procedures for notification of whether an applicant is designated as an exemplary information security enterprise. In such cases, \"excellent information security technology, etc.\" shall be construed as \"exemplary information security enterprise.\"\nExcept as provided in paragraphs (1) and (2), the Minister of Science and ICT shall prescribe and publicly notify necessary matters concerning detailed criteria, procedures, methods, etc. for examining designating exemplary information security enterprises. <Amended on Jul. 26, 2017>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 15 (Methods of designation of exemplary information security enterprises)\nAny person who intends to apply for designation as an exemplary information security enterprise pursuant to Article 19 of the Act shall submit an application for designation prescribed by Decree of the Ministry of Science and ICT to the Minister of Science and ICT along with the following documents: <Amended on Jul. 26, 2017>\nData on the achievements that contributed to promoting the information security industry, such as developing and commercializing excellent information security technology, etc.;\nData evidencing the fact that the applicant is an information security enterprise or a statement of opinion of the Korea Information Security Industry Association established under Article 24 of the Act as to whether the applicant is an information security enterprise.\nArticle 12 (2) and (3) shall apply mutatis mutandis to procedures for notification of whether an applicant is designated as an exemplary information security enterprise. In such cases, \"excellent information security technology, etc.\" shall be construed as \"exemplary information security enterprise.\"\nExcept as provided in paragraphs (1) and (2), the Minister of Science and ICT shall prescribe and publicly notify necessary matters concerning detailed criteria, procedures, methods, etc. for examining designating exemplary information security enterprises. <Amended on Jul. 26, 2017>"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 19.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 122,
+    "source_end": 1616,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_016",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "(Provision of loans)",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Where an information security enterprise intends to take out a loan pursuant to Article 20 (1) of the Act, it shall file an application for a loan with a financial institution that handles the relevant type of loan, on recommendation by the Minister of Science and ICT. <Amended on Jul. 26, 2017>\nThe Minister of Science and ICT shall determine and publicly notify the terms and conditions of loans, including interest rates, as prescribed by him or her pursuant to Article 20 (1) of the Act, and details regarding methods and procedures for providing loans, institutions that handle such loans, etc. under paragraph (1). <Amended on Jul. 26, 2017>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Where an information security enterprise intends to take out a loan pursuant to Article 20 (1) of the Act, it shall file an application for a loan with a financial institution that handles the relevant type of loan, on recommendation by the Minister of Science and ICT. <Amended on Jul. 26, 2017>\nThe Minister of Science and ICT shall determine and publicly notify the terms and conditions of loans, including interest rates, as prescribed by him or her pursuant to Article 20 (1) of the Act, and details regarding methods and procedures for providing loans, institutions that handle such loans, etc. under paragraph (1). <Amended on Jul. 26, 2017>"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "financial institution"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23349,
+    "source_end": 24047,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_017",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "(Measures for promotion of exportation)",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Minister of Science and ICT may take the following measures for facilitating investment in the information security industry and expanding export markets under Article 21 (1) of the Act: <Amended on Jul. 26, 2017>\nCollecting and providing information and data on the overseas markets of the information security industry;\nEstablishing an international cooperation system to promote the exportation of the information security industry;\nInducing foreign and domestic investment in the information security industry and supporting overseas investment of Korean enterprises;\nResearching policy measures for promoting investment in the information security industry and expanding export markets of the information security industry;\nOverseas marketing and advertising related to the information security industry;\nOther measures necessary for promoting investment in the information security industry and expanding export markets of the information security industry.\nThe Minister of Science and ICT may provide the following support to promote the exportation of the information security industry pursuant to Article 21 (2) of the Act: <Amended on Jul. 26, 2017>\nProviding consultation and advice on exporting information security products and information security services;\nSubsidizing expenses incurred in holding and participating in exhibitions and academic conferences both domestically and internationally for promoting exportation;\nSupport for invitations and visits for negotiations for exportation;\nSupport for the overseas dispatch of human resources and the operation of overseas offices for promoting exportation;\nOther support necessary for promoting exportation of the information security industry.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Minister of Science and ICT may take the following measures for facilitating investment in the information security industry and expanding export markets under Article 21 (1) of the Act: <Amended on Jul. 26, 2017>\nCollecting and providing information and data on the overseas markets of the information security industry;\nEstablishing an international cooperation system to promote the exportation of the information security industry;\nInducing foreign and domestic investment in the information security industry and supporting overseas investment of Korean enterprises;\nResearching policy measures for promoting investment in the information security industry and expanding export markets of the information security industry;\nOverseas marketing and advertising related to the information security industry;\nOther measures necessary for promoting investment in the information security industry and expanding export markets of the information security industry.\nThe Minister of Science and ICT may provide the following support to promote the exportation of the information security industry pursuant to Article 21 (2) of the Act: <Amended on Jul. 26, 2017>\nProviding consultation and advice on exporting information security products and information security services;\nSubsidizing expenses incurred in holding and participating in exhibitions and academic conferences both domestically and internationally for promoting exportation;\nSupport for invitations and visits for negotiations for exportation;\nSupport for the overseas dispatch of human resources and the operation of overseas offices for promoting exportation;\nOther support necessary for promoting exportation of the information security industry."
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 22.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 24030,
+    "source_end": 25794,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_018",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 18 (Support for small and medium enterprises related to information security)\nThe Minister of Science and ICT may provide the following support to small and medium enterprises, etc. (referring to small and medium enterprises, etc. under Article 5 (1) 5 of the Act; hereinafter the same shall apply) related to information security pursuant to Article 22 (2) of the Act: <Amended on Jul. 26, 2017>\nSupport for trade or commercializing information security technology developed pursuant to Article 14 of the Act;\nSupport for inducing foreign investment, international technology cooperation, and overseas expansion;\nSupport for obtaining intellectual property rights, such as national and international patent applications for core information security technologies;\nOther matters the Minister of Science and ICT deems necessary for developing the information security industry and expanding investment in and nurturing small and medium enterprises, etc. related to information security.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 18 (Support for small and medium enterprises related to information security)\nThe Minister of Science and ICT may provide the following support to small and medium enterprises, etc. (referring to small and medium enterprises, etc. under Article 5 (1) 5 of the Act; hereinafter the same shall apply) related to information security pursuant to Article 22 (2) of the Act: <Amended on Jul. 26, 2017>\nSupport for trade or commercializing information security technology developed pursuant to Article 14 of the Act;\nSupport for inducing foreign investment, international technology cooperation, and overseas expansion;\nSupport for obtaining intellectual property rights, such as national and international patent applications for core information security technologies;\nOther matters the Minister of Science and ICT deems necessary for developing the information security industry and expanding investment in and nurturing small and medium enterprises, etc. related to information security."
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "intellectual_property"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 12.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "intellectual_property",
+        "label_zh": "知识产权",
+        "label_en": "Intellectual Property",
+        "label_pt": "Propriedade Intelectual",
+        "score": 9.0,
+        "matched_keywords": [
+          "intellectual property",
+          "patent"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18213,
+    "source_end": 19256,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_019",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 19 (Authorization for incorporation of Korea Information Security Industry Association)\nAny person who intends to incorporate the Korea Information Security Industry Association (hereinafter referred to as the \"Association\") under Article 24 (1) of the Act shall submit the following documents to the Minister of Science and ICT: <Amended on Jul. 26, 2017>\nArticles of incorporation;\nA list and curriculum vitae of promoters;\nA list of intending members of the Association;\nA business plan and forecast of revenues and expenditures;\nMinutes of the inaugural meeting.\nThe articles of incorporation under paragraph (1) 1 shall include the following:\nName and objectives of the Association;\nLocation of the head office;\nMatters concerning affairs and the management thereof;\nMatters concerning executive officers;\nMatters concerning qualifications of members;\nMatters concerning the amendment of the articles of incorporation;\nOther matters necessary to operate the Association.\nWhere the Minister of Science and ICT authorizes incorporation of the Association pursuant to Article 24 (1) of the Act, he or she shall publicly announce such fact. <Amended on Jul. 26, 2017>\nWhere the Association intends to amend any matter under the subparagraphs of paragraph (2), it shall file an application for approval of the amendment thereof with the Minister of Science and ICT within 10 days from the date the general meeting of its members that has decided such amendment is closed. In such cases, where the Minister of Science and ICT authorizes the change of the name of the Association or the location of its office, he or she shall publicly announce such fact. <Amended on Jul. 26, 2017>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 19 (Authorization for incorporation of Korea Information Security Industry Association)\nAny person who intends to incorporate the Korea Information Security Industry Association (hereinafter referred to as the \"Association\") under Article 24 (1) of the Act shall submit the following documents to the Minister of Science and ICT: <Amended on Jul. 26, 2017>\nArticles of incorporation;\nA list and curriculum vitae of promoters;\nA list of intending members of the Association;\nA business plan and forecast of revenues and expenditures;\nMinutes of the inaugural meeting.\nThe articles of incorporation under paragraph (1) 1 shall include the following:\nName and objectives of the Association;\nLocation of the head office;\nMatters concerning affairs and the management thereof;\nMatters concerning executive officers;\nMatters concerning qualifications of members;\nMatters concerning the amendment of the articles of incorporation;\nOther matters necessary to operate the Association.\nWhere the Minister of Science and ICT authorizes incorporation of the Association pursuant to Article 24 (1) of the Act, he or she shall publicly announce such fact. <Amended on Jul. 26, 2017>\nWhere the Association intends to amend any matter under the subparagraphs of paragraph (2), it shall file an application for approval of the amendment thereof with the Minister of Science and ICT within 10 days from the date the general meeting of its members that has decided such amendment is closed. In such cases, where the Minister of Science and ICT authorizes the change of the name of the Association or the location of its office, he or she shall publicly announce such fact. <Amended on Jul. 26, 2017>"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 222,
+    "source_end": 1960,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_020",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 20 (Projects and supervision of association)\nThe Association shall implement the following projects concerning the information security industry:\nResearching and proposing improvements to systems for creating the environment for the information security industry;\nSupporting training of human resources for information security;\nResearching the current status and preparing statistics related to the information security industry;\nResearching technical trends and activities to disseminate new technologies concerning the information security industry;\nPreparing statements of opinion on whether an enterprise is an information security enterprise;\nFacilitating international cooperation and overseas expansion concerning the information security industry;\nResearching standards for reasonable prices for information security technology, etc. of the information security industry;\nTechnical research necessary for the information security industry;\nOther projects necessary for developing the information security industry and achieving the objectives of incorporation of the Association.\nWhere the Minister of Science and ICT deems that the Association implements projects other than the objectives provided in this Decree and its articles of incorporation, he or she may request the Association to rectify its projects. <Amended on Jul. 26, 2017>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 20 (Projects and supervision of association)\nThe Association shall implement the following projects concerning the information security industry:\nResearching and proposing improvements to systems for creating the environment for the information security industry;\nSupporting training of human resources for information security;\nResearching the current status and preparing statistics related to the information security industry;\nResearching technical trends and activities to disseminate new technologies concerning the information security industry;\nPreparing statements of opinion on whether an enterprise is an information security enterprise;\nFacilitating international cooperation and overseas expansion concerning the information security industry;\nResearching standards for reasonable prices for information security technology, etc. of the information security industry;\nTechnical research necessary for the information security industry;\nOther projects necessary for developing the information security industry and achieving the objectives of incorporation of the Association.\nWhere the Minister of Science and ICT deems that the Association implements projects other than the objectives provided in this Decree and its articles of incorporation, he or she may request the Association to rectify its projects. <Amended on Jul. 26, 2017>"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 19.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 120,
+    "source_end": 1526,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_021",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 21 (Operation of dispute mediation committee)\nWhere the chairperson of the dispute mediation committee of the information security industry under Article 25 (1) of the Act (hereinafter referred to as the \"Mediation Committee\") intends to convene a meeting of the Mediation Committee, he or she shall designate the date, time, venue, and agenda of the meeting and notify each member of such designated date, time, venue, and agenda seven days beforehand; provided, in emergency or other extenuating circumstances, he or she may shorten the aforesaid period.\nA majority of the members of the Mediation Committee including the chairperson shall constitute a quorum, and any decision thereof shall require the concurring vote of a majority of those present.\nThe Mediation Committee may have subcommittees to efficiently conduct its affairs.\nNo meeting of the Mediation Committee shall be made public; provided, where deemed necessary, the Mediation Committee, by resolution, may allow relevant persons or interested parties to attend its meetings.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 21 (Operation of dispute mediation committee)\nWhere the chairperson of the dispute mediation committee of the information security industry under Article 25 (1) of the Act (hereinafter referred to as the \"Mediation Committee\") intends to convene a meeting of the Mediation Committee, he or she shall designate the date, time, venue, and agenda of the meeting and notify each member of such designated date, time, venue, and agenda seven days beforehand; provided, in emergency or other extenuating circumstances, he or she may shorten the aforesaid period.\nA majority of the members of the Mediation Committee including the chairperson shall constitute a quorum, and any decision thereof shall require the concurring vote of a majority of those present.\nThe Mediation Committee may have subcommittees to efficiently conduct its affairs.\nNo meeting of the Mediation Committee shall be made public; provided, where deemed necessary, the Mediation Committee, by resolution, may allow relevant persons or interested parties to attend its meetings."
+      }
+    ],
+    "topics": [
+      "administrative_procedures",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 15.0,
+        "matched_keywords": [
+          "subcommittees",
+          "chairperson",
+          "meetings",
+          "committee (weak)",
+          "meeting (weak)",
+          "chairperson (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 162,
+    "source_end": 1263,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_022",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 22 (Methods and procedures for dispute mediation)\nAny person who intends to receive aid to recover loss and participate in mediation to settle a dispute in relation to using, etc. an information security product and information security service shall submit an application for mediation to the Mediation Committee, as prescribed by the Mediation Committee.\nThe Mediation Committee upon receipt of an application under paragraph (1) shall immediately notify disputants of the details thereof.\nThe Mediation Committee may recommend that the disputants reach an autonomous agreement; and where the disputants fail to reach an agreement within 20 days from the date it give notification under paragraph (2) to them, the chairperson of the Mediation Committee shall submit an application for mediation under paragraph (1) to the Mediation Committee.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 22 (Methods and procedures for dispute mediation)\nAny person who intends to receive aid to recover loss and participate in mediation to settle a dispute in relation to using, etc. an information security product and information security service shall submit an application for mediation to the Mediation Committee, as prescribed by the Mediation Committee.\nThe Mediation Committee upon receipt of an application under paragraph (1) shall immediately notify disputants of the details thereof.\nThe Mediation Committee may recommend that the disputants reach an autonomous agreement; and where the disputants fail to reach an agreement within 20 days from the date it give notification under paragraph (2) to them, the chairperson of the Mediation Committee shall submit an application for mediation under paragraph (1) to the Mediation Committee."
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "chairperson",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 116,
+    "source_end": 1018,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_023",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "(Allowances and travel expenses)",
+    "chunk_index": 20,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Mediation Committee may pay allowances and reimburse travel expenses of members, etc. who attend its meetings within budgetary limits; provided, the foregoing shall not apply where a member of the Mediation Committee who is a public official attends its meetings in direct relation to his or her duties.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Mediation Committee may pay allowances and reimburse travel expenses of members, etc. who attend its meetings within budgetary limits; provided, the foregoing shall not apply where a member of the Mediation Committee who is a public official attends its meetings in direct relation to his or her duties."
+      }
+    ],
+    "topics": [
+      "administrative_procedures",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 6.0,
+        "matched_keywords": [
+          "meetings",
+          "committee (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 31741,
+    "source_end": 32098,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_024",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "(Costs for mediation)",
+    "chunk_index": 21,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In cases of mediation in which the Mediation Committee requires an applicant to bear the costs of the mediation pursuant to Article 31 (1) of the Act, the applicant for mediation shall prepay such costs when he or she applies for mediation.\nThe amount of costs for mediation under paragraph (1) shall be determined by the Committee.\nWhere the Mediation Committee requires the disputants to share the costs for mediation pursuant to the proviso of Article 31 of the Act because the dispute was resolved between the disputants through mediation, it shall present a mediation agreement under Article 29 (3) of the Act including matters concerning the costs for mediation to each disputant.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "In cases of mediation in which the Mediation Committee requires an applicant to bear the costs of the mediation pursuant to Article 31 (1) of the Act, the applicant for mediation shall prepay such costs when he or she applies for mediation.\nThe amount of costs for mediation under paragraph (1) shall be determined by the Committee.\nWhere the Mediation Committee requires the disputants to share the costs for mediation pursuant to the proviso of Article 31 of the Act because the dispute was resolved between the disputants through mediation, it shall present a mediation agreement under Article 29 (3) of the Act including matters concerning the costs for mediation to each disputant."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 32093,
+    "source_end": 32829,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_025",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 25 (Detailed rules of mediation to settle disputes)\nExcept as provided in this Act and this Decree, the chairperson of the Mediation Committee shall prescribe matters necessary for operating the Mediation Committee following a resolution thereon.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 25 (Detailed rules of mediation to settle disputes)\nExcept as provided in this Act and this Decree, the chairperson of the Mediation Committee shall prescribe matters necessary for operating the Mediation Committee following a resolution thereon."
+      }
+    ],
+    "topics": [
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "chairperson",
+          "committee (weak)",
+          "chairperson (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 294,
+    "source_end": 598,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_026",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 26 (Detailed terms and conditions of transactions of information security products and information security services)\nWhere an information security enterprise intends to prepare the terms and conditions for protecting users pursuant to Article 36 (2) of the Act, it shall include details regarding the following:\nMethods and procedures for returning amounts erroneously paid or overpaid;\nMethods of cancelling or terminating a contract for using an information security product and information security service;\nCompensation to users for loss which incurred due to a defect, etc in the product;\nMethods and procedures for resolving disputes;\nOther matters the information security enterprise deems necessary to protect users.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 26 (Detailed terms and conditions of transactions of information security products and information security services)\nWhere an information security enterprise intends to prepare the terms and conditions for protecting users pursuant to Article 36 (2) of the Act, it shall include details regarding the following:\nMethods and procedures for returning amounts erroneously paid or overpaid;\nMethods of cancelling or terminating a contract for using an information security product and information security service;\nCompensation to users for loss which incurred due to a defect, etc in the product;\nMethods and procedures for resolving disputes;\nOther matters the information security enterprise deems necessary to protect users."
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 12.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "compensation",
+          "compensation (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 104,
+    "source_end": 887,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_027",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "(Entrustment of affairs)",
+    "chunk_index": 24,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Minister of Science and ICT shall designate the following institutions as specialized institutions pursuant to Article 38 of the Act: <Amended on Jul. 26, 2017>\nThe Korea Internet and Security Agency;\nThe Korea Information Security Industry Association established under Article 24 (1) of the Act;\nScience and technology research institutes specializing in manufacturing technology whose establishment was permitted pursuant to Article 42 of the Industrial Technology Innovation Promotion Act .\nThe Minister of Science and ICT shall entrust the following affairs to the Korea Internet and Security Agency designated under paragraph (1) 1 pursuant to Article 38 of the Act: <Amended on Jul. 26, 2017; Apr. 2, 2019; Dec. 9, 2021; Oct. 10, 2023>\nReceiving and providing information on purchase demand under Article 6 of the Act;\nCollecting and analyzing information related to an information security project under Article 10 (4) of the Act and requesting submission of data under Article 10 (5) of that Act;\nResearching and developing converged information security technology, etc., trading and commercializing converged information security technology, and pilot projects concerning converged information security technology, etc. under Article 11 (2) 1 through 3 of the Act;\nSupport for the receipt of applications for registration and for registration of an agency for evaluating the level of information security preparedness under Article 12 (2) of the Act;\n4-2.\nVerifying disclosed information under Article 13 (4) of the Act;\nSurveying the levels of information security technologies under Article 14 (1) 1 of the Act and establishing regional clusters of industries related to information security under subparagraph 4 of that paragraph;\nEstablishing and operating relevant facilities under Article 14 (3) of the Act, and permitting to use and lend such facilities;\nAscertaining the actual conditions of demand for professionals and formulating mid-term and long-term prospects of supply and demand under Article 15 (1) 1 of the Act;\nDeleted; <Apr. 2, 2019>\nSupport for establishing a qualification system and for the supply and demand of professionals related to the information security industry under Article 15 (1) 4 of the Act;\nSupporting projects, such as international exchanges of information security technology and professionals, and international joint research and development under Article 16 (2) of the Act;\n10-2.\nReceipt of an application for designation as a performance assessment agency under Article 17 (2) of the Act and examination of whether the designation requirements under Article 10 (2) and (4) of this Decree are met;\nReceiving applications for designation and examination as to whether an applicant meets criteria for designation among affairs concerning the designation of an enterprise specializing in information security services under Article 23 (1) of the Act;\nExamining post management under Article 23 (3) of the Act;\nProjects for protecting users under Article 34 (1) of the Act;\nConstructing and operating a purchase demand information system under Article 4 (3);\nConstructing and operating an electronic disclosure system under Article 8 (5);\nExamining designation and receiving applications for designation of excellent information security technology, etc. under Articles 11 and 12 (1);\nReceiving applications for designation and examining designation of exemplary information security enterprises under Article 15 ;\nReceiving applications for recommendations for providing loans under Article 16 .\nThe Minister of Science and ICT shall entrust the following affairs to the Association designated pursuant to paragraph (1) 2 pursuant to Article 38 of the Act: <Amended on Jul. 26, 2017>\nPublic-private partnership monitoring under Article 10 (2) of the Act;\nPreparing standards for calculating prices for information security services under Article 10 (4) 5 of the Act;\nOperating a system to support the provision, etc. of information related to the information security industry under Article 14 (2) of the Act;\nDeleted. <Apr. 2, 2019>\nThe Minister of Science and ICT shall entrust the following affairs to an institution publicly notified by the Minister of Science and ICT, from among the specialized institutions designated under paragraph (1), pursuant to Article 38 of the Act: <Amended on Apr. 2, 2019>\nSupport for developing and disseminating educational programs for training professionals under Article 15 (1) 3 of the Act;\nProject relating to support for exportation under Article 21 of the Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Minister of Science and ICT shall designate the following institutions as specialized institutions pursuant to Article 38 of the Act: <Amended on Jul. 26, 2017>\nThe Korea Internet and Security Agency;\nThe Korea Information Security Industry Association established under Article 24 (1) of the Act;\nScience and technology research institutes specializing in manufacturing technology whose establishment was permitted pursuant to Article 42 of the Industrial Technology Innovation Promotion Act .\nThe Minister of Science and ICT shall entrust the following affairs to the Korea Internet and Security Agency designated under paragraph (1) 1 pursuant to Article 38 of the Act: <Amended on Jul. 26, 2017; Apr. 2, 2019; Dec. 9, 2021; Oct. 10, 2023>\nReceiving and providing information on purchase demand under Article 6 of the Act;\nCollecting and analyzing information related to an information security project under Article 10 (4) of the Act and requesting submission of data under Article 10 (5) of that Act;\nResearching and developing converged information security technology, etc., trading and commercializing converged information security technology, and pilot projects concerning converged information security technology, etc. under Article 11 (2) 1 through 3 of the Act;\nSupport for the receipt of applications for registration and for registration of an agency for evaluating the level of information security preparedness under Article 12 (2) of the Act;\n4-2.\nVerifying disclosed information under Article 13 (4) of the Act;\nSurveying the levels of information security technologies under Article 14 (1) 1 of the Act and establishing regional clusters of industries related to information security under subparagraph 4 of that paragraph;\nEstablishing and operating relevant facilities under Article 14 (3) of the Act, and permitting to use and lend such facilities;\nAscertaining the actual conditions of demand for professionals and formulating mid-term and long-term prospects of supply and demand under Article 15 (1) 1 of the Act;\nDeleted; <Apr. 2, 2019>\nSupport for establishing a qualification system and for the supply and demand of professionals related to the information security industry under Article 15 (1) 4 of the Act;\nSupporting projects, such as international exchanges of information security technology and professionals, and international joint research and development under Article 16 (2) of the Act;\n10-2.\nReceipt of an application for designation as a performance assessment agency under Article 17 (2) of the Act and examination of whether the designation requirements under Article 10 (2) and (4) of this Decree are met;\nReceiving applications for designation and examination as to whether an applicant meets criteria for designation among affairs concerning the designation of an enterprise specializing in information security services under Article 23 (1) of the Act;\nExamining post management under Article 23 (3) of the Act;\nProjects for protecting users under Article 34 (1) of the Act;\nConstructing and operating a purchase demand information system under Article 4 (3);\nConstructing and operating an electronic disclosure system under Article 8 (5);\nExamining designation and receiving applications for designation of excellent information security technology, etc. under Articles 11 and 12 (1);\nReceiving applications for designation and examining designation of exemplary information security enterprises under Article 15 ;\nReceiving applications for recommendations for providing loans under Article 16 .\nThe Minister of Science and ICT shall entrust the following affairs to the Association designated pursuant to paragraph (1) 2 pursuant to Article 38 of the Act: <Amended on Jul. 26, 2017>\nPublic-private partnership monitoring under Article 10 (2) of the Act;\nPreparing standards for calculating prices for information security services under Article 10 (4) 5 of the Act;\nOperating a system to support the provision, etc. of information related to the information security industry under Article 14 (2) of the Act;\nDeleted. <Apr. 2, 2019>\nThe Minister of Science and ICT shall entrust the following affairs to an institution publicly notified by the Minister of Science and ICT, from among the specialized institutions designated under paragraph (1), pursuant to Article 38 of the Act: <Amended on Apr. 2, 2019>\nSupport for developing and disseminating educational programs for training professionals under Article 15 (1) 3 of the Act;\nProject relating to support for exportation under Article 21 of the Act."
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 25.5,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 33802,
+    "source_end": 38411,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_027-2",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "27-2",
+    "article_number_normalized": "027-2",
+    "article_title": "(Re-examination of regulation)",
+    "chunk_index": 25,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Minister of Science and ICT shall examine the appropriateness of the following matters every three years, counting from January 1, 2022 (referring to the period that ends on the day before the base date of every third year) and shall take measures, such as making improvements: <Amended on Mar. 8, 2022>\nRequirements for registration of agencies for evaluating the level of information security preparedness under Article 6 (8) and Appendix 1;\nScope of persons with information security disclosure obligations under Article 8 (1) and (2).\n[This Article Added on Dec. 9, 2021]",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Minister of Science and ICT shall examine the appropriateness of the following matters every three years, counting from January 1, 2022 (referring to the period that ends on the day before the base date of every third year) and shall take measures, such as making improvements: <Amended on Mar. 8, 2022>\nRequirements for registration of agencies for evaluating the level of information security preparedness under Article 6 (8) and Appendix 1;\nScope of persons with information security disclosure obligations under Article 8 (1) and (2).\n[This Article Added on Dec. 9, 2021]"
+      }
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "information security"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 38398,
+    "source_end": 39027,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_028",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 28 (Criteria for imposition of administrative fines)\nCriteria for imposing administrative fines under Article 41 of the Act shall be as specified in Appendix 2.\nADDENDUM <Presidential Decree No. 26728, Jan. 22, 2015>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 28 (Criteria for imposition of administrative fines)\nCriteria for imposing administrative fines under Article 41 of the Act shall be as specified in Appendix 2.\nADDENDUM <Presidential Decree No. 26728, Jan. 22, 2015>"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 107,
+    "source_end": 381,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_003",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Omitted",
+    "chunk_index": 27,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "ADDENDA <Presidential Decree No. 28210, Jul. 26, 2017>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "omitted_article",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "ADDENDA <Presidential Decree No. 28210, Jul. 26, 2017>"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 39552,
+    "source_end": 39656,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_006",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "Omitted",
+    "chunk_index": 28,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "ADDENDUM <Presidential Decree No. 29670, Apr. 2, 2019>\nThis Decree shall enter into force on the date of its promulgation.\nADDENDUM <Presidential Decree No. 32195, Dec. 9, 2021>\nThis Decree shall enter into force on December 9, 2021.\nADDENDUM <Presidential Decree No. 32528, Mar. 8, 2022>\nThis Decree shall enter into force on the date of its promulgation.\nADDENDUM <Presidential Decree No. 33788, Oct. 10, 2023>\nThis Decree shall enter into force on October 19, 2023.\nADDENDA <Presidential Decree No. 35801, Oct. 1, 2025>",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "omitted_article",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "ADDENDUM <Presidential Decree No. 29670, Apr. 2, 2019>\nThis Decree shall enter into force on the date of its promulgation.\nADDENDUM <Presidential Decree No. 32195, Dec. 9, 2021>\nThis Decree shall enter into force on December 9, 2021.\nADDENDUM <Presidential Decree No. 32528, Mar. 8, 2022>\nThis Decree shall enter into force on the date of its promulgation.\nADDENDUM <Presidential Decree No. 33788, Oct. 10, 2023>\nThis Decree shall enter into force on October 19, 2023.\nADDENDA <Presidential Decree No. 35801, Oct. 1, 2025>"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 39753,
+    "source_end": 40325,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_SCH001",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "Sch1",
+    "article_number_normalized": "SCH001",
+    "article_title": "ADDENDA <Presidential Decree No. 28210, Jul. 26, 2017>",
+    "chunk_index": 29,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 1 (Enforcement date)\nThis Decree shall enter into force on the date of its promulgation.\nArticles 2 through 5 Omitted.\nArticle 6 Omitted.\nADDENDUM <Presidential Decree No. 29670, Apr. 2, 2019>\nThis Decree shall enter into force on the date of its promulgation.\nADDENDUM <Presidential Decree No. 32195, Dec. 9, 2021>\nThis Decree shall enter into force on December 9, 2021.\nADDENDUM <Presidential Decree No. 32528, Mar. 8, 2022>\nThis Decree shall enter into force on the date of its promulgation.\nADDENDUM <Presidential Decree No. 33788, Oct. 10, 2023>\nThis Decree shall enter into force on October 19, 2023.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "schedule",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 1 (Enforcement date)\nThis Decree shall enter into force on the date of its promulgation.\nArticles 2 through 5 Omitted.\nArticle 6 Omitted.\nADDENDUM <Presidential Decree No. 29670, Apr. 2, 2019>\nThis Decree shall enter into force on the date of its promulgation.\nADDENDUM <Presidential Decree No. 32195, Dec. 9, 2021>\nThis Decree shall enter into force on December 9, 2021.\nADDENDUM <Presidential Decree No. 32528, Mar. 8, 2022>\nThis Decree shall enter into force on the date of its promulgation.\nADDENDUM <Presidential Decree No. 33788, Oct. 10, 2023>\nThis Decree shall enter into force on October 19, 2023."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 39618,
+    "source_end": 40232,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "KR_DEC_26728_ART_SCH002",
+    "jurisdiction": "韩国",
+    "law_id": "KR_DEC_26728",
+    "law_name": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_name_original": "ENFORCEMENT DECREE OF THE ACT ON THE PROMOTION OF INFORMATION SECURITY INDUSTRY",
+    "law_type": "Enforcement Decree",
+    "article_number": "Sch2",
+    "article_number_normalized": "SCH002",
+    "article_title": "ADDENDA <Presidential Decree No. 35801, Oct. 1, 2025>",
+    "chunk_index": 30,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Article 1 (Enforcement date)\nThis Decree shall enter into force on the date of its promulgation. (Proviso Omitted.)\nArticle 2 Omitted.\nArticle 3 Omitted.\nPC Version Go Topⓒ 2019 KLRI",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "schedule",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Article 1 (Enforcement date)\nThis Decree shall enter into force on the date of its promulgation. (Proviso Omitted.)\nArticle 2 Omitted.\nArticle 3 Omitted.\nPC Version Go Topⓒ 2019 KLRI"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": [
+      {
+        "act_no": "28210",
+        "date": ""
+      },
+      {
+        "act_no": "29670",
+        "date": ""
+      },
+      {
+        "act_no": "32195",
+        "date": ""
+      },
+      {
+        "act_no": "32528",
+        "date": ""
+      },
+      {
+        "act_no": "33788",
+        "date": ""
+      },
+      {
+        "act_no": "35801",
+        "date": ""
+      }
+    ],
+    "ingest_date": "2026-10-26",
+    "source_url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72025&type=part&key=43",
+    "source_type": "gov_gazette",
+    "source_file": "KR_013.txt",
+    "sample_id": "KR_013",
+    "source_id": "KR_KLRI_001",
+    "original_id": "KR-KLRI-013",
+    "raw_sha256": "4c800bf0f081b597fa0ed86067f070577dcf192f69731ed6aa6bbb8d9a3c54a5",
+    "extracted_text_sha256": "7cfeb64f6e9d0430123116a3f619e858f1874f3eaeb681850dd2975e7a0bf1aa",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 40287,
+    "source_end": 40469,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:45:15Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

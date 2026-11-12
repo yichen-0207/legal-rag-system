@@ -1,0 +1,713 @@
+[
+  {
+    "doc_id": "AU_ACT_7_2023_ART_001",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_7_2023",
+    "law_name": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_name_original": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "Short title",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act is the Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023 .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act is the Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023 ."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2007-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2023A00007/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_065.txt",
+    "sample_id": "AU_065",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_065",
+    "raw_sha256": "e783b85c3a766fdf07b466ddf37967767d9c42767dd9e4dcda6a5a7610bbd219",
+    "extracted_text_sha256": "67bfabd932e382b60d91d93db6b4abc827453da62dc468bf9b620c134e913f7a",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 189,
+    "source_end": 358,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:39Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_7_2023_ART_002",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_7_2023",
+    "law_name": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_name_original": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Commencement",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provisions\nCommencementDate/Details\n1. Sections 1 to 3 and anything in this Act not elsewhere covered by this table\nThe day this Act receives the Royal Assent.\n16 March 2023\n2. Schedule 1The later of:\n(a) the start of the day after this Act receives the Royal Assent; and\n(b) immediately after the commencement of Schedule 2 to the Private Health Insurance Legislation Amendment (Medical Device and Human Tissue Product List and Cost Recovery) Act 2023 .\nHowever, the provisions do not commence at all if the event mentioned in paragraph (b) does not occur.\n1 July 2023\n(paragraph (b) applies)\nNote: This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.\nAny information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "the start of the day after this Act receives the Royal Assent; and"
+      },
+      {
+        "marker": "B",
+        "content": "immediately after the commencement of Schedule 2 to the Private Health Insurance Legislation Amendment (Medical Device and Human Tissue Product List and Cost Recovery) Act 2023 .\nHowever, the provisions do not commence at all if the event mentioned in paragraph (b) does not occur.\n1 July 2023\n(paragraph (b) applies)\nNote: This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.\nAny information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2007-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2023A00007/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_065.txt",
+    "sample_id": "AU_065",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_065",
+    "raw_sha256": "e783b85c3a766fdf07b466ddf37967767d9c42767dd9e4dcda6a5a7610bbd219",
+    "extracted_text_sha256": "67bfabd932e382b60d91d93db6b4abc827453da62dc468bf9b620c134e913f7a",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 323,
+    "source_end": 1566,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:39Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_7_2023_ART_003",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_7_2023",
+    "law_name": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_name_original": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Schedules",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Legislation that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned, and any other item in a Schedule to this Act has effect according to its terms.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Legislation that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned, and any other item in a Schedule to this Act has effect according to its terms."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2007-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2023A00007/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_065.txt",
+    "sample_id": "AU_065",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_065",
+    "raw_sha256": "e783b85c3a766fdf07b466ddf37967767d9c42767dd9e4dcda6a5a7610bbd219",
+    "extracted_text_sha256": "67bfabd932e382b60d91d93db6b4abc827453da62dc468bf9b620c134e913f7a",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1532,
+    "source_end": 1802,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:39Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_7_2023_ART_004",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_7_2023",
+    "law_name": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_name_original": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "Imposition of levy",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Levy is imposed for a financial year in respect of the ongoing listing of each listed item.\nLevy is imposed on each day specified as a levy imposition day in the Private Health Insurance (Medical Devices and Human Tissue Products Levy) Rules made under section 6.\nThe amount of the levy imposed in respect of the ongoing listing of a listed item is the amount prescribed by the regulations.\nBefore the Governor ‑ General makes regulations for the purposes of subsection (3) prescribing the amount of the levy for a financial year, the Minister must be satisfied that the amount is set at a level that is designed to recover no more than the Commonwealth’s likely costs in connection with the ongoing listing of all listed items for that financial year.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Levy is imposed for a financial year in respect of the ongoing listing of each listed item.\nLevy is imposed on each day specified as a levy imposition day in the Private Health Insurance (Medical Devices and Human Tissue Products Levy) Rules made under section 6.\nThe amount of the levy imposed in respect of the ongoing listing of a listed item is the amount prescribed by the regulations.\nBefore the Governor ‑ General makes regulations for the purposes of subsection (3) prescribing the amount of the levy for a financial year, the Minister must be satisfied that the amount is set at a level that is designed to recover no more than the Commonwealth’s likely costs in connection with the ongoing listing of all listed items for that financial year."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2007-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2023A00007/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_065.txt",
+    "sample_id": "AU_065",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_065",
+    "raw_sha256": "e783b85c3a766fdf07b466ddf37967767d9c42767dd9e4dcda6a5a7610bbd219",
+    "extracted_text_sha256": "67bfabd932e382b60d91d93db6b4abc827453da62dc468bf9b620c134e913f7a",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2980,
+    "source_end": 3782,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:39Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_7_2023_ART_005",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_7_2023",
+    "law_name": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_name_original": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "Matters relating to levy",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The regulations may prescribe different amounts for the purposes of subsection 4(3) for different circumstances.\nTwo or more amounts may be prescribed in relation to a single listed item, and a single amount may be prescribed in relation to 2 or more listed items.\nThe regulations may prescribe an amount for the purposes of subsection 4(3) by:\n(a) specifying an amount; or\n(b) specifying a method for calculating the amount.\nThe amount of a levy may be nil.\nThe regulations may provide for exemptions from levy.\nNote: Other matters relating to the levy, such as who is liable to pay, may be specified in Private Health Insurance (Levy Administration) Rules made under the Private Health Insurance Act 2007 .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "specifying an amount; or"
+      },
+      {
+        "marker": "B",
+        "content": "specifying a method for calculating the amount.\nThe amount of a levy may be nil.\nThe regulations may provide for exemptions from levy.\nNote: Other matters relating to the levy, such as who is liable to pay, may be specified in Private Health Insurance (Levy Administration) Rules made under the Private Health Insurance Act 2007 ."
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions",
+      "public_governance",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "insurance"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.0,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2007-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2023A00007/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_065.txt",
+    "sample_id": "AU_065",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_065",
+    "raw_sha256": "e783b85c3a766fdf07b466ddf37967767d9c42767dd9e4dcda6a5a7610bbd219",
+    "extracted_text_sha256": "67bfabd932e382b60d91d93db6b4abc827453da62dc468bf9b620c134e913f7a",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3754,
+    "source_end": 4512,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:39Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_7_2023_ART_006",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_7_2023",
+    "law_name": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_name_original": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "6 Private Health Insurance (Medical Devices and Human Tissue Products Levy) Rules\nThe Minister may, by legislative instrument, make Private Health Insurance (Medical Devices and Human Tissue Products Levy) Rules, providing for matters:\n(a) required or permitted by this Act to be provided; or\n(b) necessary or convenient to be provided in order to carry out or give effect to this Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "required or permitted by this Act to be provided; or"
+      },
+      {
+        "marker": "B",
+        "content": "necessary or convenient to be provided in order to carry out or give effect to this Act."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2007-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2023A00007/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_065.txt",
+    "sample_id": "AU_065",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_065",
+    "raw_sha256": "e783b85c3a766fdf07b466ddf37967767d9c42767dd9e4dcda6a5a7610bbd219",
+    "extracted_text_sha256": "67bfabd932e382b60d91d93db6b4abc827453da62dc468bf9b620c134e913f7a",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 138,
+    "source_end": 573,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:39Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_7_2023_ART_007",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_7_2023",
+    "law_name": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_name_original": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "Regulations",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Governor ‑ General may make regulations prescribing matters:\n(a) required or permitted by this Act to be prescribed by the regulations; or\n(b) necessary or convenient to be prescribed for carrying out or giving effect to this Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "required or permitted by this Act to be prescribed by the regulations; or"
+      },
+      {
+        "marker": "B",
+        "content": "necessary or convenient to be prescribed for carrying out or giving effect to this Act."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2007-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2023A00007/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_065.txt",
+    "sample_id": "AU_065",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_065",
+    "raw_sha256": "e783b85c3a766fdf07b466ddf37967767d9c42767dd9e4dcda6a5a7610bbd219",
+    "extracted_text_sha256": "67bfabd932e382b60d91d93db6b4abc827453da62dc468bf9b620c134e913f7a",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4876,
+    "source_end": 5160,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:39Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_7_2023_ART_Sch1",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_7_2023",
+    "law_name": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_name_original": "Private Health Insurance (Prostheses Application and Listing Fees) Amendment (Cost Recovery) Act 2023",
+    "law_type": "Act",
+    "article_number": "Sch1",
+    "article_number_normalized": "Sch1",
+    "article_title": "1 — Amendments",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Private Health Insurance (Prostheses Application and Listing Fees) Act 2007\n1 Title\nOmit “ , as a tax, fees in relation to applications for listing, and listing, of prostheses ”, substitute “ levy in relation to listing of medical devices and human tissue products ”.\n2 Section 1\nOmit “ Prostheses Application and Listing Fees ”, substitute “ Medical Devices and Human Tissue Products Levy ”.\nNote: This item amends the short title of the Act. If another amendment of the Act is described by reference to the Act’s previous short title, that other amendment has effect after the commencement of this item as an amendment of the Act under its amended short title (see section 10 of the Acts Interpretation Act 1901 ).\n3 Sections 3 to 9\nRepeal the sections, substitute:\n3 Definitions\nIn this Act:human tissue product has the same meaning as in the Private Health Insurance Act 2007 .\nlisted item means a kind of medical device, or a kind of human tissue product, that is listed in the Private Health Insurance (Medical Devices and Human Tissue Products) Rules made under the Private Health Insurance Act 2007 .\nmedical device has the same meaning as in the Private Health Insurance Act 2007 .\n4 Imposition of levy\nLevy is imposed for a financial year in respect of the ongoing listing of each listed item.\nLevy is imposed on each day specified as a levy imposition day in the Private Health Insurance (Medical Devices and Human Tissue Products Levy) Rules made under section 6.\nThe amount of the levy imposed in respect of the ongoing listing of a listed item is the amount prescribed by the regulations.\nBefore the Governor ‑ General makes regulations for the purposes of subsection (3) prescribing the amount of the levy for a financial year, the Minister must be satisfied that the amount is set at a level that is designed to recover no more than the Commonwealth’s likely costs in connection with the ongoing listing of all listed items for that financial year.\n5 Matters relating to levy\nThe regulations may prescribe different amounts for the purposes of subsection 4(3) for different circumstances.\nTwo or more amounts may be prescribed in relation to a single listed item, and a single amount may be prescribed in relation to 2 or more listed items.\nThe regulations may prescribe an amount for the purposes of subsection 4(3) by:\n(a) specifying an amount; or\n(b) specifying a method for calculating the amount.\nThe amount of a levy may be nil.\nThe regulations may provide for exemptions from levy.\nNote: Other matters relating to the levy, such as who is liable to pay, may be specified in Private Health Insurance (Levy Administration) Rules made under the Private Health Insurance Act 2007 .\n6 Private Health Insurance (Medical Devices and Human Tissue Products Levy) Rules\nThe Minister may, by legislative instrument, make Private Health Insurance (Medical Devices and Human Tissue Products Levy) Rules, providing for matters:\n(a) required or permitted by this Act to be provided; or\n(b) necessary or convenient to be provided in order to carry out or give effect to this Act.\n7 Regulations\nThe Governor ‑ General may make regulations prescribing matters:\n(a) required or permitted by this Act to be prescribed by the regulations; or\n(b) necessary or convenient to be prescribed for carrying out or giving effect to this Act.\n4 Application—financial year\nSection 4 of the Private Health Insurance (Medical Devices and Human Tissue Products Levy) Act 2007 as amended by this Schedule applies in relation to the financial year beginning on 1 July 2024 and each later financial year.\n[ Minister’s second reading speech made in—\nHouse of Representatives on 1 December 2022\nSenate on 8 February 2023 ]\n(140/22)",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "schedule",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "specifying an amount; or"
+      },
+      {
+        "marker": "B",
+        "content": "specifying a method for calculating the amount.\nThe amount of a levy may be nil.\nThe regulations may provide for exemptions from levy.\nNote: Other matters relating to the levy, such as who is liable to pay, may be specified in Private Health Insurance (Levy Administration) Rules made under the Private Health Insurance Act 2007 .\n6 Private Health Insurance (Medical Devices and Human Tissue Products Levy) Rules\nThe Minister may, by legislative instrument, make Private Health Insurance (Medical Devices and Human Tissue Products Levy) Rules, providing for matters:"
+      },
+      {
+        "marker": "A",
+        "content": "required or permitted by this Act to be provided; or"
+      },
+      {
+        "marker": "B",
+        "content": "necessary or convenient to be provided in order to carry out or give effect to this Act.\n7 Regulations\nThe Governor ‑ General may make regulations prescribing matters:"
+      },
+      {
+        "marker": "A",
+        "content": "required or permitted by this Act to be prescribed by the regulations; or"
+      },
+      {
+        "marker": "B",
+        "content": "necessary or convenient to be prescribed for carrying out or giving effect to this Act.\n4 Application—financial year\nSection 4 of the Private Health Insurance (Medical Devices and Human Tissue Products Levy) Act 2007 as amended by this Schedule applies in relation to the financial year beginning on 1 July 2024 and each later financial year.\n[ Minister’s second reading speech made in—\nHouse of Representatives on 1 December 2022\nSenate on 8 February 2023 ]\n(140/22)"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions",
+      "tax_law",
+      "public_governance",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 19.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 16.5,
+        "matched_keywords": [
+          "means",
+          "definitions",
+          "for the purposes of",
+          "meaning (weak)"
+        ]
+      },
+      {
+        "id": "tax_law",
+        "label_zh": "税法",
+        "label_en": "Tax Law",
+        "label_pt": "Direito Fiscal",
+        "score": 4.5,
+        "matched_keywords": [
+          "tax"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "2007-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2023A00007/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_065.txt",
+    "sample_id": "AU_065",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_065",
+    "raw_sha256": "e783b85c3a766fdf07b466ddf37967767d9c42767dd9e4dcda6a5a7610bbd219",
+    "extracted_text_sha256": "67bfabd932e382b60d91d93db6b4abc827453da62dc468bf9b620c134e913f7a",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1789,
+    "source_end": 5504,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:39Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

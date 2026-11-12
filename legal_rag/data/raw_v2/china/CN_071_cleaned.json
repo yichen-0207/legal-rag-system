@@ -1,0 +1,5995 @@
+[
+  {
+    "doc_id": "CN_DOC_1_2022_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第一条\n为加强审慎监管,规范银行保险机构关联交易行为,防范关联交易风险,促进银行保险机构安全、独立、稳健运行,根据《中华人民共和国公司法》\n《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》《中华人民共和国信托法》等法律法规,制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 117,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条\n为加强审慎监管,规范银行保险机构关联交易行为,防范关联交易风险,促进银行保险机构安全、独立、稳健运行,根据《中华人民共和国公司法》\n《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》《中华人民共和国信托法》等法律法规,制定本办法。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第二条 本办法所称银行保险机构包括银行机构、保险机构和在中华人民共和国境内依法设立的信托公司、金融资产管理公司、金融租赁公司、汽车金\n融公司、消费金融公司。\n银行机构是指在中华人民共和国境内依法设立的商业银行、政策性银行、村镇银行、农村信用合作社、农村合作银行。\n保险机构是指在中华人民共和国境内依法设立的保险集团(控股)公司、保险公司、保险资产管理公司。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 158,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本办法所称银行保险机构包括银行机构、保险机构和在中华人民共和国境内依法设立的信托公司、金融资产管理公司、金融租赁公司、汽车金\n融公司、消费金融公司。\n银行机构是指在中华人民共和国境内依法设立的商业银行、政策性银行、村镇银行、农村信用合作社、农村合作银行。\n保险机构是指在中华人民共和国境内依法设立的保险集团(控股)公司、保险公司、保险资产管理公司。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 25.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第三条\n银行保险机构开展关联交易应当遵守法律法规和有关监管规定,健全公司治理架构,完善内部控制和风险管理,遵循诚实信用、公开公允、穿透识\n别、结构清晰的原则。\n银行保险机构不得通过关联交易进行利益输送或监管套利,应当采取有效措施,防止关联方利用其特殊地位,通过关联交易侵害银行保险机构利益。\n银行保险机构应当维护经营独立性,提高市场竞争力,控制关联交易的数量和规模,避免多层嵌套等复杂安排,重点防范向股东及其关联方进行利益输送的风\n险。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 197,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条\n银行保险机构开展关联交易应当遵守法律法规和有关监管规定,健全公司治理架构,完善内部控制和风险管理,遵循诚实信用、公开公允、穿透识\n别、结构清晰的原则。\n银行保险机构不得通过关联交易进行利益输送或监管套利,应当采取有效措施,防止关联方利用其特殊地位,通过关联交易侵害银行保险机构利益。\n银行保险机构应当维护经营独立性,提高市场竞争力,控制关联交易的数量和规模,避免多层嵌套等复杂安排,重点防范向股东及其关联方进行利益输送的风\n险。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3855,
+    "source_end": 3988,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第四条 银保监会及其派出机构依法对银行保险机构的关联交易实施监督管理。\n第二章 关联方",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 银保监会及其派出机构依法对银行保险机构的关联交易实施监督管理。\n第二章 关联方"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第二章",
+    "chapter_title": "关联方",
+    "text_zh": "第五条 银行保险机构的关联方,是指与银行保险机构存在一方控制另一方,或对另一方施加重大影响,以及与银行保险机构同受一方控制或重大影响的自然\n人、法人或非法人组织。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 74,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 银行保险机构的关联方,是指与银行保险机构存在一方控制另一方,或对另一方施加重大影响,以及与银行保险机构同受一方控制或重大影响的自然\n人、法人或非法人组织。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1007,
+    "source_end": 1165,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第二章",
+    "chapter_title": "关联方",
+    "text_zh": "第六条 银行保险机构的关联自然人包括:\n(一)银行保险机构的自然人控股股东、实际控制人,及其一致行动人、最终受益人;\n(二)持有或控制银行保险机构5%以上股权的,或持股不足5%但对银行保险机构经营管理有重大影响的自然人;\n(三)银行保险机构的董事、监事、总行(总公司)和重要分行(分公司)的高级管理人员,以及具有大额授信、资产转移、保险资金运用等核心业务审批或决\n策权的人员;(四)本条第(一)至(三)项所列关联方的配偶、父母、成年子女及兄弟姐妹;\n(五)本办法第七条第(一)(二)项所列关联方的董事、监事、高级管理人员。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 210,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 银行保险机构的关联自然人包括:\n(一)银行保险机构的自然人控股股东、实际控制人,及其一致行动人、最终受益人;\n(二)持有或控制银行保险机构5%以上股权的,或持股不足5%但对银行保险机构经营管理有重大影响的自然人;\n(三)银行保险机构的董事、监事、总行(总公司)和重要分行(分公司)的高级管理人员,以及具有大额授信、资产转移、保险资金运用等核心业务审批或决\n策权的人员;(四)本条第(一)至(三)项所列关联方的配偶、父母、成年子女及兄弟姐妹;\n(五)本办法第七条第(一)(二)项所列关联方的董事、监事、高级管理人员。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 22.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 934,
+    "source_end": 1195,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第二章",
+    "chapter_title": "关联方",
+    "text_zh": "第七条 银行保险机构的关联法人或非法人组织包括:\n(一)银行保险机构的法人控股股东、实际控制人,及其一致行动人、最终受益人;\n(二)持有或控制银行保险机构5%以上股权的,或者持股不足5%但对银行保险机构经营管理有重大影响的法人或非法人组织,及其控股股东、实际控制人、\n一致行动人、最终受益人;(三)本条第(一)项所列关联方控制或施加重大影响的法人或非法人组织,本条第(二)项所列关联方控制的法人或非法人组织;\n(四)银行保险机构控制或施加重大影响的法人或非法人组织;\n(五)本办法第六条第(一)项所列关联方控制或施加重大影响的法人或非法人组织,第六条第(二)至(四)项所列关联方控制的法人或非法人组织。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 255,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 银行保险机构的关联法人或非法人组织包括:\n(一)银行保险机构的法人控股股东、实际控制人,及其一致行动人、最终受益人;\n(二)持有或控制银行保险机构5%以上股权的,或者持股不足5%但对银行保险机构经营管理有重大影响的法人或非法人组织,及其控股股东、实际控制人、\n一致行动人、最终受益人;(三)本条第(一)项所列关联方控制或施加重大影响的法人或非法人组织,本条第(二)项所列关联方控制的法人或非法人组织;\n(四)银行保险机构控制或施加重大影响的法人或非法人组织;\n(五)本办法第六条第(一)项所列关联方控制或施加重大影响的法人或非法人组织,第六条第(二)至(四)项所列关联方控制的法人或非法人组织。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 31.5,
+        "matched_keywords": [
+          "股东",
+          "法人",
+          "股东 (weak)",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 21.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第二章",
+    "chapter_title": "关联方",
+    "text_zh": "第八条 银行保险机构按照实质重于形式和穿透的原则,可以认定以下自然人、法人或非法人组织为关联方:\n(一)在过去十二个月内或者根据相关协议安排在未来十二个月内存在本办法第六条、第七条规定情形之一的;\n(二)本办法第六条第(一)至(三)项所列关联方的其他关系密切的家庭成员;\n(三)银行保险机构内部工作人员及其控制的法人或其他组织;\n(四)本办法第六条第(二)(三)项,以及第七条第(二)项所列关联方可施加重大影响的法人或非法人组织;\n(五)对银行保险机构有影响,与银行保险机构发生或可能发生未遵守商业原则、有失公允的交易行为,并可据以从交易中获取利益的自然人、法人或非法\n人组织。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 248,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 银行保险机构按照实质重于形式和穿透的原则,可以认定以下自然人、法人或非法人组织为关联方:\n(一)在过去十二个月内或者根据相关协议安排在未来十二个月内存在本办法第六条、第七条规定情形之一的;\n(二)本办法第六条第(一)至(三)项所列关联方的其他关系密切的家庭成员;\n(三)银行保险机构内部工作人员及其控制的法人或其他组织;\n(四)本办法第六条第(二)(三)项,以及第七条第(二)项所列关联方可施加重大影响的法人或非法人组织;\n(五)对银行保险机构有影响,与银行保险机构发生或可能发生未遵守商业原则、有失公允的交易行为,并可据以从交易中获取利益的自然人、法人或非法\n人组织。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第二章",
+    "chapter_title": "关联方",
+    "text_zh": "第九条 银保监会或其派出机构可以根据实质重于形式和穿透的原则,认定可能导致银行保险机构利益转移的自然人、法人或非法人组织为关联方。\n第三章 关联交易",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 银保监会或其派出机构可以根据实质重于形式和穿透的原则,认定可能导致银行保险机构利益转移的自然人、法人或非法人组织为关联方。\n第三章 关联交易"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第三章",
+    "chapter_title": "关联交易",
+    "text_zh": "第十条 银行保险机构关联交易是指银行保险机构与关联方之间发生的利益转移事项。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 36,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 银行保险机构关联交易是指银行保险机构与关联方之间发生的利益转移事项。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2915,
+    "source_end": 3142,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第三章",
+    "chapter_title": "关联交易",
+    "text_zh": "第十一条 银行保险机构应当按照实质重于形式和穿透原则,识别、认定、管理关联交易及计算关联交易金额。\n计算关联自然人与银行保险机构的关联交易余额时,其配偶、父母、成年子女、兄弟姐妹等与该银行保险机构的关联交易应当合并计算;计算关联法人或\n非法人组织与银行保险机构的关联交易余额时,与其存在控制关系的法人或非法人组织与该银行保险机构的关联交易应当合并计算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 162,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 银行保险机构应当按照实质重于形式和穿透原则,识别、认定、管理关联交易及计算关联交易金额。\n计算关联自然人与银行保险机构的关联交易余额时,其配偶、父母、成年子女、兄弟姐妹等与该银行保险机构的关联交易应当合并计算;计算关联法人或\n非法人组织与银行保险机构的关联交易余额时,与其存在控制关系的法人或非法人组织与该银行保险机构的关联交易应当合并计算。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 21.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "法人",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 88,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第三章",
+    "chapter_title": "关联交易",
+    "text_zh": "第十二条 银保监会或其派出机构可以根据实质重于形式和穿透监管原则认定关联交易。\n银保监会可以根据银行保险机构的公司治理状况、关联交易风险状况、机构类型特点等对银行保险机构适用的关联交易监管比例进行设定或调整。\n第一节 银行机构关联交易",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 银保监会或其派出机构可以根据实质重于形式和穿透监管原则认定关联交易。\n银保监会可以根据银行保险机构的公司治理状况、关联交易风险状况、机构类型特点等对银行保险机构适用的关联交易监管比例进行设定或调整。\n第一节 银行机构关联交易"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2080,
+    "source_end": 2197,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第一节",
+    "chapter_title": "银行机构关联交易",
+    "text_zh": "第十三条 银行机构的关联交易包括以下类型:\n(一)授信类关联交易:指银行机构向关联方提供资金支持、或者对关联方在有关经济活动中可能产生的赔偿、支付责任作出保证,包括贷款(含贸易融资)、\n票据承兑和贴现、透支、债券投资、特定目的载体投资、开立信用证、保理、担保、保函、贷款承诺、证券回购、拆借以及其他实质上由银行机构承担信用\n风险的表内外业务等;(二)资产转移类关联交易:包括银行机构与关联方之间发生的自用动产与不动产买卖,信贷资产及其收(受)益权买卖,抵债资产的接收和处置等;\n(三)服务类关联交易:包括信用评估、资产评估、法律服务、咨询服务、信息服务、审计服务、技术和基础设施服务、财产租赁以及委托或受托销售等;\n(四)存款和其他类型关联交易,以及根据实质重于形式原则认定的可能引致银行机构利益转移的事项。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 304,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 银行机构的关联交易包括以下类型:\n(一)授信类关联交易:指银行机构向关联方提供资金支持、或者对关联方在有关经济活动中可能产生的赔偿、支付责任作出保证,包括贷款(含贸易融资)、\n票据承兑和贴现、透支、债券投资、特定目的载体投资、开立信用证、保理、担保、保函、贷款承诺、证券回购、拆借以及其他实质上由银行机构承担信用\n风险的表内外业务等;(二)资产转移类关联交易:包括银行机构与关联方之间发生的自用动产与不动产买卖,信贷资产及其收(受)益权买卖,抵债资产的接收和处置等;\n(三)服务类关联交易:包括信用评估、资产评估、法律服务、咨询服务、信息服务、审计服务、技术和基础设施服务、财产租赁以及委托或受托销售等;\n(四)存款和其他类型关联交易,以及根据实质重于形式原则认定的可能引致银行机构利益转移的事项。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 19.5,
+        "matched_keywords": [
+          "银行",
+          "支付",
+          "证券",
+          "银行 (weak)",
+          "支付 (weak)",
+          "证券 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2198,
+    "source_end": 2552,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第一节",
+    "chapter_title": "银行机构关联交易",
+    "text_zh": "第十四条 银行机构关联交易分为重大关联交易和一般关联交易。\n银行机构重大关联交易是指银行机构与单个关联方之间单笔交易金额达到银行机构上季末资本净额1%以上,或累计达到银行机构上季末资本净额5%以上\n的交易。\n银行机构与单个关联方的交易金额累计达到前款标准后,其后发生的关联交易,每累计达到上季末资本净额1%以上,则应当重新认定为重大关联交易。\n一般关联交易是指除重大关联交易以外的其他关联交易。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 178,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 银行机构关联交易分为重大关联交易和一般关联交易。\n银行机构重大关联交易是指银行机构与单个关联方之间单笔交易金额达到银行机构上季末资本净额1%以上,或累计达到银行机构上季末资本净额5%以上\n的交易。\n银行机构与单个关联方的交易金额累计达到前款标准后,其后发生的关联交易,每累计达到上季末资本净额1%以上,则应当重新认定为重大关联交易。\n一般关联交易是指除重大关联交易以外的其他关联交易。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "银行 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 13060,
+    "source_end": 13307,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第一节",
+    "chapter_title": "银行机构关联交易",
+    "text_zh": "第十五条 银行机构关联交易金额计算方式如下:\n(一)授信类关联交易原则上以签订协议的金额计算交易金额;\n(二)资产转移类关联交易以交易价格或公允价值计算交易金额;\n(三)服务类关联交易以业务收入或支出金额计算交易金额;\n(四)银保监会确定的其他计算口径。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 银行机构关联交易金额计算方式如下:\n(一)授信类关联交易原则上以签订协议的金额计算交易金额;\n(二)资产转移类关联交易以交易价格或公允价值计算交易金额;\n(三)服务类关联交易以业务收入或支出金额计算交易金额;\n(四)银保监会确定的其他计算口径。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "银行",
+          "银行 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2966,
+    "source_end": 3142,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第一节",
+    "chapter_title": "银行机构关联交易",
+    "text_zh": "第十六条 银行机构对单个关联方的授信余额不得超过银行机构上季末资本净额的10%。银行机构对单个关联法人或非法人组织所在集团客户的合计授信\n余额不得超过银行机构上季末资本净额的15%。银行机构对全部关联方的授信余额不得超过银行机构上季末资本净额的50%。\n计算授信余额时,可以扣除授信时关联方提供的保证金存款以及质押的银行存单和国债金额。\n银行机构与关联方开展同业业务应当同时遵守关于同业业务的相关规定。银行机构与境内外关联方银行之间开展的同业业务、外资银行与母行集团内银\n行之间开展的业务可不适用本条第一款所列比例规定和本办法第十四条重大关联交易标准。\n被银保监会或其派出机构采取风险处置或接管等措施的银行机构,经银保监会批准可不适用本条所列比例规定。\n第二节 保险机构关联交易",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 312,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 银行机构对单个关联方的授信余额不得超过银行机构上季末资本净额的10%。银行机构对单个关联法人或非法人组织所在集团客户的合计授信\n余额不得超过银行机构上季末资本净额的15%。银行机构对全部关联方的授信余额不得超过银行机构上季末资本净额的50%。\n计算授信余额时,可以扣除授信时关联方提供的保证金存款以及质押的银行存单和国债金额。\n银行机构与关联方开展同业业务应当同时遵守关于同业业务的相关规定。银行机构与境内外关联方银行之间开展的同业业务、外资银行与母行集团内银\n行之间开展的业务可不适用本条第一款所列比例规定和本办法第十四条重大关联交易标准。\n被银保监会或其派出机构采取风险处置或接管等措施的银行机构,经银保监会批准可不适用本条所列比例规定。\n第二节 保险机构关联交易"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 25.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2879,
+    "source_end": 3218,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第二节",
+    "chapter_title": "保险机构关联交易",
+    "text_zh": "第十七条 保险机构的关联交易包括以下类型:\n(一)资金运用类关联交易:包括在关联方办理银行存款;直接或间接买卖债券、股票等有价证券,投资关联方的股权、不动产及其他资产;直接或间接投资关\n联方发行的金融产品,或投资基础资产包含关联方资产的金融产品等。\n(二)服务类关联交易:包括审计服务、精算服务、法律服务、咨询顾问服务、资产评估、技术和基础设施服务、委托或受托管理资产、租赁资产等。\n(三)利益转移类关联交易:包括赠与、给予或接受财务资助,权利转让,担保,债权债务转移,放弃优先受让权、同比例增资权或其他权利等。\n(四)保险业务和其他类型关联交易,以及根据实质重于形式原则认定的可能引致保险机构利益转移的事项。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 263,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 保险机构的关联交易包括以下类型:\n(一)资金运用类关联交易:包括在关联方办理银行存款;直接或间接买卖债券、股票等有价证券,投资关联方的股权、不动产及其他资产;直接或间接投资关\n联方发行的金融产品,或投资基础资产包含关联方资产的金融产品等。\n(二)服务类关联交易:包括审计服务、精算服务、法律服务、咨询顾问服务、资产评估、技术和基础设施服务、委托或受托管理资产、租赁资产等。\n(三)利益转移类关联交易:包括赠与、给予或接受财务资助,权利转让,担保,债权债务转移,放弃优先受让权、同比例增资权或其他权利等。\n(四)保险业务和其他类型关联交易,以及根据实质重于形式原则认定的可能引致保险机构利益转移的事项。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "证券",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)",
+          "证券 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第二节",
+    "chapter_title": "保险机构关联交易",
+    "text_zh": "第十八条 保险机构关联交易金额以交易对价或转移的利益计算。具体计算方式如下:\n(一)资金运用类关联交易以保险资金投资金额计算交易金额。其中,投资于关联方发行的金融产品且基础资产涉及其他关联方的,以投资金额计算交易金\n额;投资于关联方发行的金融产品且基础资产不涉及其他关联方的,以发行费或投资管理费计算交易金额;买入资产的,以交易价格计算交易金额。\n(二)服务类关联交易以业务收入或支出金额计算交易金额。\n(三)利益转移类关联交易以资助金额、交易价格、担保金额、标的市场价值等计算交易金额。\n(四)银保监会确定的其他计算口径。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 232,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 保险机构关联交易金额以交易对价或转移的利益计算。具体计算方式如下:\n(一)资金运用类关联交易以保险资金投资金额计算交易金额。其中,投资于关联方发行的金融产品且基础资产涉及其他关联方的,以投资金额计算交易金\n额;投资于关联方发行的金融产品且基础资产不涉及其他关联方的,以发行费或投资管理费计算交易金额;买入资产的,以交易价格计算交易金额。\n(二)服务类关联交易以业务收入或支出金额计算交易金额。\n(三)利益转移类关联交易以资助金额、交易价格、担保金额、标的市场价值等计算交易金额。\n(四)银保监会确定的其他计算口径。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "金融 (weak)",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3525,
+    "source_end": 3787,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第二节",
+    "chapter_title": "保险机构关联交易",
+    "text_zh": "第十九条 保险机构关联交易分为重大关联交易和一般关联交易。\n保险机构重大关联交易是指保险机构与单个关联方之间单笔或年度累计交易金额达到3000万元以上,且占保险机构上一年度末经审计的净资产的1%以上\n的交易。\n一个年度内保险机构与单个关联方的累计交易金额达到前款标准后,其后发生的关联交易再次累计达到前款标准,应当重新认定为重大关联交易。\n保险机构一般关联交易是指除重大关联交易以外的其他关联交易。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 181,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 保险机构关联交易分为重大关联交易和一般关联交易。\n保险机构重大关联交易是指保险机构与单个关联方之间单笔或年度累计交易金额达到3000万元以上,且占保险机构上一年度末经审计的净资产的1%以上\n的交易。\n一个年度内保险机构与单个关联方的累计交易金额达到前款标准后,其后发生的关联交易再次累计达到前款标准,应当重新认定为重大关联交易。\n保险机构一般关联交易是指除重大关联交易以外的其他关联交易。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第二节",
+    "chapter_title": "保险机构关联交易",
+    "text_zh": "第二十条 保险机构资金运用关联交易应符合以下比例要求:\n(一)保险机构投资全部关联方的账面余额,合计不得超过保险机构上一年度末总资产的25%与上一年度末净资产二者中的金额较低者;\n(二)保险机构投资权益类资产、不动产类资产、其他金融资产和境外投资的账面余额中,对关联方的投资金额不得超过上述各类资产投资限额的30%;\n(三)保险机构投资单一关联方的账面余额,合计不得超过保险机构上一年度末净资产的30%;\n(四)保险机构投资金融产品,若底层基础资产涉及控股股东、实际控制人或控股股东、实际控制人的关联方,保险机构购买该金融产品的份额不得超过该\n产品发行总额的50%。\n保险机构与其控股的非金融子公司投资关联方的账面余额及购买份额应当合并计算并符合前述比例要求。\n保险机构与其控股子公司之间,以及控股子公司之间发生的关联交易,不适用前述规定。\n第三节 信托公司及其他非银行金融机构关联交易",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 345,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 保险机构资金运用关联交易应符合以下比例要求:\n(一)保险机构投资全部关联方的账面余额,合计不得超过保险机构上一年度末总资产的25%与上一年度末净资产二者中的金额较低者;\n(二)保险机构投资权益类资产、不动产类资产、其他金融资产和境外投资的账面余额中,对关联方的投资金额不得超过上述各类资产投资限额的30%;\n(三)保险机构投资单一关联方的账面余额,合计不得超过保险机构上一年度末净资产的30%;\n(四)保险机构投资金融产品,若底层基础资产涉及控股股东、实际控制人或控股股东、实际控制人的关联方,保险机构购买该金融产品的份额不得超过该\n产品发行总额的50%。\n保险机构与其控股的非金融子公司投资关联方的账面余额及购买份额应当合并计算并符合前述比例要求。\n保险机构与其控股子公司之间,以及控股子公司之间发生的关联交易,不适用前述规定。\n\n第三节 信托公司及其他非银行金融机构关联交易"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 27.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第三节",
+    "chapter_title": "信托公司及其他非银行金融机构关联交易",
+    "text_zh": "第二十一条 信托公司应当按照穿透原则和实质重于形式原则,加强关联交易认定和关联交易资金来源与运用的双向核查。\n信托公司关联交易分为重大关联交易和一般关联交易。重大关联交易是指信托公司固有财产与单个关联方之间、信托公司信托财产与单个关联方之间单\n笔交易金额占信托公司注册资本5%以上,或信托公司与单个关联方发生交易后,信托公司与该关联方的交易余额占信托公司注册资本20%以上的交易。一般关\n联交易是指除重大关联交易以外的其他关联交易。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 199,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 信托公司应当按照穿透原则和实质重于形式原则,加强关联交易认定和关联交易资金来源与运用的双向核查。\n信托公司关联交易分为重大关联交易和一般关联交易。重大关联交易是指信托公司固有财产与单个关联方之间、信托公司信托财产与单个关联方之间单\n笔交易金额占信托公司注册资本5%以上,或信托公司与单个关联方发生交易后,信托公司与该关联方的交易余额占信托公司注册资本20%以上的交易。一般关\n联交易是指除重大关联交易以外的其他关联交易。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4383,
+    "source_end": 4599,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第三节",
+    "chapter_title": "信托公司及其他非银行金融机构关联交易",
+    "text_zh": "第二十二条 金融资产管理公司、金融租赁公司、汽车金融公司、消费金融公司(下称其他非银行金融机构)的关联交易包括以下类型:\n(一)以资产为基础的关联交易:包括资产买卖与委托(代理)处置、资产重组(置换)、资产租赁等;\n(二)以资金为基础的关联交易:包括投资、贷款、融资租赁、借款、拆借、存款、担保等;\n(三)以中间服务为基础的关联交易:包括评级服务、评估服务、审计服务、法律服务、拍卖服务、咨询服务、业务代理、中介服务等;\n(四)其他类型关联交易以及根据实质重于形式原则认定的可能引致其他非银行金融机构利益转移的事项。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 213,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 金融资产管理公司、金融租赁公司、汽车金融公司、消费金融公司(下称其他非银行金融机构)的关联交易包括以下类型:\n(一)以资产为基础的关联交易:包括资产买卖与委托(代理)处置、资产重组(置换)、资产租赁等;\n(二)以资金为基础的关联交易:包括投资、贷款、融资租赁、借款、拆借、存款、担保等;\n(三)以中间服务为基础的关联交易:包括评级服务、评估服务、审计服务、法律服务、拍卖服务、咨询服务、业务代理、中介服务等;\n(四)其他类型关联交易以及根据实质重于形式原则认定的可能引致其他非银行金融机构利益转移的事项。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第三节",
+    "chapter_title": "信托公司及其他非银行金融机构关联交易",
+    "text_zh": "第二十三条 其他非银行金融机构的关联交易分为重大关联交易和一般关联交易。\n其他非银行金融机构重大关联交易是指其他非银行金融机构与单个关联方之间单笔交易金额达到其他非银行金融机构上季末资本净额1%以上,或累计达\n到其他非银行金融机构上季末资本净额5%以上的交易。金融租赁公司除外。\n金融租赁公司重大关联交易是指金融租赁公司与单个关联方之间单笔交易金额达到金融租赁公司上季末资本净额5%以上,或累计达到金融租赁公司上季\n末资本净额10%以上的交易。\n其他非银行金融机构与单个关联方的交易金额累计达到前款标准后,其后发生的关联交易,每累计达到上季末资本净额1%以上,应当重新认定为重大关联交\n易。金融租赁公司除外。\n金融租赁公司与单个关联方的交易金额累计达到前款标准后,其后发生的关联交易,每累计达到上季末资本净额5%以上,应当重新认定为重大关联交易。\n一般关联交易是指除重大关联交易以外的其他关联交易。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 361,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 其他非银行金融机构的关联交易分为重大关联交易和一般关联交易。\n其他非银行金融机构重大关联交易是指其他非银行金融机构与单个关联方之间单笔交易金额达到其他非银行金融机构上季末资本净额1%以上,或累计达\n到其他非银行金融机构上季末资本净额5%以上的交易。金融租赁公司除外。\n金融租赁公司重大关联交易是指金融租赁公司与单个关联方之间单笔交易金额达到金融租赁公司上季末资本净额5%以上,或累计达到金融租赁公司上季\n末资本净额10%以上的交易。\n其他非银行金融机构与单个关联方的交易金额累计达到前款标准后,其后发生的关联交易,每累计达到上季末资本净额1%以上,应当重新认定为重大关联交\n易。金融租赁公司除外。\n金融租赁公司与单个关联方的交易金额累计达到前款标准后,其后发生的关联交易,每累计达到上季末资本净额5%以上,应当重新认定为重大关联交易。\n一般关联交易是指除重大关联交易以外的其他关联交易。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 24.0,
+        "matched_keywords": [
+          "银行",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4859,
+    "source_end": 5258,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第三节",
+    "chapter_title": "信托公司及其他非银行金融机构关联交易",
+    "text_zh": "第二十四条 其他非银行金融机构的关联交易金额以交易对价或转移的利益计算,具体计算方式如下:\n(一)以资产为基础的关联交易以交易价格计算交易金额;\n(二)以资金为基础的关联交易以签订协议的金额计算交易金额;\n(三)以中间服务为基础的关联交易以业务收入或支出金额计算交易金额;\n(四)银保监会确定的其他计算口径。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 135,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 其他非银行金融机构的关联交易金额以交易对价或转移的利益计算,具体计算方式如下:\n(一)以资产为基础的关联交易以交易价格计算交易金额;\n(二)以资金为基础的关联交易以签订协议的金额计算交易金额;\n(三)以中间服务为基础的关联交易以业务收入或支出金额计算交易金额;\n(四)银保监会确定的其他计算口径。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5259,
+    "source_end": 5413,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第三节",
+    "chapter_title": "信托公司及其他非银行金融机构关联交易",
+    "text_zh": "第二十五条 金融资产管理公司及其非金融控股子公司与关联方之间发生的以资金、资产为基础的交易余额应当合并计算,参照适用本办法第十六条相关\n监管要求,金融资产管理公司与其控股子公司之间、以及控股子公司之间发生的关联交易除外。\n金融资产管理公司应当参照本办法第二章规定,将控股子公司的关联方纳入集团关联方范围。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 142,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 金融资产管理公司及其非金融控股子公司与关联方之间发生的以资金、资产为基础的交易余额应当合并计算,参照适用本办法第十六条相关\n监管要求,金融资产管理公司与其控股子公司之间、以及控股子公司之间发生的关联交易除外。\n金融资产管理公司应当参照本办法第二章规定,将控股子公司的关联方纳入集团关联方范围。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4055,
+    "source_end": 4383,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第三节",
+    "chapter_title": "信托公司及其他非银行金融机构关联交易",
+    "text_zh": "第二十六条 金融租赁公司对单个关联方的融资余额不得超过上季末资本净额的30%。\n金融租赁公司对全部关联方的全部融资余额不得超过上季末资本净额的50%。\n金融租赁公司对单个股东及其全部关联方的融资余额不得超过该股东在金融租赁公司的出资额,且应同时满足本条第一款的规定。\n金融租赁公司及其设立的控股子公司、项目公司之间的关联交易不适用本条规定。\n汽车金融公司对单个股东及其关联方的授信余额不得超过该股东在汽车金融公司的出资额。\n第四节 禁止性规定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 201,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 金融租赁公司对单个关联方的融资余额不得超过上季末资本净额的30%。\n金融租赁公司对全部关联方的全部融资余额不得超过上季末资本净额的50%。\n金融租赁公司对单个股东及其全部关联方的融资余额不得超过该股东在金融租赁公司的出资额,且应同时满足本条第一款的规定。\n金融租赁公司及其设立的控股子公司、项目公司之间的关联交易不适用本条规定。\n汽车金融公司对单个股东及其关联方的授信余额不得超过该股东在汽车金融公司的出资额。\n第四节 禁止性规定"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 25.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5567,
+    "source_end": 5788,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第四节",
+    "chapter_title": "禁止性规定",
+    "text_zh": "第二十七条 银行保险机构不得通过掩盖关联关系、拆分交易等各种隐蔽方式规避重大关联交易审批或监管要求。\n银行保险机构不得利用各种嵌套交易拉长融资链条、模糊业务实质、规避监管规定,不得为股东及其关联方违规融资、腾挪资产、空转套利、隐匿风险\n等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 108,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 银行保险机构不得通过掩盖关联关系、拆分交易等各种隐蔽方式规避重大关联交易审批或监管要求。\n银行保险机构不得利用各种嵌套交易拉长融资链条、模糊业务实质、规避监管规定,不得为股东及其关联方违规融资、腾挪资产、空转套利、隐匿风险\n等。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "股东",
+          "股东 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5789,
+    "source_end": 5909,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第四节",
+    "chapter_title": "禁止性规定",
+    "text_zh": "第二十八条 银行机构不得直接通过或借道同业、理财、表外等业务,突破比例限制或违反规定向关联方提供资金。\n银行机构不得接受本行的股权作为质押提供授信。银行机构不得为关联方的融资行为提供担保(含等同于担保的或有事项),但关联方以银行存单、国债提\n供足额反担保的除外。\n银行机构向关联方提供授信发生损失的,自发现损失之日起二年内不得再向该关联方提供授信,但为减少该授信的损失,经银行机构董事会批准的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 181,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 银行机构不得直接通过或借道同业、理财、表外等业务,突破比例限制或违反规定向关联方提供资金。\n银行机构不得接受本行的股权作为质押提供授信。银行机构不得为关联方的融资行为提供担保(含等同于担保的或有事项),但关联方以银行存单、国债提\n供足额反担保的除外。\n银行机构向关联方提供授信发生损失的,自发现损失之日起二年内不得再向该关联方提供授信,但为减少该授信的损失,经银行机构董事会批准的除外。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "银行 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5910,
+    "source_end": 6109,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第四节",
+    "chapter_title": "禁止性规定",
+    "text_zh": "第二十九条 保险机构不得借道不动产项目、非保险子公司、信托计划、资管产品投资,或其他通道、嵌套方式等变相突破监管限制,为关联方违规提供融\n资。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 62,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 保险机构不得借道不动产项目、非保险子公司、信托计划、资管产品投资,或其他通道、嵌套方式等变相突破监管限制,为关联方违规提供融\n资。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6110,
+    "source_end": 6181,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第四节",
+    "chapter_title": "禁止性规定",
+    "text_zh": "第三十条 金融资产管理公司参照执行本办法第二十八条规定,且不得与关联方开展无担保的以资金为基础的关联交易,同业拆借、股东流动性支持以及金\n融监管机构另有规定的除外。非金融子公司负债依存度不得超过30%,确有必要救助的,原则上不得超过70%,并于作出救助决定后3个工作日内向董事会、监事\n会和银保监会报告。\n金融资产管理公司及其子公司将自身形成的不良资产在集团内部转让的,应当由集团母公司董事会审批,金融子公司按规定批量转让的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 192,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 金融资产管理公司参照执行本办法第二十八条规定,且不得与关联方开展无担保的以资金为基础的关联交易,同业拆借、股东流动性支持以及金\n融监管机构另有规定的除外。非金融子公司负债依存度不得超过30%,确有必要救助的,原则上不得超过70%,并于作出救助决定后3个工作日内向董事会、监事\n会和银保监会报告。\n金融资产管理公司及其子公司将自身形成的不良资产在集团内部转让的,应当由集团母公司董事会审批,金融子公司按规定批量转让的除外。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 22.5,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3855,
+    "source_end": 3988,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第四节",
+    "chapter_title": "禁止性规定",
+    "text_zh": "第三十一条 金融租赁公司与关联方开展以资产、资金为基础的关联交易发生损失的,自发现损失之日起二年内不得与该关联方新增以资产、资金为基础\n的关联交易。但为减少损失,经金融租赁公司董事会批准的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 89,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 金融租赁公司与关联方开展以资产、资金为基础的关联交易发生损失的,自发现损失之日起二年内不得与该关联方新增以资产、资金为基础\n的关联交易。但为减少损失,经金融租赁公司董事会批准的除外。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12944,
+    "source_end": 13091,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第四节",
+    "chapter_title": "禁止性规定",
+    "text_zh": "第三十二条 信托公司开展固有业务,不得向关联方融出资金或转移财产,不得为关联方提供担保。\n信托公司开展结构化信托业务不得以利益相关人作为劣后受益人,利益相关人包括但不限于信托公司及其全体员工、信托公司股东等。\n信托公司管理集合资金信托计划,不得将信托资金直接或间接运用于信托公司的股东及其关联方,但信托资金全部来源于股东或其关联方的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 157,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 信托公司开展固有业务,不得向关联方融出资金或转移财产,不得为关联方提供担保。\n信托公司开展结构化信托业务不得以利益相关人作为劣后受益人,利益相关人包括但不限于信托公司及其全体员工、信托公司股东等。\n信托公司管理集合资金信托计划,不得将信托资金直接或间接运用于信托公司的股东及其关联方,但信托资金全部来源于股东或其关联方的除外。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 24.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司管理",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6496,
+    "source_end": 6665,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第四节",
+    "chapter_title": "禁止性规定",
+    "text_zh": "第三十三条 公司治理监管评估结果为E级的银行保险机构,不得开展授信类、资金运用类、以资金为基础的关联交易。\n经银保监会或其派出机构认可的\n除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 63,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 公司治理监管评估结果为E级的银行保险机构,不得开展授信类、资金运用类、以资金为基础的关联交易。经银保监会或其派出机构认可的\n除外。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6667,
+    "source_end": 6738,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第四节",
+    "chapter_title": "禁止性规定",
+    "text_zh": "第三十四条 银行保险机构违反本办法规定的,银保监会或其派出机构予以责令改正,包括以下措施:\n(一)责令禁止与特定关联方开展交易;(二)要求对特定的交易出具审计报告;\n(三)根据银行保险机构关联交易风险状况,要求银行保险机构缩减对单个或全部关联方交易金额的比例要求,直至停止关联交易;\n(四)责令更换会计师事务所、专业评估机构、律师事务所等服务机构;\n(五)银保监会或其派出机构可依法采取的其他措施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 172,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 银行保险机构违反本办法规定的,银保监会或其派出机构予以责令改正,包括以下措施:\n(一)责令禁止与特定关联方开展交易;(二)要求对特定的交易出具审计报告;\n(三)根据银行保险机构关联交易风险状况,要求银行保险机构缩减对单个或全部关联方交易金额的比例要求,直至停止关联交易;\n(四)责令更换会计师事务所、专业评估机构、律师事务所等服务机构;\n(五)银保监会或其派出机构可依法采取的其他措施。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6739,
+    "source_end": 6938,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第四节",
+    "chapter_title": "禁止性规定",
+    "text_zh": "第三十五条 银行保险机构董事、监事、高级管理人员或其他有关从业人员违反本办法规定的,银保监会或其派出机构可以对相关责任人员采取以下措施:\n(一)责令改正;(二)记入履职记录并进行行业通报;\n(三)责令银行保险机构予以问责;(四)银保监会或其派出机构可依法采取的其他措施。\n银行保险机构的关联方违反本办法规定的,银保监会或其派出机构可以采取公开谴责等措施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 155,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 银行保险机构董事、监事、高级管理人员或其他有关从业人员违反本办法规定的,银保监会或其派出机构可以对相关责任人员采取以下措施:\n(一)责令改正;(二)记入履职记录并进行行业通报;\n(三)责令银行保险机构予以问责;(四)银保监会或其派出机构可依法采取的其他措施。\n银行保险机构的关联方违反本办法规定的,银保监会或其派出机构可以采取公开谴责等措施。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12802,
+    "source_end": 13029,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第四节",
+    "chapter_title": "禁止性规定",
+    "text_zh": "第三十六条 持有银行保险机构5%以上股权的股东质押股权数量超过其持有该银行保险机构股权总量50%的,银保监会或其派出机构可以限制其与银行保\n险机构开展关联交易。\n第四章 关联交易的内部管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 持有银行保险机构5%以上股权的股东质押股权数量超过其持有该银行保险机构股权总量50%的,银保监会或其派出机构可以限制其与银行保\n险机构开展关联交易。\n第四章 关联交易的内部管理"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "股东",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7117,
+    "source_end": 7211,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第三十七条 银行保险机构应当制定关联交易管理制度。\n关联交易管理制度包括关联交易的管理架构和相应职责分工,关联方的识别、报告、信息收集与管理,关联交易的定价、审查、回避、报告、披露、审计\n和责任追究等内容。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 89,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 银行保险机构应当制定关联交易管理制度。\n关联交易管理制度包括关联交易的管理架构和相应职责分工,关联方的识别、报告、信息收集与管理,关联交易的定价、审查、回避、报告、披露、审计\n和责任追究等内容。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7212,
+    "source_end": 7315,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第三十八条 银行保险机构应对其控股子公司与银行保险机构关联方发生的关联交易事项进行管理,明确管理机制,加强风险管控。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 54,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条 银行保险机构应对其控股子公司与银行保险机构关联方发生的关联交易事项进行管理,明确管理机制,加强风险管控。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7316,
+    "source_end": 7374,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第三十九条 银行保险机构董事会应当设立关联交易控制委员会,负责关联交易管理、审查和风险控制。银保监会对设立董事会下设专业委员会另有规定\n的,从其规定。\n董事会对关联交易管理承担最终责任,关联交易控制委员会、涉及业务部门、风险审批及合规审查的部门负责人对关联交易的合规性承担相应责任。\n关联交易控制委员会由三名以上董事组成,由独立董事担任负责人。关联交易控制委员会应重点关注关联交易的合规性、公允性和必要性。\n银行保险机构应当在管理层面设立跨部门的关联交易管理办公室,成员应当包括合规、业务、风控、财务等相关部门人员,并明确牵头部门、设置专岗,负\n责关联方识别维护、关联交易管理等日常事务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 266,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条 银行保险机构董事会应当设立关联交易控制委员会,负责关联交易管理、审查和风险控制。银保监会对设立董事会下设专业委员会另有规定\n的,从其规定。\n董事会对关联交易管理承担最终责任,关联交易控制委员会、涉及业务部门、风险审批及合规审查的部门负责人对关联交易的合规性承担相应责任。\n关联交易控制委员会由三名以上董事组成,由独立董事担任负责人。关联交易控制委员会应重点关注关联交易的合规性、公允性和必要性。\n银行保险机构应当在管理层面设立跨部门的关联交易管理办公室,成员应当包括合规、业务、风控、财务等相关部门人员,并明确牵头部门、设置专岗,负\n责关联方识别维护、关联交易管理等日常事务。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "administrative_procedures",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 10.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7375,
+    "source_end": 7669,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第四十条 银行保险机构应当建立关联方信息档案,确定重要分行、分公司标准或名单,明确具有大额授信、资产转移、保险资金运用等核心业务审批或决\n策权的人员范围。\n银行保险机构应当通过关联交易监管相关信息系统及时向银保监会或其派出机构报送关联方、重大关联交易、季度关联交易情况等信息,保证数据的真\n实性、准确性,不得瞒报、漏报。\n银行保险机构应当提高关联方和关联交易管理的信息化和智能化水平,强化大数据管理能力。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 182,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条 银行保险机构应当建立关联方信息档案,确定重要分行、分公司标准或名单,明确具有大额授信、资产转移、保险资金运用等核心业务审批或决\n策权的人员范围。\n银行保险机构应当通过关联交易监管相关信息系统及时向银保监会或其派出机构报送关联方、重大关联交易、季度关联交易情况等信息,保证数据的真\n实性、准确性,不得瞒报、漏报。\n银行保险机构应当提高关联方和关联交易管理的信息化和智能化水平,强化大数据管理能力。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据管理",
+          "数据 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7670,
+    "source_end": 7872,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_041",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第四十一条 银行保险机构董事、监事、高级管理人员及具有大额授信、资产转移、保险资金运用等核心业务审批或决策权的人员,应当自任职之日起15\n个工作日内,按本办法有关规定向银行保险机构报告其关联方情况。\n持有银行保险机构5%以上股权,或持股不足5%但是对银行保险机构经营管理有重大影响的自然人、法人或非法人组织,应当在持股达到5%之日或能够施\n加重大影响之日起15个工作日内,按本办法有关规定向银行保险机构报告其关联方情况。\n前款报告事项如发生变动,应当在变动后的15个工作日内向银行保险机构报告并更新关联方情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 224,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十一条 银行保险机构董事、监事、高级管理人员及具有大额授信、资产转移、保险资金运用等核心业务审批或决策权的人员,应当自任职之日起15\n个工作日内,按本办法有关规定向银行保险机构报告其关联方情况。\n持有银行保险机构5%以上股权,或持股不足5%但是对银行保险机构经营管理有重大影响的自然人、法人或非法人组织,应当在持股达到5%之日或能够施\n加重大影响之日起15个工作日内,按本办法有关规定向银行保险机构报告其关联方情况。\n前款报告事项如发生变动,应当在变动后的15个工作日内向银行保险机构报告并更新关联方情况。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 25.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "法人",
+          "董事 (weak)",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7873,
+    "source_end": 8128,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_042",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "",
+    "chunk_index": 41,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第四十二条 银行保险机构关联方不得通过隐瞒关联关系等不当手段规避关联交易的内部审查、外部监管以及报告披露义务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 52,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十二条 银行保险机构关联方不得通过隐瞒关联关系等不当手段规避关联交易的内部审查、外部监管以及报告披露义务。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8129,
+    "source_end": 8184,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_043",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "",
+    "chunk_index": 42,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第四十三条\n银行保险机构应当主动穿透识别关联交易,动态监测交易资金来源和流向,及时掌握基础资产状况,动态评估对风险暴露和资本占用的影响程\n度,建立有效的关联交易风险控制机制,及时调整经营行为以符合本办法的有关规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 99,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十三条\n银行保险机构应当主动穿透识别关联交易,动态监测交易资金来源和流向,及时掌握基础资产状况,动态评估对风险暴露和资本占用的影响程\n度,建立有效的关联交易风险控制机制,及时调整经营行为以符合本办法的有关规定。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8185,
+    "source_end": 8292,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_044",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "44",
+    "article_number_normalized": "044",
+    "article_title": "",
+    "chunk_index": 43,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第四十四条 关联交易应当订立书面协议,按照商业原则,以不优于对非关联方同类交易的条件进行。必要时关联交易控制委员会可以聘请财务顾问等独立\n第三方出具报告,作为判断的依据。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 78,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十四条 关联交易应当订立书面协议,按照商业原则,以不优于对非关联方同类交易的条件进行。必要时关联交易控制委员会可以聘请财务顾问等独立\n第三方出具报告,作为判断的依据。"
+      }
+    ],
+    "topics": [
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8293,
+    "source_end": 8378,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_045",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "45",
+    "article_number_normalized": "045",
+    "article_title": "",
+    "chunk_index": 44,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第四十五条 银行保险机构应当完善关联交易内控机制,优化关联交易管理流程,关键环节的审查意见以及关联交易控制委员会等会议决议、记录应当清晰\n可查。\n一般关联交易按照公司内部管理制度和授权程序审查,报关联交易控制委员会备案。重大关联交易经由关联交易控制委员会审查后,提交董事会批准。董\n事会会议所作决议须经非关联董事2/3以上通过。出席董事会会议的非关联董事人数不足三人的,应当提交股东(大)会审议。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 178,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十五条 银行保险机构应当完善关联交易内控机制,优化关联交易管理流程,关键环节的审查意见以及关联交易控制委员会等会议决议、记录应当清晰\n可查。\n一般关联交易按照公司内部管理制度和授权程序审查,报关联交易控制委员会备案。重大关联交易经由关联交易控制委员会审查后,提交董事会批准。董\n事会会议所作决议须经非关联董事2/3以上通过。出席董事会会议的非关联董事人数不足三人的,应当提交股东(大)会审议。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "administrative_procedures",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 15.0,
+        "matched_keywords": [
+          "委员会",
+          "会议"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8379,
+    "source_end": 8577,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_046",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "46",
+    "article_number_normalized": "046",
+    "article_title": "",
+    "chunk_index": 45,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第四十六条 银行保险机构关联交易控制委员会、董事会及股东(大)会对关联交易进行表决或决策时,与该关联交易有利害关系的人员应当回避。\n如银行保险机构未设立股东(大)会,或者因回避原则而无法召开股东(大)会的,仍由董事会审议且不适用本条第一款关于回避的规定,但关联董事应出具不存\n在利益输送的声明。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 131,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十六条 银行保险机构关联交易控制委员会、董事会及股东(大)会对关联交易进行表决或决策时,与该关联交易有利害关系的人员应当回避。\n如银行保险机构未设立股东(大)会,或者因回避原则而无法召开股东(大)会的,仍由董事会审议且不适用本条第一款关于回避的规定,但关联董事应出具不存\n在利益输送的声明。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "董事会",
+          "股东",
+          "董事 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8578,
+    "source_end": 8725,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_047",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "47",
+    "article_number_normalized": "047",
+    "article_title": "",
+    "chunk_index": 46,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第四十七条 银行保险机构与同一关联方之间长期持续发生的,需要反复签订交易协议的提供服务类、保险业务类及其他经银保监会认可的关联交易,可以\n签订统一交易协议,协议期限一般不超过三年。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十七条 银行保险机构与同一关联方之间长期持续发生的,需要反复签订交易协议的提供服务类、保险业务类及其他经银保监会认可的关联交易,可以\n签订统一交易协议,协议期限一般不超过三年。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_048",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "48",
+    "article_number_normalized": "048",
+    "article_title": "",
+    "chunk_index": 47,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第四十八条 统一交易协议的签订、续签、实质性变更,应按照重大关联交易进行内部审查、报告和信息披露。统一交易协议下发生的关联交易无需逐笔\n进行审查、报告和披露,但应当在季度报告中说明执行情况。统一交易协议应当明确或预估关联交易金额。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 104,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十八条 统一交易协议的签订、续签、实质性变更,应按照重大关联交易进行内部审查、报告和信息披露。统一交易协议下发生的关联交易无需逐笔\n\n进行审查、报告和披露,但应当在季度报告中说明执行情况。统一交易协议应当明确或预估关联交易金额。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8817,
+    "source_end": 8933,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_049",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "49",
+    "article_number_normalized": "049",
+    "article_title": "",
+    "chunk_index": 48,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第四十九条 独立董事应当逐笔对重大关联交易的公允性、合规性以及内部审批程序履行情况发表书面意见。独立董事认为有必要的,可以聘请中介机构\n等独立第三方提供意见,费用由银行保险机构承担。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 84,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十九条 独立董事应当逐笔对重大关联交易的公允性、合规性以及内部审批程序履行情况发表书面意见。独立董事认为有必要的,可以聘请中介机构\n等独立第三方提供意见,费用由银行保险机构承担。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8934,
+    "source_end": 9025,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_050",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "50",
+    "article_number_normalized": "050",
+    "article_title": "",
+    "chunk_index": 49,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第五十条 对于未按照规定报告关联方、违规开展关联交易等情形,银行保险机构应当按照内部问责制度对相关人员进行问责,并将问责情况报关联交易控\n制委员会。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十条 对于未按照规定报告关联方、违规开展关联交易等情形,银行保险机构应当按照内部问责制度对相关人员进行问责,并将问责情况报关联交易控\n制委员会。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3001,
+    "source_end": 3142,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_051",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "51",
+    "article_number_normalized": "051",
+    "article_title": "",
+    "chunk_index": 50,
+    "chapter": "第四章",
+    "chapter_title": "关联交易的内部管理",
+    "text_zh": "第五十一条 银行保险机构应当每年至少对关联交易进行一次专项审计,并将审计结果报董事会和监事会。\n银行保险机构不得聘用关联方控制的会计师事务所、专业评估机构、律师事务所为其提供审计、评估等服务。\n第五章 关联交易的报告和披露",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 101,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十一条 银行保险机构应当每年至少对关联交易进行一次专项审计,并将审计结果报董事会和监事会。\n银行保险机构不得聘用关联方控制的会计师事务所、专业评估机构、律师事务所为其提供审计、评估等服务。\n第五章 关联交易的报告和披露"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9101,
+    "source_end": 9212,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_052",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "52",
+    "article_number_normalized": "052",
+    "article_title": "",
+    "chunk_index": 51,
+    "chapter": "第五章",
+    "chapter_title": "关联交易的报告和披露",
+    "text_zh": "第五十二条 银行保险机构及其关联方应当按照本办法有关规定,真实、准确、完整、及时地报告、披露关联交易信息,不得存在任何虚假记载、误导性陈\n述或重大遗漏。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 66,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十二条 银行保险机构及其关联方应当按照本办法有关规定,真实、准确、完整、及时地报告、披露关联交易信息,不得存在任何虚假记载、误导性陈\n述或重大遗漏。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9213,
+    "source_end": 9289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_053",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "53",
+    "article_number_normalized": "053",
+    "article_title": "",
+    "chunk_index": 52,
+    "chapter": "第五章",
+    "chapter_title": "关联交易的报告和披露",
+    "text_zh": "第五十三条 银行保险机构应当在签订以下交易协议后15个工作日内逐笔向银保监会或其派出机构报告:\n(一)重大关联交易;(二)统一交易协议的签订、续签或实质性变更;\n(三)银保监会要求报告的其他交易。\n信托公司关联交易逐笔报告另有规定的,从其规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 103,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十三条 银行保险机构应当在签订以下交易协议后15个工作日内逐笔向银保监会或其派出机构报告:\n(一)重大关联交易;(二)统一交易协议的签订、续签或实质性变更;\n(三)银保监会要求报告的其他交易。\n信托公司关联交易逐笔报告另有规定的,从其规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9290,
+    "source_end": 9412,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_054",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "54",
+    "article_number_normalized": "054",
+    "article_title": "",
+    "chunk_index": 53,
+    "chapter": "第五章",
+    "chapter_title": "关联交易的报告和披露",
+    "text_zh": "第五十四条 银行保险机构应当按照本办法有关规定统计季度全部关联交易金额及比例,并于每季度结束后30日内通过关联交易监管相关信息系统向银保\n监会或其派出机构报送关联交易有关情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 82,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十四条 银行保险机构应当按照本办法有关规定统计季度全部关联交易金额及比例,并于每季度结束后30日内通过关联交易监管相关信息系统向银保\n监会或其派出机构报送关联交易有关情况。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9413,
+    "source_end": 9501,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_055",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "55",
+    "article_number_normalized": "055",
+    "article_title": "",
+    "chunk_index": 54,
+    "chapter": "第五章",
+    "chapter_title": "关联交易的报告和披露",
+    "text_zh": "第五十五条 银行保险机构董事会应当每年向股东(大)会就关联交易整体情况做出专项报告,并向银保监会或其派出机构报送。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 52,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十五条 银行保险机构董事会应当每年向股东(大)会就关联交易整体情况做出专项报告,并向银保监会或其派出机构报送。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "董事会",
+          "股东",
+          "董事 (weak)",
+          "股东 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9502,
+    "source_end": 9559,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_056",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "56",
+    "article_number_normalized": "056",
+    "article_title": "",
+    "chunk_index": 55,
+    "chapter": "第五章",
+    "chapter_title": "关联交易的报告和披露",
+    "text_zh": "第五十六条 银行保险机构应当在公司网站中披露关联交易信息,在公司年报中披露当年关联交易的总体情况。按照本办法第五十三条规定需逐笔报告的\n关联交易应当在签订交易协议后15个工作日内逐笔披露,一般关联交易应在每季度结束后30日内按交易类型合并披露。\n逐笔披露内容包括:(一)关联交易概述及交易标的情况。\n(二)交易对手情况。包括关联自然人基本情况,关联法人或非法人组织的名称、经济性质或类型、主营业务或经营范围、法定代表人、注册地、注册资本\n及其变化,与银行保险机构存在的关联关系。\n(三)定价政策。\n(四)关联交易金额及相应比例。\n(五)股东(大)会、董事会决议,关联交易控制委员会的意见或决议情况。\n(六)独立董事发表意见情况。\n(七)银保监会认为需要披露的其他事项。\n合并披露内容应当包括关联交易类型、交易金额及相应监管比例执行情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 313,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十六条 银行保险机构应当在公司网站中披露关联交易信息,在公司年报中披露当年关联交易的总体情况。按照本办法第五十三条规定需逐笔报告的\n关联交易应当在签订交易协议后15个工作日内逐笔披露,一般关联交易应在每季度结束后30日内按交易类型合并披露。\n逐笔披露内容包括:(一)关联交易概述及交易标的情况。\n(二)交易对手情况。包括关联自然人基本情况,关联法人或非法人组织的名称、经济性质或类型、主营业务或经营范围、法定代表人、注册地、注册资本\n及其变化,与银行保险机构存在的关联关系。\n(三)定价政策。\n(四)关联交易金额及相应比例。\n(五)股东(大)会、董事会决议,关联交易控制委员会的意见或决议情况。\n(六)独立董事发表意见情况。\n(七)银保监会认为需要披露的其他事项。\n合并披露内容应当包括关联交易类型、交易金额及相应监管比例执行情况。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 21.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "股东",
+          "法人",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9560,
+    "source_end": 9928,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_057",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "57",
+    "article_number_normalized": "057",
+    "article_title": "",
+    "chunk_index": 56,
+    "chapter": "第五章",
+    "chapter_title": "关联交易的报告和披露",
+    "text_zh": "第五十七条 银行保险机构进行的下列关联交易,可以免予按照关联交易的方式进行审议和披露:\n(一)与关联自然人单笔交易额在50万元以下或与关联法人单笔交易额在500万元以下的关联交易,且交易后累计未达到重大关联交易标准的;\n(二)一方以现金认购另一方公开发行的股票、公司债券或企业债券、可转换债券或其他衍生品种;\n(三)活期存款业务;(四)同一自然人同时担任银行保险机构和其他法人的独立董事且不存在其他构成关联方情形的,该法人与银行保险机构进行的交易;\n(五)交易的定价为国家规定的;(六)银保监会认可的其他情形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 221,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十七条 银行保险机构进行的下列关联交易,可以免予按照关联交易的方式进行审议和披露:\n(一)与关联自然人单笔交易额在50万元以下或与关联法人单笔交易额在500万元以下的关联交易,且交易后累计未达到重大关联交易标准的;\n(二)一方以现金认购另一方公开发行的股票、公司债券或企业债券、可转换债券或其他衍生品种;\n(三)活期存款业务;(四)同一自然人同时担任银行保险机构和其他法人的独立董事且不存在其他构成关联方情形的,该法人与银行保险机构进行的交易;\n(五)交易的定价为国家规定的;(六)银保监会认可的其他情形。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "法人",
+          "公司 (weak)",
+          "董事 (weak)",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9929,
+    "source_end": 10184,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_058",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "58",
+    "article_number_normalized": "058",
+    "article_title": "",
+    "chunk_index": 57,
+    "chapter": "第五章",
+    "chapter_title": "关联交易的报告和披露",
+    "text_zh": "第五十八条 银行保险机构关联交易信息涉及国家秘密、商业秘密或者银保监会认可的其他情形,银行保险机构可以向银保监会申请豁免按照本办法披露\n或履行相关义务。\n第六章 关联交易的监督管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十八条 银行保险机构关联交易信息涉及国家秘密、商业秘密或者银保监会认可的其他情形,银行保险机构可以向银保监会申请豁免按照本办法披露\n或履行相关义务。\n第六章 关联交易的监督管理"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 10185,
+    "source_end": 10275,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_059",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "59",
+    "article_number_normalized": "059",
+    "article_title": "",
+    "chunk_index": 58,
+    "chapter": "第六章",
+    "chapter_title": "关联交易的监督管理",
+    "text_zh": "第五十九条 银行机构、信托公司、其他非银行金融机构的股东或其控股股东、实际控制人,通过向机构施加影响,迫使机构从事下列行为的,银保监会或其\n派出机构应当责令限期改正;逾期未改正的,可以限制该股东的权利;对情节严重的控股股东,可以责令其转让股权。\n(一)违反本办法第二十七条规定进行关联交易的;\n(二)未按本办法第四十四条规定的商业原则进行关联交易的;\n(三)未按本办法第四十五条规定审查关联交易的;\n(四)违反本办法规定为关联方融资行为提供担保的;\n(五)接受本公司的股权作为质押提供授信的;\n(六)聘用关联方控制的会计师事务所等为其提供服务的;\n(七)对关联方授信余额或融资余额等超过本办法规定比例的;\n(八)未按照本办法规定披露信息的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 275,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十九条 银行机构、信托公司、其他非银行金融机构的股东或其控股股东、实际控制人,通过向机构施加影响,迫使机构从事下列行为的,银保监会或其\n派出机构应当责令限期改正;逾期未改正的,可以限制该股东的权利;对情节严重的控股股东,可以责令其转让股权。\n(一)违反本办法第二十七条规定进行关联交易的;\n(二)未按本办法第四十四条规定的商业原则进行关联交易的;\n(三)未按本办法第四十五条规定审查关联交易的;\n(四)违反本办法规定为关联方融资行为提供担保的;\n(五)接受本公司的股权作为质押提供授信的;\n(六)聘用关联方控制的会计师事务所等为其提供服务的;\n(七)对关联方授信余额或融资余额等超过本办法规定比例的;\n(八)未按照本办法规定披露信息的。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "银行",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 10276,
+    "source_end": 10596,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_060",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "60",
+    "article_number_normalized": "060",
+    "article_title": "",
+    "chunk_index": 59,
+    "chapter": "第六章",
+    "chapter_title": "关联交易的监督管理",
+    "text_zh": "第六十条 银行机构、信托公司、其他非银行金融机构董事、高级管理人员有下列情形之一的,银保监会或其派出机构可以责令其限期改正;逾期未改正或\n者情节严重的,银保监会或其派出机构可以责令机构调整董事、高级管理人员或者限制其权利。\n(一)未按本办法第四十一条规定报告的;(二)做出虚假或有重大遗漏报告的;\n(三)未按本办法第四十六条规定回避的;(四)独立董事未按本办法第四十九条规定发表书面意见的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 171,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十条 银行机构、信托公司、其他非银行金融机构董事、高级管理人员有下列情形之一的,银保监会或其派出机构可以责令其限期改正;逾期未改正或\n者情节严重的,银保监会或其派出机构可以责令机构调整董事、高级管理人员或者限制其权利。\n\n(一)未按本办法第四十一条规定报告的;(二)做出虚假或有重大遗漏报告的;\n(三)未按本办法第四十六条规定回避的;(四)独立董事未按本办法第四十九条规定发表书面意见的。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "银行",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 10597,
+    "source_end": 10793,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_061",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "61",
+    "article_number_normalized": "061",
+    "article_title": "",
+    "chunk_index": 60,
+    "chapter": "第六章",
+    "chapter_title": "关联交易的监督管理",
+    "text_zh": "第六十一条 银行机构、信托公司、其他非银行金融机构有下列情形之一的,银保监会或其派出机构可依照法律法规采取相关监管措施或进行处罚:\n(一)违反本办法第二十七条规定进行关联交易的;\n(二)未按本办法第四十四条规定的商业原则进行关联交易的;\n(三)未按本办法第四十五条规定审查关联交易的;\n(四)违反本办法规定为关联方融资行为提供担保的;\n(五)接受本行的股权作为质押提供授信的;\n(六)聘用关联方控制的会计师事务所等为其提供服务的;\n(七)对关联方授信余额或融资余额等超过本办法规定比例的;\n(八)未按照本办法规定披露信息的;(九)未按要求执行本办法第五十九条和第六十条规定的监督管理措施的;\n(十)其他违反本办法规定的情形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 268,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十一条 银行机构、信托公司、其他非银行金融机构有下列情形之一的,银保监会或其派出机构可依照法律法规采取相关监管措施或进行处罚:\n(一)违反本办法第二十七条规定进行关联交易的;\n(二)未按本办法第四十四条规定的商业原则进行关联交易的;\n(三)未按本办法第四十五条规定审查关联交易的;\n(四)违反本办法规定为关联方融资行为提供担保的;\n(五)接受本行的股权作为质押提供授信的;\n(六)聘用关联方控制的会计师事务所等为其提供服务的;\n(七)对关联方授信余额或融资余额等超过本办法规定比例的;\n(八)未按照本办法规定披露信息的;(九)未按要求执行本办法第五十九条和第六十条规定的监督管理措施的;\n(十)其他违反本办法规定的情形。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "银行",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 10794,
+    "source_end": 11106,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_062",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "62",
+    "article_number_normalized": "062",
+    "article_title": "",
+    "chunk_index": 61,
+    "chapter": "第六章",
+    "chapter_title": "关联交易的监督管理",
+    "text_zh": "第六十二条 银行机构、信托公司、其他非银行金融机构未按照本办法规定向银保监会或其派出机构报告重大关联交易或报送关联交易情况报告的,银保\n监会或其派出机构可依照法律法规采取相关监管措施或进行处罚。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 91,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十二条 银行机构、信托公司、其他非银行金融机构未按照本办法规定向银保监会或其派出机构报告重大关联交易或报送关联交易情况报告的,银保\n监会或其派出机构可依照法律法规采取相关监管措施或进行处罚。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "银行",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11107,
+    "source_end": 11204,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_063",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "63",
+    "article_number_normalized": "063",
+    "article_title": "",
+    "chunk_index": 62,
+    "chapter": "第六章",
+    "chapter_title": "关联交易的监督管理",
+    "text_zh": "第六十三条 银行机构、信托公司、其他非银行金融机构有本办法第六十一条所列情形之一的,银保监会或其派出机构可以区别不同情形,依据《中华人民\n共和国银行业监督管理法》等法律法规对董事、高级管理人员和其他直接责任人员采取相应处罚措施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 104,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十三条 银行机构、信托公司、其他非银行金融机构有本办法第六十一条所列情形之一的,银保监会或其派出机构可以区别不同情形,依据《中华人民\n共和国银行业监督管理法》等法律法规对董事、高级管理人员和其他直接责任人员采取相应处罚措施。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11205,
+    "source_end": 11319,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_064",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "64",
+    "article_number_normalized": "064",
+    "article_title": "",
+    "chunk_index": 63,
+    "chapter": "第六章",
+    "chapter_title": "关联交易的监督管理",
+    "text_zh": "第六十四条 保险机构及其股东、控股股东,保险机构的董事、监事或高级管理人员违反本办法相关规定的,银保监会或其派出机构可依照法律法规采取相\n关监管措施或进行处罚。涉嫌犯罪的,依法移送司法机关追究刑事责任。\n第七章 附 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 97,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十四条 保险机构及其股东、控股股东,保险机构的董事、监事或高级管理人员违反本办法相关规定的,银保监会或其派出机构可依照法律法规采取相\n关监管措施或进行处罚。涉嫌犯罪的,依法移送司法机关追究刑事责任。\n第七章 附 则"
+      }
+    ],
+    "topics": [
+      "criminal_law",
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 13.5,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事责任",
+          "刑事 (weak)",
+          "犯罪 (weak)",
+          "责任 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "保险",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "股东",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11320,
+    "source_end": 11429,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_065",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "65",
+    "article_number_normalized": "065",
+    "article_title": "",
+    "chunk_index": 64,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第六十五条 本办法中下列用语的含义:\n本办法所称“以上”含本数,“以下”不含本数。年度为会计年度。\n控制,包括直接控制、间接控制,是指有权决定一个企业的财务和经营决策,并能据以从该企业的经营活动中获取利益。\n持有,包括直接持有与间接持有。\n重大影响,是指对法人或组织的财务和经营政策有参与决策的权力,但不能够控制或者与其他方共同控制这些政策的制定。包括但不限于派驻董事、监事\n或高级管理人员、通过协议或其他方式影响法人或组织的财务和经营管理决策,以及银保监会或其派出机构认定的其他情形。\n共同控制,指按照合同约定对某项经济活动所共有的控制,仅在与该项经济活动相关的重要财务和经营决策需要分享控制权的投资方一致同意时存在。\n控股股东,是指持股比例达到50%以上的股东;或持股比例虽不足50%,但依享有的表决权已足以对股东(大)会的决议产生控制性影响的股东。\n控股子公司,是指对该子公司的持股比例达到50%以上;或者持股比例虽不足50%,但通过表决权、协议等安排能够对其施加控制性影响。控股子公司包括\n直接、间接或共同控制的子公司或非法人组织。\n实际控制人,是指虽不是公司的股东,但通过投资关系、协议或者其他安排,能够实际支配公司行为的自然人或其他最终控制人。\n集团客户,是指存在控制关系的一组企事业法人客户或同业单一客户。\n一致行动人,是指通过协议、合作或其他途径,在行使表决权或参与其他经济活动时采取相同意思表示的自然人、法人或非法人组织。\n最终受益人,是指实际享有银行保险机构股权收益、金融产品收益的人。\n其他关系密切的家庭成员,是指除配偶、父母、成年子女及兄弟姐妹以外的包括配偶的父母、子女的配偶、兄弟姐妹的配偶、配偶的兄弟姐妹以及其他\n可能产生利益转移的家庭成员。\n内部工作人员,是指与银行保险机构签订劳动合同的人员。\n关联关系,是指银行保险机构控股股东、实际控制人、董事、监事、高级管理人员等与其直接或者间接控制的企业之间的关系,以及可能导致利益转移的\n其他关系。\n关联董事、关联股东,是指交易的一方,或者在审议关联交易时可能影响该交易公允性的董事、股东。\n书面协议的书面形式包括合同书、信件和数据电文(包括电报、电传、传真、电子数据交换和电子邮件)等法律认可的有形的表现所载内容的形式。\n本办法所称关联法人或非法人组织不包括国家行政机关、政府部门,中央汇金投资有限责任公司,全国社保基金理事会,梧桐树投资平台有限责任公司,存款\n保险基金管理有限责任公司,以及经银保监会批准豁免认定的关联方。上述机构派出同一自然人同时担任两家或以上银行保险机构董事或监事,且不存在其他\n关联关系的,所任职机构之间不构成关联方。\n国家控股的企业之间不仅因为同受国家控股而构成关联方。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 1007,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十五条 本办法中下列用语的含义:\n本办法所称“以上”含本数,“以下”不含本数。年度为会计年度。\n控制,包括直接控制、间接控制,是指有权决定一个企业的财务和经营决策,并能据以从该企业的经营活动中获取利益。\n持有,包括直接持有与间接持有。\n重大影响,是指对法人或组织的财务和经营政策有参与决策的权力,但不能够控制或者与其他方共同控制这些政策的制定。包括但不限于派驻董事、监事\n或高级管理人员、通过协议或其他方式影响法人或组织的财务和经营管理决策,以及银保监会或其派出机构认定的其他情形。\n共同控制,指按照合同约定对某项经济活动所共有的控制,仅在与该项经济活动相关的重要财务和经营决策需要分享控制权的投资方一致同意时存在。\n控股股东,是指持股比例达到50%以上的股东;或持股比例虽不足50%,但依享有的表决权已足以对股东(大)会的决议产生控制性影响的股东。\n控股子公司,是指对该子公司的持股比例达到50%以上;或者持股比例虽不足50%,但通过表决权、协议等安排能够对其施加控制性影响。控股子公司包括\n直接、间接或共同控制的子公司或非法人组织。\n实际控制人,是指虽不是公司的股东,但通过投资关系、协议或者其他安排,能够实际支配公司行为的自然人或其他最终控制人。\n集团客户,是指存在控制关系的一组企事业法人客户或同业单一客户。\n一致行动人,是指通过协议、合作或其他途径,在行使表决权或参与其他经济活动时采取相同意思表示的自然人、法人或非法人组织。\n最终受益人,是指实际享有银行保险机构股权收益、金融产品收益的人。\n其他关系密切的家庭成员,是指除配偶、父母、成年子女及兄弟姐妹以外的包括配偶的父母、子女的配偶、兄弟姐妹的配偶、配偶的兄弟姐妹以及其他\n可能产生利益转移的家庭成员。\n内部工作人员,是指与银行保险机构签订劳动合同的人员。\n关联关系,是指银行保险机构控股股东、实际控制人、董事、监事、高级管理人员等与其直接或者间接控制的企业之间的关系,以及可能导致利益转移的\n其他关系。\n关联董事、关联股东,是指交易的一方,或者在审议关联交易时可能影响该交易公允性的董事、股东。\n书面协议的书面形式包括合同书、信件和数据电文(包括电报、电传、传真、电子数据交换和电子邮件)等法律认可的有形的表现所载内容的形式。\n本办法所称关联法人或非法人组织不包括国家行政机关、政府部门,中央汇金投资有限责任公司,全国社保基金理事会,梧桐树投资平台有限责任公司,存款\n保险基金管理有限责任公司,以及经银保监会批准豁免认定的关联方。上述机构派出同一自然人同时担任两家或以上银行保险机构董事或监事,且不存在其他\n关联关系的,所任职机构之间不构成关联方。\n国家控股的企业之间不仅因为同受国家控股而构成关联方。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 46.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "法人",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 19.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 13.5,
+        "matched_keywords": [
+          "政府",
+          "行政",
+          "行政机关",
+          "政府 (weak)",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11430,
+    "source_end": 12566,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_066",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "66",
+    "article_number_normalized": "066",
+    "article_title": "",
+    "chunk_index": 65,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第六十六条 银保监会批准设立的外国银行分行、其他金融机构参照适用本办法,法律、行政法规及银保监会另有规定的从其规定。\n自保公司的自保业务、企业集团财务公司的成员单位业务不适用本办法。\n银行保险机构为上市公司的,应同时遵守上市公司有关规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 108,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十六条 银保监会批准设立的外国银行分行、其他金融机构参照适用本办法,法律、行政法规及银保监会另有规定的从其规定。\n自保公司的自保业务、企业集团财务公司的成员单位业务不适用本办法。\n银行保险机构为上市公司的,应同时遵守上市公司有关规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12567,
+    "source_end": 12686,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_067",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "67",
+    "article_number_normalized": "067",
+    "article_title": "",
+    "chunk_index": 66,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第六十七条 本办法由银保监会负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 17,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十七条 本办法由银保监会负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12687,
+    "source_end": 12706,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2022_ART_068",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2022",
+    "law_name": "银行保险机构关联交易管理办法",
+    "law_name_original": "银行保险机构关联交易管理办法",
+    "law_type": "规章/法规",
+    "article_number": "68",
+    "article_number_normalized": "068",
+    "article_title": "",
+    "chunk_index": 67,
+    "chapter": "第七章",
+    "chapter_title": "附 则",
+    "text_zh": "第六十八条 本办法自2022年3月1日起施行。《商业银行与内部人和股东关联交易管理办法》(中国银行业监督管理委员会令2004年第3号)、《保险公司\n关联交易管理办法》(银保监发〔2019〕35号)同时废止。本办法施行前,银保监会有关银行保险机构关联交易管理的规定与本办法不一致的,按照本办法执\n行。\n中国银保监会发布《银行保险机构关联交易管理办法》\n中国银保监会有关部门负责人就《银行保险机构关联交易管理办法》答记者问\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "http://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031915&itemId=915\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031914&itemId=915",
+    "text_original_language": "zh-en",
+    "word_count_zh": 176,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十八条 本办法自2022年3月1日起施行。《商业银行与内部人和股东关联交易管理办法》(中国银行业监督管理委员会令2004年第3号)、《保险公司\n\n关联交易管理办法》(银保监发〔2019〕35号)同时废止。本办法施行前,银保监会有关银行保险机构关联交易管理的规定与本办法不一致的,按照本办法执\n行。\n中国银保监会发布《银行保险机构关联交易管理办法》\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031915&itemId=915\n中国银保监会有关部门负责人就《银行保险机构关联交易管理办法》答记者问\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031914&itemId=915\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 19.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-03-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1031903&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_071.txt",
+    "sample_id": "CN_071",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_071",
+    "raw_sha256": "ef4a157a2f7404e855a8a022e14784143d972b74bb175a95bd651c85ed8b31b5",
+    "extracted_text_sha256": "d343a72d79a209483b4ffbfb62269c69171527fb85093db3d243df106bffdc0f",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12707,
+    "source_end": 13083,
+    "language_original": [
+      "zh",
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:53:01Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

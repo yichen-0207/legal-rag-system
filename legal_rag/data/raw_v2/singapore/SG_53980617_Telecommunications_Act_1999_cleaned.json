@@ -1,0 +1,630 @@
+[
+  {
+    "doc_id": "SG_ACT_43_1999_ART_002",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_43_1999",
+    "law_name": "Telecommunications Act 1999",
+    "law_name_original": "Telecommunications Act 1999",
+    "law_type": "法律",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Interpretation",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 2 EXCLUSIVE PRIVILEGE AND LICENSING, ETC., OF TELECOMMUNICATION SYSTEMS",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 2 EXCLUSIVE PRIVILEGE AND LICENSING, ETC., OF TELECOMMUNICATION SYSTEMS"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": [],
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_43_1999",
+    "source_type": "gov_gazette",
+    "source_file": "SG_53980617_Telecommunications_Act_1999.txt",
+    "source_start": 254,
+    "source_end": 270,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:13Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_43_1999_ART_014",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_43_1999",
+    "law_name": "Telecommunications Act 1999",
+    "law_name_original": "Telecommunications Act 1999",
+    "law_type": "法律",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "Sharing of radio frequency spectrum",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 3 ERECTION, MAINTENANCE AND REPAIR OF TELECOMMUNICATION INSTALLATIONS",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 3 ERECTION, MAINTENANCE AND REPAIR OF TELECOMMUNICATION INSTALLATIONS"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 10,
+        "matched_keywords": [
+          "radio (title, +5)",
+          "spectrum (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_43_1999",
+    "source_type": "gov_gazette",
+    "source_file": "SG_53980617_Telecommunications_Act_1999.txt",
+    "source_start": 856,
+    "source_end": 894,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:13Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_43_1999_ART_029",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_43_1999",
+    "law_name": "Telecommunications Act 1999",
+    "law_name_original": "Telecommunications Act 1999",
+    "law_type": "法律",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "Exemption from distress and attachment, etc",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 4 CODES OF PRACTICE, STANDARDS OF PERFORMANCE, DIRECTIONS AND ADVISORY GUIDELINES ON TELECOMMUNICATIONS",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 4 CODES OF PRACTICE, STANDARDS OF PERFORMANCE, DIRECTIONS AND ADVISORY GUIDELINES ON TELECOMMUNICATIONS"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 8.5,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_43_1999",
+    "source_type": "gov_gazette",
+    "source_file": "SG_53980617_Telecommunications_Act_1999.txt",
+    "source_start": 1852,
+    "source_end": 1898,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:13Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_43_1999_ART_032",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_43_1999",
+    "law_name": "Telecommunications Act 1999",
+    "law_name_original": "Telecommunications Act 1999",
+    "law_type": "法律",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "Advisory guidelines",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 5 TELECOMMUNICATION CABLE DETECTION WORK",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 5 TELECOMMUNICATION CABLE DETECTION WORK"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_43_1999",
+    "source_type": "gov_gazette",
+    "source_file": "SG_53980617_Telecommunications_Act_1999.txt",
+    "source_start": 2133,
+    "source_end": 2155,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:13Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_43_1999_ART_036",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_43_1999",
+    "law_name": "Telecommunications Act 1999",
+    "law_name_original": "Telecommunications Act 1999",
+    "law_type": "法律",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "Duty to enquire before excavation",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 5A CONTROL OF DESIGNATED TELECOMMUNICATION LICENSEES, DESIGNATED BUSINESS TRUSTS AND DESIGNATED TRUSTS",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 5A CONTROL OF DESIGNATED TELECOMMUNICATION LICENSEES, DESIGNATED BUSINESS TRUSTS AND DESIGNATED TRUSTS"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_43_1999",
+    "source_type": "gov_gazette",
+    "source_file": "SG_53980617_Telecommunications_Act_1999.txt",
+    "source_start": 2411,
+    "source_end": 2447,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:13Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_43_1999_ART_043",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_43_1999",
+    "law_name": "Telecommunications Act 1999",
+    "law_name_original": "Telecommunications Act 1999",
+    "law_type": "法律",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "Appointment of chief executive officer, director, etc., of designated telecommunication licensee",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 5B SPECIAL ADMINISTRATION ORDER",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 5B SPECIAL ADMINISTRATION ORDER"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_43_1999",
+    "source_type": "gov_gazette",
+    "source_file": "SG_53980617_Telecommunications_Act_1999.txt",
+    "source_start": 3298,
+    "source_end": 3397,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:13Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_43_1999_ART_049",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_43_1999",
+    "law_name": "Telecommunications Act 1999",
+    "law_name_original": "Telecommunications Act 1999",
+    "law_type": "法律",
+    "article_number": "49",
+    "article_number_normalized": "049",
+    "article_title": "Restrictions on voluntary winding up, etc",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 5C ALTERNATIVE DISPUTE RESOLUTION SCHEME",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 5C ALTERNATIVE DISPUTE RESOLUTION SCHEME"
+      }
+    ],
+    "topics": [
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "dispute resolution",
+          "dispute (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_43_1999",
+    "source_type": "gov_gazette",
+    "source_file": "SG_53980617_Telecommunications_Act_1999.txt",
+    "source_start": 3693,
+    "source_end": 3737,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:13Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_43_1999_ART_052",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_43_1999",
+    "law_name": "Telecommunications Act 1999",
+    "law_name_original": "Telecommunications Act 1999",
+    "law_type": "法律",
+    "article_number": "52",
+    "article_number_normalized": "052",
+    "article_title": "Operator of dispute resolution scheme",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 6 OFFENCES AND PENALTIES",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 6 OFFENCES AND PENALTIES"
+      }
+    ],
+    "topics": [
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 5,
+        "matched_keywords": [
+          "dispute resolution (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_43_1999",
+    "source_type": "gov_gazette",
+    "source_file": "SG_53980617_Telecommunications_Act_1999.txt",
+    "source_start": 3879,
+    "source_end": 3919,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:13Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_43_1999_ART_071",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_43_1999",
+    "law_name": "Telecommunications Act 1999",
+    "law_name_original": "Telecommunications Act 1999",
+    "law_type": "法律",
+    "article_number": "71",
+    "article_number_normalized": "071",
+    "article_title": "Failure to disconnect equipment not approved under section 11",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 7 INTERNATIONAL OBLIGATIONS AND NATIONAL INTERESTS",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 7 INTERNATIONAL OBLIGATIONS AND NATIONAL INTERESTS"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_43_1999",
+    "source_type": "gov_gazette",
+    "source_file": "SG_53980617_Telecommunications_Act_1999.txt",
+    "source_start": 5191,
+    "source_end": 5246,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:13Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_43_1999_ART_077",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_43_1999",
+    "law_name": "Telecommunications Act 1999",
+    "law_name_original": "Telecommunications Act 1999",
+    "law_type": "法律",
+    "article_number": "77",
+    "article_number_normalized": "077",
+    "article_title": "Directions by Minister",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 8 ENFORCEMENT POWERS AND PROCEDURES",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 8 ENFORCEMENT POWERS AND PROCEDURES"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_43_1999",
+    "source_type": "gov_gazette",
+    "source_file": "SG_53980617_Telecommunications_Act_1999.txt",
+    "source_start": 5493,
+    "source_end": 5518,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:13Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "SG_ACT_43_1999_ART_088",
+    "jurisdiction": "新加坡",
+    "law_id": "SG_ACT_43_1999",
+    "law_name": "Telecommunications Act 1999",
+    "law_name_original": "Telecommunications Act 1999",
+    "law_type": "法律",
+    "article_number": "88",
+    "article_number_normalized": "088",
+    "article_title": "Offences by bodies of persons",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Part 9 GENERAL PROVISIONS",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Part 9 GENERAL PROVISIONS"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2021-12-31",
+    "effective_date": "2021-12-31",
+    "publication_date": null,
+    "last_amended_date": "2025-10-01",
+    "amendment_history": null,
+    "ingest_date": "2026-07-04",
+    "source_url": "https://sso.agc.gov.sg/Act/SG_ACT_43_1999",
+    "source_type": "gov_gazette",
+    "source_file": "SG_53980617_Telecommunications_Act_1999.txt",
+    "source_start": 6096,
+    "source_end": 6128,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-07-04T05:06:13Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

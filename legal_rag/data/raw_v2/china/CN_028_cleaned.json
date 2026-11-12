@@ -1,0 +1,3443 @@
+[
+  {
+    "doc_id": "CN_DOC_1_2009_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第一条 为了规范电子认证服务行为，对电子认证服务提供者实施监督管理，根据《中华人民共和国电子签名法》 和 其他法律、行政法规的规定，制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 62,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为了规范电子认证服务行为，对电子认证服务提供者实施监督管理，根据《中华人民共和国电子签名法》 和 其他法律、行政法规的规定，制定本办法。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 10.5,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "服务 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 41,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第二条 本办法所称电子认证服务，是指为电子签名相关各方提供真实性、可靠性验证的活动。\n本办法所称电子认证服务提供者，是指为需要第三方认证的电子签名提供认证服务的机构（以下称为“电子认证服务机构”）。\n向社会公众提供服务的电子认证服务机构应当依法设立。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 112,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本办法所称电子认证服务，是指为电子签名相关各方提供真实性、可靠性验证的活动。\n本办法所称电子认证服务提供者，是指为需要第三方认证的电子签名提供认证服务的机构（以下称为“电子认证服务机构”）。\n向社会公众提供服务的电子认证服务机构应当依法设立。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 15.0,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 39,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第三条 在中华人民共和国境内设立电子认证服务机构和为电子签名提供电子认证服务，适用本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 42,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 在中华人民共和国境内设立电子认证服务机构和为电子签名提供电子认证服务，适用本办法。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 10.5,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 48,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第四条 中华人民共和国工业和信息化部（以下简称“工业和信息化部”）依法对电子认证服务机构和电子认证服务实施监督管理。\n第二章 电子认证服务机构",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 63,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 中华人民共和国工业和信息化部（以下简称“工业和信息化部”）依法对电子认证服务机构和电子认证服务实施监督管理。\n第二章 电子认证服务机构"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 7.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 109,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第二章",
+    "chapter_title": "电子认证服务机构",
+    "text_zh": "第五条 电子认证服务机构应当具备下列条件：\n（一）具有独立的企业法人资格。\n（二）具有与提供电子认证服务相适应的人员。从事电子认证服务的专业技术人员、运营管理人员、安全管理人员和客户服务人员不少于三十名，并且应当符合相应岗位技能要求。\n（三）注册资本不低于人民币三千万元。\n（四）具有固定的经营场所和满足电子认证服务要求的物理环境。\n（五）具有符合国家有关安全标准的技术和设备。\n（六）具有国家密码管理机构同意使用密码的证明文件。\n（七）法律、行政法规规定的其他条件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 199,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 电子认证服务机构应当具备下列条件：\n（一）具有独立的企业法人资格。\n（二）具有与提供电子认证服务相适应的人员。从事电子认证服务的专业技术人员、运营管理人员、安全管理人员和客户服务人员不少于三十名，并且应当符合相应岗位技能要求。\n（三）注册资本不低于人民币三千万元。\n（四）具有固定的经营场所和满足电子认证服务要求的物理环境。\n（五）具有符合国家有关安全标准的技术和设备。\n（六）具有国家密码管理机构同意使用密码的证明文件。\n（七）法律、行政法规规定的其他条件。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions",
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 9.0,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)",
+          "文件 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "服务 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 42,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第二章",
+    "chapter_title": "电子认证服务机构",
+    "text_zh": "第六条 申请电子认证服务许可的，应当向工业和信息化部提交下列材料：\n（一）书面申请。\n（二）人员证明。\n（三） 企业法人营业执照副本及复印件 。\n（四）经营场所证明。\n（五）国家有关认证检测机构出具的技术、设备、物理环境符合国家有关安全标准的凭证。\n（六）国家密码管理机构同意使用密码的证明文件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 117,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 申请电子认证服务许可的，应当向工业和信息化部提交下列材料：\n（一）书面申请。\n（二）人员证明。\n（三） 企业法人营业执照副本及复印件 。\n（四）经营场所证明。\n（五）国家有关认证检测机构出具的技术、设备、物理环境符合国家有关安全标准的凭证。\n（六）国家密码管理机构同意使用密码的证明文件。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 4.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)",
+          "文件 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 722,
+    "source_end": 870,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第二章",
+    "chapter_title": "电子认证服务机构",
+    "text_zh": "第七条 工业和信息化部对提交的申请材料进行形式审查。申请材料齐全、符合法定形式的，应当向申请人出具受理通知书。申请材料不齐全或者不符合法定形式的，应当当场或者在五日内一次告知申请人需要补正的全部内容。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 93,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 工业和信息化部对提交的申请材料进行形式审查。申请材料齐全、符合法定形式的，应当向申请人出具受理通知书。申请材料不齐全或者不符合法定形式的，应当当场或者在五日内一次告知申请人需要补正的全部内容。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 871,
+    "source_end": 971,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第二章",
+    "chapter_title": "电子认证服务机构",
+    "text_zh": "第八条 工业和信息化部对决定受理的申请材料进行实质审查。需要对有关内容进行核实的，指派两名以上工作人员实地进行核查。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 54,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 工业和信息化部对决定受理的申请材料进行实质审查。需要对有关内容进行核实的，指派两名以上工作人员实地进行核查。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 74,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第二章",
+    "chapter_title": "电子认证服务机构",
+    "text_zh": "第九条 工业和信息化部对与申请人有关事项书面征求中华人民共和国商务部等有关部门的意见。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 41,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 工业和信息化部对与申请人有关事项书面征求中华人民共和国商务部等有关部门的意见。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 69,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第二章",
+    "chapter_title": "电子认证服务机构",
+    "text_zh": "第十条 工业和信息化部应当自接到申请之日起四十五日内作出准予许可或者不予许可的书面决定。不予许可的，应当书面通知申请人并说明理由；准予许可的，颁发《电子认证服务许可证》，并公布下列信息：\n（一）《电子认证服务许可证》编号。\n（二）电子认证服务机构名称。\n（三）发证机关和发证日期。\n电子认证服务许可相关信息发生变更的，工业和信息化部应当及时公布。\n《电子认证服务许可证》的有效期为五年。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 163,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 工业和信息化部应当自接到申请之日起四十五日内作出准予许可或者不予许可的书面决定。不予许可的，应当书面通知申请人并说明理由；准予许可的，颁发《电子认证服务许可证》，并公布下列信息：\n（一）《电子认证服务许可证》编号。\n（二）电子认证服务机构名称。\n（三）发证机关和发证日期。\n电子认证服务许可相关信息发生变更的，工业和信息化部应当及时公布。\n《电子认证服务许可证》的有效期为五年。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 10.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 50,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第二章",
+    "chapter_title": "电子认证服务机构",
+    "text_zh": "第十一条 电子认证服务机构不得倒卖、出租、出借或者以其他形式非法转让《电子认证服务许可证》 。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 40,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 电子认证服务机构不得倒卖、出租、出借或者以其他形式非法转让《电子认证服务许可证》 。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 6.0,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1269,
+    "source_end": 1316,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第二章",
+    "chapter_title": "电子认证服务机构",
+    "text_zh": "第十二条 取得认证资格的电子认证服务机构，在提供电子认证服务之前，应当通过互联网公布下列信息：\n（一）机构名称和法定代表人。\n（二）机构住所和联系办法。\n（三）《电子认证服务许可证》编号。\n（四）发证机关和发证日期。\n（五）《电子认证服务许可证》有效期的起止时间。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 104,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 取得认证资格的电子认证服务机构，在提供电子认证服务之前，应当通过互联网公布下列信息：\n（一）机构名称和法定代表人。\n（二）机构住所和联系办法。\n（三）《电子认证服务许可证》编号。\n（四）发证机关和发证日期。\n（五）《电子认证服务许可证》有效期的起止时间。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 9.0,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1317,
+    "source_end": 1449,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第二章",
+    "chapter_title": "电子认证服务机构",
+    "text_zh": "第十三条 电子认证服务机构在《电子认证服务许可证》的有效期内变更公司名称、住所、法定代表人、注册资本的，应当在完成工商变更登记之日起15日内办理《电子认证服务许可证》变更手续。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 76,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 电子认证服务机构在《电子认证服务许可证》的有效期内变更公司名称、住所、法定代表人、注册资本的，应当在完成工商变更登记之日起15日内办理《电子认证服务许可证》变更手续。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 7.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 47,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第二章",
+    "chapter_title": "电子认证服务机构",
+    "text_zh": "第十四条 《电子认证服务许可证》的有效期届满需要延续的，电子认证服务机构应当在许可证有效期届满三十日前向工业和信息化部申请办理延续手续，并自办结之日起五日内按照本办法第十二条的规定公布相关信息。\n第三章 电子认证服务",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 100,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 《电子认证服务许可证》的有效期届满需要延续的，电子认证服务机构应当在许可证有效期届满三十日前向工业和信息化部申请办理延续手续，并自办结之日起五日内按照本办法第十二条的规定公布相关信息。\n第三章 电子认证服务"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 7.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1539,
+    "source_end": 1647,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第三章",
+    "chapter_title": "电子认证服务",
+    "text_zh": "第 十五条 电子认证服务机构应当按照工业和信息化部公布的《电子认证业务规则规范》等要求，制定本机构的电子认证业务规则和相应的证书策略，在提供电子认证服务前予以公布，并向工业和信息化部备案。\n电子认证业务规则和证书策略发生变更的，电子认证服务机构应当予以公布，并自公布之日起三十日内向工业和信息化部备案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 139,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第 十五条 电子认证服务机构应当按照工业和信息化部公布的《电子认证业务规则规范》等要求，制定本机构的电子认证业务规则和相应的证书策略，在提供电子认证服务前予以公布，并向工业和信息化部备案。\n电子认证业务规则和证书策略发生变更的，电子认证服务机构应当予以公布，并自公布之日起三十日内向工业和信息化部备案。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 12.0,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 41,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第三章",
+    "chapter_title": "电子认证服务",
+    "text_zh": "第十六条 电子认证服务机构应当按照公布的电子认证业务规则提供电子认证服务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 35,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 电子认证服务机构应当按照公布的电子认证业务规则提供电子认证服务。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 7.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1800,
+    "source_end": 1837,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第三章",
+    "chapter_title": "电子认证服务",
+    "text_zh": "第十七条 电子认证服务机构应当保证提供下列服务：\n（一）制作、签发、管理电子签名认证证书。\n（二）确认签发的电子签名认证证书的真实性。\n（三）提供电子签名认证证书目录信息查询服务。\n（四）提供电子签名认证证书状态信息查询服务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 93,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 电子认证服务机构应当保证提供下列服务：\n（一）制作、签发、管理电子签名认证证书。\n（二）确认签发的电子签名认证证书的真实性。\n（三）提供电子签名认证证书目录信息查询服务。\n（四）提供电子签名认证证书状态信息查询服务。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 13.5,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1838,
+    "source_end": 1951,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第三章",
+    "chapter_title": "电子认证服务",
+    "text_zh": "第十八条 电子认证服务机构应当履行下列义务：\n（一）保证电子签名认证证书内容在有效期内完整、准确。\n（二）保证电子签名依赖方能够证实或者了解电子签名认证证书所载内容及其他有关事项。\n（三）妥善保存与电子认证服务相关的信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 96,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 电子认证服务机构应当履行下列义务：\n（一）保证电子签名认证证书内容在有效期内完整、准确。\n（二）保证电子签名依赖方能够证实或者了解电子签名认证证书所载内容及其他有关事项。\n（三）妥善保存与电子认证服务相关的信息。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 13.5,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 73,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第三章",
+    "chapter_title": "电子认证服务",
+    "text_zh": "第十九条 电子认证服务机构应当建立完善的安全管理和内部审计制度。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 30,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 电子认证服务机构应当建立完善的安全管理和内部审计制度。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 4.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2064,
+    "source_end": 2096,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第三章",
+    "chapter_title": "电子认证服务",
+    "text_zh": "第二十条 电子认证服务机构应当遵守国家的保密规定，建立完善的保密制度。\n电子认证服务机构对电子签名人和电子签名依赖方的资料，负有保密的义务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 64,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 电子认证服务机构应当遵守国家的保密规定，建立完善的保密制度。\n电子认证服务机构对电子签名人和电子签名依赖方的资料，负有保密的义务。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 12.0,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 7.5,
+        "matched_keywords": [
+          "保密"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 39,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第三章",
+    "chapter_title": "电子认证服务",
+    "text_zh": "第二十一条 电子认证服务机构在受理电子签名认证证书申请前，应当向申请人告知下列事项：\n（一）电子签名认证证书和电子签名的使用条件。\n（二）服务收费的项目和标准。\n（三）保存和使用证书持有人信息的权限和责任。\n（四）电子认证服务机构的责任范围。\n（五）证书持有人的责任范围。\n（六）其他需要事先告知的事项。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 125,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 电子认证服务机构在受理电子签名认证证书申请前，应当向申请人告知下列事项：\n（一）电子签名认证证书和电子签名的使用条件。\n（二）服务收费的项目和标准。\n（三）保存和使用证书持有人信息的权限和责任。\n（四）电子认证服务机构的责任范围。\n（五）证书持有人的责任范围。\n（六）其他需要事先告知的事项。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 13.5,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2168,
+    "source_end": 2320,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第三章",
+    "chapter_title": "电子认证服务",
+    "text_zh": "第二十二条 电子认证服务机构受理电子签名认证申请后，应当与证书申请人签订合同，明确双方的权利义务。\n第四章 电子认证服务的暂停、终止",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 59,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 电子认证服务机构受理电子签名认证申请后，应当与证书申请人签订合同，明确双方的权利义务。\n第四章 电子认证服务的暂停、终止"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 10.5,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2321,
+    "source_end": 2387,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第四章",
+    "chapter_title": "电子认证服务的暂停、终止",
+    "text_zh": "第二十三条 电子认证服务机构在《电子认证服务许可证》的有效期内拟终止电子认证服务的，应当在终止服务六十日前向工业和信息化部报告，并办理《电子认证服务许可证》注销手续。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 75,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 电子认证服务机构在《电子认证服务许可证》的有效期内拟终止电子认证服务的，应当在终止服务六十日前向工业和信息化部报告，并办理《电子认证服务许可证》注销手续。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 9.0,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2388,
+    "source_end": 2471,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第四章",
+    "chapter_title": "电子认证服务的暂停、终止",
+    "text_zh": "第二十四条 电子认证服务机构拟暂停或者终止电子认证服务的，应当在暂停或者终止电子认证服务九十日前，就业务承接及其他有关事项通知有关各方。\n电子认证服务机构拟暂停或者终止电子认证服务的，应当在暂停或者终止电子认证服务六十日前向工业和信息化部报告，并与其他电子认证服务机构就业务承接进行协商，作出妥善安排。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 142,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 电子认证服务机构拟暂停或者终止电子认证服务的，应当在暂停或者终止电子认证服务九十日前，就业务承接及其他有关事项通知有关各方。\n电子认证服务机构拟暂停或者终止电子认证服务的，应当在暂停或者终止电子认证服务六十日前向工业和信息化部报告，并与其他电子认证服务机构就业务承接进行协商，作出妥善安排。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 13.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2472,
+    "source_end": 2623,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第四章",
+    "chapter_title": "电子认证服务的暂停、终止",
+    "text_zh": "第二十五条 电子认证服务机构拟暂停或者终止电子认证服务，未能就业务承接事项与其他电子认证服务机构达成协议的，应当申请工业和信息化部安排其他电子认证服务机构承接其业务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 79,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 电子认证服务机构拟暂停或者终止电子认证服务，未能就业务承接事项与其他电子认证服务机构达成协议的，应当申请工业和信息化部安排其他电子认证服务机构承接其业务。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 9.0,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2624,
+    "source_end": 2707,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第四章",
+    "chapter_title": "电子认证服务的暂停、终止",
+    "text_zh": "第二十六条 电子认证服务机构被依法吊销电子认证服务许可的，其业务承接事项按照工业和信息化部的规定处理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 48,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 电子认证服务机构被依法吊销电子认证服务许可的，其业务承接事项按照工业和信息化部的规定处理。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 6.0,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2708,
+    "source_end": 2759,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第四章",
+    "chapter_title": "电子认证服务的暂停、终止",
+    "text_zh": "第二十七条 电子认证服务机构有根据工业和信息化部的安排承接其他机构开展的电子认证服务业务的义务。\n第五章 电子签名认证证书",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 57,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 电子认证服务机构有根据工业和信息化部的安排承接其他机构开展的电子认证服务业务的义务。\n第五章 电子签名认证证书"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 10.5,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2760,
+    "source_end": 2821,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第五章",
+    "chapter_title": "电子签名认证证书",
+    "text_zh": "第二十八条 电子签名认证证书应当准确载明下列内容：\n（一）签发电子签名认证证书的电子认证服务机构名称。\n（二）证书持有人名称。\n（三）证书序列号。\n（四）证书有效期。\n（五）证书持有人的电子签名验证数据。\n（六）电子认证服务机构的电子签名。\n（七）工业和信息化部规定的其他内容。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 电子签名认证证书应当准确载明下列内容：\n（一）签发电子签名认证证书的电子认证服务机构名称。\n（二）证书持有人名称。\n（三）证书序列号。\n（四）证书有效期。\n（五）证书持有人的电子签名验证数据。\n（六）电子认证服务机构的电子签名。\n（七）工业和信息化部规定的其他内容。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 15.0,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2822,
+    "source_end": 2961,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第五章",
+    "chapter_title": "电子签名认证证书",
+    "text_zh": "第二十九条 有下列情况之一的，电子认证服务机构可以撤销其签发的电子签名认证证书：\n（一）证书持有人申请撤销证书。\n（二）证书持有人提供的信息不真实。\n（三）证书持有人没有履行双方合同规定的义务。\n（四）证书的安全性不能得到保证。\n（五）法律、行政法规规定的其他情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 有下列情况之一的，电子认证服务机构可以撤销其签发的电子签名认证证书：\n（一）证书持有人申请撤销证书。\n（二）证书持有人提供的信息不真实。\n（三）证书持有人没有履行双方合同规定的义务。\n（四）证书的安全性不能得到保证。\n（五）法律、行政法规规定的其他情况。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 9.0,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 111,
+    "source_end": 170,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第五章",
+    "chapter_title": "电子签名认证证书",
+    "text_zh": "第三十条 有下列情况之一的，电子认证服务机构应当对申请人提供的证明身份的有关材料进行查验，并对有关材料进行审查：\n（一）申请人申请电子签名认证证书。\n（二）证书持有人申请更新证书。\n（三）证书持有人申请撤销证书。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 90,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 有下列情况之一的，电子认证服务机构应当对申请人提供的证明身份的有关材料进行查验，并对有关材料进行审查：\n（一）申请人申请电子签名认证证书。\n（二）证书持有人申请更新证书。\n（三）证书持有人申请撤销证书。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 9.0,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3096,
+    "source_end": 3202,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第五章",
+    "chapter_title": "电子签名认证证书",
+    "text_zh": "第三十一条 电子认证服务机构更新或者撤销电子签名认证证书时，应当予以公告。\n第六章 监督管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 41,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 电子认证服务机构更新或者撤销电子签名认证证书时，应当予以公告。\n第六章 监督管理"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 9.0,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4240,
+    "source_end": 4336,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十二条 工业和信息化部对电子认证服务机构进行定期、不定期的监督检查，监督检查的内容主要包括法律法规符合性、安全运营管理、风险管理等。\n工业和信息化部对电子认证服务机构 实行监督检查时，应当记录监督检查的情况和处理结果，由监督检查人员签字后归档。公众有权查阅监督检查记录。\n工业和信息化部对电子认证服务机构 实行监督检查，不得妨碍 电子认证服务机构 正常的生产经营活动，不得收取任何费用。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 176,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 工业和信息化部对电子认证服务机构进行定期、不定期的监督检查，监督检查的内容主要包括法律法规符合性、安全运营管理、风险管理等。\n工业和信息化部对电子认证服务机构 实行监督检查时，应当记录监督检查的情况和处理结果，由监督检查人员签字后归档。公众有权查阅监督检查记录。\n工业和信息化部对电子认证服务机构 实行监督检查，不得妨碍 电子认证服务机构 正常的生产经营活动，不得收取任何费用。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 9.0,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3250,
+    "source_end": 3445,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十三条 取得电子认证服务许可的电子认证服务机构，在电子认证服务许可的有效期内不得降低其设立时所应具备的条件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 取得电子认证服务许可的电子认证服务机构，在电子认证服务许可的有效期内不得降低其设立时所应具备的条件。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 7.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3446,
+    "source_end": 3502,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十四条 电子认证服务机构应当如实向工业和信息化部报送认证业务开展情况报告、财务会计报告等有关资料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 48,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 电子认证服务机构应当如实向工业和信息化部报送认证业务开展情况报告、财务会计报告等有关资料。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 4.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3503,
+    "source_end": 3554,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十五条 电子认证服务机构有下列情况之一的，应当及时向工业和信息化部报告：\n（一）重大系统、关键设备事故。\n（二）重大财产损失。\n（三）重大法律诉讼。\n（四）关键岗位人员变动。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 69,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 电子认证服务机构有下列情况之一的，应当及时向工业和信息化部报告：\n（一）重大系统、关键设备事故。\n（二）重大财产损失。\n（三）重大法律诉讼。\n（四）关键岗位人员变动。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 4.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4286,
+    "source_end": 4425,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十六条 电子认证服务机构应当对其从业人员进行岗位培训。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 27,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 电子认证服务机构应当对其从业人员进行岗位培训。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 4.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3645,
+    "source_end": 3674,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第六章",
+    "chapter_title": "监督管理",
+    "text_zh": "第三十七条 工业和信息化部根据监督管理工作的需要，可以委托有关省、自治区和直辖市信息产业主管部门承担具体的监督管理事项。\n第七章 罚 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 61,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 工业和信息化部根据监督管理工作的需要，可以委托有关省、自治区和直辖市信息产业主管部门承担具体的监督管理事项。\n第七章 罚 则"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3675,
+    "source_end": 3743,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第七章",
+    "chapter_title": "罚 则",
+    "text_zh": "第三十八条 电子认证服务机构向工业和信息化部隐瞒有关情况、提供虚假材料或者拒绝提供反映其活动的真实材料的，由工业和信息化部责令改正，给予警告或者处以5000元以上1万元以下的罚款。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 80,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条 电子认证服务机构向工业和信息化部隐瞒有关情况、提供虚假材料或者拒绝提供反映其活动的真实材料的，由工业和信息化部责令改正，给予警告或者处以5000元以上1万元以下的罚款。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 4.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3744,
+    "source_end": 3834,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第七章",
+    "chapter_title": "罚 则",
+    "text_zh": "第三十九条 工业和信息化部与省、自治区、直辖市信息产业主管部门的工作人员，不依法履行监督管理职责的，由工业和信息化部或者省、自治区、直辖市信息产业主管部门依据职权视情节轻重，分别给予警告、记过、记大过、降级、撤职、开除的行政处分；构成犯罪的，依法追究刑事责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 114,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条 工业和信息化部与省、自治区、直辖市信息产业主管部门的工作人员，不依法履行监督管理职责的，由工业和信息化部或者省、自治区、直辖市信息产业主管部门依据职权视情节轻重，分别给予警告、记过、记大过、降级、撤职、开除的行政处分；构成犯罪的，依法追究刑事责任。"
+      }
+    ],
+    "topics": [
+      "criminal_law",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 13.5,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事责任",
+          "刑事 (weak)",
+          "犯罪 (weak)",
+          "责任 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3835,
+    "source_end": 3965,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第七章",
+    "chapter_title": "罚 则",
+    "text_zh": "第四十条 电子认证服务机构违反本办法第十三条、第十五条、第二十七条的规定的，由工业和信息化部依据职权责令限期改正，处以警告，可以并处1万元以下的罚款。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条 电子认证服务机构违反本办法第十三条、第十五条、第二十七条的规定的，由工业和信息化部依据职权责令限期改正，处以警告，可以并处1万元以下的罚款。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 4.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3966,
+    "source_end": 4041,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_041",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "第七章",
+    "chapter_title": "罚 则",
+    "text_zh": "第四十一条 电子认证服务机构违反本办法第三十三条的规定的，由工业和信息化部依据职权责令限期改正，处以3万元以下的罚款，并将上述情况向社会公告。\n第八章 附 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 70,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十一条 电子认证服务机构违反本办法第三十三条的规定的，由工业和信息化部依据职权责令限期改正，处以3万元以下的罚款，并将上述情况向社会公告。\n第八章 附 则"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 4.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4042,
+    "source_end": 4121,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_042",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "",
+    "chunk_index": 41,
+    "chapter": "第八章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十二条 经工业和信息化部根据有关协议或者对等原则核准后，中华人民共和国境外的电子认证服务机构在境外签发的电子签名认证证书与依照本办法设立的电子认证服务机构签发的电子签名认证证书具有同等的法律效力。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 97,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十二条 经工业和信息化部根据有关协议或者对等原则核准后，中华人民共和国境外的电子认证服务机构在境外签发的电子签名认证证书与依照本办法设立的电子认证服务机构签发的电子签名认证证书具有同等的法律效力。"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 12.0,
+        "matched_keywords": [
+          "电子签名",
+          "电子认证",
+          "电子 (weak)",
+          "签名 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4122,
+    "source_end": 4222,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_1_2009_ART_043",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_1_2009",
+    "law_name": "电子认证服务管理办法",
+    "law_name_original": "电子认证服务管理办法",
+    "law_type": "规章/法规",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "",
+    "chunk_index": 42,
+    "chapter": "第八章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十三条 本办法自2009年3月31日起施行。2005年2月8日发布的《电子认证服务管理办法》（中华人民共和国信息产业部令第35号）同时废止。\n【关闭窗口】 【打印本页】",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 58,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十三条 本办法自2009年3月31日起施行。2005年2月8日发布的《电子认证服务管理办法》（中华人民共和国信息产业部令第35号）同时废止。\n【关闭窗口】 【打印本页】"
+      }
+    ],
+    "topics": [
+      "electronic_transactions"
+    ],
+    "topics_details": [
+      {
+        "id": "electronic_transactions",
+        "label_zh": "电子交易",
+        "label_en": "Electronic Transactions",
+        "label_pt": "Transações Eletrónicas",
+        "score": 4.5,
+        "matched_keywords": [
+          "电子认证",
+          "电子 (weak)",
+          "认证 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": "2005-02-08",
+    "effective_date": "2009-03-31",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_79e49c1b615442f9b8ab31c604275d79.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_028.txt",
+    "sample_id": "CN_028",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_028",
+    "raw_sha256": "93e265f62f5f736e4c5b48e8ad8fd7d486e4b223512ecb8f0cb4b0d19631527b",
+    "extracted_text_sha256": "7cde9a84f1a4be476c4ebc6262420143f4c520478d7b318fd5766cf89fc291fd",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4223,
+    "source_end": 4309,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:48:08Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

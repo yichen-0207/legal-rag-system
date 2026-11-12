@@ -1,0 +1,1306 @@
+[
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_600",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.600",
+    "article_number_normalized": "101_600",
+    "article_title": "Purpose.",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The purpose of this subpart is to set minimum cybersecurity requirements for U.S.-flagged vessels, facilities, and Outer Continental Shelf (OCS) facilities to safeguard and ensure the security and resilience of the Marine Transportation System (MTS).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "maritime_security",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 20.25,
+        "matched_keywords": [
+          "u.s.-flagged vessels",
+          "outer continental shelf",
+          "marine transportation system"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.75,
+        "matched_keywords": [
+          "cybersecurity"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 21,
+    "source_end": 37,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_605",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.605",
+    "article_number_normalized": "101_605",
+    "article_title": "Applicability.",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This subpart applies to the owners and operators of U.S.-flagged vessels, facilities, and OCS facilities required to have a security plan under\n33 CFR parts 104\n105\n, and\n106\nThis subpart does not apply to any foreign-flagged vessels subject to\n33 CFR part 104",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "regulatory_scope",
+      "maritime_security"
+    ],
+    "topics_details": [
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 16.5,
+        "matched_keywords": [
+          "applicability (title, +5)",
+          "applies to",
+          "applies (weak)"
+        ]
+      },
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 6.75,
+        "matched_keywords": [
+          "u.s.-flagged vessels"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 291,
+    "source_end": 313,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_610",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.610",
+    "article_number_normalized": "101_610",
+    "article_title": "Federalism.",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Consistent with\n§ 101.112(b)\n, with respect to a facility regulated under\n33 CFR part 105\nto which this subpart applies, the regulations in this subpart have preemptive effect over a State or local law or regulation insofar as the State or local law or regulation applicable to the facility conflicts with these regulations, either by actually conflicting or by frustrating an overriding Federal need for uniformity.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "federalism_legal",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 26.0,
+        "matched_keywords": [
+          "federalism (title, +5)",
+          "preemptive effect",
+          "state or local law",
+          "local law",
+          "conflicts with"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this subpart"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 577,
+    "source_end": 596,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_615",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.615",
+    "article_number_normalized": "101_615",
+    "article_title": "Definitions.",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Unless otherwise specified, as used in this subpart:\nApproved list\nmeans an owner or operator's authoritative catalog for products that meet cybersecurity requirements.\nBackup\nmeans a copy of physical or virtual files or databases stored separately for preservation and recovery. It may also refer to the process of creating a copy.\nCredentials\nmeans a set of data attributes that uniquely identifies a system entity such as a person, an organization, a service, or a device, and attests to one's right to access to a particular system.\nCritical Information Technology (IT) or Operational Technology (OT) systems\nmeans any Information Technology (IT) or Operational Technology (OT) system used by the vessel, facility, or OCS facility that, if compromised or exploited, could result in a transportation security incident (TSI), as determined by the Cybersecurity Officer (CySO) in the Cybersecurity Plan. Critical IT or OT systems include those business support services that, if compromised or exploited, could result in a TSI. This term includes systems whose ownership, operation, maintenance, or control is delegated wholly or in part to any other party.\nCyber incident\nmeans an occurrence that actually jeopardizes, without lawful authority, the integrity, confidentiality, or availability of information or an information system, or actually jeopardizes, without lawful authority, an information system.\nCyber Incident Response Plan\nmeans a set of predetermined and documented procedures to respond to a cyber incident. It is a document that gives the owner or operator or a designated CySO instructions on how to respond to a cyber incident and pre-identifies key roles, responsibilities, and decision-makers.\nCyber threat\nmeans an action, not protected by the First Amendment to the Constitution of the United States, on or through an information system that may result in an unauthorized effort to adversely impact the security, availability, confidentiality, or integrity of an information system or information that is stored on, processed by, or transiting an information system. The term “cyber threat” does not include any action that solely involves a violation of a consumer term of service or a consumer licensing agreement.\nCybersecurity Assessment\nmeans the appraisal of the risks facing an entity, asset, system, or network, organizational operations, individuals, geographic area, other organizations, or society, and includes identification of relevant vulnerabilities and threats and determining the extent to which adverse circumstances or events could result in operational disruption and other harmful consequences.\nCybersecurity Officer,\nor CySO, means the person designated as responsible for the development, implementation, and maintenance of the cybersecurity portions of the Vessel Security Plan (VSP), Facility Security Plan (FSP), or Outer Continental Shelf (OCS) FSP, and for liaison with the Captain of the Port (COTP) and Company, Vessel, and Facility Security Officers. The owner or operator may designate an alternate CySO(s) to assist with the duties and responsibilities of the CySO, including during periods when the CySO is on leave, unavailable, or unable to perform their duties. Hereafter, “CySO” will refer to both the CySO and the alternate CySO(s), as applicable.\nCybersecurity Plan\nmeans a plan developed as a part of the VSP, FSP, or OCS FSP to ensure application and implementation of cybersecurity measures designed to protect the owners' or operators' systems and equipment, as required by this part. A Cybersecurity Plan is either included in a VSP, FSP, or OCS FSP; as an annex to a VSP, FSP, or OCS FSP; provided in a separate submission from the VSP, FSP, or OCS FSP; or addressed through an Alternative Security Program.\nCybersecurity risk\nmeans threats to and vulnerabilities of information or information systems and any related consequences caused by or resulting from unauthorized access, use, disclosure, degradation, disruption, modification, or destruction of such information or information systems, including such related consequences caused by an act of terrorism. It does not include any action that solely involves a violation of a consumer term of service or a consumer licensing agreement.\nCybersecurity vulnerability\nmeans any attribute of hardware, software, process, or procedure that could enable or facilitate the defeat of a security control.\nEncryption\nmeans any procedure used in cryptography to convert plain text into cipher text to prevent anyone but the intended recipient from reading that data.\nExecutable code\nmeans any object code, machine code, or other code readable by a computer when loaded into its memory and used directly by such computer to execute instructions.\nExploitable channel\nmeans any information channel (such as a portable media device and other hardware) that allows for the violation of the security policy governing the information system and is usable or detectable by subjects external to the trusted user.\nFirmware\nmeans computer programs (which are stored in and executed by computer hardware) and associated data (which is also stored in the hardware) that may be dynamically written or modified during execution.\nHardware\nmeans, collectively, the equipment that makes up physical parts of a computer, including its electronic circuitry, together with keyboards, readers, scanners, and printers.\nHuman-Machine Interface,\nor HMI, means the hardware or software through which an operator interacts with a controller for industrial systems. An HMI can range from a physical control panel with buttons and indicator lights to an industrial personal computer with a color graphics display running dedicated HMI software.\nInformation system\nmeans an interconnected set of information resources under the same direct management control that shares common functionality. A system normally includes hardware, software data, applications, communications, and people. It includes the application of IT, OT, or a combination of both.\nInformation Technology,\nor IT, means any equipment or interconnected system or subsystem of equipment, used in the acquisition, storage, analysis, evaluation, manipulation, management, movement, control, display, switching, interchange, transmission, or reception of data or information.\nKnown Exploited Vulnerability, or KEV,\nmeans a computer vulnerability that has been exploited in the past.\nLog\nmeans a record of the events occurring within an organization's systems and networks.\nMultifactor authentication\nmeans a layered approach to securing data and applications for a system that requires users to present more than one distinct authentication factor for successful authentication. Multifactor authentication can be performed using a multifactor authenticator or by a combination of authenticators that provide different factors. The three authentication factors are something you know, something you have, and something you are.\nNetwork\nmeans information system(s) implemented with a collection of interconnected components. A network is a collection of computers, servers, mainframes, network devices, peripherals, or other devices connected to allow data sharing. A network consists of two or more computers that are linked in order to share resources, exchange files, or allow electronic communications.\nNetwork map\nmeans a visual representation of internal network topologies and components.\nNetwork segmentation\nmeans a physical or virtual architectural approach that divides a network into multiple segments, each acting as its own subnetwork, to provide additional security and control that can help prevent or minimize the impact of a cyber incident.\nOperational Technology,\nor OT, means programmable systems or devices that interact with the physical environment (or manage devices that interact with the physical environment). These systems or devices detect or cause a change through the monitoring or control of devices, processes, and events.\nPatching\nmeans updating software and operating systems to address cybersecurity vulnerabilities within a program or product.\nPenetration test\nmeans a test of the security of a computer system or software application by attempting to compromise its security and the security of an underlying operating system and network component configurations.\nPrinciple of least privilege\nmeans that an individual should be given only those privileges that are needed to complete a task. Further, the individual's function, not identity, should control the assignment of privileges.\nPrivileged user\nmeans a user who is authorized (and, therefore, trusted) to perform security functions that ordinary users are not authorized to perform.\nReportable cyber incident\nmeans an incident that leads to or, if still under investigation, could reasonably lead to any of the following: Substantial loss of confidentiality, integrity, or availability of a covered information system, network, or OT system; Disruption or significant adverse impact on the reporting entity's ability to engage in business operations or deliver goods or services, including those that have a potential for significant impact on public health or safety or may cause serious injury or death; Disclosure or unauthorized access directly or indirectly of nonpublic personal information of a significant number of individuals; Other potential operational disruption to critical infrastructure systems or assets; or Incidents that otherwise may lead to a transportation security incident as defined in\n33 CFR 101.105\nRisk\nmeans a measure of the extent to which an entity is threatened by a potential circumstance or event, and typically is a function of: The adverse impact, or magnitude of harm, that would arise if the circumstance or event occurs; and the likelihood of occurrence.\nSoftware\nmeans a set of instructions, data, or programs used to operate a computer and execute specific tasks.\nSupply chain\nmeans a system of organizations, people, activities, information, and resources for creating computer products and offering IT services to their customers.\nThreat\nmeans any circumstance or event with the potential to adversely impact organizational operations (including mission, functions, image, or reputation), organizational assets, individuals, other organizations, or the Nation through an information system through unauthorized access, destruction, disclosure, modification of information, or denial of service.\nVulnerability\nmeans a characteristic or specific weakness that renders an organization or asset (such as information or an information system) open to exploitation by a given threat or susceptible to a given hazard.\nVulnerability scan\nmeans a technique used to identify hosts or host attributes and associated vulnerabilities.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "legal_definitions",
+      "cybersecurity",
+      "maritime_security",
+      "digital_identity",
+      "intellectual_property_licensing",
+      "government_procurement",
+      "government_contracting"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 80.0,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "as used in this subpart",
+          "in this subpart",
+          "defined (weak)",
+          "term (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 27.0,
+        "matched_keywords": [
+          "cybersecurity",
+          "cyber threat"
+        ]
+      },
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 25.5,
+        "matched_keywords": [
+          "outer continental shelf",
+          "facility security plan",
+          "captain of the port",
+          "vessel security",
+          "vessel (weak)",
+          "port (weak)"
+        ]
+      },
+      {
+        "id": "digital_identity",
+        "label_zh": "数字身份",
+        "label_en": "Digital Identity",
+        "label_pt": "Identidade Digital",
+        "score": 10.5,
+        "matched_keywords": [
+          "authentication"
+        ]
+      },
+      {
+        "id": "intellectual_property_licensing",
+        "label_zh": "知识产权与许可",
+        "label_en": "IP Licensing",
+        "label_pt": "Licença de Propriedade Intelectual",
+        "score": 5.5,
+        "matched_keywords": [
+          "data (weak)"
+        ]
+      },
+      {
+        "id": "government_procurement",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "acquisition"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "acquisition"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 1016,
+    "source_end": 1036,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_620",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.620",
+    "article_number_normalized": "101_620",
+    "article_title": "Owner or operator.",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Each owner or operator of a U.S.-flagged vessel, facility, or OCS facility is responsible for compliance with the requirements of this subpart.\nFor each U.S.-flagged vessel, facility, or OCS facility, the owner or operator must—\nEnsure a Cybersecurity Plan is developed, approved, and maintained;\nDefine in Section 1 of the Cybersecurity Plan the cybersecurity organizational structure and identify each person exercising cybersecurity duties and responsibilities within that structure, with the support needed to fulfill those obligations;\nDesignate, in writing, by name and by title, a Cybersecurity Officer (CySO) who is accessible to the Coast Guard 24 hours a day, 7 days a week, and identify how the CySO can be contacted at any time;\nEnsure that cybersecurity exercises, audits, and inspections, as well as the Cybersecurity Assessment, are conducted as required by this part and in accordance with the Cybersecurity Plan (see\n§ 101.625(d)(1)\n(3)\n(6)\nand\n(7)\n);\nEnsure that the U.S.-flagged vessel, facility, or OCS facility operates in compliance with the approved Cybersecurity Plan;\nEnsure the development, approval, and execution of the Cyber Incident Response Plan; and\nFor entities that have not reported to the Coast Guard pursuant to, or are not subject to,\n33 CFR 6.16-1\n, ensure all reportable cyber incidents are reported to the National Response Center (NRC).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybersecurity",
+      "maritime_security",
+      "regulatory_scope"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 16.5,
+        "matched_keywords": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 10.5,
+        "matched_keywords": [
+          "coast guard",
+          "vessel (weak)",
+          "coast guard (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 9.0,
+        "matched_keywords": [
+          "pursuant to",
+          "in accordance with"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 11847,
+    "source_end": 11873,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_625",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.625",
+    "article_number_normalized": "101_625",
+    "article_title": "Cybersecurity Officer.",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Other duties.\nThe Cybersecurity Officer (CySO) may serve in other roles or positions and may perform other duties within the owner's or operator's organization (U.S.-flagged vessel, facility, or OCS facility), provided the person is able to perform the duties and responsibilities required of the CySO by this part.\nServing as CySO for Multiple Vessels, Facilities, or OCS Facilities.\nThe same person may serve as the CySO for more than one U.S.-flagged vessel, facility, or OCS facility. If a person serves as the CySO for more than one U.S.-flagged vessel, facility, or OCS facility, the name of each U.S.-flagged vessel, facility, or OCS facility for which that person is the CySO must be listed in the Cybersecurity Plan of each U.S.-flagged vessel, facility, or OCS facility for which that person is the CySO.\nAssigning Duties Permitted.\nThe CySO may assign security duties to other U.S.-flagged vessel, facility, or OCS facility personnel; however, the CySO retains ultimate responsibility for these duties.\nResponsibilities.\nFor each U.S.-flagged vessel, facility, or OCS facility for which they are designated, the CySO must—\nEnsure that the Cybersecurity Assessment is conducted as required by this part;\nEnsure the cybersecurity measures in the Cybersecurity Plan are developed, implemented, and operating as intended;\nEnsure that an annual audit of the Cybersecurity Plan and its implementation is conducted and, if necessary, ensure that the Cybersecurity Plan is updated;\nEnsure the Cyber Incident Response Plan is executed and exercised;\nEnsure the Cybersecurity Plan is exercised in accordance with\n§ 101.635(c)\nArrange for cybersecurity inspections, which may be conducted as their own inspections, or in conjunction with any scheduled Coast Guard inspection of a U.S.-flagged vessel, facility, or OCS facility;\nEnsure the prompt correction of problems identified by exercises, audits, or inspections;\nEnhance the cybersecurity awareness and vigilance of personnel;\nEnsure adequate cybersecurity training of personnel;\n10\nEnsure all reportable cyber incidents are recorded and reported to the owner or operator;\n11\nEnsure that records required by this part are maintained in accordance with\n§ 101.640\n12\nEnsure any reports as required by this part have been prepared and submitted;\n13\nEnsure that the Cybersecurity Plan, as well as proposed amendments to cybersecurity measures included in the Plan, are submitted for approval to the cognizant COTP or the Officer in Charge, Marine Inspections (OCMI) for facilities or OCS facilities, or to the Marine Safety Center (MSC) for U.S.-flagged vessels, prior to amending the Cybersecurity Plan, in accordance with\n§ 101.630\n14\nEnsure relevant security and management personnel are briefed regarding changes in cybersecurity conditions on board the U.S.-flagged vessel, facility, or OCS facility; and\n15\nEnsure identification and mitigation of all KEVs in critical IT or OT systems, without delay.\nQualifications.\nThe CySO must have general knowledge, through training, education, or equivalent job experience, in the following:\nGeneral vessel, facility, or OCS facility operations and conditions;\nGeneral cybersecurity guidance and best practices;\nThe vessel, facility, or OCS facility's Cyber Incident Response Plan;\nThe vessel, facility, or OCS facility's Cybersecurity Plan;\nCybersecurity equipment and systems;\nMethods of conducting cybersecurity audits, inspections, control, and monitoring techniques;\nRelevant laws and regulations pertaining to cybersecurity;\nInstruction techniques for cybersecurity training and education;\nHandling of Sensitive Security Information and security related communications;\n10\nCurrent cybersecurity threat patterns and KEVs;\n11\nRecognizing characteristics and behavioral patterns of persons who are likely to threaten security; and\n12\nConducting and assessing cybersecurity drills and exercises.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybersecurity",
+      "maritime_security",
+      "regulatory_scope",
+      "government_contracting"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 42.5,
+        "matched_keywords": [
+          "cybersecurity (title, +5)",
+          "cybersecurity"
+        ]
+      },
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 18.5,
+        "matched_keywords": [
+          "u.s.-flagged vessels",
+          "coast guard",
+          "vessel (weak)",
+          "coast guard (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 7.5,
+        "matched_keywords": [
+          "in accordance with"
+        ]
+      },
+      {
+        "id": "government_contracting",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "responsibility"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 13255,
+    "source_end": 13285,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_630",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.630",
+    "article_number_normalized": "101_630",
+    "article_title": "Cybersecurity Plan.",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "General.\nThe CySO must develop, implement, and verify a Cybersecurity Plan for U.S.-flagged vessels, facilities, or OCS facilities. The Cybersecurity Plan must reflect all cybersecurity measures required in this subpart, as appropriate, to mitigate risks identified during the Cybersecurity Assessment. The Plan must describe in detail how the requirements of subpart F will be met. The Cybersecurity Plan may be included in a VSP, FSP, or an OCS FSP; as an annex to the VSP, FSP, or OCS FSP; as part of an approved Alternative Security Program; or may be provided in a separate submission from the VSP, FSP, or OCS FSP.\nProtecting sensitive security information.\nThe Cybersecurity Plan is sensitive security information and must be protected in accordance with\n49 CFR part 1520\nFormat.\nThe owner or operator must ensure that the Cybersecurity Plan consists of the individual sections listed in this paragraph. If the Cybersecurity Plan does not follow the order as it appears on the list, the owner or operator must ensure that the Plan contains an index identifying the location of each of the following sections:\nCybersecurity organization and identity of the CySO;\nPersonnel training;\nDrills and exercises;\nRecords and documentation;\nCommunications;\nCybersecurity systems and equipment, with associated maintenance;\nCybersecurity measures for access control, including the computer, IT, and OT access areas;\nPhysical security controls for IT and OT systems;\nCybersecurity measures for monitoring;\n10\nAudits and amendments to the Cybersecurity Plan;\n11\nReports of all cybersecurity audits and inspections, to include documentation of resolution or mitigation of all identified vulnerabilities;\n12\nDocumentation of all identified, unresolved vulnerabilities, to include those that are intentionally unresolved due to owner or operator risk acceptance;\n13\nCyber incident reporting procedures in accordance with\npart 101 of this subchapter\n; and\n14\nCybersecurity Assessment.\nSubmission and approval.\nEach owner or operator must submit one copy of their Cybersecurity Plan for review and approval to the cognizant COTP or the OCMI for a facility or OCS facility, or to the MSC for a U.S.-flagged vessel.\nThe COTP, OCMI, or MSC will evaluate each submission for compliance with this part, and either—\nApprove the Cybersecurity Plan and return a letter to the owner or operator indicating approval and any conditional approval;\nii\nRequire additional information or revisions to the Cybersecurity Plan and return a copy to the owner or operator with a brief description of the required revisions or additional information; or\niii\nDisapprove the Cybersecurity Plan and return a copy to the owner or operator with a brief statement of the reasons for disapproval.\niv\nIf the cognizant COTP, OCMI, or MSC requires additional time to review the Plan, they may return a written acknowledgement to the owner or operator stating that the Coast Guard will review the Cybersecurity Plan submitted for approval, and that the U.S.-flagged vessel, facility, or OCS facility may continue to operate as long as it remains in compliance with the submitted Cybersecurity Plan.\nOwners or operators submitting one Cybersecurity Plan to cover two or more U.S.-flagged vessels, facilities, or OCS facilities of similar operations must ensure the Plan addresses the specific cybersecurity risks for each U.S.-flagged vessel, facility, or OCS facility.\nA Plan that is approved by the COTP, OCMI, or MSC is valid for 5 years from the date of its approval.\nAmendments to the Cybersecurity Plan.\nAmendments to a Coast Guard-approved Cybersecurity Plan must be initiated by either—\nThe owner or operator or the CySO; or\nii\nWhen the COTP, OCMI, or MSC finds that the Cybersecurity Plan no longer meets the requirements in this part, the Plan will be returned to the owner or operator with a letter explaining why the Plan no longer meets the requirements and requires amendment. The owner or operator will have at least 60 days to submit its proposed amendments. Until the amendments are approved, the owner or operator must ensure temporary cybersecurity measures are implemented to the satisfaction of the Coast Guard.\nProposed amendments to the Cybersecurity Plan must be sent to the Coast Guard at least 30 days before the proposed amendment's effective date. The Coast Guard will approve or disapprove the proposed amendment in accordance with this part.\nNothing in this section should be construed as limiting the owner or operator of the U.S.-flagged vessel, facility, or OCS facility from the timely implementation of such additional security measures not enumerated in the approved VSP, FSP, or OCS FSP as necessary to address exigent security situations.\nii\nIn such cases, the owner or operator must notify the cognizant COTP for a facility or OCS facility, or the MSC for U.S.-flagged vessels, by the most rapid means practicable as to the nature of the additional measures, the circumstances that prompted these additional measures, and the period of time these additional measures are expected to be in place.\nIf the owner or operator has changed, the CySO must amend the Cybersecurity Plan as soon as reasonably practicable in light of the individual circumstances, but, in any case, not longer than 96 hours, to include the name and contact information of the new owner or operator and submit the affected portion of the Plan for review and approval in accordance with this part.\nIf the CySO has changed, the Coast Guard must be notified as soon as reasonably practicable in light of the individual circumstances, but, in any case, not longer than 96 hours, and the affected portion of the Cybersecurity Plan must be amended and submitted to the Coast Guard for review and approval in accordance with this part as soon as reasonably practicable in light of the individual circumstances, but, in any case, not longer than 96 hours.\nAudits.\nThe CySO must ensure that an audit of the Cybersecurity Plan and its implementation is performed annually, beginning no later than 1 year from the initial date of approval. The CySO must attach a report to the Plan certifying that the Plan meets the applicable requirements of this subpart.\nIn addition to the annual audit, the CySO must ensure that an audit of the Cybersecurity Plan occurs if there is a change in the owner or operator of the U.S.-flagged vessel, facility, or OCS facility, or if there have been modifications to the cybersecurity measures, including, but not limited to, physical access, incident response procedures, security measures, or operations.\nAdditional audits of the Cybersecurity Plan as a result of modifications to the U.S.-flagged vessel, facility, or OCS facility, or because of changes to the cybersecurity measures in accordance with\nparagraph (f)(2)\nof this section, may be limited to those sections of the Plan affected by the modifications.\nPersonnel conducting internal audits of the cybersecurity measures specified in the Plan or evaluating its implementation must—\nHave knowledge of methods of conducting audits and inspections, as well as access control and monitoring techniques;\nii\nNot have regularly assigned cybersecurity duties for the U.S.-flagged vessel, facility, or OCS facility being audited; and\niii\nBe independent of any cybersecurity measures being audited.\nIf the results of an audit require amending the Cybersecurity Plan, the CySO must submit, in accordance with this part, the amendments to the Coast Guard for review and approval no later than 30 days after completion of the audit.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "maritime_security",
+      "legal_definitions",
+      "regulatory_scope",
+      "consumer_protection",
+      "contract_design",
+      "quality_management"
+    ],
+    "topics_details": [
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 33.5,
+        "matched_keywords": [
+          "u.s.-flagged vessels",
+          "coast guard",
+          "vessel (weak)",
+          "coast guard (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 18.0,
+        "matched_keywords": [
+          "means",
+          "in this part",
+          "in this subpart",
+          "in this section"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 13.5,
+        "matched_keywords": [
+          "in accordance with"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 10.5,
+        "matched_keywords": [
+          "return"
+        ]
+      },
+      {
+        "id": "contract_design",
+        "label_zh": "合同与设计",
+        "label_en": "Contract & Design",
+        "label_pt": "Contrato e Design",
+        "score": 6.5,
+        "matched_keywords": [
+          "approval (weak)"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 3.0,
+        "matched_keywords": [
+          "requirements (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 17183,
+    "source_end": 17210,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_635",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.635",
+    "article_number_normalized": "101_635",
+    "article_title": "Drills and exercises.",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "General.\nDrills and exercises must be used to test the proficiency of the U.S.-flagged vessel, facility, and OCS facility personnel in assigned cybersecurity duties and the effective implementation of the VSP, FSP, OCS FSP, and Cybersecurity Plan. The drills and exercises must enable the CySO to identify any related cybersecurity deficiencies that need to be addressed.\nThe drill or exercise requirements specified in this section may be satisfied with the implementation of cybersecurity measures required by the VSP, FSP, OCS FSP, and Cybersecurity Plan as the result of a cyber incident, as long as the U.S.-flagged vessel, facility, or OCS facility achieves and documents attainment of drill and exercise goals for the cognizant COTP.\nDrills.\nThe CySO must ensure that cybersecurity drills are conducted at least twice each calendar year. Cybersecurity drills may be held in conjunction with other security or non-security drills, as required by\n33 CFR 104.230\n105.220\n, or\n106.225\n, where appropriate.\nDrills must test individual elements of the Cybersecurity Plan, including responses to cybersecurity threats and incidents. Cybersecurity drills must take into account the types of operations of the U.S.-flagged vessel, facility, or OCS facility; changes to the U.S.-flagged vessel, facility, or OCS facility personnel; the type of vessel a facility is serving; and other relevant circumstances.\nIf a vessel is moored at a facility on a date a facility has planned to conduct any drills, the facility cannot require the vessel or vessel personnel to be a part of or participate in the facility's scheduled drill.\nExercises.\nExercises must be conducted at least once each calendar year, with no more than 18 months between exercises.\nExercises may be—\nFull-scale or live;\nii\nTabletop simulation;\niii\nCombined with other appropriate exercises as required by\n33 CFR 104.230\n105.220\n, or\n106.225\n; or\niv\nA combination of the elements in\nparagraphs (c)(2)(i)\nthrough\n(iii)\nof this section.\nExercises may be vessel-, facility-, or OCS facility-specific, or part of a cooperative exercise program to exercise applicable vessel, facility, and OCS facility Cybersecurity Plans or comprehensive port exercises.\nEach exercise must test communication and notification procedures and elements of coordination, resource availability, and response.\nExercises are a full test of the cybersecurity program and must include the substantial and active participation of the CySO(s).\nIf any corrective action identified during an exercise is needed, it must be addressed and documented as soon as possible.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybersecurity",
+      "maritime_security",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 21.0,
+        "matched_keywords": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 7.5,
+        "matched_keywords": [
+          "vessel (weak)",
+          "port (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this section"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 24782,
+    "source_end": 24811,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_640",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.640",
+    "article_number_normalized": "101_640",
+    "article_title": "Records and documentation.",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "All records, reports, and other documents mentioned in this subpart must be created and maintained in accordance with\n33 CFR 104.235\nfor U.S.-flagged vessels, 105.225 for facilities, and 106.230 for OCS facilities. At a minimum, the records must be created for the following activities: training, drills, exercises, cybersecurity threats, reportable cyber incidents, and audits of the Cybersecurity Plan.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybersecurity",
+      "maritime_security",
+      "legal_definitions",
+      "regulatory_scope"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 4.5,
+        "matched_keywords": [
+          "u.s.-flagged vessels"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this subpart"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 4.5,
+        "matched_keywords": [
+          "in accordance with"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 27409,
+    "source_end": 27443,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_645",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.645",
+    "article_number_normalized": "101_645",
+    "article_title": "Communications.",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The CySO must have a means to effectively notify owners or operators and personnel of a U.S.-flagged vessel, facility, or OCS facility of changes in cybersecurity conditions at the U.S.-flagged vessel, facility, and OCS facility and document these means in Section 5 of the Cybersecurity Plan.\nCommunication systems and procedures must allow effective and continuous communications between U.S.-flagged vessel, facility, and OCS facility security personnel, vessels interfacing with a facility or an OCS facility, the cognizant COTP, and national and local authorities with security responsibilities.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybersecurity",
+      "legal_definitions",
+      "maritime_security"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 6.0,
+        "matched_keywords": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 6.0,
+        "matched_keywords": [
+          "means"
+        ]
+      },
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 3.0,
+        "matched_keywords": [
+          "vessel (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 27851,
+    "source_end": 27874,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_650",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.650",
+    "article_number_normalized": "101_650",
+    "article_title": "Cybersecurity measures.",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Account security measures.\nEach owner or operator of a U.S.-flagged vessel, facility, or OCS facility must ensure, at a minimum, the following account security measures are in place and documented in Section 7 of the Cybersecurity Plan:\nAutomatic account lockout after repeated failed login attempts must be enabled on all password-protected IT systems;\nDefault passwords must be changed before using any IT or OT systems. When changing default passwords is not feasible, appropriate compensating security controls must be implemented and documented;\nA minimum password strength must be maintained on all IT and OT systems that are technically capable of password protection;\nMultifactor authentication must be implemented on password-protected IT and remotely accessible OT systems. When multifactor authentication is not feasible, appropriate compensating security controls must be implemented and documented;\nThe principle of least privilege must be applied to administrator or otherwise privileged accounts on both IT and OT systems;\nThe owner or operator must ensure that users maintain separate credentials on critical IT and OT systems; and\nThe owner or operator must ensure that user credentials are removed or revoked when a user leaves the organization.\nDevice security measures.\nEach owner or operator or designated CySO of a U.S.-flagged vessel, facility, or OCS facility must ensure the following device security measures are in place, addressed in Section 6 of the Cybersecurity Plan, and made available to the Coast Guard upon request:\nDevelop and maintain a list of approved hardware, firmware, and software that may be installed on IT or OT systems. Any hardware, firmware, and software installed on IT and OT systems must be on the owner- or operator-approved list;\nEnsure applications running executable code are disabled by default on critical IT and OT systems;\nMaintain an accurate inventory of network-connected systems, including designation of critical IT and OT systems; and\nDevelop and maintain accurate documentation identifying the network map and OT device configuration information.\nData security measures.\nEach owner or operator or designated CySO of a U.S.-flagged vessel, facility, or OCS facility must ensure the following data security measures are in place and documented in Section 4 of the Cybersecurity Plan:\nLogs must be securely captured, stored, and protected so that they are accessible only by privileged users; and\nEffective encryption must be deployed to maintain confidentiality of sensitive data and integrity of IT and OT traffic, when technically feasible.\nCybersecurity training for personnel.\nThe training program to address requirements under this paragraph must be documented in Sections 2 and 4 of the Cybersecurity Plan.\nAll personnel with access to the IT or OT systems, including contractors, whether part-time, full-time, temporary, or permanent, must have cybersecurity training in the following topics:\nRelevant provisions of the Cybersecurity Plan;\nii\nRecognition and detection of cybersecurity threats and all types of cyber incidents;\niii\nTechniques used to circumvent cybersecurity measures;\niv\nProcedures for reporting a cyber incident to the CySO; and\nOT-specific cybersecurity training for all personnel whose duties include using OT.\nKey personnel with access to the IT or remotely accessible OT systems, including contractors, whether part-time, full-time, temporary, or permanent, must also have cybersecurity training in the following additional topics:\nUnderstanding their roles and responsibilities during a cyber incident and response procedure; and\nii\nMaintaining current knowledge of changing cybersecurity threats and countermeasures.\nWhen personnel must access IT or OT systems but are unable to receive cybersecurity training as specified in\nparagraphs (d)(1)\nand\n(2)\nof this section, they must be accompanied or monitored by a person who has completed the training specified in\nparagraphs (d)(1)\nand\n(2)\nof this section.\nAll personnel must complete the training specified in\nparagraphs (d)(1)(ii)\nthrough\n(v)\nof this section by January 12, 2026, and annually thereafter. Key personnel must complete the training specified in\nparagraph (d)(2)\nof this section by January 12, 2026, and annually thereafter, or more frequently as needed. Training for new personnel not in place at the time of the effective date of this rule must be completed within 5 days of gaining system access, but no later than within 30 days of hiring, and annually thereafter. Training for personnel on new IT or OT systems not in place at the time of the effective date of this rule must be completed within 5 days of system access, and annually thereafter. All personnel must complete the training specified in paragraph (d)(1)(i) within 60 days of receiving approval of the Cybersecurity Plan. The training must be documented and maintained in the owner's or operator's records in accordance with\n33 CFR 104.235\nfor U.S.-flagged vessels, 105.225 for facilities, and 106.230 for OCS facilities.\nRisk management.\nEach owner or operator or designated CySO of a U.S.-flagged vessel, facility, or OCS facility must ensure the following measures for risk management are in place and documented in Sections 11 and 12 of the Cybersecurity Plan:\nCybersecurity Assessment.\nEach owner or operator or designated CySO of a U.S.-flagged vessel, facility, or OCS facility must ensure completion of a Cybersecurity Assessment that addresses each covered U.S.-flagged vessel, facility, and OCS facility. A Cybersecurity Assessment must be conducted no later than July 16, 2027, and annually thereafter. However, the Cybersecurity Assessment must be conducted sooner than annually if there is a change in ownership of a U.S.-flagged vessel, facility, or OCS facility. In conducting the Cybersecurity Assessment, the owner or operator must—\nAnalyze all networks to identify vulnerabilities to critical IT and OT systems and the risk posed by each digital asset;\nii\nValidate the Cybersecurity Plan;\niii\nDocument recommendations and resolutions in the Vessel Security Assessment (VSA), Facility Security Assessment (FSA), or OCS FSA, in accordance with\n33 CFR 104.305\n105.305\n, and\n106.305\niv\nDocument and ensure patching or implementing of documented compensating controls for all KEVs in critical IT or OT systems, without delay; and\nIncorporate recommendations and resolutions from\nparagraph (e)(1)(iii)\nof this section into the Cybersecurity Plan through an amendment, in accordance with\n§ 101.630(e)\nPenetration testing.\nIn conjunction with Cybersecurity Plan renewal, the owner, operator, or designated CySO must ensure that a penetration test has been completed. Following the penetration test, a letter certifying that the test was conducted, as well as all identified vulnerabilities, must be included in the VSA, FSA, or OCS FSA, in accordance with\n33 CFR 104.305\n105.305\n, and\n106.305\nRoutine system maintenance.\nEach owner or operator or a designated CySO of a U.S.-flagged vessel, facility, or OCS facility must ensure the following measures for routine system maintenance are in place and documented in Section 6 of the Cybersecurity Plan:\nEnsure patching or implementation of documented compensating controls for all KEVs in critical IT or OT systems, without delay;\nii\nMaintain a method to receive and act on publicly submitted vulnerabilities;\niii\nMaintain a method to share threat and vulnerability information with external stakeholders;\niv\nEnsure there are no exploitable channels directly exposed to internet-accessible systems;\nEnsure no OT is connected to the publicly accessible internet unless explicitly required for operation, and verify that, for any remotely accessible OT system, there is a documented justification; and\nvi\nConduct vulnerability scans as specified in the Cybersecurity Plan.\nSupply chain.\nEach owner or operator or designated CySO of a U.S.-flagged vessel, facility, or OCS facility must ensure the following supply-chain measures are in place and documented in Section 4 of the Cybersecurity Plan:\nConsider cybersecurity capability as criteria for evaluation to procure IT and OT systems or services;\nEstablish a process through which all IT and OT vendors or service providers notify the owner or operator or designated CySO of any cybersecurity vulnerabilities or reportable cyber incidents, without delay; and\nMonitor and document all third-party remote connections to detect cyber incidents.\nResilience.\nEach owner or operator or designated CySO of a U.S.-flagged vessel, facility, or OCS facility must ensure the following measures for resilience are in place and documented in Sections 3 and 9 of the Cybersecurity Plan:\nFor entities that have not reported to the Coast Guard pursuant to, or not subject to,\n33 CFR 6.16-1\n, report reportable cyber incidents to the NRC without delay;\nIn addition to other plans mentioned in this subpart, develop, implement, maintain, and exercise the Cyber Incident Response Plan;\nPeriodically validate the effectiveness of the Cybersecurity Plan through annual exercises, annual reviews of incident response cases, or post-cyber incident review, as determined by the owner or operator; and\nPerform backup of critical IT and OT systems, with those backups being sufficiently protected and tested frequently.\nNetwork segmentation.\nEach owner or operator or designated CySO of a U.S.-flagged vessel, facility, or OCS facility must ensure the following measures for network segmentation are in place and documented in Sections 7 and 8 of the Cybersecurity Plan:\nImplement segmentation between IT and OT networks; and\nVerify that all connections between IT and OT systems are logged and monitored for suspicious activity, breaches of security, TSIs, unauthorized access, and cyber incidents.\nPhysical security.\nEach owner, operator, or designated CySO of a U.S.-flagged vessel, facility, or OCS facility must ensure the following measures for physical security are in place and documented in Sections 7 and 8 of the Cybersecurity Plan:\nIn addition to any other requirements in this part, limit physical access to OT and related IT equipment to only authorized personnel, and confirm that all HMIs and other hardware are secured, monitored, and logged for personnel access; and\nEnsure unauthorized media and hardware are not connected to IT and OT infrastructure, including blocking, disabling, or removing unused physical access ports, and establishing procedures for granting access on a by-exception basis.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "maritime_security",
+      "regulatory_scope",
+      "legal_definitions",
+      "data_protection",
+      "digital_identity"
+    ],
+    "topics_details": [
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 25.0,
+        "matched_keywords": [
+          "u.s.-flagged vessels",
+          "vessel security",
+          "coast guard",
+          "vessel (weak)",
+          "coast guard (weak)"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 13.5,
+        "matched_keywords": [
+          "pursuant to",
+          "in accordance with"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.0,
+        "matched_keywords": [
+          "in this part",
+          "in this subpart"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "data security"
+        ]
+      },
+      {
+        "id": "digital_identity",
+        "label_zh": "数字身份",
+        "label_en": "Digital Identity",
+        "label_pt": "Identidade Digital",
+        "score": 6.0,
+        "matched_keywords": [
+          "authentication"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 28478,
+    "source_end": 28509,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_655",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.655",
+    "article_number_normalized": "101_655",
+    "article_title": "Cybersecurity compliance dates.",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "All Cybersecurity Plans mentioned in this subpart must be submitted to the Coast Guard for review and approval no later than July 16, 2027, according to\n33 CFR 104.410\nfor U.S.-flagged vessels,\n33 CFR 105.410\nfor facilities, or\n33 CFR 106.410\nfor OCS facilities.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "maritime_security",
+      "cybersecurity",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 10.5,
+        "matched_keywords": [
+          "u.s.-flagged vessels",
+          "coast guard",
+          "coast guard (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 9.5,
+        "matched_keywords": [
+          "cybersecurity (title, +5)",
+          "cybersecurity"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this subpart"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 39040,
+    "source_end": 39079,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_660",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.660",
+    "article_number_normalized": "101_660",
+    "article_title": "Cybersecurity compliance documentation.",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Each owner or operator must ensure that the cybersecurity portion of their Plan and penetration test results are available to the Coast Guard upon request. The Alternative Security Program provisions apply to cybersecurity compliance documentation and are addressed in\n33 CFR 104.140\nfor vessels,\n33 CFR 105.140\nfor facilities, and\n33 CFR 106.135\nfor OCS facilities.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "cybersecurity",
+      "maritime_security"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 11.0,
+        "matched_keywords": [
+          "cybersecurity (title, +5)",
+          "cybersecurity"
+        ]
+      },
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 6.0,
+        "matched_keywords": [
+          "coast guard",
+          "coast guard (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 39345,
+    "source_end": 39392,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_665",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.665",
+    "article_number_normalized": "101_665",
+    "article_title": "Noncompliance, waivers, and equivalents.",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "An owner or operator, after completion of the required Cybersecurity Assessment, may seek a waiver or an equivalence determination for the requirements in subpart F using the standards and submission procedures applicable to a U.S.-flagged vessel, facility, or OCS facility as outlined in\n33 CFR 101.130\n104.130\n104.135\n105.130\n105.135\n106.125\n, or\n106.130\n. If an owner or operator must temporarily deviate from the requirements in this part, they must notify the cognizant COTP for facilities or OCS facilities, or the MSC for U.S.-flagged vessels, and may request temporary permission to continue to operate under the provisions as outlined in\n33 CFR 104.125\n105.125\n, or\n106.120",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "maritime_security",
+      "cybersecurity",
+      "legal_definitions",
+      "quality_management"
+    ],
+    "topics_details": [
+      {
+        "id": "maritime_security",
+        "label_zh": "海事安全",
+        "label_en": "Maritime Security",
+        "label_pt": "Segurança Marítima",
+        "score": 6.5,
+        "matched_keywords": [
+          "u.s.-flagged vessels",
+          "vessel (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "cybersecurity"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "in this part"
+        ]
+      },
+      {
+        "id": "quality_management",
+        "label_zh": "质量管理",
+        "label_en": "Quality Management",
+        "label_pt": "Gestão da Qualidade",
+        "score": 3.5,
+        "matched_keywords": [
+          "requirements (weak)",
+          "standards (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 39762,
+    "source_end": 39810,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T33_P101_2025_ART_101_670",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T33_P101_2025",
+    "law_name": "Cybersecurity",
+    "law_name_original": "Cybersecurity",
+    "law_type": "CFR",
+    "article_number": "101.670",
+    "article_number_normalized": "101_670",
+    "article_title": "Severability.",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Any provision of this subpart held to be invalid or unenforceable as applied to any person or circumstance shall be construed so as to continue to give the maximum effect to the provision permitted by law, including as applied to persons not similarly situated or to dissimilar circumstances, unless such holding is that the provision of this subpart is invalid and unenforceable in all circumstances, in which event the provision shall be severable from the remainder of this subpart and shall not affect the remainder thereof.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "federalism_legal"
+    ],
+    "topics_details": [
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 35.5,
+        "matched_keywords": [
+          "severability (title, +5)",
+          "held to be invalid",
+          "unenforceable",
+          "maximum effect",
+          "persons not similarly situated",
+          "dissimilar circumstances",
+          "construed so as to",
+          "invalid (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2025-01-17",
+    "effective_date": "2026-06-11",
+    "publication_date": "2025-01-17",
+    "last_amended_date": "2026-06-11",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-33/part-101",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T33_P101_33_CFR_Part_101_Subpart_F_--_Cybersecurity.txt",
+    "source_start": 40496,
+    "source_end": 40517,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:28Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

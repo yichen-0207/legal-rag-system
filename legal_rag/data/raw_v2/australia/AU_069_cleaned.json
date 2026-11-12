@@ -1,0 +1,1012 @@
+[
+  {
+    "doc_id": "AU_ACT_112_2009_ART_001",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "Short title",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act may be cited as the National Consumer Credit Protection (Fees) Act 2009 .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act may be cited as the National Consumer Credit Protection (Fees) Act 2009 ."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 227,
+    "source_end": 359,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_112_2009_ART_002",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Commencement",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provision(s)\nCommencementDate/Details\n1. Sections 1 and 2 and anything in this Act not elsewhere covered by this table\nThe day on which this Act receives the Royal Assent.\n16 November 2009\n2. Sections 3 to 10At the same time as section 3 of the National Consumer Credit Protection Act 2009 .\n1 April 2010\nNote: This table relates only to the provisions of this Act as originally passed by both Houses of the Parliament and assented to. It will not be expanded to deal with provisions inserted in this Act after assent.\nColumn 3 of the table contains additional information that is not part of this Act. Information in this column may be added to or edited in any published version of this Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provision(s)\nCommencementDate/Details\n1. Sections 1 and 2 and anything in this Act not elsewhere covered by this table\nThe day on which this Act receives the Royal Assent.\n16 November 2009\n2. Sections 3 to 10At the same time as section 3 of the National Consumer Credit Protection Act 2009 .\n1 April 2010\nNote: This table relates only to the provisions of this Act as originally passed by both Houses of the Parliament and assented to. It will not be expanded to deal with provisions inserted in this Act after assent.\nColumn 3 of the table contains additional information that is not part of this Act. Information in this column may be added to or edited in any published version of this Act."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 324,
+    "source_end": 1330,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_112_2009_ART_003",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Application to the Crown",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "If the Crown, in a capacity, is bound by the provision or provisions of the National Consumer Credit Protection Act 2009 or the National Consumer Credit Protection (Transitional and Consequential Provisions) Act 2009 under which a chargeable matter arises or to which a chargeable matter relates, then the Crown, in that capacity, is bound by this Act in respect of that chargeable matter.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "If the Crown, in a capacity, is bound by the provision or provisions of the National Consumer Credit Protection Act 2009 or the National Consumer Credit Protection (Transitional and Consequential Provisions) Act 2009 under which a chargeable matter arises or to which a chargeable matter relates, then the Crown, in that capacity, is bound by this Act in respect of that chargeable matter."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1296,
+    "source_end": 1735,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_112_2009_ART_004",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "Definitions",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In this Act:chargeable matter means any of the following:\n(a) the lodgment of a document under the National Consumer Credit Protection Act 2009 or the National Consumer Credit Protection (Transitional and Consequential Provisions) Act 2009 ;\n(b) the inclusion of a document in a register maintained under either of those Acts;\n(c) the inspection or search of a register kept by, or a document in the custody of, ASIC under either of those Acts;\n(d) the making available by ASIC, under either of those Acts, of information (whether in the form of a document or otherwise);\n(e) the production by ASIC, under a subpoena, of such a register or document;\n(f) the issuing of a document or of a copy of a document, the granting of a licence, registration, consent or approval, or the doing of any other act, under either of those Acts, by the Minister or ASIC;\n(g) the making of an inquiry of, or an application to, the Minister, or ASIC, in relation to a matter arising under either of those Acts;\n(h) the submission to ASIC of a document for examination by ASIC.\nrepresentative of a person:\n(a) if the person is a licensee—has the same meaning as in section 5 of the National Consumer Credit Protection Act 2009 ; and\n(b) if the person is a registered person (within the meaning of the National Consumer Credit Protection (Transitional and Consequential Provisions) Act 2009 —has the same meaning as in section 4 of that Act; and\n(c) otherwise—has the same meaning as in section 5 of the National Consumer Credit Protection Act 2009 .\nOther expressions used in this Act that are defined in the National Consumer Credit Protection Act 2009 have the same meanings as they have in those Acts.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "the lodgment of a document under the National Consumer Credit Protection Act 2009 or the National Consumer Credit Protection (Transitional and Consequential Provisions) Act 2009 ;"
+      },
+      {
+        "marker": "B",
+        "content": "the inclusion of a document in a register maintained under either of those Acts;"
+      },
+      {
+        "marker": "C",
+        "content": "the inspection or search of a register kept by, or a document in the custody of, ASIC under either of those Acts;"
+      },
+      {
+        "marker": "D",
+        "content": "the making available by ASIC, under either of those Acts, of information (whether in the form of a document or otherwise);"
+      },
+      {
+        "marker": "E",
+        "content": "the production by ASIC, under a subpoena, of such a register or document;"
+      },
+      {
+        "marker": "F",
+        "content": "the issuing of a document or of a copy of a document, the granting of a licence, registration, consent or approval, or the doing of any other act, under either of those Acts, by the Minister or ASIC;"
+      },
+      {
+        "marker": "G",
+        "content": "the making of an inquiry of, or an application to, the Minister, or ASIC, in relation to a matter arising under either of those Acts;"
+      },
+      {
+        "marker": "H",
+        "content": "the submission to ASIC of a document for examination by ASIC.\nrepresentative of a person:"
+      },
+      {
+        "marker": "A",
+        "content": "if the person is a licensee—has the same meaning as in section 5 of the National Consumer Credit Protection Act 2009 ; and"
+      },
+      {
+        "marker": "B",
+        "content": "if the person is a registered person (within the meaning of the National Consumer Credit Protection (Transitional and Consequential Provisions) Act 2009 —has the same meaning as in section 4 of that Act; and"
+      },
+      {
+        "marker": "C",
+        "content": "otherwise—has the same meaning as in section 5 of the National Consumer Credit Protection Act 2009 .\nOther expressions used in this Act that are defined in the National Consumer Credit Protection Act 2009 have the same meanings as they have in those Acts."
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "defined (weak)",
+          "meaning (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "consent"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1713,
+    "source_end": 3447,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_112_2009_ART_005",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "Imposition of fees for chargeable matters",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Subject to section 6, the regulations may prescribe fees for chargeable matters.\nThe fees prescribed by the regulations for chargeable matters are imposed, and are so imposed as taxes.\nTwo or more fees may be prescribed for the same chargeable matter.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Subject to section 6, the regulations may prescribe fees for chargeable matters.\nThe fees prescribed by the regulations for chargeable matters are imposed, and are so imposed as taxes.\nTwo or more fees may be prescribed for the same chargeable matter."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3412,
+    "source_end": 3713,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_112_2009_ART_006",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "Matters relating to amount of fees",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The regulations may prescribe a fee for a chargeable matter:\n(a) by specifying an amount (not exceeding $10,000) as the fee; or\n(b) by specifying a method for calculating the amount of the fee.\nNote: The limitation in paragraph (a) applies separately to each fee imposed if more than one fee is prescribed for the same chargeable matter (see subsection 5(3)).\nThe fee for a chargeable matter need not bear any relationship to the cost of providing any service that forms part of, or is related to, that matter.\nThe fee, or the sum of the fees, for a chargeable matter must not exceed $50,000.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "by specifying an amount (not exceeding $10,000) as the fee; or"
+      },
+      {
+        "marker": "B",
+        "content": "by specifying a method for calculating the amount of the fee.\nNote: The limitation in paragraph (a) applies separately to each fee imposed if more than one fee is prescribed for the same chargeable matter (see subsection 5(3)).\nThe fee for a chargeable matter need not bear any relationship to the cost of providing any service that forms part of, or is related to, that matter.\nThe fee, or the sum of the fees, for a chargeable matter must not exceed $50,000."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3708,
+    "source_end": 4350,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_112_2009_ART_007",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "7 Different fees for electronic compliance in relation to a chargeable matter\nWithout limiting sections 5 and 6, the regulations may prescribe, in relation to a chargeable matter, different fees having regard to whether the matter is complied with by electronic means.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "7 Different fees for electronic compliance in relation to a chargeable matter\nWithout limiting sections 5 and 6, the regulations may prescribe, in relation to a chargeable matter, different fees having regard to whether the matter is complied with by electronic means."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "means"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4338,
+    "source_end": 4656,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_112_2009_ART_008",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "8 Different fees for number of representatives of person by whom fee for chargeable matter is payable\nWithout limiting sections 5 and 6, the regulations may prescribe, in relation to a chargeable matter, different fees having regard to the number of representatives (of the kind prescribed by the regulations) that the person by whom the fee for the chargeable matter is payable has at a particular time.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "8 Different fees for number of representatives of person by whom fee for chargeable matter is payable\nWithout limiting sections 5 and 6, the regulations may prescribe, in relation to a chargeable matter, different fees having regard to the number of representatives (of the kind prescribed by the regulations) that the person by whom the fee for the chargeable matter is payable has at a particular time."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4607,
+    "source_end": 5061,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_112_2009_ART_008A",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "8A",
+    "article_number_normalized": "008A",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "8A Different fees for matters relating to person liable to pay fee\nWithout limiting sections 5 and 6, the regulations may prescribe, in relation to a chargeable matter, different fees having regard to any matter relating to the person by whom the fee for the matter is payable.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "8A Different fees for matters relating to person liable to pay fee\nWithout limiting sections 5 and 6, the regulations may prescribe, in relation to a chargeable matter, different fees having regard to any matter relating to the person by whom the fee for the matter is payable."
+      }
+    ],
+    "topics": [
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 6.0,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5012,
+    "source_end": 5339,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_112_2009_ART_009",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "9 Who is liable to pay the fee for a chargeable matter, and time liability is incurred\nThe person by whom a fee for a chargeable matter is payable, and the time at which the person incurs that liability, are as follows:\n(a) for a chargeable matter referred to in paragraph (a) of the definition of chargeable matter in subsection 4(1):\n(i) person liable—the person who lodges the document; and\n(ii) time liability incurred—when the document is lodged;\n(b) for a chargeable matter referred to in paragraph (b) of that definition:\n(i) person liable—the person who requests inclusion of the document in the register, or if there is no request, the person who lodges the document; and\n(ii) time liability incurred—when the request for inclusion of the document in the register is made, or if there is no request, when the document is lodged;\n(c) for a chargeable matter referred to in paragraph (c) of that definition:\n(i) person liable—the person who requests the inspection or search; and\n(ii) time liability incurred—when the request is made;\n(d) for a chargeable matter referred to in paragraph (d) of that definition:\n(i) person liable—the person who requests the information; and\n(ii) time liability incurred—when the request is made;\n(e) for a chargeable matter referred to in paragraph (e) of that definition:\n(i) person liable—the person who filed the subpoena; and\n(ii) time liability incurred—when the subpoena is served on ASIC;\n(f) for a chargeable matter referred to in paragraph (f) of that definition:\n(i) person liable—the person who requests the issue of the document (or copy), the grant of the licence, registration, consent or approval, or the doing of the other act, or, if there is no such request, the person for whose benefit the act is done; and\n(ii) time liability incurred—when the request is made, or if there is no request, when the act is done;\n(g) for a chargeable matter referred to in paragraph (g) of that definition:\n(i) person liable—the person who makes the inquiry or application; and\n(ii) time liability incurred—when the inquiry or application is made;\n(h) for a chargeable matter referred to in paragraph (h) of that definition:\n(i) person liable—the person who submits the document; and\n(ii) time liability incurred—when the document is submitted.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "for a chargeable matter referred to in paragraph (a) of the definition of chargeable matter in subsection 4(1):"
+      },
+      {
+        "marker": "I",
+        "content": "person liable—the person who lodges the document; and"
+      },
+      {
+        "marker": "2",
+        "content": "time liability incurred—when the document is lodged;"
+      },
+      {
+        "marker": "B",
+        "content": "for a chargeable matter referred to in paragraph (b) of that definition:"
+      },
+      {
+        "marker": "I",
+        "content": "person liable—the person who requests inclusion of the document in the register, or if there is no request, the person who lodges the document; and"
+      },
+      {
+        "marker": "2",
+        "content": "time liability incurred—when the request for inclusion of the document in the register is made, or if there is no request, when the document is lodged;"
+      },
+      {
+        "marker": "C",
+        "content": "for a chargeable matter referred to in paragraph (c) of that definition:"
+      },
+      {
+        "marker": "I",
+        "content": "person liable—the person who requests the inspection or search; and"
+      },
+      {
+        "marker": "2",
+        "content": "time liability incurred—when the request is made;"
+      },
+      {
+        "marker": "D",
+        "content": "for a chargeable matter referred to in paragraph (d) of that definition:"
+      },
+      {
+        "marker": "I",
+        "content": "person liable—the person who requests the information; and"
+      },
+      {
+        "marker": "2",
+        "content": "time liability incurred—when the request is made;"
+      },
+      {
+        "marker": "E",
+        "content": "for a chargeable matter referred to in paragraph (e) of that definition:"
+      },
+      {
+        "marker": "I",
+        "content": "person liable—the person who filed the subpoena; and"
+      },
+      {
+        "marker": "2",
+        "content": "time liability incurred—when the subpoena is served on ASIC;"
+      },
+      {
+        "marker": "F",
+        "content": "for a chargeable matter referred to in paragraph (f) of that definition:"
+      },
+      {
+        "marker": "I",
+        "content": "person liable—the person who requests the issue of the document (or copy), the grant of the licence, registration, consent or approval, or the doing of the other act, or, if there is no such request, the person for whose benefit the act is done; and"
+      },
+      {
+        "marker": "2",
+        "content": "time liability incurred—when the request is made, or if there is no request, when the act is done;"
+      },
+      {
+        "marker": "G",
+        "content": "for a chargeable matter referred to in paragraph (g) of that definition:"
+      },
+      {
+        "marker": "I",
+        "content": "person liable—the person who makes the inquiry or application; and"
+      },
+      {
+        "marker": "2",
+        "content": "time liability incurred—when the inquiry or application is made;"
+      },
+      {
+        "marker": "H",
+        "content": "for a chargeable matter referred to in paragraph (h) of that definition:"
+      },
+      {
+        "marker": "I",
+        "content": "person liable—the person who submits the document; and"
+      },
+      {
+        "marker": "2",
+        "content": "time liability incurred—when the document is submitted."
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "compensation_benefits",
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 15.0,
+        "matched_keywords": [
+          "definition",
+          "definition (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 6.0,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "consent"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 102,
+    "source_end": 2438,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_112_2009_ART_010",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "Regulations",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Governor ‑ General may make regulations for the purposes of sections 5, 6, 7, 8 and 8A.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "The Governor ‑ General may make regulations for the purposes of sections 5, 6, 7, 8 and 8A."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7577,
+    "source_end": 7718,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_112_2009_ART_End0",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_112_2009",
+    "law_name": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_name_original": "National Consumer Credit Protection (Fees) Act 2009",
+    "law_type": "Act",
+    "article_number": "End0",
+    "article_number_normalized": "End0",
+    "article_title": "Endnotes",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "EndnotesEndnote 1—About the endnotes\nThe endnotes provide information about this compilation and the compiled law.\nThe following endnotes are included in every compilation:\nEndnote 1—About the endnotes\nEndnote 2—Abbreviation key\nEndnote 3—Legislation history\nEndnote 4—Amendment history\nAbbreviation key—Endnote 2\nThe abbreviation key sets out abbreviations that may be used in the endnotes.\nLegislation history and amendment history—Endnotes 3 and 4\nAmending laws are annotated in the legislation history and amendment history.\nThe legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.\nThe amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.\nEditorial changesThe Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.\nIf the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.\nMisdescribed amendments\nA misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003 .\nIf a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.\nEndnote 2—Abbreviation key\nad = added or inserted\no = order(s)am = amended\nOrd = Ordinanceamdt = amendment\norig = originalc = clause(s)\npar = paragraph(s)/subparagraph(s)\nC[x] = Compilation No. x\n/sub ‑ subparagraph(s)\nCh = Chapter(s)pres = present\ndef = definition(s)prev = previous\nDict = Dictionary(prev…) = previously\ndisallowed = disallowed by Parliament\nPt = Part(s)Div = Division(s)\nr = regulation(s)/rule(s)\ned = editorial change\nreloc = relocatedexp = expires/expired or ceases/ceased to have\nrenum = renumberedeffect\nrep = repealedF = Federal Register of Legislation\nrs = repealed and substituted\ngaz = gazettes = section(s)/subsection(s)\nLA = Legislation Act 2003\nSch = Schedule(s)LIA = Legislative Instruments Act 2003\nSdiv = Subdivision(s)\n(md) = misdescribed amendment can be given\nSLI = Select Legislative Instrument\neffectSR = Statutory Rules\n(md not incorp) = misdescribed amendment\nSub ‑ Ch = Sub ‑ Chapter(s)\ncannot be given effect\nSubPt = Subpart(s)mod = modified/modification\nunderlining = whole or part not\nNo. = Number(s)commenced or to be commenced\nEndnote 3—Legislation history\nActNumber and year\nAssentCommencement\nApplication, saving and transitional provisions\nNational Consumer Credit Protection (Fees) Act 2009\n112, 2009\n16 Nov 2009\ns 3–10: 1 Apr 2010 (s 2(1) item 2)\nRemainder: 16 Nov 2009 (s 2(1) item 1)\nNational Consumer Credit Protection (Fees) Amendment (ASIC Fees) Act 2018\n56, 2018\n28 June 2018\n29 June 2018 (s 2(1) item 1)\n—\nNational Consumer Credit Protection (Fees) Amendment (Registries Modernisation) Act 2020\n68, 2020\n22 June 2020\nSch 1: awaiting commencement (s 2(1) item 2)\n—\nas amended byTreasury Laws Amendment (2022 Measures No. 1) Act 2022\n35, 2022\n9 Aug 2022\nSch 4 (Pt 1, item 4): 21 June 2022 (s 2(1) item 5)\n—\nEndnote 4—Amendment history\nProvision affectedHow affected\ns 4 .....................\nam No 68, 2020s 8A ....................\nad No 56, 2018s 9 .....................\nam No 68, 2020s 10 ....................\nam No 56, 2018",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "endnote",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "EndnotesEndnote 1—About the endnotes\nThe endnotes provide information about this compilation and the compiled law.\nThe following endnotes are included in every compilation:\nEndnote 1—About the endnotes\nEndnote 2—Abbreviation key\nEndnote 3—Legislation history\nEndnote 4—Amendment history\nAbbreviation key—Endnote 2\nThe abbreviation key sets out abbreviations that may be used in the endnotes.\nLegislation history and amendment history—Endnotes 3 and 4\nAmending laws are annotated in the legislation history and amendment history.\nThe legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.\nThe amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.\nEditorial changesThe Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.\nIf the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.\nMisdescribed amendments\nA misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003 .\nIf a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.\nEndnote 2—Abbreviation key\nad = added or inserted\no = order(s)am = amended\nOrd = Ordinanceamdt = amendment\norig = originalc = clause(s)\npar = paragraph(s)/subparagraph(s)\nC[x] = Compilation No. x\n/sub ‑ subparagraph(s)\nCh = Chapter(s)pres = present\ndef = definition(s)prev = previous\nDict = Dictionary(prev…) = previously\ndisallowed = disallowed by Parliament\nPt = Part(s)Div = Division(s)\nr = regulation(s)/rule(s)\ned = editorial change\nreloc = relocatedexp = expires/expired or ceases/ceased to have\nrenum = renumberedeffect\nrep = repealedF = Federal Register of Legislation\nrs = repealed and substituted\ngaz = gazettes = section(s)/subsection(s)\nLA = Legislation Act 2003\nSch = Schedule(s)LIA = Legislative Instruments Act 2003\nSdiv = Subdivision(s)\n(md) = misdescribed amendment can be given\nSLI = Select Legislative Instrument\neffectSR = Statutory Rules\n(md not incorp) = misdescribed amendment\nSub ‑ Ch = Sub ‑ Chapter(s)\ncannot be given effect\nSubPt = Subpart(s)mod = modified/modification\nunderlining = whole or part not\nNo. = Number(s)commenced or to be commenced\nEndnote 3—Legislation history\nActNumber and year\nAssentCommencement\nApplication, saving and transitional provisions\nNational Consumer Credit Protection (Fees) Act 2009\n112, 2009\n16 Nov 2009\ns 3–10: 1 Apr 2010 (s 2(1) item 2)\nRemainder: 16 Nov 2009 (s 2(1) item 1)\nNational Consumer Credit Protection (Fees) Amendment (ASIC Fees) Act 2018\n56, 2018\n28 June 2018\n29 June 2018 (s 2(1) item 1)\n—\nNational Consumer Credit Protection (Fees) Amendment (Registries Modernisation) Act 2020\n68, 2020\n22 June 2020\nSch 1: awaiting commencement (s 2(1) item 2)\n—\nas amended byTreasury Laws Amendment (2022 Measures No. 1) Act 2022\n35, 2022\n9 Aug 2022\nSch 4 (Pt 1, item 4): 21 June 2022 (s 2(1) item 5)\n—\nEndnote 4—Amendment history\nProvision affectedHow affected\ns 4 .....................\nam No 68, 2020s 8A ....................\nad No 56, 2018s 9 .....................\nam No 68, 2020s 10 ....................\nam No 56, 2018"
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "definition",
+          "definition (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2022-06-22",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00112/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_069.txt",
+    "sample_id": "AU_069",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_069",
+    "raw_sha256": "fe91a7e93ec8a7c5a6944b51b954b1d4e56c9beb0c68f0665b47dd4d74ebad40",
+    "extracted_text_sha256": "5161872112a9edc3d862747e8f115b2196d70f2b1547eb482926a5147b063a86",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7684,
+    "source_end": 11780,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:52:50Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

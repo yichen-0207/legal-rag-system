@@ -1,0 +1,6288 @@
+[
+  {
+    "doc_id": "CN_LAW_CN_002_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第一条 为了保护个人信息权益，规范个人信息处理活动，促进个人信息合理利用，根据宪法，制定本法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 41,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为了保护个人信息权益，规范个人信息处理活动，促进个人信息合理利用，根据宪法，制定本法。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 41,
+    "source_end": 127,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第二条 自然人的个人信息受法律保护，任何组织、个人不得侵害自然人的个人信息权益。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 36,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 自然人的个人信息受法律保护，任何组织、个人不得侵害自然人的个人信息权益。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 38,
+    "source_end": 127,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第三条 在中华人民共和国境内处理自然人个人信息的活动，适用本法。\n在中华人民共和国境外处理中华人民共和国境内自然人个人信息的活动，有下列情形之一的，也适用本法：\n（一）以向境内自然人提供产品或者服务为目的；\n（二）分析、评估境内自然人的行为；（三）法律、行政法规规定的其他情形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 119,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 在中华人民共和国境内处理自然人个人信息的活动，适用本法。\n在中华人民共和国境外处理中华人民共和国境内自然人个人信息的活动，有下列情形之一的，也适用本法：\n（一）以向境内自然人提供产品或者服务为目的；\n（二）分析、评估境内自然人的行为；（三）法律、行政法规规定的其他情形。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 216,
+    "source_end": 355,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第四条 个人信息是以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。\n个人信息的处理包括个人信息的收集、存储、使用、加工、传输、提供、公开、删除等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 个人信息是以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。\n个人信息的处理包括个人信息的收集、存储、使用、加工、传输、提供、公开、删除等。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9341,
+    "source_end": 9486,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第五条 处理个人信息应当遵循合法、正当、必要和诚信原则，不得通过误导、欺诈、胁迫等方式处理个人信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 43,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 处理个人信息应当遵循合法、正当、必要和诚信原则，不得通过误导、欺诈、胁迫等方式处理个人信息。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 452,
+    "source_end": 502,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第六条 处理个人信息应当具有明确、合理的目的，并应当与处理目的直接相关，采取对个人权益影响最小的方式。\n收集个人信息，应当限于实现处理目的的最小范围，不得过度收集个人信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 77,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 处理个人信息应当具有明确、合理的目的，并应当与处理目的直接相关，采取对个人权益影响最小的方式。\n收集个人信息，应当限于实现处理目的的最小范围，不得过度收集个人信息。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 503,
+    "source_end": 589,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第七条 处理个人信息应当遵循公开、透明原则，公开个人信息处理规则，明示处理的目的、方式和范围。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 41,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 处理个人信息应当遵循公开、透明原则，公开个人信息处理规则，明示处理的目的、方式和范围。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9346,
+    "source_end": 9443,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第八条 处理个人信息应当保证个人信息的质量，避免因个人信息不准确、不完整对个人权益造成不利影响。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 44,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 处理个人信息应当保证个人信息的质量，避免因个人信息不准确、不完整对个人权益造成不利影响。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 44,
+    "source_end": 127,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第九条 个人信息处理者应当对其个人信息处理活动负责，并采取必要措施保障所处理的个人信息的安全。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 44,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 个人信息处理者应当对其个人信息处理活动负责，并采取必要措施保障所处理的个人信息的安全。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 687,
+    "source_end": 734,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第十条 任何组织、个人不得非法收集、使用、加工、传输他人个人信息，不得非法买卖、提供或者公开他人个人信息；不得从事危害国家安全、公共利益的个人信息处理活动。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 任何组织、个人不得非法收集、使用、加工、传输他人个人信息，不得非法买卖、提供或者公开他人个人信息；不得从事危害国家安全、公共利益的个人信息处理活动。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9339,
+    "source_end": 9467,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第十一条 国家建立健全个人信息保护制度，预防和惩治侵害个人信息权益的行为，加强个人信息保护宣传教育，推动形成政府、企业、相关社会组织、公众共同参与个人信息保护的良好环境。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 77,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 国家建立健全个人信息保护制度，预防和惩治侵害个人信息权益的行为，加强个人信息保护宣传教育，推动形成政府、企业、相关社会组织、公众共同参与个人信息保护的良好环境。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "政府",
+          "政府 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9270,
+    "source_end": 9405,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第十二条 国家积极参与个人信息保护国际规则的制定，促进个人信息保护方面的国际交流与合作，推动与其他国家、地区、国际组织之间的个人信息保护规则、标准等互认。\n第二章 个人信息处理规则\n第一节 一般规定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 88,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 国家积极参与个人信息保护国际规则的制定，促进个人信息保护方面的国际交流与合作，推动与其他国家、地区、国际组织之间的个人信息保护规则、标准等互认。\n第二章 个人信息处理规则\n第一节 一般规定"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 900,
+    "source_end": 999,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第十三条 符合下列情形之一的，个人信息处理者方可处理个人信息：\n（一）取得个人的同意；（二）为订立、履行个人作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施人力资源管理所必需；\n（三）为履行法定职责或者法定义务所必需；\n（四）为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需；\n（五）为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理个人信息；\n（六）依照本法规定在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；\n（七）法律、行政法规规定的其他情形。\n依照本法其他有关规定，处理个人信息应当取得个人同意，但是有前款第二项至第七项规定情形的，不需取得个人同意。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 280,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 符合下列情形之一的，个人信息处理者方可处理个人信息：\n（一）取得个人的同意；（二）为订立、履行个人作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施人力资源管理所必需；\n（三）为履行法定职责或者法定义务所必需；\n（四）为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需；\n（五）为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理个人信息；\n（六）依照本法规定在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；\n（七）法律、行政法规规定的其他情形。\n依照本法其他有关规定，处理个人信息应当取得个人同意，但是有前款第二项至第七项规定情形的，不需取得个人同意。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 10.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "公共 (weak)",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1000,
+    "source_end": 1321,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第十四条 基于个人同意处理个人信息的，该同意应当由个人在充分知情的前提下自愿、明确作出。法律、行政法规规定处理个人信息应当取得个人单独同意或者书面同意的，从其规定。\n个人信息的处理目的、处理方式和处理的个人信息种类发生变更的，应当重新取得个人同意。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 113,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 基于个人同意处理个人信息的，该同意应当由个人在充分知情的前提下自愿、明确作出。法律、行政法规规定处理个人信息应当取得个人单独同意或者书面同意的，从其规定。\n个人信息的处理目的、处理方式和处理的个人信息种类发生变更的，应当重新取得个人同意。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1322,
+    "source_end": 1446,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第十五条 基于个人同意处理个人信息的，个人有权撤回其同意。个人信息处理者应当提供便捷的撤回同意的方式。\n个人撤回同意，不影响撤回前基于个人同意已进行的个人信息处理活动的效力。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 80,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 基于个人同意处理个人信息的，个人有权撤回其同意。个人信息处理者应当提供便捷的撤回同意的方式。\n个人撤回同意，不影响撤回前基于个人同意已进行的个人信息处理活动的效力。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1447,
+    "source_end": 1534,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第十六条 个人信息处理者不得以个人不同意处理其个人信息或者撤回同意为由，拒绝提供产品或者服务；处理个人信息属于提供产品或者服务所必需的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 66,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 个人信息处理者不得以个人不同意处理其个人信息或者撤回同意为由，拒绝提供产品或者服务；处理个人信息属于提供产品或者服务所必需的除外。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1535,
+    "source_end": 1605,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第十七条 个人信息处理者在处理个人信息前，应当以显著方式、清晰易懂的语言真实、准确、完整地向个人告知下列事项：\n（一）个人信息处理者的名称或者姓名和联系方式；\n（二）个人信息的处理目的、处理方式，处理的个人信息种类、保存期限；\n（三）个人行使本法规定权利的方式和程序；\n（四）法律、行政法规规定应当告知的其他事项。\n前款规定事项发生变更的，应当将变更部分告知个人。\n个人信息处理者通过制定个人信息处理规则的方式告知第一款规定事项的，处理规则应当公开，并且便于查阅和保存。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 202,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 个人信息处理者在处理个人信息前，应当以显著方式、清晰易懂的语言真实、准确、完整地向个人告知下列事项：\n（一）个人信息处理者的名称或者姓名和联系方式；\n（二）个人信息的处理目的、处理方式，处理的个人信息种类、保存期限；\n（三）个人行使本法规定权利的方式和程序；\n（四）法律、行政法规规定应当告知的其他事项。\n前款规定事项发生变更的，应当将变更部分告知个人。\n个人信息处理者通过制定个人信息处理规则的方式告知第一款规定事项的，处理规则应当公开，并且便于查阅和保存。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 13.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1606,
+    "source_end": 1841,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第十八条 个人信息处理者处理个人信息，有法律、行政法规规定应当保密或者不需要告知的情形的，可以不向个人告知前条第一款规定的事项。\n紧急情况下为保护自然人的生命健康和财产安全无法及时向个人告知的，个人信息处理者应当在紧急情况消除后及时告知。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 111,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 个人信息处理者处理个人信息，有法律、行政法规规定应当保密或者不需要告知的情形的，可以不向个人告知前条第一款规定的事项。\n紧急情况下为保护自然人的生命健康和财产安全无法及时向个人告知的，个人信息处理者应当在紧急情况消除后及时告知。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "保密"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1842,
+    "source_end": 1961,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第十九条 除法律、行政法规另有规定外，个人信息的保存期限应当为实现处理目的所必要的最短时间。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 42,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 除法律、行政法规另有规定外，个人信息的保存期限应当为实现处理目的所必要的最短时间。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1962,
+    "source_end": 2008,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第二十条 两个以上的个人信息处理者共同决定个人信息的处理目的和处理方式的，应当约定各自的权利和义务。但是，该约定不影响个人向其中任何一个个人信息处理者要求行使本法规定的权利。\n个人信息处理者共同处理个人信息，侵害个人信息权益造成损害的，应当依法承担连带责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 120,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 两个以上的个人信息处理者共同决定个人信息的处理目的和处理方式的，应当约定各自的权利和义务。但是，该约定不影响个人向其中任何一个个人信息处理者要求行使本法规定的权利。\n个人信息处理者共同处理个人信息，侵害个人信息权益造成损害的，应当依法承担连带责任。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 12.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 38,
+    "source_end": 127,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第二十一条 个人信息处理者委托处理个人信息的，应当与受托人约定委托处理的目的、期限、处理方式、个人信息的种类、保护措施以及双方的权利和义务等，并对受托人的个人信息处理活动进行监督。\n受托人应当按照约定处理个人信息，不得超出约定的处理目的、处理方式等处理个人信息；委托合同不生效、无效、被撤销或者终止的，受托人应当将个人信息返还个人信息处理者或者予以删除，不得保留。\n未经个人信息处理者同意，受托人不得转委托他人处理个人信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 192,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 个人信息处理者委托处理个人信息的，应当与受托人约定委托处理的目的、期限、处理方式、个人信息的种类、保护措施以及双方的权利和义务等，并对受托人的个人信息处理活动进行监督。\n受托人应当按照约定处理个人信息，不得超出约定的处理目的、处理方式等处理个人信息；委托合同不生效、无效、被撤销或者终止的，受托人应当将个人信息返还个人信息处理者或者予以删除，不得保留。\n未经个人信息处理者同意，受托人不得转委托他人处理个人信息。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 18.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 40,
+    "source_end": 127,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第二十二条 个人信息处理者因合并、分立、解散、被宣告破产等原因需要转移个人信息的，应当向个人告知接收方的名称或者姓名和联系方式。接收方应当继续履行个人信息处理者的义务。接收方变更原先的处理目的、处理方式的，应当依照本法规定重新取得个人同意。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 110,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 个人信息处理者因合并、分立、解散、被宣告破产等原因需要转移个人信息的，应当向个人告知接收方的名称或者姓名和联系方式。接收方应当继续履行个人信息处理者的义务。接收方变更原先的处理目的、处理方式的，应当依照本法规定重新取得个人同意。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2352,
+    "source_end": 2472,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第二十三条 个人信息处理者向其他个人信息处理者提供其处理的个人信息的，应当向个人告知接收方的名称或者姓名、联系方式、处理目的、处理方式和个人信息的种类，并取得个人的单独同意。接收方应当在上述处理目的、处理方式和个人信息的种类等范围内处理个人信息。接收方变更原先的处理目的、处理方式的，应当依照本法规定重新取得个人同意。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 147,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 个人信息处理者向其他个人信息处理者提供其处理的个人信息的，应当向个人告知接收方的名称或者姓名、联系方式、处理目的、处理方式和个人信息的种类，并取得个人的单独同意。接收方应当在上述处理目的、处理方式和个人信息的种类等范围内处理个人信息。接收方变更原先的处理目的、处理方式的，应当依照本法规定重新取得个人同意。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 12.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2473,
+    "source_end": 2632,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第二十四条 个人信息处理者利用个人信息进行自动化决策，应当保证决策的透明度和结果公平、公正，不得对个人在交易价格等交易条件上实行不合理的差别待遇。\n通过自动化决策方式向个人进行信息推送、商业营销，应当同时提供不针对其个人特征的选项，或者向个人提供便捷的拒绝方式。\n通过自动化决策方式作出对个人权益有重大影响的决定，个人有权要求个人信息处理者予以说明，并有权拒绝个人信息处理者仅通过自动化决策的方式作出决定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 189,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 个人信息处理者利用个人信息进行自动化决策，应当保证决策的透明度和结果公平、公正，不得对个人在交易价格等交易条件上实行不合理的差别待遇。\n通过自动化决策方式向个人进行信息推送、商业营销，应当同时提供不针对其个人特征的选项，或者向个人提供便捷的拒绝方式。\n通过自动化决策方式作出对个人权益有重大影响的决定，个人有权要求个人信息处理者予以说明，并有权拒绝个人信息处理者仅通过自动化决策的方式作出决定。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "artificial_intelligence",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "artificial_intelligence",
+        "label_zh": "人工智能",
+        "label_en": "Artificial Intelligence",
+        "label_pt": "Inteligência Artificial",
+        "score": 9.0,
+        "matched_keywords": [
+          "自动化决策",
+          "自动化决策 (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "待遇"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2633,
+    "source_end": 2836,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第二十五条 个人信息处理者不得公开其处理的个人信息，取得个人单独同意的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 35,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 个人信息处理者不得公开其处理的个人信息，取得个人单独同意的除外。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2837,
+    "source_end": 2875,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第二十六条 在公共场所安装图像采集、个人身份识别设备，应当为维护公共安全所必需，遵守国家有关规定，并设置显著的提示标识。所收集的个人图像、身份识别信息只能用于维护公共安全的目的，不得用于其他目的；取得个人单独同意的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 100,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 在公共场所安装图像采集、个人身份识别设备，应当为维护公共安全所必需，遵守国家有关规定，并设置显著的提示标识。所收集的个人图像、身份识别信息只能用于维护公共安全的目的，不得用于其他目的；取得个人单独同意的除外。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2876,
+    "source_end": 2986,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第一节",
+    "chapter_title": "一般规定",
+    "text_zh": "第二十七条 个人信息处理者可以在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；个人明确拒绝的除外。个人信息处理者处理已公开的个人信息，对个人权益有重大影响的，应当依照本法规定取得个人同意。\n第二节 敏感个人信息的处理规则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 个人信息处理者可以在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；个人明确拒绝的除外。个人信息处理者处理已公开的个人信息，对个人权益有重大影响的，应当依照本法规定取得个人同意。\n第二节 敏感个人信息的处理规则"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 10.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9345,
+    "source_end": 9512,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第二节",
+    "chapter_title": "敏感个人信息的处理规则",
+    "text_zh": "第二十八条 敏感个人信息是一旦泄露或者非法使用，容易导致自然人的人格尊严受到侵害或者人身、财产安全受到危害的个人信息，包括生物识别、宗教信仰、特定身份、医疗健康、金融账户、行踪轨迹等信息，以及不满十四周岁未成年人的个人信息。\n只有在具有特定的目的和充分的必要性，并采取严格保护措施的情形下，个人信息处理者方可处理敏感个人信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 148,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 敏感个人信息是一旦泄露或者非法使用，容易导致自然人的人格尊严受到侵害或者人身、财产安全受到危害的个人信息，包括生物识别、宗教信仰、特定身份、医疗健康、金融账户、行踪轨迹等信息，以及不满十四周岁未成年人的个人信息。\n只有在具有特定的目的和充分的必要性，并采取严格保护措施的情形下，个人信息处理者方可处理敏感个人信息。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "digital_identity"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 10.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "digital_identity",
+        "label_zh": "数字身份",
+        "label_en": "Digital Identity",
+        "label_pt": "Identidade Digital",
+        "score": 4.5,
+        "matched_keywords": [
+          "生物识别",
+          "身份 (weak)",
+          "识别 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3105,
+    "source_end": 3268,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第二节",
+    "chapter_title": "敏感个人信息的处理规则",
+    "text_zh": "第二十九条 处理敏感个人信息应当取得个人的单独同意；法律、行政法规规定处理敏感个人信息应当取得书面同意的，从其规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 处理敏感个人信息应当取得个人的单独同意；法律、行政法规规定处理敏感个人信息应当取得书面同意的，从其规定。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3269,
+    "source_end": 3327,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第二节",
+    "chapter_title": "敏感个人信息的处理规则",
+    "text_zh": "第三十条 个人信息处理者处理敏感个人信息的，除本法第十七条第一款规定的事项外，还应当向个人告知处理敏感个人信息的必要性以及对个人权益的影响；依照本法规定可以不向个人告知的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 个人信息处理者处理敏感个人信息的，除本法第十七条第一款规定的事项外，还应当向个人告知处理敏感个人信息的必要性以及对个人权益的影响；依照本法规定可以不向个人告知的除外。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3328,
+    "source_end": 3416,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第二节",
+    "chapter_title": "敏感个人信息的处理规则",
+    "text_zh": "第三十一条 个人信息处理者处理不满十四周岁未成年人个人信息的，应当取得未成年人的父母或者其他监护人的同意。\n个人信息处理者处理不满十四周岁未成年人个人信息的，应当制定专门的个人信息处理规则。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 89,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 个人信息处理者处理不满十四周岁未成年人个人信息的，应当取得未成年人的父母或者其他监护人的同意。\n个人信息处理者处理不满十四周岁未成年人个人信息的，应当制定专门的个人信息处理规则。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 10.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3417,
+    "source_end": 3512,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第二节",
+    "chapter_title": "敏感个人信息的处理规则",
+    "text_zh": "第三十二条 法律、行政法规对处理敏感个人信息规定应当取得相关行政许可或者作出其他限制的，从其规定。\n第三节 国家机关处理个人信息的特别规定",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 63,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 法律、行政法规对处理敏感个人信息规定应当取得相关行政许可或者作出其他限制的，从其规定。\n第三节 国家机关处理个人信息的特别规定"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3513,
+    "source_end": 3582,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第三节",
+    "chapter_title": "国家机关处理个人信息的特别规定",
+    "text_zh": "第三十三条 国家机关处理个人信息的活动，适用本法；本节有特别规定的，适用本节规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 36,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 国家机关处理个人信息的活动，适用本法；本节有特别规定的，适用本节规定。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3583,
+    "source_end": 3624,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第三节",
+    "chapter_title": "国家机关处理个人信息的特别规定",
+    "text_zh": "第三十四条 国家机关为履行法定职责处理个人信息，应当依照法律、行政法规规定的权限、程序进行，不得超出履行法定职责所必需的范围和限度。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 国家机关为履行法定职责处理个人信息，应当依照法律、行政法规规定的权限、程序进行，不得超出履行法定职责所必需的范围和限度。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3625,
+    "source_end": 3691,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第三节",
+    "chapter_title": "国家机关处理个人信息的特别规定",
+    "text_zh": "第三十五条 国家机关为履行法定职责处理个人信息，应当依照本法规定履行告知义务；有本法第十八条第一款规定的情形，或者告知将妨碍国家机关履行法定职责的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 71,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 国家机关为履行法定职责处理个人信息，应当依照本法规定履行告知义务；有本法第十八条第一款规定的情形，或者告知将妨碍国家机关履行法定职责的除外。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3692,
+    "source_end": 3768,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第三节",
+    "chapter_title": "国家机关处理个人信息的特别规定",
+    "text_zh": "第三十六条 国家机关处理的个人信息应当在中华人民共和国境内存储；确需向境外提供的，应当进行安全评估。安全评估可以要求有关部门提供支持与协助。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 65,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 国家机关处理的个人信息应当在中华人民共和国境内存储；确需向境外提供的，应当进行安全评估。安全评估可以要求有关部门提供支持与协助。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3769,
+    "source_end": 3839,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第三节",
+    "chapter_title": "国家机关处理个人信息的特别规定",
+    "text_zh": "第三十七条 法律、法规授权的具有管理公共事务职能的组织为履行法定职责处理个人信息，适用本法关于国家机关处理个人信息的规定。\n第三章 个人信息跨境提供的规则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 71,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条 法律、法规授权的具有管理公共事务职能的组织为履行法定职责处理个人信息，适用本法关于国家机关处理个人信息的规定。\n第三章 个人信息跨境提供的规则"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3840,
+    "source_end": 3917,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第三章",
+    "chapter_title": "个人信息跨境提供的规则",
+    "text_zh": "第三十八条 个人信息处理者因业务等需要，确需向中华人民共和国境外提供个人信息的，应当具备下列条件之一：\n（一）依照本法第四十条的规定通过国家网信部门组织的安全评估；\n（二）按照国家网信部门的规定经专业机构进行个人信息保护认证；\n（三）按照国家网信部门制定的标准合同与境外接收方订立合同，约定双方的权利和义务；\n（四）法律、行政法规或者国家网信部门规定的其他条件。\n中华人民共和国缔结或者参加的国际条约、协定对向中华人民共和国境外提供个人信息的条件等有规定的，可以按照其规定执行。\n个人信息处理者应当采取必要措施，保障境外接收方处理个人信息的活动达到本法规定的个人信息保护标准。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 259,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条 个人信息处理者因业务等需要，确需向中华人民共和国境外提供个人信息的，应当具备下列条件之一：\n（一）依照本法第四十条的规定通过国家网信部门组织的安全评估；\n（二）按照国家网信部门的规定经专业机构进行个人信息保护认证；\n（三）按照国家网信部门制定的标准合同与境外接收方订立合同，约定双方的权利和义务；\n（四）法律、行政法规或者国家网信部门规定的其他条件。\n中华人民共和国缔结或者参加的国际条约、协定对向中华人民共和国境外提供个人信息的条件等有规定的，可以按照其规定执行。\n个人信息处理者应当采取必要措施，保障境外接收方处理个人信息的活动达到本法规定的个人信息保护标准。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 13.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3918,
+    "source_end": 4206,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第三章",
+    "chapter_title": "个人信息跨境提供的规则",
+    "text_zh": "第三十九条 个人信息处理者向中华人民共和国境外提供个人信息的，应当向个人告知境外接收方的名称或者姓名、联系方式、处理目的、处理方式、个人信息的种类以及个人向境外接收方行使本法规定权利的方式和程序等事项，并取得个人的单独同意。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 104,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条 个人信息处理者向中华人民共和国境外提供个人信息的，应当向个人告知境外接收方的名称或者姓名、联系方式、处理目的、处理方式、个人信息的种类以及个人向境外接收方行使本法规定权利的方式和程序等事项，并取得个人的单独同意。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4207,
+    "source_end": 4319,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第三章",
+    "chapter_title": "个人信息跨境提供的规则",
+    "text_zh": "第四十条 关键信息基础设施运营者和处理个人信息达到国家网信部门规定数量的个人信息处理者，应当将在中华人民共和国境内收集和产生的个人信息存储在境内。确需向境外提供的，应当通过国家网信部门组织的安全评估；法律、行政法规和国家网信部门规定可以不进行安全评估的，从其规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 124,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条 关键信息基础设施运营者和处理个人信息达到国家网信部门规定数量的个人信息处理者，应当将在中华人民共和国境内收集和产生的个人信息存储在境内。确需向境外提供的，应当通过国家网信部门组织的安全评估；法律、行政法规和国家网信部门规定可以不进行安全评估的，从其规定。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "cybersecurity",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "收集 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "关键信息基础设施",
+          "安全 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9341,
+    "source_end": 9523,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_041",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "第三章",
+    "chapter_title": "个人信息跨境提供的规则",
+    "text_zh": "第四十一条 中华人民共和国主管机关根据有关法律和中华人民共和国缔结或者参加的国际条约、协定，或者按照平等互惠原则，处理外国司法或者执法机构关于提供存储于境内个人信息的请求。非经中华人民共和国主管机关批准，个人信息处理者不得向外国司法或者执法机构提供存储于中华人民共和国境内的个人信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 135,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十一条 中华人民共和国主管机关根据有关法律和中华人民共和国缔结或者参加的国际条约、协定，或者按照平等互惠原则，处理外国司法或者执法机构关于提供存储于境内个人信息的请求。非经中华人民共和国主管机关批准，个人信息处理者不得向外国司法或者执法机构提供存储于中华人民共和国境内的个人信息。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4453,
+    "source_end": 4595,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_042",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "",
+    "chunk_index": 41,
+    "chapter": "第三章",
+    "chapter_title": "个人信息跨境提供的规则",
+    "text_zh": "第四十二条 境外的组织、个人从事侵害中华人民共和国公民的个人信息权益，或者危害中华人民共和国国家安全、公共利益的个人信息处理活动的，国家网信部门可以将其列入限制或者禁止个人信息提供清单，予以公告，并采取限制或者禁止向其提供个人信息等措施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 111,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十二条 境外的组织、个人从事侵害中华人民共和国公民的个人信息权益，或者危害中华人民共和国国家安全、公共利益的个人信息处理活动的，国家网信部门可以将其列入限制或者禁止个人信息提供清单，予以公告，并采取限制或者禁止向其提供个人信息等措施。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4596,
+    "source_end": 4715,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_043",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "",
+    "chunk_index": 42,
+    "chapter": "第三章",
+    "chapter_title": "个人信息跨境提供的规则",
+    "text_zh": "第四十三条 任何国家或者地区在个人信息保护方面对中华人民共和国采取歧视性的禁止、限制或者其他类似措施的，中华人民共和国可以根据实际情况对该国家或者地区对等采取措施。\n第四章 个人在个人信息处理活动中的权利",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 96,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十三条 任何国家或者地区在个人信息保护方面对中华人民共和国采取歧视性的禁止、限制或者其他类似措施的，中华人民共和国可以根据实际情况对该国家或者地区对等采取措施。\n第四章 个人在个人信息处理活动中的权利"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4716,
+    "source_end": 4818,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_044",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "44",
+    "article_number_normalized": "044",
+    "article_title": "",
+    "chunk_index": 43,
+    "chapter": "第四章",
+    "chapter_title": "个人在个人信息处理活动中的权利",
+    "text_zh": "第四十四条 个人对其个人信息的处理享有知情权、决定权，有权限制或者拒绝他人对其个人信息进行处理；法律、行政法规另有规定的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 57,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十四条 个人对其个人信息的处理享有知情权、决定权，有权限制或者拒绝他人对其个人信息进行处理；法律、行政法规另有规定的除外。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4819,
+    "source_end": 4882,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_045",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "45",
+    "article_number_normalized": "045",
+    "article_title": "",
+    "chunk_index": 44,
+    "chapter": "第四章",
+    "chapter_title": "个人在个人信息处理活动中的权利",
+    "text_zh": "第四十五条 个人有权向个人信息处理者查阅、复制其个人信息；有本法第十八条第一款、第三十五条规定情形的除外。\n个人请求查阅、复制其个人信息的，个人信息处理者应当及时提供。\n个人请求将个人信息转移至其指定的个人信息处理者，符合国家网信部门规定条件的，个人信息处理者应当提供转移的途径。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 127,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十五条 个人有权向个人信息处理者查阅、复制其个人信息；有本法第十八条第一款、第三十五条规定情形的除外。\n个人请求查阅、复制其个人信息的，个人信息处理者应当及时提供。\n个人请求将个人信息转移至其指定的个人信息处理者，符合国家网信部门规定条件的，个人信息处理者应当提供转移的途径。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 13.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4883,
+    "source_end": 5023,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_046",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "46",
+    "article_number_normalized": "046",
+    "article_title": "",
+    "chunk_index": 45,
+    "chapter": "第四章",
+    "chapter_title": "个人在个人信息处理活动中的权利",
+    "text_zh": "第四十六条 个人发现其个人信息不准确或者不完整的，有权请求个人信息处理者更正、补充。\n个人请求更正、补充其个人信息的，个人信息处理者应当对其个人信息予以核实，并及时更正、补充。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 78,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十六条 个人发现其个人信息不准确或者不完整的，有权请求个人信息处理者更正、补充。\n个人请求更正、补充其个人信息的，个人信息处理者应当对其个人信息予以核实，并及时更正、补充。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 10.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5024,
+    "source_end": 5112,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_047",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "47",
+    "article_number_normalized": "047",
+    "article_title": "",
+    "chunk_index": 46,
+    "chapter": "第四章",
+    "chapter_title": "个人在个人信息处理活动中的权利",
+    "text_zh": "第四十七条 有下列情形之一的，个人信息处理者应当主动删除个人信息；个人信息处理者未删除的，个人有权请求删除：\n（一）处理目的已实现、无法实现或者为实现处理目的不再必要；\n（二）个人信息处理者停止提供产品或者服务，或者保存期限已届满；\n（三）个人撤回同意；（四）个人信息处理者违反法律、行政法规或者违反约定处理个人信息；\n（五）法律、行政法规规定的其他情形。\n法律、行政法规规定的保存期限未届满，或者删除个人信息从技术上难以实现的，个人信息处理者应当停止除存储和采取必要的安全保护措施之外的处理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 214,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十七条 有下列情形之一的，个人信息处理者应当主动删除个人信息；个人信息处理者未删除的，个人有权请求删除：\n（一）处理目的已实现、无法实现或者为实现处理目的不再必要；\n（二）个人信息处理者停止提供产品或者服务，或者保存期限已届满；\n（三）个人撤回同意；（四）个人信息处理者违反法律、行政法规或者违反约定处理个人信息；\n（五）法律、行政法规规定的其他情形。\n法律、行政法规规定的保存期限未届满，或者删除个人信息从技术上难以实现的，个人信息处理者应当停止除存储和采取必要的安全保护措施之外的处理。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 15.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5113,
+    "source_end": 5360,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_048",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "48",
+    "article_number_normalized": "048",
+    "article_title": "",
+    "chunk_index": 47,
+    "chapter": "第四章",
+    "chapter_title": "个人在个人信息处理活动中的权利",
+    "text_zh": "第四十八条 个人有权要求个人信息处理者对其个人信息处理规则进行解释说明。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 34,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十八条 个人有权要求个人信息处理者对其个人信息处理规则进行解释说明。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5361,
+    "source_end": 5397,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_049",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "49",
+    "article_number_normalized": "049",
+    "article_title": "",
+    "chunk_index": 48,
+    "chapter": "第四章",
+    "chapter_title": "个人在个人信息处理活动中的权利",
+    "text_zh": "第四十九条 自然人死亡的，其近亲属为了自身的合法、正当利益，可以对死者的相关个人信息行使本章规定的查阅、复制、更正、删除等权利；死者生前另有安排的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十九条 自然人死亡的，其近亲属为了自身的合法、正当利益，可以对死者的相关个人信息行使本章规定的查阅、复制、更正、删除等权利；死者生前另有安排的除外。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5398,
+    "source_end": 5474,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_050",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "50",
+    "article_number_normalized": "050",
+    "article_title": "",
+    "chunk_index": 49,
+    "chapter": "第四章",
+    "chapter_title": "个人在个人信息处理活动中的权利",
+    "text_zh": "第五十条 个人信息处理者应当建立便捷的个人行使权利的申请受理和处理机制。拒绝个人行使权利的请求的，应当说明理由。\n个人信息处理者拒绝个人行使权利的请求的，个人可以依法向人民法院提起诉讼。\n第五章 个人信息处理者的义务",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 99,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十条 个人信息处理者应当建立便捷的个人行使权利的申请受理和处理机制。拒绝个人行使权利的请求的，应当说明理由。\n个人信息处理者拒绝个人行使权利的请求的，个人可以依法向人民法院提起诉讼。\n第五章 个人信息处理者的义务"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5475,
+    "source_end": 5583,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_051",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "51",
+    "article_number_normalized": "051",
+    "article_title": "",
+    "chunk_index": 50,
+    "chapter": "第五章",
+    "chapter_title": "个人信息处理者的义务",
+    "text_zh": "第五十一条 个人信息处理者应当根据个人信息的处理目的、处理方式、个人信息的种类以及对个人权益的影响、可能存在的安全风险等，采取下列措施确保个人信息处理活动符合法律、行政法规的规定，并防止未经授权的访问以及个人信息泄露、篡改、丢失：\n（一）制定内部管理制度和操作规程；（二）对个人信息实行分类管理；\n（三）采取相应的加密、去标识化等安全技术措施；\n（四）合理确定个人信息处理的操作权限，并定期对从业人员进行安全教育和培训；\n（五）制定并组织实施个人信息安全事件应急预案；\n（六）法律、行政法规规定的其他措施。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 217,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十一条 个人信息处理者应当根据个人信息的处理目的、处理方式、个人信息的种类以及对个人权益的影响、可能存在的安全风险等，采取下列措施确保个人信息处理活动符合法律、行政法规的规定，并防止未经授权的访问以及个人信息泄露、篡改、丢失：\n（一）制定内部管理制度和操作规程；（二）对个人信息实行分类管理；\n（三）采取相应的加密、去标识化等安全技术措施；\n（四）合理确定个人信息处理的操作权限，并定期对从业人员进行安全教育和培训；\n（五）制定并组织实施个人信息安全事件应急预案；\n（六）法律、行政法规规定的其他措施。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance",
+      "cybersecurity"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 15.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "信息安全",
+          "安全 (weak)",
+          "信息 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5584,
+    "source_end": 5837,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_052",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "52",
+    "article_number_normalized": "052",
+    "article_title": "",
+    "chunk_index": 51,
+    "chapter": "第五章",
+    "chapter_title": "个人信息处理者的义务",
+    "text_zh": "第五十二条 处理个人信息达到国家网信部门规定数量的个人信息处理者应当指定个人信息保护负责人，负责对个人信息处理活动以及采取的保护措施等进行监督。\n个人信息处理者应当公开个人信息保护负责人的联系方式，并将个人信息保护负责人的姓名、联系方式等报送履行个人信息保护职责的部门。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 128,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十二条 处理个人信息达到国家网信部门规定数量的个人信息处理者应当指定个人信息保护负责人，负责对个人信息处理活动以及采取的保护措施等进行监督。\n个人信息处理者应当公开个人信息保护负责人的联系方式，并将个人信息保护负责人的姓名、联系方式等报送履行个人信息保护职责的部门。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 15.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5838,
+    "source_end": 5973,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_053",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "53",
+    "article_number_normalized": "053",
+    "article_title": "",
+    "chunk_index": 52,
+    "chapter": "第五章",
+    "chapter_title": "个人信息处理者的义务",
+    "text_zh": "第五十三条 本法第三条第二款规定的中华人民共和国境外的个人信息处理者，应当在中华人民共和国境内设立专门机构或者指定代表，负责处理个人信息保护相关事务，并将有关机构的名称或者代表的姓名、联系方式等报送履行个人信息保护职责的部门。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 107,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十三条 本法第三条第二款规定的中华人民共和国境外的个人信息处理者，应当在中华人民共和国境内设立专门机构或者指定代表，负责处理个人信息保护相关事务，并将有关机构的名称或者代表的姓名、联系方式等报送履行个人信息保护职责的部门。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5974,
+    "source_end": 6087,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_054",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "54",
+    "article_number_normalized": "054",
+    "article_title": "",
+    "chunk_index": 53,
+    "chapter": "第五章",
+    "chapter_title": "个人信息处理者的义务",
+    "text_zh": "第五十四条 个人信息处理者应当定期对其处理个人信息遵守法律、行政法规的情况进行合规审计。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 41,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十四条 个人信息处理者应当定期对其处理个人信息遵守法律、行政法规的情况进行合规审计。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6088,
+    "source_end": 6132,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_055",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "55",
+    "article_number_normalized": "055",
+    "article_title": "",
+    "chunk_index": 54,
+    "chapter": "第五章",
+    "chapter_title": "个人信息处理者的义务",
+    "text_zh": "第五十五条 有下列情形之一的，个人信息处理者应当事前进行个人信息保护影响评估，并对处理情况进行记录：\n（一）处理敏感个人信息；（二）利用个人信息进行自动化决策；\n（三）委托处理个人信息、向其他个人信息处理者提供个人信息、公开个人信息；\n（四）向境外提供个人信息；（五）其他对个人权益有重大影响的个人信息处理活动。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 132,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十五条 有下列情形之一的，个人信息处理者应当事前进行个人信息保护影响评估，并对处理情况进行记录：\n（一）处理敏感个人信息；（二）利用个人信息进行自动化决策；\n（三）委托处理个人信息、向其他个人信息处理者提供个人信息、公开个人信息；\n（四）向境外提供个人信息；（五）其他对个人权益有重大影响的个人信息处理活动。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "artificial_intelligence"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 18.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "artificial_intelligence",
+        "label_zh": "人工智能",
+        "label_en": "Artificial Intelligence",
+        "label_pt": "Inteligência Artificial",
+        "score": 4.5,
+        "matched_keywords": [
+          "自动化决策",
+          "自动化决策 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6133,
+    "source_end": 6289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_056",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "56",
+    "article_number_normalized": "056",
+    "article_title": "",
+    "chunk_index": 55,
+    "chapter": "第五章",
+    "chapter_title": "个人信息处理者的义务",
+    "text_zh": "第五十六条 个人信息保护影响评估应当包括下列内容：\n（一）个人信息的处理目的、处理方式等是否合法、正当、必要；\n（二）对个人权益的影响及安全风险；（三）所采取的保护措施是否合法、有效并与风险程度相适应。\n个人信息保护影响评估报告和处理情况记录应当至少保存三年。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 111,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十六条 个人信息保护影响评估应当包括下列内容：\n（一）个人信息的处理目的、处理方式等是否合法、正当、必要；\n（二）对个人权益的影响及安全风险；（三）所采取的保护措施是否合法、有效并与风险程度相适应。\n个人信息保护影响评估报告和处理情况记录应当至少保存三年。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6290,
+    "source_end": 6420,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_057",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "57",
+    "article_number_normalized": "057",
+    "article_title": "",
+    "chunk_index": 56,
+    "chapter": "第五章",
+    "chapter_title": "个人信息处理者的义务",
+    "text_zh": "第五十七条 发生或者可能发生个人信息泄露、篡改、丢失的，个人信息处理者应当立即采取补救措施，并通知履行个人信息保护职责的部门和个人。通知应当包括下列事项：\n（一）发生或者可能发生个人信息泄露、篡改、丢失的信息种类、原因和可能造成的危害；\n（二）个人信息处理者采取的补救措施和个人可以采取的减轻危害的措施；\n（三）个人信息处理者的联系方式。\n个人信息处理者采取措施能够有效避免信息泄露、篡改、丢失造成危害的，个人信息处理者可以不通知个人；履行个人信息保护职责的部门认为可能造成危害的，有权要求个人信息处理者通知个人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 228,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十七条 发生或者可能发生个人信息泄露、篡改、丢失的，个人信息处理者应当立即采取补救措施，并通知履行个人信息保护职责的部门和个人。通知应当包括下列事项：\n（一）发生或者可能发生个人信息泄露、篡改、丢失的信息种类、原因和可能造成的危害；\n（二）个人信息处理者采取的补救措施和个人可以采取的减轻危害的措施；\n（三）个人信息处理者的联系方式。\n个人信息处理者采取措施能够有效避免信息泄露、篡改、丢失造成危害的，个人信息处理者可以不通知个人；履行个人信息保护职责的部门认为可能造成危害的，有权要求个人信息处理者通知个人。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 18.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6421,
+    "source_end": 6678,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_058",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "58",
+    "article_number_normalized": "058",
+    "article_title": "",
+    "chunk_index": 57,
+    "chapter": "第五章",
+    "chapter_title": "个人信息处理者的义务",
+    "text_zh": "第五十八条 提供重要互联网平台服务、用户数量巨大、业务类型复杂的个人信息处理者，应当履行下列义务：\n（一）按照国家规定建立健全个人信息保护合规制度体系，成立主要由外部成员组成的独立机构对个人信息保护情况进行监督；\n（二）遵循公开、公平、公正的原则，制定平台规则，明确平台内产品或者服务提供者处理个人信息的规范和保护个人信息的义务；\n（三）对严重违反法律、行政法规处理个人信息的平台内的产品或者服务提供者，停止提供服务；\n（四）定期发布个人信息保护社会责任报告，接受社会监督。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 208,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十八条 提供重要互联网平台服务、用户数量巨大、业务类型复杂的个人信息处理者，应当履行下列义务：\n（一）按照国家规定建立健全个人信息保护合规制度体系，成立主要由外部成员组成的独立机构对个人信息保护情况进行监督；\n（二）遵循公开、公平、公正的原则，制定平台规则，明确平台内产品或者服务提供者处理个人信息的规范和保护个人信息的义务；\n（三）对严重违反法律、行政法规处理个人信息的平台内的产品或者服务提供者，停止提供服务；\n（四）定期发布个人信息保护社会责任报告，接受社会监督。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 13.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6679,
+    "source_end": 6916,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_059",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "59",
+    "article_number_normalized": "059",
+    "article_title": "",
+    "chunk_index": 58,
+    "chapter": "第五章",
+    "chapter_title": "个人信息处理者的义务",
+    "text_zh": "第五十九条 接受委托处理个人信息的受托人，应当依照本法和有关法律、行政法规的规定，采取必要措施保障所处理的个人信息的安全，并协助个人信息处理者履行本法规定的义务。\n第六章 履行个人信息保护职责的部门",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 91,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五十九条 接受委托处理个人信息的受托人，应当依照本法和有关法律、行政法规的规定，采取必要措施保障所处理的个人信息的安全，并协助个人信息处理者履行本法规定的义务。\n第六章 履行个人信息保护职责的部门"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6917,
+    "source_end": 7016,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_060",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "60",
+    "article_number_normalized": "060",
+    "article_title": "",
+    "chunk_index": 59,
+    "chapter": "第六章",
+    "chapter_title": "履行个人信息保护职责的部门",
+    "text_zh": "第六十条 国家网信部门负责统筹协调个人信息保护工作和相关监督管理工作。国务院有关部门依照本法和有关法律、行政法规的规定，在各自职责范围内负责个人信息保护和监督管理工作。\n县级以上地方人民政府有关部门的个人信息保护和监督管理职责，按照国家有关规定确定。\n前两款规定的部门统称为履行个人信息保护职责的部门。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 141,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十条 国家网信部门负责统筹协调个人信息保护工作和相关监督管理工作。国务院有关部门依照本法和有关法律、行政法规的规定，在各自职责范围内负责个人信息保护和监督管理工作。\n县级以上地方人民政府有关部门的个人信息保护和监督管理职责，按照国家有关规定确定。\n前两款规定的部门统称为履行个人信息保护职责的部门。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 9.0,
+        "matched_keywords": [
+          "政府",
+          "行政",
+          "政府 (weak)",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7017,
+    "source_end": 7168,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_061",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "61",
+    "article_number_normalized": "061",
+    "article_title": "",
+    "chunk_index": 60,
+    "chapter": "第六章",
+    "chapter_title": "履行个人信息保护职责的部门",
+    "text_zh": "第六十一条 履行个人信息保护职责的部门履行下列个人信息保护职责：\n（一）开展个人信息保护宣传教育，指导、监督个人信息处理者开展个人信息保护工作；\n（二）接受、处理与个人信息保护有关的投诉、举报；\n（三）组织对应用程序等个人信息保护情况进行测评，并公布测评结果；\n（四）调查、处理违法个人信息处理活动；（五）法律、行政法规规定的其他职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 140,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十一条 履行个人信息保护职责的部门履行下列个人信息保护职责：\n（一）开展个人信息保护宣传教育，指导、监督个人信息处理者开展个人信息保护工作；\n（二）接受、处理与个人信息保护有关的投诉、举报；\n（三）组织对应用程序等个人信息保护情况进行测评，并公布测评结果；\n（四）调查、处理违法个人信息处理活动；（五）法律、行政法规规定的其他职责。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 15.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7169,
+    "source_end": 7337,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_062",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "62",
+    "article_number_normalized": "062",
+    "article_title": "",
+    "chunk_index": 61,
+    "chapter": "第六章",
+    "chapter_title": "履行个人信息保护职责的部门",
+    "text_zh": "第六十二条 国家网信部门统筹协调有关部门依据本法推进下列个人信息保护工作：\n（一）制定个人信息保护具体规则、标准；（二）针对小型个人信息处理者、处理敏感个人信息以及人脸识别、人工智能等新技术、新应用，制定专门的个人信息保护规则、标准；\n（三）支持研究开发和推广应用安全、方便的电子身份认证技术，推进网络身份认证公共服务建设；\n（四）推进个人信息保护社会化服务体系建设，支持有关机构开展个人信息保护评估、认证服务；\n（五）完善个人信息保护投诉、举报工作机制。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 196,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十二条 国家网信部门统筹协调有关部门依据本法推进下列个人信息保护工作：\n（一）制定个人信息保护具体规则、标准；（二）针对小型个人信息处理者、处理敏感个人信息以及人脸识别、人工智能等新技术、新应用，制定专门的个人信息保护规则、标准；\n（三）支持研究开发和推广应用安全、方便的电子身份认证技术，推进网络身份认证公共服务建设；\n（四）推进个人信息保护社会化服务体系建设，支持有关机构开展个人信息保护评估、认证服务；\n（五）完善个人信息保护投诉、举报工作机制。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "digital_identity",
+      "artificial_intelligence",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 15.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "digital_identity",
+        "label_zh": "数字身份",
+        "label_en": "Digital Identity",
+        "label_pt": "Identidade Digital",
+        "score": 10.5,
+        "matched_keywords": [
+          "身份认证",
+          "电子身份",
+          "身份 (weak)",
+          "认证 (weak)",
+          "识别 (weak)"
+        ]
+      },
+      {
+        "id": "artificial_intelligence",
+        "label_zh": "人工智能",
+        "label_en": "Artificial Intelligence",
+        "label_pt": "Inteligência Artificial",
+        "score": 4.5,
+        "matched_keywords": [
+          "人工智能"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "公共服务",
+          "公共 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7338,
+    "source_end": 7566,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_063",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "63",
+    "article_number_normalized": "063",
+    "article_title": "",
+    "chunk_index": 62,
+    "chapter": "第六章",
+    "chapter_title": "履行个人信息保护职责的部门",
+    "text_zh": "第六十三条 履行个人信息保护职责的部门履行个人信息保护职责，可以采取下列措施：\n（一）询问有关当事人，调查与个人信息处理活动有关的情况；\n（二）查阅、复制当事人与个人信息处理活动有关的合同、记录、账簿以及其他有关资料；\n（三）实施现场检查，对涉嫌违法的个人信息处理活动进行调查；\n（四）检查与个人信息处理活动有关的设备、物品；对有证据证明是用于违法个人信息处理活动的设备、物品，向本部门主要负责人书面报告并经批准，可以查封或者扣押。\n履行个人信息保护职责的部门依法履行职责，当事人应当予以协助、配合，不得拒绝、阻挠。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 223,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十三条 履行个人信息保护职责的部门履行个人信息保护职责，可以采取下列措施：\n（一）询问有关当事人，调查与个人信息处理活动有关的情况；\n（二）查阅、复制当事人与个人信息处理活动有关的合同、记录、账簿以及其他有关资料；\n（三）实施现场检查，对涉嫌违法的个人信息处理活动进行调查；\n（四）检查与个人信息处理活动有关的设备、物品；对有证据证明是用于违法个人信息处理活动的设备、物品，向本部门主要负责人书面报告并经批准，可以查封或者扣押。\n履行个人信息保护职责的部门依法履行职责，当事人应当予以协助、配合，不得拒绝、阻挠。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 15.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7567,
+    "source_end": 7825,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_064",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "64",
+    "article_number_normalized": "064",
+    "article_title": "",
+    "chunk_index": 63,
+    "chapter": "第六章",
+    "chapter_title": "履行个人信息保护职责的部门",
+    "text_zh": "第六十四条 履行个人信息保护职责的部门在履行职责中，发现个人信息处理活动存在较大风险或者发生个人信息安全事件的，可以按照规定的权限和程序对该个人信息处理者的法定代表人或者主要负责人进行约谈，或者要求个人信息处理者委托专业机构对其个人信息处理活动进行合规审计。个人信息处理者应当按照要求采取措施，进行整改，消除隐患。\n履行个人信息保护职责的部门在履行职责中，发现违法处理个人信息涉嫌犯罪的，应当及时移送公安机关依法处理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 197,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十四条 履行个人信息保护职责的部门在履行职责中，发现个人信息处理活动存在较大风险或者发生个人信息安全事件的，可以按照规定的权限和程序对该个人信息处理者的法定代表人或者主要负责人进行约谈，或者要求个人信息处理者委托专业机构对其个人信息处理活动进行合规审计。个人信息处理者应当按照要求采取措施，进行整改，消除隐患。\n履行个人信息保护职责的部门在履行职责中，发现违法处理个人信息涉嫌犯罪的，应当及时移送公安机关依法处理。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "cybersecurity",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 16.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "信息安全",
+          "安全 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "犯罪",
+          "犯罪 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7826,
+    "source_end": 8035,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_065",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "65",
+    "article_number_normalized": "065",
+    "article_title": "",
+    "chunk_index": 64,
+    "chapter": "第六章",
+    "chapter_title": "履行个人信息保护职责的部门",
+    "text_zh": "第六十五条 任何组织、个人有权对违法个人信息处理活动向履行个人信息保护职责的部门进行投诉、举报。收到投诉、举报的部门应当依法及时处理，并将处理结果告知投诉、举报人。\n履行个人信息保护职责的部门应当公布接受投诉、举报的联系方式。\n第七章 法律责任",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十五条 任何组织、个人有权对违法个人信息处理活动向履行个人信息保护职责的部门进行投诉、举报。收到投诉、举报的部门应当依法及时处理，并将处理结果告知投诉、举报人。\n履行个人信息保护职责的部门应当公布接受投诉、举报的联系方式。\n第七章 法律责任"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8036,
+    "source_end": 8158,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_066",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "66",
+    "article_number_normalized": "066",
+    "article_title": "",
+    "chunk_index": 65,
+    "chapter": "第七章",
+    "chapter_title": "法律责任",
+    "text_zh": "第六十六条 违反本法规定处理个人信息，或者处理个人信息未履行本法规定的个人信息保护义务的，由履行个人信息保护职责的部门责令改正，给予警告，没收违法所得，对违法处理个人信息的应用程序，责令暂停或者终止提供服务；拒不改正的，并处一百万元以下罚款；对直接负责的主管人员和其他直接责任人员处一万元以上十万元以下罚款。\n有前款规定的违法行为，情节严重的，由省级以上履行个人信息保护职责的部门责令改正，没收违法所得，并处五千万元以下或者上一年度营业额百分之五以下罚款，并可以责令暂停相关业务或者停业整顿、通报有关主管部门吊销相关业务许可或者吊销营业执照；对直接负责的主管人员和其他直接责任人员处十万元以上一百万元以下罚款，并可以决定禁止其在一定期限内担任相关企业的董事、监事、高级管理人员和个人信息保护负责人。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 326,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十六条 违反本法规定处理个人信息，或者处理个人信息未履行本法规定的个人信息保护义务的，由履行个人信息保护职责的部门责令改正，给予警告，没收违法所得，对违法处理个人信息的应用程序，责令暂停或者终止提供服务；拒不改正的，并处一百万元以下罚款；对直接负责的主管人员和其他直接责任人员处一万元以上十万元以下罚款。\n有前款规定的违法行为，情节严重的，由省级以上履行个人信息保护职责的部门责令改正，没收违法所得，并处五千万元以下或者上一年度营业额百分之五以下罚款，并可以责令暂停相关业务或者停业整顿、通报有关主管部门吊销相关业务许可或者吊销营业执照；对直接负责的主管人员和其他直接责任人员处十万元以上一百万元以下罚款，并可以决定禁止其在一定期限内担任相关企业的董事、监事、高级管理人员和个人信息保护负责人。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 13.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8159,
+    "source_end": 8508,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_067",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "67",
+    "article_number_normalized": "067",
+    "article_title": "",
+    "chunk_index": 66,
+    "chapter": "第七章",
+    "chapter_title": "法律责任",
+    "text_zh": "第六十七条 有本法规定的违法行为的，依照有关法律、行政法规的规定记入信用档案，并予以公示。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 40,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十七条 有本法规定的违法行为的，依照有关法律、行政法规的规定记入信用档案，并予以公示。"
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8509,
+    "source_end": 8554,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_068",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "68",
+    "article_number_normalized": "068",
+    "article_title": "",
+    "chunk_index": 67,
+    "chapter": "第七章",
+    "chapter_title": "法律责任",
+    "text_zh": "第六十八条 国家机关不履行本法规定的个人信息保护义务的，由其上级机关或者履行个人信息保护职责的部门责令改正；对直接负责的主管人员和其他直接责任人员依法给予处分。\n履行个人信息保护职责的部门的工作人员玩忽职守、滥用职权、徇私舞弊，尚不构成犯罪的，依法给予处分。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 119,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十八条 国家机关不履行本法规定的个人信息保护义务的，由其上级机关或者履行个人信息保护职责的部门责令改正；对直接负责的主管人员和其他直接责任人员依法给予处分。\n履行个人信息保护职责的部门的工作人员玩忽职守、滥用职权、徇私舞弊，尚不构成犯罪的，依法给予处分。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "犯罪",
+          "犯罪 (weak)",
+          "责任 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8555,
+    "source_end": 8684,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_069",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "69",
+    "article_number_normalized": "069",
+    "article_title": "",
+    "chunk_index": 68,
+    "chapter": "第七章",
+    "chapter_title": "法律责任",
+    "text_zh": "第六十九条 处理个人信息侵害个人信息权益造成损害，个人信息处理者不能证明自己没有过错的，应当承担损害赔偿等侵权责任。\n前款规定的损害赔偿责任按照个人因此受到的损失或者个人信息处理者因此获得的利益确定；个人因此受到的损失和个人信息处理者因此获得的利益难以确定的，根据实际情况确定赔偿数额。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 135,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六十九条 处理个人信息侵害个人信息权益造成损害，个人信息处理者不能证明自己没有过错的，应当承担损害赔偿等侵权责任。\n前款规定的损害赔偿责任按照个人因此受到的损失或者个人信息处理者因此获得的利益确定；个人因此受到的损失和个人信息处理者因此获得的利益难以确定的，根据实际情况确定赔偿数额。"
+      }
+    ],
+    "topics": [
+      "data_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 10.5,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8685,
+    "source_end": 8828,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_070",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "70",
+    "article_number_normalized": "070",
+    "article_title": "",
+    "chunk_index": 69,
+    "chapter": "第七章",
+    "chapter_title": "法律责任",
+    "text_zh": "第七十条 个人信息处理者违反本法规定处理个人信息，侵害众多个人的权益的，人民检察院、法律规定的消费者组织和由国家网信部门确定的组织可以依法向人民法院提起诉讼。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 74,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七十条 个人信息处理者违反本法规定处理个人信息，侵害众多个人的权益的，人民检察院、法律规定的消费者组织和由国家网信部门确定的组织可以依法向人民法院提起诉讼。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "litigation_procedure"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "litigation_procedure",
+        "label_zh": "诉讼与争议",
+        "label_en": "Litigation & Appeals",
+        "label_pt": "Litígios e Recursos",
+        "score": 4.5,
+        "matched_keywords": [
+          "诉讼"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9346,
+    "source_end": 9475,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_071",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "71",
+    "article_number_normalized": "071",
+    "article_title": "",
+    "chunk_index": 70,
+    "chapter": "第七章",
+    "chapter_title": "法律责任",
+    "text_zh": "第七十一条 违反本法规定，构成违反治安管理行为的，依法给予治安管理处罚；构成犯罪的，依法追究刑事责任。\n第八章 附 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 50,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七十一条 违反本法规定，构成违反治安管理行为的，依法给予治安管理处罚；构成犯罪的，依法追究刑事责任。\n第八章 附 则"
+      }
+    ],
+    "topics": [
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 13.5,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事责任",
+          "刑事 (weak)",
+          "犯罪 (weak)",
+          "责任 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8909,
+    "source_end": 8968,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_072",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "72",
+    "article_number_normalized": "072",
+    "article_title": "",
+    "chunk_index": 71,
+    "chapter": "第八章",
+    "chapter_title": "附 则",
+    "text_zh": "第七十二条 自然人因个人或者家庭事务处理个人信息的，不适用本法。\n法律对各级人民政府及其有关部门组织实施的统计、档案管理活动中的个人信息处理有规定的，适用其规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 74,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七十二条 自然人因个人或者家庭事务处理个人信息的，不适用本法。\n法律对各级人民政府及其有关部门组织实施的统计、档案管理活动中的个人信息处理有规定的，适用其规定。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance",
+      "records_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "政府",
+          "政府 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "records_management",
+        "label_zh": "档案与记录管理",
+        "label_en": "Records Management",
+        "label_pt": "Gestão de Registros",
+        "score": 4.5,
+        "matched_keywords": [
+          "档案管理"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8969,
+    "source_end": 9050,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_073",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "73",
+    "article_number_normalized": "073",
+    "article_title": "",
+    "chunk_index": 72,
+    "chapter": "第八章",
+    "chapter_title": "附 则",
+    "text_zh": "第七十三条 本法下列用语的含义：\n（一）个人信息处理者，是指在个人信息处理活动中自主决定处理目的、处理方式的组织、个人。\n（二）自动化决策，是指通过计算机程序自动分析、评估个人的行为习惯、兴趣爱好或者经济、健康、信用状况等，并进行决策的活动。\n（三）去标识化，是指个人信息经过处理，使其在不借助额外信息的情况下无法识别特定自然人的过程。\n（四）匿名化，是指个人信息经过处理无法识别特定自然人且不能复原的过程。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 174,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七十三条 本法下列用语的含义：\n（一）个人信息处理者，是指在个人信息处理活动中自主决定处理目的、处理方式的组织、个人。\n（二）自动化决策，是指通过计算机程序自动分析、评估个人的行为习惯、兴趣爱好或者经济、健康、信用状况等，并进行决策的活动。\n（三）去标识化，是指个人信息经过处理，使其在不借助额外信息的情况下无法识别特定自然人的过程。\n（四）匿名化，是指个人信息经过处理无法识别特定自然人且不能复原的过程。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "artificial_intelligence"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "个人信息",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "artificial_intelligence",
+        "label_zh": "人工智能",
+        "label_en": "Artificial Intelligence",
+        "label_pt": "Inteligência Artificial",
+        "score": 4.5,
+        "matched_keywords": [
+          "自动化决策",
+          "自动化决策 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9051,
+    "source_end": 9255,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_LAW_CN_002_ART_074",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_LAW_CN_002",
+    "law_name": "中华人民共和国个人信息保护法",
+    "law_name_original": "中华人民共和国个人信息保护法",
+    "law_type": "法律",
+    "article_number": "74",
+    "article_number_normalized": "074",
+    "article_title": "",
+    "chunk_index": 73,
+    "chapter": "第八章",
+    "chapter_title": "附 则",
+    "text_zh": "第七十四条 本法自2021年11月1日起施行。\n中央网络安全和信息化委员会办公室承办：国家互联网应急中心\n技术支持：长安通信科技有限责任公司京公网安备11040102700108号",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 63,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七十四条 本法自2021年11月1日起施行。\n◆ ◆◆ ◆\n中央网络安全和信息化委员会办公室承办：国家互联网应急中心\n技术支持：长安通信科技有限责任公司京公网安备11040102700108号"
+      }
+    ],
+    "topics": [
+      "cybersecurity",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-11-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "source_type": "gov_gazette",
+    "source_file": "CN_002.txt",
+    "sample_id": "CN_002",
+    "source_id": "CN_CAC_001",
+    "original_id": "SMP_CN_002",
+    "raw_sha256": "30c58ddcc5a8888e1375b31f2c387367f5f9ca11c486e5a8fb4a3e8b7c699de9",
+    "extracted_text_sha256": "9415c72e46806e6c6b50f32a80801d6a4a1952f3c9849302b52b56f0ed69e0af",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9256,
+    "source_end": 9353,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:40:42Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -1,0 +1,1885 @@
+[
+  {
+    "doc_id": "AU_ACT_83_2024_ART_001",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "Short title",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act is the Telecommunications Amendment (SMS Sender ID Register) Act 2024 .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act is the Telecommunications Amendment (SMS Sender ID Register) Act 2024 ."
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 144,
+    "source_end": 274,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_002",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Commencement",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provisions\nCommencementDate/Details\n1. The whole of this Act\nA single day to be fixed by Proclamation.\nHowever, if the provisions do not commence within the period of 6 months beginning on the day this Act receives the Royal Assent, they commence on the day after the end of that period.\n5 March 2025\nNote: This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.\nAny information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provisions\nCommencementDate/Details\n1. The whole of this Act\nA single day to be fixed by Proclamation.\nHowever, if the provisions do not commence within the period of 6 months beginning on the day this Act receives the Royal Assent, they commence on the day after the end of that period.\n5 March 2025\nNote: This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.\nAny information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 239,
+    "source_end": 1189,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_003",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Schedules",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Legislation that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned, and any other item in a Schedule to this Act has effect according to its terms.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Legislation that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned, and any other item in a Schedule to this Act has effect according to its terms."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1155,
+    "source_end": 1425,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_004",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "After Part 24A",
+    "chunk_index": 3,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Insert:Part 24B — SMS Sender ID Register",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Insert:Part 24B — SMS Sender ID Register"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2093,
+    "source_end": 2183,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_484B",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "484B",
+    "article_number_normalized": "484B",
+    "article_title": "Simplified outline of this Part",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "• The ACMA must ensure that the SMS Sender ID Register is established and maintained.\n• The SMS Sender ID Register is a register of sender identifications that have been accepted by the ACMA. Other information may be contained in the register.\n• Various approved entities may apply to the ACMA to have a sender identification accepted.\n• The ACMA may make determinations relating to:\n(a) access to the SMS Sender ID Register; and\n(b) the administration and operation of the SMS Sender ID Register.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "access to the SMS Sender ID Register; and"
+      },
+      {
+        "marker": "B",
+        "content": "the administration and operation of the SMS Sender ID Register."
+      }
+    ],
+    "topics": [
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2151,
+    "source_end": 2698,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_484C",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "484C",
+    "article_number_normalized": "484C",
+    "article_title": "Definition of sender identification",
+    "chunk_index": 5,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "A sender identification is one or more of the things covered by subsection (2) that is a message header that is, or is to be, used in a communication that is, or is to be, sent using any of the following services:\n(a) a short message service;\n(b) a multimedia message service;\n(c) if another service is specified in an instrument under subsection (4)—that other service.\nThis subsection covers the following things:\n(a) letters;(b) numbers;\n(c) symbols;(d) if another thing is specified in an instrument under subsection (5)—that other thing.\nDespite subsection (1), a message header is not a sender identification if the message header consists only of numbers.\nThe Minister may, by legislative instrument, specify a service for the purposes of paragraph (1)(c).\nThe Minister may, by legislative instrument, specify a thing for the purposes of paragraph (2)(d).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "a short message service;"
+      },
+      {
+        "marker": "B",
+        "content": "a multimedia message service;"
+      },
+      {
+        "marker": "C",
+        "content": "if another service is specified in an instrument under subsection (4)—that other service.\nThis subsection covers the following things:"
+      },
+      {
+        "marker": "A",
+        "content": "letters;(b) numbers;"
+      },
+      {
+        "marker": "C",
+        "content": "symbols;(d) if another thing is specified in an instrument under subsection (5)—that other thing.\nDespite subsection (1), a message header is not a sender identification if the message header consists only of numbers.\nThe Minister may, by legislative instrument, specify a service for the purposes of paragraph (1)(c).\nThe Minister may, by legislative instrument, specify a thing for the purposes of paragraph (2)(d)."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 11.0,
+        "matched_keywords": [
+          "definition (title, +5)",
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2686,
+    "source_end": 3598,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_484D",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "484D",
+    "article_number_normalized": "484D",
+    "article_title": "Definition of spoofing sender identification",
+    "chunk_index": 6,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "A sender identification is a spoofing sender identification if:\n(a) the sender identification is a message header that:\n(i) identifies, or purportedly identifies, an entity covered by subsection 484F(2); or\n(ii) identifies, or purportedly identifies, a thing or matter; and\n(b) if that message header were used in a communication, that use would be likely to cause a reasonable person to believe that:\n(i) if subparagraph (a)(i) applies—the entity sent the communication or authorised the sending of the communication; or\n(ii) if subparagraph (a)(ii) applies—the purpose of the communication is to give information that is true in relation to the thing or matter; and\n(c) that belief would be incorrect.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "the sender identification is a message header that:"
+      },
+      {
+        "marker": "I",
+        "content": "identifies, or purportedly identifies, an entity covered by subsection 484F(2); or"
+      },
+      {
+        "marker": "2",
+        "content": "identifies, or purportedly identifies, a thing or matter; and"
+      },
+      {
+        "marker": "B",
+        "content": "if that message header were used in a communication, that use would be likely to cause a reasonable person to believe that:"
+      },
+      {
+        "marker": "I",
+        "content": "if subparagraph (a)(i) applies—the entity sent the communication or authorised the sending of the communication; or"
+      },
+      {
+        "marker": "2",
+        "content": "if subparagraph (a)(ii) applies—the purpose of the communication is to give information that is true in relation to the thing or matter; and"
+      },
+      {
+        "marker": "C",
+        "content": "that belief would be incorrect."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 5,
+        "matched_keywords": [
+          "definition (title, +5)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3590,
+    "source_end": 4343,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_484E",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "484E",
+    "article_number_normalized": "484E",
+    "article_title": "SMS Sender ID Register",
+    "chunk_index": 7,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The ACMA must establish, or arrange for a person (a contracted service provider ) to establish on behalf of the ACMA, a register to be known as the SMS Sender ID Register.\nThe ACMA must:(a) maintain the entire register; or\n(b) arrange for a person (a contracted service provider ) to maintain, on behalf of the ACMA, the entire register; or\n(c) maintain some of the content of the register and arrange for a person (a contracted service provider ) to maintain, on behalf of the ACMA, the remaining content of the register.\nThe register is to contain:\n(a) each sender identification that is accepted under subsection 484G(4); and\n(b) any other kind of information determined under subsection (8) of this section.\nIf a determination made under subsection 484L(1) specifies a period for the purposes of this subsection, a sender identification that is accepted under subsection 484G(4) must be entered in the register before the end of that period.\nThe register is to be kept in electronic form.\nThe register is not a legislative instrument.\nThe ACMA may:(a) make the following information publicly available (to the extent that the information is not personal information within the meaning of the Privacy Act 1988 ):\n(i) sender identifications contained in the register;\n(ii) the identities of the entities to which those sender identifications relate; and\n(b) disclose some or all of the information (including personal information within the meaning of the Privacy Act 1988 ) in the register to a Commonwealth entity (within the meaning of the Public Governance, Performance and Accountability Act 2013 ) if:\n(i) the disclosure is for the purposes of assisting the entity to perform its functions or duties; or\n(ii) the disclosure is for the purposes of assisting the entity to exercise its powers.\nThe Minister may, by legislative instrument, determine one or more kinds of information (including personal information within the meaning of the Privacy Act 1988 ) for the purposes of paragraph (3)(b). The Minister must be satisfied that each kind of information relates to sender identifications covered by paragraph (3)(a).\nThe ACMA must comply with subsection (1) as soon as practicable after the commencement of this subsection.\nSubsections (3) and (4) have effect subject to this Part.\nNote: For example, section 484H provides for the removal of entries from the register.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "B",
+        "content": "arrange for a person (a contracted service provider ) to maintain, on behalf of the ACMA, the entire register; or"
+      },
+      {
+        "marker": "C",
+        "content": "maintain some of the content of the register and arrange for a person (a contracted service provider ) to maintain, on behalf of the ACMA, the remaining content of the register.\nThe register is to contain:"
+      },
+      {
+        "marker": "A",
+        "content": "each sender identification that is accepted under subsection 484G(4); and"
+      },
+      {
+        "marker": "B",
+        "content": "any other kind of information determined under subsection (8) of this section.\nIf a determination made under subsection 484L(1) specifies a period for the purposes of this subsection, a sender identification that is accepted under subsection 484G(4) must be entered in the register before the end of that period.\nThe register is to be kept in electronic form.\nThe register is not a legislative instrument.\nThe ACMA may:(a) make the following information publicly available (to the extent that the information is not personal information within the meaning of the Privacy Act 1988 ):"
+      },
+      {
+        "marker": "I",
+        "content": "sender identifications contained in the register;"
+      },
+      {
+        "marker": "2",
+        "content": "the identities of the entities to which those sender identifications relate; and"
+      },
+      {
+        "marker": "B",
+        "content": "disclose some or all of the information (including personal information within the meaning of the Privacy Act 1988 ) in the register to a Commonwealth entity (within the meaning of the Public Governance, Performance and Accountability Act 2013 ) if:"
+      },
+      {
+        "marker": "I",
+        "content": "the disclosure is for the purposes of assisting the entity to perform its functions or duties; or"
+      },
+      {
+        "marker": "2",
+        "content": "the disclosure is for the purposes of assisting the entity to exercise its powers.\nThe Minister may, by legislative instrument, determine one or more kinds of information (including personal information within the meaning of the Privacy Act 1988 ) for the purposes of paragraph (3)(b). The Minister must be satisfied that each kind of information relates to sender identifications covered by paragraph (3)(a).\nThe ACMA must comply with subsection (1) as soon as practicable after the commencement of this subsection.\nSubsections (3) and (4) have effect subject to this Part.\nNote: For example, section 484H provides for the removal of entries from the register."
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "data_protection",
+      "federalism_legal"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 9.0,
+        "matched_keywords": [
+          "for the purposes of",
+          "meaning (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "to the extent"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4344,
+    "source_end": 6772,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_484F",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "484F",
+    "article_number_normalized": "484F",
+    "article_title": "Application for approval under this section",
+    "chunk_index": 8,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "ApplicationAn entity covered by subsection (2) may apply to the ACMA for an approval under this section.\nThis subsection covers the following entities:\n(a) an individual;(b) a body corporate;\n(c) a corporation sole;\n(d) a body politic;(e) a government entity (within the meaning of the A New Tax System (Australian Business Number) Act 1999 );\n(f) a partnership;(g) any other unincorporated association or body of persons;\n(h) a trust;(i) a superannuation fund (within the meaning of the Superannuation Industry (Supervision) Act 1993 ).\nAn application by an entity under subsection (1) must:\n(a) be made in the form approved under subsection (10); and\n(b) contain such information as the form requires; and\n(c) be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 ; and\n(d) comply with any requirements determined under subsection 484L(1) of this Act for the purposes of this paragraph.\nWithout limiting the requirements that may be determined for the purposes of paragraph (3)(d), the requirements may include the following:\n(a) requirements relating to the making of the application;\n(b) requirements relating to the verification of the applicant’s identity.\nGrant of approvalThe ACMA must, in writing, grant the entity an approval under this section if the application complies with subsection (3).\nRefusal to grant approval\nThe ACMA must, in writing, refuse to grant the entity an approval under this section if the application does not comply with subsection (3).\nRevocation of approval where appropriate in all the circumstances\nThe ACMA may, in writing, revoke an entity’s approval under this section if the ACMA is satisfied that it would be appropriate in all the circumstances to revoke the approval.\nNotice of decisionThe ACMA must give the entity written notice of a decision under subsection (5), (6) or (7).\nNote: The notice must also include a statement about review rights (see section 557).\nIf the decision was made by the operation of a computer program referred to in subsection 484J(1), the notice under subsection (8) of this section must also notify the entity of the making of the decision by the operation of the computer program.\nApproved formThe ACMA may, by writing, approve a form for the purposes of paragraph (3)(a). The ACMA must publish the form on its website.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "an individual;(b) a body corporate;"
+      },
+      {
+        "marker": "C",
+        "content": "a corporation sole;"
+      },
+      {
+        "marker": "D",
+        "content": "a body politic;(e) a government entity (within the meaning of the A New Tax System (Australian Business Number) Act 1999 );"
+      },
+      {
+        "marker": "F",
+        "content": "a partnership;(g) any other unincorporated association or body of persons;"
+      },
+      {
+        "marker": "H",
+        "content": "a trust;(i) a superannuation fund (within the meaning of the Superannuation Industry (Supervision) Act 1993 ).\nAn application by an entity under subsection (1) must:"
+      },
+      {
+        "marker": "A",
+        "content": "be made in the form approved under subsection (10); and"
+      },
+      {
+        "marker": "B",
+        "content": "contain such information as the form requires; and"
+      },
+      {
+        "marker": "C",
+        "content": "be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 ; and"
+      },
+      {
+        "marker": "D",
+        "content": "comply with any requirements determined under subsection 484L(1) of this Act for the purposes of this paragraph.\nWithout limiting the requirements that may be determined for the purposes of paragraph (3)(d), the requirements may include the following:"
+      },
+      {
+        "marker": "A",
+        "content": "requirements relating to the making of the application;"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to the verification of the applicant’s identity.\nGrant of approvalThe ACMA must, in writing, grant the entity an approval under this section if the application complies with subsection (3).\nRefusal to grant approval\nThe ACMA must, in writing, refuse to grant the entity an approval under this section if the application does not comply with subsection (3).\nRevocation of approval where appropriate in all the circumstances\nThe ACMA may, in writing, revoke an entity’s approval under this section if the ACMA is satisfied that it would be appropriate in all the circumstances to revoke the approval.\nNotice of decisionThe ACMA must give the entity written notice of a decision under subsection (5), (6) or (7).\nNote: The notice must also include a statement about review rights (see section 557).\nIf the decision was made by the operation of a computer program referred to in subsection 484J(1), the notice under subsection (8) of this section must also notify the entity of the making of the decision by the operation of the computer program.\nApproved formThe ACMA may, by writing, approve a form for the purposes of paragraph (3)(a). The ACMA must publish the form on its website."
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "tax_law"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 7.5,
+        "matched_keywords": [
+          "for the purposes of",
+          "meaning (weak)"
+        ]
+      },
+      {
+        "id": "tax_law",
+        "label_zh": "税法",
+        "label_en": "Tax Law",
+        "label_pt": "Direito Fiscal",
+        "score": 4.5,
+        "matched_keywords": [
+          "tax"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6751,
+    "source_end": 9195,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_484G",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "484G",
+    "article_number_normalized": "484G",
+    "article_title": "Application for registration of sender identifications",
+    "chunk_index": 9,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "ApplicationAn entity that holds an approval under section 484F may apply to the ACMA for one or more sender identifications to be registered in the SMS Sender ID Register.\nThe application must:\n(a) specify each sender identification; and\n(b) be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 ; and\n(c) comply with any requirements determined under subsection 484L(1) of this Act for the purposes of this paragraph.\nWithout limiting the requirements that may be determined for the purposes of paragraph (2)(c), the requirements may include the following:\n(a) requirements relating to the making of the application;\n(b) requirements relating to the verification of the applicant’s identity.\nAcceptance of sender identifications\nThe ACMA must, in writing, accept one or more sender identifications specified in an application made under subsection (1) if:\n(a) the criteria (if any) determined under subsection 484L(1) for the purposes of this paragraph are met in relation to those sender identifications; and\n(b) the criteria (if any) determined under subsection 484L(1) for the purposes of this paragraph are met in relation to the application; and\n(c) the application complies with subsection (2) of this section.\nNote: If one or more sender identifications are accepted, those sender identifications must be included in the SMS Sender ID Register (see subsection 484E(3)).\nWithout limiting the criteria that may be determined under subsection 484L(1) for the purposes of paragraph (4)(a) of this section, the criteria may relate to ensuring that a spoofing sender identification is not accepted under subsection (4) of this section.\nRefusal of sender identifications where criteria not met\nThe ACMA must, in writing, refuse one or more sender identifications specified in an application made under subsection (1) if the criteria (if any) determined under subsection 484L(1) for the purposes of paragraph (4)(a) of this section are not met in relation to those sender identifications.\nRefusal of application where criteria not met\nThe ACMA must, in writing, refuse an application made under subsection (1) if:\n(a) the criteria (if any) determined under subsection 484L(1) for the purposes of paragraph (4)(b) of this section are not met in relation to the application; or\n(b) the application does not comply with subsection (2) of this section.\nNotice of decisionThe ACMA must give the applicant written notice of a decision to:\n(a) accept one or more sender identifications specified in the application; or\n(b) refuse one or more sender identifications specified in the application; or\n(c) refuse the application.\nNote: The notice must also include a statement about review rights (see section 557).\nIf the decision was made by the operation of a computer program referred to in subsection 484J(1), the notice under subsection (8) of this section must also notify the applicant of the making of the decision by the operation of the computer program.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "specify each sender identification; and"
+      },
+      {
+        "marker": "B",
+        "content": "be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 ; and"
+      },
+      {
+        "marker": "C",
+        "content": "comply with any requirements determined under subsection 484L(1) of this Act for the purposes of this paragraph.\nWithout limiting the requirements that may be determined for the purposes of paragraph (2)(c), the requirements may include the following:"
+      },
+      {
+        "marker": "A",
+        "content": "requirements relating to the making of the application;"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to the verification of the applicant’s identity.\nAcceptance of sender identifications\nThe ACMA must, in writing, accept one or more sender identifications specified in an application made under subsection (1) if:"
+      },
+      {
+        "marker": "A",
+        "content": "the criteria (if any) determined under subsection 484L(1) for the purposes of this paragraph are met in relation to those sender identifications; and"
+      },
+      {
+        "marker": "B",
+        "content": "the criteria (if any) determined under subsection 484L(1) for the purposes of this paragraph are met in relation to the application; and"
+      },
+      {
+        "marker": "C",
+        "content": "the application complies with subsection (2) of this section.\nNote: If one or more sender identifications are accepted, those sender identifications must be included in the SMS Sender ID Register (see subsection 484E(3)).\nWithout limiting the criteria that may be determined under subsection 484L(1) for the purposes of paragraph (4)(a) of this section, the criteria may relate to ensuring that a spoofing sender identification is not accepted under subsection (4) of this section.\nRefusal of sender identifications where criteria not met\nThe ACMA must, in writing, refuse one or more sender identifications specified in an application made under subsection (1) if the criteria (if any) determined under subsection 484L(1) for the purposes of paragraph (4)(a) of this section are not met in relation to those sender identifications.\nRefusal of application where criteria not met\nThe ACMA must, in writing, refuse an application made under subsection (1) if:"
+      },
+      {
+        "marker": "A",
+        "content": "the criteria (if any) determined under subsection 484L(1) for the purposes of paragraph (4)(b) of this section are not met in relation to the application; or"
+      },
+      {
+        "marker": "B",
+        "content": "the application does not comply with subsection (2) of this section.\nNotice of decisionThe ACMA must give the applicant written notice of a decision to:"
+      },
+      {
+        "marker": "A",
+        "content": "accept one or more sender identifications specified in the application; or"
+      },
+      {
+        "marker": "B",
+        "content": "refuse one or more sender identifications specified in the application; or"
+      },
+      {
+        "marker": "C",
+        "content": "refuse the application.\nNote: The notice must also include a statement about review rights (see section 557).\nIf the decision was made by the operation of a computer program referred to in subsection 484J(1), the notice under subsection (8) of this section must also notify the applicant of the making of the decision by the operation of the computer program."
+      }
+    ],
+    "topics": [
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 13.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9195,
+    "source_end": 12298,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_484H",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "484H",
+    "article_number_normalized": "484H",
+    "article_title": "Removal of entries from the SMS Sender ID Register",
+    "chunk_index": 10,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The ACMA may remove an entry from the SMS Sender ID Register if the ACMA is satisfied that:\n(a) the sender identification covered by the entry is offensive or misleading or deceptive; or\n(b) the sender identification covered by the entry is a spoofing sender identification; or\n(c) it would be appropriate in all the circumstances to remove the entry.\nThe ACMA is not required to observe any requirements of the natural justice hearing rule in exercising the power under subsection (1).\nSubsection (1) does not limit a determination made under subsection 484L(4) about the matter mentioned in paragraph 484L(4)(c).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "the sender identification covered by the entry is offensive or misleading or deceptive; or"
+      },
+      {
+        "marker": "B",
+        "content": "the sender identification covered by the entry is a spoofing sender identification; or"
+      },
+      {
+        "marker": "C",
+        "content": "it would be appropriate in all the circumstances to remove the entry.\nThe ACMA is not required to observe any requirements of the natural justice hearing rule in exercising the power under subsection (1).\nSubsection (1) does not limit a determination made under subsection 484L(4) about the matter mentioned in paragraph 484L(4)(c)."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12309,
+    "source_end": 12973,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_484J",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "484J",
+    "article_number_normalized": "484J",
+    "article_title": "Automation of administrative action",
+    "chunk_index": 11,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Chair of the ACMA may, in writing, arrange for the use , under the Chair’s oversight, of computer programs to take administrative action that may, or must, be taken by the ACMA under this Part.\nAdministrative action is:\n(a) making a decision under subsection 484F(5) or (6); or\n(b) making a decision under subsection 484G(4), (6) or (7); or\n(c) giving a notice under subsection 484F(8) or 484G(8); or\n(d) doing, or refusing or failing to do, anything related to making a decision under subsection 484F(5) or (6) or 484G(4), (6) or (7).\nThe ACMA is treated as having taken administrative action\nAdministrative action taken by the operation of a computer program under an arrangement under subsection (1) is treated, for all purposes, as administrative action taken by the ACMA.\nSubstituted decisions\nThe ACMA may make a decision in substitution for a decision the ACMA is treated as having taken under subsection (3) if:\n(a) in any case—the ACMA is satisfied that the decision taken by the operation of the computer program is not correct; or\n(b) if the decision taken by the operation of the computer program is a decision under subsection 484G(4) to accept one or more sender identifications—the ACMA is satisfied that one or more of those sender identifications are spoofing sender identifications.\nThe substituted decision takes effect on:\n(a) if the ACMA specifies the day on which the substituted decision takes effect (which may be earlier than the day the substituted decision is made)—that specified day; or\n(b) otherwise—the day of the decision taken by the operation of the computer program.\nArrangement not a legislative instrument\nAn arrangement under subsection (1) is not a legislative instrument.\nDelegationThe Chair of the ACMA may, in writing, delegate the Chair’s power under subsection (1) to a member of the ACMA staff who is an SES employee or acting SES employee.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "making a decision under subsection 484F(5) or (6); or"
+      },
+      {
+        "marker": "B",
+        "content": "making a decision under subsection 484G(4), (6) or (7); or"
+      },
+      {
+        "marker": "C",
+        "content": "giving a notice under subsection 484F(8) or 484G(8); or"
+      },
+      {
+        "marker": "D",
+        "content": "doing, or refusing or failing to do, anything related to making a decision under subsection 484F(5) or (6) or 484G(4), (6) or (7).\nThe ACMA is treated as having taken administrative action\nAdministrative action taken by the operation of a computer program under an arrangement under subsection (1) is treated, for all purposes, as administrative action taken by the ACMA.\nSubstituted decisions\nThe ACMA may make a decision in substitution for a decision the ACMA is treated as having taken under subsection (3) if:"
+      },
+      {
+        "marker": "A",
+        "content": "in any case—the ACMA is satisfied that the decision taken by the operation of the computer program is not correct; or"
+      },
+      {
+        "marker": "B",
+        "content": "if the decision taken by the operation of the computer program is a decision under subsection 484G(4) to accept one or more sender identifications—the ACMA is satisfied that one or more of those sender identifications are spoofing sender identifications.\nThe substituted decision takes effect on:"
+      },
+      {
+        "marker": "A",
+        "content": "if the ACMA specifies the day on which the substituted decision takes effect (which may be earlier than the day the substituted decision is made)—that specified day; or"
+      },
+      {
+        "marker": "B",
+        "content": "otherwise—the day of the decision taken by the operation of the computer program.\nArrangement not a legislative instrument\nAn arrangement under subsection (1) is not a legislative instrument.\nDelegationThe Chair of the ACMA may, in writing, delegate the Chair’s power under subsection (1) to a member of the ACMA staff who is an SES employee or acting SES employee."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12980,
+    "source_end": 14919,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_484K",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "484K",
+    "article_number_normalized": "484K",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "484K Oversight and safeguards for automation of administrative action\nChair to ensure administrative action is action that could be validly taken\nThe Chair of the ACMA must take all reasonable steps to ensure that administrative action taken by the operation of a computer program under an arrangement under subsection 484J(1) is administrative action that the ACMA could validly take under this Part.\nWithout limiting subsection (1), the Chair of the ACMA must do the things (if any) prescribed by the regulations for the purposes of this subsection.\nNote: Administrative action may still be invalid even if subsections (1) and (2) are complied with.\nA failure to comply with subsection (1) or (2) does not affect the validity of the administrative action taken by the operation of a computer program under an arrangement under subsection 484J(1).\nNotice to entities of substituted decisions\nIf, under subsection 484J(4), the ACMA makes a decision in substitution for a decision the ACMA is treated as having taken under subsection 484J(3), the ACMA must, within 14 days of the making of the substituted decision, give the entity the subject of the substituted decision written notice of the substituted decision.\nNote: The notice must also include a statement about review rights (see section 557).\nPublicationIf the Chair of the ACMA makes an arrangement under subsection 484J(1) in relation to particular provisions of this Part, the Chair must cause a statement to be published on the ACMA’s website:\n(a) to the effect that the Chair has made such an arrangement; and\n(b) setting out those particular provisions.\nDetails in annual report\nThe Chair of the ACMA, when preparing the ACMA’s annual report under section 46 of the Public Governance, Performance and Accountability Act 2013 for a period, must include the following information in that report:\n(a) the total number of substituted decisions made by the ACMA under subsection 484J(4) of this Act in that period;\n(b) the kinds of substituted decisions so made;\n(c) the kinds of decisions taken by the operation of the computer program that the ACMA was satisfied were not correct.\nThe Chair may also include in the report any other information (other than personal information within the meaning of the Privacy Act 1988 ) about the operation of sections 484J and 484K in that period that the Chair considers appropriate.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "to the effect that the Chair has made such an arrangement; and"
+      },
+      {
+        "marker": "B",
+        "content": "setting out those particular provisions.\nDetails in annual report\nThe Chair of the ACMA, when preparing the ACMA’s annual report under section 46 of the Public Governance, Performance and Accountability Act 2013 for a period, must include the following information in that report:"
+      },
+      {
+        "marker": "A",
+        "content": "the total number of substituted decisions made by the ACMA under subsection 484J(4) of this Act in that period;"
+      },
+      {
+        "marker": "B",
+        "content": "the kinds of substituted decisions so made;"
+      },
+      {
+        "marker": "C",
+        "content": "the kinds of decisions taken by the operation of the computer program that the ACMA was satisfied were not correct.\nThe Chair may also include in the report any other information (other than personal information within the meaning of the Privacy Act 1988 ) about the operation of sections 484J and 484K in that period that the Chair considers appropriate."
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of",
+          "meaning (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14911,
+    "source_end": 17342,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_484L",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "484L",
+    "article_number_normalized": "484L",
+    "article_title": "Determinations relating to SMS Sender ID Register",
+    "chunk_index": 13,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Determination relating to applications\nThe ACMA may determine one or more of the following:\n(a) a period for the purposes of subsection 484E(4);\n(b) requirements for the purposes of paragraph 484F(3)(d);\n(c) requirements for the purposes of paragraph 484G(2)(c);\n(d) criteria for the purposes of paragraph 484G(4)(a) in relation to sender identifications;\n(e) criteria for the purposes of paragraph 484G(4)(b) in relation to applications made under subsection 484G(1).\nNote: The determination is a legislative instrument (see subsection (6)).\nDetermination relating to access to the SMS Sender ID Register\nThe ACMA may make a determination that makes provision for and in relation to access to the SMS Sender ID Register.\nNote: The determination is a legislative instrument (see subsection (6)).\nWithout limiting subsection (2), the determination may make provision for and in relation to applications to access the SMS Sender ID Register, including the requirement for an application to be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 .\nDetermination relating to the administration of the SMS Sender ID Register etc.\nThe ACMA may make a determination that makes provision for and in relation to the administration and operation of the SMS Sender ID Register, including one or more of the following:\n(a) the manner in which entries are to be made in the SMS Sender ID Register;\n(b) the correction of entries in the SMS Sender ID Register;\n(c) the removal of entries from the SMS Sender ID Register;\n(d) any other matter relating to the administration or operation of the SMS Sender ID Register.\nNote 1: The determination is a legislative instrument (see subsection (6)).\nNote 2: The determination may provide that entries are to be removed from the SMS Sender ID Register after a period of time.\nA determination under subsection (4), about the matter mentioned in paragraph (4)(c), does not limit section 484H.\nLegislative instrument\nA determination under subsection (1), (2) or (4) is a legislative instrument.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "a period for the purposes of subsection 484E(4);"
+      },
+      {
+        "marker": "B",
+        "content": "requirements for the purposes of paragraph 484F(3)(d);"
+      },
+      {
+        "marker": "C",
+        "content": "requirements for the purposes of paragraph 484G(2)(c);"
+      },
+      {
+        "marker": "D",
+        "content": "criteria for the purposes of paragraph 484G(4)(a) in relation to sender identifications;"
+      },
+      {
+        "marker": "E",
+        "content": "criteria for the purposes of paragraph 484G(4)(b) in relation to applications made under subsection 484G(1).\nNote: The determination is a legislative instrument (see subsection (6)).\nDetermination relating to access to the SMS Sender ID Register\nThe ACMA may make a determination that makes provision for and in relation to access to the SMS Sender ID Register.\nNote: The determination is a legislative instrument (see subsection (6)).\nWithout limiting subsection (2), the determination may make provision for and in relation to applications to access the SMS Sender ID Register, including the requirement for an application to be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 .\nDetermination relating to the administration of the SMS Sender ID Register etc.\nThe ACMA may make a determination that makes provision for and in relation to the administration and operation of the SMS Sender ID Register, including one or more of the following:"
+      },
+      {
+        "marker": "A",
+        "content": "the manner in which entries are to be made in the SMS Sender ID Register;"
+      },
+      {
+        "marker": "B",
+        "content": "the correction of entries in the SMS Sender ID Register;"
+      },
+      {
+        "marker": "C",
+        "content": "the removal of entries from the SMS Sender ID Register;"
+      },
+      {
+        "marker": "D",
+        "content": "any other matter relating to the administration or operation of the SMS Sender ID Register.\nNote 1: The determination is a legislative instrument (see subsection (6)).\nNote 2: The determination may provide that entries are to be removed from the SMS Sender ID Register after a period of time.\nA determination under subsection (4), about the matter mentioned in paragraph (4)(c), does not limit section 484H.\nLegislative instrument\nA determination under subsection (1), (2) or (4) is a legislative instrument."
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 10.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 7.5,
+        "matched_keywords": [
+          "administration"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 17293,
+    "source_end": 19459,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_484M",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "484M",
+    "article_number_normalized": "484M",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "484M Application of the Privacy Act 1988 to a contracted service provider\nFor the purposes of the Privacy Act 1988 , if the SMS Sender ID Register is established, or maintained (in whole or in part), by a contracted service provider under a contract:\n(a) the establishing, or maintaining, of the SMS Sender ID Register by the contracted service provider; and\n(b) the operation of the SMS Sender ID Register by the contracted service provider; and\n(c) the performance of a function, or the exercise of a power, by the contracted service provider under:\n(i) this Part; or(ii) a determination under this Part;\nis taken to be the provision of a service to the ACMA under the contract.\nSubsection (1) is enacted for the avoidance of doubt.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "the establishing, or maintaining, of the SMS Sender ID Register by the contracted service provider; and"
+      },
+      {
+        "marker": "B",
+        "content": "the operation of the SMS Sender ID Register by the contracted service provider; and"
+      },
+      {
+        "marker": "C",
+        "content": "the performance of a function, or the exercise of a power, by the contracted service provider under:"
+      },
+      {
+        "marker": "I",
+        "content": "this Part; or(ii) a determination under this Part;\nis taken to be the provision of a service to the ACMA under the contract.\nSubsection (1) is enacted for the avoidance of doubt."
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "for the purposes of"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19465,
+    "source_end": 20249,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_005",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "After paragraph 1(x) of Schedule 4",
+    "chunk_index": 15,
+    "chapter": "Part 24B",
+    "chapter_title": "3 Section 7",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Insert:(xaa) a decision under subsection 484F(6) to refuse to grant an approval;\n(xab) a decision under subsection 484F(7) to revoke an approval;\n(xac) a decision under subsection 484G(4) to accept one or more sender identifications;\n(xad) a decision under subsection 484G(6) to refuse one or more sender identifications;\n(xae) a decision under subsection 484G(7) to refuse an application;\n(xaf) a decision under section 484H to remove an entry from the SMS Sender ID Register;\n(xag) a decision under subsection 484J(4) in substitution for a decision the ACMA is treated as having taken under subsection 484J(3);\n[ Minister’s second reading speech made in—\nHouse of Representatives on 26 June 2024\nSenate on 15 August 2024 ]\n(77/24)",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "Insert:(xaa) a decision under subsection 484F(6) to refuse to grant an approval;\n(xab) a decision under subsection 484F(7) to revoke an approval;\n(xac) a decision under subsection 484G(4) to accept one or more sender identifications;\n(xad) a decision under subsection 484G(6) to refuse one or more sender identifications;\n(xae) a decision under subsection 484G(7) to refuse an application;\n(xaf) a decision under section 484H to remove an entry from the SMS Sender ID Register;\n(xag) a decision under subsection 484J(4) in substitution for a decision the ACMA is treated as having taken under subsection 484J(3);\n[ Minister’s second reading speech made in—\nHouse of Representatives on 26 June 2024\nSenate on 15 August 2024 ]\n(77/24)"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 20200,
+    "source_end": 20982,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_83_2024_ART_Sch1",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_83_2024",
+    "law_name": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_name_original": "Telecommunications Amendment (SMS Sender ID Register) Act 2024",
+    "law_type": "Act",
+    "article_number": "Sch1",
+    "article_number_normalized": "Sch1",
+    "article_title": "1 — Amendments",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Telecommunications Act 1997\n1 Section 5 (after the paragraph beginning “Provision is made for standard agreements ”)\nInsert:• The ACMA must ensure that the SMS Sender ID Register is established and maintained.\n2 Section 6 (after table item 29)\nInsert:29A\nSMS Sender ID Register\nPart 24B\n3 Section 7\nInsert:administrative action , when used in Part 24B, has the meaning given by subsection 484J(2).\ncontracted service provider : see subsections 484E(1) and (2).\nsender identification has the meaning given by section 484C.\nSMS Sender ID Register means the register established and maintained under section 484E.\nspoofing sender identification has the meaning given by section 484D.\n4 After Part 24A\nInsert:Part 24B — SMS Sender ID Register\n484B Simplified outline of this Part\n• The ACMA must ensure that the SMS Sender ID Register is established and maintained.\n• The SMS Sender ID Register is a register of sender identifications that have been accepted by the ACMA. Other information may be contained in the register.\n• Various approved entities may apply to the ACMA to have a sender identification accepted.\n• The ACMA may make determinations relating to:\n(a) access to the SMS Sender ID Register; and\n(b) the administration and operation of the SMS Sender ID Register.\n484C Definition of sender identification\nA sender identification is one or more of the things covered by subsection (2) that is a message header that is, or is to be, used in a communication that is, or is to be, sent using any of the following services:\n(a) a short message service;\n(b) a multimedia message service;\n(c) if another service is specified in an instrument under subsection (4)—that other service.\nThis subsection covers the following things:\n(a) letters;(b) numbers;\n(c) symbols;(d) if another thing is specified in an instrument under subsection (5)—that other thing.\nDespite subsection (1), a message header is not a sender identification if the message header consists only of numbers.\nThe Minister may, by legislative instrument, specify a service for the purposes of paragraph (1)(c).\nThe Minister may, by legislative instrument, specify a thing for the purposes of paragraph (2)(d).\n484D Definition of spoofing sender identification\nA sender identification is a spoofing sender identification if:\n(a) the sender identification is a message header that:\n(i) identifies, or purportedly identifies, an entity covered by subsection 484F(2); or\n(ii) identifies, or purportedly identifies, a thing or matter; and\n(b) if that message header were used in a communication, that use would be likely to cause a reasonable person to believe that:\n(i) if subparagraph (a)(i) applies—the entity sent the communication or authorised the sending of the communication; or\n(ii) if subparagraph (a)(ii) applies—the purpose of the communication is to give information that is true in relation to the thing or matter; and\n(c) that belief would be incorrect.\n484E SMS Sender ID Register\nThe ACMA must establish, or arrange for a person (a contracted service provider ) to establish on behalf of the ACMA, a register to be known as the SMS Sender ID Register.\nThe ACMA must:(a) maintain the entire register; or\n(b) arrange for a person (a contracted service provider ) to maintain, on behalf of the ACMA, the entire register; or\n(c) maintain some of the content of the register and arrange for a person (a contracted service provider ) to maintain, on behalf of the ACMA, the remaining content of the register.\nThe register is to contain:\n(a) each sender identification that is accepted under subsection 484G(4); and\n(b) any other kind of information determined under subsection (8) of this section.\nIf a determination made under subsection 484L(1) specifies a period for the purposes of this subsection, a sender identification that is accepted under subsection 484G(4) must be entered in the register before the end of that period.\nThe register is to be kept in electronic form.\nThe register is not a legislative instrument.\nThe ACMA may:(a) make the following information publicly available (to the extent that the information is not personal information within the meaning of the Privacy Act 1988 ):\n(i) sender identifications contained in the register;\n(ii) the identities of the entities to which those sender identifications relate; and\n(b) disclose some or all of the information (including personal information within the meaning of the Privacy Act 1988 ) in the register to a Commonwealth entity (within the meaning of the Public Governance, Performance and Accountability Act 2013 ) if:\n(i) the disclosure is for the purposes of assisting the entity to perform its functions or duties; or\n(ii) the disclosure is for the purposes of assisting the entity to exercise its powers.\nThe Minister may, by legislative instrument, determine one or more kinds of information (including personal information within the meaning of the Privacy Act 1988 ) for the purposes of paragraph (3)(b). The Minister must be satisfied that each kind of information relates to sender identifications covered by paragraph (3)(a).\nThe ACMA must comply with subsection (1) as soon as practicable after the commencement of this subsection.\nSubsections (3) and (4) have effect subject to this Part.\nNote: For example, section 484H provides for the removal of entries from the register.\n484F Application for approval under this section\nApplicationAn entity covered by subsection (2) may apply to the ACMA for an approval under this section.\nThis subsection covers the following entities:\n(a) an individual;(b) a body corporate;\n(c) a corporation sole;\n(d) a body politic;(e) a government entity (within the meaning of the A New Tax System (Australian Business Number) Act 1999 );\n(f) a partnership;(g) any other unincorporated association or body of persons;\n(h) a trust;(i) a superannuation fund (within the meaning of the Superannuation Industry (Supervision) Act 1993 ).\nAn application by an entity under subsection (1) must:\n(a) be made in the form approved under subsection (10); and\n(b) contain such information as the form requires; and\n(c) be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 ; and\n(d) comply with any requirements determined under subsection 484L(1) of this Act for the purposes of this paragraph.\nWithout limiting the requirements that may be determined for the purposes of paragraph (3)(d), the requirements may include the following:\n(a) requirements relating to the making of the application;\n(b) requirements relating to the verification of the applicant’s identity.\nGrant of approvalThe ACMA must, in writing, grant the entity an approval under this section if the application complies with subsection (3).\nRefusal to grant approval\nThe ACMA must, in writing, refuse to grant the entity an approval under this section if the application does not comply with subsection (3).\nRevocation of approval where appropriate in all the circumstances\nThe ACMA may, in writing, revoke an entity’s approval under this section if the ACMA is satisfied that it would be appropriate in all the circumstances to revoke the approval.\nNotice of decisionThe ACMA must give the entity written notice of a decision under subsection (5), (6) or (7).\nNote: The notice must also include a statement about review rights (see section 557).\nIf the decision was made by the operation of a computer program referred to in subsection 484J(1), the notice under subsection (8) of this section must also notify the entity of the making of the decision by the operation of the computer program.\nApproved formThe ACMA may, by writing, approve a form for the purposes of paragraph (3)(a). The ACMA must publish the form on its website.\n484G Application for registration of sender identifications\nApplicationAn entity that holds an approval under section 484F may apply to the ACMA for one or more sender identifications to be registered in the SMS Sender ID Register.\nThe application must:\n(a) specify each sender identification; and\n(b) be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 ; and\n(c) comply with any requirements determined under subsection 484L(1) of this Act for the purposes of this paragraph.\nWithout limiting the requirements that may be determined for the purposes of paragraph (2)(c), the requirements may include the following:\n(a) requirements relating to the making of the application;\n(b) requirements relating to the verification of the applicant’s identity.\nAcceptance of sender identifications\nThe ACMA must, in writing, accept one or more sender identifications specified in an application made under subsection (1) if:\n(a) the criteria (if any) determined under subsection 484L(1) for the purposes of this paragraph are met in relation to those sender identifications; and\n(b) the criteria (if any) determined under subsection 484L(1) for the purposes of this paragraph are met in relation to the application; and\n(c) the application complies with subsection (2) of this section.\nNote: If one or more sender identifications are accepted, those sender identifications must be included in the SMS Sender ID Register (see subsection 484E(3)).\nWithout limiting the criteria that may be determined under subsection 484L(1) for the purposes of paragraph (4)(a) of this section, the criteria may relate to ensuring that a spoofing sender identification is not accepted under subsection (4) of this section.\nRefusal of sender identifications where criteria not met\nThe ACMA must, in writing, refuse one or more sender identifications specified in an application made under subsection (1) if the criteria (if any) determined under subsection 484L(1) for the purposes of paragraph (4)(a) of this section are not met in relation to those sender identifications.\nRefusal of application where criteria not met\nThe ACMA must, in writing, refuse an application made under subsection (1) if:\n(a) the criteria (if any) determined under subsection 484L(1) for the purposes of paragraph (4)(b) of this section are not met in relation to the application; or\n(b) the application does not comply with subsection (2) of this section.\nNotice of decisionThe ACMA must give the applicant written notice of a decision to:\n(a) accept one or more sender identifications specified in the application; or\n(b) refuse one or more sender identifications specified in the application; or\n(c) refuse the application.\nNote: The notice must also include a statement about review rights (see section 557).\nIf the decision was made by the operation of a computer program referred to in subsection 484J(1), the notice under subsection (8) of this section must also notify the applicant of the making of the decision by the operation of the computer program.\n484H Removal of entries from the SMS Sender ID Register\nThe ACMA may remove an entry from the SMS Sender ID Register if the ACMA is satisfied that:\n(a) the sender identification covered by the entry is offensive or misleading or deceptive; or\n(b) the sender identification covered by the entry is a spoofing sender identification; or\n(c) it would be appropriate in all the circumstances to remove the entry.\nThe ACMA is not required to observe any requirements of the natural justice hearing rule in exercising the power under subsection (1).\nSubsection (1) does not limit a determination made under subsection 484L(4) about the matter mentioned in paragraph 484L(4)(c).\n484J Automation of administrative action\nThe Chair of the ACMA may, in writing, arrange for the use , under the Chair’s oversight, of computer programs to take administrative action that may, or must, be taken by the ACMA under this Part.\nAdministrative action is:\n(a) making a decision under subsection 484F(5) or (6); or\n(b) making a decision under subsection 484G(4), (6) or (7); or\n(c) giving a notice under subsection 484F(8) or 484G(8); or\n(d) doing, or refusing or failing to do, anything related to making a decision under subsection 484F(5) or (6) or 484G(4), (6) or (7).\nThe ACMA is treated as having taken administrative action\nAdministrative action taken by the operation of a computer program under an arrangement under subsection (1) is treated, for all purposes, as administrative action taken by the ACMA.\nSubstituted decisions\nThe ACMA may make a decision in substitution for a decision the ACMA is treated as having taken under subsection (3) if:\n(a) in any case—the ACMA is satisfied that the decision taken by the operation of the computer program is not correct; or\n(b) if the decision taken by the operation of the computer program is a decision under subsection 484G(4) to accept one or more sender identifications—the ACMA is satisfied that one or more of those sender identifications are spoofing sender identifications.\nThe substituted decision takes effect on:\n(a) if the ACMA specifies the day on which the substituted decision takes effect (which may be earlier than the day the substituted decision is made)—that specified day; or\n(b) otherwise—the day of the decision taken by the operation of the computer program.\nArrangement not a legislative instrument\nAn arrangement under subsection (1) is not a legislative instrument.\nDelegationThe Chair of the ACMA may, in writing, delegate the Chair’s power under subsection (1) to a member of the ACMA staff who is an SES employee or acting SES employee.\n484K Oversight and safeguards for automation of administrative action\nChair to ensure administrative action is action that could be validly taken\nThe Chair of the ACMA must take all reasonable steps to ensure that administrative action taken by the operation of a computer program under an arrangement under subsection 484J(1) is administrative action that the ACMA could validly take under this Part.\nWithout limiting subsection (1), the Chair of the ACMA must do the things (if any) prescribed by the regulations for the purposes of this subsection.\nNote: Administrative action may still be invalid even if subsections (1) and (2) are complied with.\nA failure to comply with subsection (1) or (2) does not affect the validity of the administrative action taken by the operation of a computer program under an arrangement under subsection 484J(1).\nNotice to entities of substituted decisions\nIf, under subsection 484J(4), the ACMA makes a decision in substitution for a decision the ACMA is treated as having taken under subsection 484J(3), the ACMA must, within 14 days of the making of the substituted decision, give the entity the subject of the substituted decision written notice of the substituted decision.\nNote: The notice must also include a statement about review rights (see section 557).\nPublicationIf the Chair of the ACMA makes an arrangement under subsection 484J(1) in relation to particular provisions of this Part, the Chair must cause a statement to be published on the ACMA’s website:\n(a) to the effect that the Chair has made such an arrangement; and\n(b) setting out those particular provisions.\nDetails in annual report\nThe Chair of the ACMA, when preparing the ACMA’s annual report under section 46 of the Public Governance, Performance and Accountability Act 2013 for a period, must include the following information in that report:\n(a) the total number of substituted decisions made by the ACMA under subsection 484J(4) of this Act in that period;\n(b) the kinds of substituted decisions so made;\n(c) the kinds of decisions taken by the operation of the computer program that the ACMA was satisfied were not correct.\nThe Chair may also include in the report any other information (other than personal information within the meaning of the Privacy Act 1988 ) about the operation of sections 484J and 484K in that period that the Chair considers appropriate.\n484L Determinations relating to SMS Sender ID Register\nDetermination relating to applications\nThe ACMA may determine one or more of the following:\n(a) a period for the purposes of subsection 484E(4);\n(b) requirements for the purposes of paragraph 484F(3)(d);\n(c) requirements for the purposes of paragraph 484G(2)(c);\n(d) criteria for the purposes of paragraph 484G(4)(a) in relation to sender identifications;\n(e) criteria for the purposes of paragraph 484G(4)(b) in relation to applications made under subsection 484G(1).\nNote: The determination is a legislative instrument (see subsection (6)).\nDetermination relating to access to the SMS Sender ID Register\nThe ACMA may make a determination that makes provision for and in relation to access to the SMS Sender ID Register.\nNote: The determination is a legislative instrument (see subsection (6)).\nWithout limiting subsection (2), the determination may make provision for and in relation to applications to access the SMS Sender ID Register, including the requirement for an application to be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 .\nDetermination relating to the administration of the SMS Sender ID Register etc.\nThe ACMA may make a determination that makes provision for and in relation to the administration and operation of the SMS Sender ID Register, including one or more of the following:\n(a) the manner in which entries are to be made in the SMS Sender ID Register;\n(b) the correction of entries in the SMS Sender ID Register;\n(c) the removal of entries from the SMS Sender ID Register;\n(d) any other matter relating to the administration or operation of the SMS Sender ID Register.\nNote 1: The determination is a legislative instrument (see subsection (6)).\nNote 2: The determination may provide that entries are to be removed from the SMS Sender ID Register after a period of time.\nA determination under subsection (4), about the matter mentioned in paragraph (4)(c), does not limit section 484H.\nLegislative instrument\nA determination under subsection (1), (2) or (4) is a legislative instrument.\n484M Application of the Privacy Act 1988 to a contracted service provider\nFor the purposes of the Privacy Act 1988 , if the SMS Sender ID Register is established, or maintained (in whole or in part), by a contracted service provider under a contract:\n(a) the establishing, or maintaining, of the SMS Sender ID Register by the contracted service provider; and\n(b) the operation of the SMS Sender ID Register by the contracted service provider; and\n(c) the performance of a function, or the exercise of a power, by the contracted service provider under:\n(i) this Part; or(ii) a determination under this Part;\nis taken to be the provision of a service to the ACMA under the contract.\nSubsection (1) is enacted for the avoidance of doubt.\n5 After paragraph 1(x) of Schedule 4\nInsert:(xaa) a decision under subsection 484F(6) to refuse to grant an approval;\n(xab) a decision under subsection 484F(7) to revoke an approval;\n(xac) a decision under subsection 484G(4) to accept one or more sender identifications;\n(xad) a decision under subsection 484G(6) to refuse one or more sender identifications;\n(xae) a decision under subsection 484G(7) to refuse an application;\n(xaf) a decision under section 484H to remove an entry from the SMS Sender ID Register;\n(xag) a decision under subsection 484J(4) in substitution for a decision the ACMA is treated as having taken under subsection 484J(3);\n[ Minister’s second reading speech made in—\nHouse of Representatives on 26 June 2024\nSenate on 15 August 2024 ]\n(77/24)",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "schedule",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "access to the SMS Sender ID Register; and"
+      },
+      {
+        "marker": "B",
+        "content": "the administration and operation of the SMS Sender ID Register.\n484C Definition of sender identification\nA sender identification is one or more of the things covered by subsection (2) that is a message header that is, or is to be, used in a communication that is, or is to be, sent using any of the following services:"
+      },
+      {
+        "marker": "A",
+        "content": "a short message service;"
+      },
+      {
+        "marker": "B",
+        "content": "a multimedia message service;"
+      },
+      {
+        "marker": "C",
+        "content": "if another service is specified in an instrument under subsection (4)—that other service.\nThis subsection covers the following things:"
+      },
+      {
+        "marker": "A",
+        "content": "letters;(b) numbers;"
+      },
+      {
+        "marker": "C",
+        "content": "symbols;(d) if another thing is specified in an instrument under subsection (5)—that other thing.\nDespite subsection (1), a message header is not a sender identification if the message header consists only of numbers.\nThe Minister may, by legislative instrument, specify a service for the purposes of paragraph (1)(c).\nThe Minister may, by legislative instrument, specify a thing for the purposes of paragraph (2)(d).\n484D Definition of spoofing sender identification\nA sender identification is a spoofing sender identification if:"
+      },
+      {
+        "marker": "A",
+        "content": "the sender identification is a message header that:"
+      },
+      {
+        "marker": "I",
+        "content": "identifies, or purportedly identifies, an entity covered by subsection 484F(2); or"
+      },
+      {
+        "marker": "2",
+        "content": "identifies, or purportedly identifies, a thing or matter; and"
+      },
+      {
+        "marker": "B",
+        "content": "if that message header were used in a communication, that use would be likely to cause a reasonable person to believe that:"
+      },
+      {
+        "marker": "I",
+        "content": "if subparagraph (a)(i) applies—the entity sent the communication or authorised the sending of the communication; or"
+      },
+      {
+        "marker": "2",
+        "content": "if subparagraph (a)(ii) applies—the purpose of the communication is to give information that is true in relation to the thing or matter; and"
+      },
+      {
+        "marker": "C",
+        "content": "that belief would be incorrect.\n484E SMS Sender ID Register\nThe ACMA must establish, or arrange for a person (a contracted service provider ) to establish on behalf of the ACMA, a register to be known as the SMS Sender ID Register.\nThe ACMA must:(a) maintain the entire register; or"
+      },
+      {
+        "marker": "B",
+        "content": "arrange for a person (a contracted service provider ) to maintain, on behalf of the ACMA, the entire register; or"
+      },
+      {
+        "marker": "C",
+        "content": "maintain some of the content of the register and arrange for a person (a contracted service provider ) to maintain, on behalf of the ACMA, the remaining content of the register.\nThe register is to contain:"
+      },
+      {
+        "marker": "A",
+        "content": "each sender identification that is accepted under subsection 484G(4); and"
+      },
+      {
+        "marker": "B",
+        "content": "any other kind of information determined under subsection (8) of this section.\nIf a determination made under subsection 484L(1) specifies a period for the purposes of this subsection, a sender identification that is accepted under subsection 484G(4) must be entered in the register before the end of that period.\nThe register is to be kept in electronic form.\nThe register is not a legislative instrument.\nThe ACMA may:(a) make the following information publicly available (to the extent that the information is not personal information within the meaning of the Privacy Act 1988 ):"
+      },
+      {
+        "marker": "I",
+        "content": "sender identifications contained in the register;"
+      },
+      {
+        "marker": "2",
+        "content": "the identities of the entities to which those sender identifications relate; and"
+      },
+      {
+        "marker": "B",
+        "content": "disclose some or all of the information (including personal information within the meaning of the Privacy Act 1988 ) in the register to a Commonwealth entity (within the meaning of the Public Governance, Performance and Accountability Act 2013 ) if:"
+      },
+      {
+        "marker": "I",
+        "content": "the disclosure is for the purposes of assisting the entity to perform its functions or duties; or"
+      },
+      {
+        "marker": "2",
+        "content": "the disclosure is for the purposes of assisting the entity to exercise its powers.\nThe Minister may, by legislative instrument, determine one or more kinds of information (including personal information within the meaning of the Privacy Act 1988 ) for the purposes of paragraph (3)(b). The Minister must be satisfied that each kind of information relates to sender identifications covered by paragraph (3)(a).\nThe ACMA must comply with subsection (1) as soon as practicable after the commencement of this subsection.\nSubsections (3) and (4) have effect subject to this Part.\nNote: For example, section 484H provides for the removal of entries from the register.\n484F Application for approval under this section\nApplicationAn entity covered by subsection (2) may apply to the ACMA for an approval under this section.\nThis subsection covers the following entities:"
+      },
+      {
+        "marker": "A",
+        "content": "an individual;(b) a body corporate;"
+      },
+      {
+        "marker": "C",
+        "content": "a corporation sole;"
+      },
+      {
+        "marker": "D",
+        "content": "a body politic;(e) a government entity (within the meaning of the A New Tax System (Australian Business Number) Act 1999 );"
+      },
+      {
+        "marker": "F",
+        "content": "a partnership;(g) any other unincorporated association or body of persons;"
+      },
+      {
+        "marker": "H",
+        "content": "a trust;(i) a superannuation fund (within the meaning of the Superannuation Industry (Supervision) Act 1993 ).\nAn application by an entity under subsection (1) must:"
+      },
+      {
+        "marker": "A",
+        "content": "be made in the form approved under subsection (10); and"
+      },
+      {
+        "marker": "B",
+        "content": "contain such information as the form requires; and"
+      },
+      {
+        "marker": "C",
+        "content": "be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 ; and"
+      },
+      {
+        "marker": "D",
+        "content": "comply with any requirements determined under subsection 484L(1) of this Act for the purposes of this paragraph.\nWithout limiting the requirements that may be determined for the purposes of paragraph (3)(d), the requirements may include the following:"
+      },
+      {
+        "marker": "A",
+        "content": "requirements relating to the making of the application;"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to the verification of the applicant’s identity.\nGrant of approvalThe ACMA must, in writing, grant the entity an approval under this section if the application complies with subsection (3).\nRefusal to grant approval\nThe ACMA must, in writing, refuse to grant the entity an approval under this section if the application does not comply with subsection (3).\nRevocation of approval where appropriate in all the circumstances\nThe ACMA may, in writing, revoke an entity’s approval under this section if the ACMA is satisfied that it would be appropriate in all the circumstances to revoke the approval.\nNotice of decisionThe ACMA must give the entity written notice of a decision under subsection (5), (6) or (7).\nNote: The notice must also include a statement about review rights (see section 557).\nIf the decision was made by the operation of a computer program referred to in subsection 484J(1), the notice under subsection (8) of this section must also notify the entity of the making of the decision by the operation of the computer program.\nApproved formThe ACMA may, by writing, approve a form for the purposes of paragraph (3)(a). The ACMA must publish the form on its website.\n484G Application for registration of sender identifications\nApplicationAn entity that holds an approval under section 484F may apply to the ACMA for one or more sender identifications to be registered in the SMS Sender ID Register.\nThe application must:"
+      },
+      {
+        "marker": "A",
+        "content": "specify each sender identification; and"
+      },
+      {
+        "marker": "B",
+        "content": "be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 ; and"
+      },
+      {
+        "marker": "C",
+        "content": "comply with any requirements determined under subsection 484L(1) of this Act for the purposes of this paragraph.\nWithout limiting the requirements that may be determined for the purposes of paragraph (2)(c), the requirements may include the following:"
+      },
+      {
+        "marker": "A",
+        "content": "requirements relating to the making of the application;"
+      },
+      {
+        "marker": "B",
+        "content": "requirements relating to the verification of the applicant’s identity.\nAcceptance of sender identifications\nThe ACMA must, in writing, accept one or more sender identifications specified in an application made under subsection (1) if:"
+      },
+      {
+        "marker": "A",
+        "content": "the criteria (if any) determined under subsection 484L(1) for the purposes of this paragraph are met in relation to those sender identifications; and"
+      },
+      {
+        "marker": "B",
+        "content": "the criteria (if any) determined under subsection 484L(1) for the purposes of this paragraph are met in relation to the application; and"
+      },
+      {
+        "marker": "C",
+        "content": "the application complies with subsection (2) of this section.\nNote: If one or more sender identifications are accepted, those sender identifications must be included in the SMS Sender ID Register (see subsection 484E(3)).\nWithout limiting the criteria that may be determined under subsection 484L(1) for the purposes of paragraph (4)(a) of this section, the criteria may relate to ensuring that a spoofing sender identification is not accepted under subsection (4) of this section.\nRefusal of sender identifications where criteria not met\nThe ACMA must, in writing, refuse one or more sender identifications specified in an application made under subsection (1) if the criteria (if any) determined under subsection 484L(1) for the purposes of paragraph (4)(a) of this section are not met in relation to those sender identifications.\nRefusal of application where criteria not met\nThe ACMA must, in writing, refuse an application made under subsection (1) if:"
+      },
+      {
+        "marker": "A",
+        "content": "the criteria (if any) determined under subsection 484L(1) for the purposes of paragraph (4)(b) of this section are not met in relation to the application; or"
+      },
+      {
+        "marker": "B",
+        "content": "the application does not comply with subsection (2) of this section.\nNotice of decisionThe ACMA must give the applicant written notice of a decision to:"
+      },
+      {
+        "marker": "A",
+        "content": "accept one or more sender identifications specified in the application; or"
+      },
+      {
+        "marker": "B",
+        "content": "refuse one or more sender identifications specified in the application; or"
+      },
+      {
+        "marker": "C",
+        "content": "refuse the application.\nNote: The notice must also include a statement about review rights (see section 557).\nIf the decision was made by the operation of a computer program referred to in subsection 484J(1), the notice under subsection (8) of this section must also notify the applicant of the making of the decision by the operation of the computer program.\n484H Removal of entries from the SMS Sender ID Register\nThe ACMA may remove an entry from the SMS Sender ID Register if the ACMA is satisfied that:"
+      },
+      {
+        "marker": "A",
+        "content": "the sender identification covered by the entry is offensive or misleading or deceptive; or"
+      },
+      {
+        "marker": "B",
+        "content": "the sender identification covered by the entry is a spoofing sender identification; or"
+      },
+      {
+        "marker": "C",
+        "content": "it would be appropriate in all the circumstances to remove the entry.\nThe ACMA is not required to observe any requirements of the natural justice hearing rule in exercising the power under subsection (1).\nSubsection (1) does not limit a determination made under subsection 484L(4) about the matter mentioned in paragraph 484L(4)(c).\n484J Automation of administrative action\nThe Chair of the ACMA may, in writing, arrange for the use , under the Chair’s oversight, of computer programs to take administrative action that may, or must, be taken by the ACMA under this Part.\nAdministrative action is:"
+      },
+      {
+        "marker": "A",
+        "content": "making a decision under subsection 484F(5) or (6); or"
+      },
+      {
+        "marker": "B",
+        "content": "making a decision under subsection 484G(4), (6) or (7); or"
+      },
+      {
+        "marker": "C",
+        "content": "giving a notice under subsection 484F(8) or 484G(8); or"
+      },
+      {
+        "marker": "D",
+        "content": "doing, or refusing or failing to do, anything related to making a decision under subsection 484F(5) or (6) or 484G(4), (6) or (7).\nThe ACMA is treated as having taken administrative action\nAdministrative action taken by the operation of a computer program under an arrangement under subsection (1) is treated, for all purposes, as administrative action taken by the ACMA.\nSubstituted decisions\nThe ACMA may make a decision in substitution for a decision the ACMA is treated as having taken under subsection (3) if:"
+      },
+      {
+        "marker": "A",
+        "content": "in any case—the ACMA is satisfied that the decision taken by the operation of the computer program is not correct; or"
+      },
+      {
+        "marker": "B",
+        "content": "if the decision taken by the operation of the computer program is a decision under subsection 484G(4) to accept one or more sender identifications—the ACMA is satisfied that one or more of those sender identifications are spoofing sender identifications.\nThe substituted decision takes effect on:"
+      },
+      {
+        "marker": "A",
+        "content": "if the ACMA specifies the day on which the substituted decision takes effect (which may be earlier than the day the substituted decision is made)—that specified day; or"
+      },
+      {
+        "marker": "B",
+        "content": "otherwise—the day of the decision taken by the operation of the computer program.\nArrangement not a legislative instrument\nAn arrangement under subsection (1) is not a legislative instrument.\nDelegationThe Chair of the ACMA may, in writing, delegate the Chair’s power under subsection (1) to a member of the ACMA staff who is an SES employee or acting SES employee.\n484K Oversight and safeguards for automation of administrative action\nChair to ensure administrative action is action that could be validly taken\nThe Chair of the ACMA must take all reasonable steps to ensure that administrative action taken by the operation of a computer program under an arrangement under subsection 484J(1) is administrative action that the ACMA could validly take under this Part.\nWithout limiting subsection (1), the Chair of the ACMA must do the things (if any) prescribed by the regulations for the purposes of this subsection.\nNote: Administrative action may still be invalid even if subsections (1) and (2) are complied with.\nA failure to comply with subsection (1) or (2) does not affect the validity of the administrative action taken by the operation of a computer program under an arrangement under subsection 484J(1).\nNotice to entities of substituted decisions\nIf, under subsection 484J(4), the ACMA makes a decision in substitution for a decision the ACMA is treated as having taken under subsection 484J(3), the ACMA must, within 14 days of the making of the substituted decision, give the entity the subject of the substituted decision written notice of the substituted decision.\nNote: The notice must also include a statement about review rights (see section 557).\nPublicationIf the Chair of the ACMA makes an arrangement under subsection 484J(1) in relation to particular provisions of this Part, the Chair must cause a statement to be published on the ACMA’s website:"
+      },
+      {
+        "marker": "A",
+        "content": "to the effect that the Chair has made such an arrangement; and"
+      },
+      {
+        "marker": "B",
+        "content": "setting out those particular provisions.\nDetails in annual report\nThe Chair of the ACMA, when preparing the ACMA’s annual report under section 46 of the Public Governance, Performance and Accountability Act 2013 for a period, must include the following information in that report:"
+      },
+      {
+        "marker": "A",
+        "content": "the total number of substituted decisions made by the ACMA under subsection 484J(4) of this Act in that period;"
+      },
+      {
+        "marker": "B",
+        "content": "the kinds of substituted decisions so made;"
+      },
+      {
+        "marker": "C",
+        "content": "the kinds of decisions taken by the operation of the computer program that the ACMA was satisfied were not correct.\nThe Chair may also include in the report any other information (other than personal information within the meaning of the Privacy Act 1988 ) about the operation of sections 484J and 484K in that period that the Chair considers appropriate.\n484L Determinations relating to SMS Sender ID Register\nDetermination relating to applications\nThe ACMA may determine one or more of the following:"
+      },
+      {
+        "marker": "A",
+        "content": "a period for the purposes of subsection 484E(4);"
+      },
+      {
+        "marker": "B",
+        "content": "requirements for the purposes of paragraph 484F(3)(d);"
+      },
+      {
+        "marker": "C",
+        "content": "requirements for the purposes of paragraph 484G(2)(c);"
+      },
+      {
+        "marker": "D",
+        "content": "criteria for the purposes of paragraph 484G(4)(a) in relation to sender identifications;"
+      },
+      {
+        "marker": "E",
+        "content": "criteria for the purposes of paragraph 484G(4)(b) in relation to applications made under subsection 484G(1).\nNote: The determination is a legislative instrument (see subsection (6)).\nDetermination relating to access to the SMS Sender ID Register\nThe ACMA may make a determination that makes provision for and in relation to access to the SMS Sender ID Register.\nNote: The determination is a legislative instrument (see subsection (6)).\nWithout limiting subsection (2), the determination may make provision for and in relation to applications to access the SMS Sender ID Register, including the requirement for an application to be accompanied by the applicable charge (if any) fixed by a determination under section 60 of the Australian Communications and Media Authority Act 2005 .\nDetermination relating to the administration of the SMS Sender ID Register etc.\nThe ACMA may make a determination that makes provision for and in relation to the administration and operation of the SMS Sender ID Register, including one or more of the following:"
+      },
+      {
+        "marker": "A",
+        "content": "the manner in which entries are to be made in the SMS Sender ID Register;"
+      },
+      {
+        "marker": "B",
+        "content": "the correction of entries in the SMS Sender ID Register;"
+      },
+      {
+        "marker": "C",
+        "content": "the removal of entries from the SMS Sender ID Register;"
+      },
+      {
+        "marker": "D",
+        "content": "any other matter relating to the administration or operation of the SMS Sender ID Register.\nNote 1: The determination is a legislative instrument (see subsection (6)).\nNote 2: The determination may provide that entries are to be removed from the SMS Sender ID Register after a period of time.\nA determination under subsection (4), about the matter mentioned in paragraph (4)(c), does not limit section 484H.\nLegislative instrument\nA determination under subsection (1), (2) or (4) is a legislative instrument.\n484M Application of the Privacy Act 1988 to a contracted service provider\nFor the purposes of the Privacy Act 1988 , if the SMS Sender ID Register is established, or maintained (in whole or in part), by a contracted service provider under a contract:"
+      },
+      {
+        "marker": "A",
+        "content": "the establishing, or maintaining, of the SMS Sender ID Register by the contracted service provider; and"
+      },
+      {
+        "marker": "B",
+        "content": "the operation of the SMS Sender ID Register by the contracted service provider; and"
+      },
+      {
+        "marker": "C",
+        "content": "the performance of a function, or the exercise of a power, by the contracted service provider under:"
+      },
+      {
+        "marker": "I",
+        "content": "this Part; or(ii) a determination under this Part;\nis taken to be the provision of a service to the ACMA under the contract.\nSubsection (1) is enacted for the avoidance of doubt.\n5 After paragraph 1(x) of Schedule 4\nInsert:(xaa) a decision under subsection 484F(6) to refuse to grant an approval;\n(xab) a decision under subsection 484F(7) to revoke an approval;\n(xac) a decision under subsection 484G(4) to accept one or more sender identifications;\n(xad) a decision under subsection 484G(6) to refuse one or more sender identifications;\n(xae) a decision under subsection 484G(7) to refuse an application;\n(xaf) a decision under section 484H to remove an entry from the SMS Sender ID Register;\n(xag) a decision under subsection 484J(4) in substitution for a decision the ACMA is treated as having taken under subsection 484J(3);\n[ Minister’s second reading speech made in—\nHouse of Representatives on 26 June 2024\nSenate on 15 August 2024 ]\n(77/24)"
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "data_protection",
+      "telecommunications",
+      "federalism_legal"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 55.5,
+        "matched_keywords": [
+          "means",
+          "definition",
+          "has the meaning",
+          "for the purposes of",
+          "definition (weak)",
+          "meaning (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 12.0,
+        "matched_keywords": [
+          "privacy"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "telecommunications"
+        ]
+      },
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "to the extent",
+          "invalid (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": null,
+    "publication_date": "1997-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2024A00083/asmade",
+    "source_type": "gov_gazette",
+    "source_file": "AU_042.txt",
+    "sample_id": "AU_042",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_042",
+    "raw_sha256": "c95cbf879f0ee6d17661d9ae3b6453d3d94044d220f0f983970baba3a964fce7",
+    "extracted_text_sha256": "fc5cc9ec39980e9fb6937b10fe55acd330ba64e5b57d9c128eb24947ec033cdb",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1412,
+    "source_end": 20969,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:07Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

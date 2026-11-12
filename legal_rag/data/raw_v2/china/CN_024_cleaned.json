@@ -1,0 +1,1857 @@
+[
+  {
+    "doc_id": "CN_DOC_333_2001_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第一条 为了适应电信业对外开放的需要，促进电信业的发展，根据有关外商投资的法律、行政法规和《中华人民共和国电信条例》（以下简称电信条例），制定本规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 65,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为了适应电信业对外开放的需要，促进电信业的发展，根据有关外商投资的法律、行政法规和《中华人民共和国电信条例》（以下简称电信条例），制定本规定。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 9.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 43,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二条 外商投资电信企业，是指外国投资者同中国投资者在中华人民共和国境内依法以中外合资经营形式，共同投资设立的经营电信业务的企业。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 61,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 外商投资电信企业，是指外国投资者同中国投资者在中华人民共和国境内依法以中外合资经营形式，共同投资设立的经营电信业务的企业。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 41,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第三条 外商投资电信企业从事电信业务经营活动，除必须遵守本规定外，还必须遵守电信条例和其他有关法律、行政法规的规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 外商投资电信企业从事电信业务经营活动，除必须遵守本规定外，还必须遵守电信条例和其他有关法律、行政法规的规定。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 55,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第四条 外商投资电信企业可以经营基础电信业务、增值电信业务，具体业务分类依照电信条例的规定执行。\n外商投资电信企业经营业务的地域范围，由国务院工业和信息化主管部门按照有关规定确定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 83,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 外商投资电信企业可以经营基础电信业务、增值电信业务，具体业务分类依照电信条例的规定执行。\n外商投资电信企业经营业务的地域范围，由国务院工业和信息化主管部门按照有关规定确定。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 10.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 56,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第五条 外商投资电信企业的注册资本应当符合下列规定：\n（一）经营全国的或者跨省、自治区、直辖市范围的基础电信业务的，其注册资本最低限额为10亿元人民币；经营增值电信业务的，其注册资本最低限额为1000万元人民币；\n（二）经营省、自治区、直辖市范围内的基础电信业务的，其注册资本最低限额为1亿元人民币；经营增值电信业务的，其注册资本最低限额为100万元人民币。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 149,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 外商投资电信企业的注册资本应当符合下列规定：\n（一）经营全国的或者跨省、自治区、直辖市范围的基础电信业务的，其注册资本最低限额为10亿元人民币；经营增值电信业务的，其注册资本最低限额为1000万元人民币；\n（二）经营省、自治区、直辖市范围内的基础电信业务的，其注册资本最低限额为1亿元人民币；经营增值电信业务的，其注册资本最低限额为100万元人民币。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 10.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 53,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第六条 经营基础电信业务（无线寻呼业务除外）的外商投资电信企业的外方投资者在企业中的出资比例，最终不得超过49%。\n经营增值电信业务（包括基础电信业务中的无线寻呼业务）的外商投资电信企业的外方投资者在企业中的出资比例，最终不得超过50%。\n外商投资电信企业的中方投资者和外方投资者在不同时期的出资比例，由国务院工业和信息化主管部门按照有关规定确定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 155,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 经营基础电信业务（无线寻呼业务除外）的外商投资电信企业的外方投资者在企业中的出资比例，最终不得超过49%。\n经营增值电信业务（包括基础电信业务中的无线寻呼业务）的外商投资电信企业的外方投资者在企业中的出资比例，最终不得超过50%。\n外商投资电信企业的中方投资者和外方投资者在不同时期的出资比例，由国务院工业和信息化主管部门按照有关规定确定。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 12.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 44,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第七条 外商投资电信企业经营电信业务，除应当符合本规定第四条、第五条、第六条规定的条件外，还应当符合电信条例规定的经营基础电信业务或者经营增值电信业务应当具备的条件。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 77,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 外商投资电信企业经营电信业务，除应当符合本规定第四条、第五条、第六条规定的条件外，还应当符合电信条例规定的经营基础电信业务或者经营增值电信业务应当具备的条件。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 10.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 848,
+    "source_end": 931,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第八条 经营基础电信业务的外商投资电信企业的中方主要投资者应当符合下列条件：\n（一）是依法设立的公司；（二）有与从事经营活动相适应的资金和专业人员；\n（三）符合国务院工业和信息化主管部门规定的审慎的和特定行业的要求。\n前款所称外商投资电信企业的中方主要投资者，是指在全体中方投资者中出资数额最多且占中方全体投资者出资总额的30%以上的出资者。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 152,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 经营基础电信业务的外商投资电信企业的中方主要投资者应当符合下列条件：\n（一）是依法设立的公司；（二）有与从事经营活动相适应的资金和专业人员；\n（三）符合国务院工业和信息化主管部门规定的审慎的和特定行业的要求。\n前款所称外商投资电信企业的中方主要投资者，是指在全体中方投资者中出资数额最多且占中方全体投资者出资总额的30%以上的出资者。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 103,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第九条 经营基础电信业务的外商投资电信企业的外方主要投资者应当符合下列条件：\n（一）具有企业法人资格；（二）在注册的国家或者地区取得基础电信业务经营许可证；\n（三）有与从事经营活动相适应的资金和专业人员；\n（四）有从事基础电信业务的良好业绩和运营经验。\n前款所称外商投资电信企业的外方主要投资者，是指在外方全体投资者中出资数额最多且占全体外方投资者出资总额的30%以上的出资者。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 166,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 经营基础电信业务的外商投资电信企业的外方主要投资者应当符合下列条件：\n（一）具有企业法人资格；（二）在注册的国家或者地区取得基础电信业务经营许可证；\n（三）有与从事经营活动相适应的资金和专业人员；\n（四）有从事基础电信业务的良好业绩和运营经验。\n前款所称外商投资电信企业的外方主要投资者，是指在外方全体投资者中出资数额最多且占全体外方投资者出资总额的30%以上的出资者。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 10.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 105,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十条 经营增值电信业务的外商投资电信企业的外方主要投资者应当具有经营增值电信业务的良好业绩和运营经验。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 50,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 经营增值电信业务的外商投资电信企业的外方主要投资者应当具有经营增值电信业务的良好业绩和运营经验。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 107,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十一条 设立经营基础电信业务或者跨省、自治区、直辖市范围增值电信业务的外商投资电信企业，由中方主要投资者向国务院工业和信息化主管部门提出申请并报送下列文件：\n（一）项目申请报告；（二）本规定第八条、第九条、第十条规定的合营各方投资者的资格证明或者有关确认文件；\n（三）电信条例规定的经营基础电信业务或者增值电信业务应当具备的其他条件的证明或者确认文件。\n国务院工业和信息化主管部门应当自收到申请之日起对前款规定的有关文件进行审查。属于基础电信业务的，应当在180日内审查完毕，作出批准或者不予批准的决定；属于增值电信业务的，应当在90日内审查完毕，作出批准或者不予批准的决定。予以批准的，颁发《外商投资经营电信业务审定意见书》；不予批准的，应当书面通知申请人并说明理由。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 299,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 设立经营基础电信业务或者跨省、自治区、直辖市范围增值电信业务的外商投资电信企业，由中方主要投资者向国务院工业和信息化主管部门提出申请并报送下列文件：\n（一）项目申请报告；（二）本规定第八条、第九条、第十条规定的合营各方投资者的资格证明或者有关确认文件；\n（三）电信条例规定的经营基础电信业务或者增值电信业务应当具备的其他条件的证明或者确认文件。\n国务院工业和信息化主管部门应当自收到申请之日起对前款规定的有关文件进行审查。属于基础电信业务的，应当在180日内审查完毕，作出批准或者不予批准的决定；属于增值电信业务的，应当在90日内审查完毕，作出批准或者不予批准的决定。予以批准的，颁发《外商投资经营电信业务审定意见书》；不予批准的，应当书面通知申请人并说明理由。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 16.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 76,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十二条 设立外商投资电信企业经营省、自治区、直辖市范围内增值电信业务，由中方主要投资者向省、自治区、直辖市电信管理机构提出申请并报送下列文件：\n（一）本规定第十条规定的资格证明或者有关确认文件；\n（二）电信条例规定的经营增值电信业务应当具备的其他条件的证明或者确认文件。\n省、自治区、直辖市电信管理机构应当自收到申请之日起60日内签署意见。同意的，转报国务院工业和信息化主管部门；不同意的，应当书面通知申请人并说明理由。\n国务院工业和信息化主管部门应当自收到省、自治区、直辖市电信管理机构签署同意的申请文件之日起30日内审查完毕，作出批准或者不予批准的决定。予以批准的，颁发《外商投资经营电信业务审定意见书》；不予批准的，应当书面通知申请人并说明理由。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 289,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 设立外商投资电信企业经营省、自治区、直辖市范围内增值电信业务，由中方主要投资者向省、自治区、直辖市电信管理机构提出申请并报送下列文件：\n（一）本规定第十条规定的资格证明或者有关确认文件；\n（二）电信条例规定的经营增值电信业务应当具备的其他条件的证明或者确认文件。\n省、自治区、直辖市电信管理机构应当自收到申请之日起60日内签署意见。同意的，转报国务院工业和信息化主管部门；不同意的，应当书面通知申请人并说明理由。\n国务院工业和信息化主管部门应当自收到省、自治区、直辖市电信管理机构签署同意的申请文件之日起30日内审查完毕，作出批准或者不予批准的决定。予以批准的，颁发《外商投资经营电信业务审定意见书》；不予批准的，应当书面通知申请人并说明理由。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 15.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 73,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十三条 外商投资电信企业项目申请报告的主要内容包括：合营各方的名称和基本情况、拟设立企业的投资总额、注册资本、各方出资比例、申请经营的业务种类、合营期限等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 71,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 外商投资电信企业项目申请报告的主要内容包括：合营各方的名称和基本情况、拟设立企业的投资总额、注册资本、各方出资比例、申请经营的业务种类、合营期限等。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2012,
+    "source_end": 2091,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十四条 设立外商投资电信企业，按照国家有关规定，其投资项目需要经国务院发展改革部门核准的，国务院工业和信息化主管部门应当在颁发《外商投资经营电信业务审定意见书》前，将申请材料转送国务院发展改革部门核准。转送国务院发展改革部门核准的，本规定第十一条、第十二条规定的审批期限可以延长30日。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 131,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 设立外商投资电信企业，按照国家有关规定，其投资项目需要经国务院发展改革部门核准的，国务院工业和信息化主管部门应当在颁发《外商投资经营电信业务审定意见书》前，将申请材料转送国务院发展改革部门核准。转送国务院发展改革部门核准的，本规定第十一条、第十二条规定的审批期限可以延长30日。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2092,
+    "source_end": 2236,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十五条 设立外商投资电信企业，属于经营基础电信业务或者跨省、自治区、直辖市范围增值电信业务的，由中方主要投资者凭《外商投资经营电信业务审定意见书》向国务院商务主管部门报送拟设立外商投资电信企业的合同、章程；属于经营省、自治区、直辖市范围内增值电信业务的，由中方主要投资者凭《外商投资经营电信业务审定意见书》向省、自治区、直辖市人民政府商务主管部门报送拟设立外商投资电信企业的合同、章程。\n国务院商务主管部门和省、自治区、直辖市人民政府商务主管部门应当自收到报送的拟设立外商投资电信企业的合同、章程之日起90日内审查完毕，作出批准或者不予批准的决定。予以批准的，颁发《外商投资企业批准证书》；不予批准的，应当书面通知申请人并说明理由。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 285,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 设立外商投资电信企业，属于经营基础电信业务或者跨省、自治区、直辖市范围增值电信业务的，由中方主要投资者凭《外商投资经营电信业务审定意见书》向国务院商务主管部门报送拟设立外商投资电信企业的合同、章程；属于经营省、自治区、直辖市范围内增值电信业务的，由中方主要投资者凭《外商投资经营电信业务审定意见书》向省、自治区、直辖市人民政府商务主管部门报送拟设立外商投资电信企业的合同、章程。\n国务院商务主管部门和省、自治区、直辖市人民政府商务主管部门应当自收到报送的拟设立外商投资电信企业的合同、章程之日起90日内审查完毕，作出批准或者不予批准的决定。予以批准的，颁发《外商投资企业批准证书》；不予批准的，应当书面通知申请人并说明理由。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 16.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "政府",
+          "政府 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 52,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十六条 外商投资电信企业的中方主要投资者凭《外商投资企业批准证书》向工商行政管理机关申请企业注册登记后，凭《外商投资企业批准证书》和营业执照向国务院工业和信息化主管部门申请电信业务经营许可。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 89,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 外商投资电信企业的中方主要投资者凭《外商投资企业批准证书》向工商行政管理机关申请企业注册登记后，凭《外商投资企业批准证书》和营业执照向国务院工业和信息化主管部门申请电信业务经营许可。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "public_governance",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政管理"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 43,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十七条 外商投资电信企业经营跨境电信业务，必须经国务院工业和信息化主管部门批准，并通过国务院工业和信息化主管部门批准设立的国际电信出入口局进行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 69,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 外商投资电信企业经营跨境电信业务，必须经国务院工业和信息化主管部门批准，并通过国务院工业和信息化主管部门批准设立的国际电信出入口局进行。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2652,
+    "source_end": 2725,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十八条 违反本规定第六条规定的，由国务院工业和信息化主管部门责令限期改正，并处10万元以上50万元以下的罚款；逾期不改正的，由国务院工业和信息化主管部门吊销《电信业务经营许可证》，并由原颁发《外商投资企业批准证书》的商务主管部门撤销其《外商投资企业批准证书》。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 114,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 违反本规定第六条规定的，由国务院工业和信息化主管部门责令限期改正，并处10万元以上50万元以下的罚款；逾期不改正的，由国务院工业和信息化主管部门吊销《电信业务经营许可证》，并由原颁发《外商投资企业批准证书》的商务主管部门撤销其《外商投资企业批准证书》。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1576,
+    "source_end": 1684,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十九条 违反本规定第十七条规定的，由国务院工业和信息化主管部门责令限期改正，并处20万元以上100万元以下的罚款；逾期不改正的，由国务院工业和信息化主管部门吊销《电信业务经营许可证》，并由原颁发《外商投资企业批准证书》的商务主管部门撤销其《外商投资企业批准证书》。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 115,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 违反本规定第十七条规定的，由国务院工业和信息化主管部门责令限期改正，并处20万元以上100万元以下的罚款；逾期不改正的，由国务院工业和信息化主管部门吊销《电信业务经营许可证》，并由原颁发《外商投资企业批准证书》的商务主管部门撤销其《外商投资企业批准证书》。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2858,
+    "source_end": 2991,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十条 申请设立外商投资电信企业，提供虚假、伪造的资格证明或者确认文件骗取批准的，批准无效，由国务院工业和信息化主管部门处20万元以上100万元以下的罚款，吊销《电信业务经营许可证》，并由原颁发《外商投资企业批准证书》的商务主管部门撤销其《外商投资企业批准证书》。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 114,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 申请设立外商投资电信企业，提供虚假、伪造的资格证明或者确认文件骗取批准的，批准无效，由国务院工业和信息化主管部门处20万元以上100万元以下的罚款，吊销《电信业务经营许可证》，并由原颁发《外商投资企业批准证书》的商务主管部门撤销其《外商投资企业批准证书》。"
+      }
+    ],
+    "topics": [
+      "telecommunications"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 6.0,
+        "matched_keywords": [
+          "电信"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 41,
+    "source_end": 201,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十一条 外商投资电信企业经营电信业务，违反电信条例和其他有关法律、行政法规规定的，由有关机关依法给予处罚。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 50,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 外商投资电信企业经营电信业务，违反电信条例和其他有关法律、行政法规规定的，由有关机关依法给予处罚。"
+      }
+    ],
+    "topics": [
+      "telecommunications",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 7.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3126,
+    "source_end": 3181,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十二条 香港特别行政区、澳门特别行政区和台湾地区的公司、企业在内地投资经营电信业务，比照适用本规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 47,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 香港特别行政区、澳门特别行政区和台湾地区的公司、企业在内地投资经营电信业务，比照适用本规定。"
+      }
+    ],
+    "topics": [
+      "public_governance",
+      "telecommunications",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "telecommunications",
+        "label_zh": "电信",
+        "label_en": "Telecommunications",
+        "label_pt": "Telecomunicações",
+        "score": 4.5,
+        "matched_keywords": [
+          "电信"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3182,
+    "source_end": 3234,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_333_2001_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_333_2001",
+    "law_name": "外商投资电信企业管理规定",
+    "law_name_original": "外商投资电信企业管理规定",
+    "law_type": "政策文件",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十三条 本规定自2002年1月1日起施行。\n【关闭窗口】 【打印本页】",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 23,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 本规定自2002年1月1日起施行。\n【关闭窗口】 【打印本页】"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2002-01-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_3649fa97f9a543189679f4160e3945c3.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_024.txt",
+    "sample_id": "CN_024",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_024",
+    "raw_sha256": "de29270a91c715f9eb144bcdfae35f15259d912e7544933d752d513f9e69e229",
+    "extracted_text_sha256": "9a63fd5bc300b026fd0264e13eb65499bbb4a2ba2bd715f7a4b9420df721d476",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3235,
+    "source_end": 3272,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:48Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

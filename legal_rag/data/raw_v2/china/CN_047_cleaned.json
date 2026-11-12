@@ -1,0 +1,2754 @@
+[
+  {
+    "doc_id": "CN_DOC_2_2026_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第一条 为落实金融特许经营原则,加强银行保险机构许可证管理,促进银行保险机构依法持证经营,根据《中华人民共和国行政许可法》《中华人民共和国\n银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》《国务院关于实施金融控股公司准入管理的决定》等有关规定,制定本办\n法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 122,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为落实金融特许经营原则,加强银行保险机构许可证管理,促进银行保险机构依法持证经营,根据《中华人民共和国行政许可法》《中华人民共和国\n银行业监督管理法》《中华人民共和国商业银行法》《中华人民共和国保险法》《国务院关于实施金融控股公司准入管理的决定》等有关规定,制定本办\n法。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二条 本办法所称许可证是指国家金融监督管理总局(以下简称金融监管总局)依法颁发的特许银行保险机构经营金融业务的法律文件。\n许可证的颁发、换发、收缴等由金融监管总局及其授权的派出机构依法行使,其他任何单位和个人不得行使上述职权。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 105,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本办法所称许可证是指国家金融监督管理总局(以下简称金融监管总局)依法颁发的特许银行保险机构经营金融业务的法律文件。\n许可证的颁发、换发、收缴等由金融监管总局及其授权的派出机构依法行使,其他任何单位和个人不得行使上述职权。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第三条 本办法所称银行保险机构包括金融控股公司,政策性银行、全国性商业银行、城市商业银行、民营银行、直销银行、外资银行、农村中小银行等\n银行机构及其分支机构,保险集团(控股)公司、人身保险公司、财产保险公司、再保险公司、保险资产管理公司、政策性保险公司、相互保险组织等保险机构\n及其分支机构,金融资产管理公司、企业集团财务公司、金融租赁公司、汽车金融公司、货币经纪公司、消费金融公司、信托公司、理财公司、金融资产投\n资公司以及经金融监管总局及其派出机构批准设立的其他非银行金融机构及其分支机构,保险专业代理机构、保险经纪人、保险兼业代理机构等保险中介机\n构。\n上述银行保险机构开展金融业务,必须依法取得许可证和市场监督管理部门颁发的营业执照。未取得许可证和营业执照的,不得开展特许银行保险机构经\n营的金融业务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 315,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 本办法所称银行保险机构包括金融控股公司,政策性银行、全国性商业银行、城市商业银行、民营银行、直销银行、外资银行、农村中小银行等\n银行机构及其分支机构,保险集团(控股)公司、人身保险公司、财产保险公司、再保险公司、保险资产管理公司、政策性保险公司、相互保险组织等保险机构\n及其分支机构,金融资产管理公司、企业集团财务公司、金融租赁公司、汽车金融公司、货币经纪公司、消费金融公司、信托公司、理财公司、金融资产投\n资公司以及经金融监管总局及其派出机构批准设立的其他非银行金融机构及其分支机构,保险专业代理机构、保险经纪人、保险兼业代理机构等保险中介机\n构。\n上述银行保险机构开展金融业务,必须依法取得许可证和市场监督管理部门颁发的营业执照。未取得许可证和营业执照的,不得开展特许银行保险机构经\n营的金融业务。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 55.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 27.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 27,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第四条 金融许可证适用于金融控股公司,政策性银行、全国性商业银行、城市商业银行、民营银行、直销银行、外资银行、农村中小银行等银行机构及\n其分支机构,保险集团(控股)公司、人身保险公司、财产保险公司、再保险公司、保险资产管理公司、政策性保险公司、相互保险组织等保险机构及其分支机\n构,金融资产管理公司、企业集团财务公司、金融租赁公司、汽车金融公司、货币经纪公司、消费金融公司、信托公司、理财公司、金融资产投资公司以及\n经金融监管总局及其派出机构批准设立的其他非银行金融机构及其分支机构。\n保险专业代理机构、保险经纪人、保险兼业代理机构等保险中介机构适用保险中介许可证。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 249,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 金融许可证适用于金融控股公司,政策性银行、全国性商业银行、城市商业银行、民营银行、直销银行、外资银行、农村中小银行等银行机构及\n其分支机构,保险集团(控股)公司、人身保险公司、财产保险公司、再保险公司、保险资产管理公司、政策性保险公司、相互保险组织等保险机构及其分支机\n构,金融资产管理公司、企业集团财务公司、金融租赁公司、汽车金融公司、货币经纪公司、消费金融公司、信托公司、理财公司、金融资产投资公司以及\n经金融监管总局及其派出机构批准设立的其他非银行金融机构及其分支机构。\n保险专业代理机构、保险经纪人、保险兼业代理机构等保险中介机构适用保险中介许可证。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 48.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 27.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第五条 金融监管总局对银行保险机构许可证实行分级管理。\n金融监管总局负责其直接监管的银行保险机构许可证的颁发与管理。金融监管总局派出机构根据授权,负责辖内银行保险机构许可证的颁发与管理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 87,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 金融监管总局对银行保险机构许可证实行分级管理。\n金融监管总局负责其直接监管的银行保险机构许可证的颁发与管理。金融监管总局派出机构根据授权,负责辖内银行保险机构许可证的颁发与管理。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 22.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4821,
+    "source_end": 4964,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第六条 金融监管总局及其派出机构根据行政许可决定或备案、报告等信息向银行保险机构颁发、换发、收缴许可证。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 47,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 金融监管总局及其派出机构根据行政许可决定或备案、报告等信息向银行保险机构颁发、换发、收缴许可证。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 24,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第七条 许可证载明下列内容:\n(一)机构编码;(二)机构名称;\n(三)业务范围;(四)批准日期;\n(五)机构住所;(六)颁发许可证日期;\n(七)发证机关;(八)许可证流水号。\n机构编码按照金融监管总局有关编码规则确定。\n金融许可证批准日期为机构批准设立日期。保险中介许可证的批准日期为保险中介业务资格批准日期。对于采取备案或报告管理的机构设立事项,批准\n日期为发证机关收到完整备案或报告材料的日期。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 161,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 许可证载明下列内容:\n(一)机构编码;(二)机构名称;\n(三)业务范围;(四)批准日期;\n(五)机构住所;(六)颁发许可证日期;\n(七)发证机关;(八)许可证流水号。\n机构编码按照金融监管总局有关编码规则确定。\n金融许可证批准日期为机构批准设立日期。保险中介许可证的批准日期为保险中介业务资格批准日期。对于采取备案或报告管理的机构设立事项,批准\n日期为发证机关收到完整备案或报告材料的日期。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 10.5,
+        "matched_keywords": [
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第八条 经批准设立的银行保险机构应当自收到行政许可决定之日起十五日内到金融监管总局或其派出机构领取许可证。对于采取备案或报告管理的机\n构设立事项,银行保险机构应当在完成报告或备案后十五日内到金融监管总局或其派出机构领取许可证。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 108,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 经批准设立的银行保险机构应当自收到行政许可决定之日起十五日内到金融监管总局或其派出机构领取许可证。对于采取备案或报告管理的机\n构设立事项,银行保险机构应当在完成报告或备案后十五日内到金融监管总局或其派出机构领取许可证。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第九条 银行保险机构领取许可证时,应当提交下列材料:\n(一)银行保险机构介绍信或委托书;(二)领取许可证人员的合法有效身份证明;\n(三)发证机关要求的其他材料。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 66,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 银行保险机构领取许可证时,应当提交下列材料:\n(一)银行保险机构介绍信或委托书;(二)领取许可证人员的合法有效身份证明;\n(三)发证机关要求的其他材料。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十条 许可证记载事项发生变更的,银行保险机构应当向发证机关缴回原证,并领取新许可证。\n前款所称事项变更须经发证机关许可的,银行保险机构应当自收到行政许可决定之日起十五日内到发证机关领取新许可证。前款所称变更事项须向发证\n机关备案或报告的,银行保险机构应当按照规定进行备案或报告,并自变更后十五日内到发证机关领取新许可证。前款所称变更事项无须许可或备案、报告的,\n银行保险机构应当自变更之日起十五日内到发证机关领取新许可证。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 197,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 许可证记载事项发生变更的,银行保险机构应当向发证机关缴回原证,并领取新许可证。\n前款所称事项变更须经发证机关许可的,银行保险机构应当自收到行政许可决定之日起十五日内到发证机关领取新许可证。前款所称变更事项须向发证\n\n机关备案或报告的,银行保险机构应当按照规定进行备案或报告,并自变更后十五日内到发证机关领取新许可证。前款所称变更事项无须许可或备案、报告的,\n银行保险机构应当自变更之日起十五日内到发证机关领取新许可证。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1685,
+    "source_end": 1898,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十一条 许可证遗失,银行保险机构应立即报告发证机关,并于发现之日起七日内发布遗失声明公告、重新领取许可证。\n报告内容包括机构名称、机构住所、批准日期,许可证流水号、机构编码、颁发日期,当事人、失控的时间、地点、事发原因、过程等情况。\n发布遗失声明公告的方式、内容同新领、换领许可证。\n许可证遗失的,银行保险机构向发证机关领取新许可证时,除应提交本办法第九条规定的材料外,还应当提交遗失声明公告及对该事件的处理结果报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 184,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 许可证遗失,银行保险机构应立即报告发证机关,并于发现之日起七日内发布遗失声明公告、重新领取许可证。\n报告内容包括机构名称、机构住所、批准日期,许可证流水号、机构编码、颁发日期,当事人、失控的时间、地点、事发原因、过程等情况。\n发布遗失声明公告的方式、内容同新领、换领许可证。\n许可证遗失的,银行保险机构向发证机关领取新许可证时,除应提交本办法第九条规定的材料外,还应当提交遗失声明公告及对该事件的处理结果报告。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1899,
+    "source_end": 2109,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十二条 许可证损坏,银行保险机构应立即报告发证机关,并于发现之日起七日内缴回原证并领取新许可证。\n报告内容参照遗失许可证报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 58,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 许可证损坏,银行保险机构应立即报告发证机关,并于发现之日起七日内缴回原证并领取新许可证。\n报告内容参照遗失许可证报告。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4924,
+    "source_end": 5038,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十三条 银行保险机构行政许可被监管撤回、监管撤销、注销,被吊销许可证,或者机构解散、关闭、被撤销、被宣告破产的,应当在收到金融监管总局及\n其派出机构有关文件、法律文书或人民法院宣告破产裁定书之日起十五日内,将许可证缴回发证机关,并依法向市场监督管理部门申请办理变更登记或注销登\n记等。\n银行保险机构因清算工作需要,无法按时缴回许可证的,应在缴回期限届满前五日向发证机关提交延迟缴回申请,说明延迟缴回理由并明确后续缴回安排及\n时限。经发证机关同意后,银行保险机构可延迟缴回许可证。\n无正当理由逾期不缴回的,由发证机关在缴回期满后五日内依法收缴。拒不缴回或者无法缴回的,由发证机关在金融监管总局官方网站公告许可证作废。\n公告内容应当包括作废事由、机构名称、机构住所、机构编码、许可证流水号等情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 313,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 银行保险机构行政许可被监管撤回、监管撤销、注销,被吊销许可证,或者机构解散、关闭、被撤销、被宣告破产的,应当在收到金融监管总局及\n其派出机构有关文件、法律文书或人民法院宣告破产裁定书之日起十五日内,将许可证缴回发证机关,并依法向市场监督管理部门申请办理变更登记或注销登\n记等。\n银行保险机构因清算工作需要,无法按时缴回许可证的,应在缴回期限届满前五日向发证机关提交延迟缴回申请,说明延迟缴回理由并明确后续缴回安排及\n时限。经发证机关同意后,银行保险机构可延迟缴回许可证。\n无正当理由逾期不缴回的,由发证机关在缴回期满后五日内依法收缴。拒不缴回或者无法缴回的,由发证机关在金融监管总局官方网站公告许可证作废。\n公告内容应当包括作废事由、机构名称、机构住所、机构编码、许可证流水号等情况。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 21.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 26,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十四条 新领、换领许可证,银行保险机构应于领取之日起三十日内进行公告。银行保险机构应采取下列一种或多种方式进行公告:\n(一)在公开发行报刊上公告(含全国性金融类主流媒体);\n(二)在银行保险机构官方网站或官方微信公众号上公告;\n(三)其他有效便捷的公告方式。\n公告的具体内容应当包括:事由、机构名称、机构住所、机构编码、批准日期、许可证流水号、联系电话等。公告的知晓范围应至少与机构开展业务经\n营的地域范围相匹配。银行保险机构应保留相关公告材料备查。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 195,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 新领、换领许可证,银行保险机构应于领取之日起三十日内进行公告。银行保险机构应采取下列一种或多种方式进行公告:\n(一)在公开发行报刊上公告(含全国性金融类主流媒体);\n(二)在银行保险机构官方网站或官方微信公众号上公告;\n(三)其他有效便捷的公告方式。\n公告的具体内容应当包括:事由、机构名称、机构住所、机构编码、批准日期、许可证流水号、联系电话等。公告的知晓范围应至少与机构开展业务经\n营的地域范围相匹配。银行保险机构应保留相关公告材料备查。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2523,
+    "source_end": 2749,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十五条 银行保险机构应当妥善保管和依法使用许可证,不得进行裁剪、涂改、粘贴等。\n任何单位和个人不得伪造、变造、转让、出租、出借银行保险机构许可证。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 63,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 银行保险机构应当妥善保管和依法使用许可证,不得进行裁剪、涂改、粘贴等。\n任何单位和个人不得伪造、变造、转让、出租、出借银行保险机构许可证。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4822,
+    "source_end": 4946,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十六条 银行保险机构应当将许可证纳入内控合规管理范畴,制定管理制度,明确许可证保管、公示、使用、交接、检查等各环节管理流程和工作要求。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 银行保险机构应当将许可证纳入内控合规管理范畴,制定管理制度,明确许可证保管、公示、使用、交接、检查等各环节管理流程和工作要求。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2825,
+    "source_end": 2893,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十七条 银行保险机构总部及各分支机构应当设置许可证管理岗位,负责本机构许可证的日常管理工作,明确许可证管理责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 53,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 银行保险机构总部及各分支机构应当设置许可证管理岗位,负责本机构许可证的日常管理工作,明确许可证管理责任。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十八条 银行保险机构应当在营业场所的显著位置公示许可证原件。保险中介机构分支机构应当在营业场所的显著位置公示加盖法人机构公章的许可\n证复印件。\n银行保险机构应当依据行政许可决定文件和上级管理单位授权文件,在营业场所的显著位置以适当方式公示其业务范围、主要负责人。行政许可决定文\n件或上级管理单位授权文件对经营区域有明确要求的,银行保险机构还应对经营区域进行公示。通过网络平台开展业务的,应当在相关网络页面及功能模块以\n清晰、醒目的方式展示上述内容。\n上述公示事项内容发生变更的,银行保险机构应当自变更之日起十日内更换公示内容。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 246,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 银行保险机构应当在营业场所的显著位置公示许可证原件。保险中介机构分支机构应当在营业场所的显著位置公示加盖法人机构公章的许可\n证复印件。\n银行保险机构应当依据行政许可决定文件和上级管理单位授权文件,在营业场所的显著位置以适当方式公示其业务范围、主要负责人。行政许可决定文\n件或上级管理单位授权文件对经营区域有明确要求的,银行保险机构还应对经营区域进行公示。通过网络平台开展业务的,应当在相关网络页面及功能模块以\n清晰、醒目的方式展示上述内容。\n上述公示事项内容发生变更的,银行保险机构应当自变更之日起十日内更换公示内容。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 19.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 6.0,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "法人",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2952,
+    "source_end": 3216,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十九条 银行保险机构原则上每年至少开展一次许可证管理情况核查。核查内容包括但不限于许可证新领、换领、损坏、遗失、缴回、公示、公告等\n管理情况,核查发现的问题要及时整改。存在重大违法违规行为或者重大风险隐患的,应当及时向金融监管总局或其派出机构报告。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 112,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 银行保险机构原则上每年至少开展一次许可证管理情况核查。核查内容包括但不限于许可证新领、换领、损坏、遗失、缴回、公示、公告等\n管理情况,核查发现的问题要及时整改。存在重大违法违规行为或者重大风险隐患的,应当及时向金融监管总局或其派出机构报告。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十条 银行保险机构法人、外国及港澳台银行分行、外国再保险公司分公司应当于每年度结束后两个月内向金融监管总局或其派出机构报送年度许\n可证管理情况报告,内容包括但不限于:许可证管理基本情况,人员设置情况,许可证遗失、损坏情况,核查发现主要问题,整改及内部问责情况等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 121,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 银行保险机构法人、外国及港澳台银行分行、外国再保险公司分公司应当于每年度结束后两个月内向金融监管总局或其派出机构报送年度许\n可证管理情况报告,内容包括但不限于:许可证管理基本情况,人员设置情况,许可证遗失、损坏情况,核查发现主要问题,整改及内部问责情况等。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司",
+          "法人",
+          "公司 (weak)",
+          "管理 (weak)",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十一条 金融监管总局及其派出机构应当加强银行保险机构许可证的信息管理,建立健全许可证管理信息系统,依法披露许可证的有关信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 60,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 金融监管总局及其派出机构应当加强银行保险机构许可证的信息管理,建立健全许可证管理信息系统,依法披露许可证的有关信息。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4768,
+    "source_end": 4882,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十二条 金融监管总局及其派出机构负责对银行保险机构许可证管理情况进行监管,依法开展非现场监管和现场检查,并采取相应监管措施和实施行政\n处罚。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 67,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 金融监管总局及其派出机构负责对银行保险机构许可证管理情况进行监管,依法开展非现场监管和现场检查,并采取相应监管措施和实施行政\n处罚。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3542,
+    "source_end": 3614,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十三条 银行保险机构伪造、变造、转让、出租、出借许可证的,由金融监管总局及其派出机构按照《中华人民共和国银行业监督管理法》《中华人\n民共和国商业银行法》《中华人民共和国保险法》等有关规定进行处理。构成犯罪的,依法追究刑事责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 99,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 银行保险机构伪造、变造、转让、出租、出借许可证的,由金融监管总局及其派出机构按照《中华人民共和国银行业监督管理法》《中华人\n民共和国商业银行法》《中华人民共和国保险法》等有关规定进行处理。构成犯罪的,依法追究刑事责任。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "criminal_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 13.5,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事责任",
+          "刑事 (weak)",
+          "犯罪 (weak)",
+          "责任 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4818,
+    "source_end": 4983,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十四条 银行保险机构违反本办法,有下列情形之一的,由金融监管总局及其派出机构责令限期改正,予以警告或通报批评;逾期不改正的,处二万元以上\n十万元以下罚款,并对该机构直接负责的主管人员和其他直接责任人员,给予警告,处一万元以上十万元以下罚款:\n(一)未按规定新领、换领、缴回许可证;(二)未按规定进行公示、公告;\n(三)遗失、损坏许可证未按规定向发证机关报告;\n(四)未按规定有效落实许可证合规管理要求。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 173,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 银行保险机构违反本办法,有下列情形之一的,由金融监管总局及其派出机构责令限期改正,予以警告或通报批评;逾期不改正的,处二万元以上\n十万元以下罚款,并对该机构直接负责的主管人员和其他直接责任人员,给予警告,处一万元以上十万元以下罚款:\n(一)未按规定新领、换领、缴回许可证;(二)未按规定进行公示、公告;\n(三)遗失、损坏许可证未按规定向发证机关报告;\n(四)未按规定有效落实许可证合规管理要求。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4925,
+    "source_end": 5178,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十五条 银行保险机构违反本办法,有下列情形之一的,由金融监管总局及其派出机构责令改正,予以警告或通报批评,并处一万元以上十万元以下罚款;\n对该机构直接负责的主管人员和其他直接责任人员,给予警告,处一万元以下罚款:\n(一)因管理不善导致许可证遗失;(二)因管理不善导致许可证损坏。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 124,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 银行保险机构违反本办法,有下列情形之一的,由金融监管总局及其派出机构责令改正,予以警告或通报批评,并处一万元以上十万元以下罚款;\n对该机构直接负责的主管人员和其他直接责任人员,给予警告,处一万元以下罚款:\n\n(一)因管理不善导致许可证遗失;(二)因管理不善导致许可证损坏。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3935,
+    "source_end": 4077,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十六条\n银行保险机构通过核查主动发现上述违法违规问题,及时改正,没有造成危害后果的,金融监管总局及其派出机构可依法不予处罚;及时采取措\n施消除或减轻违法违规行为危害后果的,金融监管总局及其派出机构依法从轻或减轻处罚。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 102,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条\n银行保险机构通过核查主动发现上述违法违规问题,及时改正,没有造成危害后果的,金融监管总局及其派出机构可依法不予处罚;及时采取措\n施消除或减轻违法违规行为危害后果的,金融监管总局及其派出机构依法从轻或减轻处罚。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十七条 银行保险机构在新领、换领许可证后,应按规定向市场监督管理部门办理登记,领取、换领营业执照。发现未按规定办理的,金融监管总局及其\n派出机构移送市场监督管理部门处理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 78,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 银行保险机构在新领、换领许可证后,应按规定向市场监督管理部门办理登记,领取、换领营业执照。发现未按规定办理的,金融监管总局及其\n派出机构移送市场监督管理部门处理。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 93,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十八条 银行保险机构许可证由金融监管总局统一印制和管理。颁发时加盖发证机关的单位印章方可生效。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 46,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 银行保险机构许可证由金融监管总局统一印制和管理。颁发时加盖发证机关的单位印章方可生效。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 13.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4686,
+    "source_end": 4785,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二十九条 金融监管总局及其派出机构应按照行政审批与许可证管理适当分离的原则,对许可证进行专门管理。许可证保管、制作、用印等职能应相互\n分离、相互制约,同时建立许可证颁发、收缴、销毁登记等制度。\n对于许可证颁发管理过程中产生的废证、收回的旧证、依法缴回和吊销的许可证,应加盖“作废”章,作为重要凭证专门收档,定期销毁。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 139,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 金融监管总局及其派出机构应按照行政审批与许可证管理适当分离的原则,对许可证进行专门管理。许可证保管、制作、用印等职能应相互\n分离、相互制约,同时建立许可证颁发、收缴、销毁登记等制度。\n对于许可证颁发管理过程中产生的废证、收回的旧证、依法缴回和吊销的许可证,应加盖“作废”章,作为重要凭证专门收档,定期销毁。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "金融监管",
+          "金融 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4327,
+    "source_end": 4486,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第三十条 金融监管总局根据电子证照相关法律法规、国家标准和全国一体化在线政务服务平台标准,制定银行保险机构许可证电子证照标准,推进银行保\n险机构许可证电子化。\n银行保险机构许可证电子证的签发、使用、管理等,按国家和金融监管总局有关规定执行。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 金融监管总局根据电子证照相关法律法规、国家标准和全国一体化在线政务服务平台标准,制定银行保险机构许可证电子证照标准,推进银行保\n险机构许可证电子化。\n银行保险机构许可证电子证的签发、使用、管理等,按国家和金融监管总局有关规定执行。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 19.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4487,
+    "source_end": 4607,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第三十一条 本办法规定的有关期限,均以工作日计算。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 22,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 本办法规定的有关期限,均以工作日计算。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 27,
+    "source_end": 247,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_2_2026_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_2_2026",
+    "law_name": "银行保险机构许可证管理办法",
+    "law_name_original": "银行保险机构许可证管理办法",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第三十二条\n本办法由金融监管总局负责解释,自2026年6月1日起施行。办法施行前已颁发的保险许可证在2028年6月1日前继续有效,相关机构应在该截\n止日前向发证机关申请换领金融许可证,并缴回原保险许可证。《银行保险机构许可证管理办法》(中国银行保险监督管理委员会令2021年第3号)和《国家金\n融监督管理总局办公厅关于加强银行保险机构许可证管理的通知》(金办便函〔2023〕515号)同时废止。\n附:1.国家金融监督管理总局发布《银行保险机构许可证管理办法》\n2.国家金融监督管理总局有关司局负责人就《银行保险机构许可证管理办法》答记者问\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248444&itemId=915&generaltype=0\nhttps://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248445&itemId=915&generaltype=0",
+    "text_original_language": "zh-en",
+    "word_count_zh": 224,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条\n本办法由金融监管总局负责解释,自2026年6月1日起施行。办法施行前已颁发的保险许可证在2028年6月1日前继续有效,相关机构应在该截\n止日前向发证机关申请换领金融许可证,并缴回原保险许可证。《银行保险机构许可证管理办法》(中国银行保险监督管理委员会令2021年第3号)和《国家金\n融监督管理总局办公厅关于加强银行保险机构许可证管理的通知》(金办便函〔2023〕515号)同时废止。\n附:1.国家金融监督管理总局发布《银行保险机构许可证管理办法》\nhttps://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248444&itemId=915&generaltype=0\n2.国家金融监督管理总局有关司局负责人就《银行保险机构许可证管理办法》答记者问\nhttps://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248445&itemId=915&generaltype=0\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 28.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融监管",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2026-06-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1248393&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_047.txt",
+    "sample_id": "CN_047",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_047",
+    "raw_sha256": "8a2a79ae01c9f8e0d599fc81861328a8b8f98f9fd970efb3fb964d433b79cbe5",
+    "extracted_text_sha256": "b709678e2111d967c784b8dc21f86d39d3502b4c44928b1289d2980ef8c123a0",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4634,
+    "source_end": 5099,
+    "language_original": [
+      "zh",
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:24Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

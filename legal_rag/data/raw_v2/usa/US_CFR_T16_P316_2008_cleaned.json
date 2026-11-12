@@ -1,0 +1,385 @@
+[
+  {
+    "doc_id": "US_CFR_T16_P316_2008_ART_316_001",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T16_P316_2008",
+    "law_name": "Can-SPAM Rule",
+    "law_name_original": "Can-SPAM Rule",
+    "law_type": "CFR",
+    "article_number": "316.1",
+    "article_number_normalized": "316_001",
+    "article_title": "Scope.",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This part implements the Controlling the Assault of Non-Solicited Pornography and Marketing Act of 2003 (“CAN-SPAM Act”),\n15 U.S.C. 7701-7713",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "regulatory_scope",
+      "spam_control"
+    ],
+    "topics_details": [
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 9.0,
+        "matched_keywords": [
+          "implements",
+          "implements (weak)"
+        ]
+      },
+      {
+        "id": "spam_control",
+        "label_zh": "垃圾信息控制",
+        "label_en": "Spam Control",
+        "label_pt": "Controlo de Spam",
+        "score": 6.75,
+        "matched_keywords": [
+          "spam"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2008-05-21",
+    "effective_date": "2026-05-14",
+    "publication_date": "2008-05-21",
+    "last_amended_date": "2026-05-14",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-316",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T16_P316_16_CFR_Part_316_--_Can-SPAM_Rule.txt",
+    "source_start": 11,
+    "source_end": 23,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:22Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T16_P316_2008_ART_316_002",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T16_P316_2008",
+    "law_name": "Can-SPAM Rule",
+    "law_name_original": "Can-SPAM Rule",
+    "law_type": "CFR",
+    "article_number": "316.2",
+    "article_number_normalized": "316_002",
+    "article_title": "Definitions.",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The definition of the term “affirmative consent” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(1)\n“Character” means an element of the American Standard Code for Information Interchange (“ASCII”) character set.\nThe definition of the term “commercial electronic mail message” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(2)\nThe definition of the term “electronic mail address” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(5)\nThe definition of the term “electronic mail message” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(6)\nThe definition of the term “initiate” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(9)\nThe definition of the term “Internet” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(10)\n“Person” means any individual, group, unincorporated association, limited or general partnership, corporation, or other business entity.\nThe definition of the term “procure” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(12)\nThe definition of the term “protected computer” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(13)\nThe definition of the term “recipient” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(14)\nThe definition of the term “routine conveyance” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(15)\nThe definition of the term “sender” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(16)\nprovided that\n, when more than one person's products, services, or Internet website are advertised or promoted in a single electronic mail message, each such person who is within the Act's definition will be deemed to be a “sender,” except that, only one person will be deemed to be the “sender” of that message if such person: (A) is within the Act's definition of “sender”; (B) is identified in the “from” line as the sole sender of the message; and (C) is in compliance with\n15 U.S.C. 7704(a)(1)\n15 U.S.C. 7704(a)(2)\n15 U.S.C. 7704(a)(3)(A)(i)\n15 U.S.C. 7704(a)(5)(A)\n, and\n16 CFR 316.4\nThe definition of the term “sexually oriented material” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7704(d)(4)\nThe definition of the term “transactional or relationship messages” is the same as the definition of that term in the CAN-SPAM Act,\n15 U.S.C. 7702(17)\n“Valid physical postal address” means the sender's current street address, a Post Office box the sender has accurately registered with the United States Postal Service, or a private mailbox the sender has accurately registered with a commercial mail receiving agency that is established pursuant to United States Postal Service regulations.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "legal_definitions",
+      "data_protection",
+      "regulatory_scope",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 86.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "definition",
+          "definition (weak)",
+          "term (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "consent"
+        ]
+      },
+      {
+        "id": "regulatory_scope",
+        "label_zh": "法规适用范围",
+        "label_en": "Regulatory Scope",
+        "label_pt": "Âmbito Regulatório",
+        "score": 4.5,
+        "matched_keywords": [
+          "pursuant to"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 3.0,
+        "matched_keywords": [
+          "agency (weak)",
+          "compliance (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2008-05-21",
+    "effective_date": "2026-05-14",
+    "publication_date": "2008-05-21",
+    "last_amended_date": "2026-05-14",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-316",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T16_P316_16_CFR_Part_316_--_Can-SPAM_Rule.txt",
+    "source_start": 168,
+    "source_end": 186,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:22Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T16_P316_2008_ART_316_003",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T16_P316_2008",
+    "law_name": "Can-SPAM Rule",
+    "law_name_original": "Can-SPAM Rule",
+    "law_type": "CFR",
+    "article_number": "316.3",
+    "article_number_normalized": "316_003",
+    "article_title": "Primary purpose.",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In applying the term “commercial electronic mail message” defined in the CAN-SPAM Act,\n15 U.S.C. 7702(2)\n, the “primary purpose” of an electronic mail message shall be deemed to be commercial based on the criteria in\nparagraphs (a)(1)\nthrough\n(3)\nand\n(b)\nof this section:\nIf an electronic mail message consists exclusively of the commercial advertisement or promotion of a commercial product or service, then the “primary purpose” of the message shall be deemed to be commercial.\nIf an electronic mail message contains both the commercial advertisement or promotion of a commercial product or service as well as transactional or relationship content as set forth in\nparagraph (c)\nof this section, then the “primary purpose” of the message shall be deemed to be commercial if:\nA recipient reasonably interpreting the subject line of the electronic mail message would likely conclude that the message contains the commercial advertisement or promotion of a commercial product or service; or\nii\nThe electronic mail message's transactional or relationship content as set forth in\nparagraph (c)\nof this section does\nnot\nappear, in whole or in substantial part, at the beginning of the body of the message.\nIf an electronic mail message contains both the commercial advertisement or promotion of a commercial product or service as well as other content that is not transactional or relationship content as set forth in\nparagraph (c)\nof this section, then the “primary purpose” of the message shall be deemed to be commercial if:\nA recipient reasonably interpreting the subject line of the electronic mail message would likely conclude that the message contains the commercial advertisement or promotion of a commercial product or service; or\nii\nA recipient reasonably interpreting the body of the message would likely conclude that the primary purpose of the message is the commercial advertisement or promotion of a commercial product or service. Factors illustrative of those relevant to this interpretation include the placement of content that is the commercial advertisement or promotion of a commercial product or service, in whole or in substantial part, at the beginning of the body of the message; the proportion of the message dedicated to such content; and how color, graphics, type size, and style are used to highlight commercial content.\nIn applying the term “transactional or relationship message” defined in the CAN-SPAM Act,\n15 U.S.C. 7702(17)\n, the “primary purpose” of an electronic mail message shall be deemed to be transactional or relationship if the electronic mail message consists exclusively of transactional or relationship content as set forth in\nparagraph (c)\nof this section.\nTransactional or relationship content of email messages under the CAN-SPAM Act is content:\nTo facilitate, complete, or confirm a commercial transaction that the recipient has previously agreed to enter into with the sender;\nTo provide warranty information, product recall information, or safety or security information with respect to a commercial product or service used or purchased by the recipient;\nWith respect to a subscription, membership, account, loan, or comparable ongoing commercial relationship involving the ongoing purchase or use by the recipient of products or services offered by the sender, to provide —\nNotification concerning a change in the terms or features;\nii\nNotification of a change in the recipient's standing or status; or\niii\nAt regular periodic intervals, account balance information or other type of account statement;\nTo provide information directly related to an employment relationship or related benefit plan in which the recipient is currently involved, participating, or enrolled; or\nTo deliver goods or services, including product updates or upgrades, that the recipient is entitled to receive under the terms of a transaction that the recipient has previously agreed to enter into with the sender.\nFootnotes -",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "spam_control",
+      "administrative_procedures",
+      "legal_definitions",
+      "government_procurement"
+    ],
+    "topics_details": [
+      {
+        "id": "spam_control",
+        "label_zh": "垃圾信息控制",
+        "label_en": "Spam Control",
+        "label_pt": "Controlo de Spam",
+        "score": 11.25,
+        "matched_keywords": [
+          "spam"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 9.0,
+        "matched_keywords": [
+          "membership",
+          "membership (weak)"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 7.5,
+        "matched_keywords": [
+          "defined (weak)",
+          "term (weak)"
+        ]
+      },
+      {
+        "id": "government_procurement",
+        "label_zh": "政府采购",
+        "label_en": "Government Procurement",
+        "label_pt": "Contratação Pública",
+        "score": 6.75,
+        "matched_keywords": [
+          "warranty"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2008-05-21",
+    "effective_date": "2026-05-14",
+    "publication_date": "2008-05-21",
+    "last_amended_date": "2026-05-14",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-316",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T16_P316_16_CFR_Part_316_--_Can-SPAM_Rule.txt",
+    "source_start": 3072,
+    "source_end": 3094,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:22Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T16_P316_2008_ART_316_005",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T16_P316_2008",
+    "law_name": "Can-SPAM Rule",
+    "law_name_original": "Can-SPAM Rule",
+    "law_type": "CFR",
+    "article_number": "316.5",
+    "article_number_normalized": "316_005",
+    "article_title": "Prohibition on charging a fee or imposing other requirements on recipients who wish to opt out.",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Neither a sender nor any person acting on behalf of a sender may require that any recipient pay any fee, provide any information other than the recipient's electronic mail address and opt-out preferences, or take any other steps except sending a reply electronic mail message or visiting a single Internet Web page, in order to:\nUse a return electronic mail address or other Internet-based mechanism, required by\n15 U.S.C. 7704(a)(3)\n, to submit a request not to receive future commercial electronic mail messages from a sender; or\nHave such a request honored as required by\n15 U.S.C. 7704(a)(3)(B)\nand\n(a)(4)",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "compensation_benefits",
+      "consumer_protection"
+    ],
+    "topics_details": [
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 6.0,
+        "matched_keywords": [
+          "pay",
+          "pay (weak)"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 4.5,
+        "matched_keywords": [
+          "return"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2008-05-21",
+    "effective_date": "2026-05-14",
+    "publication_date": "2008-05-21",
+    "last_amended_date": "2026-05-14",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-316",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T16_P316_16_CFR_Part_316_--_Can-SPAM_Rule.txt",
+    "source_start": 9693,
+    "source_end": 9794,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:22Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "US_CFR_T16_P316_2008_ART_316_006",
+    "jurisdiction": "美国",
+    "law_id": "US_CFR_T16_P316_2008",
+    "law_name": "Can-SPAM Rule",
+    "law_name_original": "Can-SPAM Rule",
+    "law_type": "CFR",
+    "article_number": "316.6",
+    "article_number_normalized": "316_006",
+    "article_title": "Severability.",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The provisions of this Part are separate and severable from one another. If any provision is stayed or determined to be invalid, it is the Commission's intention that the remaining provisions shall continue in effect.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "topics": [
+      "federalism_legal"
+    ],
+    "topics_details": [
+      {
+        "id": "federalism_legal",
+        "label_zh": "联邦与州法律关系",
+        "label_en": "Federalism & Legal Relations",
+        "label_pt": "Federalismo e Relações Legais",
+        "score": 6.5,
+        "matched_keywords": [
+          "severability (title, +5)",
+          "invalid (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.0",
+    "definitions": null,
+    "passing_date": "2008-05-21",
+    "effective_date": "2026-05-14",
+    "publication_date": "2008-05-21",
+    "last_amended_date": "2026-05-14",
+    "ingest_date": "2026-06-24",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-316",
+    "source_type": "ecfr",
+    "source_file": "US_ECFR_T16_P316_16_CFR_Part_316_--_Can-SPAM_Rule.txt",
+    "source_start": 10407,
+    "source_end": 10426,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-06-24T03:40:22Z",
+    "cleaned_by": "clean_script_v2",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

@@ -1,0 +1,4334 @@
+[
+  {
+    "doc_id": "CN_DOC_5_2021_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第一条 为健全银行保险机构公司治理,规范董事监事履职行为,促进银行业保险业稳健可持续发展,根据《中华人民共和国公司法》《中华人民共和国商业银行\n法》《中华人民共和国银行业监督管理法》《中华人民共和国保险法》等法律法规,制定本办法。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 100,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为健全银行保险机构公司治理,规范董事监事履职行为,促进银行业保险业稳健可持续发展,根据《中华人民共和国公司法》《中华人民共和国商业银行\n法》《中华人民共和国银行业监督管理法》《中华人民共和国保险法》等法律法规,制定本办法。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "environmental_law"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 16.5,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "environmental_law",
+        "label_zh": "环境法",
+        "label_en": "Environmental Law",
+        "label_pt": "Direito Ambiental",
+        "score": 4.5,
+        "matched_keywords": [
+          "可持续发展"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第二条 本办法所称银行保险机构,是指在中华人民共和国境内依法设立的商业银行、保险公司。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 39,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 本办法所称银行保险机构,是指在中华人民共和国境内依法设立的商业银行、保险公司。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第三条 本办法所称董事监事履职评价是指银行保险机构依照法律法规和监管规定,对本机构董事和监事的履职情况开展评价的行为。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 56,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 本办法所称董事监事履职评价是指银行保险机构依照法律法规和监管规定,对本机构董事和监事的履职情况开展评价的行为。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7855,
+    "source_end": 7890,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第四条 银行保险机构监事会对本机构董事监事履职评价工作承担最终责任。\n董事会、高级管理层应当支持和配合董事监事履职评价相关工作,对自身提供材料的真实性、准确性、完整性和及时性负责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 82,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 银行保险机构监事会对本机构董事监事履职评价工作承担最终责任。\n董事会、高级管理层应当支持和配合董事监事履职评价相关工作,对自身提供材料的真实性、准确性、完整性和及时性负责。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第五条\n中国银行保险监督管理委员会(以下简称中国银保监会)及其派出机构依法对银行保险机构董事监事履职评价工作进行监督管理,并将董事监事履职评\n价情况纳入公司治理监管评估。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 79,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条\n中国银行保险监督管理委员会(以下简称中国银保监会)及其派出机构依法对银行保险机构董事监事履职评价工作进行监督管理,并将董事监事履职评\n价情况纳入公司治理监管评估。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 9.0,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 28,
+    "source_end": 289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "第一章",
+    "chapter_title": "总 则",
+    "text_zh": "第六条 董事监事履职评价应当遵循依法合规、客观公正、标准统一、科学有效、问责严格的原则。\n第二章 评价内容\n第一节 基本职责",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 52,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 董事监事履职评价应当遵循依法合规、客观公正、标准统一、科学有效、问责严格的原则。\n第二章 评价内容\n第一节 基本职责"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 686,
+    "source_end": 748,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第七条 董事监事应当充分了解自身的权利、义务和责任,严格按照法律法规、监管规定及公司章程要求,忠实、勤勉地履行其诚信受托义务及作出的承诺,\n服务于银行保险机构和全体股东的最佳利益,维护利益相关者的合法权益。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 93,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 董事监事应当充分了解自身的权利、义务和责任,严格按照法律法规、监管规定及公司章程要求,忠实、勤勉地履行其诚信受托义务及作出的承诺,\n服务于银行保险机构和全体股东的最佳利益,维护利益相关者的合法权益。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司",
+          "股东",
+          "公司章程",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 11,
+    "source_end": 289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第八条 董事监事应当具备良好的品行、声誉和守法合规记录,遵守高标准的职业道德准则,具备与所任职务匹配的知识、经验、能力和精力,保持履职所需\n要的独立性、个人及家庭财务的稳健性。\n董事监事不得在履职过程中接受不正当利益,不得利用职务、地位谋取私利或侵占银行保险机构财产,不得为股东利益损害银行保险机构利益,不得损害利益相\n关者合法权益。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 150,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 董事监事应当具备良好的品行、声誉和守法合规记录,遵守高标准的职业道德准则,具备与所任职务匹配的知识、经验、能力和精力,保持履职所需\n要的独立性、个人及家庭财务的稳健性。\n董事监事不得在履职过程中接受不正当利益,不得利用职务、地位谋取私利或侵占银行保险机构财产,不得为股东利益损害银行保险机构利益,不得损害利益相\n关者合法权益。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "股东",
+          "董事 (weak)",
+          "股东 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 14,
+    "source_end": 289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第九条 董事监事任职前应当书面签署尽职承诺,保证严格保守银行保险机构秘密,有足够的时间和精力履行职责。董事监事应当恪守承诺。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 57,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 董事监事任职前应当书面签署尽职承诺,保证严格保守银行保险机构秘密,有足够的时间和精力履行职责。董事监事应当恪守承诺。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 19,
+    "source_end": 289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第十条 董事监事应当如实告知银行保险机构自身本职、兼职情况,确保任职情况符合监管要求,并且与银行保险机构不存在利益冲突。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 55,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 董事监事应当如实告知银行保险机构自身本职、兼职情况,确保任职情况符合监管要求,并且与银行保险机构不存在利益冲突。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8931,
+    "source_end": 9041,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第十一条 董事监事应当按照相关规定,及时向董事会、监事会报告关联关系、一致行动关系及变动情况。董事监事应当严格遵守关联交易和履职回避相关规\n定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 65,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 董事监事应当按照相关规定,及时向董事会、监事会报告关联关系、一致行动关系及变动情况。董事监事应当严格遵守关联交易和履职回避相关规\n定。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1145,
+    "source_end": 1217,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第十二条 董事监事在履行职责时,特别是在决策可能对不同股东造成不同影响的事项时,应当坚持公平原则。董事监事发现股东、其他单位、个人对银行保险\n机构进行不当干预或限制的,应当主动向董事会、监事会报告或向监管部门反映。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 97,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 董事监事在履行职责时,特别是在决策可能对不同股东造成不同影响的事项时,应当坚持公平原则。董事监事发现股东、其他单位、个人对银行保险\n机构进行不当干预或限制的,应当主动向董事会、监事会报告或向监管部门反映。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 10.5,
+        "matched_keywords": [
+          "董事会",
+          "股东",
+          "董事 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1218,
+    "source_end": 1325,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第十三条 董事监事应当持续了解银行保险机构公司治理、战略管理、经营投资、风险管理、内控合规、财务会计等情况,依法合规参会议事、提出意见\n建议和行使表决权,对职责范围内的事项做出独立、专业、客观的判断,提升董事会决策和监事会监督质效,推动和监督股东(大)会、董事会、监事会决议落实\n到位。\n董事监事应当主动关注监管部门、市场中介机构、媒体和社会公众对银行保险机构的评价,持续跟进监管部门发现问题的整改问责情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 179,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 董事监事应当持续了解银行保险机构公司治理、战略管理、经营投资、风险管理、内控合规、财务会计等情况,依法合规参会议事、提出意见\n建议和行使表决权,对职责范围内的事项做出独立、专业、客观的判断,提升董事会决策和监事会监督质效,推动和监督股东(大)会、董事会、监事会决议落实\n到位。\n董事监事应当主动关注监管部门、市场中介机构、媒体和社会公众对银行保险机构的评价,持续跟进监管部门发现问题的整改问责情况。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 19.5,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "董事会",
+          "股东",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "会议"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9076,
+    "source_end": 9330,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第十四条 独立董事、外部监事每年在银行保险机构工作的时间不得少于15个工作日。\n董事会风险管理委员会、审计委员会、关联交易控制委员会主任委员每年在银行保险机构工作的时间不得少于20个工作日。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 84,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 独立董事、外部监事每年在银行保险机构工作的时间不得少于15个工作日。\n董事会风险管理委员会、审计委员会、关联交易控制委员会主任委员每年在银行保险机构工作的时间不得少于20个工作日。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "administrative_procedures",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 7.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1531,
+    "source_end": 1626,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第十五条 董事监事每年应当亲自出席三分之二以上的董事会、监事会现场会议。因故不能出席的,应当书面委托其他董事监事代为出席,委托书中应当载\n明董事监事本人对议案的个人意见和表决意向;独立董事不得委托非独立董事代为出席。\n前款所称现场会议,是指通过现场、视频、电话等能够保证参会人员即时交流讨论的方式召开的会议。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 141,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 董事监事每年应当亲自出席三分之二以上的董事会、监事会现场会议。因故不能出席的,应当书面委托其他董事监事代为出席,委托书中应当载\n明董事监事本人对议案的个人意见和表决意向;独立董事不得委托非独立董事代为出席。\n前款所称现场会议,是指通过现场、视频、电话等能够保证参会人员即时交流讨论的方式召开的会议。"
+      }
+    ],
+    "topics": [
+      "administrative_procedures",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 7.5,
+        "matched_keywords": [
+          "会议"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1563,
+    "source_end": 1627,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第十六条 董事监事任期届满未及时改选、董事在任期内辞职导致董事会成员低于法定人数或者公司章程规定人数的三分之二、监事在任期内辞职导致\n监事会成员低于法定人数的,在改选出的董事监事就任前,原董事监事仍应当依照法律法规、监管规定及公司章程的规定,履行董事监事职责。独立董事在任期\n内辞职导致董事会中独立董事人数占比少于三分之一的,在新的独立董事就任前,该独立董事应当继续履职,因丧失独立性而辞职和被罢免的除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 189,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 董事监事任期届满未及时改选、董事在任期内辞职导致董事会成员低于法定人数或者公司章程规定人数的三分之二、监事在任期内辞职导致\n监事会成员低于法定人数的,在改选出的董事监事就任前,原董事监事仍应当依照法律法规、监管规定及公司章程的规定,履行董事监事职责。独立董事在任期\n内辞职导致董事会中独立董事人数占比少于三分之一的,在新的独立董事就任前,该独立董事应当继续履职,因丧失独立性而辞职和被罢免的除外。"
+      }
+    ],
+    "topics": [
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 18.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司章程",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1782,
+    "source_end": 1985,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第十七条 董事监事应当不断提升履职所必需的专业知识和基本素质,了解掌握与银行保险机构经营管理相关的法律法规和监管规定,积极参加监管部门、\n行业协会和银行保险机构等组织的培训,不断提升履职能力和水平。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 92,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 董事监事应当不断提升履职所必需的专业知识和基本素质,了解掌握与银行保险机构经营管理相关的法律法规和监管规定,积极参加监管部门、\n行业协会和银行保险机构等组织的培训,不断提升履职能力和水平。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 12,
+    "source_end": 289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第十八条 董事会、监事会专门委员会成员应当持续关注专门委员会职责范围内的相关事项,及时提出专业意见,提请专门委员会关注或审议。担任专门委员会\n主任委员的董事监事,应当及时组织召开专门委员会会议并形成集体意见提交董事会、监事会。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 104,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 董事会、监事会专门委员会成员应当持续关注专门委员会职责范围内的相关事项,及时提出专业意见,提请专门委员会关注或审议。担任专门委员会\n主任委员的董事监事,应当及时组织召开专门委员会会议并形成集体意见提交董事会、监事会。"
+      }
+    ],
+    "topics": [
+      "administrative_procedures",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 15.0,
+        "matched_keywords": [
+          "委员会",
+          "会议"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 6.0,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2086,
+    "source_end": 2199,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第十九条 国有银行保险机构应当积极推动党的领导与公司治理有机融合。担任党委成员的董事监事,应当在决策和监督过程中严格落实党组织决定,促进党委\n会与董事会、监事会之间的信息沟通,确保党组织的领导核心作用得到发挥。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 97,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 国有银行保险机构应当积极推动党的领导与公司治理有机融合。担任党委成员的董事监事,应当在决策和监督过程中严格落实党组织决定,促进党委\n会与董事会、监事会之间的信息沟通,确保党组织的领导核心作用得到发挥。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 18,
+    "source_end": 289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_020",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "20",
+    "article_number_normalized": "020",
+    "article_title": "",
+    "chunk_index": 19,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第二十条 董事长、监事会主席应当领导银行保险机构加强董事会、监事会建设,切实提升董事会、监事会运行质效。\n董事长、监事会主席除履行董事监事一般职责外,还应当按照法律法规、监管规定及公司章程履行其职务所要求的其他职责。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 97,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十条 董事长、监事会主席应当领导银行保险机构加强董事会、监事会建设,切实提升董事会、监事会运行质效。\n\n董事长、监事会主席除履行董事监事一般职责外,还应当按照法律法规、监管规定及公司章程履行其职务所要求的其他职责。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "公司章程",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 21,
+    "source_end": 289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_021",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "21",
+    "article_number_normalized": "021",
+    "article_title": "",
+    "chunk_index": 20,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第二十一条 执行董事应当充分发挥自身特点和优势,维护董事会在战略决策中的核心地位,支持配合监事会的监督工作,确保董事会职责范围内的事项及时提交\n董事会审议,落实高级管理层向董事会报告制度,支持董事会其他成员充分了解银行保险机构经营管理和风险信息,推动董事会决议的有效执行和及时反馈。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 132,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十一条 执行董事应当充分发挥自身特点和优势,维护董事会在战略决策中的核心地位,支持配合监事会的监督工作,确保董事会职责范围内的事项及时提交\n董事会审议,落实高级管理层向董事会报告制度,支持董事会其他成员充分了解银行保险机构经营管理和风险信息,推动董事会决议的有效执行和及时反馈。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 23,
+    "source_end": 289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_022",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "22",
+    "article_number_normalized": "022",
+    "article_title": "",
+    "chunk_index": 21,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第二十二条 独立董事、外部监事在决策和监督过程中,应不受主要股东、高级管理人员以及其他与银行保险机构存在利害关系的单位和个人的影响,注重\n维护中小股东与其他利益相关者合法权益。独立董事对股东(大)会、董事会讨论事项,尤其是重大关联交易、利润分配、董事的提名任免、高级管理人员的聘\n任和解聘以及薪酬等可能存在利益冲突的事项,发表客观、公正的独立意见。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 156,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十二条 独立董事、外部监事在决策和监督过程中,应不受主要股东、高级管理人员以及其他与银行保险机构存在利害关系的单位和个人的影响,注重\n维护中小股东与其他利益相关者合法权益。独立董事对股东(大)会、董事会讨论事项,尤其是重大关联交易、利润分配、董事的提名任免、高级管理人员的聘\n任和解聘以及薪酬等可能存在利益冲突的事项,发表客观、公正的独立意见。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "董事会",
+          "股东",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "薪酬"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2558,
+    "source_end": 2732,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_023",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "23",
+    "article_number_normalized": "023",
+    "article_title": "",
+    "chunk_index": 22,
+    "chapter": "第一节",
+    "chapter_title": "基本职责",
+    "text_zh": "第二十三条 职工董事、职工监事应当积极发挥自身对经营管理较为熟悉的优势,从银行保险机构的长远利益出发,推动董事会、监事会更好地开展工作。\n职工董事、职工监事应当就涉及职工切身利益的规章制度或者重大事项,听取职工的意见和建议,在董事会、监事会上真实、准确、全面地反映,切实维护职工\n合法权益。\n职工董事、职工监事应当定期向职工(代表)大会述职和报告工作,主动接受广大职工的监督,在董事会、监事会会议上,对职工(代表)大会作出决议的事项,\n应当按照职工(代表)大会的相关决议发表意见,并行使表决权。\n第二节 评价维度和重点",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 225,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十三条 职工董事、职工监事应当积极发挥自身对经营管理较为熟悉的优势,从银行保险机构的长远利益出发,推动董事会、监事会更好地开展工作。\n职工董事、职工监事应当就涉及职工切身利益的规章制度或者重大事项,听取职工的意见和建议,在董事会、监事会上真实、准确、全面地反映,切实维护职工\n合法权益。\n职工董事、职工监事应当定期向职工(代表)大会述职和报告工作,主动接受广大职工的监督,在董事会、监事会会议上,对职工(代表)大会作出决议的事项,\n应当按照职工(代表)大会的相关决议发表意见,并行使表决权。\n第二节 评价维度和重点"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 7.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "会议"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2733,
+    "source_end": 2992,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_024",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "24",
+    "article_number_normalized": "024",
+    "article_title": "",
+    "chunk_index": 23,
+    "chapter": "第二节",
+    "chapter_title": "评价维度和重点",
+    "text_zh": "第二十四条 董事监事履职评价应当至少包括履行忠实义务、履行勤勉义务、履职专业性、履职独立性与道德水准、履职合规性五个维度。\n履行忠实义务包括但不限于董事监事能够以银行保险机构的最佳利益行事,严格保守银行保险机构秘密,高度关注可能损害银行保险机构利益的事项,及时向董\n事会、监事会报告并推动问题纠正等。\n履行勤勉义务包括但不限于董事监事能够投入足够的时间和精力参与银行保险机构事务,及时了解经营管理和风险状况,按要求出席董事会及其专门委员会、\n监事会及其专门委员会会议,对提交董事会、监事会审议的事项认真研究并作出审慎判断等。\n履职专业性包括但不限于董事监事能够持续提升自身专业水平,立足董事会、监事会职责定位,结合自身的专业知识、从业经历和工作经验,研究提出科学合理\n的意见建议,推动董事会科学决策、监事会有效监督等。\n履职独立性与道德水准包括但不限于董事监事能够坚持高标准的职业道德准则,不受主要股东和内部人控制或干预,独立自主地履行职责,推动银行保险机构公\n平对待全体股东、维护利益相关者的合法权益、积极履行社会责任等。\n履职合规性包括但不限于董事监事能够遵守法律法规、监管规定及公司章程,持续规范自身履职行为,依法合规履行相应的职责,推动和监督银行保险机构守法\n合规经营等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 494,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十四条 董事监事履职评价应当至少包括履行忠实义务、履行勤勉义务、履职专业性、履职独立性与道德水准、履职合规性五个维度。\n履行忠实义务包括但不限于董事监事能够以银行保险机构的最佳利益行事,严格保守银行保险机构秘密,高度关注可能损害银行保险机构利益的事项,及时向董\n事会、监事会报告并推动问题纠正等。\n履行勤勉义务包括但不限于董事监事能够投入足够的时间和精力参与银行保险机构事务,及时了解经营管理和风险状况,按要求出席董事会及其专门委员会、\n监事会及其专门委员会会议,对提交董事会、监事会审议的事项认真研究并作出审慎判断等。\n履职专业性包括但不限于董事监事能够持续提升自身专业水平,立足董事会、监事会职责定位,结合自身的专业知识、从业经历和工作经验,研究提出科学合理\n的意见建议,推动董事会科学决策、监事会有效监督等。\n履职独立性与道德水准包括但不限于董事监事能够坚持高标准的职业道德准则,不受主要股东和内部人控制或干预,独立自主地履行职责,推动银行保险机构公\n平对待全体股东、维护利益相关者的合法权益、积极履行社会责任等。\n履职合规性包括但不限于董事监事能够遵守法律法规、监管规定及公司章程,持续规范自身履职行为,依法合规履行相应的职责,推动和监督银行保险机构守法\n合规经营等。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 24.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 24.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "股东",
+          "公司章程",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 10.5,
+        "matched_keywords": [
+          "委员会",
+          "会议"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2993,
+    "source_end": 3533,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_025",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "25",
+    "article_number_normalized": "025",
+    "article_title": "",
+    "chunk_index": 24,
+    "chapter": "第二节",
+    "chapter_title": "评价维度和重点",
+    "text_zh": "第二十五条 银行保险机构应结合董事类型特点及其在董事会专门委员会中的任职情况,从不同维度重点关注董事在下列事项中的工作表现:\n(一)制定并推动实施战略规划、年度经营计划;\n(二)制定和推动执行风险管理策略、风险偏好、风险限额和风险管理制度;\n(三)审查重大投融资和资产处置项目,特别是非计划内的投资、租赁、资产买卖、担保等重大事项;\n(四)推动加强资本管理和资本补充;(五)制订和推动执行利润分配方案;\n(六)推动股东(大)会决议和董事会决议的落实;\n(七)推动银行保险机构完善股权结构和内部治理架构,加强股权管理,提升公司治理的有效性;\n(八)提升内部控制、合规管理和内部审计的有效性,落实反洗钱、反恐怖融资相关要求;\n(九)提升董事提名和选举流程的规范性和透明度;\n(十)选任、监督和更换高级管理人员,加强与高级管理层的沟通;\n(十一)评估和完善董事会对高级管理层的授权原则、授权范围和管理机制;\n(十二)推动董事、高级管理人员薪酬与银行保险机构和股东长期利益保持一致,且符合监管要求;\n(十三)推动协调各治理主体运作,加强与股东及其他利益相关者的沟通,平衡各方利益;\n(十四)促进关联交易的合法合规性和关联交易管理的规范性;\n(十五)提升财务会计信息的真实性、准确性和完整性;\n(十六)提升信息披露的真实性、准确性、完整性和及时性;\n(十七)确保监管报送数据的及时性、真实性和完整性;\n(十八)推动完善消费者权益保护决策机制,规划和指导消费者权益保护工作;\n(十九)推动监管意见落实以及相关问题整改问责;\n(二十)关注和依责处理可能或已经造成重大风险和损失的事项,特别是对存款人、投保人、被保险人和受益人、中小股东合法权益产生重大影响的事项;\n(二十一)履行法律法规、监管规定及公司章程规定董事应当承担的其他重要职责。\n银行保险机构应当结合监管制度关于独立董事职责的特别规定,围绕独立董事应当重点关注和发表独立意见的事项,考察和评价其履职表现。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 704,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十五条 银行保险机构应结合董事类型特点及其在董事会专门委员会中的任职情况,从不同维度重点关注董事在下列事项中的工作表现:\n(一)制定并推动实施战略规划、年度经营计划;\n(二)制定和推动执行风险管理策略、风险偏好、风险限额和风险管理制度;\n(三)审查重大投融资和资产处置项目,特别是非计划内的投资、租赁、资产买卖、担保等重大事项;\n(四)推动加强资本管理和资本补充;(五)制订和推动执行利润分配方案;\n(六)推动股东(大)会决议和董事会决议的落实;\n(七)推动银行保险机构完善股权结构和内部治理架构,加强股权管理,提升公司治理的有效性;\n(八)提升内部控制、合规管理和内部审计的有效性,落实反洗钱、反恐怖融资相关要求;\n(九)提升董事提名和选举流程的规范性和透明度;\n(十)选任、监督和更换高级管理人员,加强与高级管理层的沟通;\n(十一)评估和完善董事会对高级管理层的授权原则、授权范围和管理机制;\n(十二)推动董事、高级管理人员薪酬与银行保险机构和股东长期利益保持一致,且符合监管要求;\n(十三)推动协调各治理主体运作,加强与股东及其他利益相关者的沟通,平衡各方利益;\n(十四)促进关联交易的合法合规性和关联交易管理的规范性;\n(十五)提升财务会计信息的真实性、准确性和完整性;\n(十六)提升信息披露的真实性、准确性、完整性和及时性;\n(十七)确保监管报送数据的及时性、真实性和完整性;\n(十八)推动完善消费者权益保护决策机制,规划和指导消费者权益保护工作;\n(十九)推动监管意见落实以及相关问题整改问责;\n(二十)关注和依责处理可能或已经造成重大风险和损失的事项,特别是对存款人、投保人、被保险人和受益人、中小股东合法权益产生重大影响的事项;\n(二十一)履行法律法规、监管规定及公司章程规定董事应当承担的其他重要职责。\n银行保险机构应当结合监管制度关于独立董事职责的特别规定,围绕独立董事应当重点关注和发表独立意见的事项,考察和评价其履职表现。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "consumer_protection",
+      "administrative_procedures",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 31.5,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "董事会",
+          "股东",
+          "公司章程",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 24.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "反洗钱",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 6.0,
+        "matched_keywords": [
+          "消费者权益",
+          "消费者 (weak)",
+          "交易 (weak)",
+          "权益 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "薪酬"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3534,
+    "source_end": 4359,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_026",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "26",
+    "article_number_normalized": "026",
+    "article_title": "",
+    "chunk_index": 25,
+    "chapter": "第二节",
+    "chapter_title": "评价维度和重点",
+    "text_zh": "第二十六条 银行保险机构应当结合监事类型特点及其在监事会专门委员会中的任职情况,从不同维度重点关注监事在下列事项中的工作表现:\n(一)对董事会及其成员的履职监督,包括但不限于董事会及其成员遵守法律法规、监管规定及银行保险机构内部制度,完善银行保险机构股权结构、组织架构,\n制定并推动实施发展战略,完善风险管理、消费者权益保护、内控合规、薪酬考核、内外部审计、信息披露等相关机制的情况,董事会各专门委员会有效运作\n情况,董事参加会议、发表意见、提出建议情况等。\n(二)对高级管理层及其成员的履职监督,包括但不限于高级管理层及其成员遵守法律法规、监管规定及银行保险机构内部制度,执行股东(大)会、董事会和监事\n会决议,落实发展战略和经营计划,加强风险管理、内控合规管理、消费者权益保护、案件防控、绩效考评管理等情况。\n(三)对发展战略和经营理念的科学性、有效性、合理性以及实施情况的监督与评估。\n(四)对财务状况的监督,包括但不限于重要财务决策和执行情况;利润分配方案的合规性、合理性;机构定期报告的真实性、准确性和完整性;外部审计工作管理\n情况。\n(五)对内控合规的监督,尤其是新业务、新产品的管理制度、操作流程、关键风险环节和相关信息系统等情况。\n(六)对全面风险管理架构及主要风险管控情况的监督。\n(七)对激励约束机制科学性、稳健性以及具体实施效果的监督。\n(八)对监管报送数据及时性、真实性和完整性的监督。\n(九)对落实监管意见以及问题整改问责情况的监督。\n(十)对落实股东(大)会决议、董事会决议、监事会决议情况的监督。\n(十一)关注和监督其他影响银行保险机构合法稳健经营和可持续发展的重点事项。\n(十二)履行法律法规、监管规定及公司章程规定监事应当承担的其他重要职责。\n第三章 评价制度、程序和方法",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 649,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十六条 银行保险机构应当结合监事类型特点及其在监事会专门委员会中的任职情况,从不同维度重点关注监事在下列事项中的工作表现:\n(一)对董事会及其成员的履职监督,包括但不限于董事会及其成员遵守法律法规、监管规定及银行保险机构内部制度,完善银行保险机构股权结构、组织架构,\n制定并推动实施发展战略,完善风险管理、消费者权益保护、内控合规、薪酬考核、内外部审计、信息披露等相关机制的情况,董事会各专门委员会有效运作\n情况,董事参加会议、发表意见、提出建议情况等。\n(二)对高级管理层及其成员的履职监督,包括但不限于高级管理层及其成员遵守法律法规、监管规定及银行保险机构内部制度,执行股东(大)会、董事会和监事\n会决议,落实发展战略和经营计划,加强风险管理、内控合规管理、消费者权益保护、案件防控、绩效考评管理等情况。\n\n(三)对发展战略和经营理念的科学性、有效性、合理性以及实施情况的监督与评估。\n(四)对财务状况的监督,包括但不限于重要财务决策和执行情况;利润分配方案的合规性、合理性;机构定期报告的真实性、准确性和完整性;外部审计工作管理\n情况。\n(五)对内控合规的监督,尤其是新业务、新产品的管理制度、操作流程、关键风险环节和相关信息系统等情况。\n(六)对全面风险管理架构及主要风险管控情况的监督。\n(七)对激励约束机制科学性、稳健性以及具体实施效果的监督。\n(八)对监管报送数据及时性、真实性和完整性的监督。\n(九)对落实监管意见以及问题整改问责情况的监督。\n(十)对落实股东(大)会决议、董事会决议、监事会决议情况的监督。\n(十一)关注和监督其他影响银行保险机构合法稳健经营和可持续发展的重点事项。\n(十二)履行法律法规、监管规定及公司章程规定监事应当承担的其他重要职责。\n第三章 评价制度、程序和方法"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "financial_services",
+      "administrative_procedures",
+      "consumer_protection",
+      "environmental_law",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 25.5,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "股东",
+          "公司章程",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 21.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 10.5,
+        "matched_keywords": [
+          "委员会",
+          "会议"
+        ]
+      },
+      {
+        "id": "consumer_protection",
+        "label_zh": "消费者保护",
+        "label_en": "Consumer Protection",
+        "label_pt": "Proteção do Consumidor",
+        "score": 6.0,
+        "matched_keywords": [
+          "消费者权益",
+          "消费者 (weak)",
+          "权益 (weak)"
+        ]
+      },
+      {
+        "id": "environmental_law",
+        "label_zh": "环境法",
+        "label_en": "Environmental Law",
+        "label_pt": "Direito Ambiental",
+        "score": 4.5,
+        "matched_keywords": [
+          "可持续发展",
+          "保护 (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "薪酬"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 4360,
+    "source_end": 5114,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_027",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "27",
+    "article_number_normalized": "027",
+    "article_title": "",
+    "chunk_index": 26,
+    "chapter": "第三章",
+    "chapter_title": "评价制度、程序和方法",
+    "text_zh": "第二十七条 银行保险机构应当建立健全董事监事履职评价制度,并向中国银保监会或其派出机构报告。银行保险机构在建立健全董事监事履职评价制度时,应\n根据自身具体情况对董事监事的评价内容、评价原则、实施主体、资源保障、评价方式、评价流程、评价等级、结果应用、工作责任等重要内容作出明确规\n定。履职评价制度应当考虑到不同类型董事监事的特点,作出差异化的规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 157,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十七条 银行保险机构应当建立健全董事监事履职评价制度,并向中国银保监会或其派出机构报告。银行保险机构在建立健全董事监事履职评价制度时,应\n根据自身具体情况对董事监事的评价内容、评价原则、实施主体、资源保障、评价方式、评价流程、评价等级、结果应用、工作责任等重要内容作出明确规\n定。履职评价制度应当考虑到不同类型董事监事的特点,作出差异化的规定。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5115,
+    "source_end": 5289,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_028",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "28",
+    "article_number_normalized": "028",
+    "article_title": "",
+    "chunk_index": 27,
+    "chapter": "第三章",
+    "chapter_title": "评价制度、程序和方法",
+    "text_zh": "第二十八条 银行保险机构应当建立健全董事监事履职档案,真实、准确、完整地记录董事监事日常履职情况以及履职评价工作开展情况。董事会负责建立和\n完善董事履职档案,监事会负责建立和完善监事履职档案以及董事监事履职评价档案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 100,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十八条 银行保险机构应当建立健全董事监事履职档案,真实、准确、完整地记录董事监事日常履职情况以及履职评价工作开展情况。董事会负责建立和\n完善董事履职档案,监事会负责建立和完善监事履职档案以及董事监事履职评价档案。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5290,
+    "source_end": 5398,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_029",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "29",
+    "article_number_normalized": "029",
+    "article_title": "",
+    "chunk_index": 28,
+    "chapter": "第三章",
+    "chapter_title": "评价制度、程序和方法",
+    "text_zh": "第二十九条 银行保险机构应当每年对董事监事的履职情况进行评价。对于评价年度内职位发生变动但任职时间超过半年的董事监事,应当根据其在任期间的\n履职表现开展评价。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 74,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二十九条 银行保险机构应当每年对董事监事的履职情况进行评价。对于评价年度内职位发生变动但任职时间超过半年的董事监事,应当根据其在任期间的\n履职表现开展评价。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5399,
+    "source_end": 5478,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_030",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "30",
+    "article_number_normalized": "030",
+    "article_title": "",
+    "chunk_index": 29,
+    "chapter": "第三章",
+    "chapter_title": "评价制度、程序和方法",
+    "text_zh": "第三十条 银行保险机构应当优化董事监事特别是独立董事和外部监事的履职环境,保障董事监事履职所必需的信息和其他必要条件。\n董事监事认为履职所必需的信息无法得到基本保障,或独立履职受到威胁、阻挠和不当干预的,应当及时向监事会提交书面意见,监事会应当将相关意见作为确\n定董事监事履职评价结果的重要考虑因素,并将其纳入履职评价档案。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 151,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十条 银行保险机构应当优化董事监事特别是独立董事和外部监事的履职环境,保障董事监事履职所必需的信息和其他必要条件。\n董事监事认为履职所必需的信息无法得到基本保障,或独立履职受到威胁、阻挠和不当干预的,应当及时向监事会提交书面意见,监事会应当将相关意见作为确\n定董事监事履职评价结果的重要考虑因素,并将其纳入履职评价档案。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7855,
+    "source_end": 7890,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_031",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "31",
+    "article_number_normalized": "031",
+    "article_title": "",
+    "chunk_index": 30,
+    "chapter": "第三章",
+    "chapter_title": "评价制度、程序和方法",
+    "text_zh": "第三十一条 董事履职评价可以包括董事自评、董事互评、董事会评价、外部评价、监事会最终评价等环节。监事履职评价可以包括监事自评、监事互\n评、外部评价、监事会最终评价等环节。\n银行保险机构应当为董事监事履职评价工作提供充分保障,畅通监事会办公室、董事会办公室等办事机构间的沟通交流机制。\n鼓励银行保险机构结合自身情况,聘请外部专家或市场中介机构等独立第三方协助本机构开展董事监事履职评价。\n连续两年公司治理监管评估等级为D级\n以下的银行保险机构,应当聘请独立第三方协助开展董事监事履职评价工作。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 222,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十一条 董事履职评价可以包括董事自评、董事互评、董事会评价、外部评价、监事会最终评价等环节。监事履职评价可以包括监事自评、监事互\n评、外部评价、监事会最终评价等环节。\n银行保险机构应当为董事监事履职评价工作提供充分保障,畅通监事会办公室、董事会办公室等办事机构间的沟通交流机制。\n鼓励银行保险机构结合自身情况,聘请外部专家或市场中介机构等独立第三方协助本机构开展董事监事履职评价。连续两年公司治理监管评估等级为D级\n以下的银行保险机构,应当聘请独立第三方协助开展董事监事履职评价工作。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "public_administration"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "董事会",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      },
+      {
+        "id": "public_administration",
+        "label_zh": "行政管理",
+        "label_en": "Public Administration",
+        "label_pt": "Administração Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "机构间"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5642,
+    "source_end": 5886,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_032",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "32",
+    "article_number_normalized": "032",
+    "article_title": "",
+    "chunk_index": 31,
+    "chapter": "第三章",
+    "chapter_title": "评价制度、程序和方法",
+    "text_zh": "第三十二条 评价方法可以包括资料分析、行为观察、问卷调查、履职测评、座谈访谈等。资料分析指对董事监事履职记录、履职档案等进行分析,静态评判\n董事监事履职情况。行为观察指根据相关评判人对董事监事日常履职行为的观察进行评价。调查问卷和履职测评表根据各银行保险机构实际情况设计,问卷\n调查对象可相对广泛,董事监事可通过履职测评表对自身或其他董事监事履职表现评价打分。座谈访谈指通过与董事监事及相关人员直接交谈,对董事监事履\n职细节进行较为具体深入地了解。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 206,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十二条 评价方法可以包括资料分析、行为观察、问卷调查、履职测评、座谈访谈等。资料分析指对董事监事履职记录、履职档案等进行分析,静态评判\n董事监事履职情况。行为观察指根据相关评判人对董事监事日常履职行为的观察进行评价。调查问卷和履职测评表根据各银行保险机构实际情况设计,问卷\n调查对象可相对广泛,董事监事可通过履职测评表对自身或其他董事监事履职表现评价打分。座谈访谈指通过与董事监事及相关人员直接交谈,对董事监事履\n职细节进行较为具体深入地了解。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5887,
+    "source_end": 6111,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_033",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "33",
+    "article_number_normalized": "033",
+    "article_title": "",
+    "chunk_index": 32,
+    "chapter": "第三章",
+    "chapter_title": "评价制度、程序和方法",
+    "text_zh": "第三十三条 银行保险机构应当依据履职评价情况将董事监事年度履职表现划分为称职、基本称职和不称职三个级别。\n银行保险机构应当结合公司治理监管评估、商业银行监管评级、保险公司法人机构风险综合评级等情况,审慎确定相关董事监事的履职评价级别。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 109,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十三条 银行保险机构应当依据履职评价情况将董事监事年度履职表现划分为称职、基本称职和不称职三个级别。\n银行保险机构应当结合公司治理监管评估、商业银行监管评级、保险公司法人机构风险综合评级等情况,审慎确定相关董事监事的履职评价级别。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 15.0,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "法人",
+          "公司 (weak)",
+          "董事 (weak)",
+          "法人 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6112,
+    "source_end": 6229,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_034",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "34",
+    "article_number_normalized": "034",
+    "article_title": "",
+    "chunk_index": 33,
+    "chapter": "第三章",
+    "chapter_title": "评价制度、程序和方法",
+    "text_zh": "第三十四条 董事监事出现下列情形之一的,当年不得评为称职:\n(一)该年度内未能亲自出席三分之二以上的董事会、监事会现场会议的。\n(二)董事会审议通过违反法律法规或严重违反监管规定、公司章程的事项,董事投赞成票的;董事会、高级管理层决策事项违反法律法规,或严重违反监管规\n定、公司章程,监事知悉或应当知悉,但未进行质询或及时提请监事会关注并予以纠正的。\n(三)董事会违反公司章程、议事规则和决策程序审议重大事项,董事未提出反对意见的;董事会、高级管理层违反公司章程、议事规则和决策程序决定重大事\n项,或对股东(大)会、董事会、监事会决议落实不到位,监事知悉或应当知悉,但未进行质询或及时提请监事会关注并予以纠正的。\n(四)董事会运作低效,出现长期未换届、长期无法正常召开会议等公司治理问题,董事未能及时反映情况并推动纠正的;监事会运作低效,对董事会、高级管\n理层及其成员的履职监督严重弱化,监事未及时提出意见并推动有效整改的。\n(五)股权和关联交易管理严重违规,经营战略出现重大偏差,风险管理政策出现重大失误,内部控制体系存在明显漏洞,董事未及时提出意见或修正要求的;监\n事会未能按照要求有效履行在经营战略、风险管理、内部控制、财务会计、激励约束机制等方面的监督职责,监事未及时提出意见并推动有效整改的。\n(六)资本充足率、资产质量、偿付能力等主要监管指标未达到监管要求,董事监事未及时提出意见建议并依责推动有效整改的。\n(七)知悉或应当知悉符合履职回避情形,而未按规定执行的。\n(八)对监管发现并指出的重大违法违规问题,董事监事未依责推动有效整改的。\n(九)董事监事个人被监管部门行政处罚或受到纪律处分的。\n(十)中国银保监会认定的其他不当履职情形。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 635,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十四条 董事监事出现下列情形之一的,当年不得评为称职:\n(一)该年度内未能亲自出席三分之二以上的董事会、监事会现场会议的。\n(二)董事会审议通过违反法律法规或严重违反监管规定、公司章程的事项,董事投赞成票的;董事会、高级管理层决策事项违反法律法规,或严重违反监管规\n定、公司章程,监事知悉或应当知悉,但未进行质询或及时提请监事会关注并予以纠正的。\n(三)董事会违反公司章程、议事规则和决策程序审议重大事项,董事未提出反对意见的;董事会、高级管理层违反公司章程、议事规则和决策程序决定重大事\n项,或对股东(大)会、董事会、监事会决议落实不到位,监事知悉或应当知悉,但未进行质询或及时提请监事会关注并予以纠正的。\n(四)董事会运作低效,出现长期未换届、长期无法正常召开会议等公司治理问题,董事未能及时反映情况并推动纠正的;监事会运作低效,对董事会、高级管\n理层及其成员的履职监督严重弱化,监事未及时提出意见并推动有效整改的。\n(五)股权和关联交易管理严重违规,经营战略出现重大偏差,风险管理政策出现重大失误,内部控制体系存在明显漏洞,董事未及时提出意见或修正要求的;监\n事会未能按照要求有效履行在经营战略、风险管理、内部控制、财务会计、激励约束机制等方面的监督职责,监事未及时提出意见并推动有效整改的。\n(六)资本充足率、资产质量、偿付能力等主要监管指标未达到监管要求,董事监事未及时提出意见建议并依责推动有效整改的。\n(七)知悉或应当知悉符合履职回避情形,而未按规定执行的。\n(八)对监管发现并指出的重大违法违规问题,董事监事未依责推动有效整改的。\n(九)董事监事个人被监管部门行政处罚或受到纪律处分的。\n(十)中国银保监会认定的其他不当履职情形。"
+      }
+    ],
+    "topics": [
+      "corporate_governance",
+      "administrative_procedures",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 43.5,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "董事会",
+          "股东",
+          "公司章程",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 6.0,
+        "matched_keywords": [
+          "会议"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6230,
+    "source_end": 6955,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_035",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "35",
+    "article_number_normalized": "035",
+    "article_title": "",
+    "chunk_index": 34,
+    "chapter": "第三章",
+    "chapter_title": "评价制度、程序和方法",
+    "text_zh": "第三十五条 董事监事出现下列情形之一的,当年应当评为不称职:\n(一)泄露秘密,损害银行保险机构合法权益的;\n(二)在履职过程中接受不正当利益,或者利用董事监事地位谋取私利的;\n(三)参与或协助股东对银行保险机构进行不当干预,导致银行保险机构出现重大风险和损失的;\n(四)隐瞒重要事实、提供虚假材料或参与银行保险机构编造虚假材料的;\n(五)对银行保险机构及相关人员重大违法违规违纪问题隐匿不报的;\n(六)董事会、监事会决议违反法律法规、监管规定及公司章程,导致银行保险机构重大风险和严重损失,董事监事没有提出异议的;\n(七)对履职评价发现的严重问题拒不改正的;\n(八)中国银保监会认定的其他严重失职行为。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 258,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十五条 董事监事出现下列情形之一的,当年应当评为不称职:\n(一)泄露秘密,损害银行保险机构合法权益的;\n(二)在履职过程中接受不正当利益,或者利用董事监事地位谋取私利的;\n(三)参与或协助股东对银行保险机构进行不当干预,导致银行保险机构出现重大风险和损失的;\n\n(四)隐瞒重要事实、提供虚假材料或参与银行保险机构编造虚假材料的;\n(五)对银行保险机构及相关人员重大违法违规违纪问题隐匿不报的;\n(六)董事会、监事会决议违反法律法规、监管规定及公司章程,导致银行保险机构重大风险和严重损失,董事监事没有提出异议的;\n(七)对履职评价发现的严重问题拒不改正的;\n(八)中国银保监会认定的其他严重失职行为。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 24.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 18.0,
+        "matched_keywords": [
+          "公司",
+          "董事会",
+          "股东",
+          "公司章程",
+          "公司 (weak)",
+          "董事 (weak)",
+          "股东 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6956,
+    "source_end": 7258,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_036",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "36",
+    "article_number_normalized": "036",
+    "article_title": "",
+    "chunk_index": 35,
+    "chapter": "第三章",
+    "chapter_title": "评价制度、程序和方法",
+    "text_zh": "第三十六条 董事监事发现银行保险机构履职评价工作违反监管规定的,应当向监管部门反映情况。两名以上董事、监事对履职评价程序或结果存在异议并向\n银行保险机构提出书面意见的,银行保险机构应当在收到书面意见后5个工作日以内向监管部门报告并作出详细解释。\n第四章 评价应用",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 121,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十六条 董事监事发现银行保险机构履职评价工作违反监管规定的,应当向监管部门反映情况。两名以上董事、监事对履职评价程序或结果存在异议并向\n银行保险机构提出书面意见的,银行保险机构应当在收到书面意见后5个工作日以内向监管部门报告并作出详细解释。\n第四章 评价应用"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7259,
+    "source_end": 7390,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_037",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "37",
+    "article_number_normalized": "037",
+    "article_title": "",
+    "chunk_index": 36,
+    "chapter": "第四章",
+    "chapter_title": "评价应用",
+    "text_zh": "第三十七条\n银行保险机构应当把履职评价作为加强董事会、监事会建设的重要抓手,通过对评价结果的有效应用,引导董事监事改进履职行为,推动董事\n会、监事会规范自身运作。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 73,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十七条\n银行保险机构应当把履职评价作为加强董事会、监事会建设的重要抓手,通过对评价结果的有效应用,引导董事监事改进履职行为,推动董事\n会、监事会规范自身运作。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "董事会",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 9077,
+    "source_end": 9208,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_038",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "38",
+    "article_number_normalized": "038",
+    "article_title": "",
+    "chunk_index": 37,
+    "chapter": "第四章",
+    "chapter_title": "评价应用",
+    "text_zh": "第三十八条 银行保险机构监事会应当根据评价结果提出工作建议或处理意见,及时将董事监事评价结果和相关意见建议报告股东(大)会,及时将董事评价结果\n和相关意见建议反馈董事会,并以书面形式正式通知董事监事本人。\n对履职评价结果为“基本称职”的董事监事,董事会和监事会应当组织会谈,向董事监事本人提出限期改进要求。董事会和监事会应当为相关董事监事改进\n履职提供必要的帮助和支持。\n对被评为“不称职”的董事监事,银行保险机构董事会、监事会应向其问责。依据本办法相关条款被评为“不称职”的董事监事,可由其主动辞去职务,或由银\n行保险机构按照有关程序罢免并报告监管部门,同时相应扣减其作为董事监事的部分或全部薪酬。董事监事违法违规履职给银行保险机构造成损失的,银行保\n险机构应当追偿。董事监事涉嫌犯罪的,银行保险机构应当及时移送司法机关。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 328,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十八条 银行保险机构监事会应当根据评价结果提出工作建议或处理意见,及时将董事监事评价结果和相关意见建议报告股东(大)会,及时将董事评价结果\n和相关意见建议反馈董事会,并以书面形式正式通知董事监事本人。\n对履职评价结果为“基本称职”的董事监事,董事会和监事会应当组织会谈,向董事监事本人提出限期改进要求。董事会和监事会应当为相关董事监事改进\n履职提供必要的帮助和支持。\n对被评为“不称职”的董事监事,银行保险机构董事会、监事会应向其问责。依据本办法相关条款被评为“不称职”的董事监事,可由其主动辞去职务,或由银\n行保险机构按照有关程序罢免并报告监管部门,同时相应扣减其作为董事监事的部分或全部薪酬。董事监事违法违规履职给银行保险机构造成损失的,银行保\n险机构应当追偿。董事监事涉嫌犯罪的,银行保险机构应当及时移送司法机关。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "criminal_law",
+      "compensation_benefits"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 21.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 13.5,
+        "matched_keywords": [
+          "董事会",
+          "股东",
+          "董事 (weak)",
+          "股东 (weak)"
+        ]
+      },
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 4.5,
+        "matched_keywords": [
+          "犯罪",
+          "犯罪 (weak)"
+        ]
+      },
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 4.5,
+        "matched_keywords": [
+          "薪酬"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7473,
+    "source_end": 7835,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_039",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "39",
+    "article_number_normalized": "039",
+    "article_title": "",
+    "chunk_index": 38,
+    "chapter": "第四章",
+    "chapter_title": "评价应用",
+    "text_zh": "第三十九条 银行保险机构应当在每年4月30日前,将董事监事履职情况及评价结果报告中国银保监会或其派出机构。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 47,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三十九条 银行保险机构应当在每年4月30日前,将董事监事履职情况及评价结果报告中国银保监会或其派出机构。"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7836,
+    "source_end": 7889,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_040",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "40",
+    "article_number_normalized": "040",
+    "article_title": "",
+    "chunk_index": 39,
+    "chapter": "第四章",
+    "chapter_title": "评价应用",
+    "text_zh": "第四十条 鼓励银行保险机构公开披露董事监事履职评价结果,发挥外部约束作用,探索建立董事监事特别是独立董事和外部监事的声誉机制。\n第五章 监督管理",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 66,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十条 鼓励银行保险机构公开披露董事监事履职评价结果,发挥外部约束作用,探索建立董事监事特别是独立董事和外部监事的声誉机制。\n第五章 监督管理"
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7890,
+    "source_end": 7962,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_041",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "41",
+    "article_number_normalized": "041",
+    "article_title": "",
+    "chunk_index": 40,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第四十一条 中国银保监会及其派出机构应当对银行保险机构董事监事履职评价工作进行监督,并将其作为监事会履职情况的重要依据。\n银行保险机构董事监事履职评价制度、程序、方式、结果不符合监管规定的,中国银保监会及其派出机构应当责令其限期改正,并视情况追究银行保险机构及\n相关人员的责任。对在评价过程中弄虚作假、徇私舞弊,导致评价结果严重失真的,或利用履职评价打击报复的,监管部门应严肃查处。\n对在履职过程中违反法律法规和监管规定的董事监事,监管部门可依法采取监管谈话、责令限期改正、责令银行保险机构调整相关人员等监督管理措施,\n并视情况采取责令纪律处分、行政处罚等方式追究其相应责任。存在本办法第三十五条情形的,监管部门应从严处理。\n监管部门可以根据需要对银行保险机构董事监事履职情况开展监管评价。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 317,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十一条 中国银保监会及其派出机构应当对银行保险机构董事监事履职评价工作进行监督,并将其作为监事会履职情况的重要依据。\n银行保险机构董事监事履职评价制度、程序、方式、结果不符合监管规定的,中国银保监会及其派出机构应当责令其限期改正,并视情况追究银行保险机构及\n相关人员的责任。对在评价过程中弄虚作假、徇私舞弊,导致评价结果严重失真的,或利用履职评价打击报复的,监管部门应严肃查处。\n对在履职过程中违反法律法规和监管规定的董事监事,监管部门可依法采取监管谈话、责令限期改正、责令银行保险机构调整相关人员等监督管理措施,\n并视情况采取责令纪律处分、行政处罚等方式追究其相应责任。存在本办法第三十五条情形的,监管部门应从严处理。\n监管部门可以根据需要对银行保险机构董事监事履职情况开展监管评价。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 21.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 7963,
+    "source_end": 8308,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_042",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "42",
+    "article_number_normalized": "042",
+    "article_title": "",
+    "chunk_index": 41,
+    "chapter": "第五章",
+    "chapter_title": "监督管理",
+    "text_zh": "第四十二条 中国银保监会及其派出机构可以根据董事监事履职评价结果组织开展专项检查,督促银行保险机构完善公司治理。中国银保监会及其派出机构应\n当建立银行保险机构董事监事年度履职评价监管档案,在公司治理全面评估、市场准入、非现场监管和现场检查等工作中强化履职评价信息运用。\n第六章 附 则",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 131,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十二条 中国银保监会及其派出机构可以根据董事监事履职评价结果组织开展专项检查,督促银行保险机构完善公司治理。中国银保监会及其派出机构应\n当建立银行保险机构董事监事年度履职评价监管档案,在公司治理全面评估、市场准入、非现场监管和现场检查等工作中强化履职评价信息运用。\n第六章 附 则"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 12.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)",
+          "市场 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司治理",
+          "公司",
+          "公司 (weak)",
+          "董事 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8309,
+    "source_end": 8451,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_043",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "43",
+    "article_number_normalized": "043",
+    "article_title": "",
+    "chunk_index": 42,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十三条 本办法所称“商业银行、保险公司”“银行保险机构”,是指国有大型商业银行、全国性股份制商业银行、城市商业银行、民营银行、农村商业银\n行、外资银行、保险集团(控股)公司、财产保险公司、再保险公司、人身保险公司。\n未设立监事会的银行保险机构,以及中国银保监会负责监管的其他金融机构参照适用本办法。\n法律、行政法规或规章对外资银行、外资保险公司另有规定的,从其规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 157,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十三条 本办法所称“商业银行、保险公司”“银行保险机构”,是指国有大型商业银行、全国性股份制商业银行、城市商业银行、民营银行、农村商业银\n行、外资银行、保险集团(控股)公司、财产保险公司、再保险公司、人身保险公司。\n未设立监事会的银行保险机构,以及中国银保监会负责监管的其他金融机构参照适用本办法。\n法律、行政法规或规章对外资银行、外资保险公司另有规定的,从其规定。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 36.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "金融机构",
+          "金融 (weak)",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 12.0,
+        "matched_keywords": [
+          "公司",
+          "公司 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8452,
+    "source_end": 8637,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_044",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "44",
+    "article_number_normalized": "044",
+    "article_title": "",
+    "chunk_index": 43,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十四条 本办法所称“执行董事”指在银行保险机构除担任董事外,还承担高级管理人员职责的董事;“独立董事”“外部监事”指在银行保险机构不担任除董事监\n事以外的其他职务,并且与银行保险机构及其股东、实际控制人不存在可能影响其独立客观判断关系的董事监事;“职工董事”“职工监事”指按照相关规定由职工\n(代表)大会民主选举产生的董事监事。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 145,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十四条 本办法所称“执行董事”指在银行保险机构除担任董事外,还承担高级管理人员职责的董事;“独立董事”“外部监事”指在银行保险机构不担任除董事监\n事以外的其他职务,并且与银行保险机构及其股东、实际控制人不存在可能影响其独立客观判断关系的董事监事;“职工董事”“职工监事”指按照相关规定由职工\n(代表)大会民主选举产生的董事监事。"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "corporate_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 15.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "corporate_governance",
+        "label_zh": "公司治理",
+        "label_en": "Corporate Governance",
+        "label_pt": "Governação Societária",
+        "score": 4.5,
+        "matched_keywords": [
+          "股东",
+          "董事 (weak)",
+          "股东 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8638,
+    "source_end": 8804,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_045",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "45",
+    "article_number_normalized": "045",
+    "article_title": "",
+    "chunk_index": 44,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十五条 本办法所称“以上”“以下”“以内”均含本数,“少于”“超过”“低于”均不含本数。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 31,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十五条 本办法所称“以上”“以下”“以内”均含本数,“少于”“超过”“低于”均不含本数。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8805,
+    "source_end": 8851,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_046",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "46",
+    "article_number_normalized": "046",
+    "article_title": "",
+    "chunk_index": 45,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十六条 本办法由中国银保监会负责解释。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 19,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十六条 本办法由中国银保监会负责解释。"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 8852,
+    "source_end": 8873,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_5_2021_ART_047",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_5_2021",
+    "law_name": "银行保险机构董事监事履职评价办法（试行）",
+    "law_name_original": "银行保险机构董事监事履职评价办法（试行）",
+    "law_type": "规章/法规",
+    "article_number": "47",
+    "article_number_normalized": "047",
+    "article_title": "",
+    "chunk_index": 46,
+    "chapter": "第六章",
+    "chapter_title": "附 则",
+    "text_zh": "第四十七条 本办法自2021年7月1日起施行。《商业银行董事履职评价办法(试行)》(中国银行业监督管理委员会令2010年第7号)同时废止。此前有关银行\n保险机构董事监事履职评价的规定与本办法不一致的,按照本办法执行。\n中国银保监会发布《银行保险机构董事监事履职评价办法(试行)》\n中国银保监会有关部门负责人就《银行保险机构董事监事履职评价办法(试行)》答记者问\n手机扫一扫打开此页",
+    "text_pt": "",
+    "text_en": "http://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987137&itemId=915\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987207&itemId=915",
+    "text_original_language": "zh-en",
+    "word_count_zh": 156,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四十七条 本办法自2021年7月1日起施行。《商业银行董事履职评价办法(试行)》(中国银行业监督管理委员会令2010年第7号)同时废止。此前有关银行\n保险机构董事监事履职评价的规定与本办法不一致的,按照本办法执行。\n中国银保监会发布《银行保险机构董事监事履职评价办法(试行)》\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987137&itemId=915\n中国银保监会有关部门负责人就《银行保险机构董事监事履职评价办法(试行)》答记者问\nhttp://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987207&itemId=915\n手机扫一扫打开此页"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "administrative_procedures"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "银行",
+          "保险",
+          "银行 (weak)",
+          "保险 (weak)"
+        ]
+      },
+      {
+        "id": "administrative_procedures",
+        "label_zh": "行政程序",
+        "label_en": "Administrative Procedures",
+        "label_pt": "Procedimentos Administrativos",
+        "score": 4.5,
+        "matched_keywords": [
+          "委员会"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-07-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=987133&itemId=4214&generaltype=1",
+    "source_type": "gov_gazette",
+    "source_file": "CN_079.txt",
+    "sample_id": "CN_079",
+    "source_id": "CN_NFRA_001",
+    "original_id": "SMP_CN_079",
+    "raw_sha256": "bfde85f7b033498a7fe200cd2aeec556ad90b7ce7aac5be126c21e60d4b7f5d9",
+    "extracted_text_sha256": "8f664c3f06a9a6ef4c533e87e58366513b80a9458565a675508f2de34995c8a2",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 16,
+    "source_end": 289,
+    "language_original": [
+      "zh",
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:54:29Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

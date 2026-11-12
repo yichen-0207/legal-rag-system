@@ -1,0 +1,936 @@
+[
+  {
+    "doc_id": "AU_ACT_51_2009_ART_001",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "Short title",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act may be cited as the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act may be cited as the Private Health Insurance (National Joint Replacement Register Levy) Act 2009 ."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 62,
+    "source_end": 219,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_51_2009_ART_002",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "Commencement",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.\nCommencement information\nColumn 1Column 2\nColumn 3Provision(s)\nCommencementDate/Details\n1. Sections 1 and 2 and anything in this Act not elsewhere covered by this table\nThe day on which this Act receives the Royal Assent.\n24 June 2009\n2. Sections 3 to 9The later of:\n(a) 1 July 2009; and\n(b) the day on which this Act receives the Royal Assent.\n1 July 2009\nNote: This table relates only to the provisions of this Act as originally passed by both Houses of the Parliament and assented to. It will not be expanded to deal with provisions inserted in this Act after assent.\nColumn 3 of the table contains additional information that is not part of this Act. Information in this column may be added to or edited in any published version of this Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "1 July 2009; and"
+      },
+      {
+        "marker": "B",
+        "content": "the day on which this Act receives the Royal Assent.\n1 July 2009\nNote: This table relates only to the provisions of this Act as originally passed by both Houses of the Parliament and assented to. It will not be expanded to deal with provisions inserted in this Act after assent.\nColumn 3 of the table contains additional information that is not part of this Act. Information in this column may be added to or edited in any published version of this Act."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 184,
+    "source_end": 1192,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_51_2009_ART_003",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "Crown to be bound",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act binds the Crown in each of its capacities.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act binds the Crown in each of its capacities."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1158,
+    "source_end": 1259,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_51_2009_ART_004",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "Extension of Act to external Territories",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "This Act extends to the Territory of Cocos (Keeling) Islands and to the Territory of Christmas Island.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "This Act extends to the Territory of Cocos (Keeling) Islands and to the Territory of Christmas Island."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1230,
+    "source_end": 1382,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_51_2009_ART_005",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "Definitions",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "In this Act:joint replacement device means a medical device (within the meaning of the Private Health Insurance Act 2007 ) that:\n(a) is listed in the Private Health Insurance (Medical Devices and Human Tissue Products) Rules; and\n(b) is used in joint replacement.\nnational joint replacement register levy means the national joint replacement register levy imposed under section 6.\nnational joint replacement register levy day means a national joint replacement register levy day specified in the Private Health Insurance (National Joint Replacement Register Levy) Rules made for the purposes of section 6.\nPrivate Health Insurance (Medical Devices and Human Tissue Products) Rules means the Private Health Insurance (Medical Devices and Human Tissue Products) Rules made for the purposes of item 4 of the table in subsection 333 ‑ 20(1) of the Private Health Insurance Act 2007 .\nPrivate Health Insurance (National Joint Replacement Register Levy) Rules means the Private Health Insurance (National Joint Replacement Register Levy) Rules made under section 8.\nregister means the register known as the Australian Orthopaedic Association National Joint Replacement Registry.\nsupplementary national joint replacement register levy day means a supplementary national joint replacement register levy day specified in a determination by the Minister under section 8A.\nThe Private Health Insurance (National Joint Replacement Register Levy) Rules may provide that one or more classes of medical devices (within the meaning of the Private Health Insurance Act 2007 ) are taken, or are taken not, to be joint replacement devices for the purposes of the definition of joint replacement device in subsection (1).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "is listed in the Private Health Insurance (Medical Devices and Human Tissue Products) Rules; and"
+      },
+      {
+        "marker": "B",
+        "content": "is used in joint replacement.\nnational joint replacement register levy means the national joint replacement register levy imposed under section 6.\nnational joint replacement register levy day means a national joint replacement register levy day specified in the Private Health Insurance (National Joint Replacement Register Levy) Rules made for the purposes of section 6.\nPrivate Health Insurance (Medical Devices and Human Tissue Products) Rules means the Private Health Insurance (Medical Devices and Human Tissue Products) Rules made for the purposes of item 4 of the table in subsection 333 ‑ 20(1) of the Private Health Insurance Act 2007 .\nPrivate Health Insurance (National Joint Replacement Register Levy) Rules means the Private Health Insurance (National Joint Replacement Register Levy) Rules made under section 8.\nregister means the register known as the Australian Orthopaedic Association National Joint Replacement Registry.\nsupplementary national joint replacement register levy day means a supplementary national joint replacement register levy day specified in a determination by the Minister under section 8A.\nThe Private Health Insurance (National Joint Replacement Register Levy) Rules may provide that one or more classes of medical devices (within the meaning of the Private Health Insurance Act 2007 ) are taken, or are taken not, to be joint replacement devices for the purposes of the definition of joint replacement device in subsection (1)."
+      }
+    ],
+    "topics": [
+      "legal_definitions",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 30.5,
+        "matched_keywords": [
+          "definitions (title, +5)",
+          "means",
+          "definition",
+          "for the purposes of",
+          "definition (weak)",
+          "meaning (weak)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 18.0,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1376,
+    "source_end": 3127,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_51_2009_ART_006",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "Imposition of national joint replacement register levy",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "National joint replacement register levy is imposed on the recording on the register of the provision of a joint replacement device:\n(a) on each day specified in the Private Health Insurance (National Joint Replacement Register Levy) Rules as a national joint replacement register levy day for a financial year; and\n(b) on each day (if any) specified in a determination under section 8A as a supplementary national joint replacement register levy day for a financial year.\nThe Private Health Insurance (National Joint Replacement Register Levy) Rules must not specify more than 4 levy days for a financial year.\nThe determination under section 8A must not specify more than 2 supplementary levy days for a financial year .",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "on each day specified in the Private Health Insurance (National Joint Replacement Register Levy) Rules as a national joint replacement register levy day for a financial year; and"
+      },
+      {
+        "marker": "B",
+        "content": "on each day (if any) specified in a determination under section 8A as a supplementary national joint replacement register levy day for a financial year.\nThe Private Health Insurance (National Joint Replacement Register Levy) Rules must not specify more than 4 levy days for a financial year.\nThe determination under section 8A must not specify more than 2 supplementary levy days for a financial year ."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3092,
+    "source_end": 3864,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_51_2009_ART_007",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "Rate of national joint replacement register levy",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The rate of national joint replacement register levy imposed on a particular day is worked out using the following table:\nRate of national joint replacement register levy\nItemThe rate of levy imposed on a …\nis the rate that …national joint replacement register levy day\n(a) is specified in, or is calculated using the method specified in, the Private Health Insurance (National Joint Replacement Register Levy) Rules; and\n(b) applies on that day.\nsupplementary national joint replacement register levy day\n(a) is specified in, or is calculated using the method specified in, a determination under section 8A; and\n(b) applies on that day.\nThe Private Health Insurance (National Joint Replacement Register Levy) Rules, and a determination under section 8A, may:\n(a) specify different rates of levy, or different methods for calculating the rate of levy, in relation to different classes of joint replacement devices; and\n(b) specify a rate of levy of zero in relation to one or more classes of joint replacement devices; and\n(c) specify a rate of levy, or a method for calculating the rate of levy, that takes into account the number of times recordings were made on the register of the provision of a joint replacement device during a particular period.\nDespite subsection (2), the total amount of levy for a financial year for recordings on the register of the provision of a joint replacement device must not exceed $5,000.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "is specified in, or is calculated using the method specified in, the Private Health Insurance (National Joint Replacement Register Levy) Rules; and"
+      },
+      {
+        "marker": "B",
+        "content": "applies on that day.\nsupplementary national joint replacement register levy day"
+      },
+      {
+        "marker": "A",
+        "content": "is specified in, or is calculated using the method specified in, a determination under section 8A; and"
+      },
+      {
+        "marker": "B",
+        "content": "applies on that day.\nThe Private Health Insurance (National Joint Replacement Register Levy) Rules, and a determination under section 8A, may:"
+      },
+      {
+        "marker": "A",
+        "content": "specify different rates of levy, or different methods for calculating the rate of levy, in relation to different classes of joint replacement devices; and"
+      },
+      {
+        "marker": "B",
+        "content": "specify a rate of levy of zero in relation to one or more classes of joint replacement devices; and"
+      },
+      {
+        "marker": "C",
+        "content": "specify a rate of levy, or a method for calculating the rate of levy, that takes into account the number of times recordings were made on the register of the provision of a joint replacement device during a particular period.\nDespite subsection (2), the total amount of levy for a financial year for recordings on the register of the provision of a joint replacement device must not exceed $5,000."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3872,
+    "source_end": 5346,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_51_2009_ART_007A",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "7A",
+    "article_number_normalized": "007A",
+    "article_title": "Who must pay the national joint replacement register levy?",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "National joint replacement register levy imposed in relation to a joint replacement device is payable by the person specified by the Private Health Insurance (National Joint Replacement Register Levy) Rules for the joint replacement device.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "National joint replacement register levy imposed in relation to a joint replacement device is payable by the person specified by the Private Health Insurance (National Joint Replacement Register Levy) Rules for the joint replacement device."
+      }
+    ],
+    "topics": [
+      "compensation_benefits",
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "compensation_benefits",
+        "label_zh": "薪酬福利",
+        "label_en": "Compensation & Benefits",
+        "label_pt": "Remuneração e Benefícios",
+        "score": 5,
+        "matched_keywords": [
+          "pay (title, +5)"
+        ]
+      },
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 4.5,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 5348,
+    "source_end": 5638,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_51_2009_ART_008",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "8 Private Health Insurance (National Joint Replacement Register Levy) Rules\nThe Minister may, by legislative instrument, make Private Health Insurance (National Joint Replacement Register Levy) Rules providing for matters:\n(a) required or permitted by this Act to be provided; or\n(b) necessary or convenient to be provided in order to carry out or give effect to this Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "required or permitted by this Act to be provided; or"
+      },
+      {
+        "marker": "B",
+        "content": "necessary or convenient to be provided in order to carry out or give effect to this Act."
+      }
+    ],
+    "topics": [
+      "financial_services"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 6.0,
+        "matched_keywords": [
+          "insurance"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2447,
+    "source_end": 2869,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_51_2009_ART_008A",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "8A",
+    "article_number_normalized": "008A",
+    "article_title": "Ministerial determination",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Minister may, by legislative instrument, make a determination:\n(a) specifying a supplementary national joint replacement register levy day for a financial year (see section 6); and\n(b) specifying, or specifying a method for calculating, a rate of national joint replacement register levy (see section 7).",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "specifying a supplementary national joint replacement register levy day for a financial year (see section 6); and"
+      },
+      {
+        "marker": "B",
+        "content": "specifying, or specifying a method for calculating, a rate of national joint replacement register levy (see section 7)."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6024,
+    "source_end": 6382,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_51_2009_ART_009",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "Regulations",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "The Governor ‑ General may make regulations prescribing matters:\n(a) required or permitted by this Act to be prescribed; or\n(b) necessary or convenient to be prescribed for carrying out or giving effect to this Act.",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "A",
+        "content": "required or permitted by this Act to be prescribed; or"
+      },
+      {
+        "marker": "B",
+        "content": "necessary or convenient to be prescribed for carrying out or giving effect to this Act."
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6362,
+    "source_end": 6627,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "AU_ACT_51_2009_ART_End0",
+    "jurisdiction": "澳大利亚",
+    "law_id": "AU_ACT_51_2009",
+    "law_name": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_name_original": "Private Health Insurance (National Joint Replacement Register Levy) Act 2009",
+    "law_type": "Act",
+    "article_number": "End0",
+    "article_number_normalized": "End0",
+    "article_title": "Endnotes",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "",
+    "text_pt": "",
+    "text_en": "EndnotesEndnote 1—About the endnotes\nThe endnotes provide information about this compilation and the compiled law.\nThe following endnotes are included in every compilation:\nEndnote 1—About the endnotes\nEndnote 2—Abbreviation key\nEndnote 3—Legislation history\nEndnote 4—Amendment history\nAbbreviation key—Endnote 2\nThe abbreviation key sets out abbreviations that may be used in the endnotes.\nLegislation history and amendment history—Endnotes 3 and 4\nAmending laws are annotated in the legislation history and amendment history.\nThe legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.\nThe amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.\nEditorial changesThe Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.\nIf the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.\nMisdescribed amendments\nA misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003 .\nIf a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.\nEndnote 2—Abbreviation key\nad = added or inserted\norig = originalam = amended\np = page(s)amdt = amendment\npara = paragraph(s)/subparagraph(s)\nC[x] = Compilation No. x\n/sub ‑ subparagraph(s)\nch = Chapter(s)pres = present\ncl = clause(s)prev = previous\ncont. = continued(prev…) = previously\ndef = definition(s)pt = Part(s)\nDict = Dictionaryr = regulation(s)/Court rule(s)\ndisallowed = disallowed by Parliament\nreloc = relocateddiv = Division(s)\nrenum = renumbereded = editorial change\nrep = repealedexp = expires/expired or ceases/ceased to have\nrs = repealed and substituted\neffects = section(s)/subsection(s)\ngaz = gazette/rule(s)/subrule(s)/order(s)/suborder(s)\nLA = Legislation Act 2003\nsch = Schedule(s)LIA = Legislative Instruments Act 2003\nSLI = Select Legislative Instrument\n(md) = misdescribed amendment can be given\nSR = Statutory Rules\neffectsub ch = Sub ‑ Chapter(s)\n(md not incorp) = misdescribed amendment\nsub div = Subdivision(s)\ncannot be given effect\nsub pt = Subpart(s)mod = modified/modification\nunderlining = whole or part not\nNo. = Number(s)commenced or to be commenced\nOrd = OrdinanceEndnote 3—Legislation history\nAct(Register ID)\nNumber and yearAssent\nCommencementApplication, saving and transitional provisions\nPrivate Health Insurance (National Joint Replacement Register Levy) Act 2009 (C2009A00051)\n51, 2009\n24 June 2009\ns 3 ‑ 9: 1 July 2009 (s 2(1) item 2)\nRemainder: 24 June 2009 (s 2(1) item 1)\nPrivate Health Insurance (National Joint Replacement Register Levy) Amendment Act 2015 (C2015A00075)\n75, 2015\n25 June 2015\n26 June 2015 (s 2(1) item 1)\nsch 1 (item 14)Private Health Insurance (National Joint Replacement Register Levy) Amendment (Consequential Amendments) Act 2023 (C2023A00006)\n6, 2023\n16 Mar 2023\n1 July 2023 (s 2(1) item 1)\n—\nPrivate Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025 (C2025A00055)\n55, 2025\n4 Nov 2025\n18 Nov 2025 (s 2(1) item 1)\nsch 1 (items 5,6)Endnote 4—Amendment history\nProvision affectedHow affected\nTitle ....................\nam No 75, 2015s 5 .....................\nam No 75, 2015; No 6, 2023; No 55, 2025\ns 6 .....................\nam No 75, 2015; No 6, 2023\ns 7 .....................\nam No 75, 2015; No 6, 2023\ns 7A ....................\nad No 75, 2015am No 6, 2023; No 55, 2025\ns 8A ....................\nad No 75, 2015",
+    "text_original_language": "en",
+    "word_count_zh": 0,
+    "chunk_type": "endnote",
+    "is_substantive": false,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "EndnotesEndnote 1—About the endnotes\nThe endnotes provide information about this compilation and the compiled law.\nThe following endnotes are included in every compilation:\nEndnote 1—About the endnotes\nEndnote 2—Abbreviation key\nEndnote 3—Legislation history\nEndnote 4—Amendment history\nAbbreviation key—Endnote 2\nThe abbreviation key sets out abbreviations that may be used in the endnotes.\nLegislation history and amendment history—Endnotes 3 and 4\nAmending laws are annotated in the legislation history and amendment history.\nThe legislation history in endnote 3 provides information about each law that has amended (or will amend) the compiled law. The information includes commencement details for amending laws and details of any application, saving or transitional provisions that are not included in this compilation.\nThe amendment history in endnote 4 provides information about amendments at the provision (generally section or equivalent) level. It also includes information about any provision of the compiled law that has been repealed in accordance with a provision of the law.\nEditorial changesThe Legislation Act 2003 authorises First Parliamentary Counsel to make editorial and presentational changes to a compiled law in preparing a compilation of the law for registration. The changes must not change the effect of the law. Editorial changes take effect from the compilation registration date.\nIf the compilation includes editorial changes, the endnotes include a brief outline of the changes in general terms. Full details of any changes can be obtained from the Office of Parliamentary Counsel.\nMisdescribed amendments\nA misdescribed amendment is an amendment that does not accurately describe how an amendment is to be made. If, despite the misdescription, the amendment can be given effect as intended, then the misdescribed amendment can be incorporated through an editorial change made under section 15V of the Legislation Act 2003 .\nIf a misdescribed amendment cannot be given effect as intended, the amendment is not incorporated and “(md not incorp)” is added to the amendment history.\nEndnote 2—Abbreviation key\nad = added or inserted\norig = originalam = amended\np = page(s)amdt = amendment\npara = paragraph(s)/subparagraph(s)\nC[x] = Compilation No. x\n/sub ‑ subparagraph(s)\nch = Chapter(s)pres = present\ncl = clause(s)prev = previous\ncont. = continued(prev…) = previously\ndef = definition(s)pt = Part(s)\nDict = Dictionaryr = regulation(s)/Court rule(s)\ndisallowed = disallowed by Parliament\nreloc = relocateddiv = Division(s)\nrenum = renumbereded = editorial change\nrep = repealedexp = expires/expired or ceases/ceased to have\nrs = repealed and substituted\neffects = section(s)/subsection(s)\ngaz = gazette/rule(s)/subrule(s)/order(s)/suborder(s)\nLA = Legislation Act 2003\nsch = Schedule(s)LIA = Legislative Instruments Act 2003\nSLI = Select Legislative Instrument\n(md) = misdescribed amendment can be given\nSR = Statutory Rules\neffectsub ch = Sub ‑ Chapter(s)\n(md not incorp) = misdescribed amendment\nsub div = Subdivision(s)\ncannot be given effect\nsub pt = Subpart(s)mod = modified/modification\nunderlining = whole or part not\nNo. = Number(s)commenced or to be commenced\nOrd = OrdinanceEndnote 3—Legislation history\nAct(Register ID)\nNumber and yearAssent\nCommencementApplication, saving and transitional provisions\nPrivate Health Insurance (National Joint Replacement Register Levy) Act 2009 (C2009A00051)\n51, 2009\n24 June 2009\ns 3 ‑ 9: 1 July 2009 (s 2(1) item 2)\nRemainder: 24 June 2009 (s 2(1) item 1)\nPrivate Health Insurance (National Joint Replacement Register Levy) Amendment Act 2015 (C2015A00075)\n75, 2015\n25 June 2015\n26 June 2015 (s 2(1) item 1)\nsch 1 (item 14)Private Health Insurance (National Joint Replacement Register Levy) Amendment (Consequential Amendments) Act 2023 (C2023A00006)\n6, 2023\n16 Mar 2023\n1 July 2023 (s 2(1) item 1)\n—\nPrivate Health Insurance (National Joint Replacement Register Levy) Amendment Act 2025 (C2025A00055)\n55, 2025\n4 Nov 2025\n18 Nov 2025 (s 2(1) item 1)\nsch 1 (items 5,6)Endnote 4—Amendment history\nProvision affectedHow affected\nTitle ....................\nam No 75, 2015s 5 .....................\nam No 75, 2015; No 6, 2023; No 55, 2025\ns 6 .....................\nam No 75, 2015; No 6, 2023\ns 7 .....................\nam No 75, 2015; No 6, 2023\ns 7A ....................\nad No 75, 2015am No 6, 2023; No 55, 2025\ns 8A ....................\nad No 75, 2015"
+      }
+    ],
+    "topics": [
+      "financial_services",
+      "legal_definitions"
+    ],
+    "topics_details": [
+      {
+        "id": "financial_services",
+        "label_zh": "金融服务",
+        "label_en": "Financial Services",
+        "label_pt": "Serviços Financeiros",
+        "score": 9.0,
+        "matched_keywords": [
+          "insurance"
+        ]
+      },
+      {
+        "id": "legal_definitions",
+        "label_zh": "法律定义",
+        "label_en": "Legal Definitions",
+        "label_pt": "Definições Legais",
+        "score": 4.5,
+        "matched_keywords": [
+          "definition",
+          "definition (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2025-11-18",
+    "publication_date": "2009-01-01",
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.legislation.gov.au/C2009A00051/latest",
+    "source_type": "gov_gazette",
+    "source_file": "AU_025.txt",
+    "sample_id": "AU_025",
+    "source_id": "AU_FRL_001",
+    "original_id": "SMP_AU_025",
+    "raw_sha256": "bd22d48a3803e0a2f32cd4484dd7803b5172781017534d3b12cb46db3b14dbc3",
+    "extracted_text_sha256": "03fe83cd13ff84e6ffef16a6883b1e97c78440b182b590f14601792a8516ca24",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 6592,
+    "source_end": 11018,
+    "language_original": [
+      "en"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:47:49Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]

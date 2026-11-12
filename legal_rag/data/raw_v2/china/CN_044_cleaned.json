@@ -1,0 +1,1916 @@
+[
+  {
+    "doc_id": "CN_DOC_7_2021_ART_001",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "1",
+    "article_number_normalized": "001",
+    "article_title": "",
+    "chunk_index": 0,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第一条 为了规范汽车数据处理活动，保护个人、组织的合法权益，维护国家安全和社会公共利益，促进汽车数据合理开发利用，根据《中华人民共和国网络安全法》、《中华人民共和国数据安全法》等法律、行政法规，制定本规定。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 89,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第一条 为了规范汽车数据处理活动，保护个人、组织的合法权益，维护国家安全和社会公共利益，促进汽车数据合理开发利用，根据《中华人民共和国网络安全法》、《中华人民共和国数据安全法》等法律、行政法规，制定本规定。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "cybersecurity",
+      "public_governance",
+      "data_management",
+      "national_security"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "公共 (weak)",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 4.5,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 135,
+    "source_end": 148,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_002",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "2",
+    "article_number_normalized": "002",
+    "article_title": "",
+    "chunk_index": 1,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第二条 在中华人民共和国境内开展汽车数据处理活动及其安全监管，应当遵守相关法律、行政法规和本规定的要求。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 48,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第二条 在中华人民共和国境内开展汽车数据处理活动及其安全监管，应当遵守相关法律、行政法规和本规定的要求。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 132,
+    "source_end": 148,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_003",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "3",
+    "article_number_normalized": "003",
+    "article_title": "",
+    "chunk_index": 2,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第三条 本规定所称汽车数据，包括汽车设计、生产、销售、使用、运维等过程中的涉及个人信息数据和重要数据。\n汽车数据处理，包括汽车数据的收集、存储、使用、加工、传输、提供、公开等。\n汽车数据处理者，是指开展汽车数据处理活动的组织，包括汽车制造商、零部件和软件供应商、经销商、维修机构以及出行服务企业等。\n个人信息，是指以电子或者其他方式记录的与已识别或者可识别的车主、驾驶人、乘车人、车外人员等有关的各种信息，不包括匿名化处理后的信息。\n敏感个人信息，是指一旦泄露或者非法使用，可能导致车主、驾驶人、乘车人、车外人员等受到歧视或者人身、财产安全受到严重危害的个人信息，包括车辆行踪轨迹、音频、视频、图像和生物识别特征等信息。\n重要数据是指一旦遭到篡改、破坏、泄露或者非法获取、非法利用，可能危害国家安全、公共利益或者个人、组织合法权益的数据，包括：\n（一）军事管理区、国防科工单位以及县级以上党政机关等重要敏感区域的地理信息、人员流量、车辆流量等数据；\n（二）车辆流量、物流等反映经济运行情况的数据；\n（三）汽车充电网的运行数据；（四）包含人脸信息、车牌信息等的车外视频、图像数据；\n（五）涉及个人信息主体超过10万人的个人信息；\n（六）国家网信部门和国务院发展改革、工业和信息化、公安、交通运输等有关部门确定的其他可能危害国家安全、公共利益或者个人、组织合法权益的数据。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 497,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第三条 本规定所称汽车数据，包括汽车设计、生产、销售、使用、运维等过程中的涉及个人信息数据和重要数据。\n汽车数据处理，包括汽车数据的收集、存储、使用、加工、传输、提供、公开等。\n汽车数据处理者，是指开展汽车数据处理活动的组织，包括汽车制造商、零部件和软件供应商、经销商、维修机构以及出行服务企业等。\n个人信息，是指以电子或者其他方式记录的与已识别或者可识别的车主、驾驶人、乘车人、车外人员等有关的各种信息，不包括匿名化处理后的信息。\n敏感个人信息，是指一旦泄露或者非法使用，可能导致车主、驾驶人、乘车人、车外人员等受到歧视或者人身、财产安全受到严重危害的个人信息，包括车辆行踪轨迹、音频、视频、图像和生物识别特征等信息。\n重要数据是指一旦遭到篡改、破坏、泄露或者非法获取、非法利用，可能危害国家安全、公共利益或者个人、组织合法权益的数据，包括：\n（一）军事管理区、国防科工单位以及县级以上党政机关等重要敏感区域的地理信息、人员流量、车辆流量等数据；\n（二）车辆流量、物流等反映经济运行情况的数据；\n（三）汽车充电网的运行数据；（四）包含人脸信息、车牌信息等的车外视频、图像数据；\n（五）涉及个人信息主体超过10万人的个人信息；\n（六）国家网信部门和国务院发展改革、工业和信息化、公安、交通运输等有关部门确定的其他可能危害国家安全、公共利益或者个人、组织合法权益的数据。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management",
+      "national_security",
+      "digital_identity"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 19.5,
+        "matched_keywords": [
+          "个人信息",
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "收集 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "管理 (weak)",
+          "处理 (weak)",
+          "存储 (weak)",
+          "记录 (weak)"
+        ]
+      },
+      {
+        "id": "national_security",
+        "label_zh": "国家安全",
+        "label_en": "National Security",
+        "label_pt": "Segurança Nacional",
+        "score": 6.0,
+        "matched_keywords": [
+          "国家安全"
+        ]
+      },
+      {
+        "id": "digital_identity",
+        "label_zh": "数字身份",
+        "label_en": "Digital Identity",
+        "label_pt": "Identidade Digital",
+        "score": 4.5,
+        "matched_keywords": [
+          "生物识别",
+          "识别 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 305,
+    "source_end": 889,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_004",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "4",
+    "article_number_normalized": "004",
+    "article_title": "",
+    "chunk_index": 3,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第四条 汽车数据处理者处理汽车数据应当合法、正当、具体、明确，与汽车的设计、生产、销售、使用、运维等直接相关。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 45,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第四条 汽车数据处理者处理汽车数据应当合法、正当、具体、明确，与汽车的设计、生产、销售、使用、运维等直接相关。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 890,
+    "source_end": 945,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_005",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "5",
+    "article_number_normalized": "005",
+    "article_title": "",
+    "chunk_index": 4,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第五条 利用互联网等信息网络开展汽车数据处理活动，应当落实网络安全等级保护等制度，加强汽车数据保护，依法履行数据安全义务。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 56,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第五条 利用互联网等信息网络开展汽车数据处理活动，应当落实网络安全等级保护等制度，加强汽车数据保护，依法履行数据安全义务。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "cybersecurity",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "数据保护",
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 946,
+    "source_end": 1007,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_006",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "6",
+    "article_number_normalized": "006",
+    "article_title": "",
+    "chunk_index": 5,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第六条 国家鼓励汽车数据依法合理有效利用，倡导汽车数据处理者在开展汽车数据处理活动中坚持：\n（一）车内处理原则，除非确有必要不向车外提供；\n（二）默认不收集原则，除非驾驶人自主设定，每次驾驶时默认设定为不收集状态；\n（三）精度范围适用原则，根据所提供功能服务对数据精度的要求确定摄像头、雷达等的覆盖范围、分辨率；\n（四）脱敏处理原则，尽可能进行匿名化、去标识化等处理。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 157,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第六条 国家鼓励汽车数据依法合理有效利用，倡导汽车数据处理者在开展汽车数据处理活动中坚持：\n（一）车内处理原则，除非确有必要不向车外提供；\n（二）默认不收集原则，除非驾驶人自主设定，每次驾驶时默认设定为不收集状态；\n（三）精度范围适用原则，根据所提供功能服务对数据精度的要求确定摄像头、雷达等的覆盖范围、分辨率；\n（四）脱敏处理原则，尽可能进行匿名化、去标识化等处理。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "收集 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1008,
+    "source_end": 1192,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_007",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "7",
+    "article_number_normalized": "007",
+    "article_title": "",
+    "chunk_index": 6,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第七条 汽车数据处理者处理个人信息应当通过用户手册、车载显示面板、语音、汽车使用相关应用程序等显著方式，告知个人以下事项：\n（一）处理个人信息的种类，包括车辆行踪轨迹、驾驶习惯、音频、视频、图像和生物识别特征等；\n（二）收集各类个人信息的具体情境以及停止收集的方式和途径；\n（三）处理各类个人信息的目的、用途、方式；\n（四）个人信息保存地点、保存期限，或者确定保存地点、保存期限的规则；\n（五）查阅、复制其个人信息以及删除车内、请求删除已经提供给车外的个人信息的方式和途径；\n（六）用户权益事务联系人的姓名和联系方式；\n（七）法律、行政法规规定的应当告知的其他事项。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 236,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第七条 汽车数据处理者处理个人信息应当通过用户手册、车载显示面板、语音、汽车使用相关应用程序等显著方式，告知个人以下事项：\n（一）处理个人信息的种类，包括车辆行踪轨迹、驾驶习惯、音频、视频、图像和生物识别特征等；\n（二）收集各类个人信息的具体情境以及停止收集的方式和途径；\n（三）处理各类个人信息的目的、用途、方式；\n（四）个人信息保存地点、保存期限，或者确定保存地点、保存期限的规则；\n（五）查阅、复制其个人信息以及删除车内、请求删除已经提供给车外的个人信息的方式和途径；\n（六）用户权益事务联系人的姓名和联系方式；\n（七）法律、行政法规规定的应当告知的其他事项。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "digital_identity",
+      "public_governance",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 18.0,
+        "matched_keywords": [
+          "个人信息",
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "收集 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "digital_identity",
+        "label_zh": "数字身份",
+        "label_en": "Digital Identity",
+        "label_pt": "Identidade Digital",
+        "score": 4.5,
+        "matched_keywords": [
+          "生物识别",
+          "识别 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 126,
+    "source_end": 148,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_008",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "8",
+    "article_number_normalized": "008",
+    "article_title": "",
+    "chunk_index": 7,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第八条 汽车数据处理者处理个人信息应当取得个人同意或者符合法律、行政法规规定的其他情形。\n因保证行车安全需要，无法征得个人同意采集到车外个人信息且向车外提供的，应当进行匿名化处理，包括删除含有能够识别自然人的画面，或者对画面中的人脸信息等进行局部轮廓化处理等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 121,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第八条 汽车数据处理者处理个人信息应当取得个人同意或者符合法律、行政法规规定的其他情形。\n因保证行车安全需要，无法征得个人同意采集到车外个人信息且向车外提供的，应当进行匿名化处理，包括删除含有能够识别自然人的画面，或者对画面中的人脸信息等进行局部轮廓化处理等。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 10.5,
+        "matched_keywords": [
+          "个人信息",
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1477,
+    "source_end": 1607,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_009",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "9",
+    "article_number_normalized": "009",
+    "article_title": "",
+    "chunk_index": 8,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第九条 汽车数据处理者处理敏感个人信息，应当符合以下要求或者符合法律、行政法规和强制性国家标准等其他要求：\n（一）具有直接服务于个人的目的，包括增强行车安全、智能驾驶、导航等；\n（二）通过用户手册、车载显示面板、语音以及汽车使用相关应用程序等显著方式告知必要性以及对个人的影响；\n（三）应当取得个人单独同意，个人可以自主设定同意期限；\n（四）在保证行车安全的前提下，以适当方式提示收集状态，为个人终止收集提供便利；\n（五）个人要求删除的，汽车数据处理者应当在十个工作日内删除。\n汽车数据处理者具有增强行车安全的目的和充分的必要性，方可收集指纹、声纹、人脸、心律等生物识别特征信息。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 251,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第九条 汽车数据处理者处理敏感个人信息，应当符合以下要求或者符合法律、行政法规和强制性国家标准等其他要求：\n（一）具有直接服务于个人的目的，包括增强行车安全、智能驾驶、导航等；\n（二）通过用户手册、车载显示面板、语音以及汽车使用相关应用程序等显著方式告知必要性以及对个人的影响；\n（三）应当取得个人单独同意，个人可以自主设定同意期限；\n（四）在保证行车安全的前提下，以适当方式提示收集状态，为个人终止收集提供便利；\n（五）个人要求删除的，汽车数据处理者应当在十个工作日内删除。\n汽车数据处理者具有增强行车安全的目的和充分的必要性，方可收集指纹、声纹、人脸、心律等生物识别特征信息。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management",
+      "digital_identity",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 12.0,
+        "matched_keywords": [
+          "个人信息",
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "收集 (weak)",
+          "处理 (weak)",
+          "同意 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "digital_identity",
+        "label_zh": "数字身份",
+        "label_en": "Digital Identity",
+        "label_pt": "Identidade Digital",
+        "score": 4.5,
+        "matched_keywords": [
+          "生物识别",
+          "识别 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "服务 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 1608,
+    "source_end": 1898,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_010",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "10",
+    "article_number_normalized": "010",
+    "article_title": "",
+    "chunk_index": 9,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十条 汽车数据处理者开展重要数据处理活动，应当按照规定开展风险评估，并向省、自治区、直辖市网信部门和有关部门报送风险评估报告。\n风险评估报告应当包括处理的重要数据的种类、数量、范围、保存地点与期限、使用方式，开展数据处理活动情况以及是否向第三方提供，面临的数据安全风险及其应对措施等。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 129,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十条 汽车数据处理者开展重要数据处理活动，应当按照规定开展风险评估，并向省、自治区、直辖市网信部门和有关部门报送风险评估报告。\n风险评估报告应当包括处理的重要数据的种类、数量、范围、保存地点与期限、使用方式，开展数据处理活动情况以及是否向第三方提供，面临的数据安全风险及其应对措施等。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 137,
+    "source_end": 148,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_011",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "11",
+    "article_number_normalized": "011",
+    "article_title": "",
+    "chunk_index": 10,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十一条 重要数据应当依法在境内存储，因业务需要确需向境外提供的，应当通过国家网信部门会同国务院有关部门组织的安全评估。未列入重要数据的涉及个人信息数据的出境安全管理，适用法律、行政法规的有关规定。\n我国缔结或者参加的国际条约、协定有不同规定的，适用该国际条约、协定，但我国声明保留的条款除外。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 134,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十一条 重要数据应当依法在境内存储，因业务需要确需向境外提供的，应当通过国家网信部门会同国务院有关部门组织的安全评估。未列入重要数据的涉及个人信息数据的出境安全管理，适用法律、行政法规的有关规定。\n我国缔结或者参加的国际条约、协定有不同规定的，适用该国际条约、协定，但我国声明保留的条款除外。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "public_governance"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "个人信息",
+          "数据 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)",
+          "管理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2043,
+    "source_end": 2190,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_012",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "12",
+    "article_number_normalized": "012",
+    "article_title": "",
+    "chunk_index": 11,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十二条 汽车数据处理者向境外提供重要数据，不得超出出境安全评估时明确的目的、范围、方式和数据种类、规模等。\n国家网信部门会同国务院有关部门以抽查等方式核验前款规定事项，汽车数据处理者应当予以配合，并以可读等便利方式予以展示。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 103,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十二条 汽车数据处理者向境外提供重要数据，不得超出出境安全评估时明确的目的、范围、方式和数据种类、规模等。\n国家网信部门会同国务院有关部门以抽查等方式核验前款规定事项，汽车数据处理者应当予以配合，并以可读等便利方式予以展示。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2191,
+    "source_end": 2304,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_013",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "13",
+    "article_number_normalized": "013",
+    "article_title": "",
+    "chunk_index": 12,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十三条 汽车数据处理者开展重要数据处理活动，应当在每年十二月十五日前向省、自治区、直辖市网信部门和有关部门报送以下年度汽车数据安全管理情况：\n（一）汽车数据安全管理负责人、用户权益事务联系人的姓名和联系方式；\n（二）处理汽车数据的种类、规模、目的和必要性；\n（三）汽车数据的安全防护和管理措施，包括保存地点、期限等；\n（四）向境内第三方提供汽车数据情况；（五）汽车数据安全事件和处置情况；\n（六）汽车数据相关的用户投诉和处理情况；\n（七）国家网信部门会同国务院工业和信息化、公安、交通运输等有关部门明确的其他汽车数据安全管理情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 227,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十三条 汽车数据处理者开展重要数据处理活动，应当在每年十二月十五日前向省、自治区、直辖市网信部门和有关部门报送以下年度汽车数据安全管理情况：\n（一）汽车数据安全管理负责人、用户权益事务联系人的姓名和联系方式；\n（二）处理汽车数据的种类、规模、目的和必要性；\n（三）汽车数据的安全防护和管理措施，包括保存地点、期限等；\n（四）向境内第三方提供汽车数据情况；（五）汽车数据安全事件和处置情况；\n（六）汽车数据相关的用户投诉和处理情况；\n（七）国家网信部门会同国务院工业和信息化、公安、交通运输等有关部门明确的其他汽车数据安全管理情况。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 6.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "管理 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2305,
+    "source_end": 2571,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_014",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "14",
+    "article_number_normalized": "014",
+    "article_title": "",
+    "chunk_index": 13,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十四条 向境外提供重要数据的汽车数据处理者应当在本规定第十三条要求的基础上，补充报告以下情况：\n（一）接收者的基本情况；（二）出境汽车数据的种类、规模、目的和必要性；\n（三）汽车数据在境外的保存地点、期限、范围和方式；\n（四）涉及向境外提供汽车数据的用户投诉和处理情况；\n（五）国家网信部门会同国务院工业和信息化、公安、交通运输等有关部门明确的向境外提供汽车数据需要报告的其他情况。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 164,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十四条 向境外提供重要数据的汽车数据处理者应当在本规定第十三条要求的基础上，补充报告以下情况：\n（一）接收者的基本情况；（二）出境汽车数据的种类、规模、目的和必要性；\n（三）汽车数据在境外的保存地点、期限、范围和方式；\n（四）涉及向境外提供汽车数据的用户投诉和处理情况；\n（五）国家网信部门会同国务院工业和信息化、公安、交通运输等有关部门明确的向境外提供汽车数据需要报告的其他情况。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2572,
+    "source_end": 2764,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_015",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "15",
+    "article_number_normalized": "015",
+    "article_title": "",
+    "chunk_index": 14,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十五条 国家网信部门和国务院发展改革、工业和信息化、公安、交通运输等有关部门依据职责，根据处理数据情况对汽车数据处理者进行数据安全评估，汽车数据处理者应当予以配合。\n参与安全评估的机构和人员不得披露评估中获悉的汽车数据处理者商业秘密、未公开信息，不得将评估中获悉的信息用于评估以外目的。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 133,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十五条 国家网信部门和国务院发展改革、工业和信息化、公安、交通运输等有关部门依据职责，根据处理数据情况对汽车数据处理者进行数据安全评估，汽车数据处理者应当予以配合。\n参与安全评估的机构和人员不得披露评估中获悉的汽车数据处理者商业秘密、未公开信息，不得将评估中获悉的信息用于评估以外目的。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 7.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2765,
+    "source_end": 2909,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_016",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "16",
+    "article_number_normalized": "016",
+    "article_title": "",
+    "chunk_index": 15,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十六条 国家加强智能（网联）汽车网络平台建设，开展智能（网联）汽车入网运行和安全保障服务等，协同汽车数据处理者加强智能（网联）汽车网络和汽车数据安全防护。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 68,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十六条 国家加强智能（网联）汽车网络平台建设，开展智能（网联）汽车入网运行和安全保障服务等，协同汽车数据处理者加强智能（网联）汽车网络和汽车数据安全防护。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2910,
+    "source_end": 2988,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_017",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "17",
+    "article_number_normalized": "017",
+    "article_title": "",
+    "chunk_index": 16,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十七条 汽车数据处理者开展汽车数据处理活动，应当建立投诉举报渠道，设置便捷的投诉举报入口，及时处理用户投诉举报。\n开展汽车数据处理活动造成用户合法权益或者公共利益受到损害的，汽车数据处理者应当依法承担相应责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 98,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十七条 汽车数据处理者开展汽车数据处理活动，应当建立投诉举报渠道，设置便捷的投诉举报入口，及时处理用户投诉举报。\n开展汽车数据处理活动造成用户合法权益或者公共利益受到损害的，汽车数据处理者应当依法承担相应责任。"
+      }
+    ],
+    "topics": [
+      "data_protection",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 9.0,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 2989,
+    "source_end": 3095,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_018",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "18",
+    "article_number_normalized": "018",
+    "article_title": "",
+    "chunk_index": 17,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十八条 汽车数据处理者违反本规定的，由省级以上网信、工业和信息化、公安、交通运输等有关部门依照《中华人民共和国网络安全法》、《中华人民共和国数据安全法》等法律、行政法规的规定进行处罚；构成犯罪的，依法追究刑事责任。",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 94,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十八条 汽车数据处理者违反本规定的，由省级以上网信、工业和信息化、公安、交通运输等有关部门依照《中华人民共和国网络安全法》、《中华人民共和国数据安全法》等法律、行政法规的规定进行处罚；构成犯罪的，依法追究刑事责任。"
+      }
+    ],
+    "topics": [
+      "criminal_law",
+      "data_protection",
+      "cybersecurity",
+      "public_governance",
+      "data_management"
+    ],
+    "topics_details": [
+      {
+        "id": "criminal_law",
+        "label_zh": "刑法",
+        "label_en": "Criminal Law",
+        "label_pt": "Direito Penal",
+        "score": 13.5,
+        "matched_keywords": [
+          "刑事",
+          "犯罪",
+          "刑事责任",
+          "刑事 (weak)",
+          "犯罪 (weak)",
+          "责任 (weak)"
+        ]
+      },
+      {
+        "id": "data_protection",
+        "label_zh": "数据保护",
+        "label_en": "Data Protection",
+        "label_pt": "Proteção de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "信息 (weak)",
+          "处理 (weak)"
+        ]
+      },
+      {
+        "id": "cybersecurity",
+        "label_zh": "网络安全",
+        "label_en": "Cybersecurity",
+        "label_pt": "Segurança Cibernética",
+        "score": 4.5,
+        "matched_keywords": [
+          "网络安全",
+          "安全 (weak)",
+          "网络 (weak)",
+          "信息 (weak)"
+        ]
+      },
+      {
+        "id": "public_governance",
+        "label_zh": "公共治理",
+        "label_en": "Public Governance",
+        "label_pt": "Governação Pública",
+        "score": 4.5,
+        "matched_keywords": [
+          "行政",
+          "行政 (weak)"
+        ]
+      },
+      {
+        "id": "data_management",
+        "label_zh": "数据管理",
+        "label_en": "Data Management",
+        "label_pt": "Gestão de Dados",
+        "score": 4.5,
+        "matched_keywords": [
+          "数据处理",
+          "数据 (weak)",
+          "处理 (weak)"
+        ]
+      }
+    ],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3096,
+    "source_end": 3204,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  },
+  {
+    "doc_id": "CN_DOC_7_2021_ART_019",
+    "jurisdiction": "中国大陆",
+    "law_id": "CN_DOC_7_2021",
+    "law_name": "汽车数据安全管理若干规定（试行）",
+    "law_name_original": "汽车数据安全管理若干规定（试行）",
+    "law_type": "政策文件",
+    "article_number": "19",
+    "article_number_normalized": "019",
+    "article_title": "",
+    "chunk_index": 18,
+    "chapter": "",
+    "chapter_title": "",
+    "text_zh": "第十九条 本规定自2021年10月1日起施行。\n工业和信息化部发布",
+    "text_pt": "",
+    "text_en": "",
+    "text_original_language": "zh",
+    "word_count_zh": 23,
+    "chunk_type": "substantive",
+    "is_substantive": true,
+    "sub_chunks": [
+      {
+        "marker": "",
+        "content": "第十九条 本规定自2021年10月1日起施行。\n工业和信息化部发布"
+      }
+    ],
+    "topics": [],
+    "topics_details": [],
+    "taxonomy_version": "1.2",
+    "definitions": null,
+    "passing_date": null,
+    "effective_date": "2021-10-01",
+    "publication_date": null,
+    "last_amended_date": null,
+    "amendment_history": null,
+    "ingest_date": "2026-10-26",
+    "source_url": "https://www.miit.gov.cn/zcfg/xxtxl/art/2022/art_854e1fc6f4984825b85ab5a193e59a6c.html",
+    "source_type": "gov_gazette",
+    "source_file": "CN_044.txt",
+    "sample_id": "CN_044",
+    "source_id": "CN_MIIT_001",
+    "original_id": "SMP_CN_044",
+    "raw_sha256": "28a52324ff02871295d6cf0ca5b1e3bf083ab56193b4979a048b79a75f5d718f",
+    "extracted_text_sha256": "1a5782f688290f0e75415877a839fd740d362ecf7b2e2caa98b7f382d1ea7c3c",
+    "extraction_status": "SUCCESS",
+    "cleaning_quality_status": "ok",
+    "content_role": "LEGAL_TEXT",
+    "content_role_reason": "识别为正常法规全文",
+    "promulgating_authority": null,
+    "related_laws": null,
+    "status": null,
+    "source_start": 3205,
+    "source_end": 3238,
+    "language_original": [
+      "zh"
+    ],
+    "version": 1,
+    "cleaned_at": "2026-10-26T08:51:22Z",
+    "cleaned_by": "clean_script_v3",
+    "vector": null,
+    "summary": null,
+    "keywords_extracted": null
+  }
+]
