@@ -15,18 +15,23 @@ from collections import OrderedDict
 from typing import Any, Dict, List, Optional, Tuple
 
 from core.config import settings
-from repositories.elasticsearch import zh_convert
 from utils.redis_cache import build_answer_cache
 
 logger = logging.getLogger(__name__)
 
 
 def normalize_query_for_cache(query: str) -> str:
-    """缓存键归一化：压缩空白 + 小写 + 繁→简，检索与问答缓存共用。"""
+    """缓存键归一化：压缩空白 + 小写，检索与问答缓存共用。
+
+    刻意不做繁→简归一：检索与精排吃的是原始查询串，繁体语料上繁/简两串的
+    向量相似度几乎相同（实测 Δ≈5e-4），但 cross-encoder 打分差异很大
+    （同一对文档实测 rerank 从 −1.13 到 +2.37），排序结果因此不同。
+    旧实现把 t2s 归一塞进缓存键，导致繁/简共用同一条缓存，
+    最终结果取决于进程内先请求的是哪种写法，表现为「同一查询两次结果不同」。
+    """
     if not query:
         return ""
-    collapsed = re.sub(r"\s+", " ", query).strip().lower()
-    return zh_convert(collapsed, "t2s")
+    return re.sub(r"\s+", " ", query).strip().lower()
 
 
 # 缓存键：(筛选条件标识, 归一化查询)
