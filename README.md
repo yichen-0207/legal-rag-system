@@ -1,6 +1,6 @@
-# 境外法规智能检索与分析系统
+# 境内外法规智能检索与分析系统
 
-面向境外法规文本的智能检索与问答平台。系统以检索增强生成（RAG）为核心，融合混合检索、跨编码器精排、知识图谱与智能体多步推理，支持多法域、多语言的法规检索、问答、对比分析与知识可视化。
+面向境内外法规文本的智能检索与问答平台。系统以检索增强生成（RAG）为核心，融合混合检索、跨编码器精排、知识图谱与智能体多步推理，支持多法域、多语言的法规检索、问答、对比分析与知识可视化。
 
 ## 核心能力
 
@@ -37,13 +37,13 @@ nginx (legal-frontend) ──反向代理──► FastAPI (legal-backend) :8001
 |------|------|
 | 后端框架 | FastAPI + uvicorn（Python 3.10） |
 | 检索/存储 | Elasticsearch 8.11.0（dense_vector 向量检索 + BM25，IK 中文分词） |
-| 嵌入模型 | BGE-M3（多语言稠密向量，CPU 推理） |
-| 精排模型 | bge-reranker-v2-m3（Cross-encoder，CPU 推理） |
+| 嵌入模型 | BGE-M3（多语言稠密向量，CUDA + FP16 推理） |
+| 精排模型 | bge-reranker-v2-m3（Cross-encoder，CUDA + FP16 推理） |
 | 生成模型 | DeepSeek API（OpenAI 兼容协议） |
 | 智能体编排 | LangChain + LangGraph（原生 Function Calling / ReAct） |
 | 前端 | 原生 JavaScript（无框架）+ nginx |
 | 流式协议 | SSE（Server-Sent Events） |
-| 部署 | Docker Compose 三容器 |
+| 部署 | Docker Compose 多容器（es / redis / backend / frontend） |
 
 ## 快速开始
 
@@ -104,7 +104,7 @@ docker exec -e PYTHONUNBUFFERED=1 legal-backend python -m scripts.ingest
 
 ```
 .
-├── docker-compose.yml        # 三容器编排（es / backend / frontend）
+├── docker-compose.yml        # 多容器编排（es / redis / backend / frontend）
 ├── Dockerfile                # 后端镜像（Python 依赖 + 源码）
 ├── Dockerfile.es             # Elasticsearch 镜像（烘焙 IK 分词插件）
 ├── docs/                     # 技术报告、评测报告、面试知识体系（仅本地留存，不入库）
@@ -149,12 +149,14 @@ docker exec -e PYTHONUNBUFFERED=1 legal-backend python -m scripts.ingest
 
 自建条款级评测集（80 条基础查询 × 4 种语言变体）上的检索策略对比：
 
-| 策略 | MRR | Top-1 | R@10 | NDCG@10 |
-|------|-----|-------|------|---------|
-| 纯 BM25 | 0.3819 | 65.94% | 0.2007 | 0.1250 |
-| 纯向量 | 0.5735 | 76.25% | 0.1755 | 0.1875 |
-| 混合 RRF | 0.5589 | 85.94% | 0.1975 | 0.1917 |
-| **混合 + 精排** | **0.6303** | **88.44%** | **0.2349** | **0.2373** |
+| 策略 | MRR | 前20命中率 | 严格Top-1 | R@10 | NDCG@10 |
+|------|-----|-----------|-----------|------|---------|
+| 纯 BM25 | 0.4213 | 72.19% | 33.12% | 0.1704 | 0.1410 |
+| 纯向量 | 0.5842 | 76.88% | 49.06% | 0.1888 | 0.1981 |
+| 混合 RRF | 0.5544 | 86.88% | 43.75% | 0.2324 | 0.2096 |
+| **混合 + 精排** | **0.6591** | **86.88%** | **55.63%** | **0.2757** | **0.2766** |
+
+> 口径：`前20命中率` 为前 20 条结果中至少命中一条 gold（即落盘字段 `Top1_Accuracy` 的真实含义）；`严格Top-1` 为排名第 1 条即命中 gold。数据来自 `legal_rag/evals/results/eval_viz_data.json` 与 `eval_per_query.csv`（2026-10-13，320 条 = 80 × 4 语言变体）。
 
 问答评测（LLM-as-judge）与智能体对照（同批 80 条）：智能体多步推理在答案命中率、忠实度、相关性三项均优于单跳问答，平均延迟仅增加约 0.8s。
 
@@ -163,7 +165,7 @@ docker exec -e PYTHONUNBUFFERED=1 legal-backend python -m scripts.ingest
 ## 开发说明
 
 - **模型预热**：服务启动后在后台并行加载嵌入模型与精排模型并做推理预热；`/health/ready` 在预热完成前返回 503，前端容器据此等待，避免请求排队。
-- **性能约束**：单机 CPU 部署下精排为延迟主要来源，采用两阶段精排（仅精排前 N 条）、并发信号量、事件循环卸阻塞、LRU 结果缓存等手段优化。
+- **性能约束**：GPU（CUDA + FP16）部署下，冷启动就绪实测 31–43 秒（中位约 37 秒）；精排 20 条条款耗时由 CPU 的 11.4 秒降至 0.45 秒。仍采用两阶段精排（仅精排前 N 条）、并发信号量、事件循环卸阻塞、LRU 结果缓存等手段优化。
 - **配置方式**：所有可调参数与密钥均通过环境变量注入（`LEGAL_` 前缀），无硬编码密钥。
 - **智能体开关**：`LEGAL_AGENT_ENABLED` 控制 `/agent/stream` 是否走多步推理（关闭时自动降级为既有问答链路）；`LEGAL_AGENT_COMPLEXITY_ROUTING_ENABLED` 控制复杂度路由（简单/定向查询自动走快速链路）。
 
