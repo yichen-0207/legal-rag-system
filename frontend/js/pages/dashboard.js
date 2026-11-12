@@ -1,7 +1,7 @@
 registerPage('dashboard', function(container) {
     container.innerHTML = `
         <h1 class="page-title">数据总览看板</h1>
-        <p class="page-desc">展示境外法规数据库的整体数据概览和统计分析</p>
+        <p class="page-desc">展示境内外法规数据库的整体数据概览和统计分析</p>
         <div id="dashboard-content"></div>
     `;
 

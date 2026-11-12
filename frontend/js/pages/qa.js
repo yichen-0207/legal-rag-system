@@ -61,7 +61,7 @@ registerPage('qa', function(container) {
 
     container.innerHTML = `
         <h1 class="page-title">法规智能问答</h1>
-        <p class="page-desc">基于境外法规知识库的AI智能问答系统，支持精准检索、深度解读、多轮对话、跨法域对比、图片理解</p>
+        <p class="page-desc">基于境内外法规知识库的AI智能问答系统，支持精准检索、深度解读、多轮对话、跨法域对比、图片理解</p>
         <hr class="divider">
 
         <!-- 设置栏 -->
