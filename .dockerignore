@@ -16,5 +16,7 @@ legal_rag/logs/
 frontend/
 .screenshots/
 evidence_*/
+_internal/
+docs/
 *.zip
 requirements-eval.txt

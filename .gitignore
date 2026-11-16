@@ -53,6 +53,10 @@ Thumbs.db
 .trae/
 .trae-html-share-packages/
 
+# 内部材料：面试备战、竞赛文档、一次性评测产物，不随代码交付
+/_internal/
+/docs/
+
 # 诊断与证据产物（截图、探针证据，本地留存）
 .screenshots/
 evidence_radar/
