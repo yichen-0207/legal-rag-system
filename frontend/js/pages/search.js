@@ -194,361 +194,12 @@ function renderLawList(container, laws) {
     container.innerHTML = html;
 }
 
-// 繁简映射表：用于标题匹配，避免"网络安全法"与"網絡安全法"匹配失败
-var _ZH_T2S_MAP = {
-    '網': '网', '絡': '络', '網絡': '网络', '絡網': '络网',
-    '個': '个', '資': '资', '訊': '讯', '料': '料', '保護': '保护',
-    '護': '护', '產': '产', '電': '电', '腦': '脑', '擊': '击',
-    '竊': '窃', '盜': '盗', '竊盜': '窃盗', '僞': '伪', '造': '造',
-    '關': '关', '係': '系', '關係': '关系', '機': '机', '構': '构',
-    '機構': '机构', '團': '团', '體': '体', '團體': '团体',
-    '監': '监', '管': '管', '監管': '监管', '辦': '办', '公': '公',
-    '辦公': '办公', '廳': '厅', '處': '处', '員': '员', '職': '职',
-    '職員': '职员', '區': '区', '域': '域', '區域': '区域',
-    '內': '内', '務': '务', '內務': '内务', '安': '安', '全': '全',
-    '安全': '安全', '險': '险', '風險': '风险', '險情': '险情',
-    '報': '报', '舉報': '举报', '復': '复', '製': '制', '複製': '复制',
-    '傳': '传', '輸': '输', '傳輸': '传输', '播': '播', '傳播': '传播',
-    '發': '发', '發布': '发布', '發送': '发送', '佈': '布',
-    '獲': '获', '獲得': '获得', '取': '取', '獲取': '获取',
-    '數': '数', '據': '据', '數據': '数据', '隱': '隐', '私': '私',
-    '隱私': '隐私', '祕': '秘', '密': '密', '祕密': '秘密',
-    '條': '条', '約': '约', '條約': '条约', '規': '规', '則': '则',
-    '規則': '规则', '範': '范', '範圍': '范围', '圍': '围',
-    '標': '标', '準': '准', '標準': '标准', '審': '审', '計': '计',
-    '審計': '审计', '監察': '监察', '察': '察',
-    '訴': '诉', '訟': '讼', '訴訟': '诉讼', '罰': '罚', '處罰': '处罚',
-    '罰則': '罚则', '款': '款', '罰款': '罚款',
-    '執': '执', '行': '行', '執行': '执行', '實': '实', '施': '施',
-    '實施': '实施', '細': '细', '則': '则', '細則': '细则',
-    '總': '总', '則': '则', '總則': '总则', '附': '附',
-    '附則': '附则', '錄': '录', '附錄': '附录',
-    '匯': '汇', '兌': '兑', '匯兌': '汇兑', '幣': '币', '貨': '货',
-    '貨幣': '货币', '銀': '银', '行': '行', '銀行': '银行',
-    '險': '险', '保險': '保险', '證': '证', '券': '券', '證券': '证券',
-    '債': '债', '權': '权', '債權': '债权', '務': '务', '債務': '债务',
-    '產': '产', '業': '业', '產業': '产业', '廠': '厂', '商': '商',
-    '廠商': '厂商', '號': '号', '碼': '码', '號碼': '号码',
-    '圖': '图', '片': '片', '圖片': '图片', '視': '视', '頻': '频',
-    '視頻': '视频', '音': '音', '聲': '声', '聲音': '声音',
-    '軟': '软', '硬': '硬', '件': '件', '軟件': '软件', '硬件': '硬件',
-    '網': '网', '站': '站', '網站': '网站', '頁': '页', '網頁': '网页',
-    '連': '连', '接': '接', '連接': '连接', '鏈': '链', '結': '结',
-    '鏈結': '链接', '下載': '下载', '載': '载', '上傳': '上传',
-    '郵': '邮', '件': '件', '郵件': '邮件', '即時': '即时', '通訊': '通讯',
-    '討論': '讨论', '論壇': '论坛', '區': '区', '討論區': '讨论区',
-    '交': '交', '易': '易', '交易': '交易', '購': '购', '物': '物',
-    '購物': '购物', '電子商務': '电子商务', '務': '务',
-    '簽': '签', '署': '署', '簽署': '签署', '訂': '订', '立': '立',
-    '訂立': '订立', '約': '约', '契約': '契约',
-    '知': '知', '識': '识', '知識': '知识', '產': '产', '權': '权',
-    '產權': '产权', '版': '版', '權': '权', '版權': '版权',
-    '專': '专', '利': '利', '專利': '专利', '商': '商', '標': '标',
-    '商標': '商标', '著': '著', '作': '作', '著作': '著作',
-    '營': '营', '業': '业', '營業': '营业', '經': '经', '營': '营',
-    '經營': '经营', '執照': '执照', '許': '许', '可': '可',
-    '許可': '许可', '證': '证', '證書': '证书', '執': '执',
-    '登記': '登记', '記': '记', '註冊': '注册', '冊': '册',
-    '備': '备', '案': '案', '備案': '备案',
-    '開': '开', '發': '发', '開發': '开发', '創': '创', '新': '新',
-    '創新': '创新', '研': '研', '究': '究', '研究': '研究',
-    '試': '试', '驗': '验', '試驗': '试验', '測': '测', '試': '试',
-    '測試': '测试', '檢': '检', '查': '查', '檢查': '检查',
-    '驗證': '验证', '證': '证', '明': '明', '證明': '证明',
-    '鑑': '鉴', '定': '定', '鑑定': '鉴定', '評': '评', '估': '估',
-    '評估': '评估', '審': '审', '查': '查', '審查': '审查',
-    '核': '核', '准': '准', '核准': '核准', '認': '认', '證': '证',
-    '認證': '认证', '可': '可', '認可': '认可',
-    '責': '责', '任': '任', '責任': '责任', '義': '义', '義務': '义务',
-    '權利': '权利', '利': '利', '益': '益', '利益': '利益',
-    '損': '损', '害': '害', '損害': '损害', '賠': '赔', '償': '偿',
-    '賠償': '赔偿', '補': '补', '助': '助', '補助': '补助',
-    '獎': '奖', '勵': '励', '獎勵': '奖励', '懲': '惩', '戒': '戒',
-    '懲戒': '惩戒', '紀': '纪', '律': '律', '紀律': '纪律',
-    '衛': '卫', '生': '生', '衛生': '卫生', '醫': '医', '療': '疗',
-    '醫療': '医疗', '藥': '药', '品': '品', '藥品': '药品',
-    '健': '健', '康': '康', '健康': '健康',
-    '環': '环', '境': '境', '環境': '环境', '保護': '保护',
-    '污染': '污染', '汙': '污', '染': '染', '排放': '排放',
-    '废': '废', '棄': '弃', '廢棄': '废弃',
-    '勞': '劳', '工': '工', '勞工': '劳工', '僱': '雇', '傭': '佣',
-    '僱傭': '雇佣', '就業': '就业', '業': '业', '職業': '职业',
-    '薪': '薪', '資': '资', '薪資': '薪资', '福': '福', '利': '利',
-    '福利': '福利', '休': '休', '假': '假', '休假': '休假',
-    '解': '解', '僱': '雇', '解僱': '解雇', '辭': '辞', '退': '退',
-    '辭退': '辞退',
-    '消': '消', '費': '费', '消費': '消费', '者': '者',
-    '消費者': '消费者', '權益': '权益',
-    '兒': '儿', '童': '童', '兒童': '儿童', '少': '少', '年': '年',
-    '少年': '少年', '青': '青', '青少年': '青少年',
-    '老': '老', '人': '人', '老人': '老人', '殘': '残', '障': '障',
-    '殘障': '残障', '疾': '疾', '殘疾': '残疾',
-    '婦': '妇', '女': '女', '婦女': '妇女', '幼': '幼', '兒': '儿',
-    '幼兒': '幼儿',
-    '家': '家', '庭': '庭', '家庭': '家庭', '教': '教', '育': '育',
-    '教育': '教育', '學': '学', '習': '习', '學習': '学习',
-    '學校': '学校', '校': '校', '學院': '学院', '院': '院',
-    '大學': '大学', '學': '学',
-    '科': '科', '學': '学', '科學': '科学', '技': '技', '術': '术',
-    '技術': '技术', '工': '工', '業': '业', '工業': '工业',
-    '農': '农', '業': '业', '農業': '农业', '漁': '渔', '業': '业',
-    '漁業': '渔业', '礦': '矿', '業': '业', '礦業': '矿业',
-    '交': '交', '通': '通', '交通': '交通', '運': '运', '輸': '输',
-    '運輸': '运输', '物': '物', '流': '流', '物流': '物流',
-    '能': '能', '源': '源', '能源': '能源', '電': '电', '力': '力',
-    '電力': '电力', '水': '水', '資源': '资源', '水資源': '水资源',
-    '土': '土', '地': '地', '土地': '土地', '建': '建', '設': '设',
-    '建設': '建设', '築': '筑', '建築': '建筑', '屋': '屋', '宇': '宇',
-    '屋宇': '屋宇',
-    '公': '公', '共': '共', '公共': '公共', '安': '安', '全': '全',
-    '安全': '安全', '秩': '秩', '序': '序', '秩序': '秩序',
-    '國': '国', '家': '家', '國家': '国家', '民': '民', '族': '族',
-    '民族': '民族', '社': '社', '會': '会', '社會': '社会',
-    '政': '政', '治': '治', '政治': '政治', '軍': '军', '事': '事',
-    '軍事': '军事', '外': '外', '交': '交', '外交': '外交',
-    '司': '司', '法': '法', '司法': '司法', '立': '立', '法': '法',
-    '立法': '立法', '行': '行', '政': '政', '行政': '行政',
-    '檢': '检', '察': '察', '檢察': '检察', '警': '警', '察': '察',
-    '警察': '警察', '監': '监', '獄': '狱', '監獄': '监狱',
-    '稅': '税', '務': '务', '稅務': '税务', '關': '关', '稅': '税',
-    '關稅': '关税', '海': '海', '關': '关', '海關': '海关',
-    '財': '财', '政': '政', '財政': '财政', '預': '预', '算': '算',
-    '預算': '预算', '審': '审', '計': '计', '審計': '审计',
-    '統': '统', '計': '计', '統計': '统计',
-    '國': '国', '際': '际', '國際': '国际', '區': '区', '域': '域',
-    '區域': '区域', '地': '地', '區': '区', '地區': '地区',
-    '城': '城', '市': '市', '城市': '城市', '鄉': '乡', '鎮': '镇',
-    '鄉鎮': '乡镇', '村': '村', '莊': '庄', '村莊': '村庄',
-    '歐': '欧', '盟': '盟', '歐盟': '欧盟', '聯': '联', '合': '合',
-    '國': '国', '聯合國': '联合国', '世': '世', '界': '界',
-    '世界': '世界', '貿': '贸', '易': '易', '貿易': '贸易',
-    '投': '投', '資': '资', '投資': '投资', '引': '引', '資': '资',
-    '引資': '引资', '並': '并', '購': '购', '並購': '并购',
-    '重': '重', '組': '组', '重組': '重组', '整': '整', '合': '合',
-    '整合': '整合',
-    '打擊': '打击', '擊': '击', '犯罪': '犯罪', '犯': '犯',
-    '罪': '罪', '刑事': '刑事', '刑': '刑', '罰': '罚', '刑罰': '刑罚',
-    '民事': '民事', '訴訟': '诉讼', '仲裁': '仲裁', '仲': '仲',
-    '裁': '裁', '調解': '调解', '調': '调', '解': '解',
-};
-
-function _zhT2S(str) {
-    if (!str) return str;
-    var result = '';
-    for (var i = 0; i < str.length; i++) {
-        var ch = str.charAt(i);
-        if (_ZH_T2S_MAP[ch]) {
-            result += _ZH_T2S_MAP[ch];
-        } else {
-            result += ch;
-        }
-    }
-    return result;
-}
-
-// 繁简兼容的双向包含判断
-function _zhIncludes(a, b) {
-    if (!a || !b) return false;
-    var aS = _zhT2S(a);
-    var bS = _zhT2S(b);
-    return aS.indexOf(bS) !== -1 || bS.indexOf(aS) !== -1;
-}
-function extractTargetLawName(query) {
-    var triggers = ['澳门', '澳門', 'macau', 'Macau', 'MACAU',
-                    '香港', 'Hong Kong', 'hongkong', 'Hongkong', 'HONG KONG',
-                    '新加坡', 'Singapore', 'SINGAPORE'];
-
-    // Try 1: 含 "第X条" 模式
-    var match = query.match(/第(\d+)[条條]/);
-    if (match) {
-        for (var i = 0; i < triggers.length; i++) {
-            var pos = query.indexOf(triggers[i]);
-            if (pos !== -1) {
-                var name = query.substring(pos + triggers[i].length, match.index).replace(/[的\s]/g, '');
-                return name || null;
-            }
-        }
-    }
-
-    // Try 2: 提取法域关键词后的法规名称（不限语言）
-    for (var i = 0; i < triggers.length; i++) {
-        var pos = query.indexOf(triggers[i]);
-        if (pos !== -1) {
-            var afterJuris = query.substring(pos + triggers[i].length);
-
-            var cnMatch = afterJuris.match(/^[的\s]*([\u4e00-\u9fff]{2,20}(?:法|條例|条例|法规|規則|规则|法令|令|守则|守則|制度|指引))(?=[的关于和与,，。．\s]|$)/);
-            if (cnMatch) {
-                return cnMatch[1];
-            }
-
-            // 英文法规名称
-            var enMatch = afterJuris.match(/^\s*((?:[A-Za-z][-'A-Za-z]+[\s-]){0,5}(?:Act|Ordinance|Rule|Regulation|Program|Directive|Policy|Standard|Order|Code)(?:\s\d{4})?)(?=[\s\u4e00-\u9fff,，。．;(]|$)/);
-            if (enMatch) {
-                return enMatch[1].trim();
-            }
-
-            // 其他语言：如 "日本個人情報保護法" → "個人情報保護法"
-            var otherMatch = afterJuris.match(/^[的\s]*([^\s,，。．;;(（]+)/);
-            if (otherMatch) {
-                return otherMatch[1].trim();
-            }
-        }
-    }
-
-    return null;
-}
-
-// 法规名反查：不要求查询里出现法域名，直接用候选结果的标题反查查询串。
-// 查询串剥掉书名号与空白后作为法规名的子串去匹配标题（繁简归一、单向包含），
-// 恰好命中一部法规才认定；0 部或 ≥2 部都返回 null，交回 extractTargetLawName 的原有路径。
-// 长度门槛 4 字：避免「网络安全」这类泛词把多部法规误判成目标。
-var _MIN_LAW_QUERY_LEN = 4;
-
-// 查询串与标题必须走同一套归一：只归一一边，英文标题会因空格被剥而永远匹配不上。
-function _normLawQuery(str) {
-    return _zhT2S(String(str || '').replace(/[《》〈〉\u3000\s"'“”]/g, ''));
-}
-
-function resolveTargetLawId(items, query) {
-    var keyS = _normLawQuery(query);
-    if (keyS.length < _MIN_LAW_QUERY_LEN) return null;
-    var hits = {};
-    items.forEach(function(item) {
-        var metadata = item.metadata || {};
-        var lawId = metadata.law_id || item.law_id;
-        var title = metadata.title || item.title || '';
-        if (!lawId || !title) return;
-        if (_normLawQuery(title).indexOf(keyS) !== -1) hits[lawId] = true;
-    });
-    var ids = Object.keys(hits);
-    return ids.length === 1 ? ids[0] : null;
-}
-
-// 通用法规词元：法规名的通用后缀，不构成「词面交集」的证据。
-var _LAW_GENERIC_TERMS = {
-    '法律': 1, '法规': 1, '条例': 1, '规则': 1, '法令': 1, '制度': 1, '指引': 1,
-    '守则': 1, '办法': 1, '规定': 1, '决定': 1, '公约': 1, '章程': 1,
-    'act': 1, 'law': 1, 'laws': 1, 'code': 1, 'rule': 1, 'rules': 1,
-    'regulation': 1, 'regulations': 1, 'ordinance': 1, 'directive': 1,
-    'policy': 1, 'standard': 1, 'standards': 1, 'order': 1, 'program': 1, 'programme': 1
-};
-
-// 抽内容词元：英文取长度 ≥3 的单词，中文取连续汉字的双字片段，通用法规词不计入。
-function _lawTokens(str) {
-    var s = _zhT2S(String(str || ''));
-    var tokens = {};
-    (s.match(/[A-Za-z][A-Za-z'-]{2,}/g) || []).forEach(function(w) {
-        var lw = w.toLowerCase();
-        if (!_LAW_GENERIC_TERMS[lw]) tokens[lw] = true;
-    });
-    (s.match(/[\u4e00-\u9fff]{2,}/g) || []).forEach(function(run) {
-        for (var i = 0; i + 2 <= run.length; i++) {
-            var bg = run.substr(i, 2);
-            if (!_LAW_GENERIC_TERMS[bg]) tokens[bg] = true;
-        }
-    });
-    return tokens;
-}
-
-// 词面交集：法规标题与查询里抠出的法规名必须存在繁简归一后的包含关系，或共享至少一个内容词元。
-// 中英混排可能真的零交集（如中文查询 vs 纯英文法规库），此时返回 false，由调用方放弃提升，
-// 而不是仅凭加权分把一部毫不相关的法规顶成「目标法规」。
-function _hasLexicalOverlap(name, title) {
-    if (!name || !title) return false;
-    if (_zhIncludes(title, name)) return true;
-    var nameTokens = _lawTokens(name);
-    var titleTokens = _lawTokens(title);
-    for (var k in nameTokens) {
-        if (titleTokens[k]) return true;
-    }
-    return false;
-}
-
 function renderSearchResults(container, results, query) {
     // 只渲染前 50 条避免 DOM 过大；引用链扩展项（retrieval_hop=2）被追加在末尾且不参与排名，
     // 若截断将永远看不到，其数量有后端上界，故一并取回渲染。
     var topResults = results.slice(0, 50);
     var hopResults = results.filter(function(item) { return item.retrieval_hop === 2; });
     var displayResults = topResults.concat(hopResults);
-    var remainingCount = results.length - topResults.length;
-
-    // 从查询中提取目标法规名称（与后端 _extract_law_name 逻辑一致）
-    var targetLawName = extractTargetLawName(query);
-    // 前置：按「候选标题反查查询串」认定目标法规，不要求查询里出现法域名。
-    // 唯一命中时才生效；未命中或多部命中（泛词）落回下方 extractTargetLawName 的原路径。
-    var titleResolvedLawId = resolveTargetLawId(displayResults, query);
-
-    var targetResults = [];
-    var otherResults = [];
-
-    // 先尝试按标题精确匹配（支持繁简转换）
-    var hasTitleMatch = false;
-    displayResults.forEach(function(item) {
-        var title = (item.metadata && item.metadata.title) || item.title || '';
-        var lawId = (item.metadata && item.metadata.law_id) || item.law_id;
-        var isTarget = titleResolvedLawId
-            ? lawId === titleResolvedLawId
-            : (targetLawName && _zhIncludes(title, targetLawName));
-        if (isTarget) {
-            targetResults.push(item);
-            hasTitleMatch = true;
-        } else {
-            otherResults.push(item);
-        }
-    });
-
-    // 无标题匹配时（如中文名 vs 英文标题），按 law_id 加权分（∑score×(1+count/10)）判定目标法规：
-    // 头部加权分 ≥ 2 倍第二名且命中 ≥ 2 条才认定；仅当查询明确提取到法规名时启用。
-    if (targetLawName && !hasTitleMatch && otherResults.length > 0) {
-        var lawScores = {};  // { law_id: { totalScore, count } }
-        otherResults.forEach(function(item) {
-            var lawId = (item.metadata && item.metadata.law_id) || item.law_id;
-            var score = item.similarity || item.score || 0;
-            if (lawId) {
-                if (!lawScores[lawId]) {
-                    lawScores[lawId] = { totalScore: 0, count: 0 };
-                }
-                lawScores[lawId].totalScore += score;
-                lawScores[lawId].count += 1;
-            }
-        });
-
-        var ranked = Object.keys(lawScores).map(function(lid) {
-            var s = lawScores[lid];
-            return { lawId: lid, weightedScore: s.totalScore * (1 + s.count / 10), count: s.count };
-        }).sort(function(a, b) { return b.weightedScore - a.weightedScore; });
-
-        if (ranked.length > 0) {
-            var top = ranked[0];
-            var isDominant = ranked.length === 1 || top.weightedScore >= ranked[1].weightedScore * 2;
-            // 提升对象必须与查询抠出的法规名有词面交集：标题与查询毫无词面关系时，
-            // 加权分只说明「这部在该查询下检索得分偏高」，不足以认定它就是查询指向的法规。
-            var topTitles = [];
-            otherResults.forEach(function(item) {
-                var lawId = (item.metadata && item.metadata.law_id) || item.law_id;
-                if (lawId !== top.lawId) return;
-                var t = (item.metadata && item.metadata.title) || item.title || '';
-                if (t) topTitles.push(t);
-            });
-            var hasOverlap = topTitles.some(function(t) {
-                return _hasLexicalOverlap(targetLawName, t);
-            });
-            if (isDominant && top.count >= 2 && hasOverlap) {
-                var newTargets = [];
-                var remaining = [];
-                otherResults.forEach(function(item) {
-                    var lawId = (item.metadata && item.metadata.law_id) || item.law_id;
-                    if (lawId === top.lawId) {
-                        newTargets.push(item);
-                    } else {
-                        remaining.push(item);
-                    }
-                });
-                targetResults = newTargets;
-                otherResults = remaining;
-            }
-        }
-    }
 
     function groupByLaw(items) {
         const lawDict = {};
@@ -609,28 +260,30 @@ function renderSearchResults(container, results, query) {
         return Object.values(lawDict);
     }
 
-    const targetLaws = groupByLaw(targetResults);
-    const otherLaws = groupByLaw(otherResults);
-    const totalClauses = targetLaws.concat(otherLaws).reduce(function(sum, l) { return sum + l.clauses.length; }, 0);
+    // 不分档：全部法规按「该法下最高条款匹配度」降序；缺失分数（引用链补入项）排在最后。
+    var laws = groupByLaw(displayResults).sort(function(a, b) {
+        var aScore = (a.max_score === null || a.max_score === undefined) ? -1 : a.max_score;
+        var bScore = (b.max_score === null || b.max_score === undefined) ? -1 : b.max_score;
+        return bScore - aScore;
+    });
 
-    let html = '<div class="alert alert-success">检索成功</div>';
-
-    // 渲染目标法规
-    if (targetLaws.length > 0) {
-        html += '<div class="section-divider"><span>目标法规</span></div>';
-        html += '<div class="grid-2">';
-        targetLaws.forEach(function(law) { html += renderLawCard(law); });
-        html += '</div>';
+    var html = '<div class="alert alert-success">检索成功</div>';
+    if (laws.length === 0) {
+        html += '<div class="alert alert-warning">未找到相关法规</div>';
+        container.innerHTML = html;
+        return;
     }
-
-    // 渲染其他相关法规
-    if (otherLaws.length > 0) {
-        html += '<div class="section-divider section-divider-other"><span>其他相关法规</span></div>';
-        html += '<div class="grid-2">';
-        otherLaws.forEach(function(law) { html += renderLawCard(law); });
-        html += '</div>';
-    }
-
+    html += '<div class="law-result-list">';
+    laws.forEach(function(law) {
+        // 每部法只保留匹配度最高的前 3 条，条款内同样按匹配度降序
+        law.clauses = law.clauses.slice().sort(function(a, b) {
+            var aScore = (a.match_score === null || a.match_score === undefined) ? -1 : a.match_score;
+            var bScore = (b.match_score === null || b.match_score === undefined) ? -1 : b.match_score;
+            return bScore - aScore;
+        }).slice(0, 3);
+        html += renderLawCard(law);
+    });
+    html += '</div>';
     container.innerHTML = html;
 }
 
@@ -646,14 +299,16 @@ function renderLawCard(law) {
         else if (maxScorePercent >= 50) scoreColor = '#ed6c02';
     }
 
-    let html = '<div class="card">';
-    html += '<h3 style="font-family:var(--font-serif);font-size:1.0625rem;font-weight:600;margin-bottom:0.5rem;">' + escapeHtml(law.title) + '</h3>';
-    html += '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.75rem;">';
+    let html = '<div class="card law-card">';
+    html += '<div class="law-card-head">';
+    html += '<div>';
+    html += '<h3 class="law-card-title">' + escapeHtml(law.title) + '</h3>';
     html += '<span class="badge badge-info">' + escapeHtml(law.jurisdiction) + '</span>';
-    html += '<span style="font-size:0.75rem;color:' + scoreColor + ';font-weight:600;">' + (hasMax ? '最高匹配度 ' + maxScorePercent + '%' : '') + '</span>';
+    html += '</div>';
+    html += '<span class="law-card-score" style="color:' + scoreColor + ';">' + (hasMax ? '最高匹配度 ' + maxScorePercent + '%' : '') + '</span>';
     html += '</div>';
 
-    // 不按前端分数重排：后端返回顺序已是精排/融合后的最终顺序，重排会打乱它。
+    // 条款已在上层按匹配度降序截取前 3 条，这里只负责渲染
     law.clauses.forEach(function(clause) {
         const hasC = (clause.match_score !== null && clause.match_score !== undefined);
         const cPercent = hasC ? Math.round(clause.match_score * 100) : null;

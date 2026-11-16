@@ -582,26 +582,32 @@ tr:hover td {
 .alert-error { background: var(--color-error-bg); color: var(--color-error); border: 1px solid var(--color-border); }
 .alert-success { background: var(--color-success-bg); color: var(--color-success); border: 1px solid var(--color-border); }
 
-.section-divider {
+/* 法规全文检索结果：单列通栏，一部法规一行 */
+.law-result-list {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 1rem;
-    margin: 1.5rem 0 1rem;
+}
+
+.law-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.law-card-title {
+    font-family: var(--font-serif);
+    font-size: 1.0625rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+}
+
+.law-card-score {
     font-size: 0.8125rem;
     font-weight: 600;
-    color: var(--color-primary);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-.section-divider::before,
-.section-divider::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(to right, transparent, var(--color-border), transparent);
-}
-.section-divider.section-divider-other {
-    color: var(--color-text-muted);
+    white-space: nowrap;
 }
 
 /* Markdown 渲染内容（AI 回答），字号跟随正文 */
