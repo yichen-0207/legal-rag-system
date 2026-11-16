@@ -22,7 +22,7 @@ from langchain_core.messages import AIMessage, ToolMessage
 from langchain_openai import ChatOpenAI
 
 from core.config import settings
-from core.jurisdiction import COMPARE_KEYWORDS, get_all_jurisdictions
+from core.jurisdiction import COMPARE_KEYWORDS, get_all_jurisdictions, trigger_hit
 from core.llm import get_chat_model
 from services.agent.tools import EVIDENCE_STATUS_TOOL, AgentToolkit
 from services.query_decomposer import _CONJUNCTION_RE, _TARGET_ARTICLE_RE
@@ -119,7 +119,10 @@ def decide_route(question: str, route_mode: str = ROUTE_MODE_AUTO,
         return DECIDE_FAST, "targeted_article"
     if routed_jurisdictions and len(routed_jurisdictions) > 1:
         return DECIDE_AGENT, "multi_jurisdiction"
-    if any(kw in q for kw in _COMPARE_KEYWORDS):
+    # 英文比较词只对纯英文问句生效，与检索侧路由同一口径（含中文时沿用中文词表）
+    _has_cjk = bool(re.search(r"[\u4e00-\u9fff]", q))
+    if any(trigger_hit(kw, q, q.lower()) for kw in _COMPARE_KEYWORDS
+           if not (_has_cjk and kw.isascii())):
         return DECIDE_AGENT, "comparison"
     if _CONJUNCTION_RE.search(q) and len(q) >= int(settings.agent_conjunction_min_len):
         return DECIDE_AGENT, "multi_intent"
@@ -176,11 +179,15 @@ class AgentService:
     @staticmethod
     def _system_prompt(detected_jurisdictions: List[str]) -> str:
         jur_hint = "、".join(detected_jurisdictions) if detected_jurisdictions else "（未识别到，可按需自行判断）"
+        is_multi = len(detected_jurisdictions) > 1
+        role = ("你是法规检索分析助手，通过调用工具分步收集证据，最终产出结论先行的分析报告。"
+                if not is_multi else
+                "你是跨境法规检索分析助手，通过调用工具分步收集证据，最终产出结论先行的分法域对照报告。")
         # 把工具预算与「自评通过才停」的停止条件显式告诉模型，否则它会首轮扇出后直接作答，
         # 多步探索退化成单轮检索（深度模式与普通问答无差别）。
         max_calls = max(1, int(settings.agent_max_tool_calls))
         return (
-            "你是跨境法规检索分析助手，通过调用工具分步收集证据，最终产出分法域对照的分析报告。\n"
+            role + "\n"
             "【工作方式】\n"
             "1. 先判断问题涉及哪些法域、哪些方面；首轮直接用 search_laws 的 queries 一次批量检索"
             "2-4 条针对不同法域/方面的查询（内部并行合并去重），不要拆成多轮重复检索。\n"
@@ -193,6 +200,8 @@ class AgentService:
             "   - 若仍有法域或关键方面缺乏证据，必须继续发起调用补证（换查询措辞、追溯引用"
             "或查询图谱），不得就此作答；\n"
             "   - 仅当各法域/各方面证据齐备，或工具调用预算已用尽时，才输出最终回答。\n"
+            "   - 预算用尽仍有缺口时，先在证据边界内回答能确定的部分，再说明缺口；"
+            "不得把「未覆盖」写成开头结论。\n"
             "4. 判断可以作答时，直接输出最终回答文字，不要附带工具调用。\n"
             "5. 不要凭空编造法条；工具未返回的内容不要臆断。\n"
             "6. 上下文中若给出了检索计划，请优先按计划推进；判断证据是否充分时，可调用"
@@ -207,31 +216,46 @@ class AgentService:
         )
 
     @staticmethod
-    def _synthesis_prompt() -> str:
-        """Agent 专属合成提示：产出「检索覆盖概览 / 分法域对照 / 差异与共性 / 结论建议」
-        的对照式报告，与普通问答的连续解读式回答刻意区分，让深度模式的产出差异可被感知。
-        """
+    def _synthesis_prompt(detected_jurisdictions: List[str]) -> str:
+        """Agent 合成提示：结论先行；单法域不做分法域对照，证据不足时先答后标缺口。"""
+        single = len(detected_jurisdictions) == 1
+        if single:
+            structure = (
+                "## 一、结论（先答）\n"
+                "用 2-4 句话直接回答用户问题：先写基于现有证据能够确定的结论，再写一句需要补充的边界。\n"
+                "\n## 二、法律依据\n"
+                "按问题要点组织（不要按法域分节），逐条标注法域 + 《法规全称》第X条【来源X】，"
+                "说明适用范围、构成要件与实务影响；不要大段照抄原文。\n"
+                "\n## 三、证据边界与建议\n"
+                "先列 1-3 条现有证据未覆盖、需要补充的点（若主要问题已覆盖则写"
+                "「现有证据已覆盖主要问题」），再给出可操作建议。"
+            )
+        else:
+            structure = (
+                "## 一、结论（先答）\n"
+                "用 2-4 句话给出跨法域对比后的核心结论。\n"
+                "\n## 二、分法域要点对照\n"
+                "按法域分别成节，每个法域下逐条列出与该问题相关的关键规定，每条标注出处："
+                "法域 + 《法规全称》第X条【来源X】，并说明适用范围、构成要件与实务影响。\n"
+                "\n## 三、关键差异与共同点\n"
+                "用要点或 Markdown 表格，对比各法域在保护力度、适用门槛、责任承担等方面的差异与共性。\n"
+                "\n## 四、证据边界与建议\n"
+                "先列现有证据未覆盖、需要补充的点，再给明确结论与可操作建议。"
+            )
         return (
-            "你是跨境法规检索分析助手。本次已通过多步工具调用（检索条文 / 追溯引用 / 图谱多跳）"
-            "收集证据，请基于这些证据撰写结构化的分法域对照分析报告。\n"
-            "\n【报告结构】\n"
-            "## 一、检索覆盖概览（80-120字）\n"
-            "说明本次证据覆盖了哪些法域、主要涉及哪些法规（《法规名》第X条），并一句话点明问题核心。\n"
-            "\n## 二、分法域要点对照\n"
-            "按法域分别成节（如「### 澳门」「### 香港」「### 日本」…），每个法域下逐条列出与该问题"
-            "相关的关键规定，每条标注出处：法域 + 《法规全称》第 X 条【来源X】；并说明适用范围、"
-            "构成要件与实务影响（不要大段照抄原文）。\n"
-            "\n## 三、关键差异与共同点\n"
-            "用要点或 Markdown 表格，对比各法域在保护力度、适用门槛、责任承担等方面的差异与共性。\n"
-            "\n## 四、结论与行动建议\n"
-            "给出明确结论与可操作建议，并列 2-3 条延伸提醒。\n"
-            "\n【证据边界】\n"
-            "- 若某法域或某方面证据不足，必须在对应位置明确写出「现有检索证据未覆盖该方面」，不得略过。\n"
+            "你是法规检索分析助手。本次已通过多步工具调用（检索条文 / 追溯引用 / 图谱多跳）"
+            "收集证据，请基于这些证据撰写分析。\n"
+            "\n【报告结构】\n" + structure + "\n"
+            "\n【作答政策】\n"
+            "- 结论先行：第一段必须直接回答用户问题，不得以「检索覆盖概览」或「证据不足」开头。\n"
+            "- 边界内先答：现有证据能支持的部分先给出明确结论；只有确实缺失的部分才标注"
+            "「现有证据未覆盖」，并说明需要补充什么。\n"
+            "- 单法域问题不要写其他法域，也不要做分法域对照；只有查询明确要求跨法域比较时才用对照结构。\n"
             "- 仅可引用本次【参考资料库】中的【来源X】；历史对话里的旧来源已失效，不得引用。\n"
             "- 所有结论须有【来源X】支撑，严禁编造资料中没有的信息。\n"
             "\n【写作规范】\n"
             "- 使用 Markdown 层级标题，关键术语加粗，法条用行内引用（仅摘录关键短语）。\n"
-            "- 总字数 1200-1800 字，以对照分析为主，不堆砌法条原文。"
+            "- 总字数 1200-1800 字，以分析为主，不堆砌法条原文。"
         )
 
     def _build_agent(self, system_prompt: str, tools: List[Any], middleware: List[Any] = None):
@@ -982,13 +1006,13 @@ class AgentService:
             "retrieved_count": len(contexts),
             "jurisdictions": list(source_jurisdictions) if not jurisdictions else jurisdictions,
         }
-        yield {"type": "status", "stage": "generate", "data": "正在生成分法域对照分析…"}
+        yield {"type": "status", "stage": "generate", "data": "正在生成分析…"}
 
         qa = self._qa_service()
         messages_final = qa._build_messages(
             question, contexts, history, kg_text,
             max_primary=max(int(top_k), int(settings.agent_finalize_pass_k)),
-            system_prompt_override=self._synthesis_prompt(),
+            system_prompt_override=self._synthesis_prompt(detected),
         )
 
         t_gen0 = time.time()

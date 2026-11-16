@@ -12,11 +12,12 @@ from core.jurisdiction import (
     JURISDICTION_KEYWORDS,
     REGION_MAP,
     detect_single_jurisdiction,
+    trigger_hit,
 )
 from services.query_decomposer import decompose_query
 from services.query_planner import plan_retrieval
 from utils.search_cache import get_search_cache, normalize_query_for_cache
-from utils.query_enhance import enhance_query
+from utils.query_enhance import enhance_query, normalize_query_for_retrieval
 
 logger = logging.getLogger(__name__)
 
@@ -67,17 +68,19 @@ class RetrieverService:
             self._reranker = ReRankerService()
         return self._reranker
 
-    def _rerank_two_stage(self, query: str, candidates: List[Dict]) -> List[Dict]:
-        """两阶段重排：只精排前 reranker_window 条，其余候选按原 RRF 顺序拼在尾部。
+    def _rerank_two_stage(self, query: str, candidates: List[Dict],
+                          window: Optional[int] = None) -> List[Dict]:
+        """两阶段重排：只精排前 window 条（默认 reranker_window），其余按原 RRF 顺序拼在尾部。
 
         尾部候选不丢弃，top_k 较大时不会因不进精排窗口而消失；精排模型不可用时
-        原样返回 candidates，不阻断检索。
+        原样返回 candidates，不阻断检索。跨法域检索会传入更大的窗口，
+        让每个法域的第 3、4 名也参与打分，供后续法域轮转选取。
         """
         reranker = self._get_reranker()
         if not reranker or not candidates:
             return candidates
 
-        window = min(len(candidates), settings.reranker_window)
+        window = min(len(candidates), window or settings.reranker_window)
         if window <= 0:
             return candidates
 
@@ -299,13 +302,23 @@ class RetrieverService:
         if len(named_jurs) >= 2:
             return named_jurs
 
-        # 检查区域性关键词
+        # 检查区域性关键词：中文用子串，英文按小写 + 词边界（否则大小写混排的英文查询
+        # 直接不触发路由，退化成全域单跳）。英文词表只对纯英文查询生效：含中文的查询沿用
+        # 既有中文路由，避免中英混排的问句被英文区域词改道（已验证的中文路由零漂移）。
+        lowered = (query or "").lower()
+        has_cjk = bool(re.search(r"[\u4e00-\u9fff]", query))
         for region, jur_list in REGION_MAP.items():
-            if region in query:
+            if has_cjk and region.isascii():
+                continue
+            if trigger_hit(region, query, lowered):
                 return jur_list
 
         # 检查比较型关键词
-        is_comparative = any(kw in query for kw in COMPARE_KEYWORDS)
+        is_comparative = any(
+            trigger_hit(kw, query, lowered)
+            for kw in COMPARE_KEYWORDS
+            if not (has_cjk and kw.isascii())
+        )
         if is_comparative:
             # 比较型但无法确定区域 → 查所有有数据的法域（排除跨法域自身）
             return list(ALL_DATA_JURISDICTIONS)
@@ -333,9 +346,49 @@ class RetrieverService:
         merged.sort(key=lambda x: x["rrf_score"], reverse=True)
         return merged
 
+    @staticmethod
+    def _diversify_by_jurisdiction(ranked: List[Dict], top_k: int) -> List[Dict]:
+        """按法域轮转选取 top_k：每轮各法域取一条，轮次内保持传入顺序。
+
+        法域顺序取首次出现顺序（即各组最高名次）。只使用候选自带的 jurisdiction
+        与当前名次，不读取任何评测标签；候选只涉及一个法域时退化为原序截断，
+        单法域检索不受影响。
+        """
+        if not ranked or top_k <= 0:
+            return []
+        if not settings.jurisdiction_diversity_enabled:
+            return ranked[:top_k]
+
+        buckets: Dict[str, List[Dict]] = {}
+        for doc in ranked:
+            buckets.setdefault(doc.get("jurisdiction") or "", []).append(doc)
+        if len(buckets) <= 1:
+            return ranked[:top_k]
+
+        picked: List[Dict] = []
+        depth = 0
+        while len(picked) < top_k:
+            advanced = False
+            for bucket in buckets.values():
+                if len(bucket) <= depth:
+                    continue
+                picked.append(bucket[depth])
+                advanced = True
+                if len(picked) >= top_k:
+                    break
+            if not advanced:
+                break
+            depth += 1
+        return picked
+
     def _hybrid_search_routed(self, query: str, jurisdictions: List[str],
                                top_k: int = 20) -> List[Dict]:
-        """多法域路由检索：每个法域独立检索 Top-10，RRF 融合后两阶段精排。"""
+        """多法域路由检索：每个法域独立检索 Top-10，RRF 融合后两阶段精排。
+
+        精排后按法域轮转截断 top_k：语料扩到 536 部后，大法域（美国/澳大利亚等）
+        的条款在精排分上更容易占满前列，轮转让每个法域的高分条款都有位置，
+        而不是靠法域硬过滤（跨法域查询一旦过滤就丢掉查询本身要的对比对象）。
+        """
         enhanced_query = self._enhance_query(query) or query
         all_per_jur_results = []
 
@@ -374,10 +427,14 @@ class RetrieverService:
         # RRF 合并
         merged = self._rrf_merge_results(all_per_jur_results, rrf_k=60)
 
-        # 两阶段精排：前 reranker_window 条精排，其余按 RRF 顺序拼接
-        merged = self._rerank_two_stage(query=query, candidates=merged)
+        # 两阶段精排：跨法域用更大窗口（cross_jurisdiction_rerank_window），让各法域第 3、4 名也拿到精排分
+        merged = self._rerank_two_stage(
+            query=query, candidates=merged,
+            window=settings.cross_jurisdiction_rerank_window,
+        )
 
-        merged = merged[:top_k]
+        # 法域轮转截断：每轮各法域取一条，避免单一法域垄断 top_k
+        merged = self._diversify_by_jurisdiction(merged, top_k)
         # 展示用匹配度（真实余弦）
         return self._attach_match_scores(merged)
 
@@ -632,8 +689,12 @@ class RetrieverService:
         else:
             jurisdiction = plan.jurisdiction
 
-        enhanced_query = self._enhance_query(query)
-        search_query = enhanced_query or query
+        # 召回串归一：只在有单法域过滤时启用；跨法域/全局保留原查询，
+        # 因为此时法域名是唯一地理信号（Q4 对照：跨法域 56 条按设计不归一）。
+        if jurisdiction:
+            search_query = normalize_query_for_retrieval(query) or query
+        else:
+            search_query = self._enhance_query(query) or query
 
         where_filter = {}
         if jurisdiction:
@@ -688,14 +749,14 @@ class RetrieverService:
                 }
                 formatted_results.append(result)
 
-        # 如果查询包含 "第X条"，尝试找到目标条款（无论是启用 re-ranker）
-        article_match = re.search(r'第(\d+)[条條]', search_query)
+        # 定向条款识别用原查询：归一会删掉法域名，而法域名是 _extract_law_name 的定位锚点
+        article_match = re.search(r'第(\d+)[条條]', self._enhance_query(query))
         target_doc = None
         query_law_name = None
         target = None
         if article_match:
             target = article_match.group(1)
-            query_law_name = self._extract_law_name(search_query)
+            query_law_name = self._extract_law_name(query)
             best_idx = None
             for idx, doc in enumerate(formatted_results):
                 if doc.get("article_number", "").strip() != target:
@@ -717,9 +778,14 @@ class RetrieverService:
                     found["_cosine"] = 1.0  # 定向命中：展示为 100%
                     target_doc = found
 
+        # 跨法域（无单法域过滤）时放宽精排窗口：候选池更大，法域轮转才有可选余地
+        multi_jur = jurisdiction is None
         # 两阶段精排：前 reranker_window 条精排，其余按 RRF 顺序拼接（子查询关闭时跳过）
         if _rerank:
-            formatted_results = self._rerank_two_stage(query=search_query, candidates=formatted_results)
+            formatted_results = self._rerank_two_stage(
+                query=query, candidates=formatted_results,
+                window=settings.cross_jurisdiction_rerank_window if multi_jur else None,
+            )
 
         # 把目标条款插到最前面
         if target_doc:
@@ -730,7 +796,11 @@ class RetrieverService:
 
         # 主结果按 top_k 截断：上面的 dedup_k（= max(top_k*3, 50)）只是为精排保留的
         # 候选余量，不应作为最终条数外泄（此前前端要 50 条却拿到 150+ 条）。
-        formatted_results = formatted_results[:top_k]
+        # 跨法域且无定向条款时按法域轮转截断，避免大语料法域垄断 top_k。
+        if multi_jur and target_doc is None:
+            formatted_results = self._diversify_by_jurisdiction(formatted_results, top_k)
+        else:
+            formatted_results = formatted_results[:top_k]
 
         # 引用链扩展在其后追加：扩展项是「附加引用链接」而非排名结果，不计入 top_k 名额。
         # 若先追加再截断，因主结果始终填满 top_k，扩展项会被永久截掉（多跳A 在检索页失效）。
@@ -764,6 +834,7 @@ class RetrieverService:
             f"jur={jurisdiction or ''}",
             f"topics={','.join(topics) if topics else ''}",
             f"rerank={int(settings.reranker_enabled)}:{settings.reranker_window}",
+            f"div={int(settings.jurisdiction_diversity_enabled)}:{settings.cross_jurisdiction_rerank_window}",
             f"refexp={int(settings.reference_expand_enabled)}:{int(settings.reference_expand_cross_law_enabled)}",
             f"mhdec={int(settings.multihop_decompose_enabled)}",
         ])

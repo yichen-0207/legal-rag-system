@@ -114,3 +114,59 @@ def enhance_query(query: str) -> str:
     if extra_terms:
         return q + ' ' + ' '.join(extra_terms)
     return q
+
+
+# ============================================================
+# 检索文本归一：只作用于召回，不作用于精排
+# ============================================================
+
+# 法域触发词按长度倒序，避免「中国香港」先被「香港」截断
+_JURIS_STRIP_TERMS = tuple(sorted(
+    {t for aliases in ALL_TRIGGERS.values() for t in aliases},
+    key=len, reverse=True,
+))
+
+# 只删问句脚手架；不删「法律 / 法规 / 规定 / 条文 / 条款」等可能承载语义的词。
+# 依据：2026-11-15 的 Q4 对照（R@20 0.2568→0.2896，MRR 0.2386→0.2498）。
+_SCAFFOLD_ZH = ("核心法律规定", "相关法律规定", "核心规定", "相关规定",
+                "有哪些", "是什么", "请问")
+_SCAFFOLD_EN = ("what are the key legal provisions on",
+                "what are the legal requirements for",
+                "what are the key legal provisions",
+                "what are", "what is")
+
+
+def _strip_jurisdiction_terms(text: str) -> str:
+    """删法域名；ASCII 词加边界，避免 us 命中 business。"""
+    for term in _JURIS_STRIP_TERMS:
+        if term.isascii():
+            text = re.sub(rf"(?<![A-Za-z0-9]){re.escape(term)}(?![A-Za-z0-9])",
+                          " ", text, flags=re.I)
+        else:
+            text = text.replace(term, " ")
+    return text
+
+
+def _strip_query_scaffold(text: str) -> str:
+    """删问句脚手架与标点，保留主题词。"""
+    for term in _SCAFFOLD_ZH:
+        text = text.replace(term, " ")
+    for term in _SCAFFOLD_EN:
+        text = re.sub(rf"(?<![A-Za-z0-9]){re.escape(term)}(?![A-Za-z0-9])",
+                      " ", text, flags=re.I)
+    text = re.sub(r"[？?。，,、；;：:]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def normalize_query_for_retrieval(query: str) -> str:
+    """返回用于 BM25 / 向量召回的查询串；精排必须继续使用原查询。
+
+    删除法域名与高置信问句脚手架，保留「法律 / 法规 / 规定」等可能承载语义的词。
+    只能在调用方确定会施加单法域过滤时使用——跨法域/全局检索里法域名是唯一地理信号。
+    归一后为空时回退原查询，避免空串检索。
+    """
+    q = query or ""
+    text = _strip_query_scaffold(_strip_jurisdiction_terms(q))
+    if not text:
+        return q
+    return enhance_query(text)

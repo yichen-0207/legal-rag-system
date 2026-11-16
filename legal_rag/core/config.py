@@ -75,6 +75,12 @@ class Settings(BaseSettings):
     reranker_window: int = 20
     # 精排并发上限，避免 CPU 抢占与内存超限
     reranker_max_concurrency: int = 2
+    # 跨法域多样性：无单法域过滤（扇出路由 / 全域检索）时按法域轮转选取 top_k，
+    # 避免大语料法域垄断候选；只依赖候选自带 jurisdiction 与名次，不读任何评测标签
+    jurisdiction_diversity_enabled: bool = True
+    # 跨法域精排窗口：候选池更大才有轮转余地。40 条跨法域变体实测 w30 与 w40
+    # MRR 基本持平（0.4372 vs 0.4285），端到端耗时 1327ms vs 1568ms，取 30
+    cross_jurisdiction_rerank_window: int = 30
 
     # 引用链多跳：把同法规内引用到的条款补入候选（纯正则 + ES，不调 LLM）
     reference_expand_enabled: bool = True

@@ -185,6 +185,31 @@ REGION_MAP: Dict[str, List[str]] = {
                  "中国澳门", "中国大陆", "澳大利亚", "美国"],
     "各司法管辖区": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
                      "中国澳门", "中国大陆", "澳大利亚", "美国"],
+
+    # 英文区域词：与中文键同义，不做额外扩张（否则英文查询会被扇到查询本身没问的法域）。
+    # 匹配侧按小写 + ASCII 词边界（trigger_hit），故此处一律小写；顺序即优先级，
+    # 复合词在前：'southeast asia' 含 'east asia' 子串，'east and southeast asian' 又含前者。
+    "east and southeast asian": ["日本", "韩国", "中国香港", "中国澳门", "中国大陆",
+                                 "新加坡", "马来西亚", "泰国", "越南"],
+    "asia-pacific": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国",
+                     "越南", "中国澳门", "中国大陆", "澳大利亚"],
+    "asia pacific": ["中国香港", "日本", "韩国", "新加坡", "马来西亚", "泰国",
+                     "越南", "中国澳门", "中国大陆", "澳大利亚"],
+    "southeast asian": ["新加坡", "马来西亚", "泰国", "越南"],
+    "southeast asia": ["新加坡", "马来西亚", "泰国", "越南"],
+    "south-east asia": ["新加坡", "马来西亚", "泰国", "越南"],
+    "south east asia": ["新加坡", "马来西亚", "泰国", "越南"],
+    "asean": ["新加坡", "马来西亚", "泰国", "越南"],
+    "east asian": ["日本", "韩国", "中国香港", "中国澳门", "中国大陆"],
+    "east asia": ["日本", "韩国", "中国香港", "中国澳门", "中国大陆"],
+    "major asian countries": ["日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
+                              "中国香港", "中国澳门", "中国大陆"],
+    "asian jurisdictions": ["日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
+                            "中国香港", "中国澳门", "中国大陆"],
+    "asian countries": ["日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
+                        "中国香港", "中国澳门", "中国大陆"],
+    "asian economies": ["日本", "韩国", "新加坡", "马来西亚", "泰国", "越南",
+                        "中国香港", "中国澳门", "中国大陆"],
 }
 
 # 查询中直接点名的法域关键词 → 规范名（含英文与旧称）
@@ -204,8 +229,15 @@ JURISDICTION_KEYWORDS: Dict[str, str] = {
 }
 
 # 比较型问句（无法确定区域时的扇出信号）
+# 英文侧按词形逐项列举：trigger_hit 有词边界，'compare' 不会命中 'compared'/'comparison'。
+# 不用裸 'different'（英文里常作无对比含义的定语，会把单法域查询误扇到 11 个法域）。
 COMPARE_KEYWORDS: List[str] = [
-    "有何异同", "有何差异", "比较", "区别", "差异", "异同", "不同模式", "versus", "vs",
+    "有何异同", "有何差异", "比较", "区别", "差异", "异同", "不同模式",
+    "versus", "vs",
+    "compare", "compared", "compares", "comparing", "comparison",
+    "difference", "differences", "differ", "differs", "different jurisdictions",
+    "different countries", "different legal systems",
+    "similarities", "similarity",
 ]
 
 # 有数据的法域清单：比较型查询兜底扇出用
