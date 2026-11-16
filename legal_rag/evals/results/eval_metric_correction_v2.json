@@ -1,0 +1,356 @@
+{
+  "created_at": "2026-11-15",
+  "source_files": [
+    "legal_rag/evals/results/eval_per_query_v2.csv",
+    "legal_rag/evals/results/eval_per_query_v2rr.csv"
+  ],
+  "metric_semantics": {
+    "Hit@20": "返回列表前 20 条中至少命中一条 gold；旧字段 Top1_Accuracy 的实际含义",
+    "Rank1_Accuracy": "返回列表第 1 条即命中 gold（MRR==1.0）",
+    "Top1_Accuracy": "已废弃：旧文件中的该字段等价于 Hit@20，不得当作 rank-1",
+    "NDCG@20": "per_k_truncated_v2：IDCG@k 逐 k 截断；本快照仅法规级可从 CSV 复算"
+  },
+  "overall": {
+    "four_strategies": {
+      "仅BM25检索": {
+        "law": {
+          "n": 596,
+          "MRR": 0.5869,
+          "Hit@20": 0.8188,
+          "Rank1_Accuracy": 0.4799,
+          "Recall@5": 0.5876,
+          "Recall@20": 0.6683,
+          "NDCG@20": 0.5645
+        },
+        "clause": {
+          "n": 452,
+          "MRR": 0.1454,
+          "Hit@20": 0.3827,
+          "Rank1_Accuracy": 0.0841,
+          "Recall@5": 0.0725,
+          "Recall@10": 0.1218,
+          "Recall@20": 0.18,
+          "Precision@5": 0.0664
+        }
+      },
+      "纯向量检索": {
+        "law": {
+          "n": 596,
+          "MRR": 0.6856,
+          "Hit@20": 0.849,
+          "Rank1_Accuracy": 0.5839,
+          "Recall@5": 0.6417,
+          "Recall@20": 0.6532,
+          "NDCG@20": 0.613
+        },
+        "clause": {
+          "n": 452,
+          "MRR": 0.1833,
+          "Hit@20": 0.385,
+          "Rank1_Accuracy": 0.0996,
+          "Recall@5": 0.093,
+          "Recall@10": 0.1345,
+          "Recall@20": 0.1345,
+          "Precision@5": 0.0836
+        }
+      },
+      "混合检索(RRF)": {
+        "law": {
+          "n": 596,
+          "MRR": 0.7116,
+          "Hit@20": 0.9396,
+          "Rank1_Accuracy": 0.5973,
+          "Recall@5": 0.6734,
+          "Recall@20": 0.7686,
+          "NDCG@20": 0.6689
+        },
+        "clause": {
+          "n": 452,
+          "MRR": 0.1888,
+          "Hit@20": 0.5575,
+          "Rank1_Accuracy": 0.0973,
+          "Recall@5": 0.0892,
+          "Recall@10": 0.162,
+          "Recall@20": 0.2521,
+          "Precision@5": 0.0845
+        }
+      },
+      "混合+Re-ranker": {
+        "law": {
+          "n": 596,
+          "MRR": 0.7264,
+          "Hit@20": 0.9362,
+          "Rank1_Accuracy": 0.6007,
+          "Recall@5": 0.7072,
+          "Recall@20": 0.7688,
+          "NDCG@20": 0.683
+        },
+        "clause": {
+          "n": 452,
+          "MRR": 0.2241,
+          "Hit@20": 0.5597,
+          "Rank1_Accuracy": 0.1283,
+          "Recall@5": 0.0919,
+          "Recall@10": 0.1593,
+          "Recall@20": 0.2529,
+          "Precision@5": 0.0912
+        }
+      }
+    },
+    "standalone_reranker": {
+      "混合+Re-ranker": {
+        "law": {
+          "n": 596,
+          "MRR": 0.7426,
+          "Hit@20": 0.9396,
+          "Rank1_Accuracy": 0.6359,
+          "Recall@5": 0.696,
+          "Recall@20": 0.7684,
+          "NDCG@20": 0.6892
+        },
+        "clause": {
+          "n": 452,
+          "MRR": 0.2364,
+          "Hit@20": 0.5553,
+          "Rank1_Accuracy": 0.1438,
+          "Recall@5": 0.0922,
+          "Recall@10": 0.163,
+          "Recall@20": 0.2535,
+          "Precision@5": 0.0947
+        }
+      }
+    }
+  },
+  "by_subset": {
+    "four_strategies": {
+      "仅BM25检索": {
+        "template": {
+          "law": {
+            "n": 276,
+            "MRR": 0.6379,
+            "Hit@20": 0.8623,
+            "Rank1_Accuracy": 0.5362,
+            "Recall@5": 0.5622,
+            "Recall@20": 0.6296,
+            "NDCG@20": 0.5669
+          },
+          "clause": {
+            "n": 276,
+            "MRR": 0.1584,
+            "Hit@20": 0.4022,
+            "Rank1_Accuracy": 0.0906,
+            "Recall@5": 0.072,
+            "Recall@10": 0.123,
+            "Recall@20": 0.186,
+            "Precision@5": 0.0783
+          }
+        },
+        "legacy": {
+          "law": {
+            "n": 320,
+            "MRR": 0.5429,
+            "Hit@20": 0.7812,
+            "Rank1_Accuracy": 0.4313,
+            "Recall@5": 0.6095,
+            "Recall@20": 0.7017,
+            "NDCG@20": 0.5624
+          },
+          "clause": {
+            "n": 176,
+            "MRR": 0.125,
+            "Hit@20": 0.3523,
+            "Rank1_Accuracy": 0.0739,
+            "Recall@5": 0.0733,
+            "Recall@10": 0.1198,
+            "Recall@20": 0.1706,
+            "Precision@5": 0.0477
+          }
+        }
+      },
+      "纯向量检索": {
+        "template": {
+          "law": {
+            "n": 276,
+            "MRR": 0.7287,
+            "Hit@20": 0.9022,
+            "Rank1_Accuracy": 0.6268,
+            "Recall@5": 0.5732,
+            "Recall@20": 0.586,
+            "NDCG@20": 0.5828
+          },
+          "clause": {
+            "n": 276,
+            "MRR": 0.1568,
+            "Hit@20": 0.3696,
+            "Rank1_Accuracy": 0.0761,
+            "Recall@5": 0.0695,
+            "Recall@10": 0.1175,
+            "Recall@20": 0.1175,
+            "Precision@5": 0.0761
+          }
+        },
+        "legacy": {
+          "law": {
+            "n": 320,
+            "MRR": 0.6483,
+            "Hit@20": 0.8031,
+            "Rank1_Accuracy": 0.5469,
+            "Recall@5": 0.7007,
+            "Recall@20": 0.7111,
+            "NDCG@20": 0.639
+          },
+          "clause": {
+            "n": 176,
+            "MRR": 0.2248,
+            "Hit@20": 0.4091,
+            "Rank1_Accuracy": 0.1364,
+            "Recall@5": 0.1298,
+            "Recall@10": 0.1612,
+            "Recall@20": 0.1612,
+            "Precision@5": 0.0955
+          }
+        }
+      },
+      "混合检索(RRF)": {
+        "template": {
+          "law": {
+            "n": 276,
+            "MRR": 0.7659,
+            "Hit@20": 0.9565,
+            "Rank1_Accuracy": 0.6667,
+            "Recall@5": 0.6007,
+            "Recall@20": 0.6719,
+            "NDCG@20": 0.6479
+          },
+          "clause": {
+            "n": 276,
+            "MRR": 0.2069,
+            "Hit@20": 0.5725,
+            "Rank1_Accuracy": 0.1123,
+            "Recall@5": 0.0884,
+            "Recall@10": 0.1516,
+            "Recall@20": 0.2417,
+            "Precision@5": 0.0993
+          }
+        },
+        "legacy": {
+          "law": {
+            "n": 320,
+            "MRR": 0.6647,
+            "Hit@20": 0.925,
+            "Rank1_Accuracy": 0.5375,
+            "Recall@5": 0.7361,
+            "Recall@20": 0.8521,
+            "NDCG@20": 0.687
+          },
+          "clause": {
+            "n": 176,
+            "MRR": 0.1603,
+            "Hit@20": 0.5341,
+            "Rank1_Accuracy": 0.0739,
+            "Recall@5": 0.0904,
+            "Recall@10": 0.1783,
+            "Recall@20": 0.2685,
+            "Precision@5": 0.0614
+          }
+        }
+      },
+      "混合+Re-ranker": {
+        "template": {
+          "law": {
+            "n": 276,
+            "MRR": 0.7617,
+            "Hit@20": 0.9565,
+            "Rank1_Accuracy": 0.6449,
+            "Recall@5": 0.6194,
+            "Recall@20": 0.6707,
+            "NDCG@20": 0.6484
+          },
+          "clause": {
+            "n": 276,
+            "MRR": 0.2437,
+            "Hit@20": 0.5725,
+            "Rank1_Accuracy": 0.1341,
+            "Recall@5": 0.0937,
+            "Recall@10": 0.1656,
+            "Recall@20": 0.2419,
+            "Precision@5": 0.1087
+          }
+        },
+        "legacy": {
+          "law": {
+            "n": 320,
+            "MRR": 0.6959,
+            "Hit@20": 0.9187,
+            "Rank1_Accuracy": 0.5625,
+            "Recall@5": 0.7829,
+            "Recall@20": 0.8535,
+            "NDCG@20": 0.7128
+          },
+          "clause": {
+            "n": 176,
+            "MRR": 0.1934,
+            "Hit@20": 0.5398,
+            "Rank1_Accuracy": 0.1193,
+            "Recall@5": 0.089,
+            "Recall@10": 0.1493,
+            "Recall@20": 0.2703,
+            "Precision@5": 0.0636
+          }
+        }
+      }
+    },
+    "standalone_reranker": {
+      "混合+Re-ranker": {
+        "template": {
+          "law": {
+            "n": 276,
+            "MRR": 0.7927,
+            "Hit@20": 0.9565,
+            "Rank1_Accuracy": 0.6993,
+            "Recall@5": 0.6161,
+            "Recall@20": 0.6713,
+            "NDCG@20": 0.6551
+          },
+          "clause": {
+            "n": 276,
+            "MRR": 0.2609,
+            "Hit@20": 0.5688,
+            "Rank1_Accuracy": 0.163,
+            "Recall@5": 0.099,
+            "Recall@10": 0.1581,
+            "Recall@20": 0.2421,
+            "Precision@5": 0.1145
+          }
+        },
+        "legacy": {
+          "law": {
+            "n": 320,
+            "MRR": 0.6994,
+            "Hit@20": 0.925,
+            "Rank1_Accuracy": 0.5813,
+            "Recall@5": 0.765,
+            "Recall@20": 0.8521,
+            "NDCG@20": 0.7186
+          },
+          "clause": {
+            "n": 176,
+            "MRR": 0.1979,
+            "Hit@20": 0.5341,
+            "Rank1_Accuracy": 0.1136,
+            "Recall@5": 0.0817,
+            "Recall@10": 0.1706,
+            "Recall@20": 0.2714,
+            "Precision@5": 0.0636
+          }
+        }
+      }
+    }
+  },
+  "notes": [
+    "由既有逐查询 CSV 复算，未重跑检索/精排，零 token 成本。",
+    "条款级 n 为有条款 gold 的变体数：template=276，legacy=176（legacy 共 320 条，其余 144 条条款 gold 为空）。",
+    "条款级 NDCG 需原始检索结果，本快照不含；法规级 NDCG@20 可从 CSV 复算。",
+    "旧 eval_viz_data_v2*.json 保持原样，其中 Top1_Accuracy 等价于本文件的 Hit@20。"
+  ]
+}

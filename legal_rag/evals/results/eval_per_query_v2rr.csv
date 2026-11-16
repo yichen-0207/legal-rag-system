@@ -1,0 +1,597 @@
+strategy,query_id,query_text,jurisdiction,subset,variant,base_query,clause_gold_empty,relevant_count,retrieved_count,MRR,R@5,R@10,R@20,P@5,law_relevant_count,law_MRR,law_R@5,law_R@20,law_NDCG@20
+混合+Re-ranker,Q001_A,人工智能 监管 美国 框架,美国,legacy,A,Q001,1,,,,,,,,2,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q001_B,美国对人工智能技术的监管框架和治理体系是怎样的？,美国,legacy,B,Q001,1,,,,,,,,2,1.0,0.5,0.5,0.6131
+混合+Re-ranker,Q001_C,US AI regulation and governance 框架是什么？,美国,legacy,C,Q001,1,,,,,,,,2,1.0,0.5,1.0,0.7788
+混合+Re-ranker,Q001_D,What is the regulatory framework for artificial intelligence in the United States?,美国,legacy,D,Q001,1,,,,,,,,2,0.25,0.5,1.0,0.4251
+混合+Re-ranker,Q002_A,联邦数据泄露 通知 要求,美国,legacy,A,Q002,0,10,20,0.0,0.0,0.0,0.0,0.0,2,1.0,0.5,1.0,0.7977
+混合+Re-ranker,Q002_B,美国联邦法律对数据泄露通知义务有哪些具体要求？,美国,legacy,B,Q002,0,10,20,0.0,0.0,0.0,0.0,0.0,2,1.0,0.5,1.0,0.7904
+混合+Re-ranker,Q002_C,US federal data breach notification requirements 有哪些？,美国,legacy,C,Q002,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.5,0.5,1.0,0.5912
+混合+Re-ranker,Q002_D,What are the federal data breach notification requirements in the United States?,美国,legacy,D,Q002,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.5,0.5,1.0,0.5803
+混合+Re-ranker,Q003_A,电信法 网络中立性 美国,美国,legacy,A,Q003,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q003_B,美国电信法中关于网络中立性的规定是什么？,美国,legacy,B,Q003,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q003_C,US telecommunications law net neutrality 规定,美国,legacy,C,Q003,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.3333,0.5,0.5,0.3066
+混合+Re-ranker,Q003_D,What are the net neutrality provisions in US telecommunications law?,美国,legacy,D,Q003,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.3333,0.5,0.5,0.3066
+混合+Re-ranker,Q004_A,电商 消费者保护 FTC,美国,legacy,A,Q004,0,10,20,0.0,0.0,0.0,0.0,0.0,2,1.0,0.5,1.0,0.8066
+混合+Re-ranker,Q004_B,美国在电子商务领域对消费者的保护措施有哪些？,美国,legacy,B,Q004,0,10,20,0.0,0.0,0.0,0.0,0.0,2,1.0,0.5,0.5,0.6131
+混合+Re-ranker,Q004_C,US e-commerce consumer protection FTC 规则,美国,legacy,C,Q004,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.5,0.5,0.5,0.3869
+混合+Re-ranker,Q004_D,What consumer protection measures apply to e-commerce in the United States?,美国,legacy,D,Q004,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.3333,0.5,0.5,0.3066
+混合+Re-ranker,Q005_A,网络安全 框架 NIST 标准,美国,legacy,A,Q005,0,10,20,0.25,0.1,0.1,0.2,0.2,2,0.1667,0.0,0.5,0.2184
+混合+Re-ranker,Q005_B,美国网络安全框架（NIST）的核心要求和合规标准是什么？,美国,legacy,B,Q005,0,10,20,0.1,0.0,0.1,0.2,0.0,2,0.1429,0.0,0.5,0.2044
+混合+Re-ranker,Q005_C,US cybersecurity framework NIST 标准 compliance,美国,legacy,C,Q005,0,10,20,0.3333,0.1,0.1,0.2,0.2,2,0.125,0.0,0.5,0.1934
+混合+Re-ranker,Q005_D,What are the core requirements of the US NIST Cybersecurity Framework?,美国,legacy,D,Q005,0,10,20,0.2,0.1,0.3,0.4,0.2,2,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q006_A,联邦采购 政府合同 FAR,美国,legacy,A,Q006,0,10,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q006_B,美国联邦采购法规（FAR）对政府合同的主要规定有哪些？,美国,legacy,B,Q006,0,10,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q006_C,US Federal Acquisition Regulation FAR 政府合同 rules,美国,legacy,C,Q006,0,10,20,0.0833,0.0,0.0,0.1,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q006_D,What are the key provisions of the US Federal Acquisition Regulation (FAR)?,美国,legacy,D,Q006,0,10,20,0.0625,0.0,0.0,0.1,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q007_A,反洗钱 合规 Bank Secrecy Act,美国,legacy,A,Q007,1,,,,,,,,3,0.2,0.3333,1.0,0.5051
+混合+Re-ranker,Q007_B,美国《银行保密法》对金融机构的反洗钱合规要求是什么？,美国,legacy,B,Q007,1,,,,,,,,3,0.5,0.3333,1.0,0.5938
+混合+Re-ranker,Q007_C,US anti-money laundering BSA compliance requirements,美国,legacy,C,Q007,1,,,,,,,,3,0.5,0.3333,1.0,0.5626
+混合+Re-ranker,Q007_D,What are the anti-money laundering compliance requirements under the US Bank Secrecy Act?,美国,legacy,D,Q007,1,,,,,,,,3,0.2,0.3333,0.6667,0.338
+混合+Re-ranker,Q008_A,隐私权 美国 法律框架,美国,legacy,A,Q008,1,,,,,,,,3,0.5,0.6667,0.6667,0.5307
+混合+Re-ranker,Q008_B,美国隐私权保护的法律框架主要包括哪些法律？,美国,legacy,B,Q008,1,,,,,,,,3,0.3333,0.3333,0.6667,0.3911
+混合+Re-ranker,Q008_C,US privacy law 法律框架 CCPA HIPAA,美国,legacy,C,Q008,1,,,,,,,,3,1.0,0.6667,1.0,0.8711
+混合+Re-ranker,Q008_D,What laws comprise the US privacy protection legal framework?,美国,legacy,D,Q008,1,,,,,,,,3,0.1667,0.0,0.6667,0.3084
+混合+Re-ranker,Q009_A,电子签名 ESIGN Act 合法性,美国,legacy,A,Q009,0,5,20,0.5,0.4,0.6,0.6,0.4,1,0.25,1.0,1.0,0.4307
+混合+Re-ranker,Q009_B,美国ESIGN法案对电子签名法律效力的规定是什么？,美国,legacy,B,Q009,0,5,20,1.0,0.4,0.6,0.6,0.4,1,0.25,1.0,1.0,0.4307
+混合+Re-ranker,Q009_C,US ESIGN Act electronic signature 法律效力,美国,legacy,C,Q009,0,5,20,0.5,0.4,0.6,0.6,0.4,1,0.2,1.0,1.0,0.3869
+混合+Re-ranker,Q009_D,What does the US ESIGN Act say about the legal validity of electronic signatures?,美国,legacy,D,Q009,0,5,20,0.5,0.4,0.6,0.6,0.4,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q010_A,通讯截取 监控 美国法律,美国,legacy,A,Q010,1,,,,,,,,2,1.0,1.0,1.0,0.9197
+混合+Re-ranker,Q010_B,美国法律对政府通讯截取和监控有哪些限制性规定？,美国,legacy,B,Q010,1,,,,,,,,2,0.5,1.0,1.0,0.6934
+混合+Re-ranker,Q010_C,US surveillance communications interception 法律限制,美国,legacy,C,Q010,1,,,,,,,,2,1.0,1.0,1.0,0.9197
+混合+Re-ranker,Q010_D,What legal restrictions exist on government communications interception in the US?,美国,legacy,D,Q010,1,,,,,,,,2,1.0,1.0,1.0,0.9197
+混合+Re-ranker,Q011_A,日本 AI 战略 规制,日本,legacy,A,Q011,1,,,,,,,,2,0.5,1.0,1.0,0.6934
+混合+Re-ranker,Q011_B,日本政府在人工智能治理方面的战略和法规框架是什么？,日本,legacy,B,Q011,1,,,,,,,,2,0.5,1.0,1.0,0.6934
+混合+Re-ranker,Q011_C,Japan AI strategy governance 框架 法律,日本,legacy,C,Q011,1,,,,,,,,2,0.5,1.0,1.0,0.6934
+混合+Re-ranker,Q011_D,What is Japan's strategic framework for AI governance and regulation?,日本,legacy,D,Q011,1,,,,,,,,2,0.5,1.0,1.0,0.6509
+混合+Re-ranker,Q012_A,个人信息保护法 日本 改正,日本,legacy,A,Q012,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q012_B,日本《个人信息保护法》的最新修订内容和核心要求是什么？,日本,legacy,B,Q012,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q012_C,Japan APPI amendments 个人信息保护 requirements,日本,legacy,C,Q012,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q012_D,What are the key requirements of Japan's Act on Protection of Personal Information (APPI)?,日本,legacy,D,Q012,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q013_A,电信事业法 日本 规制,日本,legacy,A,Q013,0,10,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q013_B,日本《电信事业法》对电信运营商的主要监管要求有哪些？,日本,legacy,B,Q013,0,10,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q013_C,Japan Telecommunications Business Law 监管要求,日本,legacy,C,Q013,0,10,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q013_D,What are the regulatory requirements under Japan's Telecommunications Business Law?,日本,legacy,D,Q013,0,10,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q014_A,日本 金融监管 金融商品取引法,日本,legacy,A,Q014,0,10,20,1.0,0.1,0.1,0.2,0.2,1,0.125,0.0,1.0,0.3155
+混合+Re-ranker,Q014_B,日本《金融商品交易法》下的金融监管框架是怎样的？,日本,legacy,B,Q014,0,10,20,0.5,0.1,0.1,0.1,0.2,1,0.125,0.0,1.0,0.3155
+混合+Re-ranker,Q014_C,Japan financial regulation FIEA 金融商品取引法,日本,legacy,C,Q014,0,10,20,1.0,0.1,0.2,0.2,0.2,1,0.1,0.0,1.0,0.2891
+混合+Re-ranker,Q014_D,What is the financial regulatory framework under Japan's Financial Instruments and Exchange Act?,日本,legacy,D,Q014,0,10,20,0.3333,0.2,0.2,0.2,0.4,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q015_A,日本 著作权法 数字内容 保护,日本,legacy,A,Q015,0,2,20,0.0667,0.0,0.0,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q015_B,日本著作权法对数字内容的保护范围和限制有哪些？,日本,legacy,B,Q015,0,2,20,0.0714,0.0,0.0,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q015_C,Japan copyright law digital content 保护,日本,legacy,C,Q015,0,2,20,0.0714,0.0,0.0,0.5,0.0,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q015_D,How does Japan's copyright law protect digital content?,日本,legacy,D,Q015,0,2,20,0.0556,0.0,0.0,0.5,0.0,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q016_A,日本 政府采购 招标制度,日本,legacy,A,Q016,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q016_B,日本的政府采购制度和招标程序有何特点？,日本,legacy,B,Q016,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q016_C,Japan government procurement bidding 制度 WTO GPA,日本,legacy,C,Q016,0,10,20,0.1111,0.0,0.1,0.1,0.0,2,1.0,0.5,0.5,0.6131
+混合+Re-ranker,Q016_D,What are the characteristics of Japan's government procurement system?,日本,legacy,D,Q016,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.3333,0.5,0.5,0.3066
+混合+Re-ranker,Q017_A,日本 数据泄露 通知义务,日本,legacy,A,Q017,1,,,,,,,,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q017_B,日本法律对个人信息泄露后的通知义务有何规定？,日本,legacy,B,Q017,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q017_C,Japan data breach notification 义务 APPI,日本,legacy,C,Q017,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q017_D,What are the data breach notification requirements under Japanese law?,日本,legacy,D,Q017,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q018_A,日本 劳动基准法 工资 工时,日本,legacy,A,Q018,0,8,20,1.0,0.125,0.125,0.125,0.2,2,0.25,1.0,1.0,0.5013
+混合+Re-ranker,Q018_B,日本《劳动基准法》对工资和工时的基本规定是什么？,日本,legacy,B,Q018,0,8,20,1.0,0.125,0.125,0.125,0.2,2,0.5,0.5,1.0,0.5803
+混合+Re-ranker,Q018_C,Japan Labor Standards Law 工资 工时 规定,日本,legacy,C,Q018,0,8,20,0.0,0.0,0.0,0.0,0.0,2,0.3333,0.5,0.5,0.3066
+混合+Re-ranker,Q018_D,What are the basic provisions on wages and working hours under Japan's Labor Standards Law?,日本,legacy,D,Q018,0,8,20,0.0,0.0,0.0,0.0,0.0,2,0.5,0.5,1.0,0.6053
+混合+Re-ranker,Q019_A,日本 电子签名 认证 法律效力,日本,legacy,A,Q019,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q019_B,日本《电子签名及认证业务法》对电子签名的法律效力如何规定？,日本,legacy,B,Q019,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q019_C,Japan electronic signature certification law 法律效力,日本,legacy,C,Q019,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q019_D,What is the legal validity of electronic signatures under Japan's Electronic Signature Act?,日本,legacy,D,Q019,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q020_A,日本 公司治理 披露义务  companies act,日本,legacy,A,Q020,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.25,0.5,0.5,0.2641
+混合+Re-ranker,Q020_B,日本公司法对公司治理结构和信息披露义务的要求是什么？,日本,legacy,B,Q020,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.3333,0.5,0.5,0.3066
+混合+Re-ranker,Q020_C,Japan corporate governance disclosure Companies Act 要求,日本,legacy,C,Q020,0,10,20,0.0,0.0,0.0,0.0,0.0,2,1.0,0.5,0.5,0.6131
+混合+Re-ranker,Q020_D,What are the corporate governance and disclosure requirements under Japan's Companies Act?,日本,legacy,D,Q020,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q021_A,香港 个人资料私隐条例 PDPO,香港,legacy,A,Q021,0,3,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q021_B,香港《个人资料（私隐）条例》对数据控制者的核心要求是什么？,香港,legacy,B,Q021,0,3,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q021_C,Hong Kong PDPO personal data privacy 核心要求,香港,legacy,C,Q021,0,3,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q021_D,What are the core requirements of Hong Kong's Personal Data (Privacy) Ordinance?,香港,legacy,D,Q021,0,3,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q022_A,香港 电脑犯罪 刑事 条例,香港,legacy,A,Q022,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q022_B,香港《电脑犯罪条例》对未经授权访问电脑系统的处罚规定？,香港,legacy,B,Q022,1,,,,,,,,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q022_C,Hong Kong computer crimes ordinance unauthorized access 处罚,香港,legacy,C,Q022,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q022_D,What are the penalties under Hong Kong's computer crimes legislation for unauthorized system access?,香港,legacy,D,Q022,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q023_A,香港 电讯条例 牌照 规管,香港,legacy,A,Q023,0,8,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q023_B,香港《电讯条例》对电信服务提供商的牌照和规管要求是什么？,香港,legacy,B,Q023,0,8,20,0.0909,0.0,0.0,0.125,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q023_C,Hong Kong Telecommunications Ordinance licensing 规管,香港,legacy,C,Q023,0,8,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q023_D,What are the licensing and regulatory requirements under Hong Kong's Telecommunications Ordinance?,香港,legacy,D,Q023,0,8,20,0.0833,0.0,0.0,0.125,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q024_A,香港 版权条例 数字环境,香港,legacy,A,Q024,0,2,20,0.1667,0.0,0.5,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q024_B,香港《版权条例》在数字环境下的版权保护有哪些规定？,香港,legacy,B,Q024,0,2,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q024_C,Hong Kong Copyright Ordinance digital copyright 保护,香港,legacy,C,Q024,0,2,20,0.1667,0.0,0.5,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q024_D,What copyright protections does Hong Kong's Copyright Ordinance provide in the digital environment?,香港,legacy,D,Q024,0,2,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q025_A,香港 电子交易条例 电子签名 效力,香港,legacy,A,Q025,0,4,20,0.25,0.25,0.25,0.25,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q025_B,香港《电子交易条例》对电子记录和电子签名的法律效力如何规定？,香港,legacy,B,Q025,0,4,20,0.1429,0.0,0.25,0.25,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q025_C,Hong Kong Electronic Transactions Ordinance e-signature 法律效力,香港,legacy,C,Q025,0,4,20,0.2,0.25,0.25,0.5,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q025_D,What is the legal effect of electronic records and signatures under Hong Kong's Electronic Transacti,香港,legacy,D,Q025,0,4,20,0.1429,0.0,0.25,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q026_A,香港 银行业 监管 金管局,香港,legacy,A,Q026,0,7,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q026_B,香港金融管理局对银行业的监管框架和合规要求是什么？,香港,legacy,B,Q026,0,7,20,0.2,0.1429,0.1429,0.1429,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q026_C,Hong Kong banking regulation HKMA 监管框架,香港,legacy,C,Q026,0,7,20,0.0,0.0,0.0,0.0,0.0,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q026_D,What is the regulatory framework for banking under Hong Kong's Monetary Authority?,香港,legacy,D,Q026,0,7,20,0.0769,0.0,0.0,0.1429,0.0,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q027_A,香港 反洗钱 反恐融资 条例,香港,legacy,A,Q027,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q027_B,香港《打击洗钱及恐怖分子资金筹集条例》的主要合规要求？,香港,legacy,B,Q027,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q027_C,Hong Kong anti-money laundering counter-terrorist financing AMLO 合规,香港,legacy,C,Q027,1,,,,,,,,1,0.2,1.0,1.0,0.3869
+混合+Re-ranker,Q027_D,What are the key compliance requirements under Hong Kong's Anti-Money Laundering Ordinance?,香港,legacy,D,Q027,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q028_A,香港 个人资料 企业 合规 处理,香港,legacy,A,Q028,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q028_B,香港《个人资料（私隐）条例》对企业处理个人资料的合规要求是什么？,香港,legacy,B,Q028,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q028_C,Hong Kong PDPO 企业合规 个人资料处理 requirements,香港,legacy,C,Q028,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q028_D,What are the compliance requirements for businesses under Hong Kong's Personal Data (Privacy) Ordina,香港,legacy,D,Q028,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q029_A,香港 商品说明 虚假宣传 消费者,香港,legacy,A,Q029,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q029_B,香港《商品说明条例》对虚假宣传和误导性陈述的禁止规定是什么？,香港,legacy,B,Q029,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q029_C,Hong Kong Trade Descriptions Ordinance false advertising 消费者保护,香港,legacy,C,Q029,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q029_D,What false advertising prohibitions exist under Hong Kong's Trade Descriptions Ordinance?,香港,legacy,D,Q029,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q030_A,香港 非应邀电子讯息 垃圾邮件 规管,香港,legacy,A,Q030,0,1,10,1.0,1.0,1.0,1.0,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q030_B,香港对非应邀电子讯息（垃圾邮件）的规管制度是什么？,香港,legacy,B,Q030,0,1,14,0.5,1.0,1.0,1.0,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q030_C,Hong Kong unsolicited electronic messages spam 规管条例,香港,legacy,C,Q030,0,1,9,1.0,1.0,1.0,1.0,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q030_D,What is Hong Kong's regulatory framework for unsolicited electronic messages?,香港,legacy,D,Q030,0,1,8,0.3333,1.0,1.0,1.0,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q031_A,澳门 个人资料保护法 处理 同意,澳门,legacy,A,Q031,0,10,20,0.1429,0.0,0.2,0.2,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q031_B,澳门《个人资料保护法》对个人资料处理的原则和同意要求是什么？,澳门,legacy,B,Q031,0,10,20,0.2,0.1,0.2,0.3,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q031_C,Macau Personal Data Protection Law 个人资料处理 consent,澳门,legacy,C,Q031,0,10,20,0.25,0.1,0.3,0.3,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q031_D,What are the principles and consent requirements under Macau's Personal Data Protection Act?,澳门,legacy,D,Q031,0,10,20,0.25,0.1,0.1,0.1,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q032_A,澳门 电脑犯罪 网络犯罪 刑法,澳门,legacy,A,Q032,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q032_B,澳门《打击电脑犯罪法》对网络犯罪的主要罪名和处罚规定是什么？,澳门,legacy,B,Q032,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q032_C,Macau cybercrime computer crime law 罪名 处罚,澳门,legacy,C,Q032,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q032_D,What are the main offenses and penalties under Macau's Cybercrime Law?,澳门,legacy,D,Q032,1,,,,,,,,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q033_A,澳门 电信纲要法 通讯 规管,澳门,legacy,A,Q033,0,6,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q033_B,澳门《电信纲要法》对电信服务和通讯监管的基本框架是什么？,澳门,legacy,B,Q033,0,6,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q033_C,Macau Telecommunications Framework Law 电信规管,澳门,legacy,C,Q033,0,6,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q033_D,What is the basic regulatory framework under Macau's Telecommunications Framework Law?,澳门,legacy,D,Q033,0,6,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q034_A,澳门 电子文件 电子签名 法律效力,澳门,legacy,A,Q034,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q034_B,澳门《电子文件及电子签名》法律对电子文件法律效力的规定是什么？,澳门,legacy,B,Q034,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q034_C,Macau electronic document electronic signature 法律效力,澳门,legacy,C,Q034,1,,,,,,,,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q034_D,What is the legal validity of electronic documents under Macau's Electronic Document and Signature L,澳门,legacy,D,Q034,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q035_A,澳门 金融体系 法律制度 银行监管,澳门,legacy,A,Q035,0,10,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q035_B,澳门《金融体系法律制度》对银行和金融活动的监管要求是什么？,澳门,legacy,B,Q035,0,10,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q035_C,Macau financial system legal regime 金融监管 要求,澳门,legacy,C,Q035,0,10,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q035_D,What are the regulatory requirements under Macau's Financial System Legal Regime?,澳门,legacy,D,Q035,0,10,20,0.0,0.0,0.0,0.0,0.0,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q036_A,澳门 维护国家安全法 网络安全,澳门,legacy,A,Q036,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.5,1.0,1.0,0.6934
+混合+Re-ranker,Q036_B,澳门《维护国家安全法》对网络安全和国家安全保护的规定是什么？,澳门,legacy,B,Q036,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.5,1.0,1.0,0.6934
+混合+Re-ranker,Q036_C,Macau national security law 网络安全 规定,澳门,legacy,C,Q036,0,10,20,0.0,0.0,0.0,0.0,0.0,2,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q036_D,What are the national security and cybersecurity provisions under Macau's National Security Law?,澳门,legacy,D,Q036,0,10,20,0.0,0.0,0.0,0.0,0.0,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q037_A,澳门 网络安全法 关键基础设施,澳门,legacy,A,Q037,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q037_B,澳门《网络安全法》对关键基础设施运营者的安全要求是什么？,澳门,legacy,B,Q037,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q037_C,Macau cybersecurity law critical infrastructure 安全要求,澳门,legacy,C,Q037,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q037_D,What are the security requirements for critical infrastructure operators under Macau's Cybersecurity,澳门,legacy,D,Q037,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q038_A,澳门 清洗黑钱 反洗钱 预防,澳门,legacy,A,Q038,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q038_B,澳门《预防及遏止清洗黑钱犯罪》法律对金融机构的合规要求？,澳门,legacy,B,Q038,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q038_C,Macau anti-money laundering prevention 清洗黑钱 合规,澳门,legacy,C,Q038,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q038_D,What are the AML compliance requirements for financial institutions under Macau's anti-money launder,澳门,legacy,D,Q038,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q039_A,泰国 贸易竞争 反垄断 规制,泰国,legacy,A,Q039,1,,,,,,,,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q039_B,泰国《贸易竞争法》对垄断行为和不正当竞争的主要规制是什么？,泰国,legacy,B,Q039,1,,,,,,,,1,0.25,1.0,1.0,0.4307
+混合+Re-ranker,Q039_C,Thailand Trade Competition Act 反垄断 规制 provisions,泰国,legacy,C,Q039,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q039_D,What are the main provisions of Thailand's Trade Competition Act on monopolistic practices?,泰国,legacy,D,Q039,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q040_A,泰国 宪法 通讯自由 表达权 保护,泰国,legacy,A,Q040,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q040_B,泰国宪法对通讯自由和言论表达权的保护范围是什么？,泰国,legacy,B,Q040,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q040_C,Thailand Constitution 通讯自由 freedom of expression protections,泰国,legacy,C,Q040,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q040_D,What protections does Thailand's Constitution provide for freedom of communication and expression?,泰国,legacy,D,Q040,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q041_A,泰国 金融机构 监管 业务 规定,泰国,legacy,A,Q041,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q041_B,泰国对金融机构的业务经营和监管要求有哪些法律规定？,泰国,legacy,B,Q041,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q041_C,Thailand financial institution regulation 业务 监管 requirements,泰国,legacy,C,Q041,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q041_D,What are the legal requirements for financial institution regulation in Thailand?,泰国,legacy,D,Q041,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q042_A,泰国 版权法 知识产权 保护,泰国,legacy,A,Q042,0,8,20,1.0,0.125,0.25,0.375,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q042_B,泰国版权法对数字内容的版权保护有哪些规定？,泰国,legacy,B,Q042,0,8,20,1.0,0.125,0.125,0.25,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q042_C,Thailand Copyright Act intellectual property 数字保护,泰国,legacy,C,Q042,0,8,20,1.0,0.125,0.125,0.25,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q042_D,What copyright protections does Thailand's Copyright Act provide for digital content?,泰国,legacy,D,Q042,0,8,20,1.0,0.125,0.125,0.125,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q043_A,泰国 电信业务 运营 牌照,泰国,legacy,A,Q043,0,6,20,0.5,0.3333,0.3333,0.5,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q043_B,泰国《电信业务法》对电信业务运营的牌照要求和规管是什么？,泰国,legacy,B,Q043,0,6,20,0.5,0.3333,0.3333,0.5,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q043_C,Thailand telecommunications business licensing 规管,泰国,legacy,C,Q043,0,6,20,1.0,0.1667,0.1667,0.3333,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q043_D,What are the licensing requirements under Thailand's Telecommunications Business Act?,泰国,legacy,D,Q043,0,6,20,1.0,0.1667,0.1667,0.1667,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q044_A,泰国 消费者保护 电商 责任,泰国,legacy,A,Q044,0,6,20,0.2,0.1667,0.1667,0.3333,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q044_B,泰国消费者保护法在电商领域对消费者权益的保护和商家责任有何规定？,泰国,legacy,B,Q044,0,6,20,0.0769,0.0,0.0,0.3333,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q044_C,Thailand consumer protection e-commerce 消费者权益,泰国,legacy,C,Q044,0,6,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q044_D,What consumer protection provisions apply to e-commerce under Thai law?,泰国,legacy,D,Q044,0,6,20,0.3333,0.1667,0.1667,0.1667,0.2,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q045_A,泰国 官方信息法 信息公开 例外,泰国,legacy,A,Q045,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q045_B,泰国《官方信息法》对政府信息公开的范围和例外规定是什么？,泰国,legacy,B,Q045,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q045_C,Thailand Official Information Act disclosure 信息公开 exception,泰国,legacy,C,Q045,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q045_D,What are the disclosure requirements and exceptions under Thailand's Official Information Act?,泰国,legacy,D,Q045,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q046_A,泰国 反洗钱法 AMLO 合规,泰国,legacy,A,Q046,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q046_B,泰国《反洗钱法》对金融机构的报告义务和合规要求是什么？,泰国,legacy,B,Q046,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q046_C,Thailand Anti-Money Laundering Act AMLO 报告义务 compliance,泰国,legacy,C,Q046,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q046_D,What are the reporting obligations under Thailand's Anti-Money Laundering Act?,泰国,legacy,D,Q046,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q047_A,新加坡 个人数据保护法 PDPA 义务,新加坡,legacy,A,Q047,0,3,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q047_B,新加坡《个人数据保护法》（PDPA）对组织的核心数据保护义务是什么？,新加坡,legacy,B,Q047,0,3,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q047_C,Singapore PDPA personal data protection 组织义务,新加坡,legacy,C,Q047,0,3,12,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q047_D,What are the key data protection obligations under Singapore's Personal Data Protection Act (PDPA)?,新加坡,legacy,D,Q047,0,3,11,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q048_A,新加坡 网络安全法 CSA 关键信息基础设施,新加坡,legacy,A,Q048,0,2,20,1.0,1.0,1.0,1.0,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q048_B,新加坡《网络安全法》对关键信息基础设施运营者的安全要求是什么？,新加坡,legacy,B,Q048,0,2,20,1.0,1.0,1.0,1.0,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q048_C,Singapore Cybersecurity Act CSA critical information infrastructure 安全,新加坡,legacy,C,Q048,0,2,20,1.0,1.0,1.0,1.0,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q048_D,What are the security requirements for CII operators under Singapore's Cybersecurity Act?,新加坡,legacy,D,Q048,0,2,17,0.1429,0.0,0.5,1.0,0.0,1,0.2,1.0,1.0,0.3869
+混合+Re-ranker,Q049_A,新加坡 电子交易法 电子签名 效力,新加坡,legacy,A,Q049,1,,,,,,,,1,0.25,1.0,1.0,0.4307
+混合+Re-ranker,Q049_B,新加坡《电子交易法》对电子合同和电子签名的法律效力如何规定？,新加坡,legacy,B,Q049,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q049_C,Singapore Electronic Transactions Act e-contract e-signature 法律效力,新加坡,legacy,C,Q049,1,,,,,,,,1,0.1429,0.0,1.0,0.3333
+混合+Re-ranker,Q049_D,What is the legal effect of electronic contracts and signatures under Singapore's Electronic Transac,新加坡,legacy,D,Q049,1,,,,,,,,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q050_A,新加坡 金融监管 MAS 银行 证券,新加坡,legacy,A,Q050,0,1,14,0.125,0.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q050_B,新加坡金融管理局（MAS）对银行和证券业的监管框架是什么？,新加坡,legacy,B,Q050,0,1,11,0.1429,0.0,1.0,1.0,0.0,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q050_C,Singapore financial regulation MAS banking securities 监管框架,新加坡,legacy,C,Q050,0,1,18,0.0833,0.0,0.0,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q050_D,What is MAS's regulatory framework for banking and securities in Singapore?,新加坡,legacy,D,Q050,0,1,10,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q051_A,新加坡 电信监管 牌照 IMDA,新加坡,legacy,A,Q051,0,4,20,0.1111,0.0,0.25,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q051_B,新加坡资讯通信媒体发展局（IMDA）对电信服务的监管要求？,新加坡,legacy,B,Q051,0,4,20,0.125,0.0,0.25,0.5,0.0,1,0.25,1.0,1.0,0.4307
+混合+Re-ranker,Q051_C,Singapore telecom regulation IMDA licensing 电信牌照,新加坡,legacy,C,Q051,0,4,20,0.0,0.0,0.0,0.0,0.0,1,0.2,1.0,1.0,0.3869
+混合+Re-ranker,Q051_D,What are IMDA's regulatory requirements for telecommunications services in Singapore?,新加坡,legacy,D,Q051,0,4,13,0.0,0.0,0.0,0.0,0.0,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q052_A,新加坡 版权法 改革 2021 数字,新加坡,legacy,A,Q052,0,2,20,0.1111,0.0,0.5,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q052_B,新加坡2021年《版权法》改革在数字环境下的主要变化是什么？,新加坡,legacy,B,Q052,0,2,20,0.125,0.0,0.5,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q052_C,Singapore Copyright Act reform 2021 数字版权,新加坡,legacy,C,Q052,0,2,20,0.125,0.0,0.5,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q052_D,What are the key changes in Singapore's 2021 Copyright Act reform for the digital environment?,新加坡,legacy,D,Q052,0,2,20,0.125,0.0,0.5,0.5,0.0,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q053_A,新加坡 垃圾邮件控制法 非应邀商业信息,新加坡,legacy,A,Q053,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q053_B,新加坡《垃圾邮件控制法》对非应邀商业电子信息的限制是什么？,新加坡,legacy,B,Q053,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q053_C,Singapore Spam Control Act unsolicited commercial messages 限制,新加坡,legacy,C,Q053,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q053_D,What restrictions does Singapore's Spam Control Act impose on unsolicited commercial communications?,新加坡,legacy,D,Q053,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q054_A,新加坡 反洗钱 MAS 监管指引,新加坡,legacy,A,Q054,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q054_B,新加坡金融管理局对金融机构的反洗钱和反恐融资监管指引是什么？,新加坡,legacy,B,Q054,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q054_C,Singapore AML MAS regulatory guidelines 金融机构,新加坡,legacy,C,Q054,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q054_D,What are MAS's AML/CFT regulatory guidelines for financial institutions in Singapore?,新加坡,legacy,D,Q054,1,,,,,,,,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q055_A,越南 电信法 运营 服务 规管,越南,legacy,A,Q055,0,10,20,0.3333,0.1,0.2,0.3,0.2,2,1.0,0.5,0.5,0.6131
+混合+Re-ranker,Q055_B,越南《电信法》对电信服务的运营许可和监管规定是什么？,越南,legacy,B,Q055,0,10,20,0.5,0.1,0.1,0.4,0.2,2,1.0,1.0,1.0,0.9197
+混合+Re-ranker,Q055_C,Vietnam Telecommunications Law 电信服务 licensing 规管,越南,legacy,C,Q055,0,10,20,0.5,0.1,0.1,0.1,0.2,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q055_D,What are the licensing and regulatory provisions under Vietnam's Telecommunications Law?,越南,legacy,D,Q055,0,10,20,0.5,0.1,0.1,0.1,0.2,2,1.0,1.0,1.0,0.8503
+混合+Re-ranker,Q056_A,越南 人工智能 法规 政策,越南,legacy,A,Q056,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q056_B,越南在人工智能领域的法律法规和政策框架是什么？,越南,legacy,B,Q056,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q056_C,Vietnam AI regulation policy framework 法律法规,越南,legacy,C,Q056,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q056_D,What is Vietnam's regulatory and policy framework for artificial intelligence?,越南,legacy,D,Q056,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q057_A,越南 电子交易法 数字签名 认证,越南,legacy,A,Q057,0,3,20,0.5,0.3333,0.6667,1.0,0.2,3,1.0,0.6667,0.6667,0.7654
+混合+Re-ranker,Q057_B,越南《电子交易法》对数字签名和认证服务机构的规定是什么？,越南,legacy,B,Q057,0,3,20,0.5,0.3333,0.3333,1.0,0.2,3,1.0,0.6667,0.6667,0.7654
+混合+Re-ranker,Q057_C,Vietnam Electronic Transactions Law digital signature certification 规定,越南,legacy,C,Q057,0,3,20,1.0,0.3333,0.3333,0.6667,0.2,3,1.0,0.6667,0.6667,0.7654
+混合+Re-ranker,Q057_D,What are the provisions on digital signatures and certification under Vietnam's Electronic Transacti,越南,legacy,D,Q057,0,3,20,1.0,0.3333,0.3333,0.6667,0.2,3,1.0,0.6667,0.6667,0.7654
+混合+Re-ranker,Q058_A,越南 邮政电信 信息技术 组织 安全,越南,legacy,A,Q058,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q058_B,越南对邮政、电信和信息技术系统的组织管理和安全要求是什么？,越南,legacy,B,Q058,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q058_C,Vietnam postal telecom IT organization 安全 management,越南,legacy,C,Q058,1,,,,,,,,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q058_D,"What are the organizational and security requirements for postal, telecom and IT systems in Vietnam?",越南,legacy,D,Q058,1,,,,,,,,1,0.25,1.0,1.0,0.4307
+混合+Re-ranker,Q059_A,越南 招标法 政府采购 流程,越南,legacy,A,Q059,0,2,20,0.0,0.0,0.0,0.0,0.0,2,0.25,0.5,1.0,0.4413
+混合+Re-ranker,Q059_B,越南《招标法》对政府采购流程和投标人资质的规定是什么？,越南,legacy,B,Q059,0,2,20,0.0,0.0,0.0,0.0,0.0,2,0.125,0.0,1.0,0.3645
+混合+Re-ranker,Q059_C,Vietnam Bidding Law government procurement 招标流程,越南,legacy,C,Q059,0,2,20,0.0,0.0,0.0,0.0,0.0,2,0.125,0.0,1.0,0.378
+混合+Re-ranker,Q059_D,What are the procurement procedures under Vietnam's Bidding Law?,越南,legacy,D,Q059,0,2,20,0.0,0.0,0.0,0.0,0.0,2,0.1429,0.0,0.5,0.2044
+混合+Re-ranker,Q060_A,越南 消费者权益 保护法 电商,越南,legacy,A,Q060,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q060_B,越南《消费者权益保护法》在电商领域对消费者的保护规定是什么？,越南,legacy,B,Q060,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q060_C,Vietnam consumer protection law e-commerce 消费者权益,越南,legacy,C,Q060,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q060_D,What consumer protections does Vietnam's consumer protection law provide for e-commerce?,越南,legacy,D,Q060,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q061_A,越南 数字税 电商 税收 管理,越南,legacy,A,Q061,1,,,,,,,,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,Q061_B,越南对数字经济和电商领域的税收管理有何特殊规定？,越南,legacy,B,Q061,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q061_C,Vietnam digital tax e-commerce 税收管理 规定,越南,legacy,C,Q061,1,,,,,,,,1,0.25,1.0,1.0,0.4307
+混合+Re-ranker,Q061_D,What special tax rules apply to digital economy and e-commerce in Vietnam?,越南,legacy,D,Q061,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q062_A,越南 企业法 外资 公司治理,越南,legacy,A,Q062,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q062_B,越南《企业法》对外资企业的公司治理结构有何特殊要求？,越南,legacy,B,Q062,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q062_C,Vietnam Enterprise Law foreign investment corporate governance 要求,越南,legacy,C,Q062,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q062_D,What corporate governance requirements does Vietnam's Enterprise Law impose on foreign-invested ente,越南,legacy,D,Q062,1,,,,,,,,1,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q063_A,马来西亚 个人数据保护法 2010 原则,马来西亚,legacy,A,Q063,0,2,20,0.0556,0.0,0.0,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q063_B,马来西亚《2010年个人数据保护法》的七项数据保护原则是什么？,马来西亚,legacy,B,Q063,0,2,20,0.0588,0.0,0.0,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q063_C,Malaysia Personal Data Protection Act 2010 七项原则,马来西亚,legacy,C,Q063,0,2,20,0.0625,0.0,0.0,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q063_D,What are the seven data protection principles under Malaysia's Personal Data Protection Act 2010?,马来西亚,legacy,D,Q063,0,2,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q064_A,马来西亚 网络安全法 2024 国家网络安全,马来西亚,legacy,A,Q064,0,2,20,0.1429,0.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q064_B,马来西亚《2024年网络安全法》对国家网络安全框架的规定是什么？,马来西亚,legacy,B,Q064,0,2,20,0.125,0.0,0.5,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q064_C,Malaysia Cybersecurity Act 2024 national cybersecurity 框架,马来西亚,legacy,C,Q064,0,2,20,0.1667,0.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q064_D,What is the national cybersecurity framework under Malaysia's Cybersecurity Act 2024?,马来西亚,legacy,D,Q064,0,2,20,0.1667,0.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q065_A,马来西亚 个人数据 安全 处理 原则,马来西亚,legacy,A,Q065,0,2,20,0.0588,0.0,0.0,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q065_B,马来西亚《个人数据保护法》对数据处理安全的原则和要求是什么？,马来西亚,legacy,B,Q065,0,2,20,0.0588,0.0,0.0,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q065_C,Malaysia PDPA data processing security 原则 requirements,马来西亚,legacy,C,Q065,0,2,20,0.05,0.0,0.0,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q065_D,What are the data processing security principles under Malaysia's Personal Data Protection Act?,马来西亚,legacy,D,Q065,0,2,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q066_A,马来西亚 通讯与多媒体法 1998 牌照,马来西亚,legacy,A,Q066,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q066_B,马来西亚《1998年通讯与多媒体法》对通讯服务的牌照和内容规管？,马来西亚,legacy,B,Q066,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q066_C,Malaysia Communications and Multimedia Act 1998 licensing content 规管,马来西亚,legacy,C,Q066,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q066_D,What are the licensing and content regulation provisions under Malaysia's Communications and Multime,马来西亚,legacy,D,Q066,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q067_A,马来西亚 通讯法 数字通信 服务 牌照,马来西亚,legacy,A,Q067,1,,,,,,,,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,Q067_B,马来西亚《通讯法》对数字通信服务的监管要求是什么？,马来西亚,legacy,B,Q067,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q067_C,Malaysia communications law digital communication 监管 requirements,马来西亚,legacy,C,Q067,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q067_D,What are the regulatory requirements for digital communication services under Malaysia's Communicati,马来西亚,legacy,D,Q067,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q068_A,马来西亚 网络安全 数字内容 保护,马来西亚,legacy,A,Q068,0,2,20,0.1429,0.0,0.5,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q068_B,马来西亚《2024年网络安全法》对数字内容安全的保护规定是什么？,马来西亚,legacy,B,Q068,0,2,20,0.125,0.0,0.5,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q068_C,Malaysia Cybersecurity Act 2024 digital content 保护 provisions,马来西亚,legacy,C,Q068,0,2,20,0.1111,0.0,0.5,0.5,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q068_D,What are the digital content security provisions under Malaysia's Cybersecurity Act 2024?,马来西亚,legacy,D,Q068,0,2,20,0.125,0.0,0.5,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q069_A,马来西亚 个人数据 主体 权利 访问,马来西亚,legacy,A,Q069,0,2,20,0.0769,0.0,0.0,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q069_B,马来西亚《个人数据保护法》赋予数据主体的权利（访问、更正、反对等）是什么？,马来西亚,legacy,B,Q069,0,2,20,0.1,0.0,0.5,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q069_C,Malaysia PDPA data subject rights access correction 反对,马来西亚,legacy,C,Q069,0,2,20,0.0769,0.0,0.0,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q069_D,"What data subject rights (access, correction, objection) are provided under Malaysia's Personal Data",马来西亚,legacy,D,Q069,0,2,20,0.1111,0.0,0.5,1.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q070_A,马来西亚 隐私权 个人资料 跨境传输,马来西亚,legacy,A,Q070,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q070_B,马来西亚法律对个人资料跨境传输的限制和保护规定是什么？,马来西亚,legacy,B,Q070,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q070_C,Malaysia cross-border data transfer PDPA 限制,马来西亚,legacy,C,Q070,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q070_D,What are the restrictions on cross-border data transfers under Malaysian data protection law?,马来西亚,legacy,D,Q070,1,,,,,,,,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,Q071_A,亚太 跨境数据流动 法规 比较,跨法域,legacy,A,Q071,0,10,20,0.0,0.0,0.0,0.0,0.0,5,0.5,0.4,0.4,0.3452
+混合+Re-ranker,Q071_B,亚太地区主要法域对跨境数据流动的法规要求有何异同？,跨法域,legacy,B,Q071,0,10,20,0.0,0.0,0.0,0.0,0.0,5,0.5,0.6,0.6,0.5148
+混合+Re-ranker,Q071_C,Asia-Pacific cross-border data transfer regulations 比较 异同,跨法域,legacy,C,Q071,0,10,20,0.0,0.0,0.0,0.0,0.0,5,0.5,0.4,0.6,0.4622
+混合+Re-ranker,Q071_D,What are the similarities and differences in cross-border data transfer regulations across Asia-Paci,跨法域,legacy,D,Q071,0,10,20,0.0,0.0,0.0,0.0,0.0,5,0.5,0.4,0.6,0.4857
+混合+Re-ranker,Q072_A,东南亚 AI 监管 治理 比较,跨法域,legacy,A,Q072,0,9,20,0.0,0.0,0.0,0.0,0.0,3,0.0833,0.0,0.3333,0.1268
+混合+Re-ranker,Q072_B,东南亚各国在人工智能监管和治理方面的方法有何异同？,跨法域,legacy,B,Q072,0,9,20,0.0,0.0,0.0,0.0,0.0,3,0.1111,0.0,0.3333,0.1413
+混合+Re-ranker,Q072_C,Southeast Asia AI regulation governance 比较 approaches,跨法域,legacy,C,Q072,0,9,20,1.0,0.1111,0.1111,0.1111,0.2,3,0.1667,0.0,0.3333,0.1672
+混合+Re-ranker,Q072_D,How do AI regulatory approaches differ across Southeast Asian countries?,跨法域,legacy,D,Q072,0,9,20,0.0,0.0,0.0,0.0,0.0,3,0.25,0.3333,0.3333,0.2021
+混合+Re-ranker,Q073_A,数据泄露 通知 亚太 各国 比较,跨法域,legacy,A,Q073,1,,,,,,,,4,0.3333,0.5,1.0,0.5822
+混合+Re-ranker,Q073_B,亚太各国数据泄露通知义务在通知时限和触发条件上有何异同？,跨法域,legacy,B,Q073,1,,,,,,,,4,0.25,0.25,0.75,0.3691
+混合+Re-ranker,Q073_C,data breach notification Asia-Pacific 各国 比较 通知时限,跨法域,legacy,C,Q073,1,,,,,,,,4,0.3333,0.5,1.0,0.5616
+混合+Re-ranker,Q073_D,How do data breach notification requirements differ across Asia-Pacific jurisdictions?,跨法域,legacy,D,Q073,1,,,,,,,,4,1.0,0.75,0.75,0.7537
+混合+Re-ranker,Q074_A,电子签名 法律效力 各国 比较,跨法域,legacy,A,Q074,1,,,,,,,,4,0.2,0.25,1.0,0.5132
+混合+Re-ranker,Q074_B,不同法域对电子签名法律效力的认定方式和类型划分有何异同？,跨法域,legacy,B,Q074,1,,,,,,,,4,0.1667,0.0,0.75,0.3781
+混合+Re-ranker,Q074_C,e-signature legal validity 各国 比较 类型划分,跨法域,legacy,C,Q074,1,,,,,,,,4,0.2,0.25,0.5,0.2742
+混合+Re-ranker,Q074_D,How do different jurisdictions classify and recognize the legal validity of electronic signatures?,跨法域,legacy,D,Q074,1,,,,,,,,4,0.2,0.25,0.75,0.4132
+混合+Re-ranker,Q075_A,亚洲 电信监管 牌照 比较,跨法域,legacy,A,Q075,0,10,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.5,0.75,0.6646
+混合+Re-ranker,Q075_B,亚洲主要国家在电信服务牌照和监管框架上有何异同？,跨法域,legacy,B,Q075,0,10,20,0.0,0.0,0.0,0.0,0.0,4,0.3333,0.5,0.75,0.4551
+混合+Re-ranker,Q075_C,Asia telecom regulation licensing 比较 监管框架,跨法域,legacy,C,Q075,0,10,20,0.0,0.0,0.0,0.0,0.0,4,0.1429,0.0,0.25,0.1301
+混合+Re-ranker,Q075_D,How do telecommunications regulatory frameworks compare across major Asian countries?,跨法域,legacy,D,Q075,0,10,20,0.1667,0.0,0.1,0.1,0.0,4,0.25,0.25,0.75,0.4088
+混合+Re-ranker,Q076_A,金融科技 监管 亚太 比较,跨法域,legacy,A,Q076,0,10,20,0.0,0.0,0.0,0.0,0.0,3,0.25,0.3333,1.0,0.4811
+混合+Re-ranker,Q076_B,亚太地区在金融科技（FinTech）监管上的不同模式和做法是什么？,跨法域,legacy,B,Q076,0,10,20,0.0,0.0,0.0,0.0,0.0,3,1.0,0.6667,1.0,0.7989
+混合+Re-ranker,Q076_C,FinTech regulation Asia-Pacific 监管模式 比较,跨法域,legacy,C,Q076,0,10,20,0.0,0.0,0.0,0.0,0.0,3,1.0,0.6667,1.0,0.8385
+混合+Re-ranker,Q076_D,What are the different FinTech regulatory approaches across Asia-Pacific jurisdictions?,跨法域,legacy,D,Q076,0,10,20,0.0,0.0,0.0,0.0,0.0,3,0.2,0.3333,0.6667,0.3487
+混合+Re-ranker,Q077_A,网络安全 法律 东南亚 东亚 比较,跨法域,legacy,A,Q077,0,10,20,0.0909,0.0,0.0,0.1,0.0,3,1.0,0.3333,0.6667,0.6257
+混合+Re-ranker,Q077_B,东南亚和东亚国家网络安全立法的关键要素有何差异？,跨法域,legacy,B,Q077,0,10,20,0.1667,0.0,0.2,0.2,0.0,3,0.5,0.6667,0.6667,0.4982
+混合+Re-ranker,Q077_C,cybersecurity law Southeast Asia East Asia 比较 key elements,跨法域,legacy,C,Q077,0,10,20,1.0,0.1,0.1,0.1,0.2,3,0.5,0.6667,1.0,0.6616
+混合+Re-ranker,Q077_D,What are the key differences in cybersecurity legislation across East and Southeast Asian countries?,跨法域,legacy,D,Q077,0,10,20,0.0,0.0,0.0,0.0,0.0,3,1.0,0.3333,1.0,0.7525
+混合+Re-ranker,Q078_A,反洗钱 FATF 合规 亚太 比较,跨法域,legacy,A,Q078,1,,,,,,,,4,0.3333,0.5,0.75,0.4659
+混合+Re-ranker,Q078_B,亚太各国在FATF反洗钱合规标准执行上表现如何？,跨法域,legacy,B,Q078,1,,,,,,,,4,0.3333,0.5,0.5,0.3633
+混合+Re-ranker,Q078_C,AML FATF compliance Asia-Pacific 各国 比较 执行,跨法域,legacy,C,Q078,1,,,,,,,,4,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q078_D,How do Asia-Pacific countries compare in their FATF AML compliance implementation?,跨法域,legacy,D,Q078,1,,,,,,,,4,0.0625,0.0,0.25,0.0955
+混合+Re-ranker,Q079_A,电商 消费者权益 保护 东南亚,跨法域,legacy,A,Q079,0,10,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.5,0.5,0.5414
+混合+Re-ranker,Q079_B,东南亚国家在电子商务消费者权益保护方面的法律有何异同？,跨法域,legacy,B,Q079,0,10,20,0.0,0.0,0.0,0.0,0.0,4,0.5,0.25,0.25,0.2463
+混合+Re-ranker,Q079_C,e-commerce consumer protection Southeast Asia 比较 laws,跨法域,legacy,C,Q079,0,10,20,0.0,0.0,0.0,0.0,0.0,4,0.3333,0.5,0.75,0.4762
+混合+Re-ranker,Q079_D,How do e-commerce consumer protection laws compare across Southeast Asian countries?,跨法域,legacy,D,Q079,0,10,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.25,0.5,0.5079
+混合+Re-ranker,Q080_A,个人资料保护 框架 亚洲 比较,跨法域,legacy,A,Q080,1,,,,,,,,5,1.0,0.8,1.0,0.967
+混合+Re-ranker,Q080_B,亚洲各司法管辖区个人资料保护法律框架的核心异同是什么？,跨法域,legacy,B,Q080,1,,,,,,,,5,1.0,0.6,0.8,0.8248
+混合+Re-ranker,Q080_C,personal data protection framework Asia 比较 核心异同,跨法域,legacy,C,Q080,1,,,,,,,,5,1.0,0.8,1.0,0.9579
+混合+Re-ranker,Q080_D,What are the core similarities and differences in personal data protection frameworks across Asian j,跨法域,legacy,D,Q080,1,,,,,,,,5,1.0,0.8,1.0,0.9709
+混合+Re-ranker,TCN_F1_01_A,中国大陆 人工智能 法律规定,中国大陆,template,A,TCN_F1_01,0,8,20,1.0,0.125,0.375,0.75,0.2,5,1.0,0.8,0.8,0.8688
+混合+Re-ranker,TCN_F1_01_B,中国大陆法律体系中关于「人工智能」的核心规定有哪些？,中国大陆,template,B,TCN_F1_01,0,8,20,0.25,0.25,0.375,0.875,0.4,5,1.0,0.8,0.8,0.8688
+混合+Re-ranker,TCN_F1_01_C,中国大陆 Artificial Intelligence 相关法律规定,中国大陆,template,C,TCN_F1_01,0,8,20,0.1667,0.0,0.125,0.125,0.0,5,1.0,0.6,0.8,0.7679
+混合+Re-ranker,TCN_F1_01_D,What are the key legal provisions on Artificial Intelligence in mainland China?,中国大陆,template,D,TCN_F1_01,0,8,20,0.1667,0.0,0.125,0.5,0.0,5,1.0,0.8,0.8,0.8688
+混合+Re-ranker,TCN_F1_02_A,中国大陆 国家安全 法律规定,中国大陆,template,A,TCN_F1_02,0,8,20,0.25,0.125,0.25,0.375,0.2,6,0.5,0.3333,0.6667,0.5078
+混合+Re-ranker,TCN_F1_02_B,中国大陆法律体系中关于「国家安全」的核心规定有哪些？,中国大陆,template,B,TCN_F1_02,0,8,20,0.25,0.125,0.125,0.25,0.2,6,0.5,0.3333,0.5,0.4333
+混合+Re-ranker,TCN_F1_02_C,中国大陆 National Security 相关法律规定,中国大陆,template,C,TCN_F1_02,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.1667,0.3333,0.3752
+混合+Re-ranker,TCN_F1_02_D,What are the key legal provisions on National Security in mainland China?,中国大陆,template,D,TCN_F1_02,0,8,20,0.0,0.0,0.0,0.0,0.0,6,0.5,0.3333,0.3333,0.308
+混合+Re-ranker,TCN_F1_03_A,中国大陆 公共治理 法律规定,中国大陆,template,A,TCN_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,6,0.3333,0.1667,0.3333,0.2288
+混合+Re-ranker,TCN_F1_03_B,中国大陆法律体系中关于「公共治理」的核心规定有哪些？,中国大陆,template,B,TCN_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,6,0.0,0.0,0.0,0.0
+混合+Re-ranker,TCN_F1_03_C,中国大陆 Public Governance 相关法律规定,中国大陆,template,C,TCN_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,6,0.25,0.1667,0.3333,0.2147
+混合+Re-ranker,TCN_F1_03_D,What are the key legal provisions on Public Governance in mainland China?,中国大陆,template,D,TCN_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,6,0.0,0.0,0.0,0.0
+混合+Re-ranker,TCN_F1_04_A,中国大陆 公司治理 法律规定,中国大陆,template,A,TCN_F1_04,0,8,20,0.25,0.125,0.125,0.125,0.2,6,0.5,0.3333,0.6667,0.5208
+混合+Re-ranker,TCN_F1_04_B,中国大陆法律体系中关于「公司治理」的核心规定有哪些？,中国大陆,template,B,TCN_F1_04,0,8,20,1.0,0.125,0.125,0.125,0.2,6,1.0,0.3333,0.5,0.5338
+混合+Re-ranker,TCN_F1_04_C,中国大陆 Corporate Governance 相关法律规定,中国大陆,template,C,TCN_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,6,0.5,0.1667,0.5,0.3793
+混合+Re-ranker,TCN_F1_04_D,What are the key legal provisions on Corporate Governance in mainland China?,中国大陆,template,D,TCN_F1_04,0,8,20,0.0833,0.0,0.0,0.125,0.0,6,0.1111,0.0,0.3333,0.1786
+混合+Re-ranker,TMO_F1_01_A,中国澳门 行政管理 法律规定,中国澳门,template,A,TMO_F1_01,0,7,20,0.0,0.0,0.0,0.0,0.0,4,0.0,0.0,0.0,0.0
+混合+Re-ranker,TMO_F1_01_B,中国澳门法律体系中关于「行政管理」的核心规定有哪些？,中国澳门,template,B,TMO_F1_01,0,7,20,0.0,0.0,0.0,0.0,0.0,4,0.0833,0.0,0.25,0.1055
+混合+Re-ranker,TMO_F1_01_C,中国澳门 Public Administration 相关法律规定,中国澳门,template,C,TMO_F1_01,0,7,20,0.0,0.0,0.0,0.0,0.0,4,0.1,0.0,0.25,0.1128
+混合+Re-ranker,TMO_F1_01_D,What are the key legal provisions on Public Administration in Macao?,中国澳门,template,D,TMO_F1_01,0,7,20,0.0,0.0,0.0,0.0,0.0,4,0.0556,0.0,0.25,0.0919
+混合+Re-ranker,TMO_F1_02_A,中国澳门 数据保护 法律规定,中国澳门,template,A,TMO_F1_02,0,8,20,0.5,0.125,0.125,0.375,0.2,6,0.5,0.3333,0.6667,0.4831
+混合+Re-ranker,TMO_F1_02_B,中国澳门法律体系中关于「数据保护」的核心规定有哪些？,中国澳门,template,B,TMO_F1_02,0,8,20,1.0,0.125,0.125,0.375,0.2,6,1.0,0.3333,0.6667,0.6654
+混合+Re-ranker,TMO_F1_02_C,中国澳门 Data Protection 相关法律规定,中国澳门,template,C,TMO_F1_02,0,8,20,1.0,0.125,0.125,0.125,0.2,6,1.0,0.3333,0.3333,0.4935
+混合+Re-ranker,TMO_F1_02_D,What are the key legal provisions on Data Protection in Macao?,中国澳门,template,D,TMO_F1_02,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.3333,0.3333,0.4539
+混合+Re-ranker,TMO_F1_03_A,中国澳门 刑法 法律规定,中国澳门,template,A,TMO_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.3333,0.3333,0.4539
+混合+Re-ranker,TMO_F1_03_B,中国澳门法律体系中关于「刑法」的核心规定有哪些？,中国澳门,template,B,TMO_F1_03,0,8,20,0.0909,0.0,0.0,0.25,0.0,6,1.0,0.1667,0.3333,0.3937
+混合+Re-ranker,TMO_F1_03_C,中国澳门 Criminal Law 相关法律规定,中国澳门,template,C,TMO_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.3333,0.3333,0.4539
+混合+Re-ranker,TMO_F1_03_D,What are the key legal provisions on Criminal Law in Macao?,中国澳门,template,D,TMO_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.1667,0.6667,0.5573
+混合+Re-ranker,TMO_F1_04_A,中国澳门 金融服务与监管 法律规定,中国澳门,template,A,TMO_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,7,1.0,0.1429,0.2857,0.3728
+混合+Re-ranker,TMO_F1_04_B,中国澳门法律体系中关于「金融服务与监管」的核心规定有哪些？,中国澳门,template,B,TMO_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,7,0.5,0.2857,0.2857,0.2798
+混合+Re-ranker,TMO_F1_04_C,中国澳门 Financial Services and Regulation 相关法律规定,中国澳门,template,C,TMO_F1_04,0,8,20,0.3333,0.125,0.125,0.125,0.2,7,1.0,0.1429,0.2857,0.3728
+混合+Re-ranker,TMO_F1_04_D,What are the key legal provisions on Financial Services and Regulation in Macao?,中国澳门,template,D,TMO_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,7,0.5,0.1429,0.1429,0.1734
+混合+Re-ranker,TAU_F1_01_A,澳大利亚 税法 法律规定,澳大利亚,template,A,TAU_F1_01,0,8,20,0.0,0.0,0.0,0.0,0.0,8,0.25,0.125,0.5,0.3466
+混合+Re-ranker,TAU_F1_01_B,澳大利亚法律体系中关于「税法」的核心规定有哪些？,澳大利亚,template,B,TAU_F1_01,0,8,20,0.0,0.0,0.0,0.0,0.0,8,0.3333,0.125,0.5,0.339
+混合+Re-ranker,TAU_F1_01_C,澳大利亚 Tax Law 相关法律规定,澳大利亚,template,C,TAU_F1_01,0,8,20,1.0,0.125,0.125,0.125,0.2,8,1.0,0.25,0.625,0.59
+混合+Re-ranker,TAU_F1_01_D,What are the key legal provisions on Tax Law in Australia?,澳大利亚,template,D,TAU_F1_01,0,8,20,1.0,0.125,0.125,0.125,0.2,8,1.0,0.125,0.375,0.3919
+混合+Re-ranker,TAU_F1_02_A,澳大利亚 政府采购 法律规定,澳大利亚,template,A,TAU_F1_02,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.1667,0.3333,0.4035
+混合+Re-ranker,TAU_F1_02_B,澳大利亚法律体系中关于「政府采购」的核心规定有哪些？,澳大利亚,template,B,TAU_F1_02,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.1667,0.3333,0.3937
+混合+Re-ranker,TAU_F1_02_C,澳大利亚 Government Procurement 相关法律规定,澳大利亚,template,C,TAU_F1_02,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.3333,0.6667,0.6574
+混合+Re-ranker,TAU_F1_02_D,What are the key legal provisions on Government Procurement in Australia?,澳大利亚,template,D,TAU_F1_02,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.1667,0.1667,0.3026
+混合+Re-ranker,TAU_F1_03_A,澳大利亚 电信与通讯 法律规定,澳大利亚,template,A,TAU_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.75,1.0,0.8397
+混合+Re-ranker,TAU_F1_03_B,澳大利亚法律体系中关于「电信与通讯」的核心规定有哪些？,澳大利亚,template,B,TAU_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.75,0.75,0.8048
+混合+Re-ranker,TAU_F1_03_C,澳大利亚 Telecommunications 相关法律规定,澳大利亚,template,C,TAU_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.75,0.75,0.7095
+混合+Re-ranker,TAU_F1_03_D,What are the key legal provisions on Telecommunications in Australia?,澳大利亚,template,D,TAU_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,4,0.5,0.75,0.75,0.5925
+混合+Re-ranker,TAU_F1_04_A,澳大利亚 消费者保护 法律规定,澳大利亚,template,A,TAU_F1_04,0,8,20,1.0,0.125,0.125,0.125,0.2,6,1.0,0.5,0.6667,0.7017
+混合+Re-ranker,TAU_F1_04_B,澳大利亚法律体系中关于「消费者保护」的核心规定有哪些？,澳大利亚,template,B,TAU_F1_04,0,8,20,0.3333,0.125,0.125,0.125,0.2,6,1.0,0.5,0.6667,0.6717
+混合+Re-ranker,TAU_F1_04_C,澳大利亚 Consumer Protection 相关法律规定,澳大利亚,template,C,TAU_F1_04,0,8,20,0.5,0.125,0.125,0.125,0.2,6,1.0,0.3333,0.8333,0.7866
+混合+Re-ranker,TAU_F1_04_D,What are the key legal provisions on Consumer Protection in Australia?,澳大利亚,template,D,TAU_F1_04,0,8,20,1.0,0.125,0.125,0.125,0.2,6,1.0,0.3333,0.3333,0.4197
+混合+Re-ranker,TUS_F1_01_A,美国 联邦与州法律关系 法律规定,美国,template,A,TUS_F1_01,0,8,20,0.3333,0.375,0.375,0.375,0.6,7,0.3333,0.4286,0.4286,0.3622
+混合+Re-ranker,TUS_F1_01_B,美国法律体系中关于「联邦与州法律关系」的核心规定有哪些？,美国,template,B,TUS_F1_01,0,8,20,0.3333,0.375,0.375,0.375,0.6,7,0.3333,0.4286,0.4286,0.3622
+混合+Re-ranker,TUS_F1_01_C,美国 Federalism & Legal Relations 相关法律规定,美国,template,C,TUS_F1_01,0,8,20,0.5,0.125,0.25,0.375,0.2,7,0.5,0.1429,0.4286,0.3508
+混合+Re-ranker,TUS_F1_01_D,What are the key legal provisions on Federalism & Legal Relations in the United States?,美国,template,D,TUS_F1_01,0,8,20,0.3333,0.125,0.125,0.125,0.2,7,0.3333,0.1429,0.1429,0.1374
+混合+Re-ranker,TUS_F1_02_A,美国 网络安全 法律规定,美国,template,A,TUS_F1_02,0,8,20,0.5,0.125,0.125,0.125,0.2,5,1.0,0.6,0.6,0.7227
+混合+Re-ranker,TUS_F1_02_B,美国法律体系中关于「网络安全」的核心规定有哪些？,美国,template,B,TUS_F1_02,0,8,20,0.0833,0.0,0.0,0.125,0.0,5,1.0,0.6,0.6,0.7227
+混合+Re-ranker,TUS_F1_02_C,美国 Cybersecurity 相关法律规定,美国,template,C,TUS_F1_02,0,8,20,1.0,0.125,0.125,0.125,0.2,5,1.0,0.6,0.8,0.7974
+混合+Re-ranker,TUS_F1_02_D,What are the key legal provisions on Cybersecurity in the United States?,美国,template,D,TUS_F1_02,0,8,20,1.0,0.25,0.25,0.25,0.4,5,1.0,0.6,0.6,0.7227
+混合+Re-ranker,TUS_F1_03_A,美国 薪酬福利 法律规定,美国,template,A,TUS_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,5,1.0,0.8,0.8,0.8688
+混合+Re-ranker,TUS_F1_03_B,美国法律体系中关于「薪酬福利」的核心规定有哪些？,美国,template,B,TUS_F1_03,0,8,20,0.2,0.125,0.125,0.125,0.2,5,1.0,0.8,0.8,0.8539
+混合+Re-ranker,TUS_F1_03_C,美国 Compensation & Benefits 相关法律规定,美国,template,C,TUS_F1_03,0,8,20,0.5,0.375,0.5,0.5,0.6,5,0.5,0.4,0.6,0.5044
+混合+Re-ranker,TUS_F1_03_D,What are the key legal provisions on Compensation & Benefits in the United States?,美国,template,D,TUS_F1_03,0,8,20,0.5,0.25,0.375,0.5,0.4,5,1.0,0.8,1.0,0.9896
+混合+Re-ranker,TUS_F1_04_A,美国 行政程序 法律规定,美国,template,A,TUS_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,5,1.0,0.2,0.2,0.3392
+混合+Re-ranker,TUS_F1_04_B,美国法律体系中关于「行政程序」的核心规定有哪些？,美国,template,B,TUS_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,5,0.25,0.4,0.4,0.2773
+混合+Re-ranker,TUS_F1_04_C,美国 Administrative Procedures 相关法律规定,美国,template,C,TUS_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,5,1.0,0.2,0.2,0.3392
+混合+Re-ranker,TUS_F1_04_D,What are the key legal provisions on Administrative Procedures in the United States?,美国,template,D,TUS_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,5,0.5,0.2,0.4,0.321
+混合+Re-ranker,TJP_F1_01_A,日本 数据管理 法律规定,日本,template,A,TJP_F1_01,0,6,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.75,0.75,0.8319
+混合+Re-ranker,TJP_F1_01_B,日本法律体系中关于「数据管理」的核心规定有哪些？,日本,template,B,TJP_F1_01,0,6,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.75,0.75,0.8319
+混合+Re-ranker,TJP_F1_01_C,日本 Data Management 相关法律规定,日本,template,C,TJP_F1_01,0,6,20,0.1429,0.0,0.1667,0.1667,0.0,4,1.0,0.75,0.75,0.7877
+混合+Re-ranker,TJP_F1_01_D,What are the key legal provisions on Data Management in Japan?,日本,template,D,TJP_F1_01,0,6,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.75,0.75,0.8319
+混合+Re-ranker,TJP_F1_02_A,日本 诉讼与争议 法律规定,日本,template,A,TJP_F1_02,0,6,20,0.0,0.0,0.0,0.0,0.0,5,0.0,0.0,0.0,0.0
+混合+Re-ranker,TJP_F1_02_B,日本法律体系中关于「诉讼与争议」的核心规定有哪些？,日本,template,B,TJP_F1_02,0,6,20,0.0,0.0,0.0,0.0,0.0,5,0.0,0.0,0.0,0.0
+混合+Re-ranker,TJP_F1_02_C,日本 Litigation & Appeals 相关法律规定,日本,template,C,TJP_F1_02,0,6,20,1.0,0.3333,0.3333,0.3333,0.4,5,1.0,0.4,0.4,0.5531
+混合+Re-ranker,TJP_F1_02_D,What are the key legal provisions on Litigation & Appeals in Japan?,日本,template,D,TJP_F1_02,0,6,20,0.3333,0.3333,0.3333,0.3333,0.4,5,0.3333,0.4,0.4,0.3008
+混合+Re-ranker,TJP_F1_03_A,日本 公司治理 法律规定,日本,template,A,TJP_F1_03,0,8,20,0.2,0.125,0.125,0.125,0.2,4,0.2,0.25,0.25,0.151
+混合+Re-ranker,TJP_F1_03_B,日本法律体系中关于「公司治理」的核心规定有哪些？,日本,template,B,TJP_F1_03,0,8,20,0.1667,0.0,0.125,0.125,0.0,4,0.1667,0.0,0.25,0.1391
+混合+Re-ranker,TJP_F1_03_C,日本 Corporate Governance 相关法律规定,日本,template,C,TJP_F1_03,0,8,20,0.125,0.0,0.25,0.25,0.0,4,0.3333,0.25,0.25,0.1952
+混合+Re-ranker,TJP_F1_03_D,What are the key legal provisions on Corporate Governance in Japan?,日本,template,D,TJP_F1_03,0,8,20,0.0,0.0,0.0,0.0,0.0,4,0.0,0.0,0.0,0.0
+混合+Re-ranker,TJP_F1_04_A,日本 政府采购 法律规定,日本,template,A,TJP_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,5,0.0,0.0,0.0,0.0
+混合+Re-ranker,TJP_F1_04_B,日本法律体系中关于「政府采购」的核心规定有哪些？,日本,template,B,TJP_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,5,0.0,0.0,0.0,0.0
+混合+Re-ranker,TJP_F1_04_C,日本 Government Procurement 相关法律规定,日本,template,C,TJP_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,5,0.0,0.0,0.0,0.0
+混合+Re-ranker,TJP_F1_04_D,What are the key legal provisions on Government Procurement in Japan?,日本,template,D,TJP_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,5,0.5,0.2,0.4,0.3086
+混合+Re-ranker,THK_F1_01_A,中国香港 电子交易 法律规定,中国香港,template,A,THK_F1_01,0,4,20,0.1,0.0,0.25,0.25,0.0,3,0.5,0.3333,0.3333,0.2961
+混合+Re-ranker,THK_F1_01_B,中国香港法律体系中关于「电子交易」的核心规定有哪些？,中国香港,template,B,THK_F1_01,0,4,20,0.25,0.25,0.25,0.5,0.2,3,0.5,0.6667,0.6667,0.5307
+混合+Re-ranker,THK_F1_01_C,中国香港 Electronic Transactions 相关法律规定,中国香港,template,C,THK_F1_01,0,4,20,0.0714,0.0,0.0,0.25,0.0,3,1.0,0.3333,0.3333,0.4693
+混合+Re-ranker,THK_F1_01_D,What are the key legal provisions on Electronic Transactions in Hong Kong?,中国香港,template,D,THK_F1_01,0,4,20,0.0769,0.0,0.0,0.5,0.0,3,0.5,0.3333,0.3333,0.2961
+混合+Re-ranker,THK_F1_02_A,中国香港 公共治理 法律规定,中国香港,template,A,THK_F1_02,0,8,20,0.0,0.0,0.0,0.0,0.0,5,1.0,0.8,0.8,0.8539
+混合+Re-ranker,THK_F1_02_B,中国香港法律体系中关于「公共治理」的核心规定有哪些？,中国香港,template,B,THK_F1_02,0,8,20,0.0,0.0,0.0,0.0,0.0,5,1.0,0.8,0.8,0.8304
+混合+Re-ranker,THK_F1_02_C,中国香港 Public Governance 相关法律规定,中国香港,template,C,THK_F1_02,0,8,20,0.0,0.0,0.0,0.0,0.0,5,1.0,0.6,0.8,0.7756
+混合+Re-ranker,THK_F1_02_D,What are the key legal provisions on Public Governance in Hong Kong?,中国香港,template,D,THK_F1_02,0,8,20,0.0,0.0,0.0,0.0,0.0,5,0.5,0.6,1.0,0.7251
+混合+Re-ranker,THK_F1_03_A,中国香港 刑法 法律规定,中国香港,template,A,THK_F1_03,0,8,20,0.0625,0.0,0.0,0.125,0.0,5,1.0,0.8,0.8,0.786
+混合+Re-ranker,THK_F1_03_B,中国香港法律体系中关于「刑法」的核心规定有哪些？,中国香港,template,B,THK_F1_03,0,8,20,0.0833,0.0,0.0,0.125,0.0,5,1.0,0.8,0.8,0.786
+混合+Re-ranker,THK_F1_03_C,中国香港 Criminal Law 相关法律规定,中国香港,template,C,THK_F1_03,0,8,20,0.0769,0.0,0.0,0.125,0.0,5,1.0,0.8,0.8,0.786
+混合+Re-ranker,THK_F1_03_D,What are the key legal provisions on Criminal Law in Hong Kong?,中国香港,template,D,THK_F1_03,0,8,20,0.0714,0.0,0.0,0.125,0.0,5,0.5,0.6,0.8,0.6504
+混合+Re-ranker,THK_F1_04_A,中国香港 电信与通讯 法律规定,中国香港,template,A,THK_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.5,0.5,0.6367
+混合+Re-ranker,THK_F1_04_B,中国香港法律体系中关于「电信与通讯」的核心规定有哪些？,中国香港,template,B,THK_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.75,0.75,0.7537
+混合+Re-ranker,THK_F1_04_C,中国香港 Telecommunications 相关法律规定,中国香港,template,C,THK_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.5,0.5,0.6367
+混合+Re-ranker,THK_F1_04_D,What are the key legal provisions on Telecommunications in Hong Kong?,中国香港,template,D,THK_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.5,0.5,0.6367
+混合+Re-ranker,TTH_F1_01_A,泰国 知识产权 法律规定,泰国,template,A,TTH_F1_01,0,8,20,0.1,0.0,0.125,0.125,0.0,5,0.5,0.4,0.4,0.3836
+混合+Re-ranker,TTH_F1_01_B,泰国法律体系中关于「知识产权」的核心规定有哪些？,泰国,template,B,TTH_F1_01,0,8,20,0.5,0.125,0.25,0.25,0.2,5,1.0,0.4,0.4,0.5531
+混合+Re-ranker,TTH_F1_01_C,泰国 Intellectual Property 相关法律规定,泰国,template,C,TTH_F1_01,0,8,20,0.0,0.0,0.0,0.0,0.0,5,1.0,0.4,0.6,0.606
+混合+Re-ranker,TTH_F1_01_D,What are the key legal provisions on Intellectual Property in Thailand?,泰国,template,D,TTH_F1_01,0,8,20,0.1,0.0,0.125,0.25,0.0,5,1.0,0.4,0.4,0.5531
+混合+Re-ranker,TTH_F1_02_A,泰国 薪酬福利 法律规定,泰国,template,A,TTH_F1_02,0,6,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.5,0.5,0.5856
+混合+Re-ranker,TTH_F1_02_B,泰国法律体系中关于「薪酬福利」的核心规定有哪些？,泰国,template,B,TTH_F1_02,0,6,20,0.0,0.0,0.0,0.0,0.0,4,1.0,0.25,0.25,0.3904
+混合+Re-ranker,TTH_F1_02_C,泰国 Compensation & Benefits 相关法律规定,泰国,template,C,TTH_F1_02,0,6,20,0.3333,0.1667,0.1667,0.3333,0.2,4,1.0,0.25,0.25,0.3904
+混合+Re-ranker,TTH_F1_02_D,What are the key legal provisions on Compensation & Benefits in Thailand?,泰国,template,D,TTH_F1_02,0,6,20,0.1,0.0,0.1667,0.1667,0.0,4,1.0,0.25,0.25,0.3904
+混合+Re-ranker,TTH_F1_03_A,泰国 消费者保护 法律规定,泰国,template,A,TTH_F1_03,0,6,20,1.0,0.1667,0.1667,0.3333,0.2,4,1.0,0.5,0.5,0.6367
+混合+Re-ranker,TTH_F1_03_B,泰国法律体系中关于「消费者保护」的核心规定有哪些？,泰国,template,B,TTH_F1_03,0,6,20,0.1667,0.0,0.1667,0.3333,0.0,4,1.0,0.5,0.5,0.6367
+混合+Re-ranker,TTH_F1_03_C,泰国 Consumer Protection 相关法律规定,泰国,template,C,TTH_F1_03,0,6,20,0.5,0.1667,0.1667,0.3333,0.2,4,1.0,0.5,0.5,0.6367
+混合+Re-ranker,TTH_F1_03_D,What are the key legal provisions on Consumer Protection in Thailand?,泰国,template,D,TTH_F1_03,0,6,20,1.0,0.1667,0.1667,0.1667,0.2,4,1.0,0.5,0.5,0.6367
+混合+Re-ranker,TTH_F1_04_A,泰国 行政程序 法律规定,泰国,template,A,TTH_F1_04,0,6,20,0.0,0.0,0.0,0.0,0.0,3,1.0,0.3333,0.3333,0.4693
+混合+Re-ranker,TTH_F1_04_B,泰国法律体系中关于「行政程序」的核心规定有哪些？,泰国,template,B,TTH_F1_04,0,6,20,0.0,0.0,0.0,0.0,0.0,3,1.0,0.3333,0.3333,0.4693
+混合+Re-ranker,TTH_F1_04_C,泰国 Administrative Procedures 相关法律规定,泰国,template,C,TTH_F1_04,0,6,20,0.0,0.0,0.0,0.0,0.0,3,1.0,0.3333,0.3333,0.4693
+混合+Re-ranker,TTH_F1_04_D,What are the key legal provisions on Administrative Procedures in Thailand?,泰国,template,D,TTH_F1_04,0,6,20,0.0,0.0,0.0,0.0,0.0,3,1.0,0.3333,0.3333,0.4693
+混合+Re-ranker,TKR_F1_01_A,韩国 电子交易 法律规定,韩国,template,A,TKR_F1_01,0,5,20,0.0667,0.0,0.0,0.6,0.0,3,1.0,0.6667,0.6667,0.7654
+混合+Re-ranker,TKR_F1_01_B,韩国法律体系中关于「电子交易」的核心规定有哪些？,韩国,template,B,TKR_F1_01,0,5,20,0.0625,0.0,0.0,0.4,0.0,3,1.0,0.6667,0.6667,0.6714
+混合+Re-ranker,TKR_F1_01_C,韩国 Electronic Transactions 相关法律规定,韩国,template,C,TKR_F1_01,0,5,20,0.0,0.0,0.0,0.0,0.0,3,1.0,1.0,1.0,0.8529
+混合+Re-ranker,TKR_F1_01_D,What are the key legal provisions on Electronic Transactions in South Korea?,韩国,template,D,TKR_F1_01,0,5,20,0.0,0.0,0.0,0.0,0.0,3,0.5,0.6667,0.6667,0.4982
+混合+Re-ranker,TKR_F1_02_A,韩国 金融服务与监管 法律规定,韩国,template,A,TKR_F1_02,0,8,20,1.0,0.25,0.25,0.25,0.4,6,1.0,0.6667,0.8333,0.8091
+混合+Re-ranker,TKR_F1_02_B,韩国法律体系中关于「金融服务与监管」的核心规定有哪些？,韩国,template,B,TKR_F1_02,0,8,20,0.5,0.125,0.25,0.25,0.2,6,1.0,0.6667,0.8333,0.8487
+混合+Re-ranker,TKR_F1_02_C,韩国 Financial Services and Regulation 相关法律规定,韩国,template,C,TKR_F1_02,0,8,20,1.0,0.125,0.125,0.125,0.2,6,1.0,0.6667,0.8333,0.8829
+混合+Re-ranker,TKR_F1_02_D,What are the key legal provisions on Financial Services and Regulation in South Korea?,韩国,template,D,TKR_F1_02,0,8,20,1.0,0.125,0.125,0.125,0.2,6,1.0,0.6667,0.6667,0.7751
+混合+Re-ranker,TKR_F1_03_A,韩国 网络安全 法律规定,韩国,template,A,TKR_F1_03,0,4,20,0.0833,0.0,0.0,0.5,0.0,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,TKR_F1_03_B,韩国法律体系中关于「网络安全」的核心规定有哪些？,韩国,template,B,TKR_F1_03,0,4,20,0.1,0.0,0.25,0.5,0.0,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,TKR_F1_03_C,韩国 Cybersecurity 相关法律规定,韩国,template,C,TKR_F1_03,0,4,20,0.0,0.0,0.0,0.0,0.0,2,0.5,1.0,1.0,0.6934
+混合+Re-ranker,TKR_F1_03_D,What are the key legal provisions on Cybersecurity in South Korea?,韩国,template,D,TKR_F1_03,0,4,20,0.0,0.0,0.0,0.0,0.0,2,0.3333,1.0,1.0,0.5706
+混合+Re-ranker,TKR_F1_04_A,韩国 政府采购 法律规定,韩国,template,A,TKR_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.5,0.5,0.6238
+混合+Re-ranker,TKR_F1_04_B,韩国法律体系中关于「政府采购」的核心规定有哪些？,韩国,template,B,TKR_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.5,0.5,0.6238
+混合+Re-ranker,TKR_F1_04_C,韩国 Government Procurement 相关法律规定,韩国,template,C,TKR_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.3333,0.3333,0.4935
+混合+Re-ranker,TKR_F1_04_D,What are the key legal provisions on Government Procurement in South Korea?,韩国,template,D,TKR_F1_04,0,8,20,0.0,0.0,0.0,0.0,0.0,6,1.0,0.3333,0.3333,0.4935
+混合+Re-ranker,TSG_F1_01_A,新加坡 电信与通讯 法律规定,新加坡,template,A,TSG_F1_01,0,4,20,0.0833,0.0,0.0,0.5,0.0,2,0.1667,0.0,0.5,0.2184
+混合+Re-ranker,TSG_F1_01_B,新加坡法律体系中关于「电信与通讯」的核心规定有哪些？,新加坡,template,B,TSG_F1_01,0,4,20,0.0833,0.0,0.0,0.25,0.0,2,0.1429,0.0,0.5,0.2044
+混合+Re-ranker,TSG_F1_01_C,新加坡 Telecommunications 相关法律规定,新加坡,template,C,TSG_F1_01,0,4,20,0.0909,0.0,0.0,0.5,0.0,2,0.25,0.5,0.5,0.2641
+混合+Re-ranker,TSG_F1_01_D,What are the key legal provisions on Telecommunications in Singapore?,新加坡,template,D,TSG_F1_01,0,4,15,0.0,0.0,0.0,0.0,0.0,2,0.0,0.0,0.0,0.0
+混合+Re-ranker,TVN_F1_01_A,越南 电信与通讯 法律规定,越南,template,A,TVN_F1_01,0,8,20,0.2,0.125,0.125,0.125,0.2,5,1.0,0.6,0.6,0.7227
+混合+Re-ranker,TVN_F1_01_B,越南法律体系中关于「电信与通讯」的核心规定有哪些？,越南,template,B,TVN_F1_01,0,8,20,1.0,0.25,0.25,0.25,0.4,5,1.0,0.6,0.6,0.7227
+混合+Re-ranker,TVN_F1_01_C,越南 Telecommunications 相关法律规定,越南,template,C,TVN_F1_01,0,8,20,1.0,0.125,0.25,0.25,0.2,5,1.0,0.6,0.6,0.6992
+混合+Re-ranker,TVN_F1_01_D,What are the key legal provisions on Telecommunications in Vietnam?,越南,template,D,TVN_F1_01,0,8,20,0.2,0.125,0.125,0.125,0.2,5,1.0,0.6,0.6,0.6164
+混合+Re-ranker,TMY_F1_01_A,马来西亚 金融服务与监管 法律规定,马来西亚,template,A,TMY_F1_01,0,5,20,1.0,0.4,0.4,0.6,0.4,3,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F1_01_B,马来西亚法律体系中关于「金融服务与监管」的核心规定有哪些？,马来西亚,template,B,TMY_F1_01,0,5,20,1.0,0.4,0.4,0.4,0.4,3,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F1_01_C,马来西亚 Financial Services and Regulation 相关法律规定,马来西亚,template,C,TMY_F1_01,0,5,20,1.0,0.4,0.4,0.4,0.4,3,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F1_01_D,What are the key legal provisions on Financial Services and Regulation in Malaysia?,马来西亚,template,D,TMY_F1_01,0,5,20,1.0,0.4,0.4,0.4,0.4,3,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F1_02_A,马来西亚 刑法 法律规定,马来西亚,template,A,TMY_F1_02,0,4,20,0.0,0.0,0.0,0.0,0.0,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F1_02_B,马来西亚法律体系中关于「刑法」的核心规定有哪些？,马来西亚,template,B,TMY_F1_02,0,4,20,0.0,0.0,0.0,0.0,0.0,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F1_02_C,马来西亚 Criminal Law 相关法律规定,马来西亚,template,C,TMY_F1_02,0,4,20,0.0,0.0,0.0,0.0,0.0,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F1_02_D,What are the key legal provisions on Criminal Law in Malaysia?,马来西亚,template,D,TMY_F1_02,0,4,20,0.0,0.0,0.0,0.0,0.0,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F1_03_A,马来西亚 行政程序 法律规定,马来西亚,template,A,TMY_F1_03,0,4,20,0.0,0.0,0.0,0.0,0.0,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F1_03_B,马来西亚法律体系中关于「行政程序」的核心规定有哪些？,马来西亚,template,B,TMY_F1_03,0,4,20,0.0,0.0,0.0,0.0,0.0,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F1_03_C,马来西亚 Administrative Procedures 相关法律规定,马来西亚,template,C,TMY_F1_03,0,4,20,0.0,0.0,0.0,0.0,0.0,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F1_03_D,What are the key legal provisions on Administrative Procedures in Malaysia?,马来西亚,template,D,TMY_F1_03,0,4,20,0.0,0.0,0.0,0.0,0.0,2,1.0,1.0,1.0,1.0
+混合+Re-ranker,TCN_F2_01_A,银行保险机构应对突发事件金融服务管理办法 金融服务与监管 规定,中国大陆,template,A,TCN_F2_01,0,5,20,1.0,0.2,0.4,0.6,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TCN_F2_01_B,《银行保险机构应对突发事件金融服务管理办法》对「金融服务与监管」有哪些具体规定？,中国大陆,template,B,TCN_F2_01,0,5,20,1.0,0.2,0.4,1.0,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TCN_F2_01_C,银行保险机构应对突发事件金融服务管理办法 中 Financial Services and Regulation provisions,中国大陆,template,C,TCN_F2_01,0,5,20,1.0,0.2,0.4,0.6,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TCN_F2_01_D,What does 银行保险机构应对突发事件金融服务管理办法 provide regarding Financial Services and Regulation?,中国大陆,template,D,TCN_F2_01,0,5,20,0.5,0.2,0.6,0.6,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TCN_F2_02_A,财产保险公司保险条款和保险费率管理办法 金融服务与监管 规定,中国大陆,template,A,TCN_F2_02,0,5,20,1.0,0.2,0.6,0.8,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TCN_F2_02_B,《财产保险公司保险条款和保险费率管理办法》对「金融服务与监管」有哪些具体规定？,中国大陆,template,B,TCN_F2_02,0,5,20,0.5,0.6,0.6,0.6,0.6,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TCN_F2_02_C,财产保险公司保险条款和保险费率管理办法 中 Financial Services and Regulation provisions,中国大陆,template,C,TCN_F2_02,0,5,20,0.5,0.2,0.4,0.8,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TCN_F2_02_D,What does 财产保险公司保险条款和保险费率管理办法 provide regarding Financial Services and Regulation?,中国大陆,template,D,TCN_F2_02,0,5,20,0.25,0.4,0.6,0.6,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMO_F2_01_A,經濟房屋法 公共治理 规定,中国澳门,template,A,TMO_F2_01,0,5,20,0.3333,0.2,0.4,0.6,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMO_F2_01_B,《經濟房屋法》对「公共治理」有哪些具体规定？,中国澳门,template,B,TMO_F2_01,0,5,20,0.25,0.2,0.2,0.2,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMO_F2_01_C,經濟房屋法 中 Public Governance provisions,中国澳门,template,C,TMO_F2_01,0,5,20,1.0,0.2,0.4,0.6,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMO_F2_01_D,What does 經濟房屋法 provide regarding Public Governance?,中国澳门,template,D,TMO_F2_01,0,5,20,0.5,0.4,0.4,0.6,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMO_F2_02_A,民防法律制度 公共治理 规定,中国澳门,template,A,TMO_F2_02,0,5,20,0.25,0.2,0.6,0.8,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMO_F2_02_B,《民防法律制度》对「公共治理」有哪些具体规定？,中国澳门,template,B,TMO_F2_02,0,5,20,0.3333,0.4,0.6,0.8,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMO_F2_02_C,民防法律制度 中 Public Governance provisions,中国澳门,template,C,TMO_F2_02,0,5,20,0.2,0.2,0.4,0.4,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMO_F2_02_D,What does 民防法律制度 provide regarding Public Governance?,中国澳门,template,D,TMO_F2_02,0,5,20,0.1667,0.0,0.6,0.8,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TAU_F2_01_A,Telecommunications (Interception and Access) Act 1979 数据保护 规定,澳大利亚,template,A,TAU_F2_01,0,5,20,0.05,0.0,0.0,0.2,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TAU_F2_01_B,《Telecommunications (Interception and Access) Act 1979》对「数据保护」有哪些具体规定？,澳大利亚,template,B,TAU_F2_01,0,5,20,0.0,0.0,0.0,0.0,0.0,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,TAU_F2_01_C,Telecommunications (Interception and Access) Act 1979 中 Data Protection provisions,澳大利亚,template,C,TAU_F2_01,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TAU_F2_01_D,What does Telecommunications (Interception and Access) Act 1979 provide regarding Data Protection?,澳大利亚,template,D,TAU_F2_01,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TAU_F2_02_A,Telecommunications (Interception and Access) Act 1979 刑法 规定,澳大利亚,template,A,TAU_F2_02,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TAU_F2_02_B,《Telecommunications (Interception and Access) Act 1979》对「刑法」有哪些具体规定？,澳大利亚,template,B,TAU_F2_02,0,5,20,0.0556,0.0,0.0,0.2,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TAU_F2_02_C,Telecommunications (Interception and Access) Act 1979 中 Criminal Law provisions,澳大利亚,template,C,TAU_F2_02,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TAU_F2_02_D,What does Telecommunications (Interception and Access) Act 1979 provide regarding Criminal Law?,澳大利亚,template,D,TAU_F2_02,0,5,20,0.1111,0.0,0.2,0.4,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TUS_F2_01_A,Information Security Program 国家安全 规定,美国,template,A,TUS_F2_01,0,5,20,0.2,0.2,0.4,0.8,0.2,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,TUS_F2_01_B,《Information Security Program》对「国家安全」有哪些具体规定？,美国,template,B,TUS_F2_01,0,5,20,0.1429,0.0,0.6,1.0,0.0,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,TUS_F2_01_C,Information Security Program 中 National Security provisions,美国,template,C,TUS_F2_01,0,5,20,0.3333,0.4,0.6,0.8,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TUS_F2_01_D,What does Information Security Program provide regarding National Security?,美国,template,D,TUS_F2_01,0,5,20,0.2,0.2,0.4,0.8,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TUS_F2_02_A,Commodity Futures Trading Commission 金融服务与监管 规定,美国,template,A,TUS_F2_02,0,5,18,0.25,0.2,0.2,0.2,0.2,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,TUS_F2_02_B,《Commodity Futures Trading Commission》对「金融服务与监管」有哪些具体规定？,美国,template,B,TUS_F2_02,0,5,20,0.25,0.2,0.2,0.2,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TUS_F2_02_C,Commodity Futures Trading Commission 中 Financial Services and Regulation provisions,美国,template,C,TUS_F2_02,0,5,12,0.0,0.0,0.0,0.0,0.0,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,TUS_F2_02_D,What does Commodity Futures Trading Commission provide regarding Financial Services and Regulation?,美国,template,D,TUS_F2_02,0,5,18,0.125,0.0,0.2,0.2,0.0,1,0.3333,1.0,1.0,0.5
+混合+Re-ranker,TJP_F2_01_A,Regulations for Enforcement of the Act on the Advancement of Government Administration Processes Tha,日本,template,A,TJP_F2_01,0,5,20,1.0,0.2,0.2,0.8,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TJP_F2_01_B,《Regulations for Enforcement of the Act on the Advancement of Government Administration Processes Th,日本,template,B,TJP_F2_01,0,5,20,1.0,0.2,0.2,1.0,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TJP_F2_01_C,Regulations for Enforcement of the Act on the Advancement of Government Administration Processes Tha,日本,template,C,TJP_F2_01,0,5,20,0.5,0.2,0.6,1.0,0.2,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,TJP_F2_01_D,What does Regulations for Enforcement of the Act on the Advancement of Government Administration Pro,日本,template,D,TJP_F2_01,0,5,20,0.5,0.2,0.2,1.0,0.2,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,TJP_F2_02_A,Enforcement Order of Radio Act?(Tentative translation) 电信与通讯 规定,日本,template,A,TJP_F2_02,0,5,20,1.0,0.4,0.4,0.6,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TJP_F2_02_B,《Enforcement Order of Radio Act?(Tentative translation)》对「电信与通讯」有哪些具体规定？,日本,template,B,TJP_F2_02,0,5,20,1.0,0.4,0.4,0.6,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TJP_F2_02_C,Enforcement Order of Radio Act?(Tentative translation) 中 Telecommunications provisions,日本,template,C,TJP_F2_02,0,5,20,1.0,0.6,0.6,0.8,0.6,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TJP_F2_02_D,What does Enforcement Order of Radio Act?(Tentative translation) provide regarding Telecommunication,日本,template,D,TJP_F2_02,0,5,20,1.0,0.6,0.8,1.0,0.6,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,THK_F2_01_A,Telecommunications Ordinance 公司治理 规定,中国香港,template,A,THK_F2_01,0,5,20,0.5,0.2,0.2,0.2,0.2,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,THK_F2_01_B,《Telecommunications Ordinance》对「公司治理」有哪些具体规定？,中国香港,template,B,THK_F2_01,0,5,20,0.2,0.2,0.2,0.2,0.2,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,THK_F2_01_C,Telecommunications Ordinance 中 Corporate Governance provisions,中国香港,template,C,THK_F2_01,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,THK_F2_01_D,What does Telecommunications Ordinance provide regarding Corporate Governance?,中国香港,template,D,THK_F2_01,0,5,20,0.125,0.0,0.2,0.2,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,THK_F2_02_A,Crimes Ordinance 公司治理 规定,中国香港,template,A,THK_F2_02,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,THK_F2_02_B,《Crimes Ordinance》对「公司治理」有哪些具体规定？,中国香港,template,B,THK_F2_02,0,5,20,0.0833,0.0,0.0,0.2,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,THK_F2_02_C,Crimes Ordinance 中 Corporate Governance provisions,中国香港,template,C,THK_F2_02,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,THK_F2_02_D,What does Crimes Ordinance provide regarding Corporate Governance?,中国香港,template,D,THK_F2_02,0,5,20,0.25,0.2,0.4,0.4,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TTH_F2_01_A,"Customs Act, B.E. 2469 (1926) 金融服务与监管 规定",泰国,template,A,TTH_F2_01,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TTH_F2_01_B,"《Customs Act, B.E. 2469 (1926)》对「金融服务与监管」有哪些具体规定？",泰国,template,B,TTH_F2_01,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TTH_F2_01_C,"Customs Act, B.E. 2469 (1926) 中 Financial Services and Regulation provisions",泰国,template,C,TTH_F2_01,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TTH_F2_01_D,"What does Customs Act, B.E. 2469 (1926) provide regarding Financial Services and Regulation?",泰国,template,D,TTH_F2_01,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TTH_F2_02_A,"Constitution Of The Kingdom Of Thailand, 2007 电信与通讯 规定",泰国,template,A,TTH_F2_02,0,5,20,0.5,0.2,0.2,0.2,0.2,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,TTH_F2_02_B,"《Constitution Of The Kingdom Of Thailand, 2007》对「电信与通讯」有哪些具体规定？",泰国,template,B,TTH_F2_02,0,5,20,0.5,0.6,0.6,0.6,0.6,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,TTH_F2_02_C,"Constitution Of The Kingdom Of Thailand, 2007 中 Telecommunications provisions",泰国,template,C,TTH_F2_02,0,5,20,1.0,0.2,0.2,0.2,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TTH_F2_02_D,"What does Constitution Of The Kingdom Of Thailand, 2007 provide regarding Telecommunications?",泰国,template,D,TTH_F2_02,0,5,20,0.5,0.4,0.6,0.6,0.4,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,TKR_F2_01_A,TELECOMMUNICATIONS BUSINESS ACT 电信与通讯 规定,韩国,template,A,TKR_F2_01,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TKR_F2_01_B,《TELECOMMUNICATIONS BUSINESS ACT》对「电信与通讯」有哪些具体规定？,韩国,template,B,TKR_F2_01,0,5,20,0.0,0.0,0.0,0.0,0.0,1,0.5,1.0,1.0,0.6309
+混合+Re-ranker,TKR_F2_01_C,TELECOMMUNICATIONS BUSINESS ACT 中 Telecommunications provisions,韩国,template,C,TKR_F2_01,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TKR_F2_01_D,What does TELECOMMUNICATIONS BUSINESS ACT provide regarding Telecommunications?,韩国,template,D,TKR_F2_01,0,5,20,0.2,0.2,0.4,0.6,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TKR_F2_02_A,TELECOMMUNICATIONS BUSINESS ACT 刑法 规定,韩国,template,A,TKR_F2_02,0,5,20,0.0769,0.0,0.0,0.2,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TKR_F2_02_B,《TELECOMMUNICATIONS BUSINESS ACT》对「刑法」有哪些具体规定？,韩国,template,B,TKR_F2_02,0,5,20,0.0769,0.0,0.0,0.2,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TKR_F2_02_C,TELECOMMUNICATIONS BUSINESS ACT 中 Criminal Law provisions,韩国,template,C,TKR_F2_02,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TKR_F2_02_D,What does TELECOMMUNICATIONS BUSINESS ACT provide regarding Criminal Law?,韩国,template,D,TKR_F2_02,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TSG_F2_01_A,Cybersecurity Act 2018 网络安全 规定,新加坡,template,A,TSG_F2_01,0,5,20,1.0,0.4,0.6,1.0,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TSG_F2_01_B,《Cybersecurity Act 2018》对「网络安全」有哪些具体规定？,新加坡,template,B,TSG_F2_01,0,5,20,1.0,0.4,0.4,1.0,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TSG_F2_01_C,Cybersecurity Act 2018 中 Cybersecurity provisions,新加坡,template,C,TSG_F2_01,0,5,20,1.0,0.2,0.6,1.0,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TSG_F2_01_D,What does Cybersecurity Act 2018 provide regarding Cybersecurity?,新加坡,template,D,TSG_F2_01,0,5,20,1.0,0.4,0.4,1.0,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TSG_F2_02_A,Adoption of Children Act 2022 数据保护 规定,新加坡,template,A,TSG_F2_02,0,4,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TSG_F2_02_B,《Adoption of Children Act 2022》对「数据保护」有哪些具体规定？,新加坡,template,B,TSG_F2_02,0,4,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TSG_F2_02_C,Adoption of Children Act 2022 中 Data Protection provisions,新加坡,template,C,TSG_F2_02,0,4,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TSG_F2_02_D,What does Adoption of Children Act 2022 provide regarding Data Protection?,新加坡,template,D,TSG_F2_02,0,4,20,1.0,0.25,0.25,0.25,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_01_A,Telecommunications 电信与通讯 规定,越南,template,A,TVN_F2_01,0,5,20,0.2,0.2,0.6,1.0,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_01_B,《Telecommunications》对「电信与通讯」有哪些具体规定？,越南,template,B,TVN_F2_01,0,5,20,1.0,0.2,0.8,1.0,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_01_C,Telecommunications 中 Telecommunications provisions,越南,template,C,TVN_F2_01,0,5,20,0.25,0.4,0.6,0.6,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_01_D,What does Telecommunications provide regarding Telecommunications?,越南,template,D,TVN_F2_01,0,5,20,1.0,0.6,0.8,1.0,0.6,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_02_A,Radio Frequencies 电信与通讯 规定,越南,template,A,TVN_F2_02,0,5,20,1.0,0.6,0.8,0.8,0.6,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_02_B,《Radio Frequencies》对「电信与通讯」有哪些具体规定？,越南,template,B,TVN_F2_02,0,5,20,1.0,0.6,0.6,0.6,0.6,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_02_C,Radio Frequencies 中 Telecommunications provisions,越南,template,C,TVN_F2_02,0,5,20,1.0,0.4,0.6,0.8,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_02_D,What does Radio Frequencies provide regarding Telecommunications?,越南,template,D,TVN_F2_02,0,5,20,1.0,0.4,0.6,0.8,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_03_A,Promulgating The Regulation On Control Of Quality Of The Post And Telecommunications Services And Ne,越南,template,A,TVN_F2_03,0,5,20,0.3333,0.4,0.8,1.0,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_03_B,《Promulgating The Regulation On Control Of Quality Of The Post And Telecommunications Services And N,越南,template,B,TVN_F2_03,0,5,20,0.5,0.2,1.0,1.0,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_03_C,Promulgating The Regulation On Control Of Quality Of The Post And Telecommunications Services And Ne,越南,template,C,TVN_F2_03,0,5,20,0.25,0.4,0.8,0.8,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TVN_F2_03_D,What does Promulgating The Regulation On Control Of Quality Of The Post And Telecommunications Servi,越南,template,D,TVN_F2_03,0,5,20,0.5,0.6,0.8,1.0,0.6,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_01_A,Personal Data Protection Act 2010 数据保护 规定,马来西亚,template,A,TMY_F2_01,0,5,20,0.2,0.2,0.4,0.6,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_01_B,《Personal Data Protection Act 2010》对「数据保护」有哪些具体规定？,马来西亚,template,B,TMY_F2_01,0,5,20,0.2,0.2,0.4,0.6,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_01_C,Personal Data Protection Act 2010 中 Data Protection provisions,马来西亚,template,C,TMY_F2_01,0,5,20,0.1667,0.0,0.2,0.4,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_01_D,What does Personal Data Protection Act 2010 provide regarding Data Protection?,马来西亚,template,D,TMY_F2_01,0,5,20,0.1667,0.0,0.2,0.4,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_02_A,Cyber Security Act 2024 网络安全 规定,马来西亚,template,A,TMY_F2_02,0,5,20,0.25,0.2,0.2,0.4,0.2,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_02_B,《Cyber Security Act 2024》对「网络安全」有哪些具体规定？,马来西亚,template,B,TMY_F2_02,0,5,20,0.1429,0.0,0.4,0.6,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_02_C,Cyber Security Act 2024 中 Cybersecurity provisions,马来西亚,template,C,TMY_F2_02,0,5,20,0.25,0.4,0.4,0.6,0.4,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_02_D,What does Cyber Security Act 2024 provide regarding Cybersecurity?,马来西亚,template,D,TMY_F2_02,0,5,20,0.1667,0.0,0.4,0.6,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_03_A,Personal Data Protection Act 2010 刑法 规定,马来西亚,template,A,TMY_F2_03,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_03_B,《Personal Data Protection Act 2010》对「刑法」有哪些具体规定？,马来西亚,template,B,TMY_F2_03,0,5,20,0.0556,0.0,0.0,0.2,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_03_C,Personal Data Protection Act 2010 中 Criminal Law provisions,马来西亚,template,C,TMY_F2_03,0,5,20,0.0,0.0,0.0,0.0,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TMY_F2_03_D,What does Personal Data Protection Act 2010 provide regarding Criminal Law?,马来西亚,template,D,TMY_F2_03,0,5,20,0.0526,0.0,0.0,0.2,0.0,1,1.0,1.0,1.0,1.0
+混合+Re-ranker,TX_F3_01_A,中国大陆 澳大利亚 电信与通讯 对比,跨法域,template,A,TX_F3_01,0,12,16,0.0,0.0,0.0,0.0,0.0,8,1.0,0.375,0.5,0.6005
+混合+Re-ranker,TX_F3_01_B,中国大陆与澳大利亚在「电信与通讯」方面的立法规定分别是什么？,跨法域,template,B,TX_F3_01,0,12,18,0.0,0.0,0.0,0.0,0.0,8,1.0,0.375,0.5,0.6013
+混合+Re-ranker,TX_F3_01_C,中国大陆 vs 澳大利亚 Telecommunications comparison,跨法域,template,C,TX_F3_01,0,12,18,0.0,0.0,0.0,0.0,0.0,8,1.0,0.5,0.5,0.6479
+混合+Re-ranker,TX_F3_01_D,How do mainland China and Australia regulate Telecommunications?,跨法域,template,D,TX_F3_01,0,12,19,0.0,0.0,0.0,0.0,0.0,8,1.0,0.625,0.625,0.7458
+混合+Re-ranker,TX_F3_02_A,中国大陆 中国澳门 刑法 对比,跨法域,template,A,TX_F3_02,0,12,18,0.0,0.0,0.0,0.0,0.0,10,1.0,0.1,0.1,0.2201
+混合+Re-ranker,TX_F3_02_B,中国大陆与中国澳门在「刑法」方面的立法规定分别是什么？,跨法域,template,B,TX_F3_02,0,12,17,0.0,0.0,0.0,0.0,0.0,10,1.0,0.1,0.1,0.2201
+混合+Re-ranker,TX_F3_02_C,中国大陆 vs 中国澳门 Criminal Law comparison,跨法域,template,C,TX_F3_02,0,12,18,0.0,0.0,0.0,0.0,0.0,10,1.0,0.1,0.2,0.2779
+混合+Re-ranker,TX_F3_02_D,How do mainland China and Macao regulate Criminal Law?,跨法域,template,D,TX_F3_02,0,12,19,0.5,0.0833,0.0833,0.0833,0.2,10,1.0,0.2,0.2,0.359
+混合+Re-ranker,TX_F3_03_A,中国大陆 中国澳门 金融服务与监管 对比,跨法域,template,A,TX_F3_03,0,12,20,0.1111,0.0,0.0833,0.1667,0.0,10,0.2,0.1,0.3,0.2124
+混合+Re-ranker,TX_F3_03_B,中国大陆与中国澳门在「金融服务与监管」方面的立法规定分别是什么？,跨法域,template,B,TX_F3_03,0,12,19,0.0,0.0,0.0,0.0,0.0,10,0.1,0.0,0.2,0.125
+混合+Re-ranker,TX_F3_03_C,中国大陆 vs 中国澳门 Financial Services and Regulation comparison,跨法域,template,C,TX_F3_03,0,12,20,0.0,0.0,0.0,0.0,0.0,10,0.1667,0.0,0.1,0.0784
+混合+Re-ranker,TX_F3_03_D,How do mainland China and Macao regulate Financial Services and Regulation?,跨法域,template,D,TX_F3_03,0,12,19,0.0,0.0,0.0,0.0,0.0,10,0.0,0.0,0.0,0.0
+混合+Re-ranker,TX_F3_04_A,中国大陆 中国澳门 公共治理 对比,跨法域,template,A,TX_F3_04,0,12,20,0.1111,0.0,0.0833,0.0833,0.0,11,0.125,0.0,0.0909,0.0654
+混合+Re-ranker,TX_F3_04_B,中国大陆与中国澳门在「公共治理」方面的立法规定分别是什么？,跨法域,template,B,TX_F3_04,0,12,19,0.25,0.0833,0.0833,0.0833,0.2,11,0.25,0.0909,0.1818,0.1471
+混合+Re-ranker,TX_F3_04_C,中国大陆 vs 中国澳门 Public Governance comparison,跨法域,template,C,TX_F3_04,0,12,18,0.0,0.0,0.0,0.0,0.0,11,0.0,0.0,0.0,0.0
+混合+Re-ranker,TX_F3_04_D,How do mainland China and Macao regulate Public Governance?,跨法域,template,D,TX_F3_04,0,12,19,0.0,0.0,0.0,0.0,0.0,11,1.0,0.0909,0.0909,0.2074
+混合+Re-ranker,TX_F3_05_A,中国大陆 中国澳门 公司治理 对比,跨法域,template,A,TX_F3_05,0,12,20,0.25,0.0833,0.0833,0.0833,0.2,8,0.3333,0.25,0.375,0.3116
+混合+Re-ranker,TX_F3_05_B,中国大陆与中国澳门在「公司治理」方面的立法规定分别是什么？,跨法域,template,B,TX_F3_05,0,12,19,0.3333,0.0833,0.0833,0.0833,0.2,8,0.3333,0.125,0.125,0.1265
+混合+Re-ranker,TX_F3_05_C,中国大陆 vs 中国澳门 Corporate Governance comparison,跨法域,template,C,TX_F3_05,0,12,19,0.0,0.0,0.0,0.0,0.0,8,0.1429,0.0,0.25,0.1641
+混合+Re-ranker,TX_F3_05_D,How do mainland China and Macao regulate Corporate Governance?,跨法域,template,D,TX_F3_05,0,12,19,0.2,0.0833,0.0833,0.0833,0.2,8,0.2,0.125,0.25,0.171
+混合+Re-ranker,TX_F3_06_A,澳大利亚 美国 薪酬福利 对比,跨法域,template,A,TX_F3_06,0,12,17,0.1667,0.0,0.0833,0.0833,0.0,8,1.0,0.25,0.25,0.3619
+混合+Re-ranker,TX_F3_06_B,澳大利亚与美国在「薪酬福利」方面的立法规定分别是什么？,跨法域,template,B,TX_F3_06,0,12,18,0.125,0.0,0.0833,0.0833,0.0,8,1.0,0.125,0.375,0.4089
+混合+Re-ranker,TX_F3_06_C,澳大利亚 vs 美国 Compensation & Benefits comparison,跨法域,template,C,TX_F3_06,0,12,17,0.125,0.0,0.0833,0.3333,0.0,8,0.3333,0.125,0.5,0.3667
+混合+Re-ranker,TX_F3_06_D,How do Australia and the United States regulate Compensation & Benefits?,跨法域,template,D,TX_F3_06,0,12,20,0.1429,0.0,0.1667,0.1667,0.0,8,0.3333,0.125,0.5,0.374
+混合+Re-ranker,TX_F3_07_A,中国大陆 澳大利亚 行政程序 对比,跨法域,template,A,TX_F3_07,0,12,17,0.0,0.0,0.0,0.0,0.0,8,0.25,0.125,0.25,0.1933
+混合+Re-ranker,TX_F3_07_B,中国大陆与澳大利亚在「行政程序」方面的立法规定分别是什么？,跨法域,template,B,TX_F3_07,0,12,20,0.0,0.0,0.0,0.0,0.0,8,0.25,0.125,0.25,0.1795
+混合+Re-ranker,TX_F3_07_C,中国大陆 vs 澳大利亚 Administrative Procedures comparison,跨法域,template,C,TX_F3_07,0,12,19,0.0,0.0,0.0,0.0,0.0,8,0.25,0.125,0.125,0.1089
+混合+Re-ranker,TX_F3_07_D,How do mainland China and Australia regulate Administrative Procedures?,跨法域,template,D,TX_F3_07,0,12,19,0.0,0.0,0.0,0.0,0.0,8,0.3333,0.25,0.25,0.2243
+混合+Re-ranker,TX_F3_08_A,澳大利亚 美国 政府采购 对比,跨法域,template,A,TX_F3_08,0,12,16,0.0,0.0,0.0,0.0,0.0,7,1.0,0.2857,0.4286,0.5039
+混合+Re-ranker,TX_F3_08_B,澳大利亚与美国在「政府采购」方面的立法规定分别是什么？,跨法域,template,B,TX_F3_08,0,12,20,0.0,0.0,0.0,0.0,0.0,7,0.3333,0.2857,0.5714,0.4089
+混合+Re-ranker,TX_F3_08_C,澳大利亚 vs 美国 Government Procurement comparison,跨法域,template,C,TX_F3_08,0,12,18,0.0,0.0,0.0,0.0,0.0,7,1.0,0.2857,0.4286,0.5278
+混合+Re-ranker,TX_F3_08_D,How do Australia and the United States regulate Government Procurement?,跨法域,template,D,TX_F3_08,0,12,20,0.0,0.0,0.0,0.0,0.0,7,1.0,0.2857,0.2857,0.4483

@@ -1,10 +1,18 @@
-"""检索评估全流程：Step 2 检索 Top-20 候选写入 Excel L 列 → Step 3 按 K 列 ground truth 自动标注 M 列 → Step 4 构建 eval_dataset.json 并跑 3 种策略对比。"""
-import os, json, math
+"""检索评估全流程：Step 2 检索 Top-20 候选写入 Excel L 列 → Step 3 按 K 列 ground truth 自动标注 M 列 → Step 4 构建 eval_dataset.json 并跑 3 种策略对比。
+
+已弃用，勿直接运行。
+Step 4b 依赖的 scripts.evaluate 从未入库（自初始提交起即为悬空 import），本流程必然在最后一步崩溃；
+而崩溃前 Step 3 会原地改写 datasets/eval_annotation_template.xlsx 的 L/M 列、Step 4a 会截断重写
+datasets/eval_dataset.json，两处都没有备份或幂等保护，ES 异常时会把标注总表整体清空。
+现有评测能力请直接使用 run_four_strategies.py / run_reranker_eval.py / run_qa_eval.py / run_ragas_eval.py。
+"""
+import os, json
 from typing import List, Dict, Tuple, Optional
 from collections import Counter
 from openpyxl import load_workbook
 
 from _bootstrap import DATASETS_DIR
+from eval_metrics import NDCG_DEFINITION, NDCG_KS, average_valid, ndcg_by_k
 
 # ============================================================
 # 配置
@@ -283,6 +291,7 @@ def run_evaluation_shared(retriever, dataset_path: str):
         print(f"  {'=' * 40}")
 
         results: List[EvalResult] = []
+        per_query = []  # (查询, 检索结果)：NDCG 直接用这里的数据算，不依赖 EvalResult 内部属性
         for q in queries:
             # 跨法域查询: jurisdiction设为None
             jur = q.jurisdiction if q.jurisdiction != "跨法域" else None
@@ -309,13 +318,14 @@ def run_evaluation_shared(retriever, dataset_path: str):
             er._gold = q.get_relevant_articles()
             er._eval_query = q
             results.append(er)
+            per_query.append((q, retrieved))
 
         # 计算指标
         total = len(results)
         mrr_total = 0.0
         recall_total = {k: 0.0 for k in [5, 10, 20]}
         precision_total = {k: 0.0 for k in [5, 10, 20]}
-        ndcg_total = {k: 0.0 for k in [5, 10, 20]}
+        ndcg_values = {k: [] for k in NDCG_KS}
 
         for er in results:
             mrr_total += er.mrr
@@ -324,26 +334,23 @@ def run_evaluation_shared(retriever, dataset_path: str):
             for k in precision_total:
                 precision_total[k] += er.precision_at(k)
 
-        for er in results:
-            gains = sorted(
-                [er._eval_query.get_gain(lid, art) for lid, art in er._gold],
-                reverse=True,
-            )
-            ideal_dcg = sum(
-                g / math.log2(i + 2) for i, g in enumerate(gains[:20])
-            )
-            for k in ndcg_total:
-                ndcg_total[k] += er.ndcg_at(k, ideal_dcg)
+        # NDCG 走 eval_metrics 的逐 k 标准实现（gold 为空记缺失，不参与均值）
+        for q, retrieved in per_query:
+            values = ndcg_by_k(retrieved, q.get_gain, list(q.get_relevant_articles()))
+            for k in NDCG_KS:
+                ndcg_values[k].append(values[k])
 
         summary = {
             "strategy": strategy["name"],
             "total_queries": total,
+            "ndcg_definition": NDCG_DEFINITION,
             "MRR": round(mrr_total / total, 4),
         }
         for k in [5, 10, 20]:
             summary[f"Recall@{k}"] = round(recall_total[k] / total, 4)
             summary[f"Precision@{k}"] = round(precision_total[k] / total, 4)
-            summary[f"NDCG@{k}"] = round(ndcg_total[k] / total, 4)
+            summary[f"NDCG@{k}"], valid_n = average_valid(ndcg_values[k])
+            summary[f"NDCG@{k}_valid_queries"] = valid_n
 
         all_results.append(summary)
         print(f"  {strategy['name']} 完成: MRR={summary['MRR']:.4f}")
@@ -358,6 +365,11 @@ def run_evaluation_shared(retriever, dataset_path: str):
 # 主流程
 # ============================================================
 def main():
+    raise SystemExit(
+        "已弃用：Step 4b 依赖的 scripts.evaluate 从未入库；本脚本会在崩溃前原地改写 "
+        "datasets/ 下 eval_annotation_template.xlsx 与 eval_dataset.json，且无备份。"
+        "请改用 run_four_strategies.py / run_reranker_eval.py / run_qa_eval.py / run_ragas_eval.py。"
+    )
     print("=" * 60)
     print("  检索评估全流程管道")
     print("=" * 60)

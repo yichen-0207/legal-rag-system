@@ -1,0 +1,49 @@
+{
+  "overall_law": {
+    "hybrid+reranker": {
+      "total_queries": 596,
+      "ndcg_definition": "per_k_truncated_v2",
+      "MRR": 0.7426,
+      "Top1_Accuracy": 0.9396,
+      "Recall@1": 0.4586,
+      "Recall@5": 0.696,
+      "Recall@10": 0.753,
+      "Recall@20": 0.7684,
+      "NDCG@5": 0.6641,
+      "NDCG@5_valid_queries": 596,
+      "NDCG@10": 0.6826,
+      "NDCG@10_valid_queries": 596,
+      "NDCG@20": 0.6892,
+      "NDCG@20_valid_queries": 596
+    }
+  },
+  "overall_clause": {
+    "hybrid+reranker": {
+      "total_queries": 452,
+      "ndcg_definition": "per_k_truncated_v2",
+      "MRR": 0.2364,
+      "Top1_Accuracy": 0.5553,
+      "R-Precision": 0.0937,
+      "Recall@1": 0.0303,
+      "Recall@3": 0.0636,
+      "Recall@5": 0.0922,
+      "Recall@10": 0.163,
+      "Recall@20": 0.2535,
+      "Precision@5": 0.0947,
+      "NDCG@5": 0.1092,
+      "NDCG@5_valid_queries": 452,
+      "Precision@10": 0.0779,
+      "NDCG@10": 0.1349,
+      "NDCG@10_valid_queries": 452,
+      "Precision@20": 0.0592,
+      "NDCG@20": 0.1709,
+      "NDCG@20_valid_queries": 452
+    }
+  },
+  "ndcg_definition": "per_k_truncated_v2",
+  "meta": {
+    "rerank_dataset": "eval_dataset_v2.json",
+    "rerank_phase1_seconds": 161.7,
+    "rerank_phase3_seconds": 410.2
+  }
+}

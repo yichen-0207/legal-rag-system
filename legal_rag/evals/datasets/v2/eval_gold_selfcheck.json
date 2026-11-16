@@ -1,0 +1,520 @@
+{
+ "missing": 0,
+ "out_of_bounds": 0,
+ "dup": 0,
+ "empty_base_queries": 36,
+ "law_level_mean_jaccard_vs_old": 0.9938,
+ "law_level_mean_jaccard_vs_k_raw": 0.9504,
+ "law_level_exact_vs_old": 79,
+ "clause_inter": 103,
+ "clause_new": 1128,
+ "clause_old": 5664,
+ "inter_label_dist": {
+  "unlabeled": 63,
+  "1": 25,
+  "2": 15
+ },
+ "old_only_label_dist": {
+  "unlabeled": 4300,
+  "2": 355,
+  "1": 906
+ },
+ "k_list_positive_total": 534,
+ "k_list_positive_covered": 19,
+ "k_law_coverage": "36/128",
+ "k_law_zero_cover_queries": 50,
+ "zero_qids": 11,
+ "zero_intersection": 4,
+ "zero_contradiction": 4,
+ "contradiction_full_scope": {
+  "queries": 80,
+  "intersection": 30,
+  "contradiction": 11,
+  "rate": 0.3667,
+  "per_query": [
+   {
+    "query_id": "Q001",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q002",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q003",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q004",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q005",
+    "gold": 10,
+    "intersection": 4,
+    "contradiction": 4
+   },
+   {
+    "query_id": "Q006",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q007",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q008",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q009",
+    "gold": 5,
+    "intersection": 4,
+    "contradiction": 4
+   },
+   {
+    "query_id": "Q010",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q011",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q012",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q013",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q014",
+    "gold": 10,
+    "intersection": 1,
+    "contradiction": 1
+   },
+   {
+    "query_id": "Q015",
+    "gold": 2,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q016",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q017",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q018",
+    "gold": 8,
+    "intersection": 1,
+    "contradiction": 1
+   },
+   {
+    "query_id": "Q019",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q020",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q021",
+    "gold": 3,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q022",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q023",
+    "gold": 8,
+    "intersection": 1,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q024",
+    "gold": 2,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q025",
+    "gold": 4,
+    "intersection": 1,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q026",
+    "gold": 7,
+    "intersection": 1,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q027",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q028",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q029",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q030",
+    "gold": 1,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q031",
+    "gold": 10,
+    "intersection": 1,
+    "contradiction": 1
+   },
+   {
+    "query_id": "Q032",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q033",
+    "gold": 6,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q034",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q035",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q036",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q037",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q038",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q039",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q040",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q041",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q042",
+    "gold": 8,
+    "intersection": 1,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q043",
+    "gold": 6,
+    "intersection": 1,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q044",
+    "gold": 6,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q045",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q046",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q047",
+    "gold": 3,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q048",
+    "gold": 2,
+    "intersection": 2,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q049",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q050",
+    "gold": 1,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q051",
+    "gold": 4,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q052",
+    "gold": 2,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q053",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q054",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q055",
+    "gold": 10,
+    "intersection": 1,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q056",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q057",
+    "gold": 3,
+    "intersection": 2,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q058",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q059",
+    "gold": 2,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q060",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q061",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q062",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q063",
+    "gold": 2,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q064",
+    "gold": 2,
+    "intersection": 1,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q065",
+    "gold": 2,
+    "intersection": 2,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q066",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q067",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q068",
+    "gold": 2,
+    "intersection": 2,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q069",
+    "gold": 2,
+    "intersection": 2,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q070",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q071",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q072",
+    "gold": 9,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q073",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q074",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q075",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q076",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q077",
+    "gold": 10,
+    "intersection": 2,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q078",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q079",
+    "gold": 10,
+    "intersection": 0,
+    "contradiction": 0
+   },
+   {
+    "query_id": "Q080",
+    "gold": 0,
+    "intersection": 0,
+    "contradiction": 0
+   }
+  ]
+ },
+ "topics_covered": 20,
+ "clause_gold_coverage": "113/149",
+ "empty_gold_variants": 144
+}

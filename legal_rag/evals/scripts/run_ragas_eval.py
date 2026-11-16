@@ -27,6 +27,25 @@ QUERY_VARIANT = "B_nl_zh"                       # 与 run_qa_eval.py 的 USE_VAR
 TEXT_FIELDS = ("text_zh", "text_en", "text_pt", "text_original_language")
 
 
+def _disable_thinking(client):
+    """推理模型必须显式关闭思考：否则 reasoning_content 先耗尽 max_tokens，正文为空。"""
+    from core.config import settings
+
+    extra = settings.llm_extra_body() or {}
+    completions = client.chat.completions
+    if not extra or getattr(completions, "_thinking_disabled", False):
+        return client
+    original = completions.create
+
+    def create(*args, **kwargs):
+        kwargs["extra_body"] = {**(kwargs.get("extra_body") or {}), **extra}
+        return original(*args, **kwargs)
+
+    completions.create = create
+    completions._thinking_disabled = True
+    return client
+
+
 def _load_llm_config() -> tuple:
     """从 .env 读取 LLM 端点配置，密钥不写入代码。"""
     text = ENV_PATH.read_text(encoding="utf-8") if ENV_PATH.exists() else ""
@@ -43,9 +62,13 @@ def _load_llm_config() -> tuple:
     return api_key, base_url, model
 
 
-def _load_queries() -> dict:
+def _resolve(path: str) -> Path:
+    p = Path(path)
+    return p if p.is_absolute() else DATASETS / p
+
+def _load_queries(path: str | None = None) -> dict:
     """返回 {query_id: 查询文本}，与 run_qa_eval.load_queries 口径一致。"""
-    data = json.loads((DATASETS / "eval_queries.json").read_text(encoding="utf-8"))
+    data = json.loads(_resolve(path or "eval_queries.json").read_text(encoding="utf-8"))
     out = {}
     for item in data.get("queries", []):
         text = item.get(QUERY_VARIANT, "")
@@ -54,14 +77,25 @@ def _load_queries() -> dict:
     return out
 
 
-def _load_gold() -> dict:
-    """返回 {base_query_id: [relevant]}：clause 数据中 id 形如 "Q001_A"，按 "_" 截断到 base id 后聚合。"""
-    items = json.loads((DATASETS / "eval_dataset_clause.json").read_text(encoding="utf-8"))
-    gold = {}
+# 新 gold（v2）条目自带 base 查询 id（TCN_F1_01_A → TCN_F1_01）；旧数据无此字段才回退切分。
+_BASE_ID_FIELDS = ("base_query", "base_id", "query_id")
+
+
+def _load_gold(path: str | None = None) -> dict:
+    """返回 {base_query_id: [relevant]}；缺少 base 字段的旧数据按 "_" 前缀回退并告警。"""
+    items = json.loads(_resolve(path or "eval_dataset_clause.json").read_text(encoding="utf-8"))
+    gold, fallback = {}, 0
     for item in items:
-        qid = item.get("id", "")
-        base_id = qid.split("_")[0] if "_" in qid else qid
+        base_id = next((item[f].strip() for f in _BASE_ID_FIELDS
+                        if isinstance(item.get(f), str) and item[f].strip()), None)
+        if base_id is None:
+            qid = item.get("id", "")
+            base_id = qid.split("_")[0] if "_" in qid else qid
+            fallback += 1
         gold.setdefault(base_id, []).extend(item.get("relevant", []))
+    if fallback:
+        print(f"  [warn] gold 数据集缺少 {'/'.join(_BASE_ID_FIELDS)} 字段，{fallback} 条按 id 的 "
+              f"'_' 前缀回退切分（旧数据口径）；模板 id 会切错，请改用带 base 字段的数据集")
     return gold
 
 
@@ -126,8 +160,11 @@ def main() -> int:
     ap.add_argument("--context-max-chars", type=int, default=1500,
                     help="判分输入（上下文/reference）单条截断字数，0=不截断")
     ap.add_argument("--metrics", default="",
-                    help="额外指标（逗号分隔，可选 context_precision）。默认仅 llm_context_precision_without_reference")
+                    help="额外指标（逗号分隔）：all / faithfulness / context_recall / "
+                         "noise_sensitivity / context_precision。默认仅 context precision（无参考）")
     ap.add_argument("--out", default="eval_ragas_report.json", help="报告输出文件名")
+    ap.add_argument("--queries", default="", help="查询集路径（默认 datasets/eval_queries.json）")
+    ap.add_argument("--gold", default="", help="gold 数据集路径（默认 datasets/eval_dataset_clause.json）")
     args = ap.parse_args()
 
     artifact = RESULTS / args.artifact
@@ -135,8 +172,8 @@ def main() -> int:
         raise SystemExit(f"产物不存在：{artifact}")
 
     api_key, base_url, model = _load_llm_config()
-    queries = _load_queries()
-    gold = _load_gold()
+    queries = _load_queries(args.queries or None)
+    gold = _load_gold(args.gold or None)
     subset = _load_subset(args.subset) if args.subset else None
     rows = _load_official_rows(artifact, args.mode, args.limit_records, subset)
 
@@ -186,17 +223,27 @@ def main() -> int:
     from ragas import EvaluationDataset, SingleTurnSample, evaluate
     from ragas.llms import llm_factory
     from ragas.run_config import RunConfig
-    from ragas.metrics import LLMContextPrecisionWithoutReference, ContextPrecision
+    from ragas.metrics import (LLMContextPrecisionWithoutReference, ContextPrecision,
+                               Faithfulness, ContextRecall, NoiseSensitivity)
 
     from core import llm_usage
 
     client = llm_usage.wrap_openai_client(OpenAI(api_key=api_key, base_url=base_url))
-    llm = llm_factory(model, provider="openai", client=client, max_tokens=4096, temperature=0)
+    client = _disable_thinking(client)
+    # NLI 类指标输出较长，4096 会触发 IncompleteOutputException；这里放宽到 8192
+    llm = llm_factory(model, provider="openai", client=client, max_tokens=8192, temperature=0)
 
     metrics = [LLMContextPrecisionWithoutReference()]
     requested = {m.strip() for m in args.metrics.split(",") if m.strip()}
+    want_all = "all" in requested
+    if want_all or "faithfulness" in requested:
+        metrics.append(Faithfulness(max_retries=3))
+    if want_all or "context_recall" in requested:
+        metrics.append(ContextRecall(max_retries=3))
+    if want_all or "noise_sensitivity" in requested:
+        metrics.append(NoiseSensitivity(mode="relevant", max_retries=3))
     ref_coverage = sum(1 for m in meta_rows if m["has_reference"])
-    if "context_precision" in requested:
+    if want_all or "context_precision" in requested:
         # 带参考指标与截断不兼容（结构上依赖完整上下文与 gold 的文本匹配），仅显式请求时启用
         if ref_coverage < len(meta_rows):
             print(f"  [warn] context_precision 需全部样本带 gold 参考（实际 {ref_coverage}/{len(meta_rows)}），已跳过")
@@ -227,13 +274,19 @@ def main() -> int:
         metrics=metrics,
         llm=llm,
         show_progress=True,
-        run_config=RunConfig(max_workers=4),
+        run_config=RunConfig(max_workers=2, max_retries=3, max_wait=30),
     )
 
     frame = result.to_pandas()
     metric_names = [m.name for m in metrics]
     aggregate, coverage = {}, {}
     for name in metric_names:
+        if name not in frame.columns:
+            # 指标跑完但未产出分数时 ragas 不建列（如 NoiseSensitivity 全 None），不能直接取列
+            print(f"  [warn] 指标 {name} 未产出任何分数，已跳过统计")
+            aggregate[name] = None
+            coverage[name] = f"0/{len(frame)}"
+            continue
         column = frame[name].dropna()
         aggregate[name] = None if column.empty else round(float(mean(column)), 4)
         coverage[name] = f"{len(column)}/{len(frame)}"

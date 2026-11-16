@@ -1,0 +1,423 @@
+{
+ "note": "这 36 条基础查询（144 条变体）的条款级 gold 为空，条款级指标分母应为 596-144=452；法规级 gold 仍保留。",
+ "empty_base_queries": 36,
+ "empty_variants": 144,
+ "items": [
+  {
+   "query_id": "Q001",
+   "subset": "legacy",
+   "jurisdiction": "美国",
+   "topic": "人工智能",
+   "gold_law_ids": [
+    "US_CFR_T6_P5_2003",
+    "US_CFR_T48_P239_1991"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q007",
+   "subset": "legacy",
+   "jurisdiction": "美国",
+   "topic": "反洗钱与反恐融资",
+   "gold_law_ids": [
+    "US_CFR_T31_P1010_2010",
+    "US_CFR_T31_P1020_2010",
+    "US_CFR_T31_P1022_2010"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q008",
+   "subset": "legacy",
+   "jurisdiction": "美国",
+   "topic": "隐私与个人资料保护",
+   "gold_law_ids": [
+    "US_CFR_T28_P16_1977",
+    "US_CFR_T45_P164_2000",
+    "US_CFR_T16_P313_2000"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q010",
+   "subset": "legacy",
+   "jurisdiction": "美国",
+   "topic": "监控与通讯截取",
+   "gold_law_ids": [
+    "US_CFR_T47_P64_1963",
+    "US_CFR_T47_P1_1963"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q011",
+   "subset": "legacy",
+   "jurisdiction": "日本",
+   "topic": "人工智能",
+   "gold_law_ids": [
+    "JP_Act_2021_SMP_JP_013",
+    "JP_Act_2002_SMP_JP_007"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q012",
+   "subset": "legacy",
+   "jurisdiction": "日本",
+   "topic": "隐私与个人资料保护",
+   "gold_law_ids": [
+    "JP_Act_2003_SMP_JP_002"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q017",
+   "subset": "legacy",
+   "jurisdiction": "日本",
+   "topic": "数据泄露与通报",
+   "gold_law_ids": [
+    "JP_Act_2003_SMP_JP_002"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q019",
+   "subset": "legacy",
+   "jurisdiction": "日本",
+   "topic": "电子交易与电子政务",
+   "gold_law_ids": [
+    "JP_Act_2000_SMP_JP_038"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q022",
+   "subset": "legacy",
+   "jurisdiction": "香港",
+   "topic": "电脑犯罪与刑事司法",
+   "gold_law_ids": [
+    "HK_CAP_200"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q027",
+   "subset": "legacy",
+   "jurisdiction": "香港",
+   "topic": "反洗钱与反恐融资",
+   "gold_law_ids": [
+    "HK_CAP_584"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q028",
+   "subset": "legacy",
+   "jurisdiction": "香港",
+   "topic": "数据保护与企业合规",
+   "gold_law_ids": [
+    "HK_CAP_486"
+   ],
+   "gold_clause_status": "unmappable_topic",
+   "reason": "主题标签无法映射到 taxonomy"
+  },
+  {
+   "query_id": "Q029",
+   "subset": "legacy",
+   "jurisdiction": "香港",
+   "topic": "消费者保护",
+   "gold_law_ids": [
+    "HK_CAP_362"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q032",
+   "subset": "legacy",
+   "jurisdiction": "澳门",
+   "topic": "电脑犯罪与刑事司法",
+   "gold_law_ids": [
+    "MAC_LEI_11_2009"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q034",
+   "subset": "legacy",
+   "jurisdiction": "澳门",
+   "topic": "电子交易与电子政务",
+   "gold_law_ids": [
+    "MAC_LEI_5_2005"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q037",
+   "subset": "legacy",
+   "jurisdiction": "澳门",
+   "topic": "网络安全",
+   "gold_law_ids": [
+    "MAC_LEI_13_2019"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q038",
+   "subset": "legacy",
+   "jurisdiction": "澳门",
+   "topic": "反洗钱与反恐融资",
+   "gold_law_ids": [
+    "MAC_LEI_2_2006"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q039",
+   "subset": "legacy",
+   "jurisdiction": "泰国",
+   "topic": "贸易竞争与市场监管",
+   "gold_law_ids": [
+    "TH_ACT_1991"
+   ],
+   "gold_clause_status": "unmappable_topic",
+   "reason": "主题标签无法映射到 taxonomy"
+  },
+  {
+   "query_id": "Q040",
+   "subset": "legacy",
+   "jurisdiction": "泰国",
+   "topic": "宪法与基本权利",
+   "gold_law_ids": [
+    "TH_CONST_2007"
+   ],
+   "gold_clause_status": "unmappable_topic",
+   "reason": "主题标签无法映射到 taxonomy"
+  },
+  {
+   "query_id": "Q041",
+   "subset": "legacy",
+   "jurisdiction": "泰国",
+   "topic": "金融监管",
+   "gold_law_ids": [
+    "TH_ACT_2002"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q045",
+   "subset": "legacy",
+   "jurisdiction": "泰国",
+   "topic": "国家安全",
+   "gold_law_ids": [
+    "TH_ACT_1997"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q046",
+   "subset": "legacy",
+   "jurisdiction": "泰国",
+   "topic": "反洗钱与反恐融资",
+   "gold_law_ids": [
+    "TH_ACT_1999"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q049",
+   "subset": "legacy",
+   "jurisdiction": "新加坡",
+   "topic": "电子交易",
+   "gold_law_ids": [
+    "SG_ACT_16_2010"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q053",
+   "subset": "legacy",
+   "jurisdiction": "新加坡",
+   "topic": "垃圾信息控制",
+   "gold_law_ids": [
+    "SG_ACT_40_2020"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q054",
+   "subset": "legacy",
+   "jurisdiction": "新加坡",
+   "topic": "反洗钱与反恐融资",
+   "gold_law_ids": [
+    "SG_ACT_1_2021"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q056",
+   "subset": "legacy",
+   "jurisdiction": "越南",
+   "topic": "人工智能",
+   "gold_law_ids": [
+    "VN_QH11_67_2006"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q058",
+   "subset": "legacy",
+   "jurisdiction": "越南",
+   "topic": "电信与信息技术",
+   "gold_law_ids": [
+    "VN_N_75_2003"
+   ],
+   "gold_clause_status": "unmappable_topic",
+   "reason": "主题标签无法映射到 taxonomy"
+  },
+  {
+   "query_id": "Q060",
+   "subset": "legacy",
+   "jurisdiction": "越南",
+   "topic": "消费者保护",
+   "gold_law_ids": [
+    "VN_N_12_2006"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q061",
+   "subset": "legacy",
+   "jurisdiction": "越南",
+   "topic": "税法",
+   "gold_law_ids": [
+    "VN_N_87_2010"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q062",
+   "subset": "legacy",
+   "jurisdiction": "越南",
+   "topic": "公司治理",
+   "gold_law_ids": [
+    "VN_N_75_2003"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q066",
+   "subset": "legacy",
+   "jurisdiction": "马来西亚",
+   "topic": "电信与通讯",
+   "gold_law_ids": [
+    "MY_ACT_322_1985"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q067",
+   "subset": "legacy",
+   "jurisdiction": "马来西亚",
+   "topic": "电信与数字通信",
+   "gold_law_ids": [
+    "MY_ACT_322_1985"
+   ],
+   "gold_clause_status": "unmappable_topic",
+   "reason": "主题标签无法映射到 taxonomy"
+  },
+  {
+   "query_id": "Q070",
+   "subset": "legacy",
+   "jurisdiction": "马来西亚",
+   "topic": "隐私与个人资料保护",
+   "gold_law_ids": [
+    "MY_ACT_709_2010"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q073",
+   "subset": "legacy",
+   "jurisdiction": "跨法域",
+   "topic": "数据泄露与通报",
+   "gold_law_ids": [
+    "JP_Act_2003_SMP_JP_002",
+    "SG_ACT_22_2016",
+    "HK_CAP_486",
+    "MY_ACT_709_2010"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q074",
+   "subset": "legacy",
+   "jurisdiction": "跨法域",
+   "topic": "电子交易与电子政务",
+   "gold_law_ids": [
+    "HK_CAP_553",
+    "SG_ACT_16_2010",
+    "MAC_LEI_5_2005",
+    "JP_Act_2000_SMP_JP_038"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q078",
+   "subset": "legacy",
+   "jurisdiction": "跨法域",
+   "topic": "反洗钱与反恐融资",
+   "gold_law_ids": [
+    "HK_CAP_584",
+    "SG_ACT_1_2021",
+    "MAC_LEI_2_2006",
+    "TH_ACT_1999"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  },
+  {
+   "query_id": "Q080",
+   "subset": "legacy",
+   "jurisdiction": "跨法域",
+   "topic": "隐私与个人资料保护",
+   "gold_law_ids": [
+    "HK_CAP_486",
+    "SG_ACT_22_2016",
+    "MY_ACT_709_2010",
+    "MAC_LEI_8_2005",
+    "JP_Act_2003_SMP_JP_002"
+   ],
+   "gold_clause_status": "empty_no_topic_match",
+   "reason": "该主题在查询法域内无 score≥6.0 的合格条款"
+  }
+ ]
+}

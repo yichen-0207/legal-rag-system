@@ -1,0 +1,341 @@
+{
+ "rules_version": "gold-v2.2",
+ "seed": 20261114,
+ "dataset_sha256": "436b618c74b443a4ef427a287452d22f70b57bd0257e93a83df2dd2bef04ee12",
+ "queries_sha256": "05c2ce834c6089225a5892d03c3d2c98fd13aa2d6d1591189b7ce69c76cb4035",
+ "corpus": {
+  "articles": 27452,
+  "articles_retained": 24915,
+  "laws": 536,
+  "jurisdictions": 11,
+  "max_cleaned_at": "2026-10-26T08:54:45Z",
+  "files": 536,
+  "digest_sha256": "b9c907fa742f45023fefb89f5bcdd62dced30335ccc6a0a4867ecb5a5702b19b",
+  "articles_per_jurisdiction": {
+   "澳大利亚": 7865,
+   "中国大陆": 6023,
+   "中国香港": 1026,
+   "日本": 1983,
+   "韩国": 736,
+   "中国澳门": 4301,
+   "马来西亚": 213,
+   "新加坡": 388,
+   "泰国": 910,
+   "美国": 3693,
+   "越南": 314
+  },
+  "exclusions": {
+   "short_title": 91,
+   "too_long": 1890,
+   "not_substantive": 363,
+   "definition": 165,
+   "annex": 3,
+   "commencement": 1,
+   "boilerplate": 21,
+   "schedule": 3
+  },
+  "pairs_after_R1_R3": 13342,
+  "pairs_after_R4": 10517
+ },
+ "taxonomy": {
+  "version": "2.5",
+  "file_sha256": "b348bf05c8fb4aba8a0a8b23049d8278f145dce787abfabd2bb5f6ed2297e183",
+  "topics": 38,
+  "label_drift": [
+   {
+    "topic_id": "financial_services",
+    "taxonomy_label": "金融服务与监管",
+    "raw_v2_labels": [
+     "金融服务"
+    ],
+    "affected_queries": [
+     "Q014",
+     "Q026",
+     "Q035",
+     "Q050",
+     "Q076",
+     "TCN_F2_01",
+     "TCN_F2_02",
+     "TKR_F1_02",
+     "TMO_F1_04",
+     "TMY_F1_01",
+     "TTH_F2_01",
+     "TUS_F2_02",
+     "TX_F3_03"
+    ]
+   },
+   {
+    "topic_id": "telecommunications",
+    "taxonomy_label": "电信与通讯",
+    "raw_v2_labels": [
+     "电信"
+    ],
+    "affected_queries": [
+     "Q003",
+     "Q013",
+     "Q023",
+     "Q033",
+     "Q043",
+     "Q051",
+     "Q055",
+     "Q066",
+     "Q075",
+     "TAU_F1_03",
+     "THK_F1_04",
+     "TJP_F2_02",
+     "TKR_F2_01",
+     "TSG_F1_01",
+     "TTH_F2_02",
+     "TVN_F1_01",
+     "TVN_F2_01",
+     "TVN_F2_02",
+     "TVN_F2_03",
+     "TX_F3_01"
+    ]
+   }
+  ]
+ },
+ "inputs": {
+  "eval_dataset.json": "dfb0f58fb5946f811d47ab4cb5c9f3fdbcf09b0a68d172b494b8a6d53816b842",
+  "eval_dataset_clause.json": "bd30025d3deaba5e4a4517df46e7bb283d0287b62bad7b59b1cd0ec8020a055c",
+  "eval_queries.json": "38e4216677d2941c862d6835635199bddb8422129b5ebf8b6ffc15e3bec75150",
+  "eval_annotation_template.xlsx": "3f5a258f4c86f8146079815ac908da6e32c2378ecb6fb4e8409369fc9f2bb248"
+ },
+ "model": null,
+ "counts": {
+  "base_queries": 149,
+  "variants": 596,
+  "base_queries_with_clause_gold": 113,
+  "clause_gold_coverage": "113/149",
+  "empty_base_queries": 36,
+  "empty_gold_variants": 144,
+  "gold_clauses": 3024,
+  "gold_clauses_base": 756,
+  "gold_clauses_unique": 566,
+  "per_jurisdiction_template": {
+   "中国大陆": 6,
+   "中国澳门": 6,
+   "澳大利亚": 6,
+   "美国": 6,
+   "日本": 6,
+   "中国香港": 6,
+   "泰国": 6,
+   "韩国": 6,
+   "新加坡": 3,
+   "越南": 4,
+   "马来西亚": 6,
+   "跨法域": 8
+  },
+  "per_jurisdiction_legacy": {
+   "美国": 10,
+   "日本": 10,
+   "香港": 10,
+   "澳门": 8,
+   "泰国": 8,
+   "新加坡": 8,
+   "越南": 8,
+   "马来西亚": 8,
+   "跨法域": 10
+  },
+  "per_family": {
+   "legacy": 80,
+   "F1": 37,
+   "F2": 24,
+   "F3": 8
+  },
+  "legacy_k": {
+   "k_entries": 133,
+   "k_distinct": 79,
+   "k_in_catalog_entries": 132,
+   "k_in_catalog_distinct": 74,
+   "k_repaired": [
+    {
+     "query_id": "Q047",
+     "from": "SG_ACT_This_Act_is_the_Pers_2012",
+     "to": "SG_ACT_22_2016"
+    },
+    {
+     "query_id": "Q050",
+     "from": "SG_ACT_This_Act_is_the_Fina_2022",
+     "to": "SG_ACT_18_2022"
+    },
+    {
+     "query_id": "Q053",
+     "from": "SG_ACT_This_Act_is_the_Spam_2007",
+     "to": "SG_ACT_40_2020"
+    },
+    {
+     "query_id": "Q054",
+     "from": "SG_ACT_This_Act_is_the_Paym_2019",
+     "to": "SG_ACT_1_2021"
+    },
+    {
+     "query_id": "Q071",
+     "from": "SG_ACT_This_Act_is_the_Pers_2012",
+     "to": "SG_ACT_22_2016"
+    },
+    {
+     "query_id": "Q073",
+     "from": "SG_ACT_This_Act_is_the_Pers_2012",
+     "to": "SG_ACT_22_2016"
+    },
+    {
+     "query_id": "Q076",
+     "from": "SG_ACT_This_Act_is_the_Fina_2022",
+     "to": "SG_ACT_18_2022"
+    },
+    {
+     "query_id": "Q078",
+     "from": "SG_ACT_This_Act_is_the_Paym_2019",
+     "to": "SG_ACT_1_2021"
+    },
+    {
+     "query_id": "Q080",
+     "from": "SG_ACT_This_Act_is_the_Pers_2012",
+     "to": "SG_ACT_22_2016"
+    }
+   ],
+   "k_deduped": [
+    {
+     "query_id": "Q047",
+     "law_id": "SG_ACT_22_2016"
+    },
+    {
+     "query_id": "Q050",
+     "law_id": "SG_ACT_18_2022"
+    },
+    {
+     "query_id": "Q053",
+     "law_id": "SG_ACT_40_2020"
+    },
+    {
+     "query_id": "Q054",
+     "law_id": "SG_ACT_1_2021"
+    }
+   ],
+   "k_dropped": [
+    {
+     "query_id": "Q006",
+     "law_id": "US_CFR_T48_P1_1983"
+    }
+   ],
+   "unmappable": [
+    "Q028",
+    "Q039",
+    "Q040",
+    "Q058",
+    "Q067"
+   ],
+   "empty_clause": [
+    "Q001",
+    "Q007",
+    "Q008",
+    "Q010",
+    "Q011",
+    "Q012",
+    "Q017",
+    "Q019",
+    "Q022",
+    "Q027",
+    "Q029",
+    "Q032",
+    "Q034",
+    "Q037",
+    "Q038",
+    "Q041",
+    "Q045",
+    "Q046",
+    "Q049",
+    "Q053",
+    "Q054",
+    "Q056",
+    "Q060",
+    "Q061",
+    "Q062",
+    "Q066",
+    "Q070",
+    "Q073",
+    "Q074",
+    "Q078",
+    "Q080"
+   ]
+  }
+ },
+ "known_defects": [
+  {
+   "id": "D1",
+   "title": "查询主题标签与条款主题标注共用 taxonomy 词表",
+   "impact": "指标度量主题可达性，非完整语义相关性"
+  },
+  {
+   "id": "D2",
+   "title": "topics_details.score 未归一化且与条文长度正相关",
+   "impact": "长条文仍更易进入 gold；已用 n_strong 排序与长度上限压制"
+  },
+  {
+   "id": "D3",
+   "title": "主题标注漏检不可度量",
+   "impact": "金币只有正例，Recall 绝对上限未知"
+  },
+  {
+   "id": "D4",
+   "title": "gold 条数上限造成 recall 天花板",
+   "impact": "F1 8 / F2 5 / F3 12 / legacy 10"
+  },
+  {
+   "id": "D5",
+   "title": "低资源法域样本过少",
+   "impact": "新加坡 4 条、越南 4 条、马来西亚 6 条基础查询，分法域指标不可比"
+  },
+  {
+   "id": "D6",
+   "title": "legacy 查询概念粒度粗于主题",
+   "impact": "条款级 gold 错配，legacy 仅用于法规级指标与新旧对照"
+  },
+  {
+   "id": "D7",
+   "title": "主题标签重复/近义",
+   "impact": "政府采购双 ID 合并，金融监管与金融服务不合并"
+  },
+  {
+   "id": "D8",
+   "title": "条文重复与异常编号",
+   "impact": "按文本哈希去重；article_number 存在 Sch1/44ZZ/63F 等"
+  },
+  {
+   "id": "D9",
+   "title": "中国大陆/澳门法规在 D 变体中保留中文/葡文原名",
+   "impact": "语料无官方英译，D 变体实为混合语言"
+  },
+  {
+   "id": "D10",
+   "title": "中国大陆、澳大利亚、韩国无法规级外部清单 gold",
+   "impact": "其 gold_law_source 为 derived，无外部法规清单背书"
+  },
+  {
+   "id": "D11",
+   "title": "主题标注器的召回不足",
+   "impact": "日本等英文译本条款大量缺少 topics_details；新条款 gold 只覆盖 K 的 36/128 部法规（28.1%），50/80 条 legacy 查询零覆盖（见 selfcheck）"
+  },
+  {
+   "id": "D12",
+   "title": "过滤规则损失部分 K 法规在检索候选中出现过的条款",
+   "impact": "长度>3000 等排除规则使 15.6% 的 K 法规候选条款不进入候选池；换来的是避免长附件/修订附表霸榜"
+  },
+  {
+   "id": "D13",
+   "title": "两个主题标签在标注与出题时不同名",
+   "impact": "raw_v2 的 topics_details.label_zh 为「金融服务」「电信」，taxonomy 2.5 为「金融服务与监管」「电信与通讯」；gold 按 topic_id 选取不受影响，但查询词与条款词表的词汇匹配变难，属跨系统比较的混杂因素"
+  },
+  {
+   "id": "D14",
+   "title": "K 列 1 个目录外 ID 无法修复",
+   "impact": "Q006 的 US_CFR_T48_P1_1983 在语料中不存在（FAR 只按 Part 拆分入库），该法规不计入 Q006 的法规级 gold；其余 9 个目录外 ID 已修复或去重"
+  },
+  {
+   "id": "D15",
+   "title": "模板查询只有正例、无负例",
+   "impact": "条款级指标只能算 Recall / NDCG，不能算精确率"
+  }
+ ]
+}

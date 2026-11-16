@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "artifact": "eval_agent_vs_rag_ragas.json",
+    "mode": "both",
+    "n_records": 2,
+    "model": "deepseek-flash",
+    "context_max_chars": 1500,
+    "query_variant": "B_nl_zh",
+    "metrics": [
+      "llm_context_precision_without_reference",
+      "faithfulness"
+    ],
+    "metric_coverage": {
+      "llm_context_precision_without_reference": "2/2",
+      "faithfulness": "2/2"
+    },
+    "reference_coverage": "2/2",
+    "subset": null,
+    "skipped_records": [],
+    "generated_at": "2026-11-15T15:50:53"
+  },
+  "aggregate": {
+    "llm_context_precision_without_reference": 0.5,
+    "faithfulness": 0.2569
+  },
+  "per_record": [
+    {
+      "query_id": "Q050",
+      "mode": "rag",
+      "has_ans": true,
+      "hand_faithfulness": 2,
+      "hand_relevance": 3,
+      "n_contexts": 4,
+      "has_reference": true,
+      "llm_context_precision_without_reference": 0.0,
+      "faithfulness": 0.2209
+    },
+    {
+      "query_id": "Q050",
+      "mode": "agent",
+      "has_ans": true,
+      "hand_faithfulness": 2,
+      "hand_relevance": 4,
+      "n_contexts": 6,
+      "has_reference": true,
+      "llm_context_precision_without_reference": 1.0,
+      "faithfulness": 0.2929
+    }
+  ]
+}

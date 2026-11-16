@@ -1,0 +1,17 @@
+strategy,query_id,query_text,jurisdiction,variant,base_query,relevant_count,retrieved_count,MRR,R@5,R@10,R@20,P@5
+仅BM25检索,Q001_A,人工智能 监管 美国 框架,美国,A,Q001,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q001_B,美国对人工智能技术的监管框架和治理体系是怎样的？,美国,B,Q001,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q001_C,US AI regulation and governance 框架是什么？,美国,C,Q001,20,18,0.0714,0.0,0.0,0.05,0.0
+仅BM25检索,Q001_D,What is the regulatory framework for artificial intelligence in the United States?,美国,D,Q001,20,20,0.5,0.05,0.05,0.1,0.2
+纯向量检索,Q001_A,人工智能 监管 美国 框架,美国,A,Q001,20,9,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q001_B,美国对人工智能技术的监管框架和治理体系是怎样的？,美国,B,Q001,20,9,0.1429,0.0,0.05,0.05,0.0
+纯向量检索,Q001_C,US AI regulation and governance 框架是什么？,美国,C,Q001,20,8,0.3333,0.05,0.1,0.1,0.2
+纯向量检索,Q001_D,What is the regulatory framework for artificial intelligence in the United States?,美国,D,Q001,20,9,1.0,0.1,0.1,0.1,0.4
+混合检索(RRF),Q001_A,人工智能 监管 美国 框架,美国,A,Q001,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q001_B,美国对人工智能技术的监管框架和治理体系是怎样的？,美国,B,Q001,20,20,0.0588,0.0,0.0,0.05,0.0
+混合检索(RRF),Q001_C,US AI regulation and governance 框架是什么？,美国,C,Q001,20,20,0.1667,0.0,0.05,0.1,0.0
+混合检索(RRF),Q001_D,What is the regulatory framework for artificial intelligence in the United States?,美国,D,Q001,20,20,1.0,0.05,0.1,0.15,0.2
+混合+Re-ranker,Q001_A,人工智能 监管 美国 框架,美国,A,Q001,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q001_B,美国对人工智能技术的监管框架和治理体系是怎样的？,美国,B,Q001,20,20,0.1429,0.0,0.05,0.05,0.0
+混合+Re-ranker,Q001_C,US AI regulation and governance 框架是什么？,美国,C,Q001,20,20,1.0,0.05,0.05,0.1,0.2
+混合+Re-ranker,Q001_D,What is the regulatory framework for artificial intelligence in the United States?,美国,D,Q001,20,20,1.0,0.05,0.05,0.15,0.2

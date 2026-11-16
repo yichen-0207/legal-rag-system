@@ -1,0 +1,4 @@
+strategy,query_id,query_text,jurisdiction,subset,variant,base_query,clause_gold_empty,relevant_count,retrieved_count,MRR,R@5,R@10,R@20,P@5,law_relevant_count,law_MRR,law_R@5,law_R@20,law_NDCG@20
+混合+Re-ranker,Q001_A,人工智能 监管 美国 框架,美国,legacy,A,Q001,1,,,,,,,,2,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q073_D,How do data breach notification requirements differ across Asia-Pacific jurisdictions?,跨法域,legacy,D,Q073,1,,,,,,,,4,1.0,0.75,0.75,0.7537
+混合+Re-ranker,TCN_F1_01_A,中国大陆 人工智能 法律规定,中国大陆,template,A,TCN_F1_01,0,8,20,1.0,0.125,0.375,0.75,0.2,5,1.0,0.8,0.8,0.8688

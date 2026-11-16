@@ -1,0 +1,147 @@
+{
+  "overall_law": {
+    "hybrid+reranker": {
+      "total_queries": 596,
+      "ndcg_definition": "per_k_truncated_v2",
+      "MRR": 0.7573,
+      "Hit@20": 0.953,
+      "Rank1_Accuracy": 0.646,
+      "Recall@1": 0.4732,
+      "Recall@5": 0.7136,
+      "Recall@10": 0.7734,
+      "Recall@20": 0.7864,
+      "NDCG@5": 0.6833,
+      "NDCG@5_valid_queries": 596,
+      "NDCG@10": 0.7041,
+      "NDCG@10_valid_queries": 596,
+      "NDCG@20": 0.7097,
+      "NDCG@20_valid_queries": 596
+    }
+  },
+  "overall_clause": {
+    "hybrid+reranker": {
+      "total_queries": 452,
+      "ndcg_definition": "per_k_truncated_v2",
+      "MRR": 0.2456,
+      "Hit@20": 0.6173,
+      "Rank1_Accuracy": 0.1438,
+      "R-Precision": 0.103,
+      "Recall@1": 0.0298,
+      "Recall@3": 0.0674,
+      "Recall@5": 0.0986,
+      "Recall@10": 0.1889,
+      "Recall@20": 0.2853,
+      "Precision@5": 0.1031,
+      "NDCG@5": 0.1143,
+      "NDCG@5_valid_queries": 452,
+      "Precision@10": 0.0925,
+      "NDCG@10": 0.1485,
+      "NDCG@10_valid_queries": 452,
+      "Precision@20": 0.0698,
+      "NDCG@20": 0.1883,
+      "NDCG@20_valid_queries": 452
+    }
+  },
+  "by_subset": {
+    "hybrid+reranker": {
+      "template": {
+        "law": {
+          "total_queries": 276,
+          "ndcg_definition": "per_k_truncated_v2",
+          "MRR": 0.8053,
+          "Hit@20": 0.9783,
+          "Rank1_Accuracy": 0.7029,
+          "Recall@1": 0.3957,
+          "Recall@5": 0.6395,
+          "Recall@10": 0.6895,
+          "Recall@20": 0.7017,
+          "NDCG@5": 0.6628,
+          "NDCG@5_valid_queries": 276,
+          "NDCG@10": 0.6739,
+          "NDCG@10_valid_queries": 276,
+          "NDCG@20": 0.6799,
+          "NDCG@20_valid_queries": 276
+        },
+        "clause": {
+          "total_queries": 276,
+          "ndcg_definition": "per_k_truncated_v2",
+          "MRR": 0.2765,
+          "Hit@20": 0.6522,
+          "Rank1_Accuracy": 0.1594,
+          "R-Precision": 0.1234,
+          "Recall@1": 0.0279,
+          "Recall@3": 0.0656,
+          "Recall@5": 0.1092,
+          "Recall@10": 0.1954,
+          "Recall@20": 0.2966,
+          "Precision@5": 0.1268,
+          "NDCG@5": 0.1285,
+          "NDCG@5_valid_queries": 276,
+          "Precision@10": 0.1127,
+          "NDCG@10": 0.1639,
+          "NDCG@10_valid_queries": 276,
+          "Precision@20": 0.0846,
+          "NDCG@20": 0.2069,
+          "NDCG@20_valid_queries": 276
+        }
+      },
+      "legacy": {
+        "law": {
+          "total_queries": 320,
+          "ndcg_definition": "per_k_truncated_v2",
+          "MRR": 0.716,
+          "Hit@20": 0.9313,
+          "Rank1_Accuracy": 0.5969,
+          "Recall@1": 0.54,
+          "Recall@5": 0.7775,
+          "Recall@10": 0.8457,
+          "Recall@20": 0.8594,
+          "NDCG@5": 0.7011,
+          "NDCG@5_valid_queries": 320,
+          "NDCG@10": 0.7301,
+          "NDCG@10_valid_queries": 320,
+          "NDCG@20": 0.7355,
+          "NDCG@20_valid_queries": 320
+        },
+        "clause": {
+          "total_queries": 176,
+          "ndcg_definition": "per_k_truncated_v2",
+          "MRR": 0.1973,
+          "Hit@20": 0.5625,
+          "Rank1_Accuracy": 0.1193,
+          "R-Precision": 0.0711,
+          "Recall@1": 0.0328,
+          "Recall@3": 0.0702,
+          "Recall@5": 0.0819,
+          "Recall@10": 0.1787,
+          "Recall@20": 0.2677,
+          "Precision@5": 0.0659,
+          "NDCG@5": 0.092,
+          "NDCG@5_valid_queries": 176,
+          "Precision@10": 0.0608,
+          "NDCG@10": 0.1245,
+          "NDCG@10_valid_queries": 176,
+          "Precision@20": 0.0466,
+          "NDCG@20": 0.1593,
+          "NDCG@20_valid_queries": 176
+        }
+      }
+    }
+  },
+  "subset_definition": {
+    "template": "template gold（276 变体，全部有条款 gold）",
+    "legacy": "legacy 诊断 gold（320 变体；仅 176 条有条款 gold）"
+  },
+  "metric_semantics": {
+    "Hit@20": "返回列表前 20 条中至少命中一条 gold；旧字段 Top1_Accuracy 的实际含义",
+    "Rank1_Accuracy": "返回列表第 1 条即命中 gold（MRR==1.0）",
+    "Top1_Accuracy": "已废弃：旧文件中的该字段等价于 Hit@20，不得当作 rank-1",
+    "NDCG@20": "per_k_truncated_v2"
+  },
+  "ndcg_definition": "per_k_truncated_v2",
+  "meta": {
+    "rerank_dataset": "eval_dataset_v2.json",
+    "rerank_phase1_seconds": 138.9,
+    "rerank_phase3_seconds": 397.1
+  }
+}

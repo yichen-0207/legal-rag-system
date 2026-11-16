@@ -2,7 +2,7 @@
 
 仅评估 B_nl_zh 变体；输出 eval_qa_results.json（逐条）与 eval_qa_summary.json（汇总）。
 """
-import os, json
+import os, json, argparse
 from typing import List, Dict, Optional
 from collections import defaultdict
 
@@ -10,8 +10,6 @@ from _bootstrap import DATASETS_DIR, RESULTS_DIR
 
 EVAL_QUERIES_PATH = os.path.join(DATASETS_DIR, "eval_queries.json")
 EVAL_CLAUSE_PATH = os.path.join(DATASETS_DIR, "eval_dataset_clause.json")
-OUTPUT_RESULTS = os.path.join(RESULTS_DIR, "eval_qa_results.json")
-OUTPUT_SUMMARY = os.path.join(RESULTS_DIR, "eval_qa_summary.json")
 TOP_K = 5  # 问答场景取 Top-5
 
 # 只评估 NL 中文变体（80条），兼顾效率与代表性
@@ -21,9 +19,10 @@ USE_VARIANT = "B_nl_zh"
 # ============================================================
 # 1. 加载数据
 # ============================================================
-def load_queries() -> List[Dict]:
-    """加载 eval_queries.json，返回 [{query_id, query, jurisdiction, ...}]"""
-    with open(EVAL_QUERIES_PATH, "r", encoding="utf-8") as f:
+def load_queries(path: Optional[str] = None) -> List[Dict]:
+    """加载查询集（默认 eval_queries.json），返回 [{query_id, query, jurisdiction, ...}]"""
+    path = path or EVAL_QUERIES_PATH
+    with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
     queries = []
     for item in data.get("queries", []):
@@ -43,20 +42,34 @@ def load_queries() -> List[Dict]:
     return queries
 
 
-def load_gold() -> Dict[str, List[Dict]]:
-    """加载 eval_dataset_clause.json，返回 {query_id: [{law_id, article, relevance, ...}]}"""
-    with open(EVAL_CLAUSE_PATH, "r", encoding="utf-8") as f:
+# 新 gold（v2）在条目上直接给出 base 查询 id，如 TCN_F1_01_A → TCN_F1_01；
+# 旧数据没有该字段，只能按 "_" 前缀切分（Q001_A → Q001），此时必须告警。
+BASE_ID_FIELDS = ("base_query", "base_id", "query_id")
+
+
+def _base_query_id(item: Dict, stats: Dict[str, int]) -> str:
+    for field in BASE_ID_FIELDS:
+        value = item.get(field)
+        if isinstance(value, str) and value.strip():
+            stats["direct"] += 1
+            return value.strip()
+    qid = item.get("id", "")
+    stats["fallback"] += 1
+    return qid.split("_")[0] if "_" in qid else qid
+
+
+def load_gold(path: Optional[str] = None) -> Dict[str, List[Dict]]:
+    """加载 gold 数据集（默认 eval_dataset_clause.json），返回 {base_query_id: [{law_id, article, relevance, ...}]}"""
+    path = path or EVAL_CLAUSE_PATH
+    with open(path, "r", encoding="utf-8") as f:
         items = json.load(f)
     gold = {}
-    # 注意：clause 数据中 id 格式为 "Q001_A"，需匹配变体
-    var_suffix = USE_VARIANT.split("_")[0]  # "B"
+    stats = {"direct": 0, "fallback": 0}
     for item in items:
-        qid = item.get("id", "")
-        # 检查是否匹配当前变体，或者匹配 base query_id
-        base_id = qid.split("_")[0] if "_" in qid else qid
-        if base_id not in gold:
-            gold[base_id] = []
-        gold[base_id].extend(item.get("relevant", []))
+        gold.setdefault(_base_query_id(item, stats), []).extend(item.get("relevant", []))
+    if stats["fallback"]:
+        print(f"  [warn] gold 数据集缺少 {'/'.join(BASE_ID_FIELDS)} 字段，{stats['fallback']} 条按 id 的 "
+              f"'_' 前缀回退切分（旧数据集口径）；模板 id 形如 TCN_F1_01_A 时该回退会切错，请改用带 base 字段的数据集")
     return gold
 
 
@@ -220,17 +233,15 @@ def judge_relevance(query: str, answer: str, qa_service) -> int:
 # ============================================================
 # 5. 汇总计算
 # ============================================================
-def compute_summary(results: List[Dict]) -> Dict:
-    """计算汇总指标"""
+def _metrics_block(results: List[Dict]) -> Dict:
+    """一组结果的指标块：整体与按法域分组共用同一口径。"""
     n = len(results)
     if n == 0:
         return {}
-
     has_ans_count = sum(1 for r in results if r["has_ans"])
     faith_scores = [r["faithfulness_score"] for r in results if r["faithfulness_score"] > 0]
     rel_scores = [r["relevance_score"] for r in results if r["relevance_score"] > 0]
     errors = [r for r in results if r.get("error")]
-
     return {
         "total_queries": n,
         "has_ans_accuracy": round(has_ans_count / max(n, 1), 4),
@@ -249,6 +260,18 @@ def compute_summary(results: List[Dict]) -> Dict:
         },
         "error_count": len(errors),
     }
+
+
+def compute_summary(results: List[Dict]) -> Dict:
+    """计算汇总指标；同时按法域分组，用于把语料扩容效应与系统变化分开。"""
+    summary = _metrics_block(results)
+    if not summary:
+        return {}
+    groups = defaultdict(list)
+    for r in results:
+        groups[r.get("jurisdiction") or "未知"].append(r)
+    summary["by_jurisdiction"] = {jur: _metrics_block(rows) for jur, rows in sorted(groups.items())}
+    return summary
 
 
 def print_summary(summary: Dict):
@@ -275,15 +298,27 @@ def print_summary(summary: Dict):
 # 6. 主流程
 # ============================================================
 def main():
+    ap = argparse.ArgumentParser(description="问答评估")
+    ap.add_argument("--queries", default=EVAL_QUERIES_PATH, help="查询集路径（默认 eval_queries.json）")
+    ap.add_argument("--gold", default=EVAL_CLAUSE_PATH, help="gold 数据集路径（默认 eval_dataset_clause.json）")
+    ap.add_argument("--limit", type=int, default=0, help="仅跑前 N 条（0=全量，用于校准）")
+    ap.add_argument("--out-prefix", default="", help="输出文件后缀，避免覆盖正式结果")
+    args = ap.parse_args()
+
     print("=" * 60)
     print("  问答评估 (RAG QA Evaluation)")
     print("  变体: " + USE_VARIANT)
     print("  Top-K: " + str(TOP_K))
     print("=" * 60)
 
-    # 加载数据
-    queries = load_queries()
-    gold_map = load_gold()
+    # 加载数据（相对路径按 datasets/ 解析）
+    def _resolve(p: str) -> str:
+        return p if os.path.isabs(p) else os.path.join(DATASETS_DIR, p)
+
+    queries = load_queries(_resolve(args.queries))
+    if args.limit:
+        queries = queries[:args.limit]
+    gold_map = load_gold(_resolve(args.gold))
     if not queries:
         print("  [ERROR] 无查询数据")
         return
@@ -337,13 +372,15 @@ def main():
     print_summary(summary)
 
     # 保存
-    os.makedirs(os.path.dirname(OUTPUT_RESULTS), exist_ok=True)
-    with open(OUTPUT_RESULTS, "w", encoding="utf-8") as f:
+    results_path = os.path.join(RESULTS_DIR, f"eval_qa_results{args.out_prefix}.json")
+    summary_path = os.path.join(RESULTS_DIR, f"eval_qa_summary{args.out_prefix}.json")
+    os.makedirs(os.path.dirname(results_path), exist_ok=True)
+    with open(results_path, "w", encoding="utf-8") as f:
         json.dump(all_results, f, ensure_ascii=False, indent=2)
-    with open(OUTPUT_SUMMARY, "w", encoding="utf-8") as f:
+    with open(summary_path, "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
-    print(f"\n  结果: {OUTPUT_RESULTS}")
-    print(f"  汇总: {OUTPUT_SUMMARY}")
+    print(f"\n  结果: {results_path}")
+    print(f"  汇总: {summary_path}")
 
     # 按法域细分
     print(f"\n  {'='*60}")

@@ -1,0 +1,3618 @@
+{
+ "meta": {
+  "dataset_version": "v2.0",
+  "rules_version": "gold-v2.2",
+  "total_base_queries": 149,
+  "total_variants": 596,
+  "subset_counts": {
+   "legacy": 80,
+   "template": 69
+  },
+  "family_counts": {
+   "legacy": 80,
+   "F1": 37,
+   "F2": 24,
+   "F3": 8
+  },
+  "variants": {
+   "A_keyword_zh": "纯中文关键词查询",
+   "B_nl_zh": "纯中文自然语言查询",
+   "C_mixed_zhen": "中英混合查询",
+   "D_pure_en": "纯英文查询"
+  },
+  "annotation_level": "法规级(外部法规清单 K / 派生) + 条款级(机械派生, relevance 1/2)",
+  "topic_source": "taxonomy_merged.json v2.5",
+  "topic_label_drift": [
+   {
+    "topic_id": "financial_services",
+    "taxonomy_label": "金融服务与监管",
+    "raw_v2_labels": [
+     "金融服务"
+    ],
+    "affected_queries": [
+     "Q014",
+     "Q026",
+     "Q035",
+     "Q050",
+     "Q076",
+     "TCN_F2_01",
+     "TCN_F2_02",
+     "TKR_F1_02",
+     "TMO_F1_04",
+     "TMY_F1_01",
+     "TTH_F2_01",
+     "TUS_F2_02",
+     "TX_F3_03"
+    ]
+   },
+   {
+    "topic_id": "telecommunications",
+    "taxonomy_label": "电信与通讯",
+    "raw_v2_labels": [
+     "电信"
+    ],
+    "affected_queries": [
+     "Q003",
+     "Q013",
+     "Q023",
+     "Q033",
+     "Q043",
+     "Q051",
+     "Q055",
+     "Q066",
+     "Q075",
+     "TAU_F1_03",
+     "THK_F1_04",
+     "TJP_F2_02",
+     "TKR_F2_01",
+     "TSG_F1_01",
+     "TTH_F2_02",
+     "TVN_F1_01",
+     "TVN_F2_01",
+     "TVN_F2_02",
+     "TVN_F2_03",
+     "TX_F3_01"
+    ]
+   }
+  ],
+  "seed": 20261114
+ },
+ "queries": [
+  {
+   "query_id": "Q001",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "人工智能",
+   "topic_id": "artificial_intelligence",
+   "topic_ids": [
+    "artificial_intelligence"
+   ],
+   "core_concept": "AI监管框架",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "人工智能 监管 美国 框架",
+   "B_nl_zh": "美国对人工智能技术的监管框架和治理体系是怎样的？",
+   "C_mixed_zhen": "US AI regulation and governance 框架是什么？",
+   "D_pure_en": "What is the regulatory framework for artificial intelligence in the United States?"
+  },
+  {
+   "query_id": "Q002",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "数据泄露通知",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "联邦数据泄露 通知 要求",
+   "B_nl_zh": "美国联邦法律对数据泄露通知义务有哪些具体要求？",
+   "C_mixed_zhen": "US federal data breach notification requirements 有哪些？",
+   "D_pure_en": "What are the federal data breach notification requirements in the United States?"
+  },
+  {
+   "query_id": "Q003",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "网络中立性",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "电信法 网络中立性 美国",
+   "B_nl_zh": "美国电信法中关于网络中立性的规定是什么？",
+   "C_mixed_zhen": "US telecommunications law net neutrality 规定",
+   "D_pure_en": "What are the net neutrality provisions in US telecommunications law?"
+  },
+  {
+   "query_id": "Q004",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "消费者保护",
+   "topic_id": "consumer_protection",
+   "topic_ids": [
+    "consumer_protection"
+   ],
+   "core_concept": "电子商务消费者保护",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "电商 消费者保护 FTC",
+   "B_nl_zh": "美国在电子商务领域对消费者的保护措施有哪些？",
+   "C_mixed_zhen": "US e-commerce consumer protection FTC 规则",
+   "D_pure_en": "What consumer protection measures apply to e-commerce in the United States?"
+  },
+  {
+   "query_id": "Q005",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "网络安全",
+   "topic_id": "cybersecurity",
+   "topic_ids": [
+    "cybersecurity"
+   ],
+   "core_concept": "网络安全框架",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "网络安全 框架 NIST 标准",
+   "B_nl_zh": "美国网络安全框架（NIST）的核心要求和合规标准是什么？",
+   "C_mixed_zhen": "US cybersecurity framework NIST 标准 compliance",
+   "D_pure_en": "What are the core requirements of the US NIST Cybersecurity Framework?"
+  },
+  {
+   "query_id": "Q006",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "政府采购",
+   "topic_id": "government_contracting",
+   "topic_ids": [
+    "government_contracting",
+    "government_procurement"
+   ],
+   "core_concept": "联邦采购规则",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "联邦采购 政府合同 FAR",
+   "B_nl_zh": "美国联邦采购法规（FAR）对政府合同的主要规定有哪些？",
+   "C_mixed_zhen": "US Federal Acquisition Regulation FAR 政府合同 rules",
+   "D_pure_en": "What are the key provisions of the US Federal Acquisition Regulation (FAR)?"
+  },
+  {
+   "query_id": "Q007",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "反洗钱与反恐融资",
+   "topic_id": "anti_money_laundering",
+   "topic_ids": [
+    "anti_money_laundering"
+   ],
+   "core_concept": "反洗钱合规",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "反洗钱 合规 Bank Secrecy Act",
+   "B_nl_zh": "美国《银行保密法》对金融机构的反洗钱合规要求是什么？",
+   "C_mixed_zhen": "US anti-money laundering BSA compliance requirements",
+   "D_pure_en": "What are the anti-money laundering compliance requirements under the US Bank Secrecy Act?"
+  },
+  {
+   "query_id": "Q008",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "隐私与个人资料保护",
+   "topic_id": "privacy_and_data_protection",
+   "topic_ids": [
+    "privacy_and_data_protection"
+   ],
+   "core_concept": "隐私权保护",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "隐私权 美国 法律框架",
+   "B_nl_zh": "美国隐私权保护的法律框架主要包括哪些法律？",
+   "C_mixed_zhen": "US privacy law 法律框架 CCPA HIPAA",
+   "D_pure_en": "What laws comprise the US privacy protection legal framework?"
+  },
+  {
+   "query_id": "Q009",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "电子交易",
+   "topic_id": "electronic_transactions",
+   "topic_ids": [
+    "electronic_transactions"
+   ],
+   "core_concept": "电子签名合法性",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "电子签名 ESIGN Act 合法性",
+   "B_nl_zh": "美国ESIGN法案对电子签名法律效力的规定是什么？",
+   "C_mixed_zhen": "US ESIGN Act electronic signature 法律效力",
+   "D_pure_en": "What does the US ESIGN Act say about the legal validity of electronic signatures?"
+  },
+  {
+   "query_id": "Q010",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "监控与通讯截取",
+   "topic_id": "surveillance_and_interception",
+   "topic_ids": [
+    "surveillance_and_interception"
+   ],
+   "core_concept": "通讯截取法律规定",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "通讯截取 监控 美国法律",
+   "B_nl_zh": "美国法律对政府通讯截取和监控有哪些限制性规定？",
+   "C_mixed_zhen": "US surveillance communications interception 法律限制",
+   "D_pure_en": "What legal restrictions exist on government communications interception in the US?"
+  },
+  {
+   "query_id": "Q011",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "人工智能",
+   "topic_id": "artificial_intelligence",
+   "topic_ids": [
+    "artificial_intelligence"
+   ],
+   "core_concept": "AI战略与治理",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "日本 AI 战略 规制",
+   "B_nl_zh": "日本政府在人工智能治理方面的战略和法规框架是什么？",
+   "C_mixed_zhen": "Japan AI strategy governance 框架 法律",
+   "D_pure_en": "What is Japan's strategic framework for AI governance and regulation?"
+  },
+  {
+   "query_id": "Q012",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "隐私与个人资料保护",
+   "topic_id": "privacy_and_data_protection",
+   "topic_ids": [
+    "privacy_and_data_protection"
+   ],
+   "core_concept": "个人信息保护",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "个人信息保护法 日本 改正",
+   "B_nl_zh": "日本《个人信息保护法》的最新修订内容和核心要求是什么？",
+   "C_mixed_zhen": "Japan APPI amendments 个人信息保护 requirements",
+   "D_pure_en": "What are the key requirements of Japan's Act on Protection of Personal Information (APPI)?"
+  },
+  {
+   "query_id": "Q013",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信事业法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "电信事业法 日本 规制",
+   "B_nl_zh": "日本《电信事业法》对电信运营商的主要监管要求有哪些？",
+   "C_mixed_zhen": "Japan Telecommunications Business Law 监管要求",
+   "D_pure_en": "What are the regulatory requirements under Japan's Telecommunications Business Law?"
+  },
+  {
+   "query_id": "Q014",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融监管框架",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "日本 金融监管 金融商品取引法",
+   "B_nl_zh": "日本《金融商品交易法》下的金融监管框架是怎样的？",
+   "C_mixed_zhen": "Japan financial regulation FIEA 金融商品取引法",
+   "D_pure_en": "What is the financial regulatory framework under Japan's Financial Instruments and Exchange Act?"
+  },
+  {
+   "query_id": "Q015",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "知识产权",
+   "topic_id": "intellectual_property",
+   "topic_ids": [
+    "intellectual_property"
+   ],
+   "core_concept": "著作权与数字内容",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "日本 著作权法 数字内容 保护",
+   "B_nl_zh": "日本著作权法对数字内容的保护范围和限制有哪些？",
+   "C_mixed_zhen": "Japan copyright law digital content 保护",
+   "D_pure_en": "How does Japan's copyright law protect digital content?"
+  },
+  {
+   "query_id": "Q016",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "政府采购",
+   "topic_id": "government_contracting",
+   "topic_ids": [
+    "government_contracting",
+    "government_procurement"
+   ],
+   "core_concept": "政府采购制度",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "日本 政府采购 招标制度",
+   "B_nl_zh": "日本的政府采购制度和招标程序有何特点？",
+   "C_mixed_zhen": "Japan government procurement bidding 制度 WTO GPA",
+   "D_pure_en": "What are the characteristics of Japan's government procurement system?"
+  },
+  {
+   "query_id": "Q017",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "数据泄露与通报",
+   "topic_id": "data_breach_and_notification",
+   "topic_ids": [
+    "data_breach_and_notification"
+   ],
+   "core_concept": "数据泄露通知",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "日本 数据泄露 通知义务",
+   "B_nl_zh": "日本法律对个人信息泄露后的通知义务有何规定？",
+   "C_mixed_zhen": "Japan data breach notification 义务 APPI",
+   "D_pure_en": "What are the data breach notification requirements under Japanese law?"
+  },
+  {
+   "query_id": "Q018",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "薪酬福利",
+   "topic_id": "compensation_benefits",
+   "topic_ids": [
+    "compensation_benefits"
+   ],
+   "core_concept": "劳动基准法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "日本 劳动基准法 工资 工时",
+   "B_nl_zh": "日本《劳动基准法》对工资和工时的基本规定是什么？",
+   "C_mixed_zhen": "Japan Labor Standards Law 工资 工时 规定",
+   "D_pure_en": "What are the basic provisions on wages and working hours under Japan's Labor Standards Law?"
+  },
+  {
+   "query_id": "Q019",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "电子交易与电子政务",
+   "topic_id": "electronic_transactions_and_e_government",
+   "topic_ids": [
+    "electronic_transactions_and_e_government"
+   ],
+   "core_concept": "电子签名与认证",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "日本 电子签名 认证 法律效力",
+   "B_nl_zh": "日本《电子签名及认证业务法》对电子签名的法律效力如何规定？",
+   "C_mixed_zhen": "Japan electronic signature certification law 法律效力",
+   "D_pure_en": "What is the legal validity of electronic signatures under Japan's Electronic Signature Act?"
+  },
+  {
+   "query_id": "Q020",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "公司治理",
+   "topic_id": "corporate_governance",
+   "topic_ids": [
+    "corporate_governance"
+   ],
+   "core_concept": "公司治理与披露",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "日本 公司治理 披露义务  companies act",
+   "B_nl_zh": "日本公司法对公司治理结构和信息披露义务的要求是什么？",
+   "C_mixed_zhen": "Japan corporate governance disclosure Companies Act 要求",
+   "D_pure_en": "What are the corporate governance and disclosure requirements under Japan's Companies Act?"
+  },
+  {
+   "query_id": "Q021",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "个人资料（私隐）条例",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "香港 个人资料私隐条例 PDPO",
+   "B_nl_zh": "香港《个人资料（私隐）条例》对数据控制者的核心要求是什么？",
+   "C_mixed_zhen": "Hong Kong PDPO personal data privacy 核心要求",
+   "D_pure_en": "What are the core requirements of Hong Kong's Personal Data (Privacy) Ordinance?"
+  },
+  {
+   "query_id": "Q022",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "电脑犯罪与刑事司法",
+   "topic_id": "cybercrime_and_criminal_justice",
+   "topic_ids": [
+    "cybercrime_and_criminal_justice"
+   ],
+   "core_concept": "电脑犯罪条例",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "香港 电脑犯罪 刑事 条例",
+   "B_nl_zh": "香港《电脑犯罪条例》对未经授权访问电脑系统的处罚规定？",
+   "C_mixed_zhen": "Hong Kong computer crimes ordinance unauthorized access 处罚",
+   "D_pure_en": "What are the penalties under Hong Kong's computer crimes legislation for unauthorized system access?"
+  },
+  {
+   "query_id": "Q023",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电讯条例",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "香港 电讯条例 牌照 规管",
+   "B_nl_zh": "香港《电讯条例》对电信服务提供商的牌照和规管要求是什么？",
+   "C_mixed_zhen": "Hong Kong Telecommunications Ordinance licensing 规管",
+   "D_pure_en": "What are the licensing and regulatory requirements under Hong Kong's Telecommunications Ordinance?"
+  },
+  {
+   "query_id": "Q024",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "知识产权",
+   "topic_id": "intellectual_property",
+   "topic_ids": [
+    "intellectual_property"
+   ],
+   "core_concept": "版权条例",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "香港 版权条例 数字环境",
+   "B_nl_zh": "香港《版权条例》在数字环境下的版权保护有哪些规定？",
+   "C_mixed_zhen": "Hong Kong Copyright Ordinance digital copyright 保护",
+   "D_pure_en": "What copyright protections does Hong Kong's Copyright Ordinance provide in the digital environment?"
+  },
+  {
+   "query_id": "Q025",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "电子交易",
+   "topic_id": "electronic_transactions",
+   "topic_ids": [
+    "electronic_transactions"
+   ],
+   "core_concept": "电子交易条例",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "香港 电子交易条例 电子签名 效力",
+   "B_nl_zh": "香港《电子交易条例》对电子记录和电子签名的法律效力如何规定？",
+   "C_mixed_zhen": "Hong Kong Electronic Transactions Ordinance e-signature 法律效力",
+   "D_pure_en": "What is the legal effect of electronic records and signatures under Hong Kong's Electronic Transactions Ordinance?"
+  },
+  {
+   "query_id": "Q026",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "银行业监管",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "香港 银行业 监管 金管局",
+   "B_nl_zh": "香港金融管理局对银行业的监管框架和合规要求是什么？",
+   "C_mixed_zhen": "Hong Kong banking regulation HKMA 监管框架",
+   "D_pure_en": "What is the regulatory framework for banking under Hong Kong's Monetary Authority?"
+  },
+  {
+   "query_id": "Q027",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "反洗钱与反恐融资",
+   "topic_id": "anti_money_laundering",
+   "topic_ids": [
+    "anti_money_laundering"
+   ],
+   "core_concept": "反洗钱制度",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "香港 反洗钱 反恐融资 条例",
+   "B_nl_zh": "香港《打击洗钱及恐怖分子资金筹集条例》的主要合规要求？",
+   "C_mixed_zhen": "Hong Kong anti-money laundering counter-terrorist financing AMLO 合规",
+   "D_pure_en": "What are the key compliance requirements under Hong Kong's Anti-Money Laundering Ordinance?"
+  },
+  {
+   "query_id": "Q028",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "数据保护与企业合规",
+   "topic_id": null,
+   "topic_ids": [],
+   "core_concept": "个人资料私隐条例企业合规",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "unmappable_topic",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "香港 个人资料 企业 合规 处理",
+   "B_nl_zh": "香港《个人资料（私隐）条例》对企业处理个人资料的合规要求是什么？",
+   "C_mixed_zhen": "Hong Kong PDPO 企业合规 个人资料处理 requirements",
+   "D_pure_en": "What are the compliance requirements for businesses under Hong Kong's Personal Data (Privacy) Ordinance?"
+  },
+  {
+   "query_id": "Q029",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "消费者保护",
+   "topic_id": "consumer_protection",
+   "topic_ids": [
+    "consumer_protection"
+   ],
+   "core_concept": "商品说明条例",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "香港 商品说明 虚假宣传 消费者",
+   "B_nl_zh": "香港《商品说明条例》对虚假宣传和误导性陈述的禁止规定是什么？",
+   "C_mixed_zhen": "Hong Kong Trade Descriptions Ordinance false advertising 消费者保护",
+   "D_pure_en": "What false advertising prohibitions exist under Hong Kong's Trade Descriptions Ordinance?"
+  },
+  {
+   "query_id": "Q030",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "垃圾信息控制",
+   "topic_id": "spam_control",
+   "topic_ids": [
+    "spam_control"
+   ],
+   "core_concept": "非应邀电子讯息",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "香港 非应邀电子讯息 垃圾邮件 规管",
+   "B_nl_zh": "香港对非应邀电子讯息（垃圾邮件）的规管制度是什么？",
+   "C_mixed_zhen": "Hong Kong unsolicited electronic messages spam 规管条例",
+   "D_pure_en": "What is Hong Kong's regulatory framework for unsolicited electronic messages?"
+  },
+  {
+   "query_id": "Q031",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "个人资料保护法",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "澳门 个人资料保护法 处理 同意",
+   "B_nl_zh": "澳门《个人资料保护法》对个人资料处理的原则和同意要求是什么？",
+   "C_mixed_zhen": "Macau Personal Data Protection Law 个人资料处理 consent",
+   "D_pure_en": "What are the principles and consent requirements under Macau's Personal Data Protection Act?"
+  },
+  {
+   "query_id": "Q032",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "电脑犯罪与刑事司法",
+   "topic_id": "cybercrime_and_criminal_justice",
+   "topic_ids": [
+    "cybercrime_and_criminal_justice"
+   ],
+   "core_concept": "打击电脑犯罪法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "澳门 电脑犯罪 网络犯罪 刑法",
+   "B_nl_zh": "澳门《打击电脑犯罪法》对网络犯罪的主要罪名和处罚规定是什么？",
+   "C_mixed_zhen": "Macau cybercrime computer crime law 罪名 处罚",
+   "D_pure_en": "What are the main offenses and penalties under Macau's Cybercrime Law?"
+  },
+  {
+   "query_id": "Q033",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信纲要法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "澳门 电信纲要法 通讯 规管",
+   "B_nl_zh": "澳门《电信纲要法》对电信服务和通讯监管的基本框架是什么？",
+   "C_mixed_zhen": "Macau Telecommunications Framework Law 电信规管",
+   "D_pure_en": "What is the basic regulatory framework under Macau's Telecommunications Framework Law?"
+  },
+  {
+   "query_id": "Q034",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "电子交易与电子政务",
+   "topic_id": "electronic_transactions_and_e_government",
+   "topic_ids": [
+    "electronic_transactions_and_e_government"
+   ],
+   "core_concept": "电子文件及电子签名",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "澳门 电子文件 电子签名 法律效力",
+   "B_nl_zh": "澳门《电子文件及电子签名》法律对电子文件法律效力的规定是什么？",
+   "C_mixed_zhen": "Macau electronic document electronic signature 法律效力",
+   "D_pure_en": "What is the legal validity of electronic documents under Macau's Electronic Document and Signature Law?"
+  },
+  {
+   "query_id": "Q035",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融体系法律制度",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "澳门 金融体系 法律制度 银行监管",
+   "B_nl_zh": "澳门《金融体系法律制度》对银行和金融活动的监管要求是什么？",
+   "C_mixed_zhen": "Macau financial system legal regime 金融监管 要求",
+   "D_pure_en": "What are the regulatory requirements under Macau's Financial System Legal Regime?"
+  },
+  {
+   "query_id": "Q036",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "国家安全",
+   "topic_id": "national_security",
+   "topic_ids": [
+    "national_security"
+   ],
+   "core_concept": "维护国家安全法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "澳门 维护国家安全法 网络安全",
+   "B_nl_zh": "澳门《维护国家安全法》对网络安全和国家安全保护的规定是什么？",
+   "C_mixed_zhen": "Macau national security law 网络安全 规定",
+   "D_pure_en": "What are the national security and cybersecurity provisions under Macau's National Security Law?"
+  },
+  {
+   "query_id": "Q037",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "网络安全",
+   "topic_id": "cybersecurity",
+   "topic_ids": [
+    "cybersecurity"
+   ],
+   "core_concept": "网络安全法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "澳门 网络安全法 关键基础设施",
+   "B_nl_zh": "澳门《网络安全法》对关键基础设施运营者的安全要求是什么？",
+   "C_mixed_zhen": "Macau cybersecurity law critical infrastructure 安全要求",
+   "D_pure_en": "What are the security requirements for critical infrastructure operators under Macau's Cybersecurity Law?"
+  },
+  {
+   "query_id": "Q038",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "反洗钱与反恐融资",
+   "topic_id": "anti_money_laundering",
+   "topic_ids": [
+    "anti_money_laundering"
+   ],
+   "core_concept": "清洗黑钱犯罪",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "澳门 清洗黑钱 反洗钱 预防",
+   "B_nl_zh": "澳门《预防及遏止清洗黑钱犯罪》法律对金融机构的合规要求？",
+   "C_mixed_zhen": "Macau anti-money laundering prevention 清洗黑钱 合规",
+   "D_pure_en": "What are the AML compliance requirements for financial institutions under Macau's anti-money laundering law?"
+  },
+  {
+   "query_id": "Q039",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "贸易竞争与市场监管",
+   "topic_id": null,
+   "topic_ids": [],
+   "core_concept": "贸易竞争法",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "unmappable_topic",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "泰国 贸易竞争 反垄断 规制",
+   "B_nl_zh": "泰国《贸易竞争法》对垄断行为和不正当竞争的主要规制是什么？",
+   "C_mixed_zhen": "Thailand Trade Competition Act 反垄断 规制 provisions",
+   "D_pure_en": "What are the main provisions of Thailand's Trade Competition Act on monopolistic practices?"
+  },
+  {
+   "query_id": "Q040",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "宪法与基本权利",
+   "topic_id": null,
+   "topic_ids": [],
+   "core_concept": "通讯自由与表达权",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "unmappable_topic",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "泰国 宪法 通讯自由 表达权 保护",
+   "B_nl_zh": "泰国宪法对通讯自由和言论表达权的保护范围是什么？",
+   "C_mixed_zhen": "Thailand Constitution 通讯自由 freedom of expression protections",
+   "D_pure_en": "What protections does Thailand's Constitution provide for freedom of communication and expression?"
+  },
+  {
+   "query_id": "Q041",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "金融监管",
+   "topic_id": "financial_regulation",
+   "topic_ids": [
+    "financial_regulation"
+   ],
+   "core_concept": "金融机构监管",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "泰国 金融机构 监管 业务 规定",
+   "B_nl_zh": "泰国对金融机构的业务经营和监管要求有哪些法律规定？",
+   "C_mixed_zhen": "Thailand financial institution regulation 业务 监管 requirements",
+   "D_pure_en": "What are the legal requirements for financial institution regulation in Thailand?"
+  },
+  {
+   "query_id": "Q042",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "知识产权",
+   "topic_id": "intellectual_property",
+   "topic_ids": [
+    "intellectual_property"
+   ],
+   "core_concept": "版权法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "泰国 版权法 知识产权 保护",
+   "B_nl_zh": "泰国版权法对数字内容的版权保护有哪些规定？",
+   "C_mixed_zhen": "Thailand Copyright Act intellectual property 数字保护",
+   "D_pure_en": "What copyright protections does Thailand's Copyright Act provide for digital content?"
+  },
+  {
+   "query_id": "Q043",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信业务法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "泰国 电信业务 运营 牌照",
+   "B_nl_zh": "泰国《电信业务法》对电信业务运营的牌照要求和规管是什么？",
+   "C_mixed_zhen": "Thailand telecommunications business licensing 规管",
+   "D_pure_en": "What are the licensing requirements under Thailand's Telecommunications Business Act?"
+  },
+  {
+   "query_id": "Q044",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "消费者保护",
+   "topic_id": "consumer_protection",
+   "topic_ids": [
+    "consumer_protection"
+   ],
+   "core_concept": "电商消费者保护",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "泰国 消费者保护 电商 责任",
+   "B_nl_zh": "泰国消费者保护法在电商领域对消费者权益的保护和商家责任有何规定？",
+   "C_mixed_zhen": "Thailand consumer protection e-commerce 消费者权益",
+   "D_pure_en": "What consumer protection provisions apply to e-commerce under Thai law?"
+  },
+  {
+   "query_id": "Q045",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "国家安全",
+   "topic_id": "national_security",
+   "topic_ids": [
+    "national_security"
+   ],
+   "core_concept": "官方信息法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "泰国 官方信息法 信息公开 例外",
+   "B_nl_zh": "泰国《官方信息法》对政府信息公开的范围和例外规定是什么？",
+   "C_mixed_zhen": "Thailand Official Information Act disclosure 信息公开 exception",
+   "D_pure_en": "What are the disclosure requirements and exceptions under Thailand's Official Information Act?"
+  },
+  {
+   "query_id": "Q046",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "反洗钱与反恐融资",
+   "topic_id": "anti_money_laundering",
+   "topic_ids": [
+    "anti_money_laundering"
+   ],
+   "core_concept": "反洗钱法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "泰国 反洗钱法 AMLO 合规",
+   "B_nl_zh": "泰国《反洗钱法》对金融机构的报告义务和合规要求是什么？",
+   "C_mixed_zhen": "Thailand Anti-Money Laundering Act AMLO 报告义务 compliance",
+   "D_pure_en": "What are the reporting obligations under Thailand's Anti-Money Laundering Act?"
+  },
+  {
+   "query_id": "Q047",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "新加坡",
+   "jurisdictions": [
+    "新加坡"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "个人数据保护法",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "新加坡 个人数据保护法 PDPA 义务",
+   "B_nl_zh": "新加坡《个人数据保护法》（PDPA）对组织的核心数据保护义务是什么？",
+   "C_mixed_zhen": "Singapore PDPA personal data protection 组织义务",
+   "D_pure_en": "What are the key data protection obligations under Singapore's Personal Data Protection Act (PDPA)?"
+  },
+  {
+   "query_id": "Q048",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "新加坡",
+   "jurisdictions": [
+    "新加坡"
+   ],
+   "topic": "网络安全",
+   "topic_id": "cybersecurity",
+   "topic_ids": [
+    "cybersecurity"
+   ],
+   "core_concept": "网络安全法",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "新加坡 网络安全法 CSA 关键信息基础设施",
+   "B_nl_zh": "新加坡《网络安全法》对关键信息基础设施运营者的安全要求是什么？",
+   "C_mixed_zhen": "Singapore Cybersecurity Act CSA critical information infrastructure 安全",
+   "D_pure_en": "What are the security requirements for CII operators under Singapore's Cybersecurity Act?"
+  },
+  {
+   "query_id": "Q049",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "新加坡",
+   "jurisdictions": [
+    "新加坡"
+   ],
+   "topic": "电子交易",
+   "topic_id": "electronic_transactions",
+   "topic_ids": [
+    "electronic_transactions"
+   ],
+   "core_concept": "电子交易法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "新加坡 电子交易法 电子签名 效力",
+   "B_nl_zh": "新加坡《电子交易法》对电子合同和电子签名的法律效力如何规定？",
+   "C_mixed_zhen": "Singapore Electronic Transactions Act e-contract e-signature 法律效力",
+   "D_pure_en": "What is the legal effect of electronic contracts and signatures under Singapore's Electronic Transactions Act?"
+  },
+  {
+   "query_id": "Q050",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "新加坡",
+   "jurisdictions": [
+    "新加坡"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融监管框架",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "新加坡 金融监管 MAS 银行 证券",
+   "B_nl_zh": "新加坡金融管理局（MAS）对银行和证券业的监管框架是什么？",
+   "C_mixed_zhen": "Singapore financial regulation MAS banking securities 监管框架",
+   "D_pure_en": "What is MAS's regulatory framework for banking and securities in Singapore?"
+  },
+  {
+   "query_id": "Q051",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "新加坡",
+   "jurisdictions": [
+    "新加坡"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信监管",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "新加坡 电信监管 牌照 IMDA",
+   "B_nl_zh": "新加坡资讯通信媒体发展局（IMDA）对电信服务的监管要求？",
+   "C_mixed_zhen": "Singapore telecom regulation IMDA licensing 电信牌照",
+   "D_pure_en": "What are IMDA's regulatory requirements for telecommunications services in Singapore?"
+  },
+  {
+   "query_id": "Q052",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "新加坡",
+   "jurisdictions": [
+    "新加坡"
+   ],
+   "topic": "知识产权",
+   "topic_id": "intellectual_property",
+   "topic_ids": [
+    "intellectual_property"
+   ],
+   "core_concept": "版权法改革",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "新加坡 版权法 改革 2021 数字",
+   "B_nl_zh": "新加坡2021年《版权法》改革在数字环境下的主要变化是什么？",
+   "C_mixed_zhen": "Singapore Copyright Act reform 2021 数字版权",
+   "D_pure_en": "What are the key changes in Singapore's 2021 Copyright Act reform for the digital environment?"
+  },
+  {
+   "query_id": "Q053",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "新加坡",
+   "jurisdictions": [
+    "新加坡"
+   ],
+   "topic": "垃圾信息控制",
+   "topic_id": "spam_control",
+   "topic_ids": [
+    "spam_control"
+   ],
+   "core_concept": "垃圾邮件控制法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "新加坡 垃圾邮件控制法 非应邀商业信息",
+   "B_nl_zh": "新加坡《垃圾邮件控制法》对非应邀商业电子信息的限制是什么？",
+   "C_mixed_zhen": "Singapore Spam Control Act unsolicited commercial messages 限制",
+   "D_pure_en": "What restrictions does Singapore's Spam Control Act impose on unsolicited commercial communications?"
+  },
+  {
+   "query_id": "Q054",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "新加坡",
+   "jurisdictions": [
+    "新加坡"
+   ],
+   "topic": "反洗钱与反恐融资",
+   "topic_id": "anti_money_laundering",
+   "topic_ids": [
+    "anti_money_laundering"
+   ],
+   "core_concept": "反洗钱监管",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "新加坡 反洗钱 MAS 监管指引",
+   "B_nl_zh": "新加坡金融管理局对金融机构的反洗钱和反恐融资监管指引是什么？",
+   "C_mixed_zhen": "Singapore AML MAS regulatory guidelines 金融机构",
+   "D_pure_en": "What are MAS's AML/CFT regulatory guidelines for financial institutions in Singapore?"
+  },
+  {
+   "query_id": "Q055",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "越南 电信法 运营 服务 规管",
+   "B_nl_zh": "越南《电信法》对电信服务的运营许可和监管规定是什么？",
+   "C_mixed_zhen": "Vietnam Telecommunications Law 电信服务 licensing 规管",
+   "D_pure_en": "What are the licensing and regulatory provisions under Vietnam's Telecommunications Law?"
+  },
+  {
+   "query_id": "Q056",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "人工智能",
+   "topic_id": "artificial_intelligence",
+   "topic_ids": [
+    "artificial_intelligence"
+   ],
+   "core_concept": "AI法规",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "越南 人工智能 法规 政策",
+   "B_nl_zh": "越南在人工智能领域的法律法规和政策框架是什么？",
+   "C_mixed_zhen": "Vietnam AI regulation policy framework 法律法规",
+   "D_pure_en": "What is Vietnam's regulatory and policy framework for artificial intelligence?"
+  },
+  {
+   "query_id": "Q057",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "电子交易",
+   "topic_id": "electronic_transactions",
+   "topic_ids": [
+    "electronic_transactions"
+   ],
+   "core_concept": "电子交易法",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "越南 电子交易法 数字签名 认证",
+   "B_nl_zh": "越南《电子交易法》对数字签名和认证服务机构的规定是什么？",
+   "C_mixed_zhen": "Vietnam Electronic Transactions Law digital signature certification 规定",
+   "D_pure_en": "What are the provisions on digital signatures and certification under Vietnam's Electronic Transactions Law?"
+  },
+  {
+   "query_id": "Q058",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "电信与信息技术",
+   "topic_id": null,
+   "topic_ids": [],
+   "core_concept": "邮政电信信息技术组织",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "unmappable_topic",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "越南 邮政电信 信息技术 组织 安全",
+   "B_nl_zh": "越南对邮政、电信和信息技术系统的组织管理和安全要求是什么？",
+   "C_mixed_zhen": "Vietnam postal telecom IT organization 安全 management",
+   "D_pure_en": "What are the organizational and security requirements for postal, telecom and IT systems in Vietnam?"
+  },
+  {
+   "query_id": "Q059",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "政府采购",
+   "topic_id": "government_contracting",
+   "topic_ids": [
+    "government_contracting",
+    "government_procurement"
+   ],
+   "core_concept": "招标法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "越南 招标法 政府采购 流程",
+   "B_nl_zh": "越南《招标法》对政府采购流程和投标人资质的规定是什么？",
+   "C_mixed_zhen": "Vietnam Bidding Law government procurement 招标流程",
+   "D_pure_en": "What are the procurement procedures under Vietnam's Bidding Law?"
+  },
+  {
+   "query_id": "Q060",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "消费者保护",
+   "topic_id": "consumer_protection",
+   "topic_ids": [
+    "consumer_protection"
+   ],
+   "core_concept": "消费者权益保护",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "越南 消费者权益 保护法 电商",
+   "B_nl_zh": "越南《消费者权益保护法》在电商领域对消费者的保护规定是什么？",
+   "C_mixed_zhen": "Vietnam consumer protection law e-commerce 消费者权益",
+   "D_pure_en": "What consumer protections does Vietnam's consumer protection law provide for e-commerce?"
+  },
+  {
+   "query_id": "Q061",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "税法",
+   "topic_id": "tax_law",
+   "topic_ids": [
+    "tax_law"
+   ],
+   "core_concept": "数字税",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "越南 数字税 电商 税收 管理",
+   "B_nl_zh": "越南对数字经济和电商领域的税收管理有何特殊规定？",
+   "C_mixed_zhen": "Vietnam digital tax e-commerce 税收管理 规定",
+   "D_pure_en": "What special tax rules apply to digital economy and e-commerce in Vietnam?"
+  },
+  {
+   "query_id": "Q062",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "公司治理",
+   "topic_id": "corporate_governance",
+   "topic_ids": [
+    "corporate_governance"
+   ],
+   "core_concept": "企业法与外资",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "越南 企业法 外资 公司治理",
+   "B_nl_zh": "越南《企业法》对外资企业的公司治理结构有何特殊要求？",
+   "C_mixed_zhen": "Vietnam Enterprise Law foreign investment corporate governance 要求",
+   "D_pure_en": "What corporate governance requirements does Vietnam's Enterprise Law impose on foreign-invested enterprises?"
+  },
+  {
+   "query_id": "Q063",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "个人数据保护法",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "马来西亚 个人数据保护法 2010 原则",
+   "B_nl_zh": "马来西亚《2010年个人数据保护法》的七项数据保护原则是什么？",
+   "C_mixed_zhen": "Malaysia Personal Data Protection Act 2010 七项原则",
+   "D_pure_en": "What are the seven data protection principles under Malaysia's Personal Data Protection Act 2010?"
+  },
+  {
+   "query_id": "Q064",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "网络安全",
+   "topic_id": "cybersecurity",
+   "topic_ids": [
+    "cybersecurity"
+   ],
+   "core_concept": "网络安全法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "马来西亚 网络安全法 2024 国家网络安全",
+   "B_nl_zh": "马来西亚《2024年网络安全法》对国家网络安全框架的规定是什么？",
+   "C_mixed_zhen": "Malaysia Cybersecurity Act 2024 national cybersecurity 框架",
+   "D_pure_en": "What is the national cybersecurity framework under Malaysia's Cybersecurity Act 2024?"
+  },
+  {
+   "query_id": "Q065",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "数据处理安全",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "马来西亚 个人数据 安全 处理 原则",
+   "B_nl_zh": "马来西亚《个人数据保护法》对数据处理安全的原则和要求是什么？",
+   "C_mixed_zhen": "Malaysia PDPA data processing security 原则 requirements",
+   "D_pure_en": "What are the data processing security principles under Malaysia's Personal Data Protection Act?"
+  },
+  {
+   "query_id": "Q066",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "通讯与多媒体法",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "马来西亚 通讯与多媒体法 1998 牌照",
+   "B_nl_zh": "马来西亚《1998年通讯与多媒体法》对通讯服务的牌照和内容规管？",
+   "C_mixed_zhen": "Malaysia Communications and Multimedia Act 1998 licensing content 规管",
+   "D_pure_en": "What are the licensing and content regulation provisions under Malaysia's Communications and Multimedia Act 1998?"
+  },
+  {
+   "query_id": "Q067",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "电信与数字通信",
+   "topic_id": null,
+   "topic_ids": [],
+   "core_concept": "通讯服务监管",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "unmappable_topic",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "马来西亚 通讯法 数字通信 服务 牌照",
+   "B_nl_zh": "马来西亚《通讯法》对数字通信服务的监管要求是什么？",
+   "C_mixed_zhen": "Malaysia communications law digital communication 监管 requirements",
+   "D_pure_en": "What are the regulatory requirements for digital communication services under Malaysia's Communications Act?"
+  },
+  {
+   "query_id": "Q068",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "网络安全",
+   "topic_id": "cybersecurity",
+   "topic_ids": [
+    "cybersecurity"
+   ],
+   "core_concept": "网络内容安全",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "马来西亚 网络安全 数字内容 保护",
+   "B_nl_zh": "马来西亚《2024年网络安全法》对数字内容安全的保护规定是什么？",
+   "C_mixed_zhen": "Malaysia Cybersecurity Act 2024 digital content 保护 provisions",
+   "D_pure_en": "What are the digital content security provisions under Malaysia's Cybersecurity Act 2024?"
+  },
+  {
+   "query_id": "Q069",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "数据主体权利",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "马来西亚 个人数据 主体 权利 访问",
+   "B_nl_zh": "马来西亚《个人数据保护法》赋予数据主体的权利（访问、更正、反对等）是什么？",
+   "C_mixed_zhen": "Malaysia PDPA data subject rights access correction 反对",
+   "D_pure_en": "What data subject rights (access, correction, objection) are provided under Malaysia's Personal Data Protection Act?"
+  },
+  {
+   "query_id": "Q070",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "隐私与个人资料保护",
+   "topic_id": "privacy_and_data_protection",
+   "topic_ids": [
+    "privacy_and_data_protection"
+   ],
+   "core_concept": "隐私权保护",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "马来西亚 隐私权 个人资料 跨境传输",
+   "B_nl_zh": "马来西亚法律对个人资料跨境传输的限制和保护规定是什么？",
+   "C_mixed_zhen": "Malaysia cross-border data transfer PDPA 限制",
+   "D_pure_en": "What are the restrictions on cross-border data transfers under Malaysian data protection law?"
+  },
+  {
+   "query_id": "Q071",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "跨法域"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "跨境数据流动",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "亚太 跨境数据流动 法规 比较",
+   "B_nl_zh": "亚太地区主要法域对跨境数据流动的法规要求有何异同？",
+   "C_mixed_zhen": "Asia-Pacific cross-border data transfer regulations 比较 异同",
+   "D_pure_en": "What are the similarities and differences in cross-border data transfer regulations across Asia-Pacific jurisdictions?"
+  },
+  {
+   "query_id": "Q072",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "跨法域"
+   ],
+   "topic": "人工智能",
+   "topic_id": "artificial_intelligence",
+   "topic_ids": [
+    "artificial_intelligence"
+   ],
+   "core_concept": "AI监管比较",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "东南亚 AI 监管 治理 比较",
+   "B_nl_zh": "东南亚各国在人工智能监管和治理方面的方法有何异同？",
+   "C_mixed_zhen": "Southeast Asia AI regulation governance 比较 approaches",
+   "D_pure_en": "How do AI regulatory approaches differ across Southeast Asian countries?"
+  },
+  {
+   "query_id": "Q073",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "跨法域"
+   ],
+   "topic": "数据泄露与通报",
+   "topic_id": "data_breach_and_notification",
+   "topic_ids": [
+    "data_breach_and_notification"
+   ],
+   "core_concept": "数据泄露通知比较",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "数据泄露 通知 亚太 各国 比较",
+   "B_nl_zh": "亚太各国数据泄露通知义务在通知时限和触发条件上有何异同？",
+   "C_mixed_zhen": "data breach notification Asia-Pacific 各国 比较 通知时限",
+   "D_pure_en": "How do data breach notification requirements differ across Asia-Pacific jurisdictions?"
+  },
+  {
+   "query_id": "Q074",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "跨法域"
+   ],
+   "topic": "电子交易与电子政务",
+   "topic_id": "electronic_transactions_and_e_government",
+   "topic_ids": [
+    "electronic_transactions_and_e_government"
+   ],
+   "core_concept": "电子签名法律效力比较",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "电子签名 法律效力 各国 比较",
+   "B_nl_zh": "不同法域对电子签名法律效力的认定方式和类型划分有何异同？",
+   "C_mixed_zhen": "e-signature legal validity 各国 比较 类型划分",
+   "D_pure_en": "How do different jurisdictions classify and recognize the legal validity of electronic signatures?"
+  },
+  {
+   "query_id": "Q075",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "跨法域"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信监管比较",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "亚洲 电信监管 牌照 比较",
+   "B_nl_zh": "亚洲主要国家在电信服务牌照和监管框架上有何异同？",
+   "C_mixed_zhen": "Asia telecom regulation licensing 比较 监管框架",
+   "D_pure_en": "How do telecommunications regulatory frameworks compare across major Asian countries?"
+  },
+  {
+   "query_id": "Q076",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "跨法域"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融科技监管",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "金融科技 监管 亚太 比较",
+   "B_nl_zh": "亚太地区在金融科技（FinTech）监管上的不同模式和做法是什么？",
+   "C_mixed_zhen": "FinTech regulation Asia-Pacific 监管模式 比较",
+   "D_pure_en": "What are the different FinTech regulatory approaches across Asia-Pacific jurisdictions?"
+  },
+  {
+   "query_id": "Q077",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "跨法域"
+   ],
+   "topic": "网络安全",
+   "topic_id": "cybersecurity",
+   "topic_ids": [
+    "cybersecurity"
+   ],
+   "core_concept": "网络安全立法比较",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "网络安全 法律 东南亚 东亚 比较",
+   "B_nl_zh": "东南亚和东亚国家网络安全立法的关键要素有何差异？",
+   "C_mixed_zhen": "cybersecurity law Southeast Asia East Asia 比较 key elements",
+   "D_pure_en": "What are the key differences in cybersecurity legislation across East and Southeast Asian countries?"
+  },
+  {
+   "query_id": "Q078",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "跨法域"
+   ],
+   "topic": "反洗钱与反恐融资",
+   "topic_id": "anti_money_laundering",
+   "topic_ids": [
+    "anti_money_laundering"
+   ],
+   "core_concept": "FATF合规比较",
+   "is_core": true,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "反洗钱 FATF 合规 亚太 比较",
+   "B_nl_zh": "亚太各国在FATF反洗钱合规标准执行上表现如何？",
+   "C_mixed_zhen": "AML FATF compliance Asia-Pacific 各国 比较 执行",
+   "D_pure_en": "How do Asia-Pacific countries compare in their FATF AML compliance implementation?"
+  },
+  {
+   "query_id": "Q079",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "跨法域"
+   ],
+   "topic": "消费者保护",
+   "topic_id": "consumer_protection",
+   "topic_ids": [
+    "consumer_protection"
+   ],
+   "core_concept": "电商消费者保护比较",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "derived",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": false,
+   "A_keyword_zh": "电商 消费者权益 保护 东南亚",
+   "B_nl_zh": "东南亚国家在电子商务消费者权益保护方面的法律有何异同？",
+   "C_mixed_zhen": "e-commerce consumer protection Southeast Asia 比较 laws",
+   "D_pure_en": "How do e-commerce consumer protection laws compare across Southeast Asian countries?"
+  },
+  {
+   "query_id": "Q080",
+   "subset": "legacy",
+   "family": "legacy",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "跨法域"
+   ],
+   "topic": "隐私与个人资料保护",
+   "topic_id": "privacy_and_data_protection",
+   "topic_ids": [
+    "privacy_and_data_protection"
+   ],
+   "core_concept": "隐私保护框架比较",
+   "is_core": false,
+   "gold_law_source": "external_k_list",
+   "gold_clause_status": "empty_no_topic_match",
+   "clause_gold_diagnostic_only": true,
+   "clause_gold_empty": true,
+   "A_keyword_zh": "个人资料保护 框架 亚洲 比较",
+   "B_nl_zh": "亚洲各司法管辖区个人资料保护法律框架的核心异同是什么？",
+   "C_mixed_zhen": "personal data protection framework Asia 比较 核心异同",
+   "D_pure_en": "What are the core similarities and differences in personal data protection frameworks across Asian jurisdictions?"
+  },
+  {
+   "query_id": "TCN_F1_01",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "topic": "人工智能",
+   "topic_id": "artificial_intelligence",
+   "topic_ids": [
+    "artificial_intelligence"
+   ],
+   "core_concept": "人工智能",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国大陆 人工智能 法律规定",
+   "B_nl_zh": "中国大陆法律体系中关于「人工智能」的核心规定有哪些？",
+   "C_mixed_zhen": "中国大陆 Artificial Intelligence 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Artificial Intelligence in mainland China?"
+  },
+  {
+   "query_id": "TCN_F1_02",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "topic": "国家安全",
+   "topic_id": "national_security",
+   "topic_ids": [
+    "national_security"
+   ],
+   "core_concept": "国家安全",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国大陆 国家安全 法律规定",
+   "B_nl_zh": "中国大陆法律体系中关于「国家安全」的核心规定有哪些？",
+   "C_mixed_zhen": "中国大陆 National Security 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on National Security in mainland China?"
+  },
+  {
+   "query_id": "TCN_F1_03",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "topic": "公共治理",
+   "topic_id": "public_governance",
+   "topic_ids": [
+    "public_governance"
+   ],
+   "core_concept": "公共治理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国大陆 公共治理 法律规定",
+   "B_nl_zh": "中国大陆法律体系中关于「公共治理」的核心规定有哪些？",
+   "C_mixed_zhen": "中国大陆 Public Governance 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Public Governance in mainland China?"
+  },
+  {
+   "query_id": "TCN_F1_04",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "topic": "公司治理",
+   "topic_id": "corporate_governance",
+   "topic_ids": [
+    "corporate_governance"
+   ],
+   "core_concept": "公司治理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国大陆 公司治理 法律规定",
+   "B_nl_zh": "中国大陆法律体系中关于「公司治理」的核心规定有哪些？",
+   "C_mixed_zhen": "中国大陆 Corporate Governance 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Corporate Governance in mainland China?"
+  },
+  {
+   "query_id": "TMO_F1_01",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "行政管理",
+   "topic_id": "public_administration",
+   "topic_ids": [
+    "public_administration"
+   ],
+   "core_concept": "行政管理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国澳门 行政管理 法律规定",
+   "B_nl_zh": "中国澳门法律体系中关于「行政管理」的核心规定有哪些？",
+   "C_mixed_zhen": "中国澳门 Public Administration 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Public Administration in Macao?"
+  },
+  {
+   "query_id": "TMO_F1_02",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "数据保护",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国澳门 数据保护 法律规定",
+   "B_nl_zh": "中国澳门法律体系中关于「数据保护」的核心规定有哪些？",
+   "C_mixed_zhen": "中国澳门 Data Protection 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Data Protection in Macao?"
+  },
+  {
+   "query_id": "TMO_F1_03",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "刑法",
+   "topic_id": "criminal_law",
+   "topic_ids": [
+    "criminal_law"
+   ],
+   "core_concept": "刑法",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国澳门 刑法 法律规定",
+   "B_nl_zh": "中国澳门法律体系中关于「刑法」的核心规定有哪些？",
+   "C_mixed_zhen": "中国澳门 Criminal Law 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Criminal Law in Macao?"
+  },
+  {
+   "query_id": "TMO_F1_04",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融服务与监管",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国澳门 金融服务与监管 法律规定",
+   "B_nl_zh": "中国澳门法律体系中关于「金融服务与监管」的核心规定有哪些？",
+   "C_mixed_zhen": "中国澳门 Financial Services and Regulation 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Financial Services and Regulation in Macao?"
+  },
+  {
+   "query_id": "TAU_F1_01",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "澳大利亚",
+   "jurisdictions": [
+    "澳大利亚"
+   ],
+   "topic": "税法",
+   "topic_id": "tax_law",
+   "topic_ids": [
+    "tax_law"
+   ],
+   "core_concept": "税法",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "澳大利亚 税法 法律规定",
+   "B_nl_zh": "澳大利亚法律体系中关于「税法」的核心规定有哪些？",
+   "C_mixed_zhen": "澳大利亚 Tax Law 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Tax Law in Australia?"
+  },
+  {
+   "query_id": "TAU_F1_02",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "澳大利亚",
+   "jurisdictions": [
+    "澳大利亚"
+   ],
+   "topic": "政府采购",
+   "topic_id": "government_contracting",
+   "topic_ids": [
+    "government_contracting",
+    "government_procurement"
+   ],
+   "core_concept": "政府采购",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "澳大利亚 政府采购 法律规定",
+   "B_nl_zh": "澳大利亚法律体系中关于「政府采购」的核心规定有哪些？",
+   "C_mixed_zhen": "澳大利亚 Government Procurement 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Government Procurement in Australia?"
+  },
+  {
+   "query_id": "TAU_F1_03",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "澳大利亚",
+   "jurisdictions": [
+    "澳大利亚"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信与通讯",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "澳大利亚 电信与通讯 法律规定",
+   "B_nl_zh": "澳大利亚法律体系中关于「电信与通讯」的核心规定有哪些？",
+   "C_mixed_zhen": "澳大利亚 Telecommunications 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Telecommunications in Australia?"
+  },
+  {
+   "query_id": "TAU_F1_04",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "澳大利亚",
+   "jurisdictions": [
+    "澳大利亚"
+   ],
+   "topic": "消费者保护",
+   "topic_id": "consumer_protection",
+   "topic_ids": [
+    "consumer_protection"
+   ],
+   "core_concept": "消费者保护",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "澳大利亚 消费者保护 法律规定",
+   "B_nl_zh": "澳大利亚法律体系中关于「消费者保护」的核心规定有哪些？",
+   "C_mixed_zhen": "澳大利亚 Consumer Protection 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Consumer Protection in Australia?"
+  },
+  {
+   "query_id": "TUS_F1_01",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "联邦与州法律关系",
+   "topic_id": "federalism_legal",
+   "topic_ids": [
+    "federalism_legal"
+   ],
+   "core_concept": "联邦与州法律关系",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "美国 联邦与州法律关系 法律规定",
+   "B_nl_zh": "美国法律体系中关于「联邦与州法律关系」的核心规定有哪些？",
+   "C_mixed_zhen": "美国 Federalism & Legal Relations 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Federalism & Legal Relations in the United States?"
+  },
+  {
+   "query_id": "TUS_F1_02",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "网络安全",
+   "topic_id": "cybersecurity",
+   "topic_ids": [
+    "cybersecurity"
+   ],
+   "core_concept": "网络安全",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "美国 网络安全 法律规定",
+   "B_nl_zh": "美国法律体系中关于「网络安全」的核心规定有哪些？",
+   "C_mixed_zhen": "美国 Cybersecurity 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Cybersecurity in the United States?"
+  },
+  {
+   "query_id": "TUS_F1_03",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "薪酬福利",
+   "topic_id": "compensation_benefits",
+   "topic_ids": [
+    "compensation_benefits"
+   ],
+   "core_concept": "薪酬福利",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "美国 薪酬福利 法律规定",
+   "B_nl_zh": "美国法律体系中关于「薪酬福利」的核心规定有哪些？",
+   "C_mixed_zhen": "美国 Compensation & Benefits 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Compensation & Benefits in the United States?"
+  },
+  {
+   "query_id": "TUS_F1_04",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "行政程序",
+   "topic_id": "administrative_procedures",
+   "topic_ids": [
+    "administrative_procedures"
+   ],
+   "core_concept": "行政程序",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "美国 行政程序 法律规定",
+   "B_nl_zh": "美国法律体系中关于「行政程序」的核心规定有哪些？",
+   "C_mixed_zhen": "美国 Administrative Procedures 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Administrative Procedures in the United States?"
+  },
+  {
+   "query_id": "TJP_F1_01",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "数据管理",
+   "topic_id": "data_management",
+   "topic_ids": [
+    "data_management"
+   ],
+   "core_concept": "数据管理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "日本 数据管理 法律规定",
+   "B_nl_zh": "日本法律体系中关于「数据管理」的核心规定有哪些？",
+   "C_mixed_zhen": "日本 Data Management 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Data Management in Japan?"
+  },
+  {
+   "query_id": "TJP_F1_02",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "诉讼与争议",
+   "topic_id": "litigation_procedure",
+   "topic_ids": [
+    "litigation_procedure"
+   ],
+   "core_concept": "诉讼与争议",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "日本 诉讼与争议 法律规定",
+   "B_nl_zh": "日本法律体系中关于「诉讼与争议」的核心规定有哪些？",
+   "C_mixed_zhen": "日本 Litigation & Appeals 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Litigation & Appeals in Japan?"
+  },
+  {
+   "query_id": "TJP_F1_03",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "公司治理",
+   "topic_id": "corporate_governance",
+   "topic_ids": [
+    "corporate_governance"
+   ],
+   "core_concept": "公司治理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "日本 公司治理 法律规定",
+   "B_nl_zh": "日本法律体系中关于「公司治理」的核心规定有哪些？",
+   "C_mixed_zhen": "日本 Corporate Governance 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Corporate Governance in Japan?"
+  },
+  {
+   "query_id": "TJP_F1_04",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "政府采购",
+   "topic_id": "government_contracting",
+   "topic_ids": [
+    "government_contracting",
+    "government_procurement"
+   ],
+   "core_concept": "政府采购",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "日本 政府采购 法律规定",
+   "B_nl_zh": "日本法律体系中关于「政府采购」的核心规定有哪些？",
+   "C_mixed_zhen": "日本 Government Procurement 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Government Procurement in Japan?"
+  },
+  {
+   "query_id": "THK_F1_01",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "电子交易",
+   "topic_id": "electronic_transactions",
+   "topic_ids": [
+    "electronic_transactions"
+   ],
+   "core_concept": "电子交易",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国香港 电子交易 法律规定",
+   "B_nl_zh": "中国香港法律体系中关于「电子交易」的核心规定有哪些？",
+   "C_mixed_zhen": "中国香港 Electronic Transactions 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Electronic Transactions in Hong Kong?"
+  },
+  {
+   "query_id": "THK_F1_02",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "公共治理",
+   "topic_id": "public_governance",
+   "topic_ids": [
+    "public_governance"
+   ],
+   "core_concept": "公共治理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国香港 公共治理 法律规定",
+   "B_nl_zh": "中国香港法律体系中关于「公共治理」的核心规定有哪些？",
+   "C_mixed_zhen": "中国香港 Public Governance 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Public Governance in Hong Kong?"
+  },
+  {
+   "query_id": "THK_F1_03",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "刑法",
+   "topic_id": "criminal_law",
+   "topic_ids": [
+    "criminal_law"
+   ],
+   "core_concept": "刑法",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国香港 刑法 法律规定",
+   "B_nl_zh": "中国香港法律体系中关于「刑法」的核心规定有哪些？",
+   "C_mixed_zhen": "中国香港 Criminal Law 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Criminal Law in Hong Kong?"
+  },
+  {
+   "query_id": "THK_F1_04",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "中国香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信与通讯",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国香港 电信与通讯 法律规定",
+   "B_nl_zh": "中国香港法律体系中关于「电信与通讯」的核心规定有哪些？",
+   "C_mixed_zhen": "中国香港 Telecommunications 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Telecommunications in Hong Kong?"
+  },
+  {
+   "query_id": "TTH_F1_01",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "知识产权",
+   "topic_id": "intellectual_property",
+   "topic_ids": [
+    "intellectual_property"
+   ],
+   "core_concept": "知识产权",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "泰国 知识产权 法律规定",
+   "B_nl_zh": "泰国法律体系中关于「知识产权」的核心规定有哪些？",
+   "C_mixed_zhen": "泰国 Intellectual Property 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Intellectual Property in Thailand?"
+  },
+  {
+   "query_id": "TTH_F1_02",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "薪酬福利",
+   "topic_id": "compensation_benefits",
+   "topic_ids": [
+    "compensation_benefits"
+   ],
+   "core_concept": "薪酬福利",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "泰国 薪酬福利 法律规定",
+   "B_nl_zh": "泰国法律体系中关于「薪酬福利」的核心规定有哪些？",
+   "C_mixed_zhen": "泰国 Compensation & Benefits 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Compensation & Benefits in Thailand?"
+  },
+  {
+   "query_id": "TTH_F1_03",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "消费者保护",
+   "topic_id": "consumer_protection",
+   "topic_ids": [
+    "consumer_protection"
+   ],
+   "core_concept": "消费者保护",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "泰国 消费者保护 法律规定",
+   "B_nl_zh": "泰国法律体系中关于「消费者保护」的核心规定有哪些？",
+   "C_mixed_zhen": "泰国 Consumer Protection 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Consumer Protection in Thailand?"
+  },
+  {
+   "query_id": "TTH_F1_04",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "行政程序",
+   "topic_id": "administrative_procedures",
+   "topic_ids": [
+    "administrative_procedures"
+   ],
+   "core_concept": "行政程序",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "泰国 行政程序 法律规定",
+   "B_nl_zh": "泰国法律体系中关于「行政程序」的核心规定有哪些？",
+   "C_mixed_zhen": "泰国 Administrative Procedures 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Administrative Procedures in Thailand?"
+  },
+  {
+   "query_id": "TKR_F1_01",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "韩国",
+   "jurisdictions": [
+    "韩国"
+   ],
+   "topic": "电子交易",
+   "topic_id": "electronic_transactions",
+   "topic_ids": [
+    "electronic_transactions"
+   ],
+   "core_concept": "电子交易",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "韩国 电子交易 法律规定",
+   "B_nl_zh": "韩国法律体系中关于「电子交易」的核心规定有哪些？",
+   "C_mixed_zhen": "韩国 Electronic Transactions 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Electronic Transactions in South Korea?"
+  },
+  {
+   "query_id": "TKR_F1_02",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "韩国",
+   "jurisdictions": [
+    "韩国"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融服务与监管",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "韩国 金融服务与监管 法律规定",
+   "B_nl_zh": "韩国法律体系中关于「金融服务与监管」的核心规定有哪些？",
+   "C_mixed_zhen": "韩国 Financial Services and Regulation 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Financial Services and Regulation in South Korea?"
+  },
+  {
+   "query_id": "TKR_F1_03",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "韩国",
+   "jurisdictions": [
+    "韩国"
+   ],
+   "topic": "网络安全",
+   "topic_id": "cybersecurity",
+   "topic_ids": [
+    "cybersecurity"
+   ],
+   "core_concept": "网络安全",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "韩国 网络安全 法律规定",
+   "B_nl_zh": "韩国法律体系中关于「网络安全」的核心规定有哪些？",
+   "C_mixed_zhen": "韩国 Cybersecurity 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Cybersecurity in South Korea?"
+  },
+  {
+   "query_id": "TKR_F1_04",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "韩国",
+   "jurisdictions": [
+    "韩国"
+   ],
+   "topic": "政府采购",
+   "topic_id": "government_contracting",
+   "topic_ids": [
+    "government_contracting",
+    "government_procurement"
+   ],
+   "core_concept": "政府采购",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "韩国 政府采购 法律规定",
+   "B_nl_zh": "韩国法律体系中关于「政府采购」的核心规定有哪些？",
+   "C_mixed_zhen": "韩国 Government Procurement 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Government Procurement in South Korea?"
+  },
+  {
+   "query_id": "TSG_F1_01",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "新加坡",
+   "jurisdictions": [
+    "新加坡"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信与通讯",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "新加坡 电信与通讯 法律规定",
+   "B_nl_zh": "新加坡法律体系中关于「电信与通讯」的核心规定有哪些？",
+   "C_mixed_zhen": "新加坡 Telecommunications 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Telecommunications in Singapore?"
+  },
+  {
+   "query_id": "TVN_F1_01",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信与通讯",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "越南 电信与通讯 法律规定",
+   "B_nl_zh": "越南法律体系中关于「电信与通讯」的核心规定有哪些？",
+   "C_mixed_zhen": "越南 Telecommunications 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Telecommunications in Vietnam?"
+  },
+  {
+   "query_id": "TMY_F1_01",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融服务与监管",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "马来西亚 金融服务与监管 法律规定",
+   "B_nl_zh": "马来西亚法律体系中关于「金融服务与监管」的核心规定有哪些？",
+   "C_mixed_zhen": "马来西亚 Financial Services and Regulation 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Financial Services and Regulation in Malaysia?"
+  },
+  {
+   "query_id": "TMY_F1_02",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "刑法",
+   "topic_id": "criminal_law",
+   "topic_ids": [
+    "criminal_law"
+   ],
+   "core_concept": "刑法",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "马来西亚 刑法 法律规定",
+   "B_nl_zh": "马来西亚法律体系中关于「刑法」的核心规定有哪些？",
+   "C_mixed_zhen": "马来西亚 Criminal Law 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Criminal Law in Malaysia?"
+  },
+  {
+   "query_id": "TMY_F1_03",
+   "subset": "template",
+   "family": "F1",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "行政程序",
+   "topic_id": "administrative_procedures",
+   "topic_ids": [
+    "administrative_procedures"
+   ],
+   "core_concept": "行政程序",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "马来西亚 行政程序 法律规定",
+   "B_nl_zh": "马来西亚法律体系中关于「行政程序」的核心规定有哪些？",
+   "C_mixed_zhen": "马来西亚 Administrative Procedures 相关法律规定",
+   "D_pure_en": "What are the key legal provisions on Administrative Procedures in Malaysia?"
+  },
+  {
+   "query_id": "TCN_F2_01",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融服务与监管",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "CN_DOC_10_2020",
+   "A_keyword_zh": "银行保险机构应对突发事件金融服务管理办法 金融服务与监管 规定",
+   "B_nl_zh": "《银行保险机构应对突发事件金融服务管理办法》对「金融服务与监管」有哪些具体规定？",
+   "C_mixed_zhen": "银行保险机构应对突发事件金融服务管理办法 中 Financial Services and Regulation provisions",
+   "D_pure_en": "What does 银行保险机构应对突发事件金融服务管理办法 provide regarding Financial Services and Regulation?"
+  },
+  {
+   "query_id": "TCN_F2_02",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "中国大陆",
+   "jurisdictions": [
+    "中国大陆"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融服务与监管",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "CN_DOC_10_2021",
+   "A_keyword_zh": "财产保险公司保险条款和保险费率管理办法 金融服务与监管 规定",
+   "B_nl_zh": "《财产保险公司保险条款和保险费率管理办法》对「金融服务与监管」有哪些具体规定？",
+   "C_mixed_zhen": "财产保险公司保险条款和保险费率管理办法 中 Financial Services and Regulation provisions",
+   "D_pure_en": "What does 财产保险公司保险条款和保险费率管理办法 provide regarding Financial Services and Regulation?"
+  },
+  {
+   "query_id": "TMO_F2_01",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "中国澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "公共治理",
+   "topic_id": "public_governance",
+   "topic_ids": [
+    "public_governance"
+   ],
+   "core_concept": "公共治理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "MAC_LEI_10_2011",
+   "A_keyword_zh": "經濟房屋法 公共治理 规定",
+   "B_nl_zh": "《經濟房屋法》对「公共治理」有哪些具体规定？",
+   "C_mixed_zhen": "經濟房屋法 中 Public Governance provisions",
+   "D_pure_en": "What does 經濟房屋法 provide regarding Public Governance?"
+  },
+  {
+   "query_id": "TMO_F2_02",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "中国澳门",
+   "jurisdictions": [
+    "中国澳门"
+   ],
+   "topic": "公共治理",
+   "topic_id": "public_governance",
+   "topic_ids": [
+    "public_governance"
+   ],
+   "core_concept": "公共治理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "MAC_LEI_11_2020",
+   "A_keyword_zh": "民防法律制度 公共治理 规定",
+   "B_nl_zh": "《民防法律制度》对「公共治理」有哪些具体规定？",
+   "C_mixed_zhen": "民防法律制度 中 Public Governance provisions",
+   "D_pure_en": "What does 民防法律制度 provide regarding Public Governance?"
+  },
+  {
+   "query_id": "TAU_F2_01",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "澳大利亚",
+   "jurisdictions": [
+    "澳大利亚"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "数据保护",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "AU_ACT_114_1979",
+   "A_keyword_zh": "Telecommunications (Interception and Access) Act 1979 数据保护 规定",
+   "B_nl_zh": "《Telecommunications (Interception and Access) Act 1979》对「数据保护」有哪些具体规定？",
+   "C_mixed_zhen": "Telecommunications (Interception and Access) Act 1979 中 Data Protection provisions",
+   "D_pure_en": "What does Telecommunications (Interception and Access) Act 1979 provide regarding Data Protection?"
+  },
+  {
+   "query_id": "TAU_F2_02",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "澳大利亚",
+   "jurisdictions": [
+    "澳大利亚"
+   ],
+   "topic": "刑法",
+   "topic_id": "criminal_law",
+   "topic_ids": [
+    "criminal_law"
+   ],
+   "core_concept": "刑法",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "AU_ACT_114_1979",
+   "A_keyword_zh": "Telecommunications (Interception and Access) Act 1979 刑法 规定",
+   "B_nl_zh": "《Telecommunications (Interception and Access) Act 1979》对「刑法」有哪些具体规定？",
+   "C_mixed_zhen": "Telecommunications (Interception and Access) Act 1979 中 Criminal Law provisions",
+   "D_pure_en": "What does Telecommunications (Interception and Access) Act 1979 provide regarding Criminal Law?"
+  },
+  {
+   "query_id": "TUS_F2_01",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "国家安全",
+   "topic_id": "national_security",
+   "topic_ids": [
+    "national_security"
+   ],
+   "core_concept": "国家安全",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "US_CFR_T14_P1203_1979",
+   "A_keyword_zh": "Information Security Program 国家安全 规定",
+   "B_nl_zh": "《Information Security Program》对「国家安全」有哪些具体规定？",
+   "C_mixed_zhen": "Information Security Program 中 National Security provisions",
+   "D_pure_en": "What does Information Security Program provide regarding National Security?"
+  },
+  {
+   "query_id": "TUS_F2_02",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "美国",
+   "jurisdictions": [
+    "美国"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融服务与监管",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "US_CFR_T17_P1_1976",
+   "A_keyword_zh": "Commodity Futures Trading Commission 金融服务与监管 规定",
+   "B_nl_zh": "《Commodity Futures Trading Commission》对「金融服务与监管」有哪些具体规定？",
+   "C_mixed_zhen": "Commodity Futures Trading Commission 中 Financial Services and Regulation provisions",
+   "D_pure_en": "What does Commodity Futures Trading Commission provide regarding Financial Services and Regulation?"
+  },
+  {
+   "query_id": "TJP_F2_01",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "数据保护",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "JP_Act_0000_SMP_JP_012",
+   "A_keyword_zh": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency 数据保护 规定",
+   "B_nl_zh": "《Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency》对「数据保护」有哪些具体规定？",
+   "C_mixed_zhen": "Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency 中 Data Protection provisions",
+   "D_pure_en": "What does Regulations for Enforcement of the Act on the Advancement of Government Administration Processes That Utilize Information and Communications Technology Regulations for Laws Under the Jurisdiction of the Digital Agency provide regarding Data Protection?"
+  },
+  {
+   "query_id": "TJP_F2_02",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "日本",
+   "jurisdictions": [
+    "日本"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信与通讯",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "JP_Act_0000_SMP_JP_018",
+   "A_keyword_zh": "Enforcement Order of Radio Act?(Tentative translation) 电信与通讯 规定",
+   "B_nl_zh": "《Enforcement Order of Radio Act?(Tentative translation)》对「电信与通讯」有哪些具体规定？",
+   "C_mixed_zhen": "Enforcement Order of Radio Act?(Tentative translation) 中 Telecommunications provisions",
+   "D_pure_en": "What does Enforcement Order of Radio Act?(Tentative translation) provide regarding Telecommunications?"
+  },
+  {
+   "query_id": "THK_F2_01",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "中国香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "公司治理",
+   "topic_id": "corporate_governance",
+   "topic_ids": [
+    "corporate_governance"
+   ],
+   "core_concept": "公司治理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "HK_CAP_106",
+   "A_keyword_zh": "Telecommunications Ordinance 公司治理 规定",
+   "B_nl_zh": "《Telecommunications Ordinance》对「公司治理」有哪些具体规定？",
+   "C_mixed_zhen": "Telecommunications Ordinance 中 Corporate Governance provisions",
+   "D_pure_en": "What does Telecommunications Ordinance provide regarding Corporate Governance?"
+  },
+  {
+   "query_id": "THK_F2_02",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "中国香港",
+   "jurisdictions": [
+    "中国香港"
+   ],
+   "topic": "公司治理",
+   "topic_id": "corporate_governance",
+   "topic_ids": [
+    "corporate_governance"
+   ],
+   "core_concept": "公司治理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "HK_CAP_200",
+   "A_keyword_zh": "Crimes Ordinance 公司治理 规定",
+   "B_nl_zh": "《Crimes Ordinance》对「公司治理」有哪些具体规定？",
+   "C_mixed_zhen": "Crimes Ordinance 中 Corporate Governance provisions",
+   "D_pure_en": "What does Crimes Ordinance provide regarding Corporate Governance?"
+  },
+  {
+   "query_id": "TTH_F2_01",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融服务与监管",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "TH_ACT_1926",
+   "A_keyword_zh": "Customs Act, B.E. 2469 (1926) 金融服务与监管 规定",
+   "B_nl_zh": "《Customs Act, B.E. 2469 (1926)》对「金融服务与监管」有哪些具体规定？",
+   "C_mixed_zhen": "Customs Act, B.E. 2469 (1926) 中 Financial Services and Regulation provisions",
+   "D_pure_en": "What does Customs Act, B.E. 2469 (1926) provide regarding Financial Services and Regulation?"
+  },
+  {
+   "query_id": "TTH_F2_02",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "泰国",
+   "jurisdictions": [
+    "泰国"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信与通讯",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "TH_CONST_2007",
+   "A_keyword_zh": "Constitution Of The Kingdom Of Thailand, 2007 电信与通讯 规定",
+   "B_nl_zh": "《Constitution Of The Kingdom Of Thailand, 2007》对「电信与通讯」有哪些具体规定？",
+   "C_mixed_zhen": "Constitution Of The Kingdom Of Thailand, 2007 中 Telecommunications provisions",
+   "D_pure_en": "What does Constitution Of The Kingdom Of Thailand, 2007 provide regarding Telecommunications?"
+  },
+  {
+   "query_id": "TKR_F2_01",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "韩国",
+   "jurisdictions": [
+    "韩国"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信与通讯",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "KR_ACT_10166",
+   "A_keyword_zh": "TELECOMMUNICATIONS BUSINESS ACT 电信与通讯 规定",
+   "B_nl_zh": "《TELECOMMUNICATIONS BUSINESS ACT》对「电信与通讯」有哪些具体规定？",
+   "C_mixed_zhen": "TELECOMMUNICATIONS BUSINESS ACT 中 Telecommunications provisions",
+   "D_pure_en": "What does TELECOMMUNICATIONS BUSINESS ACT provide regarding Telecommunications?"
+  },
+  {
+   "query_id": "TKR_F2_02",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "韩国",
+   "jurisdictions": [
+    "韩国"
+   ],
+   "topic": "刑法",
+   "topic_id": "criminal_law",
+   "topic_ids": [
+    "criminal_law"
+   ],
+   "core_concept": "刑法",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "KR_ACT_10166",
+   "A_keyword_zh": "TELECOMMUNICATIONS BUSINESS ACT 刑法 规定",
+   "B_nl_zh": "《TELECOMMUNICATIONS BUSINESS ACT》对「刑法」有哪些具体规定？",
+   "C_mixed_zhen": "TELECOMMUNICATIONS BUSINESS ACT 中 Criminal Law provisions",
+   "D_pure_en": "What does TELECOMMUNICATIONS BUSINESS ACT provide regarding Criminal Law?"
+  },
+  {
+   "query_id": "TSG_F2_01",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "新加坡",
+   "jurisdictions": [
+    "新加坡"
+   ],
+   "topic": "网络安全",
+   "topic_id": "cybersecurity",
+   "topic_ids": [
+    "cybersecurity"
+   ],
+   "core_concept": "网络安全",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "SG_ACT_9_2018",
+   "A_keyword_zh": "Cybersecurity Act 2018 网络安全 规定",
+   "B_nl_zh": "《Cybersecurity Act 2018》对「网络安全」有哪些具体规定？",
+   "C_mixed_zhen": "Cybersecurity Act 2018 中 Cybersecurity provisions",
+   "D_pure_en": "What does Cybersecurity Act 2018 provide regarding Cybersecurity?"
+  },
+  {
+   "query_id": "TSG_F2_02",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "新加坡",
+   "jurisdictions": [
+    "新加坡"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "数据保护",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "SG_ACT_20_2022",
+   "A_keyword_zh": "Adoption of Children Act 2022 数据保护 规定",
+   "B_nl_zh": "《Adoption of Children Act 2022》对「数据保护」有哪些具体规定？",
+   "C_mixed_zhen": "Adoption of Children Act 2022 中 Data Protection provisions",
+   "D_pure_en": "What does Adoption of Children Act 2022 provide regarding Data Protection?"
+  },
+  {
+   "query_id": "TVN_F2_01",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信与通讯",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "VN_QH12SOCIALIST_41_2009",
+   "A_keyword_zh": "Telecommunications 电信与通讯 规定",
+   "B_nl_zh": "《Telecommunications》对「电信与通讯」有哪些具体规定？",
+   "C_mixed_zhen": "Telecommunications 中 Telecommunications provisions",
+   "D_pure_en": "What does Telecommunications provide regarding Telecommunications?"
+  },
+  {
+   "query_id": "TVN_F2_02",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信与通讯",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "VN_QH12SOCIALIST_42_2009",
+   "A_keyword_zh": "Radio Frequencies 电信与通讯 规定",
+   "B_nl_zh": "《Radio Frequencies》对「电信与通讯」有哪些具体规定？",
+   "C_mixed_zhen": "Radio Frequencies 中 Telecommunications provisions",
+   "D_pure_en": "What does Radio Frequencies provide regarding Telecommunications?"
+  },
+  {
+   "query_id": "TVN_F2_03",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "越南",
+   "jurisdictions": [
+    "越南"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信与通讯",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "VN_Q_143_2001",
+   "A_keyword_zh": "Promulgating The Regulation On Control Of Quality Of The Post And Telecommunications Services And Networks 电信与通讯 规定",
+   "B_nl_zh": "《Promulgating The Regulation On Control Of Quality Of The Post And Telecommunications Services And Networks》对「电信与通讯」有哪些具体规定？",
+   "C_mixed_zhen": "Promulgating The Regulation On Control Of Quality Of The Post And Telecommunications Services And Networks 中 Telecommunications provisions",
+   "D_pure_en": "What does Promulgating The Regulation On Control Of Quality Of The Post And Telecommunications Services And Networks provide regarding Telecommunications?"
+  },
+  {
+   "query_id": "TMY_F2_01",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "数据保护",
+   "topic_id": "data_protection",
+   "topic_ids": [
+    "data_protection"
+   ],
+   "core_concept": "数据保护",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "MY_ACT_709_2010",
+   "A_keyword_zh": "Personal Data Protection Act 2010 数据保护 规定",
+   "B_nl_zh": "《Personal Data Protection Act 2010》对「数据保护」有哪些具体规定？",
+   "C_mixed_zhen": "Personal Data Protection Act 2010 中 Data Protection provisions",
+   "D_pure_en": "What does Personal Data Protection Act 2010 provide regarding Data Protection?"
+  },
+  {
+   "query_id": "TMY_F2_02",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "网络安全",
+   "topic_id": "cybersecurity",
+   "topic_ids": [
+    "cybersecurity"
+   ],
+   "core_concept": "网络安全",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "MY_ACT_854_2024",
+   "A_keyword_zh": "Cyber Security Act 2024 网络安全 规定",
+   "B_nl_zh": "《Cyber Security Act 2024》对「网络安全」有哪些具体规定？",
+   "C_mixed_zhen": "Cyber Security Act 2024 中 Cybersecurity provisions",
+   "D_pure_en": "What does Cyber Security Act 2024 provide regarding Cybersecurity?"
+  },
+  {
+   "query_id": "TMY_F2_03",
+   "subset": "template",
+   "family": "F2",
+   "jurisdiction": "马来西亚",
+   "jurisdictions": [
+    "马来西亚"
+   ],
+   "topic": "刑法",
+   "topic_id": "criminal_law",
+   "topic_ids": [
+    "criminal_law"
+   ],
+   "core_concept": "刑法",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "anchor_law_id": "MY_ACT_709_2010",
+   "A_keyword_zh": "Personal Data Protection Act 2010 刑法 规定",
+   "B_nl_zh": "《Personal Data Protection Act 2010》对「刑法」有哪些具体规定？",
+   "C_mixed_zhen": "Personal Data Protection Act 2010 中 Criminal Law provisions",
+   "D_pure_en": "What does Personal Data Protection Act 2010 provide regarding Criminal Law?"
+  },
+  {
+   "query_id": "TX_F3_01",
+   "subset": "template",
+   "family": "F3",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "中国大陆",
+    "澳大利亚"
+   ],
+   "topic": "电信与通讯",
+   "topic_id": "telecommunications",
+   "topic_ids": [
+    "telecommunications"
+   ],
+   "core_concept": "电信与通讯",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国大陆 澳大利亚 电信与通讯 对比",
+   "B_nl_zh": "中国大陆与澳大利亚在「电信与通讯」方面的立法规定分别是什么？",
+   "C_mixed_zhen": "中国大陆 vs 澳大利亚 Telecommunications comparison",
+   "D_pure_en": "How do mainland China and Australia regulate Telecommunications?"
+  },
+  {
+   "query_id": "TX_F3_02",
+   "subset": "template",
+   "family": "F3",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "中国大陆",
+    "中国澳门"
+   ],
+   "topic": "刑法",
+   "topic_id": "criminal_law",
+   "topic_ids": [
+    "criminal_law"
+   ],
+   "core_concept": "刑法",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国大陆 中国澳门 刑法 对比",
+   "B_nl_zh": "中国大陆与中国澳门在「刑法」方面的立法规定分别是什么？",
+   "C_mixed_zhen": "中国大陆 vs 中国澳门 Criminal Law comparison",
+   "D_pure_en": "How do mainland China and Macao regulate Criminal Law?"
+  },
+  {
+   "query_id": "TX_F3_03",
+   "subset": "template",
+   "family": "F3",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "中国大陆",
+    "中国澳门"
+   ],
+   "topic": "金融服务与监管",
+   "topic_id": "financial_services",
+   "topic_ids": [
+    "financial_services"
+   ],
+   "core_concept": "金融服务与监管",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国大陆 中国澳门 金融服务与监管 对比",
+   "B_nl_zh": "中国大陆与中国澳门在「金融服务与监管」方面的立法规定分别是什么？",
+   "C_mixed_zhen": "中国大陆 vs 中国澳门 Financial Services and Regulation comparison",
+   "D_pure_en": "How do mainland China and Macao regulate Financial Services and Regulation?"
+  },
+  {
+   "query_id": "TX_F3_04",
+   "subset": "template",
+   "family": "F3",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "中国大陆",
+    "中国澳门"
+   ],
+   "topic": "公共治理",
+   "topic_id": "public_governance",
+   "topic_ids": [
+    "public_governance"
+   ],
+   "core_concept": "公共治理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国大陆 中国澳门 公共治理 对比",
+   "B_nl_zh": "中国大陆与中国澳门在「公共治理」方面的立法规定分别是什么？",
+   "C_mixed_zhen": "中国大陆 vs 中国澳门 Public Governance comparison",
+   "D_pure_en": "How do mainland China and Macao regulate Public Governance?"
+  },
+  {
+   "query_id": "TX_F3_05",
+   "subset": "template",
+   "family": "F3",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "中国大陆",
+    "中国澳门"
+   ],
+   "topic": "公司治理",
+   "topic_id": "corporate_governance",
+   "topic_ids": [
+    "corporate_governance"
+   ],
+   "core_concept": "公司治理",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国大陆 中国澳门 公司治理 对比",
+   "B_nl_zh": "中国大陆与中国澳门在「公司治理」方面的立法规定分别是什么？",
+   "C_mixed_zhen": "中国大陆 vs 中国澳门 Corporate Governance comparison",
+   "D_pure_en": "How do mainland China and Macao regulate Corporate Governance?"
+  },
+  {
+   "query_id": "TX_F3_06",
+   "subset": "template",
+   "family": "F3",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "澳大利亚",
+    "美国"
+   ],
+   "topic": "薪酬福利",
+   "topic_id": "compensation_benefits",
+   "topic_ids": [
+    "compensation_benefits"
+   ],
+   "core_concept": "薪酬福利",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "澳大利亚 美国 薪酬福利 对比",
+   "B_nl_zh": "澳大利亚与美国在「薪酬福利」方面的立法规定分别是什么？",
+   "C_mixed_zhen": "澳大利亚 vs 美国 Compensation & Benefits comparison",
+   "D_pure_en": "How do Australia and the United States regulate Compensation & Benefits?"
+  },
+  {
+   "query_id": "TX_F3_07",
+   "subset": "template",
+   "family": "F3",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "中国大陆",
+    "澳大利亚"
+   ],
+   "topic": "行政程序",
+   "topic_id": "administrative_procedures",
+   "topic_ids": [
+    "administrative_procedures"
+   ],
+   "core_concept": "行政程序",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "中国大陆 澳大利亚 行政程序 对比",
+   "B_nl_zh": "中国大陆与澳大利亚在「行政程序」方面的立法规定分别是什么？",
+   "C_mixed_zhen": "中国大陆 vs 澳大利亚 Administrative Procedures comparison",
+   "D_pure_en": "How do mainland China and Australia regulate Administrative Procedures?"
+  },
+  {
+   "query_id": "TX_F3_08",
+   "subset": "template",
+   "family": "F3",
+   "jurisdiction": "跨法域",
+   "jurisdictions": [
+    "澳大利亚",
+    "美国"
+   ],
+   "topic": "政府采购",
+   "topic_id": "government_contracting",
+   "topic_ids": [
+    "government_contracting",
+    "government_procurement"
+   ],
+   "core_concept": "政府采购",
+   "is_core": false,
+   "gold_law_source": "derived",
+   "gold_clause_status": "derived",
+   "clause_gold_empty": false,
+   "A_keyword_zh": "澳大利亚 美国 政府采购 对比",
+   "B_nl_zh": "澳大利亚与美国在「政府采购」方面的立法规定分别是什么？",
+   "C_mixed_zhen": "澳大利亚 vs 美国 Government Procurement comparison",
+   "D_pure_en": "How do Australia and the United States regulate Government Procurement?"
+  }
+ ]
+}

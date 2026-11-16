@@ -1,0 +1,42 @@
+{
+  "n": 60,
+  "budget": 5,
+  "hasans5": {
+    "rag": [
+      0.8,
+      60
+    ],
+    "agent": [
+      0.8167,
+      60
+    ]
+  },
+  "hasans_all_stored": {
+    "rag": 0.8,
+    "agent": 0.8333
+  },
+  "flips_hasans5": {
+    "agent_only": 5,
+    "rag_only": 4
+  },
+  "evidence_mean": {
+    "rag": 5.6,
+    "agent": 9.6
+  },
+  "judge_prompt_chars_for_5": {
+    "rag": 467434,
+    "agent": 450734
+  },
+  "judge_prompt_chars_all_pairs": 918168,
+  "token_estimate_all_pairs": 612112,
+  "tool0": {
+    "n": 22,
+    "hasans5_rag": 0.8182,
+    "hasans5_agent": 0.8182
+  },
+  "tool_gt0": {
+    "n": 38,
+    "hasans5_rag": 0.7895,
+    "hasans5_agent": 0.8158
+  }
+}

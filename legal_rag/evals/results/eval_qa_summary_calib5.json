@@ -1,0 +1,38 @@
+{
+  "total_queries": 5,
+  "has_ans_accuracy": 0.4,
+  "has_ans_count": 2,
+  "avg_faithfulness": 4.8,
+  "avg_relevance": 2.4,
+  "faithfulness_distribution": {
+    "1-2分": 0,
+    "3分": 0,
+    "4-5分": 5
+  },
+  "relevance_distribution": {
+    "1-2分": 3,
+    "3分": 0,
+    "4-5分": 2
+  },
+  "error_count": 0,
+  "by_jurisdiction": {
+    "美国": {
+      "total_queries": 5,
+      "has_ans_accuracy": 0.4,
+      "has_ans_count": 2,
+      "avg_faithfulness": 4.8,
+      "avg_relevance": 2.4,
+      "faithfulness_distribution": {
+        "1-2分": 0,
+        "3分": 0,
+        "4-5分": 5
+      },
+      "relevance_distribution": {
+        "1-2分": 3,
+        "3分": 0,
+        "4-5分": 2
+      },
+      "error_count": 0
+    }
+  }
+}

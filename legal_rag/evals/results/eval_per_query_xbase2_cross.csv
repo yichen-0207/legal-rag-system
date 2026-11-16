@@ -1,0 +1,161 @@
+strategy,query_id,query_text,jurisdiction,variant,base_query,relevant_count,retrieved_count,MRR,R@5,R@10,R@20,P@5
+仅BM25检索,Q071_A,亚太 跨境数据流动 法规 比较,跨法域,A,Q071,20,20,0.0714,0.0,0.0,0.05,0.0
+仅BM25检索,Q071_B,亚太地区主要法域对跨境数据流动的法规要求有何异同？,跨法域,B,Q071,20,20,0.0714,0.0,0.0,0.05,0.0
+仅BM25检索,Q071_C,Asia-Pacific cross-border data transfer regulations 比较 异同,跨法域,C,Q071,20,20,0.05,0.0,0.0,0.05,0.0
+仅BM25检索,Q071_D,What are the similarities and differences in cross-border data transfer regulations across Asia-Pacific jurisdictions?,跨法域,D,Q071,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q072_A,东南亚 AI 监管 治理 比较,跨法域,A,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q072_B,东南亚各国在人工智能监管和治理方面的方法有何异同？,跨法域,B,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q072_C,Southeast Asia AI regulation governance 比较 approaches,跨法域,C,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q072_D,How do AI regulatory approaches differ across Southeast Asian countries?,跨法域,D,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q073_A,数据泄露 通知 亚太 各国 比较,跨法域,A,Q073,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q073_B,亚太各国数据泄露通知义务在通知时限和触发条件上有何异同？,跨法域,B,Q073,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q073_C,data breach notification Asia-Pacific 各国 比较 通知时限,跨法域,C,Q073,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q073_D,How do data breach notification requirements differ across Asia-Pacific jurisdictions?,跨法域,D,Q073,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q074_A,电子签名 法律效力 各国 比较,跨法域,A,Q074,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q074_B,不同法域对电子签名法律效力的认定方式和类型划分有何异同？,跨法域,B,Q074,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q074_C,e-signature legal validity 各国 比较 类型划分,跨法域,C,Q074,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q074_D,How do different jurisdictions classify and recognize the legal validity of electronic signatures?,跨法域,D,Q074,20,20,0.125,0.0,0.15,0.2,0.0
+仅BM25检索,Q075_A,亚洲 电信监管 牌照 比较,跨法域,A,Q075,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q075_B,亚洲主要国家在电信服务牌照和监管框架上有何异同？,跨法域,B,Q075,20,20,0.3333,0.05,0.1,0.1,0.2
+仅BM25检索,Q075_C,Asia telecom regulation licensing 比较 监管框架,跨法域,C,Q075,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q075_D,How do telecommunications regulatory frameworks compare across major Asian countries?,跨法域,D,Q075,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q076_A,金融科技 监管 亚太 比较,跨法域,A,Q076,20,17,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q076_B,亚太地区在金融科技（FinTech）监管上的不同模式和做法是什么？,跨法域,B,Q076,20,20,1.0,0.1,0.1,0.1,0.4
+仅BM25检索,Q076_C,FinTech regulation Asia-Pacific 监管模式 比较,跨法域,C,Q076,20,15,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q076_D,What are the different FinTech regulatory approaches across Asia-Pacific jurisdictions?,跨法域,D,Q076,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q077_A,网络安全 法律 东南亚 东亚 比较,跨法域,A,Q077,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q077_B,东南亚和东亚国家网络安全立法的关键要素有何差异？,跨法域,B,Q077,20,20,0.25,0.05,0.05,0.05,0.2
+仅BM25检索,Q077_C,cybersecurity law Southeast Asia East Asia 比较 key elements,跨法域,C,Q077,20,15,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q077_D,What are the key differences in cybersecurity legislation across East and Southeast Asian countries?,跨法域,D,Q077,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q078_A,反洗钱 FATF 合规 亚太 比较,跨法域,A,Q078,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q078_B,亚太各国在FATF反洗钱合规标准执行上表现如何？,跨法域,B,Q078,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q078_C,AML FATF compliance Asia-Pacific 各国 比较 执行,跨法域,C,Q078,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q078_D,How do Asia-Pacific countries compare in their FATF AML compliance implementation?,跨法域,D,Q078,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q079_A,电商 消费者权益 保护 东南亚,跨法域,A,Q079,20,20,1.0,0.1,0.1,0.1,0.4
+仅BM25检索,Q079_B,东南亚国家在电子商务消费者权益保护方面的法律有何异同？,跨法域,B,Q079,20,20,0.0588,0.0,0.0,0.05,0.0
+仅BM25检索,Q079_C,e-commerce consumer protection Southeast Asia 比较 laws,跨法域,C,Q079,20,20,0.1111,0.0,0.05,0.15,0.0
+仅BM25检索,Q079_D,How do e-commerce consumer protection laws compare across Southeast Asian countries?,跨法域,D,Q079,20,20,0.0833,0.0,0.0,0.1,0.0
+仅BM25检索,Q080_A,个人资料保护 框架 亚洲 比较,跨法域,A,Q080,20,20,0.0,0.0,0.0,0.0,0.0
+仅BM25检索,Q080_B,亚洲各司法管辖区个人资料保护法律框架的核心异同是什么？,跨法域,B,Q080,20,20,0.0833,0.0,0.0,0.05,0.0
+仅BM25检索,Q080_C,personal data protection framework Asia 比较 核心异同,跨法域,C,Q080,20,20,0.5,0.1,0.1,0.1,0.4
+仅BM25检索,Q080_D,What are the core similarities and differences in personal data protection frameworks across Asian jurisdictions?,跨法域,D,Q080,20,20,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q071_A,亚太 跨境数据流动 法规 比较,跨法域,A,Q071,20,10,0.1111,0.0,0.05,0.05,0.0
+纯向量检索,Q071_B,亚太地区主要法域对跨境数据流动的法规要求有何异同？,跨法域,B,Q071,20,10,0.125,0.0,0.05,0.05,0.0
+纯向量检索,Q071_C,Asia-Pacific cross-border data transfer regulations 比较 异同,跨法域,C,Q071,20,10,0.5,0.05,0.05,0.05,0.2
+纯向量检索,Q071_D,What are the similarities and differences in cross-border data transfer regulations across Asia-Pacific jurisdictions?,跨法域,D,Q071,20,9,1.0,0.05,0.05,0.05,0.2
+纯向量检索,Q072_A,东南亚 AI 监管 治理 比较,跨法域,A,Q072,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q072_B,东南亚各国在人工智能监管和治理方面的方法有何异同？,跨法域,B,Q072,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q072_C,Southeast Asia AI regulation governance 比较 approaches,跨法域,C,Q072,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q072_D,How do AI regulatory approaches differ across Southeast Asian countries?,跨法域,D,Q072,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q073_A,数据泄露 通知 亚太 各国 比较,跨法域,A,Q073,20,9,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q073_B,亚太各国数据泄露通知义务在通知时限和触发条件上有何异同？,跨法域,B,Q073,20,5,0.2,0.05,0.05,0.05,0.2
+纯向量检索,Q073_C,data breach notification Asia-Pacific 各国 比较 通知时限,跨法域,C,Q073,20,5,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q073_D,How do data breach notification requirements differ across Asia-Pacific jurisdictions?,跨法域,D,Q073,20,6,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q074_A,电子签名 法律效力 各国 比较,跨法域,A,Q074,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q074_B,不同法域对电子签名法律效力的认定方式和类型划分有何异同？,跨法域,B,Q074,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q074_C,e-signature legal validity 各国 比较 类型划分,跨法域,C,Q074,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q074_D,How do different jurisdictions classify and recognize the legal validity of electronic signatures?,跨法域,D,Q074,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q075_A,亚洲 电信监管 牌照 比较,跨法域,A,Q075,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q075_B,亚洲主要国家在电信服务牌照和监管框架上有何异同？,跨法域,B,Q075,20,10,0.2,0.05,0.15,0.15,0.2
+纯向量检索,Q075_C,Asia telecom regulation licensing 比较 监管框架,跨法域,C,Q075,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q075_D,How do telecommunications regulatory frameworks compare across major Asian countries?,跨法域,D,Q075,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q076_A,金融科技 监管 亚太 比较,跨法域,A,Q076,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q076_B,亚太地区在金融科技（FinTech）监管上的不同模式和做法是什么？,跨法域,B,Q076,20,9,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q076_C,FinTech regulation Asia-Pacific 监管模式 比较,跨法域,C,Q076,20,8,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q076_D,What are the different FinTech regulatory approaches across Asia-Pacific jurisdictions?,跨法域,D,Q076,20,8,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q077_A,网络安全 法律 东南亚 东亚 比较,跨法域,A,Q077,20,9,0.125,0.0,0.05,0.05,0.0
+纯向量检索,Q077_B,东南亚和东亚国家网络安全立法的关键要素有何差异？,跨法域,B,Q077,20,8,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q077_C,cybersecurity law Southeast Asia East Asia 比较 key elements,跨法域,C,Q077,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q077_D,What are the key differences in cybersecurity legislation across East and Southeast Asian countries?,跨法域,D,Q077,20,10,0.5,0.05,0.15,0.15,0.2
+纯向量检索,Q078_A,反洗钱 FATF 合规 亚太 比较,跨法域,A,Q078,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q078_B,亚太各国在FATF反洗钱合规标准执行上表现如何？,跨法域,B,Q078,20,9,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q078_C,AML FATF compliance Asia-Pacific 各国 比较 执行,跨法域,C,Q078,20,7,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q078_D,How do Asia-Pacific countries compare in their FATF AML compliance implementation?,跨法域,D,Q078,20,6,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q079_A,电商 消费者权益 保护 东南亚,跨法域,A,Q079,20,10,0.1667,0.0,0.05,0.05,0.0
+纯向量检索,Q079_B,东南亚国家在电子商务消费者权益保护方面的法律有何异同？,跨法域,B,Q079,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q079_C,e-commerce consumer protection Southeast Asia 比较 laws,跨法域,C,Q079,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q079_D,How do e-commerce consumer protection laws compare across Southeast Asian countries?,跨法域,D,Q079,20,10,0.0,0.0,0.0,0.0,0.0
+纯向量检索,Q080_A,个人资料保护 框架 亚洲 比较,跨法域,A,Q080,20,10,0.3333,0.05,0.05,0.05,0.2
+纯向量检索,Q080_B,亚洲各司法管辖区个人资料保护法律框架的核心异同是什么？,跨法域,B,Q080,20,7,1.0,0.05,0.05,0.05,0.2
+纯向量检索,Q080_C,personal data protection framework Asia 比较 核心异同,跨法域,C,Q080,20,8,1.0,0.1,0.1,0.1,0.4
+纯向量检索,Q080_D,What are the core similarities and differences in personal data protection frameworks across Asian jurisdictions?,跨法域,D,Q080,20,9,0.3333,0.05,0.05,0.05,0.2
+混合检索(RRF),Q071_A,亚太 跨境数据流动 法规 比较,跨法域,A,Q071,20,20,0.2,0.05,0.05,0.1,0.2
+混合检索(RRF),Q071_B,亚太地区主要法域对跨境数据流动的法规要求有何异同？,跨法域,B,Q071,20,20,0.2,0.05,0.05,0.15,0.2
+混合检索(RRF),Q071_C,Asia-Pacific cross-border data transfer regulations 比较 异同,跨法域,C,Q071,20,20,0.125,0.0,0.05,0.15,0.0
+混合检索(RRF),Q071_D,What are the similarities and differences in cross-border data transfer regulations across Asia-Pacific jurisdictions?,跨法域,D,Q071,20,20,1.0,0.05,0.05,0.05,0.2
+混合检索(RRF),Q072_A,东南亚 AI 监管 治理 比较,跨法域,A,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q072_B,东南亚各国在人工智能监管和治理方面的方法有何异同？,跨法域,B,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q072_C,Southeast Asia AI regulation governance 比较 approaches,跨法域,C,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q072_D,How do AI regulatory approaches differ across Southeast Asian countries?,跨法域,D,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q073_A,数据泄露 通知 亚太 各国 比较,跨法域,A,Q073,20,20,0.2,0.05,0.05,0.1,0.2
+混合检索(RRF),Q073_B,亚太各国数据泄露通知义务在通知时限和触发条件上有何异同？,跨法域,B,Q073,20,20,0.2,0.05,0.05,0.05,0.2
+混合检索(RRF),Q073_C,data breach notification Asia-Pacific 各国 比较 通知时限,跨法域,C,Q073,20,20,0.2,0.05,0.05,0.1,0.2
+混合检索(RRF),Q073_D,How do data breach notification requirements differ across Asia-Pacific jurisdictions?,跨法域,D,Q073,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q074_A,电子签名 法律效力 各国 比较,跨法域,A,Q074,20,20,0.5,0.05,0.1,0.1,0.2
+混合检索(RRF),Q074_B,不同法域对电子签名法律效力的认定方式和类型划分有何异同？,跨法域,B,Q074,20,20,0.5,0.05,0.1,0.15,0.2
+混合检索(RRF),Q074_C,e-signature legal validity 各国 比较 类型划分,跨法域,C,Q074,20,20,0.0833,0.0,0.0,0.1,0.0
+混合检索(RRF),Q074_D,How do different jurisdictions classify and recognize the legal validity of electronic signatures?,跨法域,D,Q074,20,20,0.1429,0.0,0.1,0.25,0.0
+混合检索(RRF),Q075_A,亚洲 电信监管 牌照 比较,跨法域,A,Q075,20,20,0.2,0.05,0.05,0.1,0.2
+混合检索(RRF),Q075_B,亚洲主要国家在电信服务牌照和监管框架上有何异同？,跨法域,B,Q075,20,20,0.1429,0.0,0.1,0.15,0.0
+混合检索(RRF),Q075_C,Asia telecom regulation licensing 比较 监管框架,跨法域,C,Q075,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q075_D,How do telecommunications regulatory frameworks compare across major Asian countries?,跨法域,D,Q075,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q076_A,金融科技 监管 亚太 比较,跨法域,A,Q076,20,20,0.0556,0.0,0.0,0.05,0.0
+混合检索(RRF),Q076_B,亚太地区在金融科技（FinTech）监管上的不同模式和做法是什么？,跨法域,B,Q076,20,20,1.0,0.05,0.1,0.15,0.2
+混合检索(RRF),Q076_C,FinTech regulation Asia-Pacific 监管模式 比较,跨法域,C,Q076,20,20,0.2,0.05,0.1,0.15,0.2
+混合检索(RRF),Q076_D,What are the different FinTech regulatory approaches across Asia-Pacific jurisdictions?,跨法域,D,Q076,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q077_A,网络安全 法律 东南亚 东亚 比较,跨法域,A,Q077,20,20,0.5,0.05,0.1,0.1,0.2
+混合检索(RRF),Q077_B,东南亚和东亚国家网络安全立法的关键要素有何差异？,跨法域,B,Q077,20,20,1.0,0.1,0.15,0.2,0.4
+混合检索(RRF),Q077_C,cybersecurity law Southeast Asia East Asia 比较 key elements,跨法域,C,Q077,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q077_D,What are the key differences in cybersecurity legislation across East and Southeast Asian countries?,跨法域,D,Q077,20,20,0.1667,0.0,0.05,0.1,0.0
+混合检索(RRF),Q078_A,反洗钱 FATF 合规 亚太 比较,跨法域,A,Q078,20,20,0.1667,0.0,0.1,0.15,0.0
+混合检索(RRF),Q078_B,亚太各国在FATF反洗钱合规标准执行上表现如何？,跨法域,B,Q078,20,20,0.1667,0.0,0.05,0.15,0.0
+混合检索(RRF),Q078_C,AML FATF compliance Asia-Pacific 各国 比较 执行,跨法域,C,Q078,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q078_D,How do Asia-Pacific countries compare in their FATF AML compliance implementation?,跨法域,D,Q078,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q079_A,电商 消费者权益 保护 东南亚,跨法域,A,Q079,20,20,0.0909,0.0,0.0,0.1,0.0
+混合检索(RRF),Q079_B,东南亚国家在电子商务消费者权益保护方面的法律有何异同？,跨法域,B,Q079,20,20,0.0667,0.0,0.0,0.1,0.0
+混合检索(RRF),Q079_C,e-commerce consumer protection Southeast Asia 比较 laws,跨法域,C,Q079,20,20,0.1667,0.0,0.1,0.1,0.0
+混合检索(RRF),Q079_D,How do e-commerce consumer protection laws compare across Southeast Asian countries?,跨法域,D,Q079,20,20,0.0,0.0,0.0,0.0,0.0
+混合检索(RRF),Q080_A,个人资料保护 框架 亚洲 比较,跨法域,A,Q080,20,20,0.125,0.0,0.05,0.05,0.0
+混合检索(RRF),Q080_B,亚洲各司法管辖区个人资料保护法律框架的核心异同是什么？,跨法域,B,Q080,20,20,0.25,0.05,0.05,0.05,0.2
+混合检索(RRF),Q080_C,personal data protection framework Asia 比较 核心异同,跨法域,C,Q080,20,20,0.25,0.05,0.05,0.1,0.2
+混合检索(RRF),Q080_D,What are the core similarities and differences in personal data protection frameworks across Asian jurisdictions?,跨法域,D,Q080,20,20,0.2,0.05,0.1,0.1,0.2
+混合+Re-ranker,Q071_A,亚太 跨境数据流动 法规 比较,跨法域,A,Q071,20,20,0.3333,0.1,0.1,0.1,0.4
+混合+Re-ranker,Q071_B,亚太地区主要法域对跨境数据流动的法规要求有何异同？,跨法域,B,Q071,20,20,0.3333,0.1,0.15,0.15,0.4
+混合+Re-ranker,Q071_C,Asia-Pacific cross-border data transfer regulations 比较 异同,跨法域,C,Q071,20,20,0.5,0.1,0.15,0.15,0.4
+混合+Re-ranker,Q071_D,What are the similarities and differences in cross-border data transfer regulations across Asia-Pacific jurisdictions?,跨法域,D,Q071,20,20,0.5,0.05,0.05,0.05,0.2
+混合+Re-ranker,Q072_A,东南亚 AI 监管 治理 比较,跨法域,A,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q072_B,东南亚各国在人工智能监管和治理方面的方法有何异同？,跨法域,B,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q072_C,Southeast Asia AI regulation governance 比较 approaches,跨法域,C,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q072_D,How do AI regulatory approaches differ across Southeast Asian countries?,跨法域,D,Q072,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q073_A,数据泄露 通知 亚太 各国 比较,跨法域,A,Q073,20,20,0.3333,0.1,0.1,0.1,0.4
+混合+Re-ranker,Q073_B,亚太各国数据泄露通知义务在通知时限和触发条件上有何异同？,跨法域,B,Q073,20,20,0.3333,0.05,0.05,0.05,0.2
+混合+Re-ranker,Q073_C,data breach notification Asia-Pacific 各国 比较 通知时限,跨法域,C,Q073,20,20,1.0,0.1,0.1,0.1,0.4
+混合+Re-ranker,Q073_D,How do data breach notification requirements differ across Asia-Pacific jurisdictions?,跨法域,D,Q073,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q074_A,电子签名 法律效力 各国 比较,跨法域,A,Q074,20,20,0.25,0.05,0.1,0.1,0.2
+混合+Re-ranker,Q074_B,不同法域对电子签名法律效力的认定方式和类型划分有何异同？,跨法域,B,Q074,20,20,0.2,0.05,0.15,0.15,0.2
+混合+Re-ranker,Q074_C,e-signature legal validity 各国 比较 类型划分,跨法域,C,Q074,20,20,0.1429,0.0,0.1,0.1,0.0
+混合+Re-ranker,Q074_D,How do different jurisdictions classify and recognize the legal validity of electronic signatures?,跨法域,D,Q074,20,20,0.1429,0.0,0.15,0.25,0.0
+混合+Re-ranker,Q075_A,亚洲 电信监管 牌照 比较,跨法域,A,Q075,20,20,1.0,0.1,0.1,0.1,0.4
+混合+Re-ranker,Q075_B,亚洲主要国家在电信服务牌照和监管框架上有何异同？,跨法域,B,Q075,20,20,1.0,0.15,0.15,0.15,0.6
+混合+Re-ranker,Q075_C,Asia telecom regulation licensing 比较 监管框架,跨法域,C,Q075,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q075_D,How do telecommunications regulatory frameworks compare across major Asian countries?,跨法域,D,Q075,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q076_A,金融科技 监管 亚太 比较,跨法域,A,Q076,20,20,0.2,0.05,0.05,0.05,0.2
+混合+Re-ranker,Q076_B,亚太地区在金融科技（FinTech）监管上的不同模式和做法是什么？,跨法域,B,Q076,20,20,0.5,0.15,0.15,0.15,0.6
+混合+Re-ranker,Q076_C,FinTech regulation Asia-Pacific 监管模式 比较,跨法域,C,Q076,20,20,0.3333,0.1,0.15,0.15,0.4
+混合+Re-ranker,Q076_D,What are the different FinTech regulatory approaches across Asia-Pacific jurisdictions?,跨法域,D,Q076,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q077_A,网络安全 法律 东南亚 东亚 比较,跨法域,A,Q077,20,20,1.0,0.1,0.1,0.1,0.4
+混合+Re-ranker,Q077_B,东南亚和东亚国家网络安全立法的关键要素有何差异？,跨法域,B,Q077,20,20,1.0,0.15,0.2,0.2,0.6
+混合+Re-ranker,Q077_C,cybersecurity law Southeast Asia East Asia 比较 key elements,跨法域,C,Q077,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q077_D,What are the key differences in cybersecurity legislation across East and Southeast Asian countries?,跨法域,D,Q077,20,20,0.3333,0.1,0.1,0.1,0.4
+混合+Re-ranker,Q078_A,反洗钱 FATF 合规 亚太 比较,跨法域,A,Q078,20,20,0.3333,0.15,0.15,0.15,0.6
+混合+Re-ranker,Q078_B,亚太各国在FATF反洗钱合规标准执行上表现如何？,跨法域,B,Q078,20,20,0.3333,0.1,0.15,0.15,0.4
+混合+Re-ranker,Q078_C,AML FATF compliance Asia-Pacific 各国 比较 执行,跨法域,C,Q078,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q078_D,How do Asia-Pacific countries compare in their FATF AML compliance implementation?,跨法域,D,Q078,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q079_A,电商 消费者权益 保护 东南亚,跨法域,A,Q079,20,20,1.0,0.1,0.1,0.1,0.4
+混合+Re-ranker,Q079_B,东南亚国家在电子商务消费者权益保护方面的法律有何异同？,跨法域,B,Q079,20,20,0.5,0.05,0.1,0.1,0.2
+混合+Re-ranker,Q079_C,e-commerce consumer protection Southeast Asia 比较 laws,跨法域,C,Q079,20,20,0.3333,0.1,0.1,0.1,0.4
+混合+Re-ranker,Q079_D,How do e-commerce consumer protection laws compare across Southeast Asian countries?,跨法域,D,Q079,20,20,0.0,0.0,0.0,0.0,0.0
+混合+Re-ranker,Q080_A,个人资料保护 框架 亚洲 比较,跨法域,A,Q080,20,20,0.0909,0.0,0.0,0.05,0.0
+混合+Re-ranker,Q080_B,亚洲各司法管辖区个人资料保护法律框架的核心异同是什么？,跨法域,B,Q080,20,20,0.2,0.05,0.05,0.05,0.2
+混合+Re-ranker,Q080_C,personal data protection framework Asia 比较 核心异同,跨法域,C,Q080,20,20,1.0,0.1,0.1,0.1,0.4
+混合+Re-ranker,Q080_D,What are the core similarities and differences in personal data protection frameworks across Asian jurisdictions?,跨法域,D,Q080,20,20,1.0,0.1,0.1,0.1,0.4

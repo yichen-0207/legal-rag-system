@@ -1,0 +1,796 @@
+{
+  "prefix": "ragas_aligned_v3",
+  "pairs": 19,
+  "as_run_all_ctx": {
+    "faithfulness": {
+      "rag": 0.9806,
+      "agent": 1.0,
+      "delta": -0.0194,
+      "up": 0,
+      "down": 3,
+      "tie": 16,
+      "sign_p": 0.25,
+      "n": 19
+    },
+    "noise_adapted": {
+      "rag": 0.4619,
+      "agent": 0.4597,
+      "delta": 0.0022,
+      "up": 5,
+      "down": 8,
+      "tie": 6,
+      "sign_p": 0.5811,
+      "n": 19
+    }
+  },
+  "fixed_5ctx": {
+    "faithfulness": {
+      "rag": 0.9192,
+      "agent": 0.6526,
+      "delta": 0.2666,
+      "up": 11,
+      "down": 1,
+      "tie": 7,
+      "sign_p": 0.0063,
+      "n": 19
+    },
+    "noise_adapted": {
+      "rag": 0.4612,
+      "agent": 0.4778,
+      "delta": -0.0166,
+      "up": 8,
+      "down": 6,
+      "tie": 5,
+      "sign_p": 0.7905,
+      "n": 19
+    }
+  },
+  "ctx_supply": {
+    "rag_avg": 5.6,
+    "agent_avg": 9.89,
+    "agent_records_over_budget": 14
+  },
+  "per_record": [
+    {
+      "query_id": "Q050",
+      "mode": "rag",
+      "jurisdiction": "新加坡",
+      "n_ctx": 4,
+      "n_ctx_gold": 2,
+      "hand_faith": 3,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0833
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0833
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q018",
+      "mode": "rag",
+      "jurisdiction": "日本",
+      "n_ctx": 5,
+      "n_ctx_gold": 2,
+      "hand_faith": 4,
+      "full": {
+        "n": 4,
+        "faith": 1.0,
+        "noise": 0.25
+      },
+      "budget": {
+        "n": 4,
+        "faith": 1.0,
+        "noise": 0.25
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q044",
+      "mode": "rag",
+      "jurisdiction": "泰国",
+      "n_ctx": 5,
+      "n_ctx_gold": 4,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0833
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0833
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q010",
+      "mode": "rag",
+      "jurisdiction": "美国",
+      "n_ctx": 5,
+      "n_ctx_gold": 1,
+      "hand_faith": 2,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.9167
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.9167
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q058",
+      "mode": "rag",
+      "jurisdiction": "越南",
+      "n_ctx": 5,
+      "n_ctx_gold": 1,
+      "hand_faith": 3,
+      "full": {
+        "n": 11,
+        "faith": 0.9091,
+        "noise": 0.8
+      },
+      "budget": {
+        "n": 11,
+        "faith": 0.9091,
+        "noise": 0.8
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q080",
+      "mode": "rag",
+      "jurisdiction": "跨法域",
+      "n_ctx": 5,
+      "n_ctx_gold": 1,
+      "hand_faith": 3,
+      "full": {
+        "n": 9,
+        "faith": 1.0,
+        "noise": 0.7778
+      },
+      "budget": {
+        "n": 9,
+        "faith": 1.0,
+        "noise": 0.7778
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q026",
+      "mode": "rag",
+      "jurisdiction": "香港",
+      "n_ctx": 6,
+      "n_ctx_gold": 4,
+      "hand_faith": 3,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0833
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.9167,
+        "noise": 0.0
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q063",
+      "mode": "rag",
+      "jurisdiction": "马来西亚",
+      "n_ctx": 5,
+      "n_ctx_gold": 3,
+      "hand_faith": 3,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.25
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.25
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q063",
+      "mode": "agent",
+      "jurisdiction": "马来西亚",
+      "n_ctx": 5,
+      "n_ctx_gold": 3,
+      "hand_faith": 3,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.25
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.25
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q051",
+      "mode": "rag",
+      "jurisdiction": "新加坡",
+      "n_ctx": 5,
+      "n_ctx_gold": 2,
+      "hand_faith": 2,
+      "full": {
+        "n": 10,
+        "faith": 1.0,
+        "noise": 0.8
+      },
+      "budget": {
+        "n": 10,
+        "faith": 1.0,
+        "noise": 0.8
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q051",
+      "mode": "agent",
+      "jurisdiction": "新加坡",
+      "n_ctx": 5,
+      "n_ctx_gold": 2,
+      "hand_faith": 3,
+      "full": {
+        "n": 8,
+        "faith": 1.0,
+        "noise": 0.75
+      },
+      "budget": {
+        "n": 8,
+        "faith": 1.0,
+        "noise": 0.75
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q013",
+      "mode": "rag",
+      "jurisdiction": "日本",
+      "n_ctx": 5,
+      "n_ctx_gold": 1,
+      "hand_faith": 3,
+      "full": {
+        "n": 7,
+        "faith": 1.0,
+        "noise": 0.7143
+      },
+      "budget": {
+        "n": 7,
+        "faith": 1.0,
+        "noise": 0.7143
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q013",
+      "mode": "agent",
+      "jurisdiction": "日本",
+      "n_ctx": 5,
+      "n_ctx_gold": 1,
+      "hand_faith": 3,
+      "full": {
+        "n": 8,
+        "faith": 1.0,
+        "noise": 0.5
+      },
+      "budget": {
+        "n": 8,
+        "faith": 1.0,
+        "noise": 0.5
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q046",
+      "mode": "rag",
+      "jurisdiction": "泰国",
+      "n_ctx": 5,
+      "n_ctx_gold": 4,
+      "hand_faith": 2,
+      "full": {
+        "n": 12,
+        "faith": 0.8333,
+        "noise": 0.1
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.8333,
+        "noise": 0.1
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q032",
+      "mode": "rag",
+      "jurisdiction": "澳门",
+      "n_ctx": 8,
+      "n_ctx_gold": 8,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.5833,
+        "noise": 0.0
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q004",
+      "mode": "rag",
+      "jurisdiction": "美国",
+      "n_ctx": 5,
+      "n_ctx_gold": 1,
+      "hand_faith": 3,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.5833
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.5833
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q004",
+      "mode": "agent",
+      "jurisdiction": "美国",
+      "n_ctx": 5,
+      "n_ctx_gold": 1,
+      "hand_faith": 3,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.6667
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.6667
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q056",
+      "mode": "rag",
+      "jurisdiction": "越南",
+      "n_ctx": 5,
+      "n_ctx_gold": 0,
+      "hand_faith": 4,
+      "full": {
+        "n": 9,
+        "faith": 0.8889,
+        "noise": 1.0
+      },
+      "budget": {
+        "n": 9,
+        "faith": 0.8889,
+        "noise": 1.0
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q078",
+      "mode": "rag",
+      "jurisdiction": "跨法域",
+      "n_ctx": 5,
+      "n_ctx_gold": 0,
+      "hand_faith": 2,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 1.0
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 1.0
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q070",
+      "mode": "rag",
+      "jurisdiction": "马来西亚",
+      "n_ctx": 5,
+      "n_ctx_gold": 4,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0833
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0833
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q053",
+      "mode": "rag",
+      "jurisdiction": "新加坡",
+      "n_ctx": 5,
+      "n_ctx_gold": 3,
+      "hand_faith": 3,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q053",
+      "mode": "agent",
+      "jurisdiction": "新加坡",
+      "n_ctx": 5,
+      "n_ctx_gold": 3,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q016",
+      "mode": "rag",
+      "jurisdiction": "日本",
+      "n_ctx": 5,
+      "n_ctx_gold": 0,
+      "hand_faith": 2,
+      "full": {
+        "n": 5,
+        "faith": 1.0,
+        "noise": 1.0
+      },
+      "budget": {
+        "n": 5,
+        "faith": 1.0,
+        "noise": 1.0
+      },
+      "has_ctx_gt_5": false
+    },
+    {
+      "query_id": "Q050",
+      "mode": "agent",
+      "jurisdiction": "新加坡",
+      "n_ctx": 9,
+      "n_ctx_gold": 3,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.3333
+      },
+      "budget": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.3333
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q044",
+      "mode": "agent",
+      "jurisdiction": "泰国",
+      "n_ctx": 12,
+      "n_ctx_gold": 7,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.1667
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.25,
+        "noise": 0.0
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q036",
+      "mode": "rag",
+      "jurisdiction": "澳门",
+      "n_ctx": 9,
+      "n_ctx_gold": 5,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.4167
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.5833,
+        "noise": 0.5714
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q036",
+      "mode": "agent",
+      "jurisdiction": "澳门",
+      "n_ctx": 12,
+      "n_ctx_gold": 3,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.25
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.1667,
+        "noise": 1.0
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q010",
+      "mode": "agent",
+      "jurisdiction": "美国",
+      "n_ctx": 12,
+      "n_ctx_gold": 0,
+      "hand_faith": 2,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 1.0
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.4167,
+        "noise": 1.0
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q058",
+      "mode": "agent",
+      "jurisdiction": "越南",
+      "n_ctx": 12,
+      "n_ctx_gold": 1,
+      "hand_faith": 4,
+      "full": {
+        "n": 10,
+        "faith": 1.0,
+        "noise": 0.9
+      },
+      "budget": {
+        "n": 10,
+        "faith": 0.4,
+        "noise": 0.75
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q080",
+      "mode": "agent",
+      "jurisdiction": "跨法域",
+      "n_ctx": 12,
+      "n_ctx_gold": 3,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.5
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.5833,
+        "noise": 0.4286
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q026",
+      "mode": "agent",
+      "jurisdiction": "香港",
+      "n_ctx": 12,
+      "n_ctx_gold": 3,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.4167
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.6667,
+        "noise": 0.5
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q046",
+      "mode": "agent",
+      "jurisdiction": "泰国",
+      "n_ctx": 12,
+      "n_ctx_gold": 9,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.1667
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.4167,
+        "noise": 0.0
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q032",
+      "mode": "agent",
+      "jurisdiction": "澳门",
+      "n_ctx": 12,
+      "n_ctx_gold": 12,
+      "hand_faith": 5,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.5833,
+        "noise": 0.0
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q056",
+      "mode": "agent",
+      "jurisdiction": "越南",
+      "n_ctx": 12,
+      "n_ctx_gold": 2,
+      "hand_faith": 3,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.5833
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.4167,
+        "noise": 0.8
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q078",
+      "mode": "agent",
+      "jurisdiction": "跨法域",
+      "n_ctx": 12,
+      "n_ctx_gold": 0,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 1.0
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.4167,
+        "noise": 1.0
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q028",
+      "mode": "rag",
+      "jurisdiction": "香港",
+      "n_ctx": 10,
+      "n_ctx_gold": 5,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0833
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.75,
+        "noise": 0.0
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q028",
+      "mode": "agent",
+      "jurisdiction": "香港",
+      "n_ctx": 10,
+      "n_ctx_gold": 5,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.1667
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.8333,
+        "noise": 0.1
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q070",
+      "mode": "agent",
+      "jurisdiction": "马来西亚",
+      "n_ctx": 12,
+      "n_ctx_gold": 11,
+      "hand_faith": 4,
+      "full": {
+        "n": 12,
+        "faith": 1.0,
+        "noise": 0.0833
+      },
+      "budget": {
+        "n": 12,
+        "faith": 0.75,
+        "noise": 0.0
+      },
+      "has_ctx_gt_5": true
+    },
+    {
+      "query_id": "Q016",
+      "mode": "agent",
+      "jurisdiction": "日本",
+      "n_ctx": 12,
+      "n_ctx_gold": 0,
+      "hand_faith": 2,
+      "full": {
+        "n": 10,
+        "faith": 1.0,
+        "noise": 1.0
+      },
+      "budget": {
+        "n": 10,
+        "faith": 0.5,
+        "noise": 1.0
+      },
+      "has_ctx_gt_5": true
+    }
+  ]
+}

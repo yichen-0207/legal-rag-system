@@ -1,0 +1,72 @@
+{
+  "overall": {
+    "bm25": {
+      "total_queries": 4,
+      "MRR": 0.1429,
+      "Top1_Accuracy": 0.5,
+      "R-Precision": 0.0375,
+      "Recall@1": 0.0,
+      "Recall@3": 0.0125,
+      "Recall@5": 0.0125,
+      "Recall@10": 0.0125,
+      "Recall@20": 0.0375,
+      "Precision@5": 0.05,
+      "NDCG@5": 0.0224,
+      "Precision@10": 0.025,
+      "NDCG@10": 0.0224,
+      "Precision@20": 0.0375,
+      "NDCG@20": 0.0414
+    },
+    "vector": {
+      "total_queries": 4,
+      "MRR": 0.369,
+      "Top1_Accuracy": 0.75,
+      "R-Precision": 0.0625,
+      "Recall@1": 0.0125,
+      "Recall@3": 0.0375,
+      "Recall@5": 0.0375,
+      "Recall@10": 0.0625,
+      "Recall@20": 0.0625,
+      "Precision@5": 0.15,
+      "NDCG@5": 0.071,
+      "Precision@10": 0.125,
+      "NDCG@10": 0.094,
+      "Precision@20": 0.0625,
+      "NDCG@20": 0.094
+    },
+    "hybrid": {
+      "total_queries": 4,
+      "MRR": 0.3064,
+      "Top1_Accuracy": 0.75,
+      "R-Precision": 0.075,
+      "Recall@1": 0.0125,
+      "Recall@3": 0.0125,
+      "Recall@5": 0.0125,
+      "Recall@10": 0.0375,
+      "Recall@20": 0.075,
+      "Precision@5": 0.05,
+      "NDCG@5": 0.0355,
+      "Precision@10": 0.075,
+      "NDCG@10": 0.0608,
+      "Precision@20": 0.075,
+      "NDCG@20": 0.0863
+    },
+    "hybrid+reranker": {
+      "total_queries": 4,
+      "MRR": 0.5357,
+      "Top1_Accuracy": 0.75,
+      "R-Precision": 0.075,
+      "Recall@1": 0.025,
+      "Recall@3": 0.025,
+      "Recall@5": 0.025,
+      "Recall@10": 0.0375,
+      "Recall@20": 0.075,
+      "Precision@5": 0.1,
+      "NDCG@5": 0.071,
+      "Precision@10": 0.075,
+      "NDCG@10": 0.0828,
+      "Precision@20": 0.075,
+      "NDCG@20": 0.1104
+    }
+  }
+}

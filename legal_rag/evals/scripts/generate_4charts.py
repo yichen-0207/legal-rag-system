@@ -7,6 +7,7 @@ import matplotlib.ticker as mticker
 import numpy as np
 
 from _bootstrap import RESULTS_DIR
+from eval_metrics import NDCG_DEFINITION
 
 plt.rcParams['font.sans-serif'] = ['SimHei', 'Microsoft YaHei']
 plt.rcParams['axes.unicode_minus'] = False
@@ -17,6 +18,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 VIZ_PATH = os.path.join(RESULTS_DIR, "eval_viz_data.json")
 QA_PATH = os.path.join(RESULTS_DIR, "eval_qa_summary.json")
+PER_QUERY_PATH = os.path.join(RESULTS_DIR, "eval_per_query.csv")
 
 with open(VIZ_PATH, "r", encoding="utf-8") as f:
     viz_data = json.load(f)
@@ -39,6 +41,66 @@ def report_vintage() -> None:
 STRATEGY_LABELS = ['仅BM25', '纯向量', '混合(RRF)', '混合+重排']
 STRATEGY_COLORS = ['#8ECFC9', '#FFBE7A', '#FA7F6F', '#82B0D2']
 STRATEGY_KEYS = ['bm25', 'vector', 'hybrid', 'hybrid+reranker']
+# viz overall 键 → eval_per_query.csv 的 strategy 列取值
+CSV_STRATEGY_ALIAS = {
+    'bm25': '仅BM25检索', 'vector': '纯向量检索',
+    'hybrid': '混合检索(RRF)', 'hybrid+reranker': '混合+Re-ranker',
+}
+
+
+def check_ndcg_definition(viz: dict) -> None:
+    """图表的 NDCG@10 必须来自 eval_metrics 口径；旧结果文件没有该字段，需明确告警。"""
+    declared = viz.get("ndcg_definition")
+    if declared is None:
+        print("  [告警] eval_viz_data.json 缺少 ndcg_definition：图中 NDCG@10 为 v1 旧口径"
+              "（三 k 共用 IDCG@20，gold<k 归零），不可与新口径结果比较。")
+        print("         请重跑 run_four_strategies.py 生成新结果后再引用此图。")
+    elif declared != NDCG_DEFINITION:
+        print(f"  [告警] NDCG 口径不一致：图表数据为 {declared}，当前实现为 {NDCG_DEFINITION}。")
+
+
+def check_viz_matches_csv(viz: dict) -> None:
+    """MRR / Recall@10 / Precision@5 可由逐查询 CSV 精确复算，对不上说明图表与 CSV 不是同一批结果。"""
+    if not os.path.exists(PER_QUERY_PATH):
+        print("  [告警] 未找到 eval_per_query.csv，无法校验图表与逐查询结果是否同源。")
+        return
+    import csv
+    rows = {}
+    with open(PER_QUERY_PATH, "r", newline="", encoding="utf-8-sig") as f:
+        for r in csv.DictReader(f):
+            rows.setdefault(r.get("strategy", ""), []).append(r)
+
+    overall = viz.get("overall", {})
+    checked = 0
+    for key, label in CSV_STRATEGY_ALIAS.items():
+        items = rows.get(label) or []
+        if not items or key not in overall:
+            continue
+        n = len(items)
+        recomputed = {
+            "MRR": sum(float(x["MRR"]) for x in items) / n,
+            "Recall@10": sum(float(x["R@10"]) for x in items) / n,
+            "Precision@5": sum(float(x["P@5"]) for x in items) / n,
+        }
+        for m, v in recomputed.items():
+            plotted = overall[key].get(m)
+            if plotted is None:
+                continue
+            checked += 1
+            if abs(plotted - v) > 1e-3:
+                print(f"  [告警] {key}.{m} 图表={plotted:.4f} CSV={v:.4f}："
+                      "图表数据与逐查询结果不同源，请重跑 run_four_strategies.py。")
+    if checked:
+        print(f"  同源校验: {checked} 项（MRR / Recall@10 / Precision@5 × 4 策略）通过")
+
+
+def _metric(overall: dict, sk: str, name: str):
+    """取指标值；缺失或 None（该指标无有效查询）时明确报错，避免格式化崩溃。"""
+    v = overall.get(sk, {}).get(name)
+    if v is None:
+        raise SystemExit(f"  [错误] {sk}.{name} 缺失或为 None（无有效查询），"
+                         "请先重跑 run_four_strategies.py 再出图。")
+    return v
 
 
 # ========== ① 四策略分组柱状图 ==========
@@ -50,7 +112,7 @@ def chart1_grouped_bar():
 
     fig, ax = plt.subplots(figsize=(10, 5.5))
     for i, sk in enumerate(STRATEGY_KEYS):
-        vals = [overall[sk][m] for m in metrics]
+        vals = [_metric(overall, sk, m) for m in metrics]
         offset = (i - 1.5) * width
         bars = ax.bar(x + offset, vals, width, label=STRATEGY_LABELS[i],
                       color=STRATEGY_COLORS[i], edgecolor='white', linewidth=0.5)
@@ -223,6 +285,8 @@ if __name__ == "__main__":
     print(f"  {'='*45}\n")
 
     report_vintage()
+    check_ndcg_definition(viz_data)
+    check_viz_matches_csv(viz_data)
 
     print("  [检索评估]")
     chart1_grouped_bar()

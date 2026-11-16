@@ -1,63 +1,18 @@
-"""第三阶段：单独运行 Re-ranker 策略（Phase 1 先生成混合检索候选，Phase 2 再加载模型重排，避免显存峰值）。"""
-import os, json, math, gc
-from collections import defaultdict
-from typing import List
+"""第三阶段：单独运行 Re-ranker 策略（Phase 1 先生成混合检索候选，Phase 2 再加载模型重排，避免显存峰值）。
 
-from _bootstrap import DATASETS_DIR, RESULTS_DIR
+与 run_four_strategies.py 共用同一套数据集解析、指标与落盘逻辑，避免两处口径分叉。
+"""
+import os, json, gc, argparse, time
 
-EVAL_DATASET_PATH = os.path.join(DATASETS_DIR, "eval_dataset_clause.json")
-TOP_K = 20
+from _bootstrap import DATASETS_DIR
+# NDCG 口径与计算统一在 eval_metrics 中实现（逐 k 截断；与 v1 历史 @5/@10 不可直接比较）
+from eval_metrics import NDCG_DEFINITION, NDCG_KS
+from core.jurisdiction import normalize_jurisdiction
+from run_four_strategies import (TOP_K, compute_clause_metrics, compute_law_metrics,
+                                 load_queries, save_outputs, summarize_clause,
+                                 summarize_law, _describe)
 
-
-class EvalQuery:
-    def __init__(self, id="", query="", jurisdiction=None, relevant=None):
-        self.id = id; self.query = query; self.jurisdiction = jurisdiction; self.relevant = relevant or []
-    def get_relevant_articles(self): return {(r["law_id"], r.get("article", "")) for r in self.relevant}
-    def get_gain(self, law_id, article):
-        for r in self.relevant:
-            if r["law_id"] == law_id and r.get("article", "") == article:
-                return (2 ** r.get("relevance", 1)) - 1
-        return 0
-
-
-def compute_metrics(retrieved_ids, gold_set, gold_articles, eval_query):
-    mrr = 0.0
-    for i, (lid, art) in enumerate(retrieved_ids):
-        if (lid, art) in gold_set: mrr = 1.0 / (i + 1); break
-    rel_count = len(gold_set)
-    recall, precision = {}, {}
-    for k in [1, 3, 5, 10, 20]:
-        topk = retrieved_ids[:k]
-        hits = sum(1 for lid, art in topk if (lid, art) in gold_set)
-        recall[k] = hits / max(rel_count, 1); precision[k] = hits / max(k, 1)
-    R = min(rel_count, 20)
-    r_hits = sum(1 for lid, art in retrieved_ids[:R] if (lid, art) in gold_set)
-    r_prec = r_hits / max(R, 1)
-    gains = sorted([eval_query.get_gain(lid, art) for lid, art in gold_articles], reverse=True)
-    ideal_dcg = sum(g / math.log2(i + 2) for i, g in enumerate(gains[:20]))
-    dcg = {}
-    for k in [5, 10, 20]:
-        dcg_k = sum(eval_query.get_gain(lid, art) / math.log2(i + 2) for i, (lid, art) in enumerate(retrieved_ids[:k]))
-        dcg[k] = dcg_k / max(ideal_dcg, 1e-10) if k <= len(gains) else 0.0
-    return {"mrr": round(mrr, 4), "top1_acc": 1.0 if mrr > 0 else 0.0,
-            "r_precision": round(r_prec, 4),
-            "recall": {k: round(v, 4) for k, v in recall.items()},
-            "precision": {k: round(v, 4) for k, v in precision.items()},
-            "ndcg": {k: round(v, 4) for k, v in dcg.items()},
-            "relevant_count": rel_count, "retrieved_count": len(retrieved_ids)}
-
-
-def compute_summary(results):
-    if not results: return {}
-    n = len(results)
-    out = {"total_queries": n}
-    for k in ["mrr", "top1_acc", "r_precision"]:
-        out[{"mrr": "MRR", "top1_acc": "Top1_Accuracy", "r_precision": "R-Precision"}[k]] = round(sum(r[k] for r in results) / n, 4)
-    for k in [1, 3, 5, 10, 20]: out[f"Recall@{k}"] = round(sum(r["recall"][k] for r in results) / n, 4)
-    for k in [5, 10, 20]:
-        out[f"Precision@{k}"] = round(sum(r["precision"][k] for r in results) / n, 4)
-        out[f"NDCG@{k}"] = round(sum(r["ndcg"][k] for r in results) / n, 4)
-    return out
+STRATEGY_NAME = "混合检索+重排序"
 
 
 def load_reranker_direct():
@@ -113,20 +68,35 @@ def batch_rerank(query, candidates, tokenizer, model, device, top_k=20):
 
 
 def main():
+    ap = argparse.ArgumentParser(description="独立精排评测（支持 v2 双层 gold）")
+    ap.add_argument("--limit", type=int, default=0, help="仅跑前 N 条（0=全量）")
+    ap.add_argument("--ids", default="", help="仅跑指定 query id（逗号分隔）")
+    ap.add_argument("--out-prefix", default="", help="输出文件后缀，避免覆盖正式结果")
+    ap.add_argument("--dataset", required=True, help="gold 数据集路径（相对路径按 evals/datasets 解析）")
+    args = ap.parse_args()
+    dataset_path = args.dataset if os.path.isabs(args.dataset) else os.path.join(DATASETS_DIR, args.dataset)
+
     import torch
 
     print("=" * 60)
     print("  P1b: Re-ranker 策略评估（手动加载）")
     print("=" * 60)
 
-    # 1. 加载数据集
-    with open(EVAL_DATASET_PATH, "r", encoding="utf-8") as f:
-        items = json.load(f)
-    queries = [EvalQuery(id=item["id"], query=item["query"],
-                         jurisdiction=item.get("jurisdiction"),
-                         relevant=item.get("relevant", [])) for item in items]
-    active = [q for q in queries if q.relevant]
-    print(f"\n  数据集: {len(queries)}（有 gold: {len(active)}）")
+    queries = load_queries(dataset_path)
+    if args.ids:
+        want = [x.strip() for x in args.ids.split(",") if x.strip()]
+        got = {q.id: q for q in queries}
+        missing = [x for x in want if x not in got]
+        if missing:
+            raise ValueError(f"--ids 中这些 id 不在数据集里: {missing}")
+        queries = [got[x] for x in want]
+    if args.limit:
+        queries = queries[:args.limit]
+    clause_valid = sum(1 for q in queries if q.relevant)
+    print(f"\n  数据集: {dataset_path}")
+    print(f"  查询变体: {len(queries)}（法规级 gold {sum(1 for q in queries if q.law_gold)}，"
+          f"条款级 gold {clause_valid}，空条款 gold {len(queries) - clause_valid}）")
+    print(f"  NDCG 口径: {NDCG_DEFINITION}（IDCG@k 逐 k 截断；NDCG_KS={list(NDCG_KS)}）")
 
     # Phase 1: 生成混合检索候选
     print("\n  Phase 1: 生成混合检索候选...")
@@ -136,9 +106,12 @@ def main():
     settings.reranker_enabled = False
     retriever = RetrieverService()
     candidates_map = {}
-    for q in active:
-        jur = None if q.jurisdiction == "跨法域" else q.jurisdiction
+    phase1_sec = 0.0
+    for q in queries:
+        jur = None if q.jurisdiction in (None, "", "跨法域") else normalize_jurisdiction(q.jurisdiction)
+        t0 = time.perf_counter()
         results = retriever.hybrid_search(query=q.query, top_k=TOP_K, jurisdiction=jur)
+        phase1_sec += time.perf_counter() - t0
         candidates_map[q.id] = [(r["law_id"], r.get("article_number", "")) for r in results]
 
     # 释放 Retriever
@@ -155,67 +128,64 @@ def main():
     from repositories.elasticsearch import ElasticsearchRepository
     repo = ElasticsearchRepository()
 
-    all_results = []
-    for idx, q in enumerate(active):
+    rows = []
+    rerank_sec = 0.0
+    for idx, q in enumerate(queries):
+        t0 = time.perf_counter()
         candidates = candidates_map[q.id]
-        if not candidates:
-            all_results.append(compute_metrics([], q.get_relevant_articles(),
-                                                list(q.get_relevant_articles()), q))
-            continue
+        retrieved_ids = []
+        if candidates:
+            # 补齐 text
+            enriched = []
+            for lid, art in candidates:
+                text = repo.get_article_full_text(lid, art)[:2000]
+                enriched.append({"law_id": lid, "article_number": art, "content": text or ""})
+            # 重排
+            reranked = batch_rerank(q.query, enriched, tokenizer, model, device, TOP_K)
+            retrieved_ids = [(r["law_id"], r["article_number"]) for r in reranked]
+        rerank_sec += time.perf_counter() - t0
 
-        # 补齐 text
-        enriched = []
-        for lid, art in candidates:
-            text = repo.get_article_full_text(lid, art)[:2000]
-            enriched.append({"law_id": lid, "article_number": art, "content": text or ""})
-
-        # 重排
-        reranked = batch_rerank(q.query, enriched, tokenizer, model, device, TOP_K)
-        retrieved_ids = [(r["law_id"], r["article_number"]) for r in reranked]
-
-        gold_set = q.get_relevant_articles()
-        gold_articles = list(gold_set)
-        metrics = compute_metrics(retrieved_ids, gold_set, gold_articles, q)
-        metrics.update({"query_id": q.id, "query_text": q.query[:100],
-                       "jurisdiction": q.jurisdiction or "跨法域",
-                       "variant": q.id.split("_")[-1] if "_" in q.id else "",
-                       "base_query": q.id.rsplit("_", 1)[0] if "_" in q.id else q.id})
-        all_results.append(metrics)
+        rows.append({
+            "query_id": q.id, "query_text": q.query[:100],
+            "jurisdiction": q.jurisdiction or "跨法域",
+            "subset": q.subset, "variant": _describe(q), "base_query": q.base_query,
+            "clause": compute_clause_metrics(retrieved_ids, q.get_relevant_articles(), q),
+            "law": compute_law_metrics([x[0] for x in retrieved_ids], q.law_gold),
+        })
 
         if (idx + 1) % 40 == 0:
-            print(f"    [{idx+1}/{len(active)}] MRR so far: {sum(r['mrr'] for r in all_results)/len(all_results):.4f}")
+            avg = sum((r["law"] or {}).get("mrr", 0) for r in rows) / len(rows)
+            print(f"    [{idx+1}/{len(rows)}] MRR(law) so far: {avg:.4f}")
+        if (idx + 1) % 100 == 0:
+            # 检查点落盘：进程中途被杀也只丢最近 100 条
+            save_outputs({STRATEGY_NAME: rows}, {STRATEGY_NAME: summarize_law(rows)},
+                         {STRATEGY_NAME: summarize_clause(rows)}, args.out_prefix)
+            print(f"    [{idx+1}/{len(rows)}] 检查点已落盘")
 
-    # 汇总
-    summary = compute_summary(all_results)
-    print(f"\n  === 混合+Re-ranker 结果 (n={summary['total_queries']}) ===")
-    print(f"  {'MRR':>8} {'Top1':>8} {'R-Prec':>8} {'R@5':>8} {'R@10':>8} {'R@20':>8} {'P@5':>8} {'NDCG@10':>10}")
-    print(f"  {'-'*76}")
-    print(f"  {summary['MRR']:>8.4f} {summary['Top1_Accuracy']:>8.4f} {summary['R-Precision']:>8.4f} "
-          f"{summary['Recall@5']:>8.4f} {summary['Recall@10']:>8.4f} {summary['Recall@20']:>8.4f} "
-          f"{summary['Precision@5']:>8.4f} {summary['NDCG@10']:>10.4f}")
+    law_summary = summarize_law(rows)
+    clause_summary = summarize_clause(rows)
 
-    # 追加到 viz JSON
-    viz_path = os.path.join(RESULTS_DIR, "eval_viz_data.json")
-    if os.path.exists(viz_path):
-        viz_data = json.load(open(viz_path, encoding="utf-8"))
-        viz_data["overall"]["hybrid+reranker"] = summary
-        json.dump(viz_data, open(viz_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-        print(f"\n  已保存: {viz_path}")
+    print(f"\n  === 混合+Re-ranker 结果 ===")
+    if law_summary:
+        print(f"  法规级 (n={law_summary['total_queries']}): MRR={law_summary['MRR']:.4f} "
+              f"Hit@20={law_summary['Hit@20']:.4f} Rank1={law_summary['Rank1_Accuracy']:.4f} "
+              f"R@5={law_summary['Recall@5']:.4f} "
+              f"R@20={law_summary['Recall@20']:.4f} NDCG@20={law_summary['NDCG@20']:.4f}")
+        print("    NDCG 有效条数: " + " ".join(
+            f"@{k}={law_summary[f'NDCG@{k}_valid_queries']}" for k in NDCG_KS))
+    if clause_summary:
+        print(f"  条款级 (n={clause_summary['total_queries']}): MRR={clause_summary['MRR']:.4f} "
+              f"Hit@20={clause_summary['Hit@20']:.4f} Rank1={clause_summary['Rank1_Accuracy']:.4f} "
+              f"P@5={clause_summary['Precision@5']:.4f} "
+              f"R@20={clause_summary['Recall@20']:.4f} NDCG@20={clause_summary['NDCG@20']:.4f}")
+        print("    NDCG 有效条数: " + " ".join(
+            f"@{k}={clause_summary[f'NDCG@{k}_valid_queries']}" for k in NDCG_KS))
 
-    # 追加到 CSV
-    csv_path = os.path.join(RESULTS_DIR, "eval_per_query.csv")
-    if os.path.exists(csv_path):
-        import csv
-        with open(csv_path, "a", newline="", encoding="utf-8") as f:
-            w = csv.writer(f)
-            for r in all_results:
-                w.writerow(["混合+Re-ranker", r["query_id"], r["query_text"],
-                           r["jurisdiction"], r["variant"], r["base_query"],
-                           r["relevant_count"], r["retrieved_count"],
-                           r["mrr"], r["recall"][5], r["recall"][10],
-                           r["recall"][20], r["precision"][5]])
-        print(f"  已保存: {csv_path}")
-
+    meta = {"rerank_dataset": os.path.basename(dataset_path),
+            "rerank_phase1_seconds": round(phase1_sec, 1),
+            "rerank_phase3_seconds": round(rerank_sec, 1)}
+    save_outputs({STRATEGY_NAME: rows}, {STRATEGY_NAME: law_summary},
+                 {STRATEGY_NAME: clause_summary}, args.out_prefix, meta)
     print("\n  完成！")
 
 

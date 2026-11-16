@@ -1,18 +1,182 @@
 {
   "total_queries": 80,
-  "has_ans_accuracy": 0.8,
-  "has_ans_count": 64,
-  "avg_faithfulness": 3.99,
-  "avg_relevance": 3.35,
+  "has_ans_accuracy": 0.8125,
+  "has_ans_count": 65,
+  "avg_faithfulness": 4.53,
+  "avg_relevance": 3.08,
   "faithfulness_distribution": {
-    "1-2分": 5,
-    "3分": 19,
-    "4-5分": 56
+    "1-2分": 1,
+    "3分": 5,
+    "4-5分": 74
   },
   "relevance_distribution": {
-    "1-2分": 16,
+    "1-2分": 19,
     "3分": 30,
-    "4-5分": 34
+    "4-5分": 31
   },
-  "error_count": 0
+  "error_count": 0,
+  "by_jurisdiction": {
+    "新加坡": {
+      "total_queries": 8,
+      "has_ans_accuracy": 1.0,
+      "has_ans_count": 8,
+      "avg_faithfulness": 3.88,
+      "avg_relevance": 3.25,
+      "faithfulness_distribution": {
+        "1-2分": 1,
+        "3分": 2,
+        "4-5分": 5
+      },
+      "relevance_distribution": {
+        "1-2分": 0,
+        "3分": 6,
+        "4-5分": 2
+      },
+      "error_count": 0
+    },
+    "日本": {
+      "total_queries": 10,
+      "has_ans_accuracy": 0.7,
+      "has_ans_count": 7,
+      "avg_faithfulness": 4.7,
+      "avg_relevance": 2.5,
+      "faithfulness_distribution": {
+        "1-2分": 0,
+        "3分": 0,
+        "4-5分": 10
+      },
+      "relevance_distribution": {
+        "1-2分": 4,
+        "3分": 4,
+        "4-5分": 2
+      },
+      "error_count": 0
+    },
+    "泰国": {
+      "total_queries": 8,
+      "has_ans_accuracy": 0.875,
+      "has_ans_count": 7,
+      "avg_faithfulness": 4.5,
+      "avg_relevance": 2.75,
+      "faithfulness_distribution": {
+        "1-2分": 0,
+        "3分": 0,
+        "4-5分": 8
+      },
+      "relevance_distribution": {
+        "1-2分": 2,
+        "3分": 4,
+        "4-5分": 2
+      },
+      "error_count": 0
+    },
+    "澳门": {
+      "total_queries": 8,
+      "has_ans_accuracy": 1.0,
+      "has_ans_count": 8,
+      "avg_faithfulness": 4.88,
+      "avg_relevance": 4.62,
+      "faithfulness_distribution": {
+        "1-2分": 0,
+        "3分": 0,
+        "4-5分": 8
+      },
+      "relevance_distribution": {
+        "1-2分": 0,
+        "3分": 0,
+        "4-5分": 8
+      },
+      "error_count": 0
+    },
+    "美国": {
+      "total_queries": 10,
+      "has_ans_accuracy": 0.5,
+      "has_ans_count": 5,
+      "avg_faithfulness": 4.7,
+      "avg_relevance": 2.4,
+      "faithfulness_distribution": {
+        "1-2分": 0,
+        "3分": 0,
+        "4-5分": 10
+      },
+      "relevance_distribution": {
+        "1-2分": 5,
+        "3分": 2,
+        "4-5分": 3
+      },
+      "error_count": 0
+    },
+    "越南": {
+      "total_queries": 8,
+      "has_ans_accuracy": 0.625,
+      "has_ans_count": 5,
+      "avg_faithfulness": 4.88,
+      "avg_relevance": 2.25,
+      "faithfulness_distribution": {
+        "1-2分": 0,
+        "3分": 0,
+        "4-5分": 8
+      },
+      "relevance_distribution": {
+        "1-2分": 4,
+        "3分": 3,
+        "4-5分": 1
+      },
+      "error_count": 0
+    },
+    "跨法域": {
+      "total_queries": 10,
+      "has_ans_accuracy": 0.7,
+      "has_ans_count": 7,
+      "avg_faithfulness": 4.3,
+      "avg_relevance": 2.7,
+      "faithfulness_distribution": {
+        "1-2分": 0,
+        "3分": 2,
+        "4-5分": 8
+      },
+      "relevance_distribution": {
+        "1-2分": 2,
+        "3分": 8,
+        "4-5分": 0
+      },
+      "error_count": 0
+    },
+    "香港": {
+      "total_queries": 10,
+      "has_ans_accuracy": 1.0,
+      "has_ans_count": 10,
+      "avg_faithfulness": 4.1,
+      "avg_relevance": 3.8,
+      "faithfulness_distribution": {
+        "1-2分": 0,
+        "3分": 1,
+        "4-5分": 9
+      },
+      "relevance_distribution": {
+        "1-2分": 1,
+        "3分": 1,
+        "4-5分": 8
+      },
+      "error_count": 0
+    },
+    "马来西亚": {
+      "total_queries": 8,
+      "has_ans_accuracy": 1.0,
+      "has_ans_count": 8,
+      "avg_faithfulness": 4.88,
+      "avg_relevance": 3.62,
+      "faithfulness_distribution": {
+        "1-2分": 0,
+        "3分": 0,
+        "4-5分": 8
+      },
+      "relevance_distribution": {
+        "1-2分": 1,
+        "3分": 2,
+        "4-5分": 5
+      },
+      "error_count": 0
+    }
+  }
 }

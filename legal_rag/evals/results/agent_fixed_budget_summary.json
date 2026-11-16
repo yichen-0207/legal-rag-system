@@ -1,0 +1,22 @@
+{
+  "n": 30,
+  "budget": 5,
+  "faith5": {
+    "rag": 3.2,
+    "agent": 3.4,
+    "delta": 0.2
+  },
+  "faith_full_original": {
+    "rag": 3.167,
+    "agent": 3.967,
+    "delta": 0.8
+  },
+  "flips_faith5": {
+    "up": 11,
+    "down": 6,
+    "tie": 13,
+    "sign_p": 0.3323
+  },
+  "prompt_chars": 454953,
+  "token_estimate": 303302
+}

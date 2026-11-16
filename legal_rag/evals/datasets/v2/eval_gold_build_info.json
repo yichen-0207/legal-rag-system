@@ -1,0 +1,9 @@
+{
+ "generated_at": "2026-11-14T15:50:15.712366+00:00",
+ "rules_version": "gold-v2.2",
+ "dataset_sha256": "436b618c74b443a4ef427a287452d22f70b57bd0257e93a83df2dd2bef04ee12",
+ "queries_sha256": "05c2ce834c6089225a5892d03c3d2c98fd13aa2d6d1591189b7ce69c76cb4035",
+ "manifest_sha256": "696b23065d390214383fbfb21d18d1b54d557347b689726107391ea0af6a8903",
+ "python": "3.10.0",
+ "note": "manifest 不含时间戳；本文件不参与复现校验，仅记录本次构建时间与三份产物的哈希。"
+}

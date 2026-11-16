@@ -1,0 +1,51 @@
+{
+  "artifact": "eval_agent_vs_rag.json",
+  "pairs": 20,
+  "records": 40,
+  "model": "deepseek-flash",
+  "definition": {
+    "faithfulness": "被至少一条证据源蕴含的断言 / 断言总数",
+    "noise_adapted": "仅被非 gold 证据源支撑的断言 / 被支撑断言数",
+    "noise_official_style": "不被 gold 参考条款蕴含但被非 gold 证据源支撑 / 不被 gold 蕴含的断言数",
+    "gold_ctx_rule": "法条正文 40 字滑窗覆盖率 ≥0.5 判为 gold 证据源",
+    "truncation": {
+      "max_ctx": 16,
+      "chars_per_ctx_max": 1600,
+      "total_ctx_chars": 14000,
+      "ref_chars": 2500,
+      "answer_chars": 4000
+    },
+    "deviation": "断言抽取与来源归属单次调用完成；非官方 ragas 输出，不可与公开榜单横向比较"
+  },
+  "by_mode": {
+    "rag": {
+      "n": 20,
+      "faithfulness": 0.9816,
+      "noise_adapted": 0.4513,
+      "noise_official_style": 0.8741,
+      "avg_claims": 10.55,
+      "avg_ctx": 5.6,
+      "avg_ctx_gold": 2.55
+    },
+    "agent": {
+      "n": 20,
+      "faithfulness": 1.0,
+      "noise_adapted": 0.4597,
+      "noise_official_style": 0.858,
+      "avg_claims": 10.8,
+      "avg_ctx": 10.0,
+      "avg_ctx_gold": 3.5
+    }
+  },
+  "paired_faithfulness": {
+    "delta": 0.0194,
+    "up": 3,
+    "down": 0,
+    "tie": 16,
+    "sign_p": 0.25
+  },
+  "hand_judge_corr": {
+    "faithfulness_vs_hand": 0.17
+  },
+  "prompt_chars_total": 504983
+}
