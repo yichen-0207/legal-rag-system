@@ -398,6 +398,72 @@ function extractTargetLawName(query) {
     return null;
 }
 
+// 法规名反查：不要求查询里出现法域名，直接用候选结果的标题反查查询串。
+// 查询串剥掉书名号与空白后作为法规名的子串去匹配标题（繁简归一、单向包含），
+// 恰好命中一部法规才认定；0 部或 ≥2 部都返回 null，交回 extractTargetLawName 的原有路径。
+// 长度门槛 4 字：避免「网络安全」这类泛词把多部法规误判成目标。
+var _MIN_LAW_QUERY_LEN = 4;
+
+// 查询串与标题必须走同一套归一：只归一一边，英文标题会因空格被剥而永远匹配不上。
+function _normLawQuery(str) {
+    return _zhT2S(String(str || '').replace(/[《》〈〉\u3000\s"'“”]/g, ''));
+}
+
+function resolveTargetLawId(items, query) {
+    var keyS = _normLawQuery(query);
+    if (keyS.length < _MIN_LAW_QUERY_LEN) return null;
+    var hits = {};
+    items.forEach(function(item) {
+        var metadata = item.metadata || {};
+        var lawId = metadata.law_id || item.law_id;
+        var title = metadata.title || item.title || '';
+        if (!lawId || !title) return;
+        if (_normLawQuery(title).indexOf(keyS) !== -1) hits[lawId] = true;
+    });
+    var ids = Object.keys(hits);
+    return ids.length === 1 ? ids[0] : null;
+}
+
+// 通用法规词元：法规名的通用后缀，不构成「词面交集」的证据。
+var _LAW_GENERIC_TERMS = {
+    '法律': 1, '法规': 1, '条例': 1, '规则': 1, '法令': 1, '制度': 1, '指引': 1,
+    '守则': 1, '办法': 1, '规定': 1, '决定': 1, '公约': 1, '章程': 1,
+    'act': 1, 'law': 1, 'laws': 1, 'code': 1, 'rule': 1, 'rules': 1,
+    'regulation': 1, 'regulations': 1, 'ordinance': 1, 'directive': 1,
+    'policy': 1, 'standard': 1, 'standards': 1, 'order': 1, 'program': 1, 'programme': 1
+};
+
+// 抽内容词元：英文取长度 ≥3 的单词，中文取连续汉字的双字片段，通用法规词不计入。
+function _lawTokens(str) {
+    var s = _zhT2S(String(str || ''));
+    var tokens = {};
+    (s.match(/[A-Za-z][A-Za-z'-]{2,}/g) || []).forEach(function(w) {
+        var lw = w.toLowerCase();
+        if (!_LAW_GENERIC_TERMS[lw]) tokens[lw] = true;
+    });
+    (s.match(/[\u4e00-\u9fff]{2,}/g) || []).forEach(function(run) {
+        for (var i = 0; i + 2 <= run.length; i++) {
+            var bg = run.substr(i, 2);
+            if (!_LAW_GENERIC_TERMS[bg]) tokens[bg] = true;
+        }
+    });
+    return tokens;
+}
+
+// 词面交集：法规标题与查询里抠出的法规名必须存在繁简归一后的包含关系，或共享至少一个内容词元。
+// 中英混排可能真的零交集（如中文查询 vs 纯英文法规库），此时返回 false，由调用方放弃提升，
+// 而不是仅凭加权分把一部毫不相关的法规顶成「目标法规」。
+function _hasLexicalOverlap(name, title) {
+    if (!name || !title) return false;
+    if (_zhIncludes(title, name)) return true;
+    var nameTokens = _lawTokens(name);
+    var titleTokens = _lawTokens(title);
+    for (var k in nameTokens) {
+        if (titleTokens[k]) return true;
+    }
+    return false;
+}
+
 function renderSearchResults(container, results, query) {
     // 只渲染前 50 条避免 DOM 过大；引用链扩展项（retrieval_hop=2）被追加在末尾且不参与排名，
     // 若截断将永远看不到，其数量有后端上界，故一并取回渲染。
@@ -408,15 +474,21 @@ function renderSearchResults(container, results, query) {
 
     // 从查询中提取目标法规名称（与后端 _extract_law_name 逻辑一致）
     var targetLawName = extractTargetLawName(query);
-    
+    // 前置：按「候选标题反查查询串」认定目标法规，不要求查询里出现法域名。
+    // 唯一命中时才生效；未命中或多部命中（泛词）落回下方 extractTargetLawName 的原路径。
+    var titleResolvedLawId = resolveTargetLawId(displayResults, query);
+
     var targetResults = [];
     var otherResults = [];
-    
+
     // 先尝试按标题精确匹配（支持繁简转换）
     var hasTitleMatch = false;
     displayResults.forEach(function(item) {
         var title = (item.metadata && item.metadata.title) || item.title || '';
-        var isTarget = targetLawName && _zhIncludes(title, targetLawName);
+        var lawId = (item.metadata && item.metadata.law_id) || item.law_id;
+        var isTarget = titleResolvedLawId
+            ? lawId === titleResolvedLawId
+            : (targetLawName && _zhIncludes(title, targetLawName));
         if (isTarget) {
             targetResults.push(item);
             hasTitleMatch = true;
@@ -449,7 +521,19 @@ function renderSearchResults(container, results, query) {
         if (ranked.length > 0) {
             var top = ranked[0];
             var isDominant = ranked.length === 1 || top.weightedScore >= ranked[1].weightedScore * 2;
-            if (isDominant && top.count >= 2) {
+            // 提升对象必须与查询抠出的法规名有词面交集：标题与查询毫无词面关系时，
+            // 加权分只说明「这部在该查询下检索得分偏高」，不足以认定它就是查询指向的法规。
+            var topTitles = [];
+            otherResults.forEach(function(item) {
+                var lawId = (item.metadata && item.metadata.law_id) || item.law_id;
+                if (lawId !== top.lawId) return;
+                var t = (item.metadata && item.metadata.title) || item.title || '';
+                if (t) topTitles.push(t);
+            });
+            var hasOverlap = topTitles.some(function(t) {
+                return _hasLexicalOverlap(targetLawName, t);
+            });
+            if (isDominant && top.count >= 2 && hasOverlap) {
                 var newTargets = [];
                 var remaining = [];
                 otherResults.forEach(function(item) {
